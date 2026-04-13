@@ -1,0 +1,92 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus yhdistyy muihin yritysvalmisaineistoihin niiltä osin kuin yritykset (osakeyhtiöt) ovat ko. tilaston kohdejoukossa mukana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste (omistajatunnus, henkilö)",
+      "conceptdef": "Suojattu henkilöomistajan tunnus (Tilastokeskuksen henkilönumero), ks. OMLAJI. Jos henkilönumeroa ei ole löytynyt ko. hetulle (tilapäinen, virheellinen tms.), tunnus on tyhjä, mutta OMLAJI saa arvon 1. Korvaa muuttujan omtun_shnro.\n\nTilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtun_yrtun_s",
+      "variablename": "Suojattu omistajatunnus, yritys",
+      "conceptdef": "Suojattu yritysomistajan tunnus (Y-tunnus), ks. OMLAJI. Jos omistaja on ulkomainen yritys, tunnus on tyhjä, mutta ULKYROM saa arvon 1 ja OMLAJI arvon 2. Tunnus voi olla myös tuntematon, jolloin OMLAJI saa arvon 2 (osa henkilöitä).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omlaji",
+      "variablename": "Omistajalaji, henkilo/yritys",
+      "conceptdef": "Tieto siitä, onko omistaja henkilötunnus- (1) vai yritystunnusmuotoinen (2)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkhenkom",
+      "variablename": "Ulkomainen henkilöomistaja",
+      "conceptdef": "Tieto siitä, onko omistaja ulkomainen yritys, jolla ei henkilötunnusta (laatu huono, ei kattava), vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkyrom",
+      "variablename": "Ulkomainen yritysomistaja",
+      "conceptdef": "Tieto siitä, onko omistaja ulkomainen yritys, jolla ei ly-tunnusta (ei kattava)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osakelkm",
+      "variablename": "Osakkeiden lukumäärä",
+      "conceptdef": "Osakkeenomistajan osakkeiden lukumäärä (ilmoitetut yhteensä voi joissakin tapauksissa olla suurempi kuin osakekanta)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osakek",
+      "variablename": "Osakekanta",
+      "conceptdef": "Yhtiön osakkeiden lukumäärä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtionomat",
+      "variablename": "Yhtiön hallussa olevat omat osakkeet",
+      "conceptdef": "Yhtiön hallussa olevat omat osakkeet",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistusmuutos",
+      "variablename": "Omistusmuutoksen vuosi",
+      "conceptdef": "Saatavissa vuodesta 2018 lähtien. \n\n\"Merkitse verovuosi, jolloin vaihto on tapahtunut, jos yli puolet osakkeista tai osuuksista on vaihtanut omistajaa verovuoden aikana tai vaiheittain usean vuoden aikana. Jos vaihtuminen on tapahtunut vaiheittain usean vuoden aikana, merkitse se verovuosi, jota ennen tai jonka aikana syntyneet tappiot eivät omistajanvaihdosten vuoksi ole vähennyskelpoisia.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

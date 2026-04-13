@@ -1,0 +1,1956 @@
+{
+  "variables": [
+    {
+      "identifier": "K0110",
+      "variablename": "Liikevaihto",
+      "conceptdef": "Yksikön liikevaihto vuonna 1991 (milj. mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0111",
+      "variablename": "Vienti",
+      "conceptdef": "Yksikön vientiliikevaihto vuonna 1991 (milj.mk)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0112",
+      "variablename": "Henkilökunta ",
+      "conceptdef": "Yksikön henkilökunta 31.12.1991",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0113",
+      "variablename": "Toimialakoodi",
+      "conceptdef": "Yksikön toimiala, TOL88",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0114",
+      "variablename": "Yksikkötyyppi",
+      "conceptdef": "Yksikkötyyppi, 1=osa konsernia, 2= itsenäinen yksikkö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0116",
+      "variablename": "Tärkein kilpailija",
+      "conceptdef": "Yksikön tärkein kilpailija vuosinna 1998-1990 oli 1=kotimainen, 2=ulkomainen, 3=ei kilpailijoita, 4=ei voi määritellä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0117",
+      "variablename": "Pääasiassa yksittäistuotantoa",
+      "conceptdef": "Yksiköllä on ollut vuosina 1989-1990 pääasiassa yksittäistuotantoa 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0118",
+      "variablename": "Muutokset yksikön rakenteessa",
+      "conceptdef": "Yksikön rakenteessa on tapahtunut oleellisia muutoksia vuoden 1988 jälkeen, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0201",
+      "variablename": "Omaa t&k:ta",
+      "conceptdef": "Yksiköllä oli omaa tutkimus&kehittämistoimintaa vuosina 1989-1991, 1=kyllä, 2=ei Tutkimuksella ja tuotekehityksellä tarkoitetaan systemaattista toimintaa tiedon lisäämiseksi sekä tiedon/käytännön kokemuksen käyttämistä uusien sovellusten löytämiseksi kuten uusien aineiden, tuotteiden, tuotantoprosessien, menetelmien ja järjestelmien aikaansaamiseksi tai olemassa olevien olennaiseksi parantamiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0202",
+      "variablename": "Ostettua t&k:ta",
+      "conceptdef": "Yksikkö osti tutkimus&kehittämispalveluja tai oikeuden käyttää muiden kehittämää teknologiaa (esim. patentit, lisenssit, muu taitotieto, tavaramerkit) vuosina 1989-1991.\nTutkimuksella ja tuotekehityksellä tarkoitetaan systemaattista toimintaa tiedon lisäämiseksi sekä tiedon/käytännön kokemuksen käyttämistä uusien sovellusten löytämiseksi kuten uusien aineiden, tuotteiden, tuotantoprosessien, menetelmien ja järjestelmien aikaansaamiseksi tai olemassa olevien olennaiseksi parantamiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0203",
+      "variablename": "Myytyä t&k:ta tai muuta teknologiaa",
+      "conceptdef": "Yksikkö myi tutkimus&kehittämispalveluja tai oikeuksia käyttää yrityksessä kehitettyä teknologiaa (esim. patentit, lisenssit, muu taitotieto, tavaramerkit) vuosina 1989-1991.\nTutkimuksella ja tuotekehityksellä tarkoitetaan systemaattista toimintaa tiedon lisäämiseksi sekä tiedon/käytännön kokemuksen käyttämistä uusien sovellusten löytämiseksi kuten uusien aineiden, tuotteiden, tuotantoprosessien, menetelmien ja järjestelmien aikaansaamiseksi tai olemassa olevien olennaiseksi parantamiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0204",
+      "variablename": "Tuoteinnovaatioita ",
+      "conceptdef": "Yksikkö toi markkinoille merkittäviä tuoteinnovaatioita (kokonaan uusia tai radikaalisti muutettuja tuotteita) vuosina 1989-1991, 1=kyllä, 2=ei\nMerkittävällä tuoteinnovaatiolla (major product innovation) tarkoitetaan tuotetta, joka käyttötarkoitukseltaan, ominaisuuksiltaan, tekniikaltaan tai materiaalien ja komponenttien käytöltään olennaisesti eroaa aikaisemmin tuotetusta. Tuoteinnovaatio voi sisältää täysin uutta tekniikkaa tai vanhojen tekniikkojen yhdistämistä uuteen käyttötarkoitukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0205",
+      "variablename": "Olennaisia tuoteparannuksia ",
+      "conceptdef": "Yksikkö toi markkinoille olennaisia tuoteparannuksia vuosina 1989-1991, 1=kyllä, 2=ei \nOlennaisella tuoteparannuksella (incremental product innovation) tarkoitetaan olemassa olevaa tuotetta, jonka ominaisuuksia on olennaisesti parannettu. Yksittäisen tuotteen omianisuuksia voidaan parantaa tai tuotantokustannuksia alentaa esim. käyttämällä ominaisuuksiltaan parempia komponentteja tai materiaaleja. Monia teknillisiä osajärjestelmiä sisältävää yhdistelmätuotetta voidaan parantaa esim. parantamalla yksi tai useampi osajärjestelmä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0206",
+      "variablename": "Prosessi-innovaatioita ",
+      "conceptdef": "Yksikkö otti käyttöön prosessi-innovaatioita (uusia tuotantomenetelmiä tai vanhojen olennaisia parannuksia) vuosina 1989-1991, 1=kyllä, 2=ei\nProsessi-innovaatiolla tarkoitetaan käyttöönotettuja uusia tai olennaisesti parannetttuja tuotantomenetelmiä. Näihin voi liittyä laitteisiin tai tuotannon organisointiin liittyviä muutoksia tai molempia. Tuotantomenetelmät voivat olla tarkoitettuja joko uusien tai olennaisesti parannettujen tuotteiden valmistamiseksi tai olemassa olevien tuotteiden tuotannon olennaista tehostamista varten.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0301",
+      "variablename": "Tavoitteet, vanhojen tuotteiden korvaaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Vanhentuneiden tuotteiden korvaaminen. Tavoitteen merkitys yksikön innovaatiotoiminassa vuosina 1998-1991,  0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0302",
+      "variablename": "Tavoitteet, valikoiman laajentaminen (oma tol)",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Tuotevalikoiman laajentaminen yksikön päätoimialalla. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991,  0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0303",
+      "variablename": "Tavoitteet, valikoiman laajentaminen (muu tol)",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Tuotevalikoiman laajentaminen yksikön päätoimialan ulkopuolella. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0304",
+      "variablename": "Tavoitteet, markkinaosuuden säilyttäminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Markkinaosuuden säilyttäminen. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0305",
+      "variablename": "Tavoitteet, markkinaosuuden kasvattaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Markkinaosuuden kasvattaminen. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0306",
+      "variablename": "Tavoitteet, uudet kohderyhmät kotimaassa",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Uusien kohderyhmien saavuttaminen kotimaassa. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0307",
+      "variablename": "Tavoitteet, uudet kohderyhmät ulkomailla",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, tuoteinnovaatiot: Uusien kohderyhmien saavuttaminen ulkomailla. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0308",
+      "variablename": "Tavoitteet, tuotannon joustavuuden lisääminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Tuotannon joustavuuden lisääminen. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0309",
+      "variablename": "Tavoitteet, tuotantokustannussäästöt palkoissa",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Tuotantokustannusten alentaminen alentamalla palkkakustannusten osuutta. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0310",
+      "variablename": "Tavoitteet, tuotantokustannussäästöt, materiaalit",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Tuotantokustannusten alentaminen vähentämällä materiaalien kulutusta. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0311",
+      "variablename": "Tavoitteet, tuotantokustannussäästöt, energia",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Tuotantokustannusten alentaminen vähentämällä energian kulutusta. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0312",
+      "variablename": "Tavoitteet, tuotantokustannussäästöt, hukka",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Tuotantokustannusten alentaminen vähentämällä hukkaan menevää tuotantoa. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0313",
+      "variablename": "Tavoitteet, työolojen parantaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Työolojen parantaminen. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0314",
+      "variablename": "Tavoitteet, ympäristöhaittojen vähentäminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Ympäristöhaittojen vähentäminen. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0315",
+      "variablename": "Tavoitteet, laatutason parantaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Laatutason kohottaminen. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0316",
+      "variablename": "Tavoitteet, tuoteinnovaatio markkinoille",
+      "conceptdef": "Innovaatiotoiminnan tavoitteet, prosessi-innovaatiot: Tuoteinnovaation tuominen markkinoille. Tavoitteen merkitys yksikön innovaatiotoiminnassa vuosina 1998-1991, 0=ei tietoa 1=ei merkitystä 2=vähäinen  3=kohtalainen 4=suuri 5=erittäin suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0401",
+      "variablename": "Menot, tutkimus- ja kehittäminen yhteensä",
+      "conceptdef": "Tutkimus- ka kehittämismenot yhteensä. Yksikön oma ja ostettu tutkimus ja tuotekehitys yhteensä, (milj mk). Menot ilmoitettu toiminnoittain. Mikäli menoja ei ole pystytty ilmoittamaan toiminnoittain, niistä on annettu arvio, joka on jaettu tutkimus- ja kehittämismenojen ja innovaatiomenojen kesken.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0402",
+      "variablename": "Menot, oma t&k",
+      "conceptdef": "Innovaatiomenot, yksikön oma tutkimus ja tuotekehitys, (milj mk). Sisäisen tutkimus- ja tuotekehitystoiminnan menot sisältävät kaikki yksikön oman henkilökunnan suorittaman t&k:n käyttömenot ja käyttöomaisuuden hankintamenot riippumatta siitä onko toiminta johtanut innovaatioihin vai ei. Menot eivät sisällä muiden yritysten tilaamaa tutkimus- ja kehitystyötä, joka ei liity yksikön omiin innovaatiohankkeisiin (nämä sisältyvät tilaajan menoihin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0403",
+      "variablename": "Menot, tilattu t&k",
+      "conceptdef": "Innovaatiomenot, yksikön ostama tutkimus ja tuotekehitys, (milj mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0404",
+      "variablename": "Muut innovaatiomenot yhteensä",
+      "conceptdef": "Yyksikön muut innovaatiomenot yhteensä pl. tutkimus&kehittäminen -menot, (milj mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0405",
+      "variablename": "Menot, ostettu teknologia",
+      "conceptdef": "Innovaatiomenot, yksikön oikeudet käyttää muiden kehittämää teknologiaa (patentit, lisenssit, tavaramerkit, muu taitotieto), (milj mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0406",
+      "variablename": "Menot, koneiden, laitteiden, rakennusten hankinta",
+      "conceptdef": "Innovaatiomenot, prosessi-innovaatioiden käyttöönottoon liittyvät koneiden, laitteiden ja rakennusten hankintamenot, (milj mk). Menot on ilmoitettu vuoden 1991 hankintamenona eikä poistona. Korvausinvestointeja, jotka eivät liity innovaation käyttöönottoon, ei lasketa mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0407",
+      "variablename": "Menot, koulutus",
+      "conceptdef": "Innovaatiomenot, uusien tuotteiden tai tuotantomenetelmien käyttöönottoon liittyvät koulutusmenot (pl. yleiset koulutusmenot), (milj mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0408",
+      "variablename": "Muut menot, käyttöönottomenot, koetuotanto, työvälineet yms.",
+      "conceptdef": "Innovaatiomenot, muut innovaatioiden käyttöönottomenot (esim. ohjelmistojen hankinta, koetuotanto, organisaatiokehitystuotannon käynnistämiseen liittyvät työvälineiden hankinnat jne.), (milj mk). \n\nMuihin innovaatioiden käyttöönottomenoihin on laskettu ne menot, jotka aiheutuvat valmiiksi kehitetyn innovaation (tuotteen tai prosessin) ottamisesta tuotantokäyttöön. Tähän kuuluvat esim. t&k -vaiheen jälkeinen tuotteen viimeistely, uusien tuotteiden ja prosessien edellyttämät ohjelmistojen hankinnat, tuotannon käynnistämiseen littyvä koulutus (pl. muu koulutus), koetuotanto, organisaatiokehitys sekä työvälineiden suunnittelu ja hankinta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0409",
+      "variablename": "Menot, markkinointi",
+      "conceptdef": "Innovaatiomenot, innovaatioiden markkinoille tuomisesta aiheutuneet menot, (milj mk). \n\nInnovaatioiden markkinoille tuomisesta aiheutuviin menoihin lasketaan mm. alustavat markkinatutkimukset, koemarkkinointi, tuotteen muokkaaminen eri markkinoille sekä markkinoille tuomiseen liittyvä  mainonta. Markkinoille tuotuun tuotteeseen liittyviä myyntikanavien rakentamiskustannuksia ei ole laskettu mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0410",
+      "variablename": "Innovaatiomenot yhteensä",
+      "conceptdef": "Innovaatiomenot yhteensä, ml. tutkimus- ja kehittämismenot (milj mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0500",
+      "variablename": "Tuotekehitysyhteistyö muiden yksiköiden kanssa",
+      "conceptdef": "Yksikkö harjoitti vuonna 1991 tutkimus- ja tuotekehitysyhteistyötä muiden yksiköiden kanssa 1=kyllä, 2=ei. \n\nTutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0511",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni Suomessa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin tai yrityksen yksiköiden kanssa Suomessa, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0512",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni Pohjoismaissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin tai yrityksen yksiköiden kanssa Pohjoismaissa, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0513",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni EU-maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin tai yrityksen yksiköiden kanssa EU-maissa, 1=kyllä, 2=ei. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0514",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni muissa Euroopan maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin tai yrityksen yksiköiden kanssa muissa Euroopan maissa, 1=kyllä, 2=ei. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0515",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni USA:ssa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin tai yrityksen yksiköiden kanssa Yhdysvalloissa, 1=kyllä, 2=ei. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0516",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni Japanissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin tai yrityksen yksiköiden kanssa Japanissa, 1=kyllä, 2=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0517",
+      "variablename": "Tuotekehitysyhteistyö, oma konserni muilla alueilla",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden oman konsernin yksiköiden kanssa muilla alueilla, 1=kyllä, 2=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0521",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat Suomessa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa Suomessa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0522",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat Pohjoismaissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa Pohjoismaissa , 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0523",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat EU-maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa EU-maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0524",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat muissa Euroopan maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa muissa Euroopan maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0525",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat USA:ssa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa Yhdysvalloissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0526",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat Japanissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa Japanissa, 1=kyllä, 2=ei.Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0527",
+      "variablename": "Tuotekehitysyhteistyö, asiakkaat muilla alueilla",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä asiakkaiden kanssa muilla alueilla, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0531",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset Suomessa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa Suomessa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0532",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset Pohjoismaissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa  Pohjoismaissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0533",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset EU-maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa EU-maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0534",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset muissa Euroopan maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa muissa Euroopan maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0535",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset USA:ssa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa Yhdysvalloissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0536",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset Japanissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa Japanissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0537",
+      "variablename": "Tuotekehitysyhteistyö, muut teollisuusyritykset muilla alueilla",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä muiden teollisuusyritysten kanssa muilla alueilla, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0541",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset Suomessa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä konsulttiyritysten kanssa Suomessa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0542",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset Pohjoismaissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä  konsulttiyritysten kanssa Pohjoismaissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0543",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset EU-maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä  konsulttiyritysten kanssa EU-maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0544",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset muissa Euroopan maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä  konsulttiyritysten kanssa muissa Euroopan maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0545",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset USA:ssa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä  konsulttiyritysten kanssa Yhdysvalloissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0546",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset Japanissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä konsulttiyritysten kanssa Japanissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0547",
+      "variablename": "Tuotekehitysyhteistyö, konsulttiyritykset muilla alueilla",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä  konsulttiyritysten kanssa muilla alueilla, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0551",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset Suomessa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa Suomessa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0552",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset Pohjoismaissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa Pohjoismaissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0553",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset EU-maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa EU-maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0554",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset muissa Euroopan maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa muissa Euroopan maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0555",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset USA:ssa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa Yhdysvalloissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0556",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset Japanissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa Japanissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0557",
+      "variablename": "Tuotekehitysyhteistyö, tutkimuslaitokset muilla alueilla",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä tutkimuslaitosten kanssa muilla alueilla, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0561",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut Suomessa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa Suomessa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0562",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut Pohjoismaissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa Pohjoismaissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0563",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut EU-maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa EU-maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin. Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0564",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut muissa Euroopan maissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa muissa Euroopan maissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0565",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut USA:ssa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa Yhdysvalloissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0566",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut Japanissa",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa Japanissa, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0567",
+      "variablename": "Tuotekehitysyhteistyö, korkeakoulut muilla alueilla",
+      "conceptdef": "Yksikkö teki tutkimus- ja tuotekehitysyhteistyötä korkeakoulujen kanssa muilla alueilla, 1=kyllä, 2=ei. Tutkimus- ja tuotekehitysyhteistyöllä tarkoitetaan osallistumista yhteisiin t&k -hankkeisiin muiden laitosten kanssa tai omien projektien kytkeytymistä toisten laitosten projekteihin. Yhteistyöhön lasketaan mukaan myös aktiivinen osallistuminen yksikön rahoittamiin muualla suoritettaviin t&k -hankkeisiin.Toiselta laitokselta tilatut t&k -hankkeet ilman omaa osallistumista eivät kuulu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0611",
+      "variablename": "Teknologian ostaminen, oma konserni",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 omasta konsernista 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0612",
+      "variablename": "Teknologian ostaminen, Suomi",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Suomesta 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0613",
+      "variablename": "Teknologian ostaminen, Pohjoismaat",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Pohjoismaista 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0614",
+      "variablename": "Teknologian ostaminen, EU-maat",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 EU-maista 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0615",
+      "variablename": "Teknologian ostaminen, muu Eurooppa",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 muista Euroopan maista 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0616",
+      "variablename": "Teknologian ostaminen, USA",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Yhdysvalloista 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0617",
+      "variablename": "Teknologian ostaminen, Japani",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Japanista 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0618",
+      "variablename": "Teknologian ostaminen, muut alueet",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 muilta alueilta 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0621",
+      "variablename": "Teknologian ostaminen, patentit omasta konsernista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 omasta konsernista: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0622",
+      "variablename": "Teknologian ostaminen, patentit Suomesta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Suomesta: patentit ja lisenssit 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0623",
+      "variablename": "Teknologian ostaminen, patentit Pohjoismaista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Pohjoismaista: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0624",
+      "variablename": "Teknologian ostaminen, patentit EU-maista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 EU-maista: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0625",
+      "variablename": "Teknologian ostaminen, patentit muista Euroopan  maista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 muista Euroopan maista: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0626",
+      "variablename": "Teknologian ostaminen, patentit USA:sta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Yhdysvalloista: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0627",
+      "variablename": "Teknologian ostaminen, patentit Japanista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 Japanista: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0628",
+      "variablename": "Teknologian ostaminen, patentit muilta alueilta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991 muilta alueilta: patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0631",
+      "variablename": "Teknologian ostaminen, tavaramerkit omasta konsernista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; omasta konsernista ostetut tavaramerkit 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0632",
+      "variablename": "Teknologian ostaminen, tavaramerkit Suomesta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Suomesta ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0633",
+      "variablename": "Teknologian ostaminen, tavaramerkit Pohjoismaista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Pohjoismaista ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0634",
+      "variablename": "Teknologian ostaminen, tavaramerkit EU-maista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; EU-maista ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0635",
+      "variablename": "Teknologian ostaminen, tavaramerkit muista Euroopan maista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; muista Euroopan maista ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0636",
+      "variablename": "Teknologian ostaminen, tavaramerkit USA:sta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Yhdysvalloista ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0637",
+      "variablename": "Teknologian ostaminen, tavaramerkit Japanista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Japanista ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0638",
+      "variablename": "Teknologian ostaminen, tavaramerkit muilta alueilta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; muilta alueilta ostetut tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0641",
+      "variablename": "Teknologian ostaminen, yritykset omasta konsernista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; omasta konsernista ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0642",
+      "variablename": "Teknologian ostaminen, yritykset Suomesta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Suomesta ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0643",
+      "variablename": "Teknologian ostaminen, yritykset Pohjoismaista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Pohjoismaista ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0644",
+      "variablename": "Teknologian ostaminen, yritykset EU-maista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; EU-maista ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0645",
+      "variablename": "Teknologian ostaminen, yritykset muista Euroopan maista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; muista Euroopan maista ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0646",
+      "variablename": "Teknologian ostaminen, yritykset USA:sta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Yhdysvalloista ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0647",
+      "variablename": "Teknologian ostaminen, yritykset Japanista",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; Japanista ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0648",
+      "variablename": "Teknologian ostaminen, yritykset muilta alueilta",
+      "conceptdef": "Yksikkö osti ulkopuolista teknologiaa vuonna 1991; muilta alueilta ostetut yritykset tai niiden osa teknologian saamiseksi, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0651",
+      "variablename": "Muun teknologian ostaminen omasta konsernista",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 omasta konsernista, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0652",
+      "variablename": "Muun teknologian ostaminen Suomesta",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 Suomesta, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0653",
+      "variablename": "Muun teknologian ostaminen Pohjoismaista",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 Pohjoismaista, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0654",
+      "variablename": "Muun teknologian ostaminen EU-maista",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 EU-maista, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0655",
+      "variablename": "Muun teknologian ostaminen muista Euroopan maista",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 muista Euroopan maista, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0656",
+      "variablename": "Muun teknologian ostaminen USA:sta",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 Yhdysvalloista, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0657",
+      "variablename": "Muun teknologian ostaminen Japanista",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 Japanista, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0658",
+      "variablename": "Muun teknologian ostaminen muilta alueilta",
+      "conceptdef": "Yksikkö osti muuta ulkopuolista teknologiaa vuonna 1991 muilta alueilta, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0650",
+      "variablename": "Muun teknologian ostaminen, tarkennus mikä",
+      "conceptdef": "Muun vuonna 1991 ulkopuolelta ostetun teknologian muodot, mitkä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0711",
+      "variablename": "Teknologian myynti, oma konserni",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 omalle konsernille 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0712",
+      "variablename": "Teknologian myynti, Suomi",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 Suomeen 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0713",
+      "variablename": "Teknologian myynti, Pohjoismaat",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 Pohjoismaihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0714",
+      "variablename": "Teknologian myynti, EU-maat",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 EU-maihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0715",
+      "variablename": "Teknologian myynti, muut Euroopan maat",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 muihin Euroopan maihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0716",
+      "variablename": "Teknologian myynti, USA",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 Yhdysvaltoihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0717",
+      "variablename": "Teknologian myynti, Japani",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 Japaniin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0718",
+      "variablename": "Teknologian myynti, muut alueet",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991 muille alueille 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0721",
+      "variablename": "Teknologian myynti, patentit omalle konsernille",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; omalle konsernille myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0722",
+      "variablename": "Teknologian myynti, patentit Suomeen",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Suomeen myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0723",
+      "variablename": "Teknologian myynti, patentit Pohjoismaihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Pohjoismaihin myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0724",
+      "variablename": "Teknologian myynti, patentit EU-maihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; EU-maihin myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0725",
+      "variablename": "Teknologian myynti, patentit muihin Euroopan maihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; muihin Euroopan maihin myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0726",
+      "variablename": "Teknologian myynti, patentit Yhdysvaltoihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Yhdysvaltoihin myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0727",
+      "variablename": "Teknologian myynti, patentit Japaniin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Japaniin myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0728",
+      "variablename": "Teknologian myynti, patentit muille alueille",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; muille alueille myydyt patentit ja lisenssit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0731",
+      "variablename": "Teknologian myynti, tavaramerkit omalle konsernille",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; omalle konsernille myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0732",
+      "variablename": "Teknologian myynti, tavaramerkit Suomeen",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Suomeen myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0733",
+      "variablename": "Teknologian myynti, tavaramerkit Pohjoismaihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Pohjoismaihin myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0734",
+      "variablename": "Teknologian myynti, tavaramerkit EU-maihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; EU-maihin myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0735",
+      "variablename": "Teknologian myynti, tavaramerkit muihin Euroopan maihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; muihin Euroopan maihin myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0736",
+      "variablename": "Teknologian myynti, tavaramerkit Yhdysvaltoihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Yhdysvaltoihin myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0737",
+      "variablename": "Teknologian myynti, tavaramerkit Japaniin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Japaniin myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0738",
+      "variablename": "Teknologian myynti, tavaramerkit muille alueille",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; muille alueille myydyt tavaramerkit, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0741",
+      "variablename": "Teknologian myynti, teknologiset osat omalle konsernille",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; omalle konsernille myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0742",
+      "variablename": "Teknologian myynti, teknologiset osat Suomeen",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Suomeen myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0743",
+      "variablename": "Teknologian myynti, teknologiset osat Pohjoismaihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Pohjoismaihin myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0744",
+      "variablename": "Teknologian myynti, teknologiset osat EU-maihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; EU-maihin myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0745",
+      "variablename": "Teknologian myynti, teknologiset osat muihin Euroopan maihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; muihin Euroopan maihin myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0746",
+      "variablename": "Teknologian myynti, teknologiset osat Yhdysvaltoihin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Yhdysvaltoihin myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0747",
+      "variablename": "Teknologian myynti, teknologiset osat Japaniin",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; Japaniin myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0748",
+      "variablename": "Teknologian myynti, teknologiset osat muille alueille",
+      "conceptdef": "Yksikkö myi teknologiaa vuonna 1991; muille alueille myydyt teknologiaintensiiviset osat, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0751",
+      "variablename": "Muun teknologian myynti omalle konsernille",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 omalle konsernille 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0752",
+      "variablename": "Muun teknologian myynti Suomeen",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 Suomeen, 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0753",
+      "variablename": "Muun teknologian myynti Pohjoismaihin",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 Pohjoismaihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0754",
+      "variablename": "Muun teknologian myynti EU-maihin",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 EU-maihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0755",
+      "variablename": "Muun teknologian myynti muihin Euroopan maihin",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 muihin Euroopan maihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0756",
+      "variablename": "Muun teknologian myynti Yhdysvaltoihin",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 Yhdysvaltoihin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0757",
+      "variablename": "Muun teknologian myynti Japaniin",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 Japaniin 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0758",
+      "variablename": "Muun teknologian myynti muille alueille",
+      "conceptdef": "Yksikkö myi muuta teknologiaa vuonna 1991 muille alueille 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0750",
+      "variablename": "Muun teknologian myynti,  tarkennus mikä",
+      "conceptdef": "Yksikkö myi muita teknologiamuotoja vuonna 1991, tarkennus mikä/mitkä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0811",
+      "variablename": "Esittelyvaiheen osuus lv:sta, koko yksikkö",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%) liikevaihdosta  koko yksikössä. Tiedot annettu koko yksikön tai kolmen tärkeimmän tuoteryhmän osalta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0812",
+      "variablename": "Esittelyvaiheen osuus lv:sta, tuoteryhmä A",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0813",
+      "variablename": "Esittelyvaiheen osuus lv:sta, tuoteryhmä B",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%)  liikevaihdosta, 2. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0814",
+      "variablename": "Esittelyvaiheen osuus lv:sta, tuoteryhmä C",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0821",
+      "variablename": "Kasvuvaiheen osuus lv:sta, koko yksikkö",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuvaiheen osuus (%) liikevaihdosta koko yksikössä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0822",
+      "variablename": "Kasvuvaiheen osuus lv:sta, tuoteryhmä A",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0823",
+      "variablename": "Kasvuvaiheen osuus lv:sta, tuoteryhmä B",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuvaiheen osuus (%) liikevaihdosta, 2. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0824",
+      "variablename": "Kasvuvaiheen osuus lv:sta, tuoteryhmä C",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuvaiheen vaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0831",
+      "variablename": "Kyllästysvaiheen osuus lv:sta, koko yksikkö",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta koko yksikössä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0832",
+      "variablename": "Kyllästysvaiheen osuus lv:sta, tuoteryhmä A",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0833",
+      "variablename": "Kyllästysvaiheen osuus lv:sta, tuoteryhmä B",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta, 2. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0834",
+      "variablename": "Kyllästysvaiheen osuus lv:sta, tuoteryhmä C",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0841",
+      "variablename": "Supistumisvaiheen osuus lv:sta, koko yksikkö",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%) liikevaihdosta koko yksikössä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0842",
+      "variablename": "Supistumisvaiheen osuus lv:sta, tuoteryhmä A",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0843",
+      "variablename": "Supistumisvaiheen osuus lv:sta, tuoteryhmä B",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%)  liikevaihdosta, 2. tuoteryhmä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0844",
+      "variablename": "Supistumisvaiheen osuus lv:sta, tuoteryhmä C",
+      "conceptdef": "Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0852",
+      "variablename": "Tuoteryhmä A, osuus liikevaihdosta",
+      "conceptdef": "Tuoteryhmä A:n osuus liikevaihdosta, prosenttia (%)",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0853",
+      "variablename": "Tuoteryhmä B, osuus liikevaihdosta",
+      "conceptdef": "Tuoteryhmä B:n osuus liikevaihdosta, prosenttia (%)",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0854",
+      "variablename": "Tuoteryhmä C, osuus liikevaihdosta",
+      "conceptdef": "Tuoteryhmä C:n osuus liikevaihdosta, prosenttia (%)",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0901",
+      "variablename": "Uudet tuotteet, osuus liikevaihdosta",
+      "conceptdef": "Vuosina 1989-1991 markkinoille tuotujen uusien tai radikaalisti muutettujen tuotteiden osuus (%) vuoden 1991 liikevaihdosta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0902",
+      "variablename": "Parannetut tuotteet, osuus liikevaihdosta",
+      "conceptdef": "Vuosina 1989-1991 markkinoille tuotujen olennaisten tuoteparannusten osuus (%) vuoden 1991 liikevaihdosta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K0903",
+      "variablename": "Vanhat tuotteet, osuus liikevaihdosta",
+      "conceptdef": "Vuosina 1989-1991 muuttumattomien tai vain vähäisesti muutettujen tuotteiden osuus (%) vuoden 1991 liikevaihdosta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1000",
+      "variablename": "Innovaation hyödyntäminen tuotantovälineenä, menetelmänä, materiaalina",
+      "conceptdef": "Innovaation hyödyntäminen, jokin yksikön innovaatioista liittyi tuotantovälineeseen, tuotantomenetelmään, materiaaliin tai välituotteeseen 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1001",
+      "variablename": "Innovaation hyödyntäminen, tol: elintarvike",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: elintavikkeiden, juomien ja tupakan valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1002",
+      "variablename": "Innovaation hyödyntäminen, tol: tekstiilit",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: tekstiilien valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1003",
+      "variablename": "Innovaation hyödyntäminen, tol: vaatteet",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: vaatteiden, nahkatuotteiden ja jalkineiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1004",
+      "variablename": "Innovaation hyödyntäminen, tol: puutavara",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Puutavaran ja puutuotteiden valmistus  (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1005",
+      "variablename": "Innovaation hyödyntäminen, tol: massa ja paperi",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Massan, paperin ja paperituotteiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1006",
+      "variablename": "Innovaation hyödyntäminen, tol: kustantaminen",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kustantaminen ja painaminen (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1007",
+      "variablename": "Innovaation hyödyntäminen, tol: huonekalut",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Huonekalujen valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1008",
+      "variablename": "Innovaation hyödyntäminen, tol: kemikaalit",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kemikaalien ja kemiallisten tuotteiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1009",
+      "variablename": "Innovaation hyödyntäminen, tol: öljy",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Öljy- ja kivihiilituotteiden sekä ydinpolttoaineen valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1010",
+      "variablename": "Innovaation hyödyntäminen, tol: kumi ja muovi",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kumi- ja muovituotteiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1011",
+      "variablename": "Innovaation hyödyntäminen, tol: lasi, savi, kivi",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Lasi-, savi- ja kivituotteiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1012",
+      "variablename": "Innovaation hyödyntäminen, tol: metallit",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Metallituotteiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1013",
+      "variablename": "Innovaation hyödyntäminen, tol: koneet ja laitteet",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Koneiden ja laitteiden valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1014",
+      "variablename": "Innovaation hyödyntäminen, tol: sähkötekniset tuotteet",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Sähköteknisten tuotteiden ja instrumenttien valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1015",
+      "variablename": "Innovaation hyödyntäminen, tol: kulkuneuvot",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kulkuneuvojen valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1016",
+      "variablename": "Innovaation hyödyntäminen, tol: muu valmistus",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Muu valmistus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1017",
+      "variablename": "Innovaation hyödyntäminen, tol: energia ja vesi",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Energia- ja vesihuolto (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1018",
+      "variablename": "Innovaation hyödyntäminen, tol: rakentaminen",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Rakentaminen (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1019",
+      "variablename": "Innovaation hyödyntäminen, tol: kauppa",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kauppa (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1020",
+      "variablename": "Innovaation hyödyntäminen, tol: majoitus",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Majoitus- ja ravitsemistoiminta (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1021",
+      "variablename": "Innovaation hyödyntäminen, tol: kuljetus",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kuljetus (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1022",
+      "variablename": "Innovaation hyödyntäminen, tol: tietoliikenne",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Tietoliikenne (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1023",
+      "variablename": "Innovaation hyödyntäminen, tol: rahoitus",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Rahoitus- ja vakuutustoiminta (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1024",
+      "variablename": "Innovaation hyödyntäminen, tol: kiinteistöpalvelu",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Kiinteistö-, puhtaus- ja vuokrauspalvelut (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1025",
+      "variablename": "Innovaation hyödyntäminen, tol: tekninen palvelu",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Tekninen palvelu ja palvelut liike-elämälle (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1026",
+      "variablename": "Innovaation hyödyntäminen, tol: muu",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Jokin muu toimiala (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1027",
+      "variablename": "Innovaation hyödyntäminen, tol: muu, tarkennus",
+      "conceptdef": "Toimiala, jolla yrityksen innovaatiota ensisijaisesti hyödynnettiin: Jokin muu toimiala, tarkennus mikä (TOL88)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1101",
+      "variablename": "Esteet: liian suuri riski",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Innovaatioiden riski koettu liian suureksi, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1102",
+      "variablename": "Esteet: taloudelliset resurssit liian pienet",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Omat taloudelliset resurssit liian pienet, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1103",
+      "variablename": "Esteet: julkisen rahoituksen puute",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Julkisen rahoituksen puute, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1104",
+      "variablename": "Esteet: takaisinmaksuaika liian pitkä",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Innovaatioiden takaisinmaksuaika liian pitkä, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1105",
+      "variablename": "Esteet: oma t&k vähäistä",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Liian vähäinen oma t&k, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1106",
+      "variablename": "Esteet: oman t&k:n laadun puute",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Oman t&k:n laadulliset puutteet, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1107",
+      "variablename": "Esteet: koulutetun työvoiman puute",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Koulutetun työvoiman puute, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1108",
+      "variablename": "Esteet: teknologiatiedon puute",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Teknologiaa koskevan tiedon puute, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1109",
+      "variablename": "Esteet: markkinatiedon puute",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Markkinoita koskevan tiedon puute, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1110",
+      "variablename": "Esteet: muutosvastarinta",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Muutosvastarinta yrityksessä, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1111",
+      "variablename": "Esteet: ulkopuolisten palvelujen heikko saatavuus",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Ulkopuolisten palvelujen saatavuudessa esiintyvät puutteet, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1112",
+      "variablename": "Esteet: yhteistyö muiden yritysten kanssa puutteellista",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Puutteelliset yhteistyömahdollisuudet muiden yritysten kanssa, 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1113",
+      "variablename": "Esteet: yhteistyö tutkimuslaitosten kanssa puutteellista",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Puutteelliset yhteistyömahdollisuudet tutkimuslaitosten kanssa, 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1114",
+      "variablename": "Esteet: yhteistyö korkeakoulujen kanssa puutteellista",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Puutteelliset yhteistyömahdollisuudet korkeakoulujen kanssa, 0=ei tietoa 1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1115",
+      "variablename": "Esteet: innovaatio ei sovi strategiaan",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Innovaatio ei sovi  yrityksen strategiaan, 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1116",
+      "variablename": "Esteet: innovaatio helppo kopioida",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Innovaatio helposti kopioitavissa 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1117",
+      "variablename": "Esteet: viranomaismääräykset yms.",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Viranomaismääräykset, lainsäädäntö, standardit, verotus, 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1118",
+      "variablename": "Esteet: muu syy 1",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Jokin muu (1) kuin edellä mainittu syy, 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1119",
+      "variablename": "Esteet: muu syy 2",
+      "conceptdef": "Innovaatiotoimintaa 1989-1991 estäneiden tai haitanneiden tekijöiden merkitys: Jokin muu (2) kuin edellä mainittu tekijä, 0=ei tietoa1=ei merkitystä 2=vähäinen merkitys 3=jonkin verran merkitystä 4=suuri merkitys 5=erittäin suuri merkitys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1120",
+      "variablename": "Esteet: 1. syyn tarkennus",
+      "conceptdef": "Innovaatiotoimintaa estäneet tai haitanneet tekijät 1989-1991: jokin muu (1) kuin edellä mainittu syy, tarkennus: mikä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K1121",
+      "variablename": "Esteet: 2. syyn tarkennus",
+      "conceptdef": "Innovaatiotoimintaa estäneet tai haitanneet tekijät 1989-1991: jokin muu (2) kuin edellä mainittu syy, tarkennus: mikä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HS",
+      "variablename": "Henkilökunnan suuruusluokka",
+      "conceptdef": "Henkilökunnan suuruusluokka \n01=10-19  \n02-20-49  \n03=50-99  \n04=100-199  \n05=200-499  \n06=500-999  \n07=1000+",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TL",
+      "variablename": "Apumuuttuja ",
+      "conceptdef": "Apumuuttuja, sisältö tuntematon, ei keskeinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERR",
+      "variablename": "Painokerroin, innovoineiden yksiköiden lk",
+      "conceptdef": "Innovoineiden yksiköiden laskennassa käytetty painokerroin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERR3",
+      "variablename": "Painokerroin, tavoitteet",
+      "conceptdef": "Painokerroin, jota käytetty innovaatiotoiminnan tavoitteiden laskennassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERR4",
+      "variablename": "Painokerroin, innovaatiomenot",
+      "conceptdef": "Painokerroin, jota käytetty innovaatiotoiminnan menojen laskennassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERR8",
+      "variablename": "Painokerroin, lv, tuotteiden elinkaari",
+      "conceptdef": "Painokerroin, jota käytetty tuotteiden elinkaaren vaiheiden liikevaihto-osuuksien laskennassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERR9",
+      "variablename": "Painokerroin, lv-osuus",
+      "conceptdef": "Painokerroin, jota käytetty uusien tuotteiden, tuoteparannusten ja vanhojen tuotteiden liikevaihto-osuuksien laskennassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin). Tyhjiä yritystunnuksia on aineistossa jonkin verran julkisilla liikelaitoksilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Uusi yritysyksikön tunnus, vuodesta 2013 alkaen. Akaen vuodesta 2018: Yritysyksikkö vastaa pienintä oikeudellisten yksiköiden ryhmää, joka muodostaa päätöksenteossaan itsenäisen tuotantoyksikön.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skonserniID",
+      "variablename": "Suojattu konserniID",
+      "conceptdef": "Päätelty kullekin yritykselle päivitettävän vuoden konsernisuhteista seuraavien tietojen\na.\tsuurin omistus\nb.\tpisin konsernisuhteen voimassaoloaika päivitettävällä vuodella\nc.\tkonsernisuhteen alkupäivämäärä\nd.\tkonserniID\nperusteella yksi vuosi-konserniID-Ytunnus yhdistelmä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VersioID",
+      "variablename": "Tilastoversio",
+      "conceptdef": "Tilastoversio",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajHtv",
+      "variablename": "Palkansaajat henkilötyövuosina",
+      "conceptdef": "Yrityksen palkansaajat henkilötyövuosina",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajKeskim",
+      "variablename": "Palkansaajat keskimäärin",
+      "conceptdef": "Yrityksen palveluksessa olevien koko- ja osa-aikaisten työntekijöiden lukumäärä, nuppiluku ( head count).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Liikevaihto / tuotot ammatista yhteensä",
+      "conceptdef": "Yrityksen liikevaihto / tuotot ammatista yhteensä",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palkkasumma",
+      "variablename": "Palkkasumma",
+      "conceptdef": "Yrityksen tilastovuoden tilikauden tilastoitavaksi tuleva palkka.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajHtvLahde",
+      "variablename": "Palkansaajatiedon (htv) lähde",
+      "conceptdef": "Yrityksen tilastovuoden palkansaajien lukumäärätiedon saantilähde.\nYhden numeron tarkkuudella (ensimmäinen numero):\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SektoriluokkaVuosi",
+      "variablename": "Sektoriluokka (vuositieto)",
+      "conceptdef": "Yrityksen sektoriluokka tilastovuonna. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tol2008Vuosi",
+      "variablename": "Toimiala (TOL 2008)",
+      "conceptdef": "Yrityksen toimiala tilastovuonna TOL 2008 toimialaluokituksella. Toimiala, joka yrityksellä on ollut pisimmän aikaa tilastovuonna.",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OmtyyppiVuosi",
+      "variablename": "Omistajatyyppi (vuositieto)",
+      "conceptdef": "Omistajatyyppejä ovat:\n1 = Yksityinen kotimainen\n  2 = Valtio  \n3 = Kunta  \n4 = Ahvenanmaan maakunta  \n5 = Ulkomaalaisomisteinen  \n6 = Muu omistajatyyppi\n\nKonsernirekisterin perimmäisen omistajan maan perusteella määräytyy onko kyseessä kotimainen konserni vai ulkomaalainen. Tämän tiedon perusteella konsernirekisterin tiedoista saadaan konsernin kotimaisille yhtiöille päivitettyä omistajatyyppi. Osakkuus / yhteisyritykset yhteenlasketun äänivallan mukaan suurimman omistajan tyypin mukaan. Kunnan tai valtion konserniin kuuluvat määritetään konsernin tyypin perusteella.\n\nUlkomaalaisomisteisille konsernien suomalaisille tytäryhtiöille päivitetään omistajatyypiksi 5 eli Ulkomaalaisomisteinen ja konsernisuhteen äänivallasta päivitetään yritykselle ulkomaan määräysvalta. Ulkomaalaisomisteisia ovat yritykset, joissa ulkomaalaisen omistuksen osuus on yli 50 prosenttia sekä ulkomaalaisten konsernien tytäryhtiöt.\n \nNiille yksiköille, jotka eivät löydy konsernirekisteristä, omistajatyyppi päivitetään verohallinnon oikeudellisen muodon perusteella (verohoikmuoto).\n\nVuoden aikana pisimpään voimassa ollut arvo määrää omistajatyypin. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VuosiToimipaikLaji",
+      "variablename": "Toimipaikkaisuus, yksi- tai monitoimipaikkainen",
+      "conceptdef": "Yrityksen tilikauden toimipaikkaisuus. Kertoo kuinka monta oikeudellista toimipaikkaa yrityksellä on ollut tilastovuoden tilikautena. Mahdolliset arvot ovat: 0 = Ei toimivia, 1 = Yksi toimiva, 2 = Useita toimivia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TilikausiLopPvm",
+      "variablename": "Tilikauden loppu",
+      "conceptdef": "Yrityksen tilikauden loppumispäivämäärä tilastovuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrittajat",
+      "variablename": "Yrittäjät henkilötyövuosina",
+      "conceptdef": "Yrityksen yrittäjät henkilötyövuosina",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuototMaatalous",
+      "variablename": "Tuotot maataloudesta",
+      "conceptdef": "Yrityksen tuotot maataloudesta tilastovuonna.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuototMetsatalous",
+      "variablename": "Tuotot metsätaloudesta",
+      "conceptdef": "Yrityksen tuotot metsätaloudesta tilastovuonna",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Sijoittajamaa",
+      "variablename": "Sijoittajamaa",
+      "conceptdef": "Yritystä eniten omistavan yhtiön sijaintimaa tilastovuonna. Konsernien tytärsuhteisilla yrityksillä tämä on sama kuin konsernin emoyhtiöllä. Muuttujan arvo on kolminumeroinen koodi, joka saadaan luokitusstandardiin ISO 3166 perustuvasta kaksikirjaimisesta koodista luokituskannassa olevan muunnosavaimen avulla. Vrt. alkumaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Alkuperamaa",
+      "variablename": "Alkuperämaa",
+      "conceptdef": "Yrityksen merkittävimmän ulkomaisen omistajakonsernin/omistajan alkuperäinen (perimmäisen emon) sijaintimaa. Vrt. sijoittajamaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKSLuokitusEU",
+      "variablename": "EU:n pieni-, keskisuuri-, suuri-luokitus",
+      "conceptdef": "Yrityksen suuruusluokka tilastovuonna. Suurusluokkaan vaikuttavat yrityksen henkilöstön määrä, vuosiliikevaihdon määrä, taseen loppusumma ja riippumattomuus. Luokittelu perustuu EU:n suositukseen. (Vuoteen 2002 asti 1996/280/EY, vuodesta 2003  2003/361/EY) Mahdolliset arvot ovat: Mikro, Pieni, Keskisuuri, Suuri, Ei määritelty",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ToimAikaTilikausi",
+      "variablename": "Toiminta-aika tilikaudella",
+      "conceptdef": "Yrityksen toiminta-aika tilikaudella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TilikPituus",
+      "variablename": "Tilikauden pituus",
+      "conceptdef": "Yrityksen tilikauden pituus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkomaanTavaraKaupHarj",
+      "variablename": "Ulkomaan tavarakaupan harjoittaminen",
+      "conceptdef": "Yritystä koskeva tilastovuoden TUOJA/VIEJÄ -tieto. \nMahdolliset arvot ovat:\n\t1 = Tuoja (harjoittaa tuontia)\n\t2 = Viejä (harjoittaa vientiä)\n\t3 = Molempia (harjoittaa tuontia ja vientiä)\n\nMääritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin kynnysarvo on 12 000 euroa ja kauppatapahtumia on vähintään kahtena kuukautena vuodessa tai kaupan arvo yli 120 000 euroa (tällöin riittää yksi kauppatapahtuma ko. vuonna).Tiedot saadaan Tullista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkmaara",
+      "variablename": "henkmaara",
+      "conceptdef": "Henkilöstö käsittää palkansaajat ja yrittäjät (palksaajhtv+yrittajat). Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YrittajatKeskim",
+      "variablename": "Yrittäjät keskimäärin",
+      "conceptdef": "Yrityksen yrittäjien nuppiluku. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VuositilastonYksikko",
+      "variablename": "Vuositilaston yksikkö",
+      "conceptdef": "Saa arvon 1, jos yritys kuuluu vuositilastoon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ToimAlPvm",
+      "variablename": "Toiminnan aloittamisaika",
+      "conceptdef": "Yrityksen taloudellisen toiminnan aloittamisaika (VVVVKKPP). Käytännössä sen tilikauden alkupäivä, jolloin toiminnallisuus havaitaan (perustana elinkeinoverotus-, maksuvalvonta-, ennakonpidätys- ja tuloverotusaineistot).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ToimLopPvm",
+      "variablename": "Toiminnan lopettamisaika",
+      "conceptdef": "Yrityksen taloudellisen toiminnan lopettamisaika (VVVVKKPP).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OHI",
+      "variablename": "Ohitustunnus",
+      "conceptdef": "Ohitustunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotikuntaVuosi",
+      "variablename": "Kotikunta",
+      "conceptdef": "Yrityksen kotikunta tilastovuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AlPvm",
+      "variablename": "Aloitusaika",
+      "conceptdef": "Yrityksen  y-tunnuksen alkamispäivä (VVVVKKPP). Pääsääntöisesti verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella henkilöllä y-tunnuksen alkamispäivä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LopPvm",
+      "variablename": "Lopetusaika",
+      "conceptdef": "Yrityksen y-tunnuksen lopettamisaika (VVVVKKPP)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Yrityksen henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n1\t\t\tHK\t<\t4,5\n       2\t  4,5\t<=\tHK\t<\t9,5      \n3\t  9,5\t<=\tHK\t<\t19,5    \n4\t 19,5\t<=\tHK\t<\t49,5\n    5\t 49,5\t<=\tHK\t<\t99,5     \n6\t 99,5\t<=\tHK\t<\t199,5\n    7\t199,5\t<=\tHK\t<\t499,5     \n8\t 499,4\t<=\tHK\t<\t999,5     \n9\t999,5\t<=\tHK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY2",
+      "variablename": "Henkilöstön suuruusluokka EU-luokituksen mukaan",
+      "conceptdef": "EU-luokituksen mukainen yrityksen henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n\t01\t\t    \t\tHK\t<    \t    0,5\n\t02\t\t    0,5\t<=\tHK\t<\t    1,5\n\t03\t\t    1,5\t<=\tHK\t<\t    2,5\n\t04\t\t    2,5\t<=\tHK\t<\t    4,5\n\t05\t\t    4,5\t<=\tHK\t<\t    9,5\n\t06\t                        9,5          <=\tHK              <\t  19,5\n\t07\t\t  19,5\t<=\tHK\t<\t  49,5\n\t08\t\t  49,5\t<=\tHK\t<\t  99,5\n\t09\t\t  99,5\t<=\tHK\t<\t149,5\n\t10\t\t149,5\t<=\tHK\t<\t199,5\n\t11\t\t199,5\t<=\tHK\t<\t249,5\n\t12\t\t249,5\t<=\tHK\t<\t499,5\n\t13\t\t499,5\t<=\tHK\t<\t999,5\n\t14\t\t999,5\t<=\tHK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLLVY",
+      "variablename": "Liikevaihdon suuruusluokka",
+      "conceptdef": "Yrityksen liikevaihdon suuruusluokka. \nLuokat ovat:\n\t1\t\t\t\tLV\t<\t           1 000\n\t2\t           1 000\t<=\tLV\t<\t         40 000\n\t3\t         40 000\t<=\tLV\t<\t       100 000\n\t4\t       100 000\t<=\tLV\t<\t       400 000\n\t5\t       400 000\t<=\tLV\t<\t    2 000 000\n\t6\t    2 000 000\t<=\tLV\t<\t  10 000 000\n\t7\t  10 000 000\t<=\tLV\t<\t  40 000 000\n\t8\t  40 000 000\t<=\tLV\t<\t200 000 000\n\t9\t200 000 000\t<=\tLV",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "Ikä",
+      "conceptdef": "Yrityksen ikä (pääasiassa hallinnollinen käsite)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TPLKM",
+      "variablename": "Toimipaikkojen lukumäärä",
+      "conceptdef": "Yrityksen toimipaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VerohOikMuoto",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": "Verohallinnon oikeudellinen muoto, 2013 alkaen.\n\n01\tLuonnollinen henkilö\n10\tAvoin yhtiö\n11\tKommandiittiyhtiö\n12\tOsakeyhtiö\n13\tAsunto-osakeyhtiö\n14\tLaivanisännistöyhtiö\n16\tKeskinäinen kiinteistö-oy\n17\tMuu kiinteistö-oy\n18\tKonserni\n19\tMuu yhtiö\n20\tAatteellinen yhdistys\n21\tErityislainsäädäntöön perustuva yhdistys\n22\tKeskinäinen vahinkovakuutusyhdistys\n23\tMetsänhoitoyhdistys\n24\tOsuuspankki\n25\tOsuuskunta\n26\tVakuutuskassa\n27\tTyöttömyyskassa\n28\tMuu taloudellinen yhdistys\n29\tMuu yhdistys\n30\tSäätiö (säätiölain mukainen)\n31\tSäästöpankki\n32\tEläkesäätiö (säädekirjalla perustettu)\n33\tTyöeläkekassa\n35\tHypoteekkiyhdistys\n39\tMuu säätiö\n40\tValtio ja sen laitokset\n60\tValtion liikelaitos\n41\tKunta\n61\tKunnallinen liikelaitos\n42\tKuntayhtymä\n62\tKuntainliiton (kuntayhtymän) liikelaitos\n43\tAhvenanmaan maakunta ja sen virastot\n63\tAhvenanmaan liikelaitos\n44\tEvankelis-luterilainen kirkko\n45\tOrtodoksinen kirkko\n46\tRekisteröity uskonnollinen yhdyskunta\n47\tYlioppilaskunta tai osakunta\n48\tErillishallinnollinen valtion laitos\n49\tMuu julkisoikeudellinen oikeushenkilö\n50\tYhteisetuudet (esim. kalastuskunta)\n51\tVerotusyhtymät\n52\tYhteisvastuullinen pidätysvelvollinen\n53\tKuolinpesä\n54\tKonkurssipesä\n55\tYhteismetsä\n57\tElinkeinoyhtymä\n59\tMuu verotuksen yksikkö\n70\tUlkomainen yhteisö\n71\tUlkomaisen yhteisön sivuliike Suomessa\n91\tMuut\n92\tMuut\n93\tMuut\n94\tMuut\n95\tMuut\n96\tMuut\n99\tMuut\nZZ\tTieto puuttuu\n",
+      "measunit": null,
+      "classification": "verohoikmuot_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "knslajiYTY",
+      "variablename": "Yrityskonserniin kuuluvan yrityksen konsernilaji",
+      "conceptdef": "Konsernilaji saa arvot:\n0     Ei tiedossa\n1     Täysin kotimainen konserni (All resident group)\n2     Kotimaisessa kontrollissa oleva monikansallinen konserni (Domestically controlled group) \n3     Ulkomaalaisessa kontrollissa oleva monikansallinen konserni (Foreign controlled group) \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistus",
+      "variablename": "Konsernin omistusosuus",
+      "conceptdef": "Konsernin omistusosuus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

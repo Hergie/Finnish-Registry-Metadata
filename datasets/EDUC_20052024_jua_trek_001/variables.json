@@ -1,0 +1,188 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi tutkintorekisterissä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Henkilötunnuksen korvaava suojattu Tilastokeskuksen henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarno",
+      "variablename": "Tutkinnon järjestysnumero tietokannassa",
+      "conceptdef": "Koska henkilöllä voi olla useampia tutkintoja samana vuonna, ne erotetaan järjestysnumerolla, joka on osa taulun avainta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oprior",
+      "variablename": "Prioriteetti",
+      "conceptdef": "Henkilön tutkintotietueiden prioriteettijärjestys, koodit:\n0 = maassa asuvan muut tutkinnot\n1 = maassa asuvan korkein ammatillinen tutkinto\n2 = maasta muuttaneen muut tutkinnot\n3 = maasta muuttaneen korkein ammatillinen tutkinto\nHT-virheelliset sisältyvät tähän luokkaan v. 2006 alkaen\n4 = kuolleen muut tutkinnot (v. 1987 alkaen) \n5 = kuolleen korkein ammatillinen tutkinto (v.1987 alkaen)\n9 = prioriteettia ei voida määritellä\nMaasta muuttaneet ja kuolleet saadaan vuosittain Väestörekisterikeskuksen väestötilastojen laadintaa varten toimittamista väestönmuutostiedoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_s",
+      "variablename": "Suojattu oppilaitostunnus",
+      "conceptdef": "Oppilaitostunnus tilastovuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk",
+      "variablename": "Koulutuskoodi",
+      "conceptdef": "TK:n koulutusluokituksen 6-numeroinen koulutuskoodi.\nTieto kullakin vuodella ko. vuoden koulutusluokituksen mukainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisak",
+      "variablename": "Opettajankelpoisuus tutkinnossa",
+      "conceptdef": "Tutkintoon liittyvä opettajankelpoisuus v. 1998 alkaen\n1 = opettajankelpoisuus\n0 = ei opettajankelpoisuutta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saika",
+      "variablename": "Tutkinnon suoritusaika",
+      "conceptdef": "Tutkinnon suoritusvuosi ja -kuukausi v. 1971 alkaen\nmuodossa VVVVKK ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkelp",
+      "variablename": "Opettajankelpoisuus",
+      "conceptdef": "Henkilöön liittyvä opettajankelpoisuus v. 1998 alkaen\nErilliset opettajan pedagogiset opinnot = auskultointi \n1 = erilliset opettajan pedagogiset opinnot (vain yliopisto)\n2 = aineenopettaja (vain AMK)\n3 = erityisopettaja (vain AMK)\n4 = opinto-ohjaaja (vain AMK)\n5 = Henkilöön liittyvä muu opettajankelpoisuus\n0 = Ei opettajankelpoisuutta ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkieli",
+      "variablename": "Opetuskieli",
+      "conceptdef": "Koulutuksen opetuskieli \n2-kirjaiminen tunnus\n(ISO 639-standardi)\nBB = tieto puuttuu\nTieto on vain yo-tutkinnoilla, ammatillisissa oppilaitoksissa suoritetuilla tutkinnoilla sekä ammattikorkeakoulututkinnoilla. Tieto on v. 1971 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opty",
+      "variablename": "Oppilaitostyyppi",
+      "conceptdef": "Oppilaitostyyppi vuonna 2014\n11 = Peruskoulut\n12 = Peruskouluasteen erityiskoulut\n15 = Lukiot\n19 = Perus- ja lukioasteen koulut\n21 = Ammatilliset oppilaitokset\n22 = Ammatilliset erityisoppilaitokset\n23 = Ammatilliset erikoisoppilaitokset\n24 = Ammatilliset aikuiskoulutuskeskukset\n28 = Palo-, poliisi- ja vartiointialojen oppilaitokset\n29 = Sotilasalan ammatilliset oppilaitokset\n41 = Ammattikorkeakoulut\n42 = Yliopistot\n43 = Sotilaskorkeakoulut\n61 = Musiikkioppilaitokset\n62 = Liikunnan koulutuskeskukset\n63 = Kansanopistot\n64 = Kansalaisopistot\n65 = Opintokeskukset\n66 = Kesäyliopistot\n99 = Muut oppilaitokset\nXX = muu kuin koululaitoksen oppilaitos (osa oppisopimus-\nkoulutuksesta ja näyttötutkinnoista)\nBB = tuntematon\n(osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista,\nennen v. 1971 suoritetut tutkinnot, ulkomailla suoritetut tutkinnot)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kouljat",
+      "variablename": "Koulutusmuoto",
+      "conceptdef": "Koulutusmuoto v.1971 alkaen\nMuuttujan luokittelua muutettu v. 2005 alkaen\n1 = koulujärjestelmäkoulutus (=muut kuin arvot 2?9) sisältää myös sotilasalan tutkinnot ja ulkomailla suoritetut tutkinnot\nTutkintotavoitteinen aikuiskoulutus\n8 = näyttötutkinnot (ammatillinen aikuiskoulutus); ammatilliset perustutkinnot, ammatti- ja erikoisammattitutkinnot v.1994 alkaen\n3 = muut kuin näyttötutkinnot;\n      ammatilliset aikuiskoulutukset v. 1999 asti\n      lukiokoulutuksen aikuiskoulutukset v. 1985 alkaen  \n      ammattikorkeakoulun aikuiskoulutukset v.1994 alkaen\n      ylemmät ammattikorkeakoulututkinnot v. 2003 alkaen\nMuu koulutus\n2 = työllisyyskurssikoulutus v. 1990 asti\n9 = aikuiskoulutuksen jatkolinja v. 1990 asti\nTieto on kaikilla tutkinnoilla.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk",
+      "variablename": "Ylioppilastutkinto",
+      "conceptdef": "Pohjakoulutuksena ylioppilastutkinto\n4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon\n0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom",
+      "variablename": "Tutkinto suoritettu ulkomailla",
+      "conceptdef": "1 = tutkinto on suoritettu ulkomailla\n0 = tutkinto on suoritettu Suomessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiso",
+      "variablename": "Oppisopimuskoulutus",
+      "conceptdef": "Tieto on ammatillisissa oppilaitoksissa suoritetuilla ja\nnäyttötutkinnoilla vuodesta 1997 lähtien.\n1 = tutkinto on suoritettu oppisopimuskoulutuksena\n0 = tutkintoa ei ole suoritettu oppisopimuskoulutuksena",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sakk",
+      "variablename": "Väiaikaisen ammattikorkeakoulun tunnus salattuna",
+      "conceptdef": "Väliaikaisen ammattikorkeakoulun 2-merkkinen koodi SALATTU\n01 = Haaga instituutin väliaikainen amk\n02 = Vantaan väliaikainen amk \n03 = Turun väliaikainen amk\n04 = Satakunnan väliaikainen amk\n05 = Hämeen väliaikainen amk\n06 = Lahden väliaikainen amk\n07 = Tampereen väliaikainen teknillinen amk\n08 = Kymenlaakson väliaikainen amk\n09 = Etelä-Karjalan väliaikainen amk\n10 = Mikkelin väliaikainen amk\n11 = Pohjois-Karjalan väliaikainen amk\n12 = Pohjois-Savon väliaikainen amk\n13 = Jyväskylän väliaikainen amk\n14 = Svenska temporära yhs\n15 = Seinäjoen väliaikainen amk\n16 = Keski-Pohjanmaan väliaikainen amk\n17 = Kajaanin väliaikainen amk\n18 = Oulun väliaikainen amk\n19 = Kemi-Tornion väliaikainen amk\n20 = Espoon-Vantaan väliaikainen teknillinen amk\n21 = Helsingin väliaikainen tal. ja hal. amk\n22 = Yrittäjien väliaikainen amk\n23 = Väliaikainen diakonia-amk\n24 = Helsingin väliaikainen amk\n25 = Temporära yhs Sydväst\n26 = Rovaniemen väliaikainen amk \n(tutkintoja vain vakinaisesta amk:sta)\n27 = Vaasan väliaikainen amk\n28 = Nylands temporära svenska yhs\n29 = Espoon-Vantaan väliaikainen amk\n30 = Pirkanmaan väliaikainen amk\n31 = Östra Nylands temporära yhs\n32 = Väliaikainen humanistinen amk\n33 = Varsinais-Suomen väliaikainen amk\n(tutkintoja vain vakinaisesta amk:sta)\n40 = Ålands yrkeshögskola\nBB = ei väliaikainen ammattikorkeakoulu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutklaja",
+      "variablename": "Koulutuslaji",
+      "conceptdef": "Ammatillisen koulutuksen tutkintolaji v. 1994 alkaen \nMuuttujan luokittelua muutettu v. 2005 alkaen\n1 = ammatillinen peruskoulutus; \n      toinen aste, opistoaste, ammatillinen korkea-aste,\n      (opmast = 32, 50, 61)\n      sisältää myös sotilasalan ja ulkomailla suoritetut\n      ammatilliset tutkinnot (kouljat=1,3,8) \n2 = ammatillinen lisäkoulutus, ammattitutkinto v. 1994 \n      alkaen (kouljat=8) \n3 = ammatillinen lisäkoulutus, erikoisammattitutkinto \n      v. 1994 alkaen (kouljat=8) \n9 = muu kuin ammatillinen koulutus; \n      ylioppilas-, ammattikorkeakoulu- ja yliopistotutkinnot,\n      sisältää myös sotilasalan ja ulkomailla suoritetut\n      korkeakoulu- ja yliopistotutkinnot (kouljat=1,8)\n      työllisyyskurssikoulutukset (kouljat=2) \n      aikuiskoulutuksen jatkolinjat (kouljat=9)\nTieto on kaikilla tutkinnoilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuv",
+      "variablename": "Aloittamisvuosi/kirjoihintulovuosi",
+      "conceptdef": "Vuosi, jolloin opiskelija on ottanut vastaan opiskelu-\noikeuden  ja ilmoittautunut koulun kirjoihin tai solminut\noppisopimuksen muodossa VVVV.\nBBBB = ei tietoa\nTieto on vuodesta 2000 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk",
+      "variablename": "Aloittamislukukausi",
+      "conceptdef": "Tutkintooon johtavan koulutuksen aloittamislukukausi oppilaitoksessa\n1 = kevät (1.1.-31.7.)\n2 = syksy (1.8.-31.12.)\nB = ei tietoa\nTieto on vuodesta 2000 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijkun",
+      "variablename": "Koulutuksen sijaintikunta",
+      "conceptdef": "Koulutuksen sijaintikunta tutkinnon suorittamisvuonna\nVäestörekisterikeskuksen kuntakoodina v.1971 alkaen\nV. 2006 alkaen ylioppilastutkinnoilla on oppilaitoksen \nsijaintikunta eikä koulutuksen sijaintikunta.\n200 = ulkomailla\nBBB = tuntematon (999)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suormaa",
+      "variablename": "Tutkinnon suoritusmaa",
+      "conceptdef": "Tutkinnon suoritusmaa\nYK:n 3-numeroinen tunnus (ISO 3166-standardi)\n200 = ent. Tsekkoslovakia\n278 = ent. Itä-Saksa\n810 = ent. Neuvostoliitto\n890 = ent. Jugoslavia\n999 = tuntematon \nEnsimmäisen kerran käytössä vuoden 2005 tutkintorekisterissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammoppsop",
+      "variablename": "Tutkinnossa oppisopimusjaksoja",
+      "conceptdef": "Muuttujan avulla saa tiedon onko suoritettuun tutkintoon kuulunut oppisopimusjaksoja. Tieto on vuoden 2020 rekisterissä ja saatavilla koskien suoritusvuosia 2019 ja 2020. 1=tutkintoon kuului em. jaksoja, 2=tutkintoon ei kuulunut em. jaksoja. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammkouso",
+      "variablename": "Tutkinnossa koulutussopimusjaksoja",
+      "conceptdef": "Muuttujien avulla saa tiedon onko suoritettuun tutkintoon kuulunut koulutussopimusjaksoja. Tieto on vuoden 2020 rekisterissä ja saatavilla koskien suoritusvuosia 2019 ja 2020. 1=tutkintoon kuului em. jaksoja, 2=tutkintoon ei kuulunut em. jaksoja. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

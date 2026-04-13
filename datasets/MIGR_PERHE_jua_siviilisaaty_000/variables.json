@@ -1,0 +1,60 @@
+{
+  "variables": [
+    {
+      "identifier": "Shnro",
+      "variablename": "Suojattu hnro",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "customer_id_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MARITAL_STATUS_CODE",
+      "variablename": "Siviilisaaty ID",
+      "conceptdef": "Selitys koodille löytyy metatiedoista taulusta MARITAL_STATUS_CODE_TO_NAME.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REGISTRATION_MONTH",
+      "variablename": "Avioliiton rekisteröimiskuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIVORCE_MONTH",
+      "variablename": "Avioeron rekisteröimiskuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MODIFICATION_MONTH",
+      "variablename": "Muokkauskuukausi",
+      "conceptdef": "Tietoa on muokattu tänä ajankohtana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CREATION_MONTH",
+      "variablename": "Luomiskuukausi",
+      "conceptdef": "Tieto on luotu tänä ajankohtana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

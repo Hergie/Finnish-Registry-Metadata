@@ -1,0 +1,542 @@
+# FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2007 (YA233)
+
+- **Identifier:** `YA233_2007_jua_ict_001.xml`
+- **DOI:** `work_2017-12_2017-12-04_ain_0001`
+- **Temporal coverage:** 2007-01-01 - 2007-12-31
+- **Published:** 2018-03-12
+- **Organisation:** Tilastokeskus
+- **Variable count:** 152
+- **Observation count:** 3,452
+- **Population:** Yritykset, jotka kuuluvat toimialaluokituksen TOL2008 pääluokkiin C-J ja L-M sekä toimiala 951. Otoskehikkona on Tilastokeskuksen yritysrekisteriin pohjautuvan yritysten rakennetilaston tuotantotietokannan tai yritystietovaraston (alkaen vuodesta 2013) edellä mainittujen toimialojen vähintään kymmenen henkilöä työllistävät yritykset. Vuosina 2001 - 2009 aineisto kattaa myös 5 – 9 henkeä työllistävät yritykset. Otoskehikon kaikki vähintään sata henkilöä työllistävät yritykset sisällytettiin kyselyyn. Työntekijämäärältään (5)10–99 henkilön yritysten osalta käytettiin otantaa. Otanta-asetelmana oli toimialan ja kokoluokan mukaan ositettu yksinkertainen satunnaisotanta
+- **Source:** Tilastokeskuksen Tietotekniikan käyttö yrityksissä -kysely ja yritysrekisteri.
+
+## Kuvaus / Description
+
+ICT-aineisto kuvaa yritysten tietotekniikan käyttöä ja liiketoiminnan sähköistymistä. Tilastoaineisto tuotetaan otokseen perustuvana laajana yrityskyselynä. Tulokset korotetaan tilastossa vastaamaan kaikkia tutkittujen toimialojen ja suuruusluokkien yrityksiä. Tilastoyksikkönä on yritys. Yritystason aineisto on saatavissa tutkimuskäyttöön erillisinä vuositiedostoina. 
+Tilastoaineisto ilmestyy vuosittain. Sähköisen kaupan osalta mittausjaksona on edellinen vuosi. Tietotekniikan käytön osalta viiteajankohtana on useimmissa muuttujissa kyselyn ajankohta, eli tammi-huhtikuu. Aineiston aikasarja ulottuu vuoteen 2002 asti. 
+
+Tilastotutkimuksen menetelmäkuvaus
+Yritykset saivat tiedon kyselystä ja ohjeet vastaamiseen kirjeitse. Itse kysely on toteutettu web-lomakkeella, mutta yrityksillä oli mahdollisuus halutessaan vastata paperilomakkeella.
+Kyselyn piiriin kuuluvat seuraavat toimialaluokituksen TOL 2008 pääluokat:
+- C teollisuus (10-33),
+- D sähkö-, kaasu- ja lämpöhuolto, jäähdytysliiketoiminta (35),
+- E vesihuolto, viemäri- ja jätevesihuolto, jätehuolto ja muu ympäristön puhtaanapito (36-39),
+- F rakentaminen (41-43),
+- G tukku ja vähittäiskauppa; moottoriajoneuvojen ja moottoripyörien korjaus (45-47),
+- H kuljetus ja varastointi (49-53),
+- I majoitus ja ravitsemistoiminta (55-56),
+- J informaatio ja viestintä (58-63),
+- L kiinteistöalan toiminta (68),
+- M ammatillinen, tieteellinen ja tekninen toiminta (69-74) (M pois lukien toimiala 75),
+- N hallinto- ja tukipalvelutoiminta (77-82),
+Lisäksi mukana on toimiala 951, tietokoneiden ja viestintälaitteiden korjaus.
+
+Otoskehikkona on Tilastokeskuksen yritysrekisteriin pohjautuvan yritysten rakennetilaston tuotantotietokannan tai yritystietovaraston (alkaen vuodesta 2013) edellä mainittujen toimialojen vähintään kymmenen henkilöä työllistävät yritykset. Vuosina 2001 - 2009 aineisto kattaa myös 5 - 9 henkeä työllistävät yritykset.
+
+Otoskehikon kaikki vähintään sata henkilöä työllistävät yritykset sisällytettiin kyselyyn. Työntekijämäärältään (5)10-99 henkilön yritysten osalta käytettiin otantaa. Otanta-asetelmana oli toimialan ja kokoluokan mukaan ositettu yksinkertainen satunnaisotanta. Yritysten taustamuuttujat on haettu yritysrekisteristä mutta tiedot eivät välttämättä vastaa yritysrekisterin lopullisia tietoja.
+
+Tietojen oikeellisuus ja tarkkuus
+Tilastossa vastauskato on yksikkökadon osalta otettu huomioon tulosten laskennassa korotuskertoimia käyttämällä. Korotusten jälkeenkin kato aiheuttaa epävarmuutta, mikäli puuttuvien vastausten ominaisuudet ovat oleellisesti erilaiset kuin saatujen vastausten. Kadon vaikutukset estimaatteihin voidaan olettaa pieneksi. Eräkatoon ei pääosin ole tehty korjauksia eli osittain puuttuvia vastauksia ei ole imputoitu muutoin kuin loogisina korjauksina. Imputointia on kuitenkin käytetty muutamassa kysymyksessä, jotka koskevat sen henkilöstön osuutta, jotka käyttävät työssään tietokonetta, tietokonetta jossa on Internet-yhteys tai kannettavaa laitetta jossa Internet-yhteys. Imputointi on tällöin tehty kunkin ositteen vastausten mediaanilla. 
+Sähköisen kaupan suuruutta koskeviin lukuihin sisältyy suhteellisen paljon epävarmuutta ja niiden aikasarjavertailuun on suhtauduttava suuntaa antavana. Sähköisen kaupan suuruutta koskevat luvut alkaen vuoden 2004 tilastosta eivät ole vertailukelpoisia aikaisempiin vuosiin parantuneen kattavuuden vuoksi. 
+
+Vuoden 2006 kyselyssä lomaketta uudistettiin mm. tuomalla määritelmät ja ohjeet kysymysten yhteyteen entisen alaviitteen tilalta. Tämä uudistus näyttäisi vaikuttaneen internet-kaupan yleisyyttä koskeviin lukuihin alentavasti. Syynä on todennäköisesti se, että osa vastaajista tulkitsi aiemmin tavanomaisella sähköpostiviestillä saadut tilaukset virheellisesti internet-kaupaksi. Luvun pienentymistä vuoden 2006 tilastosta alkaen ei siksi tule tulkita internet-kaupan yleisyyden vähenemiseksi vuonna 2005 vaan määritelmien mukaisen tuloksen tarkentumiseksi.
+
+Sisällön vertailtavuus kysymysosioittain
+
+Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internetin käyttöön ja sähköiseen kauppaan liittyvät osiot, ovat mukana jokaisena aikasarjan vuotena. Jotkut kysymysosiot vuorottelevat lomakkeella eri vuosina. Myös uusia täydentäviä kysymyksiä tai kokonaan uusia kysymysosioita on otettu mukaan vuosittain. Eri kysymysosioita on kysytty vuosina 2002 - 2016 seuraavasti (julkaisuvuoden mukaan):
+ 
+* Tietotekniikan käyttö: osuus henkilöstöstä käyttää tietokonetta 2002-, etäyhteydet 2003-. Avoimen lähdekoodin ohjelmat ja käyttöjärjestelmät 2007-.	
+* Tietotekniikkataidot, koulutus ja rekrytointi; tietotekniikan ammattilaiset, tietotekninen koulutus, ammattilaisten rekrytointi.  2006-2007, 2012, 2014-2016.	
+* Internetin käyttö, omat web-sivut; osuus henkilöstöstä käyttää internetiä, yhteystyypit, yhteyden nopeudet, digitaalinen allekirjoitus (2003-2010), kotisivut, sisältö kotisivuilla, 2002 -.	
+* Sosiaalinen media; mitä sosiaalista mediaa käytetään 2013-2016, käyttötarkoitukset 2013, 2015.	
+* Pilvipalvelut; mitä pilvipalveluja käytetään, pilvipalvelun käytön esteet ja rajoitteet. 2014-2016	
+* Big Datan hyödyntäminen; Big datan lähteet, analysointi, 2016.	
+* Sähköinen lasku/laskuttaminen; lähettäminen ja vastaanotto, paperilaskut, EDI-laskut, verkkolaskut, sähköpostilaskut. 2006-2008, 2011, 2013-2014, 2016.	
+* Internetin käyttö kontakteissa julkishallintoon; käyttötarkoitukset, sähköinen asiointi, sähköisen asioinnin rajoitteet, julkisten hankintailmoitusjärjestelmien käyttö. 2002-2013	
+* Mobiilit internet-yhteydet työasioissa; kannettavat laitteet, yhteyden käyttötarkoitukset, mobiiliyhteyksien esteet ja rajoitteet. 2011-2016.	
+* Sähköinen kauppa=internet: ostot (-2008) & myynti, internet-markkinapaikka (2002-2006), internet-kaupan arvo, asiakasryhmät, myyntiosuus Suomi/EU/muut maat (2002-2007, 2009, 20011, 2013,2015), osuus tuotteet & palvelut (2008-) & sähköiset tuotteet (2008-), internet-kaupan ongelmat (2013-), verkkokauppa, 2002 -.	
+* Online-maksut, erilaiset maksutavat 2007-2010, 2014-2016.	
+* Sähköinen kauppa = EDI: ostot ja myynti, EDI-myynnin arvo, ostot ja myynti Suomi/EU/muut maat, ostojen arvo. 2002-.	
+* Internet-kauppaan liittyvät ongelmat; ongelmien merkitys internet-kaupalle tai sen aloittamiselle. 2002-2004.	
+* Internetin käyttöön liittyvät ongelmat; ongelmien merkitys internetin käytössä/käyttöönotossa. 2002.	
+* Osto- tai myyntitilausten hallinta ja järjestelmäintegrointi. 2002-2007.	
+* Automatisoitu tiedonvaihto ulkoisten tietojärjestelmien kanssa; lähettäminen & vastaanotto, tiedonvaihdon tarkoitukset, tiedonvaihdon tyypit. 2008-2012, 2014.	
+* Automaattinen tiedon jakaminen yrityksen sisällä; tilausten ja ostojen integrointi eri järjestelmien kanssa, ERP, CRM. 2008-2015.	
+* Tiedon jakaminen toimitusketjussa; tiedonvaihto asiakkaat & tavarantoimittajat, tiedonvaihdon keinot. 2007-2010, 2012, 2014-2015	
+* Tietoturva; tietoturvapolitiikka, mitä asioita huomioitu, tietoturvaongelmat, tietoturvan parantamisen keinot. 2003-2006, 2010, 2015.	
+* Tietotekniikan ulkoistaminen/palvelujen ostaminen; mitä tietotekniikkatoimintoja omalla/ulkopuolisella työvoimalla. 2005, 2007, 2011, 2014-2015.	
+* Tietokoneohjelmien valmistus omaan käyttöön; oma henkilökunta kehittäjänä ja valmistajana, käytetyt henkilötyövuodet. 2005 -.	
+* RFID Radio Frequency Identification käyttö; mihin tarkoituksiin käytetään. 2009, 2011, 2014.
+
+## Muuttujat / Variables (152)
+
+| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+|---|---|---|---|---|
+| `toloma` | otannassa käytetty toimialamuuttuja | — | — | — |
+| `yr_tol95` | Toimialaluokitus 1995, yritysrekisteri | — | — | — |
+| `yr_hk_suuruusluokka` | Henkilöstön suuruusluokka | — | — | — |
+| `HENLKMYH` | Henkilöstön lukumäärä yhteensä | — | — | — |
+| `TKONE` | tietokoneita käytössä (1=kyllä, 0=ei) | — | — | — |
+| `TKHLO` | osuus henkilökunnasta käyt tietokonetta (%) | — | — | — |
+| `LAHIV` | lähiverkko=lan tai wlan | — | — | — |
+| `LNGTON` | WLAN (1=kyllä, 0=ei) | — | — | — |
+| `INTRA` | intranet (1=kyllä, 0=ei) | — | — | — |
+| `EXTRA` | extranet (1=kyllä, 0=ei) | — | — | — |
+| `OPEN` | avoimen lähdenkoodin käyttöjärjestelmä (1=kyllä, 0=ei) | — | — | — |
+| `DIGI` | digitaalinen allekirjoitus (1=kyllä, 0=ei) | — | — | — |
+| `CRMINF` | CRM-ohjelmisto asiakastiedot (1=kyllä, 0=ei) | — | — | — |
+| `CRMANA` | CRM-ohjelmisto asiakastietojen analysointi (1=kyllä, 0=ei) | — | — | — |
+| `SPECI` | tietotekniikka-ammattilaisia henkilökunnassa (1=kyllä, 0=ei) | — | — | — |
+| `REKSPE` | tietotekniikka-ammattilaisia ainakin yritetty rekrytoida (1=kyllä, 0=ei) | — | — | — |
+| `REKSPEONG` | tietotekniikka-ammattilaisten työpaikkoja vaikea täyttää (1=kyllä, 0=ei) | — | — | — |
+| `REKHAK` | vaikea täyttää syy: ammattitaito (1=kyllä, 0=ei) | — | — | — |
+| `REKKOU` | vaikea täyttää syy: koulutus (1=kyllä, 0=ei) | — | — | — |
+| `REKTYO` | vaikea täyttää syy: työkokemus (1=kyllä, 0=ei) | — | — | — |
+| `REKPALK` | vaikea täyttää syy: palkka (1=kyllä, 0=ei) | — | — | — |
+| `REKMUU` | vaikea täyttää syy: muu (1=kyllä, 0=ei) | — | — | — |
+| `ULKSPE` | tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla (1=kyllä, 0=ei) | — | — | — |
+| `ULKFOROM` | tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla ulkomailla: oma tytäryhtiö (1=kyllä, 0=ei) | — | — | — |
+| `ULKFORMUU` | tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla ulkomailla: muu ulkomainen yritys (1=kyllä, 0=ei) | — | — | — |
+| `ULKEU` | tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: EU (1=kyllä, 0=ei) | — | — | — |
+| `ULKUSA` | tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: USA (1=kyllä, 0=ei) | — | — | — |
+| `ULKMUU` | tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: muu maa (1=kyllä, 0=ei) | — | — | — |
+| `REKKAY` | tietotekniikan käyttäjiä ainakin yritetty rekrytoida (1=kyllä, 0=ei) | — | — | — |
+| `REKKAYONG` | tietotekniikan käyttäjien työpaikkoja vaikea täyttää (1=kyllä, 0=ei) | — | — | — |
+| `KOULSPE` | koulutusta tietotekniikan ammattilaisille (1=kyllä, 0=ei) | — | — | — |
+| `KOULKAY` | koulutusta tietotekniikan käyttäjille (1=kyllä, 0=ei) | — | — | — |
+| `INTERNET` | internet yhteys (1=kyllä, 0=ei) | — | — | — |
+| `INETHLO` | osuus henkilökunnasta käyt Internetiä (%) | — | — | — |
+| `NETPANK` | pankkipalveluita netissä (1=kyllä, 0=ei) | — | — | — |
+| `NETKOUL` | koulutusta netissä (1=kyllä, 0=ei) | — | — | — |
+| `NETMARK` | markkinoiden seuranta netissä (1=kyllä, 0=ei) | — | — | — |
+| `NETMYJAL` | myynnin jälkeisten palveluiden käyttö netissä (1=kyllä, 0=ei) | — | — | — |
+| `NETVIRTIE` | tiedon hankinta viranomaislta netissä (1=kyllä, 0=ei) | — | — | — |
+| `NETVIRLOM` | lomakkeiden hankinta netissä viranomaisilta (1=kyllä, 0=ei) | — | — | — |
+| `NETVIRPAL` | lomakkeiden palauttaminen netissä viranomaisille (1=kyllä, 0=ei) | — | — | — |
+| `NETVIRKAV` | kävi netissä julk hank järj (1=kyllä, 0=ei) | — | — | — |
+| `NETVIRTAR` | jätti tarjouksen julk hank netissä pohjalta (1=kyllä, 0=ei) | — | — | — |
+| `MODEM` | netyhteys modeemi (1=kyllä, 0=ei) | — | — | — |
+| `ISDN` | netyhteys isdn (1=kyllä, 0=ei) | — | — | — |
+| `XDSL` | netyhteys xdsl (1=kyllä, 0=ei) | — | — | — |
+| `KIINMUU` | muu laajakaista (1=kyllä, 0=ei) | — | — | — |
+| `MOBIL` | netyhteys matkapuh (1=kyllä, 0=ei) | — | — | — |
+| `YHTNOP` | nettiyhteyden suurin nopeus ("1"=<256 kbit/s, 256=<"2"<2Mbit/s,2Mbit/s=<"3"<8Mbit/s, 8Mbit/s=<"4" | — | — | — |
+| `KOTI` | kotisivut (1=kyllä, 0=ei) | — | — | — |
+| `KOTMARK` | kotisivuilla tuoteiden markkinointia (1=kyllä, 0=ei) | — | — | — |
+| `KOTLUET` | kotisivuilla luetteloita tai hinnastoja (1=kyllä, 0=ei) | — | — | — |
+| `KOTMYJAL` | kotisivuilla myynnin jälkeisiä palveluita (1=kyllä, 0=ei) | — | — | — |
+| `NETCOM` | nettimyyntiä (1=kyllä, 0=ei) | — | — | — |
+| `NETVOL` | ilmoitettu nettimyynnin arvo (euro) | — | — | — |
+| `NETVOLOS` | ilmoitettu nettimyynnin osuus liikevaihdosta (%) | — | — | — |
+| `ASYRIT` | osuus nettimyynnistä yrityksille (%) | — | — | — |
+| `ASKOTIT` | osuus nettimyynnistä kotitalouksille (%) | — | — | — |
+| `NETPAY` | otti vastaan on-line maksuja netissä (1=kyllä, 0=ei) | — | — | — |
+| `NETSAL` | internet tilauksissa salausprotokolla (1=kyllä, 0=ei) | — | — | — |
+| `NETOSTO` | nettiostoja (1=kyllä, 0=ei, 9=EOS) | — | — | — |
+| `OSTVOLOS` | nettiostojen osuus ostoista (1=mitätön arvo, 2=<1, 3=1-4, 4=5-9,5=10-24, 6=25-49, 7=50<, 8=EOS) | — | — | — |
+| `EDI` | edi käytössä (1=kyllä, 0=ei) | — | — | — |
+| `EDIVAST` | vastaanottanut edi tilauksia (=myynti) (1=kyllä, 0=ei) | — | — | — |
+| `EMYVOL` | ilmoitettu edi myynnin arvo (euro) | — | — | — |
+| `EMYVOLOS` | ilmoitettu edi myynnin osuus liikevaihdosta (%) | — | — | — |
+| `TYPNET` | edi myynti netin kautta | — | — | — |
+| `EDINET1` | osuus edi myynnistä Internetin kautta (%) | — | — | — |
+| `TYPEI` | edi myynti muun kuin netin kautta | — | — | — |
+| `EDINET2` | osuus edi myynnistä muuta kun Internetin kautta (%) | — | — | — |
+| `TYPEOSNET` | edi myyntikanava eos | — | — | — |
+| `EDITEKE` | tehnyt edi tilauksia (=osto) (1=kyllä, 0=ei) | — | — | — |
+| `EOSVOLOS` | ilmoitettu edi ostojen osuus kaikista ostoista (1=<1, 2=1-9, 3=10-24, 4=25-49,5=50-74, 6=75< % | — | — | — |
+| `TYPNETOS` | edi osto netin kautta | — | — | — |
+| `EDINETOS1` | osuus edi ostoista Internetin kautta (%) | — | — | — |
+| `TYPEIOS` | edi osto muun kuin netin kautta | — | — | — |
+| `EDINETOS2` | osuus edi ostoista muuta kun Internetin kautta (%) | — | — | — |
+| `TYPEOSNETOS` | edi ostokanava eos | — | — | — |
+| `MYOSTHAL` | osto- tai myyntitilausten hallinta (1=kyllä, 0=ei) | — | — | — |
+| `INTESIS` | autom yhteys sis tilaukset (1=kyllä, 0=ei) | — | — | — |
+| `INTELASK` | autom yhteys laskutus ja maks (1=kyllä, 0=ei) | — | — | — |
+| `INTETUOT` | autom yhteys tuotannonohjaus (1=kyllä, 0=ei) | — | — | — |
+| `INTETOIM` | autom yhteys tavarantoimittajat (1=kyllä, 0=ei) | — | — | — |
+| `INTEASIAK` | autom yhteys asiakkaiden järj (1=kyllä, 0=ei) | — | — | — |
+| `ERP` | ERP tiedon jakamiseen myynneistä ja ostoista (1=kyllä, 0=ei) | — | — | — |
+| `SCM` | SCM-toimitusketjun hallinta (1=kyllä, 0=ei) | — | — | — |
+| `SCMTKYS` | SCM kysyntäennusteet tavarantoimittajat (1=kyllä, 0=ei) | — | — | — |
+| `SCMTVAR` | SCM varastotasot tavarantoimittajat (1=kyllä, 0=ei) | — | — | — |
+| `SCMTTUO` | SCM tuotantosuunnitelmat tavarantoimittajat (1=kyllä, 0=ei) | — | — | — |
+| `SCMTTOI` | SCM toimitusten eteneminen tavarantoimittajat (1=kyllä, 0=ei) | — | — | — |
+| `SCMTDES` | SCM tuotesuunnittelun tiedot tavarantoimittajat (1=kyllä, 0=ei) | — | — | — |
+| `SCMAKYS` | SCM kysyntäennusteet asiakkaat (1=kyllä, 0=ei) | — | — | — |
+| `SCMAVAR` | SCM varastotasot asiakkaat (1=kyllä, 0=ei) | — | — | — |
+| `SCMATUO` | SCM tuotantosuunnitelmat asiakkaat (1=kyllä, 0=ei) | — | — | — |
+| `SCMATOI` | SCM toimitusten eteneminen asiakkaat (1=kyllä, 0=ei) | — | — | — |
+| `SCMADES` | SCM tuotesuunnittelun tiedot asiakkaat (1=kyllä, 0=ei) | — | — | — |
+| `SCMWEB` | SCM web-portaali (1=kyllä, 0=ei) | — | — | — |
+| `SCMEDI` | SCM EDIn välityksellä (1=kyllä, 0=ei) | — | — | — |
+| `SCMMUU` | SCM muu esim. s-posti (1=kyllä, 0=ei) | — | — | — |
+| `LASVAVER` | vastaanotti verkkolaskuja (1=kyllä, 0=ei) | — | — | — |
+| `LASVAEDI` | vastaanotti edi-laskuja (1=kyllä, 0=ei) | — | — | — |
+| `LASVAMUU` | vastaanotti muita sähköisiä laskuja (1=kyllä, 0=ei) | — | — | — |
+| `LASLAVER` | lähetti verkkolaskuja (1=kyllä, 0=ei) | — | — | — |
+| `LASLAEDI` | lähetti edi-laskuja (1=kyllä, 0=ei) | — | — | — |
+| `LASLAMUU` | lähetti muita sähköisiä laskuja (1=kyllä, 0=ei) | — | — | — |
+| `OWN` | ohjelmia omaan käyttöön (1=kyllä, 0=ei) | — | — | — |
+| `OWNYAR` | omaan käyttöön tulevien ohjelmien teon työvuodet (henkilötyövuotta) | — | — | — |
+| `tol` | toinen kotimaisten laskelmien agregoidumpi toimialamuuttuja | — | — | — |
+| `tol2` | kotimaisten laskelmien toimialamuuttuja | — | — | — |
+| `EUtol` | EU laskelmien toimiala muuttuja | — | — | — |
+| `flag1` | korj_tkhlo_inethlo | — | — | — |
+| `inethlo1` | inethlo ennen loog korj | — | — | — |
+| `hlok` | laskelmissa käytetty henkilökunnan määrä | — | — | — |
+| `lahiv1` | langallinen_LAN | — | — | — |
+| `laaja` | laajakaista | — | — | — |
+| `LVAIHTO` | liikevaihto rakennetilastosta | — | — | — |
+| `lveuro` | Liikevaihto euroina | — | — | — |
+| `netvoleur` | lopullinen nettimyynnin arvo (euro) | — | — | — |
+| `netvolosuudet` | lopullinen nettimyynnin osuus lv:sta (%) | — | — | — |
+| `emyvoleur` | lopullinen edi myynnin arvo (euro) | — | — | — |
+| `emyvolosuudet` | lopullinen edi myynnin osuus lv:sta (%) | — | — | — |
+| `yriteuro` | nettimyynti yrityksille euroina | — | — | — |
+| `kotiteuro` | nettimyynti kotitalouksiin euroina | — | — | — |
+| `typneteur` | lopullinen edi-myynti Internetin kautta (euro) | — | — | — |
+| `typeieur` | lopullinen edi-myynti muiden verkkojen kautta (euro) | — | — | — |
+| `KODE` | ositemuuttuja kotimaiset laskelmat | — | — | — |
+| `ison` | N kotimaisissa laskelmissa | — | — | — |
+| `pikkun` | n kotimaisissa laskelmissa | — | — | — |
+| `lkmkerr` | kotimaisten laskelmien lukumäärän perustuva korotuskerroin | — | — | — |
+| `apukode` | ositemuuttuja EU laskelmat | — | — | — |
+| `ison2` | N EU-laskelmissa | — | — | — |
+| `pikkun2` | n EU-laskelmissa | — | — | — |
+| `LVKERR` | kotimaisten laskelmien liikevaihtoon perustuva korotuskerroin | — | — | — |
+| `HLOKERR` | kotimaisten laskelmien henkilökuntamäärään perustuva korotuskerroin | — | — | — |
+| `LVKERRb` | EU laskelmien liikevaihtoon perustuva korotuskerroin | — | — | — |
+| `LKMKERRb` | EU laskelmien lukumäärän perustuva korotuskerroin | — | — | — |
+| `HLOKERRb` | EU-laskelmien henkilökuntamäärään perustuva korotuskerroin | — | — | — |
+| `tkhlo1` | tkhlo ennen imputointia | — | — | — |
+| `flag2` | tkhlo imputoitu | — | — | — |
+| `inethlo2` | inethlo ennen imputointia | — | — | — |
+| `flag3` | inethlo imputoitu | — | — | — |
+| `tklkm` | laskettu tietokoneen käyttäjien lkm | — | — | — |
+| `inetlkm` | laskettu netin käyttäjien lkm | — | — | — |
+| `lahiv2` | LAN_WLAN ennen imputointia | — | — | — |
+| `flag4` | LAN_WLAN imputoitu | — | — | — |
+| `lahiv1b` | langallinen_LAN ennen imputointia | — | — | — |
+| `flag5` | langallinen_LAN imputoitu | — | — | — |
+| `intra1` | intra ennen imputointia | — | — | — |
+| `flag6` | intra imputoitu | — | — | — |
+| `extra1` | extra ennen imputointia | — | — | — |
+| `flag7` | extra imputoitu | — | — | — |
+| `SYRTUN` | Suojattu yritystunnus rakennetilastosta | — | — | — |
+
+### Muuttujien määritelmät / Variable definitions
+
+#### `toloma` — otannassa käytetty toimialamuuttuja
+
+#### `yr_tol95` — Toimialaluokitus 1995, yritysrekisteri
+
+Yrityksen päätoimiala, toimialaluokitus TOL 1995:n mukaan, taustamuuttuja.
+
+#### `yr_hk_suuruusluokka` — Henkilöstön suuruusluokka
+
+Henkilöstön suuruusluokka, yritysrekisteri, yritysrekisterissä SLHKY (9 luokkaa), taustamuuttuja.
+
+#### `HENLKMYH` — Henkilöstön lukumäärä yhteensä
+
+#### `TKONE` — tietokoneita käytössä (1=kyllä, 0=ei)
+
+#### `TKHLO` — osuus henkilökunnasta käyt tietokonetta (%)
+
+#### `LAHIV` — lähiverkko=lan tai wlan
+
+#### `LNGTON` — WLAN (1=kyllä, 0=ei)
+
+#### `INTRA` — intranet (1=kyllä, 0=ei)
+
+#### `EXTRA` — extranet (1=kyllä, 0=ei)
+
+#### `OPEN` — avoimen lähdenkoodin käyttöjärjestelmä (1=kyllä, 0=ei)
+
+#### `DIGI` — digitaalinen allekirjoitus (1=kyllä, 0=ei)
+
+#### `CRMINF` — CRM-ohjelmisto asiakastiedot (1=kyllä, 0=ei)
+
+#### `CRMANA` — CRM-ohjelmisto asiakastietojen analysointi (1=kyllä, 0=ei)
+
+#### `SPECI` — tietotekniikka-ammattilaisia henkilökunnassa (1=kyllä, 0=ei)
+
+#### `REKSPE` — tietotekniikka-ammattilaisia ainakin yritetty rekrytoida (1=kyllä, 0=ei)
+
+#### `REKSPEONG` — tietotekniikka-ammattilaisten työpaikkoja vaikea täyttää (1=kyllä, 0=ei)
+
+#### `REKHAK` — vaikea täyttää syy: ammattitaito (1=kyllä, 0=ei)
+
+#### `REKKOU` — vaikea täyttää syy: koulutus (1=kyllä, 0=ei)
+
+#### `REKTYO` — vaikea täyttää syy: työkokemus (1=kyllä, 0=ei)
+
+#### `REKPALK` — vaikea täyttää syy: palkka (1=kyllä, 0=ei)
+
+#### `REKMUU` — vaikea täyttää syy: muu (1=kyllä, 0=ei)
+
+#### `ULKSPE` — tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla (1=kyllä, 0=ei)
+
+#### `ULKFOROM` — tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla ulkomailla: oma tytäryhtiö (1=kyllä, 0=ei)
+
+#### `ULKFORMUU` — tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla ulkomailla: muu ulkomainen yritys (1=kyllä, 0=ei)
+
+#### `ULKEU` — tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: EU (1=kyllä, 0=ei)
+
+#### `ULKUSA` — tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: USA (1=kyllä, 0=ei)
+
+#### `ULKMUU` — tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: muu maa (1=kyllä, 0=ei)
+
+#### `REKKAY` — tietotekniikan käyttäjiä ainakin yritetty rekrytoida (1=kyllä, 0=ei)
+
+#### `REKKAYONG` — tietotekniikan käyttäjien työpaikkoja vaikea täyttää (1=kyllä, 0=ei)
+
+#### `KOULSPE` — koulutusta tietotekniikan ammattilaisille (1=kyllä, 0=ei)
+
+#### `KOULKAY` — koulutusta tietotekniikan käyttäjille (1=kyllä, 0=ei)
+
+#### `INTERNET` — internet yhteys (1=kyllä, 0=ei)
+
+#### `INETHLO` — osuus henkilökunnasta käyt Internetiä (%)
+
+#### `NETPANK` — pankkipalveluita netissä (1=kyllä, 0=ei)
+
+#### `NETKOUL` — koulutusta netissä (1=kyllä, 0=ei)
+
+#### `NETMARK` — markkinoiden seuranta netissä (1=kyllä, 0=ei)
+
+#### `NETMYJAL` — myynnin jälkeisten palveluiden käyttö netissä (1=kyllä, 0=ei)
+
+#### `NETVIRTIE` — tiedon hankinta viranomaislta netissä (1=kyllä, 0=ei)
+
+#### `NETVIRLOM` — lomakkeiden hankinta netissä viranomaisilta (1=kyllä, 0=ei)
+
+#### `NETVIRPAL` — lomakkeiden palauttaminen netissä viranomaisille (1=kyllä, 0=ei)
+
+#### `NETVIRKAV` — kävi netissä julk hank järj (1=kyllä, 0=ei)
+
+#### `NETVIRTAR` — jätti tarjouksen julk hank netissä pohjalta (1=kyllä, 0=ei)
+
+#### `MODEM` — netyhteys modeemi (1=kyllä, 0=ei)
+
+#### `ISDN` — netyhteys isdn (1=kyllä, 0=ei)
+
+#### `XDSL` — netyhteys xdsl (1=kyllä, 0=ei)
+
+#### `KIINMUU` — muu laajakaista (1=kyllä, 0=ei)
+
+#### `MOBIL` — netyhteys matkapuh (1=kyllä, 0=ei)
+
+#### `YHTNOP` — nettiyhteyden suurin nopeus ("1"=<256 kbit/s, 256=<"2"<2Mbit/s,2Mbit/s=<"3"<8Mbit/s, 8Mbit/s=<"4"
+
+#### `KOTI` — kotisivut (1=kyllä, 0=ei)
+
+#### `KOTMARK` — kotisivuilla tuoteiden markkinointia (1=kyllä, 0=ei)
+
+#### `KOTLUET` — kotisivuilla luetteloita tai hinnastoja (1=kyllä, 0=ei)
+
+#### `KOTMYJAL` — kotisivuilla myynnin jälkeisiä palveluita (1=kyllä, 0=ei)
+
+#### `NETCOM` — nettimyyntiä (1=kyllä, 0=ei)
+
+#### `NETVOL` — ilmoitettu nettimyynnin arvo (euro)
+
+#### `NETVOLOS` — ilmoitettu nettimyynnin osuus liikevaihdosta (%)
+
+#### `ASYRIT` — osuus nettimyynnistä yrityksille (%)
+
+#### `ASKOTIT` — osuus nettimyynnistä kotitalouksille (%)
+
+#### `NETPAY` — otti vastaan on-line maksuja netissä (1=kyllä, 0=ei)
+
+#### `NETSAL` — internet tilauksissa salausprotokolla (1=kyllä, 0=ei)
+
+#### `NETOSTO` — nettiostoja (1=kyllä, 0=ei, 9=EOS)
+
+#### `OSTVOLOS` — nettiostojen osuus ostoista (1=mitätön arvo, 2=<1, 3=1-4, 4=5-9,5=10-24, 6=25-49, 7=50<, 8=EOS)
+
+#### `EDI` — edi käytössä (1=kyllä, 0=ei)
+
+#### `EDIVAST` — vastaanottanut edi tilauksia (=myynti) (1=kyllä, 0=ei)
+
+#### `EMYVOL` — ilmoitettu edi myynnin arvo (euro)
+
+#### `EMYVOLOS` — ilmoitettu edi myynnin osuus liikevaihdosta (%)
+
+#### `TYPNET` — edi myynti netin kautta
+
+#### `EDINET1` — osuus edi myynnistä Internetin kautta (%)
+
+#### `TYPEI` — edi myynti muun kuin netin kautta
+
+#### `EDINET2` — osuus edi myynnistä muuta kun Internetin kautta (%)
+
+#### `TYPEOSNET` — edi myyntikanava eos
+
+#### `EDITEKE` — tehnyt edi tilauksia (=osto) (1=kyllä, 0=ei)
+
+#### `EOSVOLOS` — ilmoitettu edi ostojen osuus kaikista ostoista (1=<1, 2=1-9, 3=10-24, 4=25-49,5=50-74, 6=75< %
+
+#### `TYPNETOS` — edi osto netin kautta
+
+#### `EDINETOS1` — osuus edi ostoista Internetin kautta (%)
+
+#### `TYPEIOS` — edi osto muun kuin netin kautta
+
+#### `EDINETOS2` — osuus edi ostoista muuta kun Internetin kautta (%)
+
+#### `TYPEOSNETOS` — edi ostokanava eos
+
+#### `MYOSTHAL` — osto- tai myyntitilausten hallinta (1=kyllä, 0=ei)
+
+#### `INTESIS` — autom yhteys sis tilaukset (1=kyllä, 0=ei)
+
+#### `INTELASK` — autom yhteys laskutus ja maks (1=kyllä, 0=ei)
+
+#### `INTETUOT` — autom yhteys tuotannonohjaus (1=kyllä, 0=ei)
+
+#### `INTETOIM` — autom yhteys tavarantoimittajat (1=kyllä, 0=ei)
+
+#### `INTEASIAK` — autom yhteys asiakkaiden järj (1=kyllä, 0=ei)
+
+#### `ERP` — ERP tiedon jakamiseen myynneistä ja ostoista (1=kyllä, 0=ei)
+
+#### `SCM` — SCM-toimitusketjun hallinta (1=kyllä, 0=ei)
+
+#### `SCMTKYS` — SCM kysyntäennusteet tavarantoimittajat (1=kyllä, 0=ei)
+
+#### `SCMTVAR` — SCM varastotasot tavarantoimittajat (1=kyllä, 0=ei)
+
+#### `SCMTTUO` — SCM tuotantosuunnitelmat tavarantoimittajat (1=kyllä, 0=ei)
+
+#### `SCMTTOI` — SCM toimitusten eteneminen tavarantoimittajat (1=kyllä, 0=ei)
+
+#### `SCMTDES` — SCM tuotesuunnittelun tiedot tavarantoimittajat (1=kyllä, 0=ei)
+
+#### `SCMAKYS` — SCM kysyntäennusteet asiakkaat (1=kyllä, 0=ei)
+
+#### `SCMAVAR` — SCM varastotasot asiakkaat (1=kyllä, 0=ei)
+
+#### `SCMATUO` — SCM tuotantosuunnitelmat asiakkaat (1=kyllä, 0=ei)
+
+#### `SCMATOI` — SCM toimitusten eteneminen asiakkaat (1=kyllä, 0=ei)
+
+#### `SCMADES` — SCM tuotesuunnittelun tiedot asiakkaat (1=kyllä, 0=ei)
+
+#### `SCMWEB` — SCM web-portaali (1=kyllä, 0=ei)
+
+#### `SCMEDI` — SCM EDIn välityksellä (1=kyllä, 0=ei)
+
+#### `SCMMUU` — SCM muu esim. s-posti (1=kyllä, 0=ei)
+
+#### `LASVAVER` — vastaanotti verkkolaskuja (1=kyllä, 0=ei)
+
+#### `LASVAEDI` — vastaanotti edi-laskuja (1=kyllä, 0=ei)
+
+#### `LASVAMUU` — vastaanotti muita sähköisiä laskuja (1=kyllä, 0=ei)
+
+#### `LASLAVER` — lähetti verkkolaskuja (1=kyllä, 0=ei)
+
+#### `LASLAEDI` — lähetti edi-laskuja (1=kyllä, 0=ei)
+
+#### `LASLAMUU` — lähetti muita sähköisiä laskuja (1=kyllä, 0=ei)
+
+#### `OWN` — ohjelmia omaan käyttöön (1=kyllä, 0=ei)
+
+#### `OWNYAR` — omaan käyttöön tulevien ohjelmien teon työvuodet (henkilötyövuotta)
+
+#### `tol` — toinen kotimaisten laskelmien agregoidumpi toimialamuuttuja
+
+#### `tol2` — kotimaisten laskelmien toimialamuuttuja
+
+#### `EUtol` — EU laskelmien toimiala muuttuja
+
+#### `flag1` — korj_tkhlo_inethlo
+
+#### `inethlo1` — inethlo ennen loog korj
+
+#### `hlok` — laskelmissa käytetty henkilökunnan määrä
+
+#### `lahiv1` — langallinen_LAN
+
+#### `laaja` — laajakaista
+
+#### `LVAIHTO` — liikevaihto rakennetilastosta
+
+#### `lveuro` — Liikevaihto euroina
+
+Lopullinen tilaston liikevaihto, jossa käytetty ensisijaisesti rakennetilaston liikevaihtoa, toissijaisesti yritysrekisterin liikevaihtoa ja viimeisenä vaihtoehtona arvioitua liikevaihtoa (OTAOMALV=1), jos em. tietoja ei ole saatavissa tai arvioitu liikevaihto muutoin soveltuu paremmin yrityksen vastaukseen
+
+#### `netvoleur` — lopullinen nettimyynnin arvo (euro)
+
+#### `netvolosuudet` — lopullinen nettimyynnin osuus lv:sta (%)
+
+#### `emyvoleur` — lopullinen edi myynnin arvo (euro)
+
+#### `emyvolosuudet` — lopullinen edi myynnin osuus lv:sta (%)
+
+#### `yriteuro` — nettimyynti yrityksille euroina
+
+#### `kotiteuro` — nettimyynti kotitalouksiin euroina
+
+#### `typneteur` — lopullinen edi-myynti Internetin kautta (euro)
+
+#### `typeieur` — lopullinen edi-myynti muiden verkkojen kautta (euro)
+
+#### `KODE` — ositemuuttuja kotimaiset laskelmat
+
+#### `ison` — N kotimaisissa laskelmissa
+
+#### `pikkun` — n kotimaisissa laskelmissa
+
+#### `lkmkerr` — kotimaisten laskelmien lukumäärän perustuva korotuskerroin
+
+#### `apukode` — ositemuuttuja EU laskelmat
+
+#### `ison2` — N EU-laskelmissa
+
+#### `pikkun2` — n EU-laskelmissa
+
+#### `LVKERR` — kotimaisten laskelmien liikevaihtoon perustuva korotuskerroin
+
+#### `HLOKERR` — kotimaisten laskelmien henkilökuntamäärään perustuva korotuskerroin
+
+#### `LVKERRb` — EU laskelmien liikevaihtoon perustuva korotuskerroin
+
+#### `LKMKERRb` — EU laskelmien lukumäärän perustuva korotuskerroin
+
+#### `HLOKERRb` — EU-laskelmien henkilökuntamäärään perustuva korotuskerroin
+
+#### `tkhlo1` — tkhlo ennen imputointia
+
+#### `flag2` — tkhlo imputoitu
+
+#### `inethlo2` — inethlo ennen imputointia
+
+#### `flag3` — inethlo imputoitu
+
+#### `tklkm` — laskettu tietokoneen käyttäjien lkm
+
+#### `inetlkm` — laskettu netin käyttäjien lkm
+
+#### `lahiv2` — LAN_WLAN ennen imputointia
+
+#### `flag4` — LAN_WLAN imputoitu
+
+#### `lahiv1b` — langallinen_LAN ennen imputointia
+
+#### `flag5` — langallinen_LAN imputoitu
+
+#### `intra1` — intra ennen imputointia
+
+#### `flag6` — intra imputoitu
+
+#### `extra1` — extra ennen imputointia
+
+#### `flag7` — extra imputoitu
+
+#### `SYRTUN` — Suojattu yritystunnus rakennetilastosta
+
+---
+
+[← Takaisin luetteloon / Back to catalogue](../../README.md)

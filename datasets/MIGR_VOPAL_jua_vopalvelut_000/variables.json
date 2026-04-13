@@ -1,0 +1,68 @@
+{
+  "variables": [
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": "Henkilön yksilöivä asiakasnumero Umassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LODGING_DAY",
+      "variablename": "Majoituksen pvm",
+      "conceptdef": "Onko asiakas ollut kirjoilla vastaanottojärjestelmässä kyseisenä päivänä; kuun viimeinen päivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTHORITY_UNIT_ID_s",
+      "variablename": "Suojattu operaattori_id",
+      "conceptdef": "Majoitusasiaan kirjauksen tehneen vastaanottokeskuksen operaattori (ylätaso)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTHORITY_OFFICE_ID_s",
+      "variablename": "Suojattu vastaanottokeskus_id",
+      "conceptdef": "Majoitusasiaan kirjauksen tehnyt vastaanottokeskus (alataso)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACCOMMODATION_TYPE",
+      "variablename": "Majoitustyyppi",
+      "conceptdef": "Majoitustyyppi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POSTAL_ADDRESS_NO",
+      "variablename": "Vastaanottokeskus_postinumero",
+      "conceptdef": "Vastaanottokeskuksen (AUTHORITY_OFFICE_ID) viimeisin voimassa oleva postinumero. Ei osaa huomioida jos sama keskus on toiminut eri osoitteissa eri aikoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POSTAL_ADDRESS_AREA",
+      "variablename": "Vastaanottokeskus_postitoimipaikka",
+      "conceptdef": "Vastaanottokeskuksen (AUTHORITY_OFFICE_ID) viimeisin voimassa oleva postitoimipaikka. Ei osaa huomioida jos sama keskus on toiminut eri osoitteissa eri aikoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

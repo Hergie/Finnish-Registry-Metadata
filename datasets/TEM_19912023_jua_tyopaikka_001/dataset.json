@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "TEM_19912023_jua_tyopaikka_001.xml",
+      "doi": "work_2016-10_2016-10-16_ain_0004",
+      "subject": "KEHA_Työpaikka: KEHA-keskuksen työnvälitystilaston aineisto",
+      "contentdescription": "Työllisyys, kehittämis- ja hallintokeskus (KEHA-keskus) on ylläpitänyt työhallinnon asiakaspalvelun tietojärjestelmää URAa. Ennen KEHA-keskusta tietojärjestelmää on ylläpitänyt Työ- ja elinkeinoministeriö yhdessä työ- ja elinkeinotoimistojen kanssa. Tutkijapalveluissa on käytössä kaksi KEHA:n aineistokokonaisuutta: \n\n1) Työnvälitystilaston aineistoja (osa-aineistot Työnhaku, Työnhakija, Työkunto, Työpaikka) \n2) muita URA-tietojärjestelmän aineistoja. (osa-aineistot Työtarjoukset avoimiin työpaikkoihin, Työtarjoukset palkkatukipaikkoihin, Suunnitelmat, Yhteydenottotavat, Palvelulinja, Sanssikortti, Maahanmuuttajien kielitaito, Kaikkien kielitaito) \n\nTyöpaikka-aineisto sisältää työpaikkailmoitusten perustietoja sekä tietoa työpaikkojen avoinnaolon kestoista seuraavissa  työnvälitystilaston tauluissa:\n\nYPAIKKA: Työpaikkailmoituksen perustiedot\nYPKEST: Työpaikkojen avoinnaolon kestot\n\nURA-tietojärjestelmä koostuu kolmesta rekisteristä: henkilöasiakasrekisteristä, työnantajarekisteristä sekä työvoimakoulutuksen järjestäjärekisteristä. URA-järjestelmän käyttöön siirryttiin työvoimatoimistoissa vuonna 1998. Tätä ennen vuodesta 1990 lähtien käytössä oli TYÖTIE-tietojärjestelmä.\n\nVuoteen 2022 asti tietoja päivitettäessä edeltävien vuosien tiedot on yhdistetty uusimpaan aineistoon. Samalla aineistosta on poistettu duplikaatit, jotka ovat syntyneet kun aineistossa jo olleelle keskeneräiselle jaksolle on saatu uutena havaintona tieto päättymisajankohdasta. Vuodesta 2023 alkaen aineisto käsittää vain KEHA:n tilastovuodelta toimittaman aineiston. Aineistoa yhdistettäessä on siis huomattava, että vuoden lopussa kesken olleet jaksot ovat mukana aineistossa merkinnällä 11.11.2222, sekä mahdollisesti myöhemmin todellisella päättymispäivätiedolla. Todellisten jaksojen lukumäärä on täten havaintojen määrää pienempi.\n\nAineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Tiedot päivittyvät Tilastokeskukseen tallennettuun tutkimusaineistoon kerran vuodessa.\n\n  \n",
+      "coveragetemporal": "1991-01-01 - 2024-12-31",
+      "published_day": "2025-04-15",
+      "variable_count": "25",
+      "orgname": "Työ- ja elinkeinoministeriö",
+      "coveragepopulation": "TE-toimistoihin ilmoitetut avoimet työpaikat 1991-2024",
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": "4285687",
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

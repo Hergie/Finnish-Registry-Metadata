@@ -1,0 +1,140 @@
+{
+  "variables": [
+    {
+      "identifier": "hid_e",
+      "variablename": "Osingon saajan suojattu henkilön yksilöivä tunniste ",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä. Korvaa muuttujan saa_shnro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saa_yrtun_s",
+      "variablename": "Osingon saajan suojattu y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mak_yrtun_s",
+      "variablename": "Osingon maksajan suojattu y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saalaji",
+      "variablename": "Saajalaji, henkilo/yritys",
+      "conceptdef": "Tieto siitä, onko saaja henkilötunnus- (1) vai yritystunnusmuotoinen (2)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi (aineistotunniste)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VEROVUOS",
+      "variablename": "Sen tilikauden päättymisvuosi, jolta osinko maksettu",
+      "conceptdef": "Tilikausi, jolta osinko maksettu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAKSVUOS",
+      "variablename": "Osingon maksuvuosi",
+      "conceptdef": "Vuosi, jolloin osinko maksettu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JAKTYYPP",
+      "variablename": "Jakavan yhtiön tyyppi",
+      "conceptdef": "Jakavan yhtiön tyyppi \nJ = julkisesti noteerattu yhtiö tai osuuskunta (2006-)\nM = muu yhtiö tai muu osuuskunta, jossa on vähintään 500 jäsentä\nS = muu osuuskunta, jossa on alle 500 jäsentä (2015-)\nP = pörssin päälistalla olevan yhtiö (2004-2005)\nN = I-, NM-, Pre-listalla tai ML-markkinalla oleva yhtiö (2004-2005)\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSINKO",
+      "variablename": "Osingonsaajalle maksettu määrä sentteinä/euroina",
+      "conceptdef": "Osingonsaajalle maksettu määrä sentteinä vuoteen 2017 asti ja alkaen vuodesta 2018 euroina. Vuodesta 2018 alkaen osuuskuntien ylijäämät erillisessä muuttujassa ylijaama (tätä ennen sisältyvät osinko-muuttujaan).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUORLAJI",
+      "variablename": "Suorituslaji",
+      "conceptdef": "Suorituslaji, saatavissa 2005-\n01 = Osinko\n02 = Korko (osuuskunta, säästöpankki, keskinäinen vakuutusyhtiö)\n03 = Reit-osingot asuntojen vuokraustoiminnasta \n04 = VOPR-osinko (2014 alkaen)\n05 = Osuuskunnan ylijäämä (2015 alkaen)\n06 = Osuuskunnan VOPR-ylijäämä (2015 alkaen))\n98 = Suorituslaji on tyhjä\n99 = Virhe suorituslajissa\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ENNPIDAT",
+      "variablename": "Osingoista toimitettu ennakonpidätys sentteinä/euroina",
+      "conceptdef": "Osingosta toimitettu ennakonpidätys sentteinä (2005-2017) tai euroina (2018-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSAKELKM",
+      "variablename": "Osakkeiden lukumäärä osingonjakopäätöspäivänä",
+      "conceptdef": "Osakkeiden lukumäärä osingonjakopäätöspäivänä (2005-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YELMYEL",
+      "variablename": "YEL MYEL-vakuutettu",
+      "conceptdef": "Onko YEL/MYEL-vakuutettu (1=on) (2005-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASUNTO",
+      "variablename": "Käytössä asunto, joka kuuluu yhtiön varallisuuteen ",
+      "conceptdef": "Onko osingonsaajalla tai perheellä käytettävissä asunto, joka kuuluu yhtiön varallisuuteen (1=on) (2005-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAHALAIN",
+      "variablename": "Osakkaalla rahalaina",
+      "conceptdef": "Onko osakkaalla rahalaina (1=on) (2005-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLIJAAMA",
+      "variablename": "Osuuskuntien ylijäämä (brutto)",
+      "conceptdef": "Vuodesta 2018 alkaen osuuskuntien ylijäämät ovat omana muuttujanaan. Aiemmin sisältyivät osinko-muuttujaan. Ylijäämiä ovat suorituslajit 05 ja 06.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LISMAARA",
+      "variablename": "Omaan pääomaan merkitty määrä",
+      "conceptdef": "Alkaen vuodesta 2018.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

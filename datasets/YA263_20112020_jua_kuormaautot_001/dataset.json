@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "YA263_20112020_jua_kuormaautot_001.xml",
+      "doi": "kttav_2017-01_2017-01-20_ain_0001",
+      "subject": "FIRM_TRANSP Tieliikenteen tavarankuljetukset (Perusaineisto), Kuorma-auton tiedot 2011-2020 (YA263)",
+      "contentdescription": "\nKotimaan tieliikenteen tavarankuljetusaineisto kuvaa Suomeen sekä yksityiseen että luvanvaraiseen liikenteeseen rekisteröityjen kuorma-autojen kuljetustoimintaa kotimaassa. Kyseessä on ainoa säännöllisesti tehtävä selvitys kotimaan tieliikenteen tavarankuljetuksista. Tilaston tiedot ovat vertailukelpoisia muiden EU-maiden vastaaviin tilastoihin.\n\nTilaston perusjoukon muodostavat Suomessa rekisteröidyt kokonaispainoltaan yli 3,5 tonnin kuorma-autot. Tutkimuksen ulkopuolelle jäävät armeijan ajoneuvot ja sellaiset kuorma-autot, joita ei ole ensisijaisesti tarkoitettu tavarankuljetukseen (esim. museoautot ja erikoisajoneuvot). Ahvenanmaalle rekisteröidyt kuorma-autot eivät ole mukana tilastoinnissa. Tilastoyksikkönä on kuorma-auto.\n\nAineisto perustuu neljännesvuosittain sähköisenä tutkimuksena tehtävään otostutkimukseen. Otos on jaettu kahdeksaan ositteeseen käyttäen hyväksi rekisteritietoja kuorma-auton käytöstä joko yksityisessä tai luvanvaraisessa liikenteessä sekä tietoa kuorma-autotyypistä. Vuosittain kysely osoitetaan yhteensä 10 000 kuorma-auton haltijalle, joilta pyydetään tietoja kuorma-autosta ja sen käytöstä kolmen tai neljän peräkkäisen tutkimuspäivän aikana. Aineiston tiedot perustuvat kyselyn perusteella saatuihin kuorma-autojen matkatietoihin, jotka voidaan tilastollisin menetelmin ja painokertoimia käyttämällä korottaa vastaamaan koko otoskehikkoa ja vuosineljännestä. Otos on painotettu ammattimaisiin varsinaisiin perävaunuyhdistelmiin, koska näiden kuorma-autojen merkitys on suurin kuljetussuoritteen estimoimisessa.\n\nTehtävissä analyyseissa on syytä ottaa huomioon, että kyseessä on otospohjaisella kyselytutkimuksella kerätty aineisto, joka ei ole kaiken kattava. Niinpä esimerkiksi vaarallisten aineiden kuljetuksista tavoitetaan vain osa. Aineiston pääasiallinen tarkoitus on erilaisten suoritteiden tason estimointi koko maan tasolla, joten sen käyttö kovin yksityiskohtaisiin tarkasteluihin ei ole suositeltavaa.\n \nTieliikenteen tavarankuljetusten perusaineisto jakautuu kahteen osaan: kuorma-auton tiedot sekä ajettujen matkojen ja tavaroiden tiedot. Aineistot voidaan yhdistää vuosi- ja järjestysnumero (jnro) muuttujilla. Ennen yhdistämistä aineistot on järjestettävä näiden molempien muuttujien mukaan.\n\nMikäli aineistosta halutaan laskea Tilastokeskuksen tilastoja vastaavat kuljetussuoritteet, on otettava huomioon kaksi muuttujaa: matkatyyppi (matkaty) sekä samanlaisten matkojen lukumäärä (mlkm).\n\nKuljetussuoritteen laskennan aluksi tavaramäärä-muuttuja täytyy korottaa painokertoimella (tmaara*kerroin). Kuljetussuoritteen laskemisessa huomioidaan siis tavaramassan (tmaara) ja matkan pituuden (mpit) lisäksi myös samanlaisten matkojen lukumäärä sekä matkatyyppi. Jos matkatyyppi = 3, niin kuljetussuorite saa kertoimen 0.5. Samanlaisten matkojen lukumäärä taas lisätään sellaisenaan laskukaavaan:\n\nIF matkaty=3 -> kuljetussuorite (milj. tkm) = kerroin*tmaara*mpit*mlkm*0.5/1 000 000 000\nELSE -> \t   kuljetussuorite = kerroin*tmaara*mpit*mlkm /1 000 000 000\n\nTilastovuoden 2020 päivityksessä on korvattu suojatut henkilötunnukset suojatuilla Tilastokeskuksen henkilönumeroilla vuosina 2011-2020. \n",
+      "coveragetemporal": "2011-01-01 - 2020-12-31",
+      "published_day": "2021-12-09",
+      "variable_count": "27",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Suomessa sekä yksityiseen että luvanvaraiseen liikenteeseen rekisteröityjen kuorma-autojen kotimaan kuljetustoiminta. Tilastoyksikkönä on kuorma-auto.",
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": "kuljetus,kuljetussuoritteet,kuorma-autoliikenne,kuorma-autot,liikenne,liikennesuoritteet,tavaraliikenne,tieliikenne",
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

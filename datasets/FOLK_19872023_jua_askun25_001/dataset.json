@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872023_jua_askun25_001.xml",
+      "doi": "work_2019-02_2019-02-28_ain_0002",
+      "subject": "FOLK asuntokunta",
+      "contentdescription": "FOLK-henkilöaineiston asuntokuntamoduulissa on tietoja asuntoväestöön kuuluvien henkilöiden asuinoloista ja asuntokunnittain summattuja tulotietoja, jotka on poimittu Tilastokeskuksen tulonjakotilaston aineistosta ja henkilöveroaineistosta. Aineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujan kuvaukseen vuosiluvuilla, esimerkiksi tulonjakotilaston tietoja on vasta vuodesta 1995 lähtien. \n\nTulonjakotilaston aggregaattimuuttujien (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) kuvauksissa ei ole lueteltu yksittäisiä tuloeriä. Nämä muuttujat muodostuvat vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Yksittäiset tuloerät on kuitenkin mainittu aineistossa olevien saatujen tulonsiirtojen alaerien, ns. ESSPROS -etuuksien kuvauksissa. Toimeentuloturvana maksettujen etuuksien luokittelu perustuu Euroopan yhteisöjen tilastoviraston, Eurostatin ESSPROS-järjestelmän mukaiseen sosiaalimenojen ja sosiaalietuuksien ryhmittelyyn (The European System of integrated Social Protection Statistics, ESSPROS). ESSPROS-etuuksia ovat sairaus ja terveys, toimintarajoitteisuus, vanhuus, leskien ja muut omaiset, lapsiperheet, työttömyys, asuminen, muu toimeentuloturva. Opintoetuudet eivät lukeudu ESSPROS-etuuksiin, mutta tulonjakotilastossa ne ovat osana kotitalouksien saamia toimeentuloturvaetuuksia (SAATUSI-tieto). \n\nTulonjakotilastossa muodostetut tulomuuttujat ovat mahdollisimman tarkasti pyritty muokkaamaan vertailukelpoisiksi eri vuosille. Verottajan aineistosta otetut tiedot eivät ole täysin vertailukelpoisia yli ajan. Vertailukelpoisuutta heikentää verotukseen tehdyt muutokset, joista merkittävin on vuoden 2005 verouudistus, jonka seurauksena esim. ansiotulot ja pääomatulot valtionverotuksessa sekä tulovero ansio- tai pääomatulosta eivät ole täysin vertailukelpoisia tietoja vuosina 1995-2004 ja vuodesta 2005 eteenpäin.\n\nAineisto on tarkoitettu FIONA-etäpalvelun kautta luovutettavaksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.\n\nVimeisimmät FOLK asuntokunta-aineistot ovat kansiossa FOLK_ASKUN_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_askun_\"vuosi\"_1.\n\nVanhat FOLK asuntokunta -aineistot ovat FIONAssa seuraavissa kansioissa: \nTotaaliaineisto vuosille 2011-2019: FOLK_askun_11a \nTotaaliaineisto vuosille 2001-2010: FOLK_askun_0110a \nTotaaliaineisto vuosille 1987-2000: FOLK_askun_8700a \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n",
+      "coveragetemporal": "1987-12-31 - 2023-12-31",
+      "published_day": "2025-05-23",
+      "variable_count": "31",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut asuntoväestö",
+      "resourcerelation_1": "Tilastokeskuksen tulonjaon kokonaistilasto, Verohallinnon rekisterit, Tilastokeskuksen henkilötietovarasto",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

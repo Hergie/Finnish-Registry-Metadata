@@ -1,0 +1,300 @@
+{
+  "variables": [
+    {
+      "identifier": "Vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistus",
+      "variablename": "Omistusmuoto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kokoluokka",
+      "variablename": "Kokoluokka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kunta",
+      "variablename": "Kunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kunta16",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Maakunta",
+      "variablename": "Maakunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NUTS2",
+      "variablename": "NUTS-alue",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Toimiala",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TolK",
+      "variablename": "Toimiala",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "verohOikMuoto",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kirjanpitomuoto",
+      "variablename": "Kahdenkertainen kirjanpito",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Paino",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkmaara",
+      "variablename": "Henkilöstön lukumäärä htv",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Liikevaihto / tuotot ammatista yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajHtv",
+      "variablename": "Palkansaajat henkilötyövuosina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ku_HenkilostoYht",
+      "variablename": "Henkilöstökulut yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LiikToimTuotYht",
+      "variablename": "LIIKETOIMINNAN TUOTOT YHTEENSÄ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EUMukTuotJalostusarvo",
+      "variablename": "EU:n mukainen tuotannon jalostusarvo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KayttokateOik",
+      "variablename": "KÄYTTÖKATE (oikaistu)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RahTulos",
+      "variablename": "Rahoitustulos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Nettotulos",
+      "variablename": "NETTOTULOS",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kokonaistulos",
+      "variablename": "KOKONAISTULOS",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "k_TilPaatSiirtKertYht",
+      "variablename": "TILINPÄÄTÖSSIIRTOJEN KERTYMÄ YHTEENSÄ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AineellinenKayttoOmLis",
+      "variablename": "Aineellinen käyttöomaisuus: lisäykset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AineellinenKayttoOmVah",
+      "variablename": "Aineellinen käyttöomaisuus: vähennykset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PaaomanTuotto",
+      "variablename": "Pääoman tuotto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ops_OmaPaaomaYht",
+      "variablename": "Oma pääoma yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VierasPaaomYht",
+      "variablename": "Vieras pääoma yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TaseOik",
+      "variablename": "Oikaistu tase",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VastaavaYht",
+      "variablename": "Vastaavaa yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "er_SaadEnnLyhytAikVel",
+      "variablename": "Saadut ennakot taseen lyhytaikaisista veloista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "er_SaadEnnPitkaAikVel",
+      "variablename": "Saadut ennakot taseen pitkäaikaisista veloista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "er_Korollinen",
+      "variablename": "Korollinen vieras pääoma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vas_RahoitOmais",
+      "variablename": "Rahoitusomaisuus yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ves_LyhytaikYhteens",
+      "variablename": "Lyhytaikaiset velat yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "k_PakVarYht",
+      "variablename": "PAKOLLISET VARAUKSET YHTEENSÄ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

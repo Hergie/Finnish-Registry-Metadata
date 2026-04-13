@@ -1,0 +1,228 @@
+{
+  "variables": [
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sraknrovuosi",
+      "variablename": "Suojattu rakennusnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajHtv",
+      "variablename": "Palkansaajat henkilötyövuosina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tol2008Vuosi",
+      "variablename": "Toimipaikan toimiala (TOL2008)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrittajat",
+      "variablename": "Yrittäjät henkilötyövuosina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Liikevaihto / tuotot ammatista yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LiikevaihtoLahde",
+      "variablename": "Liikevaihtotiedon lähde",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SijaintikuntaVuosi",
+      "variablename": "Sijaintikunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ToimAikaTilikausi",
+      "variablename": "Toiminta-aika tilikaudella",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Palkkasumma",
+      "variablename": "Palkkasumma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkmaara",
+      "variablename": "Henkilöstömäärä, johdettu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajKeskim",
+      "variablename": "Palkansaajat keskimäärin",
+      "conceptdef": "Laatuvaraus 2014.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VuositilastonYksikko",
+      "variablename": "Vuositilaston yksikkö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AlPvm",
+      "variablename": "Aloitusaika",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LopPvm",
+      "variablename": "Lopetusaika",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OHI",
+      "variablename": "Ohitustunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimipTyyppi",
+      "variablename": "Toimipaikkatyyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apuToiminTol2008",
+      "variablename": "Aputoiminnan toimiala (TOL2008)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OmtyyppiVuosi",
+      "variablename": "Yrityksen omistajatyyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Alkuperamaa",
+      "variablename": "Yrityksen alkuperämaa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLLVY",
+      "variablename": "Liikevaihdon suuruusluokka",
+      "conceptdef": "Huom. vuoteen 2012 asti SLLVT",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Huom. vuoteen 2012 asti SLHKT",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY2",
+      "variablename": "Henkilöstön suuruusluokka EU-luokituksen mukaan",
+      "conceptdef": "Huom. vuoteen 2012 asti SLHKT2",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08yr",
+      "variablename": "Yrityksen toimiala (TOL2008)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "verohoikmuoto",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

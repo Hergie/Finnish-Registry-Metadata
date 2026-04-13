@@ -1,0 +1,1060 @@
+{
+  "variables": [
+    {
+      "identifier": "TILV",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUVUOSI",
+      "variablename": "Hakuvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKAUSI",
+      "variablename": "Hakukausi",
+      "conceptdef": "K = kevät \nS = syksy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUKSEN_ALKAMISVUOSI",
+      "variablename": "Koulutuksen alkamisvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUKSEN_ALKAMISKAUSI",
+      "variablename": "Koulutuksen alkamislukukausi",
+      "conceptdef": "K = kevät \nS = syksy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAUN_KOHDEJOUKKO",
+      "variablename": "Haun kohdejoukko",
+      "conceptdef": "10 = Aikuiskoulutus (2018-)\n11 = Ammatillinen koulutus ja lukiokoulutus (2017-)\n17 = Perusopetuksen jälkeinen valmistava koulutus (2017-)\n18 = Vapaan sivistystyön koulutus (2018-)\n20 = Erityisopetuksena järjestettävä ammatillinen koulutus (2017-)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEIDEN_PRIORISOINTI",
+      "variablename": "Hakukohteiden priorisointi",
+      "conceptdef": "1 = haussa hakutoiveiden priorisointi käytössä (=hakutoiveiden järjestys vaikuttaa)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "haku_oid_s",
+      "variablename": "Suojattu haun yksilöintitunnus",
+      "conceptdef": "Yksilöi haut vuodesta 2017 alkaen. Tieto aiemmilta vuosilta ei yksilöi hakuja eikä\nole vertailukelpoinen vuoden 2017 ja myöhempien vuosien tietojen kanssa (toistaiseksi).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKU",
+      "variablename": "Haun nimi",
+      "conceptdef": "Vuodesta 2014 alkaen:\n1 = Ammatillisen koulutuksen ja lukiokoulutuksen kevään yhteishaku\n2 = Ammatillisen koulutuksen ja lukiokoulutuksen syksyn yhteishaku\n3 = Lisähaku kevään yhteishaussa vapaaksi jääneille opiskelupaikoille\n4 = Lisähaku syksyn yhteishaussa vapaaksi jääneille opiskelupaikoille\n5 = Perusopetuksen jälkeisen valmistavan koulutuksen kevään haku\n6 = Perusopetuksen jälkeisen valmistavan koulutuksen kevään lisähaku\n7 = Erityisopetuksena järjestettävän ammatillisen koulutuksen kevään haku\n8 = Erityisopetuksena järjestettävän ammatillisen koulutuksen kevään lisähaku\nVuodesta 2017 alkaen:\n2 = Ammatillisen koulutuksen syksyn yhteishaku \nVuodesta 2018 alkaen:\n9 = Lisähaku lukiokoulutukseen kevään yhteishaussa vapaaksi jääneille opiskelupaikoille\n10 = Lisähaku kymppiluokalle ja lukioon valmistavaan koulutukseen\n11 = Perusopetuksen jälkeisen valmistavan koulutuksen haku keväällä alkavaan koulutukseen\n12 = Haku vaativana erityisenä tukena järjestettävään ammatilliseen koulutukseen, kevät\n13 = Erityisopetuksen järjestettävän ammatillisen koulutuksen haku keväällä alkavaan koulutukseen\nVuodesta 2020 alkaen:\n14 = Lisähaku kymppiluokalle\nVuodesta 2022 alkaen:\n15 = Perusopetuksen jälkeisen koulutuksen yhteishaku 2022\n\nAiempina vuosina esiintynyttä luokkaa 4 ei enää esiinny muuttujassa vuodesta 2017 alkaen. Vuodesta 2018 alkaen tietoa ei ole kaikilla havainnoilla ja muuttujan sisältö vaihtelee vuodesta toiseen. Sisällön tarkistamiseen  ja puuttuvien tietojen täydentämiseen voi käyttää aineiston muita muuttujia. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKU_SV",
+      "variablename": "Haun nimi ruotsiksi",
+      "conceptdef": "Vuodesta 2014 alkaen:\n1 = Gemensam ansökan till yrkes- och gymnasieutbildning, våren\n2 = Gemensam ansökan till yrkes- och gymnasieutbildning, hösten\n3 = Tilläggsansökan till lediga platser i vårens gemensamma ansökan\n4 = Tilläggsansökan till lediga platser i höstens gemensamma ansökan\n5 = Ansökan till förberedande utbildningar efter grundskolan, våren\n6 = Tilläggsansökan till förberedande utbildningar efter grundskolan, våren\n7 = Ansökan till yrkesinriktad utbildning som anordnas som specialundervisning, våren\n8 = Tilläggsansökan till yrkesinriktad utbildning som anordnas som specialundervisning, våren\nVuodesta 2017 alkaen:\n2 = Gemensam ansökan till yrkesutbildning, hösten\nVuodesta 2018 alkaen:\n9 = Tilläggsansökan till lediga gymnasieplatser i gemensam ansökan, våren\n10 = Tilläggsansökan till tionde klassen och utbildning son förbereder för gymnasium\n11 = Ansökan till förberedande utbildningar efter grundskolan som börjar på våren\n12 = Ansökan till yrkesutbildning med krävande särskilt stöd, våren \n13 = Ansökan till yrkesinriktad specialundervisning som börjar på våren\nVuodesta 2020 alkaen:\n14 =  Tilläggsansökan till tionde klassen\nVuodesta 2022 alkaen:\n15= Gemensamt ansökan om eftergymnasial utbildning 2022\n\nAiempina vuosina esiintynyttä luokkaa 4 ei enää esiinny muuttujassa vuodesta 2017 alkaen. Vuodesta 2018 alkaen tietoa ei ole kaikilla havainnoilla ja muuttujan sisältö vaihtelee vuodesta toiseen. Sisällön tarkistamiseen  ja puuttuvien tietojen täydentämiseen on suositeltavaa käyttää aineiston muita muuttujia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKU_EN",
+      "variablename": "Haun nimi englanniksi",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUTYYPPI_KOODI",
+      "variablename": "Hakutyyppi",
+      "conceptdef": "01 = varsinainen haku \n03 = lisähaku",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUTAPA_KOODI",
+      "variablename": "Hakutapa",
+      "conceptdef": "1 = yhteishaku \n2 = erillishaku (2017-) \n3 = jatkuva haku (2017-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKEMUS_OID_S",
+      "variablename": "Suojattu hakemuksen yksilöintitunnus",
+      "conceptdef": "Vuodesta 2017 alkaen yksilöi hakemuksen tapauksissa, joissa yhdellä hakijalla on useampi hakemus samana hakuvuonna. Tieto aiemmilta vuosilta ei yksilöi hakemuksia (toistaiseksi).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKEMUS_TILA",
+      "variablename": "Hakemuksen tila",
+      "conceptdef": "ACTIVE = aktiivinen \nINCOMPLETE = keskeneräinen \n\nMuuttujan pohjalta muodostettu numeerinen muuttuja HAKEMUS_TILATK.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKEMUS_TILATK",
+      "variablename": "Hakemuksen tila (koodattu TK:ssa)",
+      "conceptdef": "1 = aktiivinen \n2 = keskeneräinen \n\nMuodostettu muuttujan HAKEMUS_TILA pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOOID_S",
+      "variablename": "Suojattu henkilön yksilöintitunnus ODW:ssä",
+      "conceptdef": "Vuodesta 2017 alkaen yksilöi henkilön ODW:ssä. Tieto aiemmilta vuosilta ei yksilöi henkilöitä eikä ole vertailukelpoinen vuoden 2017 ja myöhempien vuosien tietojen kanssa (toistaiseksi).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOPPIJANUMERO",
+      "variablename": "Suojattu oppijanumero",
+      "conceptdef": "Tieto vain vuodelta 2015",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUKUPUOLI_KOODI",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1 = mies \n2 = nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "Ikä",
+      "conceptdef": "Ikä vuoden lopussa 1 vuoden tarkkuudella. Alle 13-vuotiaat on viety puuttuviksi. \nbl = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTIMAA",
+      "variablename": "Kotimaa",
+      "conceptdef": "ISO 3166-N maakoodi \n999 = muu tai tuntematon. \n\nVuoden 2014 tieto hakuaineistosta\n\n. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKIELI",
+      "variablename": "Äidinkieli",
+      "conceptdef": "ISO 639-standardin mukainen 2-merkkinen kielikoodi \n99 = muu tai tuntematon \n\nTieto ensisijaisesti väestörekisteristä. Täydennetty hakuaineiston kielikoodi-muuttujasta henkilöille, joille ei löytynyt tietoa väestötietojärjestelmästä. Vuoden 2014 tieto hakuaineistosta. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKIELI_LK",
+      "variablename": "Äidinkieli (luokiteltu)",
+      "conceptdef": "fs = suomi, saame \nsv = ruotsi \n99 = muu tai tuntematon. \n\nTieto vuoteen 2016 asti. Tieto ainoastaan karkeistamattomassa aineistossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIELIKOODI",
+      "variablename": "Äidinkieli alkuperäisessa aineistossa",
+      "conceptdef": "ISO 639-standardin mukainen 2-merkkinen kielikoodi\n, 99 = muu tai tuntematon\n. \nTieto vuodesta 2017 alkaen\n. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIELITYYPPI",
+      "variablename": "Äidinkieli pitkä alkuperäisessä aineistossa",
+      "conceptdef": "Tieto vuodesta 2017 alkaen. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSAL",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "ISO 3166-N maakoodi, itsenäiset valtiot \n999 = muu tai tuntematon. \n\nTieto ensisijaisesti VRK:sta, toissijaisesti hakuaineiston kansalaisuus-tieto. Vuoden 2014 tieto hakuaineistosta. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_KANSALAISUUS",
+      "variablename": "Hakijan kansalaisuus",
+      "conceptdef": "Hakijan kansalaisuus alkuperäisessä aineistossa. \n\nTieto vuodesta 2017 alkaen. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_KANSALAISUUS2",
+      "variablename": "Hakijan kansalaisuus 2",
+      "conceptdef": "Hakijan kansalaisuus alkuperäisessä aineistossa\n\n. Tieto vuodesta 2018 alkaen. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_KANSALAISUUS3",
+      "variablename": "Hakijan kansalaisuus 3",
+      "conceptdef": "Hakijan kansalaisuus alkuperäisessä aineistossa. \n\nTieto vuodesta 2017 alkaen. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKUN",
+      "variablename": "Asuinkunta",
+      "conceptdef": "Asuinkunta kuntaluokituksella tilastovuosi + 1 (muuttuja tilvaskun noudattaa tilastovuoden luokitusta). \n999 = tuntematon \n\nTieto ensisijaisesti VRK:sta, toissijaisesti hakuaineiston muokattu kotikunta-tieto tilastovuoden lopussa. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUN",
+      "variablename": "Tilastovuoden asuinkunta",
+      "conceptdef": "Asuinkunta tilastovuoden kuntaluokituksella (muuttuja askun noudattaa kuntaluokitusta tilastovuosi +1). \n999 = tuntematon \n\nTieto ensisijaisesti VRK:sta, toissijaisesti hakuaineiston kotikunta-tieto tilastovuoden lopussa. Vuoden 2014 tieto hakuaineistosta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_KOTIKUNTA",
+      "variablename": "Hakijan kotikunta",
+      "conceptdef": "TK:n tilastovuoden kuntaluokitus\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POHJAKOULUTUSTK",
+      "variablename": "Pohjakoulutuskoodi",
+      "conceptdef": "0 = Tuntematon\n00 = Ulkomailla suoritettu koulutus \n01 = Perusopetuksen oppimäärä \n02 = Perusopetuksen osittain yksilöllistetty oppimäärä \n03 = Perusopetuksen yksilöllistetty oppimäärä, opetus järjestetty toiminta-alueittain \n06 = Perusopetuksen pääosin tai kokonaan yksilöllistetty oppimäärä \n07 = Oppivelvollisuuden suorittaminen keskeytynyt (ei päättötodistusta) \n09 = Lukion päättötodistus tai IB-, EB- tai RP-tutkinnon päättötodistus \n\nAlkuperäisen aineiston muuttujaan POHJAKOULUTUS  (2014-2016) ja POHJAKOULUTUS_2ASTE (2017-) lisätty TK:ssa etunolla, jotta voidaan yhdistää korkeakoulujen hakuaineiston kanssa.\n Ei mukana vuoden 2022 aineistossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAATTOLUOKKA",
+      "variablename": "Päättöluokka",
+      "conceptdef": "9 = 9. luokka \n10 = 10. luokka \nA = ammattistartti \nAK = ammatillinen peruskoulutus \nL = lukio \nM = maahanmuuttajien ammatilliseen peruskoulutukseen valmistava koulutus \nML = maahanmuuttujien lukiokoulutukseen valmistava koulutus \nV = vammaisten valmentava ja kuntouttava opetus ja ohjaus \nVALMA = ammatilliseen peruskoulutukseen valmentava koulutus \nTELMA = työhön ja itsenäiseen elämään valmentava koulutus \n99 = tuntematon \n\nTieto vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YKSILOITY",
+      "variablename": "Yksilöity",
+      "conceptdef": "Muuttuja saa arvon true\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOMAILLA_SUORITETUN_TOISEN_AST",
+      "variablename": "Ulkomailla suoritetun toisen asteen tutkinnon suoritusmaa",
+      "conceptdef": "Tieto vain vuodelta 2017",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERUSOPETUKSEN_OPETUSKIELI",
+      "variablename": "Perusopetuksen opetuskieli",
+      "conceptdef": "2-merkkinen kielikoodi \nxx = muu kieli \n98 = ei virallinen kieli \n99 = tuntematon\n\nTieto vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_KOULUSIVISTYSKIELI",
+      "variablename": "Hakijan koulusivistyskieli",
+      "conceptdef": "Kielikoodi\nde = saksa\nen = englanti\nfi = suomi\nse = saame\nsv = ruotsi\n\nSisältää koodeja, joille ei selitettä.\nTieto vuodesta 2017 alkaen. Ei mukana v. 2022 aineistossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERUSOPETUKSEN_PAATTOVUOSI",
+      "variablename": "Perusopetuksen päättövuosi",
+      "conceptdef": "Todistuksen saantivuosi \nbl = tuntematon\n\nTieto vuoteen 2018 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUTOIVE",
+      "variablename": "Hakutoive",
+      "conceptdef": "Hakukohteiden järjestysnumero 1 - 5",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hakukohteen_organisaatio_oid_s",
+      "variablename": "Suojattu hakukohteen organisaation yksilöintitunnus",
+      "conceptdef": "Yksilöi hakukohteet vuodesta 2017 alkaen. Tieto aiemmilta vuosilta ei yksilöi hakukohteita eikä siten ole vertailukelpoinen vuoden 2017 ja myöhempien vuosien tietojen kanssa (toistaiseksi).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_OPPILAITOS_KOODI_S",
+      "variablename": "Suojattu hakukohteen oppilaitostunnus",
+      "conceptdef": "Suojatun hakukohteen oppilaitostunnuksen avulla oppilaitoksen voi yhdistää muihin Tilastokeskuksen aineistoihin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hakukohteen_opetuspiste_s",
+      "variablename": "Suojattu hakukohteen opetuspistekoodi",
+      "conceptdef": "Tieto vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hakukohteen_oid_s",
+      "variablename": "Suojattu hakukohteen yksilöintitunnus",
+      "conceptdef": "Mahdollistaa tietojen yhdistämisen muihin OID-muuttujiin vuodesta 2017 alkaen. Tieto aiemmilta vuosilta ei ole vertailukelpoinen vuoden 2017 ja myöhempien vuosien OID-muuttujien kanssa (toistaiseksi). Hakukohteen yksilöintiin voi käyttää muuttujaa SHAKUKOHTEEN_KOODI.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KOODI_s",
+      "variablename": "Suojattu hakukohteen koodi",
+      "conceptdef": "Yksilöi hakukohteen (ei mukana v. 2022 aineistossa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHDE_SV",
+      "variablename": "Hakukohteen nimi ruotsiksi",
+      "conceptdef": "Tieto vuoteen 2016 asti.\nVrt. muuttujaan HAKUKOHTEEN_NIMI_SV vuodesta 2017 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_NIMI",
+      "variablename": "Hakukohteen nimi",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_NIMI_SV",
+      "variablename": "Hakukohteen nimi ruotsiksi",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_NIMI_EN",
+      "variablename": "Hakukohteen nimi englanniksi",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KOULUTUSKOODI",
+      "variablename": "Hakukohteen koulutuskoodi",
+      "conceptdef": "TK:n tilastovuoden koulutusluokituksen koulutuskoodit \n\n999999 = tuntematon \nLisäksi tutkintoon johtamattomat koulutukset, joita ei löydy koulutusluokituksesta: \n020075 = Perusopetuksen lisäopetus \n038411= Kotitalousopetus (talouskoulu) \n039993 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA) \n039994 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA) erityisopetuksena \n039997 = Maahanmuuttajien ja vieraskielisten lukiokoulutukseen valmistava koulutus \n039999 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n\nTieto vuoteen 2016 asti. \nVuodesta 2017 alkaen ks. muuttuja HAKUK_KOULK1. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUK_KOULK1",
+      "variablename": "Hakukohteen koulutuskoodi 1",
+      "conceptdef": "TK:n koulutusluokituksen koulutuskoodit\n\nMuuttujissa HAKUK_KOULK1 - HAKUK_KOULK5 on tietoja, jos samalla hakukohteella on useita koulutuskoodeja. Pääsääntöisesti käytetään koulutuskooditietona HAKUK_KOULK1-muuttujan tietoa.\n\nLisäksi tutkintoon johtamattomat koulutukset, joita ei löydy koulutusluokituksesta: \n020075 = Perusopetuksen lisäopetus\n999901 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA)\n999902 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena\n999903 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUK_KOULK2",
+      "variablename": "Hakukohteen koulutuskoodi 2",
+      "conceptdef": "TK:n koulutusluokituksen koulutuskoodit\n\nMuuttujissa HAKUK_KOULK1 - HAKUK_KOULK5 on tietoja, jos samalla hakukohteella on useita koulutuskoodeja. Pääsääntöisesti käytetään koulutuskooditietona HAKUK_KOULK1-muuttujan tietoa.\n\nLisäksi tutkintoon johtamattomat koulutukset, joita ei löydy koulutusluokituksesta: \n020075 = Perusopetuksen lisäopetus\n999901 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA)\n999902 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena\n999903 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUK_KOULK3",
+      "variablename": "Hakukohteen koulutuskoodi 3",
+      "conceptdef": "TK:n koulutusluokituksen koulutuskoodit\n\nMuuttujissa HAKUK_KOULK1 - HAKUK_KOULK5 on tietoja, jos samalla hakukohteella on useita koulutuskoodeja. Pääsääntöisesti käytetään koulutuskooditietona HAKUK_KOULK1-muuttujan tietoa.\n\nLisäksi tutkintoon johtamattomat koulutukset, joita ei löydy koulutusluokituksesta: \n020075 = Perusopetuksen lisäopetus\n999901 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA)\n999902 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena\n999903 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUK_KOULK4",
+      "variablename": "Hakukohteen koulutuskoodi 4",
+      "conceptdef": "TK:n koulutusluokituksen koulutuskoodit\n\nMuuttujissa HAKUK_KOULK1 - HAKUK_KOULK5 on tietoja, jos samalla hakukohteella on useita koulutuskoodeja. Pääsääntöisesti käytetään koulutuskooditietona HAKUK_KOULK1-muuttujan tietoa.\n\nLisäksi tutkintoon johtamattomat koulutukset, joita ei löydy koulutusluokituksesta: \n020075 = Perusopetuksen lisäopetus\n999901 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA)\n999902 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena\n999903 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUK_KOULK5",
+      "variablename": "Hakukohteen koulutuskoodi 5",
+      "conceptdef": "TK:n koulutusluokituksen koulutuskoodit\n\nMuuttujissa HAKUK_KOULK1 - HAKUK_KOULK5 on tietoja, jos samalla hakukohteella on useita koulutuskoodeja. Pääsääntöisesti käytetään koulutuskooditietona HAKUK_KOULK1-muuttujan tietoa.\n\nLisäksi tutkintoon johtamattomat koulutukset, joita ei löydy koulutusluokituksesta: \n020075 = Perusopetuksen lisäopetus\n999901 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA)\n999902 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena\n999903 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUK_SIS_KOULK1",
+      "variablename": "Hakukohteeseen sisältyvät koulutuskoodit",
+      "conceptdef": "Hakukohteeseen sisältyvät koulutuskoodit  \n\nTietoa ei ole kaikilla. Hakukohteen koulutuskoodin saa muuttujasta HAKUK_KOULK1.\nTieto vuodesta 2017 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLNIMI",
+      "variablename": "Hakukohteen koulutuskoodin suomenkielinen lyhenne",
+      "conceptdef": "bl = tuntematon (ei tutkintoon johtamattomalla koulutuksella)\n\nLähde koulutusluokitus, pohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KUNTA_KAYNTIOSOITE",
+      "variablename": "Hakukohteen käyntiosoitteen kuntakoodi",
+      "conceptdef": "TK:n tilastovuoden kuntaluokitus\n999 = tuntematon\n\nTieto vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KUNTA_POSTIOSOITE",
+      "variablename": "Hakukohteen postiosoitteen kuntakoodi",
+      "conceptdef": "TK:n tilastovuoden kuntaluokitus\n999 = tuntematon\n\nTieto vuoteen 2015 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ORGANISAATION_KUNTAKOODI",
+      "variablename": "Organisaation kuntakoodi",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KIELI",
+      "variablename": "Hakukohteen opetuskieli",
+      "conceptdef": "2-merkkinen kielikoodi \nxx = muu kieli \n98 = ei virallinen kieli \n99 = tuntematon\n\nTieto vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUKSEN_OPETUSKIELI1",
+      "variablename": "Koulutuksen opetuskieli",
+      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n Tieto vuodesta 2017 alkaen. Vuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: \"Kaikki kielet, joilla koulutus järjestetään\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KOULUTUSTYYPPI",
+      "variablename": "Hakukohteen koulutustyyppi",
+      "conceptdef": "AMMATILLINEN_PERUSKOULUTUS\nAMM_OHJAAVA_JA_VALMISTAVA_KOUL\nLUKIOKOULUTUS\nMAAHANM_AMM_VALMISTAVA_KOULUTU\nMAAHANM_LUKIO_VALMISTAVA_KOULU\nPERUSOPETUKSEN_LISAOPETUS\nVALMENTAVA_KUNTOUTTAVA_OPET\nTUNTEMATON \n\nMuuttujan pohjalta muodostettu numeerinen muuttuja HAKUKOHTEEN_KOULUTUSTYYPPITK.\nTieto vuoteen 2016 asti. Numeerinen muuttuja HAKUKOHTEEN_KOULUTUSTYYPPITK saatavilla myös vuoden 2016 jälkeen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKUKOHTEEN_KOULUTUSTYYPPITK",
+      "variablename": "Hakukohteen koulutustyyppi (koodattu TK:ssa)",
+      "conceptdef": "2014\n\n01 = Ammatillinen peruskoulutus\n02 = Lukiokoulutus\n03 = Maahanmuuttajien ja vieraskielisten lukiokoulutukseen valmistava koulutus\n06 = Maahanmuuttajien ammatilliseen peruskoulutukseen valmistava koulutus\n09 = Ammatilliseen peruskoulutukseen ohjaava ja valmistava koulutus\n11 = Perusopetuksen lisäopetus\n\n2015\n\n01 = Ammatillinen peruskoulutus\n02 = Lukiokoulutus\n03 = Maahanmuuttajien ja vieraskielisten lukiokoulutukseen valmistava koulutus\n04 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA) (alkup. aineistossa VALMENTAVA_JA_KUNTOUTTAVA_OPET)\n11 = Perusopetuksen lisäopetus\n12= Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA) (poimittu hakukohteen koulutuskoodilla, alkup. aineistossa TUNTEMATON)\n13= Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena (poimittu hakukohteen koulutuskoodilla, alkup. aineistossa TUNTEMATON)\n14 = Kotitalousopetus (talouskoulu, alkup. aineistossa AMMATILLINEN_PERUSKOULUTUS)\n\n2016\n\n01 = Ammatillinen peruskoulutus\n02 = Lukiokoulutus\n03 = Maahanmuuttajien ja vieraskielisten lukiokoulutukseen valmistava koulutus\n04 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n11 = Perusopetuksen lisäopetus\n12= Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA) (poimittu hakukohteen koulutuskoodilla, alkup. aineistossa TUNTEMATON)\n13= Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA), erityisopetuksena (poimittu hakukohteen koulutuskoodilla, alkup. aineistossa TUNTEMATON)\n\n2017 - 2022\n\n01 = Ammatillinen perustutkinto (2017-2018)\n02 = Lukiokoulutus\n04 = Ammatillinen perustutkinto erityisopetuksena\n05 = Työhön ja itsenäiseen elämään valmentava koulutus (TELMA)\n06 = Perusopetuksen lisäopetus\n09 = Maahanmuuttajien ja vieraskielisten lukiokoulutukseen valmistava koulutus\n10 = Vapaan sivistystyön koulutus (2018-)\n11 = Ammattitutkinto (2018-)\n12 = Erikoisammattitutkinto (2018-)\n13 = Ammatillinen perustutkinto näyttötutintona (2018)\n18 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA)\n19 = Ammatilliseen peruskoulutukseen valmentava koulutus (VALMA) erityisopetuksena\n26 = Ammatillinen perustutkinto (reformin mukainen) (2018)\n\nMuodostettu muuttujan HAKUKOHTEEN_KOULUTUSTYYPPI pohjalta. \n\n2022-\n\n40  ja 41 = Tutkintokoulutukseen valmentava koulutus (TUVA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POHJAKOULUTUSVAATIMUS",
+      "variablename": "Pohjakoulutusvaatimus ",
+      "conceptdef": "PK =  peruskoulun päättötodistus \nYO = ylioppilastutkinto (ei 2019) \nER = peruskoulu / yksilöllistetty perusopetus\n\nVuodesta 2021 alk. \nPK/YO = peruskoulun päättötodistus/ylioppilastutkinto (ei 2019) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HARKINNANVARAINEN_VALINTA",
+      "variablename": "Harkinnanvarainen valinta",
+      "conceptdef": "oppimisvaikudet = oppimisvaikeudet \nsosiaalisetsyyt \ntodistustenpuuttuminen \ntodistustenvertailuvaikeudet\nriittamatonkielitaito (2018-)\n99999  = ei tietoa / tuntematon \n\nMuuttujan pohjalta muodostettu numeerinen muuttuja HARKINNANVARAINEN_VALINTATK (ei mukana v. 2022 aineistossa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HARKINNANVARAINEN_VALINTATK",
+      "variablename": "Harkinnanvarainen valinta (koodattu TK:ssa)",
+      "conceptdef": "1 = oppimisvaikeudet \n2 = sosiaaliset syyt \n3 = todistusten puuttuminen \n4 = todistusten vertailuvaikeudet \n5 = riittämätön kielitaito (2018-)\n99999  = ei tietoa / tuntematon\n\nMuodostettu muuttujan HARKINNANVARAINEN_VALINTA pohjalta (ei mukana v. 2022 aineistossa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HYVAKSYTTY_HARKINNANVARAISESTI",
+      "variablename": "Hyväksytty harkinnanvaraisesti",
+      "conceptdef": "0 = ei hyväksytty harkinnanvaraisesti \n1 = hyväksytty harkinnanvaraisesti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSALLISTUI_KIELIKOKEESEEN",
+      "variablename": "Osallistui kielikokeeseen",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTEISPISTEET",
+      "variablename": "Yhteispisteet",
+      "conceptdef": "Muuttuja sisältää negatiivisia arvoja \n\nbl = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALIN_HYVAKSYTTY_PISTEMAARA",
+      "variablename": "Alin hyväksytty pistemäärä",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALOITUSPAIKAT",
+      "variablename": "Aloituspaikat",
+      "conceptdef": "Hakijoille koulutustiedotuksessa ilmoitetut aloituspaikat\n\nTieto vuodesta 2015 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALINTOJEN_ALOITUSPAIKAT",
+      "variablename": "Valintojen aloituspaikat",
+      "conceptdef": "Valinnoissa käytetyt \"todelliset\" aloituspaikat. Voi olla pienempi tai suurempi kuin edellä oleva \"aloituspaikat\" \n\nTieto vuodesta 2015 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONOSIJA",
+      "variablename": "Jonosija",
+      "conceptdef": "99999 = tuntematon\n\nTieto vain vuodelta 2015",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_LOPULLINEN_JONOSIJA",
+      "variablename": "Hakijan lopullinen jonosija",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAKIJAN_JONOSIJAN_TARKENNE",
+      "variablename": "Hakijan jonosijan tarkenne",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALINTATAPAJONO",
+      "variablename": "Valintatapajono",
+      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALINNAN_TILA",
+      "variablename": "Valinnan tila",
+      "conceptdef": "HYLATTY \nHYVAKSYTTY \nPERUNUT \nPERUUNTUNUT \nPERUUTETTU \nVARALLA \nVARASIJALTA_HYV\n99999 = tuntematon\n\nMuuttujan pohjalta muodostettu numeerinen muuttuja VALINNAN_TILATK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALINNAN_TILATK",
+      "variablename": "Valinnan tila (koodattu TK:ssa)",
+      "conceptdef": "1 = hyväksytty \n2 = hylätty \n3 = perunut \n4 = peruuntunut \n5 = peruutettu \n6 = varalla \n7 = varasijalta hyväksytty \n9 = tuntematon\n\nMuodostettu muuttujan VALINNAN_TILA pohjalta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALINNAN_TILAN_LISATIETO",
+      "variablename": "Valinnan tilan lisätieto",
+      "conceptdef": "Kirjoitettuja selitteitä\n\nTieto vuodesta 2017 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTAANOTON_TILA",
+      "variablename": "Vastaanoton tila",
+      "conceptdef": "KESKEN \nPERUNUT \nPERUUTETTU \nEI_VASTAANOTETTU_MAARA_AIKANA \nVASTAANOTTANUT_SITOVASTI\nTUNTEMATON (2018-)\n\nMuuttujan pohjalta muodostettu numeerinen muuttuja VASTAANOTON_TILATK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTAANOTON_TILATK",
+      "variablename": "Vastaanoton tila (koodattu TK:ssa)",
+      "conceptdef": "1 = vastaanottanut sitovasti \n2 = ilmoitettu (arvo esiintyy vain vuonna 2014) \n3 = kesken \n4 = perunut \n5 = peruutettu \n6 = ei vastaanotettu määräaikana \n7 = vastaanottanut läsnäolevana (arvo esiintyy vain vuonna 2014) \n8 = vastaanottanut poissaolevana (arvo esiintyy vain vuonna 2014)\n9 = tuntematon \n\nMuodostettu muuttujan VASTAANOTON_TILA pohjalta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMOITTAUTUMISEN_TILA",
+      "variablename": "Ilmoittautumisen tila",
+      "conceptdef": "EI_ILMOITTAUTUNUT \nEI_TEHTY \nLASNA \nLASNA_KOKO_LUKUVUOSI \nLASNA_SYKSY \nPOISSA \nPOISSA_KOKO_LUKUVUOS \nPOISSA_SYKSY\n\nMuuttujan pohjalta muodostettu numeerinen muuttuja ILMOITTAUTUMISEN_TILATK. Arvojen LASNA ja POISSA eroa muihin ei ole voitu varmistaa.\nTieto vuodesta 2016 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMOITTAUTUMISEN_TILATK",
+      "variablename": "Ilmoittautumisen tila (koodattu TK:ssa)",
+      "conceptdef": "1 = läsnä koko lukuvuosi \n2 = läsnä syksy \n3 = läsnä \n4 = poissa \n5 = poissa koko lukuvuosi \n6 = poissa syksy \n7 = ei tehty \n8 = ei ilmoittautunut\n\nMuodostettu muuttujan ILMOITTAUTUMISEN_TILA pohjalta. Arvojen 3 ja 4 eroa muihin ei ole voitu varmistaa. \nTieto vuodesta 2016 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HTOK",
+      "variablename": "Henkilötunnuksen oikeellisuus",
+      "conceptdef": "1 = oikea \n2 = puutteellinen \n\nTieto vuosilta 2015 ja 2017 - 2020",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULUN_ORGANISAATIO_OID_s",
+      "variablename": "Suojattu lähtökoulun organisaation yksilöintitunnus",
+      "conceptdef": "Vuodesta 2017 alkaen yksilöi lähtökoulun organisaation. Aiemmilta vuosilta ei yksilöi lähtökoulun organisaatiota eikä siten ole vertailukelpoinen vuoden 2017 ja myöhempien vuosien tietojen kanssa (toistaiseksi). Ei mukana v. 2022 aineistossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULU_s",
+      "variablename": "Suojattu lähtökoulun oppilaitostunnus",
+      "conceptdef": "Tieto korkeintaan vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULU_OKUN",
+      "variablename": "Lähtökoulun sijantikunta",
+      "conceptdef": "TK:n tilastovuoden kuntaluokitus \nbl = tuntematon\n\nEnsisijainen lähde oppilaitosrekisteri, pohjana muuttuja LAHTOKOULUN_OPPILAITOS_KOODI\nTieto vuoteen 2016 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULU_ONUTS3",
+      "variablename": "Lähtökoulun sijantimaakunta",
+      "conceptdef": "TK:n tilastovuoden maakuntaluokitus \nbl = tuntematon\n\nEnsisijainen lähde oppilaitosrekisteri, pohjana muuttuja LAHTOKOULUN_OPPILAITOS_KOODI.\nTieto vuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULU_OKIELI",
+      "variablename": "Lähtökoulun kieli",
+      "conceptdef": "1 = suomi \n2 = ruotsi \n3 = suomi/ruotsi \n4 = englanti \n5 = saame \n9 = muu \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja LAHTOKOULUN_OPPILAITOS_KOODI.\nTieto vuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULU_OLTYP",
+      "variablename": "Lähtökoulun oppilaitostyyppi",
+      "conceptdef": "Oppilaitostyyppi 1999 \n\n11 = Peruskoulut \n12 = Peruskouluasteen erityiskoulut \n15 = Lukiot \n19 = Perus- ja lukioasteen koulut \n21 = Ammatilliset oppilaitokset \n22 = Ammatilliset erityisoppilaitokset \n23 = Ammatilliset erikoisoppilaitokset \n24 = Ammatilliset aikuiskoulutuskeskukset \n61 = Musiikkioppilaitokset \n62 = Liikunnan koulutuskeskukset \n63 = Kansanopistot \n64 = Kansalaisopistot \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja LAHTOKOULUN_OPPILAITOS_KOODI.\nTieto vain vuosilta 2015 - 2016.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHTOKOULU_OMIST",
+      "variablename": "Lähtökoulun omistajatyyppi",
+      "conceptdef": "1 = yksityinen \n2 = valtio \n3 = kunta \n4 = kuntayhtymä \n5 = Ahvenanmaa \n9 = muu \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja LAHTOKOULUN_OPPILAITOS_KOODI.\nTieto vuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPMALA",
+      "variablename": "Hakukohteen koulutusala, 2002 luokitus",
+      "conceptdef": "Opetushallinnon koulutusluokitus 2002, koulutusala \n\n0 = Yleissivistävä koulutus \n1 = Humanistinen ja kasvatusala \n2 = Kulttuuriala \n3 = Yhteiskuntatieteiden, liiketalouden ja hallinnon ala \n4 = Luonnontieteiden ala \n5 = Tekniikan ja liikenteen ala \n6 = Luonnonvara- ja ympäristöala \n7 = Sosiaali-, terveys- ja liikunta-ala \n8 = Matkailu-, ravitsemis- ja talousala \n9 = Muu koulutus \nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI.\nTieto vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPMOPA",
+      "variablename": "Hakukohteen opintoala, 2002 luokitus",
+      "conceptdef": "Opetushallinnon koulutusluokitus 2002, opintoala \n\n001 = Esiopetus\n002 = Perusopetus\n003 = Lukiokoulutus\n099 = Muu yleissivistävä koulutus\n101 = Vapaa-aika ja nuorisotyö\n102 = Kielitieteet\n103 = Historia ja arkeologia\n104 = Filosofia\n105 = Kasvatustieteet ja psykologia\n106 = Opetus- ja kasvatustyö\n107 = Teologia\n199 = Muu humanistisen ja kasvatusalan koulutus\n201 = Käsi- ja taideteollisuus\n202 = Viestintä ja informaatiotieteet\n203 = Kirjallisuus\n204 = Teatteri ja tanssi\n205 = Musiikki\n206 = Kuvataide\n207 = Kulttuurin- ja taiteiden tutkimus\n299 = Muu kulttuurialan koulutus\n301 = Liiketalous ja kauppa\n302 = Kansantalous\n303 = Hallinto\n304 = Tilastotiede\n305 = Sosiaalitieteet\n306 = Politiikkatieteet\n307 = Oikeustiede\n399 = Muu yhteiskuntatieteiden, liiketalouden ja hallinnon alan koulutus\n401 = Matematiikka\n402 = Tietojenkäsittely\n403 = Geo-, avaruus- ja tähtitieteet\n404 = Fysiikka\n405 = Kemia\n406 = Biologia\n407 = Maantiede\n499 = Muu luonnontieteiden alan koulutus\n501 = Arkkitehtuuri ja rakentaminen\n502 = Kone-, metalli- ja energiatekniikka\n503 = Sähkö- ja automaatiotekniikka\n504 = Tieto- ja tietoliikennetekniikka\n505 = Graafinen ja viestintätekniikka\n506 = Elintarvikeala ja biotekniikka\n507 = Prosessi-, kemian- ja materiaalitekniikka\n508 = Tekstiili- ja vaatetustekniikka\n509 = Ajoneuvo- ja kuljetustekniikka\n510 = Tuotantotalous\n599 = Muu tekniikan ja liikenteen alan koulutus\n601 = Maatilatalous\n602 = Puutarhatalous\n603 = Kalatalous\n604 = Metsätalous\n605 = Luonto- ja ympäristöala\n699 = Muu luonnonvara- ja ympäristöalan koulutus\n701 = Sosiaaliala\n702 = Terveysala\n703 = Sosiaali- ja terveysala (alojen yhteiset ohjelmat)\n704 = Hammaslääketiede ja muu hammashuolto\n705 = Kuntoutus ja liikunta\n706 = Tekniset terveyspalvelut\n707 = Farmasia ja muu lääkehuolto\n708 = Lääketiede\n709 = Eläinlääketiede\n710 = Kauneudenhoitoala\n799 = Muu sosiaali-, terveys- ja liikunta-alan koulutus\n801 = Matkailuala\n802 = Majoitus- ja ravitsemisala\n804 = Kotitalous- ja kuluttajapalvelut\n805 = Puhdistuspalvelut\n899 = Muu matkailu-, ravitsemis- ja talousalan koulutus\n901 = Sotilas- ja rajavartioala\n902 = Palo- ja pelastusala\n903 = Poliisiala\n904 = Vankeinhoito\n969 = Muu opetusministeriön hallinnonalan ulkopuolella järjestettävä koulutus\n998 = Muu opetusministeriön hallinnonalalla järjestettävä koulutus\nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPMAST",
+      "variablename": "Hakukohteen koulutusaste, 2002 luokitus",
+      "conceptdef": "Opetushallinnon koulutusluokitus 2002, koulutusaste \n\n31 = Lukiokoulutus \n32 = Ammatillinen koulutus \nbl = tuntematon\n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI.\nTieto vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPM95ALA",
+      "variablename": "Hakukohteen koulutusala, 1995 luokitus",
+      "conceptdef": "Opetushallinnon koulutusluokitus 1995,  koulutusala \n\n0 = Yleissivistävä koulutus \n1 = Luonnonvara-ala \n2 = Tekniikka ja liikenne \n3 = Hallinto ja kauppa \n4 = Ravitsemis- ja talousala \n5 = Terveys- ja sosiaaliala \n6 = Kulttuuriala \n7 = Humanistinen ja opetusala \n8 = Suojeluala \n9 = Muu koulutus \nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI.\nTieto vuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPM95OPA",
+      "variablename": "Hakukohteen opintoala, 1995 luokitus",
+      "conceptdef": "Opetushallinnon koulutusluokitus 1995, opintoala \n\n0 = Yleissivistävä koulutus\n00 = Esiopetus\n01 = Perusopetus\n02 = Lukiokoulutus\n04 = Muu yleissivistävä koulutus\n1 = Luonnonvara-ala\n05 = Maatilatalous\n06 = Puutarhatalous\n08 = Kalatalous\n09 = Muu luonnonvara-ala\n10 = Metsätalous\n87 = Luonnontieteellinen koulutus\n88 = Maatalous-metsätieteellinen koulutus\n2 = Tekniikan ja liikenteen ala\n17 = Graafinen ala\n18 = LVI-ala\n19 = Kone- ja metalliala\n20 = Auto- ja kuljetusala\n21 = Tekstiili- ja vaatetusala\n22 = Elintarvikeala\n24 = Sähköala\n25 = Maanmittausala\n26 = Rakennusala\n27 = Puuala\n28 = Pintakäsittelyala\n29 = Paperi- ja kemianteollisuuden ala\n37 = Merenkulkuala\n38 = Muu tekniikka ja liikenne\n56 = Tietoliikenne\n57 = Lentoliikenne\n89 = Teknillistieteellinen koulutus\n3 = Kaupan ja hallinnon ala\n40 = Kaupan ja hallinnon ala\n82 = Yhteiskuntatieteellinen koulutus\n85 = Oikeustieteellinen koulutus\n86 = Kauppatieteellinen koulutus\n4 = Matkailu-, ravitsemis- ja talousala\n31 = Hotelli-, ravintola- ja suurtalousala\n32 = Koti-, laitostalous- ja puhdistuspalveluala\n5 = Sosiaali- ja terveysala\n44 = Sosiaali- ja terveysala\n45 = Kauneudenhoitoala\n81 = Liikuntatieteellinen koulutus\n84 = Terveystieteiden koulutus\n90 = Lääketieteellinen koulutus\n91 = Hammaslääketieteellinen koulutus\n92 = Eläinlääketietieteellinen koulutus\n93 = Farmasian koulutus\n6 = Kulttuuriala\n12 = Käsi- ja taideteollisuusala\n13 = Viestintä- ja kuvataideala\n64 = Musiikkiala\n65 = Teatteri- ja tanssiala\n77 = Taideteollinen koulutus\n78 = Musiikkialan koulutus (yliopistot)\n79 = Teatteri- ja tanssialan koulutus (yliopistot)\n94 = Kuvataidealan koulutus (yliopistot)\n7 = Humanistinen ja opetusala\n63 = Vapaa-ajan toiminta\n66 = Liikunta-ala\n75 = Teologinen koulutus\n76 = Humanistinen koulutus\n80 = Kasvatustieteellinen koulutus\n83 = Psykologian koulutus\n9 = Muu koulutus\n48 = Yrittäjyys\n55 = Muu suojeluala\n58 = Sotilas- ja rajavartiokoulutus\n59 = Palokoulutus\n60 = Poliisikoulutus\n61 = Vankeinhoito\n99 = Muu tai tuntematon opintoala\nbl = tuntematon\n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI.\nTieto vuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPM95AST",
+      "variablename": "Hakukohteen koulutusaste, 1995 luokitus",
+      "conceptdef": "Opetushallinnon koulutusluokitus 1995, koulutusaste \n\n0 = Aste eriytymättä \n1 = Toinen aste \nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI.\nTieto vuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KASTE_T2",
+      "variablename": "Ensimmäisen hakutoiveen koulutusaste",
+      "conceptdef": "Koulutusluokitus 2016\n\nTieto vuodesta 2018 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCLE2011",
+      "variablename": "Koulutusaste 1-numeroisena (ISCED 2011)",
+      "conceptdef": "Unescon kansainvälisen koulutusluokituksen (ISCED 2011) 1-numeroinen koulutusaste tilastovuoden mukaisena. \n\n3 = Upper secondary education \n4 = Post-secondary non-tertiary education (2018-)\nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCCAT2011",
+      "variablename": "Koulutusaste 2-numeroisena (ISCED 2011)",
+      "conceptdef": "Unescon kansainvälisen koulutusluokituksen (ISCED 2011) 2-numeroinen koulutusaste tilastovuoden mukaisena. \n\n34 = Upper secondary education, General \n35 = Upper secondary education, Vocational \n45 = Post-secondary non-tertiary education, Vocational  (2018-)\nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCSUBCAT2011",
+      "variablename": "Koulutusaste 3-numeroisena (ISCED 2011)",
+      "conceptdef": "Unescon kansainvälisen koulutusluokituksen (ISCED 2011) 3-numeroinen koulutusaste tilastovuoden mukaisena. \n\n344 = Upper secondary education, General, Sufficient for level completion, with direct access to tertiary \n354 = Upper secondary education, Vocational, Sufficient for level completion, with direct access to tertiary\n454 = Post-secondary non-tertiary education, Vocational, Sufficient for level completion, with direct access to tertiary education (2018-)\nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCFIBROAD2013",
+      "variablename": "Koulutusala 2-numeroisena (ISCED 2013)",
+      "conceptdef": "Unescon kansainvälisen koulutusluokituksen (ISCED 2013) 2-numeroinen koulutusala tilastovuoden mukaisena (https://www.stat.fi/meta/luokitukset/isced_ala/001-2011/koko_luokitus.html) \nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCFINARROW2013",
+      "variablename": "Koulutusala 3-numeroisena (ISCED 2013)",
+      "conceptdef": "Unescon kansainvälisen koulutusluokituksen (ISCED 2013) 3-numeroinen koulutusala tilastovuoden mukaisena (https://www.stat.fi/meta/luokitukset/isced_ala/001-2011/koko_luokitus.html) \nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCFI2013",
+      "variablename": "Koulutusala 4-numeroisena (ISCED 2013)",
+      "conceptdef": "Unescon kansainvälisen koulutusluokituksen (ISCED 2013) 4-numeroinen koulutusala tilastovuoden mukaisena (https://www.stat.fi/meta/luokitukset/isced_ala/001-2011/koko_luokitus.html) \nbl = tuntematon \n\nPohjana muuttuja HAKUKOHTEEN_KOULUTUSKOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OKUN",
+      "variablename": "Hakukohteen oppilaitoksen sijantikunta",
+      "conceptdef": "TK:n tilastovuoden kuntaluokitus \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja HAKUKOHTEEN_OPPILAITOS_KOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONUTS3",
+      "variablename": "Hakukohteen oppilaitoksen sijantimaakunta",
+      "conceptdef": "TK:n tilastovuoden maakuntaluokitus \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja HAKUKOHTEEN_OPPILAITOS_KOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OKIELI",
+      "variablename": "Hakukohteen oppilaitoksen kieli",
+      "conceptdef": "1 = suomi \n2 = ruotsi \n3 = suomi/ruotsi \n4 = englanti \n5 = saame \n9 = muu \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja HAKUKOHTEEN_OPPILAITOS_KOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OLTYP",
+      "variablename": "Hakukohteen oppilaitostyyppi",
+      "conceptdef": "Oppilaitostyyppi 1999 \n\n11 = Peruskoulut \n12 = Peruskouluasteen erityiskoulut \n15 = Lukiot \n19 = Perus- ja lukioasteen koulut \n21 = Ammatilliset oppilaitokset \n22 = Ammatilliset erityisoppilaitokset \n23 = Ammatilliset erikoisoppilaitokset \n24 = Ammatilliset aikuiskoulutuskeskukset \n61 = Musiikkioppilaitokset \n62 = Liikunnan koulutuskeskukset \n63 = Kansanopistot \n64 = Kansalaisopistot\nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja HAKUKOHTEEN_OPPILAITOS_KOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OMIST",
+      "variablename": "Hakukohteen oppilaitoksen omistajatyyppi",
+      "conceptdef": "1 = yksityinen \n2 = valtio \n3 = kunta \n4 = kuntayhtymä \n5 = Ahvenanmaa \n9 = muu \nbl = tuntematon \n\nLähde oppilaitosrekisteri, pohjana muuttuja HAKUKOHTEEN_OPPILAITOS_KOODI. \nTieto vuodesta 2015 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": "Vuosi",
+      "conceptdef": "Käsiteltävä vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPISKELUOIKEUS_OID_S",
+      "variablename": "Suojattu opiskeluoikeuden yksilöivä tunnistenumero (KOSKI)",
+      "conceptdef": "Opiskeluoikeuden yksilöivä tunniste KOSKI-palvelussa. Generoidaan KOSKI-palvelussa opiskeluoikeutta luotaessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPPILAITOS_OID_S",
+      "variablename": "Suojattu oppilaitostunnus (KOSKI)",
+      "conceptdef": "Oppilaitoksen tai varhaiskasvatuksen toimipaikan, jolle opiskeluoikeus kuuluu, yksilöivä tunniste Opintopolun organisaatiopalvelussa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPPIJA_OID_S",
+      "variablename": "Suojattu oppijantunnus (KOSKI)",
+      "conceptdef": "Oppijan ns. oppijanumero, joka luodaan Opintopolun oppijanumerorekisterissä, kun henkilön tietoja ensimmäistä kertaa tallennetaan palveluun, joka käyttää oppijanumeroa ensisijaisena henkilön yksilöivänä tunnisteena. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOIMIPISTE_OID_S",
+      "variablename": "Suojattu toimipistetunnus (KOSKI)",
+      "conceptdef": "Suojattu toimipisteentunnus. Tarkempi kuvaus: https://wiki.eduuni.fi/spaces/OPHPALV/pages/431686172/r_paatason_suoritus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPPILAITOSNUMERO_S",
+      "variablename": "Suojattu oppilaitosnumero (KOSKI)",
+      "conceptdef": "Tilastokeskuksen oppilaitokselle määrittämä viisinumeroinen oppilaitosnumero. Koulutuksen järjestäjä ei tallenna tietoa, vaan se haetaan Opintopolun organisaatiopalvelusta. Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/oppilaitosnumero/latest. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPPILAITOS_KOTIPAIKKA",
+      "variablename": "Oppilaitoksen kotipaikka",
+      "conceptdef": "Oppilaitoksen tai varhaiskasvatuksen toimipaikan, jolle opiskeluoikeus kuuluu, kotipaikan kuntakoodi. Koulutuksen järjestäjä ei tallenna tietoa, vaan se haetaan Opintopolun organisaatiopalvelusta. Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/kunta/latest.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAATASO_SUORITUKSEN_TYYPPI",
+      "variablename": "Päätaso suorituksen tyyppi",
+      "conceptdef": "Suorituksen tyyppi, joka yksilöi millaisesta päätason suorituksessa on kyse (esimerkiksi ammatillisessa koulutuksessa tieto kertoo sen, suoritetaanko kokonaista tutkintoa, tutkinnon osaa/osia, tutkinnon osaa pienemmistä kokonaisuuksista koostuvaa suoritusta, muun ammatillisen koulutuksen suoritusta, VALMA-koulutusta vai TELMA-koulutusta). Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/suorituksentyyppi/latest.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSILUOKKA",
+      "variablename": "Vuosiluokka",
+      "conceptdef": "Kertoo kyseisen oppiaine-suorituksen vuosiluokan. Jos päätason suoritus on tyyppiä perusopetuksenvuosiluokka, haetaan arvo suoraan kyseisestä suorituksesta. Jos taas päätason suoritus on tyyppiä perusopetuksenoppimaara, sijoitetaan näille oppiaineille muuttujaan arvo '9'. Jos kyseessä on perusopetuksen lisäopetuksen suoritus, sijoitetaan tähän kenttää arvo '10'. Alkuperäinen KOSKI nimi koulutusmoduuli_koodiarvo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPPIAINE",
+      "variablename": "Oppiaine",
+      "conceptdef": "Osasuorituksen yksilöivä tunniste. Voi olla KOSKI-palveluun erikseen koodistona mallinnetun tunnisteavaaruden mukainen koodiarvo tai koulutuksen järjestäjän paikallinen koodiarvo osasuorituksesta riippuen. Ks. kuvaus käytettävistä koodistoista ylempää tietueen koulutusmoduuli_koodisto selitteestä.\n\n\nKoodiarvo\tLyhytnimi\t\t\tNimi\t\t\t\tKuvaus\nA\t\tA-kieli\t\t\tA-kieli\t\t\t\t-\nA1\t\tA1-kieli\t\t\tA1-kieli\t\t\t\t-\nA2\t\tA2-kieli\t\t\tA2-kieli\t\t\t\t-\nAI\t\tÄidinkieli ja kirjallisuus\tÄidinkieli ja kirjallisuus\t\t-\nAOM\t\tÄidinkielenomainen kieli\tA-oppimäärä\t\t\tÄidinkielenomainen kieli A-oppimäärä\t\nB1\t\tB1-kieli\t\t\tB1-kieli\t\t\t\t-\nB2\t\tB2-kieli\t\t\tB2-kieli\t\t\t\t-\nB3\t\tB3-kieli\t\t\tB3-kieli\t\t\t\t-\nBI\t\tBiologia\t\t\tBiologia\t\t\t\t-\nET\t\tElämänkatsomustieto\tUskonto/Elämänkatsomustieto\t\nFI\t\tFilosofia\t\t\tFilosofia\t\t\t\t-\nFY\t\tFysiikka\t\t\tFysiikka\t\t\t\t-\nGE\t\tMaantieto\t\t\tMaantieto\t\t\t\t-\nHI\t\tHistoria\t\t\tHistoria\t\t\t\t-\nKE\t\tKemia\t\t\tKemia\t\t\t\t-\nKO\t\tKotitalous\t\t\tKotitalous\t\t\t\t-\nKS\t\tKäsityö\t\t\tKäsityö\t\t\t\t-\nKT\t\tUskonto\t\t\tUskonto/Elämänkatsomustieto\t\nKU\t\tKuvataide\t\tKuvataide\t\t\t-\nLI\t\tLiikunta\t\t\tLiikunta\t\t\t\t-\nMA\t\tMatematiikka\t\tMatematiikka\t\t\t-\nMU\t\tMusiikki\t\t\tMusiikki\t\t\t\t-\nOP\t\tOpinto-ohjaus\t\tOpinto-ohjaus\t\nOPA\t\t-\t\t\tOpinto-ohjaus ja työelämätaidot\t-\nPS\t\tPsykologia\t\tPsykologia\t\t\t-\nTE\t\tTerveystieto\t\tTerveystieto\t\t\t-\nXX\t\t-\t\t\tEi tiedossa\t\t\tOppiaine ei tiedossa. Käytetään KOSKI-\t\t\t\t\t\t\t\t\t\tpalvelussa perusopetuksen ja \t\t\t\t\t\t\t\t\t\t\tlukiokoulutuksen aineopinnoissa silloin, kun \t\t\t\t\t\t\t\t\topiskelija ei vielä opiskeluoikeuden \t\t\t\t\t\t\t\t\t\talkuvaiheessa ole tehnyt yhtään ainevalintaa.\nYH\t\tYhteiskuntaoppi\t\tYhteiskuntaoppi\t\t\t-\nYL\t\tYmpäristöoppi\t\tYmpäristöoppi\t\n\nhttps://opintopolku.fi/koski/dokumentaatio/koodisto/koskioppiaineetyleissivistava/latest?kieli=fi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPPIAINE_KOODISTO",
+      "variablename": "Oppiaine koodisto",
+      "conceptdef": "Opintopolun koodisto, josta osasuorituksen yksilöivä tunniste.\n\nAlkuperäinen KOSKI nimi koulutusmoduuli_koodisto: https://wiki.eduuni.fi/spaces/OPHPALV/pages/433263057/r_osasuoritus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ARVIOINTI_ARVOSANA_KOODIARVO",
+      "variablename": "Arvosana",
+      "conceptdef": "\t\nArvioidun osasuorituksen arvosana käytettävän arviointiasteikon mukaisesti. Tieto käytetystä arviointiasteikosta löytyy kentästä arviointi_arvosana_koodisto. Arvosanan puuttuminen tarkoittaa, että osasuoritusta ei ole vielä arvioitu. Esimerkiksi keskeneräisessä lukion oppimäärän suorituksessa oppiainesuoritukset eivät ole pääsääntöisesti arvioituja, sillä niiden suorittaminen on kesken käytännössä siihen asti, kunnes koko lukion oppimäärän päätason suoritus on vahvistettu.\n\nHUOM! Joissain tapauksissa arvosanan puuttuminen johtuu siitä, että ko. koulutuksessa osasuorituksia ei lähtökohtaisesti arvioida. Tällainen tapaus on esimerkiksi ns. vanhanmallisen, näyttönä suoritetun ammatillisen tutkinnon suoritus, jolloin opiskeluoikeudessa on mukana toisena päätason suorituksena näyttötutkintoon valmistavan koulutuksen suoritus, joka sisältää osasuorituksia, joita ei arvioida edes silloin, kun opinnot katsotaan ns. valmiiksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ARVIOINTI_ARVOSANA_KOODISTO",
+      "variablename": "Arviointiasteikko",
+      "conceptdef": "\t\nArviointiasteikon, jota osasuorituksen arvioinnissa on käytetty, koodisto Opintopolun koodistopalvelussa.\n\nPääsääntöisesti yleissivistävässä koulutuksessa (perusopetus ja lukio) käytetään arvioinnissa koodiston https://opintopolku.fi/koski/dokumentaatio/koodisto/arviointiasteikkoyleissivistava/latest mukaista arviointiasteikkoa, ammatillisessa koulutuksessa ammatilliselle koulutukselle spesifejä arviointiasteikkoja/koodistoja ja muissa koulutuksissa niille spesifejä arviointiasteikkoja/koodistoja. Jos aineistossa tulee vastaan tilanne, että käytettävän arviointiasteikkokoodiston ja osasuorituksen välinen suhde ei ole intuitiivisesti selvä, kannattaa katsoa varsinaista KOSKI-tietomallia (https://opintopolku.fi/koski/json-schema-viewer#koski-oppija-schema.json) sen selvittämiseksi, miten kyseisen osasuoritustyyppi on tietomalliin mallinnettu ja miksi kyseistä arviointiasteikkokoodistoa käytetään ko. osasuorituksen kohdalla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHVISTUS_PAIVA",
+      "variablename": "Vahvistus päivä",
+      "conceptdef": "oppiaine-suorituksilla ei yleensä omaa arviointi_paivaa, käytetään siksi vastaavan päätson suorituksen vahvistus_paiva-muuttujaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUSMODUULI_PAKOLLINEN",
+      "variablename": "Koulutusmoduuli pakollinen",
+      "conceptdef": "Tieto siitä, onko osasuoritus suoritettavassa koulutuksessa tai tutkinnossa pakollinen vai valinnainen. Arvot t/f (true/false)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUSMODUULI_PAIKALLINEN",
+      "variablename": "Koulutusmoduuli paikallinen",
+      "conceptdef": "Tieto siitä, onko kyseessä paikallisen opetussuunnitelman perusteen mukainen osasuoritus, jolloin kentässä koulutusmoduuli_koodiarvo ilmaistu osasuorituksen tunniste ei löydy mistään Opintopolun koodistosta (ja jolloin kenttä koulutusmoduuli_koodisto on tyhjä), vai valtakunnallisen opetussuunnitelman perusteen mukainen osasuoritus, jolloin kentässä koulutusmoduuli_koodiarvo ilmaistu osasuorituksen tunniste löytyy kentässä koulutusmoduuli_koodisto ilmaistavasta koodistosta. Arvot t/f (true/false)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUSMODUULI_LAAJUUS_ARVO",
+      "variablename": "Koulutuksen laajuus",
+      "conceptdef": "Osasuorituksen laajuus opiskeluoikeuteen kuuluvassa suorituksessa käytetävässä laajuusyksikössä laskettuna. Esimerkiksi lukion kurssin (lasketaan kursseina) tai moduulin (lasketaan opintopisteinä) laajuus. \n\nHUOM! Kaikissa osasuorituksissa laajuus ei ole relevantti tieto, sillä osasuorituksilla ei välttämättä ole nimettyä laajuutta (esimerkiksi ammatillisen koulutuksen reformia edeltävät ammattitutkinnot ja erikoisammattitutkinnot, joiden valtakunnallisille ammatillisille tutkinnon osillekaan ei ollut opetussuunnitelman perusteessa määritettyä laajuutta). Myöskään keskeneräisille osasuorituksille (esimerkiksi ammatillisessa tutkintokoulutuksessa keskeneräinen yhteinen tutkinnon osa, jossa kaikkia yhteisen tutkinnon osan osa-alueita ole vielä suoritettu) ei usein ole tallennettu suorituksen laajuutta, vaikka sellainen arvioidulta (= valmiilta) osasuoritukselta lopulta löytyisikin. Näissä tapauksissa kenttä on aina tyhjä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUSMODUULI_LAAJUUS_YKSIKKO",
+      "variablename": "Koulutusmoduulin laajuuden yksikkö",
+      "conceptdef": "Osasuorituksen mahdollisen laajuuden määrittämisessä käytetty yksikkö. Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/opintojenlaajuusyksikko/latest.\n\nHUOM! Kaikissa osasuorituksissa laajuus ei ole relevantti tieto, sillä osasuorituksilla ei välttämättä ole nimettyä laajuutta (esimerkiksi ammatillisen koulutuksen reformia edeltävät ammattitutkinnot ja erikoisammattitutkinnot, joiden valtakunnallisille ammatillisille tutkinnon osillekaan ei ollut opetussuunnitelman perusteessa määritettyä laajuutta). Myöskään keskeneräisille osasuorituksille (esimerkiksi ammatillisessa tutkintokoulutuksessa keskeneräinen yhteinen tutkinnon osa, jossa kaikkia yhteisen tutkinnon osan osa-alueita ole vielä suoritettu) ei usein ole tallennettu suorituksen laajuutta, vaikka sellainen arvioidulta (= valmiilta) osasuoritukselta lopulta löytyisikin. Näissä tapauksissa kenttä on aina tyhjä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUORITUKSEN_TYYPPI",
+      "variablename": "Suorituksen tyyppi",
+      "conceptdef": "Suorituksen tyyppi, joka yksilöi millaisesta osasuorituksesta on kyse (esimerkiksi onko kyseessä lukion oppiaine vai sen alle kuuluva lukion moduuli tai kurssi). Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/suorituksentyyppi/latest.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUKSEN_OPETUSKIELI_2",
+      "variablename": "Koulutuksen toinen opetuskieli",
+      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: \"Kaikki kielet, joilla koulutus järjestetään\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUKSEN_OPETUSKIELI_3",
+      "variablename": "Koulutuksen kolmas opetuskieli",
+      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: \"Kaikki kielet, joilla koulutus järjestetään\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

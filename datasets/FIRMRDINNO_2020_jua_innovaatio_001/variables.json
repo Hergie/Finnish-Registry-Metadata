@@ -1,0 +1,2612 @@
+{
+  "variables": [
+    {
+      "identifier": "ipr_out_pat",
+      "variablename": "Patenttihakemus",
+      "conceptdef": "Patenttihakemus 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_uti",
+      "variablename": "Hyödyllisyysmallihakemus",
+      "conceptdef": "Hyödyllisyysmallihakemus 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_idesg",
+      "variablename": "Mallioikeuden rekisteröinti",
+      "conceptdef": "Mallioikeuden rekisteröinti 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_trdm",
+      "variablename": "Tavaramerkin rekisteröinti",
+      "conceptdef": "Tavaramerkin rekisteröinti 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_cpr",
+      "variablename": "Tekijänoikeushakemus",
+      "conceptdef": "Tekijänoikeushakemus 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_ts",
+      "variablename": "Liikesalaisuuden suojaaminen",
+      "conceptdef": "Liikesalaisuuden suojaaminen 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_lic",
+      "variablename": "IPR:n lisensointi muille",
+      "conceptdef": "Omien immateriaalioikeuksien (IPR) lisensointi muille 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_sell",
+      "variablename": "IPR:n myynti/siirtäminen muille",
+      "conceptdef": "Omien immateriaalioikeuksien (IPR) myynti tai siirtäminen muille 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_exch",
+      "variablename": "IPR:n vaihtaminen",
+      "conceptdef": "Immateriaalioikeuksien vaihtaminen eli poolit, ristikkäinen lisensointi tms. 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_in_lic_pur",
+      "variablename": "IPR:n hankinta",
+      "conceptdef": "Patenttien tai muiden immateriaalioikeuksien ostaminen tai lisensointi muilta 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_in_lic_prv",
+      "variablename": "IPR:n hankinta yksityisiltä toimijoilta",
+      "conceptdef": "Patenttien tai muiden immateriaalioikeuksien ostaminen tai lisensointi yksityisen sektorin yrityksiltä tai yksityishenkilöiltä 2018-2020, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_in_lic_pub",
+      "variablename": "IPR:n hankinta julkisilta toimijoilta",
+      "conceptdef": "Patenttien tai muiden immateriaalioikeuksien ostaminen tai lisensointi yksityisen sektorin yrityksiltä tai yksityishenkilöiltä 2018-2020, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "clim_gov",
+      "variablename": "Julkisen hallinnon toimet ilmastonmuutokseen liittyen",
+      "conceptdef": "Julkisen hallinnon toimet ilmastonmuutokseen liittyen, ilmastonmuutokseen liittyvien tekijöiden merkitys yrityksen liiketoiminnalle 2018-2020, 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "clim_cust",
+      "variablename": "Kasvava asiakaskysyntä ilmastonmuutosta lieventäville tuotteille",
+      "conceptdef": "Kasvava asiakaskysyntä tuotteille, jotka auttavat lieventämään ilmastonmuutosta tai sopeutumaan ilmastonmuutoksen vuoksi (esimerkiksi vähähiiliset tuotteet), ilmastonmuutokseen liittyvien tekijöiden merkitys yrityksen liiketoiminnalle 2018-2020, 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "clim_pric",
+      "variablename": "Kasvavat kustannukset ilmastonmuutoksen seurauksena",
+      "conceptdef": "Kasvavat kustannukset tai panosten hinnat ilmastonmuutoksen seurauksena (esimerkiksi korkeammat vakuutusmaksut, veden korkeampi hinnoittelu, prosessien tai tuotantolaitosten ja toimitilojen sopeuttaminen), ilmastonmuutokseen liittyvien tekijöiden merkitys yrityksen liiketoiminnalle 2018-2020, 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "clim_weath",
+      "variablename": "Äärimmäisten sääolosuhteiden vaikutukset",
+      "conceptdef": "Äärimmäisten sääolosuhteiden vaikutukset (esimerkiksi vauriot/häiriöt), ilmastonmuutokseen liittyvien tekijöiden merkitys yrityksen liiketoiminnalle 2018-2020, 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_gd",
+      "variablename": "Tavarainnovaatioita",
+      "conceptdef": "Yritys toi markkinoille uusia tai olennaisesti parannettuja tavaroita 2018-2020, 1=kyllä, 0=ei (Tuoteinnovaatio on uusi tai parannettu tavara tai palvelu, joka eroaa merkittävästi yrityksen aiemmista tavaroista tai palveluista ja joka on tuotu markkinoille.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_serv",
+      "variablename": "Palveluinnovaatioita",
+      "conceptdef": "Yritys toi markkinoille uusia tai olennaisesti parannettuja palveluita 2018-2020, 1=kyllä, 0=ei (Tuoteinnovaatio on uusi tai parannettu tavara tai palvelu, joka eroaa merkittävästi yrityksen aiemmista tavaroista tai palveluista ja joka on tuotu markkinoille.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_new_mkt",
+      "variablename": "Markkinoille uusia tuotteita",
+      "conceptdef": "Yritys toi markkinoille 2018-2020 tuoteinnovaatioita eli tavara- tai palveluinnovaatioita, jollaisia kilpailijoilla ei aiemmin ollut ja jotka täten olivat uusia yrityksen markkinoilla, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_new_ent",
+      "variablename": "Yritykselle uusia tuotteita",
+      "conceptdef": "Yritys toi markkinoille 2018-2020 tuoteinnovaatioita eli tavara- tai palveluinnovaatioita, jotka olivat samanlaisia tai hyvin samankaltaisia kuin kilpailijoiden aiemmin tarjoamat tuotteet, mutta jotka olivat uusia raportoivalle yritykselle, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_prd_new_mkt",
+      "variablename": "Liikevaihto-osuus markkinoille uusista tuotteista",
+      "conceptdef": "Liikevaihdon 2020 osuus tuotteista, jotka vuosina 2018-2020 olivat uusia tai parannettuja, jollaisia kilpailijoilla ei aiemmin ollut, prosenttia tilastovuoden 2020 kokonaisliikevaihdosta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_prd_new_ent",
+      "variablename": "Liikevaihto-osuus yritykselle uusista tuotteista",
+      "conceptdef": "Liikevaihdon 2020 osuus tuotteista, jotka vuosina 2018-2020 olivat uusia tai parannettuja, jotka olivat samanlaisia tai samankaltaisia kuin kilpailijoidenne aiemmin tarjoamat tuotteet, prosenttia tilastovuoden 2020 kokonaisliikevaihdosta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_prd_ninn",
+      "variablename": "Liikevaihto-osuus muuttamattomista tuotteista",
+      "conceptdef": "Liikevaihdon 2020 osuus tuotteista, jotka vuosina 2018-2020 olivat aiemmasta muuttamattomia tai ainoastaan vähäisesti muutettuja tuotteita (kattaen muilta ostettujen tuotteiden jälleenmyynnin), prosenttia tilastovuoden 2020 kokonaisliikevaihdosta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_ent",
+      "variablename": "Tuoteinnovaatioiden kehittäjä; oma yritys",
+      "conceptdef": "Tuoteinnovaatioita kehitti oma yritys itse, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_ent_oth",
+      "variablename": "Tuoteinnovaatioiden kehittäjä; oma yritys yhdessä muiden kanssa",
+      "conceptdef": "Tuoteinnovaatioita kehitti oma yritys yhdessä muiden yritysten tai organisaatioiden kanssa, 1=kyllä. Muita yrityksiä ovat itsenäiset yritykset sekä oman konsernin muut yritykset/osat (tytäryhtiöt, sisaryhtiöt, konsernin emoyhtiö jne.). Muita organisaatioita ovat yliopistot, tutkimuslaitokset, voittoa tavoittelemattomat yhteisöt jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_ent_adp",
+      "variablename": "Tuoteinnovaatioiden kehittäjä; oma yritys muokkaamalla muiden kehittämiä",
+      "conceptdef": "Tuoteinnovaatioita kehitti oma yritys mukauttamalla tai muokkaamalla alunperin muiden yritysten tai organisaatioiden kehittämiä tuotteita, 1=kyllä. Muita yrityksiä ovat itsenäiset yritykset sekä oman konsernin muut yritykset/osat (tytäryhtiöt, sisaryhtiöt, konsernin emoyhtiö jne.). Muita organisaatioita ovat yliopistot, tutkimuslaitokset, voittoa tavoittelemattomat yhteisöt jne. EU-datassa muuttujan nimi on DEVE_PRD_ADP_ENT_OTH.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_oth",
+      "variablename": "Tuoteinnovaatioiden kehittäjä; muut",
+      "conceptdef": "Tuoteinnovaatioita kehitti oma yritys yhdessä muiden yritysten tai organisaatioiden kanssa, 1=kyllä. Muita yrityksiä ovat itsenäiset yritykset sekä oman konsernin muut yritykset/osat (tytäryhtiöt, sisaryhtiöt, konsernin emoyhtiö jne.). Muita organisaatioita ovat yliopistot, tutkimuslaitokset, voittoa tavoittelemattomat yhteisöt jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_prd",
+      "variablename": "Tuotanto- tai kehittämismenetelmäinnovaatioita",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; tavaroiden tai palveluiden tuotanto- tai kehittämismenetelmät, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_log",
+      "variablename": "Logistiikka- tai toimitusmenetelmäinnovaatioita",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; logistiikka-, toimitus- tai jakelumenetelmät, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_comm",
+      "variablename": "ICT- tai tiedonkäsittelymenetelmien innovaatioita",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; tieto- ja viestintäteknologian tai tiedonkäsittelyn menetelmät, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_acct",
+      "variablename": "Kirjanpidon tai muita hallinnon menetelmien innovaatiota",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; kirjanpidon tai hallinnon muut menetelmät, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_oproc_extrel",
+      "variablename": "Liiketoimintakäytäntöihin liittyviä innovaatioita",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; liiketoimintakäytännöt yrityksen toimintojen tai ulkoisten suhteiden organisoimiseksi, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_wr_dec_hrm",
+      "variablename": "Työnjakoon, päätöksentekoon tai henkilöstöhallintoon liittyviä innovaatioita",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; menettelyt työnjaon vastuiden, päätöksenteon tai henkilöstöhallinnon organisoimiseksi, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_sls_serv",
+      "variablename": "Markkinointimenetelmäinnovaatioita",
+      "conceptdef": "Liiketoimintaprosesseihin liittyvät innovaatiot; markkinointimenetelmät liittyen myynninedistämiseen, pakkauksiin, hinnoitteluun, tuotesijoitteluun tai myynnin jälkeisiin palveluihin, 1=kyllä, 0=ei. Ollakseen prosessi-innovaatio, prosessin on oltava yrityksen käyttöönottama uusi tai aiemmasta parannettu, joka eroaa merkittävästi yrityksen aiemmin käyttämistä prosesseista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_ent",
+      "variablename": "Prosessi-innovaatioiden kehittäjä; oma yritys",
+      "conceptdef": "Prosessi-innovaatioita kehitti oma yritys itse, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_ent_oth",
+      "variablename": "Prosessi-innovaatioiden kehittäjä; oma yritys yhdessä muiden kanssa",
+      "conceptdef": "Prosessi-innovaatioita kehitti oma yritys yhdessä muiden yritysten tai organisaatioiden kanssa, 1=kyllä. Muita yrityksiä ovat itsenäiset yritykset sekä oman konsernin muut yritykset/osat (tytäryhtiöt, sisaryhtiöt, konsernin emoyhtiö jne.). Muita organisaatioita ovat yliopistot, tutkimuslaitokset, voittoa tavoittelemattomat yhteisöt jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_ent_adp",
+      "variablename": "Prosessi-innovaatioiden kehittäjä; oma yritys muokkaamalla muiden kehittämiä",
+      "conceptdef": "Prosessi-innovaatioita kehitti oma yritys mukauttamalla tai muokkaamalla alunperin muiden yritysten tai organisaatioiden kehittämiä prosesseja, 1=kyllä. Muita yrityksiä ovat itsenäiset yritykset sekä oman konsernin muut yritykset/osat (tytäryhtiöt, sisaryhtiöt, konsernin emoyhtiö jne.). Muita organisaatioita ovat yliopistot, tutkimuslaitokset, voittoa tavoittelemattomat yhteisöt jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_oth",
+      "variablename": "Prosessi-innovaatioiden kehittäjä; muut",
+      "conceptdef": "Prosessi-innovaatioita kehitti oma yritys yhdessä muiden yritysten tai organisaatioiden kanssa, 1=kyllä. Muita yrityksiä ovat itsenäiset yritykset sekä oman konsernin muut yritykset/osat (tytäryhtiöt, sisaryhtiöt, konsernin emoyhtiö jne.). Muita organisaatioita ovat yliopistot, tutkimuslaitokset, voittoa tavoittelemattomat yhteisöt jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ih_rnd",
+      "variablename": "Oma tutkimus- ja kehittämistoiminta (t&k)",
+      "conceptdef": "Yrityksellä omaa tutkimus- ja kehittämistoimintaa (t&k) 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ih_rnd_cont",
+      "variablename": "Oma tutkimus- ja kehittämistoiminta (t&k), säännöllistä",
+      "conceptdef": "Yrityksellä omaa säännöllistä tutkimus- ja kehittämistoimintaa (t&k) 2018-2020, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ih_rnd_occ",
+      "variablename": "Oma tutkimus- ja kehittämistoiminta (t&k), satunnaista",
+      "conceptdef": "Yrityksellä omaa satunnaista tutkimus- ja kehittämistoimintaa (t&k) 2018-2020, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_rnd_contr_out",
+      "variablename": "Muilta tilattu tutkimus- ja kehittämistoiminta (t&k)",
+      "conceptdef": "Yrityksellä muilta tilattua tutkimus- ja kehittämistoimintaa (t&k) 2018-2020 eli muilta yrityksiltä (mukaan lukien oman konsernin muut yritykset=) tai julkisilta tai yksityisiltä tutkimuslaitoksilta (mukaan lukien korkeakoulut) tilattu t&k, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ongo",
+      "variablename": "Meneillään olleita innovaatiotoimia",
+      "conceptdef": "Meneillään olleita innovaatiotoimia vuoden 2020 lopussa, innovaatiotoimia ei saatu päätökseen ja valmiiksi vuoden 2020 loppuun mennessä ja niitä on jatkettu vuonna 2021, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_abdn",
+      "variablename": "Keskeytyneitä innovaatiotoimia",
+      "conceptdef": "Keskeytyneitä tai lakkautettuja innovaatiotoimia 2018-2020, innovaatiotoimet keskeytettiin vuosien 2018-2020 aikana tarkoituksena joko jatkaa toimia myöhemmin (keskeytetyt toimet) tai hylätä ne (lakkautetut toimet), 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_compl",
+      "variablename": "Valmistuneita innovaatiotoimia",
+      "conceptdef": "Valmistuneita innovaatiotoimia 2018-2020, innovaatiotoimet valmistuivat vuoden 2020 loppuun mennessä, mutta innovaatioita ei vielä tuotu markkinoille tai otettu käyttöön vuoden 2020 loppuun mennessä esimerkiksi sen vuoksi, että valmistuneet toimet koskivat vain osaa uudesta tai parannetusta tuotteesta tai liiketoimintaprosessista, tai sen vuoksi, että markkinoille tuonti tai muu käyttöönotto oli suunniteltu tapahtuvaksi myöhemmin, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_ih",
+      "variablename": "Oman t&k:n menot 2020",
+      "conceptdef": "Yrityksen oman tutkimus- ja kehittämistoiminnan (t&k) menot sisältäen t&k-toimintaan kohdentuneet käyttömenot mukaan lukien palkkamenot ja pääomamenot (esimerkiksi rakennukset, koneet, laitteet, ohjelmistot) vuonna 2020, tuhatta (1000) euroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_contr_out",
+      "variablename": "Tilatun t&k:n menot 2020",
+      "conceptdef": "Yrityksen ulkopuolelta tilatun tutkimus- ja kehittämistoiminnan (t&k) menot, mukaan lukien oman konsernin muut yritykset, 2020, tuhatta (1000) euroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan menot 2020",
+      "conceptdef": "Muut innovaatiomenot (pois lukien t&k-menot) 2020, tuhatta (1000) euroa. Tieto sisältää kolme menojen alaerää; oman henkilöstön työskentely innovaatioihin liittyen, innovaatioita varten muilta hankitut palvelut, materiaalit, aineet ja tarvikkeet sekä investointihyödykkeet innovaatioita varten eli SUM(EXP_INNO_INN_XRND_OWN_PER,EXP_INNO_INN_XRND_SMSP,EXP_INNO_INN_XRND_CGO) . Muut innovaatiomenot sisältävät a) koneiden, laitteiden, ohjelmistojen, immateriaalioikeuksien tai rakennusten hankinnan muuhun kuin t&k:een lukeutuvaan innovaatiotoimintaan, b) Osaamisen hankinta muuhun kuin t&k:een lukeutuvaan innovaatiotoimintaan (esimerkiksi patentit, lisenssit, tavaramerkit) c) Tavaroiden muotoilu, palvelumuotoilu, tuotannon tai jakelun valmistelu liittyen muuhun kuin t&k:een lukeutuvaan innovaatiotoimintaan d) Koulutus ja ammatillinen kehittyminen liittyen muuhun kuin t&k:een lukeutuvaan innovaatiotoimintaan (esimerkiksi työntekijöiden koulutus tai jatkokoulutus) ja e) Innovaatioiden markkinointi (innovaatioihin liittyvät markkinointitoimet mukaan lukien markkinatutkimukset)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_own_per",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan henkilöstömenot 2020",
+      "conceptdef": "Oman henkilöstön työskentely innovaatioihin liittyen 2020, tuhatta (1000) euroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_smsp",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan hankintamenot 2020",
+      "conceptdef": "Innovaatioita varten muilta hankitut palvelut, materiaalit, aineet ja tarvikkeet 2020, tuhatta (1000) euroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_cgo",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan investointihyödykkeiden menot 2020",
+      "conceptdef": "Investointihyödykkeet innovaatioita varten kattaen koneiden, laitteiden, ohjelmistojen, immateriaalioikeuksien, rakennusten yms. hankinnan 2020, tuhatta (1000) euroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_ih_not",
+      "variablename": "Ei oman t&k:n menoja 2020",
+      "conceptdef": "1=kyllä (eli ei menoja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_contr_out_not",
+      "variablename": "Ei ulkoa tilatun t&k:n menoja 2020",
+      "conceptdef": "1=kyllä (eli ei menoja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_not",
+      "variablename": "Ei t&k:n ulkopuolisia innovaatiomenoja 2020",
+      "conceptdef": "1=kyllä (eli ei menoja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_own_per_not",
+      "variablename": "Ei t&k:n ulkopuoliseen innovaatiotoimintaan liittyviä henkilöstömenoja 2020",
+      "conceptdef": "1=kyllä (eli ei menoja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_smsp_not",
+      "variablename": "Ei t&k:n ulkopuoliseen innovaatiotoimintaan liittyviä hankintamenoja 2020",
+      "conceptdef": "1=kyllä (eli ei menoja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_cgo_not",
+      "variablename": "Ei t&k:n ulkopuoliseen innovaatiotoimintaan liittyviä investointeja 2020",
+      "conceptdef": "1=kyllä (eli ei menoja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_aut_loc_reg",
+      "variablename": "Rahoitustukea paikallis-/alueviranomaisilta",
+      "conceptdef": "Yritys sai julkista rahoitustukea paikallis- tai alueviranomaisilta 2018-2020, 1=kyllä. 0=ei. Julkinen rahoitustuki sisältää apurahat ja avustukset, tuetut lainat ja lainatakaukset. Määritelmään eivät sisälly julkisen sektorin hankintasopimuksista saadut tulot. Julkinen sektori (viranomaiset) kattavat julkishallinnon organisaatiot, kuten paikallisen, alueellisen ja kansallisen hallinnon virastot ja laitokset, koulut, sairaalat sekä muut julkiset palvelut, kuten turvallisuuspalvelut, liikenteen, asumispalvelut, energiapalvelut jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_aut_loc_reg_rndinn",
+      "variablename": "Paikallis-/alueviranomaistukea innovaatiotoimintaan",
+      "conceptdef": "Paikallis- tai alueviranomaisilta vuosina 2018-2020 saatu julkinen rahoitustuki käytettiin kokonaan tai osittain innovaatiotoimintaan, kyllä=1, ei=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_gov_ctl",
+      "variablename": "Rahoitustukea valtiolta",
+      "conceptdef": "Yritys sai julkista rahoitustukea valtiolta (mm Business Finland) 2018-2020, 1=kyllä. 0=ei. Julkinen rahoitustuki sisältää apurahat ja avustukset, tuetut lainat ja lainatakaukset. Määritelmään eivät sisälly julkisen sektorin hankintasopimuksista saadut tulot. Julkinen sektori (viranomaiset) kattavat julkishallinnon organisaatiot, kuten paikallisen, alueellisen ja kansallisen hallinnon virastot ja laitokset, koulut, sairaalat sekä muut julkiset palvelut, kuten turvallisuuspalvelut, liikenteen, asumispalvelut, energiapalvelut jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_gov_ctl_rndinn",
+      "variablename": "Valtion rahoitustukea innovaatiotoimintaan",
+      "conceptdef": "Valtiolta vuosina 2018-2020 saatu julkinen rahoitustuki käytettiin kokonaan tai osittain innovaatiotoimintaan, kyllä=1, ei=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_hp2020",
+      "variablename": "Rahoitustukea EU:n Horisontti 2020 -ohjelmasta",
+      "conceptdef": "Yritys sai julkista rahoitustukea tutkimuksen ja innovaatioiden EU Horisontti 2020-ohjelmasta 2018-2020, 1=kyllä. 0=ei. Julkinen rahoitustuki sisältää apurahat ja avustukset, tuetut lainat ja lainatakaukset. Määritelmään eivät sisälly julkisen sektorin hankintasopimuksista saadut tulot. Julkinen sektori (viranomaiset) kattavat julkishallinnon organisaatiot, kuten paikallisen, alueellisen ja kansallisen hallinnon virastot ja laitokset, koulut, sairaalat sekä muut julkiset palvelut, kuten turvallisuuspalvelut, liikenteen, asumispalvelut, energiapalvelut jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_hp2020_rndinn",
+      "variablename": "EU:n Horisontti 2020 -rahoitusta innovaatiotoimintaan",
+      "conceptdef": "Tutkimuksen ja innovaatioiden EU Horisontti 2020 -ohjelmasta vuosina 2018-2020 saatu julkinen rahoitustuki käytettiin kokonaan tai osittain innovaatiotoimintaan, kyllä=1, ei=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_oth",
+      "variablename": "Muuta rahoitustukea EU:sta",
+      "conceptdef": "Yritys sai julkista rahoitustukea Horisontti-ohjelman ulkopuolelta Euroopan Unionista 2018-2020, 1=kyllä. 0=ei. Julkinen rahoitustuki sisältää apurahat ja avustukset, tuetut lainat ja lainatakaukset. Määritelmään eivät sisälly julkisen sektorin hankintasopimuksista saadut tulot. Julkinen sektori (viranomaiset) kattavat julkishallinnon organisaatiot, kuten paikallisen, alueellisen ja kansallisen hallinnon virastot ja laitokset, koulut, sairaalat sekä muut julkiset palvelut, kuten turvallisuuspalvelut, liikenteen, asumispalvelut, energiapalvelut jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_oth_rndinn",
+      "variablename": "Muuta EU-rahoitusta innovaatiotoimintaan",
+      "conceptdef": "Tutkimuksen ja innovaatioiden EU Horisontti 2020 -ohjelman ulkopuolinen, Euroopan Unionilta vuosina 2018-2020 saatu julkinen rahoitustuki käytettiin kokonaan tai osittain innovaatiotoimintaan, kyllä=1, ei=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_rnd",
+      "variablename": "Yhteistyötä tutkimus- ja kehittämistoiminnassa (t&k)",
+      "conceptdef": "Yrityksellä yhteistyötä muiden yritysten tai organisaatioiden kanssa tutkimus- ja kehittämistoiminnassa (t&k) 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_inn_xrnd",
+      "variablename": "Yhteistyötä innovaatiotoiminnassa pl. t&k",
+      "conceptdef": "Yrityksellä yhteistyötä muiden yritysten tai organisaatioiden kanssa innovaatiotoiminnassa pl. t&k 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_oth",
+      "variablename": "Yhteistyötä muussa kuin innovaatiotoimintaan liittyvässä liiketoiminnassa",
+      "conceptdef": "Yrityksellä yhteistyötä muiden yritysten tai organisaatioiden kanssa muussa kuin innovaatiotoimintaan liittyvässä liiketoiminnassa 2018-2020, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_cn_nat",
+      "variablename": "Yhteistyö, konsultit, yksit. tutkimuslaitokset, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö konsulttien, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_cn_eu_efta",
+      "variablename": "Yhteistyö, konsultit, yksit. tutkimuslaitokset, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö konsulttien, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_cn_neu_nefta",
+      "variablename": "Yhteistyö, konsultit, yksit. tutkimuslaitokset, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö konsulttien, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_suppl_nat",
+      "variablename": "Yhteistyö, laite- yms. toimittajat, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö laitteiden, materiaalien, komponenttien tai ohjelmistojen toimittajien kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_suppl_eu_efta",
+      "variablename": "Yhteistyö, laite- yms. toimittajat, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö laitteiden, materiaalien, komponenttien tai ohjelmistojen toimittajien kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_suppl_neu_nefta",
+      "variablename": "Yhteistyö, laite- yms. toimittajat, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö laitteiden, materiaalien, komponenttien tai ohjelmistojen toimittajien kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_clcu_nat",
+      "variablename": "Yhteistyö, yritysasiakkaat, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö yritysasiakkaiden kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_clcu_eu_efta",
+      "variablename": "Yhteistyö, yritysasiakkaat, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö yritysasiakkaiden kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_clcu_neu_nefta",
+      "variablename": "Yhteistyö, yritysasiakkaat, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö yritysasiakkaiden kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_comp_nat",
+      "variablename": "Yhteistyö, kilpailijat, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö kilpailijoiden kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_comp_eu_efta",
+      "variablename": "Yhteistyö, kilpailijat, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö kilpailijoiden kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_comp_neu_nefta",
+      "variablename": "Yhteistyö, kilpailijat, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö kilpailijoiden kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_oth_nat",
+      "variablename": "Yhteistyö, muut konsernin ulkopuoliset yritykset, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö muissa edellisissä kohdissa mainitsemattomien muiden konsernin ulkopuolisten yritysten kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_oth_eu_efta",
+      "variablename": "Yhteistyö, muut konsernin ulkopuoliset yritykset, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö muissa edellisissä kohdissa mainitsemattomien muiden konsernin ulkopuolisten yritysten kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_oth_neu_nefta",
+      "variablename": "Yhteistyö, muut konsernin ulkopuoliset yritykset, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö muissa edellisissä kohdissa mainitsemattomien muiden konsernin ulkopuolisten yritysten kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_eg_nat",
+      "variablename": "Yhteistyö, konsernin muut yritykset, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö oman konsernin muiden yritysten kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_eg_eu_efta",
+      "variablename": "Yhteistyö, konsernin muut yritykset, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö oman konsernin muiden yritysten kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_eg_neu_nefta",
+      "variablename": "Yhteistyö, konsernin muut yritykset, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö oman konsernin muiden yritysten kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_uni_nat",
+      "variablename": "Yhteistyö, yliopistot, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö yliopistojen kanssa Suomessa, kyllä=1. Kansallinen muuttuja. EU-harmonisoitu muuttuja COOP_UNIV_NAT saadaan laskemalla sum(coop_fi_uni_nat,coop_fi_amk_nat).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_uni_eu_efta",
+      "variablename": "Yhteistyö, yliopistot, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö yliopistojen kanssa EU- tai EFTA-maissa, kyllä=1. Kansallinen muuttuja. EU-harmonisoitu muuttuja COOP_UNIV_EU_EFTA saadaan laskemalla sum(coop_fi_uni_eu_efta,coop_fi_amk_eu_efta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_uni_neu_nefta",
+      "variablename": "Yhteistyö, yliopistot, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö yliopistojen kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1. Kansallinen muuttuja. EU-harmonisoitu muuttuja COOP_UNIV_NEU_NEFTA saadaan laskemalla sum(coop_fi_uni_neu_nefta,coop_fi_amk_neu_nefta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_amk_nat",
+      "variablename": "Yhteistyö, ammattikorkeakoulut, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö ammattikorkeakoulujen kanssa Suomessa, kyllä=1. Kansallinen muuttuja. EU-harmonisoitu muuttuja COOP_UNIV_NAT saadaan laskemalla sum(coop_fi_uni_nat,coop_fi_amk_nat).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_amk_eu_efta",
+      "variablename": "Yhteistyö, ammattikorkeakoulut, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö ammattikorkeakoulujen kanssa EU- tai EFTA-maissa, kyllä=1. Kansallinen muuttuja. EU-harmonisoitu muuttuja COOP_UNIV_EU_EFTA saadaan laskemalla sum(coop_fi_uni_eu_efta,coop_fi_amk_eu_efta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_amk_neu_nefta",
+      "variablename": "Yhteistyö, ammattikorkeakoulut, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö ammattikorkeakoulujen kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1. Kansallinen muuttuja. EU-harmonisoitu muuttuja COOP_UNIV_NEU_NEFTA saadaan laskemalla sum(coop_fi_uni_neu_nefta,coop_fi_amk_neu_nefta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_gov_ri_nat",
+      "variablename": "Yhteistyö, julkiset tutkimuslaitokset, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö julkisten tutkimuslaitosten kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_gov_ri_eu_efta",
+      "variablename": "Yhteistyö, julkiset tutkimuslaitokset, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö julkisten tutkimuslaitosten kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_gov_ri_neu_nefta",
+      "variablename": "Yhteistyö, julkiset tutkimuslaitokset, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö julkisten tutkimuslaitosten kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_pub_clcu_nat",
+      "variablename": "Yhteistyö, julkisen sektorin asiakkaat, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö julkisen sektorin asiakkaiden kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_pub_clcu_eu_efta",
+      "variablename": "Yhteistyö, julkisen sektorin asiakkaat, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö julkisen sektorin asiakkaiden kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_pub_clcu_neu_nefta",
+      "variablename": "Yhteistyö, julkisen sektorin asiakkaat, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö julkisen sektorin asiakkaiden kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_npo_nat",
+      "variablename": "Yhteistyö, voittoa tavoittelemattomat, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö voittoa tavoittelemattomien organisaatioiden kanssa Suomessa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_npo_eu_efta",
+      "variablename": "Yhteistyö, voittoa tavoittelemattomat, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö voittoa tavoittelemattomien organisaatioiden kanssa EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_npo_neu_nefta",
+      "variablename": "Yhteistyö, voittoa tavoittelemattomat, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö voittoa tavoittelemattomien organisaatioiden kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_pri_nat",
+      "variablename": "Yhteistyö, henkilöasiakkaat, Suomi",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö henkilöasiakkaiden eli yksityisen sektorin asiakkaiden kanssa Suomessa, kyllä=1. Kansallinen muuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_pri_eu_efta",
+      "variablename": "Yhteistyö, henkilöasiakkaat, EU tai EFTA",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö henkilöasiakkaiden eli yksityisen sektorin asiakkaiden kanssa EU- tai EFTA-maissa, kyllä=1. Kansallinen muuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_pri_neu_nefta",
+      "variablename": "Yhteistyö, henkilöasiakkaat, muut maat",
+      "conceptdef": "Innovaatiotoimintaan liittyvä yhteistyö henkilöasiakkaiden eli yksityisen sektorin asiakkaiden kanssa muissa maissa kuin Suomessa ja EU- tai EFTA-maissa, kyllä=1. Kansallinen muuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_sppc_if",
+      "variablename": "Tuote/kuluttajalainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, tuoteturvallisuus/kuluttajansuojalainsäädäntö tai -sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_sppc_phic",
+      "variablename": "Tuote/kuluttajalainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, tuoteturvallisuus/kuluttajansuojalainsäädäntö tai -sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_sppc_nimpc",
+      "variablename": "Tuote/kuluttajalainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, tuoteturvallisuus/kuluttajansuojalainsäädäntö tai -sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_env_if",
+      "variablename": "Ympäristölainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, ympäristölainsäädäntö tai -sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_env_phic",
+      "variablename": "Ympäristölainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, ympäristölainsäädäntö tai -sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_env_nimpc",
+      "variablename": "Ympäristölainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, ympäristölainsäädäntö tai -sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_ip_if",
+      "variablename": "Immateriaalioikeudet (lainsäädäntö), myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, immateriaalioikeuksiin liittyvä lainsäädäntö tai sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_ip_phic",
+      "variablename": "Immateriaalioikeudet (lainsäädäntö), innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, immateriaalioikeuksiin liittyvä lainsäädäntö tai sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_ip_nimpc",
+      "variablename": "Immateriaalioikeudet (lainsäädäntö), ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, immateriaalioikeuksiin liittyvä lainsäädäntö tai sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_tax_if",
+      "variablename": "Verolainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, verolainsäädäntö tai -sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_tax_phic",
+      "variablename": "Verolainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, verolainsäädäntö tai -sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_tax_nimpc",
+      "variablename": "Verolainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, verolainsäädäntö tai -sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_empswas_if",
+      "variablename": "Työ/sosiaalilainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, työ-, työturvallisuus- tai sosiaalilainsäädäntö tai -sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_empswas_phic",
+      "variablename": "Työ/sosiaalilainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, työ-, työturvallisuus- tai sosiaalilainsäädäntö tai -sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_empswas_nimpc",
+      "variablename": "Työ/sosiaalilainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, työ-, työturvallisuus- tai sosiaalilainsäädäntö tai -sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_dpr_if",
+      "variablename": "Tietosuojalainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, tietosuojalainsäädäntö tai -sääntely (kuten GDPR) synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_dpr_phic",
+      "variablename": "Tietosuojalainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, tietosuojalainsäädäntö tai -sääntely (kuten GDPR) esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_dpr_nimpc",
+      "variablename": "Tietosuojalainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, tietosuojalainsäädäntö tai -sääntely (kuten GDPR) ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_hea_if",
+      "variablename": "Terveyslainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, terveyslainsäädäntö tai -sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1. Kansallinen kysymyskohta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_hea_phic",
+      "variablename": "Terveyslainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, terveyslainsäädäntö tai -sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1. Kansallinen kysymyskohta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_hea_nimpc",
+      "variablename": "Terveyslainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, terveyslainsäädäntö tai -sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1. Kansallinen kysymyskohta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_traf_if",
+      "variablename": "Liikennelainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, liikennelainsäädäntö tai -sääntely synnytti tai mahdollisti innovaatiotoimintaa, kyllä=1. Kansallinen kysymyskohta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_traf_phic",
+      "variablename": "Liikennelainsäädäntö, innovaatioita haittaava",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, liikennelainsäädäntö tai -sääntely esti tai hankaloitti innovaatiotoimintaa tai kasvatti sen kustannuksia, kyllä=1. Kansallinen kysymyskohta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_traf_nimpc",
+      "variablename": "Liikennelainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": "Lainsäädännön vaikutus innovaatiotoimintaan, liikennelainsäädäntö tai -sääntely ei vaikuttanut innovaatiotoimintaan tai ei ollut relevantti innovaatiotoiminnan kannalta, kyllä=1. Kansallinen kysymyskohta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_mat_sg",
+      "variablename": "Vähentynyt materiaalien tai veden käyttö yrityksessä, merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt materiaalien tai veden käyttö tuotettua mittayksikköä kohti, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_mat_nsg",
+      "variablename": "Vähentynyt materiaalien tai veden käyttö yrityksessä, ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt materiaalien tai veden käyttö tuotettua mittayksikköä kohti, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_mat_no",
+      "variablename": "Vähentynyt materiaalien tai veden käyttö yrityksessä, ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt materiaalien tai veden käyttö tuotettua mittayksikköä kohti, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_eno_sg",
+      "variablename": "Vähentynyt energian käyttö, pienentynyt CO2-hiilijalanjälki yrityksessä, merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt energian käyttö tai pienentynyt CO2-hiilijalanjälki (vähentyneet CO2-kokonaispäästöt), merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_eno_nsg",
+      "variablename": "Vähentynyt energian käyttö, pienentynyt CO2-hiilijalanjälki yrityksessä, ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt energian käyttö tai pienentynyt CO2-hiilijalanjälki (vähentyneet CO2-kokonaispäästöt), ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_eno_no",
+      "variablename": "Vähentynyt energian käyttö, pienentynyt CO2-hiilijalanjälki yrityksessä, ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt energian käyttö tai pienentynyt CO2-hiilijalanjälki (vähentyneet CO2-kokonaispäästöt), ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_pol_sg",
+      "variablename": "Vähentynyt saastuminen tai melusaaste (yrityksessä), merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt maaperän, veden tai ilman saastuminen tai vähäisempi melusaaste, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_pol_nsg",
+      "variablename": "Vähentynyt saastuminen tai melusaaste (yrityksessä), ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt maaperän, veden tai ilman saastuminen tai vähäisempi melusaaste, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_pol_no",
+      "variablename": "Vähentynyt saastuminen tai melusaaste (yrityksessä), ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; vähentynyt maaperän, veden tai ilman saastuminen tai vähäisempi melusaaste, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_sub_sg",
+      "variablename": "Materiaalien korvaaminen vähemmän saastuttavilla (yrityksessä), merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; materiaalien korvaaminen vähemmän saastuttavilla tai vähemmän vaaraa auheuttavilla, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_sub_nsg",
+      "variablename": "Materiaalien korvaaminen vähemmän saastuttavilla (yrityksessä), ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; materiaalien korvaaminen vähemmän saastuttavilla tai vähemmän vaaraa auheuttavilla, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_sub_no",
+      "variablename": "Materiaalien korvaaminen vähemmän saastuttavilla (yrityksessä), ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; materiaalien korvaaminen vähemmän saastuttavilla tai vähemmän vaaraa auheuttavilla, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rep_sg",
+      "variablename": "Fossiilisten energialähteiden korvaaminen uusiutuvilla (yrityksessä), merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; fossiilisten energianlähteiden korvaaminen uusiutuvilla energianlähteillä, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rep_nsg",
+      "variablename": "Fossiilisten energialähteiden korvaaminen uusiutuvilla (yrityksessä), ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; fossiilisten energianlähteiden korvaaminen uusiutuvilla energianlähteillä, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rep_no",
+      "variablename": "Fossiilisten energialähteiden korvaaminen uusiutuvilla (yrityksessä), ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; fossiilisten energianlähteiden korvaaminen uusiutuvilla energianlähteillä, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rec_sg",
+      "variablename": "Jätteiden, veden tai materiaalien kierrätys (yrityksessä), merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; jätteiden, veden tai materiaalien kierrätys omaan käyttöön tai myyntiin, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rec_nsg",
+      "variablename": "Jätteiden, veden tai materiaalien kierrätys (yrityksessä), ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; jätteiden, veden tai materiaalien kierrätys omaan käyttöön tai myyntiin, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rec_no",
+      "variablename": "Jätteiden, veden tai materiaalien kierrätys (yrityksessä), ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty yrityksessä ja innovaation merkitys ympäristönsuojeluun; jätteiden, veden tai materiaalien kierrätys omaan käyttöön tai myyntiin, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_enu_sg",
+      "variablename": "Vähentynyt energian käyttö, pienentynyt CO2-hiilijalanjälki lopputuotekäytössä, merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; vähentynyt energian käyttö tai pienentynyt CO2-hiilijalanjälki, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_enu_nsg",
+      "variablename": "Vähentynyt energian käyttö, pienentynyt CO2-hiilijalanjälki lopputuotekäytössä, ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; vähentynyt energian käyttö tai pienentynyt CO2-hiilijalanjälki, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_enu_no",
+      "variablename": "Vähentynyt energian käyttö, pienentynyt CO2-hiilijalanjälki lopputuotekäytössä, ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; vähentynyt energian käyttö tai pienentynyt CO2-hiilijalanjälki, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_pos_sg",
+      "variablename": "Vähentynyt saastuminen tai melusaaste (lopputuotekäytössä), merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; vähentynyt ilman, veden tai maaperän saastuminen tai vähäisempi melusaaste, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_pos_nsg",
+      "variablename": "Vähentynyt saastuminen tai melusaaste (lopputuotekäytössä), ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; vähentynyt ilman, veden tai maaperän saastuminen tai vähäisempi melusaaste, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_pos_no",
+      "variablename": "Vähentynyt saastuminen tai melusaaste (lopputuotekäytössä), ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; vähentynyt ilman, veden tai maaperän saastuminen tai vähäisempi melusaaste, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rea_sg",
+      "variablename": "Tuotteen kierrätysmahdollisuus käytön jälkeen, merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; tuotteen kierrätysmahdollisuus käytön jälkeen, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rea_nsg",
+      "variablename": "Tuotteen kierrätysmahdollisuus käytön jälkeen, ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; tuotteen kierrätysmahdollisuus käytön jälkeen, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_rea_no",
+      "variablename": "Tuotteen kierrätysmahdollisuus käytön jälkeen, ei relevantti",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; tuotteen kierrätysmahdollisuus käytön jälkeen, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_ext_sg",
+      "variablename": "Tuotteen elinkaaren pidentäminen, merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; tuotteen elinkaaren pidentäminen pidempikestoisten, kestävämpien tuotteiden myötä, merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_ext_nsg",
+      "variablename": "Tuotteen elinkaaren pidentäminen, ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; tuotteen elinkaaren pidentäminen pidempikestoisten, kestävämpien tuotteiden myötä, ei merkittävä, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eco_ext_no",
+      "variablename": "Tuotteen elinkaaren pidentäminen, ei merkittävä",
+      "conceptdef": "Vuosina 2018-2020 käyttöönotetuista tai markkinoille tuoduista innovaatioista saatu ympäristöhyöty lopputuotekäytön aikana ja innovaation merkitys ympäristönsuojeluun; tuotteen elinkaaren pidentäminen pidempikestoisten, kestävämpien tuotteiden myötä, ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_enereg",
+      "variablename": "Ympäristöinnovaatioiden syyt; ympäristölainsäädäntö",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; vallitseva ympäristölainsäädäntö, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_enetx",
+      "variablename": "Ympäristöinnovaatioiden syyt; ympäristöverot ja -maksut",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; vallitsevat ympäristöverot, -veloitukset ja -maksut, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_enregf",
+      "variablename": "Ympäristöinnovaatioiden syyt; tulevat säädökset ja verot",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; odotettavissa olevat ympäristösäädökset ja -verot, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_engra",
+      "variablename": "Ympäristöinnovaatioiden syyt; julkinen rahoitus, tuet, muut kannusteet",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; julkinen rahoitus, tuet tai muut rahoituskannusteet ympäristöinnovaatioille, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_endem",
+      "variablename": "Ympäristöinnovaatioiden syyt; nykyinen tai tuleva kysyntä",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; ympäristöinnovaatioiden nykyinen tai tuleva kysyntä, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_enrep",
+      "variablename": "Ympäristöinnovaatioiden syyt; yrityksen maineen parantaminen",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; yrityksen maineen parantaminen, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_enagr",
+      "variablename": "Ympäristöinnovaatioiden syyt; vapaaehtoiset toimet ympäristön vuoksi",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; yrityksen sektorin vapaaehtoiset toimet tai aloitteet ympäristölle suotuisista käytännöistä, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_encost",
+      "variablename": "Ympäristöinnovaatioiden syyt; korkeat kustannukset",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; korkeat energian, veden tai materiaalien kustannukset, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "env_enrequ",
+      "variablename": "Ympäristöinnovaatioiden syyt; julkiset hankintasopimukset",
+      "conceptdef": "Ympäristöhyötyjä tuottavien innovaatioiden käyttöön ottoon vaikuttaneet tekijät ja niiden merkitys 2018-2020; julkisten hankintasopimusten vaatimuksiin vastaaminen, merkitys 3=suuri, 2=kohtalainen, 1=vähäinen, 0=ei merkitystä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_yo",
+      "variablename": "Innovaatioyhteistyötä yliopistojen kanssa",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen kanssa vuosina 2018-2020, kyllä=1. Innovaatioyhteistyöllä tarkoitetaan aktiivista osallistumista t&k- tai muihin innovaatioprojekteihin, pelkkiä tilaustöitä ei lasketa innovaatioyhteistyöksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_amk",
+      "variablename": "Innovaatioyhteistyötä ammattikorkeiden kanssa",
+      "conceptdef": "Innovaatioyhteistyötä ammattikorkeiden kanssa vuosina 2018-2020, kyllä=1. Innovaatioyhteistyöllä tarkoitetaan aktiivista osallistumista t&k- tai muihin innovaatioprojekteihin, pelkkiä tilaustöitä ei lasketa innovaatioyhteistyöksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_tl",
+      "variablename": "Innovaatioyhteistyötä tutkimuslaitosten kanssa",
+      "conceptdef": "Innovaatioyhteistyötä tutkimuslaitosten kanssa vuosina 2018-2020, kyllä=1. Innovaatioyhteistyöllä tarkoitetaan aktiivista osallistumista t&k- tai muihin innovaatioprojekteihin, pelkkiä tilaustöitä ei lasketa innovaatioyhteistyöksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_no",
+      "variablename": "Ei innovaatioyhteistyötä tutkimusorganisaatioiden kanssa",
+      "conceptdef": "Ei innovaatioyhteistyötä tutkimusorganisaatioiden kanssa vuosina 2018-2020, kyllä=1. Innovaatioyhteistyöllä tarkoitetaan aktiivista osallistumista t&k- tai muihin innovaatioprojekteihin, pelkkiä tilaustöitä ei lasketa innovaatioyhteistyöksi. Tutkimusorganisaatioilla viitataan sekä kotimaisiin että ulkomaisiin yliopistoihin, ammattikorkeakouluihin ja tutkimuslaitoksiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_yo",
+      "variablename": "Muuta yhteistyötä yliopistojen kanssa",
+      "conceptdef": "Muuta yhteistyötä kuin innovaatioyhteistyötä yliopistojen kanssa vuosina 2018-2020, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_amk",
+      "variablename": "Muuta yhteistyötä ammattikorkeiden kanssa",
+      "conceptdef": "Muuta yhteistyötä kuin innovaatioyhteistyötä ammattikorkeiden kanssa vuosina 2018-2020, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_tl",
+      "variablename": "Muuta yhteistyötä tutkimuslaitosten kanssa",
+      "conceptdef": "Muuta yhteistyötä kuin innovaatioyhteistyötä tutkimuslaitosten kanssa vuosina 2018-2020, kyllä=1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_no",
+      "variablename": "Ei muuta yhteistyötä tutkimusorganisaatioiden kanssa",
+      "conceptdef": "Ei muuta yhteistyötä tutkimusorganisaatioiden kanssa vuosina 2018-2020, kyllä=1. Tutkimusorganisaatioilla viitataan sekä kotimaisiin että ulkomaisiin yliopistoihin, ammattikorkeakouluihin ja tutkimuslaitoksiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; tieto ja osaaminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, tietopohjan ja osaamisen vahvistuminen mukaan lukien patentit ja muut immateriaalioikeudet, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_amk",
+      "variablename": "Yhteistyön tulos/amk:t; tieto ja osaaminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, tietopohjan ja osaamisen vahvistuminen mukaan lukien patentit ja muut immateriaalioikeudet, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; tieto ja osaaminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, tietopohjan ja osaamisen vahvistuminen mukaan lukien patentit ja muut immateriaalioikeudet, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_no",
+      "variablename": "Yhteistyön tulos ei relevantti; tieto ja osaaminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, tietopohjan ja osaamisen vahvistuminen mukaan lukien patentit ja muut immateriaalioikeudet, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; näkemys trendeistä/markkinoista",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, näkemys tulevaisuuden kehitystrendeistä ja markkinoista, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_amk",
+      "variablename": "Yhteistyön tulos/amk:t; näkemys trendeistä/markkinoista",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, näkemys tulevaisuuden kehitystrendeistä ja markkinoista, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; näkemys trendeistä/markkinoista",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, näkemys tulevaisuuden kehitystrendeistä ja markkinoista, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_no",
+      "variablename": "Yhteistyön tulos ei relevantti; näkemys trendeistä/markkinoista",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, näkemys tulevaisuuden kehitystrendeistä ja markkinoista, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; teknologian käyttöönotto",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, uuden teknologian, menetelmän tai laitteen käyttöönotto, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_amk",
+      "variablename": "Yhteistyön tulos/amk:t; teknologian käyttöönotto",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, uuden teknologian, menetelmän tai laitteen käyttöönotto, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; teknologian käyttöönotto",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, uuden teknologian, menetelmän tai laitteen käyttöönotto, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_no",
+      "variablename": "Yhteistyön tulos ei relevantti; teknologian käyttöönotto",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, uuden teknologian, menetelmän tai laitteen käyttöönotto, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; tuoteinnovaatiot",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, uusia tai parannettuja tuotteita (eli tavaroita tai palveluita), 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_amk",
+      "variablename": "Yhteistyön tulos/amk:t; tuoteinnovaatiot",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, uusia tai parannettuja tuotteita (eli tavaroita tai palveluita), 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; tuoteinnovaatiot",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, uusia tai parannettuja tuotteita (eli tavaroita tai palveluita), 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_no",
+      "variablename": "Yhteistyön tulos ei relevantti; tuoteinnovaatiot",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, uusia tai parannettuja tuotteita (eli tavaroita tai palveluita), tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; kansainväliset markkinat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, kansainvälisille markkinoille pääsy tai sen edistyminen, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_amk",
+      "variablename": "Yhteistyön tulos/amk:t; kansainväliset markkinat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, kansainvälisille markkinoille pääsy tai sen edistyminen, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; kansainväliset markkinat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, kansainvälisille markkinoille pääsy tai sen edistyminen, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_no",
+      "variablename": "Yhteistyön tulos ei relevantti; kansainväliset markkinat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, kansainvälisille markkinoille pääsy tai sen edistyminen, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; yhteistyön laajeneminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, yhteistyön laajentuminen tutkimusorganisaation kanssa, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_amk",
+      "variablename": "Yhteistyön tulos/amk:t; yhteistyön laajeneminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, yhteistyön laajentuminen tutkimusorganisaation kanssa, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; yhteistyön laajeneminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, yhteistyön laajentuminen tutkimusorganisaation kanssa, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_no",
+      "variablename": "Yhteistyön tulos ei relevantti; yhteistyön laajeneminen",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyön laajentuminen tutkimusorganisaation kanssa, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; kv. innovaatio-ohjelmat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, osallistuminen kansainvälisiin tutkimus- tai innovaatio-ohjelmiin, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_amk",
+      "variablename": "Yhteistyön tulos/amk:t; kv. innovaatio-ohjelmat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, osallistuminen kansainvälisiin tutkimus- tai innovaatio-ohjelmiin, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; kv. innovaatio-ohjelmat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, osallistuminen kansainvälisiin tutkimus- tai innovaatio-ohjelmiin, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_no",
+      "variablename": "Yhteistyön tulos ei relevantti; kv. innovaatio-ohjelmat",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, osallistuminen kansainvälisiin tutkimus- tai innovaatio-ohjelmiin, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_yo",
+      "variablename": "Yhteistyön tulos/yliopistot; muissa kohdissa mainitsematon",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö yliopistojen kanssa, joitakin muita, muissa kysymyksen kohdissa mainitsemattomia tuloksia, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_amk",
+      "variablename": "Yhteistyön tulos/amk:t; muissa kohdissa mainitsematon",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö ammattikorkeakoulujen kanssa, joitakin muita, muissa kysymyksen kohdissa mainitsemattomia tuloksia, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset; muissa kohdissa mainitsematon",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, yhteistyö tutkimuslaitosten kanssa, joitakin muita, muissa kysymyksen kohdissa mainitsemattomia tuloksia, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_no",
+      "variablename": "Yhteistyön tulos ei relevantti; muissa kohdissa mainitsematon",
+      "conceptdef": "Yhteistyön tuottamat tulokset 2018-2020 tai odotetut tulokset vuoden 2020 loppuun mennessä, joitakin muita, muissa kysymyksen kohdissa mainitsemattomia tuloksia, tulos ei relevantti, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_tiltut",
+      "variablename": "Yhteistyömuotojen merkitys; tilaustutkimukset",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; tilaustutkimukset, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_inn",
+      "variablename": "Yhteistyömuotojen merkitys; innovaatiot",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; innovaatioiden yhteiskehittäminen, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_koul",
+      "variablename": "Yhteistyömuotojen merkitys; koulutusyhteistyö",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; koulutusyhteistyö, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_lab",
+      "variablename": "Yhteistyömuotojen merkitys; tutkimusinfra/-palvelut",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; tutkimusorganisaation tutkimusinfrastruktuurin ja -palveluiden käyttö, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_demo",
+      "variablename": "Yhteistyömuotojen merkitys; demo/pilotointi/testaus",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; demo, pilotointi tai tuotetestaus, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_opisk",
+      "variablename": "Yhteistyömuotojen merkitys; opiskelijoiden kontribuutio",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; opiskelijoiden harjoittelu tai opinnäyte, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_rekry",
+      "variablename": "Yhteistyömuotojen merkitys; osaajien rekrytointi",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; uusien osaajien rekrytointi yritykseen, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_oth",
+      "variablename": "Yhteistyömuotojen merkitys; muissa kohdissa mainitsematon",
+      "conceptdef": "Tutkimusorganisaatioiden kanssa tehtävän yhteistyön muotojen ja merkityksen kehittyminen vuosina 2018-2020; muissa kohdissa mainitsematon, merkitys kasvanut=3, merkitys pysynyt entisellään=2, merkitys vähentynyt=1, ei yhteistyötä=0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_tk",
+      "variablename": "Osaamisen merkitys; t&k ja teknologia",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, tutkimus ja kehittäminen sekä teknologian kehittäminen ja hyödyntäminen, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_liiket",
+      "variablename": "Osaamisen merkitys; liiketoimintaosaaminen",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, liiketoimintaosaaminen, uudet liiketoimintamallit, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_digit",
+      "variablename": "Osaamisen merkitys; digitalisaatio ja data",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, digitalisaation ja datan hyödyntäminen (mukaan lukien ohjelmointi, kyberturvallisuus), ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_luova",
+      "variablename": "Osaamisen merkitys; luovan työn osaaminen",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, luovan työn osaaminen (muun muassa visualisointi, av-sisällöt, viestintä ja muotoilu), ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_yht",
+      "variablename": "Osaamisen merkitys; yhteistyö- ja verkosto-osaaminen",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, yhteistyö- ja verkosto-osaaminen, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_market",
+      "variablename": "Osaamisen merkitys; markkinat ja asiakastarpeet",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, markkinoiden ja asiakastarpeiden tuntemus, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_ennak",
+      "variablename": "Osaamisen merkitys; ennakointi ja murrosten hyödyntäminen",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, ennakointi ja isojen yhteiskunnallisten murrosten (esimerkiksi ilmastonmuutos) hyödyntäminen, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_ijoht",
+      "variablename": "Osaamisen merkitys; innovaatiotoiminta",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, innovaatiotoiminnan johtaminen ja organisointi, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_ipr",
+      "variablename": "Osaamisen merkitys; ipr",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, aineettomien oikeuksien hyödyntäminen (patentit ja muu IPR), ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_muu",
+      "variablename": "Osaamisen merkitys; jokin muu osaamisalue",
+      "conceptdef": "Osaamisalueen merkitys yrityksen innovaatiotoiminnalle 2018-2020, jokin muu -- muissa kohdissa mainitsematon -- osaamisalue, ei tärkeästä (1) erittäin tärkeään (5)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_tk_ri",
+      "variablename": "Osaamisen riittävyys; t&k ja teknologia",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, tutkimus ja kehittäminen sekä teknologian kehittäminen ja hyödyntäminen, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_liiket_ri",
+      "variablename": "Osaamisen riittävyys; liiketoimintaosaaminen",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, liiketoimintaosaaminen, uudet liiketoimintamallit, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_digit_ri",
+      "variablename": "Osaamisen riittävyys; digitalisaatio ja data",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, digitalisaation ja datan hyödyntäminen (mukaan lukien ohjelmointi, kyberturvallisuus), 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_luova_ri",
+      "variablename": "Osaamisen riittävyys; luovan työn osaaminen",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, luovan työn osaaminen (muun muassa visualisointi, av-sisällöt, viestintä ja muotoilu), 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_yht_ri",
+      "variablename": "Osaamisen riittävyys; yhteistyö- ja verkosto-osaaminen",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, yhteistyö- ja verkosto-osaaminen, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_market_ri",
+      "variablename": "Osaamisen riittävyys; markkinat ja asiakastarpeet",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, markkinoiden ja asiakastarpeiden tuntemus, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_ennak_ri",
+      "variablename": "Osaamisen riittävyys; ennakointi ja murrosten hyödyntäminen",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, ennakointi ja isojen yhteiskunnallisten murrosten (esimerkiksi ilmastonmuutos) hyödyntäminen, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_ijoht_ri",
+      "variablename": "Osaamisen riittävyys; innovaatiotoiminta",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, innovaatiotoiminnan johtaminen ja organisointi, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_ipr_ri",
+      "variablename": "Osaamisen riittävyys; ipr",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, aineettomien oikeuksien hyödyntäminen (patentit ja muu IPR), 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaam_muu_ri",
+      "variablename": "Osaamisen riittävyys; jokin muu osaamisalue",
+      "conceptdef": "Osaamisen riittävyys 2018-2020, jokin muu -- muissa kohdissa mainitsematon -- osaamisalue, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_tuote_digit_te",
+      "variablename": "Toimet koronan vuoksi; digitaaliset tuotteet, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; aiempien tuotteiden digitalisointi tai uusien digitaalisten tuotteiden tuottaminen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_tuote_digit_fn",
+      "variablename": "Toimet koronan vuoksi; digitaaliset tuotteet, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; aiempien tuotteiden digitalisointi tai uusien digitaalisten tuotteiden tuottaminen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_tuote_digit_no",
+      "variablename": "Toimet koronan vuoksi; digitaaliset tuotteet, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; aiempien tuotteiden digitalisointi tai uusien digitaalisten tuotteiden tuottaminen, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_prose_digit_te",
+      "variablename": "Toimet koronan vuoksi; tuotannon digitalisointi, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon ja toiminnan digitalisointi, mukaan lukien esimerkiksi etätyön laajentaminen ja erilaisten digitaalisten järjestelmien käyttöönotto, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_prose_digit_fn",
+      "variablename": "Toimet koronan vuoksi; tuotannon digitalisointi, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon ja toiminnan digitalisointi, mukaan lukien esimerkiksi etätyön laajentaminen ja erilaisten digitaalisten järjestelmien käyttöönotto, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_prose_digit_no",
+      "variablename": "Toimet koronan vuoksi; tuotannon digitalisointi, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon ja toiminnan digitalisointi, mukaan lukien esimerkiksi etätyön laajentaminen ja erilaisten digitaalisten järjestelmien käyttöönotto, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_jak_digit_te",
+      "variablename": "Toimet koronan vuoksi; digitaaliset jakelukanavat, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; digitaalisten jakelukanavien avaaminen ja lisääminen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_jak_digit_fn",
+      "variablename": "Toimet koronan vuoksi; digitaaliset jakelukanavat, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; digitaalisten jakelukanavien avaaminen ja lisääminen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_jak_digit_no",
+      "variablename": "Toimet koronan vuoksi; digitaaliset jakelukanavat, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; digitaalisten jakelukanavien avaaminen ja lisääminen, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_coop_te",
+      "variablename": "Toimet koronan vuoksi; uudet kumppanuudet, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien kumppanuuksien tai alihankintaketjujen hankinta, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_coop_fn",
+      "variablename": "Toimet koronan vuoksi; uudet kumppanuudet, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien kumppanuuksien tai alihankintaketjujen hankinta, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_coop_no",
+      "variablename": "Toimet koronan vuoksi; uudet kumppanuudet, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien kumppanuuksien tai alihankintaketjujen hankinta, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_tuot_back_te",
+      "variablename": "Toimet koronan vuoksi; tuotannon siirtäminen Suomeen, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon siirtäminen ulkomailta Suomeen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_tuot_back_fn",
+      "variablename": "Toimet koronan vuoksi; tuotannon siirtäminen Suomeen, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon siirtäminen ulkomailta Suomeen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_tuot_back_no",
+      "variablename": "Toimet koronan vuoksi; tuotannon siirtäminen Suomeen, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon siirtäminen ulkomailta Suomeen, yrityksellä ai ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_myynti_fi_te",
+      "variablename": "Toimet koronan vuoksi; myynnin suuntaaminen kotimaahan, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; myynnin suuntaaminen kotimaisille asiakkaille, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_myynti_fi_fn",
+      "variablename": "Toimet koronan vuoksi; myynnin suuntaaminen kotimaahan, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; myynnin suuntaaminen kotimaisille asiakkaille, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_myynti_fi_no",
+      "variablename": "Toimet koronan vuoksi; myynnin suuntaaminen kotimaahan, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; myynnin suuntaaminen kotimaisille asiakkaille, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_market_fi_te",
+      "variablename": "Toimet koronan vuoksi; uudet asiakkaat kotimaassa, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien markkina-alueiden tai asiakasryhmien hankinta kotimaassa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_market_fi_fn",
+      "variablename": "Toimet koronan vuoksi; uudet asiakkaat kotimaassa, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien markkina-alueiden tai asiakasryhmien hankinta kotimaassa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_market_fi_no",
+      "variablename": "Toimet koronan vuoksi; uudet asiakkaat kotimaassa, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien markkina-alueiden tai asiakasryhmien hankinta kotimaassa, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_market_ab_te",
+      "variablename": "Toimet koronan vuoksi; uudet asiakkaat ulkomailla, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien markkina-alueiden tai asiakasryhmien hankinta ulkomailla, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_market_ab_fn",
+      "variablename": "Toimet koronan vuoksi; uudet asiakkaat ulkomailla, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien markkina-alueiden tai asiakasryhmien hankinta ulkomailla, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_market_ab_no",
+      "variablename": "Toimet koronan vuoksi; uudet asiakkaat ulkomailla, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; uusien markkina-alueiden tai asiakasryhmien hankinta ulkomailla, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_new_purp_te",
+      "variablename": "Toimet koronan vuoksi; tuotannon/tuotteiden muokkaaminen, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon tai tuotteiden muokkaaminen uuteen käyttötarkoitukseen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_new_purp_fn",
+      "variablename": "Toimet koronan vuoksi; tuotannon/tuotteiden muokkaaminen, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon tai tuotteiden muokkaaminen uuteen käyttötarkoitukseen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_new_purp_no",
+      "variablename": "Toimet koronan vuoksi; tuotannon/tuotteiden muokkaaminen, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; tuotannon tai tuotteiden muokkaaminen uuteen käyttötarkoitukseen, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_new_tuote_te",
+      "variablename": "Toimet koronan vuoksi; kokonaan uudet tuotteet, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; kokonaan uusien tavaroiden tai palveluiden tuotanto tai markkinoille tuonti, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_new_tuote_fn",
+      "variablename": "Toimet koronan vuoksi; kokonaan uudet tuotteet, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; kokonaan uusien tavaroiden tai palveluiden tuotanto tai markkinoille tuonti, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_new_tuote_no",
+      "variablename": "Toimet koronan vuoksi; kokonaan uudet tuotteet, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; kokonaan uusien tavaroiden tai palveluiden tuotanto tai markkinoille tuonti, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_finish_te",
+      "variablename": "Toimet koronan vuoksi; tuotteista luopumista, väliaikaisesti",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; joidenkin tuotteiden tuotannon lopettaminen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_finish_fn",
+      "variablename": "Toimet koronan vuoksi; tuotteista luopumista, toistaiseksi",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; joidenkin tuotteiden tuotannon lopettaminen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "cov_finish_no",
+      "variablename": "Toimet koronan vuoksi; tuotteista luopumista, ei ao. toimia",
+      "conceptdef": "Toimet koronapandemian vuoksi ja toimien ja niiden vaikutusten kesto; joidenkin tuotteiden tuotannon lopettaminen, yrityksellä ei ao. toimia, 1=ei ao. toimia (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_inn_fin_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; innovaatiotoiminnan lopettaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatiotoiminnan (t&k tai muu innovaatiotoiminta) lopettaminen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_inn_fin_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; innovaatiotoiminnan lopettaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatiotoiminnan (t&k tai muu innovaatiotoiminta) lopettaminen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_inn_fin_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; innovaatiotoiminnan lopettaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatiotoiminnan (t&k tai muu innovaatiotoiminta) lopettaminen, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_inn_post_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; innovaatiotoiminnan lykkääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatiotoiminnan lykkääminen soveliaampaan ajankohtaan, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_inn_post_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; innovaatiotoiminnan lykkääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatiotoiminnan lykkääminen soveliaampaan ajankohtaan, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_inn_post_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; innovaatiotoiminnan lykkääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatiotoiminnan lykkääminen soveliaampaan ajankohtaan, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tk_start_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; t&k-toiminnan aloittaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tutkimus- ja kehittämistoiminnan (t&k) aloittaminen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tk_start_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; t&k-toiminnan aloittaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tutkimus- ja kehittämistoiminnan (t&k) aloittaminen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tk_start_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; t&k-toiminnan aloittaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tutkimus- ja kehittämistoiminnan (t&k) aloittaminen, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tk_add_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; t&k-toiminnan lisääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tutkimus- ja kehittämistoiminnan (t&k) lisääminen, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tk_add_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; t&k-toiminnan lisääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tutkimus- ja kehittämistoiminnan (t&k) lisääminen, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tk_add_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; t&k-toiminnan lisääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tutkimus- ja kehittämistoiminnan (t&k) lisääminen, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tuote_start_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tuoteinnovoinnin aloittaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tavara- tai palveluinnovaatioiden kehittämisen aloittaminen (tuotekehitystyötä ei aiemmin ollut tutkimuksen tarkastelujaksolla 2018–2020, mutta pandemia loi täysin uusia tuote-kehitysmahdollisuuksia), väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tuote_start_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tuoteinnovoinnin aloittaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tavara- tai palveluinnovaatioiden kehittämisen aloittaminen (tuotekehitystyötä ei aiemmin ollut tutkimuksen tarkastelujaksolla 2018–2020, mutta pandemia loi täysin uusia tuote-kehitysmahdollisuuksia), toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tuote_start_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tuoteinnovoinnin aloittaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tavara- tai palveluinnovaatioiden kehittämisen aloittaminen (tuotekehitystyötä ei aiemmin ollut tutkimuksen tarkastelujaksolla 2018–2020, mutta pandemia loi täysin uusia tuote-kehitysmahdollisuuksia), ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tuote_add_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tuoteinnovoinnin lisääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tavara- tai palveluinnovaatioiden kehittämisen lisääminen, mukaan lukien suunnitellun innovaatiotoiminnan aikaistaminen (pandemia loi uusia tuotekehitysmahdollisuuksia jo vallinneen tuotekehitystyön lisäksi), väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tuote_add_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tuoteinnovoinnin lisääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tavara- tai palveluinnovaatioiden kehittämisen lisääminen, mukaan lukien suunnitellun innovaatiotoiminnan aikaistaminen (pandemia loi uusia tuotekehitysmahdollisuuksia jo vallinneen tuotekehitystyön lisäksi), toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_tuote_add_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tuoteinnovoinnin lisääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; tavara- tai palveluinnovaatioiden kehittämisen lisääminen, mukaan lukien suunnitellun innovaatiotoiminnan aikaistaminen (pandemia loi uusia tuotekehitysmahdollisuuksia jo vallinneen tuotekehitystyön lisäksi), ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_prose_start_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; prosessi-innovoinnin aloittaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; prosessi-innovaatioiden kehittämisen aloittaminen (proses-sikehitystyötä ei aiemmin ollut tutkimuksen tarkastelujaksolla 2018– 2020, mutta pandemia loi täysin uusia prosessike-hitysmahdollisuuksia), väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_prose_start_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; prosessi-innovoinnin aloittaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; prosessi-innovaatioiden kehittämisen aloittaminen (proses-sikehitystyötä ei aiemmin ollut tutkimuksen tarkastelujaksolla 2018– 2020, mutta pandemia loi täysin uusia prosessike-hitysmahdollisuuksia), toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_prose_start_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; prosessi-innovoinnin aloittaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; prosessi-innovaatioiden kehittämisen aloittaminen (proses-sikehitystyötä ei aiemmin ollut tutkimuksen tarkastelujaksolla 2018– 2020, mutta pandemia loi täysin uusia prosessike-hitysmahdollisuuksia), ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_prose_add_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; prosessi-innovoinnin lisääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; prosessi-innovaatioiden kehittämisen lisääminen, mukaan lukien suunnitellun innovaatiotoiminnan aikaistaminen (pandemia loi uusia prosessikehitysmahdollisuuksia muiden meneillään olleiden prosessikehityshankkeiden lisäksi), väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_prose_add_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; prosessi-innovoinnin lisääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; prosessi-innovaatioiden kehittämisen lisääminen, mukaan lukien suunnitellun innovaatiotoiminnan aikaistaminen (pandemia loi uusia prosessikehitysmahdollisuuksia muiden meneillään olleiden prosessikehityshankkeiden lisäksi), toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_prose_add_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; prosessi-innovoinnin lisääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; prosessi-innovaatioiden kehittämisen lisääminen, mukaan lukien suunnitellun innovaatiotoiminnan aikaistaminen (pandemia loi uusia prosessikehitysmahdollisuuksia muiden meneillään olleiden prosessikehityshankkeiden lisäksi), ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_coyr_start_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; yritystysyhteistyön aloittaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen muiden yritysten kanssa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_coyr_start_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; yritystysyhteistyön aloittaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen muiden yritysten kanssa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_coyr_start_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; yritystysyhteistyön aloittaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen muiden yritysten kanssa, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_coyr_add_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; yritystysyhteistyön lisääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen muiden yritysten kanssa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_coyr_add_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; yritystysyhteistyön lisääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen muiden yritysten kanssa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_coyr_add_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; yritystysyhteistyön lisääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen muiden yritysten kanssa, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cokk_start_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; korkeakouluyhteistyön aloittaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen yliopistojen ja/tai ammattikorkeakoulujen kanssa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cokk_start_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; korkeakouluyhteistyön aloittaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen yliopistojen ja/tai ammattikorkeakoulujen kanssa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cokk_start_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; korkeakouluyhteistyön aloittaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen yliopistojen ja/tai ammattikorkeakoulujen kanssa, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cokk_add_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; korkeakouluyhteistyön lisääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen yliopistojen ja/tai ammattikorkeakoulujen kanssa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cokk_add_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; korkeakouluyhteistyön lisääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen yliopistojen ja/tai ammattikorkeakoulujen kanssa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cokk_add_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; korkeakouluyhteistyön lisääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen yliopistojen ja/tai ammattikorkeakoulujen kanssa, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cotl_start_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tutkimuslaitosyhteistyön aloittaminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen tutkimuslaitosten kanssa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cotl_start_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tutkimuslaitosyhteistyön aloittaminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen tutkimuslaitosten kanssa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cotl_start_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tutkimuslaitosyhteistyön aloittaminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön aloittaminen tutkimuslaitosten kanssa, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cotl_add_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tutkimuslaitosyhteistyön lisääminen, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen tutkimuslaitosten kanssa, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cotl_add_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tutkimuslaitosyhteistyön lisääminen, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen tutkimuslaitosten kanssa, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_cotl_add_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; tutkimuslaitosyhteistyön lisääminen, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; innovaatioyhteistyön lisääminen tutkimuslaitosten kanssa, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_muu_te",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; muita vaikutuksia, väliaikaisesti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; muita -- muissa kohdissa mainitsemattomia -- vaikutuksia, väliaikaisesti, 1=kyllä, väliaikaisesti (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_muu_fn",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; muita vaikutuksia, toistaiseksi",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; muita -- muissa kohdissa mainitsemattomia -- vaikutuksia, toistaiseksi, 1=kyllä, toistaiseksi (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "covinn_muu_no",
+      "variablename": "Koronan vaikutus innovaatiotoimintaan; muita vaikutuksia, ei relevantti",
+      "conceptdef": "Koronapandemian vaikutus yrityksen innovaatiotoimintaan ja vaikutuksen kesto; muita -- muissa kohdissa mainitsemattomia -- vaikutuksia, ei ao. vaikutusta, 1=ei ao. vaikutusta (koronapandemialla viitataan koko pandemia-ajanjaksoon alkaen keväästä 2020 ja päättyen tässä tapauksessa kyselyn ajankohtaan eli syksyyn 2021)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emp20",
+      "variablename": "Yrityksen henkilöstö 2018",
+      "conceptdef": "Yrityksen henkilöstö keskimäärin vuonna 2020",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur20",
+      "variablename": "Yrityksen liikevaihto 2018",
+      "conceptdef": "Yrityksen kokonaisliikevaihto vuonna 2020, tuhatta (1000) euroa. Rahoituslaitokset: esimerkiksi korkotuotot tai vastaavat, vakuutusyhtiöt: esimerkiksi vakuutusmaksutulo (brutto).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_nat",
+      "variablename": "Liikevaihdon osuus asiakkailta Suomesta",
+      "conceptdef": "Osuus yrityksen kokonaisliikevaihdosta asiakkailta Suomesta, prosenttia (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_eu_efta",
+      "variablename": "Liikevaihdon osuus asiakkailta EU- tai EFTA-maista",
+      "conceptdef": "Osuus yrityksen kokonaisliikevaihdosta asiakkailta EU- tai EFTA-maista, prosenttia (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_neu_nefta",
+      "variablename": "Liikevaihdon osuus asiakkailta muualta kuin Suomesta/EU-/EFTA-maista",
+      "conceptdef": "Osuus yrityksen kokonaisliikevaihdosta asiakkailta muista kuin muissa kohdissa mainituista maista eli Suomesta tai EU- tai EFTA-maista, prosenttia (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_hd_nat",
+      "variablename": "Kuuluu konserniin, pääkonttori Suomessa",
+      "conceptdef": "Yritys oli 2020 osa konsernia, jonka pääkonttori sijaitsi Suomessa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_ent_eg_nat",
+      "variablename": "Kuuluu konserniin, kaikki konsernin yritykset Suomessa",
+      "conceptdef": "Yritys oli 2020 osa konsernia, jonka pääkonttori sijaitsi Suomessa ja kaikki konsernin yritykset sijaitsivat Suomessa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_hd_for",
+      "variablename": "Kuuluu konserniin, pääkonttori ulkomailla",
+      "conceptdef": "Yritys oli 2020 osa konsernia, jonka pääkonttori sijaitsi ulkomailla, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_hd_lct",
+      "variablename": "Kuuluu konserniin, pääkonttorin sijaintimaa ulkomailla",
+      "conceptdef": "Ulkomaisen konsernin pääkonttorin sijaintimaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "Lukumääräkerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvkerr",
+      "variablename": "Liikevaihtokerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "group",
+      "variablename": "Konsernivastaus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "suojattu yritys- ja yhteisötunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

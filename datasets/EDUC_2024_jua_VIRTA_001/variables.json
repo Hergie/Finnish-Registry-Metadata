@@ -1,0 +1,492 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "savain",
+      "variablename": "Suojattu avain",
+      "conceptdef": "Yksilöivä tunniste eli tunniste, jollaista toista ei ole korkeakoulun omassa rekisterissä. Tyypillisesti rekisteritietojärjestelmän antama yksilöivä tunniste, jonka synonyymeja ovat esimerkiksi \"surrogaatti\" tai \"avain\". Suojattu avain yhdistää opintosuoritukset, opiskeluoikeudet ja lukukausi-ilmoittautumiset henkilöön. Suojattua avainta tarvitaan, koska kaikille henkilöillä ei löydy suojattua henkilönumeroa (eli henkilötunnus puuttuu). savain=sHenkiloavain=sopiskelijaavain\n\nOpiskeluoikeudet-tiedosto: sAvain = opiskeluoikeus_avain_s (korkeakoulukohtainen tunniste opiskeluoikeudelle)\nOpiskeluoikeusjakso-tiedosto: Savain = opiskeluoikeus_avain_s (korkeakoulukohtainen tunniste opiskeluoikeudelle, tämä siis ei ole opiskelija avain)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kirjoihintulopaivamaara",
+      "variablename": "Kirjoihintulopäivämäärä",
+      "conceptdef": "Opiskelijan kirjoihintulopäivämäärä korkeakouluun. Yliopistoilla tämä on tyypillisesti ollut se ajanhetki, jolloin opiskelija on saanut ja aloittanut ensimmäisen tutkinnonsuoritusoikeuden ko. yliopistossa. Tieto kerätään erikseen, jotta myös todella vanhojen opiskelijoiden, joilla opiskelu on alkanut esim. ennen sähköisten rekisterien aikaa, kirjoihintulopäivämäärä saadaan paikkansa pitävästi tietoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskelijat"
+    },
+    {
+      "identifier": "kunta_koodi",
+      "variablename": "Asuinkunta",
+      "conceptdef": "Henkilön vakituinen asuinkunta Suomessa. Aineistossa käytetty luokitus löytyy Tilastokeskuksen luokituspalvelun kotisivuilta osoitteesta: https://stat.fi/fi/luokitukset. 200=Ulkomaat ja 999=Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskelijat, opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "kieli_koodi",
+      "variablename": "Äidinkieli",
+      "conceptdef": "Henkilön äidinkieli. Aineistossa käytetty luokitus löytyy Tilastokeskuksen luokituspalvelun kotisivuilta osoitteesta: https://stat.fi/fi/luokitukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso, opiskelijat, opintosuoritus"
+    },
+    {
+      "identifier": "maan_koodi",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "Henkilön viimeisin kansalaisuustieto. Aineistossa käytetty luokitus löytyy Tilastokeskuksen luokituspalvelun kotisivuilta osoitteesta: http://tilastokeskus.fi/luokitukset",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskelijat"
+    },
+    {
+      "identifier": "patevyys_koodi",
+      "variablename": "Pätevyys",
+      "conceptdef": "Pätevyystiedolla tarkoitetaan sellaista muodollista pätevyyttä, jota korkeakoulun ulkopuolinen viranomainen valvoo tai rekisteröi. \nLuokitus löytyy verkosta sivulla https://confluence.csc.fi/display/VIRTA/Tietovarannon+koodistot#Tietovarannonkoodistot-Pätevyys,Behörighet \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskelijat"
+    },
+    {
+      "identifier": "patev_alkpvm",
+      "variablename": "Pätevyyden alkupäivämäärä",
+      "conceptdef": "Pätevyyden alkupäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskelijat"
+    },
+    {
+      "identifier": "koulutusala",
+      "variablename": "Koulutusala",
+      "conceptdef": "Tutkintolajisille opintosuorituksille ja tutkintoon johtaville opiskeluoikeuksille koulutusalatieto ilmoitetaan Koulutusluokitus-koodistolla. Koulutuskoodi pitää sisällään tiedon koulutusalasta. Vuoden 2016 tiedoista lähtien on otettu käyttöön Opetus- ja kulttuuriministeriön korkeakoulujen ohjauksen alojen mukainen koodisto (OKM:n ohjauksen ala), joka korvaa molemmilla korkeakoulusektoreilla aiemmin käytössä olleet koulutusala 2002 ja opintoala 1995 koodistojen käytön. \nLuokitus:\n1 Kasvatusalat\n2 Taiteet ja kulttuurialat\n3 Humanistiset alat\n4 Yhteiskunnalliset alat\n5 Kauppa, hallinto ja oikeustieteet\n6 Luonnontieteet\n7 Tietojenkäsittely ja tietoliikenne\n8 Tekniikan alat\n9 Maa- ja metsätalousalat\n10 Lääketieteet\n11 Terveys- ja hyvinvointialat\n12 Palvelualat\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet, opintosuoritus"
+    },
+    {
+      "identifier": "opiskeluoikeuden_tyyppi",
+      "variablename": "Opiskeluoikeuden tyyppi",
+      "conceptdef": "Opiskeluoikeudella voi olla koko olemassaolonsa aikana vain yksi opiskeluoikeuden tyyppi. Korkeakoulujen valtakunnalliseen tietovarantoon on pakollista tuoda ne opiskeluoikeudet, jotka liittyvät tutkintoon johtavaan koulutukseen (1-7, pl. 5), erilliseen opettajankoulutukseen (14-15) ja ammattikorkeakoulujen erikoistumisopintoihin (12). 1 Ammattikorkeakoulututkinto  2 Alempi korkeakoulututkinto  3 Ylempi ammattikorkeakoulututkinto   4 Ylempi korkeakoulututkinto   5 Lääkärien erikoistumiskoulutus    6 Lisensiaatintutkinto   7 Tohtorintutkinto   8 Kotimainen opiskelijaliikkuvuus. Korkeakoulujen välisiin sopimuksiin perustuva kotimainen opiskelijaliikkuvuus. 9 Kansainvälinen vaihto. Liikkuva opiskelija suorittaa kokonaista korkeakoulututkintoa (perus- tai jatkotutkintoa) ulkomailla ja suorittaa osan opinnoistaan niin, että Suomessa suoritetut opinnot luetaan hyväksi tutkintoon. 10 Täydennyskoulutus. Opiskeluoikeuden tyyppi on täydennyskoulutus, kun oppija täydentää aiemmin hankittua osaamistaan opinnoilla, jotka eivät tuota pätevyyttä. 11 Pätevöitymiskoulutus. Poistuva opiskeluoikeuden tyyppi, ei käytetä enää vuoden 2018 tiedoista alkaen. Pätevyystiedot tuodaan VIRTAan pätevyyskoodiston arvoina. 12 Erikoistumisopinnot. Ammatilliset erikoistumisopinnot ovat ammattikorkeakoulututkintoon pohjautuvia täydennyskoulutusohjelmia, joiden laajuus on 30-60 opintopistettä. 13 Avoimen opinnot. Opiskeluoikeuden tyyppi on avoimet opinnot, kun oppija suorittaa tutkintoon johtamatonta koulutusta avoimessa yliopistossa tai ammattikorkeakoulussa. 14 Opettajan pedagogiset opinnot. Opiskeluoikeuden tyyppi on opettajan pedagogiset opinnot, kun oppija suorittaa opettajan pedagogisia opintoja erillisopintoina. 15 Ammatillinen opettajankoulutus. Opiskeluoikeuden tyyppi on ammatillinen opettajankoulutus, kun oppija suorittaa ammatillista opettajankoulutusta erillisinä opintoina. 16 Oppisopimus-tyyppinen koulutus. Opiskeluoikeuden tyyppi on korkeakoulutettujen oppisopimustyyppistä täydennyskoulutusta. 17 Valmentava koulutus. Opiskeluoikeuden tyyppi on valmentava koulutus, kun oppija suorittaa esim. maahanmuuttajien valmentavaa koulutusta. 18 Erillisoikeus. Opiskeluoikeuden tyyppi on erillinen opiskeluoikeus, kun korkeakoulu on myöntänyt oppijalle ajallisesti ja sisällöllisesti rajatun oikeuden suorittaa tietyn koulutuksen (opintojakson tai -kokonaisuuden) ilman tutkinnonsuorittamisoikeutta. Tutkintoon johtamattomat opiskeluoikeudet, jotka eivät kategorisoidu muihin opiskeluoikeuden tyyppeihin, saavat myös erillinen opiskeluoikeus -koodiarvon. 19 Erikoistumiskoulutus. Opiskeluoikeuden tyyppi on erikoistumiskoulutus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Aikuiskoulutus",
+      "variablename": "Aikuiskoulutus",
+      "conceptdef": "Tarkentaa Opiskeluoikeuden tyyppi -koodiston arvoa 1 Ammattikorkeakoulututkinto. Jos opiskeluoikeus on tyyppiä ammattikorkeakoulututkinto ja tätä arvoa A Aikuiskoulutus ei ole tuotu, on kyseessä nuorten koulutus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Siirtopaivamaara",
+      "variablename": "Siirtopäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Lahdejarj_op_oik_tunnus",
+      "variablename": "Lähdejärjestelmän opiskeluoikeustunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Opintojen_aloituspaivamaara",
+      "variablename": "Opintojen aloituspäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Alkamispaivamaara",
+      "variablename": "Opiontojen alkamispäivämäärä -",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit, opiskeluoikeudet, opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "Paattymispaivamaara",
+      "variablename": "Opintojen päättymispäivämäärä ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso, opiskeluoikeudet, lukukausi_ilmoit"
+    },
+    {
+      "identifier": "Avoimen_vayla",
+      "variablename": "Avoimen väylä",
+      "conceptdef": "Opiskeluoikeus myönnetty avoimen opintojen perusteella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Maisteriohjelma",
+      "variablename": "Maisteriohjelma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "Laajuus",
+      "variablename": "Laajuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus, opiskeluoikeudet"
+    },
+    {
+      "identifier": "ens_alkpvm",
+      "variablename": "Ensisijaisuuden alkamispäivämäärä",
+      "conceptdef": "Päivämäärä, josta alkaen opinto-oikeuden ensisijaisuus on voimassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "ens_paatpvm",
+      "variablename": "Ensisijaisuuden päättymispäivämäärä",
+      "conceptdef": "Päivämäärä, jolloin opinto-oikeuden ensisijaisuus päättyy.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "organisaatio",
+      "variablename": "Organisaatio",
+      "conceptdef": "Organisaation koodistona toimii Tilastokeskuksen Oppilaitosrekisteri laajennettuna eräillä muilla arvoilla. Laajennusarvot koostuvat pääasiassa Tilastokeskuksen oppilaitostyyppiluokituksen arvoista.Laajennusarvoja on tarkoitus käyttää vain, mikäli varsinaista oppilaitosrekisterin oppilaitostietoa ei ole mahdollista antaa. Tilastokeskuksen Oppilaitosrekisteriä on laajennettu vain alla näkyvillä arvoilla. 42 Yliopistot, \n41 Ammattikorkeakoulut, \n64 Kansalaisopistot Kansalais- ja työväenopistot. Avoin yliopisto-opetus -tiedonkeruu, \n63 Kansanopistot Avoin yliopisto-opetus -tiedonkeruu.  \n66 Kesäyliopistot Avoin yliopisto-opetus -tiedonkeruu.\n99 Muut oppilaitokset . \nUK Ulkomainen korkeakoulu Hyväksilukemisen lähteenä. \nUM Ulkomainen muu oppilaitos . \nXX Muodollisen koulutuksen ulkopuolella . \n\nTilastokeskuksen Oppilaitosrekisteri löytyy Tilastokeskuksen sivustolta osoitteesta: http://www.stat.fi/tup/oppilaitosrekisteri/index.html. Tilastossa käytetyt luokitukset löytyvät Tilastokeskuksen luokitus- ja metatietopalvelujen kotisivuilta osoitteesta: https://stat.fi/fi/luokitukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "org_rooli",
+      "variablename": "Organisaation rooli",
+      "conceptdef": "Organisaation rooli liittyy tilanteeseen, jossa varsinainen organisaatiotieto liittyy johonkin toiseen tietoon ja liitokseen liittyen on jokin rooli. 1 = Myöntävä. Ilmaisee sitä organisaatiota, jonka omistamasta tiedosta on kyse. 2 = Järjestävä. Ilmaisee sitä organisaatiota, joka on osallistunut kyseenomaisen tiedon syntymisen järjestämiseen tai toteuttamiseen. 3 = Lähde. Ilmaisee sitä organisaatiota, joka on kyseenomaisen tiedon syntymisen alkuperäinen lähde. 4 = Kohde. Ilmaisee sitä organisaatiota, jonka kyseenomaiseen tietoon liittyen on olemassa liikkuvuutta/siirtyvyyttä ja tässä ilmoitettava organisaatio on siirtymisen kohde. 9 = Tuntematon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "org_osuus",
+      "variablename": "organisaatio osuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeudet"
+    },
+    {
+      "identifier": "koulutuskoodi",
+      "variablename": "Koulutusluokitus",
+      "conceptdef": "Koulutusluokitus on tutkintoon johtavan koulutuksen yhteismitallisuuden tärkein luokitteleva tekijä korkeakoulujen valtakunnallisen tietovarannon käyttöönoton myötä. Koulutusluokitusta ylläpitää Tilastokeskus. Korkeakoulujen vastuulla on Tilastokeskuksen ohjeiden mukaisesti luokitella koulutusluokituksen koodiarvoilla tutkintoon johtavan koulutuksen opiskeluoikeudet ja tutkintolajiset opintosuoritukset. Mahdollisesti tarpeellisia uusia koodiarvoja koulutusluokitukseen määritellään Tilastokeskuksen johdolla yhteistyössä korkeakoulujen sekä opetus- ja kulttuuriministeriön kesken osana korkeakoulujen tietomallin ja korkeakoulujen valtakunnallisen tietovarannon ylläpitoa.  Luokitus on käytettävissä tutkintolajisille opintosuorituksille ja tutkintoon johtavan koulutuksen opiskeluoikeuksille. Muille opintosuorituksille ja opiskeluoikeuksille käytetään Koulutusala-koodistoa tai Opintoala-koodistoa.\n\n Koulutusluokitus: <http://www.stat.fi/meta/luokitukset/koulutus/>\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "rahoituslahde_koodi",
+      "variablename": "Rahoituslähde",
+      "conceptdef": "Rahoituslähde. \n1 = Perusrahoitus on Opetushallinnon (tai ammattikorkeakoulun) rahoittama koulutus\n2 = ESR-rahoitus, vain ammattikorkeakoulukoulutus, on kokonaan (ml. kansallinen osuus) ESR-rahoituksella tai muulla rakennerahastorahoituksella järjestettävä tutkintoon johtava koulutus \n3 = TE-rahoitus, vain ammattikorkeakoulukoulutus, on työvoimahallinnon ostama AMK-tutkintoon johtava koulutus \n4 = Maksullinen tilauskoulutus. Yo-tiedonkeruussa \"2\" Käytetään lain 1600/2015 9 §:n ja lain 1601/2015 13 §:n mukaisista koulutuksista 5 = Lukukausimaksuvelvollinen (1.8.2017 lähtien). Yo-tiedonkeruussa \"1\". Huom. Tätä koodia käytetään myös lain 1600/2015 10 §:n ja lain 1601/2015 13 a §:n koulutuksista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "Koulutusmoduulitunniste",
+      "variablename": "Koulutusmoduulin nimi",
+      "conceptdef": "Korkeakoulun anatama koulutusmoduulitunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso, opintosuoritus"
+    },
+    {
+      "identifier": "Valtakunn_koul_mod_tunniste",
+      "variablename": "Valtakunnallinen koulutusmoduulitunniste",
+      "conceptdef": "Tuleva valtakunnallinen koulutusmoduulitunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus, opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "opiskelija_avain_s",
+      "variablename": "suojattu opiskelija avain",
+      "conceptdef": "savain=sHenkiloavain=sopiskavain",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskelijat, opintosuoritus, lukukausi_ilmoit"
+    },
+    {
+      "identifier": "Ilmoittautumispaivamaara",
+      "variablename": "Ilmoittautumispäivämäärä",
+      "conceptdef": "Päivämäärä, jolloin lukukausi-ilmoittautuminen on tehty.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit"
+    },
+    {
+      "identifier": "Ylioppilaskunnan_jasen",
+      "variablename": "Ylioppilaskunnan jäsen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit"
+    },
+    {
+      "identifier": "YTHS_maksu",
+      "variablename": "YTHS-maksu",
+      "conceptdef": "YTHS-maksutieto kerätään pakollisena kaikista korkeakouluista, joiden opiskelijoilla YTHS-maksu on käytössä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit"
+    },
+    {
+      "identifier": "ilmoittautumisen_tila_koodi",
+      "variablename": "Lukukausi-ilmoittautumisen tila",
+      "conceptdef": "Lukukausi-ilmoittautumisen tilatieto tarkentaa opiskeluoikeuden tilakoodia \"aktiivinen\". Aktiivisten opiskeluoikeusjaksojen koko ajalta tulee olla tallennettuna myös lukukausi-ilmoittautumistieto. Lukukausi-ilmoittautumisen laiminlyöminen voi johtaa opiskeluoikeuden menettämiseen (opiskeluoikeuden tila -koodistossa arvo ”passivoitu”). Lukukausi-ilmoittautumisen tila kohdistuu lukukausi-ilmoittautumiseen, joka liittyy joko opiskelijaan (kyseessä korkeakouluun ja opiskelijaan liitetty tieto) tai yksittäiseen opiskeluoikeuteen (kyseessä korkeakouluun, opiskelijaan ja opiskeluoikeuteen liitetty tieto). Lukukausi-ilmoittautumisen tilatieto voi vaihtua kesken lukukauden. 1 = Läsnä. Lukukausi-ilmoittautumisen tila on läsnä silloin, kun opiskelija on ilmoittautunut korkeakoulun prosessin mukaisesti läsnäolevaksi opiskelijaksi. 2 = Poissa. Lukukausi-ilmoittautumisen tila on poissa silloin, kun opiskelija on ilmoittautunut korkeakoulun prosessin mukaisesti poissaolevaksi opiskelijaksi ja poissaolon syy on muu kuin koodin 3 mukainen lakisääteinen syy. 3 = Poissa, ei kuluta opintoaikaa. Lukukausi-ilmoittautumisen tila ”poissa, ei kuluta opintoaikaa” koskee sekä ammattikorkeakoulujen että yliopistojen opiskeluoikeutta rajaavissa laeissa määriteltyä poissaoloa, jossa poissaolon syynä on asevelvollisuuslain, siviilipalveluslain tai naisten vapaaehtoisesta asepalveluksesta annetun lain mukaisen palvelun suorittaminen tai äitiys-, isyys- tai vanhempainvapaan pitäminen. 4 = Puuttuu. Lukukausi-ilmoittautumisen tila on voitu kirjata koodiarvolle puuttuu silloin kun opiskeluoikeuteen on liitetty lukukausitieto, mutta ilmoittautumistietoa ei ole (null) tai se on merkitty puuttuvaksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit"
+    },
+    {
+      "identifier": "ilmoittutumisen_tila_selite",
+      "variablename": "Lukukausi-ilmoittautumisen tilan selite",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit"
+    },
+    {
+      "identifier": "opiskeluoikeus_avain_s",
+      "variablename": "Opiskeluoikeuden avain",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lukukausi_ilmoit, opintosuoritus, opiskeluoikeudet, opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "Opiskeluoikeus_Tyyppi",
+      "variablename": "Opiskeluoikeuden tyyppi",
+      "conceptdef": "Opiskeluoikeudella voi olla koko olemassaolonsa aikana vain yksi opiskeluoikeuden tyyppi. Korkeakoulujen valtakunnalliseen tietovaranto sisältää ne opiskeluoikeudet, jotka liittyvät tutkintoon johtavaan koulutukseen (1-7, pl. 5), erilliseen opettajankoulutukseen (14-15) ja ammattikorkeakoulujen erikoistumisopintoihin (12).\n\n1 Ammattikorkeakoulututkinto tutkinto\n2 Alempi korkeakoulututkinto tutkinto \n3 Ylempi ammattikorkeakoulututkinto tutkinto \n4 Ylempi korkeakoulututkinto tutkinto \n5 Lääkärien erikoistumiskoulutus \n6 Lisensiaatintutkinto tutkinto \n7 Tohtorintutkinto tutkinto \n8 Korkeakoulujen välisiin sopimuksiin perustuva kotimainen opiskelijaliikkuvuus.\n9 Kansainvälinen vaihto Liikkuva opiskelija suorittaa kokonaista korkeakoulututkintoa (perus- tai jatkotutkintoa) ulkomailla ja suorittaa osan opinnoistaan niin, että Suomessa suoritetut opinnot luetaan hyväksi tutkintoon. \n10 Täydennyskoulutus . \n11 Pätevöitymiskoulutus Huom! Tätä opiskeluoikeuden tyyppiä ei käytetä enää vuoden 2018 tiedoista alkaen. Pätevyystiedot tuodaan VIRTAan pätevyyskoodiston arvoina.\n12 Erikoistumisopinnot. Ammatilliset erikoistumisopinnot ovat ammattikorkeakoulututkintoon pohjautuvia täydennyskoulutusohjelmia, joiden laajuus on 30-60 opintopistettä. \n13 Avoimen opinnot  \n14 Opettajan pedagogiset opinnot. Oppija suorittaa opettajan pedagogisia opintoja erillisopintoina. \n15 Ammatillinen opettajankoulutus. Oppija suorittaa ammatillista opettajankoulutusta erillisinä opintoina. 16 Korkeakoulutettujen oppisopimustyyppistä täydennyskoulutusta \n17 Valmentava koulutus. Esim kun oppija suorittaa maahanmuuttajien valmentavaa koulutusta. \n18 Erillisoikeus. Korkeakoulu on myöntänyt oppijalle ajallisesti ja sisällöllisesti rajatun oikeuden suorittaa tietyn koulutuksen (opintojakson tai -kokonaisuuden) ilman tutkinnonsuorittamisoikeutta.\n19 Erikoistumiskoulutus \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Opiskeluoikeus_Siirtopvm",
+      "variablename": "Opiskeluoikeuden siirtopäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Arvosana",
+      "variablename": "Arvosana",
+      "conceptdef": "Suorituksen arvosana.\nViisiportainen: HYV hyväksytty, 1,   2,   3,   4,   5,\nHyväksytty: HYV hyväksytty, \nToinen kotimainen: TT tyydyttävät tiedot,  HT hyvät tiedot, \nNäytetyö HYV hyväksytty,  KH kiittäen hyväksytty \nTutkielma: A approbatur, B lubenter approbatur, N non sine laude approbatur, C cum laude approbatur, M magna cum laude approbatur, E eximia cum laude approbatur, L laudatur \nEiKaytossa: Arvosana ei kaytossa \n\nMuu-arvosana-asteikon ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Arvosana_Asteikko",
+      "variablename": "Arvosana-asteikko",
+      "conceptdef": "Käytetty arvosana-asteikko.\nViisiportainen\nHyväksytty\nTutkielma\nEi käytössä\n Muu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Tutkinto_Koodi",
+      "variablename": "Tutkinnon koodi",
+      "conceptdef": "Tilastokeskuksen koulutusluokituksen mukainen koodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Opetusharjoittelun_Koodi",
+      "variablename": "Opetusharjoittelun koodi",
+      "conceptdef": "tietoa ei kerätä \n\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Opintosuorituksen_laji",
+      "variablename": "Opintosuorituksen laji",
+      "conceptdef": "Opintosuorituksen laji. 1 = Tutkinto. Opintosuoritus on tutkinnon suoritus. Tiedon perusteella päättyneestä opiskeluoikeudesta tiedetään, että opiskeluoikeus on päättynyt valmistumiseen. 2 = Muu opintosuoritus 3 = Ei huomioitava. Väliaikainen suoritustieto joka on ositettu tiedonkeruujaksolle myöhemmin syntyvästä suorituksesta. \"Osasuoritus\" vain Kelaa varten. 4 = Oppilaitoksen sisäinen. Väliaikainen suoritustieto, jota voidaan käyttää opintosuorituksen sisäiseen tiedon tallentamiseen lähinnä opettajan tarpeisiin. Ei huomioida suoritusotteella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Koulutusaste",
+      "variablename": "Koulutusaste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Luokittelu",
+      "variablename": "Opintosuorituksen luokittelu",
+      "conceptdef": "Opintosuoritus voi saada opintosuorituksen luokittelu -koodistosta nolla, yksi tai monta luokittelevaa arvoa. 1 = Suoritus on avoimessa korkeakouluopetuksessa suoritettu 2 = Suoritus on saapuvan kansainvälisen vaihto-opiskelijan suorittama 3 = Suoritus on korkeakoulujen välisillä yhteistyösopimuksilla opiskelevan suorittama 4 = Suoritus on erillisellä opiskeluoikeudella opiskelevan suorittama 5 = Suoritus on erillisellä opiskeluoikeudella opettajankoulutuksen opintoja suorittavan opiskelijan suorittama 6 = Suoritus on maahanmuuttajien valmentavassa koulutuksessa opiskelevan suorittama 7 = Suoritus on kotimainen harjoittelu 8 = Suoritus on ulkomainen harjoittelu 9 = Suoritus on kansainvälinen yhteistutkinto 10 = Suoritus on kansainvälinen kaksoistutkinto 11 = Suoritus on erikoistumiskoulutuksessa suoritettu 12 = Suoritus on korkeakoulujen välisillä yhteistyösopimuksilla opiskelevan suorittama ja kirjattu varsinaisena suorituksena opiskelijan kotikorkeakoulussa 13 = Opintosuoritus on täydennyskoulutuksessa suoritettu 14 = Suoritus on suomi/ruotsi vieraana kielenä 15 = Suoritus sisältää kotimaista harjoittelua",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Organisaatio_Koodi",
+      "variablename": "Organisaatiokoodi",
+      "conceptdef": "Organisaation koodistona toimii Tilastokeskuksen Oppilaitosrekisteri laajennettuna eräillä muilla arvoilla. Laajennusarvot koostuvat pääasiassa Tilastokeskuksen oppilaitostyyppiluokituksen arvoista.Laajennusarvoja on tarkoitus käyttää vain, mikäli varsinaista oppilaitosrekisterin oppilaitostietoa ei ole mahdollista antaa. Tilastokeskuksen Oppilaitosrekisteriä on laajennettu vain alla näkyvillä arvoilla. 42 Yliopistot, \n41 Ammattikorkeakoulut, \n64 Kansalaisopistot Kansalais- ja työväenopistot. Avoin yliopisto-opetus -tiedonkeruu, \n63 Kansanopistot Avoin yliopisto-opetus -tiedonkeruu.  \n66 Kesäyliopistot Avoin yliopisto-opetus -tiedonkeruu.\n99 Muut oppilaitokset . \nUK Ulkomainen korkeakoulu Hyväksilukemisen lähteenä. \nUM Ulkomainen muu oppilaitos . \nXX Muodollisen koulutuksen ulkopuolella . \n\nTilastokeskuksen Oppilaitosrekisteri löytyy Tilastokeskuksen sivustolta osoitteesta: http://www.stat.fi/tup/oppilaitosrekisteri/index.html. Tilastossa käytetyt luokitukset löytyvät Tilastokeskuksen luokitus- ja metatietopalvelujen kotisivuilta osoitteesta: https://stat.fi/fi/luokitukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Organisaatio_Rooli",
+      "variablename": "organisaation rooli",
+      "conceptdef": "Organisaation rooli liittyy tilanteeseen, jossa varsinainen organisaatiotieto liittyy johonkin toiseen tietoon ja liitokseen liittyen on jokin rooli. 1 = Myöntävä. Ilmaisee sitä organisaatiota, jonka omistamasta tiedosta on kyse. 2 = Järjestävä. Ilmaisee sitä organisaatiota, joka on osallistunut kyseenomaisen tiedon syntymisen järjestämiseen tai toteuttamiseen. 3 = Lähde. Ilmaisee sitä organisaatiota, joka on kyseenomaisen tiedon syntymisen alkuperäinen lähde. 4 = Kohde. Ilmaisee sitä organisaatiota, jonka kyseenomaiseen tietoon liittyen on olemassa liikkuvuutta/siirtyvyyttä ja tässä ilmoitettava organisaatio on siirtymisen kohde. 9 = Tuntematon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Hyvaksilukupaivamaara",
+      "variablename": "Suorituksen hyväksilukemisen päivämäärä",
+      "conceptdef": "Suorituksen hyväksilukemisen päivämäärä on tieto siitä, milloin opintosuoritus on hyväksytty tai kirjattu kyseisen korkeakoulun rekisteriin. Hyväksilukemisen päivämäärä on hyväksiluvun tekevän korkeakoulun hallinnollisen päätöksen päivämäärä eli hyväksiluvun tuloksena uuden suorituksen rekisteriinsä myöntävän korkeakoulun toimenpide.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Opinnaytetyo",
+      "variablename": "Suoritus opinnäytetyönä",
+      "conceptdef": "Opintosuoritus on suoritettu opinnäytetyönä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Hankkeistettu",
+      "variablename": "Suoritus hankkeistettuna",
+      "conceptdef": "Opintosuoritus on suoritettu hankkeistettuna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Nimi",
+      "variablename": "Suorituksen nimi",
+      "conceptdef": "Opintosuorituksen nimi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Opintoviikkolaajuus",
+      "variablename": "Suorituksen opintoviikkolaajuus",
+      "conceptdef": "Opintoviikkolaajuus on lisätiedon omainen erillinen tieto, joka voi olla suorituksella opintopistelaajuuden lisäksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Tki_toiminnan_laajuus",
+      "variablename": "Tutkimus- ja kehittämistoiminnan laajuus opinnäytetyössä",
+      "conceptdef": "Tutkimus- ja kehittämistoiminnan (TKI) laajuus opinnäytetyössä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Tki_harjoittelun_laajuus",
+      "variablename": "Tutkimus- ja kehittämistoiminnan harjoittelun laajuus",
+      "conceptdef": "Tutkimus- ja kehittämistoiminnan (TKI) harjoittelun laajuus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Tki_muut_laajuus",
+      "variablename": "Tutkimus- ja kehittämistoiminnan muu laajuus",
+      "conceptdef": "Tutkimus- ja kehittämistoiminnassa (TKI) suoritetut opintopisteet, jotka eivät kuulu harjoitteluun tai opinnäytetyöhön.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Lisatiedot",
+      "variablename": "Lisätiedot",
+      "conceptdef": "Suorituksen mahdolliset, vain julkiset lisätiedot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "Lehtitaso",
+      "variablename": "Lehtitaso",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "perustutkinto",
+      "variablename": "Perustutkinto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    },
+    {
+      "identifier": "patevyys",
+      "variablename": "Pätevyys",
+      "conceptdef": "Pätevyystiedolla tarkoitetaan sellaista muodollista pätevyyttä, jota korkeakoulun ulkopuolinen viranomainen valvoo tai rekisteröi. \nLuokitus löytyy verkosta sivulla https://confluence.csc.fi/display/VIRTA/Tietovarannon+koodistot#Tietovarannonkoodistot-Pätevyys,Behörighet \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "patevyys_alkpvm",
+      "variablename": "Pätevyyden alkamispäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "patevyys_paatpvm",
+      "variablename": "pätevyyden päättymispäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opiskeluoikeusjakso"
+    },
+    {
+      "identifier": "suorituspaivamaara",
+      "variablename": "Suorituksen päivämäärä",
+      "conceptdef": "Opintosuorituksen päivämäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "opintosuoritus"
+    }
+  ]
+}

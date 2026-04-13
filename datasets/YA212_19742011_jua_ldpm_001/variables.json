@@ -1,0 +1,860 @@
+{
+  "variables": [
+    {
+      "identifier": "stopc",
+      "variablename": "Longitudinal corrected code",
+      "conceptdef": "Suojattu pitkittäiskorjattu STOP. Yksityiskohtaisissa tarkasteluissa on käynyt ilmi, että 1970-luvulla ja 1980-luvun alussa alkuperäisissä toimipaikkatunnuksissa on esiintynyt jonkin verran katkoksia. Aineiston pitkittäisominaisuuden parantamiseksi näitä katkoksia on pyritty korjaamaan. Apuna on käytetty toimipaikan sijaintia, omistajuutta ja toimialaa koskevia tietoja. Identifioinnissa ja korjauksissa on pyritty noudattamaan konservatiivista linjaa siten, ettei kahta eri toimipaikkaa tulkittaisi erheellisesti samaksi.\nErityisen paljon katkoksia esiintyy vuonna 1979; tuona vuonna kaikkiaan 660 tapausta kyettiin identifioimaan taustatietojen perusteella. Näyttää siltä, että kaikkia katkoksia ei kuitenkaan pystytty tunnistamaan. Tähän viittaa se, että aineiston mukaan tuona vuonna oli selvästi normaalia enemmän uusia sekä poistuvia toimipaikkoja. Tämä on syytä ottaa huomioon, kun tutkitaan esimerkiksi toimipaikkojen vaihtuvuutta tai työpaikkojen syntymis- ja tuhoutumisasteita. Vuodesta 1980 lähtien toimipaikkatunnukset näyttäisivät olevan pääasiassa kunnossa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stop",
+      "variablename": "Original plant code",
+      "conceptdef": "Suojattu alkuperäinen toimipaikkatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stptunn",
+      "variablename": "Business register code",
+      "conceptdef": "Suojattu toimipaikan tunnus yritysrekisterissä\nTämän tunnuksen avulla toimipaikalle voi liittää yritysrekisterin toimipaikkatason tietoja.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Firm code",
+      "conceptdef": "Suojattu yritystunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Year",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kunta",
+      "variablename": "Toimipaikan sijaintikunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL2008",
+      "variablename": "Nace 2",
+      "conceptdef": "Toimialakoodi, 2008 luokitus (Nace rev. 2), vuodesta 1995 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol2008_2",
+      "variablename": "Nace 2, 2-digit, empiirinen avain",
+      "conceptdef": "Henkilöstömäärän mukaan luotu empiirinen toimiala-avain tol2008 2-numerotasolla (suositeltava)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL2002",
+      "variablename": "Nace 1",
+      "conceptdef": "Toimialakoodi, 2002 luokitus (Nace rev. 1), täydennetty luokituskannan avaimella",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol2002_2",
+      "variablename": "Nace 1, 2-digit, empiirinen avain",
+      "conceptdef": "Henkilöstömäärän mukaan luotu empiirinen toimiala-avain tol2002 2-numerotasolla (suositeltava)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95",
+      "variablename": "ISIC rev 3",
+      "conceptdef": "Toimialakoodi, 1995 luokitus (ISIC rev 3), täydennetty luokituskannan avaimella",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL88",
+      "variablename": "tol88",
+      "conceptdef": "Toimialakoodi, 1988 luokitus, vuoteen 1994 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL79",
+      "variablename": "ISIC rev 2",
+      "conceptdef": "Toimialakoodi, 1979 luokitus (ISIC rev 2), vuoteen 1994 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alvuosi",
+      "variablename": "Ensimmäinen esiintymisvuosi",
+      "conceptdef": "Toimipaikan ensimmäinen esiitymisvuosi aineistossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lopvuosi",
+      "variablename": "Viimeinen esiintymisvuosi",
+      "conceptdef": "Toimipaikan viimeinen esiintymisvuosi aineistossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOIMYHT",
+      "variablename": "Deliveries",
+      "conceptdef": "Kokonaistoimitukset",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JALTEOL",
+      "variablename": "Teollinen jalostusarvo",
+      "conceptdef": "Poikkeaa kokonaisjalostusarvosta siinä, että tuotannon puolella eikä välipanoksista ole otettu huomioon ei-teollisia palveluja, vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JALKOK",
+      "variablename": "Kokonaisjalostusarvo",
+      "conceptdef": "Kokonaisjalostusarvo vuoteen 2008 asti. Jalostusarvo mittaa eri tuotannontekijöiden yhteenlaskettua jalostusarvoa toimipaikan/yrityksen liiketoiminnasta. Jalostusarvon tarkoituksena on kuvata yksikön arvonlisäystä, joka syntyy tuotantotoiminnasta saatujen tuottojen ja tuotantotoimintaa varten hankittujen tuotantopanoskustannusten erotuksena. Määritelmän mukaan kustannuksiin ei sisällytetä työvoimasta aiheutuvia kustannuksia. Tuotannon bruttoarvon avulla voidaan laskea jalostusarvo seuraavasti: BRUTTOARVO – aine- ja tarvikeostot – ostot yrityksen muilta toimipaikoilta – varastojen muutos – ulkopuoliset palvelut – muut kiinteät ja muuttuvat kulut pl. henkilöstökulut + kaup-patavaroiden hankinta =  JALOSTUSARVO",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BRAKOK",
+      "variablename": "kokonaisbruttoarvo",
+      "conceptdef": "Kokonaisbruttoarvo vuoteen 2008 asti. Tuotannon bruttoarvo mittaa yrityksen tai toimipaikan oman tuotannon arvoa, sen tosiasiallista tuotantoa. Tuotannon bruttoarvon kaava on seuraava: Liikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön + valmistevarastojen muutos + valmistus omaan käyttöön + liiketoiminnan muut tuotot – käyttöomaisuuden luovutusvoitot – kauppatavaroiden hankinta = BRUTTOARVO",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mater",
+      "variablename": "Aineet ja tarvikkeet",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ener",
+      "variablename": "Energiapanokset",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "serv",
+      "variablename": "Palvelupanokset",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKOTIM",
+      "variablename": "Käytetyt raaka-aineet, kotimaiset",
+      "conceptdef": "Vuoteen 1984 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAULKOM",
+      "variablename": "Käytetyt raaka-aineet, ulkomaiset",
+      "conceptdef": "Vuoteen 1984 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tlaji",
+      "variablename": "Toiminnan laji",
+      "conceptdef": "Toiminnan laji \n1 =  pääkonttori  tms. \n2 =  rakenteilla oleva toimipaikka  eli  investointitoimipaikka \n3 =  varsinainen  toimipaikka  (rakennetilasto) \n4 =  voimalaitokset \n5 =  hallintayhtiö \n6 =  keskusvarasto \n7 =  tutkimusyksikkö \n8 =  erillinen  myyntikonttori \n9 =  tehdaspalveluosasto \n0/ NULL/ tyhjä  =  haaraliike\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BRAEU",
+      "variablename": "EU:n mukainen tuotannon bruttoarvo",
+      "conceptdef": "Tuotannon bruttoarvo (EU:n määritelmän mukainen, sisältää tukipalkkiot). Vuoteen 1994 asti braeu=brakok. Tuotannon bruttoarvo mittaa yrityksen tai toimipaikan oman tuotannon arvoa, sen tosiasiallista tuotantoa. Tuotantotoimintaan lasketaan mukaan kaikki tuotantoon liittyvät tuotot ( toimitukset yrityksen ulkopuolelle ja toimitukset yrityksen muille oimipaikoille)  ja niitä oikaistaan käyttöomaisuuden luovutusvoitoilla. Käyttöomaisuuden luovutusvoittoja ei pidetä tuotannollisina erinä vaan satunnaisina tuottoina. Kauppatavaroiden hankinta vähennetään tuotantotoiminnan tuotoista, jotta tuotantotoimintaan saadaan mukaan vain kauppatavaroiden myynnistä yritykselle/toimipaikalle syntyvä marginaali.  Tuotannon bruttoarvo lasketaan toimipaikan/yrityksen ilmoittaman laskennallisen käyttökatteen avulla. Tuotannon bruttoarvon kaava on seuraava: Liikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön +valmistevarastojen muutos + valmistus omaan käyttöön + liiketoiminnan muut tuotot – käyttöomaisuuden luovutusvoitot - kauppatavaroiden hankinta = BRUTTOARVO   \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JALEU",
+      "variablename": "EU:n mukainen tuotannon jalostusarvo",
+      "conceptdef": "Tuotannon jalostusarvo (EU:n arvonlisäys perushintaan, sisältää tukipalkkiot). Vuoteen 1994 asti jaleu=jalkok. Jalostusarvo mittaa eri tuotannontekijöiden yhteenlaskettua jalostusarvoa toimipaikan/yrityksen liiketoiminnasta. Jalostusarvon tarkoituksena on kuvata yksikön  arvonlisäystä, joka syntyy tuotantotoiminnasta saatujen tuottojen ja tuotantotoimintaa varten hankittujen tuotantopanoskustannusten erotuksena. Määritelmän mukaan kustannuksiin ei sisällytetä työvoimasta aiheutuvia kustannuksia. Tuotannon bruttoarvon avulla voidaan laskea jalostusarvo seuraavasti: BRUTTOARVO - aine- ja tarvikeostot - ostot yrityksen muilta toimipaikoilta - varastojen muutos - ulkopuoliset palvelut – muut kiinteät ja muuttuvat kulut pl. henkilöstökulut + kauppatavaroiden hankinta =  JALOSTUSARVO\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULPOLT",
+      "variablename": "Polttoaineiden hankintakulut",
+      "conceptdef": "Polttoaineiden hankinta. Polttoaineiksi luetaan yrityksen tuotannollisen toiminnan tai sen ajoneuvojen energialähteiksi hankitut aineet. Saatavissa vuodesta 1995 lähtien.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULSAHKO",
+      "variablename": "Sähkön hankinta omaan käyttöön",
+      "conceptdef": "Sähkön hankinta omaan käyttöön (pl.  välityssähkö). Sähköenergian hankinta käsittää tuotantoprosessissa käytetyn sähkön lisäksi myös yrityksen tilojen valaistukseen, tuuletukseen, lämmitykseen ym. käytetyn sähkön, mutta ei myytäväksi hankittua sähköä. Saatavissa vuodesta 1995 lähtien.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULLAMPO",
+      "variablename": "Lämmön hankinta omaan käyttöön",
+      "conceptdef": "Lämmön hankinta omaan käyttöön (pl. välityslämpö). Lämpöenergian hankintaan luetaan yrityksen tuotantoprosessissa käytetyn lämmön lisäksi myös tilojen lämmitykseen käytetty energia, mutta ei myytäväksi hankittua lämpöä. Saatavissa vuodesta 1995 lähtien.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimyhtr",
+      "variablename": "Kokonaistoimitukset, 2000 hinnoin (KT)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jalteolr",
+      "variablename": "Teollinen jalostusarvo, 2000 hinnoin (KT)",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jalkokr",
+      "variablename": "Kokonaisjalostusarvo, 2000 hinnoin (KT)",
+      "conceptdef": "Vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jaleur",
+      "variablename": "Jalostusarvo (EU), 2000 hinnoin (KT)",
+      "conceptdef": "Saatavissa vuoteen 2008 asti. Vuoteen 1994 asti jaleur=jalkokr.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "brakokr",
+      "variablename": "Bruttotuotanto, 2000 hinnoin (KT)",
+      "conceptdef": "Vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "braeur",
+      "variablename": "Bruttotuotanto (EU), 2000 hinnoin (KT)",
+      "conceptdef": "Saatavissa vuoteen 2008 asti. Vuoteen 1994 asti braeur=brakokr.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "materr",
+      "variablename": "Aineet ja tarvikkeet, 2000 hinnoin",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "servr",
+      "variablename": "Palvelupanokset, 2000 hinnoin",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "enerr",
+      "variablename": "Energiapanokset, 2000 hinnoin",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "empb",
+      "variablename": "Työntekijöitä",
+      "conceptdef": "Työntekijöiden lukumäärä (B viittaa sanaan ”blue-collar”) vuoteen 2008 asti\nTyöntekijöiksi luetaan välittömästi teollisuuden valmistusprosessiin osallistuvat henkilöt, apuosastojen työntekijät kuten pakkaajat, huolto- ja kunnossapitotyöntekijät, rakennusosastojen työntekijät, koneenkäyttäjät, lämmittäjät, siivoojat jne. Myös sellaiset työnjohtajat, jotka osallistuvat myös varsinaiseen valmistustyöhön, luetaan työntekijöiksi. Henkilöiden lukumäärät ilmoitetaan tilikauden keskimääräisinä lukuina. Luvut voidaan laskea esim. jakamalla kuukausikeskimäärien summa tilikauden kuukausimäärällä. Ks. myös henkilöstön lukumäärän määritelmä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "empw",
+      "variablename": "Toimihenkilöitä",
+      "conceptdef": "Toimihenkilöiden lukumäärä (W viittaa sanaan ”white-collar”) vuoteen 2008 asti\nToimihenkilöiksi luetaan muut kuin yrittäjät ja työntekijät. Henkilöiden lukumäärät ilmoitetaan tilikauden keskimääräisinä lukuina. Luvut voidaan laskea esim. jakamalla kuukausikeskimäärien summa tilikauden kuukausimäärällä. Ks. myös henkilöstön lukumäärän määritelmä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emp",
+      "variablename": "Palkansaajat, -2008",
+      "conceptdef": "emp=empb+empw, vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "persons",
+      "variablename": "Henkilöt, -2008",
+      "conceptdef": "Vuoteen 2008 asti. Yrityksen työvoimaan luetaan kaikki henkilöt, jotka työskentelevät siinä tai sen lukuun. Työvoima luokitellaan itsenäisiin yrittäjiin (omistajiin), toimihenkilöihin ja työntekijöihin Henkilöiden lukumäärät ilmoitetaan tilikauden keskimääräisinä lukuina. Luvut voidaan laskea esim. jakamalla kuukausikeskimäärien summa tilikauden kuukausimäärällä. Henkilöiden lukumääriin lasketaan 1) kaikki tilastoyksikön palveluksessa olevat, myös harjoittelijat, tilapäiset ja osa-aikaiset (osa-aikaiset ilmoitetaan muuntamatta heitä kokopäiväisiksi), 2) vuosilomalla olevat, 3) sairaslomalla olevat, 4) äitiyslomalla olevat, 5) lakossa tai määräaikaisesti lomautetut, 6) kertausharjoituksissa olevat ja 7) kotityöntekijät.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hourb",
+      "variablename": "Työntekijöiden työtunnit",
+      "conceptdef": "Vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hourw",
+      "variablename": "Toimihenkilöiden työtunnit",
+      "conceptdef": "Vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "houremp",
+      "variablename": "Palkansaajien tunnit",
+      "conceptdef": "Vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "avhour",
+      "variablename": "Kesk.työaika, tuhatta",
+      "conceptdef": "Keskimääräinen työaika per henkilö, tuhatta. Vuoteen 2008 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hourtot",
+      "variablename": "Tehdyt työtunnit",
+      "conceptdef": "Suositeltava työpanoksen mittari, jos tarkasteluperiodi päättyy 2008 tai ennen. Työtunnit ovat tilikauden aikana tehtyjen todellisten työtuntien summa. Työtunneista on  vähennettävä poissaoloajat (sairasloma, vuosiloma, pekkaspäivät tms.) sekä ns. ylityökorotukset. (Odotusajan työtunnit lasketaan mukaan, jos niistä on maksettu palkkaa). Huom. Työtuntitiedoissa on laadullisia ongelmia ja noin puolet tiedoista on imputoitu.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "wageb",
+      "variablename": "Työntekijöiden palkat, -2008",
+      "conceptdef": "Vuoteen 2008 asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sospayb",
+      "variablename": "Työntekijöiden sosiaalikulut, -2008",
+      "conceptdef": "Vuoteen 2008 asti. Erä sisältää maksettuihin palkkoihin perustuvat lakisääteiset ja vapaaehtoiset sosiaalivakuutusmaksut. Työnantajan lakisääteisiin sosiaalivakuutusmaksuihin luetaan: 1) sosiaaliturvamaksu, 2) työttömyysvakuutusmaksu, 3) LEL- ja TEL-vakuutusmaksu, 4) tapaturmavakuutusmaksu, 5) ryhmähenkivakuutusmaksu. Vapaaehtoisiin sosiaalivakuutusmaksuihin luetaan: 1) LEL- ja TEL-lisäturvamaksut, 2) henki- ja eläkevakuutusyhtiöille maksetut ryhmähenki- ja ryhmäeläkevakuutusmaksut, 3) työpaikkojen avustuskassoihin (eläke-, hautaus-, eroavustus- sekä sairausvakuutuskassoihin) maksetut kannatus-maksut sekä  maksetut eläkkeet.  Erään eivät sisälly henkilöstön koulutus-, virkistys-, harrastustoiminnan tai muut vastaavat kulut.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "wagew",
+      "variablename": "Toimihenkilöiden palkat, -2008",
+      "conceptdef": "Vuoteen 2008 asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sospayw",
+      "variablename": "Toimihenkilöiden sosiaalikulut, -2008",
+      "conceptdef": "Vuoteen 2008 asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "wage",
+      "variablename": "Palkat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sospay",
+      "variablename": "Sosiaalikulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAPALKAT",
+      "variablename": "Maksetut palkat yhteensä",
+      "conceptdef": "Vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASOSKUL",
+      "variablename": "Palkatun henkilöstön sosiaalikulut yhteensä",
+      "conceptdef": "Vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HENUPPI",
+      "variablename": "Henkilömäärä, adj. -2007",
+      "conceptdef": "Vuoteen 2007 asti henuppi=persons*1,051 (kerroin laskettu vuoden 2008 perusteella).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALKMFTE",
+      "variablename": "Palkansaajat, full-time eq, -2005 based on hours worked",
+      "conceptdef": "Vuoteen 2005 asti palkmfte=(hourb+hourw)*0.607 (kerroin laskettu vuosien 2006-2008 perusteella).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PANUPPI",
+      "variablename": "Palkansaaja määrä, adj. -2007",
+      "conceptdef": "Vuoteen 2007 asti panuppi=(empb+empw)*1.051 (kerroin laskettu vuoden 2008 perusteella).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRNUPPI",
+      "variablename": "Yrittäjien määrä",
+      "conceptdef": "2008 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HELKMFTE",
+      "variablename": "Henkilöt, full-time eq, -2005 based on hours worked",
+      "conceptdef": "Vuoteen 2005 asti helkmfte = hourtot*0.607 (kerroin laskettu vuosien 2006-2008 perusteella). Arvioitu myöhempien tietojen perusteella. Ensisijainen henkilöstömuuttuja, jos käytössä periodi 1995- tai koko ajanjakso 1974 - 2011. Hourtot on suositeltava työpanoksen mittari, jos tarkasteltava ajanjakso päättyy vuoteen 2008 tai ennen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "komhank",
+      "variablename": "Investoinnit, nimellinen",
+      "conceptdef": "Käyttöomaisuuden nettoinvestoinnit yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "komjha",
+      "variablename": "Pääomakanta, käyvin hinnoin (-85)",
+      "conceptdef": "Käyttöomaisuuden jälleenhankinta-arvo (palovakuutusarvo) käyvin hinnoin (1974-79, 81-1984)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuokrat",
+      "variablename": "Vuokrat",
+      "conceptdef": "Vuokrakulut yhteensä. Puuttuu 1985. Erä sisältää vuokrakulut maa- ja vesialueista, leasingeistä ja muista vuokrista. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Yritys voi hankkia käyttöomaisuutta joko käyttöleasing-sopimuksella tai rahoitusleasing-sopimuksella.  Käyttöleasing-sopimuksessa laitteen vuokraava yritys tekee sopimuksen suoraan laitetta käyttävän yrityksen kanssa.  Rahoitusleasing-sopimuksessa laitteen tarvitsija sopii, että rahoitusyhtiö ostaa laitteen ja vuokraa sen laitetta tarvitsevalle. Leasingkulut kattavat siten yrityksen leasing-sopimuksilla vuokraamien käyttöomaisuushyödykkeiden vuokrakulut. Muita vuokria ovat asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten  sekä koneiden ja laitteiden vuokrakulut sekä sorakuopista, malmi- ja mineraaliesiintymistä, kivilouhoksista, turvesoista ym. maksetut vuokrat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "komhankr",
+      "variablename": "Investoinnit, 2000 hinnoin",
+      "conceptdef": "Deflatoinnissa käytetty kansantalouden tilinpidon implisiittistä investointien hintaindeksiä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "komjhar",
+      "variablename": "Pääomakanta, 2000 (-85)",
+      "conceptdef": "Käyttöomaisuuden jälleenhankinta-arvo (palovakuutusarvo) vuoden 2000 hinnoin (1974-1979, 1981-1985). Deflatoinnissa käytetty kansantalouden tilinpidon implisiittistä investointien hintaindeksiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "k00pim",
+      "variablename": "Pääomakanta PIM, 2000 hinnoin",
+      "conceptdef": "Pääomakanta saatavissa vuodesta 1975 alkaen. Aineiston pääomamuuttuja on laskettu perpetual inventory method (PIM) -menetelmällä. Pääomamuuttujan laskentakaava on muotoa\nK(t) = (1-s)K(t-1) + I(t),\njossa K(t) on pääomakanta vuonna t, s poistoaste ja I(t) investointi vuonna t. Pääomakantaa laskettaessa poistoasteen s arvona on käytetty 0,10. Laskettaessa pääomakantaa tällä menetelmällä tarvitaan tiedot toimipaikan investoinneista joka vuodelta toimipaikan perustamisvuodesta lähtien. Tämän kriteerin täyttävät vuonna 1974 ja sen jälkeen aloittaneet toimipaikat joiden investointiaikasarjassa ei ole aukkoja. Ennen vuotta 1974 aloittaneille toimipaikoille investointiaikasarjan alkupäätä ei ole havaittu ja niiden kohdalla pääoman alkuarvon laskennassa on käytetty käyttöomaisuuden palovakuutusarvoa. Pääomakannan deflatoinnissa on käytetty kansantalouden tilinpidon implisiittistä investointien hintaindeksiä\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KATOIM",
+      "variablename": "Saatu korvaus korjauksista ja asennuksista",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PTTOIM",
+      "variablename": "Palkkiotöiden toimitusten arvo",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PATOIM",
+      "variablename": "Saatu bruttokorvaus muista palveluista",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "export",
+      "variablename": "teollisuuden oma vienti",
+      "conceptdef": "Toimipaikan vienti yhteensä, saatavissa vuoteen 2007 asti. Erään sisältyy vienti EU-maihin ja EU:n ulkopuolisiin maihin. Tavaroiden vientiä on kotimaisten ja ulkomaisten talousyksiköiden välillä tapahtunut muutos tavaroiden omistuksessa. Toimitukset ulkomaiselle tytäryhtiölle tai haaraliikkeelle katsotaan tässä omistajan vaihdokseksi. Vientiin sisällytetään myös palkkatyöjalostuksen jälkeen palautetut tavarat jalostusarvolla lisättynä, vaikkei omistajuus vaihdukaan. Kauttakulkutavarat eivät sisälly vientiin. Tavaraviennin arvona käytetään EU:n sisä- ja ulkokaupassa verotonta myyntihintaa. Arvoon sisällytetään kuljetus- ja vakuutuskustannukset Suomen rajalla olevaan vientipaikkaan asti. Palvelujen vienti koostuu kaikista ulkomaisten talousyksiköiden kotimaisille talousyksiköille suorittamista palveluista.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUSTTE",
+      "variablename": "Teolliset kustannukset",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUSTKOK",
+      "variablename": "Kokonaiskustannukset",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "evalue",
+      "variablename": "Hankitun sähkön arvo",
+      "conceptdef": "Vuodesta 2009- ei ole vertailukelpoinen aiempiin vuosiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALVHANK",
+      "variablename": "Palvelujen hankinta",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAHANK",
+      "variablename": "Korjaus-, asennus- ja kunnossapitotyö",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PTHANK",
+      "variablename": "Teetetty palkkiotyö",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emwh",
+      "variablename": "Sähköenergian käyttö",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FOR50",
+      "variablename": "Ulk omist 50- (IS) (-94)",
+      "conceptdef": "Ulkomainen omistus yli 50 prosenttia (IS). Vuoteen 1994 asti.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FOR20_50",
+      "variablename": "Ulk omist 20-50 (IS) (-94)",
+      "conceptdef": "Ulkomainen omistus 20-50 prosenttia (IS). Vuoteen 1994 asti.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DOMPRIV",
+      "variablename": "Omistajatyyppi: Kotimainen yksityinen (-94)",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DOMGOV",
+      "variablename": "Omistajatyyppi: Kotimainen ei-yksityinen (-94)",
+      "conceptdef": "Vuoteen 1994 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HEADUNIT",
+      "variablename": "Toimipaikkatyyppi: Pääkonttori",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INVUNIT",
+      "variablename": "Toimipaikkatyyppi: Investointitoimipaikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inventor",
+      "variablename": "Toimipaikkatyyppi: Varasto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RDUNIT",
+      "variablename": "Toimipaikkatyyppi: T&K-yksikkö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "produnit",
+      "variablename": "Tuotantotoimipaikka tyyppi=3 tai 4",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SALESUNI",
+      "variablename": "Toimipaikkatyyppi: Myyntikonttori",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "servunit",
+      "variablename": "Toimipaikkatyyppi: Tehdaspalveluosasto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOPALV",
+      "variablename": "Ulkopuoliset palvelut (95-)",
+      "conceptdef": "Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULKORAS",
+      "variablename": "Teetetyt korjaus-, kunnossapito- ja asennustyöt (95-)",
+      "conceptdef": "Ulkopuolisilla teetettyjen korjaus-, kunnossapito- ja asennustöiden arvo mukaan luettuna laskutettujen materiaalien arvo. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULPATY",
+      "variablename": "Teetettyjen palkkatöiden kulut (95-)",
+      "conceptdef": "Palkkatyö on tuotteiden valmistuttamista toisella talousyksiköllä. Käytettävät aineet ja tarvikkeet ovat pääosin valmistuttajan omistuksessa tai hallinnassa. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULALIUR",
+      "variablename": "Aliurakointikulut (95-)",
+      "conceptdef": "Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULTYVUO",
+      "variablename": "Työvoiman vuokrauskulut (95-)",
+      "conceptdef": "Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULTUTKE",
+      "variablename": "Tutkimus- ja kehittämispalveluiden kulut (95-)",
+      "conceptdef": "Tutkimusmenoilla tarkoitetaan ulkopuolisilta yrityksiltä hankittuja tutkimus- ja kehittämispalveluja. Tutkimus- ja kehittämispalvelut ovat uuden tieteellisen tai teknisen tiedon tuottamiseksi tarpeellisesta suunnitelmallisesta tutkimustoiminnasta aiheutuneita menoja. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULKULJE",
+      "variablename": "Kuljetus- ja varastointikulut (95-)",
+      "conceptdef": "Erä sisältää yrityksen ulkopuolelta ostetut kuljetus- ja varastointipalvelut, terminaali- ja lastinkäsittelypalvelut. Varastointipalveluilla tarkoitetaan tässä itsenäisinä palveluina tarjottuja varastointipalveluja. Tähän sisältyvät esim. välivarastointipalvelut kylmävarastoissa ja tullivarastoissa sekä konttien säilytys jne. Jonkin tietyn alueen tai rakennuksen tai sen osan vuokraus varastoksi ei sisälly tähän. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULMAINO",
+      "variablename": "Mainos-, markkinointi- ja myyntipalvelukulut (95-)",
+      "conceptdef": "Erä sisältää yrityksen ulkopuolelta hankitut mainos-, myynti- ja markkinointikulut. Tällaisia eri ovat esimerkiksi: tuotteiden markkinoinnin ja myynnin aiheuttamat kulut, mainonnan sekä myyntinäyttelyiden kulut, mainostoimistojen palvelut, markkinoinnin, viestinnän ja suhdetoiminnan konsultointiin, markkinatutkimuksiin ja mielipideselvityksiin liittyvät kulut,  ulko- ja liikennemainosten pystyttämiseen ja hoitoon liittyvät  kulut ,  näyteikkunoiden somistukseen ja näyttelytilojen suunnitteluun liittyvät kulut, urheilumainontaan, puhelinmainontaan, ilmamainontaan jne. liittyvät kulut sekä  messujen yms. tuote-esittelytilaisuuksien järjestämisestä aiheutuvat kulut. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULATK",
+      "variablename": "Atk-suunnit.- ja ohjelmointipalvelukulut (95-)",
+      "conceptdef": "Erä sisältää yrityksen ulkopuolelta hankitut, asiakkaan laskuun tapahtuvat atk-palvelut. Tällaisia palveluja ovat automaattiseen tietojenkäsittelyyn liittyvä laitteisto- ja ohjelmistokonsultointi, ohjelmistojen suunnittelu ja valmistus, tietokone- ja käsittelypalvelutoiminta, tietokantaisännöinti, konttori- ja tietokoneiden korjaus ja huolto, muu tietojenkäsittelypalvelu, esim. systeemityöpalvelu, atk-ohjelmistojen ylläpitopalvelu sekä atk-ohjelmistokonsultointi. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULPATEN",
+      "variablename": "Patenttien ja lisenssien kulut (95-)",
+      "conceptdef": "Kulut rojalteista, patenteista ja lisensseistä. Erä sisältää muille maksetut korvaukset patenttien ja lisenssien käyttöoikeuksista. Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULUMUUT",
+      "variablename": "Muut kuin edellä mainitut kulut (95-)",
+      "conceptdef": "Vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exporteu",
+      "variablename": "Vienti EU-maihin (95-2007)",
+      "conceptdef": "1995-2007.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAA",
+      "variablename": "Omistajayrityksen maa (YREK, 86, 88-)",
+      "conceptdef": "Omistajayrityksen maa (yritysrekisterin tieto, 1986, 1988-).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OIK",
+      "variablename": "Oikeudellinen muoto (YREK, 86, 88-)",
+      "conceptdef": "Oikeudellinen muoto (YREK, 1986, 1988-)\n11 = luonnollinen henkilö, 12 = kuolinpesä, perikunta, \n13 = verotusyhtymä (esim. rekisteröimätön osakeyhtiö tai rakennustyöyhteenliit-tymä), \n14 = avoin yhtiö, 15 = konkurssipesä, 21 = kommandiittiyhtiö, \n22 = laivanisännistöyhtiö ( ei osakeyhtiö), \n31 = osakeyhtiö, \n32 = keskinäinen vakuutusyhtiö, 33 = säästöpankki, \n34 = eläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa, \n35 = asunto-osakeyhtiö, 41 = osuuskunta, \n51 = säätiö, rahasto, 52 = aatteellinen yhdistys (ry., rekisteröiyty yhdistys), \n53 = keskinäinen vahinkovakuutusyhdistys (joskus myös keskinäinen vakuutusyh-tiö), \n54 = taloudellinen yhdistys (juridisesti usein aatteellinen yhdistys, jonka liiketoi-minata on yrek:ssä todettu merkittäväksi), \n61 = julkinen viranomainen, 62 = julkinen liikelaitos, 63 = julkisoikeudellinen yhtei-sö, \n71 = valtionkirkko, 72 = muu uskonnollinen yhteisö, \n90 = muu oikeudellinen muoto (esim. ulkomaisen talousyksikön suomessa oleva sivuliike tai sen muu epäitsenäinen osa).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISL",
+      "variablename": "Institutionaalinen muoto (YREK, 86, 88-92)",
+      "conceptdef": "Institutionaalinen muoto (yritysrekisteri, 1986, 1988-1992)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "isl95",
+      "variablename": "Institutionaalinen muoto 95 (YREK, 93-99)",
+      "conceptdef": "Institutionaalinen muoto 1995 luokituksen mukaan, yritysrekisteri (1993-1999)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oty95",
+      "variablename": "Oty95 (YREK, 93-)",
+      "conceptdef": "Omistajatyyppi, yritysrekisteri (1993-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkomi",
+      "variablename": "Ulk. omist., % (YREK, 86, 88-)",
+      "conceptdef": "Ulkomainen omistus, prosenttia (yritysrekisterin tieto, vuosille 1986, 1988-2008)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

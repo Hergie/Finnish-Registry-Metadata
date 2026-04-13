@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch",
+      "Bash",
+      "Agent",
+      "TaskCreate",
+      "TaskUpdate",
+      "TaskList",
+      "TaskGet",
+      "Skill",
+      "Bash(curl -s -L \"https://taika.stat.fi/static/js/metuproto3.js\")",
+      "Read(//tmp/**)"
+    ]
+  }
+}

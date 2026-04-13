@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Aineistovuosi",
+      "conceptdef": "\nViiteajankohdat:\n* Perustopetus 2020-\n  * 20.9.\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ain",
+      "variablename": "Lähdeaineisto",
+      "conceptdef": "Lähdeaineisto (karkea)\n10 = esi ja perusopetusen aineisto (2020-)\n",
+      "measunit": null,
+      "classification": "lahdeaineisto_1_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "klaji",
+      "variablename": "Koulutuslaji (2020-)",
+      "conceptdef": "Vuodesta 2020 alkaen:\n10 = Esiopetus\n11 = Perusopetus\n12 = Aikuisten perusopetus\n13 = Lisäopetus (10-luokka)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sp",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Sukupuoli\n1 = Mies\n2 = Nainen\n9 = Määrittelemättä (2020-)\nSukupuolitieto puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. ",
+      "measunit": null,
+      "classification": "sukupuoli_2_1970_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä tilastovuoden lopussa",
+      "conceptdef": "Ikä vuosina 31.12. Ikätieto on puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansal",
+      "variablename": "Kansalaisuus (2020-)",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa.\nTieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n 999=Ei tietoa.\n Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": "valtio_1_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "aikieli",
+      "variablename": "Äidinkieli (2020-)",
+      "conceptdef": "Opiskelijan äidinkieli 31.12.\n2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n 99 = ei tietoa.\n Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "measunit": null,
+      "classification": "kieli_1_2010_11_15",
+      "variablegroups": null
+    },
+    {
+      "identifier": "olosyys",
+      "variablename": "Kirjoilla 20.9 ",
+      "conceptdef": "Vuodesta 2020 perusopetuksen tiedoille on määritely arvo 1 = läsnä 20.9.\n",
+      "measunit": null,
+      "classification": "kirjoilla_3_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "alvv",
+      "variablename": "Tutkinnon aloittamisvuosi/kirjoilletulovuosi",
+      "conceptdef": "Vuosi (vvvv), jolloin oppilas on ilmoittautunut koulun kirjoihin 20.9. mennessä.10 -ryhmässä (esi -ja perusopetus) ALVV-muuttuja tarkoittaa peruskoulun 1. vuosiluokan oppilaita. Muilla AIN = 10 -ryhmässä tieto on tyhjä.\n\n\n9999 = ei tietoa.\n\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "askun",
+      "variablename": "Opiskelijan kotikunta",
+      "conceptdef": "Opiskelijan kotikunta vuoden lopussa (31.12.), luokitus 1.1. tilastovuosi +1\n200 = Ulkomaa\n999 = Ei tietoa\nTieto ensisijaisesti VRK:n aineistosta.\nPuutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n",
+      "measunit": null,
+      "classification": "kunta_1_2019_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKUNX",
+      "variablename": "Kotikunta / vakituinen asuinkunta edellisen vuoden lopussa",
+      "conceptdef": "Opiskelijan kotikunta 31.12.[tilastovuotta edeltävä vuosi], luokitus 1.1.[tilastovuosi]\nVRK:n kuntakoodi. \n200 = Ulkomaa\n999 = Ei tietoa. Aluemuuttujaa ei enää päivitetä 2023 eteenpäin.",
+      "measunit": null,
+      "classification": "kunta_1_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk",
+      "variablename": "Tilastokeskuksen koulutuskoodi",
+      "conceptdef": "Tilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset.\nKoulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki  koulutusalan. ",
+      "measunit": null,
+      "classification": "koulutus_18_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkieli",
+      "variablename": "Koulutuksen opetuskieli",
+      "conceptdef": "Koulutuksen opetuskieli\n2-kirjaiminen tunnus (ISO 639)\n\n\nKKIELI-tietoa ei ole varhaiskasvatuksen esiopetustiedoilla.",
+      "measunit": null,
+      "classification": "kieli_1_2010_11_15",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkun",
+      "variablename": "Koulutuksen sijaintikunta",
+      "conceptdef": "Koulutuksen sijaintikunta 1.1. tilastovuonna \nVRK:n kuntakoodi\n200=Ulkomaat\nOppisopimuskoulutuksessa ja varhaiskasvatuksen esiopetuksessa koulutuksen järjestäjän sijaintikunta.\n",
+      "measunit": null,
+      "classification": "kunta_1_2019_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_s",
+      "variablename": "Suojattu oppilaitostunnus",
+      "conceptdef": "Suojattu oppilaitostunnus, \nTK:n oppilaitosluokitus 31.12., \nbl = ei tietoa (oppisopimuskoulutus)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarj_s",
+      "variablename": "Suojattu koulutuksen järjestäjä/ylläpitäjä",
+      "conceptdef": "Suojattu koulutuksen järjestäjä/ylläpitäjä. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkiloOid_s",
+      "variablename": "Suojattu henkilön tunnistenumero (KOSKI-tietovaranto)",
+      "conceptdef": "Suojattu henkilön tunnistenumero KOSKI-tietovarannossa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluOid_s",
+      "variablename": "Suojattu opiskeluoikeuden tunnistenumero (KOSKI-tietovaranto)",
+      "conceptdef": "Suojattu opiskeluoikeuden tunnistenumero KOSKI-tietovarannossa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkuennenoppivelvollisuutta",
+      "variablename": "Aloittanut ennen oppivelvollisuuden alkua",
+      "conceptdef": "Arvot:\ntrue\nfalse\n\nTieto vuodesta 2020 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskelujakso_tila",
+      "variablename": "Opiskelujakson tila",
+      "conceptdef": "Tieto esi- ja perusopetuksesta.\nArvot:\nlasna\nvaliaikaisestikeskeytynyt\n\nTieto vuodesta 2020 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "perusop_opiskeluoikeus_tyyppi",
+      "variablename": "Opiskeluoikeuden tyyppi",
+      "conceptdef": "1 = esiopetus\n2 = perusopetus\n3 = international school\n4 = perusopetuksen lisaopetus\n5 = aikuisten perusopetus\n\nTieto vuodesta 2020 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suoritus_kielikylpykieli",
+      "variablename": "Suorituksen kielikylpykieli (vain KOSKI -tietovaranto)",
+      "conceptdef": "Tieto vuodesta 2020 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suoritus_perusteendiaarinumero",
+      "variablename": "Perusteen diaarinumero (vain KOSKI -tietovaranto)",
+      "conceptdef": "Tutkinnon perusteen diaarinumero\n1/011/2004 = Perusopetuksen opetussuunnitelman perusteet 2004\n102/011/2014 = Esiopetuksen opetussuunnitelman perusteet 2014\n104/011/2014 = Perusopetuksen opetussuunnitelman perusteet 2014\n105/011/2014 = Lisäopetuksen opetussuunnitelman perusteet 2014\n19/011/2015 = Aikuisten perusopetuksen opetussuunnitelman perusteet 2015\n3/011/2004 = Perusopetuksen lisäopetuksen opetussuunnitelman perusteet 2004\n60/011/2015 = Työhön ja itsenäiseen elämään valmentava koulutus\nOPH-1280_2017 = Aikuisten perusopetuksen opetussuunnitelman perusteet 2017\nOPH-486-2021 = NA (toistaiseksi, lisätietoja ePerusteet-palvelu https://eperusteet.opintopolku.fi/#/fi)\n\nTieto vuodesta 2020 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosiluokka",
+      "variablename": "Vuosiluokka",
+      "conceptdef": "01 = 1. vuosiluokka\n02 = 2. vuosiluokka\n...\n09 = 9. vuosiluokka\n\nTieto vuodesta 2020 alkaen. Vuodesta 2022 alkaen mukana myös PV muuttuja. PV = perusopetukseen valmistava opetus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,1884 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, yrityksen y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp_mkvj",
+      "variablename": "Muut kansainväliset järjestöt imputoitu",
+      "conceptdef": "Muut kansainväliset järjestöt imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mkvj",
+      "variablename": "Muut kansainväliset järjestöt",
+      "conceptdef": "T&k-menojen rahoitus: Muut kansainväliset järjestöt (esim. CERN, ESA, OECD, YK), 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutlkm",
+      "variablename": "Tutkijat, lkm",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, lukumäärä vuonna 2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ntutlkm",
+      "variablename": "Naistutkijat, lkm",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat naiset, lukumäärä vuonna 2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutttv",
+      "variablename": "Tutkijat, työvuodet",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mtklkm",
+      "variablename": "Muu t&k-henkilöstö, lkm",
+      "conceptdef": "Muut t&k-henkilöt kuin tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, lukumäärä vuonna 2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nmtklkm",
+      "variablename": "Muu t&k-henkilöstö, naiset lkm",
+      "conceptdef": "Muut t&k-henkilöt kuin tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat naiset, lukumäärä vuonna 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mtkttv",
+      "variablename": "Muu t&k-henkilöstö, työvuodet",
+      "conceptdef": "Muut t&k-henkilöt kuin tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtlkm2",
+      "variablename": "T&k-henkilöstö yhteensä (tehtävät)",
+      "conceptdef": "T&k-henkilöstö tehtävien mukaan yhteensä vuonna 2009. Tutkimushenkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&khankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nyhtlkm2",
+      "variablename": "T&k-henkilöstö, naiset yhteensä (tehtävät)",
+      "conceptdef": "T&k-henkilöstö, naiset tehtävien mukaan yhteensä vuonna 2009.Tutkimushenkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&khankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtttv2",
+      "variablename": "Tutkimustyövuodet yhteensä (tehtävät)",
+      "conceptdef": "Tutkimustyövuodet tehtävien mukaan yhteensä vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mkoulkm",
+      "variablename": "Muu koulutus, lkm",
+      "conceptdef": "T&k-henkilöstö: muu koulutus, alempi kuin amk-tutkinto, lukumäärä vuonna 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nmkoulkm",
+      "variablename": "Muu koulutus, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: muu koulutus, alempi kuin amk-tutkinto naiset, lukumäärä vuonna 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mkouttv",
+      "variablename": "Muu koulutus, työvuodet",
+      "conceptdef": "Muu koulutus, alempi kuin amk-tutkinto, tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opistlkm",
+      "variablename": "Opistoaste, lkm",
+      "conceptdef": "T&k-henkilöstö: muu opistoasteen tutkinto (esim. teknikko, agrologi, merkonomi), lukumäärä vuonna 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nopistlkm",
+      "variablename": "Opistoaste, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: muu opistoasteen tutkinto (esim. teknikko, agrologi, merkonomi) suorittaneiden naisten lukumäärä vuonna 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opistttv",
+      "variablename": "Opistoaste, työvuodet",
+      "conceptdef": "Muu opistoasteen tutkinto (esim. teknikko, agrologi, merkonomi), tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "uorahas",
+      "variablename": "Oman konsernin ulkomaiset yksiköt",
+      "conceptdef": "T&k-menot rahoituslähteen mukaan: Oman konsernin ulkomaiset yksiköt (esim. ulkomaisen emoyhtiön rahoitus), 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_11",
+      "variablename": "Tutkijat, lkm imputoitu",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_12",
+      "variablename": "Tutkijat, naisten lkm imputoitu",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, naiset imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_13",
+      "variablename": "Tutkijat, työvuodet imputoitu",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_21",
+      "variablename": "Muu t&k-hk, lkm imputoitu",
+      "conceptdef": "Muut t&k-henkilöt kuin tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_22",
+      "variablename": "Muu t&k-hk, naisten lkm imputoitu",
+      "conceptdef": "Muut t&k-henkilöt kuin tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat naiset, lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_23",
+      "variablename": "Muu t&k-hk, työvuodet imputoitu",
+      "conceptdef": "Muut t&k-henkilöt kuin tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_31",
+      "variablename": "T&k-henkilöstö yhteensä, tehtävät imputoitu",
+      "conceptdef": "T&k-henkilöstö yhteensä tehtävien mukaan imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_32",
+      "variablename": "T&k-henkilöstö naiset yhteensä, tehtävät imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset yhteensä tehtävien mukaan imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp12_33",
+      "variablename": "Tutkimustyövuodet yhteensä, tehtävät imputoitu",
+      "conceptdef": "Tutkimustyövuodet yhteensä tehtävien mukaan imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp4_ulkkons",
+      "variablename": "Oman konsernin ulkomaiset yksiköt imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Oman konsernin ulkomaiset yksiköt imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sk_haku",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kmeno",
+      "variablename": "T&k:n käyttömenot",
+      "conceptdef": "Oman t&k-toiminnan menot: aineet, tarvikkeet, muut käyttömenot 2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hmeno",
+      "variablename": "T&k:n hankintamenot",
+      "conceptdef": "Oman t&k-toiminnan menot: koneet, laitteet, rakennukset, muut käyttöomaisuuden hankintamenot 2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp5_1",
+      "variablename": "5. Suunniteltu t&k-työtä 2010 /ei imputoitu",
+      "conceptdef": "5. Yritys suunnitellut t&k-työtä vuodelle 2010 /ei imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tark",
+      "variablename": "Hyväksytty, vaikka virhelistalla",
+      "conceptdef": "Hyväksytty, vaikka virhelistalla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_11",
+      "variablename": "Tohtorit lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, tohtoreiden lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_12",
+      "variablename": "Tohtorit, naiset lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset tohtoreiden lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_13",
+      "variablename": "Tohtorit työvuodet imputoitu",
+      "conceptdef": "Tohtoreiden tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_21",
+      "variablename": "Lisensiaatit lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, lisensiaattien lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_22",
+      "variablename": "Lisensiaatit, naiset lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset, lisensiaattien lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_23",
+      "variablename": "Lisensiaatit työvuodet imputoitu",
+      "conceptdef": "Lisensiaatit, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_31",
+      "variablename": "Yliopistotutkinto lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, yliopistotutkinto lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_32",
+      "variablename": "Yliopistotutkinto, naiset lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset, yliopistotutkinto lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_33",
+      "variablename": "Yliopistotutkinto työvuodet imputoitu",
+      "conceptdef": "Yliopistotutkinto, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_41",
+      "variablename": "Amk-tutkinto lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, ammattikorkeakoulututkinto lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_42",
+      "variablename": "Amk-tutkinto, naiset lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset, ammattikorkeakoulututkinto lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_43",
+      "variablename": "Amk-tutkinto työvuodet imputoitu",
+      "conceptdef": "Ammattikorkeakoulututkinto, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_51",
+      "variablename": "Muu opistokoulutus, lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, muu opistoasteen tutkinto lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_52",
+      "variablename": "Muu opistokoulutus, naisten lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset, muu opistoasteen tutkinto lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_53",
+      "variablename": "Muu opistokoulutus, työvuodet imputoitu",
+      "conceptdef": "Muun opistoasteen tutkinto, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_61",
+      "variablename": "Muu koulutus, lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, muu koulutus lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_62",
+      "variablename": "Muu koulutus, naisten lkm imputoitu",
+      "conceptdef": "T&k-henkilöstö, naiset, muu koulutus lukumäärä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_63",
+      "variablename": "Muu koulutus, työvuodet imputoitu",
+      "conceptdef": "Muu koulutus, tutkimustyövuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_71",
+      "variablename": "Koulutus, lkm yht imputoitu",
+      "conceptdef": "T&k-henkilöstö koulutuksen mukaan yhteensä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_72",
+      "variablename": "Koulutus, naisten lkm yht imputoitu",
+      "conceptdef": "T&k-henkilöstö, naisten lukumäärä koulutuksen mukaan yhteensä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_73",
+      "variablename": "Koulutus, työvuodet yht imputoitu",
+      "conceptdef": "Tutkimustyövuodet yhteensä koulutuksen mukaan imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP1_9",
+      "variablename": "Ulkopuolisen rahoituksen työvuodet imput",
+      "conceptdef": "T&k:n menojen rahoitus: Ulkopuolisen rahoituksen työvuodet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP2A_1",
+      "variablename": "Palkkausmenot imputoitu",
+      "conceptdef": "Oman t&k-toiminnan menot: Palkkausmenot imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP2A_2",
+      "variablename": "Käyttömenot imputoitu",
+      "conceptdef": "Oman t&k-toiminnan menot: Käyttömenot imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP2A_3",
+      "variablename": "Ostetut palvelut imputoitu",
+      "conceptdef": "Oman t&k-toiminnan menot: Ostetut palvelut imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP2A_4",
+      "variablename": "Hankintamenot imputoitu",
+      "conceptdef": "Oman t&k-toiminnan menot: Hankintamenot imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP2A_5",
+      "variablename": "T&k-menot yhteensä imputoitu",
+      "conceptdef": "Oman t&k-toiminnan menot yhteensä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_11",
+      "variablename": "Kunta 1 imputoitu",
+      "conceptdef": "Kunta nro 1, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_12",
+      "variablename": "Henkilökunta kunta 1 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 1. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_13",
+      "variablename": "Työvuodet kunta 1 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 1. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_14",
+      "variablename": "T&k-menot kunta 1 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 1. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_21",
+      "variablename": "Kunta 2 imputoitu",
+      "conceptdef": "Kunta nro 2, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_22",
+      "variablename": "Henkilökunta kunta 2 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 2. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_23",
+      "variablename": "Työvuodet kunta 2 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 2. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_24",
+      "variablename": "T&k-menot kunta 2 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 2. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_31",
+      "variablename": "Kunta 3 imputoitu",
+      "conceptdef": "Kunta nro 3, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_32",
+      "variablename": "Henkilökunta kunta 3 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 3. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_33",
+      "variablename": "Työvuodet kunta 3 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 3. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_34",
+      "variablename": "T&k-menot kunta 3 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 3. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_41",
+      "variablename": "Kunta 4 imputoitu",
+      "conceptdef": "Kunta nro 4, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_42",
+      "variablename": "Henkilökunta kunta 4 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 4. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_43",
+      "variablename": "Työvuodet kunta 4 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 4. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_44",
+      "variablename": "T&k-menot kunta 4 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 4. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_51",
+      "variablename": "Kunta 5 imputoitu",
+      "conceptdef": "Kunta nro 5, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_52",
+      "variablename": "Henkilökunta kunta 5 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 5. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_53",
+      "variablename": "Työvuodet kunta 5 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 5. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_54",
+      "variablename": "T&k-menot kunta 5 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 5. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_61",
+      "variablename": "Kunta 6 imputoitu",
+      "conceptdef": "Kunta nro 6, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_62",
+      "variablename": "Henkilökunta kunta 6 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 6. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_63",
+      "variablename": "Työvuodet kunta 6 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 6. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_64",
+      "variablename": "T&k-menot kunta 6 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 6. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_71",
+      "variablename": "Kunta 7 imputoitu",
+      "conceptdef": "Kunta nro 7, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_72",
+      "variablename": "Henkilökunta kunta 7 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 7. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_73",
+      "variablename": "Työvuodet kunta 7 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 7. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_74",
+      "variablename": "T&k-menot kunta 7 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 7. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_81",
+      "variablename": "Kunta 8 imputoitu",
+      "conceptdef": "Kunta nro 8, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_82",
+      "variablename": "Henkilökunta kunta 8 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 8. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_83",
+      "variablename": "Työvuodet kunta 8 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 8. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_84",
+      "variablename": "T&k-menot kunta 8 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 8. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_91",
+      "variablename": "Kunta 9 imputoitu",
+      "conceptdef": "Kunta nro 9, jossa t&k-toimintaa imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_92",
+      "variablename": "Henkilökunta kunta 9 imputoitu",
+      "conceptdef": "T&k-henkilöstö alueittain, 9. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_93",
+      "variablename": "Työvuodet kunta 9 imputoitu",
+      "conceptdef": "Tutkimustyövuodet alueittain, 9. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP3_94",
+      "variablename": "T&k-menot kunta 9 imputoitu",
+      "conceptdef": "T&k-menot alueittain, 9. ilmoitettu kunta imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_1",
+      "variablename": "Oma rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Oma rahoitus imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_2",
+      "variablename": "Finnvera (Kera) rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Finnvera imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_3",
+      "variablename": "Tekes lainat imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Tekes lainat imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_4",
+      "variablename": "Muut julkiset lainat  imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Muut julkiset lainat imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_5",
+      "variablename": "Tekes, muu rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Tekes, muu ulkopuolinen rahoitus imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_6",
+      "variablename": "TEM rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: TEM:n hallinnonalan rahoitus imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_7",
+      "variablename": "Muut hall.alat rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Muut hallinnonalat rahoitus imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_8",
+      "variablename": "Muut julkiset rah.lähteet imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Muut julkiset rahoituslähteet imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_9",
+      "variablename": "Rahastot imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Rahastot imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_10",
+      "variablename": "Kotimaiset yritykset imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Kotimaiset yritykset imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_12",
+      "variablename": "4. Ulkomaiset yritykset imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Ulkomaiset yritykset imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_13",
+      "variablename": "4. Eu-rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: EU-rahoitus imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_14",
+      "variablename": "4. Muu ulkomainen rahoitus imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: Muu ulkomainen rahoitus imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP4_15",
+      "variablename": "4. T&k-rahoitus yhteensä imputoitu",
+      "conceptdef": "Tutkimus ja kehittämistoiminnan menojen rahoitus: T&k-rahoitus yhteensä imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMP5_2",
+      "variablename": "Arvioidut menot , määrä imputoitu",
+      "conceptdef": "Arvio kuluvan vuoden (aineiston keruuvuosi) t&k-menoista imputoitu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "imp6",
+      "variablename": "7. Tuoteryhmäjakauma imputoitu",
+      "conceptdef": "Tuoteryhmäjakauma imputoitu kokonaan tai osittain",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koskee",
+      "variablename": "Yksikön muoto",
+      "conceptdef": "Yksikön muoto: 1=yritys, 2=konserni, 3=muu.  Tiedustelu koskee yrityksen, konsernin tai muun yrityksen yksikön toimintaa Suomessa. Osa yrityksistä on saattanut vastata kyselyyn muulla kuin yritystasolla, esimerkiksi konsernitasolla\ntai tutkimusyksikön tasolla. Vastaustaso huomioitava yhdistettäessä tietoja muihin aineistoihin tai\nverrattaessa esim. liikevaihtoon. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hk",
+      "variablename": "Yrek palkattujen lkm",
+      "conceptdef": "Kyseisen yksikön henkilökunta 31.12.2009 (lomaketieto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tk_toim",
+      "variablename": "Tutkimus- ja kehittämistoimintaa 2009",
+      "conceptdef": "Yritys on tehnyt tutkimusta, tuote- ja prosessikehitystyötä vuonna 2009, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOLKM",
+      "variablename": "Tohtorit lkm",
+      "conceptdef": "T&k-henkilöstö: tohtorit (väitelleet) lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NTOLKM",
+      "variablename": "Tohtorit, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: tohtorit (väitelleet)naiset lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOTTV",
+      "variablename": "Tohtorit, työvuodet",
+      "conceptdef": "Tohtorit (väitelleet) tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LISLKM",
+      "variablename": "Lisensiaatit lkm",
+      "conceptdef": "T&k-henkilöstö: lisensiaatit tai vastaavat (ei lääketiet.lis.) lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NLISLKM",
+      "variablename": "Lisensiaatit, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: lisensiaatit tai vastaavat (ei lääketiet.lis.) naiset lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LISTTV",
+      "variablename": "Lisensiaatit, työvuodet",
+      "conceptdef": "Lisensiaatit tai vastaavat (ei lääketiet.lis.) tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DILKM",
+      "variablename": "Yliopistotutkinto lkm",
+      "conceptdef": "T&k-henkilöstö: ylempi tai alempi yliopistotutkinto (esim. DI, FK, LuK, myös lääketiet.lis) lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NDILKM",
+      "variablename": "Yliopistotutkinto, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: Ylempi tai alempi yliopistotutkinto (esim. DI, FK, LuK, myös lääketiet.lis)naiset lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DITTV",
+      "variablename": "Yliopistotutkinto, työvuodet",
+      "conceptdef": "Ylempi tai alempi yliopistotutkinto (esim. DI, FK, LuK, myös lääketiet.lis) tutkimustyövuodet vuoden 2009 aikana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INSLKM",
+      "variablename": "Amk-tutkinto lkm",
+      "conceptdef": "T&k-henkilöstö: ammattikorkeakoulututkinto (myös opistoinsinöörit) lukumäärä 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NINSLKM",
+      "variablename": "Amk-tutkinto, naisten lkm",
+      "conceptdef": "T&k-henkilöstö: ammattikorkeakoulututkinto (myös opistoinsinöörit) naiset lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INSTTV",
+      "variablename": "Amk-tutkinto, työvuodet",
+      "conceptdef": "Ammattikorkeakoulututkinto (myös opistoinsinöörit) tutkimustyövuodet vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTLKM",
+      "variablename": "Tutkimushenkilöstö yhteensä",
+      "conceptdef": "T&k-henkilöstö yhteensä koulutuksen mukaan 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NYHTLKM",
+      "variablename": "Tutkimushenkilöstö, naiset yhteensä",
+      "conceptdef": "T&k-henkilöstö naiset yhteensä koulutuksen mukaan 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTTTV",
+      "variablename": "Tutkimustyövuodet yhteensä",
+      "conceptdef": "Tutkimustyövuodet yhteensä koulutuksen mukaan vuoden 2009 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALME",
+      "variablename": "Palkat",
+      "conceptdef": "Oman t&k-toiminnan menot 2009, palkkausmenot, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTPA",
+      "variablename": "Ostetut palvelut",
+      "conceptdef": "Oman t&k-toiminnan menot 2009, omiin t&k-projekteihin liittyvät palvelujen ostot, 1000€.  Ulkopuolisilta tilattuja kokonaisia t&k-hankkeita ei ole ilmoitettu tässä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YSYHT",
+      "variablename": "Oman t&k:n menot yhteensä",
+      "conceptdef": "Oman t&k-toiminnan menot yhteensä  2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILKOTI",
+      "variablename": "Kotimaasta tilattu t&k, HUOM ei virallinen",
+      "conceptdef": "Yrityksen kotimaasta tilaaman t&k:n menot 2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILULKO",
+      "variablename": "Ulkomailta tilattu t&k, HUOM ei virallinen",
+      "conceptdef": "Yrityksen ulkomailta tilaama t&k:n menot 2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLMA",
+      "variablename": "Ylläpitomaksut, HUOM ei virallinen",
+      "conceptdef": "Yrityksen maksamat avustukset, tutkimuslaitosten ylläpitomaksut tai vastaavat 2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YUYHT",
+      "variablename": "Ulkopuolelta tilatun t&k:n menot yhteensä, HUOM ei virallinen",
+      "conceptdef": "Yrityksen ulkopuolelta tilatun t&k-toiminnan menot yhteensä 2009, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO1",
+      "variablename": "Kunta 1",
+      "conceptdef": "Kunta nro 1, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH1",
+      "variablename": "Kunta 1, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 1. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV1",
+      "variablename": "Kunta 1, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 1. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS1",
+      "variablename": "Kunta 1, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 1. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO2",
+      "variablename": "Kunta 2",
+      "conceptdef": "Kunta nro 2, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH2",
+      "variablename": "Kunta 2, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 2. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV2",
+      "variablename": "Kunta 2, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 2. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS2",
+      "variablename": "Kunta 2, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 2. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO3",
+      "variablename": "Kunta 3",
+      "conceptdef": "Kunta nro 3, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH3",
+      "variablename": "Kunta 3, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 3. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV3",
+      "variablename": "Kunta 3, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 3. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS3",
+      "variablename": "Kunta 3, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 3. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO4",
+      "variablename": "Kunta 4",
+      "conceptdef": "Kunta nro 4, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH4",
+      "variablename": "Kunta 4, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 4. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV4",
+      "variablename": "Kunta 4, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 4. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS4",
+      "variablename": "Kunta 4, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 4. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO5",
+      "variablename": "Kunta 5",
+      "conceptdef": "Kunta nro 5, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH5",
+      "variablename": "Kunta 5, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 5. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV5",
+      "variablename": "Kunta 5, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 5. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS5",
+      "variablename": "Kunta 5, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 5. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO6",
+      "variablename": "Kunta 6",
+      "conceptdef": "Kunta nro 6, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH6",
+      "variablename": "Kunta 6, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 6. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV6",
+      "variablename": "Kunta 6, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 6. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS6",
+      "variablename": "Kunta 6, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 6. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO7",
+      "variablename": "Kunta 7",
+      "conceptdef": "Kunta nro 7, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH7",
+      "variablename": "Kunta 7, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 7. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV7",
+      "variablename": "Kunta 7, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 7. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS7",
+      "variablename": "Kunta 7, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 7. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO8",
+      "variablename": "Kunta 8",
+      "conceptdef": "Kunta nro 8, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH8",
+      "variablename": "Kunta 8, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 8. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV8",
+      "variablename": "Kunta 8, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 8. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS8",
+      "variablename": "Kunta 8, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 8. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO9",
+      "variablename": "Kunta 9",
+      "conceptdef": "Kunta nro 9, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH9",
+      "variablename": "Kunta 9, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 9. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV9",
+      "variablename": "Kunta 9, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 9. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS9",
+      "variablename": "Kunta 9, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 9. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO10",
+      "variablename": "Kunta 10",
+      "conceptdef": "Kunta nro 10, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH10",
+      "variablename": "Kunta 10, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 10. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV10",
+      "variablename": "Kunta 10, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 10. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS10",
+      "variablename": "Kunta 10, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 10. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO11",
+      "variablename": "Kunta 11",
+      "conceptdef": "Kunta nro 11, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH11",
+      "variablename": "Kunta 11, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 11. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV11",
+      "variablename": "Kunta 11, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 11. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS11",
+      "variablename": "Kunta 11, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 11. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO12",
+      "variablename": "Kunta 12",
+      "conceptdef": "Kunta nro 12, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH12",
+      "variablename": "Kunta 12, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 12. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV12",
+      "variablename": "Kunta 12, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 12. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS12",
+      "variablename": "Kunta 12, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 12. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO13",
+      "variablename": "Kunta 13",
+      "conceptdef": "Kunta nro 13, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH13",
+      "variablename": "Kunta 13, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 13. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV13",
+      "variablename": "Kunta 13, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 13. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS13",
+      "variablename": "Kunta 13, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 13. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO14",
+      "variablename": "Kunta 14",
+      "conceptdef": "Kunta nro 14, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH14",
+      "variablename": "Kunta 14, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 14. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV14",
+      "variablename": "Kunta 14, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 14. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS14",
+      "variablename": "Kunta 14, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 14. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO15",
+      "variablename": "Kunta 15",
+      "conceptdef": "Kunta nro 15, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH15",
+      "variablename": "Kunta 15, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 15. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV15",
+      "variablename": "Kunta 15, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 15. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS15",
+      "variablename": "Kunta 15, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 15. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K_NRO16",
+      "variablename": "Kunta 16",
+      "conceptdef": "Kunta nro 16, jossa t&k-toimintaa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH16",
+      "variablename": "Kunta 16, tutkijat",
+      "conceptdef": "T&k-henkilöstö alueittain, 16. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV16",
+      "variablename": "Kunta 16, tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet alueittain, 16. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YS16",
+      "variablename": "Kunta 16, t&k-menot",
+      "conceptdef": "T&k-menot alueittain, 16. ilmoitettu kunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YHTH",
+      "variablename": "Tutkijat yhteensä, kunnittain",
+      "conceptdef": "T&k-henkilöstö yhteensä, kunnittainen summa 2009",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YHTTTV",
+      "variablename": "Tutkimustyövuodet yhteensä, kunnittain",
+      "conceptdef": "T&k-henkilöstön tekemät tutkimustyövuodet yhteensä, kunnittainen summa 2009. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "A_YSYHT",
+      "variablename": "T&k-menot yhteensä, kunnittain",
+      "conceptdef": "T&k-menot alueittain, ilmoitettujen kuntien menot yhteensä 2009. Mukaan lasketaan palkkausmenot, rakennusten käyttömenot, aineet, tarvikkeet, ostetut palvelut (omiin t&k-projekteihin liittyvät palvelujen ostot), muut käyttömenot, rakennusten hankintamenot, atk-ohjelmistot, muut käyttöomaisuuden hankintamenot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ORAHAS",
+      "variablename": "Oma rahoitus",
+      "conceptdef": "T&k-menojen rahoitus: oma rahoitus (ml. oman konsernin muut kotimaiset yksiköt), 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKES",
+      "variablename": "Finnvera (Kera) lainat",
+      "conceptdef": "T&k-menojen rahoitus: Finnvera (Kera) lainat, 1000€.  Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LTES",
+      "variablename": "Tekes, lainat",
+      "conceptdef": "T&k-menojen rahoitus: Tekesin lainat, 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LMUS",
+      "variablename": "Muut lainat",
+      "conceptdef": "T&k-menojen rahoitus: muut julkiset lainat, 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATES",
+      "variablename": "Tekes, avustukset",
+      "conceptdef": "T&k-menojen rahoitus:  Tekes, avustukset, tilaustutkimukset, 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKTMS",
+      "variablename": "Muu TEM",
+      "conceptdef": "T&k-menojen rahoitus: TEM:n hallinnonala (pl. Tekes), avustukset, tilaustutkimukset, 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMHS",
+      "variablename": "Muut hallinnonalat",
+      "conceptdef": "T&k-menojen rahoitus: muut hallinnonalat, avustukset, tilaustutkimukset, 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMJS",
+      "variablename": "Muut julkiset rahoituslähteet",
+      "conceptdef": "T&k-menojen rahoitus: muut julkiset lähteet kuin valtionhallinto (esim. kunnat, SITRA, Finnvera), 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAHAS",
+      "variablename": "Rahastot",
+      "conceptdef": "T&k-menojen rahoitus:  rahastot eli YVT-sektori, 1000€.Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKYS",
+      "variablename": "Muut kotimaiset yritykset",
+      "conceptdef": "T&k-menojen rahoitus: kotimaiset yritykset ja yrityksiä palvelevat järjestöt (pl. omaan konserniin kuuluvat yritykset, ml. Suomessa toimivat ulkomaalaisomisteiset yritykset), 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUYS",
+      "variablename": "Muut ulkomaiset yritykset",
+      "conceptdef": "T&k-menojen rahoitus: ulkomaiset yritykset (pl. omaan konserniin kuuluvat), 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AEUS",
+      "variablename": "EU-rahoitus",
+      "conceptdef": "T&k-menojen rahoitus: EU-rahoitus, 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMUS",
+      "variablename": "Muu ulkomainen rahoitus",
+      "conceptdef": "T&k-menojen rahoitus: muut ulkomaiset rahoituslähteet (pl. EU, kansainväliset järjestöt ja yritykset), 1000€. Ulkopuolinen rahoitus on ilmoitettu vuodelle 2009 kohdistuvan laskutuksen mukaan. Ellei kaikkea vuoden 2009 toimintaan kohdistuvaa ulkopuolista rahoitusta ole laskutettu, myöhemmin laskutettavat erät on arvioitu. Vuodelle 2010 myönnettyä rahoitusta tai vuonna 2009 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHTS",
+      "variablename": "T&k-menojen rahoitus yhteensä",
+      "conceptdef": "T&k-menot rahoituslähteiden mukaan yhteensä, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tk_arvio",
+      "variablename": "Kuluvan vuoden arvioitu t&k-toiminta",
+      "conceptdef": "Arvio siitä, onko kuluvana vuotena (aineiston keruuvuosi) yrityksellä t&k-toimintaa 1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tk_arvioe",
+      "variablename": "Kuluvan vuodena arvioidut t&k-menot",
+      "conceptdef": "Arvio kuluvan vuoden (aineiston keruuvuosi) t&k-menoista, 1000€",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vastelo",
+      "variablename": "Vastannut lomakkeella",
+      "conceptdef": "Lomakkeiden vastaustilanne",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vastesk",
+      "variablename": "Vastannut sähköisesti",
+      "conceptdef": "Sähköisen keruun vastaustilanne",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otos",
+      "variablename": "Mukana otannan perusteella",
+      "conceptdef": "Mukana kyselyssä otannan perusteella",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paneli",
+      "variablename": "Mukana panelissa",
+      "conceptdef": "Mukana panelissa. Muuttuja saa arvot:\n0=Ei kuulu paneliin\n1=Kuuluu paneliin\n2=hk 100+ toimialoilta, joilta ei otantaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otostol",
+      "variablename": "Otostoimiala",
+      "conceptdef": "Toimiala otoksessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_tol02",
+      "variablename": "Kehikon toimiala 2002 (rakennetilasto)",
+      "conceptdef": "Kehikon toimiala 2002 (rakennetilasto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_hk_su",
+      "variablename": "Kehikon hk-suuruusluokka",
+      "conceptdef": "Kehikon henkilökunnan suuruusluokka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaste",
+      "variablename": "Vastaustilanne",
+      "conceptdef": "Kokonaisvastaustilanne. Vastaustilanne, saa arvot:\n'0'='Vastannut, ei ole t&k:ta'\n'1'='Vastannut, on t&k:ta'\n'2'='Vastannut konsernina, on t&k:ta'\n'Y'='Kuuluu konsernivastaukseen ei omaa lomaketta'\n'3'='Ei t&k vuonna t, on t+1'\n'9'='Lopettanut toimintansa/ei kuuluisi kyselyyn'\n'T'='Vastausta täydennetään'\n'L'='Annettu lisäaikaa'\n'E'='Kieltäytynyt'\n'M'='Myöhästynyt, ei imputoitu'\n'P'='Poistettu tuplana'\n'X'='Imputoitu vastaus'\n'H'='Hylätty vastaus'\n'Z'='Ei vastausta'\n'A'='Lähetetty konsernille'\nother='???' ;",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_tol08",
+      "variablename": "Kehikon toimiala 2008 (rakennetilasto)",
+      "conceptdef": "Kehikon toimiala 2008 (rakennetilasto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otossl",
+      "variablename": "Otossuuruusluokka",
+      "conceptdef": "Otossuuruusluokka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KODE",
+      "variablename": "Painokerroinlaskennan apumuuttuja tol*sl",
+      "conceptdef": "Painokerroinlaskennan apumuuttuja toimiala*suuruusluokka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvkerr",
+      "variablename": "Liikevaihto-osuuden kerroin",
+      "conceptdef": "Korotuskertoimilla oikaistaan katoa, ne eivät korota perusjoukon tasolle (paneli, jota tuoreutetaan otoksella)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "Lukumääräosuuden kerroin",
+      "conceptdef": "Korotuskertoimilla oikaistaan katoa, ne eivät korota perusjoukon tasolle (paneli, jota tuoreutetaan otoksella)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

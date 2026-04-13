@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "EDUC_20052024_jua_trek_001.xml",
+      "doi": "he_201100_ain_Tutkinto",
+      "subject": "EDUC_TREK Tutkintorekisteri 2005–2024",
+      "contentdescription": "Taulu sisältää tutkintorekisterin tutkintotiedot. Mukana kaikki tutkintorekisterin tutkinnot riippumatta siitä onko henkilö masssa asuvassa väestössä ko. vuonna. Tiedoston vuosi kertoo tutkintorekisterin rekisterivuoden, ja näin yli ajan mahdollisesti muuttuvat muuttujat  (tutkintokoodin luokitus, oppilaitostunnus) kuvaavat sen hetkistä tilannetta. Rekisterin tietoja täydennetään/korjataan takautuvasti, ja näin rekisterin viimeisin rekisterivuosi kertoo ajantasaisimman tiedon.\n\nTutkintorekisteri-moduuli koostuu erillisistä vuositiedostoista educ_trek_VVVV, jossa VVVV = 2005,...->\n\nMuuta:\n- Huomaathan, että muuttujissa on eroja siinä, että koska ne ovat ajallisesti saatavilla. Esimerkiksi tutkinnon suoritusaika on puuttuva usealle ennen tutkintorekisterin perustamisvuotta (1971).\n- Moduulin historian täydentäminen ennen 2005 rekisterivuotta olisi mahdollista Tilastokeskuksen kokoomatietojen avulla. Tämä vaati kuitenkin resursseja.\n- Tutkintorekisteriin on viety vain henkilöt, joille löytyy henkilötunnus. \n- Tutkintorekisteri valmistuu kunkin tilastovuoden osalta seuraavan vuoden syksyllä (loka-marraskuu). Tietojen valmistumisaika on tilastovuosi + 12 kk.\n\nMuutokset v.2023 päivityksessä:\n\n- Aineistoihin lisätty takautuvasti vuodesta 2020 alkaen kaksi uutta muuttujaa:\n\nammoppsop= tutkinnossa oppisopimusjaksoja\nammkouso= tutkinnossa koulutussopimusjaksoja\n\n\n",
+      "coveragetemporal": "2005-01-01 - 2024-12-31",
+      "published_day": "2026-01-07",
+      "variable_count": "23",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Tutkinnon suorittanut väestö",
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

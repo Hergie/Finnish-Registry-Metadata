@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19952023_jua_elake25_001.xml",
+      "doi": "tyokay_2012-03_2012-03-01_ain_0001",
+      "subject": "FOLK jaksotiedot: eläke",
+      "contentdescription": "Sisältyy FOLK jaksotiedot -moduuliin. Tietoja eläkkeistä vuodesta 1995 alkaen kunkin vuoden lopun tilanteen mukaan (sisältää vain vuoden lopussa voimassa olleet eläkkeet). \n\nJos henkilöllä on ollut voimassa useampia saman eläkelajin jaksoja (elakelaji_alkuper) yhden aineistolähteen sisällä, on henkilölle otettu mukaan jakso, jonka alkamisajankohta on varhaisin. Perhe-eläkkeet ovat mukana vuodesta 1996 lähtien. Takautuvasti myönnetyt työeläkkeet puuttuvat vuosilta 1995 ja 1998. \n\nEläketietoja on myös saatavilla TAX_BENEFIT Tulorekisterin etuustiedot -moduulista. \n\nViimeisimmät FOLK JAKSO: eläke -aineistot ovat kansiossa FOLK_JAKSOT_C/ELAKE, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_elake_\"vuosi\"_1.\n\nVanhat eläkejakso-aineistot ovat FIONAssa kansiossa: FOLK_jaksot_a. \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi\n\nMuutoksia vuoden 2023 aineistossa:\n- Vuodesta 2023 alkaen aineisto on tulorekisteripohjainen\n- Elakelaji_alkuper muuttujaa ei enää päivitetä vuodesta 2022 eteenpäin, johtuen tulorekisterisiirtymästä\n- Eläkelajit mukailevat ETK-datan mukaisia eläkelajeja ja uutena eläkelajina eläkelaji = 8 = Muut eläkkeet\n- Jatkossa uusille eläkeläisille otetaan vain minimiarvo alkupäivämääristä ja se pysyy muuttumattomana. ETK:n datassa otettiin \"aidot katkokset\" huomioon, mutta tulorekisterin datassa tätä ei oteta huomioon vuodesta 2023 eteenpäin.",
+      "coveragetemporal": "1995-01-01 - 2023-12-31",
+      "published_day": "2025-12-22",
+      "variable_count": "7",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": null,
+      "resourcerelation_1": "Kansaneläkelaitoksen ja Eläketurvakeskuksen rekisterit eläkkeensaajista",
+      "resourcerelation_2": null,
+      "keywords": "eläkeläiset,eläkkeelle siirtyminen,eläkkeet,kansaneläkkeet,työeläkkeet",
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

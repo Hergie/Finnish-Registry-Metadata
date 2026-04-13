@@ -1,0 +1,260 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk",
+      "variablename": "Palkkatulot",
+      "conceptdef": "Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tulonjakotilasto, TJKT"
+    },
+    {
+      "identifier": "yrtu",
+      "variablename": "Yrittäjätulot",
+      "conceptdef": "Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "TJKT, Tulonjakotilasto"
+    },
+    {
+      "identifier": "omtu",
+      "variablename": "Omaisuustulot",
+      "conceptdef": "Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "TJKT, Tulonjakotilasto"
+    },
+    {
+      "identifier": "saatusi",
+      "variablename": "Saadut tulonsiirrot",
+      "conceptdef": "Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tulonjakotilasto, TJKT"
+    },
+    {
+      "identifier": "makstu",
+      "variablename": "Maksetut tulonsiirrot",
+      "conceptdef": "Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "TJKT, Tulonjakotilasto"
+    },
+    {
+      "identifier": "kturaha",
+      "variablename": "Käytettävissä olevat rahatulot",
+      "conceptdef": "Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tulonjakotilasto, TJKT"
+    },
+    {
+      "identifier": "tyotu",
+      "variablename": "Summatut työtulot (palkkatulot)",
+      "conceptdef": "Summatut työtulot (palkkatulot) sisältää seuraavia verotietoja vuoteen 2018 asti: \nTRPL = rahapalkka päätoimesta, luontaisedut ja työsuhdeoptiot \nTMPT = muut palkkatulot sivutoimesta\nTEPALK = ennakonkannon alaiset palkkatulot veroilmoitukselta (vuodesta 1990 lähtien)\nTMERI = veronalainen merityötulo (vuosina 2005-2007)\nTMERI1 = matkustaja-alusten maksuvapauden piiriin kuuluva merityötulo (vuoteen 2007 asti) \nTKUST = kustannusten korvaukset työnantajalta\nTPALV = lunastukset, palvelurahat yms. ennakonkannon alaiset tulot \nTPJTA = hankintatyön arvo metsätaloudesta \nTYHTHAV = hankintatyön arvo yhtymästä \nTPTURVA = palkkaturva ja sijaismaksajan maksama palkka ansiotulona (vuodesta 1993 lähtien)\nTELPS = työkorvaus (vuodesta 1993 lähtien)\nTELPS3 = urheilijarahastosta maksettava palkka (vuodesta 1999 lähtien)\nTLUE2 = luontaisedut merityötulosta (vuodesta 1993 lähtien)\nTLUE3 = luontaisedut merityötulosta (vuosina 2005-2007)\nTUTMP2 = ulkomaisen työnantajan maksama palkka työntekijälle, joka ei Suomessa vakuutettu (vuodesta 2009 lähtien)\nTUTMP3 = ulkomaisen työnantajan maksama palkka Suomessa vakuutetulle työntekijälle (vuodesta 2009 lähtien) \nTOSINKTK= työpanokseen perustuva osinko, työkorvausta (vuodesta 2010 lähtien)\n\nVuoden 2018 jälkeiset tiedot henkilön palkkatuloista ovat saatavilla muuttujasta PALK.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "tyrtuo",
+      "variablename": "Yrittäjätulot",
+      "conceptdef": "Yrittäjätulot sisältävät maatalouden tulot, elinkeinotoiminnan tulot ja tulot yhtymästä. Elinkeinotoiminnan tulot eivät sisällä puolison elinkeinotuloja.\n\nYrittäjätulot sisältävät seuraavia verotietoja:\nTMAAT1 = maatalouden ansiotulo, oma\nTMAAT2 = maatalouden pääomatulo, oma\nTLIIK1 = elinkeinotoiminnan ansiotulo-osuus, oma\nTPORO1 = ansiotulo porotaloudesta\nTLIIK2 = elinkeinotoiminnan pääomatulo-osuus, oma\nTPORO2 = pääomatulo porotaloudesta\nTYHTAT = ansiotulot ilman osinkoja yhtymästä (vuodesta 1993 lähtien)\nTEINOYVA = osingot ansiotulona muista kuin listatuista yhtiöistä, verotettava määrä yhtymistä (vuodesta 2005 lähtien)\nTYHAU = ansiotulo-osuus ulkomaisen yhtymän tulosta (vuosina 1996-2011)\nTYHTPOT = pääomatulot ilman osinkoja yhtymistä (vuodesta 1993 lähtien)\nTEINOYVP = osingot pääomatulona muista kuin listatuista yhtiöistä, veronalainen määrä yhtymistä (vuosina 2005-2013)\nTNOSYHV = osingot pääomatulona listatuista yhtiöistä, verotettava määrä yhtymistä (vuodesta 2005 lähtien)\nTYHAP = pääomatulo-osuus ulkomaisen yhtymän tulosta (vuosina 1996-2017)\nTOPYKOK = osuuspääoman korot yhtymistä, yhteismäärä (vuosina 2005-2014)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "telinko",
+      "variablename": "Elinkeinotulot",
+      "conceptdef": "Elinkeinotulot sisältävät elinkeinotoiminnan ansiotulot ja pääomatulot. Ne eivät sisällä puolison elinkeinotuloja. Elinkeinotulot sisältävät seuraavia verotietoja:\nTLIIK1 = elinkeinotoiminnan ansiotulo-osuus, oma\nTPORO1 = ansiotulo porotaloudesta\nTLIIK2 = elinkeinotoiminnan pääomatulo-osuus, oma\nTPORO2 = pääomatulo porotaloudesta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "tmaat1",
+      "variablename": "Maatalouden ansiotulot",
+      "conceptdef": "Maatalouden ansiotulot, ei sisällä puolison tuloja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "svatv",
+      "variablename": "Tulot yhteensä valtionverotuksessa",
+      "conceptdef": "Valtionveronalaiset tulot = ansiotulot yhteensä + pääomatulot yhteensä. Tietoja vuoteen 1992 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "svatva",
+      "variablename": "Ansiotulot yhteensä valtionverotuksessa",
+      "conceptdef": "Ansiotulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "svatvp",
+      "variablename": "Pääomatulot yhteensä valtionverotuksessa",
+      "conceptdef": "Pääomatulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "saiprva",
+      "variablename": "Sairauspäivärahat",
+      "conceptdef": "Suoraan vakuutetulle Kelan maksamat sairauspäivärahat. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kela"
+    },
+    {
+      "identifier": "elatulo",
+      "variablename": "Eläketulot",
+      "conceptdef": "Eläketulot koostuvat seuraavista verotiedoista:\nTKANSEL = Kansaneläke ansiotulona\nTANSEL = Työ-, virka- ja yrittäjäeläkkeet\nTTAPEL = Pakolliseen tapaturmavakuutukseen perustuva eläke\nTLAPEL = Pakolliseen liikennevahinkoturvaan perustuva eläke (vuodesta 2012 alkaen)\nTMUUEL1, TMUUEL = Muut eläkkeet\nTPOTEL = Potilasvakuutuksen eläke\nTEANSTU = Ansiotulona verotettava muu eläke (vuodesta 1993 alkaen)\nTPERHEL = Kansaneläkkeen perhe-eläke  (vuodesta 1992 alkaen)\nTTYOEL = Työnantajan maksama eläke (vuosina 1998-2017)\nTELULKO = Ulkomaille maksettu eläke, josta peritty vain sairaanhoitomaksu  (vuodesta 2006 alkaen)\nTPTELAK = Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke, 20 % korotus  (vuodesta 2007 alkaen)\nTSUURPU = Ulkomaanedustuston virkamiehen puolison erityiskorvaus  (vuodesta 1999 alkaen)\nTAKUUEL = Takuueläke  (vuodesta 2011 alkaen)\nTELEUVE = EU-virkamiehen vapaaehtoiseen eläkevakuutukseen perustuva eläke  (vuodesta 2014 alkaen).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "tkotihtu",
+      "variablename": "Lapsen kotihoidon tuki ja osittainen hoitoraha",
+      "conceptdef": "Lapsen kotihoidon tuki ja osittainen hoitoraha.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "aiprva",
+      "variablename": "Vanhempainpäiväraha",
+      "conceptdef": "Suoraan vakuutetulle Kelan maksamat äitiys-, isyys- ja vanhempainrahat sekä erityisäitiysraha. Tietoja vuodesta 1995 lähtien.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kela"
+    },
+    {
+      "identifier": "tyotur",
+      "variablename": "Työttömyysturvaetuudet",
+      "conceptdef": "Työttömyysturvaetuudet koostuvat seuraavista verotiedoista:\n\nTTYOTPR=Työttömyyspäiväraha, työmarkkinatuki, vuorottelukorvaus ja osa-aikalisä \nTKOULTUK= koulutustuki, aikuisopintoraha ja toistuvaiskorvaus\nTTYOLTUK= yrittäjän työllistämistuki (vuodesta 1992 alkaen)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "astuki",
+      "variablename": "Asumistuet",
+      "conceptdef": "Asumistuet sisältää yleisen asumistuen, eläkeläisen asumistuen, opiskelijan asumislisän ja lesken asumistuen. Tieto yleisestä asumistuesta on saatavilla sille kotitalouden henkilölle, joka on hakenut tukea. Maksettua tukea ei ole jaettu kotitalouteen kuuluvien kesken. Tietoja vuodesta 1995 lähtien. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kela"
+    },
+    {
+      "identifier": "opira",
+      "variablename": "Opintorahat",
+      "conceptdef": "Opintorahat sisältää keskiasteen opintorahan, korkeakoulun opintorahan ja aikuisopintorahan, tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kela"
+    },
+    {
+      "identifier": "toimtu",
+      "variablename": "Toimeentulotuet",
+      "conceptdef": "Toimeentulotuet sisältää varsinaisen toimeentulotuen ja ehkäisevän toimeentulotuen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kela, THL"
+    },
+    {
+      "identifier": "tpar",
+      "variablename": "Sairausvakuutuksen päivärahat",
+      "conceptdef": "Sairausvakuutuksen päivärahat = (vanhempainpäivärahat + sairauspäivärahat)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "ltv",
+      "variablename": "Valtion tulovero",
+      "conceptdef": "Valtion tulovero, tietoja vuoteen 1992 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "ltva",
+      "variablename": "Valtion tuloveron osuus ansiotulojen verosta",
+      "conceptdef": "Valtion tuloveron osuus ansiotulojen verosta, tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "ltvp",
+      "variablename": "Valtion tuloveron osuus pääomatulojen verosta",
+      "conceptdef": "Valtion tuloveron osuus pääomatulojen verosta, tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "lkuve",
+      "variablename": "Kunnallisvero",
+      "conceptdef": "Kunnallisvero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "lkive",
+      "variablename": "Kirkollisvero",
+      "conceptdef": "Kirkollisvero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "lvv",
+      "variablename": "Varallisuusvero",
+      "conceptdef": "Varallisuusvero, tietoja vuoteen 2005 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "lvar",
+      "variablename": "Verotettava varallisuus",
+      "conceptdef": "Verotettava varallisuus, tietoja vuoteen 2005 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "velaty",
+      "variablename": "Velat yhteensä",
+      "conceptdef": "Velat yhteensä koostuu seuraavista verotiedoista: \nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka) \nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen) \nNMAAT = Maatalouteen kohdistuneet velat \nNYHT = Velat yhtymistä (vuoteen 2005 saakka) \nNMUUT = Asunto- ja muut velat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    }
+  ]
+}

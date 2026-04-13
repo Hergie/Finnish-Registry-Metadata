@@ -1,0 +1,268 @@
+{
+  "variables": [
+    {
+      "identifier": "tun",
+      "variablename": "Uusi tietueen tunnus",
+      "conceptdef": "0=vanha, 1=uusi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntymaaika",
+      "variablename": "Syntymäaika",
+      "conceptdef": "ppkkvvvv",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1=mies, 2=nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansalaisuus",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "1=suomi, 2=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kieli",
+      "variablename": "Äidinkieli",
+      "conceptdef": "1=suomi,2=ruotsi,3=muu, 9=tuntematon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotikunta",
+      "variablename": "Kotikunta",
+      "conceptdef": "Kyseisen tilastovuoden mukainen kuntaluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "klaa",
+      "variablename": "Kotilääni",
+      "conceptdef": "Kyseisen tilastovuoden mukainen lääniluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk",
+      "variablename": "Ylioppilastutkinto",
+      "conceptdef": "1=olen, 2=en, 0 =ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pohjav",
+      "variablename": "Pohjakoulutusväylä",
+      "conceptdef": "1=ylioppilastutkinto, 2=ammat.koulu, 3=korkeakoulututkinto, 4=muu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taikavv",
+      "variablename": "Tilastoaika",
+      "conceptdef": "VV (vuosi)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taikalk",
+      "variablename": "Tilastolukukausi",
+      "conceptdef": "1=kevät, 2=syksy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuvv",
+      "variablename": "Kirjoihintulto kork.kouluun,vuosi",
+      "conceptdef": "VV (vuosi)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk",
+      "variablename": "Kirjoihintulto kork.kouluun, lukukausi",
+      "conceptdef": "1=kevät, 2=syksy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiekirvv",
+      "variablename": "Kirjoihintulo tiedekuntaan, vuosi",
+      "conceptdef": "VV (vuosi)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiekirlk",
+      "variablename": "Kirjoihintulo tiedekuntaan, lukukausi",
+      "conceptdef": "1=kevät, 2=syksy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk",
+      "variablename": "Tavoitetutkinnon koulutuskoodi",
+      "conceptdef": "Koulutuskoodiluokitus 1971-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apuk",
+      "variablename": "Tavoitetutkinnon koulutuskoodin apukoodi",
+      "conceptdef": "Tavoitetutkinnon koulutuskoodin apukoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ilmos",
+      "variablename": "Ilmoittautumislaji, syksy",
+      "conceptdef": "1=läsnä, 2=poissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ilmok",
+      "variablename": "Ilmoittautumislaji, kevät",
+      "conceptdef": "1=läsnä, 2=poissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiedekunta",
+      "variablename": "Tiedekunta/osasto",
+      "conceptdef": "KTO-koodisto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opintosuunta",
+      "variablename": "Opintosuunta/pääaine",
+      "conceptdef": "KTO-koodisto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "optar",
+      "variablename": "Opintojen tarkoitus/tavoitetutkinto",
+      "conceptdef": "Muunnettu virkamiestietue.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkun",
+      "variablename": "Opiskelupaikkakunta",
+      "conceptdef": "Kyseisen tilastovuoden mukainen kuntaluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oplu",
+      "variablename": "Opiskelun luonne",
+      "conceptdef": "0=varsinainen, 1=ylim, 2=muu, jatko-opisk., 3=mustak, 4=kuuntelu. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yleinentiedekunta",
+      "variablename": "Yleinen tiedekunta",
+      "conceptdef": "Yleinen tiedekuntakoodi (TK:n lisäämä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yleinenopintosuunta",
+      "variablename": "Yleinen opintosuunta",
+      "conceptdef": "Yleinen opintosuuntakoodi (TK:n lisäämä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otkkod",
+      "variablename": "Opiskelu toisessa korkeakolussa, koodi",
+      "conceptdef": "1=kyllä, 2=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otkalk",
+      "variablename": "Opiskelu toisessa korkeakoulussa, aloitusaika",
+      "conceptdef": "vvl (vv=vuosi, l=lukukausi)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tvuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tiedoston tallennuksen tilastovuosi, lisätty aineistoon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkno_s",
+      "variablename": "Suojattu opintokirjan numero",
+      "conceptdef": "Opintokirjannumero, vain osalle vuosia, osalle 00000. Muuttuja häviää 1977/78",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkou_s",
+      "variablename": "Suojattu korkeakoulun 2-numeroinen tunnus",
+      "conceptdef": "Suojattu 2-numeroinen alkuperäinen korkeakoulutunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkou1_s",
+      "variablename": "Suojattu oppilaitostunnus 5-numeroinen",
+      "conceptdef": "Suojattu TK:n 5 numeroinen oppilaitostunnus 1995 mukaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "\nSuojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

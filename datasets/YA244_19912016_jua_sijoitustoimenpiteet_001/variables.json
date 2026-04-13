@@ -1,0 +1,60 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi on se kalenterivuosi, jota tilasto koskee.",
+      "measunit": null,
+      "classification": "vuosi_1_2011_07_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Sijoituksen alkupäivämäärä",
+      "conceptdef": "Sijoituksen alkupäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Sijoituksen loppupäivämäärä",
+      "conceptdef": "Sijoituksen loppupäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpide",
+      "variablename": "Toimenpidekoodi",
+      "conceptdef": "Toimenpidekoodi: \n\n01 = valtion työtehtävät (voimassa 1994 saakka) \n02 = kuntien valtionosuus (voimassa 1994 saakka) \n03 = kuntainliittojen valtionosuus (voimassa 1994 saakka) \n05 = 18-24-v. tyött. työllistäminen (voimassa 1994 saakka) \n13 = vajaakunt. työllistämistuki (voimassa 1994 saakka) \n15 = yli 10 kk työttömien työllist. (voimassa 1994 saakka) \n16 = harjaantuminen (voimassa 1994 saakka) \n19 = yrittäjäraha (voimassa 1994 saakka) \n20 = rakennemuutostyöllistäminen (voimassa 1994 saakka) \n26 = vaikeat työttömyyskunnat (voimassa 1994 saakka) \n27 = vaikeasti työllistettävät (voimassa 1994 saakka) \n28 = omatoiminen työllistyminen (voimassa 1994 saakka) \n31 = valtion velvoitetyöllistäminen (voimassa 1994 saakka) \n32 = kuntien velvoitetyöllistäminen (voimassa 1994 saakka) \n33 = huolenpitosopimus (voimassa 1994 saakka) \n34 = velvoitesijoitus (voimassa 1994 saakka) \n35 = työllistämispalvelu (voimassa 1994 saakka) \n40 = valtion työtehtävät\n41 = työllistämispalvelu (voimassa 2001 saakka): työllistäminen ELY-virastoon\n42 = työviraston työohjeen mukainen sijoitus (voimassa 2003 saakka) \n\n\n\n5T = PALKKATUKI KUNNALLE (TYÖTT.KESTO), 5V = PALKKATUKI KUNNALLE (VAMMA/SAIRAUS), 50 = kunnallinen työllistämistuki / PALKKATUKI TYÖLL.MÄÄRÄR. KUNTA, 51 = OPPISOPIMUS KUNNALLE (PT), 53 = yhdistelmätuki kunta / PALKKATUKI TMT:LLA KUNTA (500), 54 = PALKKATUKI TMT:LLA KUNTA (130), 57 = PALKKATUKI NUOR.KUNTA (TMT,65), 58 = OPPISOPIMUS NUOR.KUNTA(TMT,65), 55 = OPPISOPIMUS KUNNALLE (TMT,130), 56 = OPPISOPIMUS KUNNALLE (TMT,500), 6T = PALKKATUKI YKSIT. (TYÖTT.KESTO), 6V = PALKKATUKI YKSIT. (VAMMA/SAIRAUS), 60 = PALKKATUKI TYÖLL.MÄÄRÄR. YKSIT, 68 = OPPISOPIMUS YKSIT. TA:LLE (PT), 69 = PALKKATUKI TMT:LLA YKSIT.(500), 80 = PALKKATUKI TMT:LLA YKSIT.(130), 81 = PALKKATUKI NUOR.YKSIT.(TMT,65), 87 = OPPISOPIMUS NUOR.YKSIT(TMT,65), 88 = OPPISOPIMUS YKSIT. (TMT, 130), 89 = OPPISOPIMUS YKSIT. (TMT, 500), 40 = TYÖLLISTÄM. VALTIOLLE (PL.ELY), 41 = TYÖLLISTÄMINEN ELY-VIRASTOON, 61 = STARTTIRAHA EI TYÖTTÖMÄLLE, 62 = STARTTIRAHA TYÖLL.MÄÄRÄRAHALLA, 65 = STARTTIRAHA TMT:LLA, 64 = TYÖLL.TUKI TYÖELÄMÄV. (-2010), 73 = SIJ. OSA-AIKALISÄLLÄ (-2014), 70 = TYÖHARJ. TYÖMARKKINATUELLA (-2014), 71 = TYÖELÄMÄVALM. TYÖTT.ETUUDELLA (-2014), 74 = VAIN TMT YKS.T-A, YHDT (-2007), 75 = VAIN TMT KUNTA,YHDTUKI (-2007)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "psyy",
+      "variablename": "Sijoituksen päättymisen syy",
+      "conceptdef": "Sijoituksen päättymisen syy:\n\nKoodi   Päättymisen syy\n\n0       Työllistämisen osa päättynyt   \n1       Määräaika päättynyt            \n2       Saanut työllistämispaikasta työtä \n3       Saanut muuta työtä             \n4       Aloittanut koulutuksen         \n5       Irtisanottu                    \n6       Muu kuin 1-5 tai ei tietoa     \n7       Keskeyttänyt ja jäänyt työttömäksi    \n9       Tuntematon (käytössä 1997-2004)  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ta_sektori",
+      "variablename": "Toimenpiteen sektori",
+      "conceptdef": "1 = Valtio\n2 = Kunta\n3 = Yksityinen työnantaja, yhteisö tms.\n4 = Yritys\n5 = Yksityishenkilö, kotitalous\n6 = Kuntayhtymä, kuntainliitot\n\nHUOM. Vuoden 2000 luokitus poikkeaa tästä, eikä ole tiedossa, millä luokituksella tiedot ovat tällöin tulleet!",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Kryptattu Tilastokeskuksen henkilönumero",
+      "conceptdef": "Kryptattu Tilastokeskuksen henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

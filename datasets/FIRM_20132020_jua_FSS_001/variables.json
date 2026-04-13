@@ -1,0 +1,2428 @@
+{
+  "variables": [
+    {
+      "identifier": "AineellinenKayttoOmLis",
+      "variablename": "Aineellinen käyttöomaisuus; lisäykset",
+      "conceptdef": "(LISANLYH) Aineellisen käyttöomaisuuden lisäykset. Aineelliseen käyttöomaisuuteen luetaan maa-, vesi- ja metsäalueet (rakentamattomat), rakennukset ja muut kiinteistöt sekä koneet ja kalusto ja muu aineellinen käyttöomaisuus. Kiinteistöt-erä sisältää sijoituskiinteistöt ja omassa käytössä olevat kiinteistöt. Rakennukset ja rakennelmat sekä maa- ja vesirakennukset luetaan investointeihin sille tilastokaudelle, jolloin ne on maksettu. Muu käyttöomaisuus luetaan investointeihin sille tilastokaudelle, jolloin käyttöomaisuus siirtyy ostajan tai vastaanottajan käyttöön. Ko_MaaVesiAlueLis + Ko_MaaVesiRakenSahkLampoVerkLis + Ko_RakenLis + Ko_KoneKalustoLis + Ko_MuutAineellHyodykeLis + Ko_EnnakKeskRakenMaaVesiAlueLis +Ko_EnnakkoKeskenerKoneKalustoLis",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttöomaisuus_väh&lis"
+    },
+    {
+      "identifier": "AineellinenKayttoOmVah",
+      "variablename": "Aineellinen käyttöomaisuus; vähennykset",
+      "conceptdef": "(VAHANLYH) Aineellisen käyttöomaisuuden vähennykset. Aineelliseen käyttöomaisuuteen luetaan maa-, vesi- ja metsäalueet (rakentamattomat), rakennukset ja muut kiinteistöt sekä koneet ja kalusto ja muu aineellinen käyttöomaisuus. Kiinteistöt-erä sisältää sijoituskiinteistöt ja omassa käytössä olevat kiinteistöt. Rakennukset ja rakennelmat sekä maa- ja vesirakennukset luetaan investointeihin sille tilastokaudelle, jolloin ne on maksettu. Muu käyttöomaisuus luetaan investointeihin sille tilastokaudelle, jolloin käyttöomaisuus siirtyy ostajan tai vastaanottajan käyttöön. Ko_MaaVesiAlueVah + Ko_MaaVesiRakenSahkLampoVerkVah + Ko_RakenVah + Ko_KoneKalustoVah + Ko_MuutAineellHyodykeVah + Ko_EnnakKeskRakenMaaVesiAlueVah + Ko_EnnakkoKeskenerKoneKalustoVah",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttöomaisuus_väh&lis"
+    },
+    {
+      "identifier": "AineTarvikeKaytto",
+      "variablename": "Aine- ja tarvikekäyttö",
+      "conceptdef": "(AINETARV) Aine- ja tarvikekäyttö. Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoidut työkalut ja työvälineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.). Aineisiin ja tarvikkeisiin ei lueta konttori- tai pakkaustarvikkeita. Ku_OstotYht - Vm_AineTarvTavaraVarastMuutos",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "AineTarvTilikAl",
+      "variablename": "Aineet ja tarvikkeet tilikauden alussa",
+      "conceptdef": "(VOALMANT) Aineet ja tarvikkeet tilikauden alussa. Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoidut työkalut ja työvälineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.). Aineisiin ja tarvikkeisiin ei lueta konttori- tai pakkaustarvikkeita.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä"
+    },
+    {
+      "identifier": "Alkuperamaa",
+      "variablename": "Alkuperämaa",
+      "conceptdef": "(ALKUPERAMAA) Yrityksen merkittävimmän ulkomaisen omistajakonsernin/omistajan alkuperäinen sijaintimaa. Vrt. sijoittajamaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "er_HankAineelLeasingTavaraArvo",
+      "variablename": "Hankitun aineellisen leasingtavaran arvo",
+      "conceptdef": "(HANKLEAS) Hankitun aineellisen leasing-tavaran arvo, Vain rahoitusleasing-sopimuksella käyttöön hankitun käyttöomaisuuden arvo tai laskennallinen arvo. Arvo ilmoitetaan tilikaudella, jolloin rahoitusleasing-sopimus alkaa. Arvoon ei sisällytetä rahoitusleasing-sopimuksella hankitusta käyttöomaisuudesta maksettua vuotuista vuokraa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "er_JoukkoVelkakLaina",
+      "variablename": "Joukkovelkakirjat",
+      "conceptdef": "(JVELKAKI) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat joukkovelkakirjalainat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "er_Korollinen",
+      "variablename": "Korollinen vieras pääoma",
+      "conceptdef": "(KKORVPO) Korollinen vieras pääoma. Korollisten velkojen määrä taseen pitkä- ja lyhytaikaisesta vieraasta pääomasta sekä pääomalainat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "er_KorSiirtosaam",
+      "variablename": "Siirtyvien korkojen osuus siirtosaamisista",
+      "conceptdef": "Siirtyvien korkojen osuus siirtosaamisista. Vaihtuvien vastaavien siirtosaamisiin sisältyvien vielä saamatta olevien (kertyneiden maksamattomien) korkojen määrä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä_vastaavaa, tilkes"
+    },
+    {
+      "identifier": "er_KorSiirtovel",
+      "variablename": "Siirtyvien korkojen osuus siirtoveloista",
+      "conceptdef": "Siirtyvien korkojen osuus siirtoveloista. Vieraan pääoman siirtovelkoihin sisältyvien (kertyneiden maksamattomien) korkojen määrä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä_vastattavaa"
+    },
+    {
+      "identifier": "er_MuutRahOmaisArvopap",
+      "variablename": "Muut rahoitusomaisuusarvopaperit",
+      "conceptdef": "(MUARVOP) Muut Vaihtuvien vastaavien rahoitusarvopaperit.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "er_OsakeOsu",
+      "variablename": "Osakkeet ja osuudet yhteensä",
+      "conceptdef": "(OSAKOSYH) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat osakkeet ja osuudet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "er_RahaMarkInstru",
+      "variablename": "Rahoitusmarkkinainstrumentit",
+      "conceptdef": "(RMARKINS) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat rahamarkkinainstrumentit. Rahamarkkinainstrumentit ovat lyhytaikaisia (enintään vuoden mittaisia), jälkimarkkinakelpoisia velkakirjoja. Niitä laskevat liikkeelle pankit, muut rahalaitokset, yritykset, kunnat ja valtio.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "er_SaadEnnLyhytAikVel",
+      "variablename": "Saadut ennakot taseen lyhytaikaisista veloista",
+      "conceptdef": "(TLVPSAEN) Saadut ennakot taseen lyhytaikaisista veloista. Erä sisältää saadut ennakkomaksut, jotka on ilmoitettu Taseen vastattavaa- puolen lyhytaikaisen vieraan pääoman erässä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "er_SaadEnnPitkaAikVel",
+      "variablename": "Saadut ennakot taseen pitkäaikaisista veloista",
+      "conceptdef": "(TPVPSAEN) Saadut ennakot taseen pitkäaikaisista veloista. Erä sisältää saadut ennakkomaksut, jotka on ilmoitettu Taseen vastattavaa- puolen pitkäaikaisen vieraan pääoman erässä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "er_TilikausiAktivKehMeno",
+      "variablename": "Tilikaudella aktivoidut tutkimus ja kehittämismenot",
+      "conceptdef": "(AVTUTKEH) Tilikaudella taseeseen aktivoidut tutkimus- ja kehittämismenot. Tutkimus- ja kehittämistoiminnalla (t&k) tarkoitetaan systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämistä uusien sovellusten löytämiseksi. Kriteerinä on, että toiminnan tavoitteena on kehittää jotain oleellisesti uutta. Tutkimus- ja kehittämistoimintaan sisällytetään perustutkimus, soveltava tutkimus sekä kehittämistyö.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "er_TilikausiAktivKorkoMeno",
+      "variablename": "Tilikaudella aktivoidut korkokulut",
+      "conceptdef": "(AVKORKOK) Tilikaudella aktivoitujen korkomenojen määrä pysyvien vastaavien hankintamenoista.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "er_TilikausiAktivKurssiTappio",
+      "variablename": "Tilikaudella aktivoidut kurssitappiot",
+      "conceptdef": "(AVLISAYS) Tilikaudella taseeseen aktivoidut kurssitappiot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "er_TilikausiAktivMarkkMeno",
+      "variablename": "Tilikaudella aktivoidut markkinointimenot",
+      "conceptdef": "(AVMARKKI) Tilikaudella taseeseen aktivoidut markkinointimenot. Erä sisältää yrityksen mainos- , myynti- ja markkinointikulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "ErittInvLaatukoodi",
+      "variablename": "Liikevaihdon ja kulujen erittelyjen sekä investointien laatukoodi",
+      "conceptdef": "Liikevaihdon ja kulujen erittelyjen sekä investointien laatukoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "EUMukTuotBruttoarvo",
+      "variablename": "EU;n mukainen tuotannon bruttoarvo",
+      "conceptdef": "(BRAEU) Tuotannon bruttoarvo (EU;n määritelmän mukainen, ei sisällä tuotetukipalkkiota). Tuotannon bruttoarvo mittaa toimipaikan tosiasiallista tuotantoa. Tuotantotoimintaan lasketaan mukaan liikevaihdon lisäksi kaikki tuotantoon liittyvät tuotot, myös valmistus omaan käyttöön ja valmistus, joka toimitetaan yrityksen muille toimipaikoille. Kauppatavaroiden hankinta vähennetään tuotoista, jotta tuotantotoimintaan saadaan mukaan vain kauppatavaroiden myynnistä syntyvä marginaali. Bruttoarvon laskentakaava:\nLiikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön + valmistevarastojen muutos + valmistus omaan käyttöön + liiketoiminnan muut tuotot\n- kauppatavaroiden hankinta + kauppatavaroiden varastomuutos = BRUTTOARVO",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "EUMukTuotJalostusarvo",
+      "variablename": "EU;n mukainen tuotannon jalostusarvo",
+      "conceptdef": "(JALEU) Tuotannon jalostusarvo (EU;n arvonlisäys perushintaan, sisältää tukipalkkiot). Jalostusarvo mittaa toimipaikan varsinaisessa tuotantotoiminnassa eri tuotannontekijöiden tuottamaa yhteenlaskettua arvonlisäystä. Jalostusarvo lasketaan tuotantotoiminnasta saatujen tuottojen ja toiminnasta aiheutuneiden kustannusten erotuksena. Määritelmän mukaan kustannuksiin ei sisällytetä toimipaikan työvoimasta aiheutuvia kustannuksia.\nJalostusarvon laskentakaava: Liikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön + valmistevarastojen muutos + valmistus omaan käyttöön + liiketoiminnan muut tuotot\n- aine- ja tarvikeostot - ostot muilta toimipaikoilta + ostovarastojen muutos - ulkopuoliset palvelut - liiketoiminnan muut kulut = JALOSTUSARVO",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "Fuusiotieto",
+      "variablename": "Fuusiokorjaustieto",
+      "conceptdef": "(FUUSIO) Fuusiokorjaustieto.LUOV   Fuusiotapauksen luovuttajayritys.VAST   Fuusiotapauksen vastaanottajayritys.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "globaalitoimintaVuosi",
+      "variablename": "Yrityksellä on globaalia toimintaa",
+      "conceptdef": "Globaali toiminta, perustuu Tilkes-kyselyn lv_sis-muuttujiin. Saa arvot: 0 Ei luokiteltu, 1 Valmistuttaminen ulkomailla, 2 Valmistuttaminen Suomessa, 3 Välityskauppa ulkomailla, 4 Tehtaaton valmistuttaminen ulkomailla, Z Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "henkmaara",
+      "variablename": "Henkilöstömäärä",
+      "conceptdef": "(HENKMAARA) Henkilöstön määrä. Henkilöstö käsittää palkansaajat ja yrittäjät (palksaajhtv+yrittäjät). Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "JaetPaatOsinkoYht",
+      "variablename": "Jaettavaksi päätetty osinko yhteensä",
+      "conceptdef": "(EHDOSING) Yhtiön päätös voitonjaosta. Tilikaudelta päätetty/ehdotettu osingonjako, jaettavaksi päätetty osinko yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "k_PakVarYht",
+      "variablename": "PAKOLLISET VARAUKSET YHTEENSÄ",
+      "conceptdef": "(KVARPAKO) Pakolliset varaukset yhteensä. Erä sisältää Taseen vastattavaa puolen eläkevaraukset, verovaraukset sekä muut pakolliset varaukset yhteensä. Pakolliset varaukset ovat menoja, joiden suorittamiseen on sitouduttu ja ovat todennäköisiä vastaisia menetyksiä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä, tilkes"
+    },
+    {
+      "identifier": "k_TilPaatSiirtKertYht",
+      "variablename": "TILINPÄÄTÖSSIIRTOJEN KERTYMÄ YHTEENSÄ",
+      "conceptdef": "(KVARVEY) Tilinpäätössiirtojen kertymä yhteensä. Erä sisältää Taseen vastattavaa puolen poistoeron ja vapaaehtoiset varaukset yhteensä. Poistoero on kirjanpidossa tehtyjen kokonaispoistojen ja suunnitelman mukaisten poistojen kumulatiivinen erotus. Negatiivista poistoeroa ei taseessa voi olla. Vapaaehtoiset varaukset ovat kirjanpitovelvollisen tekemiä jälleenhankinta-, toiminta-, hinnanlasku-, asuintalo- yms. varauksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, taseen_erä"
+    },
+    {
+      "identifier": "KauppatavTilikAl",
+      "variablename": "Kauppatavarat tilikauden alussa",
+      "conceptdef": "(VOALKAUP) Kauppatavaroiden varastot (ml. myytäväksi hankitun sähkön ja lämmön hankinta) tilikauden alussa. Kauppatavaroilla tarkoitetaan niitä hyödykkeitä, jotka yritys on ostanut myytäväksi edelleen ilman jatkokäsittelyä. Kauppatavaroiksi luetaan myös raaka-aineet, jotka yritys on ostanut myytäväksi eteenpäin sellaisenaan.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen_erä"
+    },
+    {
+      "identifier": "Kayttokate",
+      "variablename": "Käyttökate",
+      "conceptdef": "Käyttökate ilman oikaisuja. Käyttökate kertoo yrityksen liiketoiminnan tuloksen ennen poistoja ja rahoituseriä. Käyttökatetta ei esitetä virallisen tuloslaskelman välituloksena.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "KayttokateOik",
+      "variablename": "KÄYTTÖKATE (oikaistu)",
+      "conceptdef": "(KAYTKATE)  Käyttökate kertoo yrityksen liiketoiminnan tuloksen ennen poistoja ja rahoituseriä. Käyttökatetta ei esitetä virallisen tuloslaskelman välituloksena. Käyttökatetta oikaistu; Liikevaihto + Tu_LiiketoimMuutYht - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto - MaterPalvYht - Ku_HenkilostoYht - LaskennPalkKorj + Tu_ValmOmaKaytto + vm_ValmKeskErTuotVarastMuutos - Ku_LiiketoimMuutYht + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "ke_AineTarv",
+      "variablename": "Aineiden ja tarvikkeiden hankinta (pl. energia, pakk.aineet)",
+      "conceptdef": "(KULMUAIN) Aineiden ja tarvikkeiden hankinta (pl. energia, pakkausaineet). Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoitavat työkalut ja välineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.), mutta ei konttori- yms. tarvikkeita. Ilman varastojen muutoksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_AlihankTyo",
+      "variablename": "Alinhankintatyöt",
+      "conceptdef": "(KULALIHA) Alihankintatyöt. Alihankkijalle maksettu korvaus tehdystä työstä, joka kohdentuu tuotteiden valmistukseen tai myytäviin palveluihin. Toimeksiantajan katsotaan osallistuvan tuotteen tuottamiseen, kun se toimittaa alihankkijayritykselle vähintään osittaiset tekniset ohjeet. Toimeksiantaja myy edelleen alihankinnan kohteena olleen tuotteen joko sellaisenaan tai tuotteen osana ja ottaa kaupan jälkeisen vastuun tuotteesta. Ei sisällä yrityksen oman henkilöstön henkilöstökuluja.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_Arvopaphank",
+      "variablename": "Arvopapereiden hankinta",
+      "conceptdef": "Arvopapereiden hankinta. Yrityksen vaihto-omaisuuteen kuuluvien arvopaperien hankinta tilikaudella.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_ATKSuunOhjelmointi",
+      "variablename": "Atk-suunnittelu- ja ohjelmointikulut",
+      "conceptdef": "(KULATK) Atk- suunnittelu- ja ohjelmointikulut. Sisältää yrityksen ulkopuolelta hankitut, asiakkaan laskuun tapahtuvat atk-palvelut. Tällaisia palveluja ovat automaattiseen tietojenkäsittelyyn liittyvä laitteisto- ja ohjelmistokonsultointi,  ohjelmistojen suunnittelu ja valmistus, tietokone- ja käsittelypalvelutoiminta, tietokantaisännöinti,  konttori- ja tietokoneiden korjaus ja huolto, muu tietojenkäsittelypalvelu, esim. systeemityöpalvelu, atk-ohjelmistojen ylläpitopalvelu sekä  atk-ohjelmistokonsultointi. Tähän ei kuulu  atk-laitteiden vuokraus ja käyttöleasing, oppilaitosten ja muiden koulutusta antavien yksiköiden atk-opetus, atk-pohjaiset tekstinkäsittelypalvelut yrityksen laskuun,  atk-henkilöiden vuokraus.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_FuusioTappio",
+      "variablename": "Fuusiotappio",
+      "conceptdef": "(FUTAPPIO) Fuusiojärjestelyistä yritykselle aiheutuneet tappiot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_Kauppatav",
+      "variablename": "Kauppatavaroiden hankinta (ml. myytäv. hank. sähkö ja lämpö)",
+      "conceptdef": "(KULKATAV) Kauppatavaroiden hankinta (ml. myytäväksi hankitun sähkön ja lämmön hankinta). Sisältää hyödykkeet, jotka yritys on ostanut myytäväksi edelleen sellaisenaan ilman jatkokäsittelyä kolmannelle osapuolelle. Sisältää myös sellaisenaan ilman jatkojalostusta myytyjen raaka-aineiden hankinnat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_KayttOmaisLuovTappio",
+      "variablename": "Käyttöomaisuuden luovutustappio",
+      "conceptdef": "(KOMYTAPP)Pysyviin vastaaviin kuuluvan käyttöomaisuushyödykkeiden myynnistä aiheutuneet luovutustappiot. Luovutustappio syntyy, jos omaisuuden hankintahinta ja myyntikulut ovat yhteensä enemmän kuin sen myyntihinta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_KorjKunnossapAsenn",
+      "variablename": "Teetetyt korjaus-, kunnossapito- ja asennustyöt",
+      "conceptdef": "(KULKORAS) Teetetyt korjaus-, kunnossapito- ja asennustyöt. Tähän kuuluu ulkopuolisilla teetettyjen oman tuotantokoneiston ja –laitteiden sekä rakennusten korjaus-, kunnossapito- ja asennustöiden arvo mukaan luettuna laskutettujen materiaalien arvo. Ei sisällä yrityksen oman henkilöstön henkilöstökuluja.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_KuljVarast",
+      "variablename": "Kuljetus- ja varastointikulut",
+      "conceptdef": "(KULKULJE) Kuljetus- ja varastointikulut. Sisältää yrityksen ulkopuolelta ostetut kuljetus- ja varastointipalvelut, terminaali- ja lastinkäsittelypalvelut. Varastointipalveluilla tarkoitetaan tässä itsenäisinä palveluina tarjottuja varastointipalveluja. Tähän sisältyvät esim. välivarastointipalvelut kylmävarastoissa ja tullivarastoissa sekä konttien säilytys jne. Jonkin  tietyn alueen tai rakennuksen tai sen osan vuokraus varastoksi ei sisälly tähän.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_Lampo",
+      "variablename": "Lämmön hankinta omaan käyttöön",
+      "conceptdef": "(KULLAMPO) Lämmön hankinta omaan käyttöön (pl. välityslämpö). Lämpöenergian hankintaan luetaan yrityksen tuotantoprosessissa käytetyn lämmön lisäksi myös tilojen lämmitykseen käytetty energia.  Myytäväksi hankittu lämpö ilmoitetaan muuttujassa ke_Kauppatav, Kauppatavaroiden hankinta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_Leasing",
+      "variablename": "Leasing-vuokrat",
+      "conceptdef": "(VUOKRLEA) Leasing-vuokrakulut. Yrityksen leasing-sopimuksilla vuokraamien käyttöomaisuushyödykkeiden vuokrakulut. Yritys voi hankkia käyttöomaisuutta joko käyttöleasing-sopimuksella tai rahoitusleasing-sopimuksella. Käyttöleasing-sopimuksessa laitteen vuokraava yritys tekee sopimuksen suoraan laitetta käyttävän yrityksen kanssa. Rahoitusleasing-sopimuksessa laitteen tarvitsija sopii, että rahoitusyhtiö ostaa laitteen ja vuokraa sen laitetta tarvitsevalle.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_MainosMyynti",
+      "variablename": "Mainos-, myynti- ja markkinointikulut",
+      "conceptdef": "(KULMAINO) Mainos-, myynti- ja markkinointikulut. Yrityksen ulkopuolelta hankitut mainos-, myynti- ja markkinointikulut. Tällaisia eri ovat esimerkiksi; tuotteiden markkinoinnin ja myynnin aiheuttamat kulut,  mainonnan sekä  myyntinäyttelyiden kulut, mainostoimistojen palvelut, markkinoinnin, viestinnän ja suhdetoiminnan konsultointiin,  markkinatutkimuksiin ja mielipideselvityksiin liittyvät kulut,  ulko- ja liikennemainosten pystyttämiseen ja hoitoon liittyvät  kulut,  näyteikkunoiden somistukseen ja näyttelytilojen suunnitteluun liittyvät kulut, urheilumainontaan, puhelinmainontaan, ilmamainontaan jne. liittyvät kulut sekä  messujen yms. tuote-esittelytilaisuuksien järjestämisestä aiheutuvat kulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_MuutKuinEdMainKulu",
+      "variablename": "Muut kuin edellä mainitut kulut",
+      "conceptdef": "(KULUMUUT) Muut liiketoiminnan kulut, joita ei ole ilmoitettu muissa kuluerissä. Tähän kuuluvat tuloslaskelman kohtaan Muut liiketoiminnan kulut sisältyvät kulut, esimerkiksi maksetut provisiot, luottotappiot sekä posti- ja jakelukulut, pankki-, lakiasian-, tilitoimisto-, vakuutus-, järjestö- yms. palvelut, edustaminen ja matkustaminen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_MuutVuokra",
+      "variablename": "Muut vuokrat",
+      "conceptdef": "(VUOKRMUU) Muut vuokrakulu. Asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten sekä koneiden ja laitteiden vuokrakulut sekä sorakuopista, malmi- ja mineraaliesiintymistä, kivilouhoksista, turvesoista yms. maksetut vuokrat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_Pakkausaine",
+      "variablename": "Pakkausaineiden hankinnan arvo",
+      "conceptdef": "(KULPAKKA) Pakkausaineiden hankinta-arvo. Yrityksen valmistamien tai välittämien tavaroiden pakkaamisessa käytettävät aineet ja tarvikkeet (ilman varastojen muutoksia).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_PatenttiLisenssi",
+      "variablename": "Kulut patenteista, lisensseistä ja rojalteista",
+      "conceptdef": "(KULPATEN) Kulut patenteista ja lisensseistä. Patenttien ja lisenssien käyttöoikeuksista maksetut korvaukset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_Polttoaine",
+      "variablename": "Polttoaineiden hankinta",
+      "conceptdef": "(KULPOLT) Polttoaineiden hankinta. Polttoaineiksi luetaan yrityksen tuotannollisen toiminnan tai sen ajoneuvojen energialähteiksi hankitut aineet (ilman varastojen muutoksia).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_Sahko",
+      "variablename": "Sähkön hankinta omaan käyttöön",
+      "conceptdef": "(KULSAHKO) Sähkön hankinta omaan käyttöön (pl.  välityssähkö). Sähköenergian hankinta käsittää tuotantoprosessissa käytetyn sähkön lisäksi myös yrityksen tilojen valaistukseen, tuuletukseen, lämmitykseen ym. käytetyn sähkön. Myytäväksi hankittu sähkö ilmoitetaan muuttujassa ke_Kauppatav, Kauppatavaroiden hankinta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_TutkKehitt",
+      "variablename": "Tutkimus- ja kehittämiskulut",
+      "conceptdef": "(KULTUTKE) Tutkimus- ja kehittämiskulut, €. Tutkimusmenoilla tarkoitetaan ulkopuolisilta yrityksiltä hankittuja tutkimus- ja kehittämispalveluja. Tutkimus- ja kehittämiskulut ovat uuden tieteellisen tai teknisen tiedon tuottamiseksi tarpeellisesta suunnitelmallisesta tutkimustoiminnasta aiheutuneita menoja. Tutkimus- ja kehittämistoimintaan sisällytetään perustutkimus, soveltava tutkimus sekä kehittämistyö.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "ke_TyoVoimVuokr",
+      "variablename": "Työvoiman vuokraus",
+      "conceptdef": "(KULTYVUO) Työvoiman vuokrauskulut. Sisältää yrityksen suorittamat maksut työvoiman käytöstä työvoimaa vuokraavalle yritykselle. Vuokratyössä vuokrayritys on työntekijän työnantaja. Työ tehdään käyttäjäyrityksessä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, kulujen_erittely"
+    },
+    {
+      "identifier": "ke_VuokraMaaVesialue",
+      "variablename": "Vuokrat maa- ja vesialueista",
+      "conceptdef": "(VUOKRMVA) Vuokrakulut maa- ja vesialueista. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Maa- ja vesialueisiin eivät sisälly sorakuopat, malmi- ja mineraaliesiintymät, kivilouhokset, turvesuot yms. Näistä maksetut vuokrat ilmoitetaan muuttujassa ke_Muut vuokra.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulujen_erittely, tilkes"
+    },
+    {
+      "identifier": "KertynytPoistoEro",
+      "variablename": "Kertynyt poistoero",
+      "conceptdef": "(KVARPOIS) Kertynyt poistoero on kirjanpidossa tehtyjen kokonaispoistojen ja suunnitelmanmukaisten poistojen kumulatiivinen erotus.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "kes_KulutYht",
+      "variablename": "KULUT YHTEENSÄ",
+      "conceptdef": "(KULUYHT) Kulut yhteensä. Tilkeksestä ke_kuluerät yhteensä. Tuloslaskelman kohdat: Ostot tilikauden aikana, ulkopuoliset palvelut ja liiketoiminnan muut kulut. Ei sisällä henkilöstökuluja. Tavaroiden ja palvelujen ostot on arvotettu hankintahintaan, josta on vähennetty ALV ja muut välittömästi liikevaihtoon liittyvät, vähennyskelpoiset verot. Hankinnat on ilmoitettu ilman varastojen muutoksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut_yhteensä, tilkes"
+    },
+    {
+      "identifier": "KeskenerTuoteTilikAl",
+      "variablename": "Keskeneräiset tuotteet tilikauden alussa",
+      "conceptdef": "(VOALKESK) Keskeneräiset tuotteet tilikauden alussa.Tase-erään kuuluvat myytäväksi valmistettavat tuotteet, jotka eivät vielä ole valmiita myytäväksi.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taseen-erä"
+    },
+    {
+      "identifier": "kirjanpitomuoto",
+      "variablename": "Kahdenkertainen kirjanpito",
+      "conceptdef": "(KPM) Yritysrekisterin mukainen kirjanpitomuoto. 1 yhdenkertainen kirjanpito, 2 kahdenkertainen kirjanpito",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "ko_AineetonHyodykeLis",
+      "variablename": "Aineettomat hyödykkeet, lisäykset",
+      "conceptdef": "(LISANTYH) Aineettomien hyödykkeiden lisäykset (hankintahinta). Aineettomia hyödykkeitä ovat kehittämismenot, liikearvo, aineettomat oikeudet, muut pitkävaikutteiset menot sekä aineettomiin hyödykkeisiin kohdistuvat ennakkomaksut ja keskeneräiset hankinnat. Aineettomista oikeuksista ilmoitetaan erikseen siihen sisältyvät atk-ohjelmistot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_AineetonHyodykeVah",
+      "variablename": "Aineettomat hyödykkeet, vähennykset",
+      "conceptdef": "(VAHAINTY) Aineettomien hyödykkeiden vähennykset (luovutushinta tai muu vastike). Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä. Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Aineettomia hyödykkeitä ovat kehittämismenot, liikearvo, aineettomat oikeudet, muut pitkävaikutteiset menot sekä aineettomiin hyödykkeisiin kohdistuvat ennakkomaksut ja keskeneräiset hankinnat. Aineettomista oikeuksista ilmoitetaan erikseen siihen sisältyvät atk-ohjelmistot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_ATKOhjelmistoLis",
+      "variablename": "Atk-ohjelmistot, lisäykset",
+      "conceptdef": "(INVSOFTW) Atk-ohjelmistojen lisäykset. Atk-ohjelmistoihin luetaan valmiina ostetut ja tilaustyönä teetetyt atk-ohjelmistot. Ohjelmistojen hankintaan liittyviä vuosittaisia lisenssimaksuja ei lueta investoinneiksi.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_ATKOhjelmistoVah",
+      "variablename": "Atk-ohjelmistot, vähennykset",
+      "conceptdef": "(VINVSOFT) Atk-ohjelmistojen vähennykset. Atk-ohjelmistoihin luetaan valmiina ostetut ja tilaustyönä teetetyt atk-ohjelmistot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_EnnakKeskRakenMaaVesiAlueLis",
+      "variablename": "Ennakot ja keskeneräiset työt; rakennukset ja rakennelmat, lisäykset",
+      "conceptdef": "(LISENNRA)Ennakkomaksut ja keskeneräiset työt; rakennukset ja rakennelmat, lisäykset. Ennakkomaksut ja keskeneräiset hankinnat rakennuksista ja rakennelmista sekä maa- ja vesirakennuksista. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_EnnakKeskRakenMaaVesiAlueVah",
+      "variablename": "Ennakot ja keskeneräiset työt; rakennukset ja rakennelmat, vähennykset",
+      "conceptdef": "(VAHENNRA) Ennakkomaksut ja keskeneräiset työt; rakennukset ja rakennelmat, vähennykset. Ennakkomaksut ja keskeneräiset hankinnat rakennuksista ja rakennelmista sekä maa- ja vesirakennuksista. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_EnnakkoKeskenerKoneKalustoLis",
+      "variablename": "Ennakot ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., lisäykset",
+      "conceptdef": "(LISENNMU) Ennakkomaksut ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., lisäykset. Ennakkomaksut ja keskeneräiset hankinnat koneista ja kalustosta sekä muista aineellisista hyödykkeistä. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_EnnakkoKeskenerKoneKalustoVah",
+      "variablename": "Ennakot ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., vähennykset",
+      "conceptdef": "(VAHENNMU) Ennakkomaksut ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., vähennykset. Ennakkomaksut ja keskeneräiset hankinnat koneista ja kalustosta sekä muista aineellisista hyödykkeistä. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_KoneKalustoLis",
+      "variablename": "Koneet, kalusto ja kuljetusvälineet, lisäykset",
+      "conceptdef": "(LISKONE) Koneiden ja kaluston lisäykset. Koneet, kalusto ja kuljetusvälineet ilmoitetaan yhdessä. Koneista ja kalustosta ilmoitetaan erikseen niihin sisältyvät tietokoneet ja ICT -laitteet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_KoneKalustoVah",
+      "variablename": "Koneet, kalusto ja kuljetusvälineet, vähennykset",
+      "conceptdef": "(VAHKONE) Koneiden ja kaluston vähennykset. Koneet, kalusto ja kuljetusvälineet ilmoitetaan yhdessä. Koneista ja kalustosta ilmoitetaan erikseen niihin sisältyvät tietokoneet ja ICT -laitteet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_kuljetusvalineLis",
+      "variablename": "Kuljetusvälineet, lisäykset",
+      "conceptdef": "Kuljetusvälineet, lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankinta-hintaisina (pois lukien fuusiolisäykset). Kuljetusvälineet ovat henkilö- tai tavarankuljetukseen tarkoitettuja moottorikäyttöisiä koneita. Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset. Koneiden ja kaluston uusi eroteltu alaerä 2018, ei summaudu.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_kuljetusvalineVah",
+      "variablename": "Kuljetusvälineet, vähennykset",
+      "conceptdef": "Kuljetusvälineet, vähennykset. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Kuljetusvälineet ovat henkilö- tai tavarankuljetukseen tarkoitettuja moottorikäyttöisiä koneita. Koneiden ja kaluston uusi eroteltu alaerä 2018, ei summaudu.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_MaaVesiAlueLis",
+      "variablename": "Maa- ja vesialueet, lisäykset",
+      "conceptdef": "(LISMVAL) Maa- ja vesialueiden lisäykset. Maa- ja vesialueilla tarkoitetaan mm. maa- ja metsäalueita, rakennettuja ja rakentamattomia tontteja sekä vesialueita.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_MaaVesiAlueVah",
+      "variablename": "Maa- ja vesialueet, vähennykset",
+      "conceptdef": "(VAHMVAL) Maa- ja vesialueiden vähennykset. Maa- ja vesialueilla tarkoitetaan mm. maa- ja metsäalueita, rakennettuja ja rakentamattomia tontteja sekä vesialueita.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_MaaVesiRakenSahkoLampoVerkLis",
+      "variablename": "Maa- ja vesirakennukset, sähkö-, lämpö-, ja tietoliikenneverkot, lisäykset",
+      "conceptdef": "(LISMVRA) Maa- ja vesirakennusten lisäykset. Maa- ja vesirakennuksilla tarkoitetaan katuja, teitä, rauta- ja raitioteitä, siltoja, laitureita, patoja, altaita, vesi- ja viemäriverkostoja, polttoainesäiliöitä, kalliosuojia, sähkö- ja lämpöverkkoja, tietoliikenneverkkoja (runkoverkot), energialaitoksia yms. käyttöomaisuutta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_MaaVesiRakenSahkoLampoVerkVah",
+      "variablename": "Maa- ja vesirakennukset, sähkö-, lämpö-, ja tietoliikenneverkot, vähennykset",
+      "conceptdef": "(VAHMVRAK) Maa- ja vesirakennusten vähennykset. Maa- ja vesirakennuksilla tarkoitetaan katuja, teitä, rauta- ja raitioteitä, siltoja, laitureita, patoja, altaita, vesi- ja viemäriverkostoja, polttoainesäiliöitä, kalliosuojia, sähkö- ja lämpöverkkoja, tietoliikenneverkkoja (runkoverkot), energialaitoksia yms. käyttöomaisuutta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_MuutAineellHyodykeLis",
+      "variablename": "Muut aineelliset hyödykkeet, lisäykset",
+      "conceptdef": "(LISMAINL) Muiden aineellisten hyödykkeiden lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Muuhun aineelliseen käyttöomaisuuteen luetaan sora-, malmi-, turve- yms. luonnonvarat ja aineelliset oikeudet. Tässä kohdassa ei ilmoiteta osakkeita ja osuuksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_MuutAineellHyodykeVah",
+      "variablename": "Muut aineelliset hyödykkeet, vähennykset",
+      "conceptdef": "(VAHMAINL) Muiden aineellisten hyödykkeiden vähennykset. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Muuhun aineelliseen käyttöomaisuuteen luetaan sora-, malmi-, turve- yms. luonnonvarat ja aineelliset oikeudet. Tässä kohdassa ei ilmoiteta osakkeita ja osuuksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_OsakeOsuusLis",
+      "variablename": "Osakkeet ja osuudet, lisäykset",
+      "conceptdef": "(LISOSAKE) Taseen pysyvien vastaavien sijoituksiin kuuluvat osakkeiden ja osuuksien lisäykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_OsakeOsuusVah",
+      "variablename": "Osakkeet ja osuudet, vähennykset",
+      "conceptdef": "(VAHOSAK)Taseen pysyvien vastaavien sijoituksiin kuuluvat osakkeiden ja osuuksien vähennykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_RakenLis",
+      "variablename": "Rakennukset ja rakennelmat, lisäykset",
+      "conceptdef": "(LISRAKEN) Rakennusten ja rakennelmien lisäykset. Rakennuksilla tarkoitetaan asuinrakennuksia ja muita talorakennuksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_RakenVah",
+      "variablename": "Rakennukset ja rakennelmat, vähennykset",
+      "conceptdef": "(VAHRAKEN) Rakennusten ja rakennelmien vähennykset. Rakennuksilla tarkoitetaan asuinrakennuksia ja muita talorakennuksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_TeleAudioVideoICTLis",
+      "variablename": "Televiestintä-, audio- ja muut ICT-laitteet, lisäykset",
+      "conceptdef": "(LISICTMU) Televiestintä-, audio-, video- ja muut ICT -laitteet, lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Erikseen rakennettavat lähiverkot, puhelinvaihteet, puhelimet, puhelinvastaajat, faksit ja antennit. Murto- ja palohälytysjärjestelmät. Televisiot, videot, dvd-laitteet, monitorit ja projektorit. Videokamerat ja digitaalikamerat. Radiovastaanottimet, vahvistimet ja kaiuttimet.  Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_TeleAudioVideoICTVah",
+      "variablename": "Televiestintä-, audio- ja muut ICT-laitteet, vähennykset",
+      "conceptdef": "(VAHICTMU)Televiestintä-, audio-, video- ja muut ICT -laitteet, vähennykset, €. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä. Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Erikseen rakennettavat lähiverkot, puhelinvaihteet, puhelimet, puhelinvastaajat, faksit ja antennit. Murto- ja palohälytysjärjestelmät. Televisiot, videot, dvd-laitteet, monitorit ja projektorit. Videokamerat ja digitaalikamerat. Radiovastaanottimet, vahvistimet ja kaiuttimet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "ko_TietokPalvelinVerkOhLaiteLis",
+      "variablename": "Tietokoneet, verkkolaitteet, oheislaitteet yms., lisäykset",
+      "conceptdef": "(LISATK) Koneet, kalusto ja kuljetusvälineet, josta tietokoneet, palvelimet, tietoverkkolaitteet ja tietokoneiden oheislaitteet, lisäykset, €. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tietokoneet koosta riippumatta ja palvelimet. Näytöt, näppäimistöt, printterit, skannerit, kaapelit ja muut tietokoneiden oheislaitteet. Tietoverkkolaitteet, mukaan lukien reitittimet. Tietokoneiden yhteydessä hankitut ohjelmistot sisällytetään tähän kohtaan.  Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+    },
+    {
+      "identifier": "ko_TietokPalvelinVerkOhLaiteVah",
+      "variablename": "Tietokoneet, verkkolaitteet, yms., vähennykset",
+      "conceptdef": "(VAHATK)Koneet, kalusto ja kuljetusvälineet, josta tietokoneet, palvelimet, tietoverkkolaitteet ja tietokoneiden oheislaitteet, vähennykset, €. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tietokoneet koosta riippumatta ja palvelimet. Näytöt, näppäimistöt, printterit, skannerit, kaapelit ja muut tietokoneiden oheislaitteet. Tietoverkkolaitteet, mukaan lukien reitittimet. Tietokoneiden yhteydessä hankitut ohjelmistot sisällytetään tähän kohtaan.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+    },
+    {
+      "identifier": "Kokonaistulos",
+      "variablename": "KOKONAISTULOS",
+      "conceptdef": "(KOKOT) Kokonaistulos = nettotulos +/- satunnaiset erät. Kokonaistulos saadaan, kun nettotulokseen lisätään satunnaiset tuotot sekä myynti- ja fuusiovoitot ja vähennetään satunnaiset kulut sekä myynti- ja fuusiotappiot. LiikeVoitTap - LaskennPalkKorj + Rah_TuKuYht + SatunEratYht + Ku_ValittVero2\n(Vuodesta 2018 lähtien lisäys kaavaan:  - sat_MaksKonsAvust + sat_SaadKonsAvust )",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "KorkoKulutYht",
+      "variablename": "Korkokulut yhteensä",
+      "conceptdef": "(KORKULUT) Korkokulut ovat vieraan pääoman käytöstä johtuvia lainamäärän, korkokannan ja laina-ajan mukaan määräytyviä eriä. Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "KorkoTuototYht",
+      "variablename": "Korkotuotot yhteensä",
+      "conceptdef": "(KORTUOT) Korkotuotot ovat talletusten ja lainasaamisten sekä muiden saamisten korkotuloja. Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork  Korkotuottoihin sisällytetään osamaksukaupassa ostajalta erikseen veloitettu korko, mutta osamaksulisä luetaan liikevaihtoon. Saatavissa 2006 alkaen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "ku_Edustus",
+      "variablename": "Edustuskulut",
+      "conceptdef": "(EDUSKULU) Edustuskulut. Edustusmenoina pidetään elinkeinoverolain mukaan verotettavaan tulonhankintaan liittyviä, yrityksen ulkopuolisiin henkilöihin, kuten asiakkaisiin tai liiketuttaviin, kohdistuvia vieraanvaraisuudesta tai muusta huomaavaisuudesta aiheutuneita menoja. Edustamisella pyritään liiketoiminnan edistämiseen ja esimerkiksi uusien liikesuhteiden luomiseen tai entisten suhteiden säilyttämiseen ja parantamiseen. Edustusmenojen tunnusmerkkinä on, että ne kohdistuvat yrityksen ulkopuolisiin tahoihin. Yrityksen omaan henkilökuntaan kohdistuvia menoja ei pidetä edustusmenoina.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_Elake",
+      "variablename": "Eläkekulut",
+      "conceptdef": "(ELAKEKUL) Kirjanpidon mukaiset eläkekulut. Tässä  ilmoitetaan sekä pakolliset että vapaaehtoiset henkilövakuutusmaksut ja eläkekulut. Työeläkevakuutusmaksuja ovat; 1) TEL-vakuutusmaksu, 2) LEL-vakuutusmaksu, 3) YEL-vakuutusmaksu, 4) Työttömyysvakuutusmaksut,  5) Ryhmähenkivakuutusmaksut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_FuusioTappio",
+      "variablename": "Fuusiotappio verottajalta",
+      "conceptdef": "(FUTAPVER) Fuusiotappio verottajalta, jos se on kirjattu kerralla vuosikuluksi. Virallisessa tuloslaskelmassa sisältyy erään liiketoiminnan muut kulut yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_HenkilostoYht",
+      "variablename": "Henkilöstökulut yhteensä",
+      "conceptdef": "(HEKULYHT) Henkilöstökulut sisältävät ennakonpidätyksen alaiset palkat ja niihin verrattavat kulut sekä välittömästi palkan perusteella määräytyvät kulut, kuten sosiaaliturvamaksut, pakolliset ja vapaaehtoiset henkilövakuutusmaksut sekä eläkekulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_HenkKohtTulolahde",
+      "variablename": "Henkilökohtaisen tulolähteen kulut",
+      "conceptdef": "(KULUHENK) Henkilökohtaisen tulolähteen kulut. Ei enää tule tietoa veroliitelomakkeelta, mutta on mukana joinakin vuosina",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_KayttOmaisArvoAlen2",
+      "variablename": "Käyttöomaisuuden arvonalentumiset",
+      "conceptdef": "(ARVALPVH) Todennäköisen luovutushinnan alentumisen perusteella tehtävä arvonalennuspoisto. Vaihto-omaisuusvaraston poikkeukselliset arvonalennukset, esim. tulipalosta tai vesivahingosta johtuva arvonlasku.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_KayttOmaisOsakLuovTappio",
+      "variablename": "Ko osakkeitten luovutus- ja purkutappiot",
+      "conceptdef": "(KOMOTAPP) Kirjanpidon mukaiset käyttöomaisuuteen kuuluneiden osakkeiden ja yhtymäosuuksien luovutustappiot sekä purkutappiot.  Virallisessa tuloslaskelmassa sisältyy erään  liiketoiminnan muut kulut yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_konsTukiSaamArvoAlen",
+      "variablename": "Konsernituki ja saamisten arvonalentumiset",
+      "conceptdef": "(KONTUSAA) Konsernituki ja saamisten arvonalentumiset. Sellaisille yhtiöille annettu konsernituki, josta yhteisö yksin tai yhdessä konserniyhtiöiden kanssa omistaa vähintään 10% sekä muut vastaavat toisen yhtiön taloudellisen aseman parantamiseksi ilman vastasuoritusta suoritetut menot (verottajan ohjeistus). Tässä on ilmoitettu myös tällaiselta yhtiöltä olevien saamisten (pl. myyntisaamisten) menetykset ja arvonalentumiset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_KorkoOmistusYhtYri",
+      "variablename": "Korkokulut omistusyhteysyrityksille",
+      "conceptdef": "(KORKKOMY ) Korkokulut, jotka on maksettu omistusyhteysyrityksille. Omistusyhteysyritys on konserniin kuulumaton kotimainen tai ulkomainen yritys, jossa toisella yrityksellä yksin tai yhdessä useamman yrityksen kanssa on sellainen omistusosuus (vähintään 20 % yrityksen omasta pääomasta), joka luo pysyvän yhteyden.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_KorkoSamaKonsYri",
+      "variablename": "Korkokulut saman konsernin yrityksille",
+      "conceptdef": "(KORKULKO) Korkokulut, jotka on maksettu saman konsernin yrityksille. Konserniyrityksillä tarkoitetaan emoyritystä ja sen tytäryrityksiä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_Lahjoitus",
+      "variablename": "Annetut lahjoitukset",
+      "conceptdef": "(LAHJOIT) Annetut lahjoitukset. Kaikki kirjanpidon mukaiset yhteisön antamat lahjoitukset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_Leasing",
+      "variablename": "Leasingmaksut",
+      "conceptdef": "(LEAMAKS) Leasingmaksut. Yrityksen leasing-sopimuksilla vuokraamien käyttöomaisuushyödykkeiden vuokrakulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_LiiketoimMuutYht",
+      "variablename": "Liiketoiminnan muut kulut yhteensä",
+      "conceptdef": "(MUKULUT) Liiketoiminnan muut kulut yhteeensä. Liiketoiminnan muita kuluja ovat kaikki ne yrityksen varsinaiseen toimintaan kuuluvat erät, joita ei ole tuloslaskelmassa erikseen mainittu mm. vuokrat, leasingmaksut, mainos- ja markkinointikulut, hallintopalvelujen kulut, tietoliikenne- ja pankkipalvelumaksut sekä käyttöomaisuuden myyntitappiot. Tähän erään kuuluvat myös maksetut myyntiprovisiot, tekijäpalkkiot, rahtikulut ja syntyneet luottotappiot. Käyttöomaisuuden myyntitappiot ja fuusiotappiot esitetään satunnaisten erien ryhmässä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MaatalTulolahde",
+      "variablename": "Maatalouden tulolähteen kulut",
+      "conceptdef": "(MAATTKUL) Maatalouden tulolähteen kulut /ei enää tule tietoa veroliitelomakkeelta, mutta mukana joinakin vuosina.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuuHenkSivu",
+      "variablename": "Muut henkilösivukulut",
+      "conceptdef": "(MUHESIKU) Muut henkilösivukulut. Virallisen tuloslaskelman muut henkilösivukulut ovat pääsääntöisesti välittömästi palkkaan liittyviä menoja,  kuten sosiaaliturvamaksu. Henkilöstön koulutus sekä virkistys ja harrastustoiminnasta aiheutuneet kulut esitetään kohdassa Liiketoiminnan muut kulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuuKayttOmaisLuovTappio",
+      "variablename": "Muut käyttöomaisuuden luovutustappiot",
+      "conceptdef": "(KOMTAPPI) Muun käyttöomaisuuden luovutustappiot, esimerkiksi rakennuksen, maa-alueen, koneiden, pienhankinnan tai ammattimaisessa käytössä olleen auton luovutuksesta syntynyt tappio.  Virallisessa tuloslaskelmassa sisältyy erään Liiketoiminnan muut kulut yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuuRah",
+      "variablename": "Muut rahoituskulut",
+      "conceptdef": "(RAHKMUUT) Muut rahoituskulut. Kirjanpidon mukaiset muut rahoituskulut, esimerkiksi; lainojen hoitokulut, limiittipalkkiot, takausprovisiot, luottovakuutukset, kiinnityskulut, perimiskulut, kurssitappiot, factoring-kulut, terminointikulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuuRahOmaisMenetArvoAlen",
+      "variablename": "Muun rahoitusomaisuuden menetykset ja lopulliset arvonalentumiset",
+      "conceptdef": "(MUROARAL) Muun rahoitusomaisuuden menetykset ja lopulliset arvonalentumiset",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuutKorko",
+      "variablename": "Muut korkokulut",
+      "conceptdef": "(KORKULMU) Muut korkokulut. Näitä ovat esim. ostoveloista, joukkovelkakirjalainoista, vaihtovelkakirjalainoista, rahoituslaitoslainoista, rahoitusyhtiölainoista, eläkelainoista ja rahoitusvekseleistä johtuvat korot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuuVahKelp",
+      "variablename": "Muut vähennyskelvottomat kulut",
+      "conceptdef": "(MUKULEVK) Muut vähennyskelvottomat kulut, joita ei voi vähentää verotuksessa mutta jotka sisältyvät kirjanpidossa tuloslaskelman kuluihin. Tällaisia ovat esim. verovapaan tulon hankkimisesta tai säilyttämisestä johtuvat menot, sähkö-, tele-, vesi-, viemäri- tai kaukolämpöverkkoon liittymisestä suoritetut maksut, annetut lahjukset ja lahjusten kaltaiset edut, yhtiön omista osakkeistaan maksama summa, elleivät kyseessä ole sellaiset osakkeet, jotka yhtiö on luovuttanut työsuhteen perusteella.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MuuVahKelpLiiketoimMuu",
+      "variablename": "Muut vähennyskelpoiset liiketoiminnan muut kulut",
+      "conceptdef": "(MUKULUVK) Muut vähennyskelpoiset liiketoiminnan muut kulut ovat liiketoiminnan vähennyskelpoisia muita kuluja, joita ei ole ilmoitettu erässä Liiketoiminnan muu kulut. Tällaisia kuluja ovat mm. vapaaehtoiset henkilösivukulut, toimitilakulut, ajoneuvokulut, tietotekniikkaan liittyvät laite- ja ohjelmistokulut, muut kone- ja kalustokulut, matkakulut, myyntikulut, markkinointikulut, tutkimus- ja kehityskulut, hallintopalvelut, muut hallintokulut ja muut liikekulut. Tässä ilmoitetaan myös vähennyskepoiset Yle-vero ja kiinteistövero.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_MyyntisaamArvoAlen",
+      "variablename": "Myyntisaamisten arvonalentumiset",
+      "conceptdef": "(MYSARVAL) Myyntisaamisten arvonalentumiset ovat saamisia, joista perustellusti ei enää odoteta suoritusta kertyväksi ja arvonaleneminen on ilmeinen (esim. saamista ei ole perimisyrityksistä huolimatta maksettu). Myyntisaamisilla tarkoitetaan liiketoimintaan liittyvien suoritteiden myynnistä syntyneitä saamisia. Suorite voi koostua vaihto-omaisuudesta, käyttöomaisuudesta tai muusta elinkeinotoimintaan liittyvästä omaisuudesta tai palvelusta. Velallinen on tällöin suoritteen ostaja ja myyntisaaminen perustuu myyjän suoritteen luovutuksen yhteydessä tuloksi lukemaan myyntihintaan, jota ei ole vielä maksettu.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_OstotYht",
+      "variablename": "Ostot tilikauden aikana",
+      "conceptdef": "(OSTKAIKA) Kaikki ostomenot tilikauden aikana riippumatta siitä, onko ostetut hyödykkeet myyty sellaisinaan tai jalostettuina vai ovatko ne raaka-aine-, puolivalmiste- tai valmistevarastossa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_PakollVaraus",
+      "variablename": "Pakolliset varaukset",
+      "conceptdef": "(PAKOLVAR) Pakolliset varaukset. Kirjanpidossa tehdyt pakolliset varaukset. Pakollinen varaus tarkoittaa tulevia menoja, joiden täsmällistä määrää tai toteutumisajankohtaa ei vielä tiedetä. Esimerkiksi liiketoiminnan tuotantolinjan tai tuotantolaitoksen saneeraus ja lopettaminen, luovutettujen tuotteiden takuukorjausvastuut, reklamaatiot ja vahingonkorvaukset. Pakollisia varauksia ei yleensä voi vähentää verotuksessa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_PalkkaPalkkio",
+      "variablename": "Palkat ja palkkiot",
+      "conceptdef": "(YHTEEPAL) Palkat ja palkkiot. Palkoissa ja palkkioissa ilmoitetaan ennakonpidätyksen alaiset palkat. Palkkoihin ei lueta luontoisetujen johdosta aiheutuvia menoja. Luontoisedut esitetään siinä kuluryhmässä, johon ne luonteensa puolesta kuuluvat.  Jos työsuorituksesta maksetaan esimerkiksi ammatinharjoittajalle tai toiselle yritykselle, ilmoitetaan hankinta kohdassa  Ulkopuoliset palvelut. Yrityksen tuloksen  perusteella maksetut palkkiot, kuten bonuspalkat, henkilöstörahastosiirto yms. sisällytetään palkkoihin.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_poisto2",
+      "variablename": "Poistot",
+      "conceptdef": "(POISTOT) Tuloslaskelman suunnitelman mukaiset poistot. Suunnitelman mukaiset poistot perustuvat käyttöomaisuuden hankintamenoon ja omaisuuden taloudelliseen käyttöikään. Poistot tehdään investointiavustuksella vähennetystä hankintamenosta. Investointiin käytettyä varausta ei vähennetä hankintahinnasta, vaan varauksen käyttö käsitellään poistoeron lisäyksenä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_rahOmaisLuovTappio",
+      "variablename": "Rahoitusomaisuuden luovutustappiot",
+      "conceptdef": "(ROMLUTAP) Rahoitusomaisuuden luovutustappiot, esim. rahoitusomaisuuteen kuuluneen arvopaperin tai saamisen luovutuksesta syntyneet tappiot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_Sakot",
+      "variablename": "Sakot ja muut rangaistukset",
+      "conceptdef": "(SAKOT) Sakot, seuraamusmaksut ja muut sanktioluonteiset julkisoikeudelliset maksuseuraamukset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_Satun",
+      "variablename": "Satunnaiset kulut",
+      "conceptdef": "(SATKULUT) Tuloslaskelman mukaiset satunnaiset kulut, esim. maksettu konserniavustus. Satunnaisiksi katsotaan sellaiset kulut, jotka perustuvat yhteisön tavanomaisesta toiminnasta poikkeaviin, kertaluonteisiin ja olennaisiiin tapahtumiin.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_UlkopPalv",
+      "variablename": "Ulkopuoliset palvelut",
+      "conceptdef": "(ULKOPALV)  Ulkopuoliset palvelut ovat  lähinnä välittömästi tuotantoon tai myyntiin liittyvistä työsuorituksista maksettuja korvauksia. Ulkopuolisia palveluja voivat olla esimerkiksi alihankkijoiden, suunnittelu- ja konsulttitoimistojen sekä huoltoyhtiöiden suorittamat palvelut ja sellaisen työvoiman vuokrauskulut, jotka liittyvät välittömästi suoritetuotantoon.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_ValittVero2",
+      "variablename": "Välittömät verot",
+      "conceptdef": "(VEROTUMU) Yhteissumma tuloslaskelman eristä Tuloverot ja Muut välittömät verot, joissa on huomioitu veronpalautukset. Tuloverot sisältävät joko yrityksen kaikki tuloverot tai muihin kuin satunnaisiin eriin kohdistuvat tuloverot. Muut välittömät verot ovat varallisuusveroa maksavien yritysten tilinpäätöksessä. Kiinteistöverot ilmoitetaan liiketoiminnan muissa kuluissa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "ku_VeroKoro",
+      "variablename": "Veronkorotukset",
+      "conceptdef": "(VEROKORO) Veronkorotukset, myös myöhästymismaksu, huojennettu viivästyskorko, viivästyskorko ja laiminlyöntimaksu.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "LaskennPalkKorj",
+      "variablename": "Lakennallinen palkkakorjaus",
+      "conceptdef": "(PALKKORJ) Palkkakorjaus on laskennallinen erä, jolla ei ole vaikutusta yrityksen vakavaraisuuteen eikä kassavirtaan. Palkkakorjaus on tehty vastaamaan yrittäjien itsensä tekemän palkattoman työpanoksen arvoa yrityksessä. \nLähtötietoina käytetään yrityksen yrittäjätyöpanosta ja yrityskohtaista palkatun henkilöstön keskipalkkaa. Arvo perustuu YTR:stä saatavien yrittäjien lukumääriin, ja yrittäjien palkka on arvioitu toimialakohtaisten keskipalkkojen mukaan. Laskennallinen palkkakorjaus = yrittäjätyöpanos * keskipalkka. Palkkakorjaus esitetään omana eränä ja liitetään henkilöstökuluihin. Palkkakorjaus palautetaan oikaistuun tuloslaskelmaan ennen tilikauden tulosta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "LaskennPalkKorjPalautus",
+      "variablename": "Laskennallinen palkkakorjaus (palautus)",
+      "conceptdef": "(PALKKORP) LaskennPalkKorj Laskennallinen palkkakorjaus = yrittäjätyöpanos * keskipalkka. Palkkakorjaus esitetään omana eränä ja liitetään henkilöstökuluihin. Palkkakorjaus palautetaan oikaistuun tuloslaskelmaan ennen tilikauden tulosta. Palkkakorjaus on laskennallinen erä, jolla ei ole vaikutusta yrityksen vakavaraisuuteen eikä kassavirtaan. Palkkakorjaus on tehty vastaamaan yrittäjien itsensä tekemän palkattoman työpanoksen arvoa yrityksessä.Tämän palkan yrittäjä joutuisi maksamaan palkansaajalle, jos hän palkkaisi palkansaajan tekemään omat työt. Lähtötietoina käytetään yrityksen yrittäjätyöpanosta ja yrityskohtaista palkatun henkilöstön keskipalkkaa. Arvo perustuu YTR:stä saatavien yrittäjien lukumääriin, ja yrittäjien palkka on arvioitu toimialakohtaisten keskipalkkojen mukaan.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "Liiketulos",
+      "variablename": "LIIKETULOS",
+      "conceptdef": "(LIVOILMY) Liiketulos eli liikevoitto/-tappio kertoo, kuinka paljon varsinaisen liiketoiminnan tuotoista on jäljellä ennen rahoituseriä ja veroja. LiikeVoitTap - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio - LaskennPalkKorj",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Liikevaihto / tuotot ammatista yhteensä",
+      "conceptdef": "(LVAIHTO) Yrityksen liikevaihto / tuotot ammatista yhteensä, €. Liikevaihtoon luetaan varsinaisen toiminnan myyntitulot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot. Myynnin oikaisuerien lisäksi myynnistä vähennetään tulonsiirtoerät ja läpikulkuerät. Liikevaihtoon sisältyvät erät vaihtelevat toimialakohtaisesti. Liikevaihtoon luetaan kuitenkin aina vaihto-omaisuudesta saadut tuotot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "LiikevaihtoLahde",
+      "variablename": "Liikevaihtotiedon lähde",
+      "conceptdef": "(LVSA) Yrityksen  tilastovuoden liikevaihtotiedon saantilähde. Luokitus sntilahde_2_2012_01_01  Koodit ovat;\nVTIE = 001, 003 (Mtie, Ytie)\nEVR = 102 (Verotk)\nEST = muut\nbbb = 902 (Käsin)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "LiikeVoitTap",
+      "variablename": "Liikevoitto (tappio)",
+      "conceptdef": "(LIVOITAP) Liikevoitto/-tappio on liiketoiminnan tulos ennen korkoja, veroja, tilinpäätössiirtoja ja voitonjakoa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "LiikToimMuutKulutOik",
+      "variablename": "Liiketoiminnan muut kulut (oikaistu)",
+      "conceptdef": "(MUKULYH) Liiketoiminnan muita kuluja ovat kaikki ne yrityksen varsinaiseen toimintaan kuuluvat erät, joita ei ole tuloslaskelmassa erikseen mainittu mm. vuokrat, leasingmaksut, mainos- ja markkinointikulut, hallintopalvelujen kulut, tietoliikenne- ja pankkipalvelumaksut sekä käyttöomaisuuden myyntitappiot. Tähän erään kuuluvat myös maksetut myyntiprovisiot, tekijäpalkkiot, rahtikulut ja syntyneet luottotappiot. Kuluja on oikaistu; Ku_LiiketoimMuutYht + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "LiikToimMuutTuotOik",
+      "variablename": "Liiketoiminnan muut tuotot (oikaistu)",
+      "conceptdef": "(LIIKMUUT)Liiketoiminnan muita tuottoja ovat yrityksen varsinaiseen toimintaan liittyvät tuotot, jotka ovat luonteeltaan lähellä liikevaihtoa. Tällaisia tuottoja ovat esimerkiksi vuokratuotot, saadut provisiot, muilta yrityksiltä perityt hallinto-, tietojenkäsittely- yms. korvaukset, mikäli yrityksen varsinaisena toimialana ei ole vuokraustoiminta tai muiden edellä mainittujen palvelujen tuottaminen. Liiketoiminnan muihin tuottoihin kirjataan myös yrityksen varsinaiseen toimintaan saadut avustukset ja tuet. Tuottoja on oikaistu Tu_LiiketoimMuutYht - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "LiikToimTuotYht",
+      "variablename": "LIIKETOIMINNAN TUOTOT YHTEENSÄ",
+      "conceptdef": "(TUOTYH) Liiketoiminnan tuotot yhteensä = Liikevaihto + Liiketoiminnan muut tuotot",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "ltt_FuusioVoitto",
+      "variablename": "Fuusiovoitto",
+      "conceptdef": "(FUVOITTO) Fuusiovoitot, €. Fuusiojärjestelyistä yrityksen saamat voitot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liiketoiminnan_tuotot"
+    },
+    {
+      "identifier": "ltt_KayttOmaisLuovVoitto",
+      "variablename": "Käyttöomaisuuden luovutusvoitot",
+      "conceptdef": "(LVKOMYVO) Luovutusvoitot, €. Pysyviin vastaaviin kuuluvan käyttöomaisuuden hyödykkeiden myynnistä saadut luovutusvoitot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liiketoiminnan_tuotot, tilkes"
+    },
+    {
+      "identifier": "ltt_MuuVuokra",
+      "variablename": "Muut vuokratuotot",
+      "conceptdef": "(LVUOKRMU) Muihin vuokratuottoihin (€) sisältyvät asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten vuokrauksesta saadut tuotot sekä koneiden ja laitteiden vuokrauksesta saadut tuotot.  Jos yrityksen päätoimiala on Kulkuneuvojen, koneiden ja laitteiden vuokraus , vuokratuotot ilmoitetaan liikevaihdossa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liiketoiminnan_tuotot"
+    },
+    {
+      "identifier": "ltt_Rojalt",
+      "variablename": "Tuotot patenteista, lisensseistä ja rojalteista",
+      "conceptdef": "(LVPATENT) Tuotot patenteista ja lisensseistä, €. Erä sisältää ulkopuolisilta saadut tuotot yhtiön omistamista patenteista ja lisensseistä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liiketoiminnan_tuotot, tilkes"
+    },
+    {
+      "identifier": "ltt_VuokraMaaVesiAl",
+      "variablename": "Vuokratuotot maa- ja vesialueista",
+      "conceptdef": "(LVUOKRMV) Vuokratuotot  maa- ja vesialueista, €. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Maa- ja vesialueisiin eivät sisälly sorakuopat, malmi- ja mineraaliesiintymät, kivilouhokset, turvesuot yms. Näistä saadut vuokratuotot ilmoitetaan muuttujassa Muut vuokratuotot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liiketoiminnan_tuotot"
+    },
+    {
+      "identifier": "lv_Agentuuri",
+      "variablename": "Agentuuritoiminta",
+      "conceptdef": "(LVAGENTU) Liikevaihto agentuuritoiminnasta, €. Liikevaihto koostuu komissioista, joita agentuuri saa välitystoiminnasta ostajien ja myyjien kesken.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_Arvopap",
+      "variablename": "Arvopaperikauppa",
+      "conceptdef": "Liikevaihto yrityksen vaihto-omaisuusarvopapereiden myynnistä",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_Kauppa",
+      "variablename": "Kaupallinen toiminta (kauppatav. myynti ml. välityssähkö)",
+      "conceptdef": "(LVKAUPAL) Liikevaihto kauppatavaroiden myynnistä , € ml. välityssähkö, -lämpö ja -kaasu; myös ulkomaisilta tytäryhtiöiltä hankitut, sellaisenaan edelleen myydyt tavarat ja palvelut sekä ulkomaisten sivuliikkeiden liikevaihto. Kaupallisen toiminnan liikevaihtoon sisältyy tukku- ja vähittäiskaupan liikevaihdon lisäksi myös muiden toimialojen kauppatavaroiden myynnistä saadut tuotot. Kauppatavaroita ovat ne tavarat, jotka on ostettu myytäväksi edelleen sellaisenaan ilman jatkojalostusta. Erä sisältää myös satunnaisen omien raaka-aineiden jälleen myynnin sellaisenaan ilman jatkokäsittelyä. Erä sisältää myös laskuttajina toimivien palveluyritysten tekemät palveluostot. Ostetun sähkön, lämmön ja kaasun jälleen myynti (välitystoiminta) on ilmoitettu tässä. Sisäältää yrityksen ulkomailla alihankintana valmistuttamien tavaroiden liikevaihdon. Tässä on ilmoitettu myös autojen myynti sekä varaosien tukku- ja vähittäiskauppa. Korjaamotoiminta ml. korjaamotoiminnan yhteydessä myydyt ja asennetut osat on ilmoitettu muuttujassa  lv_Muupal (liikevaihto muusta palvelutoiminnasta).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_KorjAsenHuolto",
+      "variablename": "Teolliset korjaus- ja asennustoimitukset",
+      "conceptdef": "(LVKORASE) Yyrityksen ulkopuolisille suorittamien teollisten korjaus-, asennus- ja  huoltotöiden liikevaihto (sisältää myös laskutukseen sisältyvät tarvikkeet), €.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_LampoToim",
+      "variablename": "Tuotetun lämmön toimitukset",
+      "conceptdef": "(LVLAMPO) Yrityksen tuottaman lämmön myynti, €. Ostetun lämmön myynti ml. saman konsernin toisen yrityksen tuottama lämpö (välitystoiminta) on ilmoitettu muuttujassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_MaaVesiRaken",
+      "variablename": "Maa- ja vesirakentaminen",
+      "conceptdef": "(MVRLV) Liikevaihto (€) maa- ja vesirakennustoiminnasta, kuten teiden, energialaitosten, siltojen, tunnelien, sähkölinjojen, lento- ja urheilukenttien, ym. rakentaminen. Tähän kuuluu myös erikoistunutta rakennustoimintaa harjoittavan yrityksen liikevaihdosta se osa, joka kohdentuu maa- ja vesirakentamiseen. Sisältää myös liikevaihdon maa- ja vesirakentamiseen kohdentuvasta rakennuskoneiden vuokrauksesta käyttäjineen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_Mainos",
+      "variablename": "Mainostuotot ilmoitusmyynnistä",
+      "conceptdef": "(LVMAINOS) Liikevaihto mainostilan myynnistä, €. Tähän sisältyy painettu media (sanoma- ja aikakauslehdet sekä painetut hakemistot), sähköinen mainonta (televisio-, radio-, elokuva- ja verkkomainonta) sekä ulko- ja liikennemainonta. Mainostuotot eritellään vain kaupan ja palvelujen toimialoilla. Muilla toimialoilla erä sisältyy muuhun erittelemättömään liikevaihtoon.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_Majoit",
+      "variablename": "Majoitustoiminta",
+      "conceptdef": "(LVMAJOIT) Liikevaihto majoitustoiminnasta, €. Asiakkaiden majoittamisesta saatu liikevaihto.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_Muupalv",
+      "variablename": "Muu erittelemätön liikevaihto",
+      "conceptdef": "(LVERITL) Yrityksen muu liikevaihto, jota ei ole eritelty muissa kohdissa. Kaikenlainen palvelutoiminta, vuokrausmuotoinen rahoitustoiminta (rahoitusleasing) tai arvopapereihin sijoittaminen ja näiden myynti pörssien välityksellä (sijoitustoiminta),  maa- ja metsätalous.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_PalkkaMuutTeolPalv",
+      "variablename": "Palkkatyö ja muut teolliset palvelut",
+      "conceptdef": "(LVPALKTY) Liikevaihto toiselle talousyksikölle tehdystä palkkatyöstä (ml. viemäri- ja jätevesihuolto, jätteen keruu ja käsittely, maaperän ja vesistöjen kunnostus ja muut ympäristönhuoltopalvelut), €. Palkkatyö on tuotteiden valmistamista toiselle talousyksikölle. Käytettävät aineet ja tarvikkeet ovat pääosin valmistuttajan omistuksessa tai hallinnassa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_RakenOsake",
+      "variablename": "Rakentamisen osakekauppa",
+      "conceptdef": "(LVOSAKEK) Perustajaurakoitsijan liikevaihto asunto- ja kiinteistöosakkeiden myynnistä, mikäli sitä ei ole jo vähennetty varsinaisesta rakentamisen liikevaihdosta, €.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_RakYht",
+      "variablename": "Erittelemätön liikevaihto rakennustoiminnasta",
+      "conceptdef": "(LVRAKYHT) Liikevaihto rakennustoiminnasta yhteensä. Sisältää erät Talonrakentaminen, Maa- ja vesirakentaminen ja  Rakentamisen osakekauppa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_Ravit",
+      "variablename": "Ravitsemistoiminta",
+      "conceptdef": "(LVRAVITS) Liikevaihto ravitsemistoiminnasta, €. Aterioiden, muiden ruoka-annosten ja juomien myynnin sekä ateriapalvelun liikevaihto.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_Sahko",
+      "variablename": "Tuotetun sähkön toimitukset",
+      "conceptdef": "(LVSAHKO) Yrityksen tuottaman sähkön myynti, €. Ostetun sähkön myynti ml. saman konsernin toisen yrityksen tuottama sähkö (välitystoiminta) on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_sisOsatuloutus",
+      "variablename": "Liikevaihtoon sisältyy osatuloutusta",
+      "conceptdef": "Yrityksen liikevaihtoon sisältyy valmistusasteen perusteella kirjattua tuloa 1=kyllä 0= ei.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "muita_lisätietoja, tilkes"
+    },
+    {
+      "identifier": "lv_sisSopValmistus",
+      "variablename": "Liikevaihto sisältää ulkomailla valmistettujen tuotteiden myyntiä tai kaupallista lv:a",
+      "conceptdef": "Liikevaihto sisältää tuotteiden myyntiä, jotka on yrityksen toimesta valmistettu ulkomailla tai kaupallista liikevaihtoa ulkomailla 1=kyllä, 0=ei. Yritys valmistuttaa myymänsä tuotteet kokonaan tai osittain ulkomailla. Tuotteet tuodaan Suomeen ja myydään täällä tai myynti tapahtuu suoraan ulkomailta ulkomaille. Tai yrityksen liikevaihdossa on ulkomailta ulkomaille myytyjä tuotteita.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, muita_lisätietoja"
+    },
+    {
+      "identifier": "lv_TaloRaken",
+      "variablename": "Rakennusten rakentaminen",
+      "conceptdef": "(RAKLV) Liikevaihto (€) kaikentyyppisestä rakennusten uudis- ja korjausrakentamisesta sekä rakennuttamisesta, jotka ovat yleensä pääurakoitsijan suorittamia töitä. Tähän kuuluu myös erikoistunutta rakennustoimintaa (esim. rakennuspaikan valmistelutyöt, LVIS-asennukset, maalaus ja lasitus sekä muu rakennusasennus, rakennusten ja rakennelmien viimeistely) harjoittavan yrityksen liikevaihdosta se osa, joka kohdentuu talonrakentamiseen. Sisältää myös liikevaihdon talonrakentamiseen kohdentuvasta rakennuskoneiden vuokrauksesta käyttäjineen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_TeolYht",
+      "variablename": "Erittelemätön liikevaihto teollisesta toiminnasta",
+      "conceptdef": "(LVTEOLYH) Liikevaihto teollisesta toiminnasta yhteensä, €. Sisältää erät Tuotteiden toimitukset,  Tuotetun lämmön toimitukset, Verkkopalvelut, Toimitusten arvo teollisista korjaus-, asennus- ja huoltopalveluista ja Palkkatyö.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_Tuote",
+      "variablename": "Tuotteiden toimitukset",
+      "conceptdef": "(LVTUOT)  Yrityksen Suomessa valmistamien ja valmistuttamien tavaroiden liikevaihto. Teolliset tavarat, puhdas vesi, materiaalien kierrätys. Yrityksen ulkomailla alihankintana valmistuttamien tavaroiden liikevaihto on kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa). Tässä on myös liikevaihto käyttöveden puhdistus- ja jakelutoiminnasta ja liikevaihto materiaalien kierrätystoiminnasta (Metalli- ja muun jätteen, romun ja muun tavaran muuntaminen uusioraaka-aineeksi, romujen purkaminen). Elintarviketeollisuus; saman konsernin muiden yritysten tuotteiden tukku- tai vähittäiskauppa on ilmoitettu kohdassa lv_Kauppa, samoin kuin muu tukku- tai vähittäiskauppa on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "lv_Verkko",
+      "variablename": "Verkkotoiminta",
+      "conceptdef": "(LVVERKKO) Liikevaihto sähkön siirto- ja jakelupalveluista ja kaasun jakelupalveluista, €. Saman konsernin toisen yrityksen tuottama verkkotoiminta on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tilkes, liikevaihto"
+    },
+    {
+      "identifier": "lv_Yhteensa",
+      "variablename": "LIIKEVAIHTO YHTEENSÄ",
+      "conceptdef": "(LVYHTEEN) Liikevaihto yhteensä.  Liikevaihtoon luetaan varsinaisen toiminnan myyntituotot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "liikevaihto, tilkes"
+    },
+    {
+      "identifier": "MaterPalvYht",
+      "variablename": "Materiaalit ja palvelut yhteensä",
+      "conceptdef": "(MATPALVY) Materiaalien ja palvelujen ostot yhteensä sekä ostovarastojen muutos.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "mlt_KayttOlleidRakenHank",
+      "variablename": "Käytössä olleiden rakennusten hankinta",
+      "conceptdef": "(INVKARAK) Käytössä olleiden rakennusten hankinta, €. Toisilta yrityksiltä ostettuja jo tuotanto- tai muussa käytössä olleita rakennuksia, ei uudisrakennuksia. Fuusioiden tms. omistusjärjestelyjen kautta yrityksen omistukseen tulleita rakennuksia ei lasketa tähän.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "muita_lisätietoja, tilkes"
+    },
+    {
+      "identifier": "Nettotulos",
+      "variablename": "NETTOTULOS",
+      "conceptdef": "(NETTOT) Nettotulos saadaan, kun liiketulokseen lisätään tuloslaskelman rahoitustuotot ja vähennetään rahoituskulut ja verot. Lasketaan oikaistusta tuloslaskelmasta. LiikeVoitTap - LttKayttOmaisLuovVoitto - Ltt_FuusioVoitto + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio - LaskennPalkKorj + Rah_TuKuYht  + Ku_ValittVero2",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "NettoVarallNeg",
+      "variablename": "Elinkeinotoiminnan negatiivinen nettovarallisuus",
+      "conceptdef": "(NETVARNE) Nettovarallisuus, negatiivinen.  Jos elinkeinotoiminnan velat ovat suuremmat kuin varat, nettovarallisuus on negatiivinen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "NettoVarallPos",
+      "variablename": "Elinkeinotoiminnan nettovarallisuus",
+      "conceptdef": "(NEVARPOS) Elinkeinotoiminnan nettovarallisuus =  varoista vähennetään velat ja lisätään maksetuista palkoista 30 %.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "OmtyyppiVuosi",
+      "variablename": "Omistajatyyppi (vuositieto)",
+      "conceptdef": "Yrityksen omistajatyyppi vuoden 1995 luokituksen mukaan. \nOmistajatyyppejä ovat: 1 = Yksityinen kotimainen  2 = Valtio 3 = Kunta 4 = Ahvenanmaan maakunta 5 = Ulkomaalaisomisteinen 6 = Muu omistajatyyppi    \nKonsernirekisterin perimmäisen omistajan maan perusteella määräytyy onko kyseessä kotimainen konserni vai ulkomaalainen. Tämän tiedon perusteella konsernirekisterin tiedoista saadaan konsernin kotimaisille yhtiöille päivitettyä omistajatyyppi. Osakkuus / yhteisyritykset yhteenlasketun äänivallan mukaan suurimman omistajan tyypin mukaan. Kunnan tai valtion konserniin kuuluvat määritetään konsernin tyypin perusteella. Ulkomaalaisomisteisille konsernien suomalaisille tytäryhtiöille päivitetään omistajatyypiksi 5 eli Ulkomaalaisomisteinen ja konsernisuhteen äänivallasta päivitetään yritykselle ulkomaan määräysvalta. Ulkomaalaisomisteisia ovat yritykset, joissa ulkomaalaisen omistuksen osuus on yli 50 prosenttia sekä ulkomaalaisten konsernien tytäryhtiöt.\nNiille yksiköille, jotka eivät löydy konsernirekisteristä, omistajatyyppi päivitetään verohallinnon oikeudellisen muodon perusteella (verohoikmuoto).",
+      "measunit": null,
+      "classification": "omistajatyyppi_1_1995_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "op_EdTilikTulos",
+      "variablename": "Edellisten tilikausien tulos",
+      "conceptdef": "(KOPEDTUL) Edellisten tilikausien voitto/tappio.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "oma_pääoma"
+    },
+    {
+      "identifier": "op_OsakePaaom",
+      "variablename": "Osakepääoma",
+      "conceptdef": "(OPOOSAKE) Omistajien yritykseen sijoittamat varat. Osakepääoma on osakeyhtiön oman pääoman erä, joka näkyy yhtiön taseessa vastattavaa -puolella.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "oma_pääoma"
+    },
+    {
+      "identifier": "op_TilikTulos",
+      "variablename": "Tilikauden voitto tai tappio",
+      "conceptdef": "(KOPTULOS) Tilikauden tulos tuloslaskelmasta, voitto tai tappio.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "oma_pääoma"
+    },
+    {
+      "identifier": "ops_OmaPaaomaYht",
+      "variablename": "Oma pääoma yhteensä",
+      "conceptdef": "(KOPYHT) Oma pääoma yhteensä. Erä sisältää kaikki oman pääoman erät yhteensä. Yhteisöillä omassa pääomassa esitetään osake-, osuus-, ja muu vastaava pääoma, rahastot, edellisten tilikausien voitto/tappio ja tilikauden voitto/tappio. Oma pääoma on se osa pääomasta, jolla ei ole takaisinmaksuvelvollisuutta, toisin kuin vieraalla pääomalla.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "oma_pääoma"
+    },
+    {
+      "identifier": "PaaomanTuotto",
+      "variablename": "Pääoman tuotto",
+      "conceptdef": "(SIJTULO) Sijoitetun pääoman tuotto. Pääoman tuotto = LiikeVoitTap - LttKayttOmaisLuovVoitto - Ltt_FuusioVoitto + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio - LaskennPalkKorj + Tu_SaadOsinko + Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork + \nTu_VoitOsuYhtym + Tu_RahOmLuovVoitto + Tu_MuutRah + Tu_PalArvonal",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "PalkansaajTehtTyotunti",
+      "variablename": "Palkansaajien tehdyt työtunnit",
+      "conceptdef": "(PATEHTUN) Palkansaajien tehdyt työtunnit. Tehdyt työtunnit ovat kaikkien työllisten tekemien työtuntien summa eli toteutunut työpanos. Se voidaan laskea kuukausittain, neljännesvuosittain tai vuosittain. Tehdyissä työtunneissa ovat mukana pää- ja sivutyön tunnit sekä palkalliset ja palkattomat ylityötunnit.",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "Palkkasumma",
+      "variablename": "Palkkasumma",
+      "conceptdef": "Palkkasumma on yrityksen tilastovuoden tilikauden tilastoitavaksi tuleva palkka, €. Palkkasumma käsittää kaikki ennakonpidätyksen alaiset erät ennen välittömien verojen ja työntekijöiden lakisääteisten sosiaaliturvamaksujen vähennyksiä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalksaajHtv",
+      "variablename": "Palkansaajat henkilötyövuosina",
+      "conceptdef": "(PATEHTUN) Yrityksen palkansaajat henkilötyövuosina. Henkilötyövuosi kuvaa kokoaikaiseksi muutetun henkilön työpanosta. Yrityksen (yhteisön) kaikki palkatut tunnit (säännöllinen työaika+ylityötunnit) jaetaan yrityksen (yhteisön) kokoaikaisten palkansaajien keskimääräisillä palkatuilla tunneilla vuodessa.",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalksaajHtvLahde",
+      "variablename": "Palkansaajatiedon (htv) lähde",
+      "conceptdef": "Yrityksen tilastovuoden palkansaajien lukumäärätiedon saantilähde.\n  Yhden numeron tarkkuudella (ensimmäinen numero):\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": "sntilahde_2_2012_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalksaajKeskim",
+      "variablename": "Palkansaajat keskimäärin",
+      "conceptdef": "Yrityksen palveluksessa olevien koko- ja osa-aikaisten työntekijöiden lukumäärä, nuppiluku ( head count).",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalksaajKeskimLahde",
+      "variablename": "Palkansaajatiedon (keskim.) lähde",
+      "conceptdef": "Palkansaajatiedon (keskim. tilikautena) saantilähde.\n  Yhden numeron tarkkuudella (ensimmäinen numero):\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": "sntilahde_2_2012_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalksaajKKEstim",
+      "variablename": "Palkansaajat keskimäärin, kuukausiestimaatti (MAVA)",
+      "conceptdef": "Palkansaajien määrä keskimäärin, kuukausiestimaatti (mm. OAV-aineiston = Oma-aloitteisten verojen aineisto 1.1.2017 alkaen, KAVA = kausiveroaineiston 31.12.2016 saakka perusteella)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalksaajVuosiEstim",
+      "variablename": "Palkansaajat keskimäärin, vuosiestimaatti (VILMTK)",
+      "conceptdef": "Palkansaajat keskimäärin, vuosiestimaatti verohallituksen vuosipalkka-aineistosta (VILMTK), nuppiluku (head count) kalenterivuoden aikana. Estimointi;\n***********\nPalkansaajien lukumäärä keskimäärin kalenterivuoden aikana (nuppiluku, head count)\n\nKolme henkilöä, jotka tekevät töitä läpi vuoden puolet normaalityöajasta = 3. \nKolme henkilöä, jotka työskentelevät neljä kuukautta vuodesta = 3 * (4/12) = 1. \n\nPalkansaajat keskimäärin ei ole yritykseltä palkkaa saaneiden henkilöiden lukumäärä.\n\nMääritelmään odotettavissa täsmennys toiminta-aikaan liittyen (toiminta-aika kuukausina kalenterivuonna).\n \nLasketaan tyypittelemällä työntekijät työsuhteen luonteen mukaan; kokopäiväinen toimi, työpaikan vaihto … .\nMääritetään yrityksen toiminta-aika kuukausitiedoista.\n\nHenkilötasolla vaikutus keskim. lukumäärään on joko;\n1 jatkuvassa työsuhteessa, läpi vuoden toimivissa yrityksissä työskenteleville, tai\ntyöstä saadun palkan osuus kaikista palkoista kerrottuna HTV - estimaatissa lasketusta kokonaistyöpanoksesta.\n\nYhden henkilön yhteenlaskettu kontribuutio palkansaajien keskimääräisen lukumäärän summaan voi olla > 1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalkSummaEVR",
+      "variablename": "Palkkasumma (EVR)",
+      "conceptdef": "Palkkasumma (EVR = elinkeinoverotusaineisto)",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalkSummaMAVA",
+      "variablename": "Palkkasumma (MAVA)",
+      "conceptdef": "Palkkasumma (OAV-aineisto / KAVA-aineisto / MAVA-aineisto). OAV = Oma-aloitteiset verot 1.1.2017 alkaen, KAVA = kausiveroaineisto 31.12.2016 saakka, MAVA = maksuvalvonta-aineisto, nimitys ennen KAVA;a",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PalkSummaVILMTK",
+      "variablename": "Palkkasumma (VILMTK)",
+      "conceptdef": "Palkkasumma verohallituksen vuosipalkka-aineistosta (VILMTK=vuosi-ilmoitustietokanta, henkilöittäin ja työsuhteittain kalenterivuoden aikana, verohallinto). Tiedot perustuvat palkansaajien osalta työnantajien vuosi-il­moituksiin. Aineisto sisältää työnantajien maksamat palkat. Tiedot ovat kalenterivuodelta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PKSLuokitusEU",
+      "variablename": "EU;n pieni-, keskisuuri-, suuri-luokitus",
+      "conceptdef": "Oikeudellisen yksikön PK-suuruusluokka tilastovuonna. Suuruusluokkaan vaikuttavat yrityksen henkilöstön määrä, vuosiliikevaihdon määrä, taseen loppusumma ja yksikön riippumattomuus. \n\nLuokittelu perustuu EU:n suositukseen. (Vuoteen 2002 asti 1996/280/EY, vuodesta 2003 lähtien 2003/361/EY). \nMahdolliset arvot ovat: Mikro, Pieni, Keskisuuri, Suuri, Ei määritelty.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PoikkeavatKokotiedot",
+      "variablename": "PoikkeavatKokotiedot",
+      "conceptdef": "Oikeudellisen yksikön kokotietojen tyyppi tilastovuonna. Mahdolliset arvot ovat; 0 Normaalit kokotiedot 1 Ei henkilöstöä 2 Pieni henkilöstö 3 Ei liikevaihtoa 4 Pieni liikevaihto 5 Vain sisäisiä toimituksia, ei liikevaihtoa 6 Ei henkilöstöä tai liikevaihtoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "PoistArvonalentYht",
+      "variablename": "Poistot ja arvonalentumiset yhteensä",
+      "conceptdef": "(POIARALY) Poistojen ja arvonalentumisten yhteissumma. Tuloslaskelmassa esitetään poistosuunnitelman mukaiset tilikauden poistot. Suunnitelman mukaiset poistot perustuvat pysyvien vastaavien hankintamenoon ja näiden taloudelliseen käyttöikään. Arvonalentumiset perustuvat todennäköisen luovutushinnan pysyvään alenemiseen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "PoistoEroMuutos",
+      "variablename": "Poistoeron muutos (lisäys -, vähennys +)",
+      "conceptdef": "(POISEROM) Poistoeron muutos (lisäys-, vähennys +). Kirjanpidossa vähennetään vähintään yhtä suuret poistot kuin verotuksessa halutaan vähentää. Kohdassa Poistot esitetään ainoastaan suunnitelmapoistot, jolloin ylittävä tai alittava poisto esitetään kohdassa Poistoero. Suunnitelmapoistot oikaistuna poistoeron muutoksella ovat tilikauden kokonaispoistot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "kulut"
+    },
+    {
+      "identifier": "PUOhitus",
+      "variablename": "PU:n ohitustieto",
+      "conceptdef": "Yrityksellä ei palvelujen ulkomaankauppaa tilastovuonna, saatavilla 2017 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "RahastYht",
+      "variablename": "Rahastot yhteensä",
+      "conceptdef": "(OPORAHYH) Rahastot yhteensä sisältää esim. ylikurssirahaston, arvonkorotusrahaston, omien osakkeiden rahaston, vararahaston ja käyttörahastot mm. rakennusrahastot ja henkilökunnan virkistysrahastot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "RahKulut",
+      "variablename": "Rahoituskulut",
+      "conceptdef": "(RAHKUL) Rahoituskuluja ovat arvonalentumiset pysyvien vastaavien sijoituksista ja vaihtuvien vastaavien rahoitusarvopapereista sekä muut korko- ja rahoituskulut, esim. lainojen hoitokulut, limiittipalkkiot, takausprovisiot, luottovakuutukset, kiinnityskulut, perimiskulut, kurssitappiot, factoring-kulut ja terminointikulut. Tu_ArvonalPysVastSij + Ku_KorkoSamaKonsYri + Ku_KorkoOmistusYhtYri + ku_MuuKorko + ku_KonsTukiSaamArvoAlen + ku_MuuRahOmaisMenetArvoAlen + ku_RahOmaisLuovTappio + Ku_MuuRah",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "RahTuKuYht",
+      "variablename": "Rahoitustuotot ja -kulut yhteensä",
+      "conceptdef": "(RATUKUYH) Rahoitustuotot ja -kulut yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "RahTulos",
+      "variablename": "Rahoitustulos",
+      "conceptdef": "(RAHTUL) Rahoitustulos saadaan lisäämällä nettotulokseen ennen liiketulosta vähennetyt suunnitelman mukaiset poistot ja arvonalentumiset.  Liikevaihto + Tu_LiiketoimMuutYht - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto - MaterPalvYht - Ku_HenkilostoYht - LaskennPalkKorj + Tu_ValmOmaKaytto + vm_ValmKeskErTuotVarastMuutos - Ku_LiiketoimMuutYht + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio + Rah_TuKuYht + Ku_ValittVero2",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "RahTuotot",
+      "variablename": "Rahoitustuotot",
+      "conceptdef": "(RAHTUOT) Rahoitustuottoja ovat tuotot osuuksista ja muista pysyvien vastaavien sijoituksista sekä muut korko- ja rahoitustuotot. Tu_SaadOsinko + Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork + \nTu_VoitOsuYhtym + Tu_RahOmLuovVoitto + Tu_MuutRah + Tu_PalArvonal",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "sat_MaksKonsAvust",
+      "variablename": "Maksetut konserniavustukset",
+      "conceptdef": "(MAKSKONS) Maksetut konserniavustukset. On satunnainen erä, joka sisältää konserniavustuslain mukaan maksettuja konserniavustuksia. Konserniavustuksella tarkoitetaan liiketoimintaa harjoittavan osakeyhtiön tai osuuskunnan toiselle osakeyhtiölle tai osuuskunnalle sen harjoittamaa liiketoimintaa varten muuna kuin pääomansijoituksena suorittamaa avustusta, joka ei elinkeinotulon verotuksessa saa vähentää tulosta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "satunnaiset_erät"
+    },
+    {
+      "identifier": "sat_SaadKonsAvust",
+      "variablename": "Saadut konserniavustukset",
+      "conceptdef": "(SAAKONSA) Saadut konserniavustukset. On satunnainen erä, joka sisältää konserniavustuslain mukaan saatuja konserniavustuksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "satunnaiset_erät"
+    },
+    {
+      "identifier": "SatunEratYht",
+      "variablename": "Satunnaiset erät yhteensä",
+      "conceptdef": "(SATUKUYH) Satunnaiset tuotot ja kulut yhteensä. Satunnaiset tuotot ja kulut sisältää oikaistun tuloslaskelman satunnaiset tuotot ja kulut, niiden verot ja konserniavustukset. Erä sijoitetaan kassavirtalaskelmassa ennen rahoitusjäämää. Tällöin ne ovat mukana, kun tarkastellaan tulorahoituksen riittävyyttä investointien rahoittamisessa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "satunnaiset_erät"
+    },
+    {
+      "identifier": "SektoriluokkaVuosi",
+      "variablename": "Sektoriluokka (vuositieto)",
+      "conceptdef": "Yrityksen sektoriluokka tilastovuonna. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.",
+      "measunit": null,
+      "classification": "sektoriluokitus_11_2013_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "SijoitPaaoma",
+      "variablename": "Sijoitettu pääoma",
+      "conceptdef": "(SIJOP) sijoitettu pääoma, laskettu tk:ssa tunnuslukuja varten.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "Sijoittajamaa",
+      "variablename": "Sijoittajamaa",
+      "conceptdef": "(MAA) Yritystä eniten omistavan yhtiön sijaintimaa tilastovuonna. Konsernien tytärsuhteisilla yrityksillä tämä on sama kuin konsernin emoyhtiöllä. Luokitus; muuttujan arvo on kolminumeroinen koodi, joka saadaan luokitusstandardiin ISO 3166 perustuvasta kaksikirjaimisesta koodista luokituskannassa olevan muunnosavaimen avulla. Vrt. alkumaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "ss_RahTulos",
+      "variablename": "Rahoitustulos",
+      "conceptdef": "(RAHTULOS) Rahoitustulos. Lisäämällä nettotulokseen ennen liiketulosta vähennetyt poistot ja arvonalentumiset, saadaan rahoitustulos. (Rahoitustulos= Nettotulos+poistot ja arvonalentumiset). Rahoitustulos kertoo, kuinka paljon yrityksen varsinainen liiketoiminta tuottaa tulorahoitusta. Tieto saatavilla 2017 asti.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus (syrtun). Saatavissa vuodesta 2013 lähtien. Yritysyksiköllä (syritysid) voi esiintyä useampi kuin yksi oikeudellinen yksikkö (syrtun) vuodesta 2018 lähtien. Yritysyksikköjä on toistaiseksi muodostettu lähinnä suuremmista konserniyrityksistä. Koska aineiston tiedot ovat edelleen oikeudellisen yksikön tasolla, syritysid-tunnisteen käyttöä ei suositella. Valmisaineistot yhdistyvät edelleen syrtun-tunnisteella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "(SYRTUN) Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TaseOik",
+      "variablename": "Oikaistu tase",
+      "conceptdef": "(OIKTASE) Oikaistu tase = Vastattavaa yhteensä - lyhytaikaiset ennakkomaksut - pitkäaikaiset ennakkomaksut. VastattavaYht - Er_SaadEnnLyhytAikVel - Er_SaadEnnPitkaAikVel  Taseen oikaisujen tavoitteena tilinpäätöksessä on saada oikea ja vertailukelpoinen kuva yrityksen taloudellisesta asemasta tilinpäätöshetkellä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "tilaVuosi",
+      "variablename": "Vuositietojen tila",
+      "conceptdef": "Vuositietojen käsittely-/vastaustila. TilaVuosi-muuttujan arvo kertoo käsittelyn tilan.\n0      Tarkistamaton. Kaikki tiedot imputoitu\n1      Alustavasti pisteytetty. Evr-tiedot saapuneet ja pisteytetty, tiedot käsitelty automaattisesti evr-aineistoa editoimalla tai jos se on todettu virheelliseksi, niin tiedot on imputoitu.\n2       Pisteytetty. Tuloslaskelma-ja tasetiedot hyväksytty, mutta liikevaihdon ja kulujen erittelyt (tilkes-tiedot) imputoitu, tilkes saapunut, käytössä vain tilkes-otokseen kuuluville.\n3       Keskeneräinen                                                        \n4       Alustavasti hyväksytty. Tuloslaskelma-ja tasetiedot hyväksytty, mutta liikevaihdon ja kulujen erittelyt imputoitu, tilkes ei ole saapunut, käytössä vain tilkes-otokseen kuuluville. \n5       Pakkohyväksytty. Sama kuin lopullisesti hyväksytty.\n6       Massakorjattu. Ei käytössä yrityksen vuositiedoille.\n7       Lopullisesti hyväksytty. Jos kuuluu otokseen, kaikki tiedot on hyväksytty; jos ei kuulu otokseen, tuloslask.- ja tasetiedot hyväksytty ja erittelyt (tilkes-tiedot) imputoitu.\n8       Massahyväksytty. Kaikki tiedot (tuloslask., tase ja tilkes) hyväksytty automaattisesti.\n9       Kopioitu edellisvuodelta. Ei käytössä yrityksen vuositiedoille.\nHyväksytty tarkoittaa, että tiedot on manuaalisesti käsitelty paitsi jos erikseen mainitaan, että on kyse automaattisesta hyväksynnästä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "TilikausiAlPvm",
+      "variablename": "Tilikauden alku",
+      "conceptdef": "Yrityksen tilikauden  alkupäivämäärä, ppkkvvvv.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TilikausiLahde",
+      "variablename": "Tilikausitiedon lähde",
+      "conceptdef": "Yrityksen tilikausitietojen saantilähde tilastovuonna, luokitus. Mahdolliset arvot ovat; Tiedustelu, Muu lähde, Kk-tiedot, Konearvio, ASITK, VEROTK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TilikausiLopPvm",
+      "variablename": "Tilikauden loppu",
+      "conceptdef": "Yrityksen tilikauden loppupäivämäärä, ppkkvvvv.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TilikMuunnos",
+      "variablename": "Tilikauden arvot muunnettu 12 kk mittaiseksi",
+      "conceptdef": "Tilikauden arvotiedot muunnettu 12 kk mittaiseksi.",
+      "measunit": "kk",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TilikPituus",
+      "variablename": "Tilikauden pituus",
+      "conceptdef": "(TILIK) Yrityksen tilikauden pituus kuukausina. Laskettu ohjelmallisesti tilikauden loppumis- ja alkupvm-tiedoista.",
+      "measunit": "kk",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TilikTulos",
+      "variablename": "Tilikauden voitto (tappio)",
+      "conceptdef": "(TILIKTUL) Tilikauden tulos on tuloslaskelman tulos, jossa on huomioitu kaikki yrityksen tuotot ja kulut tilikaudelta sekä etukäteen pakollisina varauksina kirjatut vastaiset menot ja menetykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "tilinpKehikko",
+      "variablename": "Tilinpäätöskehikkoon kuuluminen",
+      "conceptdef": "Tieto saatavilla 2017 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "TilinpSiirrotYht",
+      "variablename": "Tilinpäätössiirrot yhteensä",
+      "conceptdef": "(TILINPSY) Tilinpäätössiirrot yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "ToimAikaTilikausi",
+      "variablename": "Toiminta-aika tilikaudella",
+      "conceptdef": "Yrityksen toiminta-aika tilikaudella, kuukautta.",
+      "measunit": "kk",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "ToimAikaVuosi",
+      "variablename": "Toiminta-aika kalenterivuonna",
+      "conceptdef": "Yrityksen toiminta-aika kalenterivuonna, kuukautta.",
+      "measunit": "kk",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "ToimipVuosiTila",
+      "variablename": "Toimipaikkatiedon vuositila",
+      "conceptdef": "Yrityksen toimipaikkojen vuositietojen tila, saatavilla 2017 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "Tol2008Vuosi",
+      "variablename": "Toimiala (TOL 2008)",
+      "conceptdef": "Yrityksen toimiala tilastovuonna TOL 2008 toimialaluokituksella. Toimiala, joka yrityksellä on ollut pisimmän aikaa tilastovuonna. Toimialakoodi määräytyy oikeudellisen yksikön toiminnan perusteella. Monitoimipaikkaisella oikeudellisella yksiköllä koodi ilmaisee yksikön päätoimialaa, joka määräytyy ohjelmallisesti toimipaikkojen toimiala- ym. tiedoista. ",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "tol2008VuosiPuhtPros5",
+      "variablename": "TOL 2008 puhtausprosentti (5 nro taso)",
+      "conceptdef": "(Pää)toimialan puhtaus-% TOL 2008-luokituksen 5-numerotasolla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "tu_ArvonalPysVastSij",
+      "variablename": "Arvonalentumiset pysyvien vastaavien sijoituksista",
+      "conceptdef": "(RAKOMARA) Arvonalentumiset pysyvien vastaavien sijoituksista. Sijoitusten arvonalentumiset ovat pysyvien vastaavien sijoitusten ja lainasaamisten arvonalennuksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_AvustTuki",
+      "variablename": "Saadut avustukset ja tuet",
+      "conceptdef": "(AVUSVERO) Elinkeinotoimintaa varten saadut, suoraan tuloutetut avustukset, lisät ja tuet valtiolta ja kunnalta (TEM, YM, TEKES jne.).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_HkohtTulolTuotVeronalLuovVoit",
+      "variablename": "Henkilökohtaisen tulolähteen tuotot ja veronalainen luovutusvoitto",
+      "conceptdef": "(HENKTULO) Henkilökohtaisen tulolähteen tuotot ja veronalainen luovutusvoitto, joka on syntynyt henkilökohtaiseen tulolähteeseen kuuluvasta omaisuudesta. Henkilökohtaiseen tulolähteeseen kuuluvaa toimintaa voi olla esimerkiksi elinkeinotoimintaan kuulumattoman kiinteistön ja huoneisto-osakkeen vuokraus, passiivinen arvopaperiomistus, yhtiön rahavarojen lainaaminen osakkaalle (koron periminen) tai elinkeinotoimintaan kuulumaton metsätalouden harjoittaminen. Tulolähdejako poistui verovuonna 2020.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_KayttOmaisOsakLuovVoitto",
+      "variablename": "Ko osakkeitten luovutus- ja purkuvoitot",
+      "conceptdef": "(KOSLUOVV) Kaikkien käyttöomaisuuteen kuuluneiden osakkeiden luovutusvoittojen ja purkuvoittojen yhteissumma.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_KorkoKonsYri",
+      "variablename": "Korkotuotot saman konsernin yrityksiltä",
+      "conceptdef": "(MURAHTUK) Saman konsernin yrityksiltä saadut korkotuotot. Konserniyrityksillä tarkoitetaan tässä emoyritystä tai sen tytäryrityksiä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_KorkoOmistYhtYri",
+      "variablename": "Korkotuotot omistusyhteysyrityksiltä",
+      "conceptdef": "(KORKTOMY) Omistusyhteysyrityksiltä saadut korkotuotot. Omistusyhteysyritys on konserniin kuulumaton kotimainen tai ulkomainen yritys, jossa toisella yrityksellä yksin tai yhdessä useamman yrityksen kanssa on sellainen omistusosuus (vähintään 20 % yrityksen omasta pääomasta), joka luo pysyvän yhteyden.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_LiiketoimMuutYht",
+      "variablename": "Liiketoiminnan muut tuotot yhteensä",
+      "conceptdef": "(LIMUTUOT) Liiketoiminnan muut tuotot yhteensä. Sisältää käyttöomaisuusosakkeiden luovutusvoitot ja purkuvoitot, muun käyttöomaisuuden luovutusvoitot, saadut avustukset ja tuet ja muut liiketoiminnan muut tuotot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_MaatalTulolah",
+      "variablename": "Maatalouden tulolähteen tuotot",
+      "conceptdef": "(MAATALTU) Maatalouden tulolähteen tuotot poistuu, mutta mukana joinakin vuosina.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_MuuKayttOmaisLuovVoitto",
+      "variablename": "Muut käyttöomaisuuden luovutusvoitot",
+      "conceptdef": "(MUKOMLVO) Muun käyttöomaisuuden luovutusvoitot, kuten rakennusten, maa-alueiden ja koneiden luovutusvoitot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_MuutKork",
+      "variablename": "Muut korkotuotot",
+      "conceptdef": "(MURAHTUM) Muut korkotuotot, esim korkotuotot pankkisaamisista ja talletuksista.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_MuutLiikToimMuutTuot",
+      "variablename": "Muut liiketoiminnan muut tuotot",
+      "conceptdef": "(MUULIMUT) Muut liiketoiminnan muut tuotot, joita ovat esim. liiketoimintakaupoista syntyneet myyntivoitot, leasinghyvitykset, saadut vahingonkorvaukset, vuokratuotot kiinteistöistä, vuokratuotot henkilöstön virkistyskäytössä olevista tiloista, toimistopalvelutuotot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_MuutRah",
+      "variablename": "Muut rahoitustuotot",
+      "conceptdef": "(MURATUOT) Muut rahoitustuotot, esim. valuuttakurssivoitot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_PalArvonal",
+      "variablename": "Palautuvat arvonalennukset",
+      "conceptdef": "(PALARVAL) Rahoitusomaisuuteen, vaihto-omaisuuteen tai käyttöomaisuuteen liittyvät palautuvat arvonalennukset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_RahOmLuovVoitto",
+      "variablename": "Rahoitusomaisuuden luovutusvoitot",
+      "conceptdef": "(ROLUVOIT) Rahoitusomaisuudesta, kuten rahoitusomaisuuteen kuuluneista arvopapereista saadut luovutusvoitot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_SaadOsinko",
+      "variablename": "Saadut osingot",
+      "conceptdef": "(OSINKOSA) Yhteisön saamien osinkojen ja muiden voitonjaon luonteisten erien yhteismäärä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_Satun",
+      "variablename": "Satunnaiset tuotot",
+      "conceptdef": "(SATTUOT) Satunnaiset tuotot syntyvät muusta kuin yrityksen varsinaisesta toiminnasta ja ovat luonteeltaan kertaluonteisia ja suuruudeltaan olennaisia. Pysyvistä vastaavista syntyneet myyntivoitot ja -tappiot ovat normaalisti liiketoiminnan muita tuottoja ja kuluja. Kokonaisesta toimialasta luopumisen yhteydessä syntynyttä myyntivoittoa tai -tappiota pidetään kuitenkin satunnaisena eränä. Konserniavustuslain mukaiset saadut konserniavustukset esitetään myös satunnaisissa tuotoissa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_TuloslaskMuuVerot",
+      "variablename": "Tuloslaskelman muut verottomat tuotot",
+      "conceptdef": "(VEROTONT) Tuloslaskelman muut verottomat tuotot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_ValmOmaKaytto",
+      "variablename": "Valmistus omaan käyttöön",
+      "conceptdef": "(VALMOMAK) Omaan käyttöön valmistettujen tuotteiden arvo. Valmistus omaan käyttöön tarkoittaa yrityksen omana  tuotantona tekemiä, mutta myynnin sijasta käyttöomaisuudeksi otettuja hyödykkeitä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "tu_VoitOsuYhtym",
+      "variablename": "Voitto-osuudet yhtymistä",
+      "conceptdef": "(VOSYHTYM) Voitto-osuudet yhtymistä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "Tulorahoitus",
+      "variablename": "Tulorahoitus",
+      "conceptdef": "(TULORAH) Tulorahoitus on yrityksen toiminnan tai investointien rahoittamista käyttäen liiketoiminnasta kertyviä tuloja. Tulorahoitus = NETTOT = LIVOILMY + RAHTUOTOT + RAHKULUT + VALVERTU + VALMERMU = liiketulos + rahoitustuotot + rahoituskulut + tuloverot + muut välittömät verot.\nNettotulos saadaan, kun liiketulokseen lisätään tuloslaskelman rahoitustuotot ja vähennetään rahoituskulut ja verot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "TulosEnnenSatErat",
+      "variablename": "Voitto (tappio) ennen satunnaisia eriä",
+      "conceptdef": "(TULOSESA) Voitto/tappio ennen satunnaisia eriä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "TulosEnnenTilinpSiirrotVerot",
+      "variablename": "Voitto (tappio) ennen tilinpäätössiirtoja ja veroja",
+      "conceptdef": "(TULOSEVA) Voitto/tappio ennen tilinpäätössiirtoja ja veroja.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "johdetut_muuttujat"
+    },
+    {
+      "identifier": "TuloverolaskTarkKulu",
+      "variablename": "Tuloverolaskelman tarkistus koodi (kulut)",
+      "conceptdef": "(KU) Laatukoodi verolaskelman kuluille. Tuloverolaskelman tarkistuskoodi (kulut) \n01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "TuloverolaskTarkTulo",
+      "variablename": "Tuloverolaskelman tarkistus koodi (tulot)",
+      "conceptdef": "(TU) Laatukoodi tuloslaskelman tuloille. \n01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "TuototMaatalous",
+      "variablename": "Tuotot maataloudesta",
+      "conceptdef": "Yrityksen tuotot maataloudesta tilastovuonna, €.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "TuototMetsatalous",
+      "variablename": "Tuotot metsätaloudesta",
+      "conceptdef": "Yrityksen tuotot metsätaloudesta tilastovuonna, €.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tuotot"
+    },
+    {
+      "identifier": "ulkomaanTavaraKaupHarj",
+      "variablename": "Ulkomaantavarakaupan harjoittaminen",
+      "conceptdef": "Yritystä koskeva tilastovuoden tuoja/viejä -tieto. \nMahdolliset arvot ovat;\n1 = Tuoja (harjoittaa tuontia)\n2 = Viejä (harjoittaa vientiä)\n3 = Molempia (harjoittaa tuontia ja vientiä)\nMääritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin kynnysarvo on 12 000 euroa ja kauppatapahtumia on vähintään kahtena kuukautena vuodessa tai kaupan arvo yli 120 000 euroa (tällöin riittää yksi kauppatapahtuma ko. vuonna). Tiedot saadaan tullista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "va_AineetonOik",
+      "variablename": "Aineettomat oikeudet",
+      "conceptdef": "(DKOATONO) Aineettomat oikeudet yhteensä. Tähän ryhmään kuuluvat patentti-, toimilupa-, tavara-, merkki-, toiminimi- ja apteekkioikeudet, vuokraoikeudet, erilaiset tekijänoikeudet sekä käyttöoikeudet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_AineTarv",
+      "variablename": "Aineet ja tarvikkeet",
+      "conceptdef": "(VOLOMANT) Aineita ja tarvikkeita ovat esimerkiksi raaka-aineet sekä apu- ja tarveaineet. Aineet ja tarvikkeet saattavat liittyä välittömästi myytäväksi tarkoitetun hyödykkeen valmistamiseen tai valmistuksessa käytettävien koneiden ja laitteiden huoltoon. Aineisiin ja tarvikkeisiin luetaan mukaan myös myytävien hyödykkeiden pakkaustarvikkeet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_EnnakkoMaks",
+      "variablename": "Ennakkomaksut",
+      "conceptdef": "(DKOENNAK) Ennakkomaksut liittyvät käyttömaisuushyödykkeiden hankintaan, mutta hyödykettä ei ole vielä toimitettu tai sen rakentaminen on kesken. Kun hyödykkeet otetaan käyttöön, suoritetaan siirto tästä ryhmästä asianomaiseen käyttöomaisuusryhmään. Tasekaavassa on yleisenä periaatteena, että ennakkomaksut esitetään siinä taseryhmässä, mihin ne luonteensa puolesta kohdistuvat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_KayttOmaisArvopap",
+      "variablename": "Käyttöomaisuusarvopaperit",
+      "conceptdef": "(DKOARPAP) Osakkeet ja osuudet saman konsernin yrityksissä, osakkeet ja osuudet omistusyhteysyrityksissä, muut osakkeet ja osuudet. Osakkeita ja osuuksia ovat pitkäaikaiseen käyttöön tarkoitetut arvopaperit. Näitä ovat puhelinosakkeet ja osuustodistukset, toimitilaosakkeet, henkilökunnan asunnoksi hankitut huoneisto-osakkeet, tytäryhtiöosakkeet ja muut intressiyhtiöiden osakkeet.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_KayttOmaisSaam",
+      "variablename": "Muut käyttöomaisuussaamiset",
+      "conceptdef": "(DKOSAAMU) Muut käyttöomaisuuteen kuuluvat saamiset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_KeskenerTuote",
+      "variablename": "Keskeneräiset tuotteet",
+      "conceptdef": "(VOLOKESK) Keskeneräisten tuotteiden varastot tilikauden lopussa. Keskeneräisillä tuotteilla tarkoitetaan itse valmistettuja, myytäväksi aiottuja hyödykkeitä, joiden valmistusprosessi on tilikauden päättyessä kesken (puolivalmisteet). Keskeneräinen tuote voi olla aineellinen tai aineeton. Aineeton vaihto-omaisuushyödyke on esimerkiksi arkkitehti- tai suunnittelualan yrityksen keskeneräinen suunnittelutyö tai keskeneräinen elokuva, jonka esitysoikeudet on tarkoitus myydä elokuvan valmistuttua. Aineellisiin keskeneräisiin tuotteisiin sisältyvät puolivalmisteet, keskeneräiset rakennustyöt, keskeneräisten koneiden ja laitteiden rakennustyöt.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_Kiint",
+      "variablename": "Kiinteistöt",
+      "conceptdef": "(DKOKIINT) Kiinteistöjen, rakennusten ja rakennelmien yhteenlaskettu arvo. Kiinteistöön luetaan maapohja ja sillä olevat rakennukset.  Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Rakennuksia ovat kirjanpitovelvollisen toiminnassa käyttämät tehdas-, varasto-, talous,- myymälä-, toimisto-, ja asuinrakennukset, hotellit, sairaalat, hallit, voima-asemat yms. Rakennelmia ovat siilot, polttoneste- ja happosäilöt, kalliosuojat ja -varastot sekä parakit.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_KoneKalusto",
+      "variablename": "Koneet ja kalusto",
+      "conceptdef": "(DKOKONE) Koneisiin ja kalustoihin luetaan irtain käyttöomaisuus kuten tehdaskoneet, konttorikoneet, autot, trukit, traktorit, alukset, lentokoneet, kuljetuskalustot, televisiot, radiot, viestintäkalustot ja huonekalut. Leasingille otettua kalustoa ei lueta verotuksessa käyttöomaisuuteen, joten sitä ei merkitä tähän.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_LainaSaam",
+      "variablename": "Lainasaamiset",
+      "conceptdef": "(DSAALAIN) Lainasaamiset ovat rahan lainauksesta syntyneitä saamisia, jotka ovat suhteellisen lyhytaikaisia. Lainasaamisia ovat mm. lainat konserniyhtiöille, henkilökunnalle, osakkaille ja muille yrityksille.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_MuuKayttOmais",
+      "variablename": "Muu käyttöomaisuus",
+      "conceptdef": "(DKOMUU) Muita aineellisia hyödykkeitä ovat esimerkiksi; rautatiet, kadut, sillat, rummut, viemärit, väylät, kanavat, altaat, padot sekä sähkö-, kaasu-, ja vesijohtoverkostot (sähkö-, kaasu- ja vesijohtoverkot voivat olla myös kiinteistöjen ryhmässä maa- ja vesirakennelmina). Muita eriä ovat turve-, malmi-, sora-, savi- ym. alueet. Myös taide-esineet voidaan esittää tässä ryhmässä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_MuuRahoitOmais",
+      "variablename": "Muu rahoitusomaisuus",
+      "conceptdef": "(DROMUU) Muu rahoitusomaisuus.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_MuuSaam",
+      "variablename": "Muut saamiset",
+      "conceptdef": "(DSAAMUUT) Muita saamisia voivat olla mm. verosaamiset, vakuutustalletukset, maksetut vuokravakuudet ja vahingonkorvaussaamiset. Myös osakassaamiset erikoisluonteensa johdosta voidaan esittää tässä erässä, samoin kuin investointitalletuskin.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_MuuVaihtOmais",
+      "variablename": "Muu vaihto-omaisuus",
+      "conceptdef": "(MUUVOLO) Muut vaihto-omaisuuteen kuuluvat hyödykkeet. Muuta vaihto-omaisuutta ovat mm. ennakkomaksut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_Myyntisaam",
+      "variablename": "Myyntisaamiset",
+      "conceptdef": "(DSAAMYY) Kaikki pitkä- ja lyhytaikaiset myyntisaamiset, osamaksusaamiset yms. Myyntisaamiset ovat varsinaisesta toiminnasta eli tavaroiden ja palveluiden myynnistä syntyneitä saamisia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_OsaTulSaam",
+      "variablename": "Osatuloutuksen saamiset",
+      "conceptdef": "Osatuloutuksen saamiset. 2018 uusi erä verottajalta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_PankkiSaam",
+      "variablename": "Pankkisaamiset",
+      "conceptdef": "(DSAAMYY) Pankissa olevat talletukset, sijoitusvarat ja valuuttavarat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_PitkaVaikMeno",
+      "variablename": "Pitkävaikutteiset menot",
+      "conceptdef": "(DKOPIMEN) Menot, jotka kerryttävät tai säilyttävät tuloa kolmen tai useamman vuoden ajan, mm. vuokrahuoneistojen perusparannusmenot ja liikearvon hankintameno.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_Rahat",
+      "variablename": "Rahat",
+      "conceptdef": "(DRORAHAT) Yhtiön käteiset kassavarat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_RahoitOmaisArvopap",
+      "variablename": "Rahoitusomaisuusarvopaperit",
+      "conceptdef": "(DROARYHT) Osakkeet ja osuudet sisältävät tilapäisiä osakesijoituksia tai niitä on saatettu ottaa vastaan maksun tai saamisen turvaamisesksi. Muut arvopaperit ovat tilapäisiä sijoituksia joukkovelkakirjoihin ja niitä on otettu maksuksi saatavasta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_SaamKonsYri",
+      "variablename": "Käyttöomaisuussaamiset saman konsernin yrityksiltä",
+      "conceptdef": "(DKOSAAMK) Käyttöomaisuuteen kuuluvat saamiset saman konsernin yrityksiltä. Konserniyrityksiä ovat kirjanpitolaissa tarkoitetut emoyritys ja tytäryritys.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_SaamOmistYhtYri",
+      "variablename": "Saamiset omistusyhteysyrityksiltä",
+      "conceptdef": "(DKOSAAMK) Omistusyhteysyritys on kirjanpitovelvollisen konserniin kuulumaton kotimainen tai ulkomainen yritys.  Yritystä pidetään omistusyhteysyrityksenä, jos kirjanpitovelvollisella on vähintään viidesosa yrityksen osakepääomasta tai vastaavasta pääomasta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_SaamOmYhtYri",
+      "variablename": "Käyttöomaisuussaamiset omistusyhteysyrityksiltä",
+      "conceptdef": "(DKOSAAOM) Käyttöomaisuuteen kuuluvat saamiset omistusyhteysyrityksiltä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_SaamSamaKonsYri",
+      "variablename": "Saamiset saman konsernin yrityksiltä",
+      "conceptdef": "(DSAAKONS) Saamiset saman konsernin yrityksiltä. Konserniyrityksiä ovat kirjanpitolaissa tarkoitetut emoyritys ja tytäryritys.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_SiirtoSaam",
+      "variablename": "Siirtosaamiset",
+      "conceptdef": "(DSASIIRT) Siirtosaamisiin sisältyy menoennakkoja, kuten etukäteen maksettuja korkoja, vuokramenoja, vakuutusmaksuja, veroja, jäsenmaksuja, tilausmaksuja ja ostotoiminnan perusteella tulevia alennuksia. Toinen siirtosaamisten ryhmä on tulojäämät, kuten maksamattomat korkotulot, vuokratulot, vakuutuskorvaukset ja avustukset sekä arvonlisäverosaaminen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_Tavara",
+      "variablename": "Tavarat",
+      "conceptdef": "(VOLOKAUP) Kauppatavarat tilikauden lopussa. Kauppatavaroiden varastot tilikauden lopussa. Kauppatavaroilla tarkoitetaan niitä hyödykkeitä, jotka yritys on ostanut myytäväksi edelleen ilman jatkokäsittelyä. Kauppatavaroiksi luetaan myös raaka-aineet, jotka yritys on ostanut myytäväksi eteenpäin sellaisenaan.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_VaihtOmaisArvopap",
+      "variablename": "Vaihto-omaisuusarvopaperit",
+      "conceptdef": "(VOLOARVP) Vaihto-omaisuuteen kuuluvat arvopaperit.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_VaihtOmaisKiint",
+      "variablename": "Vaihto-omaisuuskiinteistöt",
+      "conceptdef": "(VOLOKIIN) Vaihto-omaisuuteen kuuluvat kiinteistöt.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "va_ValmTuote",
+      "variablename": "Valmiit tuotteet",
+      "conceptdef": "(VOLOVALM) Valmiit tuotteet tilikauden lopussa. Vaihto-omaisuuden valmiiden tuotteiden tai tavaroiden määrä tilikauden lopussa. Valmiilla tuotteilla tarkoitetaan hyödykkeitä, jotka on itse valmistettu ja saatettu luovutusvalmiiksi ja jotka on tarkoitettu myytäviksi. Valmiisiin tuotteisiin luetaan mukaan myös sivutuotteet ja valmistusjätteet, joita valmistustoimintaa harjoittavan yrityksen tuotannossa syntyy.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "VaihtOmaisYhtTilikAl",
+      "variablename": "Vaihto-omaisuus yhteensä tilikauden alussa",
+      "conceptdef": "(VOALYHT) Vaihto-omaisuus yhteensä tilikauden alussa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "VaihtOmLaatukoodi",
+      "variablename": "Tilikauden alun vaihto-omaisuustietojen laatukoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "ValmTuoteTilikAl",
+      "variablename": "Valmiit tuotteet tilikauden alussa",
+      "conceptdef": "(VOALVALM) Valmiit tuotteet tilikauden alussa. Vaihto-omaisuuden valmiiden tuotteiden tai tavaroiden määrä tilikauden alussa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "VapaaehtVaraukset",
+      "variablename": "Vapaaehtoiset varaukset",
+      "conceptdef": "(KVARVEM) Vapaaehtoiset varaukset ovat investointi-, toiminta-, luottotappio-, yms. varauksia.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "VapaaehtVarauksetMuutos",
+      "variablename": "Vapaaehtoisten varausten muutos",
+      "conceptdef": "(VAPEHTVA) Vapaaehtoisten varausten muutos (lisäys -, vähennys +). Vapaaehtoisia varauksia ovat investointi-, luottotappio-, toiminta-, varasto-,  asuintalo- ja muut sellaiset varaukset. Myös EVLn siirtymävarauksen muutos kuuluu tähän ryhmään. Näiden varausten lisäys tai vähennys esitetään tässä kohdassa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa"
+    },
+    {
+      "identifier": "VarallLaskTarkKoodiOmaP",
+      "variablename": "Varallisuuslaskelman tarkistus koodi (oma pääoma)",
+      "conceptdef": "(OP) Laatukoodi varallisuuslaskelman omalle pääomalle. 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "VarallLaskTarkKoodiTulosTase",
+      "variablename": "Tilikauden tuloksen tarkistus koodi (tulos ja tase)",
+      "conceptdef": "(SS) Tilikauden tuloksen tarkistus koodi (tulos ja tase). 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "VarallLaskTarkKoodiVarat",
+      "variablename": "Varallisuuslaskelman tarkistus koodi (varat)",
+      "conceptdef": "(VA) Laatukoodi varallisuuslaskelman varatiedoille. 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "VarallLaskTarkKoodiVelat",
+      "variablename": "Varallisuuslaskelman tarkistus koodi (velat)",
+      "conceptdef": "(VE) Laatukoodi varallisuuslaskelman velkatiedoille. 1  Varallisuuslaskelman velat menee umpeen. 21  Jokin virheellinen varallisuuslaskelman velkamuuttuja korjattu Outlier-menetelmällä. 31 Jokin virheellinen varallisuuslaskelman velkamuuttuja korjattu skaalausmenetelmällä. 41  Jokin virheellinen varallisuuslaskelman velkamuuttuja imputoitu yrityksen edellisvuoden tiedoilla. 51  Jokin virheellinen varallisuuslaskelman velkamuuttuja imputoitu jonkun luovuttajayrityksen tiedoilla. L5  Varallisuuslaskelman velat eivät mene umpeen. Virhettä ei kyetä korjaamaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "laatumuuttujat"
+    },
+    {
+      "identifier": "vas_KayttOmais",
+      "variablename": "Käyttöomaisuus yhteensä",
+      "conceptdef": "(DKOMYHTA) Käyttöomaisuushyödykkeiden yhteissumma. Taseen pysyvät vastaavat yhteensä muodostuu kolmesta pääryhmästä: aineettomat hyödykkeet, aineelliset hyödykkeet ja sijoitukset. Pysyvillä vastaavilla tarkoitetaan eriä, jotka on tarkoitettu tuottamaan tuloa jatkuvasti useana tilikautena.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa_yhteensä"
+    },
+    {
+      "identifier": "vas_RahoitOmais",
+      "variablename": "Rahoitusomaisuus yhteensä",
+      "conceptdef": "(DRAOMYHT) Rahoitusomaisuus yhteensä. Rahoitusomaisuus yhteensä on taseen vaihtuvien vastaavien erien lyhyt- ja pitkäaikaiset saamiset, rahoitusarvopaperit sekä rahat ja pankkisaamiset summa. Rahoitusomaisuus määritellään kirjanpitolaissa, mutta se ei esiinny nimikkeenä tasekaavassa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa_yhteensä"
+    },
+    {
+      "identifier": "vas_VaihtOmais",
+      "variablename": "Vaihto-omaisuus yhteensä",
+      "conceptdef": "(DVOYHT) Vaihto-omaisuus yhteensä.  Erä on aineiden ja tarvikkeiden, keskeneräisten tuotteiden, valmiiden tuotteiden, tavaroiden (kauppatavarat), muun vaihto-omaisuuden sekä ennakkomaksujen yhteissumma. Vaihto-omaisuutta ovat sellaisenaan tai jalostettuina luovutettavaksi tai kulutettavaksi tarkoitetut hyödykkeet. Vastaa taseen arvoa vaihto-omaisuus yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa_yhteensä"
+    },
+    {
+      "identifier": "vas_VaratYht",
+      "variablename": "Varat yhteensä",
+      "conceptdef": "(DVARATYH)  Vaihtuvat vastaavat yhteensä muodostuu taseen neljästä pääryhmästä: vaihto-omaisuus, saamiset, rahoitusarvopaperit sekä rahat ja pankkisaamiset. Vaihtuvien vastaavien vaikutusaika on lyhyt. Niitä ei ole tarkoitettu tuottamaan tuloa useana tilikautena.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa_yhteensä"
+    },
+    {
+      "identifier": "VastaavaYht",
+      "variablename": "Vastaavaa yhteensä",
+      "conceptdef": "(DYHT) Vastaavaa yhteensä. Taseen vastaavaa yhteensä on pysyvien vastaavien ja vaihtuvien vastaavien yhteissumma.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastaavaa_yhteensä"
+    },
+    {
+      "identifier": "VastattavaYht",
+      "variablename": "Vastattavaa yhteensä",
+      "conceptdef": "(KYHT) Vastattavaa yhteensä. Vastattavaa yhteensä on taseen neljän pääryhmän, oma pääoma, tilinpäätössiirtojen kertymä, pakolliset varaukset ja vieras pääoma, summa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa_yhteensä"
+    },
+    {
+      "identifier": "ve_JoukkoVelkakLaina",
+      "variablename": "Joukkovelkakirjalainat",
+      "conceptdef": "(VPJOUVKL) Joukkovelkakirjat ovat liikkeelle laskettuja obligaatio-, debentuuri-, yritystodistus- ja sijoitustodistuslainoja sekä haltijalle asetettuja optiolainoja.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_KonsYri",
+      "variablename": "Velat saman konsernin yrityksille",
+      "conceptdef": "(VPVEKONS) Velat saman konsernin yrityksille ovat tytäryhtiöille ja osakkuusyrityksille olevia velkoja, esim. konserniyrityksiltä saadut ennakot, rahoitusvekselit ja muut velat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_LainatRahLait",
+      "variablename": "Lainat rahoituslaitoksilta",
+      "conceptdef": "(RAHOTL) Lainat rahoituslaitoksilta. Lainoihin sisältyy sekä lyhyt- ja pitkäaikaiset lainat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_Muu",
+      "variablename": "Muut velat",
+      "conceptdef": "(VPMUVEL) Muita velkoja voivat olla esimerkiksi  saadut ennakot, rahoitusvekselit ja velat työntekijöille, lyhytaikaiset rahoitusvekselit, ennakonpidätysvelat, sosiaaliturvamaksuvelat. Velkana pidetään myös vakuutuslaitoksen ja vakuutusyhtiön sekä eläkelaitoksen, eläkesäätiön, ja eläkekassan vastuita ja vakavaraisuuden parantamiseksi tekemää varausta. Myös sähkö-, tele- yms. laitoksen saamat liittymämaksut ovat velkaa, jos niihin liittyy palautusvelvollisuus.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_OmistYhtYri",
+      "variablename": "Velat omistusyhteysyrityksille",
+      "conceptdef": "(VPVOMISY) Velat omistusyhteysyrityksille esim. saadut ennakot, rahoitusvekselit ja muut velat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_Osakas",
+      "variablename": "Velat osakkaille",
+      "conceptdef": "(VPVOSAK) Velat osakkaille.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_OstoVe",
+      "variablename": "Ostovelat",
+      "conceptdef": "(VPOSTOV) Ostovelat ovat vaihto-, käyttö-, tai rahoitusomaisuuden hankkimiseen  liittyviä velkoja.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_PaaomLaina",
+      "variablename": "Pääomalainat",
+      "conceptdef": "(PAAOMLAI) Pääomalaina on ehdoiltaan omaa pääomaa muistuttava rahoitusjärjestely. Pääomalaina esitetään luonteensa mukaisesti joko pitkäaikaisen ja/tai lyhytaikaisen vieraan pääoman ryhmässä. Sen takaisinmaksu tehdään vapaista varoista.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_Siirto",
+      "variablename": "Siirtovelat",
+      "conceptdef": "(VPSIIRTV) Siirtovelkoihin kuuluvat menojäämät, kuten maksamattomat korot, vuokrat, lomapalkat, palkat, sosiaali- ja muut vakuutukset, verot, myynnin perusteella annettavat alennukset, tantieemit ja provisiot. Tuloennakot ovat myös siirtovelkoja. Niitä ovat etukäteen saadut vuokratulot, korkotulot ja tilausmaksut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "ve_VaihtoVelkaKirjLain",
+      "variablename": "Vaihtovelkakirjalainat",
+      "conceptdef": "(VPVAVEKL) Vaihtovelkakirjalainat ovat lainoja, joiden lainaehtoihin liittyy oikeus vaihtaa lainapääoma yrityksen osakkeiksi.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa"
+    },
+    {
+      "identifier": "verohoikmuoto",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": "Verohallinnon oikeudellinen muoto, 2013 alkaen.\n01 Luonnollinen henkilö\n10 Avoin yhtiö\n11 Kommandiittiyhtiö\n12 Osakeyhtiö\n13 Asunto-osakeyhtiö\n14 Laivanisännistöyhtiö\n16 Keskinäinen kiinteistö-oy\n17 Muu kiinteistö-oy\n18 Konserni\n19 Muu yhtiö\n20 Aatteellinen yhdistys\n21 Erityislainsäädäntöön perustuva yhdistys\n22 Keskinäinen vahinkovakuutusyhdistys\n23 Metsänhoitoyhdistys\n24 Osuuspankki\n25 Osuuskunta\n26 Vakuutuskassa\n27 Työttömyyskassa\n28 Muu taloudellinen yhdistys\n29 Muu yhdistys\n30 Säätiö (säätiölain mukainen)\n31 Säästöpankki\n32 Eläkesäätiö (säädekirjalla perustettu)\n33 Työeläkekassa\n35 Hypoteekkiyhdistys\n39 Muu säätiö\n40 Valtio ja sen laitokset\n60 Valtion liikelaitos\n41 Kunta\n61 Kunnallinen liikelaitos\n42 Kuntayhtymä\n62 Kuntainliiton (kuntayhtymän) liikelaitos\n43 Ahvenanmaan maakunta ja sen virastot\n63 Ahvenanmaan liikelaitos\n44 Evankelis-luterilainen kirkko\n45 Ortodoksinen kirkko\n46 Rekisteröity uskonnollinen yhdyskunta\n47 Ylioppilaskunta tai osakunta\n48 Erillishallinnollinen valtion laitos\n49 Muu julkisoikeudellinen oikeushenkilö\n50 Yhteisetuudet (esim. kalastuskunta)\n51 Verotusyhtymät\n52 Yhteisvastuullinen pidätysvelvollinen\n53 Kuolinpesä\n54 Konkurssipesä\n55 Yhteismetsä\n57 Elinkeinoyhtymä\n59 Muu verotuksen yksikkö\n70 Ulkomainen yhteisö\n71 Ulkomaisen yhteisön sivuliike Suomessa\n91 Muut\n92 Muut\n93 Muut\n94 Muut\n95 Muut\n96 Muut\n99 Muut\nZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": "verohoikmuot_2_2012_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "VersioID",
+      "variablename": "Tilastoversio",
+      "conceptdef": "Tilastoversio",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "ves_LyhytaikYhteens",
+      "variablename": "Lyhytaikaiset velat yhteensä",
+      "conceptdef": "(VELVPYHT) Lyhytaikainen vieras pääoma yhteensä. Lyhytaikainen vieraspääoma sisältää lyhytaikaiset pankkilainat, ostovelat ja muut lyhytaikaiset velat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa_yhteensä"
+    },
+    {
+      "identifier": "ves_PitkaaikYhteens",
+      "variablename": "Pitkäaikaiset velat yhteensä",
+      "conceptdef": "(VEPVPYHT) Pitkäaikainen vieras pääoma yhteensä. Pitkäaikainen vieraspääoma muodostuu joukkokirjalainojen, vaihtovelkakirjalainojen, rahoituslaitoslainojen, eläkelainojen, saatujen ennakoiden, ostovelkojen, veloista saman konsernin yrityksille, veloista omistusyhteysyrityksille, muista veloista sekä siirtoveloista.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa_yhteensä"
+    },
+    {
+      "identifier": "ves_Yhteens",
+      "variablename": "Velat yhteensä",
+      "conceptdef": "(VPOYHT) Velat yhteensä. Taseen pitkäaikainen ja lyhytaikainen vieras pääoma yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa_yhteensä"
+    },
+    {
+      "identifier": "VierasPaaomYht",
+      "variablename": "Vieras pääoma yhteensä",
+      "conceptdef": "(VPOYHT) Vieras pääoma yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vastattavaa_yhteensä"
+    },
+    {
+      "identifier": "vm_AineTarvTavaraVarastMuutos",
+      "variablename": "Varastojen muutos (lisäys -, vähennys +)",
+      "conceptdef": "(OSTVARMU) Ostovarastojen muutos (lisäys +, vähennys -). Virallisen tuloslaskelman aine-, tarvike- ja tavaravarastojen muutos. Voidaan laskea vaihto-omaisuuden tasearvoista.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "varastojen_muutos"
+    },
+    {
+      "identifier": "vm_ValmKeskErTuotVarastMuutos",
+      "variablename": "Valmistevarastojen lisäys (+) tai vähennys (-)",
+      "conceptdef": "(VALMVARM) Valmiiden ja keskeneräisten tuotteiden varaston muutos (lisäys +, vähennys-). Valmiiden ja keskeneräisten tuotteiden varastojen muutos koostuu vaihto-omaisuuden keskeneräisten tuotteiden ja valmiiden tuotteiden tai tavaroiden yhteisestä varaston muutoksesta. Vaihto-omaisuudessa olevien ennakkomaksujen muutos ei sisälly tuloslaskelman varaston muutokseen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "varastojen_muutos"
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "VuositilastonYksikko",
+      "variablename": "Vuositilaston yksikkö",
+      "conceptdef": "Saa arvon 1, jos yritys kuuluu vuositilastoon, jonka rajaukset ovat seuraavat:\n\n1.       Ei ulkomaisia yksiköitä, ei asunto-osakeyhtiöitä, ei konkurssipesiä: verohOikMuoto ei ole '13', '54', '70'\n2.       Ei julkisyhteisöjä yleiseen vuositilastoon (liikelaitoksista (16) otetaan mukaan hyväksytyt)\n3.       Toimialarajaus: Ei valita julkista hallintoa, maanpuolustusta tai pakollista sosiaalitointa: tol2008Vuosi ei ole 84*, 97\n4.       Oikeudellinen yksikkö täyttää jonkin seuraavista ehdoista:\na.       sektoriluokkaVuosi = 11102, 11103, 121, 12211, 12212, 12213, 12221, 12222, 12223, 12231, 12232, 12233, 12801, 12802, 12803, 12601, 12602, 12603, 123, 12501, 12502, 12503, 1242, 13141, 11211, 11212, 11213, 11221, 11222, 11223, 141, 12701, 12702, 12703, 129 TAI\nb.       (sektoriluokkaVuosi = 11101 JA omtyyppi = 2) TAI\nc.       (sektoriluokkaVuosi = 11101 JA omtyyppi =  3, 4 JA  verohOikMuoto ≠ 40,41,42,43,60,61,62,63) TAI\nd.       sektoriluokkaVuosi is null.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "VuosiToimipaikLaji",
+      "variablename": "Toimipaikkaisuus, yksi- tai monitoimipaikkainen",
+      "conceptdef": "Yrityksen tilikauden toimipaikkaisuus. Kertoo kuinka monta oikeudellista toimipaikkaa yrityksellä on ollut tilastovuoden tilikautena. Mahdolliset arvot ovat; Ei toimivia, Yksi toimiva, Useita toimivia.",
+      "measunit": null,
+      "classification": "alayksik_2_2012_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "yrittajat",
+      "variablename": "Yrittäjät henkilötyövuosina",
+      "conceptdef": "Yrityksen yrittäjät henkilötyövuosina. Henkilötyövuosi kuvaa kokoaikaiseksi muutetun henkilön työpanosta. Yrityksen (yhteisön) kaikki palkatut tunnit (säännöllinen työaika+ylityötunnit) jaetaan yrityksen (yhteisön) kokoaikaisten palkansaajien keskimääräisillä palkatuilla tunneilla vuodessa.",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "YrittajatKeskim",
+      "variablename": "Yrittäjät keskimäärin",
+      "conceptdef": "Yrittäjien lukumäärä keskimäärin tilikautena / kalenterivuonna, nuppiluku. \n  \nMääritelmä: Työpanos, josta ei makseta palkkaa. Yrittäjiä enintään 2 htv:ta ja 4 keskimäärin per yritys.\n  \nEstimointi perustuu eri aineistojen yhdistämiseen Eläketurvakeskuksen YEL / MYEL -aineistoon. \nAineistoja:\n- VILMTK (vuosi-ilmoitustietokanta, henkilöittäin ja työsuhteittain kalenterivuoden aikana, verohallinto)\n- YTY:n oikeudelliset yksiköt\n- yhtiömiesaineisto (verohallinto)\n- osakasaineisto (verohallinto)\n- yrittäjäperheenjäsenet (väestötilastot)\n \nYrittäjien laskenta\n*********************\nPotentiaalisten yrittäjien lukumäärän laskenta yritystunnuksittain menetelmällisesti.\nSaadaan yhdistämällä henkilöaineistot yrityksiin.\n\nLasketaan teoreettinen yrittäjätyöpanoksen maksimi potentiaalisten yrittäjien HTV - estimaattien avulla.\nLasketaan ”tilastollinen” yrittäjätyöpanos keskimääräisen työntekijäkohtaisen liikevaihdon avulla.\nYrittäjätyöpanos on pienempi kahdesta edellisestä.\n\nYrityksille, joihin ei yhdisty yrittäjiä, estimointi tehdään toimialan liikevaihto - palkansaaja -suhteen avulla.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "yrittajatLahde",
+      "variablename": "Yrittäjätiedon (htv) lähde",
+      "conceptdef": "Yrittäjien lukumäärä -tiedon (htv) saantilähde.",
+      "measunit": null,
+      "classification": "sntilahde_2_2012_01_01",
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "oik",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": "Tillinpäätösaineistossa vuoteen 2013 asti.\n\nYrityksen oikeudellinen muoto, yritysrekisteristä.\n11 Luonnollinen henkilö\n12 Kuolinpesä, perikunta\n13 Verotusyhtymä\n14 Avoin yhtiö\n15 Konkurssipesä\n21 Kommandiittiyhtiö\n22 Laivanisännistöyhtiö (ei osakeyhtiö)\n31 Osakeyhtiö\n32 Keskinäinen vakuutusyhtiö\n33 Säästöpankki\n34 Eläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa\n35 Asunto-osakeyhtiö\n41 Osuuskunta\n51 Säätiö, rahasto\n52 Aatteellinen yhdistys\n53 Keskinäinen vahinkovakuutusyhdistys\n54 Taloudellinen yhdistys\n61 Julkinen viranomainen\n62 Julkinen liikelaitos\n63 Julkisoikeudellinen yhteisö\n71 Valtionkirkko\n72 Muu uskonnollinen yhteisö\n90 Muu oikeudellinen muoto",
+      "measunit": null,
+      "classification": "oikeudell_muoto_1_1984_01_01",
+      "variablegroups": null
+    }
+  ]
+}

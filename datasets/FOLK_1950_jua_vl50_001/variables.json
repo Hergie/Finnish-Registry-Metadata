@@ -1,0 +1,588 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu TK:n henkilönumero",
+      "conceptdef": "Suojattu Tilastokeskuksen henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa. Suojattu henkilönumero mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JNRO50",
+      "variablename": "Henkilönumero",
+      "conceptdef": "Henkilönumero on ruokakuntalomakkeen rivinumero. Laskennan ruokakuntalomakkeella oli tilaa kahdeksan henkilön tiedoille. Mikäli ruokakunnassa oli yli kahdeksan henkilöä, tarvittiin jatkolomake eli käytännössä toinen ruokakuntalomake, jolle annettiin sama ruokakuntatunnus (ABC-koodi). Jatkolomakkeen ensimmäinen henkilö sai henkilönumerokseen 9. Ohjeiden mukaan luettelo tuli täydentää seuraavassa järjestyksessä: päämies, toiset perheenjäsenet, sukulaiset ja muut henkilöt.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASKO50",
+      "variablename": "Asuntokuntakoodi 1950",
+      "conceptdef": "Kaikilla henkilöillä, jotka asuvat samassa asunnossa, eli kuuluvat samaan asuntokuntaan, on sama asuntokuntakoodi. Koodi on muodostettu ruokakuntalomakkeen A- ja B-tunnusten avulla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRUNO50",
+      "variablename": "Ruokakuntakoodi 1950",
+      "conceptdef": "Ruokakuntalomakkeen viimeinen tunnistuskenttä eli C-koodi erotti samassa asunnossa elävät ruokakunnat toisistaan. Ruokakuntakoodi yksilöi yhdessä asuntokuntakoodin kanssa ruokakunnan (eli PASKO50 + PRUNO50 yksilöi ruokakunnan). Kaikki henkilöt, joilla on sama ruokakuntakoodi, kuuluvat samaan ruokakuntaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PENO50",
+      "variablename": "Perhenumero 1950",
+      "conceptdef": "Jokaiselle otosaineiston henkilölle määritellään perhenumero. PASKO50 + PRUNO50 + PENO50 yksilöi perheen.\nJokaiselle perheenjäsenelle on otosaineiston käsittelyssä annettu perhenumero, joka yhdessä asunto- ja ruokakuntakoodin kanssa yksilöi perheen. Näin voidaan yhdistää kaikki henkilöt, jotka kuuluvat samaan perheeseen. Mikäli samaan ruokakuntaan kuuluu useampi perhe, on ensimmäisen perheen jäsenillä perhenumero 1, toisen perheen jäsenillä 2 jne. Henkilöillä, jotka eivät kuulu perheväestöön, on perhenumero 0 (nolla).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PIKA50",
+      "variablename": "Ikä 31.12.1950",
+      "conceptdef": "Ikä tarkoittaa henkilön ikää kokonaisina vuosina 31.12.1950. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASRU50",
+      "variablename": "Asema ruokakunnassa 1950",
+      "conceptdef": "Henkilön asema ruokakunnassa eli suhde ruokakunnan päämieheen. \nArvoalue:\n0 = päämies\n1 = puoliso (myös avopuoliso)\n2 = lapsi (myös ottolapsi ja puolison lapsi)\n3 = lapsenlapsi (myös puolison lapsenlapsi)\n4 = päämiehen ja puolison vanhemmat (myös äitipuoli, isäpuoli)\n5 = muu sukulainen (myös sisar- tai velipuoli)\n6 = palvelusväki (kotiapulainen, emännöitsijä, palvelija tms.)\n7 = muu (esim. täyshoidossa oleva, kasvattilapsi)\n8 = laitoshoidossa oleva\n9 = tuntematon\n",
+      "measunit": null,
+      "classification": "kotital_asema_3_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SP",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Arvoalue 1=mies,,2.= Nainen. Väestölaskentalomakkeella vaihtoehdot Miespuolinen, Naispuolinen",
+      "measunit": null,
+      "classification": "sukupuoli_2_1970_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIVSA50",
+      "variablename": "Siviilisääty 1950",
+      "conceptdef": "Arvoalue:\n1 = Naimaton\n2 = Naimisissa\n3 = Eronnut\n4 = Asumuserossa\n5 = Leski\n9 =Tuntematon..\nJos siviilisääty jäi ilmoittamatta, pidettiin henkilöä yleensä naimattomana.",
+      "measunit": null,
+      "classification": "siviilisaaty_12_2016_05_25",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIELI50",
+      "variablename": "Kieli 1950",
+      "conceptdef": "Kieli. Kielellinen ryhmitys perustuu vastauksiin, jotka annettiin kyselylomakkeen kysymykseen: ”Kieli, jota parhaiten puhutte. Epäselvissä tapauksissa ilmoittakaa, mihin kieliryhmään lähinnä katsotte kuuluvanne”. Milloin kieli lasten kohdalla oli jäänyt ilmoittamatta, katsottiin heidän kielekseen vanhempien yhteinen kieli. Jos vanhemmat olivat erikielisiä, valittiin kieleksi äidin kieli.\n\n\n\nArvoalue:\n0 = suomi\n1 = ruotsi\n2 = lapinkieli (saame)\n3 = venäjä\n4 = tanska tai norja\n5 = englanti\n6 = saksa\n7 = ranska\n8 = muu kieli\n9 = tuntematon\n",
+      "measunit": null,
+      "classification": "kieli_5_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIETA50",
+      "variablename": "Kielitaito 1950",
+      "conceptdef": "Kielitaitokysymyksessä vastattiin kysymykseen: ”Osaatteko ainakin auttavasti myös\ntoista kotimaista kieltä?\nArvoalue: oli \n0 = ei kielitaitoa, 1= osaa toista kotimaista kieltä\n",
+      "measunit": null,
+      "classification": "kieli_6_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUN50",
+      "variablename": "Asuinkunta 1950",
+      "conceptdef": "Asuinkunta vuoden 1950 luokituksen mukaan. \n\n5-numeroinen koodi muotoa LKKXX (L=lääni, KK=kuntamuoto, XX=kunnat (aakkosjärkestyksessä)).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUNU50",
+      "variablename": "Asuinkunta 1950",
+      "conceptdef": "Asuinkunta vuoden 1950 luokituksen mukaan. Tilastokeskuksen 3-numeroinen kuntakoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYKUN",
+      "variablename": "Syntymäkunta (laskennan luokitus)",
+      "conceptdef": "Kuusinumeroinen syntymäkuntaluokitus.\nMuoto: TLKKXX, jossa T = kuntatyyppi, L = lääni, KK = kuntamuoto, XX = juokseva numero. \n\nT = kuntatyyppi: \n1 = Siuntio, Kirkkonummi \n2 = Nuijamaa, Parikkala, Rautjärvi, Saari, Simpele, Savitaipale, Uukuniemi, Virolahti, Ylämaa, Ilomantsi, Kitee, Värtsilä \n3 = Kuusamo, Salla \n4 = Degerby \n5 = luovutetut kunnat (pl. saaret, Petsamo)\n6 = Lavansaari, Seiskari, Suursaari, Tytärsaari \n7 = Petsamo\n8 = ulkomaat\n9 = tuntematon\n0 = muut kunnat\n\n \nL = lääni: \n0 = Uudenmaan lääni \n1 = Turun ja Porin lääni\n2 = Ahvenanmaa\n3 = Hämeen lääni \n4 = Kymen lääni \n5 = Mikkelin lääni\n6 = Kuopion lääni \n7 = Vaasan lääni\n8 = Oulun lääni \n9 = Lapin lääni\n\n\nKK = kuntamuoto (00 = kaupunki, 01 = kauppala, 10 = maalaiskunta)\n\nXX = juokseva numero\n\nKatso Vuoden 1950 väestölaskennan otosaineiston käikirja  https://www.doria.fi/bitstream/handle/10024/96465/xksk38_195000_1997_dig.pdf?sequence=1\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYKUNU",
+      "variablename": "Syntymäkunta (TK:n kuntaluokitus)",
+      "conceptdef": "Syntymäkunta.Tilastokeskuksen kolminumeroinen kuntatunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SEURA50",
+      "variablename": "Seurakunta / siv. rek. 1950",
+      "conceptdef": "Seurakunta tai siviilirekisteri, jonka kirjoissa asianomainen on. Arvot 00-99, ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSA50",
+      "variablename": "Kansalaisuus 1950",
+      "conceptdef": "Kansalaisuus 1950-luvun maaluokituksen mukaan. Kansalaisuudella tarkoitetaan jonkin maan kansalaisena olemista. Yleensä kansalaisuus saadaan syntyessä, mutta se saattaa vaihtua muutettaessa toiseen maahan asumaan. ",
+      "measunit": null,
+      "classification": "kansalaisuus_1_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULU50",
+      "variablename": "Koulunkäynti 1950",
+      "conceptdef": "Missä henkilö opiskelee laskentahetkellä. Kaikkien henkilöiden piti iästä riippumatta vastata seuraavaan kysymykseen: \"Opiskeletteko parhaillaan jossakin oppilaitoksessa ja missä?\" Kysymyksessä oli senhetkinen koulunkäynti, eivät aiemmin suoritetut opinnot.\n\n\n\nArvoalue:\nX = ei käy koulua\n0 = kansakoulu\n1 = oppikoulu\n2 = korkeakoulu\n3 = kansan- ja työväenopistot\n4 = kansakouluopettajaseminaarit\n5 = maa- metsä- ja kotitalous- sekä kotiteollisuusoppilaitokset\n6 = kauppaoppilaitokset\n7 = teknilliset oppilaitokset\n8 = muut ammatilliset oppilaitokset\n9 = muut oppilaitokset\n",
+      "measunit": null,
+      "classification": "koulutus_8_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SITA50",
+      "variablename": "Sivistystaso 1950",
+      "conceptdef": "Sivistystaso. Kustakin 14 vuotta täyttäneestä henkilöstä tuli ilmoittaa suoritettujen opintojen yleistaso siten, että oli merkittävä tieto kansakoulukurssin, keskikoulukurssin ja ylioppilastutkinnon suorittamisesta.\n\nArvoalue:\n1 = Kansakoulu\n2 = Keskikoulu\n3 = Ylioppilastutkinto\n9 = Ei käynyt koulua, tuntematon",
+      "measunit": null,
+      "classification": "koulutusaste_9_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUTK50",
+      "variablename": "Tutkinto 1950",
+      "conceptdef": "Henkilön suorittama tutkinto vuoden 1950 koulutusluokituksen Koulutus (Id: 812)  mukaisesti.",
+      "measunit": null,
+      "classification": "koulutus_1_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERUS50",
+      "variablename": "Perusryhmitys 1950",
+      "conceptdef": "Perusryhmitysmuuttujan avulla voi luokitella väestön mm. varsinaiseksi ammatinharjoittajaksi, avustavaksi perheenjäseneksi ja itsenäiseksi ammatittomaks. i\n\nVarsinainen ammatinharjoittaja on jokainen laskentahetkellä 14 vuotta täyttänyt (ts. vuonna 1936 tai sitä ennen syntynyt) henkilö, joka on ilmoittanut pääammattinsa tai -toimensa. Ammattiaktiviteetti, joka varsinaiselta ammatinharjoittajalta vaaditaan, edellyttää säännöllistä kokopäivätyötä tai osapäivätyötä,  johon  on  käytetty vähintään  puolet alan normaalityöajasta.\n\nRuokakunnan jäsen lasketaan avustavaksi perheenjäseneksi, jos hän pysyvästi ja huomattavassa määrin auttaa jotakin ruokakunnan\njäsentä, tavallisesti päämiestä, tämän pää- tai sivuammatissa.\n\nItsenäisiksi ammatittomiksi luetaan aina seuraavat henkilöt, jotka ovat täyttäneet 15 vuotta:\n– entiset  ammatinharjoittajat, paitsi  sellaiset entiset ammatinharjoittajat, jotka ovat naimisissa ammatissa toimivan henkilön kanssa, taikka muuten ilmeisesti täysin riippuvaisia ruokakunnan ammatissa toimivista jäsenistä.\n–15 vuotta täyttäneet opiskelijat\n– pääomalla ja koroilla eläjät\n– vangit\n– kunnalliskotien hoidokit\n\nArvoalue: \n10 = Varsinaiset ammatinharjoittajat\n20 = Avustavat perheenjäsenet\n31 = Perheenemännät (naimisissa olevat naiset), jotka eivät ole ansiotyössä eivätkä avustavia perheenjäseniä\n32 = Naispuoliset 15v täyttäneet, ei naimisissa olevat perheenjäsenet, joiden pääasiallinen toiminta kotitaloustyöt\n33 = Muut ammatissa toimivien perheenjäsenet\n40 = Itsenäiset ammatittomat\n51 = Perheenemännät\n52 = Naispuoliset 15v täyttäneet, ei naimisissa olevat perheenjäsenet, joiden pääasiallinen toiminta kotitaloustyöt\n53 = Muut itsenäisten ammatittomien perheenjäsenet\n99 = Perusryhmitys tuntematon\n\n",
+      "measunit": null,
+      "classification": "paaasial_toimin_8_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PATV50",
+      "variablename": "Ammatissa toimivuus 1950",
+      "conceptdef": "Ammatissa toimiviin on laskettu kaikki henkilöt, jotka laskennan ns. perusryhmityksen mukaan olivat joko varsinaisia ammatinharjoittajia tai avustavia perheenjäseniä. Vuoden 1950 väestölaskennassa ammatissa toimivan väestön alaikäraja oli 14 vuotta. Jotta vertailu myöhempiin laskentoihin helpottuisi, alaikäraja on otosaineistossa nostettu 15 vuoteen. Vuoden 1950 laskennassa ei ollut selvää viiteajanjaksoa. Tiedot taloudellisesta toiminnasta kuvasivat lähinnä koko edellisen vuoden toimintaa.\n\nArvoalue:\n0 = Ammatissa toimivat\n2 = 0-14-vuotiaat\n3 = Opiskelijat, koululaiset\n4 = Muut ammatissa toimimattomat\n",
+      "measunit": null,
+      "classification": "paaasial_toimin_10_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMKO50",
+      "variablename": "Ammatti 1950",
+      "conceptdef": "Henkilön ammatti vuoden 1950 väestölaskennan ammattiluokituksen mukaisesti. Pääammatiksi  tai  -toimeksi  katsottiin väestölaskennassa säännöllinen kokopäiväinen ansiotyö ottamatta  huomioon, miten kauan työsuhde oli kestänyt, samoin myös osapäivätyö, jos siihen käytetty aika oli vähintään puolet alan normaalityöajasta. Jos kysymyksessä oli useamman ammatin harjoittaja, tuli hänen ilmoittaa pääammatikseen se ammatti, johon hän käytti eniten aikaa vuodessa.\n\n",
+      "measunit": null,
+      "classification": "ammatti_1_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OAIKA50",
+      "variablename": "Ammatin oppiaika 1950",
+      "conceptdef": "Pääammatin oppiaika. Koskee vain teollisuuden, käsityön ja rakennusalan työntekijöitä.\n\nArvoalue:\n1 = oppiaika enintään yksi vuosi\n2 = oppiaika noin kaksi vuotta\n3 = oppiaika vähintään kolme vuotta\n9 = ei teollisuuden, käsityön tai rakennusalan työntekijä\n",
+      "measunit": null,
+      "classification": "koulutus_9_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMAS50",
+      "variablename": "Ammattiasema 1950",
+      "conceptdef": "Ammattiryhmityksen tarkoituksena on jakaa ammatissa toimivat henkilöt eri ryhmiin sen mukaan, mikä on heidän ”asemansa ammatissa”.  Väestölaskennan käyttämä ammattiasemaryhmitys perustuu YK:n suosituksiin.\n\nArvoalue:\n0 = Työnantaja\n1 = Yksinäisyrittäjä\n2 = Yrityksen johtaja\n3 = Toimihenkilö\n4 = Työntekijä\n5 = Toimihenkilön avustaja perheenjäsen\n6 = Työntekijän avustava perheenjäsen\n7 = Ei tietoa\n9 = Itsenäiset ammatittomat",
+      "measunit": null,
+      "classification": "ammattiasema_3_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYLU50",
+      "variablename": "Työntekijöiden lukumäärä 1950",
+      "conceptdef": "Itsenäisen yrittäjän alaisuudessa olevien työntekijöiden lukumäärä.\n\nJokaisen itsenäisen yrittäjän tuli ilmoittaa työntekijöidensä lukumäärä. Lomakkeella annettiin seuraavat täyttöohjeet:\n– kotiapulaisia ja perheenjäseniä ei lasketa mukaan\n– työntekijäin lukumäärän ylittäessä 50 riittää arvioluku\n– jos yrityksen toiminta on kausiluontoista, on ilmoitettava työntekijäin keskimääräinen luku yrityksen ollessa tehokkaimmillaan käynnissä.\n– satunnaista työvoimaa ei ilmoiteta\n\nArvoalue:\n0 = ei työntekijöitä\n1 = 1 työntekijä\n2 = 2 työntekijää\n3 = 3-5 \n4 = 6-10\n5 = 11-20\n6 = 21-50\n7 = 51-100\n8 = 101 +\n9 = tuntematon, ei itsenäinen yrittäjä\n\n",
+      "measunit": null,
+      "classification": "yrityskoko_5_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "JURMU50",
+      "variablename": "Työnantajasektori 1950",
+      "conceptdef": "Työnantajasektoriluokitus kuvaa työpaikan omistajuutta ja yritysmuotoa. Sen avulla voidaan tehdä jako mm. julkisen ja yksityisen sektorin välillä.\n\nArvoalue:\n0 = Työnantaja tuntematon, muut kuin toisen palkallisessa palveluksessa olevat ja heidän perheenjäsenensä\n1 = Valtio\n2 = Kunta\n3 = Kirkko ja muut uskonnolliset yhdyskunnat\n4 = Osuustoiminnalliset yritykset\n5 = Valtion osakeyhtiöt\n6 = Muut osakeyhtiöt\n7 = Avoimet ja kommandiittiyhtiöt\n8 = Yhdistykset, säätiöt, säästöpankit\n9 = Yksityiset henkilöt",
+      "measunit": null,
+      "classification": "tyonantajasekt_6_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOLA50",
+      "variablename": "Toimiala 1950",
+      "conceptdef": "Henkilön toimiala (elinkeino) määräytyy hänen työpaikkansa toimialan mukaan. Kaikki samassa toimipaikassa työskentelevät saavat saman toimialan ammatistaan riippumatta. Vuoden 1950 elinkeino luokituksen mukaan.\n\nVuoden 1950 toimialatiedot on johdettu ruokakunnan viitehenkilön - yleensä isän - toimialasta.\n\n999 = Ei ammatissa toimiva, tuntematon",
+      "measunit": null,
+      "classification": "elinkeino_1_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PELTO50",
+      "variablename": "Peltoala hehtaareina 1950",
+      "conceptdef": "Otosaineistossa peltopinta-ala tallennettiin yhden hehtaarin tarkkuudella. Varsinaisessa laskennassa tarkkaa hehtaarilukua ei tallennettu, vaan sitä käytettiin vain aputietona elinkeinohaaran määrittelyssä.\n\n000 - 998 = peltoalahehtaareina\n000 = ei maanviljelijä, tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SITOLA50",
+      "variablename": "Sivuammatin toimiala 1950",
+      "conceptdef": "Jos henkilö harjoittaa pääammattinsa ohella muuta ammattia tai tointa, niin katsotaan tämä ansiota tuottava työskentely sivuammatiksi tai -toimeksi, jos siihen käytetään aikaa keskimäärin vähintään tunti päivää kohti ympäri vuoden, tai kausiluonteisessa kokopäivätyössä yhteensä vähintään kaksi kuukautta vuodessa.\n\nSivuammatiksi ei lueta luottamustoimia eikä etupäässä aatteellisluonteisia toimia, joihin saatetaan käyttää paljon aikaa, mutta joista palkkio on vähäinen. Kotitaloustyötä ei merkitä sivuammatiksi, ellei sitä tehdä ansiotyötarkoituksessa.\n\nSivuammattiryhmittely suoritettiin elinkeinohaaranimikkeistön pohjalta pääryhmien (kahden ensimmäisen numeron) tarkkuudella. \nArvoalue 01-98\n91 = Elinkeinohaaraa ei voi määritellä\n99 = Ei ammatissa toimiva, tuntematon",
+      "measunit": null,
+      "classification": "toimiala_38_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUN39",
+      "variablename": "Asuinkunta 1.9.1939",
+      "conceptdef": "Asuinkunta 1.9.1939. Mikäli henkilö oli syntynyt ennen 1.9.1939, hänen piti ilmoittaa vakinainen asuinpaikka (asuinkunta) kyseisenä päivänä. Ohjeiden mukaan asuinpaikka piti, mikäli mahdollista, ilmoittaa ”nykyisen kunnallisen jaoituksen mukaan”. \nKuntia luokiteltaessa käytettiin samaa luokitusta kuin syntymäkotikuntaluokituksessa.\n\n6-numeroinen koodi muotoa TLKKXX, jossa:\nT = kuntatyyppi (toistaiseksi epäselvä)\nL = lääni \nKK = kuntamuoto (00 = kaupunki, 01 =kauppala, 10 = maalaiskunta)\nXX = juokseva numero\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUNU39",
+      "variablename": "Asuinkunta 1939",
+      "conceptdef": "Asuinkunta (1939) TK:n luokituksen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMAS39",
+      "variablename": "Ammattiasema 1939",
+      "conceptdef": "Ammattiasema 1939. Mikäli henkilö oli syntynyt vuonna 1925 tai sitä ennen, hänen kuului ilmoittaa ammattiasemansa myös syyskuun 1.  päivänä vuonna 1939.\n\nVuoden 1939 ammattiasematietoa ei siirretty muille perheenjäsenille.\nArvoalue:\n1 = Yksinäisyrittäjät\n2 = Yrityksen johtajat\n3 = Toimihenkilöt\n4 = Työntekijät\n5 = Toimihenkilöiden avustavat perheenjäsenet\n6 = Työntekijöiden avustavat perheenjäsenet\n9 = Ammatissa toimimattomat, vuoden 1925 jälkeen syntyneet",
+      "measunit": null,
+      "classification": "ammattiasema_2_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOLA39",
+      "variablename": "Elinkeinohaara 1939",
+      "conceptdef": "Henkilön ammatti tai työpaikka 1.9.1939. Väestölaskentalomakkeella tiedusteltiin ammatti-  ja työpaikkatietoja ajankohdalta 1.9.1939 kaikilta niiltä henkilöiltä, jotka olivat syntyneet vuonna 1925 tai sitä aikaisemmin.\n\nVuoden 1939 toimialatietoa ei siirretty mahdollisille muille perheenjäsenille. Työpaikan toimiala tallennettiin käyttämällä hyväksi vuoden 1950 toimialaluokituksen kahta ensimmäistä numeroa.\n",
+      "measunit": null,
+      "classification": "toimiala_39_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "AVSOL",
+      "variablename": "Avioliiton solmimisvuosi ",
+      "conceptdef": "Naisten nykyisen avioliiton solmimisvuosi.\nLomakkeella tiedusteltiin kaikilta naisilta nykyisen avioliiton solmimisvuotta. Otostutkimuksessa, samoin kuin vuoden 1950 laskennan yhteydessä tallennettiin vuosiluvun kaksi viimeistä numeroa.\n\n 51 = vuosi tuntematon, 52 = ei naimisissa oleva nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LALUNY",
+      "variablename": "Lasten lukumäärä (nyk. avioliitto) 1950",
+      "conceptdef": "Naimisissa olevien naisten elävänä syntyneiden lasten lukumäärä nykyisestä avioliitosta. Otettava huomioon myös täysikäiset lapset sekä ennen laskentahetkeä kuolleet. Tieto vain naimisissa olevilla naisilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAPE50",
+      "variablename": "Huoneiston hallintasuhde 1950",
+      "conceptdef": "Arvoalue:\n1 = Omistaa talon\n2 = Omistaa huoneiston osakkeet\n3 = Asuu vuokralaisena\n4 = Työsuhdeasunto, eläke-etu\n5 = Asuu virka-asunnossa (valtio, kunta, seurakunta)\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "hallintasuhde_2_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "HULU50",
+      "variablename": "Huoneiden lukumäärä 1950",
+      "conceptdef": "Huoneiden lukumäärä 1950. Mikäli huoneistossa oli monta ruokakuntaa, esim. sekä pää- että alivuokralaisia, ei voida varmuudella tietää, kuinka monta huonetta tietyn ruokakunnan jäsenillä oli käytettävissään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HULUKY",
+      "variablename": "Huoneiden lukumäärä ilman lämmitystä 1950",
+      "conceptdef": "Ilman lämmitystä olevien huoneiden lukumäärä asunnossa. Lomakkeella kysyttiin moniko huone huoneistossa on ilman lämmityslaitetta. Mikäli huoneistossa asui useampi ruokakunta, esim. sekä pää- että alivuokralaisia, ei voida varmuudella tietää, kuinka monta tällaista huonetta tietyn ruokakunnan jäsenillä oli käytettävissään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HULAS",
+      "variablename": "Yksinomaan asumiseen 1950",
+      "conceptdef": "Yksinomaan asumiseen tarkoitettujen huoneiden lukumäärä asunnossa. Mikäli huoneistossa asui useampi ruokakunta, esim. sekä pää- että alivuokralaisia, ei voida varmuudella tietää, kuinka monta tällaista huonetta tietyn ruokakunnan jäsenillä oli käytettävissään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HULASM",
+      "variablename": "Asumiseen ja muuhun 1950",
+      "conceptdef": "Asumiseen ja muuhun tarkoitettujen huoneiden lukumäärä asunnossa. \nMikäli huoneistossa asui useampi ruokakunta, esim. sekä pää- että alivuokralaisia, ei voida varmuudella tietää, kuinka monta tällaista huonetta tietyn ruokakunnan jäsenillä oli käytettävissään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HULMU",
+      "variablename": "Yksinomaan muuhun 1950",
+      "conceptdef": "Yksinomaan muuhun kuin asumiseen tarkoitettujen huoneiden lukumäärä asunnossa.\n Mikäli huoneistossa asui useampi ruokakunta, esim. sekä pää- että alivuokralaisia, ei voida varmuudella tietää, kuinka monta tällaista huonetta tietyn ruokakunnan jäsenillä oli käytettävissään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KETY50",
+      "variablename": "Keittiötyyppi 1950",
+      "conceptdef": "Huoneiston keittiötyyppi.\n\nArvoalue:\n0 = huoneistossa ei ole keittiötä\n1 = keittiö\n2 = keittokomero\n3 = keittokaappi\n9 = keittiötyyppi tuntematon\n",
+      "measunit": null,
+      "classification": "keittiotyyppi_2_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "HETY50",
+      "variablename": "Hellatyyppi 1950",
+      "conceptdef": "Millainen hella asunnossa on.\nArvoalue:\n0 = ei hellaa\n1 = puuhella\n2 = kaasuhella\n3 = sähköhella\n9 = tuntematon\n ",
+      "measunit": null,
+      "classification": "varustetaso_5_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SAVA50",
+      "variablename": "Sähkövalo 1950",
+      "conceptdef": "Onko asunnossa sähkövalo.\nArvoalue:\n0 = Asunnossa ei ole sähkövaloa\n1 = Asunnossa on sähkövalo\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_10_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "VEJO50",
+      "variablename": "Vesijohto 1950",
+      "conceptdef": "Onko asunnossa vesijohto.\n\nArvoalue: \n0 = Asunnossa ei ole vesijohtoa\n1 = Asunnossa on vesijohto\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_12_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIEM50",
+      "variablename": "Viemäri 1950",
+      "conceptdef": "Onko asunnossa viemäri.\nArvoalue: \n0 = Asunnossa ei ole viemäriä\n1 = Asunnossa on viemäri\n9 = Tuntematon \n",
+      "measunit": null,
+      "classification": "varustetaso_13_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KELA50",
+      "variablename": "Keskuslämmitys 1950",
+      "conceptdef": "Onko asunnossa keskuslämmitys.\n\nArvoalue:\n0 = Asunnossa ei ole keskuslämmitystä\n1 = Asunnossa on keskuslämmitys\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_7_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAVE50",
+      "variablename": "Lämmin vesi 1950",
+      "conceptdef": "Onko asunnossa lämmin vesi.\nArvoalue:\n0 = Asunnossa ei ole lämmintä vettä\n1 = Asunnossa on lämmin vesi\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_9_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAJO50",
+      "variablename": "Kaasujohto 1950",
+      "conceptdef": "Onko asunnossa kaasujohto.\nArvoalue:\n0 = Ei ole\n1 = On\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_6_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KYLPY50",
+      "variablename": "Kylpyhuone 1950",
+      "conceptdef": "Onko asunnossa kylpyhuone. \nArvoalue:\n0 = Asunnossa ei ole kylpyhuonetta\n1 = Asunnossa on kylpyhuone\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_8_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "WC50",
+      "variablename": "Vesiklosetti 1950",
+      "conceptdef": "Onko asunnossa WC.\nArvoalue:\n0 = Asunnossa ei ole WC:tä\n1 = Asunnossa on WC\n9 = Tuntematon",
+      "measunit": null,
+      "classification": "varustetaso_11_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASKO50",
+      "variablename": "Asuntokunnan koko 1950",
+      "conceptdef": "Kuinka monta henkilöä asuu samassa huoneistossa.\n\nMuuttujan arvo on saatu käyttämällä hyväksi ruokakuntalomakkeiden A- ja B- koodia: kaikkien henkilöiden, jotka asuivat samassa kunnassa ja joilla oli sama AB-koodi, katsottiin asuvan samassa asunnossa. Mikäli samassa asunnossa näytti asuvan yli 25 henkilöä, katsottiin, että kysymyksessä oli joko laitos tms. tai aineistovirhe. Asuntokunnan koon suurin arvo on siksi 25 henkilöä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASPE50",
+      "variablename": "Perheiden lukumäärä asunnossa 1950",
+      "conceptdef": "Perheiden lukumäärä asunnossa 1950.\n\nOtosaineistossa perheiden lukumäärä asunnossa on laskettu erikseen käyttäen hyväksi asuntokunta- ja ruokakuntakoodia sekä perhenumeroa. Varsinaisessa laskennassa 1950 kyseistä tietoa ei tallennettu. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PETY",
+      "variablename": "Perhetyyppi 1950",
+      "conceptdef": "Perhetyyppi 1950.\nArvoalue:\n1 = Aviopuolisot, ei lapsia\n2 = Aviopuolisot, lapsia\n3 = Mies ja lapsia\n4 = Nainen ja lapsia\n9 = Henkilö ei kuulu perheväestöön, tuntematon",
+      "measunit": null,
+      "classification": "perhetyyppi_3_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PETY50",
+      "variablename": "Perhetyyppi 1950",
+      "conceptdef": "Perhetyyppi 1950.\n\nArvoalue:\n0 = Henkilö ei kuulu perheväestöön, tuntematon\n1 = Aviopuolisot, ei lapsia\n2 = Aviopuolisot, lapsia\n3 = Nainen ja lapsia\n4 = Mies ja lapsia",
+      "measunit": null,
+      "classification": "perhetyyppi_4_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "LPEKO",
+      "variablename": "Perheen koko 1950",
+      "conceptdef": "Kuinka monta henkilöä kuuluu samaan perheeseen. Perheessä on aina vähintään kaksi henkilöä ja enintään kaksi sukupolvea.\n\nOtosaineistossa tieto perheen koosta on saatu laskemalla niiden henkilöiden lukumäärä, joilla on sama asuntokuntakoodi, ruokakuntatunnus ja perhenumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P18LA50",
+      "variablename": "Alle 18-vuotiaiden lasten lukumäärä perheessä 1950",
+      "conceptdef": "Alle 18-vuotiaiden lasten lukumäärä perheessä 1950.\n\nLasten lukumäärä pääteltiin otosaineistosta käyttämällä hyväksi asuntokunta-, ruokakunta- ja perhenumeroa sekä ikätietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEKO750",
+      "variablename": "Alle 7v  lasten lkm perheessä 1950",
+      "conceptdef": "Alle 7v  lasten lkm perheessä 1950.\n\nLasten lukumäärä pääteltiin käyttämällä hyväksi asuntokunta-, ruokakunta- ja perhenumeroa sekä ikätietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEKO350",
+      "variablename": "Alle 3v lasten lkm perheessä 1950",
+      "conceptdef": "Alle 3v lasten lkm perheessä 1950.\n\nAlle 3-vuotiaiden lasten lukumäärä pääteltiin käyttämällä hyväksi asuntokunta-, ruokakunta- ja perhenumeroa sekä ikätietoa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NUOR50",
+      "variablename": "Perheen nuorimman lapsen ikä 1950",
+      "conceptdef": "Perheen nuorimman lapsen ikä 1950.\n\nVarsinaisessa laskenta-aineistossa ei ole tietoa perheen nuorimman lapsen iästä. Otosaineistosta tällainen muuttuja kuitenkin löytyy.\nPerheen nuorimman lapsen ikä saatiin sen jälkeen, kun kaikille otoshenkilöille oli määritelty perhenumero ja perheasema.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASPA",
+      "variablename": "Asuntokunnan päämies 1950",
+      "conceptdef": "Onko henkilö asuntokunnan päämies (huoneiston haltija). Huoneiston haltijaksi katsottiin se henkilö, jonka käytössä huoneisto oli. Mikäli asunnossa oli vain yksi ruokakunta, oli ruokakunnan päämies luonnollisesti myös huoneiston haltija.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LRUKO",
+      "variablename": "Ruokakunnan koko 1950",
+      "conceptdef": "Henkilöiden lukumäärä ruokakunnassa.\n\nOtostutkimuksessa ruokakunta määriteltiin siten, ettei siihen voinut kuulua yli 25 henkilöä.\n\nLaskennan julkaisussa ruokakunta määritellään seuraavalla tavalla:\nRuokakunnan muodostavat perheenjäsenet ja muut henkilöt, jotka asuvat yhdessä ja joilla on yhteinen ruokatalous. Siten samassa huoneistossa saattaa asua useampiakin ruokakuntia. Näin on asianlaita silloin, jos asunnossa on alivuokralaisia, toisin sanoen ruokakunta, joka maksaa vuokransa samassa huoneistossa asuvalle huoneistonhaltijalle, olipa tämä huoneiston omistaja tai päävuokraaja. Ruokakunnat voidaan jakaa yksityis- ja laitosruokakuntiin. Yksityisruokakunnat  voidaan  edelleen  jakaa  huoneistonhaltija- ja alivuokralaisruokakuntiin.\n\n00 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LRUKLU",
+      "variablename": "Ruokakuntien lkm asunnossa",
+      "conceptdef": "Ruokakuntien lukumäärä asunnossa.\n\nLaskennan julkaisussa ruokakunta määritellään seuraavalla tavalla:\nRuokakunnan muodostavat perheenjäsenet ja muut henkilöt, jotka asuvat yhdessä ja joilla on yhteinen ruokatalous. Siten samassa huoneistossa saattaa asua useampiakin ruokakuntia. Näin on asianlaita silloin, jos asunnossa on alivuokralaisia, toisin sanoen ruokakunta, joka maksaa vuokransa samassa huoneistossa asuvalle huoneistonhaltijalle, olipa tämä huoneiston omistaja tai päävuokraaja. Ruokakunnat voidaan jakaa yksityis- ja laitosruokakuntiin. Yksityisruokakunnat  voidaan  edelleen  jakaa  huoneistonhaltija- ja alivuokralaisruokakuntiin.\n\n00 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEPA50",
+      "variablename": "Perheen päämies 1950",
+      "conceptdef": "Onko henkilö perheen päämies.\n0 = Ei ole perheen päämies\n1 = On perheen päämies",
+      "measunit": null,
+      "classification": "perheasema_2_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEPERU",
+      "variablename": "Perheenäidin toimen laatu 1950",
+      "conceptdef": "Perheenäidin toimen laatu 1950.\n\n0 = Ei perheenäitiä\n1 = Perheenäidillä on pääammatti\n2 = Perheenäiti on avustava perheenjäsen\n3 = Perheenäidillä on sivuammatti\n4 = Perheenäidillä ei ole pää- eikä sivuammattia\n\nPerheessä katsottiin olevan perheenäiti vain kahdessa tapauksessa: jos perheen päämiehellä oli vaimo tai jos perheellinen nainen oli itse perheenpää. Jos perheen päämiehenä oli joku lapsista ja tämän vanhemmat tai äiti olivat elossa, ei perheessä katsottu olevan perheenäitiä.",
+      "measunit": null,
+      "classification": "toiminnan_laatu_3_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEKOT",
+      "variablename": "Kotiapulainen perheessä 1950",
+      "conceptdef": "Onko perheessä kotiapulaista, sisäkköä tai lastenhoitajaa. Mikäli ruokakunnassa oli useampia perheitä ja vain yksi kotiapulainen, katsottiin kullakin perheellä olevan kotiapua. \n\n0 = Perheessä ei ole kotiapulaista\n1 = On palkkasuhteessa oleva kotiapulainen, sisäkkö, lastenhoitaja\n",
+      "measunit": null,
+      "classification": "kotiapulai_perh_1_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "RUPE50",
+      "variablename": "Perheiden lukumäärä ruokakunnassa 1950",
+      "conceptdef": "Perheiden lukumäärä ruokakunnassa 1950.\n\nOtostutkimuksessa perheiden lukumäärä ruokakunnassa on laskettu erikseen käyttäen hyväksi asuntokunta- ja ruokakuntakoodia sekä perhenumeroa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEAS50",
+      "variablename": "Perheasema 1950",
+      "conceptdef": "Henkilön asema perheessä. Perheasematieto on määritelty laskennan otosaineistossa. Kokonaisaineistossa vastaavaa tietoa ei ole. Henkilön perheasema määriteltiin sen jälkeen, kun perhenumero ja perhetyyppi oli päätelty. Mikäli perhetyyppi oli ”aviopuolisot  ilman  lapsia”  molempien perheenjäsenten perheasemaksi määriteltiin ”aviopuoliso”. Jos kysymyksessä oli lapsiperhe, saivat perheen kaksi vanhinta perheaseman \"aviopuoliso” ja muut perheenjäsenet perheaseman ”lapsi”. \n\n0 = Ei kuulu perheväestöön\n1 = Avio- tai avopuoliso\n2 = Äiti tai isä perheessä, jonka tyyppi äiti/isä ja lapsia\n3 = Lapsi\n\n",
+      "measunit": null,
+      "classification": "peasutyyp_2_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "RUTY50",
+      "variablename": "Ruokakuntatyyppi 1950",
+      "conceptdef": "Ruokakuntatyyppi-tieto luokittelee ruokakuntia ja ruoka-kunnan jäseniä ruokakunnan koostumuksen mukaan. \n\nArvoalue:\n0 = yksinäinen mies\n1 = yksinäinen nainen\n2 = perheruokakunta\n3 = sisarusruokakunta\n4 = muu sukulaisruokakunta\n5 = muu ruokakuntatyyppi\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RUKOT",
+      "variablename": "Kotiapulaisten määrä ruokakunnassa",
+      "conceptdef": "Kotiapulaisten määrä ruokakunnassa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HUHA50",
+      "variablename": "Huoneiston haltija 1950",
+      "conceptdef": "Onko joku ruokakunnan jäsenistä huoneiston haltija. \n\n0 = Kukaan ruokakunnan jäsenistä ei ole huoneiston haltija\n1 = Joku ruokakunnan jäsenistä on huoneiston haltija",
+      "measunit": null,
+      "classification": "hallintaperuste_9_1950_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "EHTO",
+      "variablename": "Henkilötunnuksen päättelysääntö",
+      "conceptdef": "Tieto, joka kertoo, millä säännöllä ko. henkilö on saanut henkilötunnuksen.\n\nLomakkeilla oli kysytty henkilöiden täydelliset nimi- ja syntymäaikatiedot, joten näiden ja joidenkin muiden tietojen avulla otokseen kuuluville henkilöille voitiin hakea henkilötunnus. Tunnuksia löytyi yhteensä 339 766 eli 82,5 % otoksen henkilöistä. Otosaineistossa ovat luonnollisesti mukana myös ne, joille henkilötunnusta ei löydetty.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

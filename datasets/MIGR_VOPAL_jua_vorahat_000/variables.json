@@ -1,0 +1,108 @@
+{
+  "variables": [
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALLOWANCE_DCSN_ID_s",
+      "variablename": "Suojattu vastaanottorahapaatos id",
+      "conceptdef": "Perheenjäsenille tehdään yhteinen päätös\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALLOWANCE_PAYM_DETAIL_ID_s",
+      "variablename": "Suojattu maksutapahtuman id",
+      "conceptdef": "Jokaiselle päätöksessä olevalla henkilölle oma maksutapahtumarivi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTHORITY_OFFICE_ID_s",
+      "variablename": "Suojattu vastaanottokeskus id",
+      "conceptdef": "Vastaanottorahapäätöksen tehneen henkilön organisaatio eli vastaanottokeskus; alataso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTHORITY_OFFICE_NAME_s",
+      "variablename": "Suojattu vastaanottokeskus",
+      "conceptdef": "Vastaanottorahapäätöksen tehneen henkilön organisaatio eli vastaanottokeskus; alataso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAYMENT_SUM",
+      "variablename": "Maksusumma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALLOWANCE_ADDITION",
+      "variablename": "Lisays/vahennys",
+      "conceptdef": "Onko maksu vähennys tai lisäys",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IS_ONEOFF",
+      "variablename": "Kertaluonteinen",
+      "conceptdef": "Onko maksu kertaluonteinen; 0/1",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "dcsn_month",
+      "variablename": "Paatoksen ajankohta kuukausitasolla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payment_month",
+      "variablename": "Maksuajankohta kuukausitasolla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payment_start_month",
+      "variablename": "Maksun ajankohdan alku kuukausitasolla",
+      "conceptdef": "Vastaanottorahamaksu koskee tätä ajanjaksoa. Rahan voi nostaa myös takautuvasti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payment_end_month",
+      "variablename": "Maksun ajankohdan loppu kuukausitasolla",
+      "conceptdef": "Vastaanottorahamaksu koskee tätä ajanjaksoa. Rahan voi nostaa myös takautuvasti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

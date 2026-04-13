@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "KEHA_2022_jua_URA_002.xml",
+      "doi": "tyonv_2016-10_2016-10-25_ain_0001",
+      "subject": "KEHA_URA-aineisto",
+      "contentdescription": "KEHA-keskus eli ELY-keskusten sekä TE-toimistojen kehittämis- ja hallintokeskus ylläpitää työhallinnon asiakaspalvelun tietojärjestelmää URAa. \n\nURA-tietojärjestelmän osa-aineistoja ovat: Työtarjoukset avoimiin työpaikkoihin, Työtarjoukset palkkatukipaikkoihin, Suunnitelmat, Yhteydenottotavat, Palvelulinja, Sanssikortti, Maahanmuuttajien kielitaito, Kaikkien kielitaito) \n\nMuut kuin työnvälitystilaston tiedot on yhdistetty vuosien 2000 - 2010 ja  2011-2014 osalta, ja tämän jälkeen vuosittaiset aineistot ovat erikseen. Vuosien 2000-2010 tiedot on vain 8., 18. ja 28. päivinä syntyneille.  Vuosien 2000-2010 tiedostot, joista löytyy apvm- ja lpvm-muuttujat, on poimittu ehdolla, että työnhaku oli voimassa 2000-2010 ja se oli alkanut vuonna 1995 tai myöhemmin kun taas vuoden  2011 jälkeen tiedostot, joista löytyy apvm- ja lpvm-muuttujat, on poimittu ehdolla, että työnhaku oli voimassa vuonna 2011 tai myöhemmin, ja se oli alkanut vuonna 2000 tai myöhemmin. \n\nTiedot ovat URAssa  pääasiassa jaksoittain siten, että mahdolliset uudet tiedot esimerkiksi asiakkaan työllisyys- ja työttömyysjaksoista sekä asiakkaaseen kohdistetuista työvoimapoliittisista toimenpiteistä lisätään jo olemassa olevien tietojen rinnalle. Luokituksista työnhakijan asiointikieli ja kansalaisuus kirjataan järjestelmään kuitenkin niin, että esimerkiksi asiakkaan kansalaisuuden muuttuessa uusi koodi ei kirjaudu vanhan rinnalle vaan korvaa sen, jolloin vanhentunut tieto poistuu rekisteristä. *** URA-järjestelmästä on poistettu vanhentuneita tietoja ennen tietojen arkistointia. Siksi esimerkiksi vuosina 2000-2006 tehtyjen työtarjousten kaikki taustatiedot puuttuvat (mutta päivämäärät löytyvät)\n\nTässä kuvauksessa on yhdistetty kaikkien osa-aineistojen muuttujakuvaukset. Valitsemalla muuttujaryhmää pystyy erottelemaan eri osa-aineistojen muuttujat. Tiedot päivittyvät Tilastokeskukseen tallennettuun tutkimusaineistoon kerran vuodessa. \n\nAineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Käyttölupaa aineistoon haetaan Tilastokeskuksesta.\n\n",
+      "coveragetemporal": "2000-01-01 - 2024-12-31",
+      "published_day": "2020-08-28",
+      "variable_count": "39",
+      "orgname": "Työ- ja elinkeinoministeriö",
+      "coveragepopulation": "Työnhakijat",
+      "resourcerelation_1": "KEHA-keskuksen URA-aineistot",
+      "resourcerelation_2": null,
+      "keywords": "työmarkkinat,työpaikat,työttömyys,työttömät,työvoimapolitiikka",
+      "line_count": "15293186",
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

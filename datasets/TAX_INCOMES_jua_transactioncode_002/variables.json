@@ -1,0 +1,1140 @@
+{
+  "variables": [
+    {
+      "identifier": "repId",
+      "variablename": "Raportin rivinumero",
+      "conceptdef": "Tilastokeskuksessa muodostettu raportin  tunniste, joka muodostuu samalla kun kyseinen taulu tehdään. Muodostettu, jotta taulujen yhdistäminen olisi tehokkaampaa. Report.repId=transactionCode.repId\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "latauspvm",
+      "variablename": "Aineiston poimintapäivämäärä Tulorekisteristä",
+      "conceptdef": "Tarkoittaa sitä hetkeä, jolloin Tilastokeskus on poiminut aineiston Tulorekisteristä. Tilastokeskus sai tulorekisterin tiedot käyttöön vuoden 2020 alussa, joten tästä syystä vuoden 2019 tiedot on ladattu vasta vuoden 2020 puolella. Tyypillisesti tulorekisteriin ilmoitetut tiedot ladataan yhden päivän viiveellä Tilastokeskukseen.\n Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "recovery",
+      "variablename": "Takaisinperintä = Kyllä/Ei",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sixMonthRuleApplicabe",
+      "variablename": "Pakollisuus (K/E) = K",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode1",
+      "variablename": "Vakuuttamistiedon tyyppi 1",
+      "conceptdef": "1 = Sosiaalivakuutusmaksujen alainen (koodit 2-6). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode2",
+      "variablename": "Vakuuttamistiedon tyyppi 2",
+      "conceptdef": "2 = Työeläkevakuutusmaksun alainen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode3",
+      "variablename": "Vakuuttamistiedon tyyppi 3",
+      "conceptdef": "3 = Sairausvakuutusmaksun alainen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode5",
+      "variablename": "Vakuuttamistiedon tyyppi 5",
+      "conceptdef": "5 = Työttömyysvakuutusmaksun alainen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode6",
+      "variablename": "Vakuuttamistiedon tyyppi 6",
+      "conceptdef": "6 = Työtapaturma- ja ammattitautivakuutusmaksun alainen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "earningsPeriodStart",
+      "variablename": "Ansaintakauden alku",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "earningPeriodEnd",
+      "variablename": "Ansaintakauden loppu",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "earningPeriodDays",
+      "variablename": "Ansaintakauden päivien lukumäärä",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitPrice",
+      "variablename": "Yksikköpalkka – yksikköhinta",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitAmount",
+      "variablename": "Yksiköiden määrä esim. työtuntien määrä",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitCode",
+      "variablename": "Yksikköpalkka – yksikkö (tunti, päivä, viikko, jakso)",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitPrice201",
+      "variablename": "Aikapalkan yksikköhinta",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitAmount201",
+      "variablename": "Aikapalkan yksiköiden lukumäärä",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitCode201",
+      "variablename": "Aikapalkan yksikkö  (tunti, päivä, viikko, jakso)",
+      "conceptdef": "Huom! Tulolajikohtainen tieto, joten tämä tieto kannattaa poimia taulusta transactionInfo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mealBenefitTaxValue",
+      "variablename": "Ravintoedun verotusarvo",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "withhold",
+      "variablename": "Takaisinperittyyn määrään kohdistuva ennakonpidätys",
+      "conceptdef": "Pakollisuus (K/E) = E. https://www.vero.fi/globalassets/tulorekisteri/palkkatietoilmoituksen-tietosisällön-soveltamisohje.pdf",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "benefitCode",
+      "variablename": "Edun tyyppi",
+      "conceptdef": "1 = Asuntoetu, 2 = Puhelinetu, 3 = Ravintoetu, 4 = Muut edut. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Sailorincome",
+      "variablename": "Merityötulo",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SailorIncomeCount",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "carBenefitCode1",
+      "variablename": "Käyttöetu",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "carBenefitCode2",
+      "variablename": "Vapaa autoetu",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount101",
+      "variablename": "Palkka yhteissumma",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount102",
+      "variablename": "Palkkasumma, joka on työeläkevakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount103",
+      "variablename": "Palkkasumma, joka on sosiaalivakuutusmaksujen alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount104",
+      "variablename": "Palkkasumma, joka on sairausvakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount105",
+      "variablename": "Palkkasumma, joka on työttömyysvakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount106",
+      "variablename": "Palkkasumma, joka on työtapaturma- ja ammattitautivakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount201",
+      "variablename": "Aikapalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount202",
+      "variablename": "Aloitepalkkio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount203",
+      "variablename": "Bonuspalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount204",
+      "variablename": "Etuusajalta maksettu täydennyspalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount205",
+      "variablename": "Hätätyökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount206",
+      "variablename": "Iltatyökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount207",
+      "variablename": "Iltavuorolisä",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount208",
+      "variablename": "Irtisanomisajan korvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount209",
+      "variablename": "Kilometrikorvaus (veronalainen)",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount210",
+      "variablename": "Kokouspalkkio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount211",
+      "variablename": "Lauantaityökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount212",
+      "variablename": "Lisätyökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount213",
+      "variablename": "Lomaraha",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount214",
+      "variablename": "Luentopalkkio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount215",
+      "variablename": "Luottamustoimipalkkio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount216",
+      "variablename": "Muu maksettu lisä",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount217",
+      "variablename": "Odotusajan korvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount218",
+      "variablename": "Olosuhdelisä",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount219",
+      "variablename": "Sairausajan osapalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount220",
+      "variablename": "Provisiopalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount221",
+      "variablename": "Sunnuntaityökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount222",
+      "variablename": "Synteettinen optio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount223",
+      "variablename": "Tulospalkkio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount224",
+      "variablename": "Työaikapankin rahakorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount225",
+      "variablename": "Työajantasauskorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount226",
+      "variablename": "Työsuhteeseen perustuva osakeanti",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount227",
+      "variablename": "Urakkapalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount229",
+      "variablename": "Vahingonkorvaus päättämistilanteissa",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount230",
+      "variablename": "Varallaolokorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount231",
+      "variablename": "Vapaaehtoinen korvaus päättämistilanteessa",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount232",
+      "variablename": "Viikkolepokorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount233",
+      "variablename": "Voittopalkkio",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount234",
+      "variablename": "Vuosilomakorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount235",
+      "variablename": "Ylityökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount236",
+      "variablename": "Yötyökorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount237",
+      "variablename": "Yövuorolisä",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount301",
+      "variablename": "Asuntoetu",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount302",
+      "variablename": "Asuntolainan korkoetu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount303",
+      "variablename": "Ateriakorvaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount304",
+      "variablename": "Autoetu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount308",
+      "variablename": "Hallintoelimen jäsenyydestä maksettu palkkio",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount309",
+      "variablename": "Henkilöstörahastosta nostettu rahasto-osuus ja ylijäämä (veronalainen 80%)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount310",
+      "variablename": "Henkilöstölle annettu rahalahja",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount311",
+      "variablename": "Kilometrikorvaus (verovapaa)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount312",
+      "variablename": "Kunnaneläinlääkärin toimenpidepalkkio",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount313",
+      "variablename": "Käyttökorvaus ansiotuloa",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount314",
+      "variablename": "Käyttökorvaus pääomatuloa",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount315",
+      "variablename": "Muu henkilöstölle suunnattu veronalainen etu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount316",
+      "variablename": "Muu veronalainen ansiotulo",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount317",
+      "variablename": "Muu luontoisetu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount319",
+      "variablename": "Omaishoitajan palkkio",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount320",
+      "variablename": "Osakepalkkio",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount321",
+      "variablename": "Sijaismaksajan maksama palkka, josta työnantaja maksaa työnantajan sosiaalivakuutusmaksut",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount322",
+      "variablename": "Sijaismaksajan maksama palkka, josta työnantaja maksaa työnantajan työeläkevakuutusmaksun",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount323",
+      "variablename": "Sijaismaksajan maksama palkka, josta työnantaja maksaa työnantajan työttömyysvakuutusmaksun",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount324",
+      "variablename": "Sijaismaksajan maksama palkka, josta työnantaja maksaa työtapaturmavakuutusmaksun",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount325",
+      "variablename": "Sijaismaksajan maksama palkka, josta työnantaja maksaa työnantajan sairausvakuutusmaksun",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount326",
+      "variablename": "Palkkio työsuhdekeksinnöstä",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount328",
+      "variablename": "Perhehoitajan palkkio",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount329",
+      "variablename": "Perhepäivähoitajan kustannusten korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount330",
+      "variablename": "Puhelinetu",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount331",
+      "variablename": "Päiväraha",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount332",
+      "variablename": "Pääomatuloa oleva suoritus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount334",
+      "variablename": "Ravintoetu",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount335",
+      "variablename": "Sovittelijan kulukorvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount336",
+      "variablename": "Työkorvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount337",
+      "variablename": "Työnantajakohtaisen sairaskassan maksama täydennyspäiväraha",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount338",
+      "variablename": "Työnantajan maksama eläke",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount339",
+      "variablename": "Työpanokseen perustuva osinko tai ylijäämä (palkka)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount340",
+      "variablename": "Työpanokseen perustuva osinko tai ylijäämä (työkorvaus)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount341",
+      "variablename": "Työsuhdematkalipun verovapaa osuus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount342",
+      "variablename": "Työsuhdematkalipun palkaksi katsottu osuus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount343",
+      "variablename": "Työsuhdeoptio",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount350",
+      "variablename": "Urheilijarahastoon siirretty palkka",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount351",
+      "variablename": "Urheilijarahastosta maksettu palkka",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount352",
+      "variablename": "Vakuutuspalkka",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount353",
+      "variablename": "Veronalainen kustannusten korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount354",
+      "variablename": "Yksityisen hoidon tuen kuntalisä",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount355",
+      "variablename": "Yksityisen hoidon tuki (palkka)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount356",
+      "variablename": "Yksityisen hoidon tuki (työkorvaus)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount357",
+      "variablename": "Yleishyödyllisen yhteisön maksama kilometrikorvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount358",
+      "variablename": "Yleishyödyllisen yhteisön maksama päiväraha",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount359",
+      "variablename": "Perusteeton etu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount361",
+      "variablename": "Työsuhdeoptio, jonka merkintähinta on luovutusajankohtana alhaisempi kuin markkinahinta",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount401",
+      "variablename": "Autoedusta peritty korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount402",
+      "variablename": "Ennakonpidätys",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount403",
+      "variablename": "Luottamushenkilömaksu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount404",
+      "variablename": "Lähdevero",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount405",
+      "variablename": "Lähdeverovähennys",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount406",
+      "variablename": "Maksettava palkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount407",
+      "variablename": "Muista luontoiseduista peritty korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount408",
+      "variablename": "Nettopalkasta vähennettävä muu erä",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount409",
+      "variablename": "Nettopalkka",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount410",
+      "variablename": "Työnantajan maksaman kollektiivisen lisäeläkevakuutuksen maksu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount411",
+      "variablename": "Työnantajan maksaman kollektiivisen lisäeläkevakuutuksen työntekijältä peritty osuus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount412",
+      "variablename": "Työntekijän sairausvakuutusmaksu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount413",
+      "variablename": "Työntekijän työeläkevakuutusmaksu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount414",
+      "variablename": "Työntekijän työttömyysvakuutusmaksu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount415",
+      "variablename": "Työsuhdematkalipusta peritty korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount416",
+      "variablename": "Ulkomaille maksettu vero",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount417",
+      "variablename": "Ulosmittaus",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount418",
+      "variablename": "Vapaaehtoisen yksilöllisen eläkevakuutuksen maksu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount419",
+      "variablename": "Vähennys ennen ennakonpidätystä",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount238",
+      "variablename": "Muu säännöllinen lisä",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount239",
+      "variablename": "Vastikevapaan korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount327",
+      "variablename": "Perhehoitajan kustannusten korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount362",
+      "variablename": "Rajoitetusti verovelvolliselle maksettu rojalti",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount363",
+      "variablename": "Polkupyöräedun verovapaa osuus",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount364",
+      "variablename": "Polkupyöräedun palkaksi katsottu osuus",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount365",
+      "variablename": "Ehdollinen osakepalkkio",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount420",
+      "variablename": "Polkupyöräedusta peritty korvaus",
+      "conceptdef": "Pakollisuus (K/E) = K, uusi tulolaji 2021 ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

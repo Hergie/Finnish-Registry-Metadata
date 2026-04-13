@@ -1,0 +1,52 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi on se kalenterivuosi, jota tilasto koskee.",
+      "measunit": null,
+      "classification": "vuosi_1_2011_07_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Työnhaun alkamispäivä",
+      "conceptdef": "Työnhaun alkamispäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Työnhaun päättymispäivä",
+      "conceptdef": "Työnhaun päättymispäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "tyol",
+      "variablename": "Työnhakijan työllisyyskoodi",
+      "conceptdef": "Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen vuodenvaihdetta niin työllisyyskoodi on vuoden alun mukainen tilanne. 0 = Työssä oleva, toimenpitein sijoitettu\n1 = Työssä oleva, yleisillä työmarkkinoilla\n2 = Työtön\n3 = Lomautettu\n4 = Lyhennetyllä työviikolla\n5 = Työvoiman ulkopuolella\n6 = Työttömyyseläkkeellä \n9 = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "psyy",
+      "variablename": "Työnhaun päättymissyy",
+      "conceptdef": "Työnhaun päättymissyy. \n0 = Sijoitettu työllistämistoimenpitein\n1 = Välitetty työhön yleisille työmarkkinoille\n2 = Lomautus tai lyh. työviikko päättynyt\n3 = Saanut itse työpaikan\n4 = Aloittanut työvoimakoulutuksen\n5 = Siirtynyt työvoiman ulkopuolelle\n6 = Muu syy tai ei tietoa\n7 = Siirtynyt työttömyyseläkkeelle\n8 = Aloittanut muun koulutuksen\n9 = Siirtynyt työnhakuun ETA-valtioon\n\nUusi luokitus tilastovuodesta 2012 alkaen:\n\n00\tTyöllistetty (entinen nimi: sijoitettu toimenpitein)\n01\tVälitetty työhön yleisille työmarkkinoille\n02\tLomautus tai lyh. työviikko päättynyt\n03\tSaanut itse työpaikan\n04\tAloittanut työvoimakoulutuksen\n05\tSiirtynyt työvoiman ulkopuolelle (nykyisin merkitään soveltuvin osin syillä 11, 12 ja 13)\n06\tMuu syy tai ei tietoa\n07\tSiirtynyt työttömyyseläkkeelle\n08\tAloittanut muun koulutuksen\n09\tTyöhön/työnhakuun EU-/ETA-valtioon\n10\tEi ole uusinut työnhakuaan (tuli ennen korvertoituna ’6’:ksi)\n11\tAloittanut valmennuksen/kokeilun\n12\tAloittanut kuntouttavan työtoiminnan\n13\tAloittanut omaehtoisen opiskelun työttömyysetuudella \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu Tilastokeskuksen henkilönumero",
+      "conceptdef": "Suojattu Tilastokeskuksen henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

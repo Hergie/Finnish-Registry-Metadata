@@ -1,0 +1,860 @@
+{
+  "variables": [
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Alkuperäinen yritystunnus, sisältää myös henkilötunnusmuotoisia tunnuksia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": "vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NTALAYR",
+      "variablename": "Toimialaluokitus 1995, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILTU",
+      "variablename": "Tiedot suorasta kyselystä =1. Laatumuuttuja 1994-1998: Yritys kuuluu Tilastokeskuksen omaan suoraan kyselyyn, kun TILTU=1. Tiedot tarkistettu manuaalisesti.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATULOS",
+      "variablename": "Yhdenkert. kp:n tuloslaskelma umpeen. Laatumuuttuja 1994-1998: yhdenkertaisen kirjanpidon (yrityksellä ei tasetta) tuloslaskelma OK=1, tuloslaskelma imputoitu=5, muut arvot kuvaavat muita korjauksia tms.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LTULOS",
+      "variablename": "Kahdenkert. kp:n tuloslaskelma umpeen. Laatumuuttuja 1994-1998: kahdenkertaisen kirjanpidon tuloslaskelma OK=1, tuloslaskelma imputoitu=5, muut arvot kuvaavat muita korjauksia tms.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TASE",
+      "variablename": "Tase umpeen. Laatumuuttuja 1994-1998: vastaavaa ja vastattavaa umpeen = 1, tase imputoitu = 5, muut arvot kuvaavat muita korjauksia tms.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTI",
+      "variablename": "Vienti (=1)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUNTA",
+      "variablename": "Kotikunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAANI",
+      "variablename": "Lääni",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OIK",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTY95",
+      "variablename": "Omistajatyyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISL95",
+      "variablename": "isl95",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA13",
+      "variablename": "Kuukausipalkat yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOPA",
+      "variablename": "vuopa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIPI",
+      "variablename": "Tilikauden pituus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIPA",
+      "variablename": "Tilikauden päättymisaika",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAIKA",
+      "variablename": "Toiminta-aika",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLAJI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Liikevaihto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVSA",
+      "variablename": "Liikevaihtotiedon saantilähde",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALOAIKA",
+      "variablename": "Aloitusaika",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALOAIKA",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EAK",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VLOPAIKA",
+      "variablename": "Lopettamisaika, vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLOPAIKA",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLOPAIKA",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PUPROK2",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYO",
+      "variablename": "Työnantajuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALV",
+      "variablename": "Arvonlisäverovelvollisuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKPA",
+      "variablename": "Palkattu henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKYR",
+      "variablename": "Yrittäjien lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKPLKM",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HENLKMYH",
+      "variablename": "Henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVAIHTO",
+      "variablename": "Liikevaihto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALMVARM",
+      "variablename": "Valmistevaraston muutos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALMOMAK",
+      "variablename": "Valmistus omaan käyttöön",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIMUTUOT",
+      "variablename": "Liiketoiminnan muut tuotot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTKAIKA",
+      "variablename": "Ostot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTVARMU",
+      "variablename": "Varastojen muutos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOPALV",
+      "variablename": "Ulkopuoliset palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAPALKAT",
+      "variablename": "Palkat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASOSKUL",
+      "variablename": "Henkilösivukulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOKRLEA",
+      "variablename": "Leasing-vuokrat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOKRAM",
+      "variablename": "Muut vuokrat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUKULUT",
+      "variablename": "Muut muuttuvat ja kiinteät kulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKATE",
+      "variablename": "Käyttökate",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POISTOT",
+      "variablename": "Poistot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAHTUOTY",
+      "variablename": "Rahoitustuotot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KORKULUT",
+      "variablename": "Korkokulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUUTRAHK",
+      "variablename": "Muut rahoituskulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POISPITS",
+      "variablename": "Poistot sijoituksista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SATTUKYH",
+      "variablename": "Satunnaiset tuotot ja kulut yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POIVARMU",
+      "variablename": "Poistoero ja varausten muutos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALVEROY",
+      "variablename": "Välittömät verot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILIKTUL",
+      "variablename": "Tilikauden voitto/tappio",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOATONY",
+      "variablename": "Aineettomat hyödykkeet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOANENY",
+      "variablename": "Aineelliset hyödykkeet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOARYHT",
+      "variablename": "Käyttöom.arvopap. ja muut sij.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOYHT",
+      "variablename": "Vastaava: Käyttöomaisuus yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DARVOSTU",
+      "variablename": "Arvostuserät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DVOYHT",
+      "variablename": "Vaihto-omaisuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DSAASIIR",
+      "variablename": "Siirtosaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DSAALAIN",
+      "variablename": "Lainasaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRAHPANK",
+      "variablename": "Rahat ja pankkisaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DMUURAH",
+      "variablename": "Muu rahoitusomaisuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRAHOMYH",
+      "variablename": "Vastaava: Rahoitusomaisuus yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DYHT",
+      "variablename": "Vastaavaa yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOPYHT",
+      "variablename": "Oma pääoma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KVARVEY",
+      "variablename": "Vapaaehtoiset varaukset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KVARPAKO",
+      "variablename": "Pakolliset varaukset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KARVOSTU",
+      "variablename": "Arvostuserät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LMAKSU",
+      "variablename": "Vastattavaa: Liittymismaksurahasto (sähk",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPVPYHT",
+      "variablename": "Pitkäaikainen vieras pääoma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLVPYHT",
+      "variablename": "Lyhytaikainen vieras pääoma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KYHT",
+      "variablename": "Vastattavaa yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTIEU",
+      "variablename": "Vienti: EU-maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENMUUT",
+      "variablename": "Vienti: Muut maat kuin EU-maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTIMK",
+      "variablename": "Vienti yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IRTOMLIS",
+      "variablename": "Lisäykset koneet ja kalustot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IRTOMVAH",
+      "variablename": "Vähennykset koneet ja kalustot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RARALIS",
+      "variablename": "Lisäykset rakennukset ja rakennelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RARAVAH",
+      "variablename": "Vähennykset rakennukset ja rakennelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TITALA",
+      "variablename": "Yrityksen toimiala tol95",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EAKALKU",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLAANI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULAANI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUNTA97",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TU",
+      "variablename": "EVR:n tuloslaskelma on hyväksytty",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TA",
+      "variablename": "EVR:n tase on hyväksytty",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PO",
+      "variablename": "EVR:n poistot on hyväksyt",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IMPU",
+      "variablename": "Tiedot suorasta kyselystä =1. Laatumuuttuja 1994-1998: Yritys kuuluu Tilastokeskuksen omaan suoraan kyselyyn, kun TILTU=1. Tiedot tarkistettu manuaalisesti.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPM",
+      "variablename": "Yrityksen kirjanpitomuoto, imputoinnin y",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALKM",
+      "variablename": "Henkilöstön lukumäärä:Palkatut yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRITLKM",
+      "variablename": "Henkilöstön lukumäärä:Yrittäjät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILYKS",
+      "variablename": "Yritysrekisterin tilastotieto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASA",
+      "variablename": "Palkattu henkilöstö - tiedon saantilähde",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRSA",
+      "variablename": "Yrittäjien saantilähde",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TPLKM",
+      "variablename": "Toimipaikkojen lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOMI",
+      "variablename": "Ulkomainen omistusosuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HENKKESK",
+      "variablename": "Henkilöstön lkm muunnettu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTEMU",
+      "variablename": "Vienti: Muut Emu-maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRT",
+      "variablename": "Yrt",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAAK",
+      "variablename": "Maakunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN2",
+      "variablename": "Suojattu korjattu yritystunnus",
+      "conceptdef": "Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

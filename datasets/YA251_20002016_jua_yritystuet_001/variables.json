@@ -1,0 +1,796 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Alkuperäinen yritystunnus",
+      "conceptdef": "Suojattu yritystunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun2",
+      "variablename": "Uusi yritystunnus",
+      "conceptdef": "Suojattu vaihtoehtoinen yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia. Koskee vain joitakin havaintoja vuosina 2003-2005. Muuttujaa ei mukana aineistossa enää vuosina 2009-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tamy_fiv",
+      "variablename": "Finnveran myöntämät takaukset",
+      "conceptdef": "2000-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "lamy_fiv",
+      "variablename": "Finnveran myöntämät lainat",
+      "conceptdef": "2000-. Finnveran yritystukitietokannassa esiintyvät tuet koostuvat myönnetyistä lainoista ja takauksista, jotka sisältävät kotimaista tai EU-tukea (takaukset sisältävät tukea vasta vuodesta 2010 eteenpäin). Ainoastaan luoton tai takauksen suuruus on ilmoitettu, ei tuen määriä. Tukitietokantaan ilmoitetut laina- ja rahoituspäätökset ovat uuden rahoituksen myöntämiseen liittyviä, eivät vuosittain uusittavia takauspäätöksiä, joita käsitellään pääasiassa muutoskäsittelynä. Vuosittain uusittavien takausten sijaan Finnvera pyrkii lähtökohtaisesti tarjoamaan pidempiä takausaikoja. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "hlkm_fiv",
+      "variablename": "Tukihankkeiden lukumäärä Finnvera (myönnettyä tukea kohden)",
+      "conceptdef": "2000-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "haai_fiv",
+      "variablename": "Hakuajankohta Finnvera",
+      "conceptdef": "2000-. Muodossa KKVV.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "tlaaj_fiv",
+      "variablename": "Finnveran myöntämisperuste: Toiminnan laajentaminen",
+      "conceptdef": "2000-.  Jos käytetty, arvo=1. Käytännössä kaikkien lainojen ensisijainen myöntämisperuste on toiminnan laajentaminen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "ympva_fiv",
+      "variablename": "Finnveran myöntämisperuste: Ympäristövaikutukset",
+      "conceptdef": "2000-. Jos käytetty, arvo=2, muutoin tyhjä. Ympäristöperustein myönnetyt lainat on tarkoitettu pk-yritysten vapaaehtoisiin ympäristöinvestointeihin. Näitä myönnetään säästävän teknologian investointeihin tai päästöjä vähentäviin ulkoisiin investointeihin. Ympäristöperustein myönnetyt takaukset ovat vakuuksia vesiensuojelu-, ilmansuojelu-, sekä jätteidenhyödyntämisinvestointien rahoitukseen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "tasar_fiv",
+      "variablename": "Finnveran myöntämisperuste: Sukupuolten välinen tasa-arvo",
+      "conceptdef": "2000-. Jos käytetty, arvo=2, muutoin tyhjä. Sukupuolten välinen tasa-arvo -perusteella myönnetyt lainat sisältävät esimerkiksi naisyrittäjälainat, joita myönnetään yrityksille, jossa naiset ovat enemmistöosakkaina ja jota yksi naispuolisista osakkaista johtaa päätoimisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "aluet_fiv",
+      "variablename": "Finnveran myöntämisperuste: Alueellinen tasa-arvo",
+      "conceptdef": "2000-. Jos käytetty, arvo=2, muutoin tyhjä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "lahy_fiv",
+      "variablename": "Finnveran hylkäämät lainahakemukset",
+      "conceptdef": "2000-2008. Muuttujan tietosisältö ei luotettava.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "tahy_fiv",
+      "variablename": "Finnveran hylkäämät takaushakemukset",
+      "conceptdef": "2000-2008. Muuttujan tietosisältö ei luotettava.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "finnvera"
+    },
+    {
+      "identifier": "plma_tek",
+      "variablename": "TEKESin maksamat pääomalainat",
+      "conceptdef": "2000-2010",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "lama_tek",
+      "variablename": "TEKESin maksamat lainat",
+      "conceptdef": "2000-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "tuma_tek",
+      "variablename": "TEKESin maksamat suorat tuet",
+      "conceptdef": "2000-. Tekesin osalta mukana ovat kansalliset tutkimus- ja kehitysavustukset ja -lainat sekä EAKR- hankkeiden avustukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "plmy_tek",
+      "variablename": "TEKESin myöntämät pääomalainat",
+      "conceptdef": "2000-2010.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "lamy_tek",
+      "variablename": "TEKESin myöntämät lainat",
+      "conceptdef": "2000-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "tumy_tek",
+      "variablename": "TEKESin myöntämät suorat tuet",
+      "conceptdef": "2000-. Tekesin osalta mukana ovat kansalliset tutkimus- ja kehitysavustukset ja -lainat sekä EAKR- hankkeiden avustukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "hlkm_tek",
+      "variablename": "Tukihankkeiden lukumäärä TEKES (myönnettyä tukea kohden)",
+      "conceptdef": "2000-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "kpros_tek",
+      "variablename": "Kehitystyöprosentti TEKES",
+      "conceptdef": "2000-2008. Kehitystyöprosentti-muuttuja Tekniikan kehittämiskeskuksen aineistossa kertoo asiantuntijan arvion projektin painotuksesta tuotekehityksen ja tutkimuksen välillä. Tuotekehityksessä projektissa pyritään kehittämään uusi tuote tai prosessi, ja tutkimuksessa projekti pyrkii luomaan uutta tietoa tulevaisuuden tuotekehitystä varten. Arvon 100 saava muuttuja kuvaa tuotekehityksellistä, ja arvon 0 tutkimuksellista projektia: välillä olevat arvot kuvaavat painotuksia (mitä lähempänä nollaa, sitä tutkimuspainotteisempi projekti). Jos yrityksellä on monta hanketta, suurin kehitystyöprosentti on valittu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "tuhy_tek",
+      "variablename": "TEKESin hylkäämät tukihakemukset (sis. kaikki hakemukset)",
+      "conceptdef": "2000-2008. Muuttujan tietosisältö ei luotettava.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tekes"
+    },
+    {
+      "identifier": "tumy_temktm",
+      "variablename": "TEM/KTM:n myöntämät suorat tuet",
+      "conceptdef": "2007-. Vastaavat aiempia KTM:n tukia, mutta tukimuoto 3, kansainvälistymistuet, on jäänyt pois käytöstä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tumy1_temktm",
+      "variablename": "Myönnetyt energiatuet, tem",
+      "conceptdef": "2007-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tumy2_temktm",
+      "variablename": "Myönnetyt investointituet, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tumy3_temktm",
+      "variablename": "Myönnetyt kansainvälistymistuet, tem",
+      "conceptdef": "2007-, ei arvoja, sisältyy ryhmään 5 muut kehittämistuet ja avustukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tumy4_temktm",
+      "variablename": "Myönnetyt toimintaymäristötuet, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tumy5_temktm",
+      "variablename": "Myönnetyt muut kehittämistuet ja avustukset, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma_temktm",
+      "variablename": "TEM/KTM:m maksamat suorat tuet",
+      "conceptdef": "2007-. Vastaavat aiempia KTM:n tukia, mutta tukimuoto 3, kansainvälistymistuet, on jäänyt pois käytöstä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma1_temktm",
+      "variablename": "Maksetut energiatuet, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma2_temktm",
+      "variablename": "Maksetut investointituet, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma3_temktm",
+      "variablename": "Maksetut kansainvälistymistuet, tem",
+      "conceptdef": "2007-, ei arvoja, sisältyy ryhmään 5 muut kehittämistuet ja avustukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma4_temktm",
+      "variablename": "Maksetut toimintaymäristötuet, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma5_temktm",
+      "variablename": "Maksetut muut kehittämistuet ja avustukset, tem",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "hlkm_temktm",
+      "variablename": "Tukihankkeiden lukumäärä KTM",
+      "conceptdef": "2007-. Tukihankkeiden lukumäärä, ELY-keskusten jakamat tuet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "stma_tem",
+      "variablename": "TEM:n maksamat starttituet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "stesrma_tem",
+      "variablename": "TEM:n maksamat startti/ESR-tuet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "stmy_tem",
+      "variablename": "TEM:n myöntämät starttituet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "stesrmy_tem",
+      "variablename": "TEM:n myöntämät startti/ESR-tuet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma_tem",
+      "variablename": "TEM:n maksamat suorat tuet",
+      "conceptdef": "2007-. TEM-yhdistymisen jälkeen työministeriön yritystuet voidaan jaotella \"tavallisiin\" tukiin ja starttitukiin. On huomioitava, että yksittäiset päätökset voivat sisältää sekä kansallisia tukia että EU-tukia. Näistä ESR-projektit ovat EU-tukia. TE-keskuksen kautta maksettavia investointitukia ei ole mukana tietokannassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "esrma_tem",
+      "variablename": "TEM:n maksamat ESR-tuet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tumy_tem",
+      "variablename": "TEM:n myöntämät suorat tuet",
+      "conceptdef": "2007-. TEM-yhdistymisen jälkeen työministeriön yritystuet voidaan jaotella \"tavallisiin\" palkkatukiin ja starttitukiin. On huomioitava, että yksittäiset päätökset voivat sisältää sekä kansallisia tukia että EU-tukia. Osalla tuista on kytkentä ESR-projektiin, jotka ovat EU-tukia. TE-keskuksen kautta maksettavia investointitukia ei ole mukana tietokannassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "esrmy_tem",
+      "variablename": "TEM:n myöntämät ESR-tuet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "hlkm_tem",
+      "variablename": "Tukihankkeiden lukumäärä TEM",
+      "conceptdef": "2007-2008. Tukihankkeiden lukumäärä, työllisyystuet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "esrhlkm_tem",
+      "variablename": "ESR-tukihankkeiden lukumäärä TEM",
+      "conceptdef": "2007-2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "sthlkm_tem",
+      "variablename": "Startti-tukihankkeiden lukumäärä TEM",
+      "conceptdef": "2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "stesrhlkm_tem",
+      "variablename": "Startti/ESR-tukihankkeiden lukumäärä TEM",
+      "conceptdef": "2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuha_temktm",
+      "variablename": "TEM/KTM:stä haetut suorat tuet",
+      "conceptdef": "2007-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "kvma_temktm",
+      "variablename": "TEM:n maksetut yhteishankkeiden kv-tuet",
+      "conceptdef": "2007- (2006 asti nimellä kvma_ktm). Yhteishankkeiden kansainvälistymistuilla tarkoitetaan avustusta toimialoittain toteutettaviin vienninedistämistapahtumiin, kaupallis-teollisen tiedottamisen hankkeisiin, muihin viejäyritysten yhteisiin kansainvälistymishankkeisiin (esim. vientirenkaat) sekä matkailualan valtakunnallisiin ja muihin laajoihin ulkomaan markkinoinnin hankkeisiin. Yhteishankkeisiin tulee osal-listua vähintään 4 yritystä. Yritysten omiin kansainvälistymishankkeisiin avustusta myöntävät työvoima- ja elinkeinokeskukset, nämä tuet sisältyvät KTM:n suoriin yritystukiin. Avustusta voidaan myöntää ulkomaankauppaa edistävälle järjestölle, yrityksiä edustavalle toimialayhteisölle tai yritykselle, joka vastaa vientiä edistävän hankkeen tai tapahtuman järjestämisestä. Avustusta voidaan käyttää Suomen vientitarjonnan ja osaamisen tunnetuksi tekemiseen uusilla markkina-alueilla, markkinaosuuksien laajentamiseen sekä yritysten kansainvälistymistä tukeviin suomalaisten viejäyritysten yhteisiin vienninedistämistapahtumiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "hlkm_kv_temktm",
+      "variablename": "TEM:n yhteishankkeiden kv-tuet, hankkeiden lkm",
+      "conceptdef": "2007- (2006 asti hlkm_kv_ktm)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "tuma_tym",
+      "variablename": "Työministeriön maksamat työllistämistuet",
+      "conceptdef": "2003-2006 työministeriön tuet ovat aina suoria tukia, ja niiden myöntämisperuste on aina työllisyyden lisääminen. Työllistämistuet sisältävät sekä kansallisia että EU-tukia (ESR-projektit), mutta eivät työvoima- ja elinkeinokeskusten (TE-keskusten) kautta maksettavia investointitukia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työministeriö"
+    },
+    {
+      "identifier": "tumy_tym",
+      "variablename": "Työministeriön myöntämät työllistämistuet",
+      "conceptdef": "2003-2006 työministeriön tuet ovat aina suoria tukia, ja niiden myöntämisperuste on aina työllisyyden lisääminen. Työllistämistuet sisältävät sekä kansallisia että EU-tukia (ESR-projektit), mutta eivät työvoima- ja elinkeinokeskusten (TE-keskusten) kautta maksettavia investointitukia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työministeriö"
+    },
+    {
+      "identifier": "hlkm_tym",
+      "variablename": "Tukihankkeiden lukumäärä työministeriö",
+      "conceptdef": "2003-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työministeriö"
+    },
+    {
+      "identifier": "tumy_ktm",
+      "variablename": "KTM:m myöntämät suorat tuet",
+      "conceptdef": "2000-2006. Tuet sisältävät kansallisen rahoituksen lisäksi Euroopan aluekehitysrahaston (EAKR) tukia, mutta eivät Euroopan Sosiaalirahaston (ESR) tukia. Tuet on jaettu viiteen eri tukimuotoryhmään (summat euroina). Yritys on voinut saada useamman kuin yhden tukimuodon tukea.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tumy1_ktm",
+      "variablename": "Myönnetyt energiatuet, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tumy2_ktm",
+      "variablename": "Myönnetyt investointituet, KTM",
+      "conceptdef": "2000-2006. Investointituet sisältävät maataloustuotteiden jalostuksen ja markkinoinnin investointituet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tumy3_ktm",
+      "variablename": "Myönnetyt kansainvälistymistuet, KTM",
+      "conceptdef": "2000-2006. Kansainvälistymistuet sisältävät maataloustuotteiden jalostuksen ja markkinoinnin kansainvälistymistuet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tumy4_ktm",
+      "variablename": "Myönnetyt toimintaympäristötuet, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tumy5_ktm",
+      "variablename": "Myönnetyt muut kehittämistuet ja avustukset, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuma_ktm",
+      "variablename": "KTM:m maksamat suorat tuet",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuma1_ktm",
+      "variablename": "Maksetut energiatuet, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuma2_ktm",
+      "variablename": "Maksetut investointituet, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuma3_ktm",
+      "variablename": "Maksetut kansainvälistymistuet, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuma4_ktm",
+      "variablename": "Maksetut toimintaympäristötuet, KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuma5_ktm",
+      "variablename": "Maksetut muut kehittämistuet ja avustukset, ktm",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "tuha_ktm",
+      "variablename": "KTM:stä haetut suorat tuet",
+      "conceptdef": "2000-2006. Jos 0/1 euroa, ei tarkkaa tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "hlkm_ktm",
+      "variablename": "Tukihankkeiden lukumäärä KTM",
+      "conceptdef": "2000-2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "kvma_ktm",
+      "variablename": "KTM:n maksetut yhteishankkeiden kv-tuet",
+      "conceptdef": "2003-2006 (2007- nimellä kvma_temktm). Yhteishankkeiden kansainvälistymistuilla tarkoitetaan avustusta toimialoittain toteutettaviin vienninedistämistapahtumiin, kaupallis-teollisen tiedottamisen hankkeisiin, muihin viejäyritysten yhteisiin kansainvälistymishankkeisiin (esim. vientirenkaat) sekä matkailualan valtakunnallisiin ja muihin laajoihin ulkomaan markkinoinnin hankkeisiin. Yhteishankkeisiin tulee osallistua vähintään 4 yritystä. Yritysten omiin kansainvälistymishankkeisiin avustusta myöntävät työvoima- ja elinkeinokeskukset, nämä tuet sisältyvät KTM:n suoriin yritystukiin. Avustusta voidaan myöntää ulkomaankauppaa edistävälle järjestölle, yrityksiä edustavalle toimialayhteisölle tai yritykselle, joka vastaa vientiä edistävän hankkeen tai tapahtuman järjestämisestä. Avustusta voidaan käyttää Suomen vientitarjonnan ja osaamisen tunnetuksi tekemiseen uusilla markkina-alueilla, markkinaosuuksien laajentamiseen sekä yritysten kansainvälistymistä tukeviin suomalaisten viejäyritysten yhteisiin vienninedistämistapahtumiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "hlkm_kv_ktm",
+      "variablename": "KTM:n yhteishankkeiden kv-tuet, hankkeiden lkm",
+      "conceptdef": "2003-2006. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ktm"
+    },
+    {
+      "identifier": "TUMA_MMM",
+      "variablename": "MMM:n maksamat suorat tuet",
+      "conceptdef": "2001-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "TUMY_MMM",
+      "variablename": "MMM:n myöntämät suorat tuet",
+      "conceptdef": "2001-. Vuotta 2010 aikaisemmissa tiedoissa MMM:n tukiin sisältyy sekä yritys- että hanketukia. Vuoden 2010 tiedoissa hanketukia ei enää ole.\nMaa- ja metsätalousministeriön tuet koskevat lähinnä pieniä yrityksiä (suuremmat kuuluvat KTM:n piiriin). Tällaisia ovat alle kolmen henkilötyövuoden maatalouspohjaiset yritykset, jotka hakevat tukea muuhun kuin maataloustoimintaan (mutta jossa ne hyödyntävät maatalouden rakennuksia tai välineitä), sekä alle viiden henkilötyövuoden maaseudun pienimuotoista yritystoimintaa koskevat tuet, jotka eivät suoraan kytkeydy maatalouteen. Tämän lisäksi tukia myönnetään ns. ketjuyrityksille, jotka perustuvat yhteistyösopimuksiin maatilojen kanssa. Maa- ja metsätalousministeriön hallinnonalalta yritystukitiedoissa ovat mukana vain varsinaisille yrityksille myönnetyt yritystuet, eivät maataloustuet. Tiedoissa ei ole mukana yritystoiminnan kehittämiseen liittyviä yleisiä kehityshankkeita eikä tietyn yritysryhmän toimintaan liittyviä kehityshankkeita. Maa- ja metsätalousministeriön tuet ovat luonteeltaan suoria tukia. Maa- ja metsätalousministeriön tietojen osalta ongelmaa aikasarjamielessä aiheuttaa tukijärjestelmän sisällöllinen muuttuminen vuosina 2008 ja 2010. Lisäksi vuoden 2007 tiedoissa on hyvä huomioida, että MMM:n vanha ohjelmakausi päättyi ja tukien määrä on tästä syystä alhaisempi kuin edeltävinä vuosina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "tuha_mmm",
+      "variablename": "MMM:stä haetut suorat tuet",
+      "conceptdef": "2001-2007.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "hlkm_mmm",
+      "variablename": "Tukihankkeiden lukumäärä MMM",
+      "conceptdef": "2001-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "ohj_mmm",
+      "variablename": "Tukiohjelma: MMM",
+      "conceptdef": "2001-2007. Tukiohjelma oletettu samaksi samalla yrityksellä.\nVuosina 2001-2005:\n1 = Pohjois-Suomen tavoite 1 -ohjelma\n2= Leader+ yhteisöaloite\nVuosina 2006 ja 2007:\n1= Itä-Suomen tavoite 1 -ohjelma\n2= Pohjois-Suomen tavoite 1 -ohjelma\n3= Alueellinen maaseutuohjelma\n7= Leader+ -yhteisöaloite\n19= Etelä- ja Länsi-Suomen maaseudun kehittämisohjelma\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mkyt_mmm",
+      "variablename": "Maatilakytkentä: MMM",
+      "conceptdef": "2001-2007. Oletettu samaksi samalla yrityksellä.\n1= maatilakytkentä\n2= tuotantospimus\n3= toimiryhjä-maatilakytkentä\n4= toimiryhmä-tuotantosopimus\n5= muu yritys\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "alue_mmm",
+      "variablename": "Yrityksen kunta: MMM",
+      "conceptdef": "2001-2007.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "erit_mmm",
+      "variablename": "Tuen erittely: MMM",
+      "conceptdef": "2001-2007. Valittu se, joka useimmassa hankkeessa.\n2= rakentaminen\n3= koneet ja laitteet/kalusto\n4= kehittämistuki\n5= käynnistystuki\n13= kiinteistön hankinta\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "tuma_mmm_vanha",
+      "variablename": "MMM:n maksamat suorat tuet (vanha kausi)",
+      "conceptdef": "2008-2009. Vuodesta 2008- maa- ja metsätalousministeriön tuissa esiintyy sekä vanhoja tukia (joiden maksut jatkuvat) sekä uusia tukia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "hlkm_mmm_vanha",
+      "variablename": "Tukihankkeiden lukumäärä MMM (vanha kausi)",
+      "conceptdef": "2008-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_ma_tplaji1",
+      "variablename": "MMM toimenpide (suurin maksettu)",
+      "conceptdef": "2008-2009.\nToimenpiteet:\n111 Ammatillista koulutusta ja tiedotusta koskevat toimet\n123 Maa- ja metsätaloustuotteiden arvon lisääminen\n124 Yhteistyö maatalouden ja elintarvikealan sekä metsätalouden uusien tuotteiden , menetelmien ja tekniikoiden kehittämiseksi\n311 Taloudellisen toiminnan laajentaminen maatalouden ulkopuolelle\n312 Tuki yritysten perustamiseen ja kehittämiseen\n313 Matkailuelinkeinojen kehittäminen\n321 Elinkeinoelämän ja maaseutuväestön peruspalvelut\n322 Kylien kunnostus ja kehittäminen\n323 Maaseutuperinnön säilyttäminen ja edistäminen\n331 Koulutus ja tiedotus\n421 Alueiden ja valtioiden välinen yhteistyö\n431 Paikallisen toimintaryhmän toiminnan takaaminen, pätevyyden hankkiminen ja toiminnan edistäminen (toimintaraha)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_ma_tplaji2",
+      "variablename": "MMM toimenpide (2. suurin maksettu)",
+      "conceptdef": "2008-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_my_tplaji1",
+      "variablename": "MMM toimenpide (suurin myönnetty)",
+      "conceptdef": "2008-2009.\nToimenpiteet:\n111 Ammatillista koulutusta ja tiedotusta koskevat toimet\n123 Maa- ja metsätaloustuotteiden arvon lisääminen\n124 Yhteistyö maatalouden ja elintarvikealan sekä metsätalouden uusien tuotteiden , menetelmien ja tekniikoiden kehittämiseksi\n311 Taloudellisen toiminnan laajentaminen maatalouden ulkopuolelle\n312 Tuki yritysten perustamiseen ja kehittämiseen\n313 Matkailuelinkeinojen kehittäminen\n321 Elinkeinoelämän ja maaseutuväestön peruspalvelut\n322 Kylien kunnostus ja kehittäminen\n323 Maaseutuperinnön säilyttäminen ja edistäminen\n331 Koulutus ja tiedotus\n421 Alueiden ja valtioiden välinen yhteistyö\n431 Paikallisen toimintaryhmän toiminnan takaaminen, pätevyyden hankkiminen ja toiminnan edistäminen (toimintaraha)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_my_tplaji2",
+      "variablename": "MMM toimenpide (2. suurin myönnetty)",
+      "conceptdef": "2008-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_my_tplaji3",
+      "variablename": "MMM toimenpide (3. suurin myönnetty)",
+      "conceptdef": "2008-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_ma_leader",
+      "variablename": "MMM leader-toimintatapa (maksetut tuet)",
+      "conceptdef": "2008-2009. Leader-toimintaryhmä on rekisteröity maaseudun kehittämisyhdistys, joka rahoittaa yleishyödyllisiä ja elinkeinotoimintaa edistäviä hankkeita sekä yritystukia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_my_leader",
+      "variablename": "MMM leader-toimintatapa (myönnetyt tuet)",
+      "conceptdef": "2008-2009. Leader-toimintaryhmä on rekisteröity maaseudun kehittämisyhdistys, joka rahoittaa yleishyödyllisiä ja elinkeinotoimintaa edistäviä hankkeita sekä yritystukia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_ma_hanketuki",
+      "variablename": "MMM maksanut hanketukea",
+      "conceptdef": "2008-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "mmm_ma_yritystuki",
+      "variablename": "MMM maksanut yritystukea",
+      "conceptdef": "2008-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "hlkm_ma_mmm",
+      "variablename": "Maksettujen tukihankkeiden lukumäärä, MMM",
+      "conceptdef": "2010-. Maksettujen tukihankkeiden lukumäärä, MMM.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "hlkm_my_mmm",
+      "variablename": "Myönnettyjen tukihankkeiden lukumäärä, MMM.",
+      "conceptdef": "2010-. Myönnettyjen tukihankkeiden lukumäärä, MMM. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "inv_ma_mmm",
+      "variablename": "MMM:n maksama tukimuoto: yrityksen investointituki",
+      "conceptdef": "2010-. Maatiloille ja mikroyrityksille voidaan myöntää avustusta yritystoiminnan aloittamisessa tai laajentamisessa tarpeellisen käyttöomaisuuden hankintaan ja sen muutos- ja parannustöihin. Vaihto-omaisuuden hankintaan ja käyttöpääomaan avustusta ei myönnetä. Pk-yrityksille voidaan myöntää avustusta maataloustuotteiden ensiasteen jalostuksen ja markkinoinnin tuottavuuden lisäämistä, tuotteiden laadun parantamista sekä toiminnan kansainvälistämistä tukeviin investointeihin.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "keh_ma_mmm",
+      "variablename": "MMM:n maksama tukimuoto: yrityksen kehittämistuki",
+      "conceptdef": "2010-. Tukea voidaan myöntää sellaisen yrityksen ulkopuolisen asiantuntemuksen ja osaamisen hankkimiseen, joka kehittää yrityksen tuotteita, tuotantomenetelmiä tai markkinointia tai muuten parantaa yrityksen liiketoimintaa. Vähintään kolme yritystä voi toteuttaa kehittämishankkeen ryhmänä. Kaikkien hankkeessa mukana olevien yritysten tulee täyttää ohjelman edellytykset. Hakijana tai hankkeen vetäjänä voi toimia kehittämisyhteisö (neuvontajärjestö, kunnallinen elinkeinoyhtiö, oppilaitos tai muu yrityksille kehittämispalveluita tarjoava organisaatio) tai yksi ryhmän jäsenistä. \n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "kay_ma_mmm",
+      "variablename": "MMM:n maksama tukimuoto: yrityksen käynnistystuki",
+      "conceptdef": "2010-. Yritys voi saada käynnistystukea palkatessaan ensimmäisiä vieraita työntekijöitä. Tukea voi saada enintään kahden henkilötyövuoden palkkauksesta aiheutuviin kustannuksiin kahden vuoden aikana. Näin voidaan siis enintään tukea yhden työntekijän kahden vuoden palkkausta, kahden työntekijän yhden vuoden palkkausta tai neljän työntekijän puolen vuoden palkkausta. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "inv_my_mmm",
+      "variablename": "MMM:n myöntämä tukimuoto: yrityksen investointituki",
+      "conceptdef": "2010-. Maatiloille ja mikroyrityksille voidaan myöntää avustusta yritystoiminnan aloittamisessa tai laajentamisessa tarpeellisen käyttöomaisuuden hankintaan ja sen muutos- ja parannustöihin. Vaihto-omaisuuden hankintaan ja käyttöpääomaan avustusta ei myönnetä. Pk-yrityksille voidaan myöntää avustusta maataloustuotteiden ensiasteen jalostuksen ja markkinoinnin tuottavuuden lisäämistä, tuotteiden laadun parantamista sekä toiminnan kansainvälistämistä tukeviin investointeihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "keh_my_mmm",
+      "variablename": "MMM:n myöntämä tukimuoto: yrityksen kehittämistuki",
+      "conceptdef": "2010-. Tukea voidaan myöntää sellaisen yrityksen ulkopuolisen asiantuntemuksen ja osaamisen hankkimiseen, joka kehittää yrityksen tuotteita, tuotantomenetelmiä tai markkinointia tai muuten parantaa yrityksen liiketoimintaa. Vähintään kolme yritystä voi toteuttaa kehittämishankkeen ryhmänä. Kaikkien hankkeessa mukana olevien yritysten tulee täyttää ohjelman edellytykset. Hakijana tai hankkeen vetäjänä voi toimia kehittämisyhteisö (neuvontajärjestö, kunnallinen elinkeinoyhtiö, oppilaitos tai muu yrityksille kehittämispalveluita tarjoava organisaatio) tai yksi ryhmän jäsenistä. \n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "kay_my_mmm",
+      "variablename": "MMM:n myöntämä tukimuoto: yrityksen käynnistystuki",
+      "conceptdef": "2010-. Yritys voi saada käynnistystukea palkatessaan ensimmäisiä vieraita työntekijöitä. Tukea voi saada enintään kahden henkilötyövuoden palkkauksesta aiheutuviin kustannuksiin kahden vuoden aikana. Näin voidaan siis enintään tukea yhden työntekijän kahden vuoden palkkausta, kahden työntekijän yhden vuoden palkkausta tai neljän työntekijän puolen vuoden palkkausta. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "mmm"
+    },
+    {
+      "identifier": "ener_ma_tem",
+      "variablename": "TEM:n maksetut energiatuet",
+      "conceptdef": "2013-. TEM:n maksetut energiatuet",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "ener_my_tem",
+      "variablename": "TEM:n myönnetyt energiatuet",
+      "conceptdef": "2013-. TEM:n myönnetyt energiatuet",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    },
+    {
+      "identifier": "ener_hlkm_tem",
+      "variablename": "TEM:n energiatuet, hankkeiden lkm",
+      "conceptdef": "2013-. TEM:n energiatuet, hankkeiden lkm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tem"
+    }
+  ]
+}

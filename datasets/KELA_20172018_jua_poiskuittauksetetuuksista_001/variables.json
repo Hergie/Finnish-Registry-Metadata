@@ -1,0 +1,44 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYYPPI",
+      "variablename": "Kuittauksen tyyppi",
+      "conceptdef": "Kuittausta koskevan etuuden maksava taho\nMuuttujan arvot: \n•\tPU = Perustulon kuit-taus Kelan maksamasta etuudesta; \n•\tULKOINEN = Perustu-lon kuittaus työttö-myyskassan maksamasta etuudesta\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KA_MAKSU_PV",
+      "variablename": "Kuittauksen suorituspäivä",
+      "conceptdef": "Kuittauksen kohteena olevan etuuden maksupäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIRJATTU_EUR",
+      "variablename": "Kuittauksen euromäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALAUTTAVA_ETUUS_KOODI",
+      "variablename": "Etuus",
+      "conceptdef": "Etuus, josta kuittaus on tehty\nMuuttujan arvot: \n•\tFM = työmarkkinatuki; \n•\tFP = peruspäiväraha; \n•\tKR = kuntoutusraha; \n•\tPR = sairauspäiväraha; \n•\tQE = kansaneläke; \n•\tVR = vanhempainpäivä-raha, \n•\tKASSA = työttömyys-kassan maksama työt-tömyysetuus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

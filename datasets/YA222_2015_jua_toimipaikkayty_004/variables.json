@@ -1,0 +1,236 @@
+{
+  "variables": [
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Uusi yritysyksikön tunnus, vuodesta 2013 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Oikeudellisen toimipaikan tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sraknrovuosi",
+      "variablename": "Suojattu rakennusnumero",
+      "conceptdef": "Kryptattu rakennusnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajHtv",
+      "variablename": "Palkansaajat henkilötyövuosina",
+      "conceptdef": "Toimipaikan henkilöstö. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.\nHenkilöstö käsittää palkansaajat ja yrittäjät. Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä. Toimipaikoittain yhteenlaskettu henkilöstö eroaa yrityksittäin lasketusta tilastossa. Ero johtuu siitä, että voittoa tavoittelemattomat yhteisöt eivät sisälly yrityksiin, mutta niiden liiketoimipaikat ovat mukana toimipaikkatilastoissa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tol2008Vuosi",
+      "variablename": "Toimipaikan toimiala (TOL2008)",
+      "conceptdef": "Toimipaikan toimiala tilastovuonna TOL 2008 toimialaluokituksella. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrittajat",
+      "variablename": "Yrittäjät henkilötyövuosina",
+      "conceptdef": "Yrittäjien lukumäärä toimipaikassa. Yrittäjät on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen yrittäjä vastaa puolta henkilöä ja kaksi puolivuotista yrittäjä vastaa yhtä kokovuosiyrittäjää. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Liikevaihto/tuotot ammatista yhteensä",
+      "conceptdef": "Toimipaikan liikevaihto/tuotot ammatista yhteensä. Toimipaikkatason liikevaihtotieto ei ole täysin luotettava.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LiikevaihtoLahde",
+      "variablename": "Liikevaihtotiedon lähde",
+      "conceptdef": "Liikevaihtotiedon saantilähde.\n\n\n\t\t\t ",
+      "measunit": null,
+      "classification": "sntilahde_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SijaintikuntaVuosi",
+      "variablename": "Sijaintikunta",
+      "conceptdef": "Toimipaikan sijaintikunta, vuositieto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ToimAikaTilikausi",
+      "variablename": "Toiminta-aika tilikaudella",
+      "conceptdef": "Yrityksen toiminta-aika tilikaudella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Palkkasumma",
+      "variablename": "Palkkasumma",
+      "conceptdef": "Toimipaikan tilastovuoden tilikauden tilastoitavaksi tuleva palkka.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkmaara",
+      "variablename": "Henkilöstömäärä, johdettu",
+      "conceptdef": "Toimipaikan henkilöstömäärä. Henkilöstö käsittää palkansaajat ja yrittäjät (palksaajhtv+yrittajat). Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajKeskim",
+      "variablename": "Palkansaajat keskimäärin",
+      "conceptdef": "Toimipaikan palveluksessa olevien koko- ja osa-aikaisten työntekijöiden lukumäärä, nuppiluku ( headcount).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VuositilastonYksikko",
+      "variablename": "Vuositilaston yksikkö",
+      "conceptdef": "Vuositilaston yksikkö. Saa arvon 1, jos yritys kuuluu vuositilastoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AlPvm",
+      "variablename": "Aloitusaika",
+      "conceptdef": "Yrityksen y-tunnuksen alkamispäivä (VVVVKKPP). Pääsääntöisesti verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella henkilöllä y-tunnuksen alkamispäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LopPvm",
+      "variablename": "Lopetusaika",
+      "conceptdef": "Yrityksen y-tunnuksen lopettamisaika (VVVVKKPP).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OHI",
+      "variablename": "Ohitustunnus",
+      "conceptdef": "Ohitustunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimipTyyppi",
+      "variablename": "Toimipaikkatyyppi",
+      "conceptdef": "Toimipaikkatyyppi. \t\n1\tVarsinainen toimipaikka\t\t\n2\tAputoimipaikka\t\t\n3\tUlkomaiset toiminnot\t\t\n4\tArvopaperikaupan toimipaikka\t\t\n5\tSivuliike ulkomailla\t\t\n7\tTuulivoimala\t\t\n\t\t\t\t",
+      "measunit": null,
+      "classification": "toimiptyyp_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "apuToiminTol2008",
+      "variablename": "Aputoiminnan toimiala (TOL2008)",
+      "conceptdef": "Aputoiminnan toimiala toimialaluokituksen TOL 2008 mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OmtyyppiVuosi",
+      "variablename": "Yrityksen omistajatyyppi",
+      "conceptdef": "Yrityksen omistajatyyppi vuoden 1995 luokituksen mukaan. \nOmistajatyyppejä ovat:\n1 = Yksityinen kotimainen  \n2 = Valtio  \n3 = Kunta  \n4 = Ahvenanmaan maakunta  \n5 = Ulkomaalaisomisteinen  \n6 = Muu omistajatyyppi\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Alkuperamaa",
+      "variablename": "Yrityksen alkuperämaa",
+      "conceptdef": "Yrityksen merkittävimmän ulkomaisen omistajakonsernin/omistajan alkuperäinen sijaintimaa. Vrt. sijoittajamaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLLVY",
+      "variablename": "Liikevaihdon suuruusluokka",
+      "conceptdef": "Huom. vuoteen 2012 asti SLLVT. Toimipaikan liikevaihdon suuruusluokka. \nLuokat ovat:\n1 LV < 1 000  \n2 1 000 <= LV < 40 000  \n3 40 000 <= LV < 100 000  \n4 100 000 <= LV < 400 000  \n5 400 000 <= LV < 2 000 000   \n6 2 000 000 <= LV < 10 000 000  \n7 10 000 000 <= LV < 40 000 000  \n8 40 000 000 <= LV < 200 000 000  \n9 200 000 000 <= LV  \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY",
+      "variablename": "Henkilöstön suuruusluokka ",
+      "conceptdef": "Huom. vuoteen 2012 asti SLHKT. Toimipaikan henkilöstön suuruusluokka. Suuruusluokat ovat:  \n1 HK < 4,5  \n2 4,5 <= HK < 9,5  \n3 9,5 <= HK < 19,5  \n4 19,5 <= HK < 49,5  \n5 49,5 <= HK < 99,5  \n6 99,5 <= HK < 199,5  \n7 199,5 <= HK < 499,5  \n8 499,4 <= HK < 999,5  \n9 999,5 <= HK\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY2",
+      "variablename": "Henkilöstön suuruusluokka EU-luokituksen mukaan",
+      "conceptdef": "Huom. vuoteen 2012 asti SLHKT2. EU-luokituksen mukainen oikeudellisen yksikön henkilöstön suuruusluokka.  \nSuuruusluokat ovat:  \n01 HK < 0,5  \n02 0,5 <= HK < 1,5  \n03 1,5 <= HK < 2,5  \n04 2,5 <= HK < 4,5  \n05 4,5 <= HK < 9,5  \n06 9,5 <= HK < 19,5  \n07 19,5 <= HK < 49,5  \n08 49,5 <= HK < 99,5  \n09 99,5 <= HK < 149,5  \n10 149,5 <= HK < 199,5  \n11 199,5 <= HK < 249,5  \n12 249,5 <= HK < 499,5  \n13 499,5 <= HK < 999,5  \n14 999,5 <= HK\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08yr",
+      "variablename": "Yrityksen toimiala (TOL2008)",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen yksikön (yrityksen) toimiala, toimialaluokitus TOL 2008:n mukaan. Käytössä tilastovuodesta 2007 alkaen. Erikseen saatavilla1999 alkaen.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "verohoikmuoto",
+      "variablename": "Verohallinnon oikeudellinen muoto (yritys)",
+      "conceptdef": "Verohallinnon oikeudellinen muoto, 2013 alkaen. \n01 Luonnollinen henkilö\n10 Avoin yhtiö\n11 Kommandiittiyhtiö\n12 Osakeyhtiö\n13 Asunto-osakeyhtiö\n14 Laivanisännistöyhtiö\n16 Keskinäinen kiinteistö-oy\n17 Muu kiinteistö-oy\n18 Konserni\n19 Muu yhtiö\n20 Aatteellinen yhdistys\n21 Erityislainsäädäntöön perustuva yhdistys\n22 Keskinäinen vahinkovakuutusyhdistys\n23 Metsänhoitoyhdistys\n24 Osuuspankki\n25 Osuuskunta\n26 Vakuutuskassa\n27 Työttömyyskassa\n28 Muu taloudellinen yhdistys\n29 Muu yhdistys\n30 Säätiö (säätiölain mukainen)\n31 Säästöpankki\n32 Eläkesäätiö (säädekirjalla perustettu)\n33 Työeläkekassa\n35 Hypoteekkiyhdistys\n39 Muu säätiö\n40 Valtio ja sen laitokset\n60 Valtion liikelaitos\n41 Kunta\n61 Kunnallinen liikelaitos\n42 Kuntayhtymä\n62 Kuntainliiton (kuntayhtymän) liikelaitos\n43 Ahvenanmaan maakunta ja sen virastot\n63 Ahvenanmaan liikelaitos\n44 Evankelis-luterilainen kirkko\n45 Ortodoksinen kirkko\n46 Rekisteröity uskonnollinen yhdyskunta\n47 Ylioppilaskunta tai osakunta\n48 Erillishallinnollinen valtion laitos\n49 Muu julkisoikeudellinen oikeushenkilö\n50 Yhteisetuudet (esim. kalastuskunta)\n51 Verotusyhtymät\n52 Yhteisvastuullinen pidätysvelvollinen\n53 Kuolinpesä\n54 Konkurssipesä\n55 Yhteismetsä\n57 Elinkeinoyhtymä\n59 Muu verotuksen yksikkö\n70 Ulkomainen yhteisö\n71 Ulkomaisen yhteisön sivuliike Suomessa\n91 Muut\n92 Muut\n93 Muut\n94 Muut\n95 Muut\n96 Muut\n99 Muut\nZZ Tieto puuttuu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "versioID",
+      "variablename": "Tilastoversio",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

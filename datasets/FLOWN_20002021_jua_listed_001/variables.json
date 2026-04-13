@@ -1,0 +1,28 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oyr_porssi",
+      "variablename": "Pörssilistattu yritys",
+      "conceptdef": "Saa arvon 1, jos yritys on pörssilistattu Helsingissä (OMXH). Lähde: Kauppalehden nettisivut. Sisältää konsernien emoyrityksiä, jolloin muiden konserniin kuuluvien Y-tunnusten yhdistäminen tulee tehdä FIRM_GROUP- tai FIRM_ENTER-aineistojen avulla. Aineistossa saattaa olla puutteita tai virheitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

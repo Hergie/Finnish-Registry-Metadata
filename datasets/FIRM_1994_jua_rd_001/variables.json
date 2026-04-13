@@ -1,0 +1,644 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, yrityksen y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SL",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Henkilöstön suuruusluokka:\n2= 0 -19      henkilöä\n3= 20-49       -\"-\n4=50-99        -\"-\n5=100-499   -\"-\n6=500-          -\"-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TALA4",
+      "variablename": "Toimiala (TOL88)",
+      "conceptdef": "Toimiala  Tilastokeskuksen Toimialaluokitus 1988 mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK94",
+      "variablename": "Tutkimus- tai kehitystyötä 1994",
+      "conceptdef": "Yritys tai yksikkö on harjoittanut tutkimusta tai tuotekehitystyötä vuonna 1994, K=kyllä, E=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV94",
+      "variablename": "Liikevaihto 1994, lomaketieto",
+      "conceptdef": "Yrityksen liikevaihto vuonna 1994 (tai 1.4.1994-31.3.1995), vastauksista (1000 mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK94",
+      "variablename": "Henkilökunnan lkm 1994",
+      "conceptdef": "Henkilökunnan lukumäärä 31.12.1994, lomaketieto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTH",
+      "variablename": "T&k-henkilöstö yhteensä",
+      "conceptdef": "Tutkimushenkilökunnan lukumäärä yhteensä 1994, lomaketieto.Tutkimushenkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&khankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTTV",
+      "variablename": "Tutkimustyövuodet 1994",
+      "conceptdef": "Tilikaudenaikana tehdyt tutkimustyövuodet, lomaketieto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALME",
+      "variablename": "Palkat",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994; palkkausmenot, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKME",
+      "variablename": "Rakennusten käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994, rakennusten käyttömenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITAR",
+      "variablename": "Aineet, tarvikkeet",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994, aineet, tarvikkeet markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTPA",
+      "variablename": "Ostetut palvelut",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994, omiin t&k-projekteihin liittyvät palvelujen ostot, markkaa (1000mk)  Ulkopuolisilta tilattuja kokonaisia t&k-hankkeita ei ole ilmoitettu tässä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUME",
+      "variablename": "Muut käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994, muut käyttömenot markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKHA",
+      "variablename": "Rakennusten hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994,  rakennusten hankintamenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUHA",
+      "variablename": "Muut käyttöomaisuuden hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1994, muut (pl. rakennukset) käyttöomaisuuden hankintamenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YSYHT",
+      "variablename": "Oman t&k:n menot yhteensä",
+      "conceptdef": "Yrityksessä tehdyn t&k- toiminnan menot yhteensä 1994, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR1",
+      "variablename": "T&k-menot, TOL A, B maa- jametsätalous",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, A, Maa-ja metsätalous (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR2",
+      "variablename": "T&k-menot, TOL C, kaivos- ja kaivannaistoiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, C, kaivos- ja kaivannaistoiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR3",
+      "variablename": "T&k-menot, TOL 111-115, 118-119, elintarvikkeet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 111-115, 118-119, elintarvikkeet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR4",
+      "variablename": "T&k-menot, TOL 116, juomat",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 116, juomat (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR5",
+      "variablename": "T&k-menot, TOL 117 tupakka",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 117 tupakka (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR6",
+      "variablename": "T&k-menot, TOL 12 tekstiilit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 12 tekstiilit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR7",
+      "variablename": "T&k-menot, TOL 131 vaatteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 131 vaatteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR8",
+      "variablename": "T&k-menot, TOL 132 nahkatuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 132 nahkatuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR9",
+      "variablename": "T&k-menot, TOL 133 jalkineet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 133 jalkineet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR10",
+      "variablename": "T&k-menot, TOL 14 puutavara ja puutuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 14 puutavara ja puutuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR11",
+      "variablename": "T&k-menot, TOL 15 massa, paperi ja paperituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, massa, paperi ja paperituotteet(Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR12",
+      "variablename": "T&k-menot, TOL 16 kustantaminen ja painaminen",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, kustantaminen ja painaminen (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR13",
+      "variablename": "T&k-menot, TOL 17 huonekalut",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 17 huonekalut (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR14",
+      "variablename": "T&k-menot, TOL 181-185 teollisuuskemikaalit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 181-185 teollisuuskemikaalit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR15",
+      "variablename": "T&k-menot, TOL lääkkeet 187",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, lääkkeet 187 (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR16",
+      "variablename": "T&k-menot, TOL  186, 188, 189 muut kemialliset tuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 186, 188, 189 muut kemialliset tuotteet (maalit, painovärit, pesuaiineet, kosmetiikka- ja toalettituotteet, muut) (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR17",
+      "variablename": "T&k-menot, TOL 191 öljyn jalostus",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 191 öljyn jalostus (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR18",
+      "variablename": "T&k-menot, TOL 192-194 öljy- ja kivihiilituotteet, ydinpolttoaine",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 192-194 öljy- ja kivihiilituotteet, ydinpolttoaine (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR19",
+      "variablename": "T&k-menot, TOL 211 kumituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 211 kumituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR20",
+      "variablename": "T&k-menot, TOL 212 muovituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 212 muovituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR21",
+      "variablename": "T&k-menot, TOL 221 lasi, lasituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 221 lasi, lasituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR22",
+      "variablename": "T&k-menot, TOL 222 posliinituotteet, saviastiat",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 222 posliinituotteet, saviastiat (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR23",
+      "variablename": "T&k-menot, TOL 223-229 muut savi- ja kivituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 223-229 muut savi- ja kivituotteet (tiili, sementti, kalkki, laasti, betoni, betonituotteet, vuori- ja lasivilla) (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR24",
+      "variablename": "T&k-menot, TOL 231, 2331 rauta ja teräs",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 231, 2331 rauta ja teräs  (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR25",
+      "variablename": "T&k-menot, TOL 232, 2332 muut metallit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 232, 2332 muut metallit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR26",
+      "variablename": "T&k-menot, TOL 24 metallituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 24 metallituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR27",
+      "variablename": "T&k-menot, TOL 2511 kiinteät moottorit, turbiinit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2511 kiinteät moottorit, turbiinit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR28",
+      "variablename": "T&k-menot, TOL 251, 253 muut yleiskäyttöiset koneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 251, 253 muut yleiskäyttöiset koneet (pumput,kompressorit, voimansiirtolaitteet, polttimet, nostolaitteet, aseet) (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR29",
+      "variablename": "T&k-menot, TOL 2521 maatalouskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2521 maatalouskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR30",
+      "variablename": "T&k-menot, TOL 2522 työstökoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2522 työstökoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR31",
+      "variablename": "T&k-menot, TOL 2523 metallien jalostuskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2523 metallien jalostuskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR32",
+      "variablename": "T&k-menot, TOL 2524 kaivos- ja rakennustoiminnan koneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2524 kaivos- ja rakennustoiminnan koneet(Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR33",
+      "variablename": "T&k-menot, TOL 2525 massa- ja paperikoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2525 massa- ja paperikoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR34",
+      "variablename": "T&k-menot, TOL 2526 muut teollisuuden erikoiskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2526 muut teollisuuden erikoiskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR35",
+      "variablename": "T&k-menot, TOL 261 tieto- ja konttorikoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 261 tieto- ja konttorikoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR36",
+      "variablename": "T&k-menot, TOL 2621, 2622 elektroniset piirit ja tietoliikennvälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2621, 2622 elektroniset piirit ja tietoliikennvälineet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR37",
+      "variablename": "T&k-menot, TOL 2623, 2624 radiot, televisiot, ääni- ja kuvatallenteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2623, 2624 radiot, televisiot (ml. Äänentaltiointi ja -toistolaitteet, videolaitteet), ääni- ja kuvatallenteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR38",
+      "variablename": "T&k-menot, TOL 263 (pl. 2633) sähkökoneet ja -laitteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 263 (pl. 2633) sähkökoneet ja -laitteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR39",
+      "variablename": "T&k-menot, TOL 2633 kotitalouskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2633 kotitalouskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR40",
+      "variablename": "T&k-menot, TOL 264 instrumentit ja hienomekaaniset tuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 264 instrumentit ja hienomekaaniset tuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR41",
+      "variablename": "T&k-menot, TOL 271, 272 laivat ja veneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 271, 272 laivat ja veneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR42",
+      "variablename": "T&k-menot, TOL 273 kiskoilla kulkevat ajoneuvot",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 273 kiskoilla kulkevat ajoneuvot (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR43",
+      "variablename": "T&k-menot, TOL 274 autot ja perävaunut",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 274 autot ja perävaunut (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR44",
+      "variablename": "T&k-menot, TOL 275 ilma-alukset ja niiden moottorit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 275 ilma-alukset ja niiden moottorit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR45",
+      "variablename": "T&k-menot, TOL 2791 polkupyörät, mopot ja moottoripyörät",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 2791 polkupyörät, mopot ja moottoripyörät (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR46",
+      "variablename": "T&k-menot, TOL 279 (pl. 2791) muut kulkuneuvot",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 279 (pl. 2791) muut kulkuneuvot (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR47",
+      "variablename": "T&k-menot, TOL 2903 urheiluvälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu,  2903 urheiluvälineet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR48",
+      "variablename": "T&k-menot, TOL 29 (pl.2903) muut tehdasteollisuustuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 29 (pl.2903) muut tehdasteollisuustuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR49",
+      "variablename": "T&k-menot, TOL E energia- ja vesihuolto",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, E energia- ja vesihuolto (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR50",
+      "variablename": "T&k-menot, TOL F rakentaminen",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, F rakentaminen (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR51",
+      "variablename": "T&k-menot, TOL G, H kauppa, majoitus- ja ravitsemistoiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, G, H kauppa, majoitus- ja ravitsemistoiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR52",
+      "variablename": "T&k-menot, TOL I kuljetus",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, I kuljetus (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR53",
+      "variablename": "T&k-menot, TOL J tietoliikenne",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, J tietoliikenne (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR54",
+      "variablename": "T&k-menot, TOL 72 tietojenkäsittelypalvelut",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, 72 tietojenkäsittelypalvelut (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR55",
+      "variablename": "T&k-menot, TOL K,L,M (pl. 72) rahoitus- vakuutus-, kiinteistö- ja liike-elämää palveleva toiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, K,L,M (pl. 72) rahoitus- vakuutus-, kiinteistö- ja liike-elämää palveleva toiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR56",
+      "variablename": "T&k-menot, TOL N-X yhteiskunnalliset ja henkilökohtaiset palvelut ja muualle luokittelematon toiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon t&k kohdistuu, N-X Yhteiskunnalliset ja henkilökohtaiset palvelut ja muualle luokittelematon toiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK95A",
+      "variablename": "Menoja t&k-toiminnasta 1995",
+      "conceptdef": "Yrityksellä on t&k-menoja vuodelle 1995, K=kyllä E=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK95B",
+      "variablename": "T&k-menot 1995",
+      "conceptdef": "Yrityksen ilmoittamat t&k-menot vuodelle 1995, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK95BA",
+      "variablename": "Arvioidut t&k-menot 1995",
+      "conceptdef": "Mikäli yritys on ilmoittanut aikaisempina vuosina t&k-menoja, eikä ole ilmoittanut niitä kohtaan TK95B, ne on arvioitu edelleisten vuosien perusteella , markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL2",
+      "variablename": "Toimialan (tol88) 2-numerotaso",
+      "conceptdef": "Toimialan (tol88) 2-numerotaso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKKERR",
+      "variablename": "Henkilökunnan korotuskerroin",
+      "conceptdef": "Henkilökunnan korotuskerroin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKMKERR",
+      "variablename": "Lukumääräosuuden kerroin",
+      "conceptdef": "Yritysten lukumäärän korotuskerroin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERR",
+      "variablename": "Liikevaihto-osuuden kerroin",
+      "conceptdef": "Korotuskerroin, liikevaihdosta laskettu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuukausi",
+      "variablename": "Kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerIdType",
+      "variablename": "Maksajan tunnisteen tyyppi ",
+      "conceptdef": "Maksajan tunnisteen tyyppi ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerIdCode_s",
+      "variablename": "Maksajan suojattu yritystunnus",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerOtherIdCode_s",
+      "variablename": "Maksajan suojattu muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerShnro",
+      "variablename": "Maksajan suojattu henkilönumero",
+      "conceptdef": "Maksajan suojattu henkilönumero, muodostetaan Tilastokeskuksessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerIdType",
+      "variablename": "Tulonsaajan tunnisteen tyyppi ",
+      "conceptdef": "Tulonsaajan tunnisteen tyyppi ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerShnro",
+      "variablename": "Tulonsaajan suojattu henkilönumero",
+      "conceptdef": "Tulonsaajan suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokoAikaisuus",
+      "variablename": "Kokoaikaisuus (kokAik) ",
+      "conceptdef": "Kokoaikaisuus tieto on muodostettu työaikaa käsittelevistä muuttujista palvelussuhteen tyyppi (employmentCode), säännöllinen sovittu viikkotyöaika (hoursPerWeek) ja osa-aikaisuuden prosentti (parttime). Muuttujaa käytetään kokoaikaisuuden estimoinnissa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyosuhdeKatkennut",
+      "variablename": "Vajaa (vajaa) ",
+      "conceptdef": "Tämä on apumuuttuja kokoaikaisuuden estimointia varten. Kuvaa tapauksia joissa työsuhde on alkanut tai loppunut kesken maksujakson. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employmentCode",
+      "variablename": "Palvelussuhteen tyyppi ",
+      "conceptdef": "Palvelussuhteen tyyppi ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "parttime",
+      "variablename": "Osa-aikaisuuden prosentti ",
+      "conceptdef": "Osa-aikaisuuden prosentti ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hoursperWeek",
+      "variablename": "Säännöllinen sovittu viikkotyöaika ",
+      "conceptdef": "Säännöllinen sovittu viikkotyöaika ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employed",
+      "variablename": "Palvelussuhteessa ",
+      "conceptdef": "Palvelussuhteessa ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pensionActCode",
+      "variablename": "Tieto työeläkevakuutuksesta ",
+      "conceptdef": "Tieto työeläkevakuutuksesta ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pensionProvIdCode_s",
+      "variablename": "Työeläkelaitoksen suojattu yhtiötunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerType",
+      "variablename": "Tulonsaajan tunnisteen tyyppi ",
+      "conceptdef": "Tulonsaajan tunnisteen tyyppi ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "termCode",
+      "variablename": "Palvelussuhteen kesto ",
+      "conceptdef": "Palvelussuhteen kesto ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CBACode",
+      "variablename": "Sovellettava työehtosopimus ",
+      "conceptdef": "Sovellettava työehtosopimus ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode1",
+      "variablename": "Ammattiluokka (TK10) ",
+      "conceptdef": "Ammattiluokka (TK10) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode2",
+      "variablename": "Ammattiluokka (Keva) ",
+      "conceptdef": "Ammattiluokka (Keva) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode3",
+      "variablename": "Ammattiluokka (Suomen Pankki) ",
+      "conceptdef": "Ammattiluokka (Suomen Pankki) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode4",
+      "variablename": "Ammattiluokka (Trafi) ",
+      "conceptdef": "Ammattiluokka (Trafi) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "placeOfBusiness_s",
+      "variablename": "Suojattu toimipaikan tunnus\n",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nonResident",
+      "variablename": "Rajoitetusti verovelvollinen ",
+      "conceptdef": "Rajoitetusti verovelvollinen ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paymentType",
+      "variablename": "Palkkauksen muoto ",
+      "conceptdef": "Palkkauksen muoto ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "minEmploymentStartDate",
+      "variablename": "Aikaisin palvelussuhteen alkupäivä (minEmploymentStartDate) ",
+      "conceptdef": "Poimitaan palvelussuhteen aikaisin alkupäivä eli pienin arvo muuttujasta employmentStartDate. Kyseinen muuttuja on vapaaehtoinen, joten tietoa ei löydy kaikille. Tietoa käytetään esimerkiksi palkkarakenteessa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "minPaymentStartDate",
+      "variablename": "Aikaisin maksujakson alkupäivä (minPaymentStartDate) ",
+      "conceptdef": "Poimitaan aikaisin palvelussuhteelle kohdistuva maksujakson aloituspäivä.  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KuunViimeinenViikko",
+      "variablename": "Kuukauden viimeinen viikko (KVV) ",
+      "conceptdef": "Kuukauden viimeinen viikko saa arvon 1, jos palvelussuhteella on kohdistunut palkkailmoitus kuukauden viimeiselle viikolle. Tietoa hyödynnetään työssäkäyntitilastossa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t101",
+      "variablename": "Palkka yhteissumma ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t201",
+      "variablename": "Aikapalkka ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t202",
+      "variablename": "Aloitepalkkio ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t213",
+      "variablename": "Lomaraha ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t216",
+      "variablename": "Muu maksettu lisä ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t218",
+      "variablename": "Olosuhdelisä ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t220",
+      "variablename": "Provisiopalkka ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t221",
+      "variablename": "Sunnuntaityökorvaus ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t225",
+      "variablename": "Työajantasauskorvaus ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t227",
+      "variablename": "Urakkapalkka ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t230",
+      "variablename": "Varallaolokorvaus ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t232",
+      "variablename": "Viikkolepokorvaus ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t234",
+      "variablename": "Vuosilomakorvaus ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t238",
+      "variablename": "Muu säännöllinen lisä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t312",
+      "variablename": "Kunnaneläinlääkärin toimenpidepalkkio ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t419",
+      "variablename": "Vähennys ennen ennakonpidätystä ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Luontoisedut",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YlityoAnsiot",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tyoaikalisat",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tulospalkkiot",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutTulolajit1",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutTulolajit2",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutTulolajit3",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijaismaksajanPalkat",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

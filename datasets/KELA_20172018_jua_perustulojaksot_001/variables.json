@@ -1,0 +1,68 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERUSTULOJAKSO_ALPV",
+      "variablename": "Perustulojakson alkamispäivä ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERUSTULOJAKSO_LOPV",
+      "variablename": "Perustulojakson päättymispäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYYKOODI",
+      "variablename": "Lakkautuksen tai hylkäyksen syy ",
+      "conceptdef": "Kertoo millä syyllä perustulokokeiluun kuuluneen henkilön maksu on lakkautettu tai hylätty  \nMuuttujan arvot:  \n\n01 = ei ole antanut pyydettyjä tietoja;  \n\n02 = hakija ei ole antanut pyydettyjä selvityksiä;  \n\n03 = etuuden saaja on kuollut;  \n\n04 = estävä sosiaalietuus (lakkautus);  \n\n07 = asevelvollisuus tai siviilipalvelus (lakkautus);  \n\n51 = asevelvollisuus tai siviilipalvelus (hylkäys);  \n\n53 = estävä sosiaalietuus (hylkäys);  \n\n54 = sovelletaan työskentelyn perusteella vieraan valtion sosiaaliturvalakia;  \n\n55 = oleskelu ulkomailla (yli 30 päivää) tai on muuttanut ulkomaille pysyvästi;  \n\n99 = muut syyt ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RATKAISUTYYPPI",
+      "variablename": "Ratkaisun tyyppi",
+      "conceptdef": "Muuttujan arvot: \n•\tMYÖ = myöntö; \n•\tTAR = tarkistus; \n•\tHYL = hylky; \n•\tLAK = lakkautus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RATKAISU_PV",
+      "variablename": "Ratkaisupäivä",
+      "conceptdef": "Lopullinen ratkaisupäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POIKKEUS_SAANNOLLINEN_EUR",
+      "variablename": "Säännöllisen maksun poikkeuksellinen euromäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POIKKEUS_VAJAA_KK_EUR",
+      "variablename": "Vajaan kuukauden poikkeuksellinen euromäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

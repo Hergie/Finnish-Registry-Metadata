@@ -1,0 +1,684 @@
+{
+  "variables": [
+    {
+      "identifier": "yritysid_s",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Uusi yritysyksikön tunnus, vuodesta 2013 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Alkuperäinen yritystunnus (suojattu)",
+      "conceptdef": "Suojattu yritystunnus (pääasiallinen), oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin). Mm. joidenkin valtion ja kuntien liikelaitosten osalta voi olla tyhjä vuodesta 2013 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun2_s",
+      "variablename": "Uusi yritystunnus (suojattu)",
+      "conceptdef": "Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia. Toisistaan poikkeavia tunnuksia (YRTUN_S on eri kuin YRTUN2_S) on vuosina 1986-1998.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol88",
+      "variablename": "Toimialaluokitus 1988, yritysrekisteri",
+      "conceptdef": "Toimialaluokitus 1988, yritysrekisteristä, saatavilla vuosille 1986-1993. Yrityksen päätoimiala määräytyy arvonlisäyksen perusteella. Yritysrekisterin tietojen puuttuessa vuodelta 1987 yritysten toimialat on haettu ensisijaisesti vuoden 1988 tiedoista ja toissijaisesti vuoden 1986 tiedoista.",
+      "measunit": null,
+      "classification": "toimiala_1_1988_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95",
+      "variablename": "Toimialaluokitus 1995, yritysrekisteri",
+      "conceptdef": "Toimialaluokitus 1995, yritysrekisteristä, saatavilla vuosille 1986-2005",
+      "measunit": null,
+      "classification": "toimiala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02",
+      "variablename": "Toimialaluokitus 2002, yritysrekisteri",
+      "conceptdef": "Toimialaluokitus 2002, yritysrekisteristä, täydennetty luokituskannan toimiala-avaimen avulla kaikille vuosille 1986-.  Yhtenäinen luokitus on kuitenkin vain suuntaa antava, sillä avain kääntää kunkin luokan tiedot aina vain yhteen pääasialliseen luokkaan, vaikka tosiasiallisesti olisi tapahtunut jakautumista useampaan luokkaan. Erityisen suuri muutos luokituksissa on vuoden 2008 jälkeen TOL2008 tultua voimaan. Suositeltavaa on tehdä empiirinen avain vuoden 2008 perusteella, jolloin sekä TOL2002 että TOL2008 ovat saatavissa suoraan yrityksille määriteltyinä.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08",
+      "variablename": "Toimialaluokitus 2008, yritysrekisteri",
+      "conceptdef": "Toimialaluokitus 2008, yritysrekisteristä, saatavissa 2006 alkaen.\nToimialojen käyttö (TOL 2008):\nTilinpäätöstilasto sisältää kattavasti tiedot kaikista liikeyrityksistä lähes kaikilta toimialoilta. Joidenkin toimialojen osalta tietoja käytettäessä on kuitenkin huomioitava tietojen heikko laatutaso.\n1) Seuraavien toimialojen osalta on huomioitava, että toimiala ei kuulu tilinpäätöstilaston kuvausalueeseen. Toimialan yritysten tietojen oikeellisuutta ei tarkisteta. Toimialalta saattaa puuttua joitain yrityksiä ja niiden tiedot saattavat olla virheellisiä. Näiden toimialojen käyttöä on vältettävä ja tietoja käytettäessä on hyvä olla yhteydessä Tilastokeskuksen henkilökuntaan.\n01-03\tMaatalous, metsätalous ja kalatalous\n64-66\tRahoitus ja vakuutustoiminta\n84\tJulkinen hallinto \n851 - 854\tKoulutus\n85591\tKansanopistot, kansalaisopistot ja työväenopistot\n856 \tKoulutusta palveleva toiminta\n86210\tTerveyskeskus- ja vastaavat yleislääkäripalvelut\n91010\tKirjastojen ja arkistojen toiminta\n94 \tJärjestöjen toiminta\n97-98 (T)\tKotitalouksien toiminta työnantajina\n99 (U)\tKansainvälisten organisaatioiden toiminta\n00 (X)\tToimiala tuntematon\n2) Toimialan 68 ”Kiinteistöalan toiminta” tietoja käytettäessä on huomioitava seuraavaa:\nToimialan yrityksen voivat ilmoittaa tietonsa verottajan lomakkeella 4, josta Tilastokeskus ei saa tietoja. Tästä johtuen toimialalta saattaa puuttua joitain yrityksiä ja monien toimialalla olevien yritysten tiedot on jouduttu imputoimaan. Toimialan tietoja on käytettävä varoen.\n",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik",
+      "variablename": "Yrityksen oikeudellinen muoto, yritysrekisteri",
+      "conceptdef": "Vuoteen 2013 asti.\n\nYrityksen oikeudellinen muoto, yritysrekisteristä.\n11\tLuonnollinen henkilö\n12\tKuolinpesä, perikunta\n13\tVerotusyhtymä\n14\tAvoin yhtiö\n15\tKonkurssipesä\n21\tKommandiittiyhtiö\n22\tLaivanisännistöyhtiö (ei osakeyhtiö)\n31\tOsakeyhtiö\n32\tKeskinäinen vakuutusyhtiö\n33\tSäästöpankki\n34\tEläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa\n35\tAsunto-osakeyhtiö\n41\tOsuuskunta\n51\tSäätiö, rahasto\n52\tAatteellinen yhdistys\n53\tKeskinäinen vahinkovakuutusyhdistys\n54\tTaloudellinen yhdistys\n61\tJulkinen viranomainen\n62\tJulkinen liikelaitos\n63\tJulkisoikeudellinen yhteisö\n71\tValtionkirkko\n72\tMuu uskonnollinen yhteisö\n90\tMuu oikeudellinen muoto\n",
+      "measunit": null,
+      "classification": "oikeudell_muoto_1_1984_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilyks",
+      "variablename": "Yritysrekisterin tilastotieto",
+      "conceptdef": "TILYKS saa arvon yksi, kun kyseessä on yritysrekisterin tilastotieto, muutoin nolla. Suositeltavaa käyttää vain tilastotietoja yritysrekisterin tietojen osalta. TILYKS voimassa 2012 asti (puuttuu vuodelta 1987). Vuodesta 2013 alkaen mukana on vain tilastotietoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiltu",
+      "variablename": "Tiedot suorasta kyselystä =1",
+      "conceptdef": "Laatumuuttuja 1994-1998: Yritys kuuluu Tilastokeskuksen omaan suoraan kyselyyn, kun TILTU=1. Tiedot tarkistettu manuaalisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltulos",
+      "variablename": "Kahdenkert. kp:n tuloslaskelma umpeen",
+      "conceptdef": "Laatumuuttuja 1994-1998: kahdenkertaisen kirjanpidon tuloslaskelma OK=1, tuloslaskelma imputoitu=5, muut arvot kuvaavat muita korjauksia tms. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "atulos",
+      "variablename": "Yhdenkert. kp:n tuloslaskelma umpeen",
+      "conceptdef": "Laatumuuttuja 1994-1998: yhdenkertaisen kirjanpidon (yrityksellä ei tasetta) tuloslaskelma OK=1, tuloslaskelma imputoitu=5, muut arvot kuvaavat muita korjauksia tms. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tase",
+      "variablename": "Tase umpeen",
+      "conceptdef": "Laatumuuttuja 1994-1998: vastaavaa ja vastattavaa umpeen = 1, tase imputoitu = 5, muut arvot kuvaavat muita korjauksia tms.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "impu",
+      "variablename": "Tiedot suorasta kyselystä =0",
+      "conceptdef": "Laatumuuttuja 1999-: Yritys kuuluu Tilastokeskuksen omaan suoraan kyselyyn, IMPU=0, tiedot tarkistettu manuaalisesti. IMPU=blankko, tietoja ei tarkistettu käsin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tu",
+      "variablename": "Tuloslaskelma umpeen",
+      "conceptdef": "Laatumuuttuja 1999-2005: tuloslaskelma umpeen = 1, muut arvot kuvaavat erilaisia ongelmia tuloslaskelmassa.\n\nLaatukoodien luokitus 2006-2012:\nTuloverolaskelman tarkistuskoodi (tuotot): \n1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto \nSuositukset laatukoodien käyttäjille: Tilastokeskuksen omaan otokseen sisältyvät yritykset tarkistetaan käsin (IMPU=0) ja niiden sisältämä tieto on luotettavinta. Varsinaisissa laatukoodeissa koodi 1 on luotettavinta. Näistä ei ole löydetty virheitä tai löydetyt virheet on kyetty yksiselitteisesti korjaamaan. Laatukoodit 21 ja 31 ovat myös hyvin luotettavia: Outlier menetelmä (21) on löytänyt ja korjannut virheen sellaisesta muuttujasta, jonka arvo on poikkeuksellisen suuri. Vastaavasti laatukoodin 31 (skaalaus) tapauksessa löydetty virhe on ollut hyvin pieni ja se on kyetty korjaamaan pienin muutoksin. Laatukoodi 41 on myös kohtuullisen luotettava, sillä tiedot pohjautuvat yrityksen edellisen vuoden tietoihin. Laatukoodi 51 tarkoittaa, että yrityksen tiedot on imputoitu. Laatukoodeista 51 indikoi heikointa laatua. Koodilla 99 on jäänyt tietoja kantoihin ja ne liittyvät laatumuuttujiin TU ja KU. Näiden kohdalla tuloissa ja kuluissa olevia tietoja ei ole saatu korjattua, mutta tuloslaskelma täsmää, jolloin tiedot on hyväksytty käytettäviksi. Laatukoodi L5 liittyy tasetietoihin. Varat, velat ja oma pääoma tiedot ovat oikein (vastaa laatukoodia 1), mutta tehdyt tarkastukset ovat normaalia kevyempiä. \n\nLaatukoodien luokitus 2013-: \nTuloverolaskelman tarkistuskoodi (tuotot): \n01 = Tiedot OK 02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä 03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä 04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista 05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista 06 = Virheellistä muuttujaa korjattu useammalla menetelmällä 07 = Tiedoissa virhe 08 = Tase tyhjätty fuusion takia EI KÄYTÖSSÄ ZZ = Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ta",
+      "variablename": "Tase umpeen",
+      "conceptdef": "Laatumuuttuja 1999-2005: tase umpeen = 1, muut arvot kuvaavat erilaisia ongelmia taseessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tu2",
+      "variablename": "Tuloslaskelman korjausmenetelmä",
+      "conceptdef": "Tuloslaskelman korjausmenetelmä 1999-2005: 4 = lähimmän naapurin menetelmä, 2 = tiedot on korjattu skaalaamalla, jolloin suhteellinen virhe on ollut pieni.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ta2",
+      "variablename": "Taseen korjausmenetelmä",
+      "conceptdef": "Taseen korjausmenetelmä 1999-2005: 4 = lähimmän naapurin menetelmä, 2 = tiedot on korjattu skaalaamalla, jolloin suhteellinen virhe on ollut pieni.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KU",
+      "variablename": "Tuloverolaskelman tarkistuskoodi (kulut)",
+      "conceptdef": "Tuloverolaskelman tarkistuskoodi (kulut) \n\nLaatukoodien luokitus 2006-2012: \n1 = tieto virheetön \n21 = tietoja on korjattu outlier-menetelmällä\n31 = tietoja on korjattu skaalausmenetelmällä\n41 = tiedot on imputoitu edellisen vuoden tietojen perusteella\n51 = imputoitu käyttäen donor-menetelmää\n99 = virheellinen/määrittelemätön tieto\nL5 = lomakkeelta 5 saatu tasetieto\n\nSuositukset laatukoodien käyttäjille:\nTilastokeskuksen omaan otokseen sisältyvät yritykset tarkistetaan käsin (IMPU=0) ja niiden sisältämä tieto on luotettavinta. \nVarsinaisissa laatukoodeissa koodi 1 on luotettavinta. Näistä ei ole löydetty virheitä tai löydetyt virheet on kyetty yksiselitteisesti korjaamaan.\nLaatukoodit 21 ja 31 ovat myös hyvin luotettavia: Outlier menetelmä (21) on löytänyt ja korjannut virheen sellaisesta muuttujasta, jonka arvo on poikkeuksellisen suuri. Vastaavasti laatukoodin 31 (skaalaus) tapauksessa löydetty virhe on ollut hyvin pieni ja se on kyetty korjaamaan pienin muutoksin.\nLaatukoodi 41 on myös kohtuullisen luotettava, sillä tiedot pohjautuvat yrityksen edellisen vuoden tietoihin.\nLaatukoodi 51 tarkoittaa, että yrityksen tiedot on imputoitu. Laatukoodeista 51 indikoi heikointa laatua.\nKoodilla 99 on jäänyt tietoja kantoihin ja ne liittyvät laatumuuttujiin TU ja KU. Näiden kohdalla tuloissa ja kuluissa olevia tietoja ei ole saatu korjattua, mutta tuloslaskelma täsmää, jolloin tiedot on hyväksytty käytettäviksi.\nLaatukoodi L5 liittyy tasetietoihin. Varat, velat ja oma pääoma tiedot ovat oikein (vastaa laatukoodia 1), mutta tehdyt tarkastukset ovat normaalia kevyempiä.\n\nLaatukoodien luokitus 2013-:\n01 = Tiedot OK\n02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä\n03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä\n04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista\n05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista\n06 = Virheellistä muuttujaa korjattu useammalla menetelmällä\n07 = Tiedoissa virhe\n08 = Tase tyhjätty fuusion takia     EI KÄYTÖSSÄ\nZZ = Tieto puuttuu\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TT",
+      "variablename": "Tuloverolaskelman tarkistuskoodi (verot)",
+      "conceptdef": "Tuloverolaskelman tarkistuskoodi (verot) \n\nLaatukoodien luokitus 2006-2012: \n1 = tieto virheetön \n21 = tietoja on korjattu outlier-menetelmällä\n31 = tietoja on korjattu skaalausmenetelmällä\n41 = tiedot on imputoitu edellisen vuoden tietojen perusteella\n51 = imputoitu käyttäen donor-menetelmää\n99 = virheellinen/määrittelemätön tieto\nL5 = lomakkeelta 5 saatu tasetieto\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VA",
+      "variablename": "Varallisuuslaskelman tarkistuskoodi (varat)",
+      "conceptdef": "Varallisuuslaskelman tarkistuskoodi (varat) \n\nLaatukoodien luokitus 2006-2012: \n1 = tieto virheetön \n21 = tietoja on korjattu outlier-menetelmällä\n31 = tietoja on korjattu skaalausmenetelmällä\n41 = tiedot on imputoitu edellisen vuoden tietojen perusteella\n51 = imputoitu käyttäen donor-menetelmää\n99 = virheellinen/määrittelemätön tieto\nL5 = lomakkeelta 5 saatu tasetieto\n\nLaatukoodien luokitus 2013-:\n01 = Tiedot OK\n02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä\n03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä\n04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista\n05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista\n06 = Virheellistä muuttujaa korjattu useammalla menetelmällä\n07 = Tiedoissa virhe\n08 = Tase tyhjätty fuusion takia     EI KÄYTÖSSÄ\nZZ = Tieto puuttuu ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VE",
+      "variablename": "Varallisuuslaskelman tarkistuskoodi (velat)",
+      "conceptdef": "Varallisuuslaskelman tarkistuskoodi (velat) \n\nLaatukoodien luokitus 2006-2012: \n1 = tieto virheetön \n21 = tietoja on korjattu outlier-menetelmällä\n31 = tietoja on korjattu skaalausmenetelmällä\n41 = tiedot on imputoitu edellisen vuoden tietojen perusteella\n51 = imputoitu käyttäen donor-menetelmää\n99 = virheellinen/määrittelemätön tieto\nL5 = lomakkeelta 5 saatu tasetieto\n\nLaatukoodien luokitus 2013-:\n01 = Tiedot OK\n02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä\n03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä\n04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista\n05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista\n06 = Virheellistä muuttujaa korjattu useammalla menetelmällä\n07 = Tiedoissa virhe\n08 = Tase tyhjätty fuusion takia     EI KÄYTÖSSÄ\nZZ = Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OP",
+      "variablename": "Varallisuuslaskelman tarkistuskoodi (oma pääoma)",
+      "conceptdef": "Varallisuuslaskelman tarkistuskoodi (oma pääoma) \n\nLaatukoodien luokitus 2006-2012: \n1 = tieto virheetön \n21 = tietoja on korjattu outlier-menetelmällä\n31 = tietoja on korjattu skaalausmenetelmällä\n41 = tiedot on imputoitu edellisen vuoden tietojen perusteella\n51 = imputoitu käyttäen donor-menetelmää\n99 = virheellinen/määrittelemätön tieto\nL5 = lomakkeelta 5 saatu tasetieto\n\nLaatukoodien luokitus 2013-:\n01 = Tiedot OK\n02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä\n03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä\n04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista\n05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista\n06 = Virheellistä muuttujaa korjattu useammalla menetelmällä\n07 = Tiedoissa virhe\n08 = Tase tyhjätty fuusion takia     EI KÄYTÖSSÄ\nZZ = Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SS",
+      "variablename": "Tilikauden tuloksen tarkistuskoodi (tulos)",
+      "conceptdef": "Tilikauden tuloksen tarkistuskoodi\n\nLaatukoodien luokitus 2006-2012: \n1 = tieto virheetön \n21 = tietoja on korjattu outlier-menetelmällä\n31 = tietoja on korjattu skaalausmenetelmällä\n41 = tiedot on imputoitu edellisen vuoden tietojen perusteella\n51 = imputoitu käyttäen donor-menetelmää\n99 = virheellinen/määrittelemätön tieto\nL5 = lomakkeelta 5 saatu tasetieto\n\nLaatukoodien luokitus 2013-:\n01 = Tiedot OK\n02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä\n03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä\n04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista\n05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista\n06 = Virheellistä muuttujaa korjattu useammalla menetelmällä\n07 = Tiedoissa virhe\n08 = Tase tyhjätty fuusion takia     EI KÄYTÖSSÄ\nZZ = Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LL",
+      "variablename": "Laatukoodi (sekä tuloslaskelma että tase)",
+      "conceptdef": "Laatukoodi tuloslaskelmalle ja taseelle 2006-2012: \n\tLL=1, jos SS=1\n\tLL=2, jos SS ei ole 1 ja virhe on alle 5% liikevaihdosta\n\tLL=3, jos SS ei ole 1 ja TU=KU=TT=VA=VE=OP=1\n\tmuuten LL=4\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilavuosi",
+      "variablename": "Käsittelyn tila",
+      "conceptdef": "\nTilavuosi kertoo tiedon käsittelyn tilan (2013-):\n0 Tarkistamaton. Kaikki tiedot imputoitu\n1 Alustavasti pisteytetty. Evr-tiedot saapuneet ja pisteytetty, tiedot käsitelty automaattisesti evr-aineistoa editoimalla tai jos se on todettu virheelliseksi, niin tiedot on imputoitu.\n2 Pisteytetty. Tuloslaskelma-ja tasetiedot hyväksytty, mutta liikevaihdon ja kulujen erittelyt (tilkes-tiedot) imputoitu, tilkes saapunut, käytössä vain tilkes-otokseen kuuluville.\n3 Keskeneräinen. \n4 Alustavasti hyväksytty.Tuloslaskelma-ja tasetiedot hyväksytty, mutta liikevaihdon ja kulujen erittelyt imputoitu, tilkes ei ole saapunut, käytössä vain tilkes-otokseen kuuluville.\n5 Pakkohyväksytty. Sama kuin lopullisesti hyväksytty.\n6 Massakorjattu. Ei käytössä yrityksen vuositiedoille.\n7 Lopullisesti hyväksytty. Jos kuuluu otokseen, kaikki tiedot on hyväksytty; jos ei kuulu otokseen, tuloslask.- ja tasetiedot hyväksytty ja erittelyt (tilkes-tiedot) imputoitu.\n8 Massahyväksytty. Kaikki tiedot (tuloslask., tase ja tilkes) hyväksytty automaattisesti\n9 Kopioitu edellisvuodelta. Ei käytössä yrityksen vuositiedoille\nHyväksytty tarkoittaa, että tiedot on manuaalisesti käsitelty paitsi jos erikseen mainitaan, että on kyse automaattisesta hyväksynnästä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tplv",
+      "variablename": "Liikevaihto, tilinpäätöstilasto",
+      "conceptdef": "Liikevaihto, tilinpäätöstilasto. Liikevaihto koostuu yrityksen varsinaiseen toimintaan kuuluvien tuotteiden ja palveluiden myyntituotoista,  joista on vähennetty annetut alennukset, arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot. Tunnuslukuja laskettaessa on suositeltavaa käyttää tilinpäätöstilaston liikevaihtotietoa tai liiketoiminnan tuottoja yhteensä. Liiketoiminnan tuotot yhteensä = liikevaihto + liiketoiminnan muut tuotot - käyttöomaisuuden myyntivoitot - fuusiovoitot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrlv",
+      "variablename": "Liikevaihto, yritysrekisteri",
+      "conceptdef": "Liikevaihto, yritysrekisteri (ei saatavissa vuonna 1987), vuoteen 2012 asti",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tphenk",
+      "variablename": "Henkilökunta, tilinpäätöstilasto",
+      "conceptdef": "Henkilökunta, tilinpäätöstilasto, saatavissa vuoteen 2008 asti. Henkilöstön lukumäärä yhteensä. Yrityksen  työvoimaan luetaan kaikki henkilöt, jotka työskentelevät siinä tai sen lukuun. Työvoima luokitellaan itsenäisiin yrittäjiin (omistajiin), toimihenkilöihin ja työntekijöihin Henkilöiden lukumäärät ilmoitetaan tilikauden keskimääräisinä lukuina. Luvut voidaan laskea esim. jakamalla kuukausikeskimäärien summa tilikauden kuukausimäärällä. Henkilöiden lukumääriin lasketaan 1) kaikki tilastoyksikön palveluksessa olevat, myös harjoittelijat, tilapäiset ja osa-aikaiset ( osa-aikaiset ilmoitetaan muuntamatta heitä kokopäiväisiksi), 2) vuosilomalla olevat, 3) sairaslomalla olevat , 4) äitiyslomalla olevat, 5) lakossa tai määräaikaisesti lomautetut, 6) kertausharjoituksissa olevat ja 7) kotityöntekijät.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrhenk",
+      "variablename": "Henkilökunta, yritysrekisteri",
+      "conceptdef": "Henkilökunta, yritysrekisteri (ei saatavissa 1987). Henkilöstön määrä keskimäärin tilikautena, kokoaikavastaava tieto (osa-aikaiset työntekijät on muunnettu kokoaikaisia vastaaviksi). Tuotetaan palkkojen perusteella, jos ei suorakyselystä saada. Tunnuslukuja laskettaessa suositeltavaa käyttää yritysrekisterin henkilöstötietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palkat",
+      "variablename": "Palkat",
+      "conceptdef": "Ennakkopidätyksen alaiset palkat ja niihin verrattavat kulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "soskul",
+      "variablename": "Muut henkilöstökulut",
+      "conceptdef": "Välittömästi palkan perusteella määräytyvät henkilöstökulut, kuten sosiaaliturvamaksut, pakolliset ja vapaaehtoiset henkilövakuutusmaksut sekä eläkekulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elakekul",
+      "variablename": "Eläkekulut",
+      "conceptdef": "Eläkekulut (vain 1999-)",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkopalv",
+      "variablename": "Ulkopuoliset palvelut",
+      "conceptdef": "Ulkopuoliset palvelut, saatavissa erikseen 1989-. Ulkopuoliset palvelut ovat välittömästi tuotantoon tai myyntiin liittyvistä työsuorituksista maksettuja korvauksia.  Ulkopuolisia palveluja voivat olla esimerkiksi alihankkijoiden, suunnittelu- ja konsulttitoimistojen sekä huoltoyhtiöiden suorittamat palvelut ja sellaisen työvoiman vuokrauskulut, jotka liittyvät välittömästi suoritetuotantoon.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuokrat",
+      "variablename": "Vuokrat",
+      "conceptdef": "Vuokrat ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "atkkul",
+      "variablename": "Atk-, suunnittelu- ja ohjelmointikulut",
+      "conceptdef": "Atk-, suunnittelu- ja ohjelmointikulut, vain vuodesta 1999-. Kulut sisältävät vain hankinnat yrityksen ulkopuolelta, myös hankinnat konsernin muilta juridisilta yrityksiltä. Imputointimenetelmien muutos näkyy vuosina 1999 ja 2007 tietojen kattavuuden laajenemisena. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kate",
+      "variablename": "Korjattu käyttökate",
+      "conceptdef": "Korjattu käyttökate = käyttökate - liiketoiminnan muut tuotot. Käyttökate kertoo yrityksen liiketoiminnan tuloksen ennen poistoja ja rahoituseriä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jal",
+      "variablename": "Jalostusarvo",
+      "conceptdef": "Jalostusarvo = korjattu käyttökate + palkat + muut henkilöstökulut",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahtuot",
+      "variablename": "Rahoitustuotot",
+      "conceptdef": "Rahoitustuotot. Rahoitustuottoja ovat tuotot osuuksista ja muista pysyvien vastaavien sijoituksista sekä muut korko- ja rahoitustuotot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahkul",
+      "variablename": "Rahoituskulut",
+      "conceptdef": "Rahoituskulut. Rahoituskuluja ovat arvonalentumiset pysyvien vastaavien sijoituksista ja vaihtuvien vastaavien rahoitusarvopapereista (2010-) sekä muut korko- ja rahoituskulut.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "verot",
+      "variablename": "Välittömät verot",
+      "conceptdef": "Välittömät verot. Vuodesta 2006 alkaen saatavissa vain tuloverot. Erä sisältää tilikauden verot, laskennalliset verot sekä muut välittömät verot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahtulos",
+      "variablename": "Rahoitustulos",
+      "conceptdef": "Rahoitustulos = korjattu käyttökate + rahoitustuotot - rahoituskulut - välittömät verot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "poistot",
+      "variablename": "Poistot",
+      "conceptdef": "Poistosuunnitelman mukaiset tilikauden poistot. Suunnitelman mukaiset poistot perustuvat pysyvien vastaavien hankintamenoon ja näiden taloudelliseen käyttöikään.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nettulos",
+      "variablename": "Nettotulos",
+      "conceptdef": "Nettotulos = rahoitustulos - poistot",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "limutuot",
+      "variablename": "Liiketoiminnan muut tuotot",
+      "conceptdef": "Liiketoiminnan muut tuotot (vain vuodesta 1989), ei sisällä käyttöomaisuuden myyntivoittoja vuodesta 1999- ja käyttöomaisuuden myyntitappioita, fuusiovoittoja, fuusiotappioita 2004-. Liiketoiminnan muita tuottoja ovat  yrityksen varsinaiseen toimintaan liittyvät tuotot, jotka ovat luonteeltaan lähellä liikevaihtoa. Tällaisia tuottoja ovat esimerkiksi vuokratuotot, saadut provisiot, muilta yrityksiltä perityt hallinto-, tietojenkäsittely- yms. korvaukset, mikäli yrityksen varsinaisena toimialana ei ole vuokraustoiminta tai muiden edellä mainittujen palvelujen tuottaminen. Liiketoiminnan muihin tuottoihin kirjataan myös yrityksen varsinaiseen toimintaansa saamansa avustustukset ja tuet. Käyttöomaisuuden myyntivoitot ja fuusiovoitot esitetään satunnaisten erien ryhmässä. Tilinpäätöspaneelissa aikasarjan ajallisen vertailukelpoisuuden parantamiseksi liiketoiminnan muita tuottoja käsitellään satunnaisena eränä eli käyttökatetta laskettaessa erää ei ole lisätty liikevaihtoon.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvkomyvo",
+      "variablename": "Käyttöomaisuuden myyntivoitot",
+      "conceptdef": "Käyttöomaisuuden myyntivoitot, vain vuodesta 1999-. Vuodesta 2004 alkaen negatiiviset käyttöomaisuuden myyntivoitot on muutettu nolliksi. Samoin tapauksissa, joissa käyttöomaisuuden myyntivoitot ovat yli 1,05*liiketoiminnan muut tuotot, käyttöomaisuuden myyntivoitot on muutettu nolliksi.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "komytapp",
+      "variablename": "Käyttöomaisuuden myyntitappiot",
+      "conceptdef": "Käyttöomaisuuden myyntitappiot, vain 2004-",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fuvoitto",
+      "variablename": "Fuusiovoitto",
+      "conceptdef": "Fuusiovoitto, vain 2004-",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "futappio",
+      "variablename": "Fuusiotappio",
+      "conceptdef": "Fuusiotappio, vain 2004-",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvonal",
+      "variablename": "Arvonalentumiset",
+      "conceptdef": "Arvonalentumiset pysyvien vastaavien hyödykkeistä ja vaihtuvien vastaavien poikkeukselliset arvonalentumiset, vuodesta 1999-. Arvonalentuminen +. Arvonalentumiset perustuvat todennäköisen luovutushinnan pysyvään alenemiseen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "poispits",
+      "variablename": "Poistot sijoituksista",
+      "conceptdef": "Poistot sijoituksista, vain vuosina 1986-1998. Vuodesta 1999 lähtien tämän erän korvasivat arvonalentumiset pysyvien vastaavien sjoituksista ja vaihtuvien vastaavien arvopapereista.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvonal2",
+      "variablename": "Sijoitusten/rahoitusarvopapereiden arvonalentumiset",
+      "conceptdef": "Arvonalentumiset pysyvien vastaavien sijoituksista ja vaihtuvien vastaavien rahoitusarvopapereista vuosina 1999 - 2005. Sisältää vain arvonalentumiset pysyvien vastaavien sijoituksista 2006 - 2012. Arvonalentuminen +. Vuodesta 2010 alkaen erä sisältyy myös rahoituskuluihin. Vuosina 2006-2009 tämä erä on jätetty suurelta osin erittelemättä, mutta sisällytetty kirjanpitokäytännöistä riippuen erilaisiin eriin (rahoitustulos, poistot).",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koktulos",
+      "variablename": "Kokonaistulos",
+      "conceptdef": "Kokonaistulos = nettotulos + satunnaiset tuotot - satunnaiset kulut + liiketoiminnan muut tuotot (sis. käyttöomaisuuden myyntivoitot) - poistot sijoituksista - arvonalentumiset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiltulos",
+      "variablename": "Tilikauden tulos",
+      "conceptdef": "Tilikauden tulos = kokonaistulos + poistoeron ja varausten muutos. Tilikauden tuloksessa on huomioitu kaikki yrityksen tuotot ja kulut tilikaudelta sekä etukäteen pakollisina varauksina kirjatut vastaiset menot ja menetykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaytom",
+      "variablename": "Käyttöomaisuus",
+      "conceptdef": "Käyttöomaisuus (pysyvät vastaavat 1999-). Taseen pysyvät vastaavat yhteensä muodostuu kolmesta pääryhmästä: aineettomat hyödykkeet, aineelliset hyödykkeet ja sijoitukset. Pysyvillä vastaavilla tarkoitetaan eriä, jotka on tarkoitettu tuottamaan tuloa jatkuvasti useana tilikautena.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "atkinv",
+      "variablename": "Investoinnit ATK-ohjelmistoihin",
+      "conceptdef": "Investoinnit ATK-ohjelmistoihin, vain vuodesta 1999-. Saatavilla vain suoran kyselyn yrityksille, ei imputoitu muille.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvostux",
+      "variablename": "Arvostuserät, vastaavaa",
+      "conceptdef": "Arvostuserät, vastaavaa, vain vuosina 1986-1998",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaihtom",
+      "variablename": "Vaihto-omaisuus",
+      "conceptdef": "Vaihto-omaisuudella tarkoitetaan sellaisinaan tai jalostettuina luovutettaviksi tai kulutettaviksi tarkoitettuja hyödykkeitä. Vaihto-omaisuus yhteensä  on aineiden ja tarvikkeiden, keskeneräisten tuotteiden, valmiiden tuotteiden, tavaroiden (kauppatavarat) sekä muun vaihto-omaisuuden (sis. ennakkomaksut) yhteissumma.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahom",
+      "variablename": "Rahoitusomaisuus",
+      "conceptdef": "Rahoitusomaisuus yhteensä on taseen vaihtuvien vastaavien erien lyhyt- ja pitkäaikaiset saamiset, rahoitusarvopaperit sekä rahat ja pankkisaamiset summa. Rahoitusomaisuus määritellään kirjanpitolaissa, mutta se ei esiinny nimikkeenä tasekaavassa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tasex",
+      "variablename": "Vastaavaa yhteensä",
+      "conceptdef": "Taseen vastaavaa yhteensä on pysyvien vastaavien ja vaihtuvien vastaavien yhteissumma.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omapo",
+      "variablename": "Oma pääoma",
+      "conceptdef": "Erä sisältää kaikki oman pääoman erät yhteensä. Yhteisöillä omassa pääomassa esitetään osake-, osuus-, ja  muu vastaava pääoma, rahastot, edellisten tilikausien voitto/tappio ja tlikauden voitto/tappio. Muut yhtiömuodot ja säätiöt esittävät oman pääomansa erät soveltuvin osin kaavaa noudattaen ottaen huomioon omien erityislakiensa mukaiset oman pääoman muodot.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vapvar",
+      "variablename": "Vapaaehtoiset varaukset",
+      "conceptdef": "Vapaaehtoiset varaukset",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pakvar",
+      "variablename": "Pakolliset varaukset",
+      "conceptdef": "Pakolliset varaukset, vain vuodesta 1993-. Pakolliset varaukset yhteensä on erien eläkevaraukset, verovaraukset ja muut pakolliset varaukset yhteissumma. Pakolliset varaukset ovat  menoja, joiden suorittamiseen on sitouduttu ja ovat todennäköisiä vastaisia menetyksiä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvostuy",
+      "variablename": "Arvostuserät, vastattavaa",
+      "conceptdef": "Arvostuserät, vastattavaa, vain vuosina 1986-1998.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lmaksu",
+      "variablename": "Liittymismaksurahasto, sähköyhtiöt",
+      "conceptdef": "Liittymismaksurahasto, sähköyhtiöt, vain vuosina 1995-1998.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pvpo",
+      "variablename": "Pitkäaikainen vieras pääoma",
+      "conceptdef": "Pitkäaikainen vieras pääoma. Pitkäaikaista ja lyhytaikaista vierasta pääomaa ei voida luotettavasti erottaa vuonna 1994 aineisto-ongelmista johtuen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvpo",
+      "variablename": "Lyhytaikainen vieras pääoma",
+      "conceptdef": "Lyhytaikainen vieras pääoma. Pitkäaikaista ja lyhytaikaista vierasta pääomaa ei voida luotettavasti erottaa vuonna 1994 aineisto-ongelmista johtuen.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tasey",
+      "variablename": "Vastattavaa yhteensä",
+      "conceptdef": "Vastattavaa yhteensä on taseen neljän pääryhmän oma pääoma, tilinpäätössiirtojen kertymä, pakolliset varaukset  ja vieras pääoma summa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "irtomlis",
+      "variablename": "Lisäykset, koneet ja kalusto",
+      "conceptdef": "Lisäykset, koneet ja kalusto, vain vuodesta 1994-. Vuonna 2013 tieto puutteellinen toimialojen 41-49 (rakentamisen ja kaupan toimialat) osalta. Nettoinvestoinnit koneisiin ja kalustoon = lisäykset - vähennykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "irtomvah",
+      "variablename": "Vähennykset, koneet ja kalusto",
+      "conceptdef": "Vähennykset, koneet ja kalusto, vain vuodesta 1994-",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "raralis",
+      "variablename": "Lisäykset, rakennukset ja rakennelmat",
+      "conceptdef": "Lisäykset, rakennukset ja rakennelmat, vain 1994-. Nettoinvestoinnit rakennuksiin ja rakennelmiin = lisäykset - vähennykset.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "raravah",
+      "variablename": "Vähennykset, rakennukset ja rakennelmat",
+      "conceptdef": "Vähennykset, rakennukset ja rakennelmat, vain 1994-",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kopo",
+      "variablename": "Kokonaispääoman tuottoaste, %",
+      "conceptdef": "Kokonaispääoman tuotto = 100 * (nettotulos + rahoituskulut + verot) / taseen loppusumma) (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sipo",
+      "variablename": "Sijoitetun pääoman tuottoaste, %",
+      "conceptdef": "Sijoitetun pääoman tuotto = 100 * (nettotulos + rahoituskulut + verot ) / (oma pääoma + arvostuserät + vapaaehtoiset varaukset + pitkäaikainen vieras pääoma) (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opo",
+      "variablename": "Oman pääoman tuottoaste, %",
+      "conceptdef": "Oman pääoman tuotto = 100 * nettotulos / (oma pääoma + arvostuserät + vapaa-ehtoiset varaukset) (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omavar",
+      "variablename": "Omavaraisuusaste, %",
+      "conceptdef": "Omavaraisuusaste = 100 * (oma pääoma + arvostuserät + vapaaehtoiset varauk-set) / taseen loppusumma (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velk",
+      "variablename": "Velkaantumisaste, %",
+      "conceptdef": "Velkaantumisaste = 100 * pitkäaikainen vieras pääoma / (oma pääoma + arvos-tuserät + vapaaehtoiset varaukset) (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suhtvelk",
+      "variablename": "Suhteellinen velkaantuneisuus, %",
+      "conceptdef": "Suhteellinen velkaantuneisuus = 100 * (lyhytaikainen vieras pääoma + pitkäai-kainen vieras pääoma + pakolliset varaukset) / liikevaihto (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahkust",
+      "variablename": "Keskimääräiset rahoituskulut, %",
+      "conceptdef": "Keskimääräiset rahoituskustannukset = 100 * rahoituskulut / pitkäaikainen vieras pääoma (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vpomaika",
+      "variablename": "Vieraan pääoman takaisinmaksuaika, vuotta",
+      "conceptdef": "Vieraan pääoman takaisinmaksuaika = pitkäaikainen vieras pääoma / rahoitustulos (vuotta)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "quick",
+      "variablename": "Quick ratio",
+      "conceptdef": "Quick ratio = rahoitusomaisuus / lyhytaikainen vieras pääoma",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "current",
+      "variablename": "Current ratio",
+      "conceptdef": "Current ratio = (rahoitusomaisuus + vaihto-omaisuus) / lyhytaikainen vieras pääoma",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALKKORP",
+      "variablename": "Lakennallinen palkkakorjaus (palautus)",
+      "conceptdef": "Laskennallinen palkkakorjaus, vain vuodesta 1999- (laatu heikompi 1999). Palkkakorjaus on laskennallinen erä, jolla ei ole vaikutusta yrityksen vakavaraisuuteen eikä kassavirtaan, erä palautetaan ennen tilikauden tulosta. Yhtiömuodosta riippuen omistajan palkkaa käsitellään verotuksessa eri tavoin. Yksityisen elinkeinonharjoittajan palkka ei koskaan sisälly tuloslaskelmaan ja henkilöyhtiöissä omistajan palkka voi vain poikkeustapauksissa olla kuluna. Tämä epäyhtenäinen käytäntö vaikeuttaa erityisesti pienten yritysten keskinäistä vertailua. Palkkakorjaus  tehdään  mikroyrityksille eli alle 10 henkilöä työllistäville. Lähtötietoina käytetään yrityksen yrittäjätyöpanosta ja yrityskohtaista palkatun henkilöstön keskipalkkaa. Yrittäjätyöpanoksen määrittelee yritys- ja toimipaikkarekisteri YEL-maksutietojen perusteella, eli laskennallinen palkkakorjaus = yrittäjätyöpanos * keskipalkka.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik_vero",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": "Saatavilla vuodesta 2013 lähtien.\n\n01\tLuonnollinen henkilö\n10\tAvoin yhtiö\n11\tKommandiittiyhtiö\n12\tOsakeyhtiö\n13\tAsunto-osakeyhtiö\n14\tLaivanisännistöyhtiö\n16\tKeskinäinen kiinteistö-oy\n17\tMuu kiinteistö-oy\n18\tKonserni\n19\tMuu yhtiö\n20\tAatteellinen yhdistys\n21\tErityislainsäädäntöön perustuva yhdistys\n22\tKeskinäinen vahinkovakuutusyhdistys\n23\tMetsänhoitoyhdistys\n24\tOsuuspankki\n25\tOsuuskunta\n26\tVakuutuskassa\n27\tTyöttömyyskassa\n28\tMuu taloudellinen yhdistys\n29\tMuu yhdistys\n30\tSäätiö (säätiölain mukainen)\n31\tSäästöpankki\n32\tEläkesäätiö (säädekirjalla perustettu)\n33\tTyöeläkekassa\n35\tHypoteekkiyhdistys\n39\tMuu säätiö\n40\tValtio ja sen laitokset\n60\tValtion liikelaitos\n41\tKunta\n61\tKunnallinen liikelaitos\n42\tKuntayhtymä\n62\tKuntainliiton (kuntayhtymän) liikelaitos\n43\tAhvenanmaan maakunta ja sen virastot\n63\tAhvenanmaan liikelaitos\n44\tEvankelis-luterilainen kirkko\n45\tOrtodoksinen kirkko\n46\tRekisteröity uskonnollinen yhdyskunta\n47\tYlioppilaskunta tai osakunta\n48\tErillishallinnollinen valtion laitos\n49\tMuu julkisoikeudellinen oikeushenkilö\n50\tYhteisetuudet (esim. kalastuskunta)\n51\tVerotusyhtymät\n52\tYhteisvastuullinen pidätysvelvollinen\n53\tKuolinpesä\n54\tKonkurssipesä\n55\tYhteismetsä\n57\tElinkeinoyhtymä\n59\tMuu verotuksen yksikkö\n70\tUlkomainen yhteisö\n71\tUlkomaisen yhteisön sivuliike Suomessa\n91\tMuut\n92\tMuut\n93\tMuut\n94\tMuut\n95\tMuut\n96\tMuut\n99\tMuut\nZZ\tTieto puuttuu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

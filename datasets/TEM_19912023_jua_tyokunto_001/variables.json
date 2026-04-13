@@ -1,0 +1,100 @@
+{
+  "variables": [
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Henkilön syntymävuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "sukupuoli",
+      "conceptdef": "Tieto sukupuolesta on saatu Väestörekisterikeskuksen väestötietojärjestelmästä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "dgnkdh",
+      "variablename": "Diagnoosikoodi",
+      "conceptdef": "Tilastojärjestelmässä käytössä on kansainvälisen tautiluokituksen luokkia yhdistelemällä muodostettava diagnoosiluokitus. Diagnoosiluokka merkitään ainoastaan niistä työnhakijoista, joiden mahdollisuudet työn saamiseen tai työssä pysymiseen ovat huomattavasti vähentyneet asianmukaisesti todetun vamman, sairauden tai vajavuuden takia 01=TARTUNTATAUDIT, 02=KASVAIMET, 03=AINEENVAIHDUNTASAIRAUDET, 04=VEREN JA VERTAMUOD.EL SAIRAUD., 05=MIELENTERVEYDEN HÄIRIÖT, 06=HERMOSTON JA AISTIEN TAUDIT, 07=VERENKIERTOELINTEN TAUDIT, 08=HENGITYSELINTEN TAUDIT, 09=RUUANSULATUSELINTEN SAIRAUDET, 10=VIRTSA- JA SUKUELINTEN TAUDIT, 12=IHON JA IHONALAISKUD. TAUDIT, 13=TUKI- JA LIIKUNTAELIN. TAUDIT, 14=SYNNYNNÄISET EPÄMUODOSTUMAT, 16=VAIKEASTI MÄÄRITELTÄV. TILAT, 17=VAMMAT JA MYRKYTYKSET, 20=DIAGNOOSIA EI MÄÄRITELTY,",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHDIAG"
+    },
+    {
+      "identifier": "muupv5",
+      "variablename": "alkamispvm",
+      "conceptdef": "Henkilön dignoosin alkamispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHDIAG"
+    },
+    {
+      "identifier": "paapv5",
+      "variablename": "loppumispvm",
+      "conceptdef": "Henkilön diagnoosin loppumispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHDIAG"
+    },
+    {
+      "identifier": "on_diag",
+      "variablename": "Diagnoositieto",
+      "conceptdef": "1=henkilollä on diagnoosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHDIAG"
+    },
+    {
+      "identifier": "alkpv3",
+      "variablename": "Arvioinnin alkamispäivä",
+      "conceptdef": "Työkunnon arviointipvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YTKUNTO"
+    },
+    {
+      "identifier": "eupnoku",
+      "variablename": "ESR-projektikoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YTKUNTO"
+    },
+    {
+      "identifier": "karkd",
+      "variablename": "Tutkimuslaji",
+      "conceptdef": "1=työklin., 2=muu, 3=työ-/koul.kokeilu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YTKUNTO"
+    },
+    {
+      "identifier": "loppv3",
+      "variablename": "Päättymispäivä",
+      "conceptdef": "(tilastointi usein päätt.pvmn mukaan)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YTKUNTO"
+    },
+    {
+      "identifier": "karkd2",
+      "variablename": "Arviointilaji",
+      "conceptdef": "Työkunnon arviointilaji (vuodesta 2013 alkaen) 01=OHJAUSKESKUSTELU, 02=YHTEYDENOTTO, 03=TESTAUS, 04=KOTITEHTÄVÄ, 05=OHJAUKSELLINEN RYHMÄ, 06=LUOTTAMUKSELLINEN NEUVOTTELU, 10=KORVATTU TE-TOIMISTOSSA KÄYNTI, 11=NEUVOTTELU, 12=LAUSUNTO, 20=TYÖKOKEILU TYÖPAIKALLA, 21=TYÖKOKEILU TYÖPAJASSA, 30=TYÖKYVYN TUTKIMUS JA ARVIOINTI, 32=TYÖKYVYN KONSULTAATIO, 36=KOULUTUSKOKEILU, 38=TYÖOLOSUHTEIDEN JÄRJESTELYTUKI, 40=KÄS. KUNTOUT. ASIAKASYHTEISTYÖRYHMÄSSÄ, 41=TUTUSTUMISKÄYNTI TYÖVOIMAKOULUTUKSEEN, 50=YRITYSIDEAN ARVIOINTI, 60=OSAAMIS- JA AMMATTITAITOKARTOITUS, 70=MUU ASIANTUNTIJA-ARVIO,  - =Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YTKUNTO"
+    }
+  ]
+}

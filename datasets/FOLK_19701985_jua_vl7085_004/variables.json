@@ -1,0 +1,316 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi\nVäestölaskennat suoritettiin\n31.12.1970\n31.12.1975\n1.11.1980\n17.11.1985\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nro",
+      "variablename": "Järjestysnumero\t",
+      "conceptdef": "Kaikilla väestölaskennan henkilöillä ei ollut täydellisiä henkilötunnuksia, joten heillä ei ole myöskään yksilöivää henkilönumeroa. Tässä aineistossa vuosi ja nro -tiedot muodostavat yksilöivän perusavaimen (primary key) eikä vuosi ja shnro -tiedot, kuten FOLK-aineistoissa yleensä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa Huom! Henkilönumero puuttuu n.2700 henkilöltä erityisesti vuonna 1970. Yksilöivä perusavain (primary key) aineistossa on nro ja vuosi -tiedot eikä vuosi ja shnro -tiedot, kuten FOLK-aineistoissa yleensä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ak_koodi",
+      "variablename": "Asuntokuntanumero",
+      "conceptdef": "Asuntokuntanumero ei säily samana eri vuosina, vaikka henkilö ei muuttaisikaan asunnosta pois.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Henkilön syntymävuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kuolv",
+      "variablename": "Kuolinvuosi",
+      "conceptdef": "Henkilön kuolinvuosi, arvot 1971-2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "vm_kuolleet"
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "sukupuoli",
+      "conceptdef": "Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. 1=Mies 2=Nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "skunta",
+      "variablename": "Syntymäkotikunta",
+      "conceptdef": "Syntymäajan mukainen kuntaluokitus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä väestölaskentahetkellä",
+      "conceptdef": "Ikä väestölaskentahetkellä. Laskenta-ajankohdat ovat olleet 31.12.1970, 31.12.1975, 1.11.1980  ja  17.11.1985.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta",
+      "variablename": "Asuinkunta ",
+      "conceptdef": "Asuinkunta tiedon  kuntaluokitus on väestölaskentavuoden luokituksen mukainen. \n\nAsuinkunta on se kunta, johon henkilö on henkikirjoitettu. Väestölaskennoissa ei ole huomioitu ns. tilapäistä asumista. Henkilöt, jotka esim. opiskelevat kotikuntansa ulkopuolella on siten useimmiten kooditettu varsinaiseen kotikuntaansa.\nTieto perustuu väestön keskusrekisterin tietoihin. Vuosina 1970 ja 1975 myös lomaketietoja käytettiin osittain hyväksi. \n\nVäestölaskentojen pitkittäistiedoston 1970 - 1985 käsikirjassa (Tilastokeskus 1991) on luettelo kuntien aluejärjestelyjen aiheuttamista väestömuutoksista ajanjaksolla 1971 - 1990.\n\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taaja",
+      "variablename": "Asuintaajama",
+      "conceptdef": "Asuintaajama.\n\nTaajamaksi määritellään kaikki vähintään 200 asukkaan rakennusryhmät, joissa rakennusten välinen etäisyys ei yleensä ole 200 metriä suurempi. Taajamien rajauksissa otetaan huomioon asuinrakennusten lisäksi mm. liike-, toimisto- ym. työpaikkoina käytettävät rakennukset. Hallinnollisilla aluejaoilla ei ole vaikutusta taajamien muodostamiseen.\n0000=ei asu taajamassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivs",
+      "variablename": "Siviilisääty",
+      "conceptdef": "Henkilön siviilisäädyllä tarkoitetaan Suomen avioliittolain mukaista asemaa. Tieto siviilisäädystä perustuu väestön keskusrekisteriin. Vuosina 1970 ja 1975 käytettiin myös lomaketietoja hyväksi. \nTieto kuuluu laskennan luotettavimpiin. \nLuokitus: \n1=Naimaton\n2=Naimisissa\n3=Asumuserossa\n4=Eronnut\n5=Leski\n(9=tuntematon v. 1975)",
+      "measunit": null,
+      "classification": "siviilisaaty_5_2000_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "sose",
+      "variablename": "Sosioekonominen asema (uusi luokitus)",
+      "conceptdef": "Sosioekonominen asema -luokitus kuvaa väestön jakautumista sosiaaliselta ja taloudelliselta asemal-taan suhteellisen homogeenisiin ja konkreettisesti miellettäviin luokkiin.\n\nLuokitus perustuu tietoihin henkilön pääasiallisesta toiminnasta, ammatista, ammattiasemasta, toimialasta sekä työnantajasektorista. Henkilöt on luokiteltu oman toimintansa perusteella lukuunottamatta työvoiman ulkopuolella olevia 0 - 15-vuotiaita lapsia ja muita työvoimaan kuulumattomia, jotka ovat saaneet asuntokunnan viitehenkilön sosioekonomisen aseman\n\nSosioekonominen luokitus käytetty 1970 ja 1975\n\n1\tTyönantajat\n11\tMaataloustyönantajat\n12\tMuut työnantajat \n2\tYksinäisyrittäjät\n21\tMaatalousyksinäisyrittäjät\n22\tMuut yksinäisyrittäjät\n3\tYlemmät toimihenkilöt\n31\tJohtoteht. toim. ylemmät toimihenkilöt\n311\tJulkisyhteisöissä toimivat\n312\tMuissa yhteisöissä toimivat\n32\tValmistelu-, esittely-, tutkimus- ja suunnittelu-\n\ttehtävissä toimivat ylemmät toimihenkilöt\n321\tJulkisyhteisöissä toimivat\n322\tMuissa yhteisöissä toimivat\n33\tOpetustehtävissä toimivat ylemmät toimih.\n331\tJulkisyhteisöissä toimivat\n332\tMuissa yhteisöissä toimivat\n34\tMuut ylemmät toimihenkilöt\n341\tJulkisyhteisöissä toimivat\n342\tMuissa yhteisöissä toimivat\n4\tAlemmat toimihenkilöt\n41\tEsimiestehtävissä toimivat alemmat toimih.\n411\tJulkisyhteisöissä  toimivat\n412\tMuissa yhteisöissä toimivat\n42\tItsenäistä tai monipuolista toimisto-\n\ttai myyntityötä tekevät alemmat toimihenkilöt\n421\tJulkisyhteisöissä toimivat\n422\tMuissa yhteisöissä toimivat\n43\tEpäitsen. tai rutiininom. toimisto- tai \n\tmyyntityötä tekevät alemmat toimihenkilöt\n431\tJulkisyhteisöissä toimivat\n432\tMuissa yhteisöissä toimivat\n\n\n44\tMuut alemmat toimihenkilöt\n441\tJulkisyhteisöissä toimivat\n442\tMuissa yhteisöissä toimivat\n5\tTyöntekijät\n51\tMaa- ja metsätalous-, kalatalousalan työnt.\n52\tTeollisuustyöntekijät\n53\tMuut tuotantotyöntekijät\n54\tJakelu- ja palvelutyöntekijät \n6\tEläkeläiset \n7\tOpiskelijat ja koululaiset (16 v. täytt.)\n9\tMuut\n92\tAmmatissa toim., joiden ammatti tuntematon\n99\tSosioekonominen asema tuntematon\n\n\nluokitus 1980 ja 1985 =\tArvoalue ks. SOSE70. Lisäksi: \n\t\n121\tMuut työnantajat, 1- 4 työntekijää\n122\tMuut työnantajat, vähintään 5 työntekijää\n\n70            Opiskelija\n\t9-alkuiset koodit: \n9\tMuut\n91\tTyöttömät, joiden ammatti tuntematon\n92\tMuut ammatissa toimivat, joiden ammatti tuntematon\n93\tMuut ammatissa toimimattomat\n999\tSosioekonominen asema tuntematon",
+      "measunit": null,
+      "classification": "sosioekon_asema_1_1985_12_31",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktutk",
+      "variablename": "Korkein tutkinto ",
+      "conceptdef": "Korkein tutkinto väestölaskentavuoden viimeisenä päivänä. Vuoden 2003 koulutusluokituksen mukainen 6-nro koodi, 999999= ei perusasteen jälkeninen tutkinto tai tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saikavv",
+      "variablename": "Korkeimman tutkinnon suoritusvuosi",
+      "conceptdef": "Suoritusvuosi tutkinnolle, joka on väestölaskentavuoden viimeisenä päivänä korkein. Tieto on peräisin Tilastokeskuksen tutkintorekisteristä, joka perustettiin vuonna 1970. Vuoden 1980 laskennan yhteydessä tiedoston tietoja täydennettiin erillisellä kyselyllä. \n\nTieto tutkinnon suorittamisvuodesta on peittävä vain vuoden 1970 jälkeen suoritetuilla tutkinnoilla. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amas1",
+      "variablename": "Ammattiasema",
+      "conceptdef": "Ammattiasema kuvaa työllisten asemaa työelämässä. Tieto erottelee palkansaajat, yrittäjät, ja yrittäjäperheenjäsenet. Rekisteriväestölaskennoissa yrittäjiä ei enää jaettu työnantaja- ja yksinäisyrittäjiin. Ryhmä '\"yrittäjät ym.\" sisältää lisäksi sekä yrittäjät että näiden yrittäjäperheenjäsenet.\n\nTiedot vuosilta 1970 - 1985 perustuvat kokonaan lomaketietoihin. Tuoreimmat tiedot perustuvat henkilön eläkevakuutustietoihin sekä palkka- ja yrittäjätulon määrään.\n\nVuosien 1970, 1975 ja 1980 laskennoissa myös lapset, kotitaloustyötä tekevät ja osa opiskelijoista saivat ammattiaseman ruokakunnan päämiehen tai asuntokunnan viitehenkilön mukaan. Eläkeläiset, laitoshoidossa olevat ja itsenäiset opiskelijat sijoitettiin taas luokkaan \"itsenäiset ammatittomat\" (1970 ja 1975) tai luokkaan \"muu, tuntematon\" (1980). Vuonna 1980 valtaosa kotitaloustyötä tekevistä kuului viimeksi mainittuun ryhmään. Vuodesta 1985 eteenpäin ammattiasema -tieto on vain työllisellä työvoimalla. \n\nMikäli henkilö väestölaskennoissa on oikein perustein luokiteltu ammatissa toimivaksi (vuodesta 1985 työlliseksi), hänen ammattiasemakoodinsa on yleensä oikea. Koska ammatissatoimivia ja työllisiä on laskennoissa ilmeisesti liian vähän (vuosi 1990 on poikkeus), myös palkansaajien ja yrittäjien määrä on liian alhainen. Esim. vuoden 1985 laskennasta puuttuu selvityksen mukaan peräti 126 000 palkansaajaa ja 65 000 yrittäjää tai yrittäjäperheenjäsentä. Suurin osa näistä henkilöistä on väärin perustein kooditettu työvoiman ulkopuolelle. Vuoden 1990 laskennassa yrittäjiä ja heidän avustavia perheenjäseniään näyttää taas olevan noin 25 000 liian paljon. \n\nTieto on myös ei-ammatissa toimivilla vuosina 1970-80\n\nAmmattiasema 1970-75\n1=Toimihenkilöt\n2=Työntekijät\n3=Työnantajayrittäjät\n4=Yksinäisyrittäjät\n5=Avustavat perheenjäsenet\n6=Itsenäiset ammatittomat\n9=Ammattiasema tuntematon\n\nAmmattiasema 1980\n1=Palkansaajat\n2=Yksinäisyrittäjät\n3=Yrittäjät, 1-4 työntekijää\n4=Yrittäjä, vähintään 5 työntekijää\n6=Yksinäisyrittäjän perheenjäsen\n7=työnantajayrittäjän perheenjäsenet\n9=Ammattiasema tuntematon\n\nAmmattiasema 11.11-17.11.1985\n1=Palkansaajat\n2=Yksinäisyrittäjät\n3=Yrittäjät, palkattua työvoimaa\n4=Yrittäjän avustava perheenjäsen\n9=tuntematon, ei työllinen\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim1",
+      "variablename": "Pääasiallinen toiminta väestölaskentaviikolla",
+      "conceptdef": "Pääasiallisen toiminnan käsite kuvaa henkilön taloudellisen toiminnan laatua. Vuosina 1970–1985 tieto perustuu lähes kokonaan lomaketietoihin. Tämän jälkeen pääasiallinen toiminta on päätelty eri hallinnollisten rekistereiden kautta. \n\nVuoden 1980 laskennan luokitukseen viikon toiminnan mukaan sisältyy useita epävarmuustekijöitä. Laskentalomakkeella tiedusteltiin, oliko henkilöllä työpaikka kyseisellä viikolla ja lisäksi, opiskeliko hän laskentahetkellä. Vuoden 1980 työllinen työvoima ja opiskelijat voidaan näin ollen rajata suhteellisen luotettavin kriteerein. Alkuperäisestä laskentatiedostosta ei sen sijaan löydy tietoja laskentaviikon kotityöstä, varusmiespalveluksesta jne. Näitä ryhmiä on jouduttu päättelemään muiden tietojen avulla. \n\nVuoden 1985 tilanne on päinvastainen. Silloin laskentalomakkeella tiedusteltiin työ- ja työttömyyskuukausien määrää viimeisten 12 kuukauden aikana. Vuoden 1985 ammatissa toimivia voidaan näin ollen määritellä suhteellisen luotettavasti. Laitosväestö, joka tässä luokituksessa muodostaa oman ryhmän, voidaan taas rajata rekisteritietojen avulla. Muiden ryhmien kohdalla on oletettu, että laskentaviikon toiminta kuvaa myös pääasiallista toimintaa vuoden aikana. Tähänkin menettelyyn liittyy tietysti useita epävarmuustekijöitä. \n\nPääasiallinen toiminta -tiedon laatua on tutkittu vertailemalla väestölaskenta-aineistoa rinnakkaisaineistoon, jota on voitu pitää luotettavampana kuin varsinaista laskenta-aineistoa. Laatua on myös arvioitu vertailemalla laskentatietoja tietoihin, joita on saatu koodittamalla ja käsittelemällä osa aineistoa uudestaan. Perusteellisemmin luotettavuutta on tutkittu vuosina 1980, 1985 ja 1990. \nVuosina 1980 ja 1985 tulokset ovat olleet samansuuntaisia: väestölaskentatiedostosta on löytynyt liian vähän taloudellisesti aktiiveja henkilöitä. Vuoden 1980 laskennassa ammatissa toimivien vajaus on arvioitu noin 113 000 henkilöksi kun taas työvoimaan vuonna 1985 kuului arviolta noin 179 000 henkilöä enemmän kuin mitä laskentatilastot antavat ymmärtää. Virheet johtuvat osittain kadosta, osittain harhaanjohtavista tiedoista. Henkilöt, joiden työ on vähäistä ja ehkä epäsäännöllistä saattavat lomakkeella ilmoittaa olevansa esim. opiskelijoita, kotitaloustyötä tekeviä tai eläkeläisiä.\n\nTOIMINTA 6.12. - 12.12.1970\n0\tTyöllinen työvoima\n1\tTyötön työvoima\n2\t0-14 -vuotiaat\n3\tOpiskelijat, koululaiset (15+)\n4\tkotitaloustyötä tekevät\n5\tVarusmiehet\n6\tVanhuuseläkkeellä olevat\n7\tTyökyvyttömät\n8\tMuut työvoiman ulkopuolella olevat\n9\tToiminta tuntematon\n\nTOIMINTA 26.10. - 1.11.1980  KÄYTETTÄVÄ HARKITEN\n0\tTyöllinen työvoima\n1\tTyötön työvoima\n2\t0-14 -vuotiaat\n3\tOpiskelijat, koululaiset (15+ v.)\n4\tKotitaloustyötä tekevät\n5\tVarusmiehet\n6\tEläkeläiset\n9\tMuut työvoiman ulkopuolella olevat, toiminta tuntematon\n\nTOIMINTA 11.11. - 17.11.1985\n0\tTyöllinen työvoima\n1\tTyötön työvoima\n2\t0-14 -vuotiaat\n3\tOpiskelijat, koululaiset (15+ v.)\n4\tKotitaloustyötä tekevät\n5\tVarusmiehet\n6\tEläkeläiset (pl. työttömyyseläkkeellä olevat)\n7\tTyöttömyyseläkkeellä olevat\n8\tMuut työvoiman ulkopuolella olevat\n9\tToiminta tuntematon\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi",
+      "variablename": "Ammattikoodi",
+      "conceptdef": "Ammatilla tarkoitetaan sitä toimintaa tai työtä, jota henkilö tekee tuloa saadakseen. Yleisenä periaatteena ammatteja luokiteltaessa on mainittu \"yhdistää samanlainen toiminta kiinnittämättä yleensä huomiota koulutukseen, ammattiasemaan, virka-asemaan tai toimialaan.\" Toiminnan samankaltaisuuden arviointiperuste on ollut työn luonne tai toiminnan tarkoitus (esim. hoitotyö, vartiointityö).\n\nAmmattiluokitus rakentuu siten, että ammateilla on tarkimmalla tasolla kolmi- tai nelinumeroinen koodi. Yksityiskohtaisimmatkin ammattiluokat sisältävät kuitenkin usein erilaisia ammattinimikkeitä. Ammatit voidaan jakaa myös karkeammin yksi- tai kaksinumerotasolla. \n\nPitkittäistiedoston ammattiluokituksen mukainen koodi. Pitkittäistiedoston ammattiluokitus poikkeaa jonkin verran vuoden 1980 ammattiluokituksesta. Vuosina 1970-80 ammattitieto on myös ei-ammatissa toimivilla.Vuosina 1970 ja 1975 sai jokainen ammattiryhmä kolminumeroisen koodin, mutta vuosina 1980 ja 1985 on käytössä ollut nelinumeroinen\nkoodi. Pitkittäistiedostossa käytetty ammattiluokitus on laadittu vuosien 1980 ja 1985 luokitusten\n pohjalta. Jotta vertailtavuus aiempiin vuosiin olisi parempi, luokitusta on yksittäisissä \ntapauksissa saatettu karkeistaa. Vuosien 1970 ja 1975 ammattikoodeja on muutettu nelinumeroisiksi\n käyttämällä hyväksi ns. statusluokitusta.\n",
+      "measunit": null,
+      "classification": "ammatti_108_1980_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyke",
+      "variablename": "Työttömyyskuukaudet",
+      "conceptdef": "Pitkittäistiedostossa on tietoja työttömyyskuukausista 1980 ja 1985. Kuukausitiedot perustuvat yksinomaan lomaketietoihin. Henkilöt, jotka jättivät vastaamatta tähän kysymykseen ovat saaneet työssäolokuukausiksi 0 (nolla) kuukautta. \n\nVuosina 1980 ja 1985 henkilön ammatissa toimivuuteen vaikutti myös työttömyyskuukausien määrä. Ammatissa toimiviin luettiin kaikkia\n15 vuotta täyttäneet henkilöt (1985: 15- 74-vuotiaat) jotka viimeisen 12 kuukauden aikana olivat vähintään kuusi kuukautta työssä \n(vähintään 20 h/viikko) ja/tai työttömänä. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyokk",
+      "variablename": "Työkuukaudet (kokopäivätyö)",
+      "conceptdef": "Tiedot työssäolokuukausista kokopäivätyössä olevilta ovat vuosilta 1975, 1980 ja 1985. Vuodelta 1975 tieto on vain palkansaajilla. Kuukausitiedot perustuvat yksinomaan lomaketietoihin. Henkilöt, jotka jättivät vastaamatta tähän kysymykseen, ovat saaneet työssäolokuukausiksi 0 (nolla) kuukautta.  \n\nVuosina 1980 ja 1985 henkilön ammatissa toimivuus määriteltiin pitkälti kokopäivätyökuukausien avulla. Ammatissa toimiviin luettiin kaikki 15 vuotta täyttäneet henkilöt (1985: 15–74-vuotiaat), jotka viimeisten 12 kuukauden aikana olivat yhteensä vähintään kuusi kuukautta työssä (vähintään 20 h/viikko) ja/tai työttömänä.\n\nKokopäivätyökuukausien luotettavuudesta ei ole tarkkoja tietoja. Vuoden 1980 luotettavuustutkimuksessa on kuitenkin osoitettu, että ammatissa toimivien määrä laskenta-aineistossa on liian alhainen. Tästä voidaan melko suurella varmuudella päätellä, että myös niiden henkilöiden määrä, jotka ovat tehneet kokopäivätyötä vähintään 6 kuukautta, on liian alhainen. Sama pätee melko varmasti myös muiden vuosien kohdalla. Pitkittäistiedostossa on tietoja työssäolokuukausista kokopäivätyössä vuosilta 1975, 1980 ja 1985. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkun",
+      "variablename": "Työpaikan sijaintikunta",
+      "conceptdef": "Työpaikan sijainti on määritelty työn luonteen ja suorittamispaikan mukaan. Pitkittäistiedoston pienin alueyksikkö on kunta.  Vuonna 1970 ja 1975 työpaikalla tarkoitettiin lähinnä työpaikkaa vuoden vaihteessa. Vuoden 1980 laskennassa tiedusteltiin missä työpaikassa asianomainen oli ollut \"työssä pisimmän ajan 12 viime kuukauden aikana\". Vuonna 1985 työpaikalla tarkoitettiin pääasiallista työpaikkaa viikolla 11-17.11.1985.\n\nPitkittäistiedostossa on erillinen koodi niille, joiden työ on ollut “useissa kunnissa liikkuva (998)”. ”Liikkuvien” määrä vaihtelee melko paljon laskennasta toiseen, samaten niiden henkilöiden määrä, joiden työpaikan sijainti on kokonaan tuntematon.\n\nVertailukelpoisuus eri laskentavuosien välillä saattaa parantua, mikäli henkilöt, joiden työpaikan sijainti on ollut ”useissa kunnissa liikkuva (998)” tai ”tuntematon (999)” sijoitetaan kotikuntaansa. \n\nUlkomailla työskentelevillä on tiedostossa oma kood (200)i. Tiedon peittävyys ei kuitenkaan liene hyvä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala",
+      "variablename": "Toimiala",
+      "conceptdef": "Henkilön elinkeino (toimiala) määräytyy hänen työpaikkansa toimialan mukaan. Kaikki samassa toimipaikassa työskentelevät saavat saman elinkeinon ammatistaan riippumatta. Työpaikan toimiala määritetään kullekin toimipaikalle Tilastokeskuksen toimiala¬luokituksen mukaisesti. Itsenäiselle ammatinharjoittajalle elinkeino määritetään toiminnan laadun mukaan.\nToimipaikassa yritys harjoittaa pääasiassa yhdenlaatuista toimintaa. Saman yrityksen eri sijaintipaikoilla harjoittamat toiminnot katsotaan yleensä eri toimipaikoiksi.\n\nVuoden 1970 laskennan yhteydessä tiedusteltiin sekä vuodenvaihteen että laskentaviikon työpaikkaa. Pitkittäistiedostoon on ensisijaisesti siirretty vuodenvaihteen toimialatieto. Vuoden 1975 laskennassa tiedot piti antaa \"1.1.1976 vallitsevien olosuhteiden mukaisesti\". Vuoden 1980 toimialatieto perustuu siihen työpaikkaan, jossa asianomainen oli ollut \"työssä pisimmän ajan 12 viime kuukauden aikana\". Vuoden 1985  elinkeinotieto kuvaa laskentaviikon pääasiallisen työpaikan toimialaa. \n\nVuoden 1970 ja 1975 väestölaskennoissa käytettiin toimialaluokitusta, joka on esitetty monisteessa \"Elinkeinoluokitus. Väestölaskenta 1970\". Vuonna 1980 otettiin käyttöön uusi toimialaluokitus, joka oli käytössä myös vuonna 1985 (Toimialaluokitus 1979, Tilastokeskus, Käsikirjoja nro 4, uudistettu laitos 1984).\n\nPitkittäistiedoston luokitus perustuu vuoden 1979 luokitukseen. Tämä luokitus on tarkempi kuin vuosien 1970 ja 1975 luokitus. Kun näiden vuosien toimialatiedot muunnettiin uutta luokitusta vastaaviksi, noin 200 lähinnä 5-numerotason toimialaryhmää jäi ilman tapauksia. Nämä toimialakoodit ovat kuitenkin käytössä vuosien 1980 ja 1985 .. \n",
+      "measunit": null,
+      "classification": "toimiala_104_1979_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "jurmu",
+      "variablename": "Juridinen muoto",
+      "conceptdef": "Juridinen muoto kuvaa työpaikan omistajuutta ja yritysmuotoa. Juridisen muodon avulla voidaan tehdä jako mm. julkisen ja yksityisen sektorin välillä. Tieto on niillä henkilöillä, jotka ovat ammattiasemaltaan palkansaajia ja se perustuu laskentalomakkeilla saatuihin tietoihin henkilön työpaikasta. Vuosina 1970 ja 1975 työpaikalla tarkoitettiin lähinnä työpaikkaa vuodenvaihteessa. Vuoden 1980 laskennassa tiedusteltiin missä työpaikassa asianomainen oli ollut \"työssä pisimmän ajan 12 viime kuukauden aikana\". Vuonna 1985 työpaikalla tarkoitettiin pääasiallista työpaikkaa viikolla 11-17.11.1985.\n\nPitkittäistiedoston luokitus noudattaa vuoden 1985 luokitusta. Vuosina 1970 ja 1975 asunto-osakeyhtiöt on kuitenkin viety ryhmään \"muu osakeyhtiö\", kun ne taas vuosina 1980 ja 1985 sisältyvät ryhmään \"muu yksityinen sektori\". \n\nTyöpaikan juridinen muoto\n\nLuokitus:\n1=Valtio\n2=Kunta\n3=Valtioenemmistöinen osakeyhtiö\n4=Muu osakeyhtiö (myös asunto-osakeyhtiö)\n5=Muu yksityinen sektori\n9=Muu, tuntematon, työpaikka ulkomailla  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akoko",
+      "variablename": "Asuntokunnan koko",
+      "conceptdef": "Pitkittäistiedostossa on myös jokaiselta väestölaskentavuodelta tieto asuntokunnan koosta. Tämä tieto on otettu suoraan alkuperäisten laskenta-aineistojen asunto- tai asuntokunta¬tiedostoista. Asuntokuntakoodin avulla muodostettujen asuntokuntien kokotieto saattaa poiketa tästä tiedosta.\n\nAsuntoväestöön kuuluvat periaatteessa kaikki Suomessa yksityisasunnoissa asuvat henkilöt, eli kaikki ne, jotka kuuluvat johonkin ruoka- tai asuntokuntaan. Asuntoväestön määritelmä vaihtelee kuitenkin jonkin verran laskennasta toiseen - joskus jopa saman väestölaskentavuoden eri tiedostoissa. Pitkittäistiedostossa asuntoväestö on osittain määritelty uudestaan. Asuntokunnan maksimikoko on 25.\n\nVuoden 1970 asuntoväestöön laskettiin kaikki henkilöt, jotka eivät vakituisesti asuneet laitoksissa, olivat vailla vakinaista asuntoa tai työskentelivät Suomen lähetystöissä tai edustoissa ulkomailla. Asuntoloissa asuvat laskettiin asuntoväestöön, mikäli asunto täytti asuinhuoneiston määritelmän.Vuoden 1970 laskennassa muodostettiin ruokakuntia myös niistä henkilöistä, jotka eivät kuuluneet asuntoväestöön (lähinnä asuntoloissa asuvia). Tällaisiin ruokakuntiin kuului yhteensä 26 000 henkilöä. Pitkittäis-tiedostossa valtaosa näistä henkilöistä on laskettu asuntoväestöön. \n\nVuoden 1975 laskenta-aineistoon sisältyi yhteensä noin 125 000 henkilöä, jotka eivät palauttaneet väestölaskentalomaketta. Näitä henkilöitä ei laskenta-aineistossa laskettu asunto¬väestöön kuuluviksi. Pitkittäistiedostossa vuoden 1975 asuntoväestöön on laskettu lähes kaikki henkilöt, jotka eivät vakituisesti asuneet laitoksessa. Tästä syystä luku on huomattavasti suurempi kuin alkuperäisessä väestölaskenta-aineistossa. \n\nVuoden 1980 laskennassa asuntoväestöön laskettiin myös asuntoloissa asuvat, joiden asuintilat eivät täyttäneet asuinhuoneiston määritelmää. Pitkittäistiedostossa vuoden 1980 asuntoväestöön ei kuulu lainkaan asuntoloissa asuvia. Asuntolarakennuksissa asui yhteensä noin 13 000 henkilöä.\n\nVuosien 1985, 1990 ja 1995 asuntoväestöön kuuluvat väestön keskusrekisterin mukaan vuoden lopussa asuinhuoneistoissa vakinaisesti asuvat henkilöt. Laitoksissa vakinaisesti hoidettavina olevat, asuntoloissa ja ulkomailla asuvat sekä asunnottomat henkilöt eivät kuulu asuntoväestöön, eivätkä myöskään ne asuntolarakennuksiksi luokitelluissa rakennuksissa asuvat henkilöt, joiden asunto ei täytä asuinhuoneiston määritelmää. \n \nLuokitus:\n00=Ei kuulu asuntoväestöön\n01=asuntokunnassa yksi henkilö\n02=Kaksi henkilöä \n..\n..\n \n99=Asuntokunnan koko tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hape",
+      "variablename": "Asunnon hallintaperuste",
+      "conceptdef": "Asunnot ryhmitellään hallintaperusteen mukaan omistusasuntoihin ja vuokra-asuntoihin. Omistus-asunnot jaetaan edelleen kahteen alaluokkaan: asunnon haltija omistaa talon ja asunnon haltija omistaa asunto-osakkeet (ei 1975). Vuokra-asuntojen alaluokat ovat virka- tai työsuhdeasunto sekä vuokra- tai osuuskunta-asunto. Luokka \"muu hallintaperuste\" (esim. syytinki, sukulaisuus) otettiin käyttöön vuoden 1980 väestölaskennassa. \n\nPitkittäistiedostossa kaikki samassa huoneistossa asuvat ovat saaneet saman hallintaperustekoodin. \nVuosina 1970 ja 1975 alivuokralaiset voidaan kuitenkin erottaa omaksi ryhmäkseen hallintaperustetiedon ja ruokakuntakoodin avulla. Myöhempinä vuosina alivuokralaiset joudutaan luokit-telemaan asunnon haltijan hallintaperusteen mukaisiin luokkiin. Vuoden 1990 luotettavuusselvityksen mukaan alivuokralaisia oli kaikkiaan noin 19 000.\n\nSelvitykset vuosilta 1980 ja 1990 ovat osoittaneet, että tieto hallintaperusteesta on asuinhuoneistotiedoista luotettavimpia. Oikein luokiteltujen asuntojen osuus oli vuonna 1980 arviolta 94 % ja vuonna 1990 noin 89 %. \n\nTieto asunnon hallintaperusteesta on vain niillä henkilöillä, jotka alkuperäisissä väestölaskenta-aineistoissa luokiteltiin asuntoväestöön kuuluviksi.\n\nLuokitus 1970, 1980 ja 1985\n0=Ei kuulu asuntoväestöön\n1=omistaa talon\n2=omistaa osakkeet\n3=työ- tai virkasuhdeasunto\n4=vuokra-asunto tai osuuskunta-asunto\n9=Hallintaperuste tuntematon\n\nLuokitus 1975 vai 1980 (vrt alkuper muuttujaluettelo)\n0=Ei kuulu asuntoväestöön\n1=Omistaa talon tai asunnon osakkeet\n3=Työ- tai virkasuhdeasunto\n4=Vuokra-asunto tai osuuskunta-asunto\n5=Huoneisto tilapäisesti asuttu\n9=Hallintaperuste tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hulu",
+      "variablename": "Huoneiden lukumäärä",
+      "conceptdef": "Asunnossa olevien huoneiden lukumäärä ilman keittiötä.\n\nHuone on ikkunallinen tila, jonka lattiapinta-ala on vähintään 7 m2 ja keskikorkeus vähintään 2 metriä. Eteistä, vilpolaa, makuualkovia tai muuta vastaavaa ei katsota huoneeksi.\n\nPitkittäistiedostossa asunnon huoneluku on laskettu ilman keittiötä. Alkuperäisistä väestölaskenta-aineistoista on mahdollista tuottaa huonelukutietoja, joissa keittiö on laskettu mukaan huonelukuun. \n\nMikäli samassa asunnossa asuu useampia ruokakuntia, pitkittäistiedoston tiedot huoneluvusta eivät aina anna täsmällistä kuvaa yksittäisen henkilön käytössä olevien huoneiden lukumäärästä. Tällaisia asuntoja oli vuonna 1970 noin 7 % ja vuonna 1975 noin 4 % kaikista asunnoista. Alkuperäisissä väestölaskenta-aineistoissa on myös erikseen tietoja asunnon haltijaruokakunnan huoneluvusta vuosina 1970 ja 1975. Vuoteen 1980 asti tiedot huoneluvusta perustuvat laskentalomaketietoihin. Tämän jälkeen tiedot on saatu suoraan väestön keskusrekisteristä. \n\nVuosien 1970 ja 1975 alkuperäisissä väestölaskenta-aineistoissa on eritelty huoneet, joita käytetään yksinomaan työtiloina. Tällaisia huoneita oli kuitenkin verraten vähän (1975 noin 1 % kaikista huoneista). Pitkittäistiedostossa asunnon kaikki huoneet on otettu huomioon. \n\nHuoneluku-tiedon laadusta on jonkin verran tieto-ja vuodelta 1980. Huoneluvultaan oikein luokiteltujen huoneistojen osuus oli vuonna 1980 noin 82 % . Kysymyksessä on kuitenkin yleensä vain yhden huoneen heitto puoleen tai toiseen. Vuonna 1980  laskennan yksiöistä (ml keittiö) 87 % oli yksiöitä myös luotettavuustutkimusten tietojen perusteella. Vuoden 1980 väestölaskenta-aineistossa yksiöiden määrä näyttää olevan liian suuri.. \n\nTieto huoneiden lukumäärästä on vain niillä henkilöillä, jotka alkuperäisissä väestölaskenta-aineistoissa luokiteltiin asuntoväestöön kuuluviksi.\n\n0=henkilö ei kuulu asuntoväestöön tai huoneluku tuntematon\n1=1 huone\n2=2 huonetta\n..\n.. \n9=Vähintään 9 huonetta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taty",
+      "variablename": "Talotyyppi",
+      "conceptdef": "Asunnot ryhmitellään talotyypin mukaan seuraavasti:\n- erilliset pientalot: 1-2 asunnon asuintalot, paritalot sekä pientaloihin verrattavat erilliset asuinrakennukset (esim. vakinaisesti asutut vapaa-ajan asunnot)\n- rivi- ja ketjutalot: asuinrakennukset, joissa on vähintään kolme yhteen kytkettyä pientaloa\n- asuinkerrostalot: vähintään kolmen asunnon talot, joissa ainakin kaksi asuntoa sijaitsee päällekkäin ja jotka eivät kuulu edellisiin luokkiin\n- muu rakennus: myös rakennukset, joiden talotyyppi on tuntematon.\n\nLuokitus:\nTALOTYYPPI 1970-75, 1985\n0=Ei kuulu asuntoväestöön\n1=Erillinen pientalo\n2=Kytketty pientalo\n3=Asuinkerrostalo\n5=Muu rakennus\n9=Tuntematon\t\n\nTALOTYYPPI 1980\n0=Ei kuulu asuntoväestöön\n1=Erillinen pientalo\n2=Kytketty pientalo\n3=Asuinkerrostalo\n9=Muu rakennus, tuntematon\n\nHUOM! Eri vuosien tiedot eivät ole vertailukelpoisia ainakaan asuntoväestöön kuulumattomien kohdalla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vata",
+      "variablename": "Asunnon varustetaso",
+      "conceptdef": "ASUNNON VARUSTETASO 1970-85\nArvoalue 0 -64, 99\n0 = Ei asuntoväestössä\n1 = asunnossa ei varusteita \n\t\n2-64 erilaisia kombinaatioita varusteista\nviemäri\nvesijohto\nWC\nkeskus- tai sähkölämmitys\nlämmin vesi\npeseytymistilat\n\n64 = Asunnosssa kaikki varusteet\n99 = Varustetaso tuntematon\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "penulaika",
+      "variablename": "Perheen nuorimman lapsen ikä",
+      "conceptdef": "Perheen nuorimman lapsen ikä on päätelty perhe-asema- ja ikätietojen avulla. \n\nLapsiksi katsotaan iästä riippumatta vanhempien kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset.\n\n00=nuorimman lapsen ikä 0 vuotta\n01=nuorimman lapsen ikä 1 vuotta \n..\n..\n99=ei lapsia tai henkilö ei kuulu perheväestöön\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "peas",
+      "variablename": "Perheasema",
+      "conceptdef": "0=Ei perheväestössä\n1=Päämies\n2=Puoliso (avio- tai avo-)\n3=Lapsi\n9=Perheasema tuntematon\n\nLapseksi katsotaan iästä riippumatta vanhempien kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset.\n\nHuom! Vuonna 1980 päämies (=1) on vanhempi puoliso ja puoliso (=2) nuorempi sukupuolesta riippumatta\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkm",
+      "variablename": "Lasten lukumäärä perheessä",
+      "conceptdef": "Lasten lukumäärä perheessä. Lapsiksi katsotaan iästä riippumatta vanhempien kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset.\nLuokitus:\n0=Ei perheväestössä tai perheessä ei lapsia (ei ikärajaa) \n1=perheessä yksi lapsi\n2=perheessä kaksi lasta jne\n9=perheessä vähintään 9 lasta\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkm18",
+      "variablename": "Alle 18-vuotiaiden lasten lukumäärä perheessä",
+      "conceptdef": "Alle 18-vuotiaiden lasten lukumäärä perheessä. Lapseksi katsotaan iästä riippumatta vanhempien kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset.\nLuokitus:\n0=Ei perheväestössä tai perheessä ei alle 18 -vuotiaita lapsia \n1=perheessä yksi alle 18-vuotias lapsi\n 2=perheessä kaksi alle 18-vuotiasta jne\n 9=perheessä vähintään yhdeksän alle 18-vuotiaita\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkm7",
+      "variablename": "Alle 7-vuotiaiden lasten lukumäärä perheessä",
+      "conceptdef": "Alle 7-vuotiaiden lasten lukumäärä perheessä. Lapseksi katsotaan iästä riippumatta vanhempien kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset.\nLuokitus:\n0=Ei perheväestössä tai perheessä ei alle 7 -vuotiaita lapsia \n1=perheessä yksi alle 7-vuotias lapsi\n2=perheessä kaksi alle 7-vuotiasta lasta \n9=perheessä vähintään yhdeksän alle 7-vuotiasta\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkm3",
+      "variablename": "Alle 3-vuotiaiden lasten lukumäärä perheessä",
+      "conceptdef": "Alle 3-vuotiaiden lasten lukumäärä perheessä. Lapseksi katsotaan iästä riippumatta vanhempien kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset.\nLuokitus:\n0=Ei perheväestössä tai perheessä ei alle 3 -vuotiaita lapsia \n1=perheessä yksi alle 3-vuotias lapsi \n2=perheessä  kaksi alle 3-vuotiasta lasta\n4=perheessä vähintään neljä alle 3-vuotiasta lasta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pekoko",
+      "variablename": "Perheen koko",
+      "conceptdef": "\nPerheen muodostavat yhdessä asuvat avio- tai avoliitossa olevat henkilöt ja heidän lapsensa, jompikumpi vanhemmista lapsineen sekä avio- ja avopuolisot, joilla ei ole lapsia. \n\nPerheessä voi olla korkeintaan kaksi perättäistä sukupolvea. Jos asuntokunnassa on useampia sukupolvia, perhe muodostetaan nuorimmasta sukupolvesta lähtien. Näin esim. lapsensa perheen kanssa asuva anoppi tai appi jää perheeseen kuulumattomaksi, ellei yhdessä asu myös puoliso, jolloin vanha pariskunta muodostaa oman erillisen perheen.\n\nYhdessä asuvat sisarukset tai serkukset eivät ole perhe eivätkä kuulu perheväestöön. Yksin tai samaa sukupuolta olevan henkilön kanssa asuvat ihmiset eivät kuulu perheväestöön.\n\nLuokitus:\nArvoalue 0, 2-9 \n0=Ei perheväestössä, koko tuntematon \n2=Kaksi henkilöä jne.\n18= 18  tai enemmän\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pety",
+      "variablename": "Perhetyyppi",
+      "conceptdef": "PERHETYYPPI 1970\n0=Ei perheväestössä\n1=Aviopari ilman lapsia\n2=Aviopari ja lapsia\n3=Äiti ja lapsia\n4=Isä ja lapsia\n5=Avopari ja lapsia\n9=Tuntematon \n\nPERHETYYPPI 1975\n0=Ei perheväestössä\n1=Aviopari ilman lapsia\n2=Aviopari ja lapsia\n3=Äiti ja lapsia\n4=Isä ja lapsia\n5=Avopari ja lapsia\n7=Avopari ilman lapsia\n9=Tuntematon\n\nPERHETYYPPI 1980\n0=Ei perheväestössä\n1=aviopari ilman lapsia\n2=aviopari ja lapsia\n3=äiti ja lapsia\n4=isä ja lapsia\n5=avopari ja lapsia\n\nPERHETYYPPI 1985\n0=Ei perheväestössä\n1=aviopari ilman lapsia\n2=aviopari ja lapsia\n3=äiti ja lapsia\n4=isä ja lapsia\n5=avopari ja ei yhteisiä lapsia\n6=avopari ja yhteisiä lapsia\n7=avopari ilman lapsia\n9=perhetyyppi tuntematon\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatv",
+      "variablename": "Valtionveronalaiset tulot",
+      "conceptdef": "Tulot euroissa. Valtionveronalaisiksi tuloiksi on katsottu tulot, joiden suuruus on vähintään 2 euroa.\n\nPitkittäistiedostossa on kolme tulotietoa:\n-valtionveronalaiset tulot\n-palkkatulot\n-yrittäjätulot\n\n\nKeskituloilla tarkoitetaan tuloja laskettuna tulonsaajaa kohti. Mediaanitulot antavat yleensä paremman kuvan tietyn ryhmän tulotasosta. Mediaanitulot ilmoittavat sen tulomäärän, joka jakaa tulonsaajat kahteen yhtä suureen joukkoon. Puolella tulonsaajista on mediaanituloja pienemmät ja puolella vastaavasti suuremmat tulot.\n\nNettotuloilla tarkoitetaan tuloja, jotka saadaan vähentämällä valtionveronalaisista tuloista verot (tulovero, varallisuusvero, veronkorotus, kunnallisvero, kirkollisvero, kansaneläkevakuutusmaksu, sairausvakuutusmaksu ja metsänhoitomaksut).\n\nValtionveronalaiset tulot jaetaan tulolähteen mukaan seuraaviin ryhmiin:\n\n1) palkkatulot:\nennakonkannonalaiset palkkatulot, merityötulo, työnantajan maksamat kustannusten korvaukset, rakennusalan lomapalkka, reserviläispalkka, Suomessa verotettu ulkomaan tulo, hankintatyön arvo metsätaloudessa, hankintatyön arvo yhtymästä sekä lunastukset, palvelurahat yms. ennakonkannon alaiset tulot\n\n2) yrittäjätulot:\nmaatilatalouden ansio- ja pääomatulot, elinkeinotoiminnan ansio- ja pääomatulot sekä tulot yhtymästä\n\n3) muut valtionveronalaiset tulot:\nmuut ansiotulot, eläketulot, työttömyysturvaetuudet sekä muut sosiaaliturvaetuudet.\n\nHenkilön ansiotulot muodostuvat yrittäjä- ja palkkatuloista. Valtionveronalaisia tuloja eivät ole mm. julkisyhteisöiltä saadut stipendit ja apurahat, ulkomailta saadut palkkatulot, jos työskentely ulkomailla on kestänyt vähintään puoli vuotta, osa julkiselta sektorilta saaduista sosiaaliturvaetuuksista sekä verovapaat korkotulot.\n\n\nVaikka perusjoukko on määritelty laskentapäivän avulla, yksittäisten tietojen viite-ajanjakson pituus vaihtelee. Tiedot  tuloista koskevat koko väestölaskentavuotta (tulotiedot vuoden 1970 laskennassa koskevat vuotta 1971).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyotu",
+      "variablename": "Palkkatulo",
+      "conceptdef": "Palkkatulot euroissa. Tiedot  tuloista koskevat koko väestölaskentavuotta paitsi vuoden 1970 laskennassa tulotiedot koskevat vuotta 1971.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyrtu",
+      "variablename": "Yrittäjätulo",
+      "conceptdef": "Yrittäjätulot euroissa. Tiedot  tuloista koskevat koko väestölaskentavuotta paitsi vuoden 1970 laskennassa tulotiedot koskevat vuotta 1971.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

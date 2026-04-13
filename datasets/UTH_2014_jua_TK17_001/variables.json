@@ -1,0 +1,1788 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Haastatteluvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "haast"
+    },
+    {
+      "identifier": "shnro_uth",
+      "variablename": "Suojattu TK:n henkilönumero UTH-aineistossa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "haast"
+    },
+    {
+      "identifier": "tutkimus",
+      "variablename": "Tutkimus",
+      "conceptdef": "1 = Ulkomaista syntyperää olevien työ ja hyvinvointi -tutkimus (UTH) 2014\n2 = Työvoimatutkimus (LFS) 2014 (5. rotaatio)\n3 = Alueellinen terveys- ja hyvinvointi -tutkimus (ATH)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "haast"
+    },
+    {
+      "identifier": "kk",
+      "variablename": "Haastattelukuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "haast"
+    },
+    {
+      "identifier": "vko",
+      "variablename": "Haastatteluviikko",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "haast"
+    },
+    {
+      "identifier": "tapa",
+      "variablename": "Haastattelutapa",
+      "conceptdef": "1 = käyntihaastattelu\n2 = puhelinhaastattelu kotinumerosta\n3 = puhelinhaastattelu työpaikalta\n9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "haast"
+    },
+    {
+      "identifier": "thl_calw",
+      "variablename": "UTH-paino, koko haastattelu, N = 2840",
+      "conceptdef": "Pitkään UTH-haastatteluun vastanneille, N = 2840. Osa muuttujista ei ole ollut lyhytlomakkeella ja siksi niihin on 422 vastaajaa vähemmän. Käytetään silloin, kun muttujan frekvenssit on nolla, kun HK=2 (tällöin muuttuja ei ole ollut lyhytlomakkeella). Koskee useita terveys- ja hyvinvointiosion tietoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "paino"
+    },
+    {
+      "identifier": "uth_calw",
+      "variablename": "UTH-paino, lyhytlomake, N = 3262",
+      "conceptdef": "Lyhyeen UTH-haastatteluun vastanneille, N = 3262. UTH-aineiston varsinainen paino. Käytetään silloin, kun muuttujan frekvenssit ei ole noll akun HK = 2 ( muuttuja on ollut siis myös lyhytlomakkeella). Lyhytlomakkeella oli koko työ- ja koulutusosio, mutta vain osa terveys- ja hyvinvointiosiosta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "paino"
+    },
+    {
+      "identifier": "yhd_calw",
+      "variablename": "Yhdistelmäaineiston paino, N=20 487",
+      "conceptdef": "Ns. yhdistelmäaineiston paino, jota käytetään silloin kun analysoidaan LFS- ja UTH-aineistoa yhdessä. N = 20 487",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "paino"
+    },
+    {
+      "identifier": "osite",
+      "variablename": "Yhdistelmäaineiston (sis uth) osite-muuttuja",
+      "conceptdef": "Muuttujaa voidaa käyttää luottamusvälien laskemiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "paino"
+    },
+    {
+      "identifier": "hk",
+      "variablename": "Lyhytlomake",
+      "conceptdef": "Painojen käytössä käytettävä muuttuja, silloin kun käsitellään pelkkää UTH-aineistoa.\n1 = normaali haastattelu\n2 = lyhythaastattelu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "paino"
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1 = mies 2 = nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä",
+      "conceptdef": "Ikä tutkimushetkellä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "ika3",
+      "variablename": "Ika, luokiteltu",
+      "conceptdef": "1 = alle 30\n2 = 30-44\n3 = yli 44",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "ika4",
+      "variablename": "Ika, luokiteltu",
+      "conceptdef": "1 = 20-29\n2 = 30-39\n3 = 40-49\n4 = 50-64",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "tausta",
+      "variablename": "Syntyperä",
+      "conceptdef": "Syntyperä\n0=suomalaistaustainen\n1=ulkomaalaistaustainen\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "cobfath",
+      "variablename": "Isän syntymämaa",
+      "conceptdef": "2-kirjaiminen ISO maakoodi \n98 = Maa tuntematon, mutta isä syntynyt ulkomailla\n99 = Ei kohderyhmää\nBlank = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "cobmoth",
+      "variablename": "Ädin syntymämaa",
+      "conceptdef": "2-kirjaiminen ISO maakoodi \n98 = Maa tuntematon, mutta äiti syntynyt ulkomailla\n99 = Ei kohderyhmää\nBlank = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "taustamaal",
+      "variablename": "Taustamaa",
+      "conceptdef": "3-numeroinen valtioluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "maal2",
+      "variablename": "Taustamaa, luokiteltu",
+      "conceptdef": "1= Entinen NL ja Venäjä\n2 = Viro\n3 = Lähi-Itä ja Pohjois-Afrikka (ml. entinen Sudan)\n4 = Muu Afrikka (ml. Somalia)\n5 = Intia, Vietnam, Thaimaa, Kiina ja muu Aasia\n6 = EU- ja Efta-maat, Pohjois-Amerikka\n7 = Latinalainen Amerikka ja muut maat sekä lakkautetut valtiot (pl. NL, Sudan)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "hdi_2014",
+      "variablename": "HDI 2014",
+      "conceptdef": "Taustamaan vuoden 2014 human development index",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "hdi_2014_5lk",
+      "variablename": "HDI 2014, luokiteltu",
+      "conceptdef": "1 = very high (0.944-0.816)\n2 = Russia & Belarus (0.798)\n3 = high (0.793-0.715)\n4 = medium (0.693-0.555)\n5 = low (0.548-0.348)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "suomi",
+      "variablename": "Syntymävaltio",
+      "conceptdef": "1=Syntynyt Suomessa\n0=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kansa1_2013l",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "3-numeroinen valtioluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kansaeu",
+      "variablename": "Kansalaisuus, luokiteltu",
+      "conceptdef": "1 = Suomi\n2 = Muu EU28-maa \n3 = kolmas maa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kansaefta",
+      "variablename": "Kansalaisuus, luokilteltu",
+      "conceptdef": "1 = Suomi\n2 =  Muu EU28-maa tai Efta-maa (Norja, islanti, Sveitsi, Liechtenstein)\n3 = kolmas maa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "maahanmuuttoeka",
+      "variablename": "Ensimmäinen maahanmuuttopäivä",
+      "conceptdef": "sas-date",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "maahanmuuttovika",
+      "variablename": "Viimeisin maahanmuuttopäivä",
+      "conceptdef": "sas-date",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "maastamuuttoeka",
+      "variablename": "Ensimmäinen maastamuuttopäivä",
+      "conceptdef": "sas-date",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "maastamuuttovika",
+      "variablename": "Viimeisin maastamuuttopäivä",
+      "conceptdef": "sas-date",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "ika_maahanmuutto",
+      "variablename": "Ikä maahanmuuttaessa, luokittelematon",
+      "conceptdef": "Ikä numeroina",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "ika_maastamuutto",
+      "variablename": "Ikä maastamuuttaessa, luokittelematon",
+      "conceptdef": "Ikä numeroina",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika_maahanmuuttol",
+      "variablename": "Ikä Suomeen muuttaessa",
+      "conceptdef": "Ikä Suomeen muuttaessa. \n0 = Syntynyt Suomessa tai tullut alle vuoden ikäisenä\n. = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "muuttoika",
+      "variablename": "Ikä Suomeen muuttaessa, luokiteltu",
+      "conceptdef": "1 = Syntynyt Suomessa tai muuttanut alle vuoden ikäisenä\n2 = 1–6-vuotias\n3 = 7–19-vuotias\n4 = 20–29-vuotias\n5 = 30 vuotta tai enemmän\n. = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "migreas",
+      "variablename": "Maahanmuuton tärkein syy",
+      "conceptdef": "1 = Työ, työpaikka saatu ennen muuttoa\n2 = Työ, työnhaku\n3 = Perhesyyt tai avioliitto (sis. myös kaikki alle 15-vuotiaana muuttaneet)\n4 = Opiskelu\n5 = Pakolaisuus, turvapaikan haku\n6 = Muu\n9 = Ei kohderyhmää\n. = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "migreas2",
+      "variablename": "Maahanmuuton tärkein syy, karkeistettu",
+      "conceptdef": "1 = Työ (joko työ saatu ennen muuttoa tai työnhaku)\n2 = Perhesyyt tai avioliitto (sis. myös kaikki alle 15-vuotiaana muuttaneet)\n3 = Opiskelu\n4 = Pakolaisuus, turvapaikan haku\n5 = Muu\n9 = ei kohderyhmää\n. = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "asvu",
+      "variablename": "Asuinvuodet Suomessa",
+      "conceptdef": "Suomessa asuttujen vuosien lukumäärä, kyselystä saatu tieto.\n0 = asunut Suomessa alle vuoden\n11 = asunut Suomessa 11 vuotta tai kauemmin\n99 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "yearesidl",
+      "variablename": "Maassa asumisen aika",
+      "conceptdef": "Maassa asumisen aika vuosina",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "asvuodet10",
+      "variablename": "Maassa asumisen aika, luokiteltu",
+      "conceptdef": "1 = alle 10 vuotta\n2 = 10 vuotta tai enemmän\n3 = syntynyt Suomessa\n. = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "asvuodet8",
+      "variablename": "Maassa asumisen aika, luokiteltu",
+      "conceptdef": "Maassa asumisen aika, luokiteltu\n1 = alle 8 vuotta\n2 = 8 vuotta tai enemmän\n3 = syntynyt Suomessa\n. = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "asvuodet5",
+      "variablename": "Maassa asumisen aika, luokiteltu",
+      "conceptdef": "Maassa asumisen aika, luokiteltu\n1 = alle 5 vuotta\n2 = 5-10 vuotta\n3 = yli 10 vuotta \n4 = syntynyt Suomessa\n. = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "alue3",
+      "variablename": "Asuinalue, luokiteltu",
+      "conceptdef": "1 = Länsi-Suomi ja Ahvenanmaa\n2 = (Muu) uusimaa\n3 = (Muu) Etelä-Suomi\n4 = Pohjois- ja Itä-Suomi\n5= Helsinki\n6 = Espoo\n7 = Vantaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "alue4",
+      "variablename": "Asuinalue, luokiteltu",
+      "conceptdef": "1 = Helsinki\n2 = Espoo ja Vantaa\n3 = Muu Etelä-Suomi ja Uusimaa\n4 =Länsi-Suomi ja Ahvenanmaa\n5 = Pohjois- ja Itä-Suomi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kansa2",
+      "variablename": "Toinen kansalaisuustunnus",
+      "conceptdef": "3-numeroinen valtioluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kansa3",
+      "variablename": "Kolmas kansalaisuustunnus",
+      "conceptdef": "3-numeroinen valtioluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "e1kansa",
+      "variablename": "Edellinen kansalaisuustunnus",
+      "conceptdef": "3-numeroinen valtioluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kieli",
+      "variablename": "Äidinkielitunnus",
+      "conceptdef": "Kieliluokitus ISO 639\n...\n98 = jokun muu kieli\n99, . = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "kan1sapv",
+      "variablename": "Suomen kansalaisuuden saantivuosi",
+      "conceptdef": "VVVV",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tausta"
+    },
+    {
+      "identifier": "avi",
+      "variablename": "Aluehallintovirasto -luokituksen mukainen aluejako",
+      "conceptdef": "Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.\n1 = Etelä-Suomen AVI\n2 = Lounais-Suomen AVI\n3 = Itä-Suomen AVI\n4 = Länsi- ja Sisä-Suomen AVI\n5 = Pohjois-Suomen AVI\n6 = Lapin AVI\n7 = Ahvenanmaan valtionvirasto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "rek_lfs"
+    },
+    {
+      "identifier": "pks_avi",
+      "variablename": "Kotiseutu",
+      "conceptdef": "Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) ja aluehallintoviraston (AVI) perusteella saatava tieto.\n0 = pääkaupunkiseutu\n1 = muu Etelä-Suomen AVI\n2 = Lounais-Suomen AVI\n3 = Itä-Suomen AVI\n4 = Länsi- ja Sisä-Suomen AVI\n5 = Pohjois-Suomen AVI\n6 = Lapin AVI\n7 = Ahvenanmaan valtionvirasto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "rek_lfs"
+    },
+    {
+      "identifier": "ely",
+      "variablename": "Elinkeino-, liikenne- ja ympäristökeskus",
+      "conceptdef": "Tilastotovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.\n1 = Uudenmaan ELY-keskus\n2 = Varsinais-Suomen ELY-keskus\n3 = Satakunnan ELY-keskus\n4 = Hämeen ELY-keskus\n5 = Pirkanmaan ELY-keskus\n6 = Kaakkois-Suomen ELY-keskus\n7 = Etelä-Savon ELY-keskus\n8 = Pohjois-Savon ELY-keskus \n9 = Pohjois-Karjalan ELY-keskus\n10 = Keski-Suomen ELY-keskus\n11 = Etelä-Pohjanmaan ELY-keskus\n12 = Pohjanmaan ELY-keskus\n13 = Pohjois-Pohjanmaan ELY-keskus\n14 = Kainuun ELY-keskus\n15 = Lapin ELY-keskus\n16 = Ahvenanmaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "rek_lfs"
+    },
+    {
+      "identifier": "nuts3_eu",
+      "variablename": "Asuinpaikan EU:n alueluokitus",
+      "conceptdef": "Kuntarekisteristä asuinkunnan (ASKU) perusteella. NUTS on Euroopan tilastovirasto Eurostatin alueluokitus (Province/NUTS3). NUTS3 -taso vastaa kansallista maakuntaaluejakoa. \nFI131 = Etelä-Savo\nFI132 = Pohjois-Savo\nFI133 = Pohjois-Karjala\nFI134 = Kainuu\nFI181 = Uusimaa\nFI182 = Itä-Uusimaa\nFI183 = Varsinais-Suomi\nFI184  = Kanta-Häme\nFI185 = Päijät-Häme\nFI186 = Kymenlaakso\nFI187 = Etelä-Karjala\nFI191 = Satakunta\nFI192= Pirkanmaa\nFI193 = Keski-Suomi\nFI194 = Etelä-Pohjanmaa\nFI195 = Pohjanmaa\nFI1A1 = Keski-Pohjanmaa\nFI1A2 = Pohjois-Pohjanmaa\nFI1A3 = Lappi\nFI200 = Ahvenanmaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "rek_lfs"
+    },
+    {
+      "identifier": "tyossa",
+      "variablename": "Ansiotyö päätyössä tutkimusviikolla",
+      "conceptdef": "1 = kyllä\n2 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "poissa",
+      "variablename": "Tilapäinen poissaolo tutkimusviikolla päätyöstä",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyovoi",
+      "variablename": "Työvoimaan kuuluvuus",
+      "conceptdef": "1 = työvoima\n2 = työvoimaan kuulumaton",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyvo",
+      "variablename": "Työmarkkina-asema",
+      "conceptdef": "Virallinen työllisyys- ja työttömyysaste lasketaan tämän muuttujan perusteella\n1 = työllinen\n2 = työtön\n3 = varusmiespalvelua tai siviilipalvelua suorittamassa (työvoimaan kuulumaton)\n4 = muut työvoimaan kuulumattomat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "wstator",
+      "variablename": "Work status during the reference week (EU-muuttuja, jota käytetään työllisyysasteen laskemiseen)",
+      "conceptdef": "1 = Did any work for pay or profit during the reference week – one hour or more (including family workers but excluding conscripts on compulsory military or community service)\n2 = Was not working but had a job or business from whitch he/she  was absent during the reference week (including family workers but excluding conscripts on compulsory military or community service)\n3 = Was not working because on lay-off \n4 = Was a conscript on compulsory military or community service\n5 = Other (15 years or more) who neither worked nor had a job or business during the reference week\n9 = Not applicable (child less than 15 years old)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ality",
+      "variablename": "Alityöllisyys, piilotyöttömyys",
+      "conceptdef": "1 = täystyöllinen\n2 = alityöllinen\n- osa-aikatyössä, koska kokoaikatyötä ei ollut tarjolla tai\n- koko viikon pois työstä lomautuksen tai töiden puutteen takia tai\n- työskenteli tutkimusviikolla tavallista vähemmän työn puutteen takia\n3 = työtön\n4 = piilotyötön\n- ei-työvoimassa oleva, joka haluaisi työtä ja voisi ottaa työtä vastaan 2 viikon kuluessa, mutta ei ole etsinyt työtä\n4 = muu (varusmiehet ja muut työvoimaan kuulumattomat)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lamma",
+      "variablename": "Ammattiasema päätyössä",
+      "conceptdef": "1 = palkansaaja\n2 = maatalousyrittäjä\n3 = muu yrittäjä\n4 = ammatinharjoittaja, freelancer, apurahansaaja\n5 = työssä perheenjäsenen maatilalla palkatta\n6 = työssä perheenjäsenen yrityksessä palkatta\n7 = muu\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lammas",
+      "variablename": "Ammattiasema (johdettu)",
+      "conceptdef": "1 = palkansaaja\n2 = yrittäjä\n3 = työskentelee perheenjäsenen yrityksessä ilman varsinaista palkkaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lpalty",
+      "variablename": "Oliko yrittäjällä palkattua työvoimaa",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lstatus",
+      "variablename": "Ammattiasema",
+      "conceptdef": "1 = yrittäjä, jolla on palkattua työvoimaa\n2 = yrittäjä, jolla ei ole palkattua työvoimaa\n3 = palkansaaja\n4 = työskentelee perheenjäsenen yrityksessä ilman palkkaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tol2008",
+      "variablename": "Toimialatunnus",
+      "conceptdef": "5-merkkinen toimialatunnus perustuu Tilastokeskuksen 2008 toimialaluokitukseen (TOL2008).\nTieto määritellään vastaajan antamien työpaikkatietojen perusteella ja aputietona käytetään yritysrekisteriä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ltytyy",
+      "variablename": "Työnantajatyyppi",
+      "conceptdef": "Tieto määritellään vastaajan antamien työpaikkatietojen perusteella ja aputietona käytetään yritysrekisteriä.\n1 = valtio\n2 = kunta, kuntayhtymä\n3 = yksityinen työnantaja, itsenäinen yrittäjä\n9 = työnantaja luokittelematon tai tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lisco1",
+      "variablename": "Ammatti",
+      "conceptdef": "Ammattikoodi TK:n ammattiluokituksesta 2001. Vastaa ISCO-88 luokitusta 4-numerotasolla.\nhttp://www.stat.fi/meta/luokitukset/ammatti/001-2001/index.html\nXXXXX = tuntematon\n. = ei kuulu kohderyhmään",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ltymaa",
+      "variablename": "Työpaikan sijaintimaa",
+      "conceptdef": "Kansainväliseen ISO 3166 -standardiin perustuva 3-numeroinen koodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tykoko",
+      "variablename": "Toimipaikan koko",
+      "conceptdef": "1-10 = alle 11 hengen työpaikoista tarkka henkilökunnan määrä\n11 = 11-19 henkeä\n12 = 20-49\n13 = 50-199\n14 = 200-499\n15 = 500 tai enemmän\n99 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "alkvkk",
+      "variablename": "Nykyisen työsuhteen alkamisvuosi ja -kuukausi",
+      "conceptdef": "vvvvkk = vuosi ja kuukausi\nvvvv00 = vuosi, kuukausi tuntematon\n999999 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ystartwk",
+      "variablename": "Year in which person started working for this employer or as self-employed",
+      "conceptdef": "vvvv\n999 = not applicable (wstator=3-5,9)\n. = no answer",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "mstartwk",
+      "variablename": "Month in which person started working in current employment",
+      "conceptdef": "kk\n99 = not applicable \n. = no answer",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tsuhkk",
+      "variablename": "Nykyisen työsuhteen tähänastinen kesto kuukausina",
+      "conceptdef": "Jos alkamiskuukausi on tuntematon:\n- työsuhde alkanut kuluvana vuonna ja tutkimusviikko ennen kestäkuuta, merkitään alkamiskuukaudeksi 01\n- muutoin merkitään alkamiskuukauseksi 06\n0 = työsuhde kestänyt alle kuukauden\n1-800 = työsuhde kestänyt 1-800 kuukautta\n999 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tsuhaika",
+      "variablename": "Nykyisen työsuhteen tähänastinen kesto täysinä vuosina",
+      "conceptdef": "Jos alkamiskuukausi on jäänyt tuntemattomaksi, se on korjattu THSUKK-muuttujan mukaisesti.\n0 = alle vuosi\n1-59 = vuosien määrä\n99 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "taikao",
+      "variablename": "Koko- vai osa-aikatyössä",
+      "conceptdef": "Vastaajan oma käsitys.\n1 = kokoaikatyö\n2 = osa-aikatyö\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "typlkm",
+      "variablename": "Työpäivien lukumäärä tutkimusviikolla päätyössä",
+      "conceptdef": "0 = ei työssä päätyössä tutkimusviikolla\n1-7 = työpäivien lukumäärä\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "saanai",
+      "variablename": "Tavanomainen tai normaali viikkotyöaika päätyössä",
+      "conceptdef": "Mukana tavaksi tulleet ylityöt, ylipitkät työajat on siivottu pois.\n1-97 = 1-97 tuntia viikossa\n99 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "paatunn",
+      "variablename": "Tehdyt työtunnit päätyössä tutkimusviikolla",
+      "conceptdef": "Ylityötunnit lasketaan mukaan.\n0 = koko viikon pois päätyöstä\n1-150 = 1-150 tuntia viikossa\n999 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyotunn",
+      "variablename": "Tehdyt työtunnit päätyössä tutkimusviikolla",
+      "conceptdef": "Korvatut ylityöt lasketaan mukaan. Jos tutkimusviikon työtunnit ovat jääneet tuntemattomiksi, ne imputoidaan.\n1-150 = 1-150 tuntia viikossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ylipa",
+      "variablename": "Tekikö tutkimusviikolla palkallista ylityötä päätyössä",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ylipato",
+      "variablename": "Tekikö tutkimusviikolla palkatonta ylityötä päätyössä",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "paivty",
+      "variablename": "Tekikö tutkimusviikolla päivystystä työpaikalla päätyössä",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ylipatot",
+      "variablename": "Tehdyt palkattomat ylityötunnit (lisätyötunnit) tutkimusviikolla päätyössä",
+      "conceptdef": "0 = ei ole tehnyt tutkimusviikolla palkatonta ylityötä\n1-97 = palkattomat ylityötunnit tutkimusviikolla\n99 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ylitunn",
+      "variablename": "Palkallisena (rahana tai vapaana korvatut) ylityötunnit tutkimusviikolla päätyössä",
+      "conceptdef": "Jos tutkimusviikon palkalliset ylityötunnit ovat jääneet tuntemattomaksi, ne imputoidaan.\n0 = Ei ole tehnyt tutkimusviikolla palkallista ylityötä\n1-97 = palkalliset ylityötunnit tutkimusviikolla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "situnn",
+      "variablename": "Tutkimusviikolla tehdyt sivutyötunnit kaikissa sivutöissä yhteensä",
+      "conceptdef": "0 = on sivutyö, mutta ei tunteja tutkimusviikolla\n1-150 = tunnit sivutyössä tutkimusviikolla\n999 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "sivutunn",
+      "variablename": "Sivutyön tunnit tutkimusviikolla",
+      "conceptdef": "Jos tutkimusviikon sivutyötunnit ovat jääneet tuntemattomiksi, ne imputoidaan.\nTunnit kaikissa sivutöissä yhteensä.\n0 = on sivutyö, mutta ei tunteja tutkimusviikolla\n1-97 = sivutyötunnit tutkimusviikolla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hwactua2",
+      "variablename": "Number of hours actually worked during the reference week in the second job",
+      "conceptdef": "00 = Person not having worked in the second job during the referenc week\n01-98 = Numbers of hours actually worked in the second job during the reference week\n99 = not applicable\n. = no answer",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ylisyy",
+      "variablename": "Miksi työskenteli tutkimusviikolla päätyössä enemmän kuin tavallisesti",
+      "conceptdef": "1 = ylityö (palkallinen tai palkaton)\n2 = työaika vaihtelee\n3 = muu syy\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "saira",
+      "variablename": "Sairauspäivien lukumäärä päätyössä tutkimusviikolla",
+      "conceptdef": "Sairauspäivien lukumäärä koskee sekä koko viikon että osan viikkoa poissaolleita.\n0 = ei sairauspäiviä\n1-7 = sairauspäivien lukumäärä\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "sairpv",
+      "variablename": "Korotetut sairaspäivät",
+      "conceptdef": "KK-tasolle korotetut tutkimusviikon sairauspäivät.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyopv",
+      "variablename": "Korotetut työpäivät",
+      "conceptdef": "KK-tasolle korotetut tutkimusviikon työpäivät",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyotu",
+      "variablename": "Korotetut työtunnit",
+      "conceptdef": "KK-tasolle korotetut tutkimusviikon tehdyt työtunnit päätyössä ml. Ylityötunnit.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ylitu",
+      "variablename": "Korotetut ylityötunnit (palkalliset)",
+      "conceptdef": "KK-tasolle korotetut tutkimusviikon palkalliset ylityötunnit",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "pylitu",
+      "variablename": "Korotetut ylityötunnit (palkattomat)",
+      "conceptdef": "KK-tasolle korotetut tutkimusviikon ylityötunnit",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "sivutu",
+      "variablename": "Korotetut sivutyötunnit",
+      "conceptdef": "KK-tasolle koroteut tutkimusviikon sivutyötunnit",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "vuoro",
+      "variablename": "Vuorotyön tekeminen päätyössä",
+      "conceptdef": "1 = kyllä, tekee vuorotyötä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ilta",
+      "variablename": "Iltatyö",
+      "conceptdef": "Iltatyö 18-23 välillä 4 viikon aikana päätyössä.\n1 = säännöllisesti\n2 = silloin tällöin\n3 = ei\n9 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "yo",
+      "variablename": "Yötyö",
+      "conceptdef": "Yötyö 23-06 välillä 4 viikon aikana päätyössä\n1 = säännöllisesti\n2 = silloin tällöin\n3 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "latyo",
+      "variablename": "Lauantaityö",
+      "conceptdef": "Lauantaityö päätyössä 4 viikon aikana.\n1 = vähintään kahtena lauantaina\n2 = yhtenä lauantaina\n3 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "sutyo",
+      "variablename": "Sunnuntaityö",
+      "conceptdef": "Sunnuntaityö päätyössä 4 viikon aikana\n1 = vähintään kahtena sunnuntaina\n2 = yhtenä sunnuntaina\n3 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lauan",
+      "variablename": "Työskentely lauantaina tutkimusviikolla (päätyö)",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "sunn",
+      "variablename": "Työskentely sunnuntaina tutkimusviikolla (päätyö)",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tysuhpy",
+      "variablename": "Palkansaajan työsuhteen pysyvyys",
+      "conceptdef": "1 = jatkuva (toistaiseksi voimassaoleva)\n2 = määräaikainen tai tilapäinen\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tysuhpy2",
+      "variablename": "Yrittäjien ja palkattomien yrittäjäperheenjäsenien työsuhteen pysyvyys",
+      "conceptdef": "1 = jatkuva\n2 = kausiluonteinen\n3 = lyhytaikainen tai tilapäinen\n9 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "maarsyy",
+      "variablename": "Syy määräaikaiseen tai tilapäiseen työhön",
+      "conceptdef": "1 = työharjoittelu, joka liittyy koulutukseen\n2= pysyvää työtä ei ollut tarjolla\n3 = henkilö ei halunnut pysyvää työtä\n4 = koeaika, joka liittyy työsuhteeseen\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "paapvm",
+      "variablename": "Määräaikaisen työsuhteen päättymispäivämäärä",
+      "conceptdef": "ppkkvvvv = päättymispäivämäärä\n99999999 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "maakes",
+      "variablename": "Määräaikaisen työsuhteen kokonaiskesto",
+      "conceptdef": "1 = alle kuukausi\n2 = 1-3 kuukautta\n3 = 4-6 kuukautta\n4 = 7-12 kuukautta\n5 = yli vuosi, enintään 1,5 vuotta\n6 = yli 1,5 vuotta, enintään 2 vuotta\n7 = yli 2 vuotta, enintään 3 vuotta\n8 = yli 3 vuotta\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "enty",
+      "variablename": "Aikaisempi kokemus ansiotyöstä",
+      "conceptdef": "1 = on ollut aiemmin ansiotyössä \n2 = ei ole ollut ansiotyössä\n 9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "vapa",
+      "variablename": "Työsuhteen jatkuminen",
+      "conceptdef": "1 = työsuhde jatkuu (henkilö on esim. hoito- tai opintovapaalla tai lomautettuna)\n2 = ei voimassa olevaa työsuhdetta\n9 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ans8",
+      "variablename": "Onko ollut työssä viimeisen 8 vuoden aikana?",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "paatsy",
+      "variablename": "Työn päättymisen syy",
+      "conceptdef": "01 = irtisanottiin tai lomautettiin\n02 = määräaikainen työsuhde (kausityö) päättyi\n03 = jäi hoitamaan lapsia tai omaista\n04 = muu perhesyy\n05 = sairastui, tuli työkyvyttömäksi tai jäi sairaseläkkeelle\n06 = opiskelu alkoi/jatkui\n07 = jäi varhaiseläkkeelle iän perusteella (esim. työttömyyseläke, sukupolvenvaihdoseläke, luopumiseläke tai vapaaehtoisen eläkevakuutuksen perusteella)\n08 = aloitti varusmies- tai siviilipalvelun\n10 = muu syy (esim. irtisanoutui tai lopetti yritystoiminnan muista kuin em. syistä)\n99 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "rekty",
+      "variablename": "Voimassaoleva työnhaku työvoimatoimistossa",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "turva",
+      "variablename": "Saako työttömyysturvaa",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "typi",
+      "variablename": "Haluaisittko tällä hetkellä tehdä enemmän työtunteja kuin mihin teillä nykyisin työssänne/töissänne on mahdollisuus?",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lista",
+      "variablename": "Millä lailla haluaisi lisätä nykyistä viikkotyöaikaa?",
+      "conceptdef": "Haluaa:\n1 = sivutyön\n2 = vaihtaa sellaiseen työhön, jossa on pidempi työaika\n3 = tehdä enemmän työtunteja nykyisessä työpaikassa\n4 = kaikki edellä mainitut tavat sopisivat\n9 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etsyy",
+      "variablename": "Mistä syystä työllinen on etsinyt työtä",
+      "conceptdef": "1 = nykyinen työ on epävarma tai päättyy (määräaikainen)\n2 = nykyinen työ on välivaihe\n3 = etsii sivutyötä nykyisen työn lisäksi\n4 = haluaa pidemmän työajan kuin nykyisessä työssä\n5 = haluaa lyhyemmän työajan kuin nykyisessä työssä\n6 = haluaa paremmat työolot (esim. parempaa palkkaa, lyhyempää työmatkaa)\n7 = muu syy\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "toive",
+      "variablename": "Toiveviikkotyöaika, kun palkka määräytyy työajan mukaan",
+      "conceptdef": "1-97 = viikkotyötunnit\n99 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hwwish",
+      "variablename": "Number of hours that person would like to work in total in all jobs",
+      "conceptdef": "01-98 = number of hours wished to work in total\n99 = not applicable (WSTATOR = 3-5, 9)\n. = no answer",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyets",
+      "variablename": "Työllisen työn etsiminen 4 viikon aikana",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etyets",
+      "variablename": "Etsinyt työtä viimeisen neljän viikon aikana (tai suunnitellut yrittäjäksi ryhtymistä)",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hammas",
+      "variablename": "Etsii työtä/Pian alkava työ on",
+      "conceptdef": "1 = palkansaajana\n2 = yrittäjänä tai ammatinharjoittajana\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "toivaik",
+      "variablename": "Toivottu työaikamuoto",
+      "conceptdef": "1 = haluaisi kokoaikatyötä\n2 = haluaisi osa-aikatyötä\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "osahal",
+      "variablename": "Hyväksyykö osa-aikatyön",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "kohalu",
+      "variablename": "Hyväksyykö kokoaikatyön",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etsimi",
+      "variablename": "Millaista työtä etsi",
+      "conceptdef": "1 = yrittäjänä tai ammatinharjoittajana\nPalkansaajana:\n2 = etsii vain kokoaikatyötä\n3 = etsii kokoaikatyötä, mutta hyväksyy myös osa-aikatyön\n4 = etsii osa-aikatyötä, mutta hyväksyy myös kokoaikatyön\n5 = etsii vain osa-aikatyötä\n6 = ei osaa sanoa etsiikö koko- vai osa-aikatyötä\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etspvm",
+      "variablename": "Työnetsimisen alkamisajankohta",
+      "conceptdef": "ppkkvvvv\n99999999 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etsaik",
+      "variablename": "Kuinka monta kuukautta on tutkimusviikon loppuun mennessä etsinyt työtä",
+      "conceptdef": "0 = alle yksi kuukausi\n1-997 = etsimiskuukaudet\n999 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etskes",
+      "variablename": "Työnetsimisen kesto (luokiteltu)",
+      "conceptdef": "1 = vähemmän kuin 1kk\n2 = 1-2 kk\n3 = 3-5 kk\n4 = 6-11 kk\n5 = 12-17 kk\n6 = 18-23 kk\n7 = 24-47 kk\n8 = 4 vuotta tai kauemmin\n9 = ei vastausta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etspv",
+      "variablename": "Kuinka kauan on tutkimusviikon loppuun mennessä etsinyt työtä",
+      "conceptdef": "nnnnn = etsimispäivien lkm\n99999 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tkes",
+      "variablename": "Työttömyyden kesto viikkoina",
+      "conceptdef": "0 = työttömyys kestänyt alle viikon\n1-997 = työttömyysviikkojen lkm\n999 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tkeskk",
+      "variablename": "Työttömyyden kesto kuukausina",
+      "conceptdef": "0 = työttömyys kestänyt alle kuukauden\n1-800 = työttömyyskuukausien lukumäärä\n999 = eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tkest",
+      "variablename": "Työttömyyden kesto kuukausina (luokiteltu)",
+      "conceptdef": "1 = vähemmän kuin 1kk\n2 = 1-2 kk\n3 = 3-5 kk\n4 = 6-11 kk\n5 = 12-17 kk\n6 = 18-23 kk\n7 = 24-47 kk\n8 = 4 vuotta tai kauemmin\n9 = ei vastausta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "toim",
+      "variablename": "Onko ollut yhteydessä työvoimatoimistoon työtä saadakseen",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "yty",
+      "variablename": "Onko ollut yhteydessä yksityiseen toimialapalveluun (työvoimanvuokraus- tai välitystoimistoon)",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyon",
+      "variablename": "Työnhaku ottamalla yhteyttä työnantajiin",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tut",
+      "variablename": "Työnhaku tuttavien, sukulaisten tai ammattiliiton kautta",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lehti",
+      "variablename": "Seurannut työpaikkailmoituksia esim. lehdissä, internetissä, teksti-tv:ssä, ilmoitustauluilla tms.",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lehva",
+      "variablename": "Laittanut ilmoituksia tai vastannut työpaikkailmoituksiin.",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "sovte",
+      "variablename": "Oliko työpaikkahaastattelussa tai soveltuvuustestissä",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "mato",
+      "variablename": "Työnhaku etsimällä tonttia, toimitiloja tai laitteita yritystä varten",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ralli",
+      "variablename": "Työnhaku hakemalla rahoitusta, lupia, lisenssejä tms. yrityksen aloittamista varten",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "odo",
+      "variablename": "Työnhaku odottamalla tietoa työvoimatoimistosta (passiivinen työnhakutapa)",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hatu",
+      "variablename": "Työnhaku odottamalla tietoa työnhaun tuloksesta (passiivinen työnhakutapa)",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "muuha",
+      "variablename": "Työnhaku muulla tavoin",
+      "conceptdef": "1= kyllä\n2 =ei\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hakusum",
+      "variablename": "Kuinka useaa työnhakutapaa on käyttänyt (johdettu)",
+      "conceptdef": "0= ei yhtään\n1-12= käyttänyt 1-12 työnhakutapaa\n99= eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "akty",
+      "variablename": "Aktiivisen työnhakutavan käyttäminen neljän viikon aikana (johdettu)",
+      "conceptdef": "1=käytti ainakin yhtä aktiivista työnhakutapaa\n2=ei etsinyt aktiivisesti työtä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "thal",
+      "variablename": "Olisiko voinut aloittaa työn noin kahden viikon kuluessa",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tmahd",
+      "variablename": "Olisiko voinut aloittaa työn noin kahden viikon kuluessa",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "este",
+      "variablename": "Työhönmenon este\n",
+      "conceptdef": "1 opiskelu jatkuu\n2 varusmies- tai siviilipalvelu\n3 nykyisen työn irtisanomisaika\n4 perhesyyt (esim. lastenhoito, raskaus, omaisen hoito tai avustaminen))\n5 sairaus tai työkyvyttömyys\n6 muu syy\n9 tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "siirtap",
+      "variablename": "Onko hakeutumassa",
+      "conceptdef": "1 = ensimmäistä kertaa pysyvästi työelämään\n2 = tilapäisesti työelämään\n3 = siirtymässä takaisin työelämään\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tutko",
+      "variablename": "Onko osallistunut (tai ollut kirjoilla) tutkintoon tai päättötodistukseen johtavaan koulutukseen (ml. oppisopimuskoulutus)  neljän viime viikon aikana",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tutsi",
+      "variablename": "Mihin tutkintoon johtavaan koulutukseen on osallistunut (tai jossa ollut kirjoilla) neljän viime viikon aikana (ml. oppisopimuskoulutus) ",
+      "conceptdef": "1= peruskoulu (ylempi perusaste, ISCED 2)\n2=lukio (keskiaste, ISCED 3)\n Ammatillinen koulutus:\n3=toisen asteen ammatillinen tutkinto (kouluaste, ISCED 3-4)\n4=opistoasteen ammatillinen tutkinto (opistoaste, ISCED5b)\n5=ammattikorkeakoulututkinto (ISCED 5a)\n6=yliopistollinen perustutkinto (ISCED 5a)\n7=lisensiaatin- tai tohtorintutkinto (ISCED 6)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "kurssi",
+      "variablename": "Onko osallistunut johonkin muuhun kuin tutkintoon johtavaan koulutukseen neljän viime viikon aikana (esim. harrastuskurssit, henkilöstökoulutus, työllisyys-koulutus, ay-kurssit, soittotunnit, autokoulu ym.)",
+      "conceptdef": "1 = kyllä\n2 = ei\n9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "kurslkm",
+      "variablename": "Kuinka monelle kurssille on osallistunut neljän viime viikon aikana?",
+      "conceptdef": "0= ei ole osallistunut kursseille 4 viikon aikana\n1 – 97 = kurssien lkm neljän viikon aikana\n99 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "kursaihe",
+      "variablename": "Osallistuiko (viimeisimpään) koulutukseen/kurssille:",
+      "conceptdef": "1= (nykyiseen tai tulevaan) työhön tai ammattiin liittyen\n2=muista syistä\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "kursaika",
+      "variablename": "Osallistuiko (viimeisimmälle) kurssille:",
+      "conceptdef": "1 = pelkästään palkallisena työaikana\n 2 = enimmäkseen palkallisena työaikana\n 3 = enimmäkseen omalla ajalla\n 4 = kokonaan omalla ajalla\n 9 = eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "kurstun",
+      "variablename": "Neljän viime viikon aikana saadut opetustunnit yhteensä kaikilla kursseilla",
+      "conceptdef": "0=Ei ole saanut opetusta neljän viikon aikana\n1-672=Saadut opetustunnit  neljän viikon aikana yhteensä\n999=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "courlen",
+      "variablename": "Number of hours spent on all taught learning activities within the last 4 weeks",
+      "conceptdef": "Number of hours\n999 = not applicable\n. = blank",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "opla",
+      "variablename": "Onko ollut jossain koulutuksessa tai kirjoilla jossain oppilaitoksessa neljän viime viikon aikana",
+      "conceptdef": "1=kyllä\n 2=ei\n 9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "poke",
+      "variablename": "Yleissivistävä pohjakoulutus",
+      "conceptdef": "1=ylioppilastutkinto tai lukion päästötodistus\n2=peruskoulun yläaste, keskikoulu\n3=kansakoulu, kansalaiskoulu tai osa keskikoulua  tai osa peruskoulua\n9=eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyopaasi",
+      "variablename": "Työssäolo tutkimusviikolla päätyössä tai sivutyössä",
+      "conceptdef": "1= työssä, yksi työpaikka\n2= työssä sekä pää- että sivutyössä\n3=työssä vain päätyössä, poissa sivutyöstä\n4=työssä vain sivutyössä, poissa päätyöstä\n5=ei työssä tutkimusviikolla\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyvi",
+      "variablename": "Ansiotyö tutkimusviikolla (pää- tai sivutyössä)",
+      "conceptdef": "1=työllinen, työssä tutkimusviikolla (päätyö tai sivutyö)\n2=työllinen, ei työssä tutkimusviikolla\n3=ei-työllinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyvovan",
+      "variablename": "Työmarkkina-asema (johdettu)",
+      "conceptdef": "1=työllinen\n 2=työtön",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "vuokraty",
+      "variablename": "Vuokratyöntekijä",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "jakso",
+      "variablename": "Jaksotyön tekeminen päätyössä\n(aputieto työajan laskemista varten)",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "poisy",
+      "variablename": "Pääasiallinen syy koko viikon poissaoloon työstä (päätyön mukaan)",
+      "conceptdef": "01=lomautus\n02=tuotannollisista syistä johtuva töiden tai tilausten puute \n03=lakko tai työsulku\n04=opintovapaa \n05=oma sairaus tai tapaturma\n06=omien lasten tai muun omaisen hoito\n07=vuosiloma tai lomarahavapaa\n08=vapaapäivä tai -viikko (esim. jaksotyö, vuorotyö, osa-aikatyö, osa-aikaeläke, pekkasvapaa, ylityövapaa, kausityö)\n09=huono sää\n10 \n11=muu syy\n99=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "omato",
+      "variablename": "Pääasiallinen toiminta henkilön oman valinnan mukaan (johdettu)",
+      "conceptdef": "0=ansiotyössä\n1=työtön tai lomautettu\n2=opiskelija, koululainen\n3=vanhuuseläkkeellä (eläkkeellä iän, työvuosien tai eläkevakuutuksen perusteella, työttömyyseläkkeellä)\n4=työkyvyttömyyseläkkeellä tai muuten pitkäaikaisesti sairas\n5=hoitaa omia (alle 15-v.) lapsia  \n6=hoitaa iäkästä, sairasta tai vammaista omaista\n7=varusmies- tai siviilipalvelussa\n8=tekee jotain muuta\n9 =eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hyvast",
+      "variablename": "Hyväksytty/ ei-hyväksytty vastaus",
+      "conceptdef": "1=hyväksytty vastaus\nblanko=muut",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ossy",
+      "variablename": "Miksi tekee päätyössä osa-aikatyötä eikä kokoaikatyötä\n",
+      "conceptdef": "1=kokoaikatyötä ei ollut tarjolla\n2=opiskelee\n3=hoitaa omia lapsia tai muuta omaista\n4=terveydellisistä syistä\n5=haluaa muusta syystä tehdä osa-aikatyötä\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lyhty",
+      "variablename": "Pääasiallinen syy tavallista lyhyempään työaikaan tutkimusviikolla (päätyö)",
+      "conceptdef": "01=työaika vaihtelee\n02=tuotannollisista syistä johtuva töiden tai tilausten puute\n03=lakko tai työsulku\n04=opintovapaa\n05=oma sairaus tai tapaturma\n06=omien lasten tai muun omaisen hoitaminen\n07=muu poissaolo työstä perhe- tai henkilökohtaisesta syystä\n08=vuosiloma, lomarahavapaa\n09=arkipyhä (ml. joulu- tai juhannusaatto)\n10=huono sää\n11=työ alkoi tutkimusviikolla\n12=työ päättyi tutkimusviikolla, ei uutta työtä\n13=muu syy\n99=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "pomo",
+      "variablename": "Palkansaajan toimiminen esimies- tai työnjohtotehtävissä",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "koti",
+      "variablename": "Ansiotyön tekeminen kotona 4 viikon aikana (päätyö)",
+      "conceptdef": "1=säännöllisesti\n2=silloin tällöin\n3=ei lainkaan\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "asumus",
+      "variablename": "Paikka, jossa asuu tällä hetkellä",
+      "conceptdef": "Tieto saadaan väestörekisterin kiinteis-tötunnuksesta ns. 900-ryhmälle tai haastattelusta.\n1= asuu yksityisessä kotitaloudessa Suomessa\n2= 17-30-vuotias nuori oli tutkimusviikolla suorittamassa varusmiespalvelua tai siviilipalvelua: katsotaan laitosväestöön kuuluvaksi, ei ole tehty muita kysymyksiä. Luetaan ei-työllisiin ja imputoidaan joitain tietoja.\n3= asuu laitoksessa\n4= asuu ulkomailla\n9= eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "svuokra",
+      "variablename": "Vuokratyöntekijä sivutyössä",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hkieli",
+      "variablename": "Haastattelulomakkeen kieli",
+      "conceptdef": "1=suomi\n2=ruotsi\n3=englanti\n9=tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "palkka",
+      "variablename": "Palkansaajan bruttokuukausitulot päätyöstä",
+      "conceptdef": "1 - 999997 euroa kuukaudessa, \neos tai kieltäytyy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tyomark",
+      "variablename": "Työmarkkina-asema",
+      "conceptdef": "01=palkansaaja, pysyvä  kokoaikatyö\n02=palkansaaja, määräaikainen kokoaikatyö\n03=palkansaaja, pysyvä  osa-aikatyö\n04=palkansaajat määräaikaisessa osa-aikatyössä tai  muut em. ryhmiin kuulumattomat palkansaajat\n05=yrittäjä tai yrittäjäperheenjäsen, jatkuva työ\n06=muu yrittäjä tai yrittäjäperheenjäsen\n07=työtön, ILO /  EU- määritelmä\nvalmis työhön 2 viikon kuluessa ja joko etsinyt työtä 4 viikon aikana  aktiivisesti tai \nodotti sovitun työn alkamista ja työ alkaa 13 viikon kuluessa (ennen: 14 vuorokauden kuluessa tutkimusviikon päättymisestä (=kansallinen sovellus käytössä v. 2007 loppuun)\n08=piilotyötön (ei-työvoimassa oleva, joka haluaisi työtä ja voisi ottaa työtä vastaan 2 viikon kuluessa, mutta ei ole etsinyt työtä) \n09=Muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "seekworb",
+      "variablename": "Seeking emoloyment during previous four weeks",
+      "conceptdef": "1 = Person has already found a job which will start within a period of at most 3 months\n(Suomi käyttää 2 viikon aikarajaa eikä 3 kuukautta)\n2 =  Person has already found a job which will start in more than 3 months and is not seeking employment\n(Suomi käyttää 2 viikon aikarajaa eikä 3 kuukautta)\n3 = Person is not seeking employment and has not found any job to start later \n4 = Person is seeking employment\n9 =  Not applicable",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "availblb",
+      "variablename": "Availability to start working within two weeks",
+      "conceptdef": "If work were found:\n1 = Person could start to work immediately (within 2 weeks)\n2 = Person could not start to work immediately (within 2 weeks)\n9 = not applicable",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "poiskest",
+      "variablename": "Poissaolon kesto tutkimusviikon loppuun mennessä",
+      "conceptdef": "1= 1 - 3 viikkoa\n 2= 4 - 13 viikkoa\n 3= 14 viikkoa tai kauemmin\n 9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "etyhaku",
+      "variablename": "Etsinyt työtä viimeisen neljän viikon aikana (tai suunnitellut yrittäjäksi ryhtymistä) tai odottanut sovitun työn alkua",
+      "conceptdef": "1=Kyllä, on etsinyt työtä\n2=odottaa sovitun työn alkua, ei ole etsinyt 4 viikon aikana\n3=ei ole etsinyt työtä (eikä odota sovitun työn alkua)\n9=eos, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "eetsyy",
+      "variablename": "Pääasiallinen syy, miksi ei ole etsinyt työtä",
+      "conceptdef": "1=odotti lomautuksen päättymistä\n2=oma sairaus tai vamma esteenä\n3=hoitaa omaa lasta tai omaista\n4=muu henkilökohtainen tai perhesyy\n5=opiskelu, koulunkäynti\n6=on jäänyt kokonaan eläkkeelle\n7=uskoo, ettei työtä ole saatavilla\n8=muu syy\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "hoipuu",
+      "variablename": "Estääkö sopivien hoitopalveluiden puute hakeutumasta tai palaamasta ansiotyöhön?",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "thtaus",
+      "variablename": "Tilanne ennen työnhakua (tai uuden työn alkamista)",
+      "conceptdef": "1=vakinaisessa työssä\n2=määräaikaisessa työssä\n3=opiskelemassa (kokoaikaisesti)\n4=varusmies- tai siviilipalvelussa\n5=hoitamassa kotia tai lapsia\n6=eläkkeellä\n7=teki jotain muuta\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "tytoim",
+      "variablename": "Saiko tiedon nykyisestä työstä työvoimatoimiston kautta, esimerkiksi työvoimatoimiston internet-sivuilta?",
+      "conceptdef": "1=kyllä\n2=ei\n9=eos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lisco2010",
+      "variablename": "Ammattiluokitus 5-numerotasolla, päätyö",
+      "conceptdef": "TK:n ammattiluokitus 2010 (ISCO-08)\nhttp://tilastokeskus.fi/meta/luokitukset/ammatti/001-2010/index.html\nXXX = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "riippu",
+      "variablename": "Yrittäjän riippuvaisuus yhdestä toimeksiantajasta",
+      "conceptdef": "1=Riippuvainen yhdestä toimeksiantajasta (yrityksestä)\n2=Työskentelee itsenäisesti useille asiakkaille tai toimeksiantajille\n9=EOS, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lsosek2011",
+      "variablename": "Sosioekonominen asema",
+      "conceptdef": "Sosioekonominen asema vuoden 2010 ammattiluokituksesta\n11 = Maataloustyönantajayrittäjät\n12 = Maatalouden yksinäisyrittäjät\n20 = Muut työnantajayrittäjät (huom! ei virallisessa luokituksessa, yhdistetty sose-luokituksen luokat 21 ja 22)\n23 = Muut yksinäisyrittäjät\n24 = Vapaiden ammattien harjoittajat, freelancer tai apurahansaaja\n25 = Yrittäperheenjäsenet (huom! ei virallisessa luokituksessa)\n29 = Yrittäjä, tuntematon\n31 = Johtotehtävissä toimivat\n32 = Suunnittelu- ja tutkimustehtävissä toimivat ylemmät toimihenkilöt\n33 = Opetustehtävissä toimivat\n34 = Muut ylemmät toimihenkilöt\n41 = Työnjohtotehtävissä toimivat alemmat toimihenkilöt\n42 = Itsenäistä toimistotyötä tekevät alemmat toimihenkilöt\n43 = Epäitsenäistä toimistotyötä tekevät alemmat toimihenkilöt    \n44 = Muut alemmat toimihenkilöt\n51 = Maa- ja metsätalouden työn tekijät     \n52 = Teollisuustyöntekijät\n53 = Muut tuotantotyöntekijät \n54 = Jakelu- ja palvelutyöntekijät\n99 = Palkansaaja, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lsose2011",
+      "variablename": "Sosioekonominen asema",
+      "conceptdef": "1 = työntekijä\n2 = alempi toimihenkilö\n3 = ylempi toimihenkilö\n4 = yrittäjät ja yritt.perheenjäsenet\n9 = palkansaaja, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "lamsta2011",
+      "variablename": "Ammattiasema/status (johdettu)",
+      "conceptdef": "1 = työntekijä\n2 = toimihenkilö\n3 = palkansaaja, status tuntematon\n4 = yrittäjä\n5 = yrittäjäperheen jäsen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "suuralue_2012",
+      "variablename": "Suuralue, jossa asuu \n (Vuoden 2012 alusta käytössä oleva suuraluejako)",
+      "conceptdef": "1=Helsinki-Uusimaa\n2=Etelä-Suomi\n3=Länsi-Suomi\n4=Pohjois- ja Itä-Suomi\n5=Ahvenanmaa - Åland",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "rek_lfs"
+    },
+    {
+      "identifier": "tyorek13",
+      "variablename": "Työnhakijarekisteristä noudettu statuskoodi",
+      "conceptdef": "0=Työssä oleva, toimenpitein sijoitettu\n1=Työssä oleva, yleisillä työmarkkinoilla\n2=Työtön\n3= Lomautettu\n4= Lyhennetyllä työviikolla\n5= Työvoiman ulkopuolella oleva\n6= Työttömyyseläkkeellä oleva\n7= Työllistymistä edistävässä palvelussa\n8= Koulutuksessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "rek_lfs"
+    },
+    {
+      "identifier": "nolla",
+      "variablename": "Työskenteleekö nollatuntisopimuksella",
+      "conceptdef": "1=on nollatuntisopimus\n2=ei ole nollatuntisopimusta\n9=EOS",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "neet",
+      "variablename": "Not in employment, education or training",
+      "conceptdef": "1 = Non-employed, not in education or in any other training during the last four weeks\n2 = Non-employed, in education or in some other trainig during the last four weeks\n3 = Employed, in education or in some other trainig during the last four weeks\n4 = Employed, not in education or in any other training during the last four weeks\n5 = A conscript on compulsory military or community service \n. = no answer",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "ilostat",
+      "variablename": "Työmarkkina-asema",
+      "conceptdef": "Vastaa tyvo-muuttujaa.\nTyövoima:\n1 = työllinen\n2 = työtön\n\nTyövoimaan kuulumattomat:\n3 = varusmies, siviilipalvelussa\n4 = muut 15-v. täyttäneet työvoimaan kuulumattomat\n5 = alle 15-vuotias lapsi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "jobobst1",
+      "variablename": "Tärkein este taitoja vastaavaan työn tai ylipäätänsä työn saamiselle",
+      "conceptdef": "1 = Suomen (ruotsin) kielen taidon puute\n2 = Tutkinnon tunnustamisen puute\n3 = Oleskelu- tai työluvan rajoitukset \n4 = Syntyperä, uskonto tai sosiaalinen tausta\n5 = Muu este\n6 = Ei mitään erityistä estettä\n9 = Ei kohderyhmää\nBlank = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "jobobst2",
+      "variablename": "Toiseksi tärkein este taitoja vastaavaan työn tai ylipäätänsä työn saamiselle",
+      "conceptdef": "1 = Suomen (ruotsin) kielen taidon puute\n2 = Tutkinnon tunnustamisen puute\n3 = Oleskelu- tai työluvan rajoitukset \n4 = Syntyperä, uskonto tai sosiaalinen tausta\n5 = Muu este\n6 = Ei muuta estettä\n9 = Ei kohderyhmää\nBlank = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "findmeth",
+      "variablename": "Tapa miten löysi nykyisen työnsä",
+      "conceptdef": "1 = Työpaikkailmoitus (lehdissä, Internetissä tms)\n2 = Sukulaisten, ystävien tai tuttavien kautta\n3 = Työvoimatoimisto\n4 = Yksityinen työnvälitysyritys\n5 = Koulu tai oppilaitos\n6 = Avoin hakemus, otti itse yhteyttä työnantajaan\n7 = Työnantaja otti yhteyttä (ns. headhunting)\n8 = muu tapa\n9 = ei kuulu kohderyhmään\nBlank = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "icse",
+      "variablename": "Ammattiasema",
+      "conceptdef": "1 = yrittäjä tai avustava perheenjäsen\n2 = palkansaaja\n3 = ei-työllinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs"
+    },
+    {
+      "identifier": "langhost",
+      "variablename": "Suomen tai ruotsin kielen suullinen taito",
+      "conceptdef": "1 = Suomi tai ruotsi on äidinkieli tai vastaava taso\n2 = Edistynyt (YKI5, EU-C1. Osaa käyttää kieltä joustavasti ja tehokkaasti sosiaalisiin ja ammatillisiin tarkoituksiin)\n3 = Keskitaso (YKI3, EU-B1. Pystyy osallistumaan valmistautumatta keskusteluun aiheista, jotka ovat tuttujat)\n4 = Aloittelija tai ei puhu lainkaan (YKI1, EU-A1. Pystyy esittämään yksinkertaisia kysymyksiä ja vastaamaan kysymyksiin hyvin tuttuja aiheita käsittelevissä keskusteluissa) \n9 = ei kohderyhmää\n. = ei vastausta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "langcour",
+      "variablename": "Kielikurssille osallistuminen",
+      "conceptdef": "Kielikurssille osallistuminen\nOnko henkilö osallistunut kielikurssille Suomeen muuttamiseen jälkeen\n1 = On\n2 = Ei, kurssille ei ollut tarvetta\n3 = Ei, muusta syystä\n9 = Ei kuulu kohderyhmään\n. = Ei vastausta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "langfi",
+      "variablename": "Suomen kielen suullinen taito",
+      "conceptdef": "1 = Suomi on äidinkieli tai vastaava taso\n2 = Edistynyt (YKI5, EU-C1. Osaa käyttää kieltä joustavasti ja tehokkaasti sosiaalisiin ja ammatillisiin tarkoituksiin)\n3 = Keskitaso (YKI3, EU-B1. Pystyy osallistumaan valmistautumatta keskusteluun aiheista, jotka ovat tuttujat)\n4 = Aloittelija tai ei puhu lainkaan (YKI1, EU-A1. Pystyy esittämään yksinkertaisia kysymyksiä ja vastaamaan kysymyksiin hyvin tuttuja aiheita käsittelevissä keskusteluissa) \n9 = ei kohderyhmää\n. = ei vastausta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "langcofi",
+      "variablename": "Kielikurssille osallistuminen",
+      "conceptdef": "Onko henkilö osallistunut suomen kielen kielikurssille Suomeen muuttamiseen jälkeen\n1 = On\n2 = Ei, kurssille ei ollut tarvetta\n3 = Ei, muusta syystä\n9 = ei kuulu kohderyhmään\n. = ei vastausta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "parhat",
+      "variablename": "Isän tai äidin korkein suoritettu koulutus",
+      "conceptdef": "1 = Perusaste (ISCED 2011 0-2)\n2 = Keskiaste (ISCED 2011 3-4)\n3 = Korkea-aste (ISCED 2011 5-8)\n9 = Ei kohderyhmää\nBlank = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "overqual",
+      "variablename": "Ylikoulutus (Henkilön koulutuksella ja taidoilla suoriutuisi vaativammista tehtävistä kuin nykyisessä työssä on tarjolla)",
+      "conceptdef": "1 = Kyllä\n2 = Ei\n9 = Ei  kohderyhmää\nBlank = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ahm"
+    },
+    {
+      "identifier": "koulkoodi1",
+      "variablename": "Tutkintokoodi",
+      "conceptdef": "6-nro tarkkuudella, TK:n koulutusluokitus http://tilastokeskus.fi/meta/luokitukset/koulutus/001-2013/koko_luokitus.html",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "koulutus",
+      "variablename": "Koulutusaste",
+      "conceptdef": "10 = Alempi perusaste (ala-aste) tai vähemmän\n20 = Ylempi perusaste (peruskoulun yläaste)\n30 = Toinen aste (lukio tai ammattikoulu)\n50 = Alin korkea aste (ent. opisto-asteen tutkinnot)\n60 = Alempi korkeakoulututkinto\n70 = Ylempi korkeakoulututkinto\n80 = Tutkijakoulutus\n90 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "koulutusly",
+      "variablename": "Koulutusaste",
+      "conceptdef": "1 = Alempi perusaste tai vähemmän\n2 = Ylempi perusaste\n3 = Toinen aste\n4 = Korkea-aste\n9 = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "koulutuslyh",
+      "variablename": "Koulutusaste",
+      "conceptdef": "1 = Enintään perusaste \n2 = Toinen aste\n3 = Korkea-aste\n9 = Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "earleave",
+      "variablename": "Varhainen koulunkäynnin keskeyttäminen",
+      "conceptdef": "0 = 18–24-vuotias, joka opiskelee, tai jolla on jo vähintään toisen asteen tutkinto\n1  = 18-24-vuotias, joka on varhain koulun käynnin keskeyttänyt\nbl = ei kuulu kohdejoukkoon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "suorx",
+      "variablename": "Suoritusmaa-tiedon muodostamisessa käytetty apumuuttuja",
+      "conceptdef": "1=Tieto rekisteristä \n2=Tieto lomakkeelta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "suoritusmaa",
+      "variablename": "Korkeimman tutkinnon suoritusmaa",
+      "conceptdef": "1=Suomessa\n2=Ulkomailla\n999=Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "overqualob_koodi",
+      "variablename": "Objektiivinen ylikoulutus",
+      "conceptdef": "1=Ylikoulutettu objektiivisesti\n2=Ei ole ylikoulutettu objektiivisesti\n999=tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "overqual_r4",
+      "variablename": "4-luokkainen ylikoulutusmuuttuja overqualob_koodi pohjalta",
+      "conceptdef": "1=Ylikoulutettu objektiivisesti ja subjektiivisesti\n2=Ylikoulutettu vain subjektiivisesti\n3=Ylikoulutettu vain objektiivisesti\n4=Ei ole ylikoulutettu kummallakaan mittarilla.\n999=tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_1",
+      "variablename": "Mistä syistä ette opiskele?\n1. Nykyinen koulutukseni on riittävä",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_2",
+      "variablename": "2. Haluan mieluummin olla työelämässä",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_3",
+      "variablename": "3. En ole löytänyt kiinnostavaa opiskelupaikkaa",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_4",
+      "variablename": "4. Opiskelu ei kiinnosta",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_5",
+      "variablename": "5. En tunne koulutusmahdollisuuksia",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_6",
+      "variablename": "6. En ole päässyt opiskelemaan, en saanut paikkaa vaikka olen hakenut",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_7",
+      "variablename": "7. Kielitaito ei riitä",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_8",
+      "variablename": "8. En pysty opiskelemaan sairauden, vamman tai muun terveyssyyn takia",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_9",
+      "variablename": "9. Oppilaitos on liian kaukana tai koulutus on huonoon aikaan, lastenhoito-ongelmat",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_10",
+      "variablename": "10. Ei ole varaa opiskella (opiskelu on liian kallista tai ei ole varaa menettää työtuloja)",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    },
+    {
+      "identifier": "kl5_elm_11",
+      "variablename": "11. Jostakin muusta syystä",
+      "conceptdef": "0 = ei (ole syy)\n1 =  kyllä (on syy)\n9 =  eos / tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lfs_koulu"
+    }
+  ]
+}

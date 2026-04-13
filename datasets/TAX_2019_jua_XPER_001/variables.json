@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "smak_yrtun",
+      "variablename": "Suojattu maksajan tunnus, yritystunnus",
+      "conceptdef": "Maksajan suojattu Y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_hnro",
+      "variablename": "Suojattu maksajan tunnus, henkilönumero",
+      "conceptdef": "Maksajan suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_muutun",
+      "variablename": "Suojattu maksajan muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_hnro",
+      "variablename": "Suojattu saajan henkilönumero",
+      "conceptdef": "Palkan- tai muun suorituksen saajan suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_yrtun",
+      "variablename": "Suojattu saajan yritystunnus",
+      "conceptdef": "Palkan- tai muun suorituksen saajan suojattu Y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_muutun",
+      "variablename": "Suojattu saajan muu tunnus",
+      "conceptdef": "Palkan- tai muun suorituksen saajan suojattu muu tunnus, joka voi olla puutteellinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Maksuvuosi",
+      "conceptdef": "Vuosi, jolta ilmoitus on annettu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorlaji",
+      "variablename": "Suorituslaji (ei koske palkkoja 2019)",
+      "conceptdef": "Suorituslajilla tarkoitetaan ilmoitettavan tulon laatua. Suorituslajeja ovat mm. palkka, palkkio, työkorvaus, kulu- ja käyttökorvaus tai eläke. Suorituslajien luokituksessa saattaa olla puutteita vuosittaisten muutosten vuoksi. Joitakin suorituslajeja on yhdistelty luokkiin F, L ja H4. Suorituslajien tunnukset ovat:\n1 Palkka sivutoimesta\n1Y Yrittäjän palkka sivutoimesta  (palkka tehtävästä, josta saaja on YEL- tai MYEL-vakuutettu)  \n2 Merityötulo\n2B Sijoitusrahaston tuotto\n2C Joukkovelkakirjalainan korko\n2D Muu korko tai pääomatulo\n2E Vuosi-ilmoituksen antajan maksama jälkimarkkinahyvitys verovelvolliselle\n2F Vuosi-ilmoituksen antajan perimä (saama) jälkimarkkinahyvitys\n2G Sijoitusrahaston rahasto-osuus\n2Y Yrittäjän merityötulo\n3J Ulkomaisen yhteissijoitusyrityksen osuudelle maksettu korko\n3K EU:n ulkopuolelta maksettu/välitetty korko\n3L Ulkomaisen yhteissijoitusyrityksen osuus\n3M Toisesta EU-jäsenvaltiosta maksettu/välitetty korko\n3N Toisesta EU-jäsenvaltiosta maksettu/välitetty myynnin,\ntakaisinoston tai lunastuksen tuoton kokonaismäärä\n5 Ns. 6 kk:n säännön alainen palkka\n5Y Yrittäjän 6 kk:n säännön alainen palkka\n6 Sijaismaksajan maksama palkka ja palkkaturva\n61 Sijaismaksajan maksama 6 kk:n säännön alainen palkka\n7K Työnantajan (kiinteä toimipaikka Suomessa) maksama palkka\ntyöntekijälle, joka ei ole Suomessa vakuutettu\n7L Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\nmaksama palkka työntekijälle, joka ei ole Suomessa vakuutettu\n7M Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\nmaksama palkka Suomessa vakuutetulle työntekijälle\n7N Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\nmaksama palkka työntekijälle, kun työnantaja maksaa\ntyöntekijän puolesta verot (nettopalkkasopimus)\n7Q Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\nmaksama palkka työntekijälle, joka on oleskellut Suomessa\nenintään 183 päivää verosopimuksessa tarkoitettuna ajanjaksona\n9A Metsänmyyntitulot pystykaupoista\n9B Metsänmyyntitulot hankinta- tai käteiskaupoista\n9C Puun myynnin vakuutussuoritus\nA Kansaneläke\nAA Takuueläke\nAB Eläketuki\nB Työ-, virka- ja yrittäjäeläke\nB6 Eläke, joka maksettu ulkomailla asuvalle henkilölle ja josta\nperitty vain sairausvakuutusmaksu\nF Muut eläkkeet\nF1 Ansiotulona verotettava EU-virkamiehen vapaaehtoiseen eläke-vakuutukseen\nperustuva eläke, joka verotetaan 20 %:lla korotettuna\nG Ansiotuloa oleva käyttökorvaus\nG1 Pääomatuloa oleva käyttökorvaus, palkkasaatavan korko tms.\nH Työkorvaus\nH1 Henkilöstörahaston rahasto-osuus\nH2 Urheilijan palkkio\nH3 Perhehoitajan tai omaishoitajan palkkio\nH4 Muu ansiotuloa oleva suoritus\nH5 Yleishyödyllisen yhteisön maksama korvaus\nH6 Sovittelijan kulukorvaus\nHT Työpanokseen perustuva osinko (työkorvausta)\nJ Takaisin peritty suoritus, jolla ei ole omaa suorituslajia\nK Vapaaehtoiseen henkilövakuutukseen perustuvat suoritukset,\nmm. potilas- ja vastuuvakuutuksen ansionmenetyskorvaus\nL Pakollisen tapaturma- ja liikennevakuutuksen päiväraha, vastuuvakuutuskorvaus ym. \nM Veronalainen lakkoavustus\nO Yleinen perhe-eläke\nP Palkka päätoimesta\nP3 Kunnallisen perhepäivähoitajan palkka\nPT Työpanokseen perustuva osinko (palkkaa)\nPU Urheilijarahastosta maksettava palkka\nPY Yrittäjän palkka päätoimesta  (palkka tehtävästä, josta saaja on YEL- tai MYEL-vakuutettu)  \nQ Vapaaehtoisen yksilölliseen eläkevakuutukseen perustuva\npääomatuloa oleva vuosittain maksettava eläke\nQ1 Pitkäaikaissäästämissopimukseen perustuva pääoamtuloa oleva\nvuosittain maksettava suoritus\nQ2 Muut pääomatulona verotettavat eläkkeet ja etuudet\nQ3 Kapitalisaatiosopimuksen tuotto\nR1 Reserviläispalkka\nS Sairausvakuutuslain ym. nojalla maksettavat korvaukset\nSA Sairauskassan täydennyspäiväraha\nT Työttömyyspäiväraha ym.\nU Koulutustuki, toistuva korvaus, aikuiskoulutustuki\nV1 Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke,\njoka verotetaan pääomatulona 20 prosentilla korotettuna\nV2 Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke,\njoka verotetaan pääomatulona 50 prosentilla korotettuna\nV3 Pitkäaikaissäästämissopimukseen perustuva suoritus, joka\nverotetaan pääomatulona 20 prosentilla korotettuna\nV4 Pitkäaikaissäästämissopimukseen perustuva suoritus, joka\nverotetaan pääomatulona 50 prosentilla korotettuna\nW Maatalousyrittäjän luopumiskorvaus\nW1 Opintoraha\nX Lapsen kotihoidontuki ja osittainen hoitoraha\nY Starttiraha (yrittäjän työllistämistuki)\nYT YEL/MYEL-vakuutetun yrittäjän työpanokseen perustuva osinko\n(palkkaa)\nZ Lakisääteisen eläkevakuutusmaksun palautus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ennpid",
+      "variablename": "Ennakonpidätys (ei koske palkkoja 2019)",
+      "conceptdef": "Maksetuista palkoista ja muista tuloista toimitetun ennakonpidätyksen määrä euroa (€). Ennakonpidätyksellä tarkoitetaan useimmiten tuloveron ennakonpidätystä, jonka työnantaja tekee työntekijän palkkatulosta ja tulouttaa verottajalle.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eivaltuve",
+      "variablename": "Ei välitetä tuloverotukseen (eläkkeet ja etuudet)",
+      "conceptdef": "0=ei (välitetään tuloverotukseen), 1= kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "everonal",
+      "variablename": "Eläkkeen tai etuuden veronalaisen osan määrä",
+      "conceptdef": "Eläkkeen tai etuuden veronalaisen osan määrä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "takperet",
+      "variablename": "Takaisin peritty etuus",
+      "conceptdef": "Liikaa tai väärin perustein maksettuja etuuksia (esim. työttömyystuet, opintorahat yms.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "srah_yrtun",
+      "variablename": "Suojattu sijoitusrahaston tunnus, yritystunnus",
+      "conceptdef": "Suojattu sijoitusrahaston Y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "srah_muutun",
+      "variablename": "Suojattu sijoitusrahaston tunnus, muu",
+      "conceptdef": "Suojattu sijoitusrahaston muu tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suoritus",
+      "variablename": "Suorituksen määrä (korot ja osuudet)",
+      "conceptdef": "Suoritusten määrä tai sijoitusrahasto-osuuden määrä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osuuslkm",
+      "variablename": "Rahasto-osuuksien lukumäärä",
+      "conceptdef": "Rahasto-osuuksien lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkomvero",
+      "variablename": "Ulkomaille peritty vero (korot ja osuudet)",
+      "conceptdef": "Ulkomaille peritty vero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maatunnus",
+      "variablename": "Maatunnus (korot ja osuudet)",
+      "conceptdef": "Maatunnus, suorituslajien 5 / 5Y / 7Q osalta.  Työskentelyvaltion maatunnus suorituslaji  5 on Kuuden kuukauden säännön alainen vakuutuspalkka  tai 5Y Yrittäjän kuuden kuukauden säännön alainen vakuutuspalkka.  Jos maita on ollut useampia kuin yksi, on ilmoitettu se maa, jossa työntekijä on verovuonna työskennellyt kauimmin. Suorituslaji  7Q on  Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa) maksama palkka työntekijälle, joka on oleskellut Suomessa enintään 183 päivää verosopimuksessa tarkoitettuna ajanjaksona ja  minkä maan verosopimuksen perusteella Suomella ei ollut verotusoikeutta palkkatuloon. Verosopimusmaan maatunnus on ilmoitettu aina, kun suorituslajia 7Q on käytetty.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistaja",
+      "variablename": "Metsänomistajaryhmä",
+      "conceptdef": "Metsänomistajaryhmä:                                                    \n01 = yksittäinen metsän omistaja tai kuolinpesä,\n02 = metsän yhdessä omistavat puolisot,                        \n03 = verotusyhtymä,\n04 = avoin yhtiö, kommandiittiyhtiö tai muu elinkeinoyhtymä,\n05 = yhteismetsä, tiekunta, kalastuskunta tai jakokunta,   \n09 = osakeyhtiö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kauppahi",
+      "variablename": "Metsän kauppahinta",
+      "conceptdef": "Metsän kauppahinta ilman arvonlisäveron osuutta, euroa (€)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alvosuus",
+      "variablename": "Arvonlisäveron osuus puun myyjälle",
+      "conceptdef": "Puun myyjälle maksettu arvonlisäveron osuus, euroa (€).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tulotyypit",
+      "variablename": "Tulotyypit (palkat)",
+      "conceptdef": "100 Ennakonpidätyksen alaiset palkat ja luontoisedut\t\n101 Työsuhdeoptiot ja osakepalkkiot\t\n102 Työpanokseen perustuvat osingot tai ylijäämät, työkorvaus\t\n103 Työpanokseen perustuvat osingot tai ylijäämät, palkka\t\n104 Käyttökorvaukset ansiotuloa ja palkkio työsuhdekeksinnöstä\t\n105 Perhehoitajan palkkiot ja kustannusten korvaukset\t\n106 Urheilijan palkkiot\t\n107 Henkilöstörahastosta nostettu rahasto-osuus ja ylijäämä veronalainen 80%\t\n108 Perhehoitajan kustannusten korvaukset\t\n110 Sovittelijan kulukorvaus\t\n111 Muut veronalaiset kustannuskorvaukset\t\n112 Muu veronalainen ennakonpidätyksen alainen ansiotulo\t\n113 Ulkomaisen työnantajan maksama palkka työntekijälle, nettopalkkasopimus\t\n114 Ulkomaisen työnantajan = jolla ei ole kiinteää toimipaikkaa Suomessa, maksama palkka työntekijälle\t\n115 Ennakkoperintärekisteröimättömän työkorvaukset, ALV\t\n116 Ennakkoperintäreisteröimättömän työkorvaukset, ei ALV\t\n118 Palkat ja luontoisedut merityötuloista\t\n120 Omaishoitajan palkkiot\t\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SuorituksenMaara",
+      "variablename": "Suorituksen määrä (palkat)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SaajaRajoitetustiVerovelvol",
+      "variablename": "Saaja rajoitetusti verovelvollinen (palkat)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ilmlaji",
+      "variablename": "Ilmoituslaji eläkkeet ja etuudet",
+      "conceptdef": "Saa arvon PEB, kun vuosi-ilmoitus eläkkeistä/etuuksista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

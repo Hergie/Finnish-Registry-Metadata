@@ -1,0 +1,660 @@
+{
+  "variables": [
+    {
+      "identifier": "AIKIELI_K",
+      "variablename": null,
+      "conceptdef": "Hakijan äidinkieli 31.12. (karkeistettu tieto). Karkeistetut luokitukset:\n1 = suomi\n2 = ruotsi\n3 = muu tai ei tietoa\n(3 sis. kaikki muut luokat, ml. luokan 99 = ei tietoa)\nTieto on otettu ensisijaisesti VRK:n aineistosta (2-kirjaiminen tunnus, ISO 639-standardi), jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAA_K",
+      "variablename": null,
+      "conceptdef": "Hakijan asuinmaa (perustuen ISO 3166-standardiin) (karkeistettu tieto).  Karkeistetut luokitukset:\n1 = Suomi\n2 = Eurooppa\n3 = muu tai ei tietoa\n(3 sis. kaikki muut luokat, ml. luokan 999 = ei tietoa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSAL_K",
+      "variablename": null,
+      "conceptdef": "Hakijan kansalaisuus 31.12. (karkeistettu tieto). Karkeistetut luokitukset:\n1 = Suomi\n2 = Eurooppa\n3 = muu tai ei tietoa\n(3 sis. kaikki muut luokat, ml. luokan 999 = ei tietoa)\nTieto on otettu ensisijaisesti VRK:n aineistosta (ISO 3166-standardi), jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": null,
+      "conceptdef": "Hakeneiden ikä tilastovuoden lopussa\nIkä vuosina 31.12.\nbl = Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SP",
+      "variablename": null,
+      "conceptdef": "Sukupuoli\n1=mies \n2=nainen \n0=ei tietoa, ulkomaalainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKUN",
+      "variablename": null,
+      "conceptdef": "Hakijan kotikunta 31.12. edellisvuonna, alueluokitus 1.1. kyseisenä vuonna\nTieto on otettu ensisijaisesti VRK:n aineistosta, jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.\n999=Ei tietoa tai tieto tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUN09",
+      "variablename": null,
+      "conceptdef": "Kotikunta hakuvuotta edeltävän vuoden lopussa \nHakijan kotikunta 31.12. edellisvuonna, alueluokitus 1.1. edellisvuonna\nTieto on otettu ensisijaisesti VRK:n aineistosta, jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.\n999=Ei tietoa tai tieto tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUN10",
+      "variablename": null,
+      "conceptdef": "Kotikunta hakuvuotta edeltävän vuoden lopussa \nHakijan kotikunta 31.12. edellisvuonna, alueluokitus 1.1. edellisvuonna\nTieto on otettu ensisijaisesti VRK:n aineistosta, jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.\n999=Ei tietoa tai tieto tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUN11",
+      "variablename": null,
+      "conceptdef": "Kotikunta hakuvuotta edeltävän vuoden lopussa \nHakijan kotikunta 31.12. edellisvuonna, alueluokitus 1.1. edellisvuonna\nTieto on otettu ensisijaisesti VRK:n aineistosta, jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.\n999=Ei tietoa tai tieto tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUN12",
+      "variablename": null,
+      "conceptdef": "Kotikunta hakuvuotta edeltävän vuoden lopussa \nHakijan kotikunta 31.12. edellisvuonna, alueluokitus 1.1. edellisvuonna\nTieto on otettu ensisijaisesti VRK:n aineistosta, jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.\n999=Ei tietoa tai tieto tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUN13",
+      "variablename": null,
+      "conceptdef": "Kotikunta hakuvuotta edeltävän vuoden lopussa \nHakijan kotikunta 31.12. edellisvuonna, alueluokitus 1.1. edellisvuonna\nTieto on otettu ensisijaisesti VRK:n aineistosta, jos tietoa ei ole löytynyt, on tieto otettu harek-aineistosta.\n999=Ei tietoa tai tieto tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASAVI",
+      "variablename": null,
+      "conceptdef": "Kotikunnan aluehallintoviranomainen\n(AVI)\nTK:n alueluokitus, ks. ASKUN\n1=Etelä-Suomen AVI\n2=Lounais-Suomen AVI\n3=Itä-Suomen AVI\n4=Länsi- ja Sisä-Suomen AVI\n5=Pohjois-Suomen AVI\n6=Lapin AVI\n7=Ahvenanmaan valtionvirasto\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASELY",
+      "variablename": null,
+      "conceptdef": "Kotikunnan elinkeino-, liikenne- ja \nympäristökeskus (ELY-keskus)\nTK:n alueluokitus, ks. ASKUN\n99=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASNUTS3",
+      "variablename": null,
+      "conceptdef": "Kotimaakunta (NUTS3)\nTK:n alueluokitus ks. ASKUN\n99=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASNUTS2",
+      "variablename": null,
+      "conceptdef": "Kotikunnan suuralue (NUTS2)\nTK:n alueluokitus ks. ASKUN\n1=Etelä-Suomi\n2=Länsi-Suomi\n3=Itä-Suomi\n4=Pohjois-Suomi\n5=Ahvenanmaa\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASTEKE",
+      "variablename": null,
+      "conceptdef": "Kotikunnan TE-keskus\nTK:n alueluokitus 1.1.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKUNRYH",
+      "variablename": null,
+      "conceptdef": "Kotikunnan kuntaryhmitys\nTK:n alueluokitus ks. ASKUN\n1=Kaupunkimaiset kunnat\n2=Taajaan asutut kunnat\n3=Maaseutumaiset kunnat\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASLAANI",
+      "variablename": null,
+      "conceptdef": "Kotilääni\nTK:n alueluokitus 1.1.\n1=Etelä-Suomen\n2=Länsi-Suomen\n3=Itä-Suomen\n4=Oulun\n5=Lapin\n6=Ahvenanmaa\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASKUNRYH",
+      "variablename": null,
+      "conceptdef": "Kotikunnan kuntaryhmitys\nTK:n alueluokitus 1.1. edellisvuotta\n1=Kaupunkimaiset kunnat\n2=Taajaan asutut kunnat\n3=Maaseutumaiset kunnat\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASLAANI",
+      "variablename": null,
+      "conceptdef": "Kotilääni\nTK:n alueluokitus 1.1. edellisvuotta\n1=Etelä-Suomen\n2=Länsi-Suomen\n3=Itä-Suomen\n4=Oulun\n5=Lapin\n6=Ahvenanmaa\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASNUTS3",
+      "variablename": null,
+      "conceptdef": "Kotimaakunta (NUTS3)\nTK:n alueluokitus 1.1. edellisvuotta\n99=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASNUTS2",
+      "variablename": null,
+      "conceptdef": "Kotikunnan suuralue (NUTS2)\n1.1. edellisvuotta\n1=Etelä-Suomi\n2=Länsi-Suomi\n3=Itä-Suomi\n4=Pohjois-Suomi\n5=Ahvenanmaa\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASSEUTU",
+      "variablename": null,
+      "conceptdef": "Kotikunnan seutukunta (NUTS4)\nTK:n alueluokitus, ks. ASKUN",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASAVI",
+      "variablename": null,
+      "conceptdef": "Kotikunnan aluehallintoviranomainen\n(AVI)\nTK:n alueluokitus, ks. TILVASKUN\n1=Etelä-Suomen AVI\n2=Lounais-Suomen AVI\n3=Itä-Suomen AVI\n4=Länsi- ja Sisä-Suomen AVI\n5=Pohjois-Suomen AVI\n6=Lapin AVI\n7=Ahvenanmaan valtionvirasto\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASELY",
+      "variablename": null,
+      "conceptdef": "Kotikunnan elinkeino-, liikenne- ja \nympäristökeskus (ELY-keskus)\nTK:n alueluokitus, ks. TILVASKUN\n99=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILVASSEUTU",
+      "variablename": null,
+      "conceptdef": "Kotikunnan seutukunta (NUTS4)\nTK:n alueluokitus, ks. TILVASKUN",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERVAL",
+      "variablename": null,
+      "conceptdef": "Erillisvalinta\n1=todistusten perusteella, \n2= maisteriohjelmat, \n3=siirto-opiskelijat, \n4=avoimen yliopiston väylä, \n5=ulkomaalaisvalinta, \n6=SAT-testi, \n7=muu erillisvalinta, \n8=muu maisterivalinta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AVOINV",
+      "variablename": null,
+      "conceptdef": "Avoin väylä\n0=ei \n1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LUKUV",
+      "variablename": null,
+      "conceptdef": "Lukuvuosi\nHuom! Kalenterivuoden kevään koulutukset edellisen vuosiluvun mukaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VOSAL",
+      "variablename": null,
+      "conceptdef": "Osallistui kokeisiin\n0=ei \n1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VTULOS",
+      "variablename": null,
+      "conceptdef": "Valinnantulos\n0=kesken \n1=hyväksytty \n2=hylätty \n3=varalla \n4=varasijalta hyväksytty",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VPVM",
+      "variablename": null,
+      "conceptdef": "Valintapäätöspäivämäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHV",
+      "variablename": null,
+      "conceptdef": "Vahvistaminen\n0=ei \n1=vahvistanut paikan \n2=hakija itse perunut paikan \n3=peruuntunut, koska hakija vahvistanut muun paikan \n4=peruutettu, koska hakija ei ole vastannut ajoissa mitään \n5=koulutus ei ole alkanutkaan \n6=rekisterinpitäjä perunut paikan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONO",
+      "variablename": null,
+      "conceptdef": "Jonotus\n0=ei \n1=jonottaa (on jonottanut tähän kohteeseen valintojen ollessa käynnissä) \n2=mahdoton jonotus (jonottanut kohteeseen, johon ei jonotusoikeutta)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIRJO",
+      "variablename": null,
+      "conceptdef": "Kirjoittautuminen\n0=ei tehty \n1=läsnä \n2=poissa \n3=ei kirjoittautunut \n4=läsnä syyslukukaudella, poissa kevätlukukaudella \n5=poissa syyslukukaudella, läsnä kevätlukukaudella \n6=läsnä (keväällä alkava koulutus) \n7=poissa (keväällä alkava koulutus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VTAPA",
+      "variablename": null,
+      "conceptdef": "Valintatapa\n1=todistus & valintakoe \n2=valintakoe \n3=todistus\nTieto pakollinen vuodesta 2005.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAREKALA",
+      "variablename": null,
+      "conceptdef": "Koulutusluokitus, opintoala (koodisto suomeksi ja ruotsiksi)\n58Sotilas- ja rajavartiokoulutus\n75Teologinen, Teologiska \n76Humanistinen, Humanistiska \n77Taideteollinen, Konstindustriella \n78Musiikkiala, Utbildningsområdet för musik \n79Teatteri- ja tanssiala, Utbildningsområdet för teater\n80Kasvatustieteellinen, Pedagogiska\n81Liikuntatieteellinen, Gymnastik- och idrottsvetenska\n82Yhteiskuntatieteellinen, Samhällsvetenskapliga\n83Psykologia, Psykologiska\n84Terveystieteet, Hälsovetenskapliga\n85Oikeustieteellinen, Juridiska\n86Kauppatieteellinen, Ekonomiska\n87Luonnontieteellinen, Naturvetenskapliga\n88Maatalous-metsätieteellinen, Agrikultur-forstvetenskapliga\n89Teknillistieteellinen, Teknisk-vetenskapliga\n90Lääketieteellinen, Medicinska\n91Hammaslääketieteellinen, Odontologiska\n92Eläinlääketieteellinen, Veterinärmedicinska\n93Farmasia, Farmaceutiska\n95Kuvataideala, Området för bildkonst\n99Koulutusala erittelemätön, Området odefinierbart",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUN",
+      "variablename": null,
+      "conceptdef": "Koulutuskunta\n\nPaikkakunta missä hakukohteen opetus järjestetään. Kuluvan vuoden kuntaluokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALLK",
+      "variablename": null,
+      "conceptdef": "Koulutuksen alkamislukukausi\nS=syksy, \nK=kevät",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAREKAST",
+      "variablename": null,
+      "conceptdef": "Hakukohteen tutkinnon taso\nYlempi =06, \nAlempi=05",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLEMPI",
+      "variablename": null,
+      "conceptdef": "Vain ylempi \n1=ne koulutukset, jotka johtavat ylempään tutkintoon, BL=muut",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLNIMI",
+      "variablename": null,
+      "conceptdef": "Koulutuskoodin suomenkielinen nimikelyhenne",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCLE",
+      "variablename": null,
+      "conceptdef": "ISCED-level\nUnescon vuoden 1997 ISCED-luokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCFI",
+      "variablename": null,
+      "conceptdef": "ISCED-field\nUnescon vuoden 1997 ISCED-luokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCDE",
+      "variablename": null,
+      "conceptdef": "ISCED-destination\nUnescon vuoden 1997 ISCED-luokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCOR",
+      "variablename": null,
+      "conceptdef": "ISCED-orientation\nUnescon vuoden 1997 ISCED-luokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCST",
+      "variablename": null,
+      "conceptdef": "ISCED -national degree structure\nUnescon vuoden 1997 ISCED-luokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCDU",
+      "variablename": null,
+      "conceptdef": "ISCED-duration\nUnescon vuoden 1997 ISCED-luokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPMALA",
+      "variablename": null,
+      "conceptdef": "Opetushallinnon koulutusala \nVuoden 2002 luokitus\n0 Yleissivistävä koulutus\n1 Humanistinen ja kasvatusala\n2 Kulttuuriala\n3 Yhteiskuntatieteiden, liiketalouden ja hallinnon ala\n4 Luonnontieteiden ala\n5 Tekniikan ja liikenteen ala\n6 Luonnonvara- ja ympäristöala\n7 Sosiaali-, terveys- ja liikunta-ala\n8 Matkailu-, ravitsemis- ja talousala\n9 Muu koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPMOPA",
+      "variablename": null,
+      "conceptdef": "Opetushallinnon opintoala\nVuoden 2002 luokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPMAST",
+      "variablename": null,
+      "conceptdef": "Opetushallinnon koulutusaste\nVuoden 2002 luokitus\n63 Alempi korkeakoulututkinto\n72 Ylempi korkeakoulututkinto\n90 Koulutusaste tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPM95ALA",
+      "variablename": null,
+      "conceptdef": "Opetushallinnon koulutusala \nVuoden 1995 luokitus\n0 Yleissivistävä koulutus\n1 Luonnonvara-ala\n2 Tekniikan ja liikenteen ala\n3 Kaupan ja hallinnon ala\n4 Matkailu-, ravitsemis- ja talousala\n5 Sosiaali- ja terveysala\n6 Kulttuuriala\n7 Humanistinen ja opetusala\n9 Muu koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPM95OPA",
+      "variablename": null,
+      "conceptdef": "Opetushallinnon opintoala\nVuoden 1995 luokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPM95AST",
+      "variablename": null,
+      "conceptdef": "Opetushallinnon koulutusaste \nVuoden 1995 luokitus\n5 Alempi korkeakoulututkinto\n6 Ylempi korkeakoulututkinto\n9 Muu tai tuntematon koulutusaste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OLTYP",
+      "variablename": null,
+      "conceptdef": "Oppilaitostyyppi\nTK:n oppilaitosluokitus \n99=Muut oppilaitokset",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OMIST",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen omistajatyyppi\nTK:n oppilaitosluokitus \n2=Valtio",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OKIELI",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen opetuskieli\nTK:n oppilaitosluokitus \n1=Suomi\n2=Ruotsi\n3=Suomi/ruotsi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OKUN",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen sijaintikunta\nTK:n oppilaitosluokitus kuluvana vuonna \nVRK:n kuntakoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKOUL",
+      "variablename": null,
+      "conceptdef": "Nuorten/aikuisten koulutus\n1=Nuorten koulutus, kaikki yliopistokoulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULK",
+      "variablename": null,
+      "conceptdef": "Tilastokeskuksen koulutuskoodi\nTilastokeskuksen koulutusluokitus 1997 ja siihen vuosittain tehdyt muutokset \nKoulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki koulutusalan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KRYH",
+      "variablename": null,
+      "conceptdef": "Koulutusryhmä\n51=Yliopistojen peruskoulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKIELI",
+      "variablename": null,
+      "conceptdef": "Koulutuksen opetuskieli\nYliopistokoulutuksessa ei tietoa:\nbl=yliopistokoulutuksessa tietoa ei ole",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUNRYH",
+      "variablename": null,
+      "conceptdef": "Koulutuskunnan kuntaryhmä\nTK:n alueluokitus\n1=Kaupunkimaiset kunnat\n2=Taajaan asutut kunnat\n3=Maaseutumaiset kunnat\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAVI",
+      "variablename": null,
+      "conceptdef": "Koulutuksen sijaintikunnan aluehallintoviranomainen (AVI)\n1=Etelä-Suomen AVI\n2=Lounais-Suomen AVI\n3=Itä-Suomen AVI\n4=Länsi- ja Sisä-Suomen AVI\n5=Pohjois-Suomen AVI\n6=Lapin AVI\n7=Ahvenanmaan valtionvirasto\n9=Ei tietoa\nOppisopimuskoulutuksessa koulutuksen järjestäjän aluehallintoviranomainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KELY",
+      "variablename": null,
+      "conceptdef": "Koulutuksen sijaintikunnan elinkeino-, liikenne- ja  ympäristökeskus (ELY-keskus)\nTK:n alueluokitus\nOppisopimuskoulutuksessa koulutuksen järjestäjän sijaintikunnan elinkeino-,  liikenne- ja  ympäristökeskus (ELY-keskus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNUTS3",
+      "variablename": null,
+      "conceptdef": "Koulutuskunnan sijaintimaakunta (NUTS3)\nTK:n alueluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNUTS2",
+      "variablename": null,
+      "conceptdef": "Koulutuskunnan suuralue (NUTS2)\n1=Etelä-Suomi\n2=Länsi-Suomi\n3=Itä-Suomi\n4=Pohjois-Suomi\n5=Ahvenanmaa\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KSEUTU",
+      "variablename": null,
+      "conceptdef": "Koulutuskunnan seutukunta (NUTS4)\nTK:n alueluokitus, ks. KKUN",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OKUNRYH",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen sijaintikunnan kuntaryhmitys\nTK:n alueluokitus\n1=Kaupunkimaiset kunnat\n2=Taajaan asutut kunnat\n3=Maaseutumaiset kunnat\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OAVI",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen sijaintikunnan aluehallintoviranomainen (AVI)\n1=Etelä-Suomen AVI\n2=Lounais-Suomen AVI\n3=Itä-Suomen AVI\n4=Länsi- ja Sisä-Suomen AVI\n5=Pohjois-Suomen AVI\n6=Lapin AVI\n7=Ahvenanmaan valtionvirasto\nbl= ei tietoa (oppisopimuskoulutus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OELY",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen  sijaintikunnan elinkeino-, liikenne- ja  ympäristökeskus (ELY-keskus)\nTK:n alueluokitus\nbl= ei tietoa (oppisopimuskoulutus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONUTS3",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen sijaintimaakunta (NUTS3)\nTK:n alueluokitus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONUTS2",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen suuralue (NUTS2)\nTK:n alueluokitus \n1=Etelä-Suomi\n2=Länsi-Suomi\n3=Itä-Suomi\n4=Pohjois-Suomi\n5=Ahvenanmaa\n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSEUTU",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen sijaintikunnan seutukunta (NUTS4)\nTK:n alueluokitus, ks. OKUN",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILV",
+      "variablename": null,
+      "conceptdef": "Tilastovuosi\nKalenterivuonna yliopistokoulutukseen hakeneet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvuosi",
+      "variablename": null,
+      "conceptdef": "Numeerinen vuosimuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": null,
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shetu",
+      "variablename": null,
+      "conceptdef": "Suojattu henkilötunnus. Muuttuja shnro toimii tunnisteena vuosittaisten aineistojen välillä, ja shetu toimii toissijaisena tunnisteena vain kunkin vuosiaineiston sisällä hakijoille, jolta puuttuu shnro. Ei yhdisty aineistojen välillä. Muuttujassa esiintyy myös vaillinaisista tiedoista johtuvia virheitä, eikä siihen tule suhtautua shnro:n tapaan luotettavana tunnistamisen välineenä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou",
+      "variablename": "Salattu koulumuuttuja",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme. Skkou on muodostettu niin, että kaikki korkeakoulut on luokiteltu kunkin kyseisen hakuvuoden tilanteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou1",
+      "variablename": "Salattu koulumuuttuja 2009",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme.\nSkkou1 on muodostettu niin, että kaikki korkeakoulut on luokiteltu vuoden 2009 tilanteen mukaan. Aineistosta on siis korvattu hakuvuoden jälkeen yhdistyneiden korkeakoulujen tunnukset vuonna 2009 olemassaolevan yliopiston suojatulla tunnuksella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou2",
+      "variablename": "Salattu koulumuuttuja 2013",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme.\nSkkou2 on muodostettu niin, että kaikki korkeakoulut on luokiteltu vuoden 2013 tilanteen mukaan. Aineistosta on siis korvattu hakuvuoden jälkeen yhdistyneiden korkeakoulujen tunnukset vuonna 2013 olemassaolevan yliopiston suojatulla tunnuksella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarj_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja hakukohteen koulutuksen järjestäjän/ylläpitäjän y-tunnuksesta, per TK:n oppilaitosluokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

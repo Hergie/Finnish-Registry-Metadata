@@ -1,0 +1,180 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk",
+      "variablename": "Korkeimman tutkinnon koulutuskoodi",
+      "conceptdef": "TK:n uusimman koulutusluokituksen mukainen 6-numeroinen koulutuskoodi.\n\nTiedot pohjautuvat Tilastokeskuksen tutkintorekisteriin.  Tutkintorekisterin perustana on vuoden 1970 väestölaskennassa kerätyt tutkintotiedot. Vuosittain päivitettävät tiedot saadaan suoraan koulutuksen järjestäjiltä tai valtakunnallisista KOSKI- ja VIRTA-tietovarannoista.\n\nRekisteri on kattava Suomessa suoritetuista tutkinnoista, mutta alipeittoinen ulkomailla suoritetuista tutkinnoista. Suomeen muuttavilta henkilöiltä ei kysytä ulkomailla suoritetusta koulutuksesta maahan saapumisen yhteydessä. Tutkintorekisteriin lisätään Valviran rekisteritietoja ulkomailla suoritetuista ja Suomessa laillistetuista terveydenhuollon tutkinnoista, Pohjoismaiden tilastovirastoilta saatuja tutkintotietoja sekä erilliskyselyillä kerättyjä tutkintotietoja.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaste",
+      "variablename": "Korkeimman tutkinnon kansallinen koulutusaste",
+      "conceptdef": "Korkein tutkinto luokituksena kansallinen koulutusaste 2016, taso 2.  \nKansallisen koulutusasteen taso 1 on sama kuin ISCED 2011 -luokituksessa. Tämän aste-koodin saa KOULK-tiedon ensimmäisestä merkistä.\n3 Toinen aste \n31 Lukiokoulutus \n32 Ammatillinen peruskoulutus \n33 Ammattitutkinto \n4 Erikoisammattikoulutusaste \n41 Erikoisammattitutkinto \n5 Alin korkea-aste \n51 Opistoaste \n52 Alimman korkea-asteen koulutus \n6 Alempi korkeakouluaste \n61 Ammatillinen korkea-aste \n62 Ammattikorkeakoulututkinto \n63 Alempi korkeakoulututkinto\n69 Muu tai tuntematon alemman korkeakouluasteen koulutus\n7 Ylempi korkeakouluaste \n71 Ylempi ammattikorkeakoulututkinto \n72 Ylempi korkeakoulututkinto \n73 Lääkärien erikoistumiskoulutus \n79 Muu tai tuntematon ylemmän korkeakouluasteen koulutus\n8 Tutkijakoulutusaste \n81 Lisensiaatintutkinto \n82 Tohtorintutkinto \n9 Koulutusaste tuntematon \n91 Koulutusaste tuntematon\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCED_ala3",
+      "variablename": "Korkeimman tutkinnon ISCED koulutusala, taso III",
+      "conceptdef": "Korkein tutkinto ISCED 2011- koulutusalaluokituksella, neljä merkkiä.\nISCED 2011 koulutusalaluokituksen (Unesco ISCED Fields of Education and Training 2013) kolmas ja tarkin taso (detailed ISCED field). Koulutusalan taso 1 (broad field) on 2-numeroinen, taso 2 (narrow field) 3-numeroinen ja taso 3 (detailed fied) 4-numeroinen. Kansallisen koulutusluokituksen kaikki tasot 1-3 ovat samat kuin ISCED 2011 -luokituksessa.\n\nISCED 2011 koulutusalaluokituksen pääluokat:\n00\tYleissivistävä koulutus\n01\tKasvatusalat\n02\tHumanistiset ja taidealat\n03\tYhteiskunnalliset alat\n04\tKauppa, hallinto ja oikeustieteet\n05\tLuonnontieteet\n06\tTietojenkäsittely ja tietoliikenne (ICT)\n07\tTekniikan alat\n08\tMaa- ja metsätalousalat\n09\tTerveys- ja hyvinvointialat\n10\tPalvelualat\n99\tMuut tai tuntemattomat koulutusalat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saika",
+      "variablename": "Korkeimman tutkinnon suoritusaika",
+      "conceptdef": "Korkeimman tutkinnon suoritusvuosi ja -kuukausi, merkkimuotoinen (VVVVKK).\nBBBBBB = puuttuva tieto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuv",
+      "variablename": "Aloittamisvuosi/kirjoihintulovuosi",
+      "conceptdef": "Vuosi, jolloin opiskelija on ottanut vastaan opiskelu- oikeuden ja ilmoittautunut koulun kirjoihin tai solminut oppisopimuksen. Merkkimuotoinen vuositieto (VVVV) on vuoden 1999 jälkeen suoritetuista tutkinnoista, muutoin BBBB = ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk",
+      "variablename": "Aloittamislukukausi",
+      "conceptdef": "Tutkintooon johtavan koulutuksen aloittamislukukausi oppilaitoksessa \n1 = kevät (1.1.-31.7.) \n2 = syksy (1.8.-31.12.) \nB = ei tietoa. \nTieto on vuoden 1999 jälkeen suoritetuista tutkinnoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_s",
+      "variablename": "Suojattu oppilaitostunnus",
+      "conceptdef": "Suojattu oppilaitostunnus on suorittamisvuoden luokituksen mukainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijkun",
+      "variablename": "Oppilaitoksen sijaintikunta",
+      "conceptdef": "Koulutuksen sijaintikunta tutkinnon suorittamisvuonna Väestörekisterikeskuksen kuntakoodina v.1971 alkaen. \nV. 2006 alkaen ylioppilastutkinnoilla on oppilaitoksen sijaintikunta eikä koulutuksen sijaintikunta. \n200 = ulkomailla \nBBB = tuntematon (999)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opty",
+      "variablename": "Oppilaitostyyppi",
+      "conceptdef": "Oppilaitoksen tuorein tieto oppilaitostyypistä\n15 = Lukiot \n19 = Perus- ja lukioasteen koulut \n21 = Ammatilliset oppilaitokset \n22 = Ammatilliset erityisoppilaitokset \n23 = Ammatilliset erikoisoppilaitokset \n24 = Ammatilliset aikuiskoulutuskeskukset \n28 = Palo-, poliisi- ja vartiointialojen oppilaitokset \n29 = Sotilasalan ammatilliset oppilaitokset \n41 = Ammattikorkeakoulut \n42 = Yliopistot \n61 = Musiikkioppilaitokset \n62 = Liikunnan koulutuskeskukset \n63 = Kansanopistot \n64 = Kansalaisopistot \n99 = Muut oppilaitokset \nBB = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkieli",
+      "variablename": "Opetuskieli",
+      "conceptdef": "Koulutuksen opetuskieli, Koski-rekisterin 2-kirjaiminen tunnus. \nEN /en= englanti\nFI /fi = suomi\nSV /sv =  ruotsi\nde  = saksa\net  = viro\nfr  = ranska\nru = venäjä\nse  = pohjoissaame\n00 / BB   = tieto puuttuu\n98 = ei virallinen kieli rekisterissä \n\nTietoa on lähinnä vuoden 1970 jälkeen suoritetuista tutkinnoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiso",
+      "variablename": "Oppisopimuskoulutus",
+      "conceptdef": "Tieto on ammatillisissa oppilaitoksissa vuodesta 1997 lähtien suoritetuilla tutkinnoilla ja näyttötutkinnoilla. \n1 = tutkinto on suoritettu oppisopimuskoulutuksena \n0 = tutkintoa ei ole suoritettu oppisopimuskoulutuksena",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom",
+      "variablename": "Tutkinto suoritettu ulkomailla",
+      "conceptdef": "1 = tutkinto on suoritettu ulkomailla \n0 = tutkinto on suoritettu Suomessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktutk_1",
+      "variablename": "Tuorein muu tutkinto",
+      "conceptdef": "Muu kuin henkilön korkein tutkinto kyseisenä vuonna. TK:n uusimman koulutusluokituksen 6-numeroinen koulutuskoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_1",
+      "variablename": "Suoritusvuosi, tuorein muu tutkinto",
+      "conceptdef": "Merkkimuotoinen suoritusvuosi (VVVV).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktutk_2",
+      "variablename": "Toiseksi tuorein muu tutkinto",
+      "conceptdef": "Muu kuin henkilön korkein tutkinto kyseisenä vuonna. TK:n uusimman koulutusluokituksen 6-numeroinen koulutuskoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_2",
+      "variablename": "Suoritusvuosi, toiseksi tuorein muu tutkinto",
+      "conceptdef": "Merkkimuotoinen suoritusvuosi (VVVV).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktutk_3",
+      "variablename": "Kolmanneksi tuorein muu tutkinto",
+      "conceptdef": "Muu kuin henkilön korkein tutkinto kyseisenä vuonna. TK:n uusimman koulutusluokituksen 6-numeroinen koulutuskoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_3",
+      "variablename": "Suoritusvuosi, kolmanneksi tuorein muu tutkinto",
+      "conceptdef": "Merkkimuotoinen suoritusvuosi (VVVV).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktutk_4",
+      "variablename": "Neljänneksi tuorein muu tutkinto",
+      "conceptdef": "Muu kuin henkilön korkein tutkinto kyseisenä vuonna.TK:n uusimman koulutusluokituksen 6-numeroinen koulutuskoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_4",
+      "variablename": "Suoritusvuosi, neljänneksi tuorein muu tutkinto",
+      "conceptdef": "Merkkimuotoinen suoritusvuosi (VVVV).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

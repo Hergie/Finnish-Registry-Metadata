@@ -1,0 +1,52 @@
+{
+  "variables": [
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": "Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle tehnyt muut asiat ja toimenpiteet.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOVUOSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DCSN_MEASURE_CONFIRMATION_DAY",
+      "variablename": "Paatoksen pvm",
+      "conceptdef": "Päivämäärä jolloin henkilölle myönnetty Suomen kansalaisuus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CASE_TYPE_NAME_FIN",
+      "variablename": "Asiatyyppi",
+      "conceptdef": "case_type_name_fin case_type_id\nEU oleskeluoikeus 63\nEnsimmäistä oleskelulupaa koskeva hakemus 59\nJatkolupahakemus 60\nKiintiöpakolaisvalinta, UNHCR:n esitys, Humanitaarinen maahanmuutto, VN:n päätös 46\nOleskeluasema 532000\nOleskelutodistukset ja -ilmoitukset 83\nPitkäaikainen viisumi 488002\nPysyvää oleskelulupaa koskeva hakemus 61\nTilapäinen suojelu 48\nTurvapaikkahakemus 49",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DCSN_TYPE_NAME_FIN",
+      "variablename": "Paatostyyppi",
+      "conceptdef": "Vain ensimmäiset myönteiset päätökset\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

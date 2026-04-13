@@ -1,0 +1,84 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritys- ja yhteisötunnus eli Y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maa_koodi",
+      "variablename": "Kohde/lähdemaa",
+      "conceptdef": "ISO 3166:n kaksikirjaintason maakoodi.\n\n",
+      "measunit": null,
+      "classification": "valtio_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "pu_koodi",
+      "variablename": "Palvelutyyppi",
+      "conceptdef": "Vuoden 2015 palvelujen ulkomaankaupan EBOPS-luokitus löytyy Tilastokeskuksen luokituseditorista: http://luokituseditori.stat.fi/editor/",
+      "measunit": null,
+      "classification": "ebops_1_2015_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "xm",
+      "variablename": "Vienti X tai tuonti M",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvo",
+      "variablename": "Viennin tai tuonnin arvo",
+      "conceptdef": "Aineistossa erien 510A ja 510B arvot ovat negatiivisia. \nRakentamispalvelut ja projektitoimitukset (5100) laskettiin aiemmassa palvelujen ulkomaankauppa -tilastossa nettona eli ostojen ja myyntien summana (5100 + 510A + 510B) ja julkaistiin viennissä.\nNykyisessä tavaroiden ja palveluiden ulkomaankauppa -tilastossa erät 510A ja 510B julkaistaan palvelutuonnissa ja ne käännetään positiivisiksi. \n\nAineistossa erä 130A saa negatiivisia arvoja ja 130B positiivisia arvoja ja ne on kirjattu nettoutettuna vientiin. \nErät 130A ja 130B nettoutettiin aiemmin palvelujen ulkomaankauppa -tilastossa, kun taas 130A käännetään tavaroiden ja palveluiden -ulkomaankauppa -tilastossa positiiviseksi tuonniksi.\n\nVälityskaupassa (erät 2100 ja 2200) suomalainen talousyksikkö ostaa tavaran ulkomailta, ja myy sen eteenpäin muuttumattomana ulkomaille ilman että tavarat kulkevat Suomen kautta. Välityskauppa kirjataan ainoastaan vientiin. Ostot kirjataan negatiivisena vientinä ja myynnit positiivisena vientinä. Välityskauppa julkaistaan siten tavaroiden ja palveluiden ulkomaankauppa -tilastossa nettoutettuna viennissä. Aiempiin vuosiin nähden ainoa ero on, että ostot on jaoteltu ja löytyvät maittain. Aiemmin välityskaupan marginaali (joka raportoitiin marginaalina) kirjattiin myyntimaahan. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "korotettuArvo",
+      "variablename": "Perusjoukon tasolle korotettu arvo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osite",
+      "variablename": "Osite vuosivastaajilla",
+      "conceptdef": "Käytettävistä apumuuttujista selkeimmin palvelujen ulkomaankaupan vasteiden kanssa korreloivat EU-palvelumyynnit sekä -ostot. Poikkeuksina ovat kaupan, liikenteen, sähkö-, kaasu- ja lämpöhuolto ja jäähdytysliiketoiminnan sekä rakentamisen toimialat, joissa kyseiset muuttujat mittaavat eri ilmiötä kuin mitä palvelujen ulkomaankaupassa kuvataan. Tästä johtuen otoskoot kyseisillä toimialoilla on allokoitu eri tavalla kuin niissä, joissa vastaavuus on selkeämpi. Toinen ongelmakohta on yritykset, joilla ei ole EU-palveluostoja tai -myyntejä. Myös nämä yritykset on poimittu muista yrityksistä erillään.\nNäiden tietojen perusteella palvelujen ulkomaankaupan satunnaiskehikko jaetaan ensimmäisessä vaiheessa ositteisiin seuraavasti:\n1.\tYritykset joilla ei ole EU-palvelumyyntejä tai -ostoja\n2.\tYritykset joilla on EU-palvelumyyntejä tai -ostoja\na.\ttoimiala D\nb.\ttoimiala F\nc.\ttoimiala G \nd.\ttoimiala H\nYritystyypittäiset tiedot luokitellaan seuraavien muuttujien mukaisesti:\n·\ttoimiala\n·\tyrityksen koko\n·\tulkomaalaisomisteisuus\n\nNäiden ulottuvuuksien huomioon ottamiseksi aiemmin muodostetut ositteet ositettiin uudelleen toimialan, kokoluokan ja ulkomaalaisomisteisuuden perusteella seuraavasti:\n·\ttoimiala\no\tkirjaintaso: C, D, E, F, G, H ja I\no\tkolminumerotaso: 581, 582, 631 ja 639\no\tyhdistelmät: A-B\no\tkaksinumerotaso: muut\n·\tkoko palkansaajien lukumäärään perustuen\no\t0 - 49\no\t50 - 249 \no\t250 +\n·\tulkomaalaisomisteisuus\no\tulkomaalaisomisteiset\no\tmuut\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "neljannes",
+      "variablename": "Vuosineljännes",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritysid",
+      "conceptdef": "Yritysyksikön tunnnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

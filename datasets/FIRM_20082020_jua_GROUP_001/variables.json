@@ -1,0 +1,188 @@
+{
+  "variables": [
+    {
+      "identifier": "knstun_s",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Suojattu konsernitunnus. Konsernitunnus voidaan antaa kaikille Suomessa rekisteröidyille pääkonserneille.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu konserniyrityksen tunnus",
+      "conceptdef": "Suojattu konserniyrityksen tunnus. Emo-, tytär-, osakkuus- ja muiden yhtiöiden y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jasenlaji",
+      "variablename": "Yrityksen asema pääkonsernissa",
+      "conceptdef": "Konserniyrityksen jäsenlaji, joka kertoo yrityksen aseman konsernissa.\nJäsenlajeja ovat:\n0\tEi tiedossa \n1\tEmoyritys; suomalainen viimekäden emo\n2\tTytäryritys; viimekäden tytär\n3\tYhteisyritys\n4\tOsakkuusyritys\n5\tIntressiyritys \n6\tVäliemo; tytäryritys, jolla on myös itsellään tyttäriä\nLähde: Yritysten tilinpäätökset\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyyppi",
+      "variablename": "Konsernin tyyppi",
+      "conceptdef": "Konsernin tyyppi. Vuosilta 1995-2007 mukana vain yrityskonsernit, mahdolliset arvot ovat:\n(0\tEi tiedossa)\n1\tYrityskonserni\n(2\tKuntakonserni) \n3\tYksittäinen ulkomaalaisen konsernin kotimainen tytäryritys (nk. OTY5-konserni)\n\nKonsernin tyyppi. Vuodesta 2008 lähtien mukana kaikki konsernityypit, mahdolliset arvot ovat:\n0                           Ei tiedossa\n1                           Yrityskonserni                                                                                      \n2                           Kuntakonserni                                                                                       \n3                           Yksittäinen ulkomaalaisen konsernin kotimainen tytäryritys (nk. OTY5-konserni)                      \n4                           Kuntayhtymä\n5                           Valtiokonserni\n6                           Kunta-alakonserni\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maa",
+      "variablename": "Konsernin kansallisuus",
+      "conceptdef": "Konsernin kansallisuus. Jos konsernilla ei ole voimassa olevaa suhdetta ulkomaiseen emoyritykseen, määräytyy kansallisuudeksi 'Suomi'.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maa_vuositieto",
+      "variablename": "Konsernin kansallisuus viitevuonna",
+      "conceptdef": "Konsernin kansallisuus viitevuonna. Jos konsernilla ei ole voimassa olevaa suhdetta ulkomaiseen emoyritykseen, määräytyy kansallisuudeksi 'Suomi'.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol2008",
+      "variablename": "Konsernin laskennallinen päätoimiala TOL2008 ",
+      "conceptdef": "Konsernin laskennallinen päätoimiala (TOL2008) tilastovuonna. Saatavilla 2007-.",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "knslaji",
+      "variablename": "Eurostatin määrittelemä konsernilaji",
+      "conceptdef": "Eurostatin määrittelemä konsernilaji (EG TYPE)\n\n0\tEi tiedossa\n1\tTäysin kotimainen konserni (All resident group)\n2\tKotimaisessa kontrollissa oleva monikansallinen konserni (Domestically controlled group) \n3\tUlkomaalaisessa kontrollissa oleva monikansallinen konserni (Foreign controlled group)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkilosto",
+      "variablename": "Konsernihenkilöstön määrä",
+      "conceptdef": "Konsernihenkilöstö. Henkilöstön määrä tilastovuoden tilikautena keskimäärin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotim_henkilosto",
+      "variablename": "Konsernin kotimainen henkilöstö",
+      "conceptdef": "Konsernin kotimainen henkilöstö. Henkilöstön määrä Suomessa tilastovuoden tilikautena keskimäärin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "liikevaihto_sl",
+      "variablename": "Konsernin konsolidoitu liikevaihto suuruusluokittain",
+      "conceptdef": "Konsernin konsolidoitu liikevaihto tilastovuonna suuruusluokittain:\n0     liikevaihto=0\n1     1<=liikevaihto<200000\n2     200000<=liikevaihto<400000 \n3     400000<=liikevaihto<1000000 \n4     1000000<=liikevaihto<2000000 \n5     2000000<=liikevaihto<10000000 \n6     10000000<=liikevaihto<20000000 \n7     20000000<=liikevaihto<50000000 \n8     50000000<=liikevaihto<100000000 \n9     100000000<=liikevaihto<250000000 \n10    250000000<=liikevaihto<500000000 \n11    liikevaihto>=500000000\n''       liikevaihto on tyhjä tai negatiivinen\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom_henkilosto",
+      "variablename": "Konsernin ulkomainen henkilöstö",
+      "conceptdef": "Konsernin ulkomainen henkilöstö. Henkilöstön määrä tilastovuoden tilikautena keskimäärin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom_liikevaihto_sl",
+      "variablename": "Konsernin ulkomainen liikevaihto suuruusluokittain",
+      "conceptdef": "Konsernin ulkomainen liikevaihto tilastovuonna suuruusluokittain:\n0     liikevaihto=0\n1     1<=liikevaihto<200000\n2     200000<=liikevaihto<400000 \n3     400000<=liikevaihto<1000000 \n4     1000000<=liikevaihto<2000000 \n5     2000000<=liikevaihto<10000000 \n6     10000000<=liikevaihto<20000000 \n7     20000000<=liikevaihto<50000000 \n8     50000000<=liikevaihto<100000000 \n9     100000000<=liikevaihto<250000000 \n10    250000000<=liikevaihto<500000000 \n11    liikevaihto>=500000000\n''       liikevaihto on tyhjä tai negatiivinen\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom_liikevaihto_kasvu",
+      "variablename": "Konsernin ulkomaisen liikevaihdon kasvuprosentti",
+      "conceptdef": "Konsernin ulkomaisen liikevaihdon kasvuprosentti verrattuna edelliseen tilastovuoteen.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alo_muoto",
+      "variablename": "Konsernin aloitusmuoto",
+      "conceptdef": "Konsernin aloitusmuoto. Aloitusmuotoja ovat:\n\n0\tEi tiedossa\n1\tYhtiöittäminen tai tytäryrityksen perustaminen\n2\tKonsernifuusio\n3\tYritysosto\n9\tMuu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lop_muoto",
+      "variablename": "Konsernin lopetusmuoto",
+      "conceptdef": "Konsernin lopetusmuoto. Lopetusmuotoja ovat:\n\n0\tToiminnassa\n1\tKonsernin lakkaaminen\n2\tKonsernifuusio\n3\tTytäryritysten myynti\n4\tTytäryritysten lakkaaminen tai sulautuminen\n5\tEmoyrityksen osto\n6\tSiirtynyt pois kohdejoukosta\n9\tMuu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laji",
+      "variablename": "Kotimainen rekisteriyritys=1",
+      "conceptdef": "Aineistossa mukana vain kotimaiset rekisteriyritykset, saa arvon 1 aina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Konserni-yrityssuhteen ominaisuuden alkupäivä",
+      "conceptdef": "Konserni-yrityssuhteen ominaisuuden (omistusosuus, äänivalta, jäsenlaji) alkupäivä. Jos suhteen alkupäivämäärää ei tiedetä, käytetään tilikauden ensimmäistä päivää tai tilikaudella perustetun yrityksen aloituspäivää. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Konserni-yrityssuhteen ominaisuuden loppupäivä",
+      "conceptdef": "Konserni-yrityssuhteen ominaisuuden (omistusosuus, äänivalta, jäsenlaji) loppupäivä. Jos suhteen loppupäivämäärää ei tiedetä, käytetään tilikauden viimeistä päivää tai mahdollisesti tilikaudella lopettaneen yrityksen lopetuspäivää, joka saadaan yritysrekisteristä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistus",
+      "variablename": "Konsernin omistusosuus tytär-, osakkuus- ja muissa yrityksissä",
+      "conceptdef": "Konsernin omistusosuus tytär-, osakkuus- ja muissa yrityksissä tai konsernin ulkomaisen emon (suora tai viimekäden emo) omistusosuus konsernin kotimaisesta emosta. Alkaen vuodesta 2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aanivalta",
+      "variablename": "Konsernin äänivaltaosuus tytär-, osakkuus- ja muissa yrityksissä",
+      "conceptdef": "Konsernin äänivaltaosuus tytär-, osakkuus- ja muissa yrityksissä tai konsernin ulkomaisen emon (suora tai viimekäden emo) äänivaltaosuus konsernin kotimaisesta emosta. Äänivaltaosuus on useimmiten sama kuin osakkeiden ja osuuksien suora omistusosuus.  Alkaen vuodesta 2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kontrolli",
+      "variablename": "Konsernin määräysvalta yritykseen",
+      "conceptdef": "Konsernin määräysvalta yritykseen. Alkaen vuodesta 2008. Muuttuja kertoo onko knstun-tiedon määrittelemällä konsernilla määräysvalta yrtun-tiedon määrittelemään tytäryritykseen:\n0\tEi\n1\tKyllä\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

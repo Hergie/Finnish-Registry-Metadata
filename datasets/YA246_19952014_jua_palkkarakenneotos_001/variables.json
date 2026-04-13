@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "VUOSI",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilaston tilastointivuosi. Tiedot kuvaavat pääasiassa vuoden viimeistä neljännestä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RNO",
+      "variablename": "Rivinumero",
+      "conceptdef": "Rivinumeroa käytetään avaimena tietojen tunnistamisessa. Rivinumero on juokseva numero työnantajan sisällä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PMUOTO",
+      "variablename": "Palkkausmuoto",
+      "conceptdef": "Kertoo työsuhteen palkkausmuodon. \nMahdolliset arvot: \n1 - Kuukausipalkkainen \n2 - Tuntipalkkainen",
+      "measunit": null,
+      "classification": "palkkarakenne_4_2001_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSAIK",
+      "variablename": "Osa-aikaisuus",
+      "conceptdef": "Työsuhteen koko-  tai osa-aikaisuus. Muodostetaan palvelussuhteen ehtojen tai säännöllisen viikkotyöajan mukaan. Osa-aikaisuuden määrittelyä on muutettu vuoden 2001 tilastossa. Rajana pidetään nykyisin 90 prosenttia alan yleisestä työajasta. \nMahdolliset arvot: \n1 - Kokoaikainen \n2 - Osa-aikainen \nX tai puuttuva tieto - Tuntematon ",
+      "measunit": null,
+      "classification": "palkkarakenne_3_2005_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOPALA",
+      "variablename": "Sopimusala",
+      "conceptdef": "Tieto sopimusalasta ja siitä, minkä työehtosopimuksen piiriin kyseinen työsuhde kuuluu. Ei ole tarkastettu tieto. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKPALKKA",
+      "variablename": "Kuukausiansiot",
+      "conceptdef": "Kokonaistyöajan kuukausiansio (ml. luontaisedut). Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina kuukaudessa.\nSisältää myös mahdolliset varallaolokorvaukset.Tuntipalkkaisten osalta (Pmuoto=2) käsite on laskennallinen ja muuttujassa ei työpanoksen todellinen vaihtelu ja siten ei myöskään todellisen kuukausiansion vaihtelu kuvaudu todellisessa laajuudessaan, sillä aineistopohjainen tuntiansio kerrotaan kuukausitasolle käyttäen tes/työsopimus-pohjaista teoreettista säännöllisen työajan kuukausituntimäärää kertoimena. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUNTIPALKKA",
+      "variablename": "Tuntiansiot",
+      "conceptdef": "Kokonaistyöajan tuntiansio (ml. luontaisedut ja mahdolliset varallaolokorvaukset). Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina tunnissa. Muodostettu kuukausiansiosta jakamalla kuukausiansio kokonaistyöajan tuntien määrällä. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLIP",
+      "variablename": "Ylityöansiot",
+      "conceptdef": "Yli- ja lisätyöajalta maksetut palkat euroina kuukaudessa. Yli- ja lisätyöajalta maksetut palkat euromääräisinä tilastokuukaudelta. Ei sisällä vuoden 2006 tilastosta eteenpäin opettajien viikkoylituntipalkkioita. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VTL",
+      "variablename": "Työaikalisät",
+      "conceptdef": "Vuoro-  ym. työaikalisien euromäärä kuukaudessa. Esimerkiksi vuoro-, yö-, ilta-, viikonloppu- ja arkipyhätyöltä maksetut palkanosat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LED",
+      "variablename": "Luontoisedut",
+      "conceptdef": "Veronalaisten luontoisetujen arvo euroina kuukaudessa. Esimerkiksi auto- tai puhelinetu.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VKORV",
+      "variablename": "Varallaolokorvaukset",
+      "conceptdef": " Varallaoloajan palkat ja muut kokonaisansion lisät, kuten toimenpidepalkkiot euromääräisinä tilastokuukaudelta. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VKTA",
+      "variablename": "Säännöllinen viikkotyöaika",
+      "conceptdef": "Palkansaajan henkilökohtainen säännöllinen viikkotyöaika. Yleensä työ- tai virkaehtosopimuksen mukainen viikkotyöaika. Sisältää kuntasektorin opettajien viikkoylitunnit vuoden 2006 tilastossa ja tästä eteenpäin.",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLIT",
+      "variablename": "Ylityötunnit",
+      "conceptdef": "Palkatut lisä- ja ylityötunnit kuukaudessa. Tässä kentässä kuntasektorin opettajien normaalit ylitunnit vuoden 2006 tilastossa ja tästä eteenpäin.",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYOAIKAKK",
+      "variablename": "Kokonaistyöaika",
+      "conceptdef": "Kokonaistyöaika kuukaudessa (4,345*säännöllinen viikkotyöaika + ylityötunnit)",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERTAERAT",
+      "variablename": "Kertaluontoisesti maksettavat palkkaerät/vuosi",
+      "conceptdef": "Kertaluontoisesti maksettavat palkanosat euroina vuodessa. Muuttuja sisältää yhteenlaskettuna lomarahat ja lomakorvaukset, palvelusvuosikorvaukset, kertaluontoisesti maksettavat tulospalkkiot ja muut kertaluontoisesti maksettavat palkanosat (esimerkiksi suhdanneraha). ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SHTUN",
+      "variablename": "Suojattu henkilötunnus",
+      "conceptdef": "Suojattu henkilötunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "STPTUN",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Suojattu työantajatoimipaikan tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AINE",
+      "variablename": "AINEISTOTUNNUS",
+      "conceptdef": "Aineistotunnuksella erotetaan eri tiedonantajalähteet toisistaan. Yksit. sekt. mahdolliset arvot vv 1995-2014: \n0 - Järjestäytymättömät palvelualat (TK:n oma otos); \n1 - EK-teollisuus (ent. TT); \n2 - EK-palvelualat (ent.PT); \n3 - EK-autoliikenne (ent. PT); \n4 - Autoalan keskusliitto (AKL/EK); \n5 - Valtion liikelaitokset (aineistossa vain 1995-98); \n6 - Energia-alan kuukausipalkkaiset (ENL , aineistossa vain 1995-96); \n7 - Avaintyönantajat (AVAINTA, aineistossa vasta 2001 läht.); \n8 - Järjestäytymättömät teollisuusalat (TK:n oma otos); \n9 - Kirkon työmarkkinalaitos (KIT, ent. KISV); \nA - Teatteriala (TINFO, aineistossa 1996 läht.); \nB - EK-opetusala (ent. PT);\nD - Ahvenanmaan Järjestäytymättömät  yritykset ja maakuntahallitus  (aineistossa vain 1995, 2002 ja 2006); \nE - Manner-Suomen ja Ahvenanmaan varustamot aineistossa vain 1995-99, 2002 ja 2006); \nF - KITA-kiinteistöpalvelut (EK,ent. PT, aineistossa 1996 läht); \nG - KITA-siivouspalvelut (EK,ent. PT, aineistossa 1998 läht);  \nH - TIPAL-tietojenkäs. palveluala (ent. PT, aineistossa vain 1998-2002);  \nK - Kunnat ja kuntayhtymät\nL - Kirkon lastenohjaajat (KISV, aineistossa erillisenä 1999-2002, muina vuosina AINE=9)\nN - Opetusala (AVAINTA, ent. PTY, aineistossa 2001-2006, 2007 läht. AINE=7)\nP - P Palkka.fi\nR - Opetusala (TK:n oma otos, aineistossa vain 2003-04); \nV - Valtioaineisto;\nZ - Pienet aineistot (ALKO, RAY,TTL).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BASIS0",
+      "variablename": "Lukumäärärajaus",
+      "conceptdef": "Rajausehto. Arvo=1 tietueilla, jotka otetaan mukaan palkansaajien lukumääriä laskettaessa. Muuten arvo=0. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BASIS1",
+      "variablename": "Tuntiansiorajaus",
+      "conceptdef": "Rajausehto. Arvo=1 tietueilla, jotka otetaan mukaan kokonaistyöajan tuntiansioita laskettaessa. Muuten arvo=0. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BASIS2",
+      "variablename": "Kuukausiansiorajaus",
+      "conceptdef": "Rajausehto. Arvo=1 tietueilla, jotka otetaan mukaan kokonaistyöajan kuukausiansioita laskettaessa. Muuten arvo=0. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCO5",
+      "variablename": "Kansallinen ammattiluokitus",
+      "conceptdef": " Kansainväliseen ISCO-ammattiluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen ammattiluokitus. Ammattiluokituksen pohjana ovat alakohtaiset työnantajien ja Tilastokeskuksen ylläpitämät ammattinimikeluokitukset, jotka on käännösavaimella muokattu sekä kansallisen että kansainvälisen virallisen ammattiluokituksen mukaiseksi. Vuosina 1995-2000 kyseessä kansallinen ammattiluokitus 1997 (AML97), 2001-2010 kansallinen ammattiluokitus 2001 (AML01) ja vuodesta 2011 lähtien uusin kansallinen ammattiluokitus 2010 (AML10).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL",
+      "variablename": "Työantajan päätoimiala. ",
+      "conceptdef": "EU:n NACE-toimialaluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen toimialaluokitus. Vuosina 1995-2001 kyseessä kansallinen TOL95-toimialaluokitus, 2002-2007 kansallinen TOL2002-toimialaluokitus ja 2008-2014 uusin kansallinen TOL2008-toimialaluokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu Tilastokeskuksen henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

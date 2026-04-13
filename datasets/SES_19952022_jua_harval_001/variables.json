@@ -1,0 +1,276 @@
+{
+  "variables": [
+    {
+      "identifier": "VUOSI",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilaston tilastointivuosi. Tässä tiedostossa 1995-2022. Tiedot kuvaavat pääasiassa vuoden viimeistä neljännestä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AINE",
+      "variablename": "Aineistotunnus",
+      "conceptdef": "Aineistotunnuksella erotetaan eri tiedonantajalähteet toisistaan. Valtiosektorilla mahdollisia arvoja vv. 1995-2022 vain yksi,  \nV=valtion budjettirahoitteiset palkansaajat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN_L",
+      "variablename": "Suojattu yritys-/yhteisötunnus",
+      "conceptdef": "Suojattu yritys-/yhteisötunnus (ilman väliviivaa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN_P",
+      "variablename": "Suojattu yritys-/yhteisötunnus",
+      "conceptdef": "Suojattu yritys-/yhteisötunnus (ml. väliviiva)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PMUOTO",
+      "variablename": "Palkkausmuoto",
+      "conceptdef": "Työsuhteen palkkausmuoto. Mahdolliset arvot: \n1 - Kuukausipalkkainen \n2 - Tuntipalkkainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUKU",
+      "variablename": "Palkansaajan sukupuoli",
+      "conceptdef": "Tieto sukupuolesta. Muodostetaan pääasiassa henkilötunnuksen perusteella. 1=mies, 2=nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "Palkansaajan ikä",
+      "conceptdef": "Palkansaajan ikä vuosina. Lasketaan henkilön syntymävuoden mukaan henkilötunnuksen perusteella.",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_BASIS0",
+      "variablename": "Lukumäärärajaus työntekijä- ja työsuhdemääriä laskettaessa",
+      "conceptdef": "Harmonisoitu rajausehto. Arvo=1 tietueilla, jotka voidaan ottaa mukaan palkansaaja- ja työsuhdelukumääriä laskettaessa. Muuten arvo=0. Koska henkilöllä voi aineistossa olla useampi työsuhdehavainto saman vuoden aikana, on mahdollista erottaa hyväksytyt HTUN*VUOSI-tuplat rajoittamalla poiminta ehdolla HAR_BASIS0=1. Henkilöllä voi olla HTUN*VUOSI-tuplia vain siinä tapauksessa, että kaikki havainnot ovat osa-aikaisia (HAR_OSAIK=2). Hyväksyttyjä osa-aikaisuuksia voi olla enintään kaksi tilastovuotta kohden.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_BASIS1",
+      "variablename": "Rajausehto HAR_TUNTIPALKKA-laskelmille",
+      "conceptdef": "Harmonisoitu rajausehto. Arvo=1 tietueilla, jotka voidaan ottaa mukaan kokonaistyöajan kokonaistuntiansioita  (HAR_TUNTIPALKKA) koskeviin laskelmiin ja analyyseihin. Muuten arvo=0. Aina kun HAR_BASIS0=0, on myös HAR_BASIS1=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_BASIS2",
+      "variablename": "Rajausehto HAR_KKPALKKA-laskelmille",
+      "conceptdef": "Harmonisoitu rajausehto. Arvo=1 havainnoilla, jotka voidaan ottaa mukaan kokonaistyöajan kuukausiansioita (HAR_KKPALKKA) koskeviin laskelmiin ja analyyseihin. Muuten arvo=0. Aina kun HAR_BASIS0=0, on myös HAR_BASIS2=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_AML2010",
+      "variablename": "Tilastokeskuksen AML2010-ammattiluokitus (kansallinen ISCO)",
+      "conceptdef": "Harmonisoitu kansainväliseen ISCO-ammattiluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen ammattiluokitus. Ammattiluokituksen pohjana ovat alakohtaiset työnantajien ja Tilastokeskuksen ylläpitämät ammattinimikeluokitukset, jotka on käännösavaimella muokattu sekä kansallisen että kansainvälisen virallisen ammattiluokituksen mukaiseksi. Käytössä kansallinen ammattiluokitus 2010 (AML2010). ",
+      "measunit": null,
+      "classification": "ammatti_1_2010_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PYKSKUNTA",
+      "variablename": "Paikallisyksikön sijaintikunta",
+      "conceptdef": "Paikallisyksikön sijaintikunta. Kuntatieto vastaa aina kyseisen tilastovuoden kuntakenttää. Aineiston harmonisointivuoden (2022) kuntatunnukset: https://stat.fi/fi/luokitukset/kunta/kunta_1_20220101/.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_YRTOL08",
+      "variablename": "Valtion työnantajayksikön toimiala TOL08",
+      "conceptdef": "Valtion budjettitalouden viraston/yksikön suojattu tunnus. Noudattaa kansainvälistä TOL2008 toimialaluokitusta.",
+      "measunit": null,
+      "classification": "toimiala_910_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TUTK1",
+      "variablename": "Tutkintokoodi",
+      "conceptdef": "Harmonisoitu tutkintokoodi. \n\nPalkansaajan viimeisin ja korkein tutkinto tilastovuoden lopussa. Käytössä kansainväliseen ISCED 2011 -luokitukseen perustuva Tilastokeskuksen ylläpitämä kansallinen Koulutusluokitus 2016 -sovellus. Tutkinnot poimitaan Tilastokeskuksen tutkintorekisteristä prioriteettikentän korkeimman prioriteettiarvon mukaan. Perusasteen tutkintoa (tutkintoaste 0,1, tai 2) korkeamman asteen tutkintoa suorittamattomilla henkilöillä tutkintoarvo on tyhjä. Lisäksi rekisteriin tutkintotiedot on voitu viedä vain niille henkilöille, joilla on suomalainen henkilötunnus. Tästä syystä tutkintorekisteristä puuttuvat henkilötunnusta vailla olevien henkilöiden (esim. monien ulkomaalaisten) tutkintotiedot ja tutkintoarvo on siten tyhjä.\n\nKuvaus suomeksi: https://www.stat.fi/fi/luokitukset/koulutus/koulutus_1_20160101/",
+      "measunit": null,
+      "classification": "koulutus_1_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TUTK1_VUODET",
+      "variablename": "Tutkinnon pituus",
+      "conceptdef": "Harmonisoidut tutkintoasteet koulutusvuosina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_OSAIK",
+      "variablename": "Osa-aikaisuus",
+      "conceptdef": "Harmonisoitu työsuhteen koko-  tai osa-aikaisuus -tieto. Muodostetaan palvelussuhteen ehtojen ja  säännöllisen viikkotyöajan mukaan. Osa-aikaisuuden määrittelyssä rajana pidetään 90 prosenttia alan yleisestä säännöllisestä työajasta. \nMahdolliset arvot: \n1 - Kokoaikainen, \n2 - Osa-aikainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_VKTA",
+      "variablename": "Säännöllinen sovittu viikkotyöaika",
+      "conceptdef": "Harmonisoitu palkansaajan henkilökohtainen sovittu säännöllinen viikkotyöaika. Kattaa sekä koko- että osa-aikaiset työsuhteet ja määritettävä työsopimuslain mukaisesti kirjallisesti joko työsopimuksessa tai työnantajan antamassa työnteon keskeisiä ehtoja koskevassa selvityksessä. Säännöllisen viikkotyöajan on noudatettava työaikalakia ja mahdollista työsuhteessa noudatettavaa työ-/virkaehtosopimusta. Ei kuvaa pelkästään todellista työssöoloaikaa, sillä myös TES:in/VES:in mukaiselle säännölliselle työssäoloajalle sijoittuvat palkattomat ja palkalliset poissaolot sisältyvät käsitteeseen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TYOAIKAKK",
+      "variablename": "Kokonaistyöaika",
+      "conceptdef": "Harmonisoitu kokonaistyöaika kuukaudessa (=HAR_STYOAIKAKK+HAR_YLIT). Harmonisoidut lisä- ja ylityötunnit (HAR_YLIT) kuvaavat yksinomaan todellisia palkattuja työssäolotunteja.  Sen sijaan säännöllisen kuukausityöajan tunnit (HAR_STYOAIKAKK) voivat poiketa todellisesta työssöoloajasta, sillä myös TES:in/VES:in määrittämälle työssäoloajalle sijoittuvat palkattomat ja palkalliset poissaolot sisältyvät käsitteeseen. Yksityisellä sektorin palkalliset pekkasvapaat on kuitenkin poistettu laskennallisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_YLIT",
+      "variablename": "Ylityötunnit",
+      "conceptdef": "Palkatut lisä- ja ylityötunnit kuukaudessa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKSANS",
+      "variablename": "Säännöllisen työajan kuukausiansio",
+      "conceptdef": "Harmonisoitu säännöllisen (TES/VES) työajan kuukausiansio. \n\nSäännölliseltä työajalta maksetun ansion määrä euroina kuukaudessa ennen verovähennyksiä ja sosiaaliturvamaksuja, jotka palkansaajien on maksettava ja jotka työnantaja on pidättänyt. \n\nHarmonisoituun säännöllisen työajan kuukausiansioon luetaan kultakin palkanmaksujaksolta peruspalkka + tehtävän, ammattitaidon, palvelusvuosien yms. perusteella maksettavat lisät + työpaikan sijainnin ja olosuhteiden perusteella maksettavat lisät + työaikalisät + provisiot (myyntiprovisiot, toimihenkilöiden yksilötason työsuoritukseen pohjaavat tulos- ja suoritusperusteiset palkanosat ja työntekijöiden yksilötason työsuoritukseen perustuvat suoritusperusteiset ansiot) + luontoisetujen verotusarvo. \n\nSäännöllisen työajan ansio ei luonnollisesti sisällä lisä- ja ylitytuntien ansioita, mutta ei myöskään varallaolokorvauksia eikä kertaluonteisia tai epäsäännöllisesti maksettavia palkkaeriä, kuten lomarahaa ja usean työntekijän tai koko yrityksen kollektiivisen työsuoritukseen/-tulokseen pohjautuvia ja korkeintaan kerran vuodessa maksettavia tulospalkkioita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TPSANS",
+      "variablename": "Säännöllisen työajan tuntiansio",
+      "conceptdef": "Harmonisoitu säännöllisen (TES/VES) työajan tuntiansio. \n\nSäännölliseltä työajalta maksetun ansion määrä euroina vastaavaa säännöllisen työajan tuntia kohden laskettuna. Ansiokäsite viittaa bruttoansioon ennen verovähennyksiä ja sosiaaliturvamaksuja, jotka palkansaajien on maksettava ja jotka työnantaja on pidättänyt. Muodostettu säännöllisen työajan kuukausiansiosta (HAR_KKSANS) jakamalla se säännöllisen työajan tuntien (=HAR_TYOAIKAKK-HAR_YLIT) määrällä. \n\nHarmonisoituun säännöllisen työajan tuntiansioon luetaan kultakin palkanmaksujaksolta:\n    peruspalkka + \n    tehtävän, ammattitaidon, palvelusvuosien yms. perusteella maksettavat lisät + \n    työpaikan sijainnin ja olosuhteiden perusteella maksettavat lisät + \n    työaikalisät + \n    provisiot (myyntiprovisiot, toimihenkilöiden yksilötason työsuoritukseen pohjaavat tulos- ja suoritusperusteiset palkanosat ja  \n    työntekijöiden yksilötason työsuoritukseen perustuvat suoritusperusteiset ansiot) + \n    luontoisetujen verotusarvo. \n\nSäännöllisen työajan ansio ei luonnollisesti sisällä lisä- ja ylitytuntien ansioita, mutta ei myöskään varallaolokorvauksia eikä kertaluonteisia tai epäsäännöllisesti maksettavia palkkaeriä, kuten lomarahaa ja usean työntekijän tai koko organisaation kollektiivisen työsuoritukseen/-tulokseen pohjautuvia tulospalkkioita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_LED",
+      "variablename": "Luontoisedut",
+      "conceptdef": "Harmonisoitujen veronalaisten luontoisetujen arvo euroina kuukaudessa. Esimerkiksi auto- tai puhelinetu. Luontoisedut on määritelty niiden verotusarvon mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_VTL",
+      "variablename": "Työaikalisät",
+      "conceptdef": "Harmonisoitujen vuoro-  ym. työaikalisien euromäärä kuukaudessa. Esimerkiksi vuoro-, yö-, ilta-, viikonloppu- ja arkipyhätyöltä maksetut palkanosat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_YLIP",
+      "variablename": "Ylityöansiot",
+      "conceptdef": "Harmonisoitu yli- ja lisätyöajalta maksettu kokonaispalkka euromääräisenä tilastokuukaudelta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKPALKKA",
+      "variablename": "Kokonaiskuukausiansiot",
+      "conceptdef": "Harmonisoitu kokonaistyöajan kuukausiansio. \n\nSäännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina kuukaudessa ennen verovähennyksiä ja sosiaaliturvamaksuja, jotka palkansaajien on maksettava ja jotka työnantaja on pidättänyt. Muuttuja vastaa viitekuukaudelta maksettujen kokonaistyötuntien määrää (HAR_TYOAIKAKK). \n\nSisältää myös mahdolliset varallaolokorvaukset, mutta ei ei sisällä kertaluonteisia tai epäsäännöllisesti maksettavia palkkaeriä, kuten lomarahaa ja usean työntekijän tai koko yksikön kollektiivisen työsuoritukseen/-tulokseen pohjautuvia ja korkeintaan kerran vuodessa maksettavia tulospalkkioita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TUNTIPALKKA",
+      "variablename": "Tuntiansiot",
+      "conceptdef": "Harmonisoitu kokonaistyöajan tuntiansio. Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina tunnissa. Muodostettu kuukausiansiosta (HAR_KKPALKKA) jakamalla kuukausiansio kokonaistyöajan tuntien määrällä (HAR_TYOAIKAKK).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TULOSPA",
+      "variablename": "Tulospalkkiot vuositasolla",
+      "conceptdef": "Harmonisoidut kertaluontoisesti ja epäsäännöllisesti maksettavat tulospalkkiot euroina vuodessa (vrt HAR_PROV kuukaudessa!).\n\nTässä  tulospalkkiokäsite tarkottaa epäsäännöllisesti (yleensä korkeintaan kerran vuodessa) maksettavia ansioeriä, joiden perusteena on koko viraston tai jonkin sen työntekijäryhmän tulostavoitemittareilla mitattuna onnistuneen kollektiivisen työsuorituksen palkitseminen.Tieto puuttuu vv 1995-1997.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_LOMARAHA",
+      "variablename": "Lomarahat",
+      "conceptdef": "Harmonisoidut lomarahat euroina vuodessa. Ei sisällä loma-ajan (lakisääteistä) palkkaa eikä työsuhteen päättyessä pitämättä jääneistä lomapäivistä maksettavia lomakorvauksia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYTUN",
+      "variablename": "Suojattu valtion työnantajavirastokoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KERTERA",
+      "variablename": "Sekalaiset ei-tulokseen perustuvat kertaerät tilastovuodelta.",
+      "conceptdef": "Sekalaiset koko vuodelta kertyneet ja korkeintaan kerran vuodessa maksettavat ei-tulossidonnaiset kertaerät. Esimerkiksi palveluvuosilisät, kinkkuraha yms.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKTULOSPA",
+      "variablename": "Tulospalkkiot kuukautta kohden laskettuna",
+      "conceptdef": "Harmonisoidut kertaluontoisesti ja epäsäännöllisesti maksettavat tulospalkkiot euroina kuukautta kohden laskettuna.\n\nTässä  tulospalkkiokäsite tarkottaa epäsäännöllisesti (yleensä korkeintaan kerran vuodessa) maksettavia ansioeriä, joiden perusteena on koko viraston tai jonkin sen työntekijäryhmän tulostavoitemittareilla mitattuna onnistuneen kollektiivisen työsuorituksen palkitseminen.Tieto puuttuu vv 1995-1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EKI51_2022",
+      "variablename": "Elinkustannusindeksi",
+      "conceptdef": "Elinkustannusindeksi (vuosikeskiarvo 2022 = 100). Alkuperäisen Elinkustannusindeksin 1951:10=100 vuosikeskiarvot jaettu vuoden 2022 keskiarvolla (2061) ja kerrottu sadalla (100). Source: https://stat.fi/tilasto/khi#tables.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PLKMKEH",
+      "variablename": "Työntekijämäärä valtion virastossa (SYTUN) tilastovuoden lopussa.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

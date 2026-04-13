@@ -1,0 +1,60 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi on se kalenterivuosi, jota tilasto koskee.",
+      "measunit": null,
+      "classification": "vuosi_1_2011_07_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Sijoituksen alkupäivämäärä",
+      "conceptdef": "Sijoituksen alkupäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Sijoituksen loppupäivämäärä",
+      "conceptdef": "Sijoituksen loppupäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpide",
+      "variablename": "Toimenpidekoodi",
+      "conceptdef": "Toimenpidekoodi: \n\n01 = valtion työtehtävät (voimassa 1994 saakka) \n02 = Kuntien valtionosuus (voimassa 1994 saakka) \n03 = Kuntainliittojen valtionosuus (voimassa 1994 saakka) \n05 = 18-24-v. tyött. työllistäminen (voimassa 1994 saakka) \n13 = vajaakunt. työllistämistuki (voimassa 1994 saakka) \n15 = yli 10 kk työttömien työllist. (voimassa 1994 saakka) \n16 = harjaantuminen (voimassa 1994 saakka) \n19 = yrittäjäraha (voimassa 1994 saakka) \n20 = rakennemuutostyöllistäminen (voimassa 1994 saakka) \n26 = vaikeat työttömyyskunnat (voimassa 1994 saakka) \n27 = vaikeasti työllistettävät (voimassa 1994 saakka) \n28 = omatoiminen työllistyminen (voimassa 1994 saakka) \n31 = valtion velvoitetyöllistäminen (voimassa 1994 saakka) \n32 = kuntien velvoitetyöllistäminen (voimassa 1994 saakka) \n33 = huolenpitosopimus (voimassa 1994 saakka) \n34 = velvoitesijoitus (voimassa 1994 saakka) \n35 = työllistämispalvelu (voimassa 1994 saakka) \n40 = valtion työtehtävät, \n41 = työllistämispalvelu, (voimassa 2001 saakka) Työllistäminen ELY-virastoon\n42 = työviraston työohjeen mukainen sijoitus,(voimassa 2003 saakka) \n50 = kunnallinen työllistämistuki, \n51 = oppisopimussijoitus, kunta, \n53 = yhdistelmätuki, kunta, \n54 = palkkatuki TMT:lla kunta \n55 = oppisopimustoimenpide \n56 = oppisopimustoimenpide \n57 = palkkatuki nuor.kunta \n58 = oppisopimus nuor. kunta \n60 = työllistämistuki, yksityinen työnantaja, \n61 = starttiraha ei-työttömille \n62 = yrittäjäraha, \n63 = osa-aikalisälle jäänyt \n64 = harjaantuminen, \n65 = starttiraha TMT:lla \n67 = työharjoittelu vastavalmist. (voimassa 1997 saakka) \n68 = oppisopimussijoitus, yksityinen, \n69 = yhdistelmätuki, yksityinen työnantaja, \n70 = työharjoittelu työmarkkinatuella, \n71 = Työelämävalmennus työttömyysetuudella \n73 = työllistäminen osa-aikatyöhön (paikkaan välitetty, tilastoidaan), \n74 = 500 pv yksityinen työmarkkinatuki, \n75 = 500 pv kunta työmarkkinatuki \n80 = palkkatuki TMT:lla yksit. \n81 = palkkatuki nuor.yksit. \n87 = oppisopimus nuor.yksit. \n88 = oppisopimus yksit. \n89 = oppisopimus yksit. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "psyy",
+      "variablename": "Sijoituksen päättymisen syy",
+      "conceptdef": "Sijoituksen päättymisen syy:\n\nKoodi   Päättymisen syy\n\n0       Työllistämisen osa päättynyt   \n1       Määräaika päättynyt            \n2       Saanut työllistämispaikasta työtä \n3       Saanut muuta työtä             \n4       Aloittanut koulutuksen         \n5       Irtisanottu                    \n6       Muu kuin 1-5 tai ei tietoa     \n7       Keskeyttänyt ja jäänyt työttömäksi    \n9       Tuntematon (käytössä 1997-2004)  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ta_sektori",
+      "variablename": "Toimenpiteen sektori",
+      "conceptdef": "Toimenpiteen sektori (yksinumeroinen).\n\n1 = Valtio\n2 = Kunta\n3 = Yksityinen työnantaja, yhteisö tms.\n4 = Yritys\n5 = Yksityishenkilö, kotitalous\n6 = Kuntayhtymä, kuntainliitot",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Kryptattu Tilastokeskuksen henkilönumero",
+      "conceptdef": "Kryptattu Tilastokeskuksen henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

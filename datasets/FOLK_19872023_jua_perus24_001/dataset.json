@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872023_jua_perus24_001.xml",
+      "doi": "work_2017-11_2017-11-02_ain_0001",
+      "subject": "FOLK perustieto ",
+      "contentdescription": "FOLK-henkilöaineiston perustietomoduuli sisältää väestörakenne-, tulo- ja työssäkäyntitilastojen tietoja sekä muutamia perhetilaston ja väestön koulutusrakennetilaston tietoja. Tiedot ovat kunkin vuoden lopusta ja yleensä vastaavat virallisia (SVT) tietoja julkaisuajankohtana. Niillä moduulin karkeistetuilla tiedoilla, joista on karkeistamaton tieto saatavissa toisesta FOLK-moduulista tai muualta Tilastokeskuksen tietovarannoista, on loppulyhenteenä _k tai _k2. \n\nAineistossa on tietoja vuodesta 1987 lähtien vuoteen 2024 saakka. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvaukseen vuosiluvuilla lukuun ottamatta niitä edelleen päivittyviä tietoja, joiden päivitysaikataulu on muita tietoja myöhäisempi. Tällöin tämän tiedon viimeinen vuosi on merkitty muuttujankuvauksessa: (aineiston viimeinen vuosi - 1) tai (aineiston viimeinen vuosi - 2). \n\nAineisto on tarkoitettu FIONA-etäpalvelun kautta käytettäväksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. \n\nVimeisimmät FOLK perustieto-aineistot ovat kansiossa FOLK_PERUS_C, jossa tiedostot ovat jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_perus_\"vuosi\"_1. Tilastovuoden tiedot päivitetään noin 6 kk alkuperäisen päivityksen jälkeen; mahdolliset muutokset on kuvattu muuttujakohtaisesti.\n\nVanhat FOLK perustieto -aineistot ovat FIONAssa seuraavissa tiedostoissa:\nTotaaliaineisto vuosille 2011-2020: FOLK_perus_11a\nTotaaliaineisto vuosille 2001-2010: FOLK_perus_0110a\nTotaaliaineisto vuosille 1987-2000: FOLK_perus_8800a \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n",
+      "coveragetemporal": "1987-01-01 - 2024-12-31",
+      "published_day": "2026-01-26",
+      "variable_count": "61",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö",
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

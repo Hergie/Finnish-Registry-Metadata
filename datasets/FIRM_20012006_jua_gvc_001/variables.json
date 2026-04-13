@@ -1,0 +1,2236 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paino07",
+      "variablename": "Korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osite",
+      "variablename": "Otospoiminnassa käytetty osite",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VarmaTyyppi",
+      "variablename": "Otospoiminnassa käytetty muuttuja, jonka perusteella yritykset on jaettu varmoina poimittaviin ja otospoiminnalla poimittaviin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SamplingWeight",
+      "variablename": "Otospoiminnassa muodostunut asetelmapaino",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24a",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Työvoimakustannukset",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24b",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Muut kustannukset (kuin työvoima)",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24c",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Työvoiman heikko saatavuus Suomessa",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24d",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Pääsy uusille markkinoille",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24e",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Asiakkaiden tai kilpailijoiden paine",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24f",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Erityisosaamisen ja teknologian saatavuus ulkomailla",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24g",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Tuotteiden parantunut laatu tai uusien tuotteiden markkinoillle saattaminen",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24h",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Strategiset päätökset tehdään konsernin emoyhtiössä",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24i",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Keskittyminen ydinliiketoimintaan",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24j",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Verotus tai yritystuet",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K24k",
+      "variablename": "Arvioikaa seuraavien tekijöiden merkitystä päätöksenteossa \nliittyen toimintojenne ulkoistamiseen tai siirtämiseen ulkomaille: Muut syyt",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25a",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Työvoimakustannukset",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25b",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Muut kustannukset (kuin työvoima)",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25c",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Logistiikka",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25d",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Pääsy uusille markkinoille",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25e",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Parantunut laatu tai uusien tuotteiden markkinoillle saattaminen",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25f",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Yrityksenne kilpailukyky",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25g",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Yrityksenne sisäinen tietotaito",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25h",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Erityisosaamisen ja teknologian saatavuus ulkomailla",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K25i",
+      "variablename": "Millainen vaikutus toimintojen ulkoistamisella tai siirtämisellä \nulkomaille on ollut yrityksessänne seuraavissa asioissa vuosina 2001–2006? Muut vaikutukset",
+      "conceptdef": "1 = negatiivinen vaikutus, 2 = ei vaikutusta, 3 = positiivinen vaikutus, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K31",
+      "variablename": "Suunnitteleeko yrityksenne jonkin toiminnon / toimintojen ulkoistamista tai siirtämistä ulkomaille vuosina 2007–2009?",
+      "conceptdef": "1 = kyllä, 2 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32a",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Työvoimakustannukset",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32b",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Muut kustannukset (kuin työvoima)",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32c",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Työvoiman heikko saatavuus Suomessa",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32d",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Pääsy uusille markkinoille",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32e",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Asiakkaiden / kilpailijoiden paine",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32f",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Erityisosaamisen ja teknologian saatavuus ulkomailla",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32g",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Tuotteiden parantunut laatu tai uusien tuotteiden markkinoillle saattaminen",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32h",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Strategiset päätökset tehdään konsernin emoyhtiössä",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32i",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Keskittyminen ydinliiketoimintaan",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32j",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Verotus tai yritystuet",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K32k",
+      "variablename": "Arvioikaa seuraavien syiden merkitystä päätöksenteossa liittyen \ntoimintojenne ulkoistamiseen tai siirtämiseen ulkomaille 2007–2009: Muut syyt",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K41a",
+      "variablename": "Arvioikaa karkeasti kuinka suuri vaikutus toimintojen ulkomaille ulkoistamisella \ntai siirroilla on yrityksessänne seuraaviin työpaikkoja koskeviin mahdollisiin muutoksiin vuosina 2007–2009: Asiantuntijatyöpaikkoja siirtyy ulkomaille",
+      "conceptdef": "1 = merkittävä vaikutus, 2 = jonkin verran vaikutusta, 3 = ei lainkaan vaikutusta, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K41b",
+      "variablename": "Arvioikaa karkeasti kuinka suuri vaikutus toimintojen ulkomaille ulkoistamisella \ntai siirroilla on yrityksessänne seuraaviin työpaikkoja koskeviin mahdollisiin muutoksiin vuosina 2007–2009: Muita työpaikkoja siirtyy ulkomaille",
+      "conceptdef": "1 = merkittävä vaikutus, 2 = jonkin verran vaikutusta, 3 = ei lainkaan vaikutusta, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K41c",
+      "variablename": "Arvioikaa karkeasti kuinka suuri vaikutus toimintojen ulkomaille ulkoistamisella \ntai siirroilla on yrityksessänne seuraaviin työpaikkoja koskeviin mahdollisiin muutoksiin vuosina 2007–2009: Asiantuntijatyöpaikkoja syntyy yritykseenne Suomessa",
+      "conceptdef": "1 = merkittävä vaikutus, 2 = jonkin verran vaikutusta, 3 = ei lainkaan vaikutusta, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K41d",
+      "variablename": "Arvioikaa karkeasti kuinka suuri vaikutus toimintojen ulkomaille ulkoistamisella \ntai siirroilla on yrityksessänne seuraaviin työpaikkoja koskeviin mahdollisiin muutoksiin vuosina 2007–2009: Muita työpaikkoja syntyy yritykseenne Suomessa",
+      "conceptdef": "1 = merkittävä vaikutus, 2 = jonkin verran vaikutusta, 3 = ei lainkaan vaikutusta, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51a",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Lainsäädäntöön tai hallintoon liittyvät esteet",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51b",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Verotukseen liittyvät kysymykset",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51c",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Tullimaksut",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51d",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Epävarmuus kansainvälisistä standardeista",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51e",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Henkilöstön asenne (ml. ammattiliitot)",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51f",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Huoli patentti- ym. aineettomien oikeuksien rikkomuksista",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51g",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Ulkoistaminen / toimintojen siirtäminen ulkomaille ristiriidassa yrityksenne sosiaalisten arvojen kanssa",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51h",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Johdon ja hallinnon kapasitetti / taidot eivät riitä",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51i",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Maantieteellinen etäisyys ulkoistettuun / siirrettyyn tuotantoon aiheuttaa ongelmia",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51j",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Tuotannon läheisyys asiakkaisiin välttämätön",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51k",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Kieleen tai kulttuuriin liittyvät esteet",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51l",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Vaikeudet löytää sopivia kumppaneita ulkomailla",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51m",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Ulkomaille ulkoistamisen / siirtämisen kustannukset suuremmat kuin odotetut hyödyt",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K51n",
+      "variablename": "Arvioikaa seuraavien esteiden merkitystä yrityksenne toimintojen ulkomaille \nulkoistamisen ja siirtämisen suunnittelulle tai toteuttamiselle: Muut esteet",
+      "conceptdef": "1 = erittäin suuri merkitys, 2 = jonkin verran merkitystä, 3 = ei merkitystä, 4 = ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11a_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11a_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11a_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11b_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nJakelu ja logistiikka – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11b_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nJakelu ja logistiikka – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11b_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nJakelu ja logistiikka – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11c_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11c_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11c_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11d_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11d_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11d_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11e_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nHallinnon ja johdon tehtävät – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11e_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nHallinnon ja johdon tehtävät – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11e_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nHallinnon ja johdon tehtävät– toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11f_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11f_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11f_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11g_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTutkimus ja kehittämistoiminta – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11g_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTutkimus ja kehittämistoiminta – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11g_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nTutkimus ja kehittämistoiminta – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11h_D1",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – Suomi",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11h_D2",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – ulkomaat",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K11h_D3",
+      "variablename": "Minkälaisia toimintoja yrityksenne on ulkoistanut muille yrityksille tai siirtänyt samaan konserniin kuuluville yrityksille vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – toimintoja ei ulkoistettu eikä siirretty",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21a_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21a_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21a_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21a_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTavaroiden ja palveluiden tuottaminen markkinoille – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21b_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nJakelu ja logistiikka – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21b_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nJakelu ja logistiikka – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21b_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nJakelu ja logistiikka – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21b_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nJakelu ja logistiikka – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21c_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21c_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21c_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21c_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nMarkkinointi, myynti ja myynnin jälkeiset palvelut – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21d_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21d_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21d_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21d_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTieto- ja viestintätekniikkapalvelut – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21e_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nHallinnon ja johdon tehtävät – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21e_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nHallinnon ja johdon tehtävät – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21e_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nHallinnon ja johdon tehtävät – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21e_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nHallinnon ja johdon tehtävät – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21f_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21f_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21f_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21f_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nInsinööri- ja tekniset palvelut – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21g_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTutkimus- ja kehittämistoiminta – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21g_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTutkimus- ja kehittämistoiminta – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21g_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTutkimus- ja kehittämistoiminta – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21g_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? \nTutkimus- ja kehittämistoiminta – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21h_D1",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006?\n Muut toiminnot – Ulkomailla toimivalle konserniyritykselle (emoyritys, tytäryhtiö tai sisaryritys)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21h_D2",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006?\n Muut toiminnot – Ulkomailta (tarkoitusta varten) ostetulle konserniyritykselle",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21h_D3",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006?\n Muut toiminnot – Ulkomaille (tarkoitusta varten) perustetulle konserniyritykselle (green field operation)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K21h_D4",
+      "variablename": "Minkä tyyppisille ulkomailla sijaitseville yrityksille yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006?\n Muut toiminnot – ei omistusosuutta tai korkeintaan 50% omistusosuus",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – vanhat EU-maat: \nBelgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – uudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22a_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tavaroiden ja palvelujen tuottaminen markkinoille – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22b_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Jakelu ja logistiikka – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22c_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nYhdysvallat, Kanda",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22d_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tieto- ja viestintätekniikkapalvelut – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22e_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Hallinnon ja johdon tehtävät – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22f_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Insinööri- ja tekniset palvelut – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22g_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Tutkimus- ja kehittämistoiminta – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D01",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D02",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D03",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D04",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D05",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D06",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D07",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nMuut Aasian maat, ml. Japani, Korea sekä Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D08",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D09",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K22h_D10",
+      "variablename": "Mihin maihin yrityksenne on ulkoistanut tai siirtänyt toimintojaan vuosina 2001–2006? Muut toiminnot – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33a_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tavaroiden ja palvelujen tuottaminen markkinoille – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33b_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Jakelu ja logistiikka – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33c_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Markkinointi, myynti ja myynnin jälkeiset palvelut – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33d_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tieto- ja viestintätekniikkapalvelut – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33e_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Hallinnon ja johdon tehtävät – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33f_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Insinööri- ja tekniset palvelut – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33g_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Tutkimus ja kehittämistoiminta – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D01",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nvanhat EU-maat: Belgia, Tanska, Saksa, Kreikka, Espanja, Ranska, Irlanti, Italia, Luxemburg, Hollanti, Itävalta, Portugali, Ruotsi, Britannia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D02",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nuudet EU-jäsenmaat: Tsekki, Viro, Kypros, Latvia, Liettua, Unkari, Malta, Puola, Slovenia, Slovakia, Bulgaria, Romania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D03",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nVenäjä",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D04",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nMuut Euroopan maat (mm. Sveitsi, Norja, Turkki, Valko-Venäjä, Ukraina ja Balkanin maat)",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D05",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nKiina",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D06",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nIntia",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D07",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nMuut Aasian maat, ml. Japani, Korea ja Oseania",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D08",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nYhdysvallat, Kanada",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D09",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nVäli- ja Etelä-Amerikka, ml. Meksiko",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K33h_D10",
+      "variablename": "Mihin maihin yrityksenne aikoo ulkoistaa tai siirtää toimintojaan vuosina 2007–2009? Muut toiminnot – \nAfrikka",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K61_D1",
+      "variablename": "Onko yrityksenne siirtänyt / aikeissa siirtää kokonaan tai osittain sellaisia ydinliike- tai tukitoimintoja Suomeen, \njotka tehtiin aiemmin / tehdään tällä hetkellä ulkomailla? Kyllä, on siirretty 2001-2006",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K61_D2",
+      "variablename": "Onko yrityksenne siirtänyt / aikeissa siirtää kokonaan tai osittain sellaisia ydinliike- tai tukitoimintoja Suomeen, \njotka tehtiin aiemmin / tehdään tällä hetkellä ulkomailla? Kyllä, aiotaan siirtää 2007-2009",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K61_D3",
+      "variablename": "Onko yrityksenne siirtänyt / aikeissa siirtää kokonaan tai osittain sellaisia ydinliike- tai tukitoimintoja Suomeen, \njotka tehtiin aiemmin / tehdään tällä hetkellä ulkomailla? Ei",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K61_D4",
+      "variablename": "Onko yrityksenne siirtänyt / aikeissa siirtää kokonaan tai osittain sellaisia ydinliike- tai tukitoimintoja Suomeen, \njotka tehtiin aiemmin / tehdään tällä hetkellä ulkomailla? Ei sovellu / en osaa sanoa",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K62_D1",
+      "variablename": "Onko yrityksenne laajentanut tai aikeissa laajentaa toimintaa/tuotantoa ulkomailla muulla tavoin \nkuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Kyllä, on laajennettu 2001-2006",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K62_D2",
+      "variablename": "Onko yrityksenne laajentanut tai aikeissa laajentaa toimintaa/tuotantoa ulkomailla muulla tavoin \nkuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Kyllä, aiotaan laajentaa 2007-2009",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K62_D3",
+      "variablename": "Onko yrityksenne laajentanut tai aikeissa laajentaa toimintaa/tuotantoa ulkomailla muulla tavoin \nkuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Ei",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K62_D4",
+      "variablename": "Onko yrityksenne laajentanut tai aikeissa laajentaa toimintaa/tuotantoa ulkomailla muulla tavoin \nkuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Ei sovellu / en osaa sanoa",
+      "conceptdef": "1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

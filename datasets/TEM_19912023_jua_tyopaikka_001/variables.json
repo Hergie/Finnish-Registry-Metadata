@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Vuorottelukorvausta saavan suojattu henkilön yksilöivä tunniste. Vuorotteluvapaalle jääneistä tarvitaan tietoa myös YTVPOLL-taulusta TYOHAKU-aineistosta,\nVuorottelupaikkaan työllistetystä tarvitaan myös tietoa myös YTVALIT-taulusta TYOHAKU-aineistosta. Aiemmin tiedot muuttujassa vvshtun, nykyinen htun_s.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "htun_s",
+      "variablename": "Suojattu henkilötunnus",
+      "conceptdef": "Vuorottelukorvausta saavan suojattu henkilötunnus niille, joille ei pystytä yhdistämään TK:n henkilön yksilöivää tunnistetta. Vuorotteluvapaalle jääneistä tarvitaan tietoa myös YTVPOLL-taulusta TYOHAKU-aineistosta, Vuorottelupaikkaan työllistetystä tarvitaan myös tietoa myös YTVALIT-taulusta TYOHAKU-aineistosta. Aiemmin nimellä vvshtun.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu työnantajan liike- ja yhteisötunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammnop",
+      "variablename": "Vaadittava ammatti",
+      "conceptdef": "Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "hlokd",
+      "variablename": "Henkilökunnan kokoluokka",
+      "conceptdef": "1=0-4 henkilöä, 2=5-9 henkilöä, 3=10-19 henkilöä, 4=20-49 henkilöä, 5=50-99 henkilöä, 6=100-199 henkilöä, 7=200-499 henkilöä, 8=500-999 henkilöä, 9=Yli 1000 henkilöä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "illkm",
+      "variablename": "Työpaikkojen alkuperäinen lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "ilmno",
+      "variablename": "Työpaikan ilmoitusnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPKEST, YPAIKKA"
+    },
+    {
+      "identifier": "keskd",
+      "variablename": "Työn kesto",
+      "conceptdef": "1=1-11p,2=11p-1kk,3=1-3kk,4=3-6kk,5=6-12kk,6=>12",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "kouk1",
+      "variablename": "Vaadittava koulutus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "kunnop",
+      "variablename": "Työpaikan sijaintikunta",
+      "conceptdef": "Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämiä 3-numeroisia kuntakoodeja. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "paikd",
+      "variablename": "Työaika",
+      "conceptdef": "1=Kokopäivätyö, 2=Liukuva päivätyö, 3=2-vuorotyö, 4=3-vuorotyö, 5=4-5 -vuorotyö, 6=Yötyö, 7=Osapäivätyö, 8=Muu osa-aikatyö, 9=Iltatyö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "rajpv",
+      "variablename": "Viimeinen hakemuspäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "talpvm",
+      "variablename": "Työn alkamispäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "tapp1",
+      "variablename": "Työpaikan ilmoittamispäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "taskd",
+      "variablename": "Sektori",
+      "conceptdef": "1=valtio,2=kunta,3=yks.ta, 4=yritys, 5=kotit., 6=kuntainl",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "tkokd",
+      "variablename": "Vaadittava työkokemus",
+      "conceptdef": "0=ei, 1=hieman, 2=täysi (nykyisin tyhjää)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "toanop",
+      "variablename": "Työnantajan toimiala",
+      "conceptdef": "Työnantajan tuotantotoiminnan luokittelemiseen käytetään Tilastokeskuksen laatimaa toimialaluokitusta. Työhallinnon asiakasrekisterissä käytössä on 2-numerotaso, johon kuuluvat luokat merkitään 2-numeroisella koodilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "tptyyp",
+      "variablename": "Työpaikan tyyppi",
+      "conceptdef": "1=palkka, 2=provisio, 3=yritys, 4=vuor.vapaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "vppvmp",
+      "variablename": "Viimeinen päivityspäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "ely",
+      "variablename": "Hoitava ELY-keskus",
+      "conceptdef": "02 = UUSIMAA, 03 = VARSINAIS-SUOMI, 14 = SATAKUNTA, 15 = HÄME, 04 = PIRKANMAA, 05 = KAAKKOIS-SUOMI, 06 = ETELÄ-SAVO, 09 = POHJOIS-SAVO, 10 = POHJOIS-KARJALA, 08 = KESKI-SUOMI, 16 = ETELÄ-POHJANMAA, 07 = POHJANMAA, 12 = POHJOIS-POHJANMAA, 11 = KAINUU, 13 = LAPPI, 20 = AHVENANMAA, 30 = ULKOMAAT,",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPAIKKA"
+    },
+    {
+      "identifier": "apvm",
+      "variablename": "Avoinnaolon alkamispäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPKEST"
+    },
+    {
+      "identifier": "lpvm",
+      "variablename": "Avoinnaolon päättymispäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPKEST"
+    },
+    {
+      "identifier": "pmukd",
+      "variablename": "Muutoskoodi",
+      "conceptdef": "Työpaikan avoimmaolon muutoskoodi  0=täytetty työhönosoituks., 1=täyt.muuten tston hakijalla, 2=täytetty muutoin, 3=peruutettu, 4=ehdokkaita riittävästi, 5=työpaikkoja lisätty, 6=hakuaika päättynyt, 7=täytetty verkon kautta, 8=poistettu/peruutettu verkon kautta, 9=täyttymätön työpaikka (tulossa oleva arvo)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPKEST"
+    },
+    {
+      "identifier": "pmuma",
+      "variablename": "Työpaikkojen muutosmäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPKEST"
+    },
+    {
+      "identifier": "tolkm",
+      "variablename": "Työpaikkailmoitusta kohden tehtyjen työhönosoitusten lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YPKEST"
+    }
+  ]
+}

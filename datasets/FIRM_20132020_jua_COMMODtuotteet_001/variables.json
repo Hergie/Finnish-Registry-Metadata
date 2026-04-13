@@ -1,0 +1,132 @@
+{
+  "variables": [
+    {
+      "identifier": "stoimipaikkaID",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Toimipaikkatunnus on TK:n ylläpitämä pysyvä yksilöivä tunniste, mutta siinä voi tapahtua muutoksia ja siksi se on hyvä yhdistää yritystunnukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtunnus",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "Prodcomkoodi",
+      "variablename": "Prodcom-koodi",
+      "conceptdef": "PRODCOM-koodi eli tuotenimike, pituus 8 tai 10 numeroa. Tilastovuodesta 1997 alkaen teollisuuden tuotantotilaston tiedot on kerätty Eurostatin PRODCOM-luettelon mukaisella luokituksella, täydennettynä kansallisilla tarkennuksilla eli kansallisilla lisänimikkeillä. \n\nTuotenimikkeistössä tapahtuu muutoksia vuodesta toiseen. Päivitykset noudattavat Nace ja CPA-luokitusten hierarkiaa. Vuosittaisista päivityksistä johtuen tarkalla nimikkeistöllä ei voida laatia vertailukelpoisia tilastoja vuosien välillä. Aggregoidummalla nimiketasolla esim. nimikkeen 4-numerotasolla (TOL 2008 -taso) tilastoja voidaan tehdä vuosien välillä.\n\nErikseen käytettävissä on tuotteet0419_prodcom2019-tiedosto, jossa eri vuosien tuotekoodeille on haettu luokitusavainten avulla vuoden 2019 pääasiallinen vastaava tuotekoodi, jos sellainen löytyy.",
+      "measunit": null,
+      "classification": "prodcom_1_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuotanTyyppi",
+      "variablename": "Hyödykkeen tuotannon tyyppi",
+      "conceptdef": "Tuotannon tyyppikoodi ilmoittaa, onko hyödykkeen tuotannosta kysyttävä tiedustelussa jotain muutakin kuin myydyn tuotannon arvo ja määrä. \n\n\nMahdolliset arvot:\n\n1 = Myydyn tuotannon arvo ja määrä\n2 = Kokonaistuotannon määrä (Eurostatin tai Tilastokeskuksen omiin tarpeisiin perustuen)\n3 = Kokonaistuotannon arvo (Luovutetut isot alukset, 301-alkuiset tuotenimikkeet). Kokonaistuotannon määrä = tilastovuoden aikana valmistetun tuotannon määrä riippumatta siitä, onko se valmistettu myytäväksi tai jatkojalostettavaksi saman oikeudellisen yksikön sisällä. \n4 = Myytäväksi aiotun tuotannon arvo ja määrä\n5 = Alihankinnasta saatu palkkio\n6 = Alihankintatuotannon tuotannon määrä (sekä joskus markkina-arvo, joka kysytään tietyistä tuotteista/yrityksiltä)",
+      "measunit": null,
+      "classification": "tuottyyp_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "MaaraMittayks1",
+      "variablename": "Tuotannon määrä ensisijaisessa mittayksikössä eli määrä1",
+      "conceptdef": "Myydyn tuotannon määrä ensisijaisessa mittayksikössä eli määrä1, kun TuotanTyyppi = 1, 2. \n\nTuotedatassa ensisijainen mittayksikkö on EU:n vaatimat mittayksikkö. Tämä koskee sekä myydyn tuotannon määrää että kokonaistuotantoa.\n\nJos ensisijainen mittayksikkö on merkitty viivalla (-), määrätietoa ei ole kysytty ollenkaan kyseiselle tuotenimikkeelle. Tällöin kyseessä on palvelu tai muu heterogeeninen sisältö siten, että vain yhtä mittayksikköä ei voida kysyä.\n\nMittayksiköt vaihtelevat paljon.\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MaaraMittayks2",
+      "variablename": "Tuotannon määrä toissijaisessa mittayksikössä eli määrä2",
+      "conceptdef": "Myydyn tuotannon määrä toissijaisessa mittayksikössä eli määrä2, kun TuotanTyyppi = 1, 2. \n\nToissijainen mittayksikkö tuotedatassa on kansallisiin tarkoituksiin käytetty mittayksikkö. Aineiston toimittajat voivat usein antaa määrätiedon tarkasti tälle mittayksikölle. Tämä koskee sekä myydyn tuotannon että kokonaistuotannon määrätietoa. Jos toisisijaista määrätietoa ei kysytä, vastaava mittayksikkö on merkitty viivalla (-).\n\nMittayksiköt vaihtelevat paljon.\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuotanArvo",
+      "variablename": "Tuotannon arvo",
+      "conceptdef": "Tuotannon arvo, euroa, kun TuotanTyyppi = 1, 3. Jokaista tuotannon tyyppikoodia kohden on taulussa oma havainto (rivi). \n\n- - - - - \n\nMyyty tuotanto = Yrityksen ulkopuolelle kalenterivuoden aikana myytyjen tuotteiden ja puolivalmisteiden arvo, euroa. Kun TuotanTyyppi = 1 (Myyty tuotanto) \n\n- - - - - \n\nKokonaistuotannon arvo, euroa, kun TuotanTyyppi = 3 (Kokonaistuotannon arvo, harvinainen; koskee vain luovutettujen isojen alusten 301-alkuisia tuotenimikkeitä). \n\nIsojen alusten valmistuksessa, kun TuotanTyyppi = 3, on yleensä kyseessä useiden vuosien projekti ja tuotannon arvo -tietoon tietyltä kalenterivuodelta ei lueta koko aluksen arvoa, vaan ainoastaan ao. vuoden valmiusasteen mukainen osa aluksen arvosta. Käytetään siis osatuloutusta aluksen valmiusasteen mukaan. \n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuotanTietoVarmuus",
+      "variablename": "Tuotantotiedon varmuus tai käsittelyn tilanne",
+      "conceptdef": "Tuotantohavainnon tiedon varmuus tai käsittelyn tilanne.\n\nMuodostetaan ohjelmallisesti tai käsin uuden havainnon luonnin tai havainnon päivityksen yhteydessä. \n\nKoodi 1 = Tieto saatu normaalisti\n\nKoodi 2 = Hyväksytty\n\nKoodi 3 = Manuaalisesti arvioitu\n\nKoodi 4 = Imputoitu, tilanteessa on kyseessä rotaatio-otoksen ulkopuolinen teollinen ns. miniyritys, jonka koko vastaus eli kaikki nimiketiedot on imputoitu kerralla. Miniyrityksellä kokonaishenkilöstön määrä on välillä 10-19 henkeä. \n\nKoodi 5 = Epävarma, tilanteessa varmuuskoodi on yleensä annettu manuaalisesti yksittäiselle tiedonantajalle ja sen hyödykenimikkeelle. (Epävarmaa voi olla itse nimikekoodin valinta, nimikkeen arvo tai määrä/määrät. Jos nimikekoodi on epävarma, voi se olla otettu suoraan tullin vientitietojen perusteella tilanteessa, jossa tiedonantajalta itseltään ei ole saatu vastaavaa tuotantonimikekoodia.)\n\nKoodi 6 = Tuotannon määrätieto on arvioitu, tilanteessa tiedon laatu on parempi kuin koodin 8 tapauksessa ja siksi koodilla 6 varustettua määrätietoa voidaan käyttää myös kansalliseen tilastonlaadintaan, Teollisuuustuotanto-tilastossa. \n\nKoodi 7 = Ohjelmallisesti arvioitu, tilanteessa keruuyksikön koko vastaus eli kaikki hyödykenimiketiedot on arvioitu kerralla eli yksikkö ei ole vastannut tiedusteluun miltään osin. Yrityksen kokonaishenkilöstön määrä voi olla mikä tahansa, kuitenkin vähintään 10 henkeä, eli hyödyketiedustelun piiriin ylipäänsä kuuluva yritys. \n\nKoodi 8 = Tuotannon määrätieto on arvioitu EU:lle (tietoa ei käytetä kansalliseen tilastonlaadintaan), tilanteessa arviointi on tehty yksinomaan EU-tarpeisiin ja tiedon laatu on siksi huonompi kuin muunlaisella arvioidulla tiedolla, esim. tiedon varmuus -koodiarvot 3-4, 6-7, 9 .\n\nHuomautus: Kun kyseessä on hyvänlaatuinen käsin arvioitu tieto, on aineiston käsittelijöitä ohjeistettu käyttämään varmuuskoodia 2, 3 tai 6 eikä heikompaa varmuuskoodia 8.\n\nKoodi 9 = Määrätieto arvioitu ohjelmallisesti tilanteessa toinen tieto MaaraMittayks1Arviointi tai MaaraMittayks2Arviointi (Hyödykkeen määrän arviointikoodit 1 ja 2) = 1 Arvio OK, aina.\n",
+      "measunit": null,
+      "classification": "tuottiedvarm_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "MaaraMittayks1Arviointi",
+      "variablename": "Määrätiedon ensisijaisessa mittayksikössä arviointikoodi",
+      "conceptdef": "Määrätiedon ensisijaisessa mittayksikössä (MaaraMittayks1) arviointikoodi eli estimoinnin liputusmuuttuja\n\nOhjelmat, jotka luovat arviointikoodit MaaraMittayks1Arviointi ja MaaraMittayks2Arviointi (Teollisuustuotanto; Aineet ja tarvikkeet), arvioivat samalla nimikeriveille (havainnoille) koneellisesti niiltä puuttuvat myydyn tuotannon (ja ostojen) ***määrätiedot*** painotetun keskihintatiedon perusteella, kunhan epätäyden havainnon arvo-tieto esiintyy tuotantokannassa ja kun samalla nimikkeen ns. täysien vastausten suhteellinen osuus nimikkeen arvosummasta on riittävän suuri arvioinnin pohjaksi eli vähintään 40%.\n\nOhjelmallinen arviointi tehdään saman hyödykenimikkeen muiden tiedonantajien ns. täysistä vastauksista lasketun painotetun keskihintatiedon (= arvo / määrä ---> määrä = arvo / keskihinta) avulla. Koneellisesti arvioiduille havainnoille päivitetään liputuskoodiksi MaaraMittayks1Arviointi = 1 tai MaaraMittayks2Arviointi = 1, käsiteltävästä määrätiedosta riippuen.\n\n1\tMäärätieto arvioitu ohjelmallisesti hintatiedon perusteella\n2\tMäärätietoa ei voitu arvioida hintatiedon perusteella\n(tyhjä)\tMäärätietoa ei tarvetta arvioida ohjelmallisesti \n\n",
+      "measunit": null,
+      "classification": "hyodarvio_4_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "MaaraMittayks2Arviointi",
+      "variablename": "Määrätiedon toissijaisessa mittayksikössä arviointikoodi",
+      "conceptdef": "Määrätiedon toissijaisessa mittayksikössä (MaaraMittayks2) arviointikoodi eli estimoinnin liputusmuuttuja\n\n1\tMäärätieto arvioitu ohjelmallisesti hintatiedon perusteella\n2\tMäärätietoa ei voitu arvioida hintatiedon perusteella\n(tyhjä)\tMäärätietoa ei tarvetta arvioida ohjelmallisesti",
+      "measunit": null,
+      "classification": "hyodarvio_4_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "mitta1ti",
+      "variablename": "Määrän 1 mittayksikkö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mitta2ti",
+      "variablename": "Määrän 2 mittayksikkö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tol2008Vuosi",
+      "variablename": "Toimipaikan toimiala (TOL2008)",
+      "conceptdef": "yhdistetty FIRM_PROD-aineistosta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "salattu",
+      "variablename": "Arvo- tai määrätieto on salattu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "versioID",
+      "variablename": "Tilastoversio",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

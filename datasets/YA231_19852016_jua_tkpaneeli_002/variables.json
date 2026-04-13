@@ -1,0 +1,660 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol88",
+      "variablename": "Toimialaluokitus 1988, yritysrekisteri",
+      "conceptdef": "Yritysrekisteristä haettu toimialaluokitus 1988. Saatavissa vuosille 1985-1993. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa. Koska yritysrekisterin tiedot puuttuvat vuosilta 1985 ja 1987, vuoden 1985 toimialakoodina on käytetty saman yrityksen vuoden 1986 toimialaa ja vuoden 1987 toimialakoodina vuoden 1988 tai toissijaisesti vuoden 1986 toimialaa.",
+      "measunit": null,
+      "classification": "toimiala_1_1988_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95",
+      "variablename": "Toimialaluokitus 1995, yritysrekisteri",
+      "conceptdef": "Yritysrekisteristä haettu toimialaluokitus 1995. Saatavissa vuosille 1985-2005. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa.",
+      "measunit": null,
+      "classification": "toimiala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02",
+      "variablename": "Toimialaluokitus 2002, yritysrekisteri",
+      "conceptdef": "Yritysrekisteristä haettu toimialaluokitus 2002. Saatavissa vuosille 1989-. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa. Vuoden 2002 toimialaluokitus on täydennetty koko ajanjaksolle 1989- luokitustietokannan toimiala-avaimen avulla. Toimialaluokitusten muutoksista johtuen uusi luokitus on vain suuntaa antava vanhempien vuosien kohdalla, mikä vaikuttaa luokkien vertailukelpoisuuteen.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08",
+      "variablename": "Toimialaluokitus 2008, yritysrekisteri",
+      "conceptdef": "Yritysrekisteristä haettu toimialaluokitus 2008. Saatavissa vuosille 1989-. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa. Vuoden 2008 toimialaluokitus on täydennetty vuosille 1989-1998 luokitustietokannan toimiala-avaimen avulla ja vuosille 1999- yritysrekisterin taaksepäin vietyjen toimialatietojen pohjalta. Toimialaluokitusten muutoksista johtuen uusi luokitus on vain suuntaa-antava vanhempien vuosien kohdalla, mikä vaikuttaa luokkien vertailukelpoisuuteen.",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95_tk",
+      "variablename": "Toimialaluokitus 1995, T&K-tilasto",
+      "conceptdef": "T&K-tilastossa käytetty toimialaluokitus. Saatavissa vuosille 1985-2005. Erityisesti vuosina 1985 ja 1987 ei täysin luotettava toimialaluokituksen muutoksista johtuen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02_tk",
+      "variablename": "Toimialaluokitus 2002, T&K-tilasto",
+      "conceptdef": "T&K-tilastossa käytetty toimialaluokitus. Saatavissa vuosille 2002-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08_tk",
+      "variablename": "Toimialuokitus 2008, T&K-tilasto",
+      "conceptdef": "T&K-tilastossa käytetty toimialaluokitus. Saatavissa vuosille 2008-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ysyht",
+      "variablename": "Sisäinen T&K yhteensä",
+      "conceptdef": "Yrityksessä tehdyn oman tutkimus- ja kehittämistoiminnan menot yhteensä. Tutkimuksella ja kehittämisellä tarkoitetaan yleisesti systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämistä uusiin sovelluksiin. Tavoitteena on jotakin olennaisesti uutta. Oman tutkimus- ja kehittämistoiminnan menot sisältävät palkkausmenot (palme), aineet, tarvikkeet, rakennusten käyttömenot, muut käyttömenot, ostetut palvelut, koneet, laitteet, rakennukset ja muut käyttöomaisuuden hankintamenot. Menot ilmoitetaan euroina ilman arvonlisäveroa (alv). Niihin sisällytetään vuonna 2012 toiminnasta aiheutuneet kulut sekä taseeseen aktivoidut erät. Poistoja ei lasketa.\nT&K-tietoja on imputoitu kyselyyn vastaamattomille, joilla on ollut edellisenä vuonna huomattavia T&K-menoja, vuoden t-1 vastauksen arviotiedoilla vuoden t menoista. Menojen jakaumat pysyvät ennallaan. T&K-työtä tehneiden henkilöiden lukumääriä ja tutkimustyövuosia ei koroteta, ts. suora t-1 vastaus. Imputointi tehdään vain kerran, ts. t-2 tiedoilla ei imputoida. Imputoituja havaintoja on ollut alle 100/vuosi. Osittaiskadon imputoinnit voidaan tulkita aineiston loogiseksi paikkaamiseksi (esim. jos on T&K-henkilöitä ja palkkoja, pitää olla käyttömenoja). Puuttuvat arvioidut menot t+1 tosin imputoidaan otostoimialan trendillä (k), ts. arvio(t+1)=k*menot(t). Imputoidut havainnot on merkitty (X) alkuperäisiin T&K-vuosiaineistoihin. Paneelia rakennettaessa puuttuvat tiedot sisäisissä ja muissa T&K-menoissa on oletettu nolliksi, jos yrityksellä on positiivinen määrä joko sisäistä tai tilattua T&K:ta. Joitakin havaintoja on jätetty pois, koska ei ole ollut varmuutta ovatko puuttuvat tiedot aidosti nollia.\nT&K-intensiteettiä laskettaessa tulisi suhteuttaa T&K-menot ensisijaisesti tilinpäätöstilaston liikevaihtoon, koska T&K-kyselyn liikevaihdon luotettavuudesta ei voida olla täysin varmoja. Tilinpäätöstilaston liikevaihdon puuttuessa käytetään yritysrekisterin liikevaihtotietoa. Osa yrityksistä on kuitenkin saattanut vastata kyselyyn muulla kuin yritystasolla, kuten konsernitasolla tai tutkimusyksikön tasolla. KOSKEE kertoo (vuodesta 1998 lähtien), koskeeko vastaus yritystä, konsernia tai muuta osaa yrityksestä (KOSKEE = 1,2,3 vastaavasti). Muina vuosina on pääteltävä, onko kyse konsernitason vastauksesta vertaamalla rd-panostuksen määrää ja kyselyn yhteydessä saatua henkilöstömäärää (TKHK) tilinpäätöstilaston (TPHK) tai yritysrekisterin henkilöstömäärään (YREKHK). Kun epäillään, että kyseessä on konsernitieto, T&K-intensiteetin laskemisessa kannattaisi käyttää jakajana T&K-kyselyn liikevaihtoa mahdollisista tilastointivirheistä (mm. yksikkövirheet) huolimatta. T&K-kyselyn liikevaihtotiedon puuttuessa (mm. 1992, 1999-), konsernivastaukset tulisi suhteuttaa konserniliikevaihtoon (jos saatavilla). Lopuksi on vielä hyvä tarkistaa, ettei T&K-intensiteetti saa epärealistisen suuria arvoja.\nMuutamilla yrityksillä (lähinnä vuosina 1989 ja 1996) T&K-kyselyn liikevaihtotieto poikkeaa yritysrekisterin ja tilinpäätöstilaston liikevaihtotiedoista huomattavasti. Kyse on ilmeisesti virheellisistä yksiköistä siten, että näissä tapauksissa T&K-kyselyn liikevaihto on ilmoitettu virheellisesti miljoonina markkoina tai konsernitasolla.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palme",
+      "variablename": "Palkkamenot",
+      "conceptdef": "T&k-toiminnan palkkausmenot, ei vuonna 1996. Tutkimushenkilökunnan palkkausmenot saadaan laskemalla tutkimustyövuosien mukainen t&ktoiminnan osuus ko. vuoden palkkausmenoista kunkin kohdassa 1 tutkimustyövuosisarakkeeseen sisällytetyn henkilön osalta. Palkkausmenoihin lasketaan varsinainen rahapalkka, luontaisedut arvioituna todellisiin arvoihin, loma-ajan palkka sekä lomaraha. Palkkausmenoihin lasketaan myös sosiaaliturvamaksu, työttömyysvakuutusmaksu, lakisääteiset ja vapaaehtoiset eläkevakuutusmaksut sekä kannatusmaksut avustuskassoihin.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yuyht",
+      "variablename": "Ulkopuolelta tilattu T&K yhteensä",
+      "conceptdef": "Yrityksen ulkopuolelta tilatun (muun) t&k:n menot yhteensä, huom. ei enää tarkistettu tilastointia varten 1998 lähtien, joten laatu on heikko. Ei kysytty vuosina 1992 ja 1994. Sisältää yrityksen kotimaasta tilaaman T&K:n, ulkomailta tilatun T&K:n ja avustukset, tutkimuslaitosten ylläpitomaksut tai vastaavat. \nEi mukana vuodesta 2015-, korvattuu muuttujalla TILYHT: Tilaustutkimukset yhteensä ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tklv",
+      "variablename": "Liikevaihto, T&K-kysely",
+      "conceptdef": "Kysytty vuosina 1985-1991 ja 1993-1998",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkhk",
+      "variablename": "Henkilökunta, T&K-kysely",
+      "conceptdef": "Kysytty vuosina 1991 ja 1993-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yreklv",
+      "variablename": "Liikevaihto, yritysrekisteri",
+      "conceptdef": "Saatavissa 1989 lähtien.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrekhk",
+      "variablename": "Henkilökunta, yritysrekisteri",
+      "conceptdef": "Saatavissa 1989 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilyks",
+      "variablename": "Yritysrekisterin tilastotieto",
+      "conceptdef": "TILYKS saa arvon yksi, jos kyseessä on yritysrekisterin tilastotieto, 0 muuten. Jos TILYKS on tyhjä, yritystä ei ole löytynyt yritysrekisteristä. Saatavissa 1989 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tplv",
+      "variablename": "Liikevaihto, tilinpäätöstilasto",
+      "conceptdef": "Saatavissa 1987 lähtien 2011 asti. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tphk",
+      "variablename": "Henkilökunta, tilinpäätöstilasto",
+      "conceptdef": "Saatavissa 1987 lähtien 2011 asti. Vuodesta 2006 alkaen pohjautuu kokoaikavastaava-tietoon (helkmfte).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tp",
+      "variablename": "Yritys löytyy tilinpäätöstilastosta",
+      "conceptdef": "Saa arvon 1, jos yritys löytyy tilinpäätöstilastosta. Saatavissa 1987-2011.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "korklkm",
+      "variablename": "Vähintään korkeakoulututkinto, lkm",
+      "conceptdef": "T&K-henkilökunnan koulutus vähintään korkeakoulututkinto, lukumäärä vuoden lopussa. Kysytty 1985-1991, 1993, 1995, 1997-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akklkm",
+      "variablename": "Ammattikorkeakoulututkinto tai vastaava, lkm",
+      "conceptdef": "T&K-henkilökunnan koulutus ammattikorkeakoulututkinto tai vastaava, lukumäärä vuoden lopussa. Kysytty 1998-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "teknlkm",
+      "variablename": "Opistoinsinöörit ja teknikot, lkm",
+      "conceptdef": "T&K-henkilökunnan koulutus, opistoinsinöörit ja teknikot, lukumäärä vuoden lopussa. Kysytty 1985-1991, 1993, 1995, 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtlkm",
+      "variablename": "T&K-henkilökunta yhteensä",
+      "conceptdef": "Tutkimushenkilökunnan lukumäärä yhteensä. Tutkimushenkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&k-hankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja.\nHenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä. \nMuun koulutuksen saaneiden tutkimushenkilöiden (sis. korkeakouluopiskelijat, muu ammatillinen koulutus ja ei ammatillista koulutusta) lukumäärä saadaan laskettua seuraavasti:\nMUULKM = SUM(YHTLKM ,– KORKLKM ,– AKKLKM, – TEKNLKM)\nVastaavasti voidaan laskea muun koulutuksen saaneiden tutkimustyövuodet:\nMUUTTV = SUM(YHTTTV, – KORKTTV, – AKKTTV, – TEKNTTV)\nOn huomattava, että koulutusluokitus on muuttunut vuonna 1998, jonka jälkeen insinöörejä ja teknikoita ei ole enää luokiteltu erikseen eli TEKNLKM ja TEKNTTV puuttuvat vuosilta 1998– ja tilalla ovat AKKLKM ja AKKTTV. Insinöörit sisältyvät AKK-luokkaan ja teknikot muuhun koulutukseen.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nyhtlkm",
+      "variablename": "Naistutkijat yhteensä",
+      "conceptdef": "Tutkimushenkilökuntaan kuuluvat naiset yhteensä, kysytty 1987-1991, 1993, 1995, 1997-. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutlkm",
+      "variablename": "Tutkijoiden lukumäärä",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, lukumäärä vuoden lopussa. Saatavissa 2004 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ntutlkm",
+      "variablename": "Naistutkijoiden lukumäärä",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, naisten lukumäärä vuoden lopussa. Saatavissa 2004 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "korkttv",
+      "variablename": "Vähintään korkeakoulututkinto, tutkimustyövuodet",
+      "conceptdef": "T&K-henkilökunnan koulutus vähintään korkeakoulututkinto, vuoden aikana tehdyt tutkimustyövuodet. Kysytty 1985-1991, 1993, 1995, 1997-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akkttv",
+      "variablename": "Ammattikorkeakoulututkinto tai vastaava, työvuodet",
+      "conceptdef": "T&K-henkilökunnan koulutus ammattikorkeakoulututkinto tai vastaava, vuoden aikana tehdyt tutkimustyövuodet. Kysytty 1998-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "teknttv",
+      "variablename": "Opistoinsinöörit ja teknikot, työvuodet",
+      "conceptdef": "T&K-henkilökunnan koulutus opistoinsinööri tai teknikko, vuoden aikana tehdyt tutkimustyövuodet. Kysytty 1985-1991, 1993, 1995, 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtttv",
+      "variablename": "Tutkimustyövuodet yhteensä",
+      "conceptdef": "Vuoden aikana tehdyt tutkimustyövuodet yhteensä. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon\ntutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.\nMuun koulutuksen saaneiden tutkimushenkilöiden (sis. korkeakouluopiskelijat, muu ammatillinen koulutus ja ei ammatillista koulutusta) lukumäärä saadaan laskettua seuraavasti:\nMUULKM = SUM(YHTLKM ,– KORKLKM ,– AKKLKM, – TEKNLKM)\nVastaavasti voidaan laskea muun koulutuksen saaneiden tutkimustyövuodet:\nMUUTTV = SUM(YHTTTV, – KORKTTV, – AKKTTV, – TEKNTTV)\nOn huomattava, että koulutusluokitus on muuttunut vuonna 1998, jonka jälkeen insinöörejä ja teknikoita ei ole enää luokiteltu erikseen eli TEKNLKM ja TEKNTTV puuttuvat vuosilta 1998–2010 ja tilalla ovat AKKLKM ja AKKTTV.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutttv",
+      "variablename": "Tutkijoiden tutkimustyövuodet",
+      "conceptdef": "Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, vuoden aikana tehdyt tutkimustyövuodet. Saatavissa 2004 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tultk",
+      "variablename": "Tuotteisiin liittyvä kehittämistyö",
+      "conceptdef": "Kysytty 1991, 1993, 1995, 1997.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "prltk",
+      "variablename": "Prosesseihin liittyvä kehittämistyö",
+      "conceptdef": "Kysytty 1991, 1993, 1995, 1997.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tketupr",
+      "variablename": "Ei välitöntä tuote- tai prosessisovellusta",
+      "conceptdef": "Kysytty 1991, 1993, 1995, 1997.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd01x",
+      "variablename": "Toimiala: Maa-, metsä- ja kalatalous",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 01-05. Tutkimus- ja kehittämismenojen kohdistumista tuotteisiin ja palveluihin on kysytty vuosina 1985-1991, 1993-1995, 1999-2001, 2003-2007, 2010-. Muuttujien RD01X-RD72 luokitus pohjautuu vuoden 1995 toimialaluokitukseen, mutta erityisesti vuondesta 2010- tietosisältö ei täysin vastaa aiempia vuosia toimialaluokituksen (2008) huomattavan uudistuksen vuoksi. Lisäksi mm. muiden palveluiden erittelyitä on lisätty kyselylomakkeeseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd10x",
+      "variablename": "Toimiala: Mineraalien kaivu",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 10-14.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd15x",
+      "variablename": "Toimiala: Elintarvikkeet, juomat, tupakka",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 15-16.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd17x",
+      "variablename": "Toimiala: Tekstiili- ja nahkatuotteet, kengät",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 17-19.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd20",
+      "variablename": "Toimiala: Puutavara ja puutuotteet (pl. kalusteet)",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 20.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd21",
+      "variablename": "Toimiala: Massa, paperi ja paperituotteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 21.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd22",
+      "variablename": "Toimiala: Graafiset tuotteet, kustannustoiminta",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 22.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd23",
+      "variablename": "Toimiala: Koksi, öljytuotteet ja ydinpolttoaine",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 23.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd24x",
+      "variablename": "Toimiala: Kemikaalit (pl. lääkkeet)",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 24 pl. 244.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd244",
+      "variablename": "Toimiala: Lääkkeet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 244.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd25",
+      "variablename": "Toimiala: Kumi- ja muovituotteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 25.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd26",
+      "variablename": "Toimiala: Ei-metalliset mineraalituotteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 26.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd271x",
+      "variablename": "Toimiala: Rauta, teräs, ferroseokset",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 271, 272, 273, 2751, 2752.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd274x",
+      "variablename": "Toimiala: Muut metallit",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 274, 2753, 2754.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd28",
+      "variablename": "Toimiala: Metallituotteet (pl. koneet ja laitteet)",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 28.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd29",
+      "variablename": "Toimiala: Koneet ja laitteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 29.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd30",
+      "variablename": "Toimiala: Konttori- ja tietokoneet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 30.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd31x",
+      "variablename": "Toimiala: Muut sähkökoneet ja -laitteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 31, 333.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd32",
+      "variablename": "Toimiala: Radiot, televisiot, tietoliikennevälineet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 32.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd33x",
+      "variablename": "Toimiala: Lääkintäkojeet, instrumentit ja kellot",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 33 pl. 333.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd34",
+      "variablename": "Toimiala: Autot, autonkorit ja autonosat",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 34.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd351",
+      "variablename": "Toimiala: Laivat ja veneet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 351.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd352x",
+      "variablename": "Toimiala: Muut kulkuneuvot",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 352, 354, 355.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd353",
+      "variablename": "Toimiala: Ilma-alukset",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 353.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd361",
+      "variablename": "Toimiala: Kalusteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 361.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd362x",
+      "variablename": "Toimiala: Muut tehdasteollisuustuotteet",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 362-37.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd40x",
+      "variablename": "Toimiala: Sähkö, kaasu, lämpö ja vesi",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 40-41.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd45",
+      "variablename": "Toimiala: Rakentaminen",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 45.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd60x",
+      "variablename": "Toimiala: Kuljetus ja varastointi",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 60-63.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd64",
+      "variablename": "Toimiala: Posti- ja teleliikenne",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 64.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd65x",
+      "variablename": "Toimiala: Muut palvelut",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimialat 65-99 pl.72. Poikkeuksellisesti vuoden 2010 tilastoon otettiin mukaan myös aikaisemmin puuttuneet toimialat (vähittäiskauppa, majoitus- ja ravitsemistoiminta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rd72",
+      "variablename": "Toimiala: Tietojenkäsittelypalvelu",
+      "conceptdef": "T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimiala määritellään yrityksen lopputuotteen mukaan (vuoden 1995 toimialaluokitus). Toimiala 72.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "orahs",
+      "variablename": "Sisäinen T&K oma rahoitus ml. lainat",
+      "conceptdef": "Sisäisen T&K:n oma rahoitus ml. ehdolliset ja ehdottomat lainat. Saatavissa 1985-1991, 1993, 1995, 1997-.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lesyht",
+      "variablename": "Ehdolliset lainat, sisäinen T&K",
+      "conceptdef": "Ehdolliset lainat, sisäinen T&K. Saatavissa 1985, 1987.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "orahu",
+      "variablename": "Ulk. TK oma rahoitus ml. ehdolliset & ehdottomat lainat",
+      "conceptdef": "Ulkopuolelta tilatun T&K:n oma rahoitus ml. ehdolliset ja ehdottomat lainat. Saatavissa 1985-1991, 1993, 1995, 1997.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leuyht",
+      "variablename": "Ehdolliset lainat, ulk. T&K",
+      "conceptdef": "Ehdolliset lainat ulkopuolelta tilattu T&K. Saatavissa 1985, 1987.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaste",
+      "variablename": "Nollatiedot tiedonantajarekisteristä",
+      "conceptdef": "Aiempina vuosina (1989-1995, 1997) vastaustiedostojen tietoja on täydennetty hakemalla tiedonantajarekisteristä tiedot myös niistä yrityksistä, jotka ovat ilmoittaneet, etteivät harjoita T&K-toimintaa (VASTE=0). Nämä yritykset puuttuvat alkuperäisistä vastaustiedostoista useimpina vuosina. On kuitenkin huomioitava, että ennen vuotta 1997 nollavastauksia on mukana hyvin epäsystemaattisesti, koska kysely ei aiempina vuosina perustunut systemaattiseen otantaan. Jos VASTE=0, sisäiset ja muut T&K-menot ovat nollia. Muutamissa tapauksissa VASTE saattaa kuitenkin olla 0, vaikka yrityksellä on positiivisia T&K-menoja, mikä jätetään tällöin vastaustiedoksi. Myöhempien vuosien vaste-koodit ovat saatavissa erikseen.\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koskee",
+      "variablename": "Yksikön muoto: yritys, konserni, muu",
+      "conceptdef": "Vastaajayksikön muoto: 1=yritys, 2=konserni, 3=muu \nOsa yrityksistä on saattanut vastata kyselyyn muulla kuin yritystasolla, esimerkiksi konsernitasolla tai tutkimusyksikön tasolla. Vastaustaso huomioitava yhdistettäessä tietoja muihin aineistoihin tai verrattaessa esim. liikevaihtoon. Saatavissa 1998-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuplaus",
+      "variablename": "Tiedot summattu yritystasolle",
+      "conceptdef": "Erityisesti 1980-luvun vastaustiedoissa sama ly-tunnus saattaa esiintyä useita kertoja, jolloin kyseessä ovat saman yrityksen toimialaryhmittäiset luvut. Tällöin tiedot on summattu yritystasolle, jonka ilmaisee muuttuja TUPLAUS, joka saa tällöin arvon 1. Tilatuissa T&K-menoissa voi tällöin esiintyä kertautumista, mutta sisäisten T&K-menojen pitäisi olla luotettavia. Saatavissa 1985-1992 ja 1996.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tk96",
+      "variablename": "T&K:n harjoittaminen 94-96",
+      "conceptdef": "1 = yritys on harjoittanut T&K-toimintaa säännöllisesti 1994-96, 2 = harjoittanut T&K-toimintaa satunnaisesti vuosina 1994-96, 3 = ei harjoittanut T&K-toimintaa\nVuoden 1996 innovaatiolähtöisessä kyselyssä yrityksen ei tarvitse vastata T&K-toimintaa koskeviin kysymyksiin, jos sillä ei ole innovaatiotoimintaa. Aineistoon on sisällytetty muuttuja TK96, joka kertoo onko yritys ilmoittanut harjoittaneensa T&K-toimintaa vuosina 1994–96. Tämä mahdollistaa vain innovaatiokyselyyn vastanneiden yritysten poisjättämisen harkinnan mukaan. On kuitenkin huomattava, että ko. muuttujan ja ilmoitettujen T&K-menojen ja henkilökunnan välillä on ristiriitoja, jotka voivat johtua innovaatio- ja T&K-toiminnan käsitteiden sekoittumisesta. Tästä syystä vuonna 1996 kaikki puuttuvat tiedot on jätetty sellaisenaan aineistoon, koska niitä ei voi varmuudella päätellä nolliksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvkerr",
+      "variablename": "Liikevaihto-osuuden kerroin ",
+      "conceptdef": "Rakennetilaston tuotantotietokannan liikevaihdosta laskettu kerroin, ositteen kokonaisliikevaihto jaettuna vastanneiden liikevaihdolla. Tällä kertoimella on varsinaisessa tilastossa painotettu määrämuuttujat (t&k-henkilöstö, -menot, -rahoitus ym.) lukuunottamatta t&k:ta tekevien yritysten estimaattia, jossa on käytetty lkmkerr-muuttujaa. Aito otanta ja korotus käytössä vuosina 1991, 1993, 1994, 1996. Vuonna 1995 ja vuodesta 1997- korotuskertoimet oikaisevat vain katoa panelissa (jota, tuoreutetaan otoksella), esim. 70% vastaus solussa kerroin 1/0,7.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hkkerr",
+      "variablename": "Henkilöstöosuuden kerroin",
+      "conceptdef": "Saatavissa 1991, 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "Lukumääräosuuden kerroin   ",
+      "conceptdef": "Rakennetilaston tuotantotietokannan yritysten määrästä laskettu kerroin, ositteen yritysten lukumäärä jaettuna vastanneiden lukumäärällä. Tätä kerrointa on käytetty laskettaessa t&k:ta tekevien yritysten lukumäärää varsinaisessa tilastossa. Saatavissa 1991, 1993, 1994,1997- oikaisee vain katoa panelissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "type1",
+      "variablename": "T&k-toiminnan tyyppi: perustutkimus (%)",
+      "conceptdef": "T&k-toiminnan tyyppi: perustutkimus (%), saatavissa 2011-. Perustutkimukselle on tunnusomaista uuden tiedon\ntavoittelu ilman välitöntä käytännön sovellusta. Perustutkimusta on esimerkiksi ominaisuuksien, rakenteiden, syy- ja seuraussuhteiden analyysit, joiden tavoitteena on uusien hypoteesien, teorioiden ja lainalaisuuksien muodostaminen, todentaminen ja selittäminen.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "type2",
+      "variablename": "T&k-toiminnan tyyppi: soveltava tutkimus (%)",
+      "conceptdef": "T&k-toiminnan tyyppi: soveltava tutkimus (%), saatavissa 2011-. Soveltava tutkimus, jossa tavoitteena on jokin uuden tiedon avulla toteutettava käytännön sovellus. Pyrkimyksenä voi olla esim. sovellusten etsiminen perustutkimuksen tuloksille tai uusien menetelmien ja keinojen luominen tietyn ongelman ratkaisemiseksi.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "type3",
+      "variablename": "T&k-toiminnan tyyppi: kehittämistyö (%)",
+      "conceptdef": "T&k-toiminnan tyyppi: kehittämistyö (%), saatavissa 2011-. Kehittämistyö, jolla tarkoitetaan tutkimuksen tuloksena ja/tai käytännön kokemuksen kautta saadun tiedon käyttämistä uusien tuotteiden, palvelujen, tuotantoprosessien tai menetelmien aikaansaamiseen tai olemassa olevien olennaiseen parantamiseen.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILYHT",
+      "variablename": "Tilaustutkimus, yhteensä",
+      "conceptdef": "Tilaustutkimus, yhteensä TILYHT = sum \n(TILYR  Yritykset,\nTILKK   Yliopistot, ammattikorkeakorkeakoulut, yliopistolliset sairaalat,\nTILJUL  Julkiset tutkimuslaitokset, muu julkinen sektori,\nTILMUU  Muu\nTILULKO  Ulkomailta tilattu tutkimus ja kehittäminen) \nTieto pääosin kysytty ja tarkistettu vain T&K:ta harjoittaneiden osalta. Saatavissa alkaen vuodesta 2015.\t",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

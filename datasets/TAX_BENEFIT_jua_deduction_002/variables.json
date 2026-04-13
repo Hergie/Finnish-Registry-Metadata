@@ -1,0 +1,156 @@
+{
+  "variables": [
+    {
+      "identifier": "dedId",
+      "variablename": "Vähennyksen tunniste",
+      "conceptdef": "Tunniste on muodostettu Tilastokeskuksessa taulun luomisen yhteydessä.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "trxId",
+      "variablename": "Tulolajin tunniste",
+      "conceptdef": "Yksilöi tulolajin, josta vähennys tehdään. Tulolaji ja siitä tehdyt vähennykset ovat yhdistettävissä toisiinsa tulolajin tunnisteen avulla (transactionInfo.trxId = deduction.trxId).\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "txno",
+      "variablename": "Tulolajin numero",
+      "conceptdef": "Samalla ilmoituksella olevien tulolajien juokseva järjestysnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rivino",
+      "variablename": "Rivinumero",
+      "conceptdef": "Samasta tulolajista tehtyjen vähennysten juokseva järjestysnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deductionTransactionCode",
+      "variablename": "Vähennyksen tulolajin koodi",
+      "conceptdef": "Vähennyksen tulolajin koodilla ilmoitetaan tieto alkuperäisestä tulolajista, jota vähennys koskee. Koodisto on sama kuin transactionInfo-taulussa (ks. transactionCode-muuttujan kuvaus). Vähennyksissä, joiden tulolajin koodi on arkaluonteinen (= ei sisälly transactionCode-muuttujan kuvauksessa määriteltyihin luokkiin), tulolajin koodi ja sijaissaajan tiedot on peitetty (= tyhjennetty).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "vähennyksen tiedot"
+    },
+    {
+      "identifier": "deductionType",
+      "variablename": "Vähennyksen tyyppi",
+      "conceptdef": "1 = Elatusapuvelan perintä\n2 = Maksun oikaisu nettotulosta\n3 = Maksun oikaisu veronalaisesta tulosta\n4 = Maksuvaatimus (ei regressitilanne)\n5 = MATA- ja MYEL-perintä\n6 = Muu vähennys nettotulosta\n7 = Muu vähennys veronalaisesta tulosta\n8 = Palkansaajamaksujen vähennys\n9 = Panttioikeuteen perustuva vähennys\n10 = Regressi veronalaiseen tuloon\n11 = Regressi verottomaan tuloon\n12 = Opintolainan takaussaatavan perintä\n13 = YEL-perintä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "vähennyksen tiedot"
+    },
+    {
+      "identifier": "amount",
+      "variablename": "Vähennyksen määrä",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "vähennyksen tiedot"
+    },
+    {
+      "identifier": "origPaymentDate",
+      "variablename": "Suorituksen maksupäivä tai muu ilmoituspäivä",
+      "conceptdef": "Alkuperäisen suorituksen maksupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alkuperäisen etuuden ansaintakausi"
+    },
+    {
+      "identifier": "origStartDate",
+      "variablename": "Alkupäivä",
+      "conceptdef": "Alkuperäisen ansaintakauden alkupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alkuperäisen etuuden ansaintakausi"
+    },
+    {
+      "identifier": "origEndDate",
+      "variablename": "Loppupäivä",
+      "conceptdef": "Alkuperäisen ansaintakauden loppupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alkuperäisen etuuden ansaintakausi"
+    },
+    {
+      "identifier": "incomeBeneficiaryIdType",
+      "variablename": "Sijaissaajan tunnisteen tyyppi",
+      "conceptdef": "1 = Y-tunnus (suomalainen)\n2 = Henkilötunnus (suomalainen)\n3 = Alv-tunniste (VAT)\n4 = GIIN-tunniste\n5 = Verotunniste (TIN)\n6 = Kaupparekisteritunnus\n7 = Ulkomainen yritystunnus\n9 = Ulkomainen henkilötunnus\n99 = Muu tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "sijaissaajan tunnisteet"
+    },
+    {
+      "identifier": "incomeBeneficiaryIdCountryCode",
+      "variablename": "Maakoodi",
+      "conceptdef": "Jos tunnisteen tyyppinä on muu kuin Y-tunnus tai suomalainen henkilötunnus, merkitään tunnisteen myöntäneen maan koodi. Maakoodi valitaan koodistosta:\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "sijaissaajan tunnisteet"
+    },
+    {
+      "identifier": "incomeBeneficiaryIdCountryName",
+      "variablename": "Maan nimi",
+      "conceptdef": "Merkitään tunnisteen myöntäneen maan nimi, jos maakoodiksi on annettu arvo ”tuntematon” (99).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "sijaissaajan tunnisteet"
+    },
+    {
+      "identifier": "incomeBeneficiaryHidType",
+      "variablename": "Sijaissaajan henkilötunnisteen tyyppi",
+      "conceptdef": "1 = Y-tunnus (suomalainen)\n2 = Henkilötunnus (suomalainen)\n3 = Alv-tunniste (VAT)\n4 = GIIN-tunniste\n5 = Verotunniste (TIN)\n6 = Kaupparekisteritunnus\n7 = Ulkomainen yritystunnus\n9 = Ulkomainen henkilötunnus\n99 = Muu tunnus\nJoissakin tapauksissa saajalla voi olla kaksi erityyppistä tunnistetta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "remittanceStartDate",
+      "variablename": "Alkupäivä",
+      "conceptdef": "Sijaissaajalle tilitettävän jakson alkupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tilitysjakso"
+    },
+    {
+      "identifier": "remittanceEndDate",
+      "variablename": "Loppupäivä",
+      "conceptdef": "Sijaissaajalle tilitettävän jakson loppupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tilitysjakso"
+    },
+    {
+      "identifier": "incomeBeneficiaryHid_e",
+      "variablename": "Suojattu sijaissaajan yksilöivä tunniste",
+      "conceptdef": "Suojattu sijaissaajan yksilöivä tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IncomeBeneficiaryIdCode_s",
+      "variablename": "Sijaissaajan suojattu y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IncomeBeneficiaryOtherIdCode_s",
+      "variablename": "Sijaissaajan suojattu muu tunniste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

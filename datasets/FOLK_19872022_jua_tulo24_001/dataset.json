@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872022_jua_tulo24_001.xml",
+      "doi": "work_2017-08_2017-08-09_ain_0002",
+      "subject": "FOLK tulotieto",
+      "contentdescription": "FOLK-henkilöaineiston tulotietomoduulissa on tietoja henkilöiden tuotannontekijätuloista, saaduista ja maksetuista tulonsiirroista, varallisuudesta ja veloista. Aineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujan kuvaukseen vuosiluvuilla.\n\nTulonjakotilastossa muodostetut tulomuuttujat ovat mahdollisimman tarkasti pyritty muokkaamaan vertailukelpoisiksi eri vuosille. Verottajan aineistosta otetut tiedot eivät ole täysin vertailukelpoisia yli ajan. Vertailukelpoisuutta heikentää verotukseen tehdyt muutokset, joista merkittävin on vuoden 2005 verouudistus, jonka seurauksena esim. ansiotulot ja pääomatulot valtionverotuksessa sekä tulovero ansio- tai pääomatulosta eivät ole täysin vertailukelpoisia tietoja vuosina 1995-2004 ja vuodesta 2005 eteenpäin.\n\nTulonjakotilaston aggregaattimuuttujien (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) kuvauksissa ei ole lueteltu yksittäisiä tuloeriä. Nämä muuttujat muodostuvat vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta ja tietoja on saatavilla vuodesta 1995 lähtien.\n\n\n\nKelan aineistoihin perustuvat tiedot sisältävät myös negatiivisia arvoja. Negatiiviset etuudet voivat johtua takaisinperinnöistä tai väärinmaksatuksista. Tulonjakotilastossa negatiivisia arvoja ei ole nollattu, vaan ne on otettu huomioon käytettävissä olevien tulojen muodostuksessa sellaisenaan. \n\nHuomioitavaa: \n\n2022 päivitys: Tulonjakotilaston muodostamista muuttujista ja tulonjakotilaston aineistoista poimituista verottajan tiedoista, on siirrytty tilastovuodesta 2022 alkaen poimimaan tiedot suoraan verottajan aineistoista. Päivityksellä ei ole vaikutusta datan vertailukelpoisuuteen. \n\n25.1.2024: \"toimtu\"-muuttujan arvot 2021 vuositauluun on korjattu ja aineisto on ajantasalla.\n\n2021 päivityksessä aineistoon lisätty tulonjakotilaston tulomuuttujat PALK (palkkatulot), YRTU (yrittäjätulot) ja OMTU (omaisuustulot).\n\nTYOTU-muuttuja sisältää tietoja vuoteen 2018 asti. Verottajan lähtöaineistossa ja tilastossa tapahtuneiden muutosten takia kyseistä muuttujaa ei enää ylläpidetä. Vuoden 2018 jälkeiset tiedot henkilön palkkatuloista ovat saatavilla muuttujasta PALK. \n\nTyotu-muuttujassa on puutteita (puuttuvia arvoja) tilastovuoden 1989 osalta.\n\n2020 päivityksessä: ennen 31.2.2020 FOLK tulotieto -valmisaineistossa työtuloihin summautui verotiedot TOSINKP (työpanokseen perustuva osinko, palkkaa) ja TOSINKPY (yrittäjän työpanokseen perustuva osinko, palkkaa) vuosina 2010-17 sekä TELPS7 (kunnallisen perhepäivähoitajan palkka) vuosina 2005-2017 kahteen kertaan, koska nämä tiedot sisältyivät jo verotietoon TRPL. TOSINKP ja TOSINKPY -tietoja oli noin 4 000 henkilöllä ja TELPS7-tietoja 25 000 henkilöllä.\n\nAineisto on tarkoitettu FIONA-etäpalvelun kautta luovutettavaksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.\n\nVimeisimmät FOLK tulotietoaineistot ovat kansiossa FOLK_TULO_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tulo_\"vuosi\"_1.\n\nVanhat FOLK tulotieto -aineistot ovat FIONAssa seuraavissa kansioissa:\nTotaaliaineisto vuosille 2011-2019: FOLK_tulo_11a\nTotaaliaineisto vuosille 2001-2010: FOLK_tulo_0110a\nTotaaliaineisto vuosille 1987-2000: FOLK_tulo_8800a\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n",
+      "coveragetemporal": "1987-01-01 - 2023-12-31",
+      "published_day": "2026-01-20",
+      "variable_count": "32",
+      "orgname": "Eläketurvakeskus",
+      "coveragepopulation": "Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö",
+      "resourcerelation_1": "Väestörekisterikeskuksen väestötietojärjestelmä, Tilastokeskuksen tulonjakotilasto, Verohallinnon rekisterit, Tilastokeskuksen henkilötietovarasto, Kansaneläkelaitoksen rekisterit, THL:n toimeentulotukirekisteri",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

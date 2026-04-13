@@ -1,0 +1,2044 @@
+{
+  "variables": [
+    {
+      "identifier": "KIELI",
+      "variablename": null,
+      "conceptdef": "Hakijan äidinkieli 31.12. Karkeat luokitukset:\n1 = suomi\n2 = ruotsi\n3 = muu tai ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sp",
+      "variablename": null,
+      "conceptdef": "Sukupuoli\n1=mies 2=nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta",
+      "variablename": null,
+      "conceptdef": "Hakijan kotikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laani",
+      "variablename": null,
+      "conceptdef": "Läänikoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alue",
+      "variablename": null,
+      "conceptdef": "Aluekoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERITAPVAL",
+      "variablename": null,
+      "conceptdef": "Erikoistapausvalinta  K99. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOMAA",
+      "variablename": null,
+      "conceptdef": "1 = Ulkomaalainen hakija. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUYO",
+      "variablename": null,
+      "conceptdef": "Ylioppilastutkinnon/lukion suorittanut K99. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAJI",
+      "variablename": null,
+      "conceptdef": "Hakijan laji\n1=hakija \n3=jälkivalinta \n9=myöhästynyt. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taso",
+      "variablename": null,
+      "conceptdef": "Koulutaso\n4=kouluaste \n8=opisto  \n9=yo, lukio \n5,6=erktapval \n0=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lk",
+      "variablename": null,
+      "conceptdef": "Lisäkoulutus. Saatavilla vain v. 1996-1998.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "al1",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 1 koulun aluekoodi (YH-koulukoodin 2. ensimmäistä merkkiä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "r1",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 1 koulutyyppi  (OPLA), Tilastokeskuksen oppilaitostyypit",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l1",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 1 koulun linjakoodi  (5-num.) ei ole tällä hetkellä saatavilla tässä aineistossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "al2",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 2 koulun aluekoodi (YH-koulukoodin 2. ensimmäistä merkkiä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "r2",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 2 koulutyyppi  (OPLA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l2",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 2 koulun linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "al3",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 3 koulun aluekoodi (YH-koulukoodin 2. ensimmäistä merkkiä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "r3",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 3 koulutyyppi  (OPLA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l3",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 3 koulun linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "al4",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 4 koulun aluekoodi (YH-koulukoodin 2. ensimmäistä merkkiä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "r4",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 4 koulutyyppi  (OPLA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l4",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 4 koulun linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "al5",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 5 koulun aluekoodi (YH-koulukoodin 2. ensimmäistä merkkiä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "r5",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 5 koulutyyppi  (OPLA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l5",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen 5 koulun linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EP",
+      "variablename": null,
+      "conceptdef": "Tyhjä; hakutoive löytyy, 1=ei hakutoivetta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P1",
+      "variablename": null,
+      "conceptdef": "1 hakutoiveen pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P2",
+      "variablename": null,
+      "conceptdef": "2 hakutoiveen pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P3",
+      "variablename": null,
+      "conceptdef": "3 hakutoiveen pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P4",
+      "variablename": null,
+      "conceptdef": "4 hakutoiveen pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P5",
+      "variablename": null,
+      "conceptdef": "5 hakutoiveen pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PE1",
+      "variablename": null,
+      "conceptdef": "1 hakutoiveen opintoala (peruslinja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PE2",
+      "variablename": null,
+      "conceptdef": "2 hakutoiveen opintoala (peruslinja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PE3",
+      "variablename": null,
+      "conceptdef": "3 hakutoiveen opintoala (peruslinja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PE4",
+      "variablename": null,
+      "conceptdef": "4 hakutoiveen opintoala (peruslinja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PE5",
+      "variablename": null,
+      "conceptdef": "5 hakutoiveen opintoala (peruslinja). Saatavilla vain v. 1996-1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AS1",
+      "variablename": null,
+      "conceptdef": "1 hakutoiveen aste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AS2",
+      "variablename": null,
+      "conceptdef": "2 hakutoiveen aste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AS3",
+      "variablename": null,
+      "conceptdef": "3 hakutoiveen aste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AS4",
+      "variablename": null,
+      "conceptdef": "4 hakutoiveen aste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AS5",
+      "variablename": null,
+      "conceptdef": "5 hakutoiveen aste. Saatavilla vain v. 1996-1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUN1",
+      "variablename": null,
+      "conceptdef": "1 hakutoiveen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUN2",
+      "variablename": null,
+      "conceptdef": "2 hakutoiveen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUN3",
+      "variablename": null,
+      "conceptdef": "3 hakutoiveen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUN4",
+      "variablename": null,
+      "conceptdef": "4 hakutoiveen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUN5",
+      "variablename": null,
+      "conceptdef": "5 hakutoiveen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALA1",
+      "variablename": null,
+      "conceptdef": "1 hakutoiveen koulutusala\nLuokitus (myös muut KALA-muuttujat aikavälillä sisältäen):\n02\tlukio\n03\tkansanopisto\n04\tmuu yleissivistävä koulutus\n05\tmaatilatalous\n06\tpuutarhatalous\n07\tmeijeritalous\n08\tkalatalous\n09\tmetsätalous\n10\tmetsätalous\n12\tkäsi- ja taideteollisuus\n15\tvaatetustekniikka\n16\ttekstiilitekniikka\n17\tgraafinen tekniikka\n18\tlvi-tekniikka\n19\tkone- ja metallitekniikka\n20\tauto- ja kuljetustekniikka\n24\tsähkötekniikka\n25\tmaanmittaustekniikka\n26\trakennustekniikka\n27\tpuutekniikka\n28\tpintakäsittelytekniikka\n29\tprosessi- ja laboratoriotekniikka\n30\telintarviketeollisuus\n31\truokahuolto- ja ravintola-ala\n32\tkoti- ja laitostalous\n37\tmerenkulku\n40\tkauppa- ja hallinto\n42\tterveydenhuolto\n43\tsosiaaliala\n44\tsosiaali- ja terveysala\n53\tmuu keskiasteen kehittämislain alainen koulutus\n55\trautatieliikenne\n56\ttietoliikenne\n57\tlentoliikenne\n58\tsotilas- ja rajavartiokoulutus\n59\tpalokoulutus\n60\tpoliisikoulutus\n61\tvankeinhoidon koulutus\n62\tseurakuntatyön koulutus\n63\tvapaa-aikatyö\n64\tmusiikkikoulutus\n65\tteatteri- ja puheilmaisukoulutus\n74\tmuu oppilaitosmuotoinen ammatillinen koulutus\n75\tteologinen koulutus\n76 \thumanistinen koulutus\n77\ttaideteollinen koulutus\n99\ttuntematon\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALA2",
+      "variablename": null,
+      "conceptdef": "2 hakutoiveen koulutusala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALA3",
+      "variablename": null,
+      "conceptdef": "3 hakutoiveen koulutusala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALA4",
+      "variablename": null,
+      "conceptdef": "4 hakutoiveen koulutusala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALA5",
+      "variablename": null,
+      "conceptdef": "5 hakutoiveen koulutusala. Saatavilla vain v. 1996-1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHV1",
+      "variablename": null,
+      "conceptdef": "Valinnan vahvistus hakutoive 1. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHV2",
+      "variablename": null,
+      "conceptdef": "Valinnan vahvistus hakutoive 2. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHV3",
+      "variablename": null,
+      "conceptdef": "Valinnan vahvistus hakutoive 3. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHV4",
+      "variablename": null,
+      "conceptdef": "Valinnan vahvistus hakutoive 4. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONO1",
+      "variablename": null,
+      "conceptdef": "Jonotustieto hakutoive 1. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONO2",
+      "variablename": null,
+      "conceptdef": "Jonotustieto hakutoive 2. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONO3",
+      "variablename": null,
+      "conceptdef": "Jonotustieto hakutoive 3. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONO4",
+      "variablename": null,
+      "conceptdef": "Jonotustieto hakutoive 4. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KESK1",
+      "variablename": null,
+      "conceptdef": "Keskeytystieto hakutoive 1. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KESK2",
+      "variablename": null,
+      "conceptdef": "Keskeytystieto hakutoive 2. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KESK3",
+      "variablename": null,
+      "conceptdef": "Keskeytystieto hakutoive 3. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KESK4",
+      "variablename": null,
+      "conceptdef": "Keskeytystieto hakutoive 4. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALTU1",
+      "variablename": null,
+      "conceptdef": "Valinnan tulos hakutoive 1. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALTU2",
+      "variablename": null,
+      "conceptdef": "Valinnan tulos hakutoive 2. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALTU3",
+      "variablename": null,
+      "conceptdef": "Valinnan tulos hakutoive 3. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALTU4",
+      "variablename": null,
+      "conceptdef": "Valinnan tulos hakutoive 4. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "val_al",
+      "variablename": null,
+      "conceptdef": "Valintatiedon koulu,  yv-koodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "val_r",
+      "variablename": null,
+      "conceptdef": "Valintatiedon koulutyyppi  (OPLA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "val_l",
+      "variablename": null,
+      "conceptdef": "Valintatiedon linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konev_al",
+      "variablename": null,
+      "conceptdef": "Konevalinta, koulu,  yv-koodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konev_r",
+      "variablename": null,
+      "conceptdef": "Konevalinta, koulutyyppi  (OPLA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konev_l",
+      "variablename": null,
+      "conceptdef": "Konevalinta,  linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "val_l4",
+      "variablename": null,
+      "conceptdef": "Valintatiedon linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konev_l4",
+      "variablename": null,
+      "conceptdef": "Konevalinta, linjakoodi  (5-num.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koodi",
+      "variablename": null,
+      "conceptdef": "Valintatiedon päivityskoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaha",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kvaha",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIINTIO",
+      "variablename": null,
+      "conceptdef": "Valinnan kiintiö (putki)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PV",
+      "variablename": null,
+      "conceptdef": "Valinnan pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKV",
+      "variablename": null,
+      "conceptdef": "Valinnan pohjakoulutusvaatimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEV",
+      "variablename": null,
+      "conceptdef": "Valinnan opintoala (peruslinja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PEKV",
+      "variablename": null,
+      "conceptdef": "Konevalinnan opintoala (peruslinja)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASV",
+      "variablename": null,
+      "conceptdef": "Valinnan aste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKV",
+      "variablename": null,
+      "conceptdef": "Konevalinnan aste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUNV",
+      "variablename": null,
+      "conceptdef": "Valinnan oppilaitoksen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUNKV",
+      "variablename": null,
+      "conceptdef": "Konevalinnan oppilaitoksen sijaintikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALAV",
+      "variablename": null,
+      "conceptdef": "Valinnan koulutusala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KALAKV",
+      "variablename": null,
+      "conceptdef": "Konevalinnan koulutusala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TV",
+      "variablename": null,
+      "conceptdef": "Todistuksen saantivuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LUOK",
+      "variablename": null,
+      "conceptdef": "Peruskoulun luokka. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MSO",
+      "variablename": null,
+      "conceptdef": "Ulkomainen todistus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SKAALA",
+      "variablename": null,
+      "conceptdef": "Todistuksen arvosteluasteikko\n1=1-3\n2=1-5\n3=4-10. Saatavilla vain v. 1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKA",
+      "variablename": null,
+      "conceptdef": "Lukuaineiden keskiarvo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KA",
+      "variablename": null,
+      "conceptdef": "Kaikkien aineiden keskiarvo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALKA",
+      "variablename": null,
+      "conceptdef": "Ammatillinen lukuaineiden keskiarvo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PTKARVO",
+      "variablename": null,
+      "conceptdef": "Päättötodistuksen kaikkien aineiden keskiarvo. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AOKARVO",
+      "variablename": null,
+      "conceptdef": "Ammatillisten opintokokonaisuuksien keskiarvo. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ARVS1",
+      "variablename": null,
+      "conceptdef": "Arvosanat hakukorttijärjestyksessä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "USKONTO",
+      "variablename": null,
+      "conceptdef": "Uskonto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIDINK",
+      "variablename": null,
+      "conceptdef": "Äidinkieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE1",
+      "variablename": null,
+      "conceptdef": "Oppilaan A1 kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIT1",
+      "variablename": null,
+      "conceptdef": "Oppilaan A1 kieli/taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA1",
+      "variablename": null,
+      "conceptdef": "Oppilaan A1 kieli/arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE2",
+      "variablename": null,
+      "conceptdef": "Oppilaan A2 kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIT2",
+      "variablename": null,
+      "conceptdef": "Oppilaan A2 kieli/taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA2",
+      "variablename": null,
+      "conceptdef": "Oppilaan A2 kieli/arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE3",
+      "variablename": null,
+      "conceptdef": "Oppilaan B kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA3",
+      "variablename": null,
+      "conceptdef": "Oppilaan B kieli/arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE4",
+      "variablename": null,
+      "conceptdef": "Oppilaan C kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA4",
+      "variablename": null,
+      "conceptdef": "Oppilaan C kieli/arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE5",
+      "variablename": null,
+      "conceptdef": "Oppilaan D kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA5",
+      "variablename": null,
+      "conceptdef": "Oppilaan D kieli/arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE6",
+      "variablename": null,
+      "conceptdef": "Oppilaan E kieli. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA6",
+      "variablename": null,
+      "conceptdef": "Oppilaan E kieli/arvosana. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE7",
+      "variablename": null,
+      "conceptdef": "Oppilaan B2 kieli. Saatavilla vain v. 1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA7",
+      "variablename": null,
+      "conceptdef": "Oppilaan B2 kieli/arvosana. Saatavilla vain v. 1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HISTORIA",
+      "variablename": null,
+      "conceptdef": "Historia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSTAITO",
+      "variablename": null,
+      "conceptdef": "Kansalaistaito/Terveystieto. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MATTASO",
+      "variablename": null,
+      "conceptdef": "Matematiikan taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MATA",
+      "variablename": null,
+      "conceptdef": "Matematiikan arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FYSTASO",
+      "variablename": null,
+      "conceptdef": "Fysiikan taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FYSA",
+      "variablename": null,
+      "conceptdef": "Fysiikan arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KEMIA",
+      "variablename": null,
+      "conceptdef": "Kemia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BIOLOGIA",
+      "variablename": null,
+      "conceptdef": "Biologia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAANT",
+      "variablename": null,
+      "conceptdef": "Maantieto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIIKUNTA",
+      "variablename": null,
+      "conceptdef": "Liikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUSIIKKI",
+      "variablename": null,
+      "conceptdef": "Musiikki",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUVTAITO",
+      "variablename": null,
+      "conceptdef": "Kuvaamataito",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIETOTEKN",
+      "variablename": null,
+      "conceptdef": "Tietotekniikka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTTYO",
+      "variablename": null,
+      "conceptdef": "Tekstiili-/tekninen työ. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTITAL",
+      "variablename": null,
+      "conceptdef": "Kotitalous. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MMETS",
+      "variablename": null,
+      "conceptdef": "Maa- ja metsätalous sekä puutarhanhoito. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAUPAIN",
+      "variablename": null,
+      "conceptdef": "Kaupalliset aineet. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KONEKIRJ",
+      "variablename": null,
+      "conceptdef": "Konekirjoitus. Saatavilla vain v. 1996-1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TERVEYS",
+      "variablename": null,
+      "conceptdef": "Terveystieto. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KEMTASO",
+      "variablename": null,
+      "conceptdef": "Kemian taso. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FILOSOFIA",
+      "variablename": null,
+      "conceptdef": "Filosofia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PSYKOL",
+      "variablename": null,
+      "conceptdef": "Psykologia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOAI",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /äidinkieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOMATAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /matematiikan taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOMA",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /matematiikka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YORE",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /reaali",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOAK1TAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /A1-kieli taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOAK1A",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /A1-kieli arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOAK2TAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /A2-kieli taso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOAK2A",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /A2-kieli arvosana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBKTAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B-kieli taso. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBKA",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B-kieli arvosana. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBK1TAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B1-kieli taso. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBK1A",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B1-kieli arvosana. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBK2TAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B2-kieli taso. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBK2A",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B2-kieli arvosana. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBK3TAS",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B3-kieli taso. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YOBK3A",
+      "variablename": null,
+      "conceptdef": "YO-TUTK. /B3-kieli arvosana. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LISALOM",
+      "variablename": null,
+      "conceptdef": "Lisälomakkeen arvosanat. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAAEKO",
+      "variablename": null,
+      "conceptdef": "Maatilaekonomia. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KASVITUOT",
+      "variablename": null,
+      "conceptdef": "Kasvituotanto. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTELTUO",
+      "variablename": null,
+      "conceptdef": "Kotieläintuotanto. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAT2104",
+      "variablename": null,
+      "conceptdef": "Matematiikka. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EKOL",
+      "variablename": null,
+      "conceptdef": "Ekologia. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MPUUT",
+      "variablename": null,
+      "conceptdef": "Metsä- ja puutalouden perusteet. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAT3107",
+      "variablename": null,
+      "conceptdef": "Matematiikka. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KASVIOPPI",
+      "variablename": null,
+      "conceptdef": "Kasvioppi. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AVOMAAT",
+      "variablename": null,
+      "conceptdef": "Avomaatuotanto. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KASVIHT",
+      "variablename": null,
+      "conceptdef": "Kasvihuonetuotanto. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIHERRAK",
+      "variablename": null,
+      "conceptdef": "Viherrakentamine ja puistotyöt. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAINKA",
+      "variablename": null,
+      "conceptdef": "Luovien aineiden keskiarvo. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YKA113",
+      "variablename": null,
+      "conceptdef": "Yhteiskunta- ja käyttäytymistieteellisten aineiden keskiarvo. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APERO114",
+      "variablename": null,
+      "conceptdef": "Lähihoitajatutkinnon ammatillisten perusopintojen keskiarvo. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YKA2115",
+      "variablename": null,
+      "conceptdef": "Yhteiskunta- ja käyttäytymistieteellisten aineiden keskiarvo. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMOP116",
+      "variablename": null,
+      "conceptdef": "Terveysalan tutkintotodistuksen määrätty ammattiaine tai ammattiainekokonaisuus. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAT4117",
+      "variablename": null,
+      "conceptdef": "Matematiikka. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FYS118",
+      "variablename": null,
+      "conceptdef": "Fysiikka. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KEMIA119",
+      "variablename": null,
+      "conceptdef": "Kemia. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULTTI",
+      "variablename": null,
+      "conceptdef": "Kulttuuritieto. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUVILKUV",
+      "variablename": null,
+      "conceptdef": "Kuvallinen ilmaisu / kuvaamataito. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMMTYO",
+      "variablename": null,
+      "conceptdef": "Ammattityö. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTY2123",
+      "variablename": null,
+      "conceptdef": "Tekninen/tekstiilityö. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAT5124",
+      "variablename": null,
+      "conceptdef": "Matematiikka. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YKA3125",
+      "variablename": null,
+      "conceptdef": "Yhteiskunnallisten aineiden keskiarvo. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ARVS2",
+      "variablename": null,
+      "conceptdef": "Peruskoulusta hakevien toiset arvosanat hakukorttijärjestyksessä. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMMARVS",
+      "variablename": null,
+      "conceptdef": "Ammatillisen todistuksen arvosanat hakukorttijärjestyksessä. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "USKONTO2",
+      "variablename": null,
+      "conceptdef": "Uskonto\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIDINK2",
+      "variablename": null,
+      "conceptdef": "Äidinkieli\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE12",
+      "variablename": null,
+      "conceptdef": "Oppilaan A1 kieli. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIT12",
+      "variablename": null,
+      "conceptdef": "Oppilaan A1 kieli/taso. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA12",
+      "variablename": null,
+      "conceptdef": "Oppilaan A1 kieli/arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE22",
+      "variablename": null,
+      "conceptdef": "Oppilaan A2 kieli. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIT22",
+      "variablename": null,
+      "conceptdef": "Oppilaan A2 kieli/taso. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA22",
+      "variablename": null,
+      "conceptdef": "Oppilaan A2 kieli/arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE32",
+      "variablename": null,
+      "conceptdef": "Oppilaan B kieli. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA32",
+      "variablename": null,
+      "conceptdef": "Oppilaan B kieli/arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE42",
+      "variablename": null,
+      "conceptdef": "Oppilaan C kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA42",
+      "variablename": null,
+      "conceptdef": "Oppilaan C kieli/arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIE52",
+      "variablename": null,
+      "conceptdef": "Oppilaan D kieli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIA52",
+      "variablename": null,
+      "conceptdef": "Oppilaan D kieli/arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HISTORIA2",
+      "variablename": null,
+      "conceptdef": "Historia\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSTAITO2",
+      "variablename": null,
+      "conceptdef": "Kansalaistaito/Terveystieto. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MATTASO2",
+      "variablename": null,
+      "conceptdef": "Matematiikan taso. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MATA2",
+      "variablename": null,
+      "conceptdef": "Matematiikan arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FYSTASO2",
+      "variablename": null,
+      "conceptdef": "Fysiikan taso. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FYSA2",
+      "variablename": null,
+      "conceptdef": "Fysiikan arvosana\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KEMIA2",
+      "variablename": null,
+      "conceptdef": "Kemia\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BIOLOGIA2",
+      "variablename": null,
+      "conceptdef": "Biologia\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAANT2",
+      "variablename": null,
+      "conceptdef": "Maantieto\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIIKUNTA2",
+      "variablename": null,
+      "conceptdef": "Liikunta\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUSIIKKI2",
+      "variablename": null,
+      "conceptdef": "Musiikki\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUVTAITO2",
+      "variablename": null,
+      "conceptdef": "Kuvaamataito. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIETOTEKN2",
+      "variablename": null,
+      "conceptdef": "Tietotekniikka. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TERVEYS2",
+      "variablename": null,
+      "conceptdef": "Terveystieto. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUVTAIT2",
+      "variablename": null,
+      "conceptdef": "Kuvaamataito. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIETOTEK2",
+      "variablename": null,
+      "conceptdef": "Tietotekniikka. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTTYO2",
+      "variablename": null,
+      "conceptdef": "Tekstiili-/tekninen työ. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTITAL2",
+      "variablename": null,
+      "conceptdef": "Kotitalous. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MMETS2",
+      "variablename": null,
+      "conceptdef": "Maa- ja metsätalous sekä puutarhanhoito. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAUPAIN2",
+      "variablename": null,
+      "conceptdef": "Kaupalliset aineet. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KONEKIRJ2",
+      "variablename": null,
+      "conceptdef": "Konekirjoitus. Saatavilla vain v. 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FILOSOFIA2",
+      "variablename": null,
+      "conceptdef": "Filosofia\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PSYKOL2",
+      "variablename": null,
+      "conceptdef": "Psykologia\nHuom.: muuttuja ei saatavilla vuodelta 1997.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PARAMAI",
+      "variablename": null,
+      "conceptdef": "Paras kolmesta ammattiaineesta AMK. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HISTASO",
+      "variablename": null,
+      "conceptdef": "Historian taso. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUVTASO",
+      "variablename": null,
+      "conceptdef": "Kuvaamataidon taso. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KULTTIETO",
+      "variablename": null,
+      "conceptdef": "Kulttuuritieto (AMK). Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIMTU",
+      "variablename": null,
+      "conceptdef": "Ammatillinen tutkinto. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUOPIS",
+      "variablename": null,
+      "conceptdef": "Ammatillinen tutkinto opisto- tai ammatilliselta korkea-asteelta. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUAIKA",
+      "variablename": null,
+      "conceptdef": "Ammatillinen tutkinnon suoritusaika vähintään 3 vuotta. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUALLE",
+      "variablename": null,
+      "conceptdef": "Ammatillinen tutkinto suoritusaika alle 3 vuotta. Saatavilla vain v. 1997-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITULITE",
+      "variablename": null,
+      "conceptdef": "Ammatillinen tutkinto liikenteen ja tekniikan alalta. Saatavilla vain v. 1997-1998",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUTAYD",
+      "variablename": null,
+      "conceptdef": "Ammatillinen tutkinto liikenteen ja tekniikan alalta S98. Saatavilla vain v. 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMAISU",
+      "variablename": null,
+      "conceptdef": "Ilmaisulliset ja viestinnälliset aineet (kultt.ala) K99. Saatavilla vain v. 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHOLIN1",
+      "variablename": null,
+      "conceptdef": "1. hakutoiveen yhteishaun linjakoodi. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHOLIN2",
+      "variablename": null,
+      "conceptdef": "2. hakutoiveen yhteishaun linjakoodi. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHOLIN3",
+      "variablename": null,
+      "conceptdef": "3. hakutoiveen yhteishaun linjakoodi. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHOLIN4",
+      "variablename": null,
+      "conceptdef": "4. hakutoiveen yhteishaun linjakoodi. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHOLINKV",
+      "variablename": null,
+      "conceptdef": "Konevalinnan yhteishaun linjakoodi. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHOLINV",
+      "variablename": null,
+      "conceptdef": "Valinnan yhteishaun linjakoodi. Saatavilla vain v. 1998-1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": null,
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shetu",
+      "variablename": null,
+      "conceptdef": "Suojattu henkilötunnus. Muuttuja shnro toimii tunnisteena vuosittaisten aineistojen välillä, ja shetu toimii toissijaisena tunnisteena vain kunkin vuosiaineiston sisällä hakijoille, jolta puuttuu shnro. Ei yhdisty aineistojen välillä. Muuttujassa esiintyy myös vaillinaisista tiedoista johtuvia virheitä, eikä siihen tule suhtautua shnro:n tapaan luotettavana tunnistamisen välineenä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "slahtokoulu",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty LKOULU-muuttujasta) lähtökoulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sk1",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty K1-muuttujasta) 1. hakutoiveen koulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sk2",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty K2-muuttujasta) 2. hakutoiveen koulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sk3",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty K3-muuttujasta) 3. hakutoiveen koulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sk4",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty K4-muuttujasta) 4. hakutoiveen koulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sk5",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty K5-muuttujasta) 5. hakutoiveen koulukoodista. Huom. muuttujan tietoja ei saatavilla v. 1998-1999.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valk_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty VAL-tietojen avulla) voimassa olevan valintatiedon koulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konevk_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty KONEV-tietojen avulla) valinta-ajossa saadun valintatiedon koulukoodista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhkou1_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty YHKOU1-muuttujasta) 1. hakutoiveen yhteishaun koulukoodista. Saatavilla 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhkou2_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty YHKOU2-muuttujasta) 2. hakutoiveen yhteishaun koulukoodista. Saatavilla 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhkou3_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty YHKOU3-muuttujasta) 3. hakutoiveen yhteishaun koulukoodista. Saatavilla 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhkou4_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty YHKOU4-muuttujasta) 4. hakutoiveen yhteishaun koulukoodista. Saatavilla 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhkoukv_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty YHKOUKV-muuttujasta) konevalinnan yhteishaun koulukoodista. Saatavilla 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhkouv_s",
+      "variablename": null,
+      "conceptdef": "Suojattu muuttuja (tehty YHKOUV-muuttujasta) valinnan yhteishaun koulukoodista. Saatavilla 1999",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tun",
+      "variablename": null,
+      "conceptdef": "Tunnistetieto.\n1996-1997 muotoa (XVVAA), jossa VV on kyseinen vuosi (96, 97) ja loppuosa AA on yhtä kuin alue-koodi. 1998 eteenpäin muotoa (XVVVV), jossa VVVV on kyseinen vuosi (1998, 1999). Haun tunniste X = A (AMKYH),  Y, K tai S (YHVA)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

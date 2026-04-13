@@ -1,0 +1,92 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppija_oid_s",
+      "variablename": "Suojattu oppijatunnus",
+      "conceptdef": "Suojattu OPH:n oppijatunnus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluoikeus_oid_s",
+      "variablename": "Suojattu opiskeluoikeuden tunniste",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sis_opiskeluoikeuteen_oid_s",
+      "variablename": "sisaltyy_opiskeluoikeuteen_oid_s",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste, joissain tapauksissa opiskeluoikeuden toimija ostaa koulutuksen toiselta koulutustoimijalta, näissä tapauksissa linkki opiskeluoikeuksien väliltä löytyy tästä kentästä. ks. tarkemmat lisätiedot OPH:n eduuni-wikistä (https://wiki.eduuni.fi/spaces/OPHPALV/pages/431685903/r_opiskeluoikeus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmuoto",
+      "variablename": "koulutusmuoto",
+      "conceptdef": "Huom. ammatilliseen koulutukseen kuuluu monta eri tyyppistä koulutusta (tutkintokoulutuksen lisäksi esim. valma-koulutus), joten niiden tunnistamiseen täytyy lisäksi käyttää suorituksen_tyyppi-kenttää",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alku",
+      "variablename": "Tilajakson alkupäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppu",
+      "variablename": "Tilajakson loppupäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tila",
+      "variablename": "Tila",
+      "conceptdef": "Opiskeluoikeuden tila rivin kuvaaman aikajakson aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opintojen_rahoitus",
+      "variablename": "opintojen rahoitus",
+      "conceptdef": "Tieto siitä, mikä rahoitusmuoto opinnoilla on ollut rivin kuvaaman aikajakson aikana. Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/opintojenrahoitus/latest. Huomio: opintojen_rahoitus='14' tarkoittaa jotpa-rahoitettuja opintoja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tila_alkanut",
+      "variablename": "tila alkanut",
+      "conceptdef": "Huomio: jos opiskelijalla on useita peräkkäisiä saman tilan jaksoja, tässä kentässä näkyy näistä ensimmäisen alkamispäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppisopimus_paatason_suoritukses",
+      "variablename": "oppisopimus jossain paatason suorituksessa",
+      "conceptdef": "Tieto siitä, jos oppija on ollut oppisopimusmuotoisessa koulutuksessa rivin kuvaaman aikajakson aikana. Relevantti ammatillisen koulutuksen opiskeluoikeuksissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

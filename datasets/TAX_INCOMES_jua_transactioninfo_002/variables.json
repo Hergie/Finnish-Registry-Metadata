@@ -1,0 +1,260 @@
+{
+  "variables": [
+    {
+      "identifier": "repId",
+      "variablename": "Raportin rivinumero",
+      "conceptdef": "Tilastokeskuksessa muodostettu raportin  tunniste, joka muodostuu samalla kun kyseinen taulu tehdään. Muodostettu, jotta taulujen yhdistäminen olisi tehokkaampaa. Report.id=transactioInfo.repId\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "latauspvm",
+      "variablename": "Aineiston poimintapäivämäärä Tulorekisteristä",
+      "conceptdef": "Tarkoittaa sitä hetkeä, jolloin Tilastokeskus on poiminut aineiston Tulorekisteristä. Tilastokeskus sai tulorekisterin tiedot käyttöön vuoden 2020 alussa, joten tästä syystä vuoden 2019 tiedot on ladattu vasta vuoden 2020 puolella. Tyypillisesti tulorekisteriin ilmoitetut tiedot ladataan yhden päivän viiveellä Tilastokeskukseen.\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "transactionCode",
+      "variablename": "Tulolajin koodi",
+      "conceptdef": "100- ja 200-sarja vastaavat toisiaan. 100-sarjassa on laskettu kaikki kaksisataa sarjan tiedot yhteen palkkasummaan. Vastaaja voi antaa tiedot ainoastaan toisella sarjoista. Eli jos raportissa on yksikin 200-sarjan erä niin tällä ilmoituksella ei voi ilmoittaa 100-sarjan eriä.\nhttps://www.vero.fi/globalassets/tulorekisteri/tulolajien-ja-tuloista-vahennettavien-erien-selitteet-2020.pdf\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amount",
+      "variablename": "Tulolajin euromäärä",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "noMoney",
+      "variablename": "Maksettu muuna kuin rahana",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oneOff",
+      "variablename": "Kertakorvaus",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unjustEnrichment",
+      "variablename": "Perusteeton etu",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "recovery",
+      "variablename": "Takaisinperintä",
+      "conceptdef": "\"True\" tai tyhjä. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "origPaymentDate",
+      "variablename": "Takaisinperinnän alkuperäinen maksupäivä",
+      "conceptdef": "Jos tulolajille on ilmoitettu useita maksupäiviä, niin otetaan viimeisin.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "origStartDate",
+      "variablename": "Takaisinperinnän alkuperäisen maksujakson alku",
+      "conceptdef": "Jos tulolajille on ilmoitettu useita maksujakson alkupäiviä, niin otetaan ensimmäinen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "origEndDate",
+      "variablename": "Takaisinperinnän alkuperäisen maksujakson loppu",
+      "conceptdef": "Jos tulolajille on ilmoitettu useita maksujakson loppupäiviä, niin otetaan viimeisin. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitPrice1",
+      "variablename": "Tunnin hinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitAmount1",
+      "variablename": "Tuntien määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitPrice2",
+      "variablename": "Päivän hinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitAmount2",
+      "variablename": "Päivien määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitPrice3",
+      "variablename": "Viikon hinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitAmount3",
+      "variablename": "Viikkojen määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitPrice5",
+      "variablename": "Jakson hinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unitAmount5",
+      "variablename": "Jaksojen määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "earningPeriodStartDate",
+      "variablename": "Ansaintajakson alku",
+      "conceptdef": "Jos tulolajille on ilmoitettu useita ansaintajaksoja, niin alkupäiväksi ensimmäinen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "earningPeriodEndDate",
+      "variablename": "Ansaintajakson loppu",
+      "conceptdef": "Jos tulolajille on ilmoitettu useita ansaintajaksoja, niin loppupäiväksi viimeinen. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode1",
+      "variablename": "Sosiaalivakuutusmaksujen alainen (koodit 2-6)",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode2",
+      "variablename": "Työeläkevakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode3",
+      "variablename": "Sairasvakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode5",
+      "variablename": "Työttömyysvakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceCode6",
+      "variablename": "Työtapaturma- ja ammattitautivakuutusmaksun alainen",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mealBenefitTaxvalue",
+      "variablename": "Ravintoedusta peritty korvaus joka vastaa verotusarvoa",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "benefitCode",
+      "variablename": "\"Muun luontaisetu\"- tulolajin lisätieto",
+      "conceptdef": "1 = Asuntoetu, 2 = Puhelinetu, 3 = Ravintoetu, 4 = Muut edut. Jos tulolajille on ilmoitettu useita muun luontoisedun tietoja, niin koodiksi 99. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sixmonthruleApplicable",
+      "variablename": "6 kk sääntö",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "dailyAllowanceCode",
+      "variablename": "Päivärahan tyyppi",
+      "conceptdef": "Jos tulolajille on ilmoitettu useita päivärahan tyyppejä, niin koodiksi 99. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "recoveryDate",
+      "variablename": "Takaisinperintäpäivä",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taxAtSource",
+      "variablename": "Takaisinperittyyn määrään kohdistuva lähdevero",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

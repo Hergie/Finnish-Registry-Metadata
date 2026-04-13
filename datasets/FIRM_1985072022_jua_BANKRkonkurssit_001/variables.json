@@ -1,0 +1,364 @@
+{
+  "variables": [
+    {
+      "identifier": "TUIS",
+      "variablename": "Tuomioistuintunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SAAPV1",
+      "variablename": "Hakemuksen saapumisvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SAAPV3",
+      "variablename": "Hakemuksen saapumiskuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SAAPV4",
+      "variablename": "Hakemuksen saapumispäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASIA",
+      "variablename": "Siviiliasiain nimikkeistön koodi",
+      "conceptdef": "1600\tKonkurssihakemus (hyvin vähän havaintoja, syy ei tiedossa)\n1690\tMuu konkurssiasia (hyvin vähän havaintoja, syy ei tiedossa)\n3310\tKonkurssihakemus\n3311\tTuntematon (lienevät vanhan aineiston näppäilyvirheitä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAPV1",
+      "variablename": "Konkurssiin asettamisen päätöksen vuosi",
+      "conceptdef": "Ajankohta, jolloin velallisen hallinta siirtyy pesänselvittäjälle",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAPV3",
+      "variablename": "Konkurssiin asettamisen päätöksen kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAPV4",
+      "variablename": "Konkurssiin asettamisen päätöksen päivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LPPV1",
+      "variablename": "Lopullisen päätöksen vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LPPV3",
+      "variablename": "Lopullisen päätöksen kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LPPV4",
+      "variablename": "Lopullisen päätöksen päivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RKOD",
+      "variablename": "Lopullisen päätöksen ratkaisukoodi",
+      "conceptdef": "Harvinaiset arvot (lähinnä 1990-luvun vuosina) saattavat olla vanhan lähdeaineiston virheellisiä kirjauksia. Suuri osa arvoista ei ole käytössä konkurssiaineistossa, vaan ainoastaan muissa samarakenteisissa aineistoissa (esim. yrityssaneerausaineisto).\n\n01\tYPT, hyväksytty (hyvin vähän havaintoja, syy ei tiedossa)\n03\tHyväksytty kokonaan tai osittain\n04\tHylätty\n05\tTutkimatta jätetty\n06\tSovinto vahvistettu\n07\tSillensä, sovinto\n08\tSillensä, muu syy\n13\tTakaisinsaanti, hyväksytty (hyvin vähän havaintoja, syy ei tiedossa)\n15\tKonkurssituomio (2004 alkaen jakoluettelon vahvistaminen)\n16\tHakemus rauennut / sillensä\n17\tHakemus peruutettu\n18\tHakemusasiassa sopimus (vähän havaintoja, syy ei tiedossa)\n19\tAsia siirretty (asian siirto toiseen tuomioistuimeen mahdollista, vaikkakin harvinaista. Vain osa käräjäoikeuksista toimivaltaisia konkurssien käsittelyssä.)\n20\tMenettelyn aloittamispäätös (Huom! Kyseessä on vain osaratkaisu, tilasto on laadittu lopullisista ratkaisuista.)\n23\tMenettely määrätty lakkaamaan (hyvin vähän havaintoja, syy ei tiedossa)\n27\tKonkurssin peruuntuminen\n28\tJakoluettelon vahvistaminen (2003 asti konkurssituomio)\n29\tJakoluettelon muuttaminen\n30\tJulkisselvitykseen siirtyminen\n31\tKonkurssipesän hallinnon palauttaminen (mahdollista konkursseissa, mutta harvinaista)\n99\tErhe\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SELITE1",
+      "variablename": "Lopullisen ratkaisukoodin selitekoodi",
+      "conceptdef": "Selitekoodi täydentää tapauksen ratkaisukoodia, eikä siten lähtökohtaisesti sovellu käytettäväksi sellaisenaan.\n\n04\tEi edelletyksiä (hyvin vähän havaintoja, syy ei tiedossa)\n16\tKonkurssiinasettamispäätös (hyvin vähän havaintoja, syy ei tiedossa)\n21\tVarojen vähäisyys\n22\tYrityssaneeraus\n23\tAsianosaisten poissaolo\n24\tKonkurssiinasettamispäätös kumottu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SELITE2",
+      "variablename": "Lopullisen ratkaisukoodin selitekoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SELITE3",
+      "variablename": "Lopullisen ratkaisukoodin selitekoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VKELA",
+      "variablename": "Konkurssivelallisen kotikunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HASEMA",
+      "variablename": "Konkurssiin hakijan asema",
+      "conceptdef": "1\tVelallinen itse\n2\tVelkoja\n3\tKuolinpesän osakas",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKOD",
+      "variablename": "Velallisen päätoimialakoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VARAT",
+      "variablename": "Konkurssipesän varat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VELAT",
+      "variablename": "Konkurssipesän velat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YSV",
+      "variablename": "Yrityssaneeraus vireillä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALI",
+      "variablename": "Asiasta valitettu hovioikeuteen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULAANI",
+      "variablename": "Kunnan uusi läänikoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNIMI",
+      "variablename": "Kunnan suomenkielinen nimi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAAK",
+      "variablename": "Maakunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUURA",
+      "variablename": "Suuralue",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUNTA5",
+      "variablename": "Sijaintikunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL02",
+      "variablename": "Toimiala 2002",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL08",
+      "variablename": "Toimiala 2008",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL88",
+      "variablename": "Toimiala 1988",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SEUTUK",
+      "variablename": "Seutukunta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL95",
+      "variablename": "Toimiala 1995",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPJM",
+      "variablename": "Lopullinen oikeudellinen muoto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPKELA",
+      "variablename": "Lopullinen kuntatieto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPHKPA",
+      "variablename": "Lopullinen palkatun henkilöstön määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPHKYR",
+      "variablename": "Lopullinen yrittäjien määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPLV",
+      "variablename": "Lopullinen liikevaihto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPVUOPA",
+      "variablename": "Lopullinen vuosipalkkasumma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPTOL08",
+      "variablename": "Lopullinen toimiala 2008",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HASEMA1",
+      "variablename": "Konkurssiin hakijan asema",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HASEMA2",
+      "variablename": "Konkurssin hakijan täydennys kun täydennys on velkoja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRIT",
+      "variablename": "Vuoden 1. konkurssihakemuksen tunniste (=1, muut=0)",
+      "conceptdef": "Tilastossa otetaan mukaan PRIT=1 tiedot. Jos PRIT=0, ei havaintoa kannattane ottaa tarkasteluun.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "idtyyp",
+      "variablename": "Konkurssivelallisen yritystunnuksen tyyppi",
+      "conceptdef": "1 = y-tunnus\n2 = hetu-muotoinen tunnus (vuodesta 1998 alkaen vain harvoin)\n3 = muu (esim. tekstiä)\n\nVuoteen 2016 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu konkurssivelallisen yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu konkurssivelallisen henkilönumero",
+      "conceptdef": "Vuoteen 2016 asti, puutteellinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

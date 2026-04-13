@@ -1,0 +1,228 @@
+{
+  "variables": [
+    {
+      "identifier": "SP",
+      "variablename": null,
+      "conceptdef": "Sukupuolikoodi\n1 = mies, 2 = nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUNTA",
+      "variablename": null,
+      "conceptdef": "Kotikunta 31.12. edellisenä vuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKUNTA",
+      "variablename": null,
+      "conceptdef": "Kotikunta 31.12. edellisenä vuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKIELI_K",
+      "variablename": null,
+      "conceptdef": "Hakijan äidinkieli 31.12. (karkeistettu tieto). Karkeistetut luokitukset:\n1 = suomi\n2 = ruotsi\n3 = muu tai ei tietoa\n(3 sis. kaikki muut luokat, ml. luokan 99 = ei tietoa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERVAL",
+      "variablename": null,
+      "conceptdef": "Erillisvalinta\n0 = ei, 1 = kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AVOV",
+      "variablename": null,
+      "conceptdef": "Avoimen väylän kautta hakenut",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKOUL",
+      "variablename": null,
+      "conceptdef": "Pohjakoulutuskoodi\n1 suomalainen yo-tutkinto\n2 pohjoismainen yo-tutkinto\n3 ib-tutkinto\n4 reifeprufung-tutkinto\n5 eb-tutkinto\n6 abi\n7 peruskoulu\n8 amk\n9 muu ammatillinen\n10 ulkomaalainen\n11 akk\n12 ykk\n13 avoin\n14 erivapaus\n15 muu koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VOSAL",
+      "variablename": null,
+      "conceptdef": "Valintakokeeseen osallistuminen\n0 = ei, 1 = kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HYV",
+      "variablename": null,
+      "conceptdef": "Valinnan tulos\n0 kesken\n1 hyväksytty \n2 hylätty\n3 varalla\n4 varasijalta hyväksytty",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAHV",
+      "variablename": null,
+      "conceptdef": "Opiskelupaikan vastaanottaminen\t\n0 ei\n1 vastaanottanut\n2 perunut (hakija itse perunut paikan)\n3 peruuntunut, hakija on vastaanottanut paikan muualta\n4 peruutettu, hakija ei vastannut ajoissa\n5 koulutus peruutettu\n6 rekisterinpitäjä peruuttanut\n7 amk:n yhteishaussa peruuntunut\n8 ehdollinen vastaanotto, toisen paikan jonotus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JONO",
+      "variablename": null,
+      "conceptdef": "Jonotus\n0 ei\n1 kyllä\n2 mahdoton jonotus (kohteeseen ei jonotusoikeutta)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIRJO",
+      "variablename": null,
+      "conceptdef": "Kirjoittautuminen\n0 ei\n1 läsnä\n2 poissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRIOR",
+      "variablename": null,
+      "conceptdef": "Hakukohteen prioriteetti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VTAPA",
+      "variablename": null,
+      "conceptdef": "Valintatapa\n1 todistus + koe\n2 valintakoe\n3 todistus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPALA",
+      "variablename": null,
+      "conceptdef": "Opintoala\nOpetushallinnon koulutusluokitus 1995",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPASTE",
+      "variablename": null,
+      "conceptdef": "Opintoaste\nOpetushallinnon koulutusluokitus 1995",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULK",
+      "variablename": null,
+      "conceptdef": "Tilastokeskuksen koulutuskoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPKUNTA",
+      "variablename": null,
+      "conceptdef": "Koulutuksen kunta kuluvana vuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUN",
+      "variablename": null,
+      "conceptdef": "Koulutuksen kunta kuluvana vuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAUSI",
+      "variablename": null,
+      "conceptdef": "Lukukausi\t\nK keväällä alkanut koulutus\nS syksyllä alkanut koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPETUSKIELI",
+      "variablename": null,
+      "conceptdef": "Oppilaitoksen kieli kuluvana vuonna",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvuosi",
+      "variablename": null,
+      "conceptdef": "Vuosimuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": null,
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shetu",
+      "variablename": null,
+      "conceptdef": "Suojattu henkilötunnus. Muuttuja shnro toimii tunnisteena vuosittaisten aineistojen välillä, ja shetu toimii toissijaisena tunnisteena vain kunkin vuosiaineiston sisällä hakijoille, jolta puuttuu shnro. Ei yhdisty aineistojen välillä. Muuttujassa esiintyy myös vaillinaisista tiedoista johtuvia virheitä, eikä siihen tule suhtautua shnro:n tapaan luotettavana tunnistamisen välineenä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou",
+      "variablename": "Salattu koulumuuttuja",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme. Skkou on muodostettu niin, että korkeakoulut on luokiteltu kunkin kyseisen hakuvuoden tilanteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou1",
+      "variablename": "Salattu koulumuuttuja 2009",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme.\nSkkou1 on muodostettu niin, että korkeakoulut on luokiteltu vuoden 2009 tilanteen mukaan. Aineistosta on korvattu hakuvuoden jälkeen yhdistyneiden korkeakoulujen tunnukset vuonna 2009 olemassaolevan yliopiston suojatulla tunnuksella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou2",
+      "variablename": "Salattu koulumuuttuja 2013",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme.\nSkkou2 on muodostettu niin, että korkeakoulut on luokiteltu vuoden 2013 tilanteen mukaan. Aineistosta on korvattu hakuvuoden jälkeen yhdistyneiden korkeakoulujen tunnukset vuonna 2013 olemassaolevan yliopiston suojatulla tunnuksella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ytunnus_s",
+      "variablename": null,
+      "conceptdef": "Suojattu koulutuksen järjestäjän y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

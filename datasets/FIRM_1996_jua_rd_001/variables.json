@@ -1,0 +1,108 @@
+{
+  "variables": [
+    {
+      "identifier": "HK",
+      "variablename": "Yrityksen henkilökunta 1996",
+      "conceptdef": "Henkilökunta 31.12.1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Yrityksen liikevaihto vuonna 1996",
+      "conceptdef": "Yrityksen liikevaihto (1000mk) vuonna 1996 tai tilikaudelta (12 kk), joka päättyi 1.4.1996-31.3.1997",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKM",
+      "variablename": "Oman t&k-toiminnan menot",
+      "conceptdef": "Yrityksen oman tutkimus- ja kehittämistoiminnan menot yhteensä 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILTKM",
+      "variablename": "Ulkopuolelta tilatun t&k-toiminnan menot",
+      "conceptdef": "Yrityksen ulkopuolelta tilaaman t&k:n menot yhteensä 1996",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "THK",
+      "variablename": "T&k-henkilöstö yhteensä",
+      "conceptdef": "Yrityksen tutkimushenkilökunnan määrä 1996. Tutkimushenkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k -työtä tai t&k -hankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV",
+      "variablename": "Tutkimustyövuodet",
+      "conceptdef": "Yrityksen tutkimus- ja kehittämistoimintaan käytetyt tutkimustyövuodet 1996. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK97",
+      "variablename": "T&k- toiminnan menot 1997",
+      "conceptdef": "Yritys on suunnitellut omaa t&k-toimintaa vuodelle 1997, arvioidut menot (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKHARJ",
+      "variablename": "T&k:n harjoittaminen",
+      "conceptdef": "Yritys harjoitti t&k-toimintaa vuosina 1994-1996, 1=säännöllisesti, 2= satunnaisesti (esim. yksittäisten t&k-projektien muodossa), 3= ei harjoittanut",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTE",
+      "variablename": "Tiedonantajarekisterin vastaustilanne",
+      "conceptdef": "Vastaustilanne: 0=ei innovaatiotoimintaa 1=on innovaatiotoimintaa 2=vastannut muulla kuin yritystasolla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTOSSL",
+      "variablename": "Yrityksen suuruusluokka",
+      "conceptdef": "Yrityksen suuruusluokka: 1=0-4, 2=5-9, 3=10-19, 4=20-49, 5=50-99, 9=100+",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTOSTOL",
+      "variablename": "Toimiala otoksessa",
+      "conceptdef": "Otoksessa käytetty toimiala (TOL95): 15=Elintarvikkeet, juomat\n16=Tupakka\n17=Tekstiilit\n18=Vaatteet\n19=Nahkatuotteet, jalkineet\n20=Puutavaratuotteet\n21=Massa, paperi, paperituotteet\n22=Kustantaminen ja painaminen\n23=Koksi, öljytuotteet, ydinpolttoaine\n24=Kemikaalit, kemialliset tuotteet\n25=Kumi- ja muovituotteet\n26=Lasi-, savi, kivituotteet\n27=Perusmetallit \n28=Metallituotteet\n29=Koneet, laitteet\n30-33=Sähkötekninen teollisuus, mikroyritykset\n30=Konttori- ja tietokoneet\n31=Muut sähkökoneet ja -laitteet\n32=Radio-,televisio- ja tietoliikennevälineiden valmistus\n33= Lääkintä- ja hienomekaaniset kojeet, optiset instrumentit\n34=Autot, perävaunut\n35=Muut kulkuneuvot\n36=Huonekalut, muut tuotteet\n37=Kierrätys, muut tuotteet\n40=Sähkö-, kaasu- ja lämpöhuolto\n41=Veden puhdistus ja jakelu\n51=Agentuuritoiminta ja tukkukauppa\n60=Maaliikenne\n61=Vesiliikenne\n62=Ilmaliikenne\n642=Teleliikenne\n65=Rahoituksen välitys\n66=Vakuutustoiminta\n67=Rahoitusta palveleva toiminta\n72=Tietojenkäsittelypalvelu\n742=Tekninen palvelu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKERR",
+      "variablename": "Lukumääräkerroin",
+      "conceptdef": "Lukumääräkerroin (otosryhmän yritysten lkm / vastanneiden lkm)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, yrityksen y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

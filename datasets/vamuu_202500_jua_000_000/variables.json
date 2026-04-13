@@ -1,0 +1,108 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilvv",
+      "variablename": "Tilastovuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilkk",
+      "variablename": "Tilastokuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaesto",
+      "variablename": "Väestöön kuuluminen",
+      "conceptdef": "Saa arvon 1, jos henkilö kuuluu väestöön",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotikunta",
+      "variablename": "Kotikunta",
+      "conceptdef": "Kuntanumero (avain löytyy Fionan metatieto-kansiosta). Tilapäisen muuton Suomeen (kotikunta=198) data on laadultaan heikkoa, ja mikäli tilapäisen muuton tehneet poistuvat maasta ilmoittamatta, he tulevat jäämään tilapäisen kotikunnan omaavien joukkoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotikuntaAlkupvm",
+      "variablename": "Kotikunnassa asumisen alkupäivä",
+      "conceptdef": "Kotikunnan kuntanumeron mukaisen kotikunnan asumisen alkamispäivä. \n\nHuom. tilapäisen suojelun oleskeluluvan saaneet Ukrainasta tulleet lähtökohtaisesti saaneet kotikunnaksi tilapäinen kunta Suomessa (198) ja kotikuntaAlkupvm kertoo tilapäisen asumisen alkamispäivän. He ovat voineet anoa vakinaista kotikuntaa Suomesta 1.3.2023 alkaen (kotikunta on mahdollista saada, kun tilapäinen oleskelu Suomessa on kestänyt vähintään vuoden). Kotikunnan saadessaan alkamispäiväksi tulee käytännössä kotikunnan myöntämispäivä (ja tällöin tilapäisen suojelun oleskeluluvan saaneet tulevat myös osaksi väestöä).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kieli_k",
+      "variablename": "Kieli",
+      "conceptdef": "Karkeistettu kielitieto (alunperin 2-merkkinen ISO-kielikoodi). Tieto kielestä on saatu väestötietojärjestelmästä.\nLuokat: suomi = 1, ruotsi = 2, muu = 3",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ekaKansalaisuus_k",
+      "variablename": "Henkilön ensimmäinen kansalaisuus",
+      "conceptdef": "Karkeistettu ensimmäisen kansalaisuuden tieto (alunperin 3-merkkinen ISO-valtiokoodi). Jos henkilöllä on Suomen kansalaisuus, se on merkitty aina ensimmäiseksi. \nLuokat: Suomi = 1, Eurooppa = 2,  muut = 3",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntValtio_k",
+      "variablename": "Syntymävaltio",
+      "conceptdef": "Karkeistettu syntymävaltiotieto (alunperin 3-merkkinen ISO-valtiokoodi). Luokat: Suomi = 1, Eurooppa = 2,  muut = 3",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukupuoli",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Tieto sukupuolesta on saatu Väestötietojärjestelmästä. Ei saatavilla jäädytetyissä kuukausittaisissa ennakkotiedoissa. Muuttuja on saatavilla ainoastaan päivittyvässä taulussa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntymakk",
+      "variablename": "Syntymäkuukausi",
+      "conceptdef": "Henkilön syntymäkuukausi, muotoa VVVVKK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolinkk",
+      "variablename": "Kuolinkuukausi",
+      "conceptdef": "Henkilön kuolinkuukausi, muotoa VVVVKK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

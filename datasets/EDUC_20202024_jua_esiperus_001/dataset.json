@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "EDUC_20202024_jua_esiperus_001.xml",
+      "doi": "he_201304_ain_Opiskelutekeilla",
+      "subject": "EDUC_ESIPERUS Oppilaat 2020 - 2024",
+      "contentdescription": "Esi- ja perusopetusmoduuli sisältää tiedot oppilaista, jotka ovat olleet 20.9. kirjoilla esi- ja perusopetuksessa.\nTiedot pohjautuvat KOSKI-rekisterin ja Ahvenanmaan tilastoviraston ja Helsingin eurooppalaisen koulun henkilöpohjaisiin oppilasaineistoihin, jotka opiskelevat peruskouluissa esiopetuksessa tai peruskoulun oppimäärää vuosiluokilla 1-9 tai lisäopetuksessa (10 -luokka tai pv eli perusopetukseen valmistava koulutus).\nSisältökuvaus\nTietosisältö kattaa myös ennen oppivelvollisuuden alkua aloittaneet oppilaat.\nEsi- ja perusopetuksen oppilaiden tiedot ovat aineistossa vuodesta 2020 alkaen. \nEDUC_ESIPERUS moduulin aineisto koostuu seuraavista tiedostoista:\t\neduc_esiperus_2020\neduc_esiperus_2021\neduc_esiperus_2022\neduc_esiperus_2023\n\n\nOpiskelusta on erikseen saatavilla arkaluonteisia erityisopetukseen liittyviä muuttujia, joihin annetaan\nkäyttöoikeus vain, jos niihin on tutkimuksellisesta syystä erityinen tarve.\n\nYLEISIMMÄT KÄYTTÖTAVAT:\n* Jaottelu esiopetukseen, perusopetukseen, lisäopetukseen ja aikuisten opetukseen saadaan muuttujan KLAJI avulla. Aineisto on rajattu AIN -muuttujan avulla, niin että lähdeaineistosta otetaan arvo ’10’ (esi-ja peruskoulutuksen aineisto).\n* Koulutuksessa läsnä olleet saadaan poimittua valitsemalla OLOSYYS -muuttujan\narvo 1 (=20.9).\n* Muuttujassa OLOSYYS perusopetuksen tiedoille on määritelty arvo 1 = läsnä 20.9.\n* Jos tiedot halutaan koulutuksittain, käytetään yleensä koulutusluokituksen (standardiluokitus)\n6-numeroista koulutuskoodia, joka löytyy muuttujasta KOULK. Koulutuskoodi on myös avain eri\nkoulutusluokituksiin.\n* Uudet opiskelijat saadaan muuttujan ALVV avulla (ALVV=vuosi). \n* ALVV-muuttuja tarkoittaa peruskoulun 1. vuosiluokan oppilaita. Muilla AIN = 10 -ryhmässä tieto on tyhjä.\n* KKIELI tietoa ei ole varhaiskasvatuksen esiopetustiedoilla.\n* Varhaiskasvatuksen esiopetuksen KKUN-tiedoksi on määritelty järjestäjän kunta.\n\nLUOKITUKSET:\n* Luokitustiedot ovat tilastovuodelta, mikäli muuta mainintaa ei ole.\n* Tilastovuodesta 2016 alkaen Tilastokeskus raportoi koulutustiedot käyttäen uutta Kansallista\nkoulutusluokitusta, joka vastaa Kansainvälistä ISCED 2011 -koulutusluokitusta.\n* Puuttuvat tiedot on usein koodattu merkillä yhdeksän (9) ja kuntamuuttujissa koodi 200 viittaa\nulkomaihin.\n\nKARKEISTETUT MUUTTUJATIEDOT:\nValmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_ESIPERUS_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.\n  \nTästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_ESIPERUS, ja maksaa saman verran. EDUC_ESIPERUS sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi\n\n\n",
+      "coveragetemporal": "2020-01-01 - 2024-12-31",
+      "published_day": "2025-12-18",
+      "variable_count": "25",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Esi -ja perusopetuksen oppilaat Suomessa",
+      "resourcerelation_1": "TK: Oppilaitostilastot",
+      "resourcerelation_2": null,
+      "keywords": "Opiskelija,opiskelu,oppilas",
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

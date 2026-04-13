@@ -1,0 +1,316 @@
+{
+  "variables": [
+    {
+      "identifier": "hyod",
+      "variablename": "Hyödyketunnus -- surrogaatti",
+      "conceptdef": "Hyödykkeen/palvelun surrogaattitunnus. Vuosissa 1997-1999 käytettiin surrogaattitunnusta coicop-koodin sijaan. Vuodesta 2000 lähtien on käytetty coicop-koodia hyödykkeen yksilöimisessä.",
+      "measunit": null,
+      "classification": "coicop",
+      "variablegroups": null
+    },
+    {
+      "identifier": "hitun",
+      "variablename": "Hintahavaintotunnus",
+      "conceptdef": "Nelinumeroineinen hintahavaintotunnus. Yksilöi yhden hintahavaintotapahtuman siten, että se on tasolla hyödyketunnus--tilastoaika--liike. Käytössä vuosina 1997-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stat",
+      "variablename": "Status",
+      "conceptdef": "Käytössä vuosina 1997-1999, vastaa mjaa \"status\" vuosissa 2000-2015. Kuvaa hintahavainnon aktiivisuustilaa. Passiivisia hintahavaintoja ei ole otettu laskentaan mukaan. 0=passive, 1=active.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kt",
+      "variablename": "Keruutunnus",
+      "conceptdef": "Kuvaa tiedonkeruun toteutusta ja kohdetta vuosina 1997-2012. Vaihtoehtoiset toteutustavat ovat haastattelijakeruu ja keskitetty keruu. Haastattelijakeruuseen kuuluvat koodit P ja A. In year 1997-1999 accepted values were 3, 4, 6, 7 while between 1.1.2000-31.12.2012 accepted values were  P=daily products collected by interviewer, A=other products collected by interviewer, K=centrally collected data collection.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lamu",
+      "variablename": "Laadunmuutoskoodi",
+      "conceptdef": "'=no quality change, 00=minor quality, 10=remarkable quality change. Käytössä vuosina 1997-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hinta",
+      "variablename": "Hinta",
+      "conceptdef": "Vähittäismyyntihinta, sis. alv:n ja valmiste- ja muut verot. Ns. kuluttajan maksama hinta. Käytössä vuosina 1997-1999. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hiko",
+      "variablename": "Hintakoodi",
+      "conceptdef": "Kuvaa hintatietoa, onko se normaali hinta, alennettu hinta, puuttuva hinta vai uuden hyödykkeen hinta. T=normaalihinta, A=alennettu hinta, P=puuttuva hinta, U 00/U10=korvattu. Käytössä vuosina 1997-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maara",
+      "variablename": "Määrä",
+      "conceptdef": "Pakkauksen koko/määrä. Käytössä vuosina 1997-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nimi",
+      "variablename": "Hyödykkeen nimi",
+      "conceptdef": "Tuotteen tai palvelun nimi. Käytössä vuosina 1997-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sual",
+      "variablename": "Suuralue",
+      "conceptdef": "NUTS2 alueluokituksen mukainen koodi. Uudemmissa vuosissa käytetty mjanimeä \"suuralue\". 1=Uusimaa, 2=Southern Finland, 3=Eastern Finalnd, 4=Western Finland, 5=Northern Finland, 6=Ahvenanmaa, 7= Koko maa. Käytössä vuosina 1997-2012.",
+      "measunit": null,
+      "classification": "nuts2",
+      "variablegroups": null
+    },
+    {
+      "identifier": "hyodtunnus",
+      "variablename": "Hyödyketunnus",
+      "conceptdef": "Hyödyketunnus, joka vastaa COICOP-luokituksen tarkimman tason kansallista  luokka-arvoa. Käytössä vuosina 2000-2012.",
+      "measunit": null,
+      "classification": "coicop",
+      "variablegroups": null
+    },
+    {
+      "identifier": "status",
+      "variablename": "Status",
+      "conceptdef": "Käytössä vuodesta 2000 alkaen, vastaa mjaa \"stat\" vuosissa 1997-1999. Kuvaa hintahavainnon aktiivisuustilaa. Passiivisia hintahavaintoja ei ole otettu laskentaan mukaan. 0=passiivinen, 1=aktiivinen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "slitun",
+      "variablename": "Suojattu liiketunnus",
+      "conceptdef": "Liiketunnus yksilöi liikkeen, josta hintatiedot on kerätty. Käytössä vuosina 2000-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kk",
+      "variablename": "Kuukausi",
+      "conceptdef": "Vuosissa 1997-2012 käytetään kuukauden nimenä \"kk\", 2013-2015 \"kuukausi\".",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nhinta",
+      "variablename": "Hinta",
+      "conceptdef": "Hyödykkeen tai palvelun nykyhinta. On sama asia kuin hinta-tieto mjanimella \"hinta\" tai \"valid_hinta\". \nVähittäismyyntihinta, sis alv ja mahdolliset valmiste- ja muut verot. Käytössä vuosina 2000-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nhinta_num",
+      "variablename": "Hinta",
+      "conceptdef": "Kuvaa samaa asiaa kuin mja \"nhinta\" mutta nyt tämä arvo on numeerisena datassa. Käytössä vain vuosissa 2000-2015",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maara_num",
+      "variablename": "Määrä, numeerinen",
+      "conceptdef": "kuvaa saa kuin mja \"maara\" mutta tämä on numeerisessa muodossa. Käytössä vain vuosissa 2000-2015",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltyyppi",
+      "variablename": "Liiketyyppi",
+      "conceptdef": "Kuvaa liikkeen tyyppiä. 1,2,3,4 …10. Käytössä vuosina 2000-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yksikko",
+      "variablename": "Määräyksikkö",
+      "conceptdef": "Käytössä vuosina 2009-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kskoodi1",
+      "variablename": "Käyttökoodi",
+      "conceptdef": "ilmoittaa onko kyseinen hintahavainto käytössä KHI:ssä vai ei. x=yes, 0=no. Käytössä vuosina 2009-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kskoodi",
+      "variablename": "Käyttökoodi2",
+      "conceptdef": "kuten käyttökoodi1. x=yes, 0=no.Käytössä vuosina 2009-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuukausi",
+      "variablename": "Kuukausi",
+      "conceptdef": "Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilastoaika",
+      "variablename": "Tilastoaika",
+      "conceptdef": "kuvaa tilastoaikaa selkokielisessä muodossa tilastovuosi+ kuukausi suomenkielellä. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "havaintokohde_tunnus",
+      "variablename": "Hyödyketunnus",
+      "conceptdef": "9-merkkinen havaintokohdetunnus, josta aiemmin käytettiin nimeä hyod tai hyodtunnus. Hyödyketunnus, joka vastaa COICOP-luokituksen tarkimman tason luokka-arvoa. HUOM! mjaan kytketty luokitus sisältää pisteet eikä sisällä loppunollia, mutta muuten koodisto on oikein vuodelle 2015. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": "coicop_31_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "havaintokohde_nimi",
+      "variablename": "Hyödykkeen nimi",
+      "conceptdef": "Kuvaa hyödykkeen nimen. Ennen käytetty termiä \"nimi\". Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "havaintotapahtuma_tunnus",
+      "variablename": "Hintahavaintotunnus",
+      "conceptdef": "Kuvaa yhden havaintotapahtuman tunnusta. Yksilöi havaintotapahtuman tasolla hyödyke-tilastoaika-liike. Ennen tätä vastaava on hitun. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stiedonkohde_tunnus",
+      "variablename": "Suojattu liiketunnus",
+      "conceptdef": "Yksilöi keruuliikkeen. Ennen käytetty vastaavasta tiedosta nimeä \"slitun\". Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvo",
+      "variablename": "Hinta",
+      "conceptdef": "Kuvaa hyödykkeen tai palvelun hintaa tai pistelukua, joka osoittaa hinnassa tapahtuvaa muutosta. Ennen käytetty mjanimeä \"hinta\" tai \"nhinta\". Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hintakasite",
+      "variablename": "Hintakäsite",
+      "conceptdef": "Kuvaa hintatietoa. Käytetään yhdessä \"arvo\"-tiedon kanssa, jolloin tämä selittää sen onko kyseessä verollinen hinta, indeksipisteluku tmv. Vaihtoehtoiset arvot ovat NULL tai verollinen. NULL arvoa käytettäneen silloin kyse on indeksipisteluvusta arvo kentässä. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tieto",
+      "variablename": "Hintatieto",
+      "conceptdef": "Kuvaa arvo-kentän tiedon sisältöä. Vaihtoehtoiset arvot ovat NULL, hinta, indeksipisteluku. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valuutta",
+      "variablename": "Valuutta",
+      "conceptdef": "Valuuttaa kuvaava tieto. Voi saada arvon NULL, ei valuuttaa, euro. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahayksikko",
+      "variablename": "Rahayksikkö",
+      "conceptdef": "Kuvaa rahayksikköä. Voi saada arvon NULL, ei rahayksikköä, kerroin, snt. Yleensä kaikki euromääräiset tiedot esitetään kahden desimaalin tarkkuudella. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valid_hintakoodi",
+      "variablename": "Hintakoodi",
+      "conceptdef": "Sama kuin termi \"hiko\". T=normal price, A=discount price, P=missing price, U=replacement, N=?. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valid_laadunmuutoskoodi",
+      "variablename": "Laadunmuutoskoodi",
+      "conceptdef": "Sama kuin \"lamu\". Käytetään yhdessä mjan valid_hintakoodi kanssa. U-hintakoodit liittyvät arvoihin 00 ja 10 ja P-hintakoodit arvoihin imp, IMP. 0=no quality change, 00=minor quality, 10=remarkable quality change, IMP=imputoitu arvo, NULL=puuttuva tieto, imp=imputoitu arvo. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valid_maara",
+      "variablename": "Määrä",
+      "conceptdef": "Sama kuin mja \"maara\". Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maarayksikko",
+      "variablename": "Määräyksikkö",
+      "conceptdef": "Mittayksikkö jossa määrä on ilmoitettu. Sama kuin mja \"yksikko\". Vaihtoehtoiset arvot ovat: NULL, annos, desilitra, ei määräyksikköä, gigatavu, \ngramma, gramma tai kappale, kerta, kilowattitunti, kuukausi, kuutio, kuutiometri, litra, megawattitunti, metri, millilitra, minuutti, neliö, neliömetri, pakkaus, pari, prosentti, tunti, vuorokausi, vuosi. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suuralue",
+      "variablename": "Suuralue",
+      "conceptdef": "sama kuin mja \"sual\". 1=Uusimaa, 2=Etelä-Suomi, 3=Itä-Suomi, 4=Länsi-Suomi, 5=Pohjois-Suomi, 6=Ahvenanmaa, 7= Koko maa. Alkaen vuodesta 2013.",
+      "measunit": null,
+      "classification": "nuts2",
+      "variablegroups": null
+    },
+    {
+      "identifier": "arvo_num",
+      "variablename": "Arvo, numeerinen",
+      "conceptdef": "Kuvaa saa kuin mja \"arvo\" mutta tämä on numeerisessa muodossa. Käytössä 2013 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

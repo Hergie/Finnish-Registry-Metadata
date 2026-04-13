@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "YA212_19742011_jua_ldpm_001.xml",
+      "doi": "work_2013-11_2013-11-25_ain_0001",
+      "subject": "FIRM_PROD Teollisuuden toimipaikkapaneeli LDPM (YA212)",
+      "contentdescription": "Longitudinal Database on Plants in Finnish Manufacturing (LDPM) -aineisto on vuodet 1974 - 2011 käsittävä paneeli teollisuuden toimipaikoista. Paneeli sisältää toimipaikkatason tietoja tuotantopanoksista ja tuotoksesta sekä lukuisia taustamuuttujia. \n\nAineisto on koottu teollisuustilastokyselystä (vuodet 1974 - 94) ja rakennetilaston teollisuustoimipaikkoja koskevista tiedoista (vuodet 1995-). Aineistossa on tästä syystä katkoskohta vuosien 1994 ja 1995 välillä sekä otoskehikon että muuttujasisällön osalta. Vuoteen 1994 kysely kattoi periaatteessa kaikki vähintään 5 hengen toimipaikat. Vuoden 1995 jälkeen mukana ovat kaikki vähintään 20 hengen yritysten toimipaikat (myös sellaiset, joiden koko on alle 5 henkeä). Aineiston otoskehikkoon sisältyy siis jokaisena vuotena vähintään 20 henkeä työllistäneet toimipaikat.\n\nAineiston rahamääräiset muuttujat on ilmaistu tuhansissa euroissa.\n\nPääosin tiedot on otettu rekisteristä “sellaisena kuin ne olivat”. Aineistossa ei pitäisi olla katoa (tai puuttuvia tietoja). Toisin sanoen, jos muuttujaa on kysytty kyseisenä vuotena, puuttuvan tiedon pitäisi tarkoittaa nollaa. Kaikissa tilanteissa tästä ei kuitenkaan ole täyttä varmuutta, joten kannattaa tapauskohtaisesti miettiä, tarkoittaako puuttuva tieto nollaa vai onko mahdollista, että oikeaa arvoa ei tiedetä.\n\nAineiston pääomamuuttuja on laskettu perpetual inventory method (PIM) -menetelmällä. Pääomamuuttujan laskentakaava on muotoa\nK(t) = (1-s)K(t-1) + I(t),\njossa K(t) on pääomakanta vuonna t, s poistoaste ja I(t) investointi vuonna t. Pääomakantaa laskettaessa poistoasteen s arvona on käytetty 0,10. Laskettaessa pääomakantaa tällä menetelmällä tarvitaan tiedot toimipaikan investoinneista joka vuodelta toimipaikan perustamisvuodesta lähtien. Tämän kriteerin täyttävät vuonna 1974 ja sen jälkeen aloittaneet toimipaikat, joiden investointiaikasarjassa ei ole aukkoja. Ennen vuotta 1974 aloittaneille toimipaikoille investointiaikasarjan alkupäätä ei ole havaittu ja niiden kohdalla pääoman alkuarvon laskennassa on käytetty käyttöomaisuuden palovakuutusarvoa.\n\nLähtöaineiston tuotanto- ja kustannustiedot ovat nimellisarvoisia. Joitakin muuttujia (tuotanto, arvonlisä, välipanokset ja investoinnit) on muunnettu reaaliarvoisiksi käyttämällä vastaavia kansantalouden tilinpidon implisiittisiä hintaindeksejä.\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n\n \n\n",
+      "coveragetemporal": "1974-01-01 - 2011-12-31",
+      "published_day": "2016-02-17",
+      "variable_count": "107",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Teollisuuden toimipaikat",
+      "resourcerelation_1": "Teollisuustilastokyselyt 1974 - 1994 ja rakennetilaston teollisuuden toimipaikkatiedot 1995 -",
+      "resourcerelation_2": "<a href= \"http://www.tilastokeskus.fi/til/alyr/index.html\">Alueellinen yritystoimintatilasto</a> <a href= \"http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_teollisuuden_tuotantotiedot.html\">Teollisuuden tuotantotiedot</a> ",
+      "keywords": "bruttoarvo,henkilöstö,investoinnit,jalostusarvo,käyttöomaisuus,teollisuus,toimipaikat,tuotanto",
+      "line_count": "241471",
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

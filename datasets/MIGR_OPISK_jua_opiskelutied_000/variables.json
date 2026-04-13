@@ -1,0 +1,68 @@
+{
+  "variables": [
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CASE_ID_s",
+      "variablename": "Suojattu asianumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACADEM_DEGREE_ID",
+      "variablename": "Tavoitetutkinnon koodi",
+      "conceptdef": "Koodi\n25000\tYlempi korkeakoulututkinto\n25001\tAlempi korkeakoulututkinto\n25002\tMuu\n25003\tKeskiasteen tutkinto\n25004\tYlioppilastutkinto\n25005\tAmmattitutkinto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDU_INSTITUTE_ID_s",
+      "variablename": "Suojattu oppilaitos koodi",
+      "conceptdef": "Koodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUNICIPALITY_ID",
+      "variablename": "Paikkakunnan koodi",
+      "conceptdef": "Opiskelupaikkakunnan koodi. Koodien luokitukset löytyvät metatiedoista taulusta municipality_id_to_name. Kyseinen luokitus on Maahanmuuttoviraston oma luokitus, eikä täten linkity muista valmisaineistoista löytyviin paikkakuntien luokituksiin. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "STUDY_NATURE_ID",
+      "variablename": "Opiskelun luonne koodi",
+      "conceptdef": "Koodi\n\t\n27805\tMuu ei tutkintoon johtava opiskelu\n27806\tSuomesta saatava erityiskoulutus\n27807\tTäydennysopiskelu\n27808\tTutkinto-opiskelu\n27809\tVaihto-opiskelu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "STUDY_LANG_ID",
+      "variablename": "Opiskelukieli koodi",
+      "conceptdef": "Koodi\n27681\tVenäjä\n27682\tEnglanti\n27683\tRuotsi\n27684\tSuomi\n27685\tMuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

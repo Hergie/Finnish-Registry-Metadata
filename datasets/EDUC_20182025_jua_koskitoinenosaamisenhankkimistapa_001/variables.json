@@ -1,0 +1,92 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluoikeus_oid_s",
+      "variablename": "suojattu opiskeluoikeuden tunniste",
+      "conceptdef": "suojattu opiskeluoikeuden tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppisopimus_yrtun_s",
+      "variablename": "suojattu oppisopimus yritystunnus",
+      "conceptdef": "suojattu oppisopimukseen liittyvän toimijan yritystunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutussopimus_yrtun_s",
+      "variablename": "suojattu koulutussopimus yritystunnus",
+      "conceptdef": "suojattu koulutussopimukseen liittyvän toimijan yritystunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aikajakso_tyyppi",
+      "variablename": "Aikajakso tyyppi",
+      "conceptdef": "Kertoo onko kyseessä koulutusopimus- vai oppisopimus-jakso.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alku",
+      "variablename": "Alku",
+      "conceptdef": "jakson alkupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppu",
+      "variablename": "Loppu",
+      "conceptdef": "jakson päättymispäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "os_purkamisen_pva",
+      "variablename": "oppisopimus purku paiva",
+      "conceptdef": "Päivä, jolloin oppisopimus on purettu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppisopimus_purettu_koeajalla",
+      "variablename": "Oppisopimus purku koeajalla",
+      "conceptdef": "tieto onko oppisopimus purettu koeajalla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutussopimus_paikkakunta",
+      "variablename": "Koulutussopimuksen paikkakunta",
+      "conceptdef": "Tieto koulutussopimuksen paikkakunnasta kuntakoodina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutussopimus_maa",
+      "variablename": "Koulutussopimus maa",
+      "conceptdef": "Tieto koulutussopimuksen maasta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

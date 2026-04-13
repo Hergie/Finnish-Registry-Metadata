@@ -1,0 +1,60 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "elakelaji_alkuper",
+      "variablename": "Eläkelaji (alkuperäinen)",
+      "conceptdef": "Alkuperäisen aineiston eläkelaji, josta muodostetaan muuttuja 'eläkelaji'. \n\nHuom. Muuttujaa ei ylläpidetä enää tilastovuodesta 2023 alkaen.\n\nHuom. taannehtivista eläkkeistä puuttuu takuueläke - eli jos takuueläke on myönnetty henkilölle taannehtivasti, tapaus ei ole mukana kyseisen vuoden taannehtivien eläkkeiden aineistossa (henkilö voi kuitenkin olla mukana aineistossa, jos on saanut jotakin muuta eläkettä).\n\n0 = Täysi työkyvyttömyyseläke (aineisto 35)\t\nA = Työuraeläke (v.2018 alkaen) (aineisto 35)\t\n0K = Kuntoutustuki (aineisto 35)\t\n0R = Kunnallinen erotuseläke (aineisto 35)\t\n0Y = Yksilöllinen varhaiseläke (aineisto 35)\t\n1 = Osa-aikaeläke (aineisto 35)\t\n10 = Muu työkyvyttömyyseläke (aineisto 35)\t\n11 = Varsinainen vanhuuseläke (aineisto 33) | Varsinainen työkyvyttömyyseläke (aineisto 34)\t\n12 = Lykätty vanhuuseläke (RAKE-tapauksilla) (aineisto 33) | Määräaikainen työkyvyttömyyseläke (aineisto 34)\t\n13 = Varhennettu vanhuuseläke (aineisto 33) | Kuntoutustuki (aineisto 34)\t\n15 = Yksilöllinen varhaiseläke (aineisto 34)\t\n16 = Osatyökyvyttömyyseläkkeen suuruinen yksilöllinen varhaiseläke (aineisto 34)\t\n2 = Osatyökyvyttömyyseläke (aineisto 35)\t\n20 = Toistaiseksi myönnetty työkyvyttömyyseläke (aineisto 33) | Muu osatyökyvyttömyyseläke (aineisto 34)\t\n21 = Osatyökyvyttömyyseläke (aineisto 34)\t\n22 = Määräaikainen osatyökyvyttömyyseläke (aineisto 34)\t\n23 = Toistaiseksi myönnetty työkyvyttömyyseläke (aineisto 33) | Osakuntoutustuki (aineisto 34)\t\n2K = Osakuntoutustuki (aineisto 35)\t\n2Y = Osatyökyvyttömyyseläkkeen suuruinen yksilöllinen varhaiseläke (aineisto 35)\t\n30 = Määräaikainen työkyvyttömyyseläke (aineisto 33)\t\n33 = Määräaikainen työkyvyttömyyseläke (aineisto 33) | Rintamaveteraanien varhaiseläke (aineisto 34)\t\n4 = Työttömyyseläke (aineisto 35)\t\n40 = Työttömyyseläke (aineisto 34)\t\n45 = Osa-aikaeläke (aineisto 34)\t\n5 = Vanhuuseläke (aineisto 35)\t\n50 = Varsinainen vanhuuseläke (aineisto 34)\t\n51 = Varhennettu vanhuuseläke (aineisto 34)\t\n52 = Osittainen varhennettu vanhuuseläke, 25 % (aineisto 35)\t\n55 = Osittainen varhennettu vanhuuseläke, 50 % (aineisto 35)\t\n5A = Varhennettu vanhuuseläke (aineisto 35)\t\n6 = Luopumiseläke (aineisto 35)\t\n60 = Luopumiseläke (aineisto 34)\t\n61 = Luopumiskorvaus (aineisto 34)\t\n62 = Luopumislisä (aineisto 34)\t\n6A = Luopumiskorvaus (aineisto 35)\t\n6M = Luopumislisä (vanhuuseläkkeen rinnalla) (aineisto 35)\t\n7 = MYEL-sukupolvevaihdoseläke (aineisto 35)\t\n70 = Työttömyyseläke (aineisto 33) | MYEL-sukupolvevaihdoseläke tai SpvL:n mukainen sukupolvenvaihdoseläke (aineisto 34)\t\n73 = Luopumistuki (aineisto 34)\t\n7A = SpvL:n mukainen sukupolvenvaihdoseläke (aineisto 35)\t\n7B = Luopumistuki (aineisto 35)\t\n80 = Yksilöllinen varhaiseläke (aineisto 33) | Muu perhe-eläkkeen edunsaaja (aineisto 34)\t\n81 = Perhe-eläke / leski (aineisto 35)\t\n82 = Perhe-eläke / lapsi (aineisto 35)\t\n83 = Perhe-eläke / muu edunsaaja (aineisto 35) | Leskeneläke, vanha laki (aineisto 34)\t\n84 = Lapseneläke, vanha laki (aineisto 34)\t\n85 = Entisen puolison eläke, vanha laki (aineisto 34)\t\n86 = Leskeneläke, uusi laki (aineisto 34)\t\n87 = Lapseneläke, uusi laki (aineisto 34)\t\n88 = Entisen puolison eläke, uusi laki (aineisto 34)\t\n90 = Takuueläke (v. 2011 alkaen) (aineisto 35)\t\n95 = Takuueläke (aineisto 33)",
+      "measunit": null,
+      "classification": "elakelaji_3_2017_01_01",
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "aineisto",
+      "variablename": "Aineisto",
+      "conceptdef": "Tieto eläkkeiden lähtöaineistosta: \n31 = Kansaneläkkeet 1995-2002 \n32 = Työeläkkeet 1995-2002 \n33 = Kansaneläkkeet, taannehtivat 1995-2019 \n34 = Työeläkkeet, taannehtivat 1996- \n35 = Työ- ja kansaneläkkeet, yhteistilastoaineisto 2003- ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "elakelaji",
+      "variablename": "Eläkelaji",
+      "conceptdef": "Muodostetaan Tilastokeskuksessa alkuperäisen aineiston koodistosta alla olevan luokituksen mukaisiksi:\n1 = Vanhuuseläke \n2 = Työkyvyttömyyseläke \n3 = Yksilöllinen varhaiseläke \n4 = Työttömyyseläke \n5 = Maatalouden erityiseläke \n6 = Osa-aikaeläke \n7 = Perhe-eläke 8= Muut eläkkeet (v. 2023 alkaen) \n9 = Takuueläke (v. 2011 alkaen) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "alkupvm_elakejakso",
+      "variablename": "Eläkejakson alkamispäivämäärä",
+      "conceptdef": "Koko eläkkeelläolojakson alkamisaika eli se päivä, jolloin henkilö jäi eläkkeelle. Eläkkeelläolojaksolla tarkoitetaan yhtenäistä eläkkeellä oloa. Jos eläkkeessä on välillä aito katkos (esimerkiksi määräaikaisen eläkkeen päättymisen jälkeen), alkuperäinen alkamisaika siirtyy katkoksen jälkeen alkavan eläkkeen alkamispäivään. Esimerkiksi jos henkilö jää työkyvyttömyyseläkkeelle, joka sitten jatkuu vanhuuseläkkeenä ikärajan täyttymisen jälkeen, alkupvm_elakejakso kertoo koko eläkeajan alkamisen ja alkupvm_elakelaji vanhuuseläkkeen alkamisen. Osa-aikaeläke on aina erikseen eli sen jälkeen alkavan eläkkeen alkamispäivä ja alkuperäinen alkamispäivä ovat aina samat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "alkupvm_elakelaji",
+      "variablename": "Eläkelajin alkamispäivämäärä",
+      "conceptdef": "Alkuperäisen eläkelajin alkupäivämäärä. Tieto päivitetty ainoastaan aineistokoodille 35. Tietoja vuodesta 2015 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    }
+  ]
+}

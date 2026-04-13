@@ -1,0 +1,564 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yrityksen (oikeudellisen yksikön) Y-tunnus.",
+      "conceptdef": "Yrityksen (oikeudellisen yksikön) tunnisteena on yleisesti eri viranomais- ja muissa järjestelmissä käytössä oleva Y-tunnus (yritys- ja yhteisötunnus, ks. www.ytj.fi). Y-tunnus on muotoa nnnnnnn-t, missä t on tarkistenumero.\n  \nY-tunnus korvasi kaupparekisterinumeron Yritys- ja yhteisötietojärjestelmän (YTJ) alusta eli hetkestä 1.4.2001 lähtien. Y-tunnus on korvannut myös mm. säätiö- ja yhdistysrekisterinumerot. Y-tunnuksen aikaisempi nimi oli Liike- ja yhteisötunnus eli ly-tunnus.\n\nValtion virastoillakin on nykyään päätunnuksina Y-tunnukset, ei enää valtion virastotunnukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritysID_s",
+      "variablename": "Suojattu yritys-ID, yrityksen tunnus",
+      "conceptdef": "Yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus.\n\nYritysyksikkö vastaa pienintä oikeudellisten yksiköiden ryhmää, joka muodostaa päätöksenteossaan itsenäisen tuotantoyksikön. Sillä on kaikki tarvittavat tuotannontekijät, se myy tuotteita markkinoille ja sitä johdetaan kokonaisuutena.\n\nTilastokeskus muodostaa yritysyksikön samaan konserniin kuuluvista Suomessa sijaitsevista yhtiöistä. Konsernin oikeudellisista yksiköistä (y-tunnus) voidaan muodostaa yksi tai useampia yritysyksiköitä. Konserneihin kuulumattomilla yrityksillä yritysyksikkö vastaa aina oikeudellista yksikköä.\n\nPääsääntöisesti valmisaineistot ovat oikeudellisen yksikön tasolla eli yhdistävänä tunnuksena on syrtun, ei syritysID.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konserniID_s",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Konsernitunnus, 1-alkuinen 7-mittainen konsernin yksilöintitunnus, joka on muotoa nnnnnnn. Konsernitunnus voidaan antaa kaikille Suomessa rekisteröidyille pääkonserneille. Saantilähde: Konsernitunnus generoidaan yritysrekisterissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "virastotunnus_s",
+      "variablename": "Suojattu valtion virastotunnus",
+      "conceptdef": "Valtion virastotunnus. Annetaan Valtiokonttorissa. 7-mittainen, muotoa nnnnnnt, missa nnnnnn on juokseva numero ja t tarkistemerkki. Oikeudellisella yksiköllä on virastotunnus vain silloin, jos oikeudellisen yksikön alla on *** yksi *** virasto. (Oikeudellisen yksikön alla voi olla jopa lähes 100 virastoa.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AlPvm",
+      "variablename": "Oikeudellisen yksikön aloituspvm",
+      "conceptdef": "Oikeudellisen yksikön aloituspäivä. Pääsääntöisesti tämä on verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella henkilöllä Y-tunnuksen alkamis-/antopäivä. Tietoa johdetaan myös joidenkin ominaisuustietojen alkupäivien avulla ja lisäksi käytössä on puuttuvia ja virheellisiä tietoja korvaavia keinotekoisia päivämääriä (erityisesti vanhemmilla yksiköillä). \n\nTätä tietoa johdetaan seuraavien ominaisuustietojen alkupäivien avulla:\n- työnantajarekisteri (säännöllinen työnantajuus)\n- laivaisännyystyönantajuus\n- ennakkoperintärekisteri\n- arvonlisäverovelvollisuus\n- vakuutusmaksuverovelvollisuus\n- alv-vastuuryhmän jäsenyys\n- elinkeinotoiminta (vain luonnollisella henkilöllä)\n- sijaintiosoite (ei luonnollisella henkilöllä)\n- toimiala (ei luonnollisella henkilöllä)\n- virallinen nimi (ei luonnollisella henkilöllä)\n- toiminimi (ei luonnollisella henkilöllä)\n- postiosoite (ei luonnollisella henkilöllä)\n- kotikunta (ei luonnollisella henkilöllä)\n- oikeudellinen muoto (ei luonnollisella henkilöllä)\n- varhaisin tilikausi.\n   \nPuutteellisten ja virheellisten tietojen lisäksi sisältää runsaasti - erityisesti vanhemmilla yksiköillä - seuraavia keinotekoisia päivämääriä:\n- 1.1.1900\n- 1.1.1901\n- 15.3.1978.\n\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "LopPvm",
+      "variablename": "Oikeudellisen yksikön hallinnollinen lopetuspvm",
+      "conceptdef": "Oikeudellisen yksikön lopetuspäivä (= lopetusajankohta verohallinnon asiakastietokannassa) tai sen Y-tunnuksen lopetuspvm.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "toimAlPvm",
+      "variablename": "Oikeudellisen yksikön taloudellisen toiminnan aloituspvm",
+      "conceptdef": "Oikeudellisen yksikön taloudellisen toiminnan aloituspäivämäärä. Käytännössä sen tilikauden alkupäivä, jolloin yksikön toiminnallisuus havaitaan. Vanhimmilla yksiköillä toiminnan aloituspäivämäärä on varhaisin pvm seuraavista:\n- alv-velvollisuuden alkupäivämäärä\n- vakuutusmaksuvelvollisuuden alkupäivämäärä\n- alv-vastuuryhmän jäsenyyden alkupäivämäärä\n- työnantajana toimimisen alkupäivämäärä (säännöllinen työnantajuus)\n- laivaisännyystyönantajana toimimisen alkupäivämäärä\n- ennakkoverovelvollisuuden alkupäivämäärä.\n\nToiminnan aloittamiset kasaantuvat tammikuulle, koska aloittaneilla yrityksillä oma-aloitteisten verojen vuosi-ilmoitusten tiedot jaetaan koko vuodelle. Sitä vastoin, mikäli yritys on lopettanut kesken vuoden, oav:n vuosi-ilmoitustiedot jaetaan kuukausille vain lopetusajankohtaan asti.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "toimLopPvm",
+      "variablename": "Oikeudellisen yksikön taloudellisen toiminnan lopetuspvm",
+      "conceptdef": "Oikeudellisen yksikön taloudellisen toiminnan loppumispäivämäärä. Käytännössä sen tilikauden loppupäivä, jolloin toiminnallisuuden lopetus havaitaan. Lisäksi päivitetään aina, kun saadaan tieto Y-tunnuksen lopettamisesta.\n\nTietoa päätellään tilastoaineistojen, tiedusteluiden tietojen tai yrityksen yhteydenottojen kautta. Joissakin tapauksissa yritys voi jatkaa parin vuoden päästä uudelleen toimintaa, jolloin yksikkö aktivoidaan, jos tieto toiminnan jatkamisesta saadaan jostakin lähteestä (esim. alv- tai työnantajarekisteri, elinkeinoverorekisiteri, tulorekisteri tai maatalouden tilinpäätösaineisto).\n\nHallinnollisen lopetuksen käyttö (LopPvm) on yleistymässä tilastoissa, koska uudelleenaktivointi tuottaa työtä eikä toiminnan lopetuksia tehdä massana. Toiminnan lopetusten päättelyä tehdään pidemmällä viiveellä kuin aloitusten päättelyä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "VerohOikMuoto",
+      "variablename": "Oikeudellinen muoto (Verohallinto)",
+      "conceptdef": "Oikeudellisen yksikön oikeudellinen muoto eli yksikön oikeudellisen aseman verotuksessa ilmaiseva koodi. \n\nLuokitus:\n\t01\tLuonnollinen henkilö\t\n\t10\tAvoin yhtiö\t\n\t11\tKommandiittiyhtiö\t\n\t12\tOsakeyhtiö\t\n\t13\tAsunto-osakeyhtiö\t\n\t14\tLaivanisännistöyhtiö\t\n\t16\tKeskinäinen kiinteistö-oy\t\n\t17\tMuu kiinteistö-oy\t\n\t18\tKonserni\t\n\t19\tMuu yhtiö\t\n\t20\tAatteellinen yhdistys\t\n\t21\tErityislainsäädäntöön perustuva yhdistys\t\n\t22\tKeskinäinen vahinkovakuutusyhdistys\t\n\t23\tMetsänhoitoyhdistys\t\n\t24\tOsuuspankki\t\n\t25\tOsuuskunta\t\n\t26\tVakuutuskassa\t\n\t27\tTyöttömyyskassa\t\n\t28\tMuu taloudellinen yhdistys\t\n\t29\tMuu yhdistys\t\n\t30\tSäätiö (säätiölain mukainen)\t\n\t31\tSäästöpankki\t\n\t32\tEläkesäätiö (säädekirjalla perustettu)\t\n\t33\tTyöeläkekassa\t\n\t35\tHypoteekkiyhdistys\t\n\t39\tMuu säätiö\t\n\t40\tValtio ja sen laitokset\t\n\t60\tValtion liikelaitos\t\n\t41\tKunta\t\n\t61\tKunnallinen liikelaitos\t\n\t42\tKuntayhtymä\t\n\t62\tKuntainliiton (kuntayhtymän) liikelaitos\t\n\t43\tAhvenanmaan maakunta ja sen virastot\t\n\t63\tAhvenanmaan liikelaitos\t\n\t44\tEvankelis-luterilainen kirkko\t\n\t45\tOrtodoksinen kirkko\t\n\t46\tRekisteröity uskonnollinen yhdyskunta\t\n\t47\tYlioppilaskunta tai osakunta\t\n\t48\tErillishallinnollinen valtion laitos\t\n\t49\tMuu julkisoikeudellinen oikeushenkilö\t\n\t50\tYhteisetuudet (esim. kalastuskunta)\t\n\t51\tVerotusyhtymät\t\n\t52\tYhteisvastuullinen pidätysvelvollinen\t\n\t53\tKuolinpesä\t\n\t54\tKonkurssipesä\t\n\t55\tYhteismetsä\t\n\t57\tElinkeinoyhtymä\t\n\t59\tMuu verotuksen yksikkö\t\n\t70\tUlkomainen yhteisö\t\n\t71\tUlkomaisen yhteisön sivuliike Suomessa\t\n\t91\tMuut\t\n\t92\tMuut\t\n\t93\tMuut\t\n\t94\tMuut\t\n\t95\tMuut\t\n\t96\tMuut\t\n\t99\tMuut\t\n\tZZ\tTieto puuttuu\t ",
+      "measunit": null,
+      "classification": "verohoikmuot_2_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "VerohOikAlPvm",
+      "variablename": "Verohallinnon oikeudellisen muodon alkupvm",
+      "conceptdef": "Verohallinnon oikeudellisen muodon alkupvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "Eurooppayhtio",
+      "variablename": "Tieto siitä, onko oikeudellinen yksikkö eurooppayhtiö",
+      "conceptdef": "Tieto siitä, onko oikeudellinen yksikkö eurooppayhtiö. \nMahdolliset arvot ovat: 0 = ei, 1 = kyllä\n",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "Kuntayhtyma",
+      "variablename": "Tieto siitä, onko oikeudellinen yksikkö kuntayhtymä. ",
+      "conceptdef": "Tieto siitä, onko oikeudellinen yksikkö kuntayhtymä. Mahdolliset arvot: 0 = Ei, 1 = Kyllä\n \n\n\nPäätellään oletusarvona ASITK:n oikeudellisen muodon koodista. Jos oikeudellinen muoto syötteessä on \n42 (kuntayhtymä), \n62 (kuntayhtymän liikelaitos), \n43 (Ahvenanmaan maakunta ja sen virasto) tai \n63 (Ahvenanmaan liikelaitos), \npäivitetään Kuntayhtyma = 1, muutoin Kuntayhtyma = 0.\n \n",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "johdettu, luokitus, RE"
+    },
+    {
+      "identifier": "Ohi",
+      "variablename": "Julkisyhteisöjen ohitustieto",
+      "conceptdef": "Julkisyhteisöjen ohitustieto. Saa arvon 1, mikäli johdettu omistajatyyppi on kunta, valtio tai Ahvenanmaan maakunta. Julkisyhteisöt tunnistaa myös seuraavia tapoja noudattaen (nämä kaikki koskevat oikeudellista yksikköä, yritystä ja toimipaikkaa):\n \n- Sektoriluokka = 13 Julkisyhteisöt\n- Julkisyhteisötyyppi ei ole 00 tai ZZ Ei julkisyhteisö",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "RE, luokitus, johdettu"
+    },
+    {
+      "identifier": "JulkisyhtTyyppi",
+      "variablename": "Julkisyhteisötyyppi oikeudellisella yksiköllä",
+      "conceptdef": "Julkisyhteisötyyppi oikeudellisella yksiköllä. Julkisyhteisötyypit ovat:\n\nSSS\tYhteensä\t\n00\tEi julkisyhteisö\t\n11\tValtion virasto\t\n12\tValtion liikelaitos\t\n13\tValtion liikelaitos, y-tunnus\t\n14\tKunta\t\n15\tKuntayhtymä\t\n16\tKunnan tai kuntayhtymän liikelaitos\t\n17\tYliopisto, y-tunnus\t\n18\tAhvenanmaan maakuntahallitus\t\n19\tPLM-virasto\t\n20\tSosiaaliturvarahasto\t\n99\tMuu julkisyhteisö\t\nX\tTieto puuttuu\n\nTieto lisätty 25.1.2016.\t\n",
+      "measunit": null,
+      "classification": "jlkyhttyyp_2_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "Kieli",
+      "variablename": "Oikeudellisen yksikön asiointikieli YTY:ssä, verohallinnon mukaan.",
+      "conceptdef": "Oikeudellisen yksikön asiointikieli YTY:ssä, verohallinnon mukaan. 0=Suomi, 1=Ruotsi.",
+      "measunit": null,
+      "classification": "kieli_22_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "UlkomVuokratyonantaja",
+      "variablename": "Koodi ulkomaalaisten vuokratyönantajana toimimisesta",
+      "conceptdef": "Koodi ulkomaalaisten vuokratyönantajana toimimisesta. Sallitut arvot:\n1 = kyllä,\n0 = ei ",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "Kansalaisuus",
+      "variablename": "Kansalaisuuden maatunnus",
+      "conceptdef": "Kansalaisuuden maatunnus, luokitus: Valtiot ja maat -luokitus, jossa on yhtenä koodivaihtoehtona 2-kirjaimiset koodit.",
+      "measunit": null,
+      "classification": "valtio_2_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "YleishYhteiso",
+      "variablename": "Koodi yleishyödyllisestä yhteisöstä, verotuksessa",
+      "conceptdef": "Koodi yleishyödyllisestä yhteisöstä, verotuksessa. Sallitut arvot:\n1 = kyllä,\n0 = ei ",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "YleishAlPvm",
+      "variablename": "Yleishyödyllisenä yhteisönä aloituspvm",
+      "conceptdef": "Yleishyödyllisenä yhteisönä aloituspvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "TotaalToimAlPvm",
+      "variablename": "Oikeudellisen yksikön totaalisen toiminnan alkupvm verohallinnossa",
+      "conceptdef": "Oikeudellisen yksikön totaalisen toiminnan alkupvm verohallinnossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "LisPvm",
+      "variablename": "Oikeudellisen yksikön lisäyspvm yritysrekisteriin / YTY-tuotantokantaan",
+      "conceptdef": "Päivämäärä, jolloin oikeudellinen yksikkö on lisätty verohallinnon asiakastietokannasta (ASITK) yritysrekisteriin / YTY-tuotantokantaan.  Asiakastietokannan päivityspäivämäärä (kuukausittain, aiemmin 1/4-vuosittain). \n  \nKäsittely: Ei päivitetä vanhoille oikeudellisille yksiköille.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "tilaPerus",
+      "variablename": "Perustietojen tila oikeudellisella yksiköllä",
+      "conceptdef": "Perustietojen tila oikeudellisella yksiköllä: Järjestelmän käyttämä tieto yksikön perustietojen käsittelyn tilasta. Perustiedot sisältävät mm. yksikön toimialan, toiminnan tilan ja osoitetietoja.\n\n0\tTarkistamaton\t\n1\tVirheetön\t\n2\tVirheellinen\t\n3\tKeskeneräinen\t\n4\tHyväksytty\t\n5\tPakkohyväksytty\t\n6\tMassakorjattu\t\n7\tUusi oikeudellinen yksikkö, tietoja ei ole tarkistettu\t\n8\tTarkistamattomana autom. hyväksytty\t\n",
+      "measunit": null,
+      "classification": "perustiettila_2_2012_01_01",
+      "variablegroups": "RE, johdettu, aputiedot_tekniset"
+    },
+    {
+      "identifier": "oikMuoto",
+      "variablename": "Oikeudellisen yksikön oikeudellinen (juridinen) muoto yritysrekisterissä",
+      "conceptdef": "Oikeudellisen yksikön oikeudellinen (juridinen) muoto yritysrekisterissä. Verohallinnon oikeudellinen muoto muunnettu koneellisesti vastaamaan yritysrekisterissä käytettyä luokitusta.\n\n11\tLuonnollinen henkilö\t\n12\tKuolinpesä, perikunta\t\n13\tVerotusyhtymä\t\n14\tAvoin yhtiö\t\n15\tKonkurssipesä\t\n21\tKommandiittiyhtiö\t\n22\tLaivanisännistöyhtiö (ei osakeyhtiö)\t\n31\tOsakeyhtiö\t\n32\tKeskinäinen vakuutusyhtiö\t\n33\tSäästöpankki\t\n34\tEläkesäätiö, vakuutuskassa, työttömyyskassa\t\n35\tAsunto-osakeyhtiö\t\n41\tOsuuskunta\t\n51\tSäätiö, rahasto\t\n52\tAatteellinen yhdistys\t\n53\tKeskinäinen vahinkovakuutusyhdistys\t\n54\tTaloudellinen yhdistys\t\n61\tJulkinen viranomainen\t\n62\tJulkinen liikelaitos\t\n63\tJulkisoikeudellinen yhteisö\t\n71\tValtionkirkko\t\n72\tMuu uskonnollinen yhteisö\t\n90\tMuu oikeudellinen muoto\t",
+      "measunit": null,
+      "classification": "oikeudell_muoto_1_1984_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "omtyyppi",
+      "variablename": "Omistajatyyppi oikeudellisella yksiköllä",
+      "conceptdef": "Omistajatyyppi oikeudellisella yksiköllä. Johdetaan / muokataan oikeudellisesta muodosta. \n\n1\tYksityinen kotimainen\t\n2\tValtio\t\n3\tKunta\t\n4\tAhvenanmaan maakunta\t\n5\tUlkomaalaisomisteinen\t\n6\tMuu omistajatyyppi\t\n",
+      "measunit": null,
+      "classification": "omistajatyyppi_1_1995_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "sektoriluokka",
+      "variablename": "Oikeudellisen yksikön sektoriluokka",
+      "conceptdef": "Oikeudellisen yksikön sektoriluokka. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.\n\n1\tKoko kansantalous\t\n11\tYritykset\t\n111\tYritykset pl. asuntoyhteisöt\t\n11101\tJulkiset yritykset pl. asuntoyhteisöt\t\n11102\tYksityiset kotimaiset yritykset  pl. asuntoyhteisöt\t\n11103\tUlkomaisomisteiset yritykset  pl. asuntoyhteisöt\t\n112\tAsuntoyhteisöt\t\n1121\tAsunto-osakeyhtiöt\t\n11211\tAsunto-osakeyhtiöt, julkiset\t\n11212\tAsunto-osakeyhtiöt, yksityiset kotimaiset\t\n11213\tAsunto-osakeyhtiöt, ulkomaisomisteiset\t\n1122\tMuut asuntoyhteisöt\t\n11221\tMuut asuntoyhteisöt, julkiset\t\n11222\tMuut asuntoyhteisöt, yksityiset kotimaiset\t\n11223\tMuut asuntoyhteisöt, ulkomaisomisteiset\t\n12\tRahoitus- ja vakuutuslaitokset\t\n121-123\tRahalaitokset\t\n121\tKeskuspankki\t\n122\tMuut rahalaitokset\t\n1221\tTalletuspankit\t\n12211\tTalletuspankit, julkiset\t\n12212\tTalletuspankit, yksityiset kotimaiset\t\n12213\tTalletuspankit, ulkomaisomisteiset\t\n1222\tMuut luottolaitokset\t\n12221\tMuut luottolaitokset, julkiset\t\n12222\tMuut luottolaitokset, yksityiset kotimaiset\t\n12223\tMuut luottolaitokset, ulkomaisomisteiset\t\n1223\tMuut rahalaitokset kuin luottolaitokset\t\n12231\tMuut rahalaitokset kuin luottolaitokset, julkiset\t\n12232\tMuut rahalaitokset kuin luottolaitokset, yksityiset kotimaiset\t\n12233\tMuut rahalaitokset kuin luottolaitokset, ulkomaisomisteiset\t\n123\tRahamarkkinarahastot\t\n124-127\tMuut rahoituslaitokset\t\n124\tYhteissijoitusyritykset pl. rahamarkkinarahastot\t\n1241\tSijoitusrahastot (UCITS)\t\n1242\tMuut yhteissijoitusyritykset\t\n125\tMuut rahoituksen välittäjät\t\n12501\tMuut rahoituksen välittäjät, julkiset\t\n12502\tMuut rahoituksen välittäjät, yksityiset kotimaiset\t\n12503\tMuut rahoituksen välittäjät, ulkomaisomisteiset\t\n126\tRahoituksen ja vakuutuksen välitystä avustavat laitokset\t\n12601\tRahoituksen ja vakuutuksen välitystä avustavat laitokset, julkiset\t\n12602\tRahoituksen ja vakuutuksen välitystä avustavat laitokset, yksityiset kotimaiset\t\n12603\tRahoituksen ja vakuutuksen välitystä avustavat laitokset, ulkomaisomisteiset\t\n127\tKonserninsisäiset rahoitusyksiköt ja rahanlainaajat\t\n12701\tKonserninsisäiset rahoitusyksiköt ja rahanlainaajat, julkiset\t\n12702\tKonserninsisäiset rahoitusyksiköt ja rahanlainaajat, yksityiset kotimaiset\t\n12703\tKonserninsisäiset rahoitusyksiköt ja rahanlainaajat, ulkomaisomisteiset\t\n128-129\tVakuutuslaitokset ja eläkerahastot\t\n128\tVakuutuslaitokset\t\n12801\tVakuutuslaitokset, julkiset\t\n12802\tVakuutuslaitokset, yksityiset kotimaiset\t\n12803\tVakuutuslaitokset, ulkomaisomisteiset\t\n129\tEläkerahastot\t\n13\tJulkisyhteisöt\t\n1311\tValtionhallinto\t\n13111\tValtion budjettitalous\t\n13119\tMuut valtionhallinnon yksiköt\t\n1312\tOsavaltiohallinto (ei käytössä Suomessa)\t\n1313\tPaikallishallinto\t\n13131\tKunnat\t\n13132\tKuntayhtymät\t\n13133\tAhvenanmaan maakunnan hallitus\t\n13139\tMuut paikallishallinnon yksiköt\t\n1314\tSosiaaliturvarahastot\t\n13141\tTyöeläkelaitokset\t\n13149\tMuut sosiaaliturvarahastot\t\n14\tKotitaloudet\t\n141\tTyönantaja- ja muut elinkeinonharjoittajien kotitaloudet\t\n143\tPalkansaajakotitaloudet\t\n144\tOmaisuustulojen ja tulonsiirtojen saajakotitaloudet\t\n1441\tOmaisuustulojen saajakotitaloudet\t\n1442\tEläkkeensaajakotitaloudet\t\n1443\tMuiden tulonsiirtojen saajakotitaloudet\t\n15\tKotitalouksia palvelevat voittoa tavoittelemattomat yhteisöt\t\n2\tUlkomaat\t\n21\tEuroopan unionin jäsenvaltiot ja toimielimet\t\n211\tEuroopan unionin jäsenvaltiot\t\n2111\tEuroalueen jäsenvaltiot\t\n2112\tEuroalueen ulkopuoliset jäsenvaltiot\t\n212\tEuroopan unionin toimielimet\t\n2121\tEuroopan keskuspankki (EKP)\t\n2122\tEuroopan unionin toimielimet pl. EKP\t\n22\tEuroopan unionin ulkopuoliset valtiot ja kansainväliset järjestöt\t",
+      "measunit": null,
+      "classification": "sektoriluokitus_11_2013_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "sektoriAlPvm",
+      "variablename": "Sektoriluokan muutos-/alkupäivämäärä",
+      "conceptdef": "Sektoriluokan muutos-/alkupäivämäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "toiminnallisuudenTila",
+      "variablename": "Oikeudellisen yksikön toiminnallisuuden tila",
+      "conceptdef": "Oikeudellisen yksikön toiminnallisuuden tila\n\n0\tPassiivinen\t\n1\tAktiivinen\t\n2\tToiminta keskeytynyt\t\n3\tEhdolla aktivointiin\t\n4\tEhdolla lopetettavaksi\t",
+      "measunit": null,
+      "classification": "toimtila_2_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "tol2008",
+      "variablename": "Toimiala (TOL2008)",
+      "conceptdef": "Toimialaluokitus TOL 2008:n mukainen toimialakoodi, joka määräytyy oikeudellisen yksikön toiminnan perusteella. Monitoimipaikkaisella oikeudellisella yksiköllä koodi ilmaisee yksikön päätoimialaa, joka määräytyy ohjelmallisesti toimipaikkojen toimiala- ym. tiedoista.\n\nVerohallinon VerohTol2008-tieto saattaa erota yritysrekisterin tol2008-tiedosta. Esim. monitoimipaikkaisilla tol2008 on laskettu toimipaikoilta henkilötyövuosien ja toimialoitteisen arvonlisäkertoimen perusteella. Ensisijaisesti käytetään tol2008-tietoa.\n\nVerohTol2008-muuttujaan mahdolliset muutokset tulevat kuukausittain Verohallinnon ASITK-päivityksen myötä ja yksitoimipaikkaisilla \ntieto viedään myös tol2008-muuttujaan. Yksitoimipaikkaisilla tiedot ovat yleensä yhteneväiset. Muutoksia voi tulla myös yritysrekisterin omien tiedustelujen kautta.\n \nMonitoimipaikkaisilla päätoimiala päätellään useamman kerran vuodessa, mutta muutoksia tulee vain kerran sen mukaan, onko toimipaikan toimiala muuttunut tiedustelun perusteella. Jonkin verran myös käsin muutetaan tietoa jonkin saantilähteen perusteella, esim. nettisivut, muut tilastot.\n\nToimialamuutosten ajantasaisuus ja laatu riippuu myös siitä ilmoittavatko yritykset toimialamuutoksen Verohallintoon tai PRH:een.\n\nJulkisen sektorin toimijoille toimiala oikeudellisen yksikön tasolla on yleensä kuntataso, joka kuuluu julkiseen yleishallintoon. Toimipaikka/toimipistetietoa tarvitaan toimintojen eriyttämiseen.\n\n ",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "verohTol2008",
+      "variablename": "Verohallinnon antama toimialakoodi (TOL2008) oikeudelliselle yksikölle",
+      "conceptdef": "Verohallinnon antama toimialakoodi (TOL2008) oikeudelliselle yksikölle",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "kotikunta",
+      "variablename": "Oikeudellisen yksikön virallisen asuin-/kotikunnan kuntakoodi",
+      "conceptdef": "Oikeudellisen yksikön virallisen asuin-/kotikunnan kuntakoodi. (Asuinkunta voi olla myös ns. keinokunta, koodi 200.) Kunkin vuoden / hetken tilanne on omana kuntakoodistonaan TK:n luokituseditorissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "ALVVelvLiiketoimAlPvm",
+      "variablename": "ALV-velvollisen liiketoiminnan alkupvm",
+      "conceptdef": "ALV-velvollisen liiketoiminnan alkupvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvLiiketoimLopPvm",
+      "variablename": "ALV-velvollisen liiketoiminnan loppupvm",
+      "conceptdef": "ALV-velvollisen liiketoiminnan loppupvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvAlkutuotAlPvm",
+      "variablename": "ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä aloituspäivä",
+      "conceptdef": "ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä aloituspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvAlkutuotLopPvm",
+      "variablename": "ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä lopetuspäivä",
+      "conceptdef": "ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä lopetuspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvKiintVuokrAlPvm",
+      "variablename": "ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana aloituspäivä",
+      "conceptdef": "ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana aloituspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvKiintVuokrLopPvm",
+      "variablename": "ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana lopetuspäivä",
+      "conceptdef": "ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana lopetuspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvPorotalAlPvm",
+      "variablename": "ALV-velvollinen porotaloudesta aloituspäivä",
+      "conceptdef": "ALV-velvollinen porotaloudesta aloituspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvPorotalLopPvm",
+      "variablename": "ALV-velvollinen porotaloudesta lopetuspäivä",
+      "conceptdef": "ALV-velvollinen porotaloudesta lopetuspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvUlkomAlPvm",
+      "variablename": "ALV-velvollisen ulkomaisen toiminnan aloituspäivä",
+      "conceptdef": "ALV-velvollisen ulkomaisen toiminnan aloituspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvUlkomLopPvm",
+      "variablename": "ALV-velvollisen ulkomaisen toiminnan lopetuspäivä",
+      "conceptdef": "ALV-velvollisen ulkomaisen toiminnan lopetuspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "MuokALVVelv",
+      "variablename": "Muokattu liiketoiminnasta ALV-velvollisuus",
+      "conceptdef": "Indikaattorimuuttuja liiketoiminnasta arvonlisäverovelvollisuudelle\n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "MuokTyonant",
+      "variablename": "Muokattu työnantajuus (TA-rooli)",
+      "conceptdef": "Indikaattorimuuttuja (säännölliselle) työnantajuudelle (ei koske satunnaista työnantajuutta)\n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "MuokEnnakonperYks",
+      "variablename": "Muokattu ennakkoperintärekisteriin kuuluminen (EPR-rooli)",
+      "conceptdef": "Indikaattorimuuttuja ennakkoperintärekisteriin (EPR) kuulumiselle\n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "MuokAlkutuott",
+      "variablename": "Muokattu alkutuottajuudesta / taide-esineen tekijänä ALV-velvollisuus",
+      "conceptdef": "Indikaattorimuuttuja alkutuottajuudelle / taide-esineen tekijyydelle (ALT-rooli)\n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "oikMuotoLahde",
+      "variablename": "Oikeudellisen (juridisen) muodon saantilähde",
+      "conceptdef": "Oikeudellisen (juridisen) muodon saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "omtyyppiLahde",
+      "variablename": "Omistajatyypin saantilähde",
+      "conceptdef": "Omistajatyypin saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "sektoriluokkaLahde",
+      "variablename": "Sektoriluokan saantilähde",
+      "conceptdef": "Sektoriluokan saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "ToiminnallisuudenTilaLahde",
+      "variablename": "Toiminnallisuuden tilan saantilähde",
+      "conceptdef": "Toiminnallisuuden tilan saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "tol2008Lahde",
+      "variablename": "Toimialatiedon (TOL 2008) saantilähde",
+      "conceptdef": "Toimialatiedon (TOL 2008) saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "verohTol2008Lahde",
+      "variablename": "Verohallinnon (oman) toimialatiedon (TOL 2008) saantilähde",
+      "conceptdef": "Verohallinnon (oman) toimialatiedon (TOL 2008) saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "kotikuntaLahde",
+      "variablename": "Kotikuntatiedon saantilähde",
+      "conceptdef": "Kotikuntatiedon saantilähde\n  1 Suorat tiedonkeruut\n  2 Tilastot\n  3 Hallinnolliset aineistot\n  4 Estimoinnit\n  5 Muut muokkaukset\n  9 Muut lähteet\n  Z Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "paaOikYks",
+      "variablename": "Pää-(asiallinen) oikeudellinen yksikkö ao. yrityksessä (yritysyksikössä)",
+      "conceptdef": "Pää-(asiallinen) oikeudellinen yksikkö ao. yrityksessä (yritysyksikössä), luokitus. Luokitus. Koodit: 1 = Kyllä, on pääasiallinen oikeudellinen yksikkö, 0 = Ei ole.",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "MuokPorotVelv",
+      "variablename": "Muokattu ALV-velvollisuus porotaloudesta",
+      "conceptdef": "Indikaattorimuuttuja arvonlisäverovelvollisuudelle porotaloudesta\n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "muokKiintVuokrVelv",
+      "variablename": "Muokattu ALV-velvollisuus kiinteistöjen vuokrauksesta",
+      "conceptdef": "Indikaattorimuuttuja arvonlisäverovelvollisuudelle kiinteistöjen vuokrauksesta \n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "RE, luokitus"
+    },
+    {
+      "identifier": "MuokUlkomVelv",
+      "variablename": "Muokattu ALV-velvollisuus ulkomaisesta toiminnasta",
+      "conceptdef": "Indikaattorimuuttuja arvonlisäverovelvollisuudelle ulkomaisesta toiminnasta  \n1\tKyllä\t\n2\tEi ole enää\t\n3\tEi ole koskaan ollut\t",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_70_2012_01_01",
+      "variablegroups": "luokitus, RE"
+    },
+    {
+      "identifier": "TyonantajaRekAlPvm",
+      "variablename": "Työnantajarekisteröinnin alkupvm",
+      "conceptdef": "Työnantajarekisterin aloituspäivä (= säännöllisen työnantajuuden aloituspäivä).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "TyoLopPvm",
+      "variablename": "Työnantajarekisteröinnin loppupvm",
+      "conceptdef": "Työnantajarekisterin lopetuspäivä (= säännöllisen työnantajuuden lopetuspäivä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ToimLopMuoto",
+      "variablename": "Oikeudellisen yksikön toiminnan lopetusmuoto",
+      "conceptdef": "Oikeudellisen yksikön toiminnan lopetusmuoto\n11\tKuoleminen\t\n12\tOikeudellisen muodon muutos\t\n13\tToiminnan siirtyminen\t\n14\tKonkurssi\t\n15\tFuusio\t\n18\tJakautuminen\t\n21\tVirheellinen aloitus\t\n\nTieto lisätty 17.3.2014",
+      "measunit": null,
+      "classification": "yrlopmuot_2_2012_01_01",
+      "variablegroups": "re, luokitus"
+    },
+    {
+      "identifier": "ALVVelvOmaAlPvm",
+      "variablename": "Ostajana tai omasta käytöstä ALV-velvollinen -kauden alkupvm",
+      "conceptdef": "Ostajana tai omasta käytöstä ALV-velvollinen -kauden alkupvm\n\nTieto lisätty 17.3.2014",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "re"
+    },
+    {
+      "identifier": "ALVVelvOmaLopPvm",
+      "variablename": "Ostajana tai omasta käytöstä ALV-velvollinen -kauden loppupvm",
+      "conceptdef": "Ostajana tai omasta käytöstä ALV-velvollinen -kauden loppupvm\n\nTieto lisätty 17.3.2014",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "re"
+    },
+    {
+      "identifier": "KuntaAlPvm",
+      "variablename": "Oikeudellisen yksikön kotikunnan alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön kotikunnan alku-/muutospvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "oikMuotoAlPvm",
+      "variablename": "Oikeudellisen yksikön oikeudellisen muodon alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön oikeudellisen muodon alku-/muutospvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "tol2008AlPvm",
+      "variablename": "Oikeudellisen yksikön toimialakoodin (TOL 2008) alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön toimialakoodin (TOL 2008) alku-/muutospvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "VerohTol2008AlPvm",
+      "variablename": "Oikeudellisen yksikön verohallinnon käyttämän ja sieltä suoraan saadun toimialakoodin (TOL 2008)  alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön verohallinnon käyttämän ja sieltä suoraan saadun toimialakoodin (TOL 2008)  alku-/muutospvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "omtyyppiAlPvm",
+      "variablename": "Oikeudellisen yksikön omistajatyyppikoodin alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön omistajatyyppikoodin alku-/muutospvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "toimTilaAlPvm",
+      "variablename": "Oikeudellisen yksikön toiminnallisuuden tila -koodin alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön toiminnallisuuden tila -koodin alku-/muutospvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "julkisyhtTyyppiAlPvm",
+      "variablename": "Oikeudellisen yksikön julkisyhteisötyyppi -koodin alku-/muutospvm",
+      "conceptdef": "Oikeudellisen yksikön julkisyhteisötyyppi -koodin alku-/muutospvm\n\nTieto lisätty 25.1.2016.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "RE"
+    },
+    {
+      "identifier": "ALVVelvEsiintymispalkkioAlPvm",
+      "variablename": "ALV-velvollinen esiintymispalkkioista, aloituspäivä",
+      "conceptdef": "ALV-velvollinen esiintymispalkkioista, aloituspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALVVelvEsiintymispalkkioLopPvm",
+      "variablename": "ALV-velvollinen esiintymispalkkioista, lopetuspäivä",
+      "conceptdef": "ALV-velvollinen esiintymispalkkioista, lopetuspäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_toissijtunnus",
+      "variablename": "Oikeudellisen yksikön toissijainen tunnus",
+      "conceptdef": "Oikeudellisen yksikön toissijainen tunnus: \nHenkilötunnuspohjaiset oikeudellisen yksikön (luonnollisten henkilöiden) tunnukset on viety toissijaisiksi tunnuksiksi. Näitä voidaan joskus hyödyntää toisten aineistojen linkittämisessä erityisesti yrittäjiin liittyen. Tunnus on muutettu Tilastokeskuksen suojatuksi henkilönumeroksi.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnus, re"
+    }
+  ]
+}

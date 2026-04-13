@@ -1,0 +1,252 @@
+{
+  "variables": [
+    {
+      "identifier": "smak_yrtun",
+      "variablename": "Suojattu maksajan tunnus, yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_hnro",
+      "variablename": "Suojattu maksajan tunnus, henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_muutun",
+      "variablename": "Suojattu maksajan muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_hnro",
+      "variablename": "Suojattu saajan henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_yrtun",
+      "variablename": "Suojattu saajan yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_muutun",
+      "variablename": "Suojattu saajan muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAANI",
+      "variablename": "Ajoläänin tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUORLAJI",
+      "variablename": "Suorituslaji",
+      "conceptdef": "Suorituslajilla tarkoitetaan ilmoitettavan tulon laatua. Suorituslajeja ovat mm. palkka, palkkio, työkorvaus, kulu- ja käyttökorvaus tai eläke. Suorituslajit ovat puutteelliset vuosille 1995-1996 ja muuttuja sisältää myös puuttuvia. Joitakin suorituslajeja on yhdistelty luokkiin F, L ja H4. Suorituslajien tunnuksia perustuen myöhempiin vuosiin:\n1\tPalkka sivutoimesta\t\n2\tMerityötulo\n5\tNs. 6 kk:n säännön alainen palkka\t\n6\tSijaismaksajan maksama palkka\n9A\tPystykauppa\t\n9B\tHankintakauppa\t\n9C\tPuun myynnin vakuutussuoritus\t\nA\tKansaneläke\t\nB\tTyö-, virka- ja yrittäjäeläke\t\nF\tMuut eläkkeet\t\nG\tKäyttökorvaus\t\nG1\tPääomatulot\t\nH\tTyökorvaus\nH4\t Muu ansiotuloa oleva suoritus\nK\tVapaaehtoiseen henkilövakuutukseen perustuvat suoritukset ym.\t\nL\tPakoll. tapaturma- ja liikennevak. päiväraha, vastuuvakuutuskorvaus ym.\t\nM\tVeronalainen lakkoavustus\t\nO\tYleinen perhe-eläke\t\nP\tPalkka päätoimesta\t\nQ\tVapaaehtoisen henkivakuutuksen suoritukset ym.\t\nS\tSairausvakuutuslain ym. nojalla maksettavat korvaukset\t\nT\tTyöttömyyspäiväraha ym.\t\nU\tKoulutustuki, toistuva korvaus, aikuiskoulutustuki\t\nV\tTuesta tai päivärahasta peritty eläkemaksu\t\nW\tMaatalousyrittäjän luopumiskorvaus\t\nX\tLapsen kotihoidontuki ja osittainen hoitoraha\nZ\tEläkevakuutusmaksun palautus\t\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUORITUS",
+      "variablename": "Suorituksen markkamäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VITAPLAJ",
+      "variablename": "Rivin tapahtumalaji",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ENNPIDAT",
+      "variablename": "Suorituksen ennakonpidätyksen määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYLUONET",
+      "variablename": "Luontoisedun määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUORVVAP",
+      "variablename": "Eläkkeen tai etuuden verovapaa osa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VILAKMAK",
+      "variablename": "Eläke- ja työttömyysvakuutusmaksu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ELLISAOS",
+      "variablename": "Kansaneläkkeen tai perhe-eläkkeen lisäosan ilmaisin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PUUMYYJA",
+      "variablename": "Puun myyjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ENNPIDKK",
+      "variablename": "Ennakonpidätys",
+      "conceptdef": "Ei saatavissa 1995",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VVAKMAK1",
+      "variablename": "TA:n maks ve evakmaks kun perturva ei ylity",
+      "conceptdef": "Työnantajan maksaman vapaaehtoisen eläkevakuutuksen maksut vakuutuksesta, joissa peruseläketurva ei ylity",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VVAKMAK2",
+      "variablename": "TA:n maks ve evakmaks kun perturva ylittyy",
+      "conceptdef": "Työnantajan maksaman vapaaehtoisen eläkevakuutuksen maksut vakuutuksesta, joissa peruseläketurva ylittyy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VVAKMAK3",
+      "variablename": "TA:n maks ve ennen 1.10.1992 otet evakma",
+      "conceptdef": "Työnantajan maksamat vapaaehtoisen eläkevakuutuksen maksut vakuutuksesta, joka otettu ennen 1.10.1992",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VVAKMAK4",
+      "variablename": "TA:n maks ve evakmaks, väh.oik.ei selvitystä",
+      "conceptdef": "Työnantajan maksaman vapaaehtoisen eläkevakuutuksen maksut vakuutuksesta, jonka vähennysoikeudesta ei ole selvitystä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ARVONLVE",
+      "variablename": null,
+      "conceptdef": "Ei saatavissa 1995",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KORKOETU",
+      "variablename": "Asuntolainan korkoetu",
+      "conceptdef": "Ei saatavissa 1995",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ELAKTLAJ",
+      "variablename": "Takautuvasti maksetun eläkkeen laji",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIALKPVM",
+      "variablename": "Tulon kertym tai pal el vak maks alkupvm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VILOPPVM",
+      "variablename": "Tulon kertym tai pal el vak maks loppupv",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VMAKSUVV",
+      "variablename": "Maksuvuodelle kohdistuva osa eläkkeestä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VMAKSVV1",
+      "variablename": "Maksuvuosi-1:lle kohdistuva osa eläkkeestä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VMAKSVV2",
+      "variablename": "Maksuvuosi-2:lle kohdistuva osa eläkkeestä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ELALKAMI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

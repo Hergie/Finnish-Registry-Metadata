@@ -1,0 +1,1100 @@
+{
+  "variables": [
+    {
+      "identifier": "gp",
+      "variablename": "Vastaajayksikkö",
+      "conceptdef": "Yksikkö, jota vastaus koskee: \n3 = itsenäinen \n2 = osa konsernia \n1 = konserni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ho1",
+      "variablename": "Konsernin kotimaa Suomi",
+      "conceptdef": "Konsernin kotimaa Suomi (=1)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ho2",
+      "variablename": "Konsernin kotimaa (muu kuin Suomi)",
+      "conceptdef": "Konsernin kotimaa muu kuin Suomi (=2)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emp08",
+      "variablename": "Henkilöstö 2008",
+      "conceptdef": "Henkilökunta 31.12.2008",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "turn08",
+      "variablename": "Liikevaihto 2008",
+      "conceptdef": "Liikevaihto 2008 tai viimeisin 12 kk tilikausi, 1000 €. Rahoituslaitokset: korkotuotot tai vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPdgd",
+      "variablename": "Uusia tai olennaisesti parannettuja tavaroita",
+      "conceptdef": "Yritys toi markkinoille vuosina 2006-2008 uusia tai olennaisesti parannettuja tavaroita 1=kyllä, 0=ei. Ei sisällä pelkästään muilta yrityksiltä ostettujen uusien tavaroiden jälleenmyyntiä  tai yksinomaan esteettisiin ominaisuuksiin kohdistuvia muutoksia. \n\nTuoteinnovaatio on yrityksen markkinoille tuoma uusi tai olennaisesti parannettu tavara tai palvelu. Uusi tai olennaisesti parannettu tavara tai palvelu eroaa ominaisuuksiltaan aikaisemmin tuotetuista (esim. parannettu ohjelmisto, käyttömukavuus, komponentti tai alajärjestelmä).\n \nInnovaation (uuden tai parannetun tavaran tai palvelun) on oltava uusi kyseisen yrityksen näkökulmasta, mutta sen ei tarvitse olla uusi markkinoiden kannalta. Sillä ei ole merkitystä, onko innovaatio alun perin kehitetty kyseisessä yrityksessä vai muissa yrityksissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPdsv",
+      "variablename": "Uusia tai olennaisesti parannettuja palveluja",
+      "conceptdef": "Yritys toi markkinoille vuosina 2006-2008 uusia tai olennaisesti parannettuja palveluja 1=kyllä, 0=ei. Tuoteinnovaatio on yrityksen markkinoille tuoma uusi tai olennaisesti parannettu tavara tai palvelu. Uusi tai olennaisesti parannettu tavara tai palvelu eroaa ominaisuuksiltaan aikaisemmin tuotetuista (esim. parannettu ohjelmisto, käyttömukavuus, komponentti tai alajärjestelmä). \n\nInnovaation (uuden tai parannetun tavaran tai palvelun) on oltava uusi kyseisen yrityksen näkökulmasta, mutta sen ei tarvitse olla uusi markkinoiden kannalta. Sillä ei ole merkitystä, onko innovaatio alun perin kehitetty kyseisessä  yrityksessä vai muissa yrityksissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPdtw",
+      "variablename": "Tuoteinnovaatioiden kehittäjä",
+      "conceptdef": "Tuoteinnovaatioiden ensisijainen kehittäjä oli 1=oma yritys tai konserni, 2=oma yritys yhdessä muiden yritysten tai laitosten kanssa, 3=muut yritykset tai laitokset",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NewMkt",
+      "variablename": "Markkinoiden kannalta uusia tuotteita",
+      "conceptdef": "Yrityksen 2006-2008 markkinoille tuomat tuoteinnovaatiot olivat uusia yrityksen markkinoiden kannalta 1=kyllä 0=ei. Yritys toi uuden tai olennaisesti parannetun tavaran tai palvelun markkinoilleen ennen kilpailijoitaan (tuote on voinut jo olla saatavissa muilla markkinoilla).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NewFrm",
+      "variablename": "Yrityksen kannalta uusia tuotteita",
+      "conceptdef": "Yrityksen 2006-2008 markkinoille tuomat tuoteinnovaatiot olivat uusia ainoastaan oman yrityksen kannalta 1=kyllä 0=ei. Yritys toi markkinoille uuden tai olennaisesti parannetun tavaran tai palvelun, jota vastaava oli jo saatavissa yrityksen kilpailijoilta yrityksen markkinoilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TurnMar",
+      "variablename": "Markkinoiden kannalta uusien tuotteiden lv-osuus",
+      "conceptdef": "Vuosina 2006-2008 markkinoille tuotujen tuoteinnovaatioiden (palvelut ja tavarat), jotka olivat uusia yrityksen markkinoniden kannalta, osuus yrityksen 2008 kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TurnIn",
+      "variablename": "Yrityksen kannalta uusien tuotteiden lv-osuus",
+      "conceptdef": "Vuosina 2006-2008 markkinoille tuotujen tuoteinnovaatioiden (palvelut ja tavarat), jotka olivat uusia yksinomaan oman yrityksen kannalta, osuus yrityksen 2008 kokonaisliikevaihdosta, %.  Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TurnUng",
+      "variablename": "Muuttumattomien tuotteiden lv-osuus",
+      "conceptdef": "Vuosina 2006-2008 markkinoille tuotujen muuttamattomien tai vain vähän muutettujen tuotteiden osuus yrityksen 2008 kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPspd",
+      "variablename": "Uusia tai olennaisesti parannettuja valmistus- tai tuotantomenetelmiä",
+      "conceptdef": "Yritys otti käyttöön 2006-2008 uusia tai olennaisesti parannettuja tavaroiden tai palveluiden valmistus- tai tuotantomenetelmiä 1=kyllä, 0=ei. Prosessi-innovaatio on yrityksen käyttöönottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotanto-prosessi, jakelumenetelmä tai tukitoiminto. Innovaation (uuden tai parannetun prosessin, menetelmän tai tukitoiminnon) on oltava uusi yrityksen näkökulmasta, mutta sen ei tarvitse olla uusi markkinoiden kannalta. Sillä ei ole merkitystä, onko innovaatio alun perin kehitetty kyseisessä yrityksessä vai muissa yrityksissä. Pelkät organisaatioinnovaatiot eivät kuulu prosessi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPslg",
+      "variablename": "Uusia tai olennaisesti parannettuja logistiikkaratkaisuja tai toimitus- tai jakelumenetelmiä",
+      "conceptdef": "Yritys otti käyttöön 2006-2008 uusia tai olennaisesti parannettuja logistiikkaratkaisuja tai toimitus- tai jakelumenetelmiä yrityksen panoksia, tavaroita tai palveluja varten 1=kyllä, 0=ei. \n\nProsessi-innovaatio on yrityksen käyttöönottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotanto-prosessi, jakelumenetelmä tai tukitoiminto. Innovaation (uuden tai parannetun prosessin, menetelmän tai tukitoiminnon) on oltava uusi yrityksen näkökulmasta, mutta sen ei tarvitse olla uusi markkinoiden  kannalta. Sillä ei ole merkitystä, onko innovaatio alun perin kehitetty kyseisessä yrityksessä vai muissa yrityksissä. Pelkät organisaatioinnovaatiot eivät kuulu prosessi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPssu",
+      "variablename": "Uusia tai olennaisesti parannettuja prosessien tukitoimintoja",
+      "conceptdef": "Yritys otti käyttöön 2006-2008 uusia tai olennaisesti parannettuja tukitoimintoja yrityksen prosesseja varten, esimerkiksi ylläpito- ja huoltojärjestelmiä tai osto-, kirjanpito- tai laskentatoimintoja.1=kyllä, 0=ei. Prosessi-innovaatio on yrityksen käyttöön ottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotantoprosessi, jakelumenetelmä tai tukitoiminto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "InPcsW",
+      "variablename": "Prosessi-innovaatioiden kehittäjä",
+      "conceptdef": "Prosessi-innovaatioiden ensisijainen kehittäjä oli 1=oma yritys tai konserni, 2= oma yritys yhdessä muiden yritysten tai laitosten kanssa, 3= muut yritykset tai laitokset. Prosessi-innovaatio on yrityksen käyttöönottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotanto-prosessi, jakelumenetelmä tai tukitoiminto. Innovaation (uuden tai parannetun prosessin, menetelmän tai tukitoiminnon) on oltava uusi yrityksen näkökulmasta, mutta sen ei tarvitse olla uusi markkinoiden kannalta. Sillä ei ole merkitystä, onko innovaatio alun perin kehitetty kyseisessä yrityksessä vai muissa yrityksissä. Pelkät organisaatioinnovaatiot eivät kuulu prosessi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Inaba",
+      "variablename": "Keskeytyneitä innovaatioprojekteja",
+      "conceptdef": "Yrityksellä oli 2006–2008 tuote- tai prosessi-innovaatioihin tähtääviä projekteja tai toimia, jotka keskeytyivät ennen valmistumista 1=kyllä, 0=ei. Innovaatiotoimet ja -toiminta käsittävät koneiden, laitteiden, ohjelmistojen ja lisenssien hankinnan, suunnittelu- ja kehitystyön, koulutuksen, markkinoinnin ja tutkimus- ja kehittämistoiminnan, kun näiden nimenomaisena tavoitteena on kehittää ja/tai ottaa käyttöön tuote- tai prosessi-innovaatio (kattaen myös perustutkimus- ja kehittämistoiminnan innovaatiotoimena, vaikka se ei suoraan liittyisi tuote- ja/tai prosessi-innovaatioihin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Inong",
+      "variablename": "Keskeneräisiä innovaatioprojekteja",
+      "conceptdef": "Yrityksellä oli 2006–2008 tuote- tai prosessi-innovaatioihin tähtääviä projekteja tai toimia, jotka eivät valmistuneet vuoden 2008 loppuun mennessä 1=kyllä, 0=ei. Innovaatiotoimet ja -toiminta käsittävät koneiden, laitteiden, ohjelmistojen ja lisenssien hankinnan, suunnittelu- ja kehitystyön, koulutuksen, markkinoinnin ja tutkimus- ja kehittämistoiminnan, kun näiden nimenomaisena tavoitteena on kehittää ja/tai ottaa käyttöön tuote- tai prosessi-innovaatio (kattaen myös perustutkimus- ja kehittämistoiminnan innovaatiotoimena, vaikka se ei suoraan liittyisi tuote- ja/tai prosessi-innovaatioihin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rrdin",
+      "variablename": "Oma tutkimus ja kehittäminen",
+      "conceptdef": "Yrityksellä oli 2006-2008 omaa tutkimus-ja kehittämistoimintaa 1=kyllä, 0=ei. Tutkimuksella ja kehittämisellä tarkoitetaan yleisesti systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämiseksi uusiin sovelluksiin.Tavoitteena on jotakin olennaisesti uutta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rdeng",
+      "variablename": "Oman t&k-toiminnan säännöllisyys",
+      "conceptdef": "Yrityksen tutkimustoiminta 2006-2008 oli 1= säännöllistä (yrityksellä omaa pysyvää t&k-henkilöstöä), 2= satunnaista (vain tarvittaessa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rrdex",
+      "variablename": "Ulkopuolelta tilattu tutkimus ja kehittäminen",
+      "conceptdef": "Yritys tilasi 2006-2008 tutkimus- ja kehittämistoimintaa ulkopuolelta, kuten muilta yrityksiltä (ml. oman konsernin yritykset) tai julkisilta tai yksityisiltä tutkimuslaitoksilta 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rmac",
+      "variablename": "Koneiden, laitteiden ja ohjelmistojen hankinta",
+      "conceptdef": "Yrityksellä oli 2006-2008 kone- ja laitehankintoja tai atk-laitteiden ja -ohjelmistojen hankintaa uusien tai olennaisesti parannettujen tuotteiden tai prosessien tuottamiseksi 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Roek",
+      "variablename": "Osaamisen hankinta ulkopuolelta",
+      "conceptdef": "Vuosina 2006-2008 yritys osti tai lisensoi patentteja, ei-patentoituja keksintöjä, tietotaitoa ja muuta osaamista muilta yrityksiltä tai organisaatioilta uusien tai olennaisesti parannettujen tuotteiden tai prosessien kehittämiseksi 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rtr",
+      "variablename": "Innovaatiotoimintaan liittyvä henkilöstökoulutus",
+      "conceptdef": "Yrityksellä oli 2006-2008 innovaatiotoimintaan liittyvää oman yrityksen järjestämää tai ulkopuolelta tilattua henkilöstökoulutusta, joka liittyi uusien tai olennaisesti parannettujen tuotteiden tai prosessien kehittämiseen ja/tai käyttöönottoon. 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rmar",
+      "variablename": "Innovaatioiden markkinoille tuominen",
+      "conceptdef": "Yrityksellä oli 2006-2008 toimia yrityksen innovaatioiden eli uusien tai olennaisesti parannettujen tavaroiden ja palveluiden markkinoille tuomiseksi, ml. markkinatutkimus ja tuotteiden markkinoille tuomiseen liittyvä mainonta 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rpre",
+      "variablename": "Muut innovaatiotoimet",
+      "conceptdef": "Yrityksellä oli vuosina 2006-2008 muita innovaatiotoimia uusien tai olennaisesti parannettujen tuotteiden ja prosessien käyttöönottamiseksi, kuten toteutettavuustutkimukset, testaus, rutiiniluonteinen ohjelmistokehitystyö, tekniset valmistelutoimet jne. 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rrdinx",
+      "variablename": "Oman t&k-toiminnan menot",
+      "conceptdef": "Yrityksen omaan tutkimus- ja kehittämistoimintaan liittyvät menot vuonna 2008, 1000€. Tähän sisältyvät yrityksessä tehdyn t&k-toiminnan menot, joihin luetaan: 1. palkkausmenot, 2. aineet, tarvikkeet, rakennusten käyttömenot, muut käyttömenot, 3. ostetut palvelut (omiin t&k-projekteihin liittyvät palvelujen ostot, ei ulkopuolisilta tilattuja kokonaisia t&k-hankkeita), 4. koneet, laitteet, rakennukset, muut käyttöomaisuuden hankintamenot.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rrdexx",
+      "variablename": "Ulkopuolelta tilatun t&k-toiminnan menot",
+      "conceptdef": "Yrityksen ulkopuoleta tilattuun tutkimus- ja kehittämistoimintaan liittyvät menot vuonna 2008, 1000€",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Rmacx",
+      "variablename": "Kone- ja laitehankintoihin liittyvät menot",
+      "conceptdef": "Innovaatiotoimintaan liittyvien koneiden, laitteiden ja ohjelmistojen hankintaan liittyvät menot (ilman t&k-toimintaan liittyviä laitemenoja) vuonna 2008, 1000€ .",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Roekx",
+      "variablename": "Osaamisen hankintaan liittyvät menot",
+      "conceptdef": "Innovaatiotoimintaan liittyvän osaamisen hankintaan yrityksen ulkopuolelta liittyvät menot vuonna 2008,1000€ ",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Funloc",
+      "variablename": "Paikallis- tai alueviranomaisilta innovaatiotoiminnan rahoitustukea saaneet",
+      "conceptdef": "Yritys sai julkista rahoitustukea innovaatiotoimintaan 2006-2008 paikallis- tai alueviranomaisilta, 1=kyllä, 0=ei.  Julkisella rahoitustuella tarkoitetaan tässä verohelpotuksia tai -vähennyksiä, avustuksia, korkotukilainoja ja lainatakauksia. Mukaan ei lueta tutkimus- eikä muita innovaatiotoimia, joita on toteutettu yksinomaan tilaustyönä julkiselle sektorille.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Fungmt",
+      "variablename": "Valtiolta innovaatiotoiminnan rahoitustukea saaneet",
+      "conceptdef": "Yritys sai julkista rahoitustukea innovaatiotoimintaan 2006-2008 valtiolta (ml.valtion laitokset ja ministeriöt, esim. Tekes). 1=kyllä, 0=ei.  Julkisella rahoitustuella tarkoitetaan tässä verohelpotuksia tai -vähennyksiä, avustuksia, korkotukilainoja ja lainatakauksia. Mukaan ei lueta tutkimus- eikä muita innovaatiotoimia, joita on toteutettu yksinomaan tilaustyönä julkiselle sektorille.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Funeu",
+      "variablename": "EU:lta innovaatiotoiminnan rahoitustukea saaneet",
+      "conceptdef": "Yritys sai julkista rahoitustukea innovaatiotoimintaan 2006-2008 Euroopan Unionilta, 1=kyllä, 0=ei.  Julkisella rahoitustuella tarkoitetaan tässä verohelpotuksia tai -vähennyksiä, avustuksia, korkotukilainoja ja lainatakauksia. Mukaan ei lueta tutkimus- eikä muita innovaatiotoimia, joita on toteutettu yksinomaan tilaustyönä julkiselle sektorille.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Funrtd",
+      "variablename": "EU:n tutkimus- ja teknologiapuiteohjelmista innovaatiotoiminnan rahoitustukea saaneet",
+      "conceptdef": "Mikäli yritys sai julkista rahoitustukea innovaatiotoimintaan vuosina 2006-2008 Euroopan Unionilta, yritys osallistui tuolloin EU:n tutkimuksen ja teknologian kehittämisen puiteohjelmiin, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Sentg",
+      "variablename": "Tietolähde, oma yritys tai konserni",
+      "conceptdef": "Oman yrityksen tai oman konsernin merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ssup",
+      "variablename": "Tietolähde, laite-, ohjelmisto- yms. toimittajat",
+      "conceptdef": "Laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008 , 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Scli",
+      "variablename": "Tietolähde, asiakkaat",
+      "conceptdef": "Asiakkaiden merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Scom",
+      "variablename": "Tietolähde, kilpailijat ja toimialan muut yritykset",
+      "conceptdef": "Kilpailijoiden ja toimialan muiden yritysten merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Sins",
+      "variablename": "Tietolähde, konsulttiyritykset, kaupalliset laboratoriot tai yksityiset tutkimuslaitokset",
+      "conceptdef": "Konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Suni",
+      "variablename": "Tietolähde, yliopistot ja ammattikorkeakoulut",
+      "conceptdef": "Yliopistojen ja ammattikorkeakoulujen merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Sgmt",
+      "variablename": "Tietolähde, julkiset ja yksityiset voittoa tavoittelemattomat tutkimuslaitokset",
+      "conceptdef": "Julkisten ja yksityisten voittoa tavoittelemattomien tutkimuslaitosten merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Scon",
+      "variablename": "Tietolähde, konferenssit, messut, näyttelyt",
+      "conceptdef": "Konferenssien, messujen, näyttelyjen merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Sjou",
+      "variablename": "Tietolähde, tieteelliset aikakauslehdet ja ammattijulkaisut",
+      "conceptdef": "Tieteellisten aikakauslehtien ja ammattijulkaisujen merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Spro",
+      "variablename": "Tietolähde, toimialajärjestöt",
+      "conceptdef": "Toimialajärjestöjen merkitys tietolähteenä innovaatiotoiminnassa (tuote- ja prosessi-innovaatiot) 2006-2008, 3=suuri, 2=kohtalainen,1= vähäinen, 0=ei käytössä.Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co",
+      "variablename": "Innovaatioyhteistyö",
+      "conceptdef": "Yrityksellä oli tuote- ja prosessi-innovaatioihin liittyvää yhteistyötä muiden yritysten tai laitosten kanssa vuosina 2006–2008, 1=kyllä, 0=ei. Innovaatiotoimintaan liittyvällä yhteistyöllä tarkoitetaan aktiivista osallistumista muiden yritysten tai voittoa tavoittelemattomien laitosten kanssa innovaatioprojekteihin. Yhteistyöstä ei tarvitse välttämättä koitua kaupallista hyötyä. Pelkkiä tilaustöitä ei lueta yhteistyöksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtok",
+      "variablename": "Yhteistyön merkitys, oma konserni",
+      "conceptdef": "Oman konsernin yritysten kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtlt",
+      "variablename": "Yhteistyön merkitys, laitteiden toimittajat",
+      "conceptdef": "Laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtas",
+      "variablename": "Yhteistyön merkitys, asiakkaat",
+      "conceptdef": "Asiakkaiden kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtki",
+      "variablename": "Yhteistyön merkitys, kilpailijat",
+      "conceptdef": "Kilpailijoiden ja toimialan muiden yritysten kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtkl",
+      "variablename": "Yhteistyön merkitys, konsulttiyritykset",
+      "conceptdef": "Konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtyo",
+      "variablename": "Yhteistyön merkitys, yliopistot",
+      "conceptdef": "Yliopistojen ja ammattikorkeakoulujen kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtju",
+      "variablename": "Yhteistyön merkitys, julkiset tutkimuslaitokset",
+      "conceptdef": "Julkisten tai voittoa tavoittelemattomien tutkimuslaitosten kanssa tehdyn yhteistyön merkitys innovaatiotoiminnassa 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei yhteistyötä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co11",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co12",
+      "variablename": "Innovaatioyhteistyö, oma konserni, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa muussa Euroopan maassa vuosina 2006-2008 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-valtiot ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co13",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co14",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co15",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Intia",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co16",
+      "variablename": "Innovaatioyhteistyö, oma konserni, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co21",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co22",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa muussa Euroopan maassa vuosina 2006-2008 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co23",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co24",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co25",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, Intia",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co26",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co31",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co32",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa muussa Euroopan maassa vuosina 2006-2008 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-valtiot ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co33",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co34",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co35",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Intia",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co36",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co41",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co42",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa muussa Euroopan maassa vuosina 2006-2008 1=kyllä, 0=ei. Tähän ryhmään kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co43",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co44",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co45",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Intia",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co46",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co51",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co52",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa muussa Euroopan maassa vuosina 2006-2008 1=kyllä, 0=ei. Tähän ryhmään kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-valtiot ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co53",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co54",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co55",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Intia",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co56",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kaupallisten laboratorioiden tai yksityisten tutkimuslaitosten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co61",
+      "variablename": "Innovaatioyhteistyö, yliopistot, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja ammattikorkeakoulujen kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co62",
+      "variablename": "Innovaatioyhteistyö, yliopistot, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja ammattikorkeakoulujen kanssa  muussa Euroopan maaassa vuosina 2006-2008 1=kyllä, 0=ei. Tähän ryhmään kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-valtiot ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co63",
+      "variablename": "Innovaatioyhteistyö, yliopistot, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja ammattikorkeakoulujen kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co64",
+      "variablename": "Innovaatioyhteistyö, yliopistot, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja ammattikorkeakoulujen kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co65",
+      "variablename": "Innovaatioyhteistyö, yliopistot, Intia",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja ammattikorkeakoulujen kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co66",
+      "variablename": "Innovaatioyhteistyö, yliopistot, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja ammattikorkeakoulujen kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co71",
+      "variablename": "Innovaatioyhteistyö, julkiset tutkimuslaitokset, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Suomessa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co72",
+      "variablename": "Innovaatioyhteistyö, julkiset tutkimuslaitokset, muu Eu",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa muussa Euroopan maassa vuosina 2006-2008 1=kyllä, 0=ei . Tähän ryhmään kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-valtiot ja EU:n ehdokasmaat: Alankomaat, Belgia, Britannia, Bulgaria, Espanja, Irlanti, Islanti, Italia, Itävalta, Kreikka, Kroatia, Kypros, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Norja, Portugali, Puola, Ranska, Romania, Ruotsi, Saksa, Slovakia, Slovenia, Sveitsi, Tanska, Tšekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co73",
+      "variablename": "Innovaatioyhteistyö, julkiset tutkimuslaitokset, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Yhdysvalloissa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co74",
+      "variablename": "Innovaatioyhteistyö, julkiset tutkimuslaitokset, Kiina",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Kiinassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co75",
+      "variablename": "Innovaatioyhteistyö, julkiset tutkimuslaitokset, Intia",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Intiassa vuosina 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "co76",
+      "variablename": "Innovaatioyhteistyö, julkiset tutkimuslaitokset, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) 2006-2008 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ORange",
+      "variablename": "Tavoitteet, tavara- tai palveluvalikoiman laajentaminen",
+      "conceptdef": "Tavara- tai palveluvalikoiman laajentaminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Orepl",
+      "variablename": "Tavoitteet, vanhentuneiden tuotteiden tai prosessien korvaaminen",
+      "conceptdef": "Vanhentuneiden tuotteiden tai prosessien korvaaminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä.merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Oenmk",
+      "variablename": "Tavoitteet, pääsy uusille markkinoille",
+      "conceptdef": "Uusille markkinoille pääsy; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Oimks",
+      "variablename": "Tavoitteet, markkinaosuuden kasvaminen",
+      "conceptdef": "Markkinaosuuden kasvaminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Oqua",
+      "variablename": "Tavoitteet, tavaroiden tai palvelujen laadun parantaminen",
+      "conceptdef": "Tavaroiden tai palvelujen laadun parantaminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Oflex",
+      "variablename": "Tavoitteet, tavara- tai palvelutuotannon joustavuuden parantaminen",
+      "conceptdef": "Tavara- tai palvelutuotannon joustavuuden parantaminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ocap",
+      "variablename": "Tavoitteet, tavara- tai palvelutuotannon kapasiteetin lisäys",
+      "conceptdef": "Tavara- tai palvelutuotannon kapasiteetin lisäys; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ohes",
+      "variablename": "Tavoitteet, terveyden ja turvallisuuden paraneminen",
+      "conceptdef": "Terveyden ja turvallisuuden paraneminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Olbr",
+      "variablename": "Tavoitteet, yksikkötyökustannusten aleneminen",
+      "conceptdef": "Yksikkötyökustannusten aleneminen; tavoitteen merkitys oli yrityksen innovaatiotoiminnassa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Mikäli yrityksellä oli useita tuote- ja prosessi-innovaatioiden kehittämiseen liittyviä projekteja, tässä on annettu yleisarvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Orgbup",
+      "variablename": "Organisaatioinnovaatiot, liiketoimintakäytännöt",
+      "conceptdef": "Yritys otti käyttöön uusia liiketoimintakäytäntöjä menettelytapojen organisoimiseksi vuosina 2006-2008, 1=kyllä, 0=ei. Esimerkiksi tarjontaketjun hallinta, liiketoimintaprosessien uusinta, tiedonhallinta, kevyt tuotantomalli (lean-tuotanto), laadunhallinta jne. \n\nOrganisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Orgwkp",
+      "variablename": "Organisaatioinnovaatiot, menettelyt vastuiden ja päätöksenteon organisoimiseksi",
+      "conceptdef": "Yritys otti käyttöön uusia menettelyjä vastuiden ja päätöksenteon organisoimiseksi vuosina 2006-2008, 1=kyllä, 0=ei. Esimerkiksi työntekijöitä koskevan uuden vastuunjakojärjestelmän käyttöönotto, siirtyminen tiimityöhön, hajauttaminen, osastojen yhdistäminen tai pilkkominen, uudenlaiset koulutusjärjestelmät jne. \n\nOrganisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Orgexr",
+      "variablename": "Organisaatioinnovaatiot, uudistukset ulkoisissa suhteissa",
+      "conceptdef": "Yritys otti käyttöön uusia tapoja organisoida ulkoisia suhteita muihin yrityksiin tai julkisiin laitoksiin vuosina 2006-2008, 1=kyllä, 0=ei. Esimerkiksi liittouma/yhteistyö, kumppanuus, toimintojen ulkoistaminen tai alihankinta ensimmäistä kertaa, jne. \n\nOrganisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Orored",
+      "variablename": "Org.innovaatioiden tavoitteet, asiakastarpeisiin vastaamisen nopeutuminen",
+      "conceptdef": "Asiakkaiden ja toimittajien (alihankkijoiden) tarpeisiin vastaamisen nopeutuminen; tavoitteen merkitys yrityksen organisaatioinnovaatioiden käyttöönotossa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Organisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Oroabl",
+      "variablename": "Org.innovaatioiden tavoitteet, tuotteiden ja prosessien kehittämiskyvyn parantaminen",
+      "conceptdef": "Uusien tuotteiden tai prosessien kehittämiskyvyn parantaminen; tavoitteen merkitys oli yrityksen organisaatioinnovaatioiden käyttöönotossa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Organisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Oroqua",
+      "variablename": "Org.innovaatioiden tavoitteet, tavaroiden ja palveluiden laadun parantaminen",
+      "conceptdef": "Yrityksen tavaroiden ja palveluiden laadun parantaminen; tavoitteen merkitys oli yrityksen organisaatioinnovaatioiden käyttöönotossa vuosina 2006-2008 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Organisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ororco",
+      "variablename": "Org.innovaatioiden tavoitteet, yksikkökustannusten alentaminen",
+      "conceptdef": "Yksikkökustannusten alentaminen; tavoitteen merkitys oli yrityksen organisaatioinnovaatioiden käyttöönotossa vuosina 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Organisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Orocin",
+      "variablename": "Org.innovaatioiden tavoitteet, viestinnän ja tiedon jakamisen paraneminen",
+      "conceptdef": "Viestinnän ja tiedon jakamisen paraneminen (yrityksessä tai muiden yritysten ja laitosten kanssa); tavoitteen merkitys oli yrityksen organisaatioinnovaatioiden käyttöönotossa vuosina 2006-2008  3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Organisaatioinnovaatio on uuden organisatorisen menetelmän käyttöönotto yrityksen liiketoimintakäytännöissä (mukaan lukien tiedonhallinta), työorganisaatiossa tai ulkoisissa suhteissa. Menetelmä ei ole ollut yrityksen käytössä aiemmin. Uuden menetelmän käyttöönoton tulee perustua yritysjohdon strategiseen päätökseen. Organisaatioinnovaatioksi ei lueta yritysfuusioita tai yritysostoja, vaikka ne toteutuisivat yrityksen kannalta ensimmäistä kertaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Mktdgp",
+      "variablename": "Markkinointi-innovaatiot, muutokset designissa tai pakkauksissa",
+      "conceptdef": "Yritys otti käyttöön olennaisia muutoksia tuotteiden esteettisessä muotoilussa (design) tai pakkauksissa vuosina 2006-2008 1=kyllä, 0=ei. Tähän eivät kuulu muutokset, jotka muuttavat ainoastaan tuotteen toiminnallisia ominaisuuksia tai käyttäjäominaisuuksia - nämä ovat tuoteinnovaatioita.  \n\nMarkkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Mktpdp",
+      "variablename": "Markkinointi-innovaatiot, uudistukset myynninedistämisessä",
+      "conceptdef": "Yritys otti käyttöön uuden tiedotusvälineen tai menetelmän tuotteen myynninedistämisessä (esim. uuden mainosvälineen käyttö ensimmäistä kertaa, uusi tuotekuva, kanta-asiakaskorttien käyttöönotto jne.) vuosina 2006-2008 1=kyllä, 0=ei. Markkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Mktpdl",
+      "variablename": "Markkinointi-innovaatiot, uudistukset tuotesijoittelussa ja myyntikanavissa",
+      "conceptdef": "Yritys otti käyttöön uusia menetelmiä tuotesijoittelussa ja myyntikanavissa (kuten franchisingin, jakelulisenssien, suoramyynnin tai yksinoikeusmyynnin käyttöönotto, uudet ideat tai menetelmät tuotteiden esillepanossa jne.) vuosina 2006-2008 1=kyllä, 0=ei. \n\nMarkkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Mktpri",
+      "variablename": "Markkinointi-innovaatiot, uudistukset hinnoittelussa",
+      "conceptdef": "Yritys otti käyttöön uusia menetelmiä tavaroiden ja palveluiden hinnoittelussa (kuten kysynnän mukaan muuttuvan hinnoittelun käyttöönotto, uudet alennusjärjestelmät jne.) vuosina 2006-2008 1=kyllä, 0=ei. \n\nMarkkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Omkts",
+      "variablename": "Markk.innovaatioiden tavoitteet, markkinaosuus",
+      "conceptdef": "Markkinaosuuden kasvamisen tai säilymisen tavoite oli markkinointi-innovaatioiden käyttöönotossa merkitykseltään 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Markkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Omktcg",
+      "variablename": "Markk.innovaatioiden tavoitteet, uudet asiakasryhmät",
+      "conceptdef": "Uusien asiakasryhmien tavoittamisen tavoite oli markkinointi-innovaatioiden käyttöönotossa merkitykseltään 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Markkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Omktgm",
+      "variablename": "Markk.innovaatioiden tavoitteet, uudet maantieteelliset markkinat",
+      "conceptdef": "Uusien maantieteellisten markkinoiden tavoittamisen tavoite oli markkinointi-innovaatioiden käyttöönotossa merkitykseltään 3=suuri, 2=kohtalainen,1=vähäinen, 0=ei merkitystä. Markkinointi-innovaatio on uusi markkinointi-idea tai -strategia, joka olennaisesti eroaa yrityksen käyttämästä markkinointimenetelmästä ja jota yritys ei ole aiemmin käyttänyt. Markkinointi-innovaatio edellyttää olennaisia muutoksia tuotteen muotoilussa (design) tai pakkauksessa, tuotesijoittelussa, myynninedistämisessä tai hinnoittelussa. Markkinointimenetelmien kausiluonteiset, säännölliset tai muut rutiiniluonteiset muutokset eivät kuulu markkinointi-innovaatioihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecomat",
+      "variablename": "Innovaatioiden ympäristöhyödyt, tehokkaampi materiaalien käyttö",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli tehokkaampi (vähentynyt) materiaalien käyttö tuotannossa tuotettua yksikköä kohden, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecoen",
+      "variablename": "Innovaatioiden ympäristöhyödyt, tehokkaampi energian käyttö (tuotanto)",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008  innovaation, jonka ympäristöhyötynä oli tehokkaampi (vähentynyt) energian käyttö tuotettua yksikköä kohden, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecoco",
+      "variablename": "Innovaatioiden ympäristöhyödyt, pienentynyt hiilijalanjälki",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli pienentynyt hiilijalanjälki (CO2-kokonaistuotanto), 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecosub",
+      "variablename": "Innovaatioiden ympäristöhyödyt, materiaalien korvaaminen ymp.ystävällisillä",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli tuotannossa käytettävien materiaalien korvaaminen vähemmän saastuttavilla tai vähemmän vaaraa aiheuttavilla, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecopol",
+      "variablename": "Innovaatioiden ympäristöhyödyt, vähäisempi saastuminen (tuotanto)",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli vähäisempi maaperän, veden tai ilman saastuminen tai vähäisempi melusaaste, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecorec",
+      "variablename": "Innovaatioiden ympäristöhyödyt, materiaalien kierrätys",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli jätteiden, veden tai tuotannossa käytettävien materiaalien kierrätys, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecoenu",
+      "variablename": "Innovaatioiden ympäristöhyödyt, tehokkaampi energian käyttö (kulutus)",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli tehokkaampi (vähentynyt) energian käyttö kulutuksessa, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecopos",
+      "variablename": "Innovaatioiden ympäristöhyödyt, vähäisempi saastuminen tai melusaaste (kulutus)",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli vähäisempi maaperän, veden tai ilman saastuminen tai vähäisempi melusaaste kulutuksen aikana, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ecorea",
+      "variablename": "Innovaatioiden ympäristöhyödyt, loppuun käytetyn tuotteen kierrätysmahdollisuus",
+      "conceptdef": "Yritys otti käyttöön vuosina 2006-2008 innovaation, jonka ympäristöhyötynä oli parantuneet mahdollisuudet kierrättää loppuun käytetty tuote, 1=kyllä, 0=ei. Ympäristöinnovaatio on uusi tai olennaisesti parannettu tuote (tavara tai palvelu), prosessi tai organisaatioon tai markkinointiin liittyvä menetelmä, joka verrattuna vaihtoehtoisiin uudistuksiin tuottaa ympäristöhyötyjä. Saavutettavat ympäristöhyödyt voivat olla innovaation päätavoite tai innovaation muiden tavoitteiden tulos. Innovaation ympäristöhyödyt voivat ilmetä tavaran tai palvelun tuotannon aikana, tai tavaran tai palvelun loppukäytön aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Enreg",
+      "variablename": "Ympäristöinnovaatioiden syyt, nykyiset säännökset tai päästöverot",
+      "conceptdef": "Yrityksen ympäristöinnovaatioiden käyttöönoton syynä olivat nykyiset ympäristösäännökset tai päästöverot, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Enregf",
+      "variablename": "Ympäristöinnovaatioiden syyt, tulevat säännökset tai verot",
+      "conceptdef": "Yrityksen ympäristöinnovaatioiden käyttöönoton syynä olivat mahdollisesti tulevaisuudessa voimaan tulevat ympäristösäännökset tai -verot, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Engra",
+      "variablename": "Ympäristöinnovaatioiden syyt, saatavilla oleva julkinen rahoitus",
+      "conceptdef": "Yrityksen ympäristöinnovaatioiden käyttöönoton syynä olivat ympäristöinnovaatioihin saatavilla oleva julkinen rahoitus, avustukset tai muut kannustimet, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Endem",
+      "variablename": "Ympäristöinnovaatioiden syyt, kysyntä",
+      "conceptdef": "Yrityksen ympäristöinnovaatioiden käyttöönoton syynä oli asiakkaiden nykyinen tai tuleva ympäristöinnovaatioiden kysyntä, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Enagr",
+      "variablename": "Ympäristöinnovaatioiden syyt, hyvien käytäntöjen muodostaminen",
+      "conceptdef": "Yrityksen ympäristöinnovaatioiden käyttöönoton syynä olivat toimialaan liittyvät ympäristöystävällisen toiminnan vapaaehtoiset sopimukset tai ohjeet, joilla luotiin ympäristön kannalta hyviä käytäntöjä 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otostol",
+      "variablename": "Otostoimiala",
+      "conceptdef": "Toimiala otoksessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvkerr",
+      "variablename": "Korotuskerroin, liikevaihdon mukainen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "Korotuskerroin, henkilöstölukumäärän mukainen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

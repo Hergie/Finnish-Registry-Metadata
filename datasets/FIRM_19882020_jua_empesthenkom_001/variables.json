@@ -1,0 +1,292 @@
+{
+  "variables": [
+    {
+      "identifier": "sykstun",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emp_yrek",
+      "variablename": "Henkilöstön lukumäärä, Yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage3T",
+      "variablename": "Keskipalkka, 3T",
+      "conceptdef": "Koulutusryhmät on määritelty seuraavasti:\nMuodostetaan 10 työntekijäryhmää koulutustason ja -alan mukaan. XY, jossa X viittaa koulutustasoon ja Y alaan: Y=G yleinen, Y=T, ”tekninen” (luonnontieteellinen ja tekniikan koulutus) ja Y=N ”ei-tekninen”\n- Jos koulutuskoodi='30', XY='3G'\n- Jos koulutuskoodi=('31', '32', '33', '36', '37', '38', '39'), XY='3N'\n- Jos koulutuskoodi=('34', '35'), XY='3T'\n- Jos koulutuskoodi=('('51', '52', '53', '56', '57', '58', '59'), XY='5N'\n- Jos koulutuskoodi=('('54', '55'), XY='5T'\n- Jos koulutuskoodi=('('61', '62', '63', '66', '67', '68', '69'), XY='6N'\n- Jos koulutuskoodi=('('64', '65'), XY='6T'\n- Jos koulutuskoodi=('('71', '72', '73', '76', '77', '78', '79', '81', '82', '83', '86', '87', '88', '89'), XY='8N'\n- Jos koulutuskoodi=('('74', '75', '84', '85'), XY='8T'\n- Muutoin XY='2G'\nKullekin koulutusryhmälle on laskettu keskimääräiset kuukausiansiot työtulojen (palkkatulot) summan ja työssäolokuukausien summan suhteena. Tämä mittari ei ole kuitenkaan täysin luotettava, esim. äitiysvapaakuukaudet lasketaan mukaan työssäolokuukausiin mutta näillä henkilöillä ei ole työtuloja.\n\nVuonna 2016 4-alkuiset erikoisammattitutkinnot on sisällytetty luokkaan 3.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage2G",
+      "variablename": "Keskipalkka, 2G",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage3N",
+      "variablename": "Keskipalkka, 3N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage5T",
+      "variablename": "Keskipalkka, 5T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage3G",
+      "variablename": "Keskipalkka, 3G",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage8N",
+      "variablename": "Keskipalkka, 8N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage5N",
+      "variablename": "Keskipalkka, 5N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage6T",
+      "variablename": "Keskipalkka, 6T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage6N",
+      "variablename": "Keskipalkka, 6N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mwage8T",
+      "variablename": "Keskipalkka, 8T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh2G",
+      "variablename": "Osuus, 2G",
+      "conceptdef": "Koulutusryhmät on määritelty seuraavasti:\nMuodostetaan 10 työntekijäryhmää koulutustason ja -alan mukaan. XY, jossa X viittaa koulutustasoon ja Y alaan: Y=G yleinen, Y=T, ”tekninen” (luonnontieteellinen ja tekniikan koulutus) ja Y=N ”ei-tekninen”\n- Jos koulutuskoodi='30', XY='3G'\n- Jos koulutuskoodi=('31', '32', '33', '36', '37', '38', '39'), XY='3N'\n- Jos koulutuskoodi=('34', '35'), XY='3T'\n- Jos koulutuskoodi=('('51', '52', '53', '56', '57', '58', '59'), XY='5N'\n- Jos koulutuskoodi=('('54', '55'), XY='5T'\n- Jos koulutuskoodi=('('61', '62', '63', '66', '67', '68', '69'), XY='6N'\n- Jos koulutuskoodi=('('64', '65'), XY='6T'\n- Jos koulutuskoodi=('('71', '72', '73', '76', '77', '78', '79', '81', '82', '83', '86', '87', '88', '89'), XY='8N'\n- Jos koulutuskoodi=('('74', '75', '84', '85'), XY='8T'\n- Muutoin XY='2G'\n\nVuonna 2016 4-alkuiset erikoisammattitutkinnot on sisällytetty luokkaan 3.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh3G",
+      "variablename": "Osuus, 3G",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh3N",
+      "variablename": "Osuus, 3N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh3T",
+      "variablename": "Osuus, 3T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh5N",
+      "variablename": "Osuus, 5N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh5T",
+      "variablename": "Osuus, 5T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh6N",
+      "variablename": "Osuus, 6N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh6T",
+      "variablename": "Osuus, 6T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh8N",
+      "variablename": "Osuus, 8N",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sh8T",
+      "variablename": "Osuus, 8T",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emp_fleed",
+      "variablename": "Henkilöstön lukumäärä, FLEED",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shage16_24",
+      "variablename": "Osuus, 16-24v.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shage25_34",
+      "variablename": "Osuus, 25-34v.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shage35_44",
+      "variablename": "Osuus, 35-44v.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shage45_54",
+      "variablename": "Osuus, 45-54v.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shage55_70",
+      "variablename": "Osuus, 55-70v.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "age",
+      "variablename": "Keskimääräinen ikä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "senmonths",
+      "variablename": "Yrityskohtainen työkokemus, kuukausia",
+      "conceptdef": "Senioriteetti TVM-käsitteen eli vuoden viimeisen viikon tilanteen mukaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "educyears",
+      "variablename": "Keskimääräiset koulutusvuodet",
+      "conceptdef": "- Tutkinnot muutetaan kouluvuosiksi seuraavasti:\n Jos koulutustaso='3', kouluvuodet=12  (Keskiaste)\n Jos koulutustaso='5', kouluvuodet=14 (Alin korkea-aste)\n Jos koulutustaso='6', kouluvuodet=16 (Alempi korkeakouluaste)\n Jos koulutustaso='7', kouluvuodet=18 (Ylempi korkeakouluaste)\n Jos koulutustaso='8', kouluvuodet=21 (Tutkijakoulutusaste)\n Muutoin kouluvuodet=9\n- Vuoteen 2004 asti pohjautuu UTUTKU-muuttujaan (vuoden 2004 koulutusluokituksen mukainen), vuodesta 2005 alkaen pohjana KTUTK (kyseisen vuoden koulutusluokituksen mukainen)\n\nVuonna 2016 4-alkuiset erikoisammattitutkinnot on sisällytetty luokkaan 3.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shwomen",
+      "variablename": "Naisten osuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "year",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stdage",
+      "variablename": "Iän keskihajonta",
+      "conceptdef": "Henkilöstön iän keskihajonta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stdeduc",
+      "variablename": "Koulutusvuosien keskihajonta",
+      "conceptdef": "Henkilöstön koulutusvuosien keskihajonta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilyks",
+      "variablename": "Tilastoyksikkö yritysrekisterin vuositilastossa",
+      "conceptdef": "Tilastoyksikkö. \nMahdolliset arvot ovat:\n1 = tulee tilastoon \nblankko = ei tule tilastoon \nTilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuotta tilastovuonna ja jotka ovat työllistäneet enemmän kuin puoli henkilöä tai joiden liikevaihto on ylittänyt vuosittain määritellyn tilastorajan (esim. 10 595 euroa vuonna 2012). Suositellaan käytettävän vain tilastoyksiköiden tietoja, koska mukana voi olla julkisten yhteisöjen yksiköitä, joita toimipaikkatunnus ei aina yksilöi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

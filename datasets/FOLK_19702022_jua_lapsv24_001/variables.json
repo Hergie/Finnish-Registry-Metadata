@@ -1,0 +1,124 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Väestölaskentavuodet 1970,1975, 1980 sekä 1985 ja vuodet 1987-2019.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu TK:n henkilönumero",
+      "conceptdef": "Lapsen suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "petu",
+      "variablename": "Perhetunnus",
+      "conceptdef": "Lapsen perheen tunniste on sama kuin FOLK perhemoduulissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ak_koodi",
+      "variablename": "Asuntokuntakoodi",
+      "conceptdef": "Lapsen asuntokuntanumero on sama kuin FOLK asuntokuntamoduulissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Lapsen syntymävuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_m",
+      "variablename": "Suojattu TK:n henkilönumero, biol. äiti",
+      "conceptdef": "Biologisen äidin suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_f",
+      "variablename": "Suojattu TK:n henkilönumero, biol. isä",
+      "conceptdef": "Biologisen isän suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_am",
+      "variablename": "Suojattu TK:n henkilönumero, adoptioäiti",
+      "conceptdef": "Adoptioäidin suojattu TK:n henkilönumero. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_af",
+      "variablename": "Suojattu TK:n henkilönumero, adoptioisä",
+      "conceptdef": "Adoptioisän suojattu TK:n henkilönumero. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_s1",
+      "variablename": "Suojattu TK:n henkilönumero, sosiaalinen vanh.1",
+      "conceptdef": "Sosiaalisen vanhemman (1.) suojattu TK:N henkilönumero. Sosiaalinen vanhempi (1.) on samassa asunnossa asuva isä, adoptioisä, sosiaalinen isä tai naisparista se, joka ei ole biologinen äiti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_s2",
+      "variablename": "Suojattu TK:n henkilönumero, sosiaalinen vanh.2",
+      "conceptdef": "Sosiaalisen vanhemman (2.) suojattu TK:N henkilönumero. Sosiaalinen vanhempi (2.) on samassa asunnossa asuva äiti, adoptioäiti, sosiaalinen äiti tai miesparista se, joka ei ole biologinen isä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "status_m",
+      "variablename": "Asumisstatus, biol. äiti",
+      "conceptdef": "Biologinen äiti \n1 = asuu lapsen kanssa, \n2 = asuu muualla, \n3 = kuollut, \n4, 5 = ei tietoa / muu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "status_f",
+      "variablename": "Asumisstatus, biol. isä",
+      "conceptdef": "Biologinen isä \n1 = asuu lapsen kanssa, \n2 = asuu muualla, \n3 = kuollut, \n4, 5 = ei tietoa / muu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "status_am",
+      "variablename": "Asumisstatus, adoptioäiti",
+      "conceptdef": "Adoptioäiti 1 = asuu lapsen kanssa, 2 = asuu muualla, 3 = kuollut, 4 = ei tietoa / muu. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "status_af",
+      "variablename": "Asumisstatus, adoptioisä",
+      "conceptdef": "Adoptioisä 1 = asuu lapsen kanssa, 2 = asuu muualla, 3 = kuollut, 4 = ei tietoa / muu. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

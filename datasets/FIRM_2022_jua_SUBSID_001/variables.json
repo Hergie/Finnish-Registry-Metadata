@@ -1,0 +1,268 @@
+{
+  "variables": [
+    {
+      "identifier": "julkisuusaste",
+      "variablename": "julkisuusaste",
+      "conceptdef": "Viranomaisen toiminnan julkisuudesta annetun lain (621/1999 mukainen julkisuusaste ellei muussa laissa ole toisin säädetty. Lähtökohtaisesti myönnetyt ja maksetut tukitiedot ovat julkisia. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksimiMaara",
+      "variablename": "maksimimaara",
+      "conceptdef": "Tuen maksimimäärä euroina. Esim. verotuet ilmoitetaan vaihteluväleinä. Lainojen ja takausten osalta tässä muuttujassa on absoluuttiset rahamäärät. Lainoja ja takauksia tutkittaessa suosittelen käyttämään tätä muuttujaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "minimiMaara",
+      "variablename": "minimimaara",
+      "conceptdef": "Tuen minimimäärä. Esim. verotuen suuruus ilmoitetaan vaihteluvälinä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nimellisMaara",
+      "variablename": "nimellismaara",
+      "conceptdef": "Tuen nimellismäärä euromääräisenä.\n Käytössä lainoissa, takauksissa ja verotuissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SGEItuki",
+      "variablename": "SGEItuki",
+      "conceptdef": "SGEI-tuella tarkoitetaan tukea, jolla on julkisen palvelun velvoite. \nSGEI-tuet, joissa on tukielementti, ovat SEUT 107(1) artiklan mukaista tukea. Poikkeuksena tähän on Altmark-kriteerit täyttävät tuet, jotka eivät täytä SEUT 107(1) edellytyksiä (tietyt erikseen arvioitavat liikenteen tuet). \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukiohjelma",
+      "variablename": "tukiohjelma",
+      "conceptdef": "Tukiohjelman nimi. Yritystuet jaetaan tukiohjelmakohtaisesti ja jokaiseen tukiohjelmaan liittyy tietyt tavoitteet ja vaatimukset. Vanhoissa (ennen vuotta 2022) olevissa tiedoissa kyseessä on ryhmittely (mahdollisesti useista tukiohjelmista ryhmää kohden). Tukiohjelma ja tukimuoto ovat osittain päällekkäiset muuttujat. Suosittelen käyttämään tukiohjelmaa, mikäli se on olemassa, muuten tukimuotoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukiohjelmatunnus",
+      "variablename": "tukiohjelmatunnus",
+      "conceptdef": "Ennen tilastovuotta 2024 oma ryhmittely liittyen tuen tavoitteeseen. Luokkina: asuminen-luokka, energia-luokka, liikenne ja viestintä -luokka, ympäristönsuojelu-luokka, työllisyys- ja aluepolitiikka -luokka, tutkimus-, kehittämis- ja innovaatiotoiminta, kansainvälistyminen ja yritystoiminta -luokka sekä muut tuet -luokka. Muut tuet sisältävät mm. kulttuuriin ja poikkeusoloihin liittyviä tukia.\n\nTilastovuonna 2024 tukiohjelmatunnuksen luokittelu on muuttunut allaolevan mukaiseksi:\n1 = \"TKI-toiminta, kansainvälistyminen ja yritystoiminta\"\n2 = \"Liikenne ja viestintä\"\n3 = \"Energia\"\n4 = \"Ympäristönsuojelu\"\n5 = \"Työllisyys- ja aluepolitiikka\"\n6 = \"Asuminen\"\n7 = \"Muut\"\nLuokitukset eivät perustu kansalliseen tai kansainväliseen luokitteluun, vaan ovat tilaston tietotarpeisiin muodostamia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valtiontuenTavoite",
+      "variablename": "valtiontuentavoite",
+      "conceptdef": "Valtiontuen tavoite, tätä luokitusta ei käytetä tilastossa tällä hetkellä, mutta on jätetty aineistoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuenTavoite",
+      "variablename": "tuentavoite",
+      "conceptdef": "Tuen virallinen hyväksytty päätavoite. Ei muita tavoitteita. Esimerkiksi kansainvälistyminen, uuden liiketoiminnan luominen...\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukimuoto",
+      "variablename": "tukimuoto",
+      "conceptdef": "Tukimuoto on käytännössä tuki-instrumentin nimi. Yritystuet jaetaan tukiohjelmakohtaisesti ja jokaiseen tukiohjelmaan liittyy tietyt tavoitteet ja vaatimukset. Tukiohjelma ja tukimuoto ovat osittain päällekkäiset muuttujat. Suosittelen käyttämään tukiohjelmaa, mikäli se on olemassa, muuten tukimuotoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukinumero",
+      "variablename": "tukinumero",
+      "conceptdef": "Komission SA.nro. Tämä pitää olla mikäli tuki on hyväksytetty EU:ssa (käytännössä kaikki tuet, jotka eivä olet deminimis).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksettuDeminimis",
+      "variablename": "maksettu_deminimis",
+      "conceptdef": "Maksetun deminimis-tuen suuruus. DeMinimis-tuki määritellään vähämerkityksettömänä tukena, eli sitä voidaan maksaa ilman erillistä lupaa Komissiolta, mikäli kaiken DeMinimis-tuen määrä alittaa 200 000 euroa kolmen vuoden aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksettuKansallinen",
+      "variablename": "maksettu_kansallinen",
+      "conceptdef": "Kansallisen tuen suuruus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksettuEU",
+      "variablename": "maksettu_eu",
+      "conceptdef": "Maksetun tuen EU-rahoituksen suuruus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksettuSumma",
+      "variablename": "maksettu_summa",
+      "conceptdef": "Maksetun tuen suuruus. Summa maksetuista kansallisista ja EU-osuudesta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvMaksu",
+      "variablename": "vv_maksu",
+      "conceptdef": "Tuen maksatuksen vuosi. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksetutDeminimisMyonnoista",
+      "variablename": "maksatukset_deminimis_myonnoista",
+      "conceptdef": "Kuinka paljon myönnetyistä deminimis-tuista on maksettu yhteensä. DeMinimis-tuki määritellään vähämerkityksettömänä tukena, eli sitä voidaan maksaa ilman erillistä lupaa Komissiolta, mikäli kaiken DeMinimis-tuen määrä alittaa 200 000 euroa kolmen vuoden aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maksatuksetMyontojaKohden",
+      "variablename": "maksatukset_myontoja_kohden",
+      "conceptdef": "Maksatusten määrä yhteensä myöntöjä kohden, eli kuinka paljon myöntätapahtumassa luvatusta tuesta on maksettu. Tälle muuttujalle ei tehdä validointeja tai muita tarkastuksia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deminimistukiMyonSumma",
+      "variablename": "deminimistuki_myon_summa",
+      "conceptdef": "Myönnetyn deminimis-tuen suuruus. DeMinimis-tuki määritellään vähämerkityksettömänä tukena, eli sitä voidaan maksaa ilman erillistä lupaa Komissiolta, mikäli kaiken DeMinimis-tuen määrä alittaa 200 000 euroa kolmen vuoden aikana yritystä kohden.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muuJulkinentukiMyon",
+      "variablename": "muujulkinentuki_myon",
+      "conceptdef": "Muu julkinentuki kuin EU tai valtiontuki. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valtiontukiMyon",
+      "variablename": "valtiontuki_myon",
+      "conceptdef": "Myönnetyn tuen suuruus, jonka rahoitus tulee valtiolta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EUtukiMyon",
+      "variablename": "EUTuki_myon",
+      "conceptdef": "Myönnetyn tuen suuruus, johon rahoitus EU:lta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhteensaMyon",
+      "variablename": "yhteensa_myon",
+      "conceptdef": "Myönnetyn tuen suuruus euromääräisenä. Summa valtiontuen, EU-tuen ja muun julkisen tuen osista. Lainojen ja takausten osalta tässä muuttujassa on tuen laskennallinen suuruus, joka riippuu lainaehdoista ja luottotappion riskistä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkMyon",
+      "variablename": "kk_myon",
+      "conceptdef": "Tuen myöntämiskuukausi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvMyon",
+      "variablename": "vv_myon",
+      "conceptdef": "Tuen myöntämisvuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukilajinro",
+      "variablename": "Tukilajinro",
+      "conceptdef": "Tukilajinumero. Kertoo yritystuen muodon, esimerkiksi: Korkotuki, Suora tuki, Takaus. Huomioitava, etteivät euromäärät ole suoraan vertailtavissa eri tukimuotojen osalta.  \n1 = korkotuki, vuodesta 2022 alkaen \n2 = laina, vuodesta 2022 alkaen \n3 = suora avustus, vuodesta 2022 alkaen \n4 = takaus, vuodesta 2022 alkaen \n5 = laina, ennen vuotta 2022 \n6 = suora, ennen vuotta 2022 \n7 = takaus, ennen vuotta 2022 \nTukilajit on eroteltu omiin tukilajinumeroihin, sillä ne eivät ole vertailukelpoisia keskenään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukilaji",
+      "variablename": "Tukilaji",
+      "conceptdef": "Kertoo yritystuen muodon, esimerkiksi: Korkotuki, Suora tuki, Takaus. Huomioitava, etteivät euromäärät ole suoraan vertailtavissa eri tukimuotojen osalta.\n\nMuuttujan tukilaji arvot menevät näin:\n \"Suora avustus\" + \"Avustus/Korkotuki\" + \"Muu (täsmennettävä)\" = \"Suora tuki\"\n, jossa \"Suora tuki\" = tilastossa ilmoitettava suora yritystuki.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukitila",
+      "variablename": "TukiTila",
+      "conceptdef": "Vanhassa aineistossa (ennen vuotta 2022) kyseessä on vain myönnetyt tuet. Kuitenkin uudessa aineistossa tuki voi olla myös peruutettu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuenValitysOrganisaatio",
+      "variablename": "tuenValitysOrganisaatio",
+      "conceptdef": "Tuen välittäjät. Joitain tukia jakavat esim. säätiöt tai yhdistykset ja rahoitus tähän tulee valtiolta. Sellainen yhteisö tai säätiö, joka myöntää/maksaa tuen viranomaisen puolesta (esimerkiksi  Kopiosto). Myös ns. kansalliset organisaatiot koskien EAKR-varoja ja niiden kansallisia osuuksia. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkuperainenMyontaja",
+      "variablename": "AlkuperainenMyontaja",
+      "conceptdef": "Tuen myöntäjän nimi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tukitapahtuman vuosi. Mikäli samana vuonna myöntöjä ja/tai maksuja, niin näiden vuodet täsmäävät tähän muuttuujaan. Tämä muuttuja mukana, jotta saadaan erotteleva avainmuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukiID",
+      "variablename": "tukiID",
+      "conceptdef": "Tuen yksilöivä tunniste. Toimii avainmuuttujana myös. Tuelle myönnetään tukiID, joka on yksilöivä jokaista myöntötapahtumaa kohtaan. Mahdollistaa maksettujen ja myönnettyjen tukien linkkaamisen toisiinsa. Vanhassa aineistossa tukiID on itse generoitu laittamalla kirjain \"v\" ja satunnainen luku.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ytunnus",
+      "variablename": "Syrtun",
+      "conceptdef": "Yritystunnus, avainmuuttuja, jolla yritykset (oikeudelliset yksiköt) yksilöidään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,1316 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi on se kalenterivuosi, jota tilasto koskee.",
+      "measunit": null,
+      "classification": "vuosi_1_2011_07_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu TK:n henkilönumero",
+      "conceptdef": "Suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sphnro",
+      "variablename": "Suojattu avo- tai aviopuolison hnro",
+      "conceptdef": "Suojattu avo- tai aviopuolison henkilönumero. Puolisoiksi katsotaan avio- tai avoliitossa olevat tai parisuhteensa rekisteröineet henkilöt. Avoparit muodostuvat samassa asunnossa vakituisesti asuvista 18 vuotta täyttäneistä, eri sukupuolta olevista puolisottomista henkilöistä, jos heidän ikäeronsa on alle 16 vuotta eivätkä he ole sisaruksia. Puolisoiden iälle eikä ikäerolle aseteta rajoituksia, jos heillä on yhteinen lapsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shtun",
+      "variablename": "Suojattu henkilötunnus",
+      "conceptdef": "Suojattu henkilötunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shtun_lyh",
+      "variablename": "Suojattu välimerkitön henkilötunnus",
+      "conceptdef": "Suojattu välimerkitön henkilötunnus. HUOM! Tässä tunnuksessa virheitä, käytä muita henkilötunnisteita. Korjataan päivityksen yhteydessä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus (TVM=vuoden viim. viikon työsuhde)",
+      "conceptdef": "Suojattu  yritystunnus (TVM). TVM-käsite = vuoden viim. viikon työsuhde. \n\nAmas1-muuttujassa lisätietoa henkilöyrittäjien yritystunnuksista.\n\n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut syrtun-muuttujassa virastotunnus, on voinut tulla syrtun-muuttujaan y-tunnus. Samalla virastotunnus, joka aiemmin oli syrtun-muuttujassa on siirtynyt stpitunj1-muuttujaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun2",
+      "variablename": "Suojattu yritystunnus (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Suojattu  yritystunnus (ATV). Vuosilta 1989-2004. ATV-käsite = vuoden pisin työsuhde.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stpitunj1",
+      "variablename": "Suojattu kuntien/kuntayhtymien jäsenyhteisötunnus tai valtion virastotunnus",
+      "conceptdef": "Suojattu kuntien/kuntayhtymien jäsenyhteisötunnus tai valtion virastotunnus.\n\n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut syrtun-muuttujassa virastotunnus, on voinut tulla syrtun-muuttujaan y-tunnus. Samalla virastotunnus, joka aiemmin oli syrtun-muuttujassa on siirtynyt stpitunj1-muuttujaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun",
+      "variablename": "Suojattu toimipaikan tunnus (TVM=vuoden viim.viikon työsuhde)",
+      "conceptdef": "Suojattu toimipaikan tunnus (TVM=vuoden viim.viikon työsuhde).\n\nHUOM! \n\nJulkisella sektorilla toimipaikkatunnus ei ole yksikäsitteinen, vaan sitä on aina käytettävä yhdessä yritystunnuksen (syrtun)  tai kuntien/kuntayhtymien jäsenyhteisötunnuksen tai valtion virastotunnuksen (stptitunj1) kanssa. Julkisella sektorilla saman toimipaikan toimipaikkatunnus voi myös vaihtua vuosittain. Erityisesti vuodesta 2004 vuoteen 2005 kaikki julkisen sektorin toimipistetunnukset muuttuivat. \n\nMyös yksityisellä sektorilla voi olla esim. virheellisistä toimipaikkatunnuksista ja yritysjärjestelyistä johtuen poikkeuksia, joissa toimipaikkatunnus liittyy useampaan kuin yhteen yritystunnukseen samana vuonna. Tapauksia voi rajata pois käyttämällä yritys/toimipaikkarekisteriä kehikkona. \n\nFLEED henkilötaulun sykstun-muuttuja sisältää sekä yksityisen että julkisen sektorin toimipaikkatunnuksia, paitsi vuonna 2006, jolloin sykstun-muuttuja sisältää vain yksityisen sektorin toimipaikkatunnuksia. FLEED työsuhdetaulussa sykstun-muuttuja sisältää vain yksityisen sektorin toimipaikkatunnuksia ja stpitunt sisältää kunta- ja valtiosektorin toimipistetunnuksia. Työsuhdetaulun toimipaikkatunnukset ovat puutteellisia ennen vuotta 2005. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun2",
+      "variablename": "Suojattu toimipaikkatunnus (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Suojattu toimipaikan tunnus (ATV=vuoden pisin työsuhde). Arvoja vuoteen 2004 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Henkilön sukupuoli vuoden lopussa. \n1 = mies\n2 = nainen",
+      "measunit": null,
+      "classification": "sukupuoli_1_2012_01_01",
+      "variablegroups": "demografiset_tiedot, henkilo_vuosi"
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Henkilon ikä",
+      "conceptdef": "Henkilön ikä: ilmoitettu täysinä vuosina vuoden viimeisenä päivänä.",
+      "measunit": "vv",
+      "classification": "ika_1v_1_2000_01_01",
+      "variablegroups": "demografiset_tiedot"
+    },
+    {
+      "identifier": "kansa1",
+      "variablename": "Kansalaisuustunnus",
+      "conceptdef": "Kansalaisuudella tarkoitetaan jonkin maan kansalaisena olemista. Yleensä kansalaisuus saadaan syntyessä, mutta se voidaan vaihtaa muutettaessa toiseen maahan asumaan. Henkilöllä voi olla myös useamman maan kansalaisuus (kansalaisuuslaki 2003/359 ja kansalaisuusasetus 1985/699). Jos henkilöllä on kahden maan kansalaisuus, joista toinen on Suomen, hän on tilastoissa Suomen kansalaisena. Jos Suomessa asuvalla ulkomaan kansalaisella on useita ulkomaiden kansalaisuuksia, hän on rekisterissä ja tilastoissa sen maan kansalaisena, jonka passilla hän on maahan tullut.",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kieli",
+      "variablename": "Äidinkieli",
+      "conceptdef": "Väestötilastossa kielijako perustuu väestötietojärjestelmästä saatuihin tietoihin henkilön äidinkielestä. Samalla kun vanhemmat ilmoittavat syntyneelle lapselle rekisteriin nimen, he ilmoittavat lapsen kielen. Kieli säilyy rekisterissa, ellei sitä erikseen muuteta. Äidinkielitunnus, 2-merkkinen ISO 639-1",
+      "measunit": null,
+      "classification": "kieli_15_2002_12_31",
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kuntaryhma16",
+      "variablename": "Asuinkunnan kuntaryhmä vuoden 2016 aluejaolla",
+      "conceptdef": "Tilastollinen kuntaryhmitys on Tilastokeskuksessa kehitetty kaupunkimaisuuden kuvaaja, joka on ollut käytössä vuodesta 1989 lähtien. Se jakaa kunnat taajamaväestön osuuden ja suurimman taajaman väkiluvun perusteella kaupunkimaisiin, taajaan asuttuihin ja maaseutumaisiin kuntiin.\n1 = kaupunkimaiset kunnat\n2 = taajaan asutut\n3 = maaseutumaiset",
+      "measunit": null,
+      "classification": "kuntaryhmitys_1_2010_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "maakunta16",
+      "variablename": "Maakunta vuoden 2016 aluejaolla",
+      "conceptdef": "Maakunta vuoden 2016 aluejaolla.\n\n01 Uusimaa\t\t\n20 Itä-Uusimaa\t\t\n02 Varsinais-Suomi\t\t\n04 Satakunta\t\t\n05 Kanta-Häme\t\t\n06 Pirkanmaa\t\t\n07 Päijät-Häme\t\t\n08 Kymenlaakso\t\t\n09 Etelä-Karjala\t\t\n10 Etelä-Savo\t\t\n11 Pohjois-Savo\t\t\n12 Pohjois-Karjala\t\t\n13 Keski-Suomi\t\t\n14 Etelä-Pohjanmaa\t\t\n15 Pohjanmaa\t\t\n16 Keski-Pohjanmaa\t\t\n17 Pohjois-Pohjanmaa\t\t\n18 Kainuu\t\t\n19 Lappi\t\t\n21 Ahvenanmaa - Åland\t\t",
+      "measunit": null,
+      "classification": "maakunta_1_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "suuralue16",
+      "variablename": "Suuralue vuoden 2016 aluejaolla",
+      "conceptdef": "Suuralue vuoden 2016 aluejaolla.\n\n1 = Etelä-Suomi\n2 = Länsi-Suomi\n3 = Itä- Suomi\n4 = Pohjois-Suomi\n5 = Ahvenanmaa",
+      "measunit": null,
+      "classification": "suuralue_1_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuntaryhma",
+      "variablename": "Asuinkunnan kuntaryhmä (vuosi + 1:n aluejaolla)",
+      "conceptdef": "Asuinkunnan kuntaryhmä (vuosi + 1:n aluejaolla).\n1 = kaupunkimaiset kunnat\n2 = taajaan asutut\n3 = maaseutumaiset",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laani",
+      "variablename": "Asuinkunnan lääni (vuosi + 1:n aluejaolla)",
+      "conceptdef": "Tietoja vuosilta 1994-2008. Asuinkunnan lääni (vuosi + 1:n aluejako). \n\nLäänit ovat valtion aluehallintoyksiköitä. Läänissä on yleisenä hallintoviranomaisena ja erikseen säädettävien muiden tehtävien hoitamista varten lääninhallitus. \n\nLäänien määrä väheni 1.9.1997 alkaen kuuteen. Läänijaosta säädetään tammikuussa 1997 annetussa lääninhallituslaissa 1997/22.\n\nLäänit lakkautettu 31.12.2009.\n\n1997-2008\n1 Etelä-Suomi\n2 Länsi-Suomi\n3 Itä-Suomi\n4 Oulu\n5 Lappi\n6 Ahvenanmaa\n\n1994-1996\n01 Uudenmaan lääni\n02 Turun ja Porin lääni\n04 Hämeen lääni\n05 Kymen lääni\n06 Mikkelin lääni\n07 Pohjois-Karjalan lääni\n08 Kuopion lääni\n09 Keski-Suomen lääni\n10 Vaasan lääni\n11 Oulun lääni\n12 Lapin lääni\n13 Ahvenanmaan maakunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maakunta",
+      "variablename": "Asuinkunnan maakunta (vuosi + 1:n aluejaolla)",
+      "conceptdef": "Asuinkunnan maakunta (vuosi + 1:n aluejaolla). \tUusimaa\n20 \tItä-Uusimaa\n02 \tVarsinais-Suomi\n04 \tSatakunta\n05 \tKanta-Häme\n06 \tPirkanmaa\n07 \tPäijät-Häme\n08 \tKymenlaakso\n09 \tEtelä-Karjala\n10 \tEtelä-Savo\n11 \tPohjois-Savo\n12 \tPohjois-Karjala\n13 \tKeski-Suomi\n14 \tEtelä-Pohjanmaa\n15 \tPohjanmaa\n16 \tKeski-Pohjanmaa\n17 \tPohjois-Pohjanmaa\n18 \tKainuu\n19 \tLappi\n21 \tAhvenanmaa - Åland",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suuralue",
+      "variablename": "Suuralue (vuosi + 1 aluejaolla)",
+      "conceptdef": "Suuralue (vuosi + 1 aluejaolla).\n\n1 = Etelä-Suomi\n2 = Länsi-Suomi\n3 = Itä-Suomi\n4 = Pohjois-Suomi\n5 = Ahvenanmaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "seutukunta",
+      "variablename": "Seutukunta, v+1 aluejako",
+      "conceptdef": "Seutukunta v+1 aluejaolla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "seutu",
+      "variablename": "Seutukunta",
+      "conceptdef": "Seutukunta, v+1 aluejako (karkeistettu).\n\n1 = Helsinki, Espoo, Vantaa, Kauniainen\n2 = Turun seutukunta\n3 = Tampereen stk\n4 = Oulun stk \nblank = muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oty1",
+      "variablename": "Omistajatyyppi (TVM=vuoden viim. viikon työsuhde)",
+      "conceptdef": "Henkilön vuoden lopun (TVM-työsuhteen) yrityksen omistajatyyppi. Vuodesta 1996 alkaen arvoalue: 1-6.\n\n1 = Yksityinen kotimainen\n2 = Valtio\n3 = Kunta\n4 = Ahvenanmaan maakunta\n5 = Ulkomaalaisomisteinen\n6 = Muu omistajatyyppi, tuntematon\nBL = Henkilö ei työllinen\n\n1988-1995 arvoalue: 1 = Yksityinen kotimainen 2 = Valtio 3 = Kunta 4 = Kuntainliitto 6 = Ulkomaalaisten osuus yli 20 %, enintään 50 % 7 = Ulkomaalaisten osuus yli 50 % 9 = Muu omistajatyyppi, tuntematon\n",
+      "measunit": null,
+      "classification": "omistajatyyppi_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik1",
+      "variablename": "Oikeudellinen muoto (TVM=vuoden viim.viikon työsuhde)",
+      "conceptdef": "Henkilön vuoden lopun (TVM-työpaikan) yrityksen oikeudellinen muoto. \n\n11 =  Luonnollinen henkilö\n12 =  Kuolinpesä, perikunta\n13 =  Verotusyhtymä\n14 =  Avoin yhtiö\n15 =  Konkurssipesä\n21 =  Kommandiittiyhtiö\n22 =  Laivanisännistö (ei osakeyhtiö)\n31 =  Osakeyhtiö\n32 =  Keskinäinen  vakuutusyhtiö\n33 =  Säästöpankki\n34 =  Eläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa\n35 =  Asunto-osakeyhtiö\n41 =  Osuuskunta\n51 =  Säätiö, rahasto\n52 =  Aatteellinen yhdistys\n53 =  Keskinäinen  vahinkovakuutusyhtiö\n54 =  Taloudellinen yhdistys\n61 =  Julkinen viranomainen\n62 =  Julkinen liikelaitos\n63 =  Julkisoikeudellinen yhteisö\n71 =  Valtionkirkko\n72 =  Muu uskonnollinen yhteisö\n90 =  Muu oikeudellinen muoto, tuntematon\nBL  = Henkilö ei työllinen",
+      "measunit": null,
+      "classification": "oikeudell_muoto_1_1984_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oty2",
+      "variablename": "Omistajatyyppi (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Henkilön vuoden pisimmän ATV-työsuhteen yrityksen omistajatyyppi. Tietoa vuosilta 1988-2004. \n\n1996-2004\n1 =Yksityinen kotimainen\n2 = Valtio\n3 = Kunta\n4 = Ahvenanmaan maakunta\n5 = Ulkomaalaisomisteinen\n6 = Muu omistajatyyppi, tuntematon\nBL = Henkilö ei työllinen\n\n1988-1995\n1=Yksityinen kotimainen\n2=Valtio\n3=Kunta\n4=Kuntainliitto\n6=Ulkomaalaisten osuus yli 20 %, enintään 50 %\n7=Ulkomaalaisten osuus yli 50 %\n9=Muu omistajatyyppi\nBL=Henkilö ei työllinen",
+      "measunit": null,
+      "classification": "omistajatyyppi_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik2",
+      "variablename": "Oikeudellinen muoto (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Henkilön pisimmän työsuhteen (ATV-työpaikan) yrityksen oikeudellinen muoto. Tietoja vuosilta 1988-2004. Arvoalue: 11-90.\n11 =  Luonnollinen henkilö\n12 =  Kuolinpesä, perikunta\n13 =  Verotusyhtymä\n14 =  Avoin yhtiö\n15 =  Konkurssipesä\n21 =  Kommandiittiyhtiö\n22 =  Laivanisännistö (ei osakeyhtiö)\n31 =  Osakeyhtiö\n32 =  Keskinäinen  vakuutusyhtiö\n33 =  Säästöpankki\n34 =  Eläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa\n35 =  Asunto-osakeyhtiö\n41 =  Osuuskunta\n51 =  Säätiö, rahasto\n52 =  Aatteellinen yhdistys\n53 =  Keskinäinen  vahinkovakuutusyhtiö\n54 =  Taloudellinen yhdistys\n61 =  Julkinen viranomainen\n62 =  Julkinen liikelaitos\n63 =  Julkisoikeudellinen yhteisö\n71 =  Valtionkirkko\n72 =  Muu uskonnollinen yhteisö\n90 =  Muu oikeudellinen muoto, tuntematon\nBL  = Henkilö ei työllinen",
+      "measunit": null,
+      "classification": "oikeudell_muoto_1_1984_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "lv_sykstun",
+      "variablename": "Toimipaikan liikevaihto toimipaikkarekisterissä",
+      "conceptdef": "Toimipaikan liikevaihto toimipaikkarekisterissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akoko",
+      "variablename": "Asuntokunnan koko",
+      "conceptdef": "Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä. \n\n1 =\t1 henkilö\t\t\n2 =\t2 henkilöä\t\t\n3 =\t3 henkilöä\t\t\n4 =\t4 henkilöä\t\t\n5 =\t5 henkilöä\t\t\n6 =\t6 henkilöä\t\t\n7 =\t7 henkilöä\n8 =\t8 henkilöä\t\t\n9 =\t9+ henkilöä\t\t\n\t\t\t\t",
+      "measunit": null,
+      "classification": "asuntokuntakoko_3_2011_01_01",
+      "variablegroups": "statfin"
+    },
+    {
+      "identifier": "asmu",
+      "variablename": "Asumismuoto",
+      "conceptdef": "Asumismuoto muuttujan avulla rajataan asuntokunnat. \n\n0 = ei vakinaisesti asuttu\n1 = vakinaisesti asuttu",
+      "measunit": null,
+      "classification": "asumismuoto_1_1985_01_01",
+      "variablegroups": "statfin"
+    },
+    {
+      "identifier": "asty",
+      "variablename": "Asuntokuntarakenne",
+      "conceptdef": "Asuntokuntarakenne. Tieto on tuotettu vuodesta 1990. Luokitus on muuttunut vuodesta 2006. \n\nLuokitus 2006 alkaen:\n0 = laitosväestö ja yli 25 hengen asuntokunnat\n1 = 1 perhe, ei muita\n2 = 1 perhe ja muita\n3 = 2 perhettä, ei lisäksi muita\n4 = 2 perhettä, lisäksi muita\n5 = vähintään 3 perhettä, ei lisäksi muita\n6 = vähintään 3 perhettä, lisäksi muita\n7 = ei perhettä, asuntokunnan koko = 1\n8 = ei perhettä, asuntokunnan koko = 2, joilla sama sukupuoli\n9 = ei perhettä, asuntokunnan koko = 2, joilla eri sukupuoli\n10 = ei perhettä, asuntokunnan koko > 2, kaikilla sama sukupuoli\n11 = ei perhettä, asuntokunnan koko > 2, joilla eri sukupuoli\nnull = ei perheitä\n\nLuokitus vuoteen 2005:\n1 = 1 perhe ja ei muita\n2 = 1 perhe ja muita\n3 = 2 + perhettä ja ei muita\n4 = 2 + perhettä ja muita\n5 = ei perhettä, 1 henkilö\n6 = ei perhettä, 2 henkilöä samaa sukupuolta\n7 = ei perhettä, 2 henkilöä eri sukupuolta\n8 = ei perhettä, väh. kolme henkilä samaa sukupuolta\n9 = ei perhettä vähintään 3 henkilöä, kaikki eivät samaa sukupuolta\nnull = ei perheitä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asva",
+      "variablename": "Asumisväljyys",
+      "conceptdef": "Asumisväljyysluokitus:\n1 = tilavasti asuva: 1-5 henkilön asuntokunta, jonka käytössä on vähintään kolme asuinhuonetta enemmän kuin asuntokunnan henkilömäärä (keittiötä ei lueta huonelukuun)\n2 = normaali: asuntokunnat, jotka eivät kuulu em. luokkiin.\n3 = ahtaasti asuva: enemmän kuin yksi henkilö huonetta kohti (keittiötä ei lueta huonelukuun)\n4 = Tuntematon, asuntokunnan huoneluku tuntematon.\nnull = Ei vakinaisia asukkaita.\n\nKeittiötä ei  ole luettu mukaan huonelukuun vuodesta 1989 lähtien.",
+      "measunit": null,
+      "classification": "asumisvaljyys_1_1985_01_01",
+      "variablegroups": "statfin"
+    },
+    {
+      "identifier": "autolkm",
+      "variablename": "Autojen lkm asuntokunnassa",
+      "conceptdef": "Asuntokunnille summataan asuntokunnan (ensisijaisesti auton haltija ja jollei haltijalla ole henkilötunnusta niin auton omistaja) hallinnassa olevat autot. Tieto vuosilta 1994-1996, 1998 ja 2000-. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hape",
+      "variablename": "Hallintaperuste",
+      "conceptdef": "Asunnon hallintaperuste, 1-2 omistusasunnot, 3-5 vuokra-asunnot, 6- muut. Hallintaperuste on pääsääntöisesti päätelty vakinaisesti asutuille asunnoille eli asuntokunnille. Koko asuntokannan osalta tyhjät asunnot menevät arava-asuntoja lukuunottamatta yleisesti luokkaan 9 (Tuntematon hallintaperuste). \n\n1998-\n1\tOmistaa talon\n2\tOmistaa asunnon osakkeet\n3\tAravavuokra-asunto\n4\tKorkotukivuokra-asunto\n5\tMuu vuokra-asunto\n6\tAsumisoikeusasunnot\n7\tMuu hallintaperuste (sukulaisuus ym.)\n9    Tuntematon\n\n1988-1997 \n1\tomistaa talon\n2\tomistaa osakkeet\n3\ttyö- tai virkasuhdeasunto\n4\tvuokra-asunto\n5\tmuu hallintaperuste\n6\tasumisoikeusasunto\n7\thallintaperuste tuntematon\n9\ttuntematon\n\n\n                  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "statfin"
+    },
+    {
+      "identifier": "nika",
+      "variablename": "Asuntokunnan nuorimman henkilön ikä",
+      "conceptdef": "Asuntokunnan nuorimman henkilön ikä. Tietoja vuosilta 1995-. \n\n00 = nuorimman henkilön ikä 0 vuotta\n01 = nuorimman henkilön ikä 1 vuotta \n...\nPuuttuva = henkilö ei kuulu asuntokuntaan",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vata",
+      "variablename": "Varustetaso",
+      "conceptdef": "Asunnon varustelutaso. Varustetasoluokat 2, 3 sekä puuttuva tieto kannattaa yhdistää, sillä eri vuosina on ollut erilaisia päättelysääntöjä mm. tuntemattomaksi/blankoiksi jäävien osalta. Kannattaa myös huomioida, että kaikki varustemuutokset eivät ole luvanvaraisia toimenpiteitä eivätkä näin ollen tule viranomisten tietoon eivätkä rekistereihin ja tilastoihin.\n\nluokitus:\n1=hyvin varustettu\n2=puutteellisesti varustettu, \n3=erittäin puutteellisesti varustettu, \nBL=tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amas1",
+      "variablename": "Ammattiasema (TVM=vuoden viim.viikon työsuhde)",
+      "conceptdef": "Ammattiasema päätyösuhteen mukaan (TVM-päättely). \n\n1 = palkansaaja\n2 = yrittäjä\n\nTietoa FLEEDin henkilöyrittäjien yritystunnuksista:\n\nY-tunnus eli yritys- ja yhteisötietolaki astui voimaan 1.4.2001, jolloin kaikki hetulliset  toimijat, esim. luonnollinen henkilö, muutettiin y-tunnusmuotoon. Tätä ennen y-tunnus oli  käytössä vain yhtiömuotoisilla (kuten osakeyhtiö, kommandiitti- ja avoimet yhtiöt, säätiöt,  yhdistykset). Tilastoaineistoissa muutos näkyy erityisesti vuoden 1998 aineistoissa.\n\nMuutos aiheuttaa FLEEDissä yritysaikasarjaan katkoksen vuonna 1998, joka ilmenee mm.  siten, että ennen katkosta olemassaolevista yritystunnuksista jäävät vuodesta 1998  eteenpäin löytymättä toiminimet ellei käytetä yritysrekisterin toissijaista tunnusta (kattaa  pääosin tilastoyksiköt). \n\nYritysrekisteriä kehikkona käytettäessa vuonna 1998 FLEEDistä löytyy noin 70 000  yritystä vähemmän kuin muina vuosina, sillä y-tunnus on viety henkilötunnuksellisilla  yrityksillä yritysrekisterissä toissijainen tunnus -kenttään. Kattavuutta voidaan korjata  käyttämällä yritysrekisterin tilastotiedostojen (suojattua) toissijaista tunnusta (suojatun)  yritystunnuksen ohella vuonna 1998. Vuodesta 1999 eteenpäin ensisijaisena tunnuksena  yritysrekisterissä on kaikilla y-tunnus.\n\nVuosina 1988-1990 yrittäjät (amas1=2) linkittyvät yritystunnuksiin vain harvoin tilaston  alkuvuosien raakadatojen ja menetelmien puutteellisuudesta johtuen. \nVuosina 1991-1997 yrittäjille löytyy yritystunnus, joka useimmiten vastaa henkilötunnusta. \nVuonna 1998 hetu-muotoiset tunnukset on muutettu yritystunnusmuotoon ja  työssäkäynnin henkilöyrittäjien linkit toimipaikkoihin parantuvat huomattavasti (n. 70 000  vuonna 1998).\nVuodesta 2005-2006 alkaen yrittäjille löytyy myös yhtiömuotoisia (osakeyhtiöt ym.)  yrityslinkkejä. Taustalla on henkilötilastojen tietojärjestelmäuudistus (Herttua- tietovarastoon siirtyminen), jonka yhteydessä uudistettiin myös käsittelysääntöjä ja  yrittäjien linkityksiä.\nVuonna 2011 yrittäjämääritelmä laajentuu (YEL-muutos).\n\n\n",
+      "measunit": null,
+      "classification": "ammattiasema_6_1987_01_01",
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "amas2",
+      "variablename": "Ammattiasema (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Ammattiasema pisimmän työsuhteen mukaan (ATV-päättely). \n\n1 = palkansaaja\n2 = yrittäjä\nBL= ei työllinen",
+      "measunit": null,
+      "classification": "ammattiasema_6_1987_01_01",
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "optuki",
+      "variablename": "Opintotuki",
+      "conceptdef": "Tieto opintuen saamisesta.\n\nK = saanut opintotukea keväällä\nS = saanut opintotukea syksyllä\nM = saanut opintotukea molempina lukukausina\n. = Ei ole saanut opintotukea",
+      "measunit": null,
+      "classification": "optuki_1_1987_01_01",
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "peas",
+      "variablename": "Perheasema",
+      "conceptdef": "Lapsiksi perhetilastossa katsotaan iästä riippumatta vanhempiensa kanssa asuvat omat lapset tai puolison biologiset lapset tai ottolapset, mutta ei kasvattilapsia tai huollettavia lapsia.\n\n1 = Päämies\n2 = Puoliso\n3 = Lapsi\n4 = avoperheen päämies, \n5 = avoperheen puoliso\n9 = Tuntematon \n0 = Perheeseen kuulumaton",
+      "measunit": null,
+      "classification": "perheasema_1_2006_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim1",
+      "variablename": "Pääasiallinen toiminta (TVM=vuoden viim.viikon työsuhde)",
+      "conceptdef": "Pääasiallinen toiminta päätyösuhdepäättelyllä (tvm-päättely). HUOM! Vuodesta 2005 lähtien työllisten alaikäraja tilastossa nousi 18 vuoteen johtuen uudesta eläkelaista. Alle 18-vuotiaat eivät kuulu enää työeläkevakuutuksen piiriin, joten tietoa heidän työsuhteistaan ei ole saatavissa. Tämä alensi työllisten määrää noin 1 %. Suurin osa näistä on opiskelijoita, jotka työskentelevät opintojensa ohessa ja luokitellaan nyt opiskelijoiksi.\n\nVuonna 1998 ns. pätkätyölain voimaantulon myötä lyhyet työsuhteet tulivat työeläkevakuutuksen piiriin. Siten TaEL:n piiriin kuuluivat kaikki kotitalouksien teettämät työt, alle kuukauden TEL-alan työsuhteet ja yli kuukauden jatkuvat mutta alle TEL-palkkarajan jäävät työsuhteet (v. 1998 palkkaraja 1156,69 mk/kk). Tämä aiheutti pienen nousun työllisten määrään.\n\n11 = työllinen\n12 = työtön\n21 = 0-14 vuotias\n22 = opiskelija\n24 = eläkeläinen\n25 = varus- tai siviilipalvelusmies\n29 = työttömyyseläkeläinen\n99 = muu työvoiman ulkopuolella oleva",
+      "measunit": null,
+      "classification": "paaasial_toimin_1_00_s",
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "ptoim2",
+      "variablename": "Pääasiallinen toiminta (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Pääasiallinen toiminta pisimmän työsuhteen päättelyllä (atv-päättely). Saa arvoja \n11=työllinen, \n12=työtön, \n21=0-14 vuotias, \n22=opiskelija, \n24=eläkeläinen, \n25=varus- tai siviilipalvelusmies, \n29=työttömyyseläkeläinen\n99=Muu työvoiman ulkopuolella olevat",
+      "measunit": null,
+      "classification": "paaasial_toimin_1_00_s",
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "saika",
+      "variablename": "Tutkinnon suoritusaika",
+      "conceptdef": "Tutkinnon suoritusvuosi ja -kuukausi v. 1988-2000 muodossa KKVV. Vuosille 2001-2004 muotona pelkkä VVVV. Tietoja vuosille 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saikavv",
+      "variablename": "Tutkinnon suoritusvuosi",
+      "conceptdef": "Henkilön viimeisimmän korkeimman tutkinnon suoritusvuosi  ko. vuoden tutkintorekisteristä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "sivs",
+      "variablename": "Siviilisääty",
+      "conceptdef": "Tieto siviilisäädystä saadaan Väestörekisterikeskuksen väestötietojärjestelmästä. On huomioitava, ettei avoliitto ole siviilisääty. Avoliitossa elää jokaisen siviilisäädyn edustajia, myös virallisesti edelleen naimisissa olevia.\n\nNykyiset avioerosäännökset eivät enää tunne asumuseron käsitettä. Vanhojen avioerosäännösten nojalla ennen 1.1.1988 asumuseroon tuomitut ja edelleen asumuserossa elävät on tilastoissa luettu naimisissa oleviin. \n\nSamaa sukupuolta olevat parit ovat voineet 1.3.2002 lähtien myös  Suomessa rekisteröidä parisuhteensa. Rekisteröidyssä parisuhteessa olevat on tietosuojasyistä kunnittaisissa taulukoissa luokiteltu yhteen naimisissa olevien kanssa, samoin rekisteröidystä parisuhteesta eronneet tai leskeksi jääneet eronneiden ja leskien kanssa.\n\n1 = naimaton\n2 = aviossa, rekisteröidyssä parisuhteessa tai asumuserossa\n4 = eronnut tai eronnut rekisteröidystä parisuhteesta\n5 = leski tai leski rekisteröidystä parisuhteesta",
+      "measunit": null,
+      "classification": "siviilisaaty_5_2000_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "sose",
+      "variablename": "Sosioekonominen asema",
+      "conceptdef": "Henkilön sosioekonominen asema. Tietoja vuosilta 1990, 1993, 1995, 2000, 2004-.\n\n1\tYrittäjät\t\n10\tMaa- ja metsätalousyrittäjät\t\n20\tYrittäjät, ei maa- ja metsätalous\t\n3\tYlemmät toimihenkilöt\t\n31\tJohtotehtävissä toimivat ylemmät toimihenkilöt\t\n32\tSuunnittelu- ja tutkimustehtävissä toimivat ylemmät toimihenkilöt\t\n33\tOpetustehtävissä toimivat ylemmät toimihenkilöt\t\n34\tMuut ylemmät toimihenkilöt\t\n4\tAlemmat toimihenkilöt\t\n41\tTyönjohtotehtävissä toimivat alemmat toimihenkilöt\t\n42\tItsenäistä toimistotyötä tekevät alemmat toimihenkilöt\t\n43\tEpäitsenäistä toimistotyötä tekevät alemmat toimihenkilöt\t\n44\tMuut alemmat toimihenkilöt\t\n5\tTyöntekijät\t\n51\tMaa- ja metsätaloustyöntekijät\t\n52\tTeollisuustyöntekijät\t\n53\tMuut tuotantotyöntekijät\t\n54\tJakelu- ja palvelutyöntekijät\t\n6\tOpiskelijat\t\n60\tOpiskelijat\t\n7\tEläkeläiset\t\n70\tEläkeläiset\t\n8\tMuut\t\n81\tTyöttömät\t\n82\tMuut (Varusmiehet)\t\n9\tTuntematon\t\n99\tTuntematon\t\n\t\t\t",
+      "measunit": null,
+      "classification": "sosioekon_asema_12_2004_01_01",
+      "variablegroups": "ammattitiedot"
+    },
+    {
+      "identifier": "yvalin",
+      "variablename": "Yhteisvalintarekisterissä ko. vuonna",
+      "conceptdef": "Läsnäolo yhteisvalintarekisterissä. Tietoa vuosilta 1988-2014.\nK = Ollut yhteisvalintarekisterissä keväällä (opiskelu alkaa keväällä)\nS = Ollut yhteisvalintarekisterissä syksyllä  (opiskelu alkaa syksyllä) tai sekä keväällä että syksyllä.\nBL/0/. = Ei ole ollut yhteisvalintarekisterissä\n",
+      "measunit": null,
+      "classification": "yhtvalrek_1_1987_01_01",
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "a18lkm",
+      "variablename": "Perheen alle 18-v. lasten lkm",
+      "conceptdef": "Perheen kaikkien alle 18-vuotiaiden lasten lukumäärä. Muuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html ).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a7lkm",
+      "variablename": "Perheen alle 7-vuotiaiden lasten lkm",
+      "conceptdef": "Perheen alle 7-vuotiaiden lasten lukumäärä. Muuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html ).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pekoko",
+      "variablename": "Perheen koko",
+      "conceptdef": "Perheen henkilöluku.  Muuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html ).",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pety",
+      "variablename": "Perhetyyppi",
+      "conceptdef": "Perhetyyppi.\n\n1 = aviopari ilman lapsia\n2 = aviopari ja lapsia\n3 = äiti ja lapsia\n4 = isä ja lapsia\n5 = avopari ja yhteisiä lapsia\n6 = avopari ja vain ei-yhteisiä lapsia\n7 = avopari ilman lapsia. . \n\nAvoparit muodostuvat samassa asunnossa vakituisesti asuvista 18 vuotta täyttäneistä, eri sukupuolta olevista puolisottomista henkilöistä, jos heidän ikäeronsa on alle 16 vuotta eivätkä he ole sisaruksia. Puolisoiden iälle eikä ikäerolle aseteta rajoituksia, jos heillä on yhteinen lapsi. \n\nMuuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html ). \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a3lkm",
+      "variablename": "Perheen alle 3-vuotiaiden lasten lkm\t",
+      "conceptdef": "Perheen alle 3-vuotiaiden lasten lukumäärä. Tietoja vuosilta 2006-. Muuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html ).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv",
+      "variablename": "Korkeimman tutkinnon suoritusvuosi",
+      "conceptdef": "Korkeimman tutkinnon suoritusvuosi.",
+      "measunit": null,
+      "classification": "vuosi_1_2011_07_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk",
+      "variablename": "Ylioppilastutkinto",
+      "conceptdef": "Ylioppilastutkinto. Tietoja vuodesta 1988-. Lukiokoulutustilastossa, \"Koulutukseen hakeutuminen\" ja \"Sijoittuminen koulutuksen jälkeen\" -tilastossa ylioppilastutkinnolla tarkoitetaan ylioppilastutkintolautakunnan laatimaa lukion päättötutkintoa, johon lukion koko oppimäärää opiskeleva opiskelija voi osallistua. Ylioppilaskokeen hyväksytty suorittaminen johtaa ylioppilastutkintoon. \n\n0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa\n4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyke",
+      "variablename": "Työttömyyskuukausia",
+      "conceptdef": "Henkilön työttömyyskuukaudet. Tietoja vuosilta 1988-. .\n\nVuodesta 2005 lähtien tieto laskettu työttömyyspäivien lukumäärästä (tyottpv): \n1-14 päivää=0 \n15-44 päivää=1\n45-74 päivää=2\n75-104 päivää=3\n10-135 päivää=4\n136-165 päivää=5\n166-196 päivää=6\n197-226 päivää=7\n227-256 päivää=8\n257-287 päivää=9\n288-317 päivää=10\n318-348 päivää=11\n349-365(366) päivää=12\n\n1988-2004: laskentatapa erilainen. Kukin kalenterikuukausi laskettu erikseen. Jos kalenterikuukautena vähintään 16 työttömyyspäivää, on koko kuukausi laskettu täydeksi työttömyyskuukaudeksi.\n\nPerustuu TEMin tietoihin työttömistä työnhakijoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "tyokk",
+      "variablename": "Työssäolokuukaudet",
+      "conceptdef": "Henkilön työssäolokuukaudet  (työeläkevakuuttajalle ilmoitetun työsuhteen keston mukaan). Tietoja vuosilta 1997-.\n\nVuodesta 2005 lähtien tieto laskettu työpäivien lukumäärästä (tyopv). \n1-14 päivää=0 \n15-44 päivää=1\n45-74 päivää=2\n75-104 päivää=3\n10-135 päivää=4\n136-165 päivää=5\n166-196 päivää=6\n197-226 päivää=7\n227-256 päivää=8\n257-287 päivää=9\n288-317 päivää=10\n318-348 päivää=11\n349-365(366) päivää=12\n\n1997-2004: laskentatapa erilainen. Kukin kalenterikuukausi laskettu erikseen. Jos kalenterikuukautena vähintään 16 työpäivää, on koko kuukausi laskettu täydeksi työkuukaudeksi.\nVuodet 1997 ja 1998 luokka 0 = 1-15 päivää ml. henkilöt joilla ei työssäolopäiviä. \n1999-2004 null=ei työpäiviä, 0 = 1-15 päivää. \n\nTyöpäivien lukumäärä voi joissain tapauksissa ylittää 365 päivää (päällekkäisiä työsuhteita siivottu pois jonkun verran), lisäksi henkilöllä voi kertyä työttömyyden aikanakin työpäiviä, jos esim. palkkatuetussa työssä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "tyottpv",
+      "variablename": "Työttömyyspäiviä",
+      "conceptdef": "Henkilön työttömyyspäivien yhteenlaskettu lukumäärä tilastovuonna. Tietoja vuosilta 2005-. Perustuu TEMin tietoihin työttömistä työnhakijoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "tyopv",
+      "variablename": "Työpäiviä",
+      "conceptdef": "Henkilön työpäivien yhteenlaskettu lukumäärä tilastovuonna . Tietoja vuosilta 2005-.\n\nTyöpäivien lukumäärä voi joissain tapauksissa ylittää 365 päivää (päällekkäisiä työsuhteita siivottu pois jonkun verran), lisäksi henkilöllä voi kertyä työttömyyden aikanakin työpäiviä, jos esim. palkkatuetussa työssä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työssäkäyntitiedot"
+    },
+    {
+      "identifier": "kturaha",
+      "variablename": "Käytettävissä oleva rahatulo",
+      "conceptdef": "Kotitalouden käytettävissä olevat rahatulot on vastaava käsite kuin kotitalouden käytettävissä olevat tulot, mutta siitä puuttuvat laskennalliset tuloerät (esim. omassa käytössä olevasta omistusasunnosta saatavat laskennalliset tulot), negatiiviset arvot on nollattu. Tietoja vuodesta 1995 alkaen. Käsite sisältää työsuhteeseen liittyvät luontoisedut.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturahark",
+      "variablename": "Kotitalouden käytettävissä olevat rahatulot",
+      "conceptdef": "Rekisterikotitalouden käytettävissä olevat rahatulot, negatiiviset arvot on nollattu. Tietoja vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aiprva",
+      "variablename": "Äitiyspäiväraha",
+      "conceptdef": "Sairausvakuutuksen äitiys-, isyys- ja vanhempainraha sekä erityisäitiysraha suoraan vakuutetulle Kelan sairausvakuutusrekisteristä. Tietoja vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saiprva",
+      "variablename": "Sairaspäiväraha",
+      "conceptdef": "Sairausvakuutuksen suoraan vakuutetulle maksamat sairauspäivärahat Kelan sairausvakuutusrekisteristä. Tietoja vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nmuut",
+      "variablename": "Asunto- ja muut velat",
+      "conceptdef": "Asunto- ja muut velat. Tietoja vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yatuki",
+      "variablename": "Yleinen asumistuki",
+      "conceptdef": "Yleinen asumistuki. Tietoja vuodesta 1993 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elatulo",
+      "variablename": "Eläketulot",
+      "conceptdef": "Summatut eläketulot koostuu seuraavista eristä\nkansaneläke  \ntyö-, virka- ja yrittäjäeläke  \ntapaturmavakuutuseläke  \nmuut eläkkeet ansiotulona  \npotilasvakuutuksen eläke  \nansiotulona verotettava eläke  \nkansaneläkkeen perhe-eläke  \ntyönantajan maksama eläke \nulkomaille maksettu eläke, josta on peritty vain sairaanhoitomaksu (2006-)\nvapaaehtoisiin henki- ja eläkevakuutuksiin perustuvat eläkkeet (2007-)\nulkomaan edustuston virkamiehen puolison erityiskorvaus (2008-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkive",
+      "variablename": "Kirkollisvero",
+      "conceptdef": "Kirkollisvero. Kunnallisveroa maksetaan kunnallisverotuksessa verotettavan tulon perusteella kunnan veroäyrin hinnan (kuntien tuloveroprosentin) ja kirkollisveroa seurakunnan alueella määrätyn kirkollisveroäyrin hinnan mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkuve",
+      "variablename": "Kunnallisvero",
+      "conceptdef": "Kunnallisveroa maksetaan kunnallisverotuksessa verotettavan tulon perusteella kunnan veroäyrin hinnan (kuntien tuloveroprosentin) ja kirkollisveroa seurakunnan alueella määrätyn kirkollisveroäyrin hinnan mukaan.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltva",
+      "variablename": "Valtion tuloveron osuus ansiotulon veroista",
+      "conceptdef": "Valtion tuloveron osuus ansiotulon veroista. Tietoja vuosilta 1993-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltvp",
+      "variablename": "Valtion tuloveron osuus pääomatulojen veroista",
+      "conceptdef": "Valtion tuloveron osuus pääomatulojen veroista. Tietoja vuosilta 1993-.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvar",
+      "variablename": "Verotettava varallisuus",
+      "conceptdef": "Verotettava varallisuus. Poistunut vuodesta 2006. Tietoja vuosille 1991-2005.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvv",
+      "variablename": "Varallisuusvero",
+      "conceptdef": "Varallisuusvero. Poistunut vuodesta 2006. Tietoja on vuosilla 1988-2005.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatva",
+      "variablename": "Ansiotulot yhteensä",
+      "conceptdef": "Ansiotulot yhteensä valtionverotuksessa.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatvp",
+      "variablename": "Pääomatulot yhteensä",
+      "conceptdef": "Pääomatulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svelat",
+      "variablename": "Velat yhteensä",
+      "conceptdef": "Velat yhteensä. Tietoja on vuosille 1991-2006. Tietoa ei enää saatavilla vuodesta 2007. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "telink",
+      "variablename": "Elinkeinotoiminnan tulot",
+      "conceptdef": "Elinkeinotoiminnan tulot = TELINK koostuu seuraavista eristä: \nTELINKA=elinkeinotoiminnan ansiotulot\nTELINKP=elinkeinotoiminnan pääomatulot \n\nElinkeinotoiminnan ansiotulot = TELINKA koostuu seuraavista eristä:\nTLIIK1=elinkeinotoiminnan ansiotulo-osuus  \nTLIIKP=puolison elinkeinotoiminnan ansiotulo-osuus  \nTPORO1=ansiotulo porotaloudesta\n \nElinkeinotoiminnan pääomatulot = TELINKP koostuu seuraavista eristä:\nTLIIK2=elinkeinotoiminnan pääomatulo-osuus  \nTLIIK2P=puolison elinkeinotoiminnan pääomatulo-osuus  \nTPORO2=pääomatulo porotaloudesta )",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkotihtu",
+      "variablename": "Lapsen kotihoidon tuki ja osittainen hoitoraha",
+      "conceptdef": "Lapsen kotihoidon tuki ja osittainen hoitoraha.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tmaat1",
+      "variablename": "Maatalouden asiotulo",
+      "conceptdef": "Maatalouden ansiotulo (oma). Tietoja vuodesta 2004 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpar",
+      "variablename": "Sairausvakuutuksen päivä- ja äitiysrahat",
+      "conceptdef": "Sairausvakuutuksen päivä- ja äitiysrahat ym.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyotu",
+      "variablename": "Työtulot",
+      "conceptdef": "Summatut työtulot (palkkatulot). Huom. ei täysin vastaa FOLK-aineiston tyotu-muuttujaa.\n\nSisältää seuraavat erät:\nTRPL = palkkatulo päätoimesta\nTMPT = muut palkkatulot \nTEPALK = ennakonkannon alaiset palkkatulot \nTMERI = merityötulo\n(TMERI1 = matkustaja-alusten maksuvap. piiriin kuuluva merityötulo poistunut 2008 henkilöverotusaineistosta)\nTKUST = työnantajan maksamat kustannusten korvaukset\nTPALV = lunastukset, palvelurahat yms. ennakonkannon alaiset tulot\nTPJATA = hankintatyön arvo metsätaloudessa  hankintatyön arvo yhtymästä  TYHTHAV = palkkaturva  \nTELPS = työkorvaus \nTELPS3 = urheilijan palkka\nTELPS7 = kunnallisen perhepäivähoitajan palkka\nTLUE2 = luontaisedut merityötulosta\nTLUE3 = luontaisedut merityötulosta (TMERI1) POISTETTU 2008\nTUTMP2 = (Lisätty 2009) ulkomaisen työnantajan maksama palkka (ei Suomessa vakuutettu) \nTUTMP3= (Lisätty 2009) ulkomaisen työnantajan maksama palkka (Suomessa vakuutettu)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyotur",
+      "variablename": "Työttömyysturvaetuudet",
+      "conceptdef": "Summatut työttömyysturvaetuudet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyrtu",
+      "variablename": "Yrittäjätulo",
+      "conceptdef": "Yrittäjätulo = TYRTU koostuu seuraavista eristä:\nTMAATUL=maatalouden tulot\nTELINK=elinkeinotoiminnan tulot\nTYHTUMA=tulot yhtymästä\n\nMaatalouden tulot = TMAATUL koostuu seuraavista eristä:\nTMAAT1=maatalouden ansiotulot  \nTMAAT2=maatalouden pääomatulot \nTMAAT1P=Maatalouden ansiotulo (puolison)\nTMAAT2P=Maatalouden pääomatulo (puolison)\n\nElinkeinotoiminnan tulot = TELINK koostuu seuraavista eristä: \nTELINKA=elinkeinotoiminnan ansiotulot\nTELINKP=elinkeinotoiminnan pääomatulot \n\nElinkeinotoiminnan ansiotulot = TELINKA koostuu seuraavista eristä:\nTLIIK1=elinkeinotoiminnan ansiotulo-osuus  \nTLIIKP=puolison elinkeinotoiminnan ansiotulo-osuus  \nTPORO1=ansiotulo porotaloudesta\n \nElinkeinotoiminnan pääomatulot = TELINKP koostuu seuraavista eristä:\nTLIIK2=elinkeinotoiminnan pääomatulo-osuus  \nTLIIK2P=puolison elinkeinotoiminnan pääomatulo-osuus  \nTPORO2=pääomatulo porotaloudesta )\n\n\nTulot yhtymästä = TYHTUMA koostuu seuraavista eristä:\nYHTA  ansiotulo yhtymästä\nYHTP pääomatulo-osuus yhtymästä \n\nAnsiotulo yhtymästä = YHTA koostuu seuraavista eristä:\nTYHTAT=Ansiotulot ilman osinkoja yhtymästä\nTEINOYVA=Ei not. yht. saatujen osinkojen veronalainen määrä yht.\nTYHAU=Ansiotulo-osuus ulkomaisen yhtymän tuloista\n\nPääomatulo-osuus yhtymästä = YHTP Koostuu seuraavista erstä:\nTYHTPOT=Pääomatulot ilman osinkoja yhtymästä\nTEINOYVP=Ei not. yht. saadut osingot pääomatuloa yht.\nTNOSYHV=Julk.not. yhtiöstä saadut osingot pääomatuloa yht.\nTYHAP=Pääomatulo-osuus ulkomaisen yhtymän tuloista\nTOPYKOK=Yhtymästä saadut osuuspääoman korot\nTOPYVV=Yhtymästä saatu osuuspääomaTOPYVV=Yhtymästä saatu osuuspääoma",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun3",
+      "variablename": "Kryptattu toimipaikkatunnus, sivutyö",
+      "conceptdef": "Kryptattu toimipaikkatunnus, sivutyö. Tietoja vuosilta 1992-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun3",
+      "variablename": "Kryptattu yritystunnus, sivutyö",
+      "conceptdef": "Kryptattu yritystunnus, sivutyö. Tietoja vuosilta 1992-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vty",
+      "variablename": "Voimassa olevan työsuhteen tyyppi (TVM)",
+      "conceptdef": "Voimassa olevan työsuhteen tyyppi (TVM). Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apvm1",
+      "variablename": "Työsuhteen alkamispäivä (TVM=vuoden viim.viikon työsuhde)",
+      "conceptdef": "Työsuhteen alkamispäivä (TVM). Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pty",
+      "variablename": "Pisimmän työsuhteen tyyppi (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Pisimmän työsuhteen tyyppi (ATV). Tietoja vuosilta 1988-2004. Arvoalue:  \n1 =  TEL\n2 = YEL\n3 = MYEL\n4 =  LEL \n5 = TAEL\n6 = Kirkko\nA =  Ahvenanmaan maakuntahallitus \nA = Suomen Pankki  \nA = KELA  \nB = Merimieseläkekassa \nC = Kunta  \nD = Valtio  \nE = Valtionapulaitos \nblank = Tuntematon ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apvm2",
+      "variablename": "Työsuhteen alkamispäivä (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Työsuhteen alkamispäivä (ATV). Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elaji",
+      "variablename": "Eläkelaji",
+      "conceptdef": "Eläkelaji. Tietoja vuosilta 1988-1994, mutta vain niille, jotka saivat Kelan eläkettä. Ei sisällä mitään tietoa työeläkkeistä.\n\n0 = ei (Kelan) eläkejaksoa\n1 = Vanhuuseläke\n2 = Toistaiseksi myönnetty työkyvyttömyyseläke\n3 = Määräaikainen työkyvyttömyyseläke\n7 = Työttömyyseläke\n8 = Yksilöllinen varhaiseläke",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vela",
+      "variablename": "Vanhuuseläke",
+      "conceptdef": "Vanhuuseläke, 0,1. Tietoja vuosilta 1995-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkela",
+      "variablename": "Työkyvyttömyyseläke",
+      "conceptdef": "Työkyvyttömyyseläke, 0,1. Tietoja vuosilta 1995-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyela",
+      "variablename": "Työttömyyseläke",
+      "conceptdef": "Työttömyyseläke, 0,1. Tietoja vuosilta 1995-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mela",
+      "variablename": "Maatalouden erityiseläke",
+      "conceptdef": "Maatalouden erityiseläke, 0,1. Tietoja vuosilta 1995-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osela",
+      "variablename": "Osa-aikaeläke",
+      "conceptdef": "Osa-aikaeläke, 0,1. Tietoja vuosilta 1995-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pela",
+      "variablename": "Perhe-eläke",
+      "conceptdef": "Perhe-eläke, 0,1. Tietoja vuosilta 1996-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yvela",
+      "variablename": "Yksilöllinen varhaiseläke",
+      "conceptdef": "Yksilöllinen varhaiseläke, 0,1. Tietoja vuosilta 1999-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ilmos",
+      "variablename": "Ilmoittautumislaji korkeakouluun syksyllä",
+      "conceptdef": "Ilmoittautumislaji korkeakouluun syksyllä. Tietoja vuosilta 1988-2004. \n\n1 = läsnäoleva\n2 = poissaoleva",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "auto",
+      "variablename": "Asuntokunnalla auto käytössä",
+      "conceptdef": "Asuntokunnalla auto käytössä. Tietoja vuosilta 1990-2004. \n\n1 = auton omistaja tai haltija\n0 = e auton omistaja tai haltija",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lpvm2",
+      "variablename": "Työsuhteen päättymispäivämäärä (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Työsuhteen päättymispäivämäärä (ATV). Tietoja vuosilta 1988-2003. 2003 tapauksia, joissa vain päivämäärän lyhyt muoto (puuttuu vuosi ja kk tai pv).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laji3",
+      "variablename": "Työsuhteen tyyppi (vpts=viimeisin vuoden aikana päättynyt työsuhde) ",
+      "conceptdef": "Työsuhteen tyyppi (vpts=viimeisin vuoden aikana päättynyt työsuhde). Tietoja vuosilta 1988-2003.\n\nArvoalue:  \n1 =  TEL\n2 = YEL\n3 = MYEL\n4 =  LEL \n5 = TAEL\n6 = Kirkko\nA =  Ahvenanmaan maakuntahallitus \nA = Suomen Pankki  \nA = KELA  \nB = Merimieseläkekassa \nC = Kunta  \nD = Valtio  \nE = Valtionapulaitos \nG = Yksityinen (joko TEL tai LEL) päätelty (ei voimassaolevaa työsuhdetta vuoden lopussa) \nF = Kunta tuloilla päätelty \nH = Valtio, tuloilla päätelty  \n9 = Tuntematon ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alku3",
+      "variablename": "Työsuhteen alkamispäivä (vpts=viimeisin vuoden aikana päättynyt työsuhde)",
+      "conceptdef": "Työsuhteen alkamispäivä (vpts). Tietoja vuosilta 1988-2003. 2003 tapauksia, joissa vain päivämäärän lyhyt muoto (puuttuu vuosi ja kk tai pv).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppu3",
+      "variablename": "Työsuhteen päättymispäivämäärä (vpts=viimeisin vuoden aikana päättynyt työsuhde)",
+      "conceptdef": "Työsuhteen päättymispäivämäärä (vpts=viimeisin vuoden aikana päättynyt työsuhde). Tietoja vuosilta 1988-2003. 2003 tapauksia, joissa vain päivämäärän lyhyt muoto (puuttuu vuosi ja kk tai pv).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tslkm",
+      "variablename": "Työsuhteiden lukumäärä",
+      "conceptdef": "Työsuhteiden lukumäärä. Tietoja vuosilta 1988-2003.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjlkm",
+      "variablename": "Työttömyysjaksojen lukumäärä",
+      "conceptdef": "Työttömyysjaksojen lukumäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyalk1",
+      "variablename": "Ensimmäisen työttömyysjakson alkamispäivämäärä",
+      "conceptdef": "Ensimmäisen työttömyysjakson alkamispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tylop1",
+      "variablename": "Ensimmäisen työttömyysjakson päättymispäivämäärä",
+      "conceptdef": "Ensimmäisen työttömyysjakson päättymispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjpasy1",
+      "variablename": "Ensimmäisen työttömyysjakson päättymisen syy",
+      "conceptdef": "Ensimmäisen työttömyysjakson päättymisen syy. Tietoja vuosilta 1988-2004.\n\n0 = sijoitukseen päättyminen\n1 = välitetty työhön\n2 = lomautus tai lyhennetty työviikko päättynyt\n3 = saanut työtä omatoimisesti\n4 = aloittanut työllisyyskurssin\n5 = siirtynyt työvoiman ulkopuolelle\n6 = muu syy tai ei tietoa\n7 = työttömyyseläkkeelle siirtynyt\n8 = muu koulutus (1995-1997)\n9 = työhakuun ETA-valtioihin (1995-1997)\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyalk2",
+      "variablename": "Toisen työttömyysjakson alkamispäivämäärä",
+      "conceptdef": "Toisen työttömyysjakson alkamispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tylop2",
+      "variablename": "Toisen työttömyysjakson päättymispäivämäärä",
+      "conceptdef": "Toisen työttömyysjakson päättymispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjpasy2",
+      "variablename": "Toisen työttömyysjakson päättymisen syy",
+      "conceptdef": "Toisen työttömyysjakson päättymisen syy. Tietoja vuosilta 1988-2004. Luokitus kts.tjpasy1",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyalk3",
+      "variablename": "Kolmannen työttömyysjakson alkamispäivämäärä",
+      "conceptdef": "Kolmannen työttömyysjakson alkamispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tylop3",
+      "variablename": "Kolmannen työttömyysjakson päättymispäivämäärä",
+      "conceptdef": "Kolmannen työttömyysjakson päättymispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjpasy3",
+      "variablename": "Kolmannen työttömyysjakson päättymisen syy",
+      "conceptdef": "Kolmannen työttömyysjakson päättymisen syy. Tietoja vuosilta 1988-2004. Luokitus kts.tjpasy1",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyalk4",
+      "variablename": "Neljännen työttömyysjakson alkamispäivämäärä",
+      "conceptdef": "Neljännen työttömyysjakson alkamispäivämäärä. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tylop4",
+      "variablename": "Neljännen työttömyysjakson päättymispäivämäärä",
+      "conceptdef": "Neljännen työttömyysjakson päättymispäivämäärä. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjpasy4",
+      "variablename": "Neljännen työttömyysjakson päättymisen syy",
+      "conceptdef": "Neljännen työttömyysjakson päättymisen syy. Tietoja vuosilta 1988-2004. Luokitus kts tjpasy1",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "haikd",
+      "variablename": "Työnhakijan työaikatoive",
+      "conceptdef": "Työnhakijan työaikatoive. Tietoja vuosilta 1988-2004. \n\n1 = kokopäivätyö\n2 = myös 2-vuorotyö\n3 = myös 3-vuorotyö\n4 = myös osapäivä- tai osa-aikatyö\n5 = vain osapäivä- tai osa-aikatyö\n6 = iltatyö\n7 = yötyö\n9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyok1",
+      "variablename": "Työllisyyskoodi vuoden lopussa",
+      "conceptdef": "Työllisyyskoodi vuoden lopussa. Tietoja vuosilta 1988-2004. \n\n0 = työssä oleva, toimenpitein sijoitettu\n1 = työssä oleva, yleisillä työmarkkinoilla\n2 = työtön\n3 = lomautettu\n4 = lyhennetyllä työviikolla\n5 = työvoiman ulkopuolella oleva\n6 = työttömyyseläkkeellä oleva",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tappvh",
+      "variablename": "Työllisyyskoodin muutospäivä",
+      "conceptdef": "Työllisyyskoodin muutospäivä. Tietoja vuosilta 1988-2004. rakenne VVKKPP",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpskd",
+      "variablename": "Edellisen työsuhteen päättymisen syy",
+      "conceptdef": "Edellisen työsuhteen päättymisen syy. Tietoja vuosilta 1990-2004. \n\n1 = oma pyyntö\n2 = määräaikainen työsuhde päättynyt\n3 = työsuhde päättynyt koeajalla\n4 = irtisanottu (tai lomautettu) tuotannollisista tai taloudellisista syistä\n5 = irtisanottu muista syistä\n6 = toimipaikka lopetettu tai siirtynyt muualle\n7 = muu syy tai ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyok2",
+      "variablename": "Työttömyysjakson työllisyyskoodi (vpt=viimeisin vuoden aikana päättynyt työttömyysjakso)",
+      "conceptdef": "Työttömyysjakson työllisyyskoodi (vpt=viimeisin vuoden aikana päättynyt työttömyysjakso). Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyalk",
+      "variablename": "Työttömyyden alkamispäivämäärä (vpt=viimeisin vuoden aikana päättynyt työttömyysjakso)",
+      "conceptdef": "Työttömyyden alkamispäivämäärä (vpt=viimeisin vuoden aikana päättynyt työttömyysjakso). Tietoja vuosilta 1988-2004. Rakenne VVKKPP",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tylop",
+      "variablename": "Työttömyyden päättymispäivämäärä (vpt=viimeisin vuoden aikana päättynyt työttömyysjakso)",
+      "conceptdef": "Työttömyyden päättymispäivämäärä (vpt=viimeisin vuoden aikana päättynyt työttömyysjakso). Tietoja vuosilta 1988-2004. Rakenne VVKKPP",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjpasyv",
+      "variablename": "Viimeisen päättyneen työttömyysjakson syy",
+      "conceptdef": "Viimeisen päättyneen työttömyysjakson syy. Tietoja vuosilta 1988-2004.\n\n0 = sijoitukseen päättyminen\n1 = välitetty työhön\n2 = lomautus tai lyhennetty työviikko päättynyt\n3 = saanut työtä omatoimisesti\n4 = aloittanut työllisyyskurssin\n5 = siirtynyt työvoiman ulkopuolelle\n6 = muu syy tai ei tietoa\n7 = työttömyyseläkkeelle siirtynyt\n8 = muu koulutus (1995-1997)\n9 = työhakuun ETA-valtioihin (1995-1997)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tjlkmp",
+      "variablename": "Päättyneiden työttömyysjaksojen lukumäärä",
+      "conceptdef": "Päättyneiden työttömyysjaksojen lukumäärä. Tietoja vuosilta 1988-2003.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sapvm",
+      "variablename": "Sijoituksen alkamispäivä (vps=viimeisen vuoden aikana päättynyt sijoitus)",
+      "conceptdef": "Sijoituksen alkamispäivä (vps=viimeisin vuoden aikana päättynyt sijoitus). Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sppvm",
+      "variablename": "Sijoituksen päättymispäivämäärä (vps=viimeisen vuoden aikana päättynyt sijoitus)",
+      "conceptdef": "Sijoituksen päättymispäivämäärä (vps=viimeisin vuoden aikana päättynyt sijoitus). Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijkds",
+      "variablename": "Toimenpidekoodi (vps=viimeisen vuoden aikana päättynyt sijoitus)",
+      "conceptdef": "Toimenpidekoodi (vps=viimeisin vuoden aikana päättynyt sijoitus). Tietoja vuosilta 1988-2004.\n\nToimenpidekoodi: \n\n01 = valtion työtehtävät (voimassa 1994 saakka) \n02 = Kuntien valtionosuus (voimassa 1994 saakka) \n03 = Kuntainliittojen valtionosuus (voimassa 1994 saakka) \n05 = 18-24-v. tyött. työllistäminen (voimassa 1994 saakka) \n13 = vajaakunt. työllistämistuki (voimassa 1994 saakka) \n15 = yli 10 kk työttömien työllist. (voimassa 1994 saakka) \n16 = harjaantuminen (voimassa 1994 saakka) \n19 = yrittäjäraha (voimassa 1994 saakka) \n20 = rakennemuutostyöllistäminen (voimassa 1994 saakka) \n26 = vaikeat työttömyyskunnat (voimassa 1994 saakka) \n27 = vaikeasti työllistettävät (voimassa 1994 saakka) \n28 = omatoiminen työllistyminen (voimassa 1994 saakka) \n31 = valtion velvoitetyöllistäminen (voimassa 1994 saakka) \n32 = kuntien velvoitetyöllistäminen (voimassa 1994 saakka) \n33 = huolenpitosopimus (voimassa 1994 saakka) \n34 = velvoitesijoitus (voimassa 1994 saakka) \n35 = työllistämispalvelu (voimassa 1994 saakka) \n40 = valtion työtehtävät, \n41 = työllistämispalvelu, (voimassa 2001 saakka) Työllistäminen ELY-virastoon\n42 = työviraston työohjeen mukainen sijoitus,(voimassa 2003 saakka) \n50 = kunnallinen työllistämistuki, \n51 = oppisopimussijoitus, kunta, \n53 = yhdistelmätuki, kunta, \n54 = palkkatuki TMT:lla kunta \n55 = oppisopimustoimenpide \n56 = oppisopimustoimenpide \n57 = palkkatuki nuor.kunta \n58 = oppisopimus nuor. kunta \n60 = työllistämistuki, yksityinen työnantaja, \n61 = starttiraha ei-työttömille \n62 = yrittäjäraha, \n63 = osa-aikalisälle jäänyt \n64 = harjaantuminen, \n65 = starttiraha TMT:lla \n67 = työharjoittelu vastavalmist. (voimassa 1997 saakka) \n68 = oppisopimussijoitus, yksityinen, \n69 = yhdistelmätuki, yksityinen työnantaja, \n70 = työharjoittelu työmarkkinatuella, \n71 = Työelämävalmennus työttömyysetuudella \n73 = työllistäminen osa-aikatyöhön (paikkaan välitetty, tilastoidaan), \n74 = 500 pv yksityinen työmarkkinatuki, \n75 = 500 pv kunta työmarkkinatuki \n80 = palkkatuki TMT:lla yksit. \n81 = palkkatuki nuor.yksit. \n87 = oppisopimus nuor.yksit. \n88 = oppisopimus yksit. \n89 = oppisopimus yksit. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sipkd",
+      "variablename": "Sijoituksen päättymisen syy (vps=viimeisen vuoden aikana päättynyt sijoitus)",
+      "conceptdef": "Sijoituksen päättymisen syy (vps=viimeisin vuoden aikana päättynyt sijoitus). Tietoja vuosilta 1988-2004.\n\n1 = määräaika päättynyt\n2 = saanut sijoituspaikasta työtä\n3 = saanut muuta työtä\n4 = aloittanut koulutuksen\n5 = irtisanottu\n6 = muu syy tai ei tietoa\n7 = keskeyttänyt ja jäänyt työttömäksi\nblank = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sija",
+      "variablename": "Päättyneiden sijoitusjaksojen lukumäärä vuoden aikana",
+      "conceptdef": "Päättyneiden sijoitusjaksojen lukumäärä vuoden aikana. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sikk",
+      "variablename": "Sijoituskuukausien lukumäärä vuoden aikana",
+      "conceptdef": "Sijoituskuukausien lukumäärä vuoden aikana. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkokdh",
+      "variablename": "Työkokemus ammatissa",
+      "conceptdef": "Työkokemus ammatissa. Tietoja vuosilta 1991-2004\n\n0 = ei työkokemusta\n1 = jonkin verran työkokemusta\n2 = täysi ammattitaito",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alpvmv",
+      "variablename": "Työvoimakoulutuksen aloittamispäivä (vpk=viimeisin vuoden aikana päättynyt koulutusjakso)",
+      "conceptdef": "Työvoimakoulutuksen aloittamispäivä (vpk=viimeisin vuoden aikana päättynyt koulutusjakso). Tietoja vuosilta 1988-2003. Rakenne VVKKPP",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "papvmv",
+      "variablename": "Koulutuksen päättämispäivämäärä (vpk=viimeisin vuoden aikana päättynyt koulutusjakso)",
+      "conceptdef": "Koulutuksen päättämispäivämäärä (vpk=viimeisin vuoden aikana päättynyt koulutusjakso). Tietoja vuosilta 1988-2003. Rakenne VVKKPP",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktyypv",
+      "variablename": "Koulutustyyppi (vpk=viimeisin vuoden aikana päättynyt koulutusjakso)",
+      "conceptdef": "Koulutustyyppi (vpk=viimeisin vuoden aikana päättynyt koulutusjakso). Tietoja vuosilta 1988-1989 ja 1991-2003. \n\n1 = kurssi (yhteishaussa)\n2 = yksittäinen koulutuspaikka\n3 = lomautuskoulutus\n4 = rekrytointi koulutus\n5 = muu yrityskoulutus\n6 = muu koulutus\n7 = EU-koulutus (1995-1997)\n8 = KOVA-koulutus (1997)\n9 = tuntematon (KEKO-koulutus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pasyyv",
+      "variablename": "Koulutuksen päättämisen syy (vpk=viimeisin vuoden aikana päättynyt koulutusjakso)",
+      "conceptdef": "Koulutuksen päättämisen syy (vpk=viimeisin vuoden aikana päättynyt koulutusjakso). Tietoja vuosilta 1988-2003.\n\n0 = suorittanut\n1 = keskeytti, koulutusalan työhön\n2 = keskeytti, muuhun työhön\n3 = keskeytti, muuhun koulutukseen\n4 = keskeytti, terveydelliset syyt\n5 = keskeytti, muut henk.koht. syyt\n6 = keskeytti, opetusjärjestelyt\n7 = keskeytti, muu syy\n8 = erotettu, poissaolot\n9 = erotettu, muut syyt",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stypv",
+      "variablename": "Sijoittumistyyppi (vpk=viimeisin vuoden aikana päättynyt koulutusjakso)",
+      "conceptdef": "Sijoittumistyyppi (vpk=viimeisin vuoden aikana päättynyt koulutusjakso). Tietoja vuosilta 1988-1989 ja 1991-2003. \n\n1 = sijoittunut koulutusalan työhön\n2 = sijoittunut muuhun työhön\n3 = mennyt muuhun koulutukseen\n4 = työmarkkinoiden ulkopuolella\n5 = työtön\n6 = ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kjlkm",
+      "variablename": "Päättyneiden koulutusjaksojen lukumäärä vuoden aikana",
+      "conceptdef": "Päättyneiden koulutusjaksojen lukumäärä vuoden aikana. Tietoja vuosilta 1988-2003",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkklkm",
+      "variablename": "Koulutuskuukausien lukumäärä vuoden aikana",
+      "conceptdef": "Koulutuskuukausien lukumäärä vuoden aikana. Tietoja vuosilta 1988-2003",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iykstun",
+      "variablename": "Toimipaikkatunnuksen pituus",
+      "conceptdef": "Toimipaikkatunnuksen pituus. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iyrtun",
+      "variablename": "Yritystunnuksen pituus",
+      "conceptdef": "Yritystunnuksen pituus. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "topi",
+      "variablename": "Toimipaikkatunnuksen 10. merkki",
+      "conceptdef": "Toimipaikkatunnuksen 10. merkki. Tietoja vuosilta 1993-1995",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tolh",
+      "variablename": "Karkea toimialaluokitus (ntalatp)",
+      "conceptdef": "Karkea toimialaluokitus (ntalatp). Tietoja vuosilta 1993-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tah",
+      "variablename": "Toimialaryhmät (ntalatp)",
+      "conceptdef": "Toimialaryhmät (ntalatp). Tietoja vuosilta 1993-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tolxht",
+      "variablename": "Karkea toimialaluokitus (tol95xht)",
+      "conceptdef": "Karkea toimialaluokitus (tol95xht). Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tahxht",
+      "variablename": "Toimialaryhmät (tol95xht)",
+      "conceptdef": "Toimialaryhmät (tol95xht). Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hk_sykstun",
+      "variablename": "Toimipaikan henkilöstö toimipaikkarekisterissä, lukumäärä",
+      "conceptdef": "Toimipaikan henkilöstö toimipaikkarekisterissä, lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "seutu16",
+      "variablename": "Seutukunta vuoden 2016 luokituksen mukaan (karkeistettu)",
+      "conceptdef": "Seutukunta vuoden 2016 luokituksen mukaan (karkeistettu).\n\n1 = Helsinki, Espoo, Vantaa, Kauniainen\n2 = Turun seutukunta\n3 = Tampereen stk\n4 = Oulun stk \nblank = muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "seutukunta16",
+      "variablename": "Seutukunta vuoden 2016 luokituksen mukaan",
+      "conceptdef": "Seutukunta vuoden 2016 luokituksen mukaan.\n\n",
+      "measunit": null,
+      "classification": "seutukunta_1_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta",
+      "variablename": "Kunta",
+      "conceptdef": "Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 1.1. tilastovuosi + 1 vuodesta. Kuntanumero 3 merkkiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta16",
+      "variablename": "Kunta",
+      "conceptdef": "Henkilön asuinkunta vuoden viimeisenä päivänä, vuoden 2016 aluejaon mukaan",
+      "measunit": null,
+      "classification": "kunta_1_2015_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ututku",
+      "variablename": "Tutkintokoodi (uusin luokitus)",
+      "conceptdef": "Tutkinto uusimman koulutusluokituksen mukaan (2016 6-numerotaso). Luokituksesta pääsee vuoden 2015 koulutusluokitukseen muuttamalla 4-numerolla alkavat luokat (erikoisammattitutkinnot) 3-numerolla alkaviksi.\n\nVäestön koulutusrakenne, Sijoittuminen koulutuksen jälkeen ja Opintojen kulku -tilastoissa tutkinnon suorittaneet ovat tilastovuoden loppuun mennessä ylioppilastutkinnon, kansainvälisen ylioppilastutkinnon (IB-, Reifeprüfung- tai Gymnasie-examen-tutkinnon), ammatillisen tutkinnon, ammattikorkeakoulututkinnon, ammattikorkeakoulun jatkotutkinnon tai yliopistotutkinnon suorittaneita. Tutkinnon suorittaneisiin luetaan myös Puolustusvoimissa, rajavartiolaitoksessa sekä ulkomailla tutkinnon suorittaneet. Tilastoihin henkilöille on valittu yksi tutkinto: koulutusasteeltaan korkein/viimeksi suoritettu ammatillinen tutkinto.    \n\nKoulutustiedot on saatu Tilastokeskuksen tutkintorekisteristä. Rekisteriin tutkintotiedot on voitu viedä vain niille henkilöille, joilla on suomalainen henkilötunnus. Tästä syystä tutkintorekisteristä puuttuvat henkilötunnusta vailla olevien henkilöiden (esim. monien ulkomaalaisten) tutkintotiedot.\n\nhttp://tilastokeskus.fi/meta/luokitukset/koulutus/001-2010/index.html\n \n",
+      "measunit": null,
+      "classification": "koulutus_1_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95xht3",
+      "variablename": "Luokituskannan avaimella tehty tol95, sivutyö",
+      "conceptdef": "Luokituskannan avaimella tehty tol95, sivutyö. Tietoja vuosilta 1992-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95xht2",
+      "variablename": "Luokituskannan avaimella tehty tol95, atv",
+      "conceptdef": "Luokituskannan avaimella tehty tol95, atv. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol95xht",
+      "variablename": "Luokituskannan avaimella tehty tol95",
+      "conceptdef": "Luokituskannan avaimella tehty tol95. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala2",
+      "variablename": "Toimiala (ATV=vuoden pisin työsuhde)",
+      "conceptdef": "Kuvaa henkilön pisimmän työsuhteen toimialaa niillä, jotka on päätelty työllisiksi ATV-käsitteen mukaan. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala",
+      "variablename": "Toimiala (TVM=vuoden viim.viikon työsuhde)",
+      "conceptdef": "TVM-työnantajan toimiala, kyseisen vuoden luokitus.\nHenkilön tvm-käsitteen mukaisen työsuhteen toimiala eli vuoden lopussa työllisenä olevien päätyösuhteen toimiala. \n\nToimialaluokitus on muuttunut vuosien varrella. Käytössä seuraavat luokitukset: \n\ntoimiala_1_08_s (TOL2008) vuodesta 2007 lähtien\n\ntoimiala_1_02_s (TOL2002) vuodet 2001-2006\n\ntoimiala_1_00_s (TOL95, toinen tarkistettu painos) vuodet 1998-2000\n\ntoimiala_1_95_s (TOL95) vuodet 1993-1997\n\ntoimiala_1_88_s (TOL88) vuodet 1987-1992\n\nToimialaluokitus TOL95 on ollut käytössä vuosina 1993 - 2000. \n\nLuokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusavaimet.html",
+      "measunit": null,
+      "classification": "toimiala_32_1988_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ntalatp",
+      "variablename": "Toimialaluokitus 1995 yritysrekisteristä",
+      "conceptdef": "Toimialaluokitus 1995 yritysrekisteristä. Tietoja vuosilta 1993-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktutk",
+      "variablename": "Tutkintokoodi",
+      "conceptdef": "Tilastokeskuksen koulutusluokituksen mukainen koodi (1994 ennen vuotta 1997), vuodesta 2005 eteenpäin kyseisen vuoden koulutusluokitus: http://tilastokeskus.fi/tk/tt/luokitukset/index_henkilo.html",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amnos",
+      "variablename": "Sijoitusammatti (vps=viimeisen vuoden aikana päättynyt sijoitus)",
+      "conceptdef": "Sijoitusammatti (vps=viimeisen vuoden aikana päättynyt sijoitus). Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elat",
+      "variablename": "Eläkeläisten asumistuki",
+      "conceptdef": "Eläkeläisten asumistuki. Tietoja vuosilta 1993-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amnoh",
+      "variablename": "Työnhakijan ammattinumero",
+      "conceptdef": "Työnhakijan ammattinumero. Tietoja vuosilta 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amno3",
+      "variablename": "Työnhakijan välitysammatti",
+      "conceptdef": "Työnhakijan välitysammatti. Tietoja vuosilta 1988-2004",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammnokv",
+      "variablename": "Koulutuksen tavoiteammatti (vpk=viimeisin vuoden aikana päättynyt koulutusjakso),",
+      "conceptdef": "Koulutuksen tavoiteammatti (vpk=viimeisin vuoden aikana päättynyt koulutusjakso), Tietoja vuosilta 1988-2003",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi",
+      "variablename": "Ammattikoodi",
+      "conceptdef": "Ammattikoodi. Tietoja vuosilta 1990, 1993, 1995, 2000 ja 2004-.\n\nAmmattitiedot\n\nTieto henkilön ammatista on tuotettu 18-74-vuotiaille palkansaajille ja yrittäjille (työlliset). Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. Henkilön ammattikoodi tuotetaan ensisijaisesti vuoden viimeisen viikon päätyösuhteen mukaisen ammatin perusteella. Ammattinimikkeiden lisäksi tiedon tuottamisessa käytetään hyväksi tietoa henkilön työpaikan toimialasta ja sektorista sekä henkilön koulutuksesta.\n\nAmmattitietojen tuottamista ohjaa kansainvälisen työjärjestön ILO:n laatima hierarkinen luokitusjärjestelmä International Standard Classification of Occupations, lyh. ISCO. ISCO -luokitus muuttui viimeksi vuonna 2010. Tällöin otettiin käyttöön Ammattiluokitus 2010  (AML 2010) standardi. Vuosina 1995, 2000, 2004 - 2009 käytössä oli luokitusstandardi Ammattiluokitus 2001. Vuosina 1990 ja 1993 oli käytössä Ammattiluokitus 1980. \n\nHuomattavaa on, että eri luokitusstandardeilla tuotetut tiedot eivät ole keskenään vertailukelpoiset. Tilastossa käytetyt luokitukset samoin kun luokitusten väliset avaimet löytyvät Tilastokeskuksen luokitus- ja metatietopalvelujen kotisivuilta osoitteesta: http://tilastokeskus.fi/luokitukset sekä painetuista luokituskäsikirjoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

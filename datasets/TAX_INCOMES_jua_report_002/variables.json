@@ -1,0 +1,444 @@
+{
+  "variables": [
+    {
+      "identifier": "repId",
+      "variablename": "Raportin tunniste",
+      "conceptdef": "Raportin  tunniste, joka muodostuu samalla kun kyseinen taulu tehdään. Muodostettu, jotta taulujen yhdistäminen olisi tehokkaampaa. Report.repId=transactioInfo.repId\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "delId",
+      "variablename": "Toimituksen tunniste",
+      "conceptdef": "Toimituksen tunniste, joka muodostuu samalla, kun kyseinen taulu tehdään. Muodostettu, jotta taulujen yhdistäminen olisi tehokkaampaa. report.delId=delivery.delId\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerHid_e",
+      "variablename": "Suojattu tulonsaajan yksilöivä tunniste",
+      "conceptdef": "Suojattu tulonsaajan yksilöivä tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerIdCode_s",
+      "variablename": "Tulonsaajan suojattu muu tunnus",
+      "conceptdef": "Suojattu muu tunnus on vain niillä tulonsaajilla, joille ei löydy suojattua henkilönumeroa Tilastokeskuksen henkilötietovarastosta. Henkilötunnus on tilapäinen tai puutteellinen tai kyse on muusta tunnuksesta. Yritystunnuksesta on poistettu viiva ennen suojausta. Tätä muuttujaa ei suositella vielä käytettävän linkkauksissa, koska muuttujan suojaus on sikäli puutteellinen, etteivät kaikki alkuperäiset tunnukset ole saaneet oikein yksilöityvää suojattua tunnusta. \n\npakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerIdType",
+      "variablename": "Tulonsaajan tunnisteen tyyppi",
+      "conceptdef": "1 Y-tunnus\n2 Henkilötunnus (suomalainen)\n3 Alv-tunniste (VAT)\n4 GIIN-tunniste\n5 Verotunniste (TIN)\n6 Kaupparekisteritunnus\n7 Ulkomainen yritystunnus\n9 Ulkomainen henkilötunnus\n99 Muu tunnus\n\nKentän sisältö ei aina vastaa oletusmuotoa.\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2020/koodistot-2020.pdf\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "reportVersion",
+      "variablename": "Ilmoitusversio",
+      "conceptdef": "Vastaaja voi korvata aikaisemman ilmoituksensa, jolloin syntyy uusi versio ilmoituksesta.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "latauspvm",
+      "variablename": "Aineiston poimintapäivämäärä Tulorekisteristä",
+      "conceptdef": "Tarkoittaa sitä hetkeä, jolloin Tilastokeskus on poiminut aineiston Tulorekisteristä. Tilastokeskus sai tulorekisterin tiedot käyttöön vuoden 2020 alussa, joten tästä syystä vuoden 2019 tiedot on ladattu vasta vuoden 2020 puolella. Tyypillisesti tulorekisteriin ilmoitetut tiedot ladataan yhden päivän viiveellä Tilastokeskukseen.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pensionActCode",
+      "variablename": "Tieto työeläkevakuutuksesta",
+      "conceptdef": "1 = Työntekijän työeläkevakuutus, \n2 = Maatalousyrittäjän eläkevakuutus (MYEL)\n, 3 = Yrittäjän eläkevakuutus (YEL). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pensionProvIdCode_s",
+      "variablename": "Suojattu työeläkelaitoksen yhtiötunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerType",
+      "variablename": "Tulonsaajan lisätiedon tyyppi",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unpaidAbsStartDate",
+      "variablename": "Palkattoman poissaolojakson alkupäivä",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unpaidAbsEndDate",
+      "variablename": "Palkattoman poissaolojakson loppupäivä",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unpaidAbsAbsenceDays",
+      "variablename": "Palkattomien poissaolopäivien lukumäärä",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "unpaidAbsCauseCode",
+      "variablename": "Palkattoman poissaolon syy",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paidAbsStartDate",
+      "variablename": "Palkallinen poissaolojakso – alkupäivä",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paidAbsEndDate",
+      "variablename": "Palkallinen poissaolojakso – loppupäivä",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paidAbsAbsenceDays",
+      "variablename": "Palkallisten poissaolopäivien lukumäärä",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paidAbsAmount",
+      "variablename": "Palkan määrä palkalliselta poissaololta",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paidAbsCauseCode",
+      "variablename": "Palkallisen poissaolon syy = sairaus/äitiys-, isyys-, ja vanhempainvapaa, vuosiloma yms.",
+      "conceptdef": "Huom! Poissaolojaksoja voidaan ilmoittaa useita per ilmoitus, joten useiden poissaolojaksojen osalta tiedot eivät kirjaudu tähän tauluun tarkasti.\nPakollisuus (K/E) = K.  https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2020/koodistot-2020.pdf",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nonResident",
+      "variablename": "Rajoitetusti verovelvollinen",
+      "conceptdef": " kyllä / ei. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "placeOfBusiness_s",
+      "variablename": "Suojattu toimipaikan koodi",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode1",
+      "variablename": "Ei vakuuttamisvelvollisuutta, tyyppi=1",
+      "conceptdef": "Ei vakuuttamisvelvollisuutta (työeläke-, sairaus-, työttömyys- sekä työtapaturma- ja ammattitautivakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode2",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 2",
+      "conceptdef": "Ei vakuuttamisvelvollisuutta (sairausvakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode3",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 3",
+      "conceptdef": "Ei vakuuttamisvelvollisuutta (työeläkevakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode4",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 4",
+      "conceptdef": "Ei vakuuttamisvelvollisuutta (työtapaturma- ja ammattitautivakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode5",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 5",
+      "conceptdef": "Ei vakuuttamisvelvollisuutta (työttömyysvakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode6",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 6",
+      "conceptdef": "Ei kuulu Suomen sosiaaliturvan soveltamispiiriin (työeläke-, sairaus-, työttömyys- sekä työtapaturma- ja ammattitautivakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode7",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 7",
+      "conceptdef": "Ei kuulu Suomen sosiaaliturvan soveltamispiiriin (työeläkevakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode8",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 8",
+      "conceptdef": "Ei kuulu Suomen sosiaaliturvan soveltamispiiriin (työtapaturma- ja ammattitautivakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode9",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 9",
+      "conceptdef": "Ei kuulu Suomen sosiaaliturvan soveltamispiiriin (työttömyysvakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode10",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 10",
+      "conceptdef": "Ei kuulu Suomen sosiaaliturvan soveltamispiiriin (sairausvakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "insuranceExceptionCode11",
+      "variablename": "Ei vakuuttamisvelvollisuutta, koodi 11",
+      "conceptdef": "Vapaaehtoinen vakuuttaminen Suomessa (työeläkevakuutus). Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employed",
+      "variablename": "Palvelussuhteessa",
+      "conceptdef": "(true/false)\n\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employmentCode",
+      "variablename": "Palvelussuhteen tyyppi",
+      "conceptdef": "1 = Kokoaikainen, 2 = Osa-aikainen, 3 = Tietoa ei ole saatavilla. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "termCode",
+      "variablename": "Palvelussuhteen kesto",
+      "conceptdef": "1=Toistaiseksi voimassa oleva, 2=Määräaikainen. \n\nPakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "parttime",
+      "variablename": "Osa-aikaisuuden prosentti",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hoursPerWeek",
+      "variablename": "Säännöllinen sovittu viikkotyöaika",
+      "conceptdef": "Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paymentType",
+      "variablename": "Palkkauksen muoto",
+      "conceptdef": "1 = Kuukausipalkka, 2 = Tuntipalkka, 3 = Urakkapalkka. Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employmentStartDate",
+      "variablename": "Palvelussuhteen voimassolo: alkupäivä",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employmentEndDate",
+      "variablename": "Palvelussuhteen voimassolo: loppupäivä",
+      "conceptdef": "Pakollisuus (K/E) = K/E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "employmentDays",
+      "variablename": "Palvelussuhteen työpäivät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionType1",
+      "variablename": "Ammattikoodiston tyyppi",
+      "conceptdef": "Saa arvon yksi, jos ilmoitettu TK10 koodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode1",
+      "variablename": "TK10 Ammattikoodi",
+      "conceptdef": "Sama ammattiluokitus kuin Ammattiluokitus 2010, mutta teknisestä syystä muodostettu jokaisesta ammattikoodista viisinumeroinen lisäämällä nollia Ammattiluokitus 2010 koodin perään riittävästi.\nhttps://www.tilastokeskus.fi/fi/luokitukset/ammatti/ammatti_17_20180515/\nPakollisuus (K/E) = K jos tapaturmavakuutettu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionType2",
+      "variablename": "Ammattikoodiston tyyppi",
+      "conceptdef": "Saa arvon kaksi, jos ilmoitettu Keva-koodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode2",
+      "variablename": "Kevan nimikkeistön koodi",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionType3",
+      "variablename": "Ammattikoodiston tyyppi",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode3",
+      "variablename": "Suomen Pankin nimikkeistön koodi",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionType4",
+      "variablename": "Ammattikoodiston tyyppi",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "professionCode4",
+      "variablename": "Trafin nimikkeistön koodi",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CBACode_s",
+      "variablename": "Suojattu sovellettava työehtosopimus",
+      "conceptdef": "Pakollisuus (K/E) = E.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PlaceOfBusinessCountryCode",
+      "variablename": "Tulonsaajan toimipaikan maakoodi",
+      "conceptdef": "ISO3166-maakoodiston mukainen 2-kirjaiminen koodi. Jos maa on tuntematon, arvo on ”99”. Pakollisuus (K/E) = E",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PlaceOfBusinessCountryName",
+      "variablename": "Tulonsaajan toimipaikan maan nimi",
+      "conceptdef": "Pakollisuus (K/E) = K, jos maakoodi = 99.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "reportReceivedTimstamp",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "reportVersionCreatedTimestamp",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "reportVersionReceivedTimestamp",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "variables": [
+    {
+      "identifier": "IKA",
+      "variablename": "Ikä vuosina",
+      "conceptdef": "Ikä vuosina 31.12.1996. \nbl = tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "UUSI",
+      "variablename": "aloittanut v.1996",
+      "conceptdef": "1=uusi, 0=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SP",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1=mies, 2=nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLOHKO",
+      "variablename": "Koulutuslohko",
+      "conceptdef": "Opintoala- ja asteavain 1996",
+      "measunit": null,
+      "classification": "opintoala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCED",
+      "variablename": "Isced level ja field",
+      "conceptdef": "Isced level ja field 1996\n \n(ens. merkki level toinen ja kolmas field)",
+      "measunit": null,
+      "classification": "isced_ala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULK5",
+      "variablename": "Koulutuskoodi",
+      "conceptdef": "Koulutusluokitus 1996",
+      "measunit": null,
+      "classification": "koulutus_1_1996_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULK",
+      "variablename": "Tilastokeskuksen koulutuskoodi",
+      "conceptdef": "Tilastokeskuksen koulutusluokitus 1997",
+      "measunit": null,
+      "classification": "koulutus_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKLE",
+      "variablename": "Unescon koulutusaste",
+      "conceptdef": "ISCED 1997",
+      "measunit": null,
+      "classification": "isced_aste_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKFI",
+      "variablename": "Unescon koulutusala",
+      "conceptdef": "ISCED 1997, Field",
+      "measunit": null,
+      "classification": "isced_ala_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKDE",
+      "variablename": "Unescon sijoittumistavoiteluokitus",
+      "conceptdef": "ISCED 1997, Destination",
+      "measunit": null,
+      "classification": "isced_6_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKOR",
+      "variablename": "Unescon suuntautumisluokitus",
+      "conceptdef": "ISCED 1997, Orientation",
+      "measunit": null,
+      "classification": "isced_3_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKST",
+      "variablename": "Unescon kansallinen tutkintorakenne",
+      "conceptdef": "ISCED 1997, National degree structure",
+      "measunit": null,
+      "classification": "isced_4_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKDU",
+      "variablename": "Unescon koulutuksen suunniteltu kesto",
+      "conceptdef": "ISCED 1997, Duration",
+      "measunit": null,
+      "classification": "isced_5_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLOHKOU",
+      "variablename": "Opetushallinnon koulutusala",
+      "conceptdef": "Opetushallinnon koulutusala 1997. \n0 = Yleissivistävä koulutus, \n1 = Luonnonvara-ala, \n2 = Tekniikan ja liikenteen ala, \n3 = Kaupan ja hallinnon ala\n, 4 = Matkailu-, ravitsemis- ja talousala, \n5 = Sosiaali- ja terveysala, \n6 = Kulttuuriala\n, 7 = Humanistinen ja opetusala, \n9 = Muu koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPALAU",
+      "variablename": "Opetushallinnon opintoala",
+      "conceptdef": "Opetushallinnon opintoala 1997",
+      "measunit": null,
+      "classification": "opintoala_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPASTEU",
+      "variablename": "Opetushallinnon koulutusaste",
+      "conceptdef": "Opetushallinnon koulutusaste 1997. \n0 = Aste eriytymättä, \n1 = Toinen aste, \n2 = Opistoaste, \n3 = Ammatillinen korkea-aste, \n4 = Ammattikorkeakoulututkinto, \n5 = Alempi korkeakoulututkinto, \n6 = Ylempi korkeakoulututkinto, \n7 = Lisensiaattitutkinto, \n8 = Tohtorin tutkinto\n, 9  = Muu tai tuntematon koulutusaste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPASTE",
+      "variablename": "Opintoaste",
+      "conceptdef": "Opintoala- ja asteavain 1996",
+      "measunit": null,
+      "classification": "opintoala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPALA",
+      "variablename": "Opintoala",
+      "conceptdef": "Opintoala- ja asteavain 1996",
+      "measunit": null,
+      "classification": "opintoala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILV",
+      "variablename": "Aineistovuosi",
+      "conceptdef": "Syksyn 1996 opiskelijat. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTIKUN",
+      "variablename": "Kotikunta",
+      "conceptdef": "Opiskelijan kotikunta 31.12.1996\n. VRK:n kuntakoodi\n. 200=ulkomaalainen\n, 999=ei tietoa",
+      "measunit": null,
+      "classification": "kunta_1_1996_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTNUTS2",
+      "variablename": "Kotikunnan suuralue",
+      "conceptdef": "31.12.1996, TK:n alueluokitus. \n1=Uusimaa\n, 2=Etelä-Suomi, \n3=Itä-Suomi\n, 4=Väli-Suomi\n, 5=Pohjois-Suomi\n, 6=Ahvenanmaa\n, 9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTNUTS3",
+      "variablename": "Kotimaakunta",
+      "conceptdef": "31.12.1996, TK:n alueluokitus. \n99=ei tietoa",
+      "measunit": null,
+      "classification": "maakunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KRYH",
+      "variablename": "Koulutusryhmä",
+      "conceptdef": "21=Päivälukiokoulutus, \n22=Aikuislukiokoulutus, \n31=Toisen asteen ammatillinen koulutus, \n41=Ammattikorkeakoulutus, vakinaiset\n. Järjestäjänä vakinainen ammattikorkeakoulu\n42=Ammattikorkeakoulutus, väliaikaiset\n. Järjestäjänä väliaikainen ammattikorkeakoulu\n, 51=Yliopistokoulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUN",
+      "variablename": "Koulutuksen sijaintikunta",
+      "conceptdef": "VRK:n kuntakoodi\n. 999=ei tietoa",
+      "measunit": null,
+      "classification": "kunta_1_1996_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNUTS2",
+      "variablename": "Koulutuksen sijaintikunnan \nsuuralue",
+      "conceptdef": "TK:n alueluokitus\n. 1=Uusimaa, \n2=Etelä-Suomi, \n3=Itä-Suomi, \n4=Väli-Suomi, \n5=Pohjois-Suomi, \n6=Ahvenanmaa\n, 9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNUTS3",
+      "variablename": "Koulutuksen sijaintimaakunta",
+      "conceptdef": "TK:n alueluokitus. \n99=ei tietoa",
+      "measunit": null,
+      "classification": "maakunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KSEUTU",
+      "variablename": "Koulutuksen sijaintikunnan\nseutukunta",
+      "conceptdef": "TK:n alueluokitus. \n999=ei tietoa\n(NUTS4)",
+      "measunit": null,
+      "classification": "seutukunta_1_1996_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Tilastokeskuksen suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "s_oltunn",
+      "variablename": "Tilastokeskuksen suojattu oppilaitostunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

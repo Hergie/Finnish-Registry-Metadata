@@ -1,0 +1,1404 @@
+{
+  "variables": [
+    {
+      "identifier": "PERSID_S",
+      "variablename": "Kohdetunnus",
+      "conceptdef": "Kohdetunnus. Kohdetunnuksena toimii suojattu PERSID-muuttuja (person operational identification number).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi_1",
+      "variablename": "Vuosimuuttuja (2023)",
+      "conceptdef": "Vuosimuuttuja, viimeisimpien rekisteritietojen yhdistämisvuosi (tilastovuosi 2023).\nTämän valmisaineiston muuttujanimissä loppulyhenne _1 ilmentää sitä, että tieto perustuu tilastovuoden 2023 rekisteritietoihin. Huom.: rekisteritietoja tilastovuodelta 2023 on täydennetty tilastovuoden 2022 tiedoilla puutteellisilta osin (kts. kunkin muuttujan kuvauksesta lisätietoja).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi_2",
+      "variablename": "Vuosimuuttuja (2020)",
+      "conceptdef": "Vuosimuuttuja, toiseksi viimeisimpien rekisteritietojen yhdistämisvuosi (tilastovuosi 2020).\nTämän valmisaineiston muuttujanimissä loppulyhenne _2 ilmentää sitä, että tieto perustuu tilastovuoden 2020 rekisteritietoihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi_3",
+      "variablename": "Vuosimuuttuja (2017)",
+      "conceptdef": "Vuosimuuttuja, kolmanneksi viimeisimpien rekisteritietojen yhdistämisvuosi (tilastovuosi 2017).\nTämän valmisaineiston muuttujanimissä loppulyhenne _3 ilmentää sitä, että tieto perustuu tilastovuoden 2017 rekisteritietoihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansa_1_k",
+      "variablename": "Ensimmäinen kansalaisuus, karkeistettuna",
+      "conceptdef": "Henkilön kansalaisuus viimeisimpien rekisteritietojen mukaan (tilastovuosi 2023). \t\nKarkeistettu ensimmäisen kansalaisuuden tieto tuotettu 3-merkkisestä ISO-valtiokoodista. Jos henkilöllä on Suomen kansalaisuus, se on merkitty aina ensimmäiseksi. Tieto ensimmäisestä kansalaisuudesta on karkeistettu luokkiin:\n1 = Suomi\n2 = muu Eurooppa\n3 = muut\n\nKansalaisuudella tarkoitetaan jonkin maan kansalaisena olemista. Yleensä kansalaisuus saadaan syntyessä, mutta se voidaan vaihtaa muutettaessa toiseen maahan asumaan. Henkilöllä voi olla myös useamman maan kansalaisuus (kansalaisuuslaki 2003/359 ja kansalaisuusasetus 1985/699). Jos henkilöllä on kahden maan kansalaisuus, joista toinen on Suomen, hän on tilastoissa Suomen kansalaisena. Jos henkilöllä ei ole Suomen kansalaisuutta, on tiedoissa muu voimassaoleva kansalaisuus (jos Suomessa asuvalla ulkomaan kansalaisella on useita ulkomaiden kansalaisuuksia, hän on lähtökohtaisesti rekisterissä ja tilastoissa sen maan kansalaisena, jonka passilla hän on maahan tullut).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivs_1",
+      "variablename": "Siviilisääty",
+      "conceptdef": "Siviilisääty viimeisimpien rekisteritietojen mukaan (tilastovuosi 2023). Luokitus:\n1=naimaton\n2=avioliitossa, rekisteröidyssä parisuhteessa tai asumuserossa\n4=eronnut tai eronnut rekisteröidystä parisuhteesta\n5=leski tai leski rekisteröidystä parisuhteesta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika_1",
+      "variablename": "Ikä",
+      "conceptdef": "Ikä viimeisimpien rekisteritietojen mukaan (tilastovuosi 2023).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_1",
+      "variablename": "Suoritusvuosi (2023)",
+      "conceptdef": "Korkeimman viimeisimmän tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, suoritusvuosi.\n\nKoulutusasteeltaan korkein/viimeksi suoritettu ammatillinen tutkinto. Tiedot on saatu Tilastokeskuksen tutkintorekisteristä. Tutkinnon suorittaneisiin luetaan myös Puolustusvoimissa, rajavartiolaitoksessa sekä ulkomailla tutkinnon suorittaneet. Rekisteriin tutkintotiedot on voitu viedä vain niille henkilöille, joilla on suomalainen henkilötunnus. Tästä syystä tutkintorekisteristä puuttuvat henkilötunnusta vailla olevien henkilöiden (esim. monien ulkomaalaisten) tutkintotiedot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_1_s",
+      "variablename": "Suojattu oppilaitostunnus (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, suojattu oppilaitostunnus (tutkinnon suoritusvuonna). Tieto kyseisen tilastovuoden mukaisena.\n\nTilastokeskuksen oppilaitosrekisterin oppilaitostunnus tutkinnon suorittamisvuonna vuodesta 1971 alkaen. Tuntemattomiin sisältyy osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista, ennen v. 1971 suoritetut tutkinnot, ja ulkomailla suoritetut tutkinnot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk_1",
+      "variablename": "Koulutuskoodi (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, koulutuskoodi (tutkinnon suoritusvuonna) Tilastokeskuksen tutkintorekisteristä. Tieto kyseisen tilastovuoden mukaisena.\n\nTilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset on saatavilla Fionan metatieto-kansiossa. Koulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki koulutusalan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saika_1",
+      "variablename": "Suoritusaika (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, tutkinnon suoritusaika. Tieto kyseisen tilastovuoden mukaisena.\n\nTutkinnon suoritusvuosi ja -kuukausi muodossa VVVVKK, saatavilla vuodesta 1971 alkaen. BBBBBB = tuntematon. Tieto puuttuu pääsääntöisesti Väestölaskenta 1970-aineistosta saaduista tutkinnoista ja ulkomailla suoritetuista tutkinnoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkieli_1",
+      "variablename": "Opetuskieli (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, koulutuksen opetuskieli. Tieto kyseisen tilastovuoden mukaisena.\n\n2-kirjaiminen tunnus (ISO 639-standardin mukaisesti), BB = tieto puuttuu.\nTieto on vain yo-tutkinnoilla, ammatillisissa oppilaitoksissa suoritetuilla tutkinnoilla sekä ammattikorkeakoulu-tutkinnoilla. Tieto saatavilla pääsäntöisesti  vuodesta 1971 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opty_1",
+      "variablename": "Oppilaitostyyppi (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, oppilaitostyyppi. Tieto kyseisen tilastovuoden mukaisena. Luokitus:\n\n15 = Lukiot\n19 = Perus- ja lukioasteen koulut\n21 = Ammatilliset oppilaitokset\n22 = Ammatilliset erityisoppilaitokset\n23 = Ammatilliset erikoisoppilaitokset\n24 = Ammatilliset aikuiskoulutuskeskukset\n28 = Palo-, poliisi- ja vartiointialojen oppilaitokset\n29 = Sotilasalan ammatilliset oppilaitokset\n41 = Ammattikorkeakoulut\n42 = Yliopistot\n43 = Sotilaskorkeakoulut\n61 = Musiikkioppilaitokset\n62 = Liikunnan koulutuskeskukset\n63 = Kansanopistot\n64 = Kansalaisopistot\n65 = Opintokeskukset\n66 = Kesäyliopistot\n99 = Muut oppilaitokset\nBB = tuntematon\n(osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista, ennen vuotta 1971 suoritetut tutkinnot, ulkomailla suoritetut tutkinnot)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom_1",
+      "variablename": "Tutkinto suoritettu ulkomailla (2023)",
+      "conceptdef": "Tieto korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, suorittamisesta ulkomailla. Tieto kyseisen tilastovuoden mukaisena.\n1 = tutkinto on suoritettu ulkomailla\n0 = tutkinto on suoritettu Suomessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiso_1",
+      "variablename": "Oppisopimuskoulutus (2023)",
+      "conceptdef": "Tieto korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, oppisopimuskoulutuksesta. Tieto kyseisen tilastovuoden mukaisena.\n1 = tutkinto on suoritettu oppisopimuskoulutuksena\n0 = tutkintoa ei ole suoritettu oppisopimuskoulutuksena\n(Tieto on ammatillisissa oppilaitoksissa suoritetuilla ja näyttötutkinnoilla vuodesta 1997 lähtien.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuv_1",
+      "variablename": "Kirjoihintulovuosi (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, kirjoihintulovuosi eli aloittamisvuosi. Tieto kyseisen tilastovuoden mukaisena.\nKirjoihintulovuosi on vuosi, jolloin opiskelija on ottanut vastaan opiskelu-oikeuden  ja ilmoittautunut koulun kirjoihin tai solminut oppisopimuksen (muodossa VVVV).\nTieto saatavilla vuodesta 2000 alkaen. BBBB = ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk_1",
+      "variablename": "Aloittamislukukausi (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, aloittamislukukausi. Tieto kyseisen tilastovuoden mukaisena. Tutkintoon johtavan koulutuksen aloittamislukukausi oppilaitoksessa luokituksen mukaan:\n1 = kevät (1.1.–31.7.)\n2 = syksy (1.8.–31.12.)\nB = ei tietoa.\nTieto saatavilla vuodesta 2000 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisak_1",
+      "variablename": "Opettajankelpoisuus (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, opettajankelpoisuus. Tieto kyseisen tilastovuoden mukaisena. Tutkintoon liittyvä opettajankelpoisuus luokituksen mukaan:\n1 = opettajankelpoisuus\n0 = ei opettajankelpoisuutta\n\nTieto saatavilla vuodesta 1998 alkaen. Tieto määritellään koulutusluokituksen koulutusalan 2 Kasvatustieteellinen ja opettajankoulutus tutkintonimikkeen mukaan. Poikkeuksena kuitenkin ne tutkintonimikkeet, jotka eivät sisällä opettajankelpoisuutta. Tieto on myös niillä henkilöillä, joilla ennen koulutusluokituksen uudistusta oli aineenopettajankoulutuksesta oma koulutuskoodinsa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijkun_1",
+      "variablename": "Sijaintikunta (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, koulutuksen sijaintikunta. Tieto kyseisen tilastovuoden mukaisena. Koulutuksen sijaintikunta tutkinnon suorittamisvuonna saatavilla pääsäntöisesti  vuodesta 1971 alkaen.\n200 = ulkomailla \nBBB = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suormaa_1",
+      "variablename": "Suoritusmaa (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, tutkinnon suoritusmaa. Tieto kyseisen tilastovuoden mukaisena. 3-numeroinen tunnus (ISO 3166-standardin mukaisesti).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kouljat_1",
+      "variablename": "Koulutusmuoto (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, tutkinnon koulutusmuoto. Tieto kyseisen tilastovuoden mukaisena.\n\nKoulutusmuoto saatavilla pääsäntöisesti  vuodesta 1971 alkaen. Muuttujan luokittelua muutettu v. 2005 alkaen.\n1 = koulujärjestelmäkoulutus, sisältää myös sotilasalan tutkinnot ja ulkomailla suoritetut tutkinnot\nTutkintotavoitteinen aikuiskoulutus\n8 = näyttötutkinnot (ammatillinen aikuiskoulutus); ammatilliset perustutkinnot, ammatti- ja erikoisammattitutkinnot vuodesta 1994 alkaen\n3 = muut kuin näyttötutkinnot;\n   ammatilliset aikuiskoulutukset v. 1999 asti\n   lukiokoulutuksen aikuiskoulutukset v. 1985 alkaen\n   ammattikorkeakoulun aikuiskoulutukset v. 1994 alkaen\n   ylemmät ammattikorkeakoulututkinnot v. 2003 alkaen\nMuu koulutus\n2 = työllisyyskurssikoulutus v. 1990 asti\n9 = aikuiskoulutuksen jatkolinja v. 1990 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk_1",
+      "variablename": "Ylioppilastutkinto (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, pohjakoulutuksena suoritettu ylioppilastutkinto. Tieto kyseisen tilastovuoden mukaisena.\n\n4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon\n0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkelp_1",
+      "variablename": "Opettajankelpoisuus (2023)",
+      "conceptdef": "Henkilöön liittyvä opettajankelpoisuus (rekisteritiedoissa vuodelta 2023) ajankohtana. Tieto kyseisen tilastovuoden mukaisena.\n\nHenkilöön liittyvä opettajankelpoisuus vuodesta 1998 alkaen. Opettajankelpoisuustieto on viitteellinen, koska jos henkilöllä on useita eri opettajankelpoisuuksia, päivittyy näistä vain yksi eli viimeksi suoritettu\n1 = erilliset opettajan pedagogiset opinnot (vain yliopisto)\n2 = aineenopettaja (vain AMK)\n3 = erityisopettaja (vain AMK)\n4 = opinto-ohjaaja (vain AMK)\n5 = Henkilöön liittyvä muu opettajankelpoisuus\n0 = Ei opettajankelpoisuutta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaste_1",
+      "variablename": "Koulutusaste taso 2 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, kansallinen koulutusaste (taso 2) tilastovuoden mukaisena. Koulutusluokitustieto Fionan metatietokansiossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscle2011_1",
+      "variablename": "ISCLE2011 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, ISCED 2011:n koulutusastekoodi (level, 1-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "isccat2011_1",
+      "variablename": "ISCCAT2011 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, ISCED 2011:n tarkentava koulutusastekoodi (level, 2-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscsubcat2011_1",
+      "variablename": "ISCSUBCAT2011 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, ISCED 2011:n tarkentava koulutusastekoodi (level, 3-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfibroad2013_1",
+      "variablename": "ISCFIBROAD2013 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana,  ISCED 2013:n 2-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfinarrow2013_1",
+      "variablename": "ISCFINARROW2013 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, ISCED 2013:n 3-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfi2013_1",
+      "variablename": "ISCFI2013 (2023)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2023) ajankohtana, ISCED 2013:n 4-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_2",
+      "variablename": "Suoritusvuosi (2020)",
+      "conceptdef": "Korkeimman viimeisimmän tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, suoritusvuosi.\n\nHuomaathan, että koulutusasteeltaan korkein/viimeksi suoritettu ammatillinen tutkinto ei välttämättä ole muuttunut muiden rekisteritietojen poimintavuosien välillä. Tiedot on saatu Tilastokeskuksen tutkintorekisteristä. Tutkinnon suorittaneisiin luetaan myös Puolustusvoimissa, rajavartiolaitoksessa sekä ulkomailla tutkinnon suorittaneet. Rekisteriin tutkintotiedot on voitu viedä vain niille henkilöille, joilla on suomalainen henkilötunnus. Tästä syystä tutkintorekisteristä puuttuvat henkilötunnusta vailla olevien henkilöiden (esim. monien ulkomaalaisten) tutkintotiedot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_2_s",
+      "variablename": "Suojattu oppilaitostunnus (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, suojattu oppilaitostunnus (tutkinnon suoritusvuonna). Tieto kyseisen tilastovuoden mukaisena.\n\nTilastokeskuksen oppilaitosrekisterin oppilaitostunnus tutkinnon suorittamisvuonna vuodesta 1971 alkaen. Tuntemattomiin sisältyy osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista, ennen v. 1971 suoritetut tutkinnot, ja ulkomailla suoritetut tutkinnot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk_2",
+      "variablename": "Koulutuskoodi (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, koulutuskoodi (tutkinnon suoritusvuonna) Tilastokeskuksen tutkintorekisteristä. Tieto kyseisen tilastovuoden mukaisena.\n\nTilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset on saatavilla Fionan metatieto-kansiossa. Koulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki koulutusalan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saika_2",
+      "variablename": "Suoritusaika (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, tutkinnon suoritusaika. Tieto kyseisen tilastovuoden mukaisena.\n\nTutkinnon suoritusvuosi ja -kuukausi muodossa VVVVKK, saatavilla vuodesta 1971 alkaen. BBBBBB = tuntematon. Tieto puuttuu pääsääntöisesti Väestölaskenta 1970-aineistosta saaduista tutkinnoista ja ulkomailla suoritetuista tutkinnoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkieli_2",
+      "variablename": "Opetuskieli (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, koulutuksen opetuskieli. Tieto kyseisen tilastovuoden mukaisena.\n\n2-kirjaiminen tunnus (ISO 639-standardin mukaisesti), BB = tieto puuttuu.\nTieto on vain yo-tutkinnoilla, ammatillisissa oppilaitoksissa suoritetuilla tutkinnoilla sekä ammattikorkeakoulu-tutkinnoilla. Tieto saatavilla pääsäntöisesti  vuodesta 1971 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opty_2",
+      "variablename": "Oppilaitostyyppi (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, oppilaitostyyppi. Tieto kyseisen tilastovuoden mukaisena. Luokitus:\n\n15 = Lukiot\n19 = Perus- ja lukioasteen koulut\n21 = Ammatilliset oppilaitokset\n22 = Ammatilliset erityisoppilaitokset\n23 = Ammatilliset erikoisoppilaitokset\n24 = Ammatilliset aikuiskoulutuskeskukset\n28 = Palo-, poliisi- ja vartiointialojen oppilaitokset\n29 = Sotilasalan ammatilliset oppilaitokset\n41 = Ammattikorkeakoulut\n42 = Yliopistot\n43 = Sotilaskorkeakoulut\n61 = Musiikkioppilaitokset\n62 = Liikunnan koulutuskeskukset\n63 = Kansanopistot\n64 = Kansalaisopistot\n65 = Opintokeskukset\n66 = Kesäyliopistot\n99 = Muut oppilaitokset\nBB = tuntematon\n(osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista, ennen vuotta 1971 suoritetut tutkinnot, ulkomailla suoritetut tutkinnot)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom_2",
+      "variablename": "Tutkinto suoritettu ulkomailla (2020)",
+      "conceptdef": "Tieto korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, suorittamisesta ulkomailla. Tieto kyseisen tilastovuoden mukaisena.\n1 = tutkinto on suoritettu ulkomailla\n0 = tutkinto on suoritettu Suomessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiso_2",
+      "variablename": "Oppisopimuskoulutus (2020)",
+      "conceptdef": "Tieto korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, oppisopimuskoulutuksesta. Tieto kyseisen tilastovuoden mukaisena.\n1 = tutkinto on suoritettu oppisopimuskoulutuksena\n0 = tutkintoa ei ole suoritettu oppisopimuskoulutuksena\n(Tieto on ammatillisissa oppilaitoksissa suoritetuilla ja näyttötutkinnoilla vuodesta 1997 lähtien.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuv_2",
+      "variablename": "Kirjoihintulovuosi (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, kirjoihintulovuosi eli aloittamisvuosi. Tieto kyseisen tilastovuoden mukaisena.\nKirjoihintulovuosi on vuosi, jolloin opiskelija on ottanut vastaan opiskelu-oikeuden  ja ilmoittautunut koulun kirjoihin tai solminut oppisopimuksen (muodossa VVVV).\nTieto saatavilla vuodesta 2000 alkaen. BBBB = ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk_2",
+      "variablename": "Aloittamislukukausi (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, aloittamislukukausi. Tieto kyseisen tilastovuoden mukaisena. Tutkintoon johtavan koulutuksen aloittamislukukausi oppilaitoksessa luokituksen mukaan:\n1 = kevät (1.1.–31.7.)\n2 = syksy (1.8.–31.12.)\nB = ei tietoa.\nTieto saatavilla vuodesta 2000 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisak_2",
+      "variablename": "Opettajankelpoisuus (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, opettajankelpoisuus. Tieto kyseisen tilastovuoden mukaisena. Tutkintoon liittyvä opettajankelpoisuus luokituksen mukaan:\n1 = opettajankelpoisuus\n0 = ei opettajankelpoisuutta\n\nTieto saatavilla vuodesta 1998 alkaen. Tieto määritellään koulutusluokituksen koulutusalan 2 Kasvatustieteellinen ja opettajankoulutus tutkintonimikkeen mukaan. Poikkeuksena kuitenkin ne tutkintonimikkeet, jotka eivät sisällä opettajankelpoisuutta. Tieto on myös niillä henkilöillä, joilla ennen koulutusluokituksen uudistusta oli aineenopettajankoulutuksesta oma koulutuskoodinsa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijkun_2",
+      "variablename": "Sijaintikunta (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, koulutuksen sijaintikunta. Tieto kyseisen tilastovuoden mukaisena. Koulutuksen sijaintikunta tutkinnon suorittamisvuonna saatavilla pääsäntöisesti  vuodesta 1971 alkaen.\n200 = ulkomailla \nBBB = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suormaa_2",
+      "variablename": "Suoritusmaa (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, tutkinnon suoritusmaa. Tieto kyseisen tilastovuoden mukaisena. 3-numeroinen tunnus (ISO 3166-standardin mukaisesti).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kouljat_2",
+      "variablename": "Koulutusmuoto (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, tutkinnon koulutusmuoto. Tieto kyseisen tilastovuoden mukaisena.\n\nKoulutusmuoto saatavilla pääsäntöisesti  vuodesta 1971 alkaen. Muuttujan luokittelua muutettu v. 2005 alkaen.\n1 = koulujärjestelmäkoulutus, sisältää myös sotilasalan tutkinnot ja ulkomailla suoritetut tutkinnot\nTutkintotavoitteinen aikuiskoulutus\n8 = näyttötutkinnot (ammatillinen aikuiskoulutus); ammatilliset perustutkinnot, ammatti- ja erikoisammattitutkinnot vuodesta 1994 alkaen\n3 = muut kuin näyttötutkinnot;\n   ammatilliset aikuiskoulutukset v. 1999 asti\n   lukiokoulutuksen aikuiskoulutukset v. 1985 alkaen\n   ammattikorkeakoulun aikuiskoulutukset v. 1994 alkaen\n   ylemmät ammattikorkeakoulututkinnot v. 2003 alkaen\nMuu koulutus\n2 = työllisyyskurssikoulutus v. 1990 asti\n9 = aikuiskoulutuksen jatkolinja v. 1990 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk_2",
+      "variablename": "Ylioppilastutkinto (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, pohjakoulutuksena suoritettu ylioppilastutkinto. Tieto kyseisen tilastovuoden mukaisena.\n\n4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon\n0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkelp_2",
+      "variablename": "Opettajankelpoisuus (2020)",
+      "conceptdef": "Henkilöön liittyvä opettajankelpoisuus (rekisteritiedoissa vuodelta 2020) ajankohtana. Tieto kyseisen tilastovuoden mukaisena.\n\nHenkilöön liittyvä opettajankelpoisuus vuodesta 1998 alkaen. Opettajankelpoisuustieto on viitteellinen, koska jos henkilöllä on useita eri opettajankelpoisuuksia, päivittyy näistä vain yksi eli viimeksi suoritettu\n1 = erilliset opettajan pedagogiset opinnot (vain yliopisto)\n2 = aineenopettaja (vain AMK)\n3 = erityisopettaja (vain AMK)\n4 = opinto-ohjaaja (vain AMK)\n5 = Henkilöön liittyvä muu opettajankelpoisuus\n0 = Ei opettajankelpoisuutta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaste_2",
+      "variablename": "Koulutusaste taso 2 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, kansallinen koulutusaste (taso 2) tilastovuoden mukaisena. Koulutusluokitustieto Fionan metatietokansiossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscle2011_2",
+      "variablename": "ISCLE2011 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, ISCED 2011:n koulutusastekoodi (level, 1-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "isccat2011_2",
+      "variablename": "ISCCAT2011 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, ISCED 2011:n tarkentava koulutusastekoodi (level, 2-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscsubcat2011_2",
+      "variablename": "ISCSUBCAT2011 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, ISCED 2011:n tarkentava koulutusastekoodi (level, 3-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfibroad2013_2",
+      "variablename": "ISCFIBROAD2013 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana,  ISCED 2013:n 2-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfinarrow2013_2",
+      "variablename": "ISCFINARROW2013 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, ISCED 2013:n 3-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfi2013_2",
+      "variablename": "ISCFI2013 (2020)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2020) ajankohtana, ISCED 2013:n 4-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorv_3",
+      "variablename": "Suoritusvuosi (2017)",
+      "conceptdef": "Korkeimman viimeisimmän tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, suoritusvuosi.\n\nHuomaathan, että koulutusasteeltaan korkein/viimeksi suoritettu ammatillinen tutkinto ei välttämättä ole muuttunut muiden rekisteritietojen poimintavuosien välillä. Tiedot on saatu Tilastokeskuksen tutkintorekisteristä. Tutkinnon suorittaneisiin luetaan myös Puolustusvoimissa, rajavartiolaitoksessa sekä ulkomailla tutkinnon suorittaneet. Rekisteriin tutkintotiedot on voitu viedä vain niille henkilöille, joilla on suomalainen henkilötunnus. Tästä syystä tutkintorekisteristä puuttuvat henkilötunnusta vailla olevien henkilöiden (esim. monien ulkomaalaisten) tutkintotiedot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_3_s",
+      "variablename": "Suojattu oppilaitostunnus (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, suojattu oppilaitostunnus (tutkinnon suoritusvuonna). Tieto kyseisen tilastovuoden mukaisena.\n\nTilastokeskuksen oppilaitosrekisterin oppilaitostunnus tutkinnon suorittamisvuonna vuodesta 1971 alkaen. Tuntemattomiin sisältyy osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista, ennen v. 1971 suoritetut tutkinnot, ja ulkomailla suoritetut tutkinnot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk_3",
+      "variablename": "Koulutuskoodi (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, koulutuskoodi (tutkinnon suoritusvuonna) Tilastokeskuksen tutkintorekisteristä. Tieto kyseisen tilastovuoden mukaisena.\n\nTilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset on saatavilla Fionan metatieto-kansiossa. Koulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki koulutusalan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saika_3",
+      "variablename": "Suoritusaika (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, tutkinnon suoritusaika. Tieto kyseisen tilastovuoden mukaisena.\n\nTutkinnon suoritusvuosi ja -kuukausi muodossa VVVVKK, saatavilla vuodesta 1971 alkaen. BBBBBB = tuntematon. Tieto puuttuu pääsääntöisesti Väestölaskenta 1970-aineistosta saaduista tutkinnoista ja ulkomailla suoritetuista tutkinnoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkieli_3",
+      "variablename": "Opetuskieli (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, koulutuksen opetuskieli. Tieto kyseisen tilastovuoden mukaisena.\n\n2-kirjaiminen tunnus (ISO 639-standardin mukaisesti), BB = tieto puuttuu.\nTieto on vain yo-tutkinnoilla, ammatillisissa oppilaitoksissa suoritetuilla tutkinnoilla sekä ammattikorkeakoulu-tutkinnoilla. Tieto saatavilla pääsäntöisesti  vuodesta 1971 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opty_3",
+      "variablename": "Oppilaitostyyppi (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, oppilaitostyyppi. Tieto kyseisen tilastovuoden mukaisena. Luokitus:\n\n15 = Lukiot\n19 = Perus- ja lukioasteen koulut\n21 = Ammatilliset oppilaitokset\n22 = Ammatilliset erityisoppilaitokset\n23 = Ammatilliset erikoisoppilaitokset\n24 = Ammatilliset aikuiskoulutuskeskukset\n28 = Palo-, poliisi- ja vartiointialojen oppilaitokset\n29 = Sotilasalan ammatilliset oppilaitokset\n41 = Ammattikorkeakoulut\n42 = Yliopistot\n43 = Sotilaskorkeakoulut\n61 = Musiikkioppilaitokset\n62 = Liikunnan koulutuskeskukset\n63 = Kansanopistot\n64 = Kansalaisopistot\n65 = Opintokeskukset\n66 = Kesäyliopistot\n99 = Muut oppilaitokset\nBB = tuntematon\n(osa oppisopimuskoulutuksen tutkinnoista, osa näyttötutkinnoista, ennen vuotta 1971 suoritetut tutkinnot, ulkomailla suoritetut tutkinnot)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkom_3",
+      "variablename": "Tutkinto suoritettu ulkomailla (2017)",
+      "conceptdef": "Tieto korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, suorittamisesta ulkomailla. Tieto kyseisen tilastovuoden mukaisena.\n1 = tutkinto on suoritettu ulkomailla\n0 = tutkinto on suoritettu Suomessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiso_3",
+      "variablename": "Oppisopimuskoulutus (2017)",
+      "conceptdef": "Tieto korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, oppisopimuskoulutuksesta. Tieto kyseisen tilastovuoden mukaisena.\n1 = tutkinto on suoritettu oppisopimuskoulutuksena\n0 = tutkintoa ei ole suoritettu oppisopimuskoulutuksena\n(Tieto on ammatillisissa oppilaitoksissa suoritetuilla ja näyttötutkinnoilla vuodesta 1997 lähtien.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuv_3",
+      "variablename": "Kirjoihintulovuosi (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, kirjoihintulovuosi eli aloittamisvuosi. Tieto kyseisen tilastovuoden mukaisena.\nKirjoihintulovuosi on vuosi, jolloin opiskelija on ottanut vastaan opiskelu-oikeuden  ja ilmoittautunut koulun kirjoihin tai solminut oppisopimuksen (muodossa VVVV).\nTieto saatavilla vuodesta 2000 alkaen. BBBB = ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk_3",
+      "variablename": "Aloittamislukukausi (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, aloittamislukukausi. Tieto kyseisen tilastovuoden mukaisena. Tutkintoon johtavan koulutuksen aloittamislukukausi oppilaitoksessa luokituksen mukaan:\n1 = kevät (1.1.–31.7.)\n2 = syksy (1.8.–31.12.)\nB = ei tietoa.\nTieto saatavilla vuodesta 2000 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisak_3",
+      "variablename": "Opettajankelpoisuus (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, opettajankelpoisuus. Tieto kyseisen tilastovuoden mukaisena. Tutkintoon liittyvä opettajankelpoisuus luokituksen mukaan:\n1 = opettajankelpoisuus\n0 = ei opettajankelpoisuutta\n\nTieto saatavilla vuodesta 1998 alkaen. Tieto määritellään koulutusluokituksen koulutusalan 2 Kasvatustieteellinen ja opettajankoulutus tutkintonimikkeen mukaan. Poikkeuksena kuitenkin ne tutkintonimikkeet, jotka eivät sisällä opettajankelpoisuutta. Tieto on myös niillä henkilöillä, joilla ennen koulutusluokituksen uudistusta oli aineenopettajankoulutuksesta oma koulutuskoodinsa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sijkun_3",
+      "variablename": "Sijaintikunta (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, koulutuksen sijaintikunta. Tieto kyseisen tilastovuoden mukaisena. Koulutuksen sijaintikunta tutkinnon suorittamisvuonna saatavilla pääsäntöisesti  vuodesta 1971 alkaen.\n200 = ulkomailla \nBBB = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suormaa_3",
+      "variablename": "Suoritusmaa (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, tutkinnon suoritusmaa. Tieto kyseisen tilastovuoden mukaisena. 3-numeroinen tunnus (ISO 3166-standardin mukaisesti).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kouljat_3",
+      "variablename": "Koulutusmuoto (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, tutkinnon koulutusmuoto. Tieto kyseisen tilastovuoden mukaisena.\n\nKoulutusmuoto saatavilla pääsäntöisesti  vuodesta 1971 alkaen. Muuttujan luokittelua muutettu v. 2005 alkaen.\n1 = koulujärjestelmäkoulutus, sisältää myös sotilasalan tutkinnot ja ulkomailla suoritetut tutkinnot\nTutkintotavoitteinen aikuiskoulutus\n8 = näyttötutkinnot (ammatillinen aikuiskoulutus); ammatilliset perustutkinnot, ammatti- ja erikoisammattitutkinnot vuodesta 1994 alkaen\n3 = muut kuin näyttötutkinnot;\n   ammatilliset aikuiskoulutukset v. 1999 asti\n   lukiokoulutuksen aikuiskoulutukset v. 1985 alkaen\n   ammattikorkeakoulun aikuiskoulutukset v. 1994 alkaen\n   ylemmät ammattikorkeakoulututkinnot v. 2003 alkaen\nMuu koulutus\n2 = työllisyyskurssikoulutus v. 1990 asti\n9 = aikuiskoulutuksen jatkolinja v. 1990 asti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk_3",
+      "variablename": "Ylioppilastutkinto (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, pohjakoulutuksena suoritettu ylioppilastutkinto. Tieto kyseisen tilastovuoden mukaisena.\n\n4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon\n0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkelp_3",
+      "variablename": "Opettajankelpoisuus (2017)",
+      "conceptdef": "Henkilöön liittyvä opettajankelpoisuus (rekisteritiedoissa vuodelta 2017) ajankohtana. Tieto kyseisen tilastovuoden mukaisena.\n\nHenkilöön liittyvä opettajankelpoisuus vuodesta 1998 alkaen. Opettajankelpoisuustieto on viitteellinen, koska jos henkilöllä on useita eri opettajankelpoisuuksia, päivittyy näistä vain yksi eli viimeksi suoritettu\n1 = erilliset opettajan pedagogiset opinnot (vain yliopisto)\n2 = aineenopettaja (vain AMK)\n3 = erityisopettaja (vain AMK)\n4 = opinto-ohjaaja (vain AMK)\n5 = Henkilöön liittyvä muu opettajankelpoisuus\n0 = Ei opettajankelpoisuutta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaste_3",
+      "variablename": "Koulutusaste taso 2 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, kansallinen koulutusaste (taso 2) tilastovuoden mukaisena. Koulutusluokitustieto Fionan metatietokansiossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscle2011_3",
+      "variablename": "ISCLE2011 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, ISCED 2011:n koulutusastekoodi (level, 1-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "isccat2011_3",
+      "variablename": "ISCCAT2011 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, ISCED 2011:n tarkentava koulutusastekoodi (level, 2-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscsubcat2011_3",
+      "variablename": "ISCSUBCAT2011 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, ISCED 2011:n tarkentava koulutusastekoodi (level, 3-numeroinen). Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfibroad2013_3",
+      "variablename": "ISCFIBROAD2013 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana,  ISCED 2013:n 2-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfinarrow2013_3",
+      "variablename": "ISCFINARROW2013 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, ISCED 2013:n 3-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iscfi2013_3",
+      "variablename": "ISCFI2013 (2017)",
+      "conceptdef": "Korkeimman tutkinnon, joka henkilöllä on ollut suoritettuna (rekisteritiedoissa vuodelta 2017) ajankohtana, ISCED 2013:n 4-numeroinen koulutusalaluokitus. Tieto kyseisen tilastovuoden mukaisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta_1",
+      "variablename": "Asuinkunta (2023)",
+      "conceptdef": "Asuinkunta kuluvana vuonna, viimeisimpien rekisteritietojen mukaan (tilastovuosi 2023).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim1_1",
+      "variablename": "Pääasiallinen toiminta (2023)",
+      "conceptdef": "Pääasiallinen toiminta (päätyösuhde-päättelyllä). Henkilön pääasiallinen toiminta tilastovuoden lopussa (työvoimakäsite = TVM eli vuoden viimeisen viikon työsuhteen mukaan):\n11 = työllinen\n12 = työtön\n21 = 0-14 -vuotias\n22 = opiskelija, koululainen\n24 = eläkeläinen\n25 = varusmies, siviilipalvelusmies\n29 = työttömyyseläkkeellä (vain PTOIM1)\n99 = muu työvoiman ulkopuolella oleva\n\nTilastovuodesta 2019 lähtien palkansaajien päättelyn pääasiallinen lähdeaineisto on tulorekisteri (aineistossa palkansaajat päätellään maksujakson voimassaolon perusteella).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala_1",
+      "variablename": "Toimiala (2023)",
+      "conceptdef": "Henkilön tvm-käsitteen mukaisen työsuhteen toimiala eli vuoden lopussa työllisenä olevien päätyösuhteen toimiala. Toimiala perustuu sen toimipaikan toimialaan, jossa henkilö työskentelee. \nKäytössä luokitukset:\ntoimiala_1_08_s (TOL2008) vuodesta 2007 lähtien",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amas1_1",
+      "variablename": "Ammattiasema (2023)",
+      "conceptdef": "Ammattiasema päätyösuhteen mukaan (tvm-päättely) tilastovuonna. \nVoi saada seuraavia arvoja: 1=palkansaaja,\n2=yrittäjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tasekt_1",
+      "variablename": "Työnantajasektori (2023)",
+      "conceptdef": "Työnantajasektori kyseisenä tilastovuonna.\n1=yksityinen sektori (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi yksityinen kotimainen tai ulkomaalaisomisteinen)\n2=valtio (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi valtio osakeyhtiöitä lukuun ottamatta)\n3=paikallishallinto (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi kunta, Ahvenanmaan maakunta tai hyvinvointialue)\n7=valtioenemmistöinen oy (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi valtio sekä oikeudellinen muoto osakeyhtiö)\n8=yrittäjät (henkilön ammattiasema yrittäjä)\n9=tuntematon (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi muu tai tuntematon)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi_1",
+      "variablename": "Ammattikoodi, 3-num. (2022)",
+      "conceptdef": "Työllisten ammattikoodi päätyön ammatin mukaan tilastovuoden lopussa. \nTyössäkäyntitilaston ammattiluokitus 2010, 3-numerotasolla. Luokituksen lisätietoja: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101\n\nHuom. täydennetty tilastovuoden 2022 tiedoilla, sillä 2023 ammattikooditieto ei vielä saatavilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ophal_1",
+      "variablename": "Opetushallinnon alainen koulutus (2023)",
+      "conceptdef": "Opetushallinnon alaisessa koulutuksessa kuluvana vuonna olevat.\nLuokitus:\n1= opetushallinnon alainen koulutus pl. työvoimakoulutus\t\t\t\t\t\t\t\t\n 2= muut hallinnonalat (Ahvenanmaan perusopetus, Pohjois-Kalotin koulutussäätiö, Pelastusopisto, Rikosseuraamusalan koulutuskeskus, Ålands lyceum, Ålands yrkesgymnasium, Högskolan på Åland, Poliisiammattikorkeakoulu ja Maanpuolustuskorkeakoulu) \n 3= opetushallinnon alainen työvoimakoulutus (rahoitus-muuttuja=10)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi_onedigit_1",
+      "variablename": "Ammattikoodi, 1-num. (2022)",
+      "conceptdef": "Työllisten ammattikoodi, 1-numerotasolla eli pääluokkatasolla, päätyön ammatin mukaan tilastovuoden lopussa. \nTyössäkäyntitilaston ammattiluokitus 2010 (kts. luokitus ammatti_103_20100101). Huom. täydennetty tilastovuoden 2022 tiedoilla, kun 2023 ammattikooditieto ei vielä saatavilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NEET_1",
+      "variablename": "NEET (2023)",
+      "conceptdef": "Nuori (alle 25-vuotias), joka kyseisenä vuonna ei ole työssä eikä koulutuksessa eikä asevelvollisuutta suorittamassa, eli NEET (not in employment, education or training). Muuttuja saa arvon 1, jos henkilö täyttää NEET-määritelmän rekisteritietojen perusteella, ja muuten muuttuja on tyhjä.\nNEET-muuttujan määrittäminen: henkilö ei ole ollut saatavilla olevien rekisteritietojen mukaan kuluvana vuonna varus- tai siviilipalveluksessa, eikä Opetushallinnon alaisessa koulutuksessa (ophal-muuttujan mukaan), henkilön pääasiallinen toiminta on työtön (12) tai muu työvoiman ulkopuolella oleva (99) (ptoim1-tiedon mukaan), ja hän on alle 25-vuotias. \nHuom.: tiedot kaikista asevelvollisuutta (varusmies- tai siviilipalvelus) suorittaneista eivät ole päivittyneet tilastovuodelle 2023, joten vuoden 2023 NEET-muuttuja saattaa olla vaillinainen asevelvollisten tietojen osalta. Vuoden 2023 osalta ei ole tämän lisäksi hyödynnetty ptoim2-tietoa (tieto pääasiallisesta toiminnasta pisin työsuhde -päättelyllä, rajaamalla tämän tiedon avulla ulos henkilöt, jotka ovat vuoden pisimmän työsuhteen päättelyn perusteella olleet muita kuin työttömiä tai muita työvoiman ulkopuolella olevia) tiedon puutteesta johtuen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta_2",
+      "variablename": "Asuinkunta (2020)",
+      "conceptdef": "Asuinkunta kuluvana vuonna rekisteritietojen mukaan (tilastovuosi 2020).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim1_2",
+      "variablename": "Pääasiallinen toiminta (2020)",
+      "conceptdef": "Pääasiallinen toiminta (päätyösuhde-päättelyllä). Henkilön pääasiallinen toiminta tilastovuoden lopussa (työvoimakäsite = TVM eli vuoden viimeisen viikon työsuhteen mukaan):\n11 = työllinen\n12 = työtön\n21 = 0-14 -vuotias\n22 = opiskelija, koululainen\n24 = eläkeläinen\n25 = varusmies, siviilipalvelusmies\n29 = työttömyyseläkkeellä (vain PTOIM1)\n99 = muu työvoiman ulkopuolella oleva\n\nTilastovuodesta 2019 lähtien palkansaajien päättelyn pääasiallinen lähdeaineisto on tulorekisteri (aineistossa palkansaajat päätellään maksujakson voimassaolon perusteella).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala_2",
+      "variablename": "Toimiala (2020)",
+      "conceptdef": "Henkilön tvm-käsitteen mukaisen työsuhteen toimiala eli vuoden lopussa työllisenä olevien päätyösuhteen toimiala. Toimiala perustuu sen toimipaikan toimialaan, jossa henkilö työskentelee. \nKäytössä luokitukset:\ntoimiala_1_08_s (TOL2008) vuodesta 2007 lähtien",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amas1_2",
+      "variablename": "Ammattiasema (2020)",
+      "conceptdef": "Ammattiasema päätyösuhteen mukaan (tvm-päättely) tilastovuonna. \nVoi saada seuraavia arvoja: 1=palkansaaja,\n2=yrittäjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tasekt_2",
+      "variablename": "Työnantajasektori (2020)",
+      "conceptdef": "Työnantajasektori kyseisenä tilastovuonna.\n1=yksityinen sektori (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi yksityinen kotimainen tai ulkomaalaisomisteinen)\n2=valtio (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi valtio osakeyhtiöitä lukuun ottamatta)\n3=paikallishallinto (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi kunta, Ahvenanmaan maakunta tai hyvinvointialue)\n7=valtioenemmistöinen oy (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi valtio sekä oikeudellinen muoto osakeyhtiö)\n8=yrittäjät (henkilön ammattiasema yrittäjä)\n9=tuntematon (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi muu tai tuntematon)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi_2",
+      "variablename": "Ammattikoodi, 3-num. (2020)",
+      "conceptdef": "Työllisten ammattikoodi päätyön ammatin mukaan tilastovuoden lopussa. \nTyössäkäyntitilaston ammattiluokitus 2010, 3-numerotasolla. Luokituksen lisätietoja: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ophal_2",
+      "variablename": "Opetushallinnon alainen koulutus (2020)",
+      "conceptdef": "Opetushallinnon alaisessa koulutuksessa kuluvana vuonna olevat.\nLuokitus:\n1= opetushallinnon alainen koulutus pl. työvoimakoulutus\t\t\t\t\t\t\t\t\n 2= muut hallinnonalat (Ahvenanmaan perusopetus, Pohjois-Kalotin koulutussäätiö, Pelastusopisto, Rikosseuraamusalan koulutuskeskus, Ålands lyceum, Ålands yrkesgymnasium, Högskolan på Åland, Poliisiammattikorkeakoulu ja Maanpuolustuskorkeakoulu) \n 3= opetushallinnon alainen työvoimakoulutus (rahoitus-muuttuja=10)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi_onedigit_2",
+      "variablename": "Ammattikoodi, 1-num. (2020)",
+      "conceptdef": "Työllisten ammattikoodi, 1-numerotasolla eli pääluokkatasolla, päätyön ammatin mukaan tilastovuoden lopussa. \nTyössäkäyntitilaston ammattiluokitus 2010 (kts. luokitus ammatti_103_20100101).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NEET_2",
+      "variablename": "NEET (2020)",
+      "conceptdef": "Nuori (alle 25-vuotias), joka kyseisenä vuonna ei ole työssä eikä koulutuksessa eikä asevelvollisuutta suorittamassa, eli NEET (not in employment, education or training). Muuttuja saa arvon 1, jos henkilö täyttää NEET-määritelmän rekisteritietojen perusteella, ja muuten muuttuja on tyhjä.\nNEET-muuttujan määrittäminen: henkilö ei ole ollut saatavilla olevien rekisteritietojen mukaan kuluvana vuonna varus- tai siviilipalveluksessa, eikä Opetushallinnon alaisessa koulutuksessa (ophal-muuttujan mukaan), henkilön pääasiallinen toiminta on työtön (12) tai muu työvoiman ulkopuolella oleva (99) (ptoim1-tiedon mukaan), ja hän on alle 25-vuotias. \nSaatavilla olevilta osin eli vuosien 2020 ja 2017 tietojen osalta on hyödynnetty myös ptoim2-tietoa (tieto pääasiallisesta toiminnasta pisin työsuhde -päättelyllä), rajaamalla tämän tiedon avulla ulos henkilöt, jotka ovat vuoden pisimmän työsuhteen päättelyn perusteella olleet muita kuin työttömiä tai muita työvoiman ulkopuolella olevia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta_3",
+      "variablename": "Asuinkunta (2017)",
+      "conceptdef": "Asuinkunta kuluvana vuonna rekisteritietojen mukaan (tilastovuosi 2017).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim1_3",
+      "variablename": "Pääasiallinen toiminta (2017)",
+      "conceptdef": "Pääasiallinen toiminta (päätyösuhde-päättelyllä). Henkilön pääasiallinen toiminta tilastovuoden lopussa (työvoimakäsite = TVM eli vuoden viimeisen viikon työsuhteen mukaan):\n11 = työllinen\n12 = työtön\n21 = 0-14 -vuotias\n22 = opiskelija, koululainen\n24 = eläkeläinen\n25 = varusmies, siviilipalvelusmies\n29 = työttömyyseläkkeellä (vain PTOIM1)\n99 = muu työvoiman ulkopuolella oleva\n\nTilastovuodelle 2019 työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona. Tilastovuodesta 2019 lähtien palkansaajien päättelyn pääasiallinen lähdeaineisto on tulorekisteri (aineistossa palkansaajat päätellään maksujakson voimassaolon perusteella). Tulorekisteri korvasi useita tilastossa aiemmin käytössä olleita työsuhdeaineistoja, mikä vaikuttaa tietojen vertailukelpoisuuteen. Tulorekisteristä poimitut jaksotiedot ovat maksujaksoja, minkä seurauksena ATV-pääteltyjä tietoja ei ole moduulissa tilastovuodesta 2019 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala_3",
+      "variablename": "Toimiala (2017)",
+      "conceptdef": "Henkilön tvm-käsitteen mukaisen työsuhteen toimiala eli vuoden lopussa työllisenä olevien päätyösuhteen toimiala. Toimiala perustuu sen toimipaikan toimialaan, jossa henkilö työskentelee. \nKäytössä luokitukset:\ntoimiala_1_08_s (TOL2008) vuodesta 2007 lähtien",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amas1_3",
+      "variablename": "Ammattiasema (2017)",
+      "conceptdef": "Ammattiasema päätyösuhteen mukaan (tvm-päättely) tilastovuonna. \nVoi saada seuraavia arvoja: 1=palkansaaja,\n2=yrittäjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tasekt_3",
+      "variablename": "Työnantajasektori (2017)",
+      "conceptdef": "Työnantajasektori kyseisenä tilastovuonna.\n1=yksityinen sektori (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi yksityinen kotimainen tai ulkomaalaisomisteinen)\n2=valtio (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi valtio osakeyhtiöitä lukuun ottamatta)\n3=paikallishallinto (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi kunta, Ahvenanmaan maakunta tai hyvinvointialue)\n7=valtioenemmistöinen oy (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi valtio sekä oikeudellinen muoto osakeyhtiö)\n8=yrittäjät (henkilön ammattiasema yrittäjä)\n9=tuntematon (henkilön ammattiasema palkansaaja ja työnantajan omistajatyyppi muu tai tuntematon)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi_3",
+      "variablename": "Ammattikoodi, 3-num. (2017)",
+      "conceptdef": "Työllisten ammattikoodi päätyön ammatin mukaan tilastovuoden lopussa. \nTyössäkäyntitilaston ammattiluokitus 2010, 3-numerotasolla. Luokituksen lisätietoja: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ophal_3",
+      "variablename": "Opetushallinnon alainen koulutus (2017)",
+      "conceptdef": "Opetushallinnon alaisessa koulutuksessa kuluvana vuonna olevat.\nLuokitus:\n1= opetushallinnon alainen koulutus pl. työvoimakoulutus\t\t\t\t\t\t\t\t\n 2= muut hallinnonalat (Ahvenanmaan perusopetus, Pohjois-Kalotin koulutussäätiö, Pelastusopisto, Rikosseuraamusalan koulutuskeskus, Ålands lyceum, Ålands yrkesgymnasium, Högskolan på Åland, Poliisiammattikorkeakoulu ja Maanpuolustuskorkeakoulu) \n 3= opetushallinnon alainen työvoimakoulutus (rahoitus-muuttuja=10)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi_onedigit_3",
+      "variablename": "Ammattikoodi, 1-num. (2017)",
+      "conceptdef": "Työllisten ammattikoodi, 1-numerotasolla eli pääluokkatasolla, päätyön ammatin mukaan tilastovuoden lopussa. \nTyössäkäyntitilaston ammattiluokitus 2010 (kts. luokitus ammatti_103_20100101).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NEET_3",
+      "variablename": "NEET (2017)",
+      "conceptdef": "Nuori (alle 25-vuotias), joka kyseisenä vuonna ei ole työssä eikä koulutuksessa eikä asevelvollisuutta suorittamassa, eli NEET (not in employment, education or training). Muuttuja saa arvon 1, jos henkilö täyttää NEET-määritelmän rekisteritietojen perusteella, ja muuten muuttuja on tyhjä.\nNEET-muuttujan määrittäminen: henkilö ei ole ollut saatavilla olevien rekisteritietojen mukaan kuluvana vuonna varus- tai siviilipalveluksessa, eikä Opetushallinnon alaisessa koulutuksessa (ophal-muuttujan mukaan), henkilön pääasiallinen toiminta on työtön (12) tai muu työvoiman ulkopuolella oleva (99) (ptoim1-tiedon mukaan), ja hän on alle 25-vuotias. \nSaatavilla olevilta osin eli vuosien 2020 ja 2017 tietojen osalta on hyödynnetty myös ptoim2-tietoa (tieto pääasiallisesta toiminnasta pisin työsuhde -päättelyllä), rajaamalla tämän tiedon avulla ulos henkilöt, jotka ovat vuoden pisimmän työsuhteen päättelyn perusteella olleet muita kuin työttömiä tai muita työvoiman ulkopuolella olevia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_1",
+      "variablename": "Käytettävissä olevat rahatulot (2023)",
+      "conceptdef": "Käytettävissä olevat rahatulot. Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite.\n\nTulonjakotilaston aggregaattimuuttujien (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) kuvauksissa ei ole lueteltu yksittäisiä tuloeriä, sillä muuttujat muodostuvat vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_1",
+      "variablename": "Palkkatulot (2023)",
+      "conceptdef": "Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtu_1",
+      "variablename": "Yrittäjätulot (2023)",
+      "conceptdef": "Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_1",
+      "variablename": "Omaisuustulot (2023)",
+      "conceptdef": "Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elatulo_1",
+      "variablename": "Eläketulot (2023)",
+      "conceptdef": "Eläketulot henkilöverotusaineistossa. Koostuvat seuraavista verotiedoista:\nTKANSEL = Kansaneläke ansiotulona\nTANSEL = Työ-, virka- ja yrittäjäeläkkeet\nTTAPEL = Pakolliseen tapaturmavakuutukseen perustuva eläke\nTLAPEL = Pakolliseen liikennevahinkoturvaan perustuva eläke (vuodesta 2012 alkaen)\nTMUUEL1, TMUUEL = Muut eläkkeet\nTPOTEL = Potilasvakuutuksen eläke\nTEANSTU = Ansiotulona verotettava muu eläke (vuodesta 1993 alkaen)\nTPERHEL = Kansaneläkkeen perhe-eläke (vuodesta 1992 alkaen)\nTTYOEL = Työnantajan maksama eläke (vuosina 1998-2017)\nTELULKO = Ulkomaille maksettu eläke, josta peritty vain sairaanhoitomaksu (vuodesta 2006 alkaen)\nTPTELAK = Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke, 20 % korotus (vuodesta 2007 alkaen)\nTSUURPU = Ulkomaanedustuston virkamiehen puolison erityiskorvaus (vuodesta 1999 alkaen)\nTAKUUEL = Takuueläke (vuodesta 2011 alkaen)\nTELEUVE = EU-virkamiehen vapaaehtoiseen eläkevakuutukseen perustuva eläke (vuodesta 2014 alkaen)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatva_1",
+      "variablename": "Ansiotulot (2023)",
+      "conceptdef": "Ansiotulot yhteensä valtionverotuksessa (henkilöverotusaineisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatvp_1",
+      "variablename": "Pääomatulot (2023)",
+      "conceptdef": "Pääomatulot yhteensä valtionverotuksessa (henkilöverotusaineisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyotur_1",
+      "variablename": "Työttömyysturvaetuudet (2023)",
+      "conceptdef": "Työttömyysturvaetuudet (henkilöverotusaineisto). Työttömyysturvaetuudet koostuvat seuraavista verotiedoista:\nTTYOTPR = Työttömyyspäiväraha\nTKOULTUK = koulutustuki, aikuisopintoraha ja toistuvaiskorvaus\nTTYOLTUK = yrittäjän työllistämistuki",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_1",
+      "variablename": "Saadut tulonsiirrot (2023)",
+      "conceptdef": "Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_1",
+      "variablename": "Maksetut tulonsiirrot (2023)",
+      "conceptdef": "Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_1",
+      "variablename": "Velat (2023)",
+      "conceptdef": "Velat yhteensä (henkilöverotusaineisto). Velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT = Maatalouteen kohdistuneet velat\nNYHT = Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_2",
+      "variablename": "Käytettävissä olevat rahatulot (2020)",
+      "conceptdef": "Käytettävissä olevat rahatulot. Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite.\n\nTulonjakotilaston aggregaattimuuttujien (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) kuvauksissa ei ole lueteltu yksittäisiä tuloeriä, sillä muuttujat muodostuvat vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_2",
+      "variablename": "Palkkatulot (2020)",
+      "conceptdef": "Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtu_2",
+      "variablename": "Yrittäjätulot (2020)",
+      "conceptdef": "Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_2",
+      "variablename": "Omaisuustulot (2020)",
+      "conceptdef": "Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elatulo_2",
+      "variablename": "Eläketulot (2020)",
+      "conceptdef": "Eläketulot henkilöverotusaineistossa. Koostuvat seuraavista verotiedoista:\nTKANSEL = Kansaneläke ansiotulona\nTANSEL = Työ-, virka- ja yrittäjäeläkkeet\nTTAPEL = Pakolliseen tapaturmavakuutukseen perustuva eläke\nTLAPEL = Pakolliseen liikennevahinkoturvaan perustuva eläke (vuodesta 2012 alkaen)\nTMUUEL1, TMUUEL = Muut eläkkeet\nTPOTEL = Potilasvakuutuksen eläke\nTEANSTU = Ansiotulona verotettava muu eläke (vuodesta 1993 alkaen)\nTPERHEL = Kansaneläkkeen perhe-eläke (vuodesta 1992 alkaen)\nTTYOEL = Työnantajan maksama eläke (vuosina 1998-2017)\nTELULKO = Ulkomaille maksettu eläke, josta peritty vain sairaanhoitomaksu (vuodesta 2006 alkaen)\nTPTELAK = Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke, 20 % korotus (vuodesta 2007 alkaen)\nTSUURPU = Ulkomaanedustuston virkamiehen puolison erityiskorvaus (vuodesta 1999 alkaen)\nTAKUUEL = Takuueläke (vuodesta 2011 alkaen)\nTELEUVE = EU-virkamiehen vapaaehtoiseen eläkevakuutukseen perustuva eläke (vuodesta 2014 alkaen)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatva_2",
+      "variablename": "Ansiotulot (2020)",
+      "conceptdef": "Ansiotulot yhteensä valtionverotuksessa (henkilöverotusaineisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatvp_2",
+      "variablename": "Pääomatulot (2020)",
+      "conceptdef": "Pääomatulot yhteensä valtionverotuksessa (henkilöverotusaineisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyotur_2",
+      "variablename": "Työttömyysturvaetuudet (2020)",
+      "conceptdef": "Työttömyysturvaetuudet (henkilöverotusaineisto). Työttömyysturvaetuudet koostuvat seuraavista verotiedoista:\nTTYOTPR = Työttömyyspäiväraha\nTKOULTUK = koulutustuki, aikuisopintoraha ja toistuvaiskorvaus\nTTYOLTUK = yrittäjän työllistämistuki",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_2",
+      "variablename": "Saadut tulonsiirrot (2020)",
+      "conceptdef": "Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_2",
+      "variablename": "Maksetut tulonsiirrot (2020)",
+      "conceptdef": "Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_2",
+      "variablename": "Velat (2020)",
+      "conceptdef": "Velat yhteensä (henkilöverotusaineisto). Velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT = Maatalouteen kohdistuneet velat\nNYHT = Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_3",
+      "variablename": "Käytettävissä olevat rahatulot (2017)",
+      "conceptdef": "Käytettävissä olevat rahatulot. Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite.\n\nTulonjakotilaston aggregaattimuuttujien (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) kuvauksissa ei ole lueteltu yksittäisiä tuloeriä, sillä muuttujat muodostuvat vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_3",
+      "variablename": "Palkkatulot (2017)",
+      "conceptdef": "Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtu_3",
+      "variablename": "Yrittäjätulot (2017)",
+      "conceptdef": "Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_3",
+      "variablename": "Omaisuustulot (2017)",
+      "conceptdef": "Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elatulo_3",
+      "variablename": "Eläketulot (2017)",
+      "conceptdef": "Eläketulot henkilöverotusaineistossa. Koostuvat seuraavista verotiedoista:\nTKANSEL = Kansaneläke ansiotulona\nTANSEL = Työ-, virka- ja yrittäjäeläkkeet\nTTAPEL = Pakolliseen tapaturmavakuutukseen perustuva eläke\nTLAPEL = Pakolliseen liikennevahinkoturvaan perustuva eläke (vuodesta 2012 alkaen)\nTMUUEL1, TMUUEL = Muut eläkkeet\nTPOTEL = Potilasvakuutuksen eläke\nTEANSTU = Ansiotulona verotettava muu eläke (vuodesta 1993 alkaen)\nTPERHEL = Kansaneläkkeen perhe-eläke (vuodesta 1992 alkaen)\nTTYOEL = Työnantajan maksama eläke (vuosina 1998-2017)\nTELULKO = Ulkomaille maksettu eläke, josta peritty vain sairaanhoitomaksu (vuodesta 2006 alkaen)\nTPTELAK = Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke, 20 % korotus (vuodesta 2007 alkaen)\nTSUURPU = Ulkomaanedustuston virkamiehen puolison erityiskorvaus (vuodesta 1999 alkaen)\nTAKUUEL = Takuueläke (vuodesta 2011 alkaen)\nTELEUVE = EU-virkamiehen vapaaehtoiseen eläkevakuutukseen perustuva eläke (vuodesta 2014 alkaen)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatva_3",
+      "variablename": "Ansiotulot (2017)",
+      "conceptdef": "Ansiotulot yhteensä valtionverotuksessa (henkilöverotusaineisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatvp_3",
+      "variablename": "Pääomatulot (2017)",
+      "conceptdef": "Pääomatulot yhteensä valtionverotuksessa (henkilöverotusaineisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyotur_3",
+      "variablename": "Työttömyysturvaetuudet (2017)",
+      "conceptdef": "Työttömyysturvaetuudet (henkilöverotusaineisto). Työttömyysturvaetuudet koostuvat seuraavista verotiedoista:\nTTYOTPR = Työttömyyspäiväraha\nTKOULTUK = koulutustuki, aikuisopintoraha ja toistuvaiskorvaus\nTTYOLTUK = yrittäjän työllistämistuki",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_3",
+      "variablename": "Saadut tulonsiirrot (2017)",
+      "conceptdef": "Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_3",
+      "variablename": "Maksetut tulonsiirrot (2017)",
+      "conceptdef": "Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_3",
+      "variablename": "Velat (2017)",
+      "conceptdef": "Velat yhteensä (henkilöverotusaineisto). Velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT = Maatalouteen kohdistuneet velat\nNYHT = Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "modoecd_1",
+      "variablename": "Kulutusyksiköt, mod. OECD-skaala (2023)",
+      "conceptdef": "Kulutusyksiköt modifioidun OECD-skaalan mukaan. Tulonjakotilastossa ja kulutustutkimuksessa on käytetty vuodesta 2002 lähtien Euroopan unionin tilastoviraston Eurostatin suosittamaa OECD:n ns. muunnettua kulutusyksikköasteikkoa, jossa - kotitalouden ensimmäinen aikuinen saa painon 1 - muut yli 13-vuotiaat saavat painon 0,5 - lapset saavat painon 0,3 (0–13-vuotiaat).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_ak_1",
+      "variablename": "Asuntokunnan käytettävissä oleva rahatulo (2023)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut käytettävissä oleva rahatulot. Käytettävissä oleva rahatulo muodostuu palkka-, yrittäjä- ja omaisuustuloista sekä saaduista tulonsiirroista vähennettynä em. tuloista maksetusta veroista ja veronluonteisista maksuista. Tulonjaon kokonaistilaston päätulokäsite, joka muodostuu vuosittain päivitettävän tulonjaon tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_ak_1",
+      "variablename": "Asuntokunnan palkkatulot (2023)",
+      "conceptdef": "Asuntokunnan palkkatulot. Asuntokunnan jäsenten yhteenlasketut palkkatulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Negatiiviset arvot nollattu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrty_ak_1",
+      "variablename": "Asuntokunnan yrittäjätulot (2023)",
+      "conceptdef": "Asuntokunnan yrittäjätulot. Kaikki yrittäjätulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttuja on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_ak_1",
+      "variablename": "Asuntokunnan omaisuustulot (2023)",
+      "conceptdef": "Asuntokunnan omaisuustulot. Asuntokunnan jäsenten yhteenlasketut omaisuustulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Siten mm. haastatelluin kerättävät lähdeveronalaiset korkotulot jäävät puuttumaan tulonjaon kokonaistilaston omaisuustuloista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_ak_1",
+      "variablename": "Asuntokunnan velat yhteensä (2023)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT = Maatalouteen kohdistuneet velat\nNYHT = Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ekvrahatulo_ak_1",
+      "variablename": "Asuntokunnan ekvivalentti rahatulo (2023)",
+      "conceptdef": "Asuntokuntakohtainen ekvivalentti rahatulo. Muuttuja muodostetaan asuntokunnan jäsenten summatuista käytettävissä olevista rahatulotiedoista (kturaha_ak-muuttuja), jakamalla tämä asuntokunnan jäsenten summatun kulutusyksikkötiedon (modoecd-muuttuja) avulla, jolla saadaan kulutusyksikkökohtainen käytettävissä oleva rahatulo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_ak_1",
+      "variablename": "Asuntokunnan maksetut tulonsiirrot (2023)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut maksettujen tuloverojen ja veronluonteisten maksujen yhteissummat. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_ak_1",
+      "variablename": "Asuntokunnan saadut tulonsiirrot (2023)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut saatujen tulonsiirtojen yhteissummat. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. (Toimeentuloturvana maksettujen etuuksien luokittelu perustuu Eurostatin ESSPROS-järjestelmän mukaiseen sosiaalimenojen ja sosiaalietuuksien ryhmittelyyn. ESSPROS-etuuksia ovat sairaus ja terveys, toimintarajoitteisuus, vanhuus, leskien ja muut omaiset, lapsiperheet, työttömyys, asuminen, muu toimeentuloturva. Opintoetuudet eivät lukeudu ESSPROS-etuuksiin, mutta tulonjakotilastossa ne ovat osana kotitalouksien saamia toimeentuloturvaetuuksia.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "desiili_ak_1",
+      "variablename": "Asuntokunnan tulodesiili (2023)",
+      "conceptdef": "Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan ekvivalenttien käytettävissä olevien rahatulojen pohjalta. Desiiliryhmät muodostetaan jakamalla ensin asuntokunnan tulot kulutusyksiköillä (ns. ekvivalentit tulot). Jokaiselle kotitalouden jäsenelle tulee sama ekvivalentti tulo, ja henkilöt järjestetään tämän jälkeen tulojensa mukaiseen järjestykseen ja jaetaan kymmeneen yhtä suureen ryhmään. Jokaisessa tulokymmenyksessä on siten 10 prosenttia väestöstä. Ensimmäiseen tulokymmenykseen kuuluu pienituloisin kymmenes ja viimeiseen suurituloisin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akoko_1",
+      "variablename": "Asuntokunnan koko (2023)",
+      "conceptdef": "Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asty_1",
+      "variablename": "Asuntokuntarakenne (2023)",
+      "conceptdef": "Asuntokuntarakenne luokituksen mukaisesti:\n1 = 1 perhe, ei muita\n2 = 1 perhe ja muita\n3 = 2 perhettä, ei lisäksi muita\n4 = 2 perhettä, lisäksi muita\n5 = vähintään 3 perhettä, ei lisäksi muita\n6 = vähintään 3 perhettä, lisäksi muita\n7 = ei perhettä, asuntokunnan koko = 1\n8 = ei perhettä, asuntokunnan koko = 2 joilla sama sukupuoli\n9 = ei perhettä, asuntokunnan koko = 2 joilla eri sukupuoli\n10 = ei perhettä, asuntokunnan koko > 2; kaikilla sama sukupuoli\n11 = ei perhettä, asuntokunnan koko > 2; joilla eri sukupuoli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nika_1",
+      "variablename": "Nuorimman ikä (2023)",
+      "conceptdef": "Asuntokunnan nuorimman henkilön ikä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "modoecd_2",
+      "variablename": "Kulutusyksiköt, mod. OECD-skaala (2020)",
+      "conceptdef": "Kulutusyksiköt modifioidun OECD-skaalan mukaan. Tulonjakotilastossa ja kulutustutkimuksessa on käytetty vuodesta 2002 lähtien Euroopan unionin tilastoviraston Eurostatin suosittamaa OECD:n ns. muunnettua kulutusyksikköasteikkoa, jossa - kotitalouden ensimmäinen aikuinen saa painon 1 - muut yli 13-vuotiaat saavat painon 0,5 - lapset saavat painon 0,3 (0–13-vuotiaat).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_ak_2",
+      "variablename": "Asuntokunnan käytettävissä oleva rahatulo (2020)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut käytettävissä oleva rahatulot. Käytettävissä oleva rahatulo muodostuu palkka-, yrittäjä- ja omaisuustuloista sekä saaduista tulonsiirroista vähennettynä em. tuloista maksetusta veroista ja veronluonteisista maksuista. Tulonjaon kokonaistilaston päätulokäsite, joka muodostuu vuosittain päivitettävän tulonjaon tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_ak_2",
+      "variablename": "Asuntokunnan palkkatulot (2020)",
+      "conceptdef": "Asuntokunnan palkkatulot. Asuntokunnan jäsenten yhteenlasketut palkkatulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Negatiiviset arvot nollattu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrty_ak_2",
+      "variablename": "Asuntokunnan yrittäjätulot (2020)",
+      "conceptdef": "Asuntokunnan yrittäjätulot. Kaikki yrittäjätulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttuja on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_ak_2",
+      "variablename": "Asuntokunnan omaisuustulot (2020)",
+      "conceptdef": "Asuntokunnan omaisuustulot. Asuntokunnan jäsenten yhteenlasketut omaisuustulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Siten mm. haastatelluin kerättävät lähdeveronalaiset korkotulot jäävät puuttumaan tulonjaon kokonaistilaston omaisuustuloista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_ak_2",
+      "variablename": "Asuntokunnan velat yhteensä (2020)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT = Maatalouteen kohdistuneet velat\nNYHT = Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ekvrahatulo_ak_2",
+      "variablename": "Asuntokunnan ekvivalentti rahatulo (2020)",
+      "conceptdef": "Asuntokuntakohtainen ekvivalentti rahatulo. Muuttuja muodostetaan asuntokunnan jäsenten summatuista käytettävissä olevista rahatulotiedoista (kturaha_ak-muuttuja), jakamalla tämä asuntokunnan jäsenten summatun kulutusyksikkötiedon (modoecd-muuttuja) avulla, jolla saadaan kulutusyksikkökohtainen käytettävissä oleva rahatulo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_ak_2",
+      "variablename": "Asuntokunnan maksetut tulonsiirrot (2020)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut maksettujen tuloverojen ja veronluonteisten maksujen yhteissummat. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_ak_2",
+      "variablename": "Asuntokunnan saadut tulonsiirrot (2020)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut saatujen tulonsiirtojen yhteissummat. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. (Toimeentuloturvana maksettujen etuuksien luokittelu perustuu Eurostatin ESSPROS-järjestelmän mukaiseen sosiaalimenojen ja sosiaalietuuksien ryhmittelyyn. ESSPROS-etuuksia ovat sairaus ja terveys, toimintarajoitteisuus, vanhuus, leskien ja muut omaiset, lapsiperheet, työttömyys, asuminen, muu toimeentuloturva. Opintoetuudet eivät lukeudu ESSPROS-etuuksiin, mutta tulonjakotilastossa ne ovat osana kotitalouksien saamia toimeentuloturvaetuuksia.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "desiili_ak_2",
+      "variablename": "Asuntokunnan tulodesiili (2020)",
+      "conceptdef": "Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan ekvivalenttien käytettävissä olevien rahatulojen pohjalta. Desiiliryhmät muodostetaan jakamalla ensin asuntokunnan tulot kulutusyksiköillä (ns. ekvivalentit tulot). Jokaiselle kotitalouden jäsenelle tulee sama ekvivalentti tulo, ja henkilöt järjestetään tämän jälkeen tulojensa mukaiseen järjestykseen ja jaetaan kymmeneen yhtä suureen ryhmään. Jokaisessa tulokymmenyksessä on siten 10 prosenttia väestöstä. Ensimmäiseen tulokymmenykseen kuuluu pienituloisin kymmenes ja viimeiseen suurituloisin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akoko_2",
+      "variablename": "Asuntokunnan koko (2020)",
+      "conceptdef": "Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asty_2",
+      "variablename": "Asuntokuntarakenne (2020)",
+      "conceptdef": "Asuntokuntarakenne luokituksen mukaisesti:\n1 = 1 perhe, ei muita\n2 = 1 perhe ja muita\n3 = 2 perhettä, ei lisäksi muita\n4 = 2 perhettä, lisäksi muita\n5 = vähintään 3 perhettä, ei lisäksi muita\n6 = vähintään 3 perhettä, lisäksi muita\n7 = ei perhettä, asuntokunnan koko = 1\n8 = ei perhettä, asuntokunnan koko = 2 joilla sama sukupuoli\n9 = ei perhettä, asuntokunnan koko = 2 joilla eri sukupuoli\n10 = ei perhettä, asuntokunnan koko > 2; kaikilla sama sukupuoli\n11 = ei perhettä, asuntokunnan koko > 2; joilla eri sukupuoli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nika_2",
+      "variablename": "Nuorimman ikä (2020)",
+      "conceptdef": "Asuntokunnan nuorimman henkilön ikä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "modoecd_3",
+      "variablename": "Kulutusyksiköt, mod. OECD-skaala (2017)",
+      "conceptdef": "Kulutusyksiköt modifioidun OECD-skaalan mukaan. Tulonjakotilastossa ja kulutustutkimuksessa on käytetty vuodesta 2002 lähtien Euroopan unionin tilastoviraston Eurostatin suosittamaa OECD:n ns. muunnettua kulutusyksikköasteikkoa, jossa - kotitalouden ensimmäinen aikuinen saa painon 1 - muut yli 13-vuotiaat saavat painon 0,5 - lapset saavat painon 0,3 (0–13-vuotiaat).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_ak_3",
+      "variablename": "Asuntokunnan käytettävissä oleva rahatulo (2017)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut käytettävissä oleva rahatulot. Käytettävissä oleva rahatulo muodostuu palkka-, yrittäjä- ja omaisuustuloista sekä saaduista tulonsiirroista vähennettynä em. tuloista maksetusta veroista ja veronluonteisista maksuista. Tulonjaon kokonaistilaston päätulokäsite, joka muodostuu vuosittain päivitettävän tulonjaon tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_ak_3",
+      "variablename": "Asuntokunnan palkkatulot (2017)",
+      "conceptdef": "Asuntokunnan palkkatulot. Asuntokunnan jäsenten yhteenlasketut palkkatulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Negatiiviset arvot nollattu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrty_ak_3",
+      "variablename": "Asuntokunnan yrittäjätulot (2017)",
+      "conceptdef": "Asuntokunnan yrittäjätulot. Kaikki yrittäjätulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttuja on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_ak_3",
+      "variablename": "Asuntokunnan omaisuustulot (2017)",
+      "conceptdef": "Asuntokunnan omaisuustulot. Asuntokunnan jäsenten yhteenlasketut omaisuustulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Siten mm. haastatelluin kerättävät lähdeveronalaiset korkotulot jäävät puuttumaan tulonjaon kokonaistilaston omaisuustuloista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_ak_3",
+      "variablename": "Asuntokunnan velat yhteensä (2017)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT = Maatalouteen kohdistuneet velat\nNYHT = Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ekvrahatulo_ak_3",
+      "variablename": "Asuntokunnan ekvivalentti rahatulo (2017)",
+      "conceptdef": "Asuntokuntakohtainen ekvivalentti rahatulo. Muuttuja muodostetaan asuntokunnan jäsenten summatuista käytettävissä olevista rahatulotiedoista (kturaha_ak-muuttuja), jakamalla tämä asuntokunnan jäsenten summatun kulutusyksikkötiedon (modoecd-muuttuja) avulla, jolla saadaan kulutusyksikkökohtainen käytettävissä oleva rahatulo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_ak_3",
+      "variablename": "Asuntokunnan maksetut tulonsiirrot (2017)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut maksettujen tuloverojen ja veronluonteisten maksujen yhteissummat. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_ak_3",
+      "variablename": "Asuntokunnan saadut tulonsiirrot (2017)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut saatujen tulonsiirtojen yhteissummat. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. (Toimeentuloturvana maksettujen etuuksien luokittelu perustuu Eurostatin ESSPROS-järjestelmän mukaiseen sosiaalimenojen ja sosiaalietuuksien ryhmittelyyn. ESSPROS-etuuksia ovat sairaus ja terveys, toimintarajoitteisuus, vanhuus, leskien ja muut omaiset, lapsiperheet, työttömyys, asuminen, muu toimeentuloturva. Opintoetuudet eivät lukeudu ESSPROS-etuuksiin, mutta tulonjakotilastossa ne ovat osana kotitalouksien saamia toimeentuloturvaetuuksia.)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "desiili_ak_3",
+      "variablename": "Asuntokunnan tulodesiili (2017)",
+      "conceptdef": "Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan ekvivalenttien käytettävissä olevien rahatulojen pohjalta. Desiiliryhmät muodostetaan jakamalla ensin asuntokunnan tulot kulutusyksiköillä (ns. ekvivalentit tulot). Jokaiselle kotitalouden jäsenelle tulee sama ekvivalentti tulo, ja henkilöt järjestetään tämän jälkeen tulojensa mukaiseen järjestykseen ja jaetaan kymmeneen yhtä suureen ryhmään. Jokaisessa tulokymmenyksessä on siten 10 prosenttia väestöstä. Ensimmäiseen tulokymmenykseen kuuluu pienituloisin kymmenes ja viimeiseen suurituloisin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akoko_3",
+      "variablename": "Asuntokunnan koko (2017)",
+      "conceptdef": "Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asty_3",
+      "variablename": "Asuntokuntarakenne (2017)",
+      "conceptdef": "Asuntokuntarakenne luokituksen mukaisesti:\n1 = 1 perhe, ei muita\n2 = 1 perhe ja muita\n3 = 2 perhettä, ei lisäksi muita\n4 = 2 perhettä, lisäksi muita\n5 = vähintään 3 perhettä, ei lisäksi muita\n6 = vähintään 3 perhettä, lisäksi muita\n7 = ei perhettä, asuntokunnan koko = 1\n8 = ei perhettä, asuntokunnan koko = 2 joilla sama sukupuoli\n9 = ei perhettä, asuntokunnan koko = 2 joilla eri sukupuoli\n10 = ei perhettä, asuntokunnan koko > 2; kaikilla sama sukupuoli\n11 = ei perhettä, asuntokunnan koko > 2; joilla eri sukupuoli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nika_3",
+      "variablename": "Nuorimman ikä (2017)",
+      "conceptdef": "Asuntokunnan nuorimman henkilön ikä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

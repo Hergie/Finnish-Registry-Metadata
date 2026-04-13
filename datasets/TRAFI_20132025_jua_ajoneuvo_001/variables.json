@@ -1,0 +1,1028 @@
+{
+  "variables": [
+    {
+      "identifier": "avainnro",
+      "variablename": "avainnumero",
+      "conceptdef": "ajoneuvolle luotu yksilöivä pseudotunnus teknisten tietojen yhdistelyä varten",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajluok",
+      "variablename": "Ajoneuovoluokka",
+      "conceptdef": "Ajoneuvon direktiivin mukainen ajoneuvoluokka  luokittelu.\n",
+      "measunit": null,
+      "classification": "ajot_1_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajluokt",
+      "variablename": "Ajoneuvoluokka yhdistelty",
+      "conceptdef": "Täydennetty ja direktiivin alaluokat yhdistävä selväkielinen ajoneuovoluokka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eukilpi",
+      "variablename": "EUkilpi",
+      "conceptdef": "Tieto EU-kilvestä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "erpvm",
+      "variablename": "Ensirekisteröintipäivämäärä",
+      "conceptdef": "Ajoneuvon ensirekisteröintipäivä Suomessa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "liikpoistolaji",
+      "variablename": "Liikenteestäpoiston laji",
+      "conceptdef": "Ajoneuvon liikennekäytöstä poiston syy. Rajoitustiedon alalaji. Rajoituslajin täydentävä tieto\n\n01\tTavallinen poisto\n02\tKäyttämättömyyspoisto\n03\tViranomaispoisto\n04\tVaurioituneena poisto\n05\tKunnan poisto\n06\tAhvenanmaalle poisto\n07\tUlkomaille poisto\n08\tTuhoutuneena poisto\n09\tRomutuspoisto\n10\tItse purettu / tuhottu",
+      "measunit": null,
+      "classification": "ajot_4_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "liikpoistoalpv",
+      "variablename": "Liikenteestäpoiston alkamispäivämäärä",
+      "conceptdef": "Liikenteestäpoiston alkamispäivämäärä. Rajoitustiedon voimassaolon alkamisaika.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaytto",
+      "variablename": "Käyttötieto.",
+      "conceptdef": "Ajoneuvon käyttötieto (tarkoitus) liikenteessä\n\nYH\tYhteensä\n01\tYksityinen käyttö\n02\tLuvanvarainen\n03\tKouluajoneuvo\n04\tVuokraus ilman kuljettajaa\n05\tMyyntivarasto\n06            Luvanvarainen tavaraliikenne\nTT\tTuntematon",
+      "measunit": null,
+      "classification": "kayttotarkoitus_2_2017_11_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kayttos",
+      "variablename": "Ajoneuvon käyttötieto selväkielisenä",
+      "conceptdef": "Ajoneuvon käyttötieto selväkielisenä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajovakhal",
+      "variablename": "Ajonvakausjärjestelmä",
+      "conceptdef": "Kyllä/ei tieto siitä, onko ajoneuvolla ajonvakausjärjestelmä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaypvm",
+      "variablename": "Käyttöönottopäivämäärä",
+      "conceptdef": "Ajoneuvon käyttöönottopäivä, jonka katsastaja tallentaa tai ajoneuvo saa ensirekisteröinnin yhteydessä uusien ajoneuvojen osalta järjestelmän toimesta.  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisavari",
+      "variablename": "Lisäväri",
+      "conceptdef": "Ajoneuvon lisäväri.\n\n0\tMusta\n1\tRuskea (beige)\n2\tPunainen\n3\tOranssi\n4\tKeltainen\n5\tVihreä\n6\tSininen\n7\tVioletti\n8\tHarmaa\n9\tValkoinen\na\tVaalea\nb\tTumma\nc\tMetallinhohto",
+      "measunit": null,
+      "classification": "ajot_6_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ovilkm",
+      "variablename": "Ovien lukumäärä",
+      "conceptdef": "Ajoneuvon ovien lukumäärä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ovisij",
+      "variablename": "Ovien sijainti",
+      "conceptdef": "Ovien sijainti.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rakajon",
+      "variablename": "Rakennettu ajoneuvo",
+      "conceptdef": "Tieto (K/E) siitä onko ajoneuvo rakennettu. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuontimaa",
+      "variablename": "tuontimaa",
+      "conceptdef": "Yksittäin maahantuodun ajoneuvon tuontimaa.\nMaaluokitus https://www.stat.fi/meta/luokitukset/valtio/001-2012/index.html",
+      "measunit": null,
+      "classification": "ajot_7_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "thyvnro",
+      "variablename": "Tyyppihyväksyntänumero",
+      "conceptdef": "Ajoneuvon tyypin yksilöivä tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vari",
+      "variablename": "Väri",
+      "conceptdef": "Ajoneuvon väri\n0\tMusta\n1\tRuskea (beige)\n2\tPunainen\n3\tOranssi\n4\tKeltainen\n5\tVihreä\n6\tSininen\n7\tVioletti\n8\tHarmaa\n9\tValkoinen\nX\tMonivär.\nY\tHopea\nZ\tTurkoosi",
+      "measunit": null,
+      "classification": "ajot_5_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyyppi",
+      "variablename": "Tyyppikoodi",
+      "conceptdef": "Tyyppikoodi, joka yksilöi tyypin. Koska tieto otetaan huomautuskentästä voi merkkijono sisältää muitakin merkkejä kuin tyyppikoodin. Huomautustekstin max pituus 1500 merkkiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyyppinimi",
+      "variablename": "Tyyppinimi",
+      "conceptdef": "Tyypin nimi\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valmnimi",
+      "variablename": "Valmistajan nimi",
+      "conceptdef": "Ajoneuvon valmistajan nimi.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "variantti",
+      "variablename": "Variantti",
+      "conceptdef": "Ajoneuvon variantin yksilöivä tunniste.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "versio",
+      "variablename": "Versio",
+      "conceptdef": "Ajoneuvon version yksilöivä tunniste.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yksmaah",
+      "variablename": "Yksittäin maahantuotu",
+      "conceptdef": "Tieto siitä onko ajoneuvo yksittäin maahantuotu uutena/käytettynä.\n1\tTuotu käytettynä\n2\tTuotu uutena",
+      "measunit": null,
+      "classification": "ajot_8_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "yksvalm",
+      "variablename": "Yksittäin Suomessa valmistettu",
+      "conceptdef": "Tieto (K/E) siitä onko ajoneuvo yksittäin Suomessa valmistettu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "istumap",
+      "variablename": "Istumapaikkojen lukumäärä",
+      "conceptdef": "Istumapaikkojen lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "korityyppi",
+      "variablename": "Korityyppi",
+      "conceptdef": "Ajoneuvon korityyppi. Vapaasti ajoneuvorekisteriin merkittävä tieto, joten ei täysin noudata todellista korimallia kaikilla ajoneuvoilla.\nCO\tNivelöity matalalattiainen yksikerroksinen (CO)\nBA\tAvolavakuorma-auto (BA)\nBB\tUmpikorinen (BB)\nAA\tSedan (AA)\nAB\tViistoperä (AB)\nAC\tFarmari (AC)\nAD\tCoupé (AD)\nAE\tAvoauto (AE)\nAF\tMonikäyttöajoneuvo (AF)\nBC\tPuoliperävaunun vetoauto (BC)\nBD\tPerävaunun vetoajoneuvo (BD)\nCA\tYksikerroksinen (CA)\nCB\tKaksikerroksinen (CB)\nCC\tNivelöity yksikerroksinen (CC)\nCD\tNivelöity kaksikerroksinen (CD)\nCE\tMatalalattiainen yksikerroksinen (CE)\nCF\tMatalalattiainen kaksikerroksinen (CF)\nCG\tNivelöity matalalattiainen yksikerroksinen (CG)\nCH\tNivelöity matalalattiainen kaksikerroksinen (CH)\nCI\tYksikerroksinen (CI)\nCJ\tKaksikerroksinen (CJ)\nCK\tNivelöity yksikerroksinen (CK)\nCL\tNivelöity kaksikerroksinen (CL)\nCM\tMatalalattiainen yksikerroksinen (CM)\nCN\tMatalalattiainen kaksikerroksinen (CN)\nCP\tNivelöity matalalattiainen kaksikerroksinen (CP)\nCQ\tYksikerroksinen (CQ)\nCR\tKaksikerroksinen (CR)\nCS\tNivelöity yksikerroksinen (CS)\nCT\tNivelöity kaksikerroksinen (CT)\nCU\tYksikerroksinen (CU)\nCV\tMatalalattiainen yksikerroksinen (CV)\nCW\tYksikerroksinen (CW)\nDA\tPuoliperävaunu (DA)\nDB\tVarsinainen perävaunu (DB)\nDC\tKeskiakseliperävaunu (DC)\nSA\tMatkailuauto (SA)\nSB\tPanssariajoneuvo (SB)\nSC\tAmbulanssi (SC)\nSD\tRuumisauto (SD)\nSE\tMatkailuperävaunu (SE)\nSF\tAjoneuvonosturi (SF)\nSG\tMuut erikoiskäyttöön tarkoitetut ajoneuvot (SG)\nSH\tPyörätuolin käyttäjälle tarkoitettu ajoneuvo (SH)\nU/A\tUmpi/avo\n1.7\tAG Tavarafarmari\n2.11\tCX Linja-auton alusta\n3.5\tBE Avopakettiauto\n3.6\tBX Alusta-ohjaamo\n4.4\tDE Nivelöimättömällä vetoaisalla varustettu perävaunu\n5.9\tSJ Apuvaunu\n5.10\tSK Erikoiskuljetusperävaunu\n2.9\tCI Avokattoinen yksikerroksinen ajoneuvo\n3.1\tBA Tavara-auto\n2.10\tCJ Avokattoinen kaksikerroksinen ajoneuvo\nSK\tErikoiskuljetusperävaunu\nSL\tErikoiskuljetusauto\nSM\tMonilaiteajoneuvo\n",
+      "measunit": null,
+      "classification": "ajot_9_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuormakorityyppi",
+      "variablename": "Kuormakorityyppi",
+      "conceptdef": "Kuormakorin tyyppi\n01\tKappaletavaralava\n02\tMaansiirtolava\n03\tKappaletavaral+irtokate\n04\tPuutavarapankot\n05\tUmpikori+säiliö\n06\tUmpikori eristetty\n07\tUmpikori eristämätön\n08\tPainesäiliö\n09\tVak-säiliö\n10\tMuu säiliö\n11\tKonttivaruste\n12\tJätepuristinkori\n13\tAjoneuvon kulj.telineet\n14\tMuu korirakenne\n15\tVaihtokorilaitteet\n16\tTukikaaret ja telttakatos\n17\tTelttakatos (ee)\n18\tLämmitettävä lava (ee)",
+      "measunit": null,
+      "classification": "ajot_10_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "seisomap",
+      "variablename": "SeisomapaikkojenLkm",
+      "conceptdef": "Seisomapaikkojen lukumäärä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "umpikoritil",
+      "variablename": "UmpikorinTilavuus",
+      "conceptdef": "Ajoneuvon umpikorin tilavuus kuutiometreinä (m3). Arvossa on max 1 desimaali..",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajonsuursallvetopoytamassa",
+      "variablename": "AjonSuurSallVetopoytamassa",
+      "conceptdef": "Ajoneuvon suurin sallittu vetopöytämassa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "modulinkokmassa",
+      "variablename": "ModulinKokonaismassa",
+      "conceptdef": "Modulin kokonaismassa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omamassa",
+      "variablename": "Omamassa",
+      "conceptdef": "Ajoneuvon mitattu koko omamassa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "teknsuursallkokmassa",
+      "variablename": "TeknSuurSallKokmassa",
+      "conceptdef": "Teknisesti suurin sallittu kokonaismassa kilogrammoina (valmistajan sallima).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tieliiksuursallkokmassa",
+      "variablename": "TieliikSuurSallKokmassa",
+      "conceptdef": "Tieliikenteessä suurin sallittu kokonaismassa kiloina.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pituus",
+      "variablename": "ajonKokPituus",
+      "conceptdef": "Ajoneuvon kokonaispituus millimetreinä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "korkeus",
+      "variablename": "ajonKorkeus",
+      "conceptdef": "Ajoneuvon korkeus millimetreinä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leveys",
+      "variablename": "ajonLeveys",
+      "conceptdef": "Ajoneuvon leveys millimetreinä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kvoima",
+      "variablename": "Käyttövoima",
+      "conceptdef": "Ajoneuvon käyttövoima.\n10\tBiodiesel\n11\tLPG\n13\tCNG\n31\tMoottoripetroli\n54\tVety/Sähkö\n32\tDiesel/Puu\n33\tBensiini/Puu\n34\tBensiini + moottoripetroli\n37\tEtanoli\n38\tBensiini/CNG\n39\tBensiini/Sähkö\n40\tBensiini/Etanoli\n41\tBensiini/Metanoli\n42\tBensiini/LPG\n43\tDiesel/CNG\n44\tDiesel/Sähkö\n9\tKs. huom.\n01\tBensiini\n02\tDieselöljy\n03\tPolttoöljy\n04\tSähkö\n05\tVety\n06\tKaasu\n07\tMetanoli\n57\tL-ryhmän maakaasu\n58\tHL-ryhmän maakaasu\n59\tCNG/Biometaani\n60\tBiometaani\n61\tPuu\n62\tEtanoli (ED95)\n63\tEtanoli (E85)\n64\tVety-maakaasuseos\n65\tLNG\n66\tLNG20\n67\tDiesel/LNG\n68\tDiesel/LNG20\n45\tDiesel/Etanoli\n46\tDiesel/Metanoli\n47\tDiesel/LPG\n48\tDiesel/Biodiesel\n49\tDiesel/Biodiesel/Sähkö\n50\tDiesel/Biodiesel/Etanoli\n51\tDiesel/Biodiesel/Metanoli\n52\tDiesel/Biodiesel/LPG\n53\tDiesel/Biodiesel/CNG\n55\tDieselöljy/Muu\n56\tH-ryhmän maakaasu\nX\tEi sovellettavissa\nY\tMuu",
+      "measunit": null,
+      "classification": "ajot_13_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ahdin",
+      "variablename": "ahdin",
+      "conceptdef": "Kyllä/ei  tieto ahtimen olemassaolosta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ekoinnovaatio",
+      "variablename": "ekoinnovaatio",
+      "conceptdef": "Ekoinnovaatio kyllä/ei . Tieto vuodesta 2014 ->",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ekoCO2Vahentyminen",
+      "variablename": "ekoCO2Vahentyminen",
+      "conceptdef": "Ekoinnovaation avulla saavutettu hiilidioksidipäästöjen vähentyminen yhteensä g/km. Tieto vuodesta 2014 ->",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "huippunopeus",
+      "variablename": "huippunopeus",
+      "conceptdef": "Ajoneuvon huippunopeus kilmetriä tunnissa (km/h).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "iskutil",
+      "variablename": "iskutilavuus",
+      "conceptdef": "Moottorin iskutilavuus kuutiosenttimetreinä (cm3).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pataso",
+      "variablename": "paastotaso",
+      "conceptdef": "Päästöjen hyväksyntätaso, joka kertoo sen säädöstason, jolla tämän version ajoneuvon päästötasot on hyväksytty.\nPäästöluokka luokitus",
+      "measunit": null,
+      "classification": "ajot_14_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "polttoainejarjTyyppi",
+      "variablename": "polttoainejarjTyyppi",
+      "conceptdef": "Ajoneuvon polttoainejärjestelmän tyyppi (Yhdellä tai kahdella polttoaineella toimiva tai polttoainevaatimuksiltaan joustava). Tieto vuodesta 2014 ->\n Luokitus Trafilta KdTyytiPolttoainejarjTyyppi\n01\tMono fuel\n02\tBi fuel\n03\tFlex fuel",
+      "measunit": null,
+      "classification": "ajot_32_2018_01_04",
+      "variablegroups": null
+    },
+    {
+      "identifier": "sahkoenergianKulutus",
+      "variablename": "sahkoenergianKulutus",
+      "conceptdef": "Sahkoenergian kulutus. Tieto vuodesta 2014 ->",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sahkohybridi",
+      "variablename": "Sähköhybridi",
+      "conceptdef": "Tieto (K/E) siitä, onko ajoneuvo sähkökäyttöinen hybridi. Tieto vuodesta 2014 ->",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sahkohybridinluokka",
+      "variablename": "Sähköhybridinluokka",
+      "conceptdef": "Tieto onko ajoneuvo verkosta ladattava (01) vai pelkästään polttomoottorilla ladattava (02). Tieto vuodesta 2014 ->",
+      "measunit": null,
+      "classification": "ajot_31_2017_12_12",
+      "variablegroups": null
+    },
+    {
+      "identifier": "nettoteho",
+      "variablename": "suurinNettoteho",
+      "conceptdef": "Moottorin suurin nettoteho kilowatteina (kW). Arvossa on max 1 desimaali.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sylintlkm",
+      "variablename": "sylintereidenLkm",
+      "conceptdef": "Sylintereiden lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasisamelu",
+      "variablename": "voimakkuusLASisamelu",
+      "conceptdef": "Meluarvo.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO2yhdist",
+      "variablename": "CO2yhdistetyn kulutusmäärä",
+      "conceptdef": "yhdistetyn kulutuksen CO2-arvo g/km",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akslkm",
+      "variablename": "AkselienLkm",
+      "conceptdef": "Ajoneuvon akselien lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaupnimi",
+      "variablename": "KaupallinenNimi",
+      "conceptdef": "Valmistajan ilmoittama kaupallinen nimi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kilvenmalli",
+      "variablename": "KilvenMalli",
+      "conceptdef": "Ajoneuvon rekisterikilven malli.\n01\tMatala\n02\tKorkea\n03\tValinnainen",
+      "measunit": null,
+      "classification": "ajot_15_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "malli",
+      "variablename": "Mallimerkintä",
+      "conceptdef": "Ajoneuvon mallimerkintä. Tieto kootaan tyyppirekisterin tiedoista kaupallinen nimi + mallin lisätiedot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "merkki",
+      "variablename": "Merkki",
+      "conceptdef": "Ajoneuvon merkki.",
+      "measunit": null,
+      "classification": "ajot_16_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "merkkis",
+      "variablename": "MerkkiSelvakielinen",
+      "conceptdef": "Ajoneuvon merkki selväkielisenä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaihtlkm",
+      "variablename": "VaihteidenLkm",
+      "conceptdef": "Eteenpäin vievien vaihteiden lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vaihteisto",
+      "variablename": "Vaihteisto",
+      "conceptdef": "Vaihteiston tyyppi.\n1\tKäsivalintainen\n2\tAutomaattinen\n3\tPortaaton\n4\tKäsivalintainen/automaattinen\n5\tVariaattori\n6\tMuuttuvavälityksinen\n7\tJalkavalintainen\nX\tEi sovellettavissa\nY\tMuu",
+      "measunit": null,
+      "classification": "ajot_17_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarru",
+      "variablename": "VoimanvalJaTehostamistapa",
+      "conceptdef": "Ajoneuvon jarrujen voimanvälitys  ja tehostamistapa.\n01\tMekaanisesti käytett.jarrut\n02\tNestetoimiset jarrut\n03\tMekaan./neste jarrut\n04\tNeste/mekaan. jarrut\n05\tNestetoim. alipaineteh.j\n06\tNestetoim. ylipaineteh.j\n07\tPaineilmajarrut\n08\tTyöntöjarrut\n09\tPainenestejarrut\n10\tNeste+painenestejarrut\n11\tSähköohjatut paineilmajarrut\n12\tSähköohjatut nestetoimiset alipainetehostetut jarrut\n13\tPaineilmakäytt.nestejarru\n14\tNestetoiminen työntöjarru\n15\tSähkötoiminen työntöjarru\n16\tSähköjarrut\n17\tElektronisesti ohjattu nestejarru",
+      "measunit": null,
+      "classification": "ajot_18_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisajarrulaite",
+      "variablename": "Lisajarrulaite",
+      "conceptdef": "Lisäjarrulaite.\n\n1\tHidastin\n2\tSähkömagneettinen jarru\n3\tMoottorijarru\n4\tPakokaasujarru\n5\tVoimansiirtojarru\nY\tMuu",
+      "measunit": null,
+      "classification": "ajot_19_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "Jarrulisatieto",
+      "variablename": "Jarrulisatieto",
+      "conceptdef": "Voimanvälitys ja tehostamistavan lisätieto (esim. lukkiutumattomat jarrut).\n1\tLukkiutumisen estojärjestelmä (ABS)\n2\tKuormantunteva jarruvoiman säätö (ALB)\n3\tABS + ALB\n4\tElektronisesti ohjattu jarrujärjestelmä (EBS)\n5\tElektronisesti ohjattu jarrujärjestelmä (EBS)",
+      "measunit": null,
+      "classification": "ajot_20_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "vakalpv",
+      "variablename": "VakuutuksenAlkamispvm",
+      "conceptdef": "Vakuutuksen alkamispäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vakyhtios",
+      "variablename": "Vakuutusyhtiö selkokielinen",
+      "conceptdef": "Tieto vakuutusyhtiöstä. Selkokielinen nimi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajryhm",
+      "variablename": "Ajoneuvoryhmnä",
+      "conceptdef": "Ajoneuvoluokan alaluokitus. Voi olla yksi tai useampi eri ajoneuvoryhmä-tieto per ajoneuvo.\n",
+      "measunit": null,
+      "classification": "ajot_21_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksomamassakevylh",
+      "variablename": "OmaMassaKevYlh",
+      "conceptdef": "Akselin omamassa kevennettävät ylhäällä kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pieninraidevali",
+      "variablename": "Pieninraidevali",
+      "conceptdef": "Akselin pienin raideväli mm:nä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "raidevali",
+      "variablename": "Raidevali",
+      "conceptdef": "Akselin raideväli mm:nä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akssij",
+      "variablename": "Akselinsijainti",
+      "conceptdef": "Akselien sijainti laskien ajoneuvon etupäästä lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suurinraidevali",
+      "variablename": "Suurinraidevali",
+      "conceptdef": "Akselin suurin raideväli mm:nä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksteknsuursallmassa",
+      "variablename": "Aksteknsuursallmassa",
+      "conceptdef": "Valmistajan akselille/telille sallima suurin massa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akstieliiksuursallmassa",
+      "variablename": "Akstieliiksuursallmassa",
+      "conceptdef": "Suurin tieliikenteessä sallittu akselimassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksvetava",
+      "variablename": "Aksvetava",
+      "conceptdef": "Vetävien akselien sijainti (true/false)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksryhmaomamassaaksryhmaalh",
+      "variablename": "Aksryhmaomamassaaksryhmaalh",
+      "conceptdef": "Akseliryhmän omamassa akseliryhmä alhaalla kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksryhmanro",
+      "variablename": "Aksryhmanro",
+      "conceptdef": "Akseliryhmän numero, akseliryhmän sijainti edestäpäin lukien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksryhmateknsuursallmassa",
+      "variablename": "Aksryhmateknsuursallmassa",
+      "conceptdef": "Valmistajan akselille/telille sallima suurin massa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksryhmatieliiksuursallmassa",
+      "variablename": "Aksryhmatieliiksuursallmassa",
+      "conceptdef": "Akseliryhmän tieliikenteessä suurin sallittu massa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aksryhmatyyppi",
+      "variablename": "Aksryhmatyyppi",
+      "conceptdef": "Akseliryhmän tyyppi johon akseli kuuluu.\n1\tYksiakselinen\n2\tKaksoisakselisto\n3\tKolmoisakselisto\n4\tTeliakselisto (2 -akselinen)\n5\tTeliakselisto (3 -akselinen)\nY\tMuu",
+      "measunit": null,
+      "classification": "ajot_22_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "avpit",
+      "variablename": "Akseliväli",
+      "conceptdef": "Akselivälin pituus millimetreinä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "avsij",
+      "variablename": "Akselien sijainti",
+      "conceptdef": "Akselin sijainti laskien ajoneuvon etupäästä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "katsajankoht",
+      "variablename": "Katsastusajankohta",
+      "conceptdef": "Päivämäärä ja kellonaika, jolloin katsastussuorite on suoritettu loppuun tai keskeytetty.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "katslaji",
+      "variablename": "Katsastuslaji",
+      "conceptdef": "Katsastuslaji.\n1.5.1\tRekisteröintikatsastus\n1.5.10\tKytkentäkatsastus\n1.5.11\tTeknisten tietojen korjaus\n1.5.12\tEnnakkoilmoitus\n1.5.13\tValvontakatsastus\n1.5.14\tTienvarsitarkastus, kevyt\n1.5.15\tMitätöinti\n1.5.18\tYksittäishyväksyntä\n1.5.19\tYksittäishyväksynnän korjaus\n1.5.2\tMuutoskatsastus\n1.5.3\tMääräaikaiskatsastus\n1.5.4\tLiikenteeseenottokatsastus\n1.5.5\tVAK/ADR -katsastus\n1.5.6\tVientikatsastus\n1.5.7\tKiinnitystarkastus\n1.5.8\tYksittäisen ajoneuvon hyväksyntä\n1.5.9\tTienvarsitarkastus, raskas\n9.5.1\tRajoitustietojen ylläpito",
+      "measunit": null,
+      "classification": "ajot_23_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokmaspvkaytossa",
+      "variablename": "AutonKokmassaPVKaytossa",
+      "conceptdef": "Ajoneuvon kokonaismassa kiloina (kevyenkytkentä).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pvmassa",
+      "variablename": "Perävaunumassa",
+      "conceptdef": "Perävaunumassa kiloina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "massajarruin",
+      "variablename": "Massajarruin",
+      "conceptdef": "Perävaunun kytkentämassa jarruin. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "massajarruinvalmsall",
+      "variablename": "Massajarruinvalmsall",
+      "conceptdef": "Valmistajan sallima perävaunumassa jarruin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "massajarruitta",
+      "variablename": "Massajarruitta",
+      "conceptdef": "Perävaunun kytkentämassa jarruitta. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "massajarruittavalmsall",
+      "variablename": "Massajarruittavalmsall",
+      "conceptdef": "Valmistajan sallima perävaunumassa jarruitta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhdsuursallmassa",
+      "variablename": "Yhdsuursallmassa",
+      "conceptdef": "Yhdistelmän suurin sallittu massa kiloina (kevyenkytkentä).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajankohta",
+      "variablename": "Ajankohta",
+      "conceptdef": "Ajankohta jolloin matkamittari on luettu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eiMatkamittaria",
+      "variablename": "EiMatkamittaria",
+      "conceptdef": "Tieto jos ajoneuvosta puuttuu matkamittari. Usein merkitty ei-matkamittaria, jos kyseessä on uusintakatsastus eikä mittarilukemaa tallenneta uudestaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "matkamittarilukema",
+      "variablename": "Matkamittarilukema",
+      "conceptdef": "Ajoneuvon todettu matkamittarilukema jos se on kilometreina",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mittarilukemaMaileina",
+      "variablename": "MittarilukemaMaileina",
+      "conceptdef": "Ajoneuvon todettu matkamittarilukema, jos se on maileina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ViisinumeroinenMittari",
+      "variablename": "ViisinumeroinenMittari",
+      "conceptdef": "Tieto onko ajoneuvossa viisi numeroinen matkamittari.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kulutuslaji",
+      "variablename": "Kulutuslaji",
+      "conceptdef": "Kulutuslaji. Kulutuslaji kertoo mihin kulutustietoon kulutusmäärä-tieto liittyy.\n1\tKulutus maantieajossa\n2\tKulutus kaupunkiajossa\n3\tYhdistetty kulutus\n4\tCO2 Yhdistetty\n5\tCO2 Kaupunki\n6\tCO2 Maantie\n7\tCO2 Painotettu, yhdistetty\n8\tKulutus Painotettu, yhdistetty",
+      "measunit": null,
+      "classification": "ajot_24_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kulutusmaara",
+      "variablename": "Kulutusmaara",
+      "conceptdef": "Kulutuksen määrä sataa kilometriä kohden. Kulutuslajiin liittyvä kulutus-tieto. Arvossa on max 1 desimaali.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kytkajryhm",
+      "variablename": "Kytkajryhm",
+      "conceptdef": "Kytkennän ajoneuvoryhma.",
+      "measunit": null,
+      "classification": "ajot_21_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "moduuli",
+      "variablename": "Moduuli",
+      "conceptdef": "Moduuli",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ysskmassa",
+      "variablename": "Ysskmassa",
+      "conceptdef": "Yhdistelmän suurin sallittu kokonaismassa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pvveto",
+      "variablename": "Pvveto",
+      "conceptdef": "Kyllä/ei  tieto siitä soveltuuko vetokytkin kiinteäaisaisen perävaunun vetoon. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kytkentalaite",
+      "variablename": "Kytkentalaite",
+      "conceptdef": "Kytkentälaitteen laji.\n\n1\tVetokytkin\n2\tVetopöytä\n3\tVetokoukku\n4\tSA-vetokoukku\n5\tVetoaisa\n6\tVetopalkki\n7\tVetotappi\n8\tKAP-vetokytkin\n9\tVetopää",
+      "measunit": null,
+      "classification": "ajot_25_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisalaite",
+      "variablename": "Lisalaite",
+      "conceptdef": "Lisalaitteen laji.\n01\tNosturi\n02\tKippi\n03\tTakalaitanostin\n04\tSivulaitanostin\n05\tVaihtokorilaitteet\n06\tLämmityslaite\n07\tJäähdytyslaite\n08\tVinssi\n09\tKitkavetolaite\n10\tKonttilukot\n11\tInvanostin\n12\tKolmikaatokippi\n13\tAurausvarustus\n14\tAurauspuskuri\n15\tLumiaura\n16\tSohjonkeräyslevy\n17\tHiekoituslaite\n18\tMaalauslaite\n19\tHarjakone\n20\tJalkalavalaite\n21\tAggregaatti\n22\tKompressori\n23\tTukijalat\n24\tAjosillat\n25\tSA-vetokoukku\nZ\tMuu, mikä...",
+      "measunit": null,
+      "classification": "ajot_26_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "pamaara",
+      "variablename": "Päästömäärä",
+      "conceptdef": "Käytönaikaisen pakokaasupäästön määrä päästölajin mukaisina yksikköinä. Arvossa on max 5 desimaalia.\nPäästölajiin liittyvä päästömäärä. Päästötyyppi huomioitava myös",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palaji",
+      "variablename": "Päästölaji",
+      "conceptdef": "Päästölaji, johon päästömäärä-tieto liittyy.\n01\tCO\n02\tCO<sub>2</sub>\n03\tNO<sub>x</sub>\n04\tSavutus [m<sup>-1</sup>]\n05\tLambda-arvo\n06\tHC/THC\n07\tNMHC\n09\tCH<sub>4</sub>\n10\tHiukkaset\n11\tHC/THC+NO<sub>x</sub>\n12\tHiukkasten lkm * 10<sup>11</sup>\n13\tELR-testin savutus [m<sup>-1</sup>]\n14\tCO [g/min]\n15\tHC [g/min]\n16\tNH3 [ppm]\n17\tCO [til%]",
+      "measunit": null,
+      "classification": "ajot_27_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "patyyppi",
+      "variablename": "Päästötyyppi",
+      "conceptdef": "Käytönaikaisen pakokaasupäästön tyyppi.\n01\tJoutokäynti [%]\n02\tKorotettu joutokäynti [%]\n03\t[g/km]\n04\tETC [g/kWh]\n05\tESC [g/kWh]\n06\t[mg/km]\n07\tWHSC [mg/kWh]\n08\tWHTC [mg/kWh]",
+      "measunit": null,
+      "classification": "ajot_28_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ppuhdlaite",
+      "variablename": "Puhdistuslaite",
+      "conceptdef": "Pakokaasun puhdistuslaite.\n01\tKolmitoimikatalysaattori\n02\tOBD-järjestelmä\n03\tKatalysaattori\n04\tHappitunnistin\n05\tIlman suihkutus tai ilmapumppu\n06\tPakokaasun takaisinkierrätys\n07\tHaihtumispäästöjen valvontajärjestelmä\n08\tHiukkasloukku\n09\tVähäpäästöinen\n10\tUrearuiskutus\n11\tVääntömomentin rajoitin\nZ\tMuu, mikä...",
+      "measunit": null,
+      "classification": "ajot_29_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "valmistaja",
+      "variablename": "Valmistajaperusajoneuvo",
+      "conceptdef": "Perusajoneuvon valmistaja (vaihevalmistus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hyvaksyntanro",
+      "variablename": "Hyvaksyntanro",
+      "conceptdef": "Hyväksyntänumero (vaihevalmistus, perusajoneuvo)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hyvaksyntapvm",
+      "variablename": "Hyvaksyntapvm",
+      "conceptdef": "Hyväksynnän päivämäärä (perusajoneuvo, vaihevalmistus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyyppiperus",
+      "variablename": "Tyyppiperusajoneuvo",
+      "conceptdef": "Perusajoneuvon tyyppi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "varianttiperus",
+      "variablename": "Varianttiperus",
+      "conceptdef": "Perusajoneuvon variantti (vaihevalmistus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "perusajoneuvonVersio",
+      "variablename": "PerusajoneuvonVersio",
+      "conceptdef": "Perusajoneuvon versio (vaihevalmistus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "monivaiheinenTyyppihyvaksynta",
+      "variablename": "MonivaiheinenTyyppihyvaksynta",
+      "conceptdef": "Monivaiheinen tyyppihyväksyntä kyllä/ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PerusajoneuvonMassa",
+      "variablename": "PerusajoneuvonMassa",
+      "conceptdef": "Perusajoneuvon massa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oletuslisamassa",
+      "variablename": "Oetuslisamassa",
+      "conceptdef": "Oletuslisämassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisasailio",
+      "variablename": "Lisäsäiliö",
+      "conceptdef": "Kyllä/Ei  tieto siitä onko kyseessä lisäpolttoainesäiliö. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "psailtil",
+      "variablename": "Polttoaineisäiliön tilavuus",
+      "conceptdef": "Ajoneuvon polttoainesäiliön tilavuus litroina. Arvossa on max 1 desimaali ajoneuvoluokilla L1 2, muilla 0 desimaalia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "turvav",
+      "variablename": "Turvavaruste",
+      "conceptdef": "Turvavarusteen laji\nan\tAktiivinen niskatuki\net\tEtuturvatyyny\nst\tSivuturvatyyny\nvk\tTurvavyön kiristin",
+      "measunit": null,
+      "classification": "ajot_30_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ohjtyyppi",
+      "variablename": "Ohjaamotyyppi",
+      "conceptdef": "Ajoneuvon ohjaamotyyppi.\n1\tUmpiohjaamo\n2\tSuojakehys\n3\tJatko-ohjaamo\n4\tAvo-ohjaamo",
+      "measunit": null,
+      "classification": "ajot_12_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "matka",
+      "variablename": "matkailuauto",
+      "conceptdef": "Ajoneuvoryhmätieto 29 eli matkailuauto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "museo",
+      "variablename": "Museoajoneuvo",
+      "conceptdef": "Ajoneuvoryhmätieto 21 eli rekisteröity museoajoneuvoksi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yksittaiskayttovoima",
+      "variablename": "Yksittäiskäyttövoima",
+      "conceptdef": "Ajoneuvolla voi olla useampi eri käyttövoima, joihin kulutus- ja päästötiedot liittyvät.\n10\tBiodiesel\n11\tLPG\n13\tCNG\n31\tMoottoripetroli\n54\tVety/Sähkö\n32\tDiesel/Puu\n33\tBensiini/Puu\n34\tBensiini + moottoripetroli\n37\tEtanoli\n38\tBensiini/CNG\n39\tBensiini/Sähkö\n40\tBensiini/Etanoli\n41\tBensiini/Metanoli\n42\tBensiini/LPG\n43\tDiesel/CNG\n44\tDiesel/Sähkö\n9\tKs. huom.\n01\tBensiini\n02\tDieselöljy\n03\tPolttoöljy\n04\tSähkö\n05\tVety\n06\tKaasu\n07\tMetanoli\n57\tL-ryhmän maakaasu\n58\tHL-ryhmän maakaasu\n59\tCNG/Biometaani\n60\tBiometaani\n61\tPuu\n62\tEtanoli (ED95)\n63\tEtanoli (E85)\n64\tVety-maakaasuseos\n65\tLNG\n66\tLNG20\n67\tDiesel/LNG\n68\tDiesel/LNG20\n45\tDiesel/Etanoli\n46\tDiesel/Metanoli\n47\tDiesel/LPG\n48\tDiesel/Biodiesel\n49\tDiesel/Biodiesel/Sähkö\n50\tDiesel/Biodiesel/Etanoli\n51\tDiesel/Biodiesel/Metanoli\n52\tDiesel/Biodiesel/LPG\n53\tDiesel/Biodiesel/CNG\n55\tDieselöljy/Muu\n56\tH-ryhmän maakaasu\nX\tEi sovellettavissa\nY\tMuu",
+      "measunit": null,
+      "classification": "ajot_13_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kierroksillaMeluPaikallaan",
+      "variablename": "Kierroksilla melu paikallaan",
+      "conceptdef": "Melumittauksen kierrosluku per minuutti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "voimakkuusmeluohiajossa",
+      "variablename": "Voimakkuus melu ohiajossa",
+      "conceptdef": "Meluarvo. Voimakkuus melu ohiajossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "voimakkuusmelupaikallaan",
+      "variablename": "Voimakkuus melu paikallaan.",
+      "conceptdef": "Meluarvo. Voimakkuus melu paikallaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aineistonajankohta",
+      "variablename": "Aineiston ajankohta",
+      "conceptdef": "Poikkileikkauksen ajankohdan osoittava päivämäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

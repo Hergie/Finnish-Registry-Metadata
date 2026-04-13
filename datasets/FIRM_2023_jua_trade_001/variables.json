@@ -1,0 +1,76 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritys- ja yhteisötunnus eli Y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EBOPS",
+      "variablename": "EBOPS",
+      "conceptdef": "PU:n palvelukoodi (EBOPS) (2013–) / Extended BoP Services (EBOPS) classification (2013-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FLOW_ITS",
+      "variablename": "FLOW_ITS",
+      "conceptdef": "Palvelukaupan / globaalin tuotannon suunta / Direction of services trade / global production arrangements ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CL_AREA_GEO_ITS",
+      "variablename": "CL_AREA_GEO_ITS",
+      "conceptdef": "Palvelukaupan / globaalin tuotannon vastinmaa / Counterpart country of services trade / global production arrangements ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COUNTRY_GRP_ITS",
+      "variablename": "COUNTRY_GRP_ITS",
+      "conceptdef": "Kaupan vastinmaiden ryhmittely / Grouping of counterpart countries of trade",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "STAT_VALUE_ITS",
+      "variablename": "STAT_VALUE_ITS",
+      "conceptdef": "Palvelukaupan / globaalin tuotannon arvo / Value of services trade / global production arrangements ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ITS_TYPE",
+      "variablename": "ITS_TYPE",
+      "conceptdef": "Kauppatiedon tyyppi (havaittu tai imputoitu) / Type of trade information (observed or imputed)  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "QUARTER",
+      "variablename": "QUARTER",
+      "conceptdef": "Vuosineljännes / Quater",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,1276 @@
+{
+  "variables": [
+    {
+      "identifier": "yr_yrek_liikevaihto",
+      "variablename": "Yrityksen liikevaihto, yritysrekisteri",
+      "conceptdef": "Liikevaihto, taustamuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_aloitusaika",
+      "variablename": "Yrityksen aloitusaika, yritysrekisteri",
+      "conceptdef": "Aloitusaika, taustamuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_tol95",
+      "variablename": "Toimialaluokitus 1995, yritysrekisteri",
+      "conceptdef": "Yrityksen päätoimiala, toimialaluokitus TOL 1995:n mukaan, taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_tol2008",
+      "variablename": "Toimialaluokitus 2008, yritysrekisteri",
+      "conceptdef": "Yrityksen toimiala, toimialaluokitus 2008, yritysrekisteristä, saatavissa 2006 alkaen. Taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_hk_suusruusluokka",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Henkilöstön suuruusluokka, yritysrekisteri, yritysrekisterissä SLHKY (9 luokkaa), taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_kotikunta",
+      "variablename": "Yrityksen kotikunta, yritysrekisteri",
+      "conceptdef": "Yrityksen kotikunta, taustamuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistajatyyppi",
+      "variablename": "omistajatyyppi",
+      "conceptdef": "Yrityksen omistajatyyppi vuoden 1995 luokituksen mukaan. Omistajatyyppejä ovat: 1 = Yksityinen kotimainen, 2 = Valtio, 3 = Kunta, 4 = Ahvenanmaan maakunta, 5 = Ulkomaalaisomisteinen, 6 = Muu omistajatyyppi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henlkm",
+      "variablename": "Henkilöstön määrä",
+      "conceptdef": "Johdettu henkilöstömäärään liittyvä taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRKKUNTA",
+      "variablename": "Yrityksen juridinen kotikunta (yrek)",
+      "conceptdef": "Yritysrekisterin mukainen yrityksen kotikunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henlkmyh",
+      "variablename": "Henkilökunnan lukumäärään liittyvä taustamuuttuja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol2008_su",
+      "variablename": "Toimiala tekstinä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otaomalv",
+      "variablename": "Yrityksen liikevaihto sovelletusti",
+      "conceptdef": "Yrityksen liikevaihtoa on käytettty sovelletusti, ei rekisteristä suoraan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKHLO",
+      "variablename": "Osuus henkilökunnasta käyt tietokonetta (%)",
+      "conceptdef": "Tietokonetta työssään käyttävän henkilöstön osuus koko henkilöstön määrästä (%).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPENKA",
+      "variablename": "Avoimen lähdenkoodin käyttöjärjestelmä (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä avoimen lähdekoodin käyttöjärjestelmä, esimerkiksi Linux.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPENIN",
+      "variablename": "Internet-selain (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä avoimen lähdekoodin internet-selain, esimerkiksi Mozilla, Firefox, Chrome.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPENTO",
+      "variablename": "Toimisto-ohjelma (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä avoimen lähdekoodin toimisto-ohjelma, esimerkiksi OpenOffice.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPENWE",
+      "variablename": "Web-palvelin (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä avoimen lähdekoodin web-palvelin, esimerkiksi Apache.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPENER",
+      "variablename": "ERP / CRM ohjelmat (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä avoimen lähdekoodin ERP- tai CRM-ohjelmat, esimerkiksi OpenERP.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPENMU",
+      "variablename": "Muu ohjelma (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä muu avoimen lähdekoodin ohjelma, esimerkiksi virustorjuntaohjelmat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HMR",
+      "variablename": "Henkilöstöhallinnon sähköiset palvelut (1=kyllä, 0=ei)",
+      "conceptdef": "työntekijöillä mahdollisuus käyttää henkilöstöhallinnon palveluja sähköisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POLPAP",
+      "variablename": "Paperin käytön vähentäminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä toimintalinjaus paperin käytön vähentämiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POLENE",
+      "variablename": "Energian kulutuksen vähentäminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä toimintalinjaus tieto- ja vietintätekniikan energian kulutuksen vähentämiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POLPUH",
+      "variablename": "Puhelin-, web- ja videoneuvottelujen käyttö (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä toimintalinjaus puhelin-, web- tai viedeoneuvottelujen kätyöstä matkustamisen sijasta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ETAYH",
+      "variablename": "Etäyhteys (1=kyllä, 0=ei)",
+      "conceptdef": "Ainakin joillakin yrityksen työntekijöillä on mahdollisuus päästä etäyhteyden kautta yrityksen sähköpostiin, dokumentteihin tai sovelluksiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTERNET",
+      "variablename": "Internet-yhteys (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä on internet-yhteys.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MODISDN",
+      "variablename": "Nettiyhteys ISDN tai modeemi (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä internet-yhteys ISDN:n tai analogisen puhelinmodeemin välityksellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "XDSL",
+      "variablename": "Nettiyhteys xdsl (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä internet-yhteystyyppi DSL, esimerkiksi ADSL, SDSL, jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIINMUU",
+      "variablename": "Nettiyhteys Muu laajakaista (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä muu kiinteä laajakaistainen internet-yhteys, esimerkiksi kaapelimodeemi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBLAP",
+      "variablename": "Nettiyhteys kannettava tietokone (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä langaton laajakaistainen internet-yhteys kannettavalla tietokoneella matkapuhelinverkossa ( 3G tai 4G).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOB3G",
+      "variablename": "Nettiyhteys matkapuhelin 3G (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä langaton laajakaistainen 3G tai 4G internet-yhteys matkapuhelimen kautta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBMUU",
+      "variablename": "Nettiyhteys muu matkapuhelin (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä muu hitaampi internet-yhteys matkapuhelinverkon välityksellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTNOP",
+      "variablename": "Nettiyhteyden suurin nopeus (\"1\"=<2Mbit/s, 2Mbit/s=<\"2\"<10Mbit/s, 10Mbit/s<=\"3\"<30Mbit/s, 30Mbit/s=\"4\"<100Mbit/s, 100Mbit=<\"5\"",
+      "conceptdef": "Yrityksen nopein käytössä oleva internet-yhteys teoreettisen maksiminopeuden mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INETHLO",
+      "variablename": "Osuus henkilökunnasta käyt Internetiä (%)",
+      "conceptdef": "Yrityksen sellaisten työntekijöiden osuus koko henkilöstöstä (%), joka käyttää työssään internet-yhteyden sisältävää tietokonetta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBHLO",
+      "variablename": "Osuus henkilökunnasta käyt kannettavaa laitetta (%)",
+      "conceptdef": "Osuus henkilökunnasta (%), jolla on käytössä yrityksen kustantama kannettava laite, jolla voi työasioissa ottaa internet-yhteyden matkapuhelinverkon kautta. Kannettavia laitteita ovat esimerkiksi kannettavat tietokoneet ja älypuhelimet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTI",
+      "variablename": "Kotisivut (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä on joko omat internet-kotisivut tai oma osio yritysryhmän kotisivuilla. Myös extranet-ratkaisut lasketaan kotisivuiksi. Kotisivuilla ei tarkoiteta esimerkiksi yrityksen yhteystietojen julkaisua erilaisilla yritys- tai osoitelistoilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMARK",
+      "variablename": "Tuotteiden markkinointi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää kotisivujaan tuotteiden markkinointiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTPRIV",
+      "variablename": "Yksityisyyden suoja (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on tietoa yksityisyyden suojasta tai kotisivujen turvallisuuteen liittyvä todistus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTLUET",
+      "variablename": "Luettelot tai hinnastot (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on saatavilla tuoteluetteloita tai hinnastoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMUTU",
+      "variablename": "Tuotteiden muokkaus (1=kyllä, 0=ei)",
+      "conceptdef": "Asiakkaalla on mahdollisuus muokata (räätälöidä) tuotteita tai palveluja yrityksen kotisivuilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMUSI",
+      "variablename": "Sisällön muokkaus, personointi (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen sivuston sisältöä voi muokata asiakaskohtaisesti, eli asiakkaalle on kotisivuilla personoitua sisältöä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTOSTO",
+      "variablename": "Tilaukset tai varaukset (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on tilaukset tai varaukset-toiminto, esimerkiksi ostoskori.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTTILSE",
+      "variablename": "Tilausten seuranta (1=kyllä, 0=ei)",
+      "conceptdef": "Asiakkaalla on mahdollisuus seurata tilauksiaan yrityksen kotisivuilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTAVOIN",
+      "variablename": "Avoimet työpaikat (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on ilmoitukset avoimista työpaikoista tai mahdollisuus jättää hakemus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRTIE",
+      "variablename": "Tiedon hankinta viranomaisilta netissä (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käytti internetiä tiedon hankintaan julkisen hallinnon kotisivuilta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRLOM",
+      "variablename": "Lomakkeiden hankinta viranomaisilta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käytti internetiä lomakkeiden hankintaan julkisen hallinnon internet-sivuilta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRPAL",
+      "variablename": "Lomakkeiden palauttaminen viranomaisille (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys palautti täytettyjä lomakkeita julkiseen hallintoon  sähköisesti. Sähköisten lomakkeiden täyttö ja palauttaminen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMSOTU",
+      "variablename": "Sosiaaliturvamaksujen ilmoittaminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ilmoitti työnantajasuoritukset, esimerkiksi sosiaaliturvamaksut sähköisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMVERO",
+      "variablename": "Tuloverotietojen ilmoittaminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ilmoitti tuloveroa koskevia tietoja viranomaisille sähköisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMALV",
+      "variablename": "Arvonlisäverotietojen ilmoittaminen netissä (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ilmoitti arvonlisäveroa koskevia tietoja viranomaisille sähköisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ILMTUL",
+      "variablename": "Tulli-ilmoitusten jättö netissä (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys jätti tulli-ilmoitukset viranomaisille sähköisesti",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAJTUR",
+      "variablename": "Rajoite: Huoli tietoturvallisuudesta (1=kyllä, 0=ei)",
+      "conceptdef": "Huoli tietoturvallisuudesta rajoitti yrityksen sähköistä asiointia viranomaisten kanssa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAJVAI",
+      "variablename": "Rajoite: asiointi monimutkaista ja aikaa vievää (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen asiointia viranomaisten kanssa rajoitti liian monimutkainen ja aikaa vievä asiointitapa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAJPAP",
+      "variablename": "Rajoite: lisäksi paperipostin tai henk.koht käynnin tarve (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen sähköistä asiointia viranomaisten kanssa rajoitti se, että sähköisen asioionnin lisäksi tarvitaan paperiposti tai henkilökohtainen käynti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAJTIE",
+      "variablename": "Rajoite: tietämättömyys saatavuudesta (1=kyllä, 0=ei)",
+      "conceptdef": "Tietämättömyys sähköisen asioinnin saatavuudesta rajoitti yrityksen sähköistä asiointia viranomaisten kanssa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRKAV",
+      "variablename": "Käynti julk hank ilm järj (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys kävi julkisten hankintailmoitusten ilmoitusjärjestelmässä, esimerkiksi HILMA, CREDITA.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILHASU",
+      "variablename": "Tuotteet tilattavissa julk hank järj kotimaa (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen tuotteet tai palvelut ovat tilattavissa Suomessa julkisen hallinnon sähköisissä hankintajärjestelmissä kuten Tilha (tilausten hallinnan kokonaispalvelu) tai kuntien vastaavissa hankintajärjestelmissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILHAEU",
+      "variablename": "Tuotteet tilattavissa julk hank järj EU (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen tuotteet tai palvelut ovat tilattavissa muiden EU-maiden julkisen hallinnon sähköisissä hankintajärjestelmissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETCOM",
+      "variablename": "Nettimyynti (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys on ottanut vastaan tuotteiden tai palveluiden tilauksia internetin kautta. Valmiille sähköiselle lomakkeelle Internetissä täytetty ja lähetetty tilaus sekä varsinaisissa verkkokaupoissa tehty kauppa ovat tässä tarkoitettua sähköistä kauppaa. Myös extranetissä käyty kauppa samoin kriteerein laskettuna on internet-kauppaa. Sen sijaan sähköpostiviestinä tehdyt tilaukset eivät ole sähköistä kauppaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVOL",
+      "variablename": "Ilmoitettu nettimyynnin arvo (euro)",
+      "conceptdef": "Internet-tilausten osuus liikevaihdosta (euro)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVOLOS",
+      "variablename": "Ilmoitettu nettimyynnin osuus liikevaihdosta (%)",
+      "conceptdef": "Internet-tilausten osuus liikevaihdosta (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASYRIT",
+      "variablename": "Osuus nettimyynnistä yrityksille (%)",
+      "conceptdef": "Yrityksiltä ja julkiselta sektorilta saatujen internet-tilausten osuus nettitilausten kokonaisarvosta (%).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKOTIT",
+      "variablename": "Osuus nettimyynnistä kotitalouksille (%)",
+      "conceptdef": "Kotitalouksilta saatujen internet-tilausten osuus nettitilausten kokonaisarvosta (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAVAR",
+      "variablename": "Osuus nettimyynnistä tavaroina (%)",
+      "conceptdef": "Tavaroiden ja aineellisten hyödykkeiden osuus nettimyynnistä (%). Tuotteet tilataan netistä ja toimitetaan myöhemmin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIGIAR",
+      "variablename": "Osuus nettimyynnistä sähk tuotteina (%)",
+      "conceptdef": "Sähköisten tuotteiden osuus nettimyynnistä (%). Tuotteet ladataan ja/tai tallennetaan tai saadaan käyttöön internetissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALVAR",
+      "variablename": "Osuus nettimyynistä palveluina (%)",
+      "conceptdef": "Palvelujen osuus nettimyynnistä (%). Palvelut tilataan internetissä, mutta käytetään myöhemmin, esimerkiksi majoitus, matkat, pääsyliput.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASSUOMI1",
+      "variablename": "Tilaukset  Suomesta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys sai tilauksia internet-kaupalla Suomesta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASEU1",
+      "variablename": "Tilaukset  muualta EU:sta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys sai  tilauksia internet-kaupalla muualta EU-alueelta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASMUU1",
+      "variablename": "Tilaukset  muista maista (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys sai  tilauksia internet-kaupalla muista kuin EU-maista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIVAST",
+      "variablename": "Vastaanotetut myyntitilaukset EDI:llä (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti vastaan tilauksia sähköisellä tiedonsiirrolla eli EDI:llä. Sähköinen tiedonsiirto eli EDI (Electronic Data Interchange) on menettely, jossa yrityksen tietojärjestelmässä sijaitsevista tiedoista tuotetaan määrämuotoinen tietovirta, joka välitetään sähköisesti vastaanottavaan organisaatioon ja on siellä automaattisesti jatkokäsiteltävissä, esim. tilaus, lasku, tulliasiakirja tai rahtikirja. Sähköinen kauppa yrityksen myynneissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMYVOL",
+      "variablename": "Ilmoitettu Edi myynnin arvo (euro)",
+      "conceptdef": "EDI:n välityksellä saatujen tilausten osuus liikevaihdosta, EDI-kaupan arvo (euro)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMYVOLOS",
+      "variablename": "Ilmoitettu Edi myynnin osuus liikevaihdosta (%), arvio.",
+      "conceptdef": "EDI:n välityksellä saatujen tilausten osuus liikevaihdosta (%)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDISUOMI1",
+      "variablename": "Edi tilaukset Suomesta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti vastaan tilauksia EDI:n välityksellä Suomesta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIEU1",
+      "variablename": "Edi tilaukset muualta EU:sta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti vastaan tilauksia EDI:n välityksellä muualta EU:n alueelta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIMUUM1",
+      "variablename": "Edi tilaukset muista maista (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti vastaan tilauksia EDI:n välityksellä muista kuin EU-maista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ECOMOS",
+      "variablename": "Ostotilaukset sähköisellä kaupalla (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys teki ostotilauksia sähköisellä kaupalla, esimerkiksi verkkokaupasta, web-lomakkeilla myyjän kotisivuilla tai automaattisella tiedonsiirrolla, EDI:llä. Sähköinen kauppa yrityksen ostoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ECOMOSAR",
+      "variablename": "Osuus sähk kaupalla tehdyt ostot (%)",
+      "conceptdef": "Sähköisellä kaupalla tehtyjen ostotilausten arvo osuutena yrityksen kaikkien ostojen arvosta. 1= <1%, 2=1-4%, 3=5-9%, 4=10-24%, 5=25-49%, 6=50-75%, 7= >75%.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTWEB",
+      "variablename": "Ostot verkkokaupoista tai web-lomakkeella (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys teki ostoja verkkokaupoista tai web-lomakkeella myyjän kotisivuilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTEDI",
+      "variablename": "Ostot edillä (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys teki ostoja automaattisella tiedonsiirrolla, EDI/OVT, EDIFACT, ODETTE, XML/EDI.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSSUOMI",
+      "variablename": "Ostot Suomesta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys teki ostoja sähköisellä kaupalla Suomesta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSEU",
+      "variablename": "Ostot muualta EU:sta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys teki ostoja sähköisellä kaupalla muualta EU-alueelta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSMUU",
+      "variablename": "Ostot muista maista (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys teki ostoja sähköisellä kaupalla muista maista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTTIED",
+      "variablename": "Autom tiedonvaihdon käyttö (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytetty automatisoitua tiedonvaihtoa tietojen lähettämiseen tai vastaanottamiseen. Automatisoidulla tiedonvaihdolla tarkoitetaan tietojärjestelmästä tuotettua määrämuotoista tiedonvaihtoa, joka välitetään sähköisesti vastaanottavaan organisaatioon ja on siellä automaattisesti jatkokäsiteltävissä, esim. sähköinen tilaus, lasku, rahtikirja tai palkka-aineisto. Tällaista tiedonvaihtoa kutsutaan usein EDI:ksi (Electronic Data Interchange). Suomessa käytetään usein termiä EDI/OVT ja viranomaisten kanssa asioitaessa TYVI-tiedonsiirtoa (tässä ei tarkoiteta web-lomakkeilla asiointia). Esimerkkejä EDI:stä : EDIFACT, ODETTE, XML/EDI. Myös standardien ulkopuoliset muiden osapuolten kanssa sovitut määrämuotoiset viestimuodot ovat tässä tarkoitettua tiedonvaihtoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTTUOTE",
+      "variablename": "Tuoteinformaatio lähett tai vastaanott (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää automatisoitua EDI-tyyppistä tiedonvaihtoa tuoteinformaation lähettämiseen tai vastaanottamiseen. Tuoteinformaatiota ovat  esimerkiksi hinnat, luettelot, jne. EDI-tyyppisellä (Electronic Data Interchange) tiedonvaihdolla tarkoitetaan tietojärjestelmästä tuotettua määrämuotoista tiedonvaihtoa, joka välitetään sähköisesti vastaanottavaan organisaatioon ja on siellä automaattisesti jatkokäsiteltävissä, esim. sähköinen tilaus, lasku, rahtikirja tai palkka-aineisto. Suomessa käytetään usein termiä EDI/OVT ja viranomaisten kanssa asioitaessa TYVI-tiedonsiirtoa (tässä ei tarkoiteta web-lomakkeilla asiointia). Esimerkkejä EDI:stä : EDIFACT, ODETTE, XML/EDI. EDIFACT on YK:n sanomastandardi. XML/EDI:llä tarkoitetaan XML-standardin käyttöä yritysten liiketoimintaan liittyvien tietojen siirrossa toiselle organisaatiolle, esim. xCBL, RosettaNet, PapiNet, ebXML. Myös standardien ulkopuoliset muiden osapuolten kanssa sovitut määrämuotoiset viestimuodot ovat tässä tarkoitettua tiedonvaihtoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTKULJ",
+      "variablename": "Kuljetusasiakirja lähett tai vastaanott (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää automatisoitua EDI-tyyppistä tiedonvaihtoa kuljetusasiakirjojen lähettämiseen tai vastaanottamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTMAKSU",
+      "variablename": "Maksutieto lähettäminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää automatisoitua EDI-tyyppistä tiedonvaihtoa maksutietojen lähettämiseen rahoituslaitoksille.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTVIR",
+      "variablename": "Viranomaistieto lähettäm tai vastaanott (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää automatisoitua (esim. TYVI-tyyppistä) tiedonvaihtoa tietojen lähettämiseen tai vastaanottamiseen viranomaisilta, esimerkiksi taloushallinto-ohjelman TYVI-siirtona.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTEDI",
+      "variablename": "EDI tai vast standardit (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytetty sähköisessä tiedonvaihdossa EDIFACT tai vastaavaa standardia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTXML",
+      "variablename": "XML-pohjaiset standardit (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytetty sähköisessä tiedonvaihdossa XML-pohjaisia standardeja, esimekiksi xCBL, ebXML.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTTYVI",
+      "variablename": "Tyvi-tiedonsiirto viranom (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytetty TYVI-tiedonsiirtoa viranomaisille. Ei tarkoiteta web-lomakkeita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTOWN",
+      "variablename": "Omat sovitut määrämuodot (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytetty sähköisessä tiedonvaihdossa omia, toisen osapuolen kanssa sovittuja määrämuotoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASVAVER",
+      "variablename": "Vastaanott verkkolaskuja (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti  vastaan verkkolaskuja. Verkkolasku on yleisesti käytössä olevan sanomakuvauksen mukaan laadittu sähköinen lasku, jonka tiedot ovat automaattisesti käsiteltävissä tai tulkittavissa. Verkkolaskut lähetetään palveluoperaattorin tai pankin kautta. Esim. Finvoice, eInvoice, TEAPPSXML, PostiXML. Sähköisellä laskulla tarkoitetaan laskua, joka välitetään sähköisessä muodossa: EDI-lasku, verkkolasku, sähköpostilasku tai muu sähköinen lasku. Sähköisellä laskulla ei tarkoiteta verkkopankkiin itse syötettäviä maksuja tai suoraveloitusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASVAEDI",
+      "variablename": "Vastaanott Edi-laskuja (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti  vastaan EDI-laskuja. EDI-lasku on EDI-rakennekuvauksen mukainen konekielinen sähköinen lasku. EDI-laskut lähetetään usein palveluoperaattorin kautta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASVAMUU",
+      "variablename": "Vastaanott muita sähköisiä laskuja (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti  vastaan muita sähköisiä laskuja, esimerkiksi sähköpostilaskuja. Sähköpostilasku on sähköpostin liitteenä lähetettävä, esim. pdf-muotoinen lasku.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASLAVER",
+      "variablename": "Lähett verkkolaskuja (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys lähetti verkkolaskuja. Verkkolasku on yleisesti käytössä olevan sanomakuvauksen mukaan laadittu sähköinen lasku, jonka tiedot ovat automaattisesti käsiteltävissä tai tulkittavissa. Verkkolaskut lähetetään palveluoperaattorin tai pankin kautta. Esim. Finvoice, eInvoice, TEAPPSXML, PostiXML.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASLAEDI",
+      "variablename": "Lähett Edi laskuja (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys lähetti EDI-laskuja. EDI-lasku on EDI-rakennekuvauksen mukainen konekielinen sähköinen lasku. EDI-laskut lähetetään usein palveluoperaattorin kautta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASLAMUU",
+      "variablename": "Lähett muita sähköisia laskuja (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys lähetti muita sähköisiä laskuja, esimerkiksi sähköpostilaskuja. Sähköpostilasku on sähköpostin liitteenä lähetettävä, esim. pdf-muotoinen lasku.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIMYVAR",
+      "variablename": "5.1a)autom  varastotaso, myynti (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen asiakkaalta vastaanottamat tilauksen tiedot ovat automaattisesti käytettävissä varastotasojen hallintaan tarkoitetuissa ohjelmistoissa. Automaattinen tiedon jakaminen yrityksen sisällä. Automaattisella tiedon jakamisella yrityksen sisällä tarkoitetaan tietojärjestelmään syötettyä tai luettua tietoa, joka on automaattisesti yrityksen eri osien tai eri toimintojen tietojärjestelmien käytössä jollakin seuraavista tavoista: 1)yksi yhtenäinen ohjelmisto, joka tukee eri toimintoja, 2)eri ohjelmistojen välinen integrointi, 3)yhteinen tietokanta tai tietotavaratalo, jonka tietoja eri ohjelmistot käyttävät, 4)automaattinen tiedonvaihto eri ohjelmistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIMYKIR",
+      "variablename": "5.1b)autom kirjanpito, myynti (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen asiakkaalta vastaanottamat tilauksen tiedot ovat automaattisesti käytettävissä kirjanpidon ohjelmistoissa. Automaattinen tiedon jakaminen yrityksen sisällä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIMYTUO",
+      "variablename": "5.1c)autom tuotanto, myynti (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen asiakkaalta vastaanottamat tilauksen tiedot ovat automaattisesti käytettävissä tuotannon ja palvelujen hallintaan tarkoitetuissa ohjelmistoissa. Automaattinen tiedon jakaminen yrityksen sisällä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIMYJAK",
+      "variablename": "5.1d)autom jakelu (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen asiakkaalta vastaanottamat tilauksen tiedot ovat automaattisesti käytettävissä jakelun ja toimitusten hallintaan tarkoitetuissa ohjelmistoissa. Automaattinen tiedon jakaminen yrityksen sisällä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIOSVAR",
+      "variablename": "5.2a)autom varasto, osto (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen tekemän ostotilauksen tiedot ovat automaattisesti käytettävissä varastotasojen hallintaan tarkoitetuissa ohjelmistoissa. Automaattinen tiedon jakaminen yrityksen sisällä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIOSKIR",
+      "variablename": "5.2b)autom kirjanpito, osto (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen tekemän ostotilauksen tiedot ovat automaattisesti käytettävissä kirjanpidon ohjelmistoissa. Automaattinen tiedon jakaminen yrityksen sisällä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERP1",
+      "variablename": "ERP toiminnanohjaus (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä toiminnanohjausjärjestelmä, ERP-ohjelmisto. ERP:llä tarkoitetaan yrityksen toimintojen hallintaa sellaisen tietokoneohjelmiston avulla jossa integroidaan valikoima toimintoja toisiinsa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CRMINF",
+      "variablename": "CRM asiakastiedot (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä asiakastiedon hallinnoimiseen tarkoitettu ohjelmisto CRM, joka mahdollistaa hankkia ja tallettaa asiakastietoja sekä käyttää niitä muualla yrityksessä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CRMANA",
+      "variablename": "CRM asiakastietojen analysointi (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä asiakastiedon hallinnoimiseen tarkoitettu ohjelmisto CRM, joka mahdollistaa analyysien tekemisen asiakastiedoista markkinointitarkoituksiin, esimerkiksi hinnan asetanta, myynnin edistäminen, jakelukanavien valinta jne.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RFID",
+      "variablename": "RFID-tekniikka  (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää RFID-tekniikkaa. RFID (Radio Frequency Identification) on yleisnimitys radiotaajuuksilla toimiville etätunnistustekniikoille. Sitä käytetään esim. henkilötunnistukseen, kulunvalvontaan, käyttöomaisuuden seurantaan tai tuotteiden\ntunnistukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RFIDHLO",
+      "variablename": "RFID henkilötunnistus, kulunvalvonta (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää RFID -tekniikkaa henkilötunnistukseen tai kulunvalvontaan. RFID (Radio Frequency Identification) on yleisnimitys radiotaajuuksilla toimiville etätunnistustekniikoille. Sitä käytetään esim. henkilötunnistukseen, kulunvalvontaan, kuljetusten seurantaan, käyttöomaisuuden seurantaan tai tuotteiden tunnistukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RFIDVP",
+      "variablename": "RFID valmistus tai palveluntoim (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää RFI -tekniikkaa tuotteiden valmistuksen tai palvelun toimittamisen yhteydessä (esim. teollisen tuotannon seuranta ja ohjaus, toimitusketjun tai varastojen hallinta, kuljetusten seuranta, huollon tai ylläpidon hallinta, käyttöomaisuuden seuranta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RFIDTU",
+      "variablename": "RFID tuotteiden tunnistus (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää RFID -tekniikka tuotteiden tunnistamisessa, esimerkiksi aitouden tunnistuksessa, varashälytyksissä tai tuoteinformaatiossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOTI",
+      "variablename": "Internet sivut, suunnnittelu&kehitt.&ylläpito: (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKAU",
+      "variablename": "Internet/extranet kauppapaikka asiakkaille: (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULYRSO",
+      "variablename": "Muu yritysten välinen sovellus: (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULSOKE",
+      "variablename": "Sovellusten kehittäminen tai ylläpito: (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULSYST",
+      "variablename": "Muu tietotekniikkasysteemien kehittäminen: (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULPAPC",
+      "variablename": "Palvelinten tai PC-ympäristön käyttö/ylläpito:  (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULTUKI",
+      "variablename": "Käyttäjätuki:  (1=kokonaan ulkop, 2=pääosin ulkop, 3=yhtä paljon ulkop ja oma, 4=pääosin oma, 5=kokonaan oma, 0=eos, ei relevantti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OWN",
+      "variablename": "Ohjelmat omaan käyttöön (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on omaa henkilökuntaa, joka on kehittänyt tai valmistanut tietokoneohjelmia yrityksen omaan käyttöön. Tarkoitetaan niitä tietotekniikkainvestointeja, jotka syntyneet omaan käyttöön tulevien tietokoneohjelmien valmistamiseen käytetyn oman henkilökunnan kehittämis- tai valmistamistyön kustannuksista. Mukaan otetaan vain oman henkilökunnan työ.  Sitä osaa työstä, joka on ulkoistettu tai konsernin muiden yritysten tekemää työtä, ei tule laskea tähän. Yrityksen konsernin muille yrityksille tekemä työ lasketaan tähän niiltä osin kuin se on tehty veloituksetta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OWNYAR",
+      "variablename": "Omien ohjelmien valmistusaika (henkilötyövuotta)",
+      "conceptdef": "Omaan käyttöön tulevien ohjelmien kehittämiseen ja valmistamiseen käytetty aika henkilötyövuosina. Henkilötyövuosi vastaa yhden täyspäiväisen työntekijän vuoden työaikaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus rakennetilastosta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVAIHTO",
+      "variablename": "Uusi liikevaihto",
+      "conceptdef": "Rakennetilaston liikevaihto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkone",
+      "variablename": "Johdettu muuttuja: yrityksessä tietokone käytössä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "auttied1",
+      "variablename": "auttied ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag10",
+      "variablename": "auttied imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laaja",
+      "variablename": "laajak_by_tyyppi_ei_mob_(e_broad)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laaj2",
+      "variablename": "laajak_by_tyyppi_mob_mukana_(e_broad2)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mlaaj",
+      "variablename": "mobiili_laaja_(e_mobbb)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "e_mob2",
+      "variablename": "mobiili_(e_mob2)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag1",
+      "variablename": "korj_tkhlo_inethlo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlo1",
+      "variablename": "inethlo ennen loog korj",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hlok",
+      "variablename": "Tilastossa käytetty henkilökunnan lukumäärä tilastoyksikössä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lveuro",
+      "variablename": "Liikevaihto euroina",
+      "conceptdef": "Lopullinen tilaston liikevaihto, jossa käytetty ensisijaisesti rakennetilaston liikevaihtoa, toissijaisesti yritysrekisterin liikevaihtoa ja viimeisenä vaihtoehtona arvioitua liikevaihtoa (OTAOMALV=1), jos em. tietoja ei ole saatavissa tai arvioitu liikevaihto muutoin soveltuu paremmin yrityksen vastaukseen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "netvoleur",
+      "variablename": "Nettimyynnin arvo (euro), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yriteuro",
+      "variablename": "Nettimyynti yrityksille (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotiteuro",
+      "variablename": "Nettimyynti kotitalouksille (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tavaeuro",
+      "variablename": "Nettimyynnin arvo tavaroina (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digieuro",
+      "variablename": "Nettimyynnin arvo sähköisinä tuotteina (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palveuro",
+      "variablename": "Nettimyynnin arvo palveluina (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emyvoleur",
+      "variablename": "EDI-myynnnin arvo (euro), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "netvolosuudet",
+      "variablename": "Nettikaupan osuus liikevaihdosta (%), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emyvolosuudet",
+      "variablename": "EDI-kaupan osuus liikevaihdosta (%), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KODE",
+      "variablename": "Ositemuuttuja kotimaiset laskelmat",
+      "conceptdef": "Tilastossa ao. tilastoyksikön ositemuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ison",
+      "variablename": "N kotimaisissa laskelmissa",
+      "conceptdef": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä kehikossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pikkun",
+      "variablename": "n kotimaisissa laskelmissa",
+      "conceptdef": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä (lopullisessa) otoksessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "kotimaisten laskelmien yritysten lukumäärän perustuva korotuskerroin",
+      "conceptdef": "Tilastossa ao. tilastoyksikön kerroin yritysten lukumäärään liittyvissä laskuissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apukode",
+      "variablename": "ositemuuttuja EU laskelmat",
+      "conceptdef": "Tilastossa ao. tilastoyksikön ositemuuttuja Eulle toimitettavassa datassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ison2",
+      "variablename": "N EU-laskelmissa",
+      "conceptdef": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä kehikossa EU-laskuissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pikkun2",
+      "variablename": "n EU-laskelmissa",
+      "conceptdef": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä (lopullisessa) otoksessa EU-laskuissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERR",
+      "variablename": "kotimaisten laskelmien liikevaihtoon perustuva korotuskerroin",
+      "conceptdef": "Tilastossa ao. tilastoyksikön kerroin liikevaihtoon liittyvissä laskuissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOKERR",
+      "variablename": "kotimaisten laskelmien henkilökuntamäärään perustuva korotuskerroin",
+      "conceptdef": "Tilastossa ao. tilastoyksikön kerroin henkilöstön määrään liittyvissä laskuissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERRb",
+      "variablename": "EU laskelmien liikevaihtoon perustuva korotuskerroin",
+      "conceptdef": "Tilastossa ao. tilastoyksikön kerroin liikevaihtoon liittyvissä laskuissa EU:lle",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKMKERRb",
+      "variablename": "EU laskelmien yritysten lukumäärän perustuva korotuskerroin",
+      "conceptdef": "Tilastossa ao. tilastoyksikön kerroin yritysten lukumäärään liittyvissä laskuissa EU:lle",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOKERRb",
+      "variablename": "EU-laskelmien henkilökuntamäärään perustuva korotuskerroin",
+      "conceptdef": "Tilastossa ao. tilastoyksikön kerroin henkilöstön määrään liittyvissä laskuissa EU:lle",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkhlo1",
+      "variablename": "tkhlo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag2",
+      "variablename": "tkhlo imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlo2",
+      "variablename": "inethlo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag3",
+      "variablename": "inethlo imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tklkm",
+      "variablename": "laskettu tietokoneen käyttäjien lkm",
+      "conceptdef": "Johdettu muuttuja, tietokonetta käyttävän henkilökunnan lukumäärä MUUTTUU",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inetlkm",
+      "variablename": "laskettu netin käyttäjien lkm",
+      "conceptdef": "Johdettu muuttuja, tietokonetta, jossa netttiyhteys käyttävän henkilökunnan lukumäärä MUUTTUU",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "moblkm",
+      "variablename": "laskettu mobiililaitteen käyttäjien määrä",
+      "conceptdef": "Johdettu muuttuja, mobiililaitetta käyttävän henkilökunnan lukumäärä MUUTTUU",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

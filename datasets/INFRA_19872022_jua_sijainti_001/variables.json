@@ -1,0 +1,60 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksiöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta",
+      "variablename": "Kunta",
+      "conceptdef": "Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 1.1. tilastovuosi + 1 vuodesta 1999 lähtien. Tätä ennen aluejako on ollut 1.1. tilastovuosi. Kuntanumero 3 merkkiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "euref_1000",
+      "variablename": "1 km -ruudun tunniste (euref)",
+      "conceptdef": "1 neliökilometriruudun (hilaruudukko) tunnus EUREF-FIN-koordinaatistossa (ETRS89-TM35FIN). Vastaa avoimen Tilastoruudukko 1 km x 1 km -paikkatietoaineiston muuttujaa 'nro'. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Spatiaalisettiedot"
+    },
+    {
+      "identifier": "posti_alue",
+      "variablename": "Tilastollinen postinumeroalue",
+      "conceptdef": "Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Tilastokeskuksessa ylläpidettävää tilastolliset postinumeroalueet kartta-aineistoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Spatiaalisettiedot"
+    },
+    {
+      "identifier": "rnro_s",
+      "variablename": "Suojattu rakennusnumero",
+      "conceptdef": "Suojattu rakennusnumero korvaa kullekin rakennukselle tietokantaan lisäyksen yhteydessä annetun yksilöivän numeron.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rappu_s",
+      "variablename": "Suojattu rappukäytävän tunnus",
+      "conceptdef": "Rakennuskohtainen suojattu rapputunnus on vain asutuilla kerros- ja rivitalohuoneistoilla vuodesta 2005 alkaen. Tieto puuttuu, jos rakennuksessa on vähemmän kuin kolme asuttua huoneistoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

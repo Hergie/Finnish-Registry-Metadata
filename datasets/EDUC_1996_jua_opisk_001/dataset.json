@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "EDUC_1996_jua_opisk_001.xml",
+      "doi": "he_201304_ain_Opiskelutekeilla",
+      "subject": "EDUC_OPISK Opiskelijat 1996",
+      "contentdescription": "EDUC_OPISK Opiskelijat 1996 -vuositiedosto sisältää syksyllä 1996 tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat. Aineisto muodostettu siten, että vuoden 1995 opiskelija-aineistosta on poistettu syksyyn 1996 mennessä tutkinnon suorittaneet ja lisätty vuonna 1996 aloittaneet yhteishakuaineistosta päivälukio-, ammatillisen ja ammattikorkeakoulukoulutuksen osalta.\n\nMUUTOKSIA VUOTEEN 1995 VERRATTUNA:\n\n- Edellisvuoden tiedot perustuivat kerättyyn tietoon, nyt tiedot on jouduttu päättelemään\t\n- Tiedostosta on poistettu useita muuttujia, mm. kans, kieli ja aikoul\t\n- Uutena muuttujana uusi (aloittanut vuonna 1996)\n\nYLEISIMMÄT KÄYTTÖTAVAT:\n\nMuuttujalla kryh saadaan valittua erikseen lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkeakoulutuksessa sekä yliopistokoulutuksessa opiskelevat. Huom! Jos halutaan valita ammattikorkeakoulut, ne saa helpoimmin muuttujalla kryh=41 ja 42\t\ntai muuttujalla opasteu=4.\n\nJos tiedot halutaan koulutuksittain, käytetään yleensä TK:n koulutusluokituksen (standardiluokitus) 6-numeroista koulutuskoodia, joka löytyy muuttujasta koulk.\n\nLUOKITUKSET:\n\nTiedostossa ovat sekä TK:n vanhan koulutusluokituksen 5-numeroiset koulutuskoodit (ja niihin liittyvät muut luokitusmuuttujat) että vuonna 1997 käyttöön otetun TK:n uuden koulutusluokituksen 6-numeroiset koulutuskoodit (ja niihin liittyvät muut luokitusmuuttujat). Myös 1997 muuttuneesta Unescon ISCED-luokituksesta tiedostossa on sekä uuden että vanhan luokituksen tiedot.\n\nTIETOLÄHTEET:\n\nTiedot päivälukioiden ja ammatillisten oppilaitosten sekä väliaikaisten ammattikorkeakoulujen opiskelijoista perustuvat pääteltyihin tietoihin. Päättely on tehty vuoden 1995 aineiston pohjalta yhteishaku- ja tutkintorekisteritietoja hyväksikäyttäen samaan tapaan kuin vuosina 1997 ja 1998 (ks. näiltä vuosita tehdyt aineistokuvaukset).\t\n\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi\n",
+      "coveragetemporal": "1996-01-01 - 1996-12-31",
+      "published_day": "2020-05-14",
+      "variable_count": "29",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Tutkintoon johtavan koulutuksen opiskelijat Suomessa",
+      "resourcerelation_1": "TK: Oppilaitostilastot",
+      "resourcerelation_2": null,
+      "keywords": "Opiskelija,opiskelu,oppilas",
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

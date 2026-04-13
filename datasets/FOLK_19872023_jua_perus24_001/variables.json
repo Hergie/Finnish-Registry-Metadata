@@ -1,0 +1,492 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste ",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Syntymävuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kuolv",
+      "variablename": "Kuolinvuosi",
+      "conceptdef": "Kuolinvuosi. Henkilön kuolinvuosi päivittyy kuolinvuotta edeltävälle tilastovuodelle. Tilastovuoden toisessa päivityksessä päivittyy tieto niistä kuolemista, jotka ovat tulleet tilastoon viiveellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestonmuutos"
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa folk_perus_sukup_1. \n1 = Mies\n2 = Nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "smkunta",
+      "variablename": "Syntymämaakunta",
+      "conceptdef": "Maakunta tuoreimman alueluokituksen mukainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "skunta",
+      "variablename": "Syntymäkunta",
+      "conceptdef": "Syntymäkotikunta on henkilön syntymävuoden kuntaluokituksen mukainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "svaltio_k",
+      "variablename": "Syntymävaltio",
+      "conceptdef": "Henkilön syntymävaltio.\n 1=Suomi \n2=Muu \nbl= puuttuva",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kansa1_k",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "Henkilön viimeisin kansalaisuustieto. Tieto on vuoteen 2020 asti sama  joka vuonna, vaikka henkilön kansalaisuus olisi muuttunut. \n1 = suomi \n2 = muu \nbl = puuttuva",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "syntyp2",
+      "variablename": "Syntyperä",
+      "conceptdef": "Syntyperä, arvot:\n11= Suomalaistaustainen, syntynyt Suomessa \n12 =Suomalaistaustainen, syntynyt ulkomailla \n21= Ulkomaalaistaustainen, syntynyt Suomessa \n22= Ulkomaalaistaustainen, syntynyt ulkomailla\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kieli_k",
+      "variablename": "Kieli",
+      "conceptdef": "Henkilön viimeisin kielitieto. Tieto on vuoteen 2020 asti sama  joka vuonna, vaikka henkilön kieli olisi muuttunut. \n1 = suomi \n2 = ruotsi  \n3 = muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä",
+      "conceptdef": "Henkilön ikä vuosissa vuoden lopussa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "mkunta",
+      "variablename": "Asuinmaakunta",
+      "conceptdef": "Maakunta tuoreimman alueluokituksen mukainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kunta",
+      "variablename": "Asuinkunta",
+      "conceptdef": "Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 1.1. tilastovuosi + 1 vuodesta 1999 lähtien. Tätä ennen aluejako on ollut 1.1. tilastovuosi. Kuntanumero 3 merkkiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "kuntaryhm",
+      "variablename": "Kuntaryhmä (kunta)",
+      "conceptdef": "Asuinkunnan kuntaryhmä. Alueluokitus on 1.1. tilastovuosi + 1. Tietoja vuodesta 1999 lähtien.\n\n1 kaupunkimaiset kunnat \n2 taajaan asutut \n3 maaseutumaiset. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta31_12",
+      "variablename": "Asuinkunta tilastovuonna",
+      "conceptdef": "Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 31.12. tilastovuosi. Kuntanumero 3 merkkiä. Tietoja vuosilta 1987-1998 ja vuodesta 2005 lähtien vuosittain.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuntaryhm31_12",
+      "variablename": "Kuntaryhmä (kunta31_12)",
+      "conceptdef": "Asuinkunnan kuntaryhmä. Alueluokitus on 31.12. tilastovuosi. Tietoja vuosilta 1987-1998 ja vuodesta 2005 lähtien vuosittain.\n\n1 = kaupunkimaiset kunnat \n2 = taajaan asutut \n3 = maaseutumaiset",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maka",
+      "variablename": "Maaseutu-kaupunki -luokitus",
+      "conceptdef": "SYKE:n aluetypologian mukainen maaseutu-kaupunki -luokitus. Vuoteen 2018 asti luokitus perustuu vuoden 2013 aineistoihin, ja  vuodesta 2019 lähtien aluetypologia perustuu vuoden 2018 aineistoihin.  \n\nLuokat: \nK1 Sisempi kaupunkialue \nK2 Ulompi kaupunkialue \nK3 Kaupungin kehysalue \nM4 Maaseudun paikalliskeskus \nM5 Kaupungin läheinen maaseutu \nM6 Ydinmaaseutu \nM7 Harvaan asuttu maaseutu. \n\nLisätietoja luokituksesta https://www.ymparisto.fi/kaupunkimaaseutuluokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taajama_k2",
+      "variablename": "Asuinpaikka taajamassa",
+      "conceptdef": "1 = Asuinpaikka taajamassa, \n0 = Asuinpaikka haja-asutusalueella. Tieto päivittyy tilaston tuoreilla tiedoilla vuoden alussa tehtävässä tilastovuoden toisessa päivityksessä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivs",
+      "variablename": "Siviilisääty",
+      "conceptdef": "Siviilisääty, arvot:\n1 = naimaton \n2 = aviossa, rekisteröidyssä parisuhteessa tai asumuserossa \n4 = eronnut tai eronnut rekisteröidystä parisuhteesta \n5 = leski tai leski rekisteröidystä parisuhteesta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "sose",
+      "variablename": "Sosioekonominen asema",
+      "conceptdef": "Sosioekonominen asema -tieto vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 tieto vuosittain (aineiston viimeinen vuosi -1) -vuoteen asti. Perustuu tietoihin henkilön pääasiallisesta toiminnasta, ammatista, ammattiasemasta sekä toimialasta. Henkilöt on luokiteltu oman toimintansa perusteella lukuun ottamatta 0-15 -vuotiaita ja ryhmää \"muut työvoimaan kuulumattomat\" (lähinnä omaa kotitaloutta hoitavat), jotka ovat saaneet asuntokunnan viitehenkilön sosioekonomisen aseman.\n\nYrittäjät\t\n10 Maa- ja metsätalousyrittäjät\t\n20 Yrittäjät (ei maa- ja metsätalous)\t\nYlemmät toimihenkilöt\t\n31 Johtotehtävissä toimivat ylemmät toimihenkilöt\t\n32 Suunnittelu- ja tutkimustehtävissä toimivat ylemmät toimihenkilöt\t\n33 Opetustehtävissä toimivat ylemmät toimihenkilöt\t\n34 Muut ylemmät toimihenkilöt\t\nAlemmat toimihenkilöt\t\n41 Työnjohtotehtävissä toimivat alemmat toimihenkilöt\t\n42 Itsenäistä toimistotyötä tekevät alemmat toimihenkilöt\t\n43 Epäitsenäistä toimistotyötä tekevät alemmat toimihenkilöt\t\n44 Muut alemmat toimihenkilöt\t\nTyöntekijät\t\n51 Maa- ja metsätaloustyöntekijät\t\n52 Teollisuustyöntekijät\t\n53 Muut tuotantotyöntekijät\t\n54 Jakelu- ja palvelutyöntekijät\t\n59 Muut työntekijät\n\t\nVuosina 1990 ja 1993:\n60 Eläkeläiset\t\n70 Opiskelijat ja koululaiset (16 v. täyttäneet)\t\nMuut\t\n91 Työttömät\t\n92 Työlliset, joiden ammatti tuntematon\t\n93 Muut työvoiman ulkopuolella olevat\t\n94,99 Sosioekonominen asema tuntematon\t\n\nVuodesta 1995-\n60 Opiskelijat\t\n70 Eläkeläiset\t\n81 Työttömät\t\n82 Muut (varusmiehet)\t\n99 Tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ammatti"
+    },
+    {
+      "identifier": "yotutk",
+      "variablename": "Ylioppilastutkinto",
+      "conceptdef": "0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa \n4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon \n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Opiskelijat ja tutkinnot"
+    },
+    {
+      "identifier": "ututku_aste",
+      "variablename": "Korkeimman tutkinnon koulutusaste",
+      "conceptdef": "Korkeimman tutkinnon koulutusaste (taso-1) Tilastokeskuksen tuoreimman koulutusluokituksen mukaisesta koulutuskoodista, joka on ajan yli yhtenäinen. Koulutusasteen taso 1 on sama kuin ISCED 2011 -luokituksessa.\n\nKoulutusaste, taso-1\n\n3 Toinen aste\n4 Erikoisammattikoulutusaste\n5 Alin korkea-aste\n6 Alempi korkeakouluaste\n7 Ylempi korkeakouluaste\n8 Tutkijakoulutusaste\n9 Koulutusaste tuntematon\n\nTiedot pohjautuvat Tilastokeskuksen tutkintorekisteriin.  Tutkintorekisterin perustana on vuoden 1970 väestölaskennassa kerätyt tutkintotiedot. Vuosittain päivitettävät tiedot saadaan suoraan koulutuksen järjestäjiltä tai valtakunnallisista KOSKI- ja VIRTA-tietovarannoista.\n\nRekisteri on kattava Suomessa suoritetuista tutkinnoista, mutta alipeittoinen ulkomailla suoritetuista tutkinnoista. Suomeen muuttavilta henkilöiltä ei kysytä ulkomailla suoritetusta koulutuksesta maahan saapumisen yhteydessä. Tutkintorekisteriin lisätään Valviran rekisteritietoja ulkomailla suoritetuista ja Suomessa laillistetuista terveydenhuollon tutkinnoista, Pohjoismaiden tilastovirastoilta saatuja tutkintotietoja sekä erilliskyselyillä kerättyjä tutkintotietoja.\n\n\n\n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Opiskelijat ja tutkinnot"
+    },
+    {
+      "identifier": "ututku_ala",
+      "variablename": "Korkeimman tutkinnon koulutusala",
+      "conceptdef": "Korkeimman tutkinnon koulutusala (1-taso). Tilastokeskuksen tuoreimman koulutusluokituksen mukaisesta koulutuskoodista, joka on ajan yli yhtenäinen. Koulutusalan taso 1 on sama kuin ISCED 2011 -luokituksessa.\n\nKoulutusala, 1-taso\n00 Yleissivistävä koulutus\n01 Kasvatusalat\n02 Humanistiset ja taidealat\n03 Yhteiskunnalliset alat\n04 Kauppa, hallinto ja oikeustieteet\n05 Luonnontieteet\n06 Tietojenkäsittely ja tietoliikenne (ICT)\n07 Tekniikan alat\n08 Maa- ja metsätalousalat\n09 Terveys- ja hyvinvointialat\n10 Palvelualat\n99 Muut tai tuntemattomat koulutusalat\n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Opiskelijat ja tutkinnot"
+    },
+    {
+      "identifier": "suorv",
+      "variablename": "Korkeimman tutkinnon suoritusvuosi",
+      "conceptdef": "Korkeimman tutkinnon suoritusvuosi. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Opiskelijat ja tutkinnot"
+    },
+    {
+      "identifier": "amas1",
+      "variablename": "Ammattiasema (TVM)",
+      "conceptdef": "Ammattiasema päätyösuhteen mukaan (tvm-päättely). \n1 = palkansaaja \n2 = yrittäjä\n\nTieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ammatti"
+    },
+    {
+      "identifier": "klaji_k2",
+      "variablename": "Koulutuslaji",
+      "conceptdef": "Opiskelijan koulutuslaji, tietoja vuodesta 1999 alkaen vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. \n\n1 = Esi-, perus- tai lisäopetus (10-luokka) (tilastvuosi 2020- ) \n2 = Lukiokoulutus \n3 = Ammatillinen koulutus (tilastovuoteen 2018 asti)\n4 = AMK \n5 = Korkeakoulutus\n6 = Ammatillinen koulutus (tilastovuosi 2018)\n7 = Ammatillinen koulutus (tilastovuosi 2019-)\n8 = Ammatillinen koulutus (tilastovuosi 2019-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Opiskelijat ja tutkinnot"
+    },
+    {
+      "identifier": "optuki",
+      "variablename": "Saanut opintotukea",
+      "conceptdef": "K = Saanut opintotukea keväällä \nS = Saanut opintotukea syksyllä \nM = Saanut opintotukea molempina lukukausina \n\nTietoja vuodesta 1988 lähtien vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim1",
+      "variablename": "Pääasialllinen toiminta (TVM)",
+      "conceptdef": "Pääasiallinen toiminta (Työvoimakäsite = TVM eli vuoden viimeisen viikon työsuhteen mukaan). \n11 = työllinen \n12 = työtön \n21 = 0-14 -vuotias \n22 = opiskelija, koululainen \n24 = eläkeläinen \n25 = varusmies, siviilipalvelusmies \n29 = työttömyyseläkkeellä (vain PTOIM1) \n99 = muu työvoiman ulkopuolella oleva\nTieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. \n\nHUOM! Tilastovuodesta 2019 lähtien palkansaajien päättelyn pääasiallinen lähdeaineisto on tulorekisteri. Aineistossa palkansaajat päätellään maksujakson voimassaolon perusteella. \n\nLisätietoa pääasiallisen tominnan päättelystä Fionassa: \n\\metadata\\Finnish metadata\\Lyhyt kuvaus pääasiallisen toiminnan päättelystä.docx\n\\metadata\\Finnish metadata\\ptoim_paattely_fiona.pptx\nLisätietoa myös muuttujan historiasta (englanniksi):\n\\metadata\\English metadata\\ptoim_paattely_fiona_en.pptx\n\nMuuttujassa perhevapailla olevat henkilöt päätyvät työllisiksi (ptoim1=11), mikäli saavat palkkaa työnantajalta, muussa tapauksessa he päätyvät muihin luokkiin pääasiallisen toiminnan päättelyjärjestyksen mukaisesti. Ansiosidonnaisella olevat päätyvät työttömiksi (ptoim1=12) (myös osa-aikatyötä tekevät), sillä työttömät päätellään ennen työllisiä pääasiallisen toiminnan päättelyssä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tyossakaynti"
+    },
+    {
+      "identifier": "ammattikoodi_k",
+      "variablename": "Ammattikoodi, 3-nrotaso",
+      "conceptdef": "Tietoja vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 lähtien vuosittain vuoteen (aineiston viimeinen vuosi -1) asti. Tieto henkilön ammatista on tuotettu 18-74-vuotiaille työllisille, siis palkansaajille ja yrittäjille. Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. \n\nHenkilön ammattikoodi tuotetaan ensisijaisesti vuoden viimeisen viikon päätyösuhteen mukaisen ammatin perusteella. Ammattinimikkeiden lisäksi tiedon tuottamisessa käytetään hyväksi tietoa henkilön työpaikan toimialasta ja sektorista sekä henkilön koulutuksesta. Ammattitietojen tuottamista ohjaa kansainvälisen työjärjestön ILO:n laatima hierarkkinen luokitusjärjestelmä International Standard Classification of Occupations, lyh. ISCO. \nLuokitusstandardit:\nVuodesta  2010 lähtien:  Ammattiluokitus 2010 (AML 2010).   \nVuosina 1995, 2000, 2004 - 2009: Ammattiluokitus 2001. \nVuosina 1990  ja 1993: Ammattiluokitus 1980. \nEri luokitusstandardeilla tuotetut tiedot eivät ole keskenään vertailukelpoiset. Tilastossa käytetyt luokitukset samoin kun luokitusten väliset avaimet löytyvät Tilastokeskuksen luokitus- ja metatietopalvelujen kotisivuilta osoitteesta: https://www.stat.fi/fi/luokitukset/ sekä painetuista luokituskäsikirjoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ammatti"
+    },
+    {
+      "identifier": "tyke",
+      "variablename": "Työttömyyskuukausia",
+      "conceptdef": "Henkilön työttömyyskuukaudet -tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. Vuodesta 2005 lähtien tieto laskettu työttömyyspäivien lukumäärästä. \n\n1-14 päivää = 0 \n15-44 päivää = 1 \n45-74 päivää  =2 \n75-104 päivää = 3 \n105-135 päivää = 4 \n136-165 päivää = 5 \n166-196 päivää = 6 \n197-226 päivää = 7 \n227-256 päivää = 8 \n257-287 päivää = 9 \n288-317 päivää = 10 \n318-348 päivää = 11 \n349-365(366) päivää = 12\n\nVuosina 1987-2004 kukin kalenterikuukausi laskettu erikseen. Jos kalenterikuukautena vähintään 16 työttömyyspäivää, on koko kuukausi laskettu täydeksi työttömyyskuukaudeksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri, Tyossakaynti"
+    },
+    {
+      "identifier": "tyokk",
+      "variablename": "Työssäolokuukausia",
+      "conceptdef": "Henkilön työssäolokuukaudet. Tietoja vuodesta 1997 lähtien vuoteen (aineiston viimeinen vuosi -1) asti. Tilastovuodesta 2019 lähtien työssäkäyntitilastossa siirryttiin käyttämään palkansaajien lähdeaineistona tulorekisteriä, jossa työsuhteden kesto lasketaan maksujakson mukaan. Muuttuja ei ole enää suoraan vertailukelpoinen aiempiin vuosiin lähdeaineiston muutoksen vuoksi. \n\nVuodesta 2005 lähtien tieto laskettu työpäivien lukumäärästä: \n1-14 päivää=0 \n15-44 päivää=1 \n45-74 päivää=2 \n75-104 päivää=3 \n105-135 päivää=4 \n136-165 päivää=5 \n166-196 päivää=6 \n197-226 päivää=7 \n227-256 päivää=8 \n257-287 päivää=9 \n288-317 päivää=10 \n318-348 päivää=11 \n349-365(366) päivää=12 \n\n1997-2004: Kukin kalenterikuukausi laskettu erikseen. Jos kalenterikuukautena vähintään 16 työpäivää, on koko kuukausi laskettu täydeksi työkuukaudeksi. \n\nVuodet 1997-1998 luokka 0 = 1-15 päivää ml. henkilöt joilla ei työssäolopäiviä. \nVuodet 1999-2004 null=ei työpäiviä, 0 = 1-15 päivää. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tyossakaynti"
+    },
+    {
+      "identifier": "akoko_k",
+      "variablename": "Asuntokunnan koko",
+      "conceptdef": "Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä. \n1 = 1 henkilö \n2 = 2 henkilöä \n3 = 3 henkilöä \n4 = 4 henkilöä \n5 = 5 henkilöä \n6 = 6 henkilöä \n7 = 7 henkilöä \n8 = 8 henkilöä \n9 = 9+ henkilöä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Asuminen"
+    },
+    {
+      "identifier": "asty",
+      "variablename": "Asuntokuntarakenne",
+      "conceptdef": "Asuntokuntarakenne. Luokitus 2006 alkaen: \n1 = 1 perhe, ei muita\n2 = 1 perhe ja muita \n3 = 2 perhettä, ei lisäksi muita \n4 = 2 perhettä, lisäksi muita \n5 = vähintään 3 perhettä, ei lisäksi muita \n6 = vähintään 3 perhettä, lisäksi muita \n7 = ei perhettä, asuntokunnan koko = 1 \n8 = ei perhettä, asuntokunnan koko = 2, joilla sama sukupuoli \n9 = ei perhettä, asuntokunnan koko = 2, joilla eri sukupuoli \n10 = ei perhettä, asuntokunnan koko > 2, kaikilla sama sukupuoli \n11 = ei perhettä, asuntokunnan koko > 2, joilla eri sukupuoli null = ei perheitä \n\nLuokitus vuoteen 2005: \n1 = 1 perhe ja ei muita \n2 = 1 perhe ja muita \n3 = 2 + perhettä ja ei muita \n4 = 2 + perhettä ja muita \n5 = ei perhettä, 1 henkilö \n6 = ei perhettä, 2 henkilöä samaa sukupuolta \n7 = ei perhettä, 2 henkilöä eri sukupuolta \n8 = ei perhettä, väh. kolme henkilä samaa sukupuolta \n9 = ei perhettä vähintään 3 henkilöä, kaikki eivät samaa sukupuolta \nnull = ei perheitä \n\nTietoja vuodesta 1990 alkaen. Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Asuminen"
+    },
+    {
+      "identifier": "hape",
+      "variablename": "Hallintaperuste",
+      "conceptdef": "Asunnon hallintaperuste on pääsääntöisesti päätelty vakinaisesti asutuille asunnoille eli asuntokunnille.\n1-2 = Omistusasunnot\n3-5 = Vuokra-asunnot\n6 = Muut\n9 = Tuntematon hallintaperuste. Tässä luokassa koko asuntokannan osalta tyhjät asunnot arava-asuntoja lukuunottamatta.\n\n1998- \n1 = Omistaa talon \n2 = Omistaa asunnon osakkeet \n3 = Aravavuokra-asunto \n4 = Korkotukivuokra-asunto \n5 = Muu vuokra-asunto \n6 = Asumisoikeusasunnot \n7 = Muu hallintaperuste (sukulaisuus ym.) \n9 = Tuntematon \n\n1987-1997 \n1 = Omistaa talon \n2 = Omistaa osakkeet \n5 = Vuokra-asunto \n7 = Muu hallintaperuste \n9 = Hallintaperuste tuntematon \n\nTieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Asuminen"
+    },
+    {
+      "identifier": "hulu",
+      "variablename": "Huoneluku keittiö pl.",
+      "conceptdef": "Asunnon huoneiden lukumäärä ilman keittiötä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Asuminen"
+    },
+    {
+      "identifier": "taty",
+      "variablename": "Talotyyppi",
+      "conceptdef": "Talotyyppi. \n1 = Erillinen pientalo \n2 = Rivi- tai ketjutalo \n3 = Asuinkerrostalo \n4 = Muu rakennus (liike-, toimisto- ym.)\n5 = Rakennus, jonka talotyyppi on tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Rakennus"
+    },
+    {
+      "identifier": "vata",
+      "variablename": "Varustetaso",
+      "conceptdef": "Asunnon varustelutason luokitus: \n1 = hyvin varustettu  \n2 = puutteellisesti varustettu\n3 = erittäin puutteellisesti varustettu (vuoteen 2015 saakka)\n0 = varustetaso tuntematon\n\nVarustetasoluokat 2, 3 sekä tuntematon tieto kannattaa yhdistää, sillä eri vuosina on ollut erilaisia päättelysääntöjä tuntemattomaksi jäävien osalta. Kannattaa myös huomioida, että kaikki varustemuutokset eivät ole luvanvaraisia toimenpiteitä eivätkä näin ollen tule viranomisten tietoon eivätkä rekistereihin ja tilastoihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Asuminen"
+    },
+    {
+      "identifier": "penulaika",
+      "variablename": "Perheen nuorimman lapsen ikä",
+      "conceptdef": "Perheen lapsiksi katsotaan iästä riippumatta vanhempiensa kanssa asuvat omat tai puolison biologiset lapset tai ottolapset, mutta ei kasvattilapsia tai huollettavia lapsia. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "peas",
+      "variablename": "Perheasema",
+      "conceptdef": "Perheasema luokitus:\n1 = Päämies \n2 = Puoliso \n3 = Lapsi \n4 = Avoperheen päämies \n5 = Avoperheen puoliso \n9 = Tuntematon \n0 = Perheeseen kuulumaton \n\nLapseksi katsotaan iästä riippumatta vanhempiensa kanssa asuvat omat tai puolison biologiset lapset tai ottolapset, mutta ei kasvattilapsia tai huollettavia lapsia. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "lkm_k",
+      "variablename": "Perheen lasten lkm",
+      "conceptdef": "Perheen lasten lukumäärä, kaikki kotona asuvat lapset, biologiset ja ottolapset. \n0 = perheessä ei lapsia \n1 = perheessä 1 lapsi, \n2 = perheessä 2 lasta, jne \n7 = perheessä vähintään 7 lasta \nbl = ei kuulu perheväestöön\n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a18lkm_k",
+      "variablename": "Perheen alle 18 v. lasten lukumäärä",
+      "conceptdef": "Perheen alle 18 v. lasten lukumäärä \n0 = perheessä ei alle 18-vuotiaita lapsia \n1 = perheessä 1 alle 18-vuotias \n2 = perheessä 2 alle 18-vuotiasta,\n3 = perheessä 3 alle 18-vuotiasta,\n4 = perheessä 4 alle 18-vuotiasta,\n5 = perheessä vähintään 5 alle 18-vuotiaita \nbl = ei kuulu perheväestöön\n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a7lkm_k",
+      "variablename": "Perheen alle 7 v. lasten lukumäärä",
+      "conceptdef": "Perheen alle 7 v. lasten lukumäärä \n0 = perheessä ei alle 7-vuotiaita lapsia \n1 = perheessä 1 alle 7-vuotias \n2 = perheessä 2 alle 7-vuotiasta \n3 = perheessä vähintään 3 alle 7-vuotiasta\nbl = ei kuulu perheväestöön \n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a3lkm_k",
+      "variablename": "Perheen alle 3 v. lasten lkm",
+      "conceptdef": "Perheen alle 3 v. lasten lkm \n0 = perheessä ei alle 3-vuotiaita lapsia \n1 = perheessä 1 alle 3-vuotias \n2 = perheessä vähintään 2 alle 3-vuotiasta \nbl = ei kuulu perheväestöön \n\nTieto vuodesta 2006 lähtien. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "pekoko_k",
+      "variablename": "Perheen koko",
+      "conceptdef": "Perheen henkilöluku. Arvoalue 2-9 (9 = henkilöitä perheessä 9 tai enemmän). Muuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html). \n\nTietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "pety",
+      "variablename": "Perhetyyppi",
+      "conceptdef": "Perhetyyppi perheväestöön kuuluvalla\n1 = aviopari ilman lapsia \n2 = aviopari ja lapsia \n3 = äiti ja lapsia \n4 = isä ja lapsia \n5 = avopari ja yhteisiä lapsia \n6 = avopari ja vain ei-yhteisiä lapsia \n7 = avopari ilman lapsia\n\nTarkempi kuvaus perheen määritelmästä: http://www.stat.fi/meta/kas/perhe.html. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "vela",
+      "variablename": "Vanhuuseläke",
+      "conceptdef": "Arvo 1 = Henkilö saa vuoden lopussa vanhuuseläkettä. Tietoja vuodesta 1988 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "tkela",
+      "variablename": "Työkyvyttömyyseläke",
+      "conceptdef": "Arvo 1 = Henkilö saa vuoden lopussa työkyvyttömyyseläkettä. Tietoja vuodesta 1988 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "tyela",
+      "variablename": "Työttömyyseläke",
+      "conceptdef": "Arvo 1 = Henkilö saa vuoden lopussa työttömyyseläkettä. Tietoja vuosilta 1988-2014. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "mela",
+      "variablename": "Maatalouden erityiseläke",
+      "conceptdef": "Arvo 1 = Henkilö saa maatalouden erityiseläkettä vuoden lopussa. Tietoja vuodesta 1995 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "osela",
+      "variablename": "Osa-aikaeläke",
+      "conceptdef": "Arvo 1 = Henkilö saa vuoden lopussa osa-aikaeläkettä. Tietoja (aineiston viimeinen vuosi -2) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "pela",
+      "variablename": "Perhe-eläke",
+      "conceptdef": "Arvo 1 = Henkilö saa vuoden lopussa perhe-eläkettä. Tietoja vuodesta 1996 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "yvela",
+      "variablename": "Yksilöllinen varhaiseläke",
+      "conceptdef": "Arvo 1 = Henkilö saa yksilöllistä varhaiseläkettä vuoden lopussa. Tieto vuosilta 1988-2011.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "kturaha_k",
+      "variablename": "Käytettävissä olevat rahatulot",
+      "conceptdef": "Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite.\n\nArvot pyöristetty sadoiksi euroiksi, negatiiviset arvot nollattu, vuosittainen ylin persentiili mediaanina. Tietoja vuodesta 1995 lähtien vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tulonjakotilasto"
+    },
+    {
+      "identifier": "velaty_k",
+      "variablename": "Velat yhteensä",
+      "conceptdef": "Velat yhteensä koostuu seuraavista verotiedoista: \nNLIIKK= Elinkeinotoiminnan velat (vuoteen 1994 saakka)\nNLIIKKY= Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen)\nNMAAT= Maatalouteen kohdistuneet velat\nNYHT= Velat yhtymistä (vuoteen 2005 saakka)\nNMUUT= Asunto- ja muut velat\n\nArvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "lvar_k",
+      "variablename": "Verotettava varallisuus",
+      "conceptdef": "Verotettavan varallisuuden arvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. Tietoja vuoteen 2005 saakka.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "svatva_k",
+      "variablename": "Ansiotulot yhteensä valtion verotuksessa",
+      "conceptdef": "Ansiotulot yhteensä valtionverotuksessa. Arvot pyöristetty sadoiksi euroiksi, vuosittainen  ylin persentiili mediaanina. Tietoja vuodesta 1993 lähtien vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "palk_k",
+      "variablename": "Palkkatulot",
+      "conceptdef": "Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.\n\nArvot pyöristetty sadoiksi euroiksi, negatiiviset arvot nollattu, vuosittainen ylin persentiili mediaanina. Tietoja vuodesta 1995 lähtien vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tulonjakotilasto"
+    },
+    {
+      "identifier": "tyotu_k",
+      "variablename": "Summatut työtulot (palkkatulot)",
+      "conceptdef": "Summatut työtulot (palkkatulot) sisältää seuraavia verotietoja vuoteen 2018 asti:\nTRPL = rahapalkka päätoimesta, luontaisedut ja työsuhdeoptiot\nTMPT = muut palkkatulot sivutoimesta\nTEPALK = ennakonkannon alaiset palkkatulot veroilmoitukselta (vuodesta 1990 lähtien)\nTMERI = veronalainen merityötulo (vuosina 2005-2007)\nTMERI1 = matkustaja-alusten maksuvapauden piiriin kuuluva merityötulo (vuoteen 2007 asti)\nTKUST = kustannusten korvaukset työnantajalta\nTPALV = lunastukset, palvelurahat yms. ennakonkannon alaiset tulot\nTPJTA = hankintatyön arvo metsätaloudesta\nTYHTHAV = hankintatyön arvo yhtymästä\nTPTURVA = palkkaturva ja sijaismaksajan maksama palkka ansiotulona (vuodesta 1993 lähtien)\nTELPS = työkorvaus (vuodesta 1993 lähtien)\nTELPS3 = urheilijarahastosta maksettava palkka (vuodesta 1999 lähtien)\nTLUE2 = luontaisedut merityötulosta (vuodesta 1993 lähtien)\nTLUE3 = luontaisedut merityötulosta (vuosina 2005-2007)\nTUTMP2 = ulkomaisen työnantajan maksama palkka työntekijälle, joka ei Suomessa vakuutettu (vuodesta 2009 lähtien)\nTUTMP3 = ulkomaisen työnantajan maksama palkka Suomessa vakuutetulle työntekijälle (vuodesta 2009 lähtien)\nTOSINKTK= työpanokseen perustuva osinko, työkorvausta (vuodesta 2010 lähtien)\n\nArvot on pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. Vuoden 2018 jälkeiset tiedot henkilön palkkatuloista ovat saatavilla muuttujasta palk_k.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "tyrtuo_k",
+      "variablename": "Yrittäjätulot",
+      "conceptdef": "Yrittäjätulot sisältävät maatalouden tulot, elinkeinotoiminnan tulot ja tulot yhtymästä. Elinkeinotoiminnan tulot eivät sisällä puolison elinkeinotuloja.\n\nYrittäjätulot sisältävät seuraavia verotietoja:\nTMAAT1 = maatalouden ansiotulo, oma\nTMAAT2 = maatalouden pääomatulo, oma\nTLIIK1 = elinkeinotoiminnan ansiotulo-osuus, oma\nTPORO1 = ansiotulo porotaloudesta\nTLIIK2 = elinkeinotoiminnan pääomatulo-osuus, oma\nTPORO2 = pääomatulo porotaloudesta\nTYHTAT = ansiotulot ilman osinkoja yhtymästä (vuodesta 1993 lähtien)\nTEINOYVA = osingot ansiotulona muista kuin listatuista yhtiöistä, verotettava määrä yhtymistä (vuodesta 2005 lähtien)\nTYHAU = ansiotulo-osuus ulkomaisen yhtymän tulosta (vuosina 1996-2011)\nTYHTPOT = pääomatulot ilman osinkoja yhtymistä (vuodesta 1993 lähtien)\nTEINOYVP = osingot pääomatulona muista kuin listatuista yhtiöistä, veronalainen määrä yhtymistä (vuosina 2005-2013)\nTNOSYHV = osingot pääomatulona listatuista yhtiöistä, verotettava määrä yhtymistä (vuodesta 2005 lähtien)\nTYHAP = pääomatulo-osuus ulkomaisen yhtymän tulosta (vuodesta 1996 lähtien)\nTOPYKOK = osuuspääoman korot yhtymistä, yhteismäärä (vuosina 2005-2014)\n\nArvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "auto_k",
+      "variablename": "Henkilön omistama/hallitsema ajoneuvo",
+      "conceptdef": "1 = on auton omistaja/haltija. Tietoja vuodesta 1990 lähtien vuoteen 2018 asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

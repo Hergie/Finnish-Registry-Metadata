@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "YA221_19882020_jua_yrekyritystol_001.xml",
+      "doi": "work_2012-12_2012-12-03_ain_0002",
+      "subject": "Yritys-toimiala-aikasarja (YA221)",
+      "contentdescription": "Yritystol8820-tauluun on tutkimuskäyttöä varten muodostettu yritysrekisterin tilastotiedostojen yrityksille toimialaluokitusten 2002 ja 2008 mukaiset toimialat vuosille 1988 - 2020 (2013- mukana vain tilastoyksiköt, joilla yritystunnus) sekä empiirisillä että luokituskannan avaimilla. Lisäksi yrityksistä on koottu perustiedot (oikeudellinen muoto, liikevaihto ja henkilöstön lukumäärä) aikasarjaksi. Vuodesta 2013 alkaen aineistossa on mukana uusi yritys-id.\n\nVuodesta 1999 lähtien tol08-tieto on peräisin yritysrekisteristä, jossa se on täydennetty yrityksille takautuvasti vuosille 1999 - 2006 erilaisten päättelysääntöjen avulla. Toimialaluokitus 2002 (tai luokitus 1995) on ollut käytössä vuosina 1993 - 2008. Muulloin tarkka toimialatieto tol02 ja tol08 on tarvittaessa käännetty luokitustietokannan avaimilla, jolloin lopputulos on lähinnä suuntaa-antava. Avain kääntää kaikki tiedot 5-numerotasolla pääasialliseen luokkaan, vaikka luokka jakautuisi useaan osaan, mikä voi vääristää aineistoa. Joissakin tapauksissa toimiala on karkeammalla kuin 5-numerotasolla.\n\n2-numerotoimialatason tol02_2 ja tol08_2 on muodostettu empiirisellä avaimella, jossa on valittu pääasiallinen luokka sen mukaan mihin karkeaan 2-numeroluokkaan 5-numerotoimialalta suurin osa yritysten henkilöstöstä siirtyy luokitusmuutosvuonna. Avain toimii suhteellisen hyvin toimialajakauman säilyttämisen näkökulmasta.\n\nMuutoksia yritystilastojen tilastoinnissa tilastovuonna 2013\n\nYritysten rakenne- ja tilinpäätöstilasto ilmestyi ensimmäisen kerran 18.12.2014 yritystilastojen tietojärjestelmästä (YTY) tuotettuna. Yritysten rakenne- ja tilinpäätöstilasto on uusi tilasto, joka yhdistää Yritysrekisterin vuositilaston sekä eri tilinpäätöstilastot. Tiedot eivät ole vertailukelpoisia edeltäviin tilastoihin nähden.\n\nTietojärjestelmän uudistus on parantunut yritystilastojen yhtenäisyyttä. Merkittävimmät muutokset liittyvät toimialaluokituksen, yritystietojen (mm. liikevaihto- ja henkilöstötieto) ja yritysjärjestelyjen käsittelyn yhtenäistämiseen sekä päättelysääntöihin, jonka perusteella tilastoitava yritys- tai toimipaikkajoukko muodostetaan. Aiemmin yritysrekisterin vuositilastoissa ei ollut tase-ehtoa yrityksen vuositilastoon kuulumisen ratkaisemiseksi, eikä kohdejoukkoon ole kuuluneet kunnalliset liikelaitokset. Alkutuotannon toimialojen osalta tilastossa ovat tilastovuodesta 2013 alkaen mukana alkutuotannosta arvonlisäverovelvolliset, kun myynnit ylittävät tilastointirajan. Muutoksista johtuen tilastovuodesta 2013 alkaen tilastojen tiedot eivät ole vertailukelpoisia aiempiin tilastovuosiin. \n",
+      "coveragetemporal": "1988-01-01 - 2020-12-31",
+      "published_day": "2022-01-12",
+      "variable_count": "16",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Yritykset",
+      "resourcerelation_1": "Yritysrekisterin tilastotiedostot, Yritysten rakenne- ja tilinpäätöstilasto 2013-, luokitustietokannan toimialaluokitusavaimet",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

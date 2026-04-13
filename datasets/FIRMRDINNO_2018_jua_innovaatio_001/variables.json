@@ -1,0 +1,2284 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "group",
+      "variablename": "apumuuttuja",
+      "conceptdef": "Epävirallinen apumuuttuja, joka kerto onko yritys vastannut innovaatiokyselyyn konsernitasolla vai ei.\n1 = kyseessä on konsernivastaus (ei varsinaisesti koroteta korotusvaiheessa),\n0 = Tarkistettu vastaus ja todettu että kyseessä ei ole konsernivastaus\n.  = Ei tarkistettu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_pat",
+      "variablename": "Patenttihakemus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_uti",
+      "variablename": "Hyödyllisyysmallihakemus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_idesg",
+      "variablename": "Mallioikeuden rekisteröinti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_trdm",
+      "variablename": "Tavaramerkin rekisteröinti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_cpr",
+      "variablename": "Tekijänoikeushakemus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_ts",
+      "variablename": "Liikesalaisuuden suojaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_lic",
+      "variablename": "IPR:n lisensointi muille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_sell",
+      "variablename": "IPR:n myynti/siirtäminen muille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_out_exch",
+      "variablename": "IPR:n vaihtaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_in_lic_pur",
+      "variablename": "IPR:n hankinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_in_lic_prv",
+      "variablename": "IPR:n hankinta yksityisiltä toimijoilta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipr_in_lic_pub",
+      "variablename": "IPR:n hankinta julkisilta toimijoilta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pur_tserv",
+      "variablename": "Teknisten palveluiden hankinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pur_tserv_prv",
+      "variablename": "Teknisiä palveluita yksityisiltä toimijoilta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pur_tserv_pub",
+      "variablename": "Teknisiä palveluita julkisilta toimijoilta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pur_mes_same",
+      "variablename": "Aiemmin käytetyn teknologian hankinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pur_mes_new",
+      "variablename": "Uuden teknologian hankinta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_conf_trdf_exhib",
+      "variablename": "Tiedon hankinta konferenssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_jrnst_trdp",
+      "variablename": "Tiedon hankinta julkaisut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_ass_prof_ind",
+      "variablename": "Tiedon hankinta järjestöt",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_pat_publ",
+      "variablename": "Tiedon hankinta patentit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_doc_std_com",
+      "variablename": "Tiedon hankinta standardointi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_web_net_cds",
+      "variablename": "Tiedon hankinta verkko tai joukkoistaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_b2b_os",
+      "variablename": "Tiedon hankinta avoimet alusta, ohjelmistot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ckno_re",
+      "variablename": "Tiedon hankinta käänteinen suunnittelu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "morg_jrot",
+      "variablename": "Työn organisointi tehtäväkierto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "morg_brnt",
+      "variablename": "Työn organisointi aivoriihet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "morg_cf_wg",
+      "variablename": "Työn organisointi poikkitoiminnallisuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_gd",
+      "variablename": "Tavarainnovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_serv",
+      "variablename": "Palveluinnovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_new_mkt",
+      "variablename": "Markkinoille uusia tuotteita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_prd_new_ent",
+      "variablename": "Yritykselle uusia tuotteita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_prd_new_mkt",
+      "variablename": "Liikevaihto-osuus markkinoille uusista tuotteista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_prd_new_ent",
+      "variablename": "Liikevaihto-osuus yritykselle uusista tuotteista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_prd_ninn",
+      "variablename": "Liikevaihto-osuus muuttamattomista tuotteista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_ent",
+      "variablename": "Tuoteinnovaatioiden kehittäjä oma yritys",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_ent_oth",
+      "variablename": "Tuoteinnovaatioiden kehittäjä oma yritys yhdessä muiden kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_ent_adp",
+      "variablename": "Tuoteinnovaatioiden kehittäjä oma yritys muokkaamalla muiden kehittämiä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_prd_oth",
+      "variablename": "Tuoteinnovaatioiden kehittäjä muut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_prd_excd",
+      "variablename": "Tuoteinnovaatioiden odotukset ylittyivät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_prd_adq",
+      "variablename": "Tuoteinnovaatioiden odotukset täyttyivät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_prd_som",
+      "variablename": "Tuoteinnovaatioiden odotukset täyttyivät osittain",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_prd_nmet",
+      "variablename": "Tuoteinnovaatioiden odotukset eivät täyttyneet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_prd_tearl",
+      "variablename": "Tuoteinnovaatioiden odotukset, liian varhaista arvioida",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_prd",
+      "variablename": "Tuotanto- tai kehittämismenetelmäinnovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_log",
+      "variablename": "Logistiikka- tai toimitusmenetelmäinnovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_comm",
+      "variablename": "ICT- tai tiedonkäsittelymenetelmien innovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_acct",
+      "variablename": "Kirjanpidon tai muita hallinnon menetelmien innovaatiota",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_oproc_extrel",
+      "variablename": "Liiketoimintakäytäntöihin liittyviä innovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_wr_dec_hrm",
+      "variablename": "Työnjakoon, päätöksentekoon tai henkilöstöhallintoon liittyviä innovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inno_pcs_sls_serv",
+      "variablename": "Markkinointimenetelmäinnovaatioita",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_ent",
+      "variablename": "Prosessi-innovaatioiden kehittäjä oma yritys",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_ent_oth",
+      "variablename": "Prosessi-innovaatioiden kehittäjä oma yritys yhdessä muiden kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_ent_adp",
+      "variablename": "Prosessi-innovaatioiden kehittäjä oma yritys muokkaamalla muiden kehittämiä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "deve_pcs_oth",
+      "variablename": "Prosessi-innovaatioiden kehittäjä muut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_pcs_excd",
+      "variablename": "Prosessi-innovaatioiden odotukset ylittyivät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_pcs_adq",
+      "variablename": "Prosessi-innovaatioiden odotukset täyttyivät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_pcs_som",
+      "variablename": "Prosessi-innovaatioiden odotukset täyttyivät osittain",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_pcs_nmet",
+      "variablename": "Prosessi-innovaatioiden odotukset eivät täyttyneet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expct_inno_pcs_tearl",
+      "variablename": "Prosessi-innovaatioiden odotukset, liian varhaista arvioida",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_compl",
+      "variablename": "Valmistuneet toimet innovaatioiden käyttöön ottamiseksi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ongo",
+      "variablename": "Meneillään olleita innovaatiotoimia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_abdn",
+      "variablename": "Keskeytyneitä innovaatiotoimia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ih_rnd",
+      "variablename": "Oma tutkimus- ja kehittämistoiminta (t&k)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ih_rnd_cont",
+      "variablename": "Oma tutkimus- ja kehittämistoiminta (t&k), säännöllistä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_ih_rnd_occ",
+      "variablename": "Oma tutkimus- ja kehittämistoiminta (t&k), satunnaista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inna_rnd_contr_out",
+      "variablename": "Muilta tilattu tutkimus- ja kehittämistoiminta (t&k)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_ih",
+      "variablename": "Oman t&k:n menot 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_contr_out",
+      "variablename": "Tilatun t&k:n menot 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan menot 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_own_per",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan henkilöstömenot 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_smsp",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan hankintamenot 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_cgo",
+      "variablename": "T&k:n ulkopuolisen innovaatiotoiminnan investointihyödykkeiden menot 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_ih_not",
+      "variablename": "Ei oman t&k:n menoja 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_rnd_contr_out_not",
+      "variablename": "Ei ulkoa tilatun t&k:n menoja 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_not",
+      "variablename": "Ei t&k:n ulkopuolisia innovaatiomenoja 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_own_per_not",
+      "variablename": "Ei t&k:n ulkopuoliseen innovaatiotoimintaan liittyviä henkilöstömenoja 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_smsp_not",
+      "variablename": "Ei t&k:n ulkopuoliseen innovaatiotoimintaan liittyviä hankintamenoja 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exp_inno_inn_xrnd_cgo_not",
+      "variablename": "Ei t&k:n ulkopuoliseen innovaatiotoimintaan liittyviä investointeja 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_equit_succ",
+      "variablename": "Pääomarahoitusta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_equit_nsucc",
+      "variablename": "Pääomarahoitusta ei saatu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_nequit",
+      "variablename": "Pääomarahoitusta ei haettu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_equit_succ_rndinn",
+      "variablename": "Pääomarahoitusta käytettiin innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_debt_succ",
+      "variablename": "Velkarahoitusta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_debt_nsucc",
+      "variablename": "Velkarahoitusta ei saatu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_ndebt",
+      "variablename": "Velkarahoitusta ei haettu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_debt_succ_rndinn",
+      "variablename": "Velkarahoitusta käytettiin innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_aut_loc_reg",
+      "variablename": "Rahoitustukea paikallis-/alueviranomaisilta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_aut_loc_reg_rndinn",
+      "variablename": "Paikallis-/alueviranomaistukea innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_gov_ctl",
+      "variablename": "Rahoitustukea valtiolta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_gov_ctl_rndinn",
+      "variablename": "Valtion rahoitustukea innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_hp2020",
+      "variablename": "Rahoitustukea EU:n Horisontti 2020 -ohjelmasta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_hp2020_rndinn",
+      "variablename": "EU:n Horisontti 2020 -rahoitusta innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_oth",
+      "variablename": "Muuta rahoitustukea EU:sta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_eu_oth_rndinn",
+      "variablename": "Muuta EU-rahoitusta innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_rnd",
+      "variablename": "Yhteistyötä tutkimus- ja kehittämistoiminnassa (t&k)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_inn_xrnd",
+      "variablename": "Yhteistyötä innovaatiotoiminnassa pl. t&k",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_oth",
+      "variablename": "Yhteistyötä muussa kuin innovaatiotoimintaan liittyvässä liiketoiminnassa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_nat",
+      "variablename": "Yhteistyö, muut yritykset, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_eu_efta",
+      "variablename": "Yhteistyö, muut yritykset, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_neu_nefta",
+      "variablename": "Yhteistyö, muut yritykset, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_cn_nat",
+      "variablename": "Yhteistyö, konsultit, yksit. tutkimuslaitokset, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_cn_eu_efta",
+      "variablename": "Yhteistyö, konsultit, yksit. tutkimuslaitokset, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_cn_neu_nefta",
+      "variablename": "Yhteistyö, konsultit, yksit. tutkimuslaitokset, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_suppl_nat",
+      "variablename": "Yhteistyö, laite- yms. toimittajat, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_suppl_eu_efta",
+      "variablename": "Yhteistyö, laite- yms. toimittajat, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_suppl_neu_nefta",
+      "variablename": "Yhteistyö, laite- yms. toimittajat, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_clcu_nat",
+      "variablename": "Yhteistyö, yritysasiakkaat, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_clcu_eu_efta",
+      "variablename": "Yhteistyö, yritysasiakkaat, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_clcu_neu_nefta",
+      "variablename": "Yhteistyö, yritysasiakkaat, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_comp_nat",
+      "variablename": "Yhteistyö, kilpailijat, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_comp_eu_efta",
+      "variablename": "Yhteistyö, kilpailijat, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_comp_neu_nefta",
+      "variablename": "Yhteistyö, kilpailijat, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_oth_nat",
+      "variablename": "Yhteistyö, muut konsernin ulkopuoliset yritykset, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_oth_eu_efta",
+      "variablename": "Yhteistyö, muut konsernin ulkopuoliset yritykset, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_prv_oth_neu_nefta",
+      "variablename": "Yhteistyö, muut konsernin ulkopuoliset yritykset, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_eg_nat",
+      "variablename": "Yhteistyö, konsernin muut yritykset, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_eg_eu_efta",
+      "variablename": "Yhteistyö, konsernin muut yritykset, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_eg_neu_nefta",
+      "variablename": "Yhteistyö, konsernin muut yritykset, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_uni_nat",
+      "variablename": "Yhteistyö, yliopistot, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_uni_eu_efta",
+      "variablename": "Yhteistyö, yliopistot, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_uni_neu_nefta",
+      "variablename": "Yhteistyö, yliopistot, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_amk_nat",
+      "variablename": "Yhteistyö, ammattikorkeakoulut, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_amk_eu_efta",
+      "variablename": "Yhteistyö, ammattikorkeakoulut, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_amk_neu_nefta",
+      "variablename": "Yhteistyö, ammattikorkeakoulut, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_gov_ri_nat",
+      "variablename": "Yhteistyö, julkiset tutkimuslaitokset, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_gov_ri_eu_efta",
+      "variablename": "Yhteistyö, julkiset tutkimuslaitokset, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_gov_ri_neu_nefta",
+      "variablename": "Yhteistyö, julkiset tutkimuslaitokset, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_pub_clcu_nat",
+      "variablename": "Yhteistyö, julkisen sektorin asiakkaat, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_pub_clcu_eu_efta",
+      "variablename": "Yhteistyö, julkisen sektorin asiakkaat, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_pub_clcu_neu_nefta",
+      "variablename": "Yhteistyö, julkisen sektorin asiakkaat, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_npo_nat",
+      "variablename": "Yhteistyö, voittoa tavoittelemattomat, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_npo_eu_efta",
+      "variablename": "Yhteistyö, voittoa tavoittelemattomat, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_npo_neu_nefta",
+      "variablename": "Yhteistyö, voittoa tavoittelemattomat, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_pri_nat",
+      "variablename": "Yhteistyö, henkilöasiakkaat, Suomi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_pri_eu_efta",
+      "variablename": "Yhteistyö, henkilöasiakkaat, EU tai EFTA",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "coop_fi_pri_neu_nefta",
+      "variablename": "Yhteistyö, henkilöasiakkaat, muut maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_sppc_if",
+      "variablename": "Tuote/kuluttajalainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_sppc_phic",
+      "variablename": "Tuote/kuluttajalainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_sppc_nimpc",
+      "variablename": "Tuote/kuluttajalainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_env_if",
+      "variablename": "Ympäristölainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_env_phic",
+      "variablename": "Ympäristölainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_env_nimpc",
+      "variablename": "Ympäristölainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_ip_if",
+      "variablename": "Immateriaalioikeudet (lainsäädäntö), myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_ip_phic",
+      "variablename": "Immateriaalioikeudet (lainsäädäntö), innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_ip_nimpc",
+      "variablename": "Immateriaalioikeudet (lainsäädäntö), ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_tax_if",
+      "variablename": "Verolainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_tax_phic",
+      "variablename": "Verolainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_tax_nimpc",
+      "variablename": "Verolainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_empswas_if",
+      "variablename": "Työ/sosiaalilainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_empswas_phic",
+      "variablename": "Työ/sosiaalilainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_empswas_nimpc",
+      "variablename": "Työ/sosiaalilainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_prot_if",
+      "variablename": "Tietosuojalainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_prot_phic",
+      "variablename": "Tietosuojalainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_prot_nimpc",
+      "variablename": "Tietosuojalainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_hea_if",
+      "variablename": "Terveyslainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_hea_phic",
+      "variablename": "Terveyslainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_hea_nimpc",
+      "variablename": "Terveyslainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_traf_if",
+      "variablename": "Liikennelainsäädäntö, myönteinen innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_traf_phic",
+      "variablename": "Liikennelainsäädäntö, innovaatioita haittaava",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leg_fi_traf_nimpc",
+      "variablename": "Liikennelainsäädäntö, ei vaikutusta innovaatioille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_lfin_int",
+      "variablename": "Haitta, oman rahoituksen puuttuminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_lcred_lequit",
+      "variablename": "Haitta, luoton tai pääomarahoituksen puuttuminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_dif_sub",
+      "variablename": "Haitta, vaikeudet saada julkista rahoitusta tai tukea",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_hcost",
+      "variablename": "Haitta, innovaatiotoiminnan kustannukset liian korkeat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_lqlf_sal",
+      "variablename": "Haitta, osaavan henkilökunnan puuttuminen yrityksessä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_lcoll_ptn",
+      "variablename": "Haitta, yhteistyökumppaneiden puuttuminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_lacs_know",
+      "variablename": "Haitta, ulkopuolisen tiedon puuttuminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_unc_mkt_dm",
+      "variablename": "Haitta, epävarma markkinakysyntä yrityksen ideoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_hcomp",
+      "variablename": "Haitta, markkinoilla liian kova kilpailu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hamp_dprior",
+      "variablename": "Haitta, erilaiset prioriteetit yrityksessä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_new_prod",
+      "variablename": "Datan käyttö tuotteiden kehittämisessä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_imp_prod",
+      "variablename": "Datan käyttö tuotteiden parantamisessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_inn",
+      "variablename": "Datan käyttö prosessien kehittämisessä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_rnd",
+      "variablename": "Datan käyttö t&k-toiminnassa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_tpros",
+      "variablename": "Datan käyttö tuotantoprosesseissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_markk",
+      "variablename": "Datan käyttö markkinoinnissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_myynti",
+      "variablename": "Datan myynti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "data_osto",
+      "variablename": "Datan osto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_liiket",
+      "variablename": "Digitalisaatio, digitaaliset tuotteet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_pilvi",
+      "variablename": "Digitalisaatio, pilvipalvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_some",
+      "variablename": "Digitalisaatio, sosiaalinen media",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_iot",
+      "variablename": "Digitalisaatio, esineiden internet IoT",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_robot",
+      "variablename": "Digitalisaatio, robotiikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_tuote",
+      "variablename": "Digitalisaatio tuotteiden tuottamisessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_design",
+      "variablename": "Digitalisaatio tuotteiden muotoilussa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_markk",
+      "variablename": "Digitalisaatio tuotteiden markkinoinnissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "digi_jak",
+      "variablename": "Digitalisaatio tuotteiden jakelussa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_yo",
+      "variablename": "Innovaatioyhteistyötä yliopistojen kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_amk",
+      "variablename": "Innovaatioyhteistyötä ammattikorkeiden kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_tl",
+      "variablename": "Innovaatioyhteistyötä tutkimuslaitosten kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_i_no",
+      "variablename": "Ei innovaatioyhteistyötä tutkimusorganisaatioiden kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_yo",
+      "variablename": "Muuta yhteistyötä yliopistojen kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_amk",
+      "variablename": "Muuta yhteistyötä ammattikorkeiden kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_tl",
+      "variablename": "Muuta yhteistyötä tutkimuslaitosten kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_m_no",
+      "variablename": "Ei muuta yhteistyötä tutkimusorganisaatioiden kanssa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_yo",
+      "variablename": "Yhteistyön tulos/yliopistot tieto ja osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_amk",
+      "variablename": "Yhteistyön tulos/amk:t tieto ja osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset tieto ja osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tieto_no",
+      "variablename": "Yhteistyön tulos ei relevantti tieto ja osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_yo",
+      "variablename": "Yhteistyön tulos/yliopistot näkemys trendeistä/markkinoista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_amk",
+      "variablename": "Yhteistyön tulos/amk:t näkemys trendeistä/markkinoista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset näkemys trendeistä/markkinoista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tulev_no",
+      "variablename": "Yhteistyön tulos ei relevantti näkemys trendeistä/markkinoista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_yo",
+      "variablename": "Yhteistyön tulos/yliopistot teknologian käyttöönotto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_amk",
+      "variablename": "Yhteistyön tulos/amk:t teknologian käyttöönotto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset teknologian käyttöönotto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tek_no",
+      "variablename": "Yhteistyön tulos ei relevantti teknologian käyttöönotto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_yo",
+      "variablename": "Yhteistyön tulos/yliopistot tuoteinnovaatiot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_amk",
+      "variablename": "Yhteistyön tulos/amk:t tuoteinnovaatiot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset tuoteinnovaatiot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_tuote_no",
+      "variablename": "Yhteistyön tulos ei relevantti tuoteinnovaatiot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_yo",
+      "variablename": "Yhteistyön tulos/yliopistot kansainväliset markkinat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_amk",
+      "variablename": "Yhteistyön tulos/amk:t kansainväliset markkinat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset kansainväliset markkinat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvmar_no",
+      "variablename": "Yhteistyön tulos ei relevantti kansainväliset markkinat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_yo",
+      "variablename": "Yhteistyön tulos/yliopistot yhteistyön laajeneminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_amk",
+      "variablename": "Yhteistyön tulos/amk:t yhteistyön laajeneminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset yhteistyön laajeneminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_coop_no",
+      "variablename": "Yhteistyön tulos ei relevantti yhteistyön laajeneminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_yo",
+      "variablename": "Yhteistyön tulos/yliopistot kv. innovaatio-ohjelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_amk",
+      "variablename": "Yhteistyön tulos/amk:t kv. innovaatio-ohjelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset kv. innovaatio-ohjelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_kvohj_no",
+      "variablename": "Yhteistyön tulos ei relevantti kv. innovaatio-ohjelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_yo",
+      "variablename": "Yhteistyön tulos/yliopistot muissa kohdissa mainitsematon",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_amk",
+      "variablename": "Yhteistyön tulos/amk:t muissa kohdissa mainitsematon",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_tl",
+      "variablename": "Yhteistyön tulos/tutkimuslaitokset muissa kohdissa mainitsematon",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_tul_oth_no",
+      "variablename": "Yhteistyön tulos ei relevantti muissa kohdissa mainitsematon",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_tiltut",
+      "variablename": "Yhteistyömuotojen merkitys tilaustutkimukset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_inn",
+      "variablename": "Yhteistyömuotojen merkitys innovaatiot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_koul",
+      "variablename": "Yhteistyömuotojen merkitys koulutusyhteistyö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_lab",
+      "variablename": "Yhteistyömuotojen merkitys tutkimusinfra/-palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_demo",
+      "variablename": "Yhteistyömuotojen merkitys demo/pilotointi/testaus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_opisk",
+      "variablename": "Yhteistyömuotojen merkitys opiskelijoiden kontribuutio",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_rekry",
+      "variablename": "Yhteistyömuotojen merkitys osaajien rekrytointi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_keh_oth",
+      "variablename": "Yhteistyömuotojen merkitys muissa kohdissa mainitsematon",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_yo_fi",
+      "variablename": "Tuleva innovaatioyhteistyö yliopistot Suomessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_yo_ab",
+      "variablename": "Tuleva innovaatioyhteistyö yliopistot ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_amk_fi",
+      "variablename": "Tuleva innovaatioyhteistyö ammattikorkeakoulut Suomessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_amk_ab",
+      "variablename": "Tuleva innovaatioyhteistyö ammattikorkeakoulut ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_tl_fi",
+      "variablename": "Tuleva innovaatioyhteistyö tutkimuslaitokset Suomessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_tl_ab",
+      "variablename": "Tuleva innovaatioyhteistyö tutkimuslaitokset ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_ent_fi",
+      "variablename": "Tuleva innovaatioyhteistyö yritykset Suomessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yt_imp_ent_ab",
+      "variablename": "Tuleva innovaatioyhteistyö yritykset ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emp18",
+      "variablename": "Yrityksen henkilöstö 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur18",
+      "variablename": "Yrityksen liikevaihto 2018",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_nat",
+      "variablename": "Liikevaihdon osuus asiakkailta Suomesta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_eu_efta",
+      "variablename": "Liikevaihdon osuus asiakkailta EU- tai EFTA-maista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tur_neu_nefta",
+      "variablename": "Liikevaihdon osuus asiakkailta muualta kuin Suomesta/EU-/EFTA-maista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_hd_nat",
+      "variablename": "Kuuluu konserniin, pääkonttori Suomessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_ent_eg_nat",
+      "variablename": "Kuuluu konserniin, kaikki konsernin yritykset Suomessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_hd_for",
+      "variablename": "Kuuluu konserniin, pääkonttori ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "entgrp_hd_lct",
+      "variablename": "Kuuluu konserniin, pääkonttorin sijaintimaa ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_tknow_nat",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä Suomessa, tekninen osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_tknow_for",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä ulkomailla, tekninen osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_ntknow",
+      "variablename": "Ei vastaanottoa muilta konserniyrityksiltä, tekninen osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_finres_nat",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä Suomessa, taloudelliset resurssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_finres_for",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä ulkomailla, taloudelliset resurssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_nfinres",
+      "variablename": "Ei vastaanottoa muilta konserniyrityksiltä, taloudelliset resurssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_per_nat",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä Suomessa, henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_per_for",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä ulkomailla, henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_nper",
+      "variablename": "Ei vastaanottoa muilta konserniyrityksiltä, henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_sourc_nat",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä Suomessa, liiketoiminnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_sourc_for",
+      "variablename": "Vastaanotto muilta konserniyrityksiltä ulkomailla, liiketoiminnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "infl_nsourc",
+      "variablename": "Ei vastaanottoa muilta konserniyrityksiltä, liiketoiminnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_tknow_nat",
+      "variablename": "Siirto muille konserniyrityksille Suomessa, tekninen osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_tknow_for",
+      "variablename": "Siirto muille konserniyrityksille ulkomailla, tekninen osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_ntknow",
+      "variablename": "Ei siirtoa muille konserniyrityksille, tekninen osaaminen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_finres_nat",
+      "variablename": "Siirto muille konserniyrityksille Suomessa, taloudelliset resurssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_finres_for",
+      "variablename": "Siirto muille konserniyrityksille ulkomailla, taloudelliset resurssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_nfinres",
+      "variablename": "Ei siirtoa muille konserniyrityksille, taloudelliset resurssit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_per_nat",
+      "variablename": "Siirto muille konserniyrityksille Suomessa, henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_per_for",
+      "variablename": "Siirto muille konserniyrityksille ulkomailla, henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_nper",
+      "variablename": "Ei siirtoa muille konserniyrityksille, henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_sourc_nat",
+      "variablename": "Siirto muille konserniyrityksille Suomessa, liiketoiminnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_sourc_for",
+      "variablename": "Siirto muille konserniyrityksille ulkomailla, liiketoiminnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "outfl_nsourc",
+      "variablename": "Ei siirtoa muille konserniyrityksille, liiketoiminnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_ig_loan_succ",
+      "variablename": "Haki ja sai konsernin sisäistä rahoitusta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_ig_loan_nsucc",
+      "variablename": "Haki, mutta ei saanut konsernin sisäistä rahoitusta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_nig_loan",
+      "variablename": "Ei hakenut konsernin sisäistä rahoitusta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fund_ig_loan_rndinn",
+      "variablename": "Konsernin sisäistä rahoitusta innovaatiotoimintaan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "Lukumääräkerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvkerr",
+      "variablename": "Liikevaihtokerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "variables": [
+    {
+      "identifier": "YLAJI",
+      "variablename": "Yksikkölaji",
+      "conceptdef": "Oikeudellisen yksikön yksikkölaji eli  yksi/monitoimipaikkaisuus. \nMahdolliset arvot:\n\t1 = Yksitoimipaikkainen\n\t2 = Monitoimipaikkainen\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILYKS",
+      "variablename": "Tilastoyksikkö",
+      "conceptdef": "Tilastoyksikkö. \nMahdolliset arvot ovat:\n1  = tulee tilastoon   \nblankko = ei tule tilastoon  \nTilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuotta tilastovuonna ja jotka ovat työllistäneet enemmän kuin puoli henkilöä tai joiden liikevaihto on ylittänyt vuosittain määritellyn tilastorajan (10 595 euroa vuonna 2012).\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILIMPEX",
+      "variablename": "Tuoja/viejä -tieto",
+      "conceptdef": "Yritystä koskeva tilastovuoden TUOJA/VIEJÄ -tieto. \nMahdolliset arvot ovat:\n\t1 = Tuoja (harjoittaa tuontia)\n\t2 = Viejä (harjoittaa vientiä)\n\t3 = Molempia (harjoittaa tuontia ja vientiä)\n\nMääritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin kynnysarvo on 12 000 euroa ja kauppatapahtumia on vähintään kahtena kuukautena vuodessa tai kaupan arvo yli 120 000 euroa (tällöin riittää yksi kauppatapahtuma ko. vuonna). Ennen vuotta 2008 yritysrekisterissä on tuoja/viejä-tieto niistä yrityksistä, joiden tuonnin tai viennin arvo oli tarkasteluvuonna vähintään 16 000 euroa. Tiedot saadaan Tullista.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SEKTORI",
+      "variablename": "Sektori",
+      "conceptdef": "Oikeudellisen yksikön Sektoriluokitus 2000:n mukainen sektoriluokka.",
+      "measunit": null,
+      "classification": "sektoriluokitus_1_2000_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OIK",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": "Oikeudellisen yksikön oikeudellinen muoto. \nOikeudellisia muotoja ovat:\n\t\t\t\t11= Luonnollinen henkilö\n\t\t\t\t12= Kuolinpesä, perikunta\n\t\t\t\t13= Verotusyhtymä\n\t\t\t\t14= Avoin yhtiö\n\t\t\t\t15= Konkurssipesä\n\t\t\t\t21= Kommandiittiyhtiö\n\t\t\t\t22= Laivanisännistöyhtiö ( ei osakeyhtiö)\n\t\t\t\t31= Osakeyhtiö\n\t\t\t\t32= Keskinäinen vakuutusyhtiö\n\t\t\t\t33= Säästöpankki\n\t\t\t\t34= Eläkesäätiö tai –kassa, työeläkelaitos, ty\n\t\t\t\t35= Asunto-osakeyhtiö\n\t\t\t\t41= Osuuskunta\n\t\t\t\t51= Säätiö, rahasto\n\t\t\t\t52= Aatteellinen yhdistys\n\t\t\t\t53= Keskinäinen vahinkovakuutusyhdistys\n\t\t\t\t54= Taloudellinen yhdistys\n\t\t\t\t61= Julkinen viranomainen\n\t\t\t\t62= Julkinen liikelaitos\n\t\t\t\t63= Julkisoikeudellinen yhteisö\n\t\t\t\t71= Valtionkirkko\n\t\t\t\t72= Muu uskonnollinen yhteisö\n\t\t\t\t90= Muu oikeudellinen muoto\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTY95",
+      "variablename": "Omistajatyyppi",
+      "conceptdef": "Oikeudellisen yksikön omistajatyyppi vuoden 1995 luokituksen mukaan. \nOmistajatyyppejä ovat:\n1 = Yksityinen kotimainen\n2 = Valtio\n3 = Kunta\n4 = Ahvenanmaan maakunta\n5 = Ulkomaalaisomisteinen\n6 = Muu omistajatyyppi\n\nOTY-luokitus vuoteen 1992 asti:\n1=Yksityinen kotimainen\n2=Valtio\n3=Kunta\n4=Kuntainliitto\n6=Ulkomaalaisten osuus yli 20 %, enintään 50 %\n7=Ulkomaalaisten osuus yli 50 %\n9=Muu omistajatyyppi\n\nLuokitukset voi yhdistää esim. seuraavasti:\n1= Yksityinen kotimainen (oty=1 tai oty=6, oty95=1)\n2= Valtio (oty=2, oty95=2)\n3= Kunta (oty=3 tai oty=4, oty95=3)\n5= Ulkomaalaisomisteinen (oty=7, oty95=5)\n6= Muu omistajatyyppi (oty=9, oty95=6)\n\nKonsernirekisterin perimmäisen omistajan maan perusteella määräytyy onko kyseessä kotimainen konserni vai ulkomaalainen. Tämän tiedon perusteella konsernirekisterin tiedoista saadaan konsernin kotimaisille yhtiöille päivitettyä omistajatyyppi. Ulkomaalaisomisteisille konsernien suomalaisille tytäryhtiöille päivitetään omistajatyypiksi 5 eli Ulkomaalaisomisteinen ja konsernisuhteen äänivallasta päivitetään yritykselle ulkomaan määräysvalta. Valtio ja kuntakonserneille päivitetään omistajatyyppiä vastaavasti. Puolestaan ne yksiköt, jotka eivät löydy konsernirekisteristä, omistajatyyppi päivitetään verohallinnon oikeudellisen muodon perusteella (verohoikmuoto). Ennen konsernirekisterin perustamista vuonna 1995 tieto ulkomaalaisomistuksesta tuli Suomen Pankista ja pääsääntö oli, että jos ulkomaisen omistuksen osuus oli yli 10%, niin omistajatyyppi sai arvon 5 ulkomaalaisomisteinen.\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08YR",
+      "variablename": "Toimialaluokitus 2008",
+      "conceptdef": "Oikeudellisen yksikön toimiala toimialaluokitus TOL 2008:n mukaan. Käytössä tilastovuodesta 2007 alkaen. Erikseen saatavissa yritysten toimialat 2002 ja 2008 vuodesta 1988 alkaen.\nYritystilastoissa yrityksen koko toiminta tilastoidaan yrityksen päätoimialalle. Monitoimipaikkaisen yrityksen päätoimiala määräytyy yrityksen eri toimialoilla toimivissa toimipaikoissa syntyvän arvonlisäyksen perusteella. Arvonlisäys vastaa läheisesti jalostusarvoa. Yrityksen kunkin toimialan arvonlisäys saadaan kertomalla kunkin toimipaikan työllisten määrä toimipaikan toimialan keskimääräisellä arvonlisäyksellä ja suhteuttamalla saatu luku toimipaikan toiminta-aikaan tilastovuoden tilikaudella. Päätoimiala määritellään vaiheittain toimialaluokituksen kirjaintasolta tarkimmalle tasolle. Yrityksen päätoimialaksi määräytyy yleensä sen toimipaikan toimiala, jossa tilikauden arvonlisäys on suurin. Yksitoimipaikkaisella yrityksellä yrityksen ja toimipaikan toimiala on sama.\n\n",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUNTA",
+      "variablename": "Kotikunta",
+      "conceptdef": "Oikeudellisen yksikön kotikunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK",
+      "variablename": "Henkilöstön lukumäärä",
+      "conceptdef": "Oikeudellisen yksikön henkilöstö. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä. Henkilöstö käsittää palkansaajat ja yrittäjät. Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKPA",
+      "variablename": "Palkattu henkilöstö",
+      "conceptdef": "Oikeudellisen yksikön palkattu henkilöstö. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASA",
+      "variablename": "Palkattu henkilöstö –tiedon saantilähde",
+      "conceptdef": "Palkattu henkilöstö –tiedon saantilähde. \nKoodit ovat seuraavat:\nVTIE = 001, 003 (Mtie, Ytie)\n\tTIE4 = 004 (Utie)\nTEY = 051 (Rakennetilasto)\nEST1= 901 (Summa)\nEST5= muut\nEST7 = 220 (ESTPAVV1)\n bbbb = 902 (Käsin)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKYR",
+      "variablename": "Yrittäjien lukumäärä",
+      "conceptdef": "Yrittäjien lukumäärä oikeudellisessa yksikössä. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRSA",
+      "variablename": "Yrittäjien saantilähde",
+      "conceptdef": "Yrittäjien määrän saantilähde, josta on saatu yrittäjien lukumäärä.  \nKoodit ovat: \nVTIE = 001, 003 (Mtie, Ytie)  \nTIE4  = 004 (Utie)  \nEST1 = 320 (Rakennetilasto)  \nEST = muut  \nbbbb = 902 (Käsin)  \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY",
+      "variablename": "Oikeudellisen yksikön henkilöstön suuruusluokka",
+      "conceptdef": "Oikeudellisen yksikön henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n1\tHK\t<\t4,5  \n2\t  4,5\t<=\tHK\t<\t9,5  \n3\t  9,5\t<=\tHK\t<\t19,5  \n4\t 19,5\t<=\tHK\t<\t49,5  \n5\t 49,5\t<=\tHK\t<\t99,5  \n6\t 99,5\t<=\tHK\t<\t199,5  \n7\t199,5\t<=\tHK\t<\t499,5  \n8\t499,4\t<=\tHK\t<\t999,5  \n9\t999,5\t<=\tHK\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Liikevaihto",
+      "conceptdef": "Oikeudellisen yksikön liikevaihto.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVSA",
+      "variablename": "Liikevaihtotiedon saantilähde",
+      "conceptdef": "Liikevaihtotiedon saantilähde. \nKoodit ovat:\nVTIE  = 001, 003 (Mtie, Ytie)\n EVR   = 102\t(Verotk)  \nEST    = muut  \nbbb     = 902 (Käsin)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLLVY",
+      "variablename": "Liikevaihdon suuruusluokka",
+      "conceptdef": "Oikeudellisen yksikön liikevaihdon suuruusluokka. \nLuokat ovat:\n\t1\t\t\t\t\tLV\t<\t           1 000\n\t2\t           1 000\t<=\tLV\t<\t         40 000\n\t3\t         40 000\t<=\tLV\t<\t       100 000\n\t4\t       100 000\t<=\tLV\t<\t       400 000\n\t5\t       400 000\t<=\tLV\t<\t    2 000 000\n\t6\t    2 000 000\t<=\tLV\t<\t  10 000 000\n\t7\t  10 000 000\t<=\tLV\t<\t  40 000 000\n\t8\t  40 000 000\t<=\tLV\t<\t200 000 000\n\t9\t200 000 000\t<=\tLV\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALKKA",
+      "variablename": "Maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön maksamat palkat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TPLKM",
+      "variablename": "Toimipaikkojen lukumäärä",
+      "conceptdef": "Oikeudellisen yksikön oikeudellisten toimipaikkojen lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY2",
+      "variablename": "Henkilöstön suuruusluokka EU-luokituksen mukaan",
+      "conceptdef": "EU-luokituksen mukainen oikeudellisen yksikön henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n\t01\t\t    \t\t\tHK\t<    \t\t0,5\n\t02\t\t    0,5\t<=\tHK\t<\t    1,5\n\t03\t\t    1,5\t<=\tHK\t<\t    2,5\n\t04\t\t    2,5\t<=\tHK\t<\t    4,5\n\t05\t\t    4,5\t<=\tHK\t<\t    9,5\n\t06\t        9,5\t<=\tHK\t<\t  19,5\n\t07\t\t  19,5\t<=\tHK\t<\t  49,5\n\t08\t\t  49,5\t<=\tHK\t<\t  99,5\n\t09\t\t  99,5\t<=\tHK\t<\t149,5\n\t10\t\t149,5\t<=\tHK\t<\t199,5\n\t11\t\t199,5\t<=\tHK\t<\t249,5\n\t12\t\t249,5\t<=\tHK\t<\t499,5\n\t13\t\t499,5\t<=\tHK\t<\t999,5\n\t14\t\t999,5\t<=\tHK\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKSLY",
+      "variablename": "Suuruusluokka",
+      "conceptdef": "Oikeudellisen yksikön suuruusluokka. \nMahdolliset arvot ovat:\n\t0 = Ei määritelty\n\t1 = Mikro\n\t2 = Pieni\n\t3 = Keskisuuri\n\t4 = Suuri\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAA",
+      "variablename": "Sijoittajamaa",
+      "conceptdef": "Sijoittajamaa eli oikeudellista yksikköä eniten omistavan yhtiön sijaintimaa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOMI",
+      "variablename": "Ulkomainen omistusosuus",
+      "conceptdef": "Ulkomainen omistusosuus oikeudellisesta yksiköstä. Tiedot yhdellä desimaalilla eli jaettava kymmenellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALKUMAA",
+      "variablename": "Alkumaa",
+      "conceptdef": "Oikeudellisen yksikön merkittävimmän ulkomaisen omistajakonsernin/omistajan alkuperäinen sijaintimaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYO",
+      "variablename": "Työantajuus",
+      "conceptdef": "Tieto, että oikeudellinen yksikkö toimii työnantajana (verohallinnon asiakastietokanta).\n0=ei ole koskaan ollut\n1=kyllä\n2=ei ole enää",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALV",
+      "variablename": "Arvonlisäverovelvollisuus",
+      "conceptdef": "Tieto oikeudellisen yksikön toimimisesta arvonlisäverovelvollisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIPA",
+      "variablename": "Tilikauden päättymisaika",
+      "conceptdef": "Oikeudellisen yksikön tilikauden päättymisaika (VVVVKK). ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIPI",
+      "variablename": "Tilikauden pituus",
+      "conceptdef": "Oikeudellisen yksikön tilikauden pituus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAIKA",
+      "variablename": "Toiminta-aika",
+      "conceptdef": "Oikeudellisen yksikön toiminta-aika tilastovuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OHI",
+      "variablename": "Ohitustunnus",
+      "conceptdef": "Ohitustunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILINJ",
+      "variablename": "Tilinpäätöksen julkisuus",
+      "conceptdef": "Tilinpäätöksen julkisuus (0/1).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08PRO5",
+      "variablename": "Puhtausprosentti (5-num)",
+      "conceptdef": "Oikeudellisen yksikön 5-numerotason toimialan puhtausprosentti (tol2008).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08PRO4",
+      "variablename": "Puhtausprosentti (4-num)",
+      "conceptdef": "Oikeudellisen yksikön 4-numerotason toimialan puhtausprosentti (tol2008).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08PROK2",
+      "variablename": "Puhtausprosentti (2-kir)",
+      "conceptdef": "Oikeudellisen yksikön 2-kirjaintason toimialan puhtausprosentti (tol2008).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAAK",
+      "variablename": "Maakunta",
+      "conceptdef": "Maakunta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALOAIKA",
+      "variablename": "Aloitusaika",
+      "conceptdef": "Oikeudellisen yksikön y-tunnuksen alkamispäivä (KKVV vuosina 1982-99 ja VVVVKKPP vuodesta 2000 eteenpäin). Vuodesta 2006 pääsääntöisesti verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella henkilöllä y-tunnuksen alkamispäivä. Ennen vuotta 2006 määrittely perustui pääsääntöisesti arvonlisäverovelvollisuuteen, ennakkoverovelvollisuuteen tai työnantajana toimimiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPAIKA",
+      "variablename": "Lopettamisaika",
+      "conceptdef": "Oikeudellisen yksikön y-tunnuksen lopettamisaika (VVVVKKPP) 2006-, yrityksen lopettamisaika 2005 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOIMALO",
+      "variablename": "Toiminnan aloittamisaika",
+      "conceptdef": "Oikeudellisen yksikön taloudellisen toiminnan aloittamisaika (VVVVKKPP). Käytännössä sen tilikauden alkupäivä, jolloin toiminnallisuus havaitaan (perustana elinkeinoverotus-, maksuvalvonta-, ennakonpidätys- ja tuloverotusaineistot).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOIMLOP",
+      "variablename": "Toiminnan lopettamisaika",
+      "conceptdef": "Oikeudellisen yksikön taloudellisen toiminnan lopettamisaika (VVVVKKPP).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "Ikä",
+      "conceptdef": "Oikeudellisen yksikön ikä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA01",
+      "variablename": "Tammikuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön tammikuussa maksamat palkat.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA02",
+      "variablename": "Helmikuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön helmikuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA03",
+      "variablename": "Maaliskuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön maaliskuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA04",
+      "variablename": "Huhtikuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön huhtikuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA05",
+      "variablename": "Toukussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön toukokuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA06",
+      "variablename": "Kesäkuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön kesäkuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA07",
+      "variablename": "Heinäkuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön heinäkuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA08",
+      "variablename": "Elokuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön elokuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA09",
+      "variablename": "Syyskuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön syyskuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA10",
+      "variablename": "Lokakuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön lokakuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA11",
+      "variablename": "Marraskuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön marraskuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA12",
+      "variablename": "Joulukuussa maksetut palkat",
+      "conceptdef": "Oikeudellisen yksikön joulukuussa maksamat palkat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PA13",
+      "variablename": "Kuukausipalkat yhteensä",
+      "conceptdef": "Oikeudellisen yksikön kalenterivuonna maksamat palkat yhteensä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAATAL",
+      "variablename": "Tuotot maataloudesta",
+      "conceptdef": "Oikeudellisen yksikön tuotot maataloudesta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "METSAT",
+      "variablename": "Tuotot metsätaloudesta",
+      "conceptdef": "Oikeudellisen yksikön tuotot metsätaloudesta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PNUPPI",
+      "variablename": "Palkattu henkilöstön nuppiluku",
+      "conceptdef": "Oikeudellisen yksikön palkattu henkilöstön nuppiluku. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YNUPPI",
+      "variablename": "Yrittäjien nuppiluku",
+      "conceptdef": "Oikeudellisen yksikön yrittäjien nuppiluku. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APUYR",
+      "variablename": "Apuyrityksenä toimiminen",
+      "conceptdef": "Apuyrityksenä toimiminen (0/1).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AYTOL",
+      "variablename": "Apuyrityksen toimialan saanti",
+      "conceptdef": "Apuyrityksen toimialan saanti: 0=oma, 1=pääyrit, 2=kons. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02yr",
+      "variablename": "Yrityksen toimiala (tol2002)",
+      "conceptdef": "Oikeudellisen yksikön toimiala toimialaluokitus TOL 2002:n mukaan.\nKäytössä vuoteen 2008 asti.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08KNS",
+      "variablename": "Konsernitoimiala",
+      "conceptdef": "Mikäli oikeudellinen yksikkö kuuluu konserniin, muuttuja sisältää TOL 2008 mukaisen 5-numerotason konsernitoimialan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "knslaji",
+      "variablename": "Konsernilaji",
+      "conceptdef": "Yrityskonserniin kuuluvan oikeudellisen yksikön konsernilaji. \nMahdolliset arvot ovat:\n1 = Emo\n2 = Tytär\n6 = Väliemo\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Oikeudellisen yksikön y-tunnus ilman väliviivaa. (Ennen vuotta 1999 myös henkilötunnuksia)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stoissij",
+      "variablename": "Suojattu toissijainen tunnus",
+      "conceptdef": "Oikeudellisen yksikön toissijainen tunnus. Luonnollisilla henkilöillä toissi-jaisena tunnuksena on henkilötunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sknstun",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Yrityskonserniin kuuluvan yrityksen konsernitunnus. Kuntakonserneja ei huomioida. Konsernitiedot vuodesta 2001 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimlopmuoto",
+      "variablename": "Yrityksen toiminnan lopetusmuoto",
+      "conceptdef": "Yritys- ja toimipaikkatietoja on täydennetty yritysjärjestelyitä kuvaavilla aloitus- ja lopetustiedoilla, jotta yritystunnusten yli ajan vertailtavuus paranisi.\n\n1982-2005\naloaika: yrityksen aloitusajankohta muodossa kkvv vuosina 1982-99 ja muodossa\nvvvvkkpp vuodesta 2000 eteenpäin.\nlopaika: yrityksen lopetusajankohta muodossa vvvvkkpp\nalomuoto: yrityksen aloitusmuoto\nlopmuoto: yrityksen lopetusmuoto\n2006-\naloaika: oikeudellisen yksikön aloituspäivämäärä muodossa vvvvkkpp. Pääsääntöisesti\ntämä on verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella\nhenkilöllä y-tunnuksen alkamispäivä.\nlopaika: oikeudellisen yksikön lopetusajankohta muodossa vvvvkkpp\ntoimalo: oikeudellisen yksikön taloudellisen toiminnan aloituspäivämäärä muodossa\nvvvvkkpp. Käytännössä sen tilikauden alkupäivä, jolloin toiminnallisuus havaitaan.\ntoimlop: oikeudellisen yksikön taloudellisen toiminnan lopetuspäivämäärä muodossa\nvvvvkkpp.\ntoimalomuoto: yrityksen toiminnan aloitusmuoto\ntoimlopmuoto: yrityksen toiminnan lopetusmuoto\n\nTilastovuodesta 2006 alkaen toimalomuoto ja toimlopmuoto-muuttujien pohjana\novat oyr_toim_alo_muoto ja oyr_toim_lop_muoto. Ne kuvaavat taloudellisen toiminnan\naloitus- ja lopetusajankohtiin liittyviä tapahtumia.\n\nYrityksen lopetusmuoto ja lopetusaika merkitään sille vuodelle, jona toiminta on loppunut kullakin y-tunnuksella, sekä tätä edeltävälle vuodelle. Syy jälkimmäiseen on se, että yritys ei välttämättä saa riviä tilastotiedostoon lopetusvuotenaan. Syy tähän on - kuten aloittaneiden tapauksessa - mahdolliset erot tilikauden ja kalenterivuoden välillä.\n\nYrityksen lopetusmuoto voi saada seuraavia arvoja:\n0 konversio\n110 kuoleminen\n190 muu aito lopetus\n200 oik. muodon muutos\n210 toiminnan siirtyminen\n310 fuusio\n390 sulautuminen\n490 jakautuminen; diffuusio\n500 siirtynyt pois kohdejoukosta\n910 hall. tuplan passiivi osapuoli\n920 ei kuulunut kohdejoukkoon\n990 muu epäkelpo yksikkö\n999 poistetaan virheellisenä\nNäistä 110 (kuoleminen) tai 190 (muu aito lopetus), ovat aitoja lopetuksia eikä yrityksen toiminta tai henkilöstö siirry toiselle y-tunnukselle. \n\nToimipaikkatilastosta on saatavilla tarkempaa tietoa siitä, miltä yritykseltä toimintaa on siirtynyt kullekin toimipaikalle. Näiden lisäksi 500 (siirtynyt pois kohdejoukosta) on sellainen lopetusmuoto, jossa toiminta ei siirry toiselle y-tunnukselle, mutta tässä tapauksessa yrityksen toiminta ei enää täytä tilastotiedoston kriteereitä. 9-alkuiset aloitusmuodot ovat epävalideja havaintoja.\nMuissa tapauksissa yritys ei ole aidosti lopettanut, vaan sen toiminta ja henkilöstö on siirtynyt jollekin toiselle yritykselle.\nYritysrekisteristä ei voida yksiselitteisesti selvittää, miltä y-tunnukselta tai mille y-tunnukselle toiminta siirtyy. Esimerkiksi fuusiossa useamman y-tunnuksen toiminta siirtyy yhden y-tunnuksen alle ja jakautumisessa yhden y-tunnuksen toiminta siirtyy useamman y-tunnuksen alle. Aloitus- ja lopetusmuodot selvittävät kuitenkin sen, onko kadonneen y-tunnuksen alla toimineen yrityksen toiminta aidosti loppunutta tai syntyneen y-tunnuksen toiminta aidosti alkanutta.\n\nYritysjärjestelyitä koskevien tietojen laatu on parantunut ajan myötä, erityisesti vuodesta 1997 lähtien. 2000-luvun tiedot ovat jo suhteellisen luotettavia.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimalomuoto",
+      "variablename": "Yrityksen toiminnan aloitusmuoto",
+      "conceptdef": "Aloitusmuoto merkitään sille kalenterivuodelle, jona toiminta on alkanut kullakin y-tunnuksella, sekä tätä seuraavalle vuodelle. Jälkimmäinen merkintä siksi, että yritys ei välttämättä saa riviä tilastotiedostoon aloitusvuotenaan. Koska tilikausi ei läheskään kaikissa tapauksissa ole kalenterivuosi, ei myöskään voida yksiselitteisesti määritellä päivämäärää, jonka jälkeen yritys olisi toiminut kuusi kuukautta tilikauden aikana ja siten saisi rivin tilastotiedostoon.\n\nYrityksen aloitusmuoto voi saada seuraavia arvoja:\n0 konversio\n110 syntyminen\n190 muu aito aloitus\n200 oik. muodon muutos\n210 toiminnan jatkaminen\n310 fuusio\n410 yhtiöittäminen\n490 jakautuminen; diffuusio\n500 siirtynyt kohdejoukkoon\n910 hall. tuplan passiivi osapuoli\n920 ei kuulu kohdejoukkoon\n990 muu epäkelpo yksikkö\n999 poistetaan virheellisenä\n\nNäistä 110 (syntyminen) ja 190 (muu aito aloitus) ovat aitoja aloituksia eikä yrityksen toiminta ja henkilöstö siirry toisen y-tunnuksen alta. Näiden lisäksi 500 (siirtynyt kohdejoukkoon) on sellainen aloitusmuoto, jossa toiminta ei siirry toiselta y-tunnukselta, mutta tässä tapauksessa yrityksellä on ollut edellisenä vuonna toimintaa, mutta sen määrä ei ole täyttänyt tilastotiedoston kriteereitä. 9-alkuiset aloitusmuodot ovat epävalideja havaintoja.\nMuissa tapauksissa yritys ei ole aidosti aloittanut, vaan sille on siirtynyt toiminta ja henkilöstö joltain toiselta yritykseltä. \n\nHuom. vuosina 2006-2007 on tapahtunut muutoksia aloitusten määrittelyssä (siirtyminen toiminnallisuus-käsitteisiin), jonka seurauksena painopiste aidoissa aloituksissa on siirtynyt luokasta 110 luokkaan 500. Luokassa 110 ovat tämän jälkeen toimintansa uudelleen aloittaneet. Lisäksi alkutuottajien lisääminen tilastoon näkyy erityisesti vuosina 2006-2007.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

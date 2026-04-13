@@ -1,0 +1,52 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu patentin hakemusnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ipc",
+      "variablename": "Patenttiluokka (IPC)",
+      "conceptdef": "Kansainvälinen patenttiluokitus (International Patent Classification) on WIPO:n (World Intellectual Property Organization) ylläpitämä keksinnön teknologiaa kuvaava luokitus. Luokitus käsittää kahdeksan päälohkoa, jotka edelleen jakaantuvat alalohkoihin ja alaryhmiin. Tilastoinnissa käytetään hakemuksissa ensin ilmoitettua ipc-luokkaa.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol_2002",
+      "variablename": "Toimiala tol2002",
+      "conceptdef": "Toimialaluokituksen 2002 mukainen toimiala saatavissa vuoteen 2009 asti. Ei täysin vastaa yritysrekisterin päivitettyä toimialatietoa. Onkin suositeltavaa hakea yritysrekisterin toimialatieto kullekin vuodelle (erikseen saatavissa yritys-toimiala-avain), ja käyttää patenttiaineiston toimialatietoa tarvittaessa vain täydentävänä tietona.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol_2008",
+      "variablename": "Toimiala tol2008",
+      "conceptdef": "Toimialaluokituksen 2008 mukainen toimiala saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    }
+  ]
+}

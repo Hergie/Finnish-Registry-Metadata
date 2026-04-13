@@ -1,0 +1,244 @@
+{
+  "variables": [
+    {
+      "identifier": "henkilo_OID_s",
+      "variablename": "Suojattu lapsen oppijanumero.",
+      "conceptdef": "Lisää tietoa <a href=\"https://wiki.eduuni.fi/spaces/ophPPK/pages/190612188/Mik%C3%A4+on+oppijanumero\">OPH:n eeduuni-wikistä</a>.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta"
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön tunniste (lapsi).",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus"
+    },
+    {
+      "identifier": "syntymavuosi",
+      "variablename": "Lapsen syntymävuosi.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lapsen taustatiedot"
+    },
+    {
+      "identifier": "syntymakuukausi",
+      "variablename": "Lapsen syntymäkuukausi.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lapsen taustatiedot"
+    },
+    {
+      "identifier": "sukupuoli",
+      "variablename": "Henkilön sukupuoli.",
+      "conceptdef": "1=mies,\n2=nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lapsen taustatiedot"
+    },
+    {
+      "identifier": "aidinkieli_k",
+      "variablename": "Henkilön äidinkieli, karkeistettu tasolle suomi, ruotsi, muu.",
+      "conceptdef": "1=suomi,\n2=ruotsi,\nMUU=muu,\nTyhjä arvo=ei tietoa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "lapsen taustatiedot"
+    },
+    {
+      "identifier": "asuinkunta",
+      "variablename": "Lapsen asuinkunnan kuntakoodi.",
+      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "asuinkunta"
+    },
+    {
+      "identifier": "edellinen_asuinkunta",
+      "variablename": "Lapsen edellinen asuinkunta.",
+      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "asuinkunta"
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Asuinkunnan vaihtumisvuosi.",
+      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "asuinkunta"
+    },
+    {
+      "identifier": "kuukausi",
+      "variablename": "Asuinkunnan vaihtumiskuukausi.",
+      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "asuinkunta"
+    },
+    {
+      "identifier": "vuorohoito_kytkin",
+      "variablename": "Vuorohoito.",
+      "conceptdef": "Normaaliksi varhaiskasvatusajaksi on määritelty arkisin (ma-pe) klo 6.00-18.00 välisenä aikana tapahtuva varhaiskasvatus. Vuorohoidoksi on määritelty normaalin varhaiskasvatusajan ulkopuolella tapahtuva varhaiskasvatus.\n\nLapsi on vuorohoidossa, jos varhaiskasvatus tapahtuu ns. normaalien varhaiskasvatusaikojen ulkopuolella (vuorohoito = true). Lapsi ei ole vuorohoidossa, jos varhaiskasvatus toteutuu normaalin varhaiskasvatusajan sisällä. (vuorohoito = false).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "paivittainen_vaka_kytkin",
+      "variablename": "Päivittäinen varhaiskasvatus (mikäli lapsi ei ole vuorohoidossa).",
+      "conceptdef": "Lapsi on päivittäisessä varhaiskasvatuksessa, jos varhaiskasvatus jakautuu viidelle arkipäivälle (ma-pe), (päivittäinen varhaiskasvatus =  true).\n\nLapsi on osaviikkoisessa varhaiskasvatuksessa, jos varhaiskasvatus toteutuu vain joinain arkipäivinä (ma-pe), ei kaikkina arkipäivinä, (päivittäinen varhaiskasvatus = false).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "kokopaivainen_vaka_kytkin",
+      "variablename": "Kokopäiväinen varhaiskasvatus (mikäli lapsi ei ole vuorohoidossa).",
+      "conceptdef": "Lapsi on kokopäiväisessä varhaiskasvatuksessa, jos varhaiskasvatusaika on yli viisi tuntia päivässä (5.01 tai yli) ja varhaiskasvatus tapahtuu arkipäivinä (ma-pe), (kokopäiväinen varhaiskasvatus  = true).\n\nLapsi on osapäiväisessä varhaiskasvatuksessa, jos varhaiskasvatusaika on viisi tuntia tai vähemmän (5.0 tai alle) päivässä ja varhaiskasvatus tapahtuu arkipäivinä (ma-pe), (kokopäiväinen varhaiskasvatus = false).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "tilapainen_vaka_kytkin",
+      "variablename": "Tilapäinen varhaiskasvatus (mikäli lapsi on kunnallisessa varhaiskasvatuksessa, jonka järjestämismuoto on jm01, jm02 tai jm03).",
+      "conceptdef": "Tilapäisellä varhaiskasvatuksella tarkoitetaan kunnan järjestämää varhaiskasvatusta, johon lapsi osallistuu väliaikaisesti ja satunnaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "tuntimaara",
+      "variablename": "Varhaiskasvatuksen tuntimäärä viikossa.",
+      "conceptdef": "Lapsen varhaiskasvatuspäätökseen tai sitä vastaavaan sopimukseen merkitty viikoittainen tuntimäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "vkp_id_s",
+      "variablename": "Suojattu varhaiskasvatuspäätöksen tunnus.",
+      "conceptdef": "Suojattu tunnus, joka yksilöi varhaiskasvatuspäätöksen. Lapsella voi olla samanaikaisesti kolme voimassa olevaa varhaiskasvatuspäätöstä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "vks_id_s",
+      "variablename": "Suojattu varhaiskasvatussuhteen tunniste.",
+      "conceptdef": "Suojattu tunniste, joka yksilöi varhaiskasvatussuhteen. Lapsella voi olla samanaikaisesti kolme voimassa olevaa varhaiskasvatussuhdetta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "alkamispvm_paatos",
+      "variablename": "Varhaiskasvatuspäätöksen alkamispäivämäärä.",
+      "conceptdef": "Lapsellle tehdyn varhaiskasvatuspäätöksen tai sitä vastaavan sopimuksen aloituspäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "paattymispvm_paatos",
+      "variablename": "Varhaiskasvatuspäätöksen päättymispäivämäärä.",
+      "conceptdef": "Lapselle tehdyn varhaiskasvatuspäätöksen tai sitä vastaavan sopimuksen päättymispäivämäärä (jos tiedossa). Voi sisältää tyhjiä arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "alkamispvm_suhde",
+      "variablename": "Varhaiskasvatussuhteen alkamispäivämäärä.",
+      "conceptdef": "Lapsen toimipaikkaan sijoittumisen alkamispäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "paattymispvm_suhde",
+      "variablename": "Varhaiskasvatussuhteen päättymispäivämäärä.",
+      "conceptdef": "Lapsen toimipaikkaan sijoittumisen päättymispäivämäärä (jos tiedossa). Voi sisältää tyhjiä arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "toimija_OID_s",
+      "variablename": "Suojattu varhaiskasvatusta tuottavan toimijan tunniste (organisaatio-OID).",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "oma_organisaatio_s",
+      "variablename": "Varhaiskasvatusta järjestävän toimijan suojattu tunniste (organisaatio-OID).",
+      "conceptdef": "Omalla organisaatiolla tarkoitetaan varhaiskasvatuksen järjestämisvastuussa olevaa kuntaa tai kuntayhtymää.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "toimipaikka_id_s",
+      "variablename": "Suojattu toimipaikan tunniste.",
+      "conceptdef": "Vardan sisäinen toimipaikan yksilöivä suojattu tunniste. Ei yhdisty yritysrekisterin toimipaikkatunnisteeseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "toimipaikka_OID_s",
+      "variablename": "Toimipaikan suojattu tunniste (organisaatio-OID).",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus"
+    },
+    {
+      "identifier": "maksun_peruste_koodi",
+      "variablename": "Maksun peruste -koodi.",
+      "conceptdef": "Vardan <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardamaksunperuste\">maksun peruste -koodit</a> (31.03.2026):\nMP01=Yleinen maksuttomuus. Kunnan yleisellä päätöksellä myönnetty maksuton varhaiskasvatus;\nMP02=Osittainen maksuttomuus. Kunnan yleisellä päätöksellä myönnetty osittain maksunton varhaiskasvatus;\nMP03=Maksu. Käytetään, kun kunta ei tarjoa maksutonta tai osittain maksutonta varhaiskasvatusta lapsijoukolle.\n\nLisää tietoa <a href=\"https://wiki.eduuni.fi/spaces/ophPPK/pages/561852956/Huoltaja-+ja+maksutiedot#Huoltajajamaksutiedot-Maksuistatallennettavattiedot\">Vardan eeduuni-wiki</a> sivustolta (31.03.2026).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "maksutiedot"
+    },
+    {
+      "identifier": "asiakasmaksu",
+      "variablename": "Asiakasmaksu.",
+      "conceptdef": "Maksupäätökseen tai sopimukseen kirjattu asiakkaalta perittävä summa. Ilmoitetaan lapsikohtaisesti kuukausitasolla. Jos lapsen varhaiskasvatuksen järjestämiseksi on myönnetty palveluseteli, kunnat tallentavat asiakasmaksun, joka olisi vastaavasti peritty kunnan itse tuottamassa varhaiskasvatuksessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "maksutiedot"
+    },
+    {
+      "identifier": "palvelusetelin_arvo",
+      "variablename": "Kunna tai kuntayhtymän tallentama palvelusetelin arvo.",
+      "conceptdef": "Kunnan tai kuntayhtymän myöntämän lapsikohtaisen palvelusetelin arvo, ilmoitetaan kuukausitasolla. Yksityinen palveluntuottaja ei tallenna palvelusetelin arvoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "maksutiedot"
+    },
+    {
+      "identifier": "alkamispvm",
+      "variablename": "Maksun tai palvelusetelin voimaantulopäivämäärä.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "maksutiedot"
+    },
+    {
+      "identifier": "paattymispvm",
+      "variablename": "Maksun tai palvelusetelin voimassaolon päättymispäivämäärä (jos tiedossa).",
+      "conceptdef": "Voi sisältää tyhjiä arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "maksutiedot"
+    }
+  ]
+}

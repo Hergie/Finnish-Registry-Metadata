@@ -1,0 +1,188 @@
+{
+  "variables": [
+    {
+      "identifier": "delId",
+      "variablename": "Toimituksen tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu toimituksen tunniste joka muodostuu samalla kun kyseinen taulu tehdään. Muodostettu jotta taulujen yhdistäminen olisi tehokkaampaa. report.delId=delivery.Id, \n\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerIdType1_s",
+      "variablename": "Maksajan suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerhid_e",
+      "variablename": "Suojattu maksajan yksilöivä tunniste",
+      "conceptdef": "Suojattu maksajan yksilöivä tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerOtherIdCode_s",
+      "variablename": "Maksajan suojattu muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerOtherIdType",
+      "variablename": "Muu tunnus, maksajan tunnustyyppi",
+      "conceptdef": "Maksajan tunnustyyppi, kun se ei ole henkilö- tai yritystunnus. \n\n3 Alv-tunniste (VAT)\n4 GIIN-tunniste\n5 Verotunniste (TIN)\n6 Kaupparekisteritunnus\n7 Ulkomainen yritystunnus\n9 Ulkomainen henkilötunnus\n99 Muu tunnus\n\nSuorituksen maksajasta annetaan ensisijaisesti suomalainen asiakastunniste (esimerkiksi Y-tunnus tai henkilötunnus). Jos maksajalla ei ole suomalaista asiakastunnistetta, annetaan ulkomainen tunniste. Tällöin pitää antaa myös tarkentavia yksilöinti- ja yhteystietoja, kuten maksajan nimi ja osoitetiedot. Vastaavat tiedot on annettava myös silloin, kun suorituksen maksaja on tilapäinen työnantaja.\nhttps://www.vero.fi/tulorekisteri/yritykset-ja-organisaatiot/yksityiskohtaiset-tulorekisterin-ohjeet/63749/tietojen-ilmoittaminen-tulorekisteriin-palkkatietoilmoituksen-pakolliset-ja-t%C3%A4ydent%C3%A4v%C3%A4t-tiedot3/\n\n Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerSubOrgType1_s",
+      "variablename": "Maksajan aliorganisaation suojattu tunnus, kun tyyppi=1",
+      "conceptdef": "1 = Kevan ilmoittajakoodisto. Pakollisuus (K/E) = K. HUOM! Luokituksen sisältö vaihtelee ja voi sisältää myös tekstiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerSubOrgType2_s",
+      "variablename": "Maksajan aliorganisaation suojattu tunnus, kun tyyppi=2",
+      "conceptdef": "2 = Maksajan oma koodisto. Pakollisuus (K/E) = K. HUOM! Luokituksen sisältö vaihtelee ja voi sisältää myös tekstiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerSubOrgType3_s",
+      "variablename": "Maksajan aliorganisaation suojattu tunnus, kun tyyppi=3",
+      "conceptdef": "3 = Virastotunniste. Pakollisuus (K/E) = K. HUOM! Luokituksen sisältö vaihtelee ja voi sisältää myös tekstiä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paymentDate",
+      "variablename": "Maksupäivä",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paymentStartDate",
+      "variablename": "Maksukauden alku",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paymentEndDate",
+      "variablename": "Maksukauden loppu",
+      "conceptdef": "Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "substitutePayerActs",
+      "variablename": "Toimii sijaismaksajana = Kyllä/Ei",
+      "conceptdef": "\"True\". Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "substitutePayerWageSec",
+      "variablename": "Maksettu palkkaturvana = Kyllä/Ei",
+      "conceptdef": "\"True\". Pakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType1",
+      "variablename": "Maksajan tunnus, kun koodi = 1",
+      "conceptdef": "1 = Julkisyhteisö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType2",
+      "variablename": "Maksajan tunnus, kun koodi = 2",
+      "conceptdef": "2 = Kotitalous",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType3",
+      "variablename": "Maksajan tunnus, kun koodi = 3",
+      "conceptdef": "3 = Tilapäinen työnantaja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType4",
+      "variablename": "Maksajan tunnus, kun koodi = 4 ",
+      "conceptdef": "4 = Ulkomainen työnantaja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType6",
+      "variablename": "Maksajan tunnus, kun koodi = 6",
+      "conceptdef": "6=Valtio",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType7",
+      "variablename": "Maksajan tunnus, kun koodi = 7",
+      "conceptdef": "7=Valtion liikelaitos tai erillishallinnollinen valtion laitos",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType8",
+      "variablename": "Maksajan tunnus, kun koodi = 8",
+      "conceptdef": "8=Erityisjärjestö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType9",
+      "variablename": "Maksajan tunnus, kun koodi = 9",
+      "conceptdef": "9=Ulkomainen konserniyhtiö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerType10",
+      "variablename": "Maksajan tunnus, kun koodi = 10",
+      "conceptdef": "10=Kotitalouksien työnantajarinki",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "latauspvm",
+      "variablename": "Aineiston poimintapäivämäärä Tulorekisteristä",
+      "conceptdef": "Tarkoittaa sitä hetkeä, jolloin Tilastokeskus on poiminut aineiston Tulorekisteristä. Tilastokeskus sai tulorekisterin tiedot käyttöön vuoden 2020 alussa, joten tästä syystä vuoden 2019 tiedot on ladattu vasta vuoden 2020 puolella. Tyypillisesti tulorekisteriin ilmoitetut tiedot ladataan yhden päivän viiveellä Tilastokeskukseen.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

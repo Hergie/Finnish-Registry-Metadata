@@ -1,0 +1,44 @@
+{
+  "variables": [
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Henkilönumero on poimittu niille joille se löytyy.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": "Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle tehnyt muut asiat ja toimenpiteet.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RELATED_CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakkaan sukulaisen asiakasnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERSON_RELATIONSHIP_CODE",
+      "variablename": "Asiakkaan ja sukulaisen sukulaisuussuhde koodi",
+      "conceptdef": "Koodit ovat selitetty auki taulussa relationship_code_to_name, joka löytyy metatiedoista. \nJos muuttuja saa esim. arvon \"Äiti\", niin related_customer_id on customer_id:n äiti\n.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MODIFICATION_DAY",
+      "variablename": "Sukulaissuhteen kirjaus tai paivityspvm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

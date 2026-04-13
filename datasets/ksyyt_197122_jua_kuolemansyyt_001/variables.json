@@ -1,0 +1,556 @@
+{
+  "variables": [
+    {
+      "identifier": "kvuosi",
+      "variablename": "Kuolinvuosi",
+      "conceptdef": "Henkilön kuolinpäivämäärästä johdettu kuolinvuosi. Tieto väestötietojärjestelmästä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolpv",
+      "variablename": "Kuolinpäivä (vvvv-kk-pp)",
+      "conceptdef": "Henkilön kuolinpäivä, vvvv-kk-pp. \nMuodoltaan epävalidit kuolinpäivät = NULL, näillä kuitenkin kvuosi  T ieto väestötietojärjestelmästä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Henkilön sukupuoli kuolinhetkellä. \nTieto väestötietojärjestelmästä. \n\n1 = mies \n2 = nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika1",
+      "variablename": "Ikä kuolinhetkellä",
+      "conceptdef": "Tarkka ikä vuosina kuolinhetkellä (täytetyt vuodet).\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kika",
+      "variablename": "Kuolleen ryhmä iän perusteella",
+      "conceptdef": "1 = 1-vuotias tai vanhempi \n2 = 28 vrk - 11 kk \n3 = 7 - 27 vrk \n4 = 0 - 6 vrk\n ja  vuodesta 2022 alkaen 5=kuolleena syntyneet",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "peruste",
+      "variablename": "Kuolemansyyn selvittämisen peruste",
+      "conceptdef": "Kuolemansyyn selvittämisen peruste on kuolintodistuksen tieto. Kuolemansyyn selvittäminen perustuu lakiin kuolemansyyn selvittämisestä (1973/459). \n\nOikeuslääketieteellinen ruumiinavaus: \nJos kuolema on tapahtunut sellaisissa olosuhteissa, että siitä on kuolemansyyn selvittämiseksi suoritettava poliisitutkinta, tehdään useimmiten oikeuslääketieteellinen ruumiinavaus. Oikeuslääketieteellinen ruumiinavaus tehdään poliisin määräyksestä. \n\nPoliisitutkinta suoritetaan seuraavissa tilanteissa: \n- kun vainaja ei viimeisen sairautensa aikana ole ollut lääkärin hoidossa tai \n- kun kuoleman on aiheuttanut rikos, tapaturma, itsemurha, myrkytys, ammattitauti tai hoitotoimenpide tahi on aihetta epäillä kuoleman johtuneen jostakin sellaisesta syystä tai \n- kun kuolema muuten on tapahtunut yllättävästi.\n\nLääketieteellinen ruumiinavaus: \nLääketieteellinen ruumiinavaus voidaan suorittaa \n- kun kuolemansyy ei elämänaikaisten tietojen ja kuolintapahtumaan liittyvien tietojen perusteella selviä ja kuollut henkilö on viimeisen sairautensa aikana ollut lääkärin hoidossa ja jos ruumiinavaus on yleisen terveyden ja sairaanhoidon kannalta tarpeellinen \n- vainajan lähimmän omaisen tai muuten läheisen henkilön sitä pyytäessä.\n\nLääketieteellinen ruumiinavaus tehdään siis lääkärin tai omaisen pyynnöstä. \n\nMuu kuolemansyyn selvittämisperuste: \nYleisin muu kuolemansyyn selvittämisen peruste on vainajalle suoritettu kliininen tutkimus ja viimeisestä sairaudesta ja hoidosta saadut tiedot. \n\nEri vuodet eri luokituksilla:. \n\n1.1.2014 tuli voimaan uusi kuolintodistuslomake, jossa oli uutena luokkana 8 = oikeuslääketieteellinen selvitys, ei avausta. Osa vuosien 2013-2014 kuolemantapauksista kirjoitettiin uudelle lomakkeelle, osa vanhalle. \n\nTilastovuodesta 2015 lähtien peruste-muuttujaan kohdistuu seuraava käsittelysääntö: Jos\nkuolemanluokka (kluokka) on muu kuin tauti (1) ja peruste-muuttujaan on merkitty 'lääketieteellinen\nselvitys, ei avausta' (1) tällöin peruste saa arvon 'oikeuslääketieteellinen selvitys, ei avausta' (8). Tämä sääntö ei ole enää voimassa 2022 lähtien.\n\n2022- :\n1 = lääketieteellinen kuolemansyyn selvitys, ei avausta\n2 = lääketieteellinen kuolemansyyn selvitys, ruumiinavaus\n3 = oikeuslääketieteellinen kuolemansyyn selvitys, ei avausta\n4 = oikeuslääketieteellinen kuolemansyyn selvitys, ruumiinavaus\n5 = muu\n9 = ei kuolintodistusta\n\n1998-: 2021\n1 = kliininen tutkimus \n2 = lääketieteellinen avaus \n3 = oikeuslääketieteellinen avaus \n4 = ulkomailla kuollut, vain ulkomainen todistus syistä (saadaan koodattua ksyyt) \n5 = vain ilmoitus kuolemasta, ei kuolintodistusta (sis. myös kuolintodistukset, joissa ei ole kuolemansyitä) \n8 = oikeuslääketieteellinen selvitys, ei avausta (vain uudella lomakkeella) \n9 = ei tietoa perusteesta \n\n1987-97: \n0 = kuolintodistuksen käsittely kesken \n1 = vain ulkotarkastus \n2 = kliininen tutkimus \n3 = oikeuslääketieteellinen avaus \n4 = lääketieteellinen avaus \n5 = väliaikainen todistus, jossa kuolemansyyt \n8 = ulkomainen todistus/selvitys, jossa kuolemansyyt \n9 = tuntematon peruste \nblanco = ei kuolintodistusta tai väliaikainen, jossa ei kuolemansyitä \n\n1981-86: \n0 = ulkomainen todistus \n1 = lääkäri ei ole nähnyt \n2 = ulkoinen ruumiintarkastus \n3 = kliininen tutkimus \n4 = erikoistutkimus \n5 = lääketieteellinen avaus \n6 = oikeuslääketieteellinen avaus \n8 = väliaikainen todistus \n9 = tuntematon \n\n1971-80: \n0 = ulkomainen todistus \n1 = lääkäri ei ole nähnyt \n2 = ulkoinen ruumiintarkastus \n3 = kliininen tutkimus \n4 = erikoistutkimus \n5 = oikeuslääketieteellinen ulkotarkastus \n6 = oikeuslääketieteellinen avaus \n7 = lääketieteellinen avaus \n8 = väliaikainen todistus \n9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolkunta",
+      "variablename": "Kuolinkunta",
+      "conceptdef": "Voi käyttää vuodesta 2014 lähtien. Kuolintodistukselta lääkärin ilmoittamana tekstinä. Kuntakoodi esiintyy, jos kuolinkuntatekstistä on saatu pääteltyä kuntakoodi. Kattavuus 2014: 73% , 2015: 89 % , 2016: 96 %",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolmaa",
+      "variablename": "Kuolinmaa",
+      "conceptdef": "Henkilön kuolinmaa. Kuolinmaa saadaan kuolintodistukselta, joten jos henkilöllä on vain VTJ-tieto kuolemasta, kuolinmaasta ei ole tietoa.",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuntakv",
+      "variablename": "Asuinkunta kuolinvuonna",
+      "conceptdef": "Vuodesta 1998 lähtien kuolinvuoden+1 kuntajaolla, vuodet 1971-1997 vuoden 1997 kuntajaolla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asuinmaa",
+      "variablename": "Asuinmaa kuolinhetkellä",
+      "conceptdef": "Vakituinen asuinmaa kuolinhetkellä, jos ei Suomi. Tieto väestötietojärjestelmästä tai kuolintodistukselta. Kolmenumeroinen valtioluokitus. Tieto vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kpaikka",
+      "variablename": "Kuolinpaikka",
+      "conceptdef": "Eri vuodet eri luokituksilla. 1.1.2014 tuli voimaan uusi kuolintodistuslomake, jossa luokasta 'muu' on eroteltu sosiaalihuollon toimintayksikkö omaksi luokakseen. Esim. vanhainkodissa kuollut voi siis kuulua joko luokkaan 3 tai 5 riippuen käytetystä lomakkeesta. Osa vuosien 2013-2014 kuolemantapauksista kirjoitettiin uudelle lomakkeelle, osa vanhalle. \n\nHenkilön kuolinpaikka.\n \nVuodesta 2022- :\n1 = terveydenhuollon palveluyksikkö\n2 = sosiaalihuollon palveluyksikkö\n3 = koti/asunto\n4 = muu\n5 = ulkomaa\n9 = ei kuolintodistusta\n\n1998-:2021 \n1 = terveydenhuollon toimintayksikkö (sairaala, terveyskeskus, poliklinikka), ei ambulanssi \n2 = koti, asunto (oma tai vieraan), myös kesämökki \n3 = muu (sis. vanhainkodit vuodet 1998-2013 vanha lomake) \n4 = ulkomaat \n5 = sosiaalihuollon toimintayksikkö (vuodesta 2013 eteenpäin, uusi lomake) \n9 = tuntematon \nblanco = ei kuolintodistusta \n\n1987-97: \n0 = kuolintodistuksen käsittely kesken \n1 = sairaala, terveyskeskuksen vuode-osasto \n2 = poliisin säilö, vankila \n3 = poliklinikka, terveysasema \n4 = asunto, kesämökki \n5 = vanhainkoti, muu \n8 = ulkomaat \n9 = tuntematon \nblanco = ei kuolintodistusta, tai väliaikainen, jossa ei kuolemansyytä \n\n1981-86: \n1 = sairaala \n2 = vanhainkoti \n3 = poliklinikka, terveysasema \n4 = oma koti \n5 = muu yksityisasunto \n6 = muu \n8 = ulkomaat \n9 = tuntematon \n\n1977-80: \n1 = sairaala \n2 = vanhainkoti \n3 = oma koti \n4 = muu \n8 = ulkomaat, kotimainen todistus \n9 = ulkomaat, ulkomainen todistus \n\n1974-76: \n1 = sairaala \n2 = vanhainkoti \n3 = koti \n4 = muu \n9 = ulkomailla kuollut \n\n1971-73: \n1 = sairaala \n2 = vanhainkoti \n3 = muu \n9 = ulkomaat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpks",
+      "variablename": "Tilaston peruskuolemansyy",
+      "conceptdef": "Peruskuolemansyy on se tauti, joka on pannut alulle välittömästi kuolemaan johtaneen sairaustilojen sarjan, tai tapaturmaan tai väkivaltaan liittyvät olosuhteet, josta kuolemaan johtanut vamma tai myrkytys aiheutui. Tilastossa käytettävän peruskuolemansyyn (ns. tilaston peruskuolemansyyn) päättelyssä sovelletaan Maailman Terveysjärjestön (WHO) laatiman kansainvälisen tautiluokituksen (ICD-luokitus) valinta- ja sovellussääntöjä ja voi siksi poiketa lääkärin kuolintodistuksella antamasta peruskuolemansyystä.\n\nVuodesta 2013 lähtien ne ulkomailla kuolleet, joilta kuolemansyytieto puuttuu suomalaiselta kuolintodistukselta, on koodattu luokkaan R99 'Muu epätäydellisesti määritetty tai määrittämätön kuolemansyy' aiemman R999 (kuolintodistus puuttuu) sijaan.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpkspr",
+      "variablename": "Tilaston peruskuolemansyyn pääryhmä",
+      "conceptdef": "Tautiluokituksen pääryhmä.\nPääryhmät erilaisia eri tautiluokituksissa. \n\n1996-:\n01 = Tartunta- ja loissairaudet (A00-B99)\n02 = Kasvaimet (C00-D48)\n03 = Veren ja verta muodostavien elinten sairaudet (D50-D89)\n04 = Umpieritys- , ravitsemus- ja aineenvaihduntasairaudet (E00-E90)\n05 = Mielenterveyden ja käyttäytymisen häiriöt (F00-F99)\n06 = Hermoston sairaudet (G00-G99)\n07 = Silmän ja sen apuelinten sairaudet (H00-H59)\n08 = Korvan ja kartiolisäkkeen sairaudet (H60-H95)\n09 = Verenkiertoelinten sairaudet (I00-I99) \n10 = Hengityselinten sairaudet (J00-J99)\n11 = Ruuansulatuselinten sairaudet (K00-K93)\n12 = Ihon ja ihonalaiskudoksen sairaudet (L00-L99)\n13 = Tuki- ja liikuntaelinten sairaudet (M00-M99)\n14 = Virtsa- ja sukupuolielinten sairaudet (N00-N99)\n15 = Raskaus, synnytys ja lapsivuoteus (O00-O99)\n16 = Eräät perinataaliaikana alkaneet tilat (P00-P96)\n17 = Synnynnäiset epämuodostumat, epämuotoisuudet ja kromosomipoikkeavuudet (Q00-Q99)\n18 = Oireet ja epätaydellisesti määritetyt tilat (R00-R99)\n20 = Tapaturmat ja väkivalta (V01-Y89) \n21 = Ei kuolintodistusta (R999, vuodesta 1998 lähtien, tätä ennen tapaukset luokassa 18)\n\n1969-95: 01-17\n01 = Tartunta- ja loissairaudet (000-139)\n02 = Kasvaimet (140-239)\n03 = Umpieritys- ja aineenvaihduntasairaudet (240-279)\n04 = Veren ja verta muodostavien elinten sairaudet (280-289)\n05 = Mielenterveyden häiriöt (290-319)\n06 = Hermoston ja aistimien sairaudet (320-389)\n07 = Verenkiertoelinten sairaudet (390-459) \n08 = Hengityselinten sairaudet (460-519)\n09 = Ruuansulatuselinten sairaudet (520-579)\n10 = Virtsa- ja sukupuolielinten sairaudet (580-629)\n11 = Raskaus, synnytys ja lapsivuoteus (630-678)\n12 = Ihon ja ihonalaiskudoksen sairaudet (680-709)\n13 = Tuki- ja liikuntaelinten sairaudet (710-739)\n14 = Synnynnäiset epämuodostumat (740-759)\n15 = Eräät perinataaliaikana alkaneet tilat (760-779)\n16 = Oireet ja epätaydellisesti määritetyt tilat (780-799)\n17 = Tapaturmat ja väkivalta (E800-E999)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpkstt",
+      "variablename": "Tilaston peruskuolemansyyn kuolemanluokka",
+      "conceptdef": " \n\nOnko tilaston peruskuolemansyy tauti vai ulkoinen syy: \n\n0 = tauti \n1 = tapaturma, väkivalta ja vuodesta 1998 eteenpäin luokka  \n9 = ei kuolintodistusta\nTiedot vuoteen 2021.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpksaika",
+      "variablename": "Tilaston peruskuolemansyy, 54-luokkainen aikasarja",
+      "conceptdef": "Katso Tilastokesksen luokitukset luokiituspalvelusta  <a href=\"https://stat.fi/fi/luokitukset/kuolinsyyt/kuolinsyyt_1_20210101\">kuolemansyyluokitus</a> \n\n\nLuokituspalvelussa on  mm. Tilaston peruskuolemansyyn 54-luokkainen aikasarjaluokitus sekä aikasarjaluokituksen ja eri tautiluokitusversioiden (ICD) välinen avain ( Lisätmateriaalit alla): \n\n54-luokkaisessa kansallisessa aikasarjaluokituksessa huomioitava:\nvuodesta 1998-: 54 luokkaa, 54=ei kuolintodistusta, ennen vuotta 1998 tähän luokkaan kuuluvat olivat luokassa 40. \n\n1971-97: 53 luokkaa\n\nblanco= ei tietoa kuolemansyystä. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vks",
+      "variablename": "Välitön kuolemansyy",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\nVälitön kuolemansyy ilmaisee sen taudin, vian tai vamman, jonka oirein henkilö kuolee. Välittömäksi kuolemansyyksi ei kuitenkaan lueta kuoleman mekanismeja, esim. sydänpysähdystä. Tietoa ei ole alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vksr1",
+      "variablename": "Välittömän kuolemansyyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vamma tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kluokka",
+      "variablename": "Kuolemanluokka",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nMääräytyy lääkärin valitseman peruskuolemansyyn mukaan. Voi poiketa tilaston peruskuolemansyyn kuolemanluokasta.\n\n1 = tauti \n2 = ammattitauti \n3 = tapaturma \n4 = lääketieteellinen hoito tai tutkimustoimenpide \n5 = itsemurha \n6 = henkirikos \n7 = sota \n8 = epäselvä \n9 = ei kuolintodistusta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alko_laaja",
+      "variablename": "Alkoholisyy (laaja määritelmä)",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nKuolleen alkoholisyyksi määriteltävä kuolemansyy:Sisältää kaikki alkoholiperäiset tilaston peruskuolemansyyt. Lisäksi myrkytystapaukset, joissa alkoholi on ollut mukana ei-vaikuttavimpana aineena, sekä tapaukset, joissa alkoholitauti tai alkoholipäihtymys on mainittu myötävaikuttavana kuolemansyynä\n\n1 = peruskuolemansyy alkoholitauti\n2 = peruskuolemansyy myrkytys, jossa alkoholi ainoa vaikuttava aine\n3 = peruskuolemansyy myrkytys, jossa alkoholi vaikuttavin mutta ei ainoa aine\n4 = peruskuolemansyy myrkytys, jossa alkoholia mutta ei vaikuttavimpana aineena\n5 = peruskuolemansyy ei alkoholinen, myötävaikuttavana syynä päihtymys, jossa alkoholia\n6 = peruskuolemansyy ei alkoholinen, myötävaikuttavana syynä vain alkoholitauti\n0 = ei alkoholisyitä\n\nAlkoholi vaikuttavana aineena:\n- rinnakkaiskoodina T510-T519, T523, T528\n\nAlkoholitauti:\n- F101-F109, G312, G4051 (alkoholinen epilepsia, tilaston oma koodi; vuodesta 1998), G621, G721, I426, K292, K700-K709, K860, K8600 (korvautunut koodilla K852 vuodesta 2007), O354, P043, Q860\n- F191-F199 ja alkoholi vaikuttavana aineena\n\nMyrkytys/päihtymys, jossa alkoholia:\n- F100, X40-X49, X60-X69, Y10-Y19 ja alkoholi vaikuttavana aineena\n- F110, F120, F130, F140, F150, F160, F170, F180, F190 ja alkoholi vaikuttavana aineena\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alko_suppea",
+      "variablename": "Alkoholisyy (suppea määritelmä)",
+      "conceptdef": "Onko kuolleella alkoholisyyksi määriteltävä kuolemansyy.\n\n1998-:\n1 = alkoholisyy on Tpks\n2 = alkoholisyy ei ole Tpks mutta on jokin myötävaikuttavista syistä\nblanco = ei alkoholisyitä\n\n1987-97:\n1 = alkoholisyy on Tpks\n2 = alkoholisyy ei ole Tpks mutta on jokin myötävaikuttavista syistä\n3 = alkoholipäihtymys on jokin myötävaikuttavista syistä, ei Tpks\nblanco = ei alkoholisyitä\n\n1971-86:\n1 = alkoholisyy on Tpks\nblanco = ei alkoholisyitä\n\nAlkoholisyyt:\n1998-:\nF10, G312, G4051, G621, G721, I426, K292, K70, K860, O354, P043, X45, Q860 (vuodesta 2004), K852 (vuodesta 2007 korvaa K8600:n)\n\n1996-97:\nF10, G312, G621, G721, I426, K292, K70, K860, O354, P043, X45\n\n1987-95:\n291, 303, 3575, 4255, 5353, 5710-5713, 5770D-F, 5771C-D, 607A, 7795A, E851\n\n1969-86:\n291, 303, 5710, 577 (Miehet), E860\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m1",
+      "variablename": "1. myötävaikuttava kuolemansyy",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\n1. myötävaikuttava kuolemansyy (alle 28 vrk ikäisenä kuolleen todistukselta lapsen 1. muu syy). \n\nMyötävaikuttavaksi kuolemansyyksi lääkäri ilmoittaa kuolintodistuksen osassa II syyt, jotka ovat epäsuotuisasti vaikuttaneet kuolemaan johtaneen tilan kehitykseen ja siten myötävaikuttaneet kuolemaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m2",
+      "variablename": "2. myötävaikuttava kuolemansyy",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\n2. myötävaikuttava kuolemansyy (alle 28 vrk ikäisenä kuolleen todistukselta lapsen 2. muu syy). \n\nMyötävaikuttavaksi kuolemansyyksi lääkäri ilmoittaa kuolintodistuksen osassa II syyt, jotka ovat epäsuotuisasti vaikuttaneet kuolemaan johtaneen tilan kehitykseen ja siten myötävaikuttaneet kuolemaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m3",
+      "variablename": "3. myötävaikuttava kuolemansyy",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\n3. myötävaikuttava kuolemansyy (alle 28 vrk ikäisenä kuolleen todistukselta äidin tärkein syy). \n\nMyötävaikuttavaksi kuolemansyyksi lääkäri ilmoittaa kuolintodistuksen osassa II syyt, jotka ovat epäsuotuisasti vaikuttaneet kuolemaan johtaneen tilan kehitykseen ja siten myötävaikuttaneet kuolemaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m4",
+      "variablename": "4. myötävaikuttava kuolemansyy",
+      "conceptdef": "Tieto vuodesta 1996 lähtien. \n\n4. myötävaikuttava kuolemansyy (alle 28 vrk ikäisenä kuolleen todistukselta äidin 1. muu syy). \n\nMyötävaikuttavaksi kuolemansyyksi lääkäri ilmoittaa kuolintodistuksen osassa II syyt, jotka ovat epäsuotuisasti vaikuttaneet kuolemaan johtaneen tilan kehitykseen ja siten myötävaikuttaneet kuolemaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m5",
+      "variablename": "5. myötävaikuttava kuolemansyy",
+      "conceptdef": "Tieto vuodesta 1996 lähtien, 28 vrk ikäisenä tai vanhempana kuolleilla tieto vain vuosina 1996-1997. 5. myötävaikuttava syy, alle 28 vrk kuolleen kuolemaan vaikuttanut äidin 2. muu syy.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m6",
+      "variablename": "6. myötävaikuttava kuolemansyy",
+      "conceptdef": "Tieto vain vuosina 1996-1997. \nEi alle 28 vrk kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m7",
+      "variablename": "Kuolemansyy tapahtumatiedoista, lapsen 3. muu syy",
+      "conceptdef": "Tieto vuodesta 1996 lähtien.\n\t\n2022 - : 28 vrk ikäisenä tai vanhempana kuolleen 7. myötävaikuttava syy, alle 28 vrk kuolleen 3. muu syy 1996-2021: 28 vrk ikäisenä tai vanhempana kuolleilla kuolintodistuksen tapahtumatiedoista muodostettu kuolemansyy. Alle 28 vrk kuolleen 3. muu syy. - Tämä tieto on 2022 lähtien muuttujassa m0",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m0",
+      "variablename": "Kuolemansyy tapahtumatiedoista",
+      "conceptdef": "28 vrk ikäisenä tai vanhempana kuolleen kuolemansyy tallennettu kuolintodistuksen tapahtumatiedoista. \nTieto vuodesta 2022.\n1996-2021 tieto on muuttujassa m7",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m1r1",
+      "variablename": "1. myötävaikuttavan syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m1r2",
+      "variablename": "1. myötävaikuttavan syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m1r3",
+      "variablename": "1. myötävaikuttavan syyn 3. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m1r4",
+      "variablename": "1. myötävaikuttavan syyn 4. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m1r5",
+      "variablename": "1. myötävaikuttavan syyn 5. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m2r1",
+      "variablename": "2. myötävaikuttavan syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m2r2",
+      "variablename": "2. myötävaikuttavan syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m3r1",
+      "variablename": "3. myötävaikuttavan syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m3r2",
+      "variablename": "3. myötävaikuttavan syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m4r1",
+      "variablename": "4. myötävaikuttavan syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m4r2",
+      "variablename": "4. myötävaikuttavan syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m5r1",
+      "variablename": "5. myötävaikuttavan syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m5r2",
+      "variablename": "5. myötävaikuttavan syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin vammakoodi tai vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m6r1",
+      "variablename": "6. myötävaikuttavan syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Ei tapauksia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m6r2",
+      "variablename": "6. myötävaikuttavan syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Ei tapauksia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m7r1",
+      "variablename": "Lapsen 3. muun syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Kuolemaan vaikuttavan 3. muun syyn 1. rinnakkaiskoodi alle 28 vrk ikäisenä kuolleen lapsen kohdalla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m7r2",
+      "variablename": "Lapsen 3. muun syyn 2. rinnakkaiskoodi",
+      "conceptdef": "Kuolemaan vaikuttavan 3. muun syyn 2. rinnakkaiskoodi alle 28 vrk ikäisenä kuolleen lapsen kohdalla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvks1",
+      "variablename": "1. välivaiheen syy",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\nVälivaiheen kuolemansyy on se tila, joka johtaa peruskuolemansyystä välittömään kuolemansyyhyn. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvks2",
+      "variablename": "2. välivaiheen syy",
+      "conceptdef": "Tieto vuodesta 1996 lähtien. \n\nVälivaiheen kuolemansyy on se tila, joka johtaa peruskuolemansyystä välittömään kuolemansyyhyn. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvks1r1",
+      "variablename": "1. välivaiheen syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvks2r1",
+      "variablename": "2. välivaiheen syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpksr1",
+      "variablename": "Lapsen tärkeimmän syyn 1. rinnakkaiskoodi",
+      "conceptdef": "Nimenmuutos: entinen ltksr1 \nAlle 28 vrk iässä kuolleen tärkeimmän kuolemansyyn 1. rinnakkaiskoodi.\nKäytä vain alle 28 vrk iässä kuolleille (kika = 3 tai 4).\n\nTiedoksi: Sisältää myös arvoja yli 28 vrk kuolleille mutta eivät ole kattavia,\n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltksr2",
+      "variablename": "Lapsen tärkeimmän kuolemansyyn 2. rinnakkaiskoodi",
+      "conceptdef": "Alle 28 vrk ikäisenä kuolleen lapsen tärkeimmän kuolemansyyn 2. rinnakkaiskoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vpksr2",
+      "variablename": "Valitun peruskuolemansyyn 2. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\nJos tapaturma tai väkivalta, niin 2. vammakoodi tai myrkytyksen vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.\n\n1987-1993 vain tapaturmaisesti tai väkivaltaisesti kuolleilla\n1994-1995 jos tauti, niin tilastollisesti ohitettu 2. tila, peruskuolemansyytä täsmentävä tila (useat epämuodostumat, läppäviat) tai infektioiden rinnakkaiskoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vpksr3",
+      "variablename": "Valitun peruskuolemansyyn 3. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1987 lähtien. \n\nJos tapaturma tai väkivalta, niin 3. vammakoodi tai myrkytyksen vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila.\n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vpksr4",
+      "variablename": "Valitun peruskuolemansyyn 4. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin 4. vammakoodi tai myrkytyksen vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila. \n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vpksr5",
+      "variablename": "Valitun peruskuolemansyyn 5. rinnakkaiskoodi",
+      "conceptdef": "Tieto vuodesta 1998 lähtien. \n\nJos tapaturma tai väkivalta, niin 5. vammakoodi tai myrkytyksen vaikuttava aine. Jos tauti, niin sairauden ilmenemiskohta tai aiheuttajaeliö tai muu sairautta täydentävä tila. \n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tapat",
+      "variablename": "Tapaturman tapahtumapaikka (tapaturmatyyppi)",
+      "conceptdef": "Kuolemaan johtaneen tapaturman tapahtumapaikka.V. 1998-2013 mukana myös toiminto tapahtumahetkellä, v.2014 lähtien sisältää vain tiedon tapaturman tapahtumapaikasta ja aineistossa erillinen toiminto-muuttuja, jossa on tieto tapaturman toiminnosta tapahtumahetkellä. V. 2015-2021  tapat-muuttujaan kohdistuu seuraava käsittelysääntö: Jos kuolemanluokaltaan epäselvä (kluokka=8) myrkytys muuttuu tapaturmaiseksi myrkytykseksi, niin tapat saa arvon 'ei tiedossa' (8). \n\n\n2022- :\n1 = liikenne/kuljetus\n2 = koti\n3 = terveydenhuollon palveluyksikkö\n4 = sosiaalihuollon palveluyksikkö\n5 = muu\n6 = ei tiedossa\nblanco = ei tapaturmainen kuolema\n\n\n2014-2021 : \n\n0 = sosiaalihuollon toimintayksikkö \n1 = kuljetuksessa, liikenteessä \n5 = kotona \n6 = terveydenhuollon toimintayksikössä \n7 = muu \n8 = ei tiedossa \nblanco = ei tapaturmainen kuolema \n\n1998-2013: \n\n\n0 = vanhainkoti \n1 = kuljetuksessa, liikenteessä \n2 = ansiotyössä \n3 = urheilussa tai liikunnassa \n4 = vapaa-ajan harrastuksissa \n5 = kotona \n6 = terveydenhuollon toimintayksikössä \n7 = muu \n8 = ei tiedossa \n9 = myrkytys \nblanco = ei tapaturmainen kuolema\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkos",
+      "variablename": "Tapaturman tai väkivallan ulkoinen syy",
+      "conceptdef": "Tieto vuodesta 1996 lähtien. \n\nTilaston peruskuolemansyynä tapaturmaisesti tai väkivaltaisesti kuolleiden kuolemaan johtavan vamman tai myrkytyksen tärkein ulkoinen syy.",
+      "measunit": null,
+      "classification": "kuolinsyyt_71_1996_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "Ika2",
+      "variablename": "Alle 1-vuotiaan tarkka ikä kuollessa (min/h/vrk)",
+      "conceptdef": "Alle 1-vuotiaana kuolleen lapsen tarkka ikä kuollessa (min/h/vrk). Tieto vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika3",
+      "variablename": "Alle 1-vuotiaan tarkka ikä kuollessa (vrk)",
+      "conceptdef": "Alle 1-vuotiaana kuolleen tarkka ikä kuollessa (vrk). Tieto vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika4",
+      "variablename": "Ikä kuolinhetkellä (vrk/kk/v)",
+      "conceptdef": "Kuolleen tarkka ikä (vrk/kk/v). Tieto vuodesta 2022 lähtien \n0 = 0 vrk\n1 = 1 vrk\n2 = 2 vrk\n3 = 3 - 6 vrk\n4 = 7 - 27 vrk\n5 = 28 vrk - 5 kk\n6 = 6 - 11 kk\n7 = 1 vuosi\n8 = 2 v\n9 = 3 v\n10 = 4 v\n11 = 5 - 9 v\n12 = 10 - 14 v\n13 = 15 - 19 v\n14 = 20 - 24 v\n15 = 25 - 29 v\n16 = 30 - 34 v\n17 = 35 - 39 v\n18 = 40 - 44 v\n19 = 45 - 49 v\n20 = 50 - 54 v\n21 = 55 - 59 v\n22 = 60 - 64 v\n23 = 65 - 69 v\n24 = 70 - 74 v\n25 = 75 - 79 v\n26 = 80 - 84 v\n27 = 85 - 89 v\n28 = 90 - 94 v\n29 = 95+ v.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyklo",
+      "variablename": "Lapsen syntymäkellonaika",
+      "conceptdef": "Lapsen syntymäkellonaika alle 28 vrk iässä kuolleilla.\nTieto muodossa hhmm, missä hh = tunti, mm = minuutti, 9999 = ei tietoa. Tieto vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolklo",
+      "variablename": "Lapsen kuolinkellonaika",
+      "conceptdef": "Lapsen kuolinkellonaika alle 28 vrk iässä kuolleilla.\nTieto muodossa hhmm, missä hh = tunti, mm = minuutti, 9999= ei tietoa. Tieto vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarjkirj",
+      "variablename": "Lapsen järjestyskirjain synnytyksessä",
+      "conceptdef": "Kuolleena syntyneiden ja alle 28 vrk iässä kuolleiden järjestyskirjain synnytyksessä (A,B,C,D). Kuolleena syntyneillä tieto vuodesta 1976 lähtien, alle 28vrk iässä kuolleilla vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "monisik",
+      "variablename": "Synnytyksen monisikiöisyys",
+      "conceptdef": "Kuolleena syntyneiden ja alle 28 vrk iässä kuolleiden synnytyksen monisikiöisyys (1,2...9)\n. Kuolleena syntyneillä tieto vuodesta 1976 lähtien, alle 28vrk iässä kuolleilla vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "spaino",
+      "variablename": "Syntymäpaino",
+      "conceptdef": "Kuolleena syntyneiden ja alle 28 vrk iässä kuolleiden syntymäpaino grammoina.\nKuolleena syntyneillä tieto vuodesta 1976 lähtien, mutta tieto puuttuu vuosina 1987-1997.\nAlle 28 vrk iässä kuolleilla tieto vuodesta 2022 lähtien. 9999= ei tietoa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "raske",
+      "variablename": "Raskauden kesto",
+      "conceptdef": "Kuolleena syntyneiden ja alle 28 vrk iässä kuolleiden raskauden kesto. Kuolleena syntyneillä tieto vuodesta 1976 lähtien.\nAlle 28 vrk iässä kuolleilla tieto vuodesta 2022 lähtien. Tieto muodossa rvp (rv= täydet raskausviikot + p= ylimenevät päivät), 999 = ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "huumeb",
+      "variablename": "Huumeluokitus B",
+      "conceptdef": "Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen EMCDDA:n huumeluokitukseen Selection B. \n\nJohdettu muuttuja tilaston peruskuolemansyystä ja sen 1. rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.\n\nEuroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus. EMCDDA:n määrittelemiin äkillisiin huumekuolemiin (ns. B-suodatin) kuuluvat luokat 056-057, 059-061, 063-065, 067-069, 071-073, 075-077, 079-081, 083-085, 087-097, 103, 108-117, 123, 128-137, 143). Luokkia on yhdistelty, koska kaikki Selection B:n luokat eivät ole mahdollisia tilaston peruskuolemansyynä Suomessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "huumeet",
+      "variablename": "Huumeluokitus",
+      "conceptdef": "Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus huumausainekuolemista.\n\nJohdettu muuttuja tilaston peruskuolemansyystä ja sen 1.rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.\n\nEuroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus. EMCDDA:n määrittelemiin äkillisiin huumekuolemiin (ns. B-suodatin) kuuluvat luokat 056-057, 059-061, 063-065, 067-069, 071-073, 075-077, 079-081, 083-085, 087-097, 103, 108-117, 123, 128-137, 143)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paihtymys",
+      "variablename": "Päihtymystyyppi",
+      "conceptdef": "Tapaturmaisesti tai väkivaltaisesti kuolleiden alkoholi-, huume- ja lääkepäihtymykset. \nVuodesta 1998 lähtien.\n\nLuokat: \n\n0 = ei päihtymystä \n1 = alkoholipäihtymys ilman huume-/lääkeaineita \n2 = alkoholi- ja huume-/lääkeainepäihtymys \n3 = huume-/lääkeainepäihtymys ilman alkoholia \n\nbl = myrkytys tai muu kuin tapaturmainen tai väkivaltainen kuolema \n\nAlkoholipäihtymys: myötävaikuttavassa syyssä esiintyy T510-T519, T523, T528 \nHuume/lääkeainepäihtymys: myötävaikuttavassa syyssä esiintyy T360-T509",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

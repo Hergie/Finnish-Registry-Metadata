@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FIRM_19882020_jua_empesthenkom_001.xml",
+      "doi": "work_2012-12_2012-12-10_ain_0001",
+      "subject": "FIRM_EMPEST Toimipaikkakohtaiset henkilöstöominaisuudet",
+      "contentdescription": "FOLK-aineistosta on muodostettu tutkimuskäyttöön toimipaikkapohjaiset taulut, joihin on laskettu henkilöstön keskimääräisiä ominaisuuksia ja eri henkilöstöryhmien osuuksia vuodesta 2017 alkaen. Ajanjaksolta 1988-2016 päivitys on tehty FLEED (Finnish Longitudinal Employer - Employee Data)-kokonaisaineiston tietojen pohjalta. Kehikkona on käytetty vuodesta 2013 alkaen toimipaikkatietoja yritystietovarastosta (aikaisemmin yritysrekisteristä). Kohdejoukossa on tilastojärjestelmien ja tilastorajojen muutoksista johtuvia vuosittaisia eroja. Vuoteen 2012 asti mukana on myös ei-tilastoyksiköitä. Ennen vuotta 2000 mukana voi olla myös julkisia yksiköitä, joten yritysrekisterin tilastoyksiköt kannattaa rajata käyttämällä TILYKS=1, koska toimipaikkatunnus ei ole välttämättä yksilöivä. Vuodesta 1998 eteenpäin myös henkilöyrittäjille löytyy toimipaikkatunnus. Mukaan on otettu yritykset, joille löytyy vähintään 1 henkilöhavainto FOLK-moduulista (ennen vuotta 2017 FLEED-moduulista). Kyseisen aineiston henkilömäärää on käytetty osuuksia laskettaessa jakajana. Mukana ovat 16 - 70-vuotiaat henkilöt. \n\n\nKeskimääräiset kouluvuodet on määritelty seuraavasti (UTUTKU vuoteen 2004 asti, 2005 alkaen pohjana KTUTK): \nTutkinnot muutetaan kouluvuosiksi seuraavasti\n- Jos koulutustaso='3' tai '4', kouluvuodet=12  (Toinen aste ja erikoisammattikoulutusaste)\n- Jos koulutustaso='5', kouluvuodet=14 (Alin korkea-aste)\n- Jos koulutustaso='6', kouluvuodet=16 (Alempi korkeakouluaste)\n- Jos koulutustaso='7', kouluvuodet=18 (Ylempi korkeakouluaste)\n- Jos koulutustaso='8', kouluvuodet=21 (Tutkijakoulutusaste)\n- Muutoin kouluvuodet=9\n\nKoulutusryhmät on määritelty seuraavasti:\nMuodostetaan 10 työntekijäryhmää koulutustason ja -alan mukaan. XY, jossa X viittaa koulutustasoon (2=peruskoulu, 3=toinen aste ja erikoisammattitukinnot, 5=alin korkea-aste, 6=alempi korkeakouluaste, 8=ylempi korkeakouluaste ja tutkijakoulutusaste) ja Y alaan: Y=G yleinen, Y=T, ”tekninen” (luonnontieteellinen ja tekniikan/ICT koulutus) ja Y=N ”ei-tekninen”. Vuodesta 2016 lähtien 4-alkuiset erikoisammattitutkinnot on sisällytetty luokkaan 3. \n\nKullekin koulutusryhmälle on lisäksi laskettu keskimääräiset kuukausiansiot työtulojen (palkkatulot) summan ja työssäolokuukausien summan suhteena. Tämä mittari ei ole kuitenkaan täysin luotettava, esim. äitiysvapaakuukaudet lasketaan mukaan työssäolokuukausiin mutta näillä henkilöillä ei ole työtuloja.\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.",
+      "coveragetemporal": "1988-01-01 - 2022-12-31",
+      "published_day": "2024-07-25",
+      "variable_count": "36",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "16-70-vuotiaat henkilöt yritysrekisterin toimipaikoissa, joille löytyy vähintään 1 henkilö FOLK/FLEEDistä",
+      "resourcerelation_1": "FOLK/FLEED-aineisto (mm. työssäkäyntitilasto) ja yritysrekisteri",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

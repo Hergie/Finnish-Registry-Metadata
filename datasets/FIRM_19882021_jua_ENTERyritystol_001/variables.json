@@ -1,0 +1,132 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritysid_s",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Uusi yritysyksikön tunnus, vuodesta 2013 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilyks",
+      "variablename": "Tilastoyksikkö",
+      "conceptdef": "Tilastoyksikkö. \nMahdolliset arvot ovat:\n1            = tulee tilastoon\nblankko = ei tule tilastoon\nTilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuotta tilastovuonna ja jotka ovat työllistäneet enemmän kuin puoli henkilöä tai joiden liikevaihto on ylittänyt vuosittain määritellyn tilastorajan (10 595 euroa vuonna 2012). Vuonna 2013 alettiin soveltaa myös tase- ja investointirajoja.\n\nVuosina 1989-1993 ja 2006-2007 tilyks = blankko tapauksia erityisen paljon, vuonna 2013 kaikki havainnot tilastoyksiköitä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": "Käytössä vuoteen 2013 asti.\n\nOikeudellisen yksikön oikeudellinen muoto. \nOikeudellisia muotoja ovat:\n\t\t\t\t11= Luonnollinen henkilö\n\t\t\t\t12= Kuolinpesä, perikunta\n\t\t\t\t13= Verotusyhtymä\n\t\t\t\t14= Avoin yhtiö\n\t\t\t\t15= Konkurssipesä\n\t\t\t\t21= Kommandiittiyhtiö\n\t\t\t\t22= Laivanisännistöyhtiö ( ei osakeyhtiö)\n\t\t\t\t31= Osakeyhtiö\n\t\t\t\t32= Keskinäinen vakuutusyhtiö\n\t\t\t\t33= Säästöpankki\n\t\t\t\t34= Eläkesäätiö tai –kassa, työeläkelaitos, ty\n\t\t\t\t35= Asunto-osakeyhtiö\n\t\t\t\t41= Osuuskunta\n\t\t\t\t51= Säätiö, rahasto\n\t\t\t\t52= Aatteellinen yhdistys\n\t\t\t\t53= Keskinäinen vahinkovakuutusyhdistys\n\t\t\t\t54= Taloudellinen yhdistys\n\t\t\t\t61= Julkinen viranomainen\n\t\t\t\t62= Julkinen liikelaitos\n\t\t\t\t63= Julkisoikeudellinen yhteisö\n\t\t\t\t71= Valtionkirkko\n\t\t\t\t72= Muu uskonnollinen yhteisö\n\t\t\t\t90= Muu oikeudellinen muoto\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik_vero",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": "Käytössä vuodesta 2013 alkaen.\n\n01\tLuonnollinen henkilö\n10\tAvoin yhtiö\n11\tKommandiittiyhtiö\n12\tOsakeyhtiö\n13\tAsunto-osakeyhtiö\n14\tLaivanisännistöyhtiö\n16\tKeskinäinen kiinteistö-oy\n17\tMuu kiinteistö-oy\n18\tKonserni\n19\tMuu yhtiö\n20\tAatteellinen yhdistys\n21\tErityislainsäädäntöön perustuva yhdistys\n22\tKeskinäinen vahinkovakuutusyhdistys\n23\tMetsänhoitoyhdistys\n24\tOsuuspankki\n25\tOsuuskunta\n26\tVakuutuskassa\n27\tTyöttömyyskassa\n28\tMuu taloudellinen yhdistys\n29\tMuu yhdistys\n30\tSäätiö (säätiölain mukainen)\n31\tSäästöpankki\n32\tEläkesäätiö (säädekirjalla perustettu)\n33\tTyöeläkekassa\n35\tHypoteekkiyhdistys\n39\tMuu säätiö\n40\tValtio ja sen laitokset\n60\tValtion liikelaitos\n41\tKunta\n61\tKunnallinen liikelaitos\n42\tKuntayhtymä\n62\tKuntainliiton (kuntayhtymän) liikelaitos\n43\tAhvenanmaan maakunta ja sen virastot\n63\tAhvenanmaan liikelaitos\n44\tEvankelis-luterilainen kirkko\n45\tOrtodoksinen kirkko\n46\tRekisteröity uskonnollinen yhdyskunta\n47\tYlioppilaskunta tai osakunta\n48\tErillishallinnollinen valtion laitos\n49\tMuu julkisoikeudellinen oikeushenkilö\n50\tYhteisetuudet (esim. kalastuskunta)\n51\tVerotusyhtymät\n52\tYhteisvastuullinen pidätysvelvollinen\n53\tKuolinpesä\n54\tKonkurssipesä\n55\tYhteismetsä\n57\tElinkeinoyhtymä\n59\tMuu verotuksen yksikkö\n70\tUlkomainen yhteisö\n71\tUlkomaisen yhteisön sivuliike Suomessa\n91\tMuut\n92\tMuut\n93\tMuut\n94\tMuut\n95\tMuut\n96\tMuut\n99\tMuut\nZZ\tTieto puuttuu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hkyr",
+      "variablename": "Henkilöstön lukumäärä",
+      "conceptdef": "Oikeudellisen yksikön henkilöstö. Henkilöstö käsittää palkansaajat ja yrittäjät. Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvyr",
+      "variablename": "Liikevaihto",
+      "conceptdef": "OIkeudellisen yksikön liikevaihto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "utalayr",
+      "variablename": "Tol1988",
+      "conceptdef": "Toimialaluokitus 1988, saatavissa vuosille 1988-1993.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ntalayr",
+      "variablename": "Tol1995",
+      "conceptdef": "Toimialaluokitus 1995, saatavissa vuosille 1993-2001.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02yr",
+      "variablename": "Tol2002",
+      "conceptdef": "Toimialaluokitus 2002, saatavissa vuosille 2001-2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08yr",
+      "variablename": "Tol2008",
+      "conceptdef": "Toimialaluokitus 2008, saatavissa vuosille 2007-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL02",
+      "variablename": "Tol2002, luokituskannan avain",
+      "conceptdef": "Toimialaluokitus 2002 (tai luokitus 1995) on ollut käytössä vuosina 1993-2008. Muulloin tarkka toimialatieto tol02 on tarvittaessa käännetty luokitustietokannan avaimilla, jolloin lopputulos on lähinnä suuntaa-antava. Avain kääntää kaikki tiedot 5-numerotasolla pääasialliseen luokkaan, vaikka luokka jakautuisi useaan osaan, mikä voi vääristää aineistoa. Joissakin tapauksissa toimiala on karkeammalla kuin 5-numerotasolla.\n",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08",
+      "variablename": "Tol2008, luokituskannan avain/yrek",
+      "conceptdef": "Vuodesta 1999 lähtien tol08-tieto on peräisin yritysrekisteristä, jossa se on täydennetty yrityksille takautuvasti vuosille1999-2006 erilaisten päättelysääntöjen avulla. Ennen 1999 tarkka tol08 on tarvittaessa käännetty luokitustietokannan avaimilla, jolloin lopputulos on lähinnä suuntaa-antava. Avain kääntää kaikki tiedot 5-numerotasolla pääasialliseen luokkaan, vaikka luokka jakautuisi useaan osaan, mikä voi vääristää aineistoa. Joissakin tapauksissa toimiala on karkeammalla kuin 5-numerotasolla.\n",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02_2",
+      "variablename": "Tol2002_2, empiirinen avain",
+      "conceptdef": "2-numerotoimialatason tol02_2 on muodostettu empiirisellä avaimella, jossa on valittu pääasiallinen luokka sen mukaan mihin karkeaan 2-numeroluokkaan 5-numerotoimialalta suurin osa yritysten henkilöstöstä siirtyy luokitusmuutosvuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08_2",
+      "variablename": "Tol2008_2, empiirinen avain",
+      "conceptdef": "2-numerotoimialatason tol08_2 on muodostettu empiirisellä avaimella, jossa on valittu pääasiallinen luokka sen mukaan mihin karkeaan 2-numeroluokkaan 5-numerotoimialalta suurin osa yritysten henkilöstöstä siirtyy luokitusmuutosvuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

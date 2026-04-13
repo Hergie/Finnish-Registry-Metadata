@@ -1,0 +1,692 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Aineistovuosi",
+      "conceptdef": "Opiskelija-aineistossa TILV 1995-1998.\n\nViiteajankohdat:\n\n* Lukiokoulutus 1995-\n  * 20.9. (ei sisällä aineopiskelijoita)\n\n* Ammatillinen koulutus 2013- 1.1.-31.12. (Kaikki koulutuslajit)\n* Ammatillinen koulutus 2004-2012\n  * Opetussuunnitelmaperusteinen amm. koulutus 20.9. \n  * Näyttötutkintoon valmistava ja oppisopimuskoulutus\n    1.1.-31.12.\n* Ammatillinen koulutus 1995-2003\n  * 20.9. (1995-1998 ei sisällä oppisopimuskoulutusta)\n\n* Ammattikorkeakoulukoulutus 1995- \n  * 20.9.\n\n* Yliopistokoulutus 2002-\n  * 20.9. \n* Yliopistokoulutus 1995-2001 \n  * 31.12. sisältäen syksyllä tutkinnon suorittaneet\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ain",
+      "variablename": "Lähdeaineisto",
+      "conceptdef": "Lähdeaineisto (karkea)\n20 = Lukiokoulutusaineisto\n30 = Ammatillisen koulutuksen aineisto\n40 = Ammattikorkeakoulukoulutusaineisto\n50 = Yliopistokoulutusaineisto\n",
+      "measunit": null,
+      "classification": "lahdeaineisto_1_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "klaji",
+      "variablename": "Koulutuslaji (1999-)",
+      "conceptdef": "21 = Lukiokoulutus, nuorten OPS (oppilaitoksen määrittelemä tieto)\n22 = Lukiokoulutus, aikuisten OPS (oppilaitoksen määrittelemä tieto)\n31 = OPS-perusteinen ammatillinen peruskoulutus (ei oppisopimuskoulutus) \n32 = Näyttötutkintoon valmistava koulutus: perustutkinnot (ei oppisop. koul.)\n33 = Näyttötutkintoon valmistava koulutus: ammattitutkinnot (ei oppisop.koul.)\n34 = Näyttötutkintoon valmistava koulutus: erikoisammattitutkinnot (ei oppisop.k.)\n35 = OPS-perusteinen ammatillinen peruskoulutus (oppisopimuskoulutus) \n36 = Näyttötutkintoon valmistava koulutus: perustutkinnot (oppisopimuskoulutus)\n37 = Näyttötutkintoon valmistava koulutus: ammattitutkinnot (oppisopimuskoulutus)\n38 = Näyttötutkintoon valmistava koulutus: erikoisammattitutkinnot (oppisop.koul.)\n41 = Ammattikorkeakoulututkinto, nuorten koulutus \n42 = Ammattikorkeakoulututkinto, aikuisten koulutus\n46 = Ylempään AMK-tutkintoon tähtäävä koulutus \n51 = Alempaan ja ylempään korkeakoulututkintoon tähtäävä koulutus\n52 = Lisensiaatinkoulutus, tohtorinkoulutus ja lääkärien erik.koul.\nVuodesta 2013 alkaen:\n43 = Ammattikorkeakoulujen erikoistumisopinnot (poistuvat, OPLU=1) ( ammattikorkeakoulujen erikoistumisopintoja ei enää ole. Klajin arvo 43 pidetään kuvauksessa.)\n45 = Ammattikorkeakoulujen ammatillinen opettajankoulutus (OPLU=1)\nVuodesta 2015 alkaen: \n52 = Lisensiaatinkoulutus, tohtorinkoulutus ja eläinlääkäreiden erik.koul. ( arvo 52 sisältää eläinlääkäreiden erikoistumiskoulutuksen, jos se on aloitettu 31.7.2023 mennessä.)\n53 = Lääkärien ja hammaslääkärien erikoistumiskoulutus (OPLU=1 eli tutkintoon johtamaton koulutus) ( arvo 53 sisältää eläinlääkäreiden erikoistumiskoulutuksen, jos se on aloitettu 1.8.2023 tai sen jälkeen.)\nVuodesta 2016 alkaen:\n41 = Ammattikorkeakoulututkinto, päivätoteutus\n42 = Ammattikorkeakoulututkinto, monimuotototeutus\n44 = Ammattikorkeakoulujen erikoitusmiskoulutukset (OPLU=1)\n54 = Yliopistojen erikoistumiskoulutukset (OPLU=1) alk. 2016, pl. lääkärit ja hammaslääkärit\nVuodesta 2018 alkaen:\n61 = Ammatilliset perustutkinnot, ei oppisopimuskoulutus\n62 = Ammattitutkinnot, ei oppisopimuskoulutus\n63 = Erikoisammattitutkinnot, ei oppisopimuskoulutus\n64 = Ammatilliset perustutkinnot, oppisopimuskoulutus\n65 = Ammattitutkinnot, oppisopimuskoulutus\n66 = Erikoisammattitutkinnot, oppisopimuskoulutus\nPoistettu käytöstä ammatillisen koulutuksen arvot 31, 32, 33, 34, 35, 36, 37 ja 38.\nVuodesta 2019 alkaen:\n71 = Ammatilliset perustutkinnot (ei sisällä koulutussopimus- eikä oppisopimusjaksoja)\n72 = Ammattitutkinnot (ei sisällä koulutus- eikä oppisopimusjaksoja)\n73 = Erikoisammattitutkinnot (ei sisällä koulutus- eikä oppisopimusjaksoja)\n74 = Ammatilliset perustutkinnot (sisältää sekä koulutus- että oppisopimusjaksoja)\n75 = Ammattitutkinnot (sisältää sekä koulutus- että oppisopimusjaksoja)\n76 = Erikoisammattitutkinnot (sisältää sekä koulutus- että oppisopimusjaksoja)\n77 = Ammatilliset perustutkinnot (sisältää koulutussopimusjaksoja)\n78 = Ammattitutkinnot (sisältää koulutussopimusjaksoja)\n79 = Erikoisammattittutkinnot (sisältää koulutussopimusjaksoja)\n80 = Ammatilliset perustutkinnot (sisältää oppisopimusjaksoja)\n81 = Ammattitutkinnot (sisältää oppisopimusjaksoja)\n82 = Erikoisammattitutkinnot (sisältää oppisopimusjaksoja) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oprior",
+      "variablename": "Opiskelun prioriteetti (1997-)",
+      "conceptdef": "Ensisijainen koulutus on viimeksi aloitettu koulutus. Jos samana vuonna on aloitettu useita koulutuksia, on poimittu TK:n koulutusasteen mukaan korkein koulutus. Tutkintoon johtava koulutus on priorisoitu ennen tutkintoon johtamatonta koulusta. Tiedot alkaen vuodesta 1997.\n1 = Ensisijainen koulutus \n2 = Toissijainen koulutus. \nMuuttuja Oprior on laskettu vuosina 1997-2000 ainoastaan syksyllä läsnä oleviksi ilmoittautuneista opiskelijoista. \nMuuttuja Oprior on laskettu vuosina 2001-2009 kaikesta koulutuksesta (sekä tutkintoon johtavasta että tutkintoon johtamattomasta koulutuksesta). Tästä syystä mukana voi olla henkilöitä, joille löytyy vain oprior=2. Tällöin henkilö on aloittanut viimeiseksi tutkintoon johtamattoman koulutuksen. \nVuodesta 2010 lähtien oprior lasketaan vain tutkintoon johtavasta koulutuksesta.\n",
+      "measunit": null,
+      "classification": "opiskelu_1_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oplu",
+      "variablename": "Opiskelun luonne",
+      "conceptdef": "Vuonna 2013 vain ammattikorkeakoulukoulutuksesta, vuodesta 2014 alkaen arvot koskevat kaikkia koulutussektoreita.\n0 = Koulutus johtaa tutkintoon ja opiskelija on kirjoilla 20.9. (2013-)\n1 = Koulutus ei johda tutkintoon (näiden henkilöiden tiedot voivat olla puutteellisia) tai opiskelija ei ole kirjoilla 20.9. (2013-)\n9 = Opetussuunnitelmaperusteisen koulutuksen opiskelijat, jotka eivät olleet kirjoilla 20.9. (2014-2017)\n9 = Ammatillisen koulutuksen opiskelijat, jotka eivät olleet kirjoilla 20.9. (2018-)\nVuodesta 2018 arvo 9 muuttunut lakimuutoksen myötä. Tieto kaikilla oppilaitosmuotoisen ammatillisen koulutuksen opiskelijoilla. Oppisopimuskoulutus tilastoidaan kuten aikaisempinakin vuosina.",
+      "measunit": null,
+      "classification": "oplu_3_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "sp",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Sukupuoli\n1 = Mies\n2 = Nainen\n9 = Määrittelemättä (2020-)\nSukupuolitieto puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. Tiedot alkaen vuodesta 1995.",
+      "measunit": null,
+      "classification": "sukupuoli_2_1970_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä tilastovuoden lopussa",
+      "conceptdef": "Ikä vuosina 31.12. Ikätieto on puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. Tiedot vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansal",
+      "variablename": "Kansalaisuus (1999-)",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa.\nTieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n999=Ei tietoa.\nTieto saatavilla muuttujissa 1995 KANS ja 1997-1998 KANSA.",
+      "measunit": null,
+      "classification": "valtio_1_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "aikieli",
+      "variablename": "Äidinkieli (1999-)",
+      "conceptdef": "Opiskelijan äidinkieli 31.12.\n2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n99 = ei tietoa.\nTieto vuosina 1995 ja 1997 KIELI, 1998 AIKIELI eroavilla luokituksilla.",
+      "measunit": null,
+      "classification": "kieli_1_2010_11_15",
+      "variablegroups": null
+    },
+    {
+      "identifier": "olosyys",
+      "variablename": "Kirjoilla 20.9 (1999-)",
+      "conceptdef": "Muuttujan määritelmä vuoteen 2017 saakka:\nKirjoilla 20.9. tai kirjoilla jossain vaiheessa kalenterivuotta (näyttötutk. valm. koulutus) tai voimassa oleva oppisopimus jossain vaiheessa kalenterivuotta \n1 = Läsnä (=opiskeli tai oli pakollisessa työharjoittelussa) 20.9. tai kirjoilla/oppisopimus jossain vaiheessa kalenterivuotta\n2 = Poissa (=opiskelija oli kirjoilla oppilaitoksessa, mutta ei opiskellut asepalveluksen, äitiysloman tai muun hyväksytyn syyn vuoksi) 20.9.\n9 = Ei ilmoittautumistietoa / ei kirjoilla 20.9.\nMuuttujan määritelmä vuodesta 2018 alkaen: \nKirjoilla 20.9. tai kirjoilla jossain vaiheessa kalenterivuotta (voimassa oleva oppisopimus)\n1 = Läsnä (=opiskeli tai oli pakollisessa työharjoittelussa) 20.9. tai opiskeli jossain vaiheessa kalenterivuotta (oppisopimuskoulutus)\n2 = Poissa (=opiskelija oli kirjoilla oppilaitoksessa, mutta ei opiskellut asepalveluksen, äitiysloman tai muun hyväksytyn syyn vuoksi) 20.9.\n9 = Ei ilmoittautumistietoa / ei kirjoilla 20.9.\nOppisopimuskoulutuksesta ei ole varsinaista läsnäolotietoa. Mukana ovat kaikki jossain vaiheessa kalenterivuotta opiskelleet.\n\nAiempien vuosien muutokset, jotka ovat edelleen voimassa:\nVuodesta 2016 arvo 9 sis. myös amk:n erikoistumiskoulutuksia, joissa ei ole läsnä- tai poissaoloilmoitusta.\nVuodesta 2017 arvo 9 sis. myös yliopistojen erikoistumiskoulutuksia, joissa ei ole läsnä- tai poissaoloilmoitusta.\nOsa klaji=54 arvoista saa olosyys-muuttujalla arvon 2.\nVuodesta 2018 tieto on kaikilla oppilaitosmuotoisen ammatillisen koulutuksen opiskelijoilla, aiemmin vain opetussuunnitelmaperusteisen koulutuksen opiskelijoilla. Oppisopimuskoulutus tilastoidaan kuten aikaisempinakin vuosina.\nTieto vuosina 1997-1998 muuttujassa LASNAS.",
+      "measunit": null,
+      "classification": "kirjoilla_3_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "olotamm",
+      "variablename": "Kirjoilla 20.1. (1999-)",
+      "conceptdef": "Kirjoilla 20.1. tai kirjoilla kevätlukukaudella (yliopistokoulutus) tai kirjoilla jossain vaiheessa kalenterivuotta (näyttötutk. valm. koulutus) tai voimassa oleva oppisopimus jossain vaiheessa kalenterivuotta \n1 = Läsnä (=opiskeli tai oli pakollisessa työharjoittelussa) 20.1. tai keväällä\n2 = Poissa (=opiskelija oli kirjoilla oppilaitoksessa, mutta ei opiskellut asepalveluksen, äitiysloman tai muun hyväksytyn syyn vuoksi) 20.1. tai keväällä\n9 = Ei ilmoittautumistietoa / ei kirjoilla 20.1. (esim. kaikki tilastovuoden syksyllä opintonsa aloittaneet)\n\nHUOM! Muuttuja OLOTAMM ei sisällä lukio-, amk- ja yliopistokoulutuksen osalta kaikkia kevään opiskelijoita vaan vain ne, jotka jatkoivat opiskeluaan syksyllä 20.9. Oppisopimuskoulutuksesta (ja vuoteen 2017 asti näyttötutkintoon valmistavasta koulutuksesta) ei ole varsinaista läsnäolotietoa. Mukana ovat kaikki jossain vaiheessa kalenterivuotta opiskelleet. Vuodesta 2018 alkaen tieto on kaikilla oppilaitosmuotoisen ammatillisen koulutuksen opiskelijoilla, aiemmin vain opetussuunnitelmaperusteisen koulutuksen opiskelijoilla. Oppisopimuskoulutus tilastoidaan kuten aikaisempinakin vuosina).\nTieto vuosilta 1997-1998 muuttujassa LASNAK.",
+      "measunit": null,
+      "classification": "kirjoilla_4_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "alvv",
+      "variablename": "Tutkinnon aloittamisvuosi/kirjoilletulovuosi (1997-)",
+      "conceptdef": "Vuosi (vvvv), jolloin opiskelija on ottanut vastaan ko. tutkinnon opiskeluoikeuden ko. oppilaitoksessa ja ilmoittautunut koulun kirjoihin 20.9. mennessä tai solminut oppisopimuksen. Oppilaitoksen ja koulutuksen kannalta uudet opiskelijat (muut koulutukset) saadaan tämän muuttujan avulla (alvv=tilastovuosi). Uudet opiskelijat ovat tulleet kirjoille oppilaitokseen 1.1. - 20.9. Ainoastaan ammatillisessa koulutuksessa uudet opiskelijat ja oppisopimuskoulutuksen uudet opiskelijat ovat koko kalenterivuodelta.\n\n9999 = ei tietoa.\n\nMuutokset vuosien varrella:\n\nAmmatillinen koulutus:\n- Vuodesta 2013 eteenpäin ammatillisen koulutuksen aloittamistieto on koko kalenterivuodelta kaikkien koulutusten osalta.\n- Vuodesta 2004 ammatillisessa koulutuksessa näyttötutkintoon valmistavan koulutuksen uudet opiskelijat ja oppisopimuskoulutuksen uudet opiskelijat ovat koko kalenterivuodelta. \n\nAmmattikorkeakoulutus:\n- Ammattikorkeakoulukoulutuksen uusi opiskelija oli vuoteen 2001 asti ensimmäistä kertaa läsnäolleeksi kirjoittautunut opiskelija. \n\nYliopistokoulutus:\n- Vuoteen 2011 asti yliopistokoulutuksen ALVV- ja ALKK-muuttujat kuvasivat sitä ajankohtaa, jolloin henkilö aloitti opinnot ko. oppilaitoksessa missä tahansa koulutuksessa. Vuodesta 2012 ALVV- ja ALKK-muuttujien tieto on tarkempi: Vuodesta 2012 alkaen saadaan tieto ajankohdasta, jolloin henkilö aloitti ensimmäistä kertaa ko. koulutuksen ko. oppilaitoksessa.\n- Yliopistokoulutuksen uusi opiskelija oli vuoteen 2001 asti kalenterivuonna ko. yliopistossa koulutuksen aloittanut.\n\nVuosina 1997 ja 1998 päivälukioiden, ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen opiskelijoilla '0000 tarkoittaa vuotta 1995 tai aiemmin.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "allk",
+      "variablename": "Tutkinnon aloittamislukukausi/kirjoilletulolukukausi (1997-)",
+      "conceptdef": "Tutkinnon aloittamislukukausi (1997-)\n1 = Kevät (1.1.-31.7.)\n2 = Syksy (1.8.-31.12.)\n9 = Ei tietoa\n\nYliopistojen ALKK-tieto tarkentui vuonna 2012, lisätietoja ALVV-muuttujan yhteydessä.\nVuosilta 1997-1998 vain yliopistokoulutuksesta ja vakinaisten ammattikorkeakoulujen koulutuksista.\nKs. alvv",
+      "measunit": null,
+      "classification": "opiskelu_6_2013_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "aiopis",
+      "variablename": "Aikuisopiskelija",
+      "conceptdef": "Aikuisopiskelija on henkilö, joka on aloittanut opintonsa ko. oppilaitoksessa ko. koulutuksessa tai osallistunut oppisopimuskoulutukseen 25-vuotiaana tai sitä vanhempana. Aikuisopiskelija voi opiskella missä tahansa oppilaitoksessa tai koulutuksessa riippumatta siitä, onko koulutus suunniteltu aikuisille vai ei. Tietoja alkaen vuodesta 2013. \nVuodesta 2018 muuttujakuvauksen määritelmää täsmennetty, sisältö ja tarkoitus pysynyt samana: Aikuisopiskelija on henkilö, joka on aloittanut opintonsa ko. oppilaitoksessa ko. koulutuksessa tai solminut oppisopimuksen 25-vuotiaana tai sitä vanhempana. Aikuisopiskelija voi opiskella missä tahansa oppilaitoksessa tai koulutuksessa riippumatta siitä, onko koulutus suunniteltu aikuisille vai ei.\n1 = Nuori opiskelija\n2 = Aikuisopiskelija\n9 = Ei määritelty (kaikki yliopistokoulutus) / Tuntematon\n\nTietoa ei saada perusopetuksesta.\n",
+      "measunit": null,
+      "classification": "opiskelija_5_2013_01_01",
+      "variablegroups": "B Opiskelijaa tai opiskelua kuvaavat tiedot"
+    },
+    {
+      "identifier": "askun",
+      "variablename": "Opiskelijan kotikunta",
+      "conceptdef": "Opiskelijan kotikunta vuoden lopussa (31.12.), luokitus 1.1. tilastovuosi +1\n200 = Ulkomaa\n999 = Ei tietoa\nTieto ensisijaisesti VRK:n aineistosta.\nPuutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\nTieto vuosina 1995-1996 KOTIKUN, 1997 ASKUNTA, 1998 ASKUN.",
+      "measunit": null,
+      "classification": "kunta_1_2019_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "askunx",
+      "variablename": "Kotikunta / vakituinen asuinkunta edellisen vuoden lopussa",
+      "conceptdef": "- Tätä muuttujaa ei enää päivitetä vuodesta 2023 lähtien.\n\nOpiskelijan kotikunta 31.12.[tilastovuotta edeltävä vuosi], luokitus 1.1.[tilastovuosi]\nVRK:n kuntakoodi. Tiedot alkaen vuodesta 2013.\n200 = Ulkomaa\n999 = Ei tietoa\n",
+      "measunit": null,
+      "classification": "kunta_1_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilvaskun",
+      "variablename": "Kotikunta / vakituinen asuinkunta tilastovuoden luokituksin",
+      "conceptdef": "Opiskelijan kotikunta 31.12.[tilastovuosi], luokitus 1.1.[tilastovuosi]\nTieto ensisijaisesti VRK:n aineistosta. Tiedot vuodesta 2013 alkaen.\n200 = Ulkomaa\n999 = Ei tietoa",
+      "measunit": null,
+      "classification": "kunta_1_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilvaskunx",
+      "variablename": "Kotikunta edellisen vuoden lopussa ko. tilastovuoden luokituksin",
+      "conceptdef": "- Tätä muuttujaa ei enää päivitetä vuodesta 2023 lähtien.\n\nOpiskelijan kotikunta 31.12.[tilastovuotta edeltävä vuosi], luokitus 1.1.[tilastovuotta edeltävä vuosi]\nVRK:n kuntakoodi. Tiedot vuodesta 2013 alkaen. \n200 = Ulkomaa\n999 = Ei tietoa",
+      "measunit": null,
+      "classification": "kunta_1_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokosa",
+      "variablename": "Kokopäivä-/osa-aikaopiskelija (yliopisto- ja ammattikorkeakoulukoulutus 2002-)",
+      "conceptdef": "Lukio- ja ammatillisessa koulutuksessa opiskelun koko- tai osa-aikaisuutta ei ole määritelty. \nYliopisto- ja ammattikorkeakoulukoulutuksessa edellisen lukuvuoden aikana vähintään 30 opintopistettä suorittaneet ja ensimmäistä vuotta opiskelevat luokitellaan kokopäiväisiksi opiskelijoiksi, mikäli he ovat tutkintoon johtavassa peruskoulutuksessa (klajit 41, 42, 51 ja oplu=0) ja läsnä 20.9. (olosyys=1). Muut tutkintoon johtavassa koulutuksessa opiskelevat (edellisenä lukuvuonna alle 30 opintopistettä suorittaneet, poissaoleviksi ilmoittautuneet sekä jatkokoulutuksen opiskelijat) luokitellaan osa-aikaisiksi opiskelijoiksi. Tutkintoon johtamattoman koulutuksen (oplu=1) koko- tai osa-aikaisuutta ei ole määritelty. Tietoja alkaen vuodesta 2002.\n\nMuuttuja kokosa:  Määrittelyyn käytettään nyt kirtuv-muuttujaa, joka  tarkoittaa kirjoilletulovuotta ensimmäisen kerran ko. yliopistoon. Vuoteen 2022 asti käytettiin alvv-muuttujaan, joka tarkoittaa kirjoihintuloa (aloitusvuotta) ensimmäisen kerran ko. koulutukseen ko. yliopistoon. Tieto pohjasi tuolloin opoik-muuttujaan.\n\n1 = Kokopäiväopiskelija\n2 = Osa-aikaopiskelija\n9 = Ei pystytä määrittelemään (lukio- ja ammatillinen koulutus, tutkintoon johtamaton koulutus)\nbl = Ammatillinen koulutus",
+      "measunit": null,
+      "classification": "opiskelija_1_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "fte",
+      "variablename": "Full-time equivalent (FTE) -luku (yliopisto- ja ammattikorkeakoulukoulutus 2006-)",
+      "conceptdef": "Yliopisto- ja ammattikorkeakoulukoulutuksessa. Tieto vuodesta 2006 alkaen.\nFTE-luvun avulla muunnetaan tutkintoon johtavan koulutuksen osa-aikaiset opiskelijat kokopäiväopiskelijoiksi. Sen avulla saadaan volyymitietoa mm. kustannusten laskentaa varten. Tietoa käytetään kansainvälisessä UOE-kyselyssä.\n0,0 = kaikki poissaoleviksi ilmoittautuneet opiskelijat\n0,5 = jatkokoulutuksen opiskelijat (klajit 46 ja 52), edellisenä lukuvuonna alle 30 opintopistettä suorittaneet peruskoulutuksen opiskelijat (klajit 41, 42, 51 ja oplu=0)\n1,0 = uudet opiskelijat, edellisenä lukuvuonna vähintään 30 opintopistettä suorittaneet peruskoulutuksen opiskelijat   \nbl = tutkintoon johtamattoman koulutuksen opiskelijat (oplu=1) sekä lukio- ja ammatillisen koulutuksen opiskelijat\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opes",
+      "variablename": "Edeltävällä syyslukukaudella suoritetut opintopisteet ",
+      "conceptdef": "Edeltävällä syyslukukaudella suoritetut opintopisteet (yliopisto- ja ammattikorkeakoulukoulutus 2005-)\n\nTieto vuodesta 2005 alkaen. Lukiokoulutuksesta ja ammatillisesta koulutuksesta tietoa ei ole.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opek",
+      "variablename": "Edeltävällä kevätlukukaudella suoritetut opintopisteet",
+      "conceptdef": "Tilastovuoden kevätlukukaudella suoritetut opintopisteet (yliopisto- ja ammattikorkeakoulukoulutus 2005-)\nTieto vuodesta 2005 alkaen. Lukiokoulutuksesta ja ammatillisesta koulutuksesta tietoa ei ole.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opker",
+      "variablename": "Edeltävän kevätlukukauden loppuun mennessä suoritetut opintopisteet ",
+      "conceptdef": "Tilastovuoden kevätlukukauden loppuun mennessä suoritetut opintopisteet (yliopisto- ja ammattikorkeakoulukoulutus 2005-). \nTieto vuodesta 2005 alkaen. \nbl = Lukiokoulutuksessa ja ammatillisessa koulutuksessa tietoa ei ole.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oves",
+      "variablename": "Edeltävällä syyslukukaudella suoritetut opintoviikot",
+      "conceptdef": "Edeltävällä syyslukukaudella suoritetut opintoviikot (yliopisto- ja ammattikorkeakoulukoulutus 2002-2004)\nTieto vuosilta 2002-2004. Lukiokoulutuksesta ja ammatillisesta koulutuksesta tietoa ei ole. Vuodesta 2005 alkaen opintopisteet muuttujasta OPES.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ovek",
+      "variablename": "Edeltävällä kevätlukukaudella suoritetut opintoviikot",
+      "conceptdef": "Tilastovuoden kevätlukukaudella suoritetut opintoviikot (yliopisto- ja ammattikorkeakoulukoulutus 2002-2004). Tieto vuosilta 2002-2004. Lukiokoulutuksesta ja ammatillisesta koulutuksesta tietoa ei ole. Vuodesta 2005 alkaen opintopisteet muuttujasta OPEK.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ovker",
+      "variablename": "Edeltävän kevätlukukauden loppuun mennessä suoritetut opintoviikot",
+      "conceptdef": "Tilastovuoden kevätlukukauden loppuun mennessä suoritetut opintoviikot (yliopisto- ja ammattikorkeakoulukoulutus 2002-2004). Tieto vuosilta 2002-2004. Lukiokoulutuksesta ja ammatillisesta koulutuksesta tietoa ei ole. Vuodesta 2005 alkaen opintopisteet muuttujasta OPKER.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutalv",
+      "variablename": "Vuosi, jolloin opiskelija on aloittanut ko. koulutuksen/tutkinnon missä tahansa oppilaitoksessa",
+      "conceptdef": "VVVV. Tieto ammatillisesta OPS-perusteisesta oppilaitosmuotoisesta koulutuksesta 2004 alkaen, lukio- ja ammattikorkeakoulutuksesta 2011 alkaen. Vuodesta 2018 alkaen tieto kaikilla oppilaitosmuotoisen ammatillisen koulutuksen opiskelijoilla. Aikaisempina vuosina tieto vain opetussuunnitelmaperusteisen koulutuksen opiskelijoilla. Vuodesta 2019 alkaen tietoa ei enää saada ammatillisesta koulutuksesta, koska tietoa ei ole KOSKI-tietovarannossa.\nbl = ammatillisessa oppisopimuskoulutuksessa ja näyttötutkintoon valmistavassa koulutuksessa sekä yliopistokoulutuksessa (2011-2017)\nbl = yliopistokoulutuksessa (2018-)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutalk",
+      "variablename": "Lukukausi, jolloin opiskelija on aloittanut ko.koulutuksen/tutkinnon missä tahansa oppilaitoksessa",
+      "conceptdef": "Tieto ammatillisesta OPS-perusteisesta oppilaitosmuotoisesta koulutuksesta 2004 alkaen, lukio- ja ammattikorkeakoulutuksesta 2011 alkaen\n1 = kevät (1.1.-31.7.)\n2 = syksy (1.8.-31.12.)\n9 = tieto puuttuu (2004-2013)\nbl = tietoa ei kerätty\nbl = ammatillisessa oppisopimuskoulutuksessa ja näyttötutkintoon valmistavassa koulutuksessa sekä yliopistokoulutuksessa (2011-2017)\nbl = yliopistokoulutuksessa (2018-)\nVuonna 2014 poistettu arvo 9= ei tietoa.\nVuodesta 2018 alkaen tieto kaikilla oppilaitosmuotoisen ammatillisen koulutuksen opiskelijoilla. Aikaisempina vuosina tieto vain opetussuunnitelmaperusteisen koulutuksen opiskelijoilla.\nVuodesta 2019 alkaen tietoa ei enää saada ammatillisesta koulutuksesta, koska tietoa ei ole KOSKI-tietovarannossa.\n",
+      "measunit": null,
+      "classification": "opiskelu_7_2011_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulk",
+      "variablename": "Tilastokeskuksen koulutuskoodi",
+      "conceptdef": "Tilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset.\nKoulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki  koulutusalan. Tiedot vuodesta 1995 alkaen.",
+      "measunit": null,
+      "classification": "koulutus_18_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tut",
+      "variablename": "Tutkintonimikekoodi/opintojen tarkoitus",
+      "conceptdef": "Koulutuskoodia tarkentava aputieto vuodesta 2001 alkaen, paitsi 2004-2009.\nTK:n ammatillisen, amk- ja yliopistoaineiston omat työkoodistot. Lukiokoulutuksessa tietoa ei ole, eikä kaikissa ammatillisissa koulutuksissa.\nKoodin ensimmäinen merkki kertoo lähdeaineiston:\n3 = ammatillinen\n4 = ammattikorkea- \n5 = yliopistoaineisto\nbl = lukio- ja ammattikorkeakoulutuksessa tietoa ei ole, eikä kaikissa ammatillisissa koulutuksissa (2001-2018)\nbl = lukiokoulutuksessa, ammattikorkeakoulutuksessa ja yliopistokoulutuksessa tietoa ei ole, eikä kaikissa ammatillisissa koulutuksissa (2019-).\n\nKäytä aina nimikkeen kanssa. Ks. erillinen nimikkeistö, jossa on koodin tuorein nimike.\nVuonna 2014 poistettu arvo 4 = ammattikorkea-.\nVuodesta 2019 alkaen tietoon lisätty luokituskoodisto, koska tieto tulee KOSKI-tietovarannosta. Aiemmin sääntönä, että koodin ensimmäinen merkki kertoi lähdeaineiston: 3 = ammatillinen, 5 = yliopistoaineisto. Nykyisin vain ammatillisen koulutuksen koodit. \nVastaava tieto yliopisto-opintojen osalta vuonna 1995 muuttujassa OPTAR.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kou",
+      "variablename": "Koulutusohjelma-/pääainenimikekoodi",
+      "conceptdef": "Koulutuskoodia tarkentava aputieto. Tietoja alkaen vuodesta 2001, paitsi vuosilta 2004-2009.\nTK:n ammatillisen, amk- ja yliopistoaineiston omat työkoodistot. Lukiokoulutuksessa tietoa ei ole, eikä kaikissa ammatillisissa koulutuksissa.\nKoodin ensimmäinen merkki kertoo lähdeaineiston:\n3 = ammatillinen (2001-)\n4 = ammattikorkea- (2001-2014)\n5 = yliopistoaineisto (2001-2013)\nbl = lukiokoulutuksessa, ammattikorkeakoulutuksessa ja yliopistokoulutuksessa tietoa ei ole, eikä kaikissa ammatillissa koulutuksissa\n\nKäytä aina nimikkeen kanssa. Ks. erillinen nimikkeistö, jossa on koodin tuorein nimike.\nVuodesta 2019 alkaen  tietoon lisätty luokituskoodisto, koska tieto tulee KOSKI-tietovarannosta.\nVastaavaa tietoa yliopistokoulutuksesta vuodelta 1995 muuttujassa OPS kyseisen vuoden luokituksin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suv",
+      "variablename": "Suuntautumisvaihtoehtonimikekoodi",
+      "conceptdef": "Koulutuskoodia tarkentava aputieto vuodesta 2001 alkaen, paitsi 2004-2009. TK:n ammatillisen, amk- ja yliopistoaineiston omat työkoodistot. Lukiokoulutuksessa ja ammatillisessa koulutuksessa tietoa ei ole (= bl). Koodin ensimmäinen merkki kertoo lähdeaineiston: 4 = ammattikorkea-, 5 = yliopistoaineisto. Yliopistokoulutuksessa vain koodit 500000 \"Ei suuntautumisvaihtoehtoa\" ja 500100 \"Aineenopettajan pedagogiset opinnot\"\nKäytä aina nimikkeen kanssa. Ks. erillinen nimikkeistö, jossa on koodin tuorein nimike.\nVuodesta 2014 määritelmä muuttunut, sisältää vain yliopistokoulutuksen aineenopettajan pedagogiset opinnot. \nYliopisto-opintojen osalta vuoden 2001-2013 määritelmää vastaava tieto vuonna 1995 muuttujassa SUUNTV.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aikoul",
+      "variablename": "Nuorten/aikuisten koulutus",
+      "conceptdef": "Tieto kuvaa koulutuksen järjestämistapaa, ei opiskelijan ikää. Tietoja vuodesta 1995 eteenpäin, paitsi 1996 ja 2004-2009. Vuonna 1997 muuttujassa KOTY.\n1 = Nuorten koulutus (2001 alkaen kaikki yliopistokoulutus)\n2 = Aikuisten koulutus (sis. 2005 alkaen ylemmät amk-tutkinnot sekä 2015 alkaen amk:n monimuotototeutukset)\n9 = Ei määritelty (ammattikorkeakoulujen erikoistumisopinnot ja erikoistumiskoulutukset sekä ammatillinen opettajankoulutus) (2005-)\nbl = ammatillisessa koulutuksessa tietoa ei ole\nVuonna 2016 lisätty ammattikorkeakoulujen erikoistumiskoulutukset arvolle 9.",
+      "measunit": null,
+      "classification": "koulutus_15_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkieli",
+      "variablename": "Koulutuksen opetuskieli (1999-)",
+      "conceptdef": "Koulutuksen opetuskieli\n2-kirjaiminen tunnus (ISO 639)\nbl = yliopistokoulutuksessa tietoa ei ole",
+      "measunit": null,
+      "classification": "kieli_1_2010_11_15",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkun",
+      "variablename": "Koulutuksen sijaintikunta",
+      "conceptdef": "Koulutuksen sijaintikunta 1.1. tilastovuonna \nVRK:n kuntakoodi\n200=Ulkomaat\nOppisopimuskoulutuksessa ja varhaiskasvatuksen esiopetuksessa koulutuksen järjestäjän sijaintikunta.\nTiedot vuosilta 1995 alkaen muuttujassa KKUN, paitsi 1997 OKUNTA.",
+      "measunit": null,
+      "classification": "kunta_1_2019_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "oltunn_s",
+      "variablename": "Suojattu oppilaitostunnus",
+      "conceptdef": "Suojattu oppilaitostunnus, \nTK:n oppilaitosluokitus 31.12., \nbl = ei tietoa (oppisopimuskoulutus)\nTiedot alkaen vuodesta 1995.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarj_s",
+      "variablename": "Suojattu koulutuksen järjestäjä/ylläpitäjä",
+      "conceptdef": "Suojattu koulutuksen järjestäjä/ylläpitäjä (1999-). \nOppisopimuskoulutuksesta tietoa ei ole (ks. opjarj vuodesta 2004 alkaen).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutklaja",
+      "variablename": "Ammatillisen koulutuksen koulutuslaji",
+      "conceptdef": "Ammatillisten koulutuslaji. Tiedot puuttuvat vuosilta 2004-2005 ja 2007-2008.\n1 = Ammatillinen peruskoulutus (klajit 31, 32, 35 ja 36)\n2 = Ammattitutkinto (klajit 33 ja 37)\n3 = Erikoisammattitutkinto (klajit 34 ja 38)\nVain ammatillisessa koulutuksessa",
+      "measunit": null,
+      "classification": "koullaji_2_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutktav",
+      "variablename": "Opetussuunnitelmaperusteinen/näyttötutkintoon valmistava koulutus",
+      "conceptdef": "Vain ammatillisessa koulutuksessa. Tiedot vuosilta 1999-2017. Vuoden 2018 uuden lain myötä ammatillista koulutusta ei enää jaeta nuorille ja aikuisille suunnattuihin koulutuksiin, täten muuttuja poistettu.\n1 = Opetussuunnitelmaperusteinen koulutus (klajit 31 ja 35) \n2 = Näyttötutkintoon valmistava koulutus (sisältää oppisopimuskoulutuksen; klajit 32-34 ja 36-38)",
+      "measunit": null,
+      "classification": "ammatillinen_1_2000_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "noste",
+      "variablename": "Koulutuksen kuuluminen Noste-ohjelmaan",
+      "conceptdef": "Koulutuksen kuuluminen Noste-ohjelmaan (ammatillinen koulutus 2003-). Tietoja vuosilta 2003 ja 2010-2012.\n1 = Kyllä\n2 = Ei\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppis",
+      "variablename": "Oppisopimuskoulutus (ammatillinen koulutus 1999-)",
+      "conceptdef": "Oppisopimuskoulutus vuodesta 2004 alkaen vuoteen 2018 asti koko kalenterivuodelta. Tätä ennen poikkileikkaustilanteesta 20.9. (alipeittävä). Koko kalenterivuoden tiedot erillisissä oppisopimustoimistojen aineistoissa vuosilta 1997 - 2003. \n1 = Kyllä\n2 = Ei",
+      "measunit": null,
+      "classification": "oppisopimus_1_2014_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyov",
+      "variablename": "Työvoimakoulutus ",
+      "conceptdef": "Nimi muuttunut 2018. Aikaisempi nimi oli Työvoimapoliittinen aikuiskoulutus. Vain ammatillisessa koulutuksessa. \n1 = Kyllä\n2 = Ei (mm. oppisopimuskoulutus)\n",
+      "measunit": null,
+      "classification": "ammatillinen_3_2001_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ophal",
+      "variablename": "Opetushallinnon alainen koulutus",
+      "conceptdef": "Vain ammatillisessa koulutuksessa. Vuodesta 2004 alkaen. \n1 = Kyllä\n2 = Ei\nOpetushallinnon alaiseen koulutukseen ei kuulu työvoimakoulutus (v. 2017 nimellä työvoimapoliittinen aikuiskoulutus), oppilaitostyyppi 28 (palo- ja poliisikoulutus), Rikosseuraamusalan koulutuskeskus (aik. nimellä Vankeinhoidon koulutuskeskus)  ja Ahvenanmaa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tavoite",
+      "variablename": "Opiskelijan tavoite koulutuksessa (ammatillinen koulutus)\n",
+      "conceptdef": "1 = Koko tutkinnon suorittaminen\n2 = Tutkinnon osan tai osien suorittaminen\n9 = Ei tietoa\n\nVuosina 2012 asti tieto vain näyttötutkintoon valmistavassa ja oppisopimuskoulutuksessa. Vuodesta 2013 eteenpäin tieto kaikesta ammatillisesta koulutuksesta.\nTieto vuodesta 2004 alkaen.",
+      "measunit": null,
+      "classification": "ammatillinen_4_2004_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "alaika",
+      "variablename": "Koulutuksen aloituspäivämäärä",
+      "conceptdef": "Päivämäärä (vvvvkkpp), jolloin opiskelija on aloittanut koulutuksen tai solminut oppisopimuksen. \n\n99999999 = tieto puuttuu.\n\nKaikki ammatillinen koulutus vuodesta 2013 alkaen.\nAmmatillinen näyttötutkintoon valmistava ja oppisopimuskoulutus 2004-2012. Tieto myös vuonna 1995 (ammatillinen & amk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loaika",
+      "variablename": "Oppisopimuskoulutuksen tai tietyssä oppilaitoksessa tapahtuvan koulutuksen päättymispäivämäärä",
+      "conceptdef": "Osittain epätäydellinen tieto.\n(vvvvkkpp)\nKaikki ammatillinen koulutus 2013-\nAmmatillinen näyttötutkintoon valmistava ja oppisopimuskoulutus 2004-2012.\nMuuttuja LOAIKA löytyy myös vuonna 1995 (ammatilliinen + amk-koulutus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorosat",
+      "variablename": "Suoritettujen tutkinnon osien lukumäärä",
+      "conceptdef": "Suoritettujen tutkinnon osien lukumäärä. Koko tutkinnot ja osatutkinnot. Tiedot alkaen 2013.\nHUOM! Vuodesta 2019 alkaen tieto on alipeittävä: tieto on vain täydennyskeruun aineistoilla (eril = 1). KOSKI-aineistosta saatavien suoritusten määrää ei ole laskettu valmiiksi. Tarvittaessa voi laskea KOSKI-tiedoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aloit",
+      "variablename": "Aloittanut koulutuksen tai solminut oppisopimuksen kalenterivuonna",
+      "conceptdef": "Vuoteen 2018 asti tieto vain ammatillisessa näyttötutkintoon valmistavassa ja oppisopimuskoulutuksessa. Vuodesta 2019 alkaen tieto on kaikesta ammatillisesta koulutuksesta.\n1 = On\n2 = Ei\n\nVuodesta 2004 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahoitus",
+      "variablename": "Koulutuksen rahoitus (ammatillinen näyttötutkintoon valmistava oppilaitosmuotoinen koulutus)",
+      "conceptdef": "Vuodesta 2018 alkaen kaikilla ammatillisen koulutuksen opiskelijoilla. Tätä ennen eli vuosina 2004-2017 vain näyttötutkintoon valmistavassa oppilaitosmuotoisessa koulutuksessa (ei oppisopimuskoulutuksessa).\nVuosina 2004-2017 käytössä yksinumeroiset koodit (1,...,9), vuodesta 2018 alkaen kaksinumeroiset koodit (01,...,12):\n1 = Valtionosuusrahoitteinen koulutus (2004-)\n2 = Työvoimapoliittinen aikuiskoulutus (kansallinen rahoitus) (2004-2017)\n2 = Työvoimakoulutus ely-keskukset ja työ- ja elinkeinotoimistot (kansallinen) (2018-)\n3 = Työvoimapoliittinen aikuiskoulutus (ESR-rahoitus) (2004-)\n4 = Työnantajan kokonaan rahoittama (2004-)\n5 = Noste-ohjelmakoulutus (2004-2012) \n6 = Muuta kautta rahoitettu (opiskelijan kokonaan itse maksama) (2004-)\n7 = Nuorten aikuisten osaamisohjelma (2013-)\n8 = Aikuisten osaamisperustan vahvistaminen (2015-)\n9 = Ei tietoa (2004-2013)\n9 = Maahanmuuttajien ammatillinen koulutus (valtionavustus) (2017-)\n10 = Työvoimakoulutus (OKM-rahoitus) (2018-)\n11 = Ammatillisen osaamisen pilotit 2019\n12 = Ammatillisen osaamisen pilotit 2019 työvoimakoulutus\nbl = ei tietoa (2014-) \nHUOM! Jos haluaa poimia aineistosta vain opetushallinnon alaisen koulutuksen rahoituksen, käytä lisämuuttujana OPHAL-tietoa (rahoitus = 1 ja ophal = 1).",
+      "measunit": null,
+      "classification": "ammatillinen_2_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "toteuma",
+      "variablename": "Kalenterivuoden toteuma (ammatillinen oppisopimuskoulutus)",
+      "conceptdef": "Vain oppisopimuskoulutuksessa 2004-2018\n1 = Suorittanut koko tutkinnon\n2 = Suorittanut tutkinnon osan tai osia\n3 = Osallistunut valmistavaan koulutukseen, ei ole suorittanut tutkintoja\n",
+      "measunit": null,
+      "classification": "oppisopimus_5_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "purku",
+      "variablename": "Oppisopimus purkautunut (ammatillinen oppisopimuskoulutus)",
+      "conceptdef": "Vain oppisopimuskoulutuksessa 2004 alkaen\n\nVuosina 2004-2018:\n1 = Koeajalla\n2 = Koeajan jälkeen\nbl = Oppisopimus ei ole purkautunut\n\nVuonna 2019 muuttunut määritelmä\n1 = Kyllä (aikaisempina vuosina purkautunut koejalla tai purkautunut koeajan jälkeen)\n",
+      "measunit": null,
+      "classification": "oppisopimus_4_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "todis",
+      "variablename": "Opiskelija on saanut todistuksen koulutuksen suorittamisesta (ammatillinen oppisopimuskoulutus)",
+      "conceptdef": "Tieto vain oppisopimuskoulutuksessa 2004-2018\n1 = Kyllä\n2 = Ei",
+      "measunit": null,
+      "classification": "oppisopimus_3_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrit",
+      "variablename": "Yrittäjän oppisopimuskoulutus (ammatillinen oppisopimuskoulutus)",
+      "conceptdef": "Yrittäjän oppisopimuskoulutus (ammatillinen oppisopimuskoulutus). Tiedot vuosilta 2010-2017. Muuttuja poistettu vuonna 2018. \n1 = Kyllä\n2 = Ei\n\n",
+      "measunit": null,
+      "classification": "oppisopimus_2_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "opyrtunn_s",
+      "variablename": "Suojattu työnantajan/yrityksen yritystunnus (oppisopimuskoulutus)",
+      "conceptdef": "Vain oppisopimuskoulutuksessa. Tiedot vuosilta 2004-2018. Muuttujan nimi muuttui vuoden 2019 ammatillisen koulutuksen reformin vuoksi. Vuodesta 2019 alkaen tiedot muuttujassa TYAN_S.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opjarj_s",
+      "variablename": "Suojattu oppisopimuskoulutuksen järjestäjän nro (oppisopimuskoulutus)",
+      "conceptdef": "Vain oppisopimuskoulutuksessa. Tietoja vuodesta 2004 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasnalk",
+      "variablename": "Läsnäololukukaudet (ammattikorkeakoulukoulutus)",
+      "conceptdef": "Läsnäololukukausien määrä ko. tutkinnossa tilastovuoden loppuun mennessä.\nVain ammattikorkeakoulukoulutuksessa. Tieto vuodesta 2005 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "poissalk",
+      "variablename": "Poissaololukukaudet (ammattikorkeakoulukoulutus)",
+      "conceptdef": "Poissaololukukausien määrä ko. tutkinnossa tilastovuoden lopuun mennessä. Vain ammattikorkeakoulukoulutuksessa. Tieto vuodesta 2005 alkaen.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oplaaj",
+      "variablename": "Suoritettavien opintojen laajuus (ammattikorkeakoulukoulutus)",
+      "conceptdef": "Suoritettavien opintojen laajuus opintopisteinä (= tutkinnon laajuudesta vähennetty aiemmin suoritettujen hyväksilukujen laajuus). Tieto vuodesta 2010 alkaen.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtu1pv",
+      "variablename": "Ensimmäinen kirjoihintuloajankohta ko. tutkintoon (ammattikorkeakoulukoulutus 2005-)",
+      "conceptdef": "Päivämäärä (vvvvkkpp), jolloin opiskelija on ilmoittautunut ensimmäistä kertaa läsnä- tai poissaolevaksi ko. tutkintoon missä tahansa ammattikorkeakoulussa (ns. siirto-opiskelija). Vertaa muuttujat KIRTUPV, ALLV ja ALLK. Tietoja alkaen vuodesta 2010. Muuttuja kirtu1pv sisältää vuodesta 2023 alkaen myös yliopistokoulutuksen, aiemmin vain amk-koulutuksen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtupv",
+      "variablename": "Ko. tutkintoon kirjoihintuloajankohta ko. ammattikorkeakoulussa (ammattikorkeakoulukoulutus)",
+      "conceptdef": "Päivämäärä (vvvvkkpp), jolloin opiskelija on ottanut vastaan ko. tutkinnon opiskeluoikeuden ja ilmoittautunut läsnä- tai poissaolevaksi ko. oppilaitoksessa. Tietoja alkaen vuodesta 2010. Muuttuja kirtupv sisältää vuodesta 2023 alkaen yliopistokoulutuksen, aiemmin vain amk-koulutuksen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rahlahde",
+      "variablename": "Opiskelijan rahoitustausta (ammattikorkeakoulukoulutus)",
+      "conceptdef": "Opiskelijan rahoitustausta (ammattikorkeakoulukoulutus 2005-)\n1 = Perusrahoitus (2005-)\n2 = ESR-rahoitus (2005-)\n3 = TE-rahoitus (2005-)\n4 = Maksullinen tilauskoulutus (2009-)\n5 = Lukukausimaksukokeilu (2011-2017)\n5 = Lukukausimaksuvelvollinen (2018-)\nVuodesta 2017 arvo voi olla myös tyhjä, mikäli kyse on erikoistumiskoulutuksesta.\nVuodesta 2018 tiedot myös yliopistokoulutuksesta. Sama tieto yliopistosektorista aiemmin muuttujalla LKMMT. ",
+      "measunit": null,
+      "classification": "opiskelija_4_2018_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilmaa",
+      "variablename": "Maksullisen tilauskoulutuksen sijaintimaa (ammattikorkeakoulukoulutus)\n",
+      "conceptdef": "Maksullisen tilauskoulutuksen sijaintimaa (ammattikorkeakoulukoulutus). Tiedot vuosina 2010, 2013 ja 2014.\nMaakoodi. ISO 3166-standardi, itsenäiset maat ja valtiot. Vain jos Rahlahde = 4.\n999 = Tuntematon\n",
+      "measunit": null,
+      "classification": "valtio_1_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltopo",
+      "variablename": "Pätevyyteen tähtäävät opinnot",
+      "conceptdef": "Vuosina 2013-2014 muuttuja ollut nimellä Lastentarhaopettajan pätevyyteen tähtäävät opinnot. Käsitellyt vain sosionomi (amk)-tutkintoa, johon kuulunut lastentarhaopettajan pätevyyteen tähtääviä opintoja.  1 = Kyllä 2 = Ei. \n\nVuonna 2015 muuttunut merkitys ja arvot:\n1 = Sosionomi (amk) tutkintoon kuuluu opintoja, jotka tähtäävät lastentarhaopettajan pätevyyteen\n2 = Sairaanhoitajan pätevyys (tutkintokeruu)\n3 = Ammatillinen opettajankoulutus, pedagogiset opinnot\n4 = Ammatillinen opettajankoulutus, opinto-ohjaaja\n5 = Ammatillinen opettajankoulutus, erityisopettaja",
+      "measunit": null,
+      "classification": "opiskelu_5_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "fuksi",
+      "variablename": "Uusi yliopisto-opiskelija",
+      "conceptdef": "Uusi/vanha yliopisto-opiskelija. Tietoja vuodesta 2013 alkaen.\n0 = Vanha, ennen tilastovuotta kirjoittautunut opiskelija\n1 = Uusi, tilastovuonna kirjoittautunut opiskelija\nTieto saatavilla muuttujissa 1995 UUSIOPIS sekä 1996 UUSI.",
+      "measunit": null,
+      "classification": "opiskelija_3_2016_01_01",
+      "variablegroups": "E4 Yliopistokoulutus, E Lähdeaineistojen omat muuttujat"
+    },
+    {
+      "identifier": "tdk",
+      "variablename": "Tiedekunta/osasto (yliopistokoulutus)",
+      "conceptdef": "Yliopisto 2 merkkiä + tiedekunta 2 merkkiä \nTK:n yliopistoaineiston koodisto.\nEnnen vuotta 2007 yhdistetty alkuperäisaineiston muuttujista kk ja tdk (2+2 merkkiä) . Tietoja vuosilta 2001-2013, muuttuja poistettu käytöstä 2014.\nVastaava tieto vuonna 1995 muuttujassa TIED eri luokituksella. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuotanto",
+      "variablename": "Tuotantopainotteinen koulutus (ammattikorkeakoulukoulutus)",
+      "conceptdef": "Tieto vain tekniikan alan koulutuksella ammattikorkeakoulukoulutuksessa\n1 = Kyllä\n2 = Ei\nTieto vuosilta 2005-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "avo",
+      "variablename": "Hyväksytty avoimen yliopiston opintojen perusteella (yliopistokoulutus)",
+      "conceptdef": "Vain yliopistokoulutuksen uudet opiskelijat. Vuodesta 2018 poistettu tieto, että koskee vain uusia opiskelijoita. Arvo 1 voi olla kaikilla opiskelijoilla.\n0 = Ei\n1 = Kyllä\nbl = Muu kuin yliopistokoulutus tai yliopistokoulutuksen muut kuin uudet opiskelijat. \nTietoja vuodesta 2001 alkaen, puuttuen vuosilta 2004-2005.",
+      "measunit": null,
+      "classification": "opiskelija_2_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkelp",
+      "variablename": "Opettajankelpoisuus (yliopistokoulutus)",
+      "conceptdef": "Opettajankelpoisuus. Vain yliopistokoulutuksessa.\n0 = Ei ole opettajankelpoisuutta\n1 = On opettajankelpoisuus. Tietoja vuodesta 2001 alkaen, paitsi 2004-2005.",
+      "measunit": null,
+      "classification": "opiskelu_4_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "om",
+      "variablename": "Opiskelumuoto (yliopistokoulutus)",
+      "conceptdef": "Opiskelumuoto. Vain yliopistokoulutuksessa. \n0 = Tavallinen koulutusohjelma (2005-)\n1 = Maisteriohjelma (2005-2009) / Asetuksen mukainen maisteriohjelma (2010-2013)\n2 = Muu maisteriohjelma (2010-) \nVuonna 2014 poistettu arvo 1 = Asetuksen mukainen maisteriohjelma\n\nTavallinen koulutusohjelma (OM = 0) tarkoittaa maisteriohjelmaa, johon edetään nykyjärjestelmässä kandin kautta (useimmilla aloilla tämä järjestely on ollut käytössä vuodesta 2005 alkaen).\nAsetuksen mkainen maisteriohjelma (OM = 1) viittaa Opetus- ja kulttuuriministeriön asetukseen yliopistojen maisteriohjelmista 1048/2012. Näihin maisteriohjelmiin on ollut erillishaku.\nMuu koulutusohjelma (OM = 2) viittaa myös koulutusohjelmiin, joihin on erillishaku.",
+      "measunit": null,
+      "classification": "opiskelu_3_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutas",
+      "variablename": "Tutkintoasetus (yliopistokoulutus)",
+      "conceptdef": "Vain yliopistokoulutus. Tieto vuosilta 2006-2009.\n1 = Tutkinto suoritetaan uuden tutkintoasetuksen (794/2004) mukaan\n2 = Tutkinto suoritetaan vanhojen tutkintoasetusten mukaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmmt",
+      "variablename": "Lukukausimaksukokeilu ja maksullinen tilauskoulutus (yliopistokoul.)",
+      "conceptdef": "Lukukausimaksukokeilu ja maksullinen tilauskoulutus (vain yliopistokoulutuksessa). Tiedot vuosilta 2010-2017. \n0 = Ei lukukausimaksukokeilua eikä maksullista tilauskoulutusta\n1 = Lukukausimaksukokeilun mukainen maisteriohjelma\n2 = Maksullinen tilauskoulutus\nVuodesta 2018 muuttuja on poistettu ja tiedot ovat muuttujassa RAHLAHDE. Tiedot on yhdenmukaistettu amk-sektorin kanssa.\nVastaavuudet entisen lkmmt-muuttujan ja rahlahde-muuttujan välillä:\nlkmmt 1 =  rahlahde 5, lkmmt 2 = rahlahde 4, lkmmt tyhjä/0 = rahlahde 1.",
+      "measunit": null,
+      "classification": "lkmmt_1_2016_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtu",
+      "variablename": "Ensimmäinen kirjoilletulo ko. yliopistoon mihin tahansa koulutukseen",
+      "conceptdef": "Vuodesta 2023 alkaen Kirtu-muuttujassa on vain yliopistokoulutuksen arvoja.\n\nvvvv = vuosi, lukukausi 1 = kevät ja kesä, 2 = syksy\n00000 = ei tietoa\nTämä tieto oli vuoteen 2011 asti muuttujissa ALLV ja ALLK.\nTiedot alkaen vuodesta 2013. Tieto myös vuonna 1995 muuttujassa KIRTU eri muotoilulla.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "eril",
+      "variablename": "Erillisaineistoon (täydennystiedonkeruut) kuuluva havainto",
+      "conceptdef": "Ammatillisen koulutuksen tilastoinnissa käytetty aputieto, joka kertoo, onko tieto saatu nk. täydennystiedonkeruun kautta eikä KOSKI-tietovarannosta. Arvo 1 = Kyllä. Uusi muuttuja vuoden 2019 aineistossa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kmuoto",
+      "variablename": "Koulutusmuoto",
+      "conceptdef": "Ammatillinen koulutus voi vuoden 2021 loppuun saakka olla opetussuunnitelmaperusteista koulutusta (ops) tai näyttötutkintoon valmistavaa koulutusta (naytto). Vuodesta 2018 lähtien koulutuksen voi suorittaa oppilaitosmuotoisena, koulutussopimuksena, oppisopimuksena ja/tai näiden yhdistelmänä (reformi).\n1 = ops\n2 = naytto\n3 = reformi\nTieto vuodesta 2019 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarjestamiskoodi",
+      "variablename": "Järjestämismuoto (vanhat perusteet)",
+      "conceptdef": "Koulutuksen järjestämismuoto.\nEnnen ammatillisen koulutuksen vuonna 2018 voimaan astunutta reformia koulutuksen järjestämismuodolla viitattiin koulutuksessa koulutuksen järjestämiseen oppilaitosmuotoisesti tai oppisopimusmuotoisesti.\n10 = koulutuksen järjestäminen oppilaitosmuotoisena\n20 = koulutuksen järjestäminen oppisopimuskoulutuksena.\nTietoa vuodesta 2019 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkiloOid_s",
+      "variablename": "Suojattu henkilön tunnistenumero (KOSKI-tietovaranto)",
+      "conceptdef": "Suojattu henkilön tunnistenumero KOSKI-tietovarannossa.\nTieto vuodesta 2019 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluOid_s",
+      "variablename": "Suojattu opiskeluoikeuden tunnistenumero (KOSKI-tietovaranto)",
+      "conceptdef": "Suojattu opiskeluoikeuden tunnistenumero KOSKI-tietovarannossa. Tieto vuodesta 2019 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutussopimus_osuus",
+      "variablename": "Koulutussopimuksen osuus kalenterivuoden päivistä",
+      "conceptdef": "Koulutussopimuksen osuus kalenterivuoden päivistä. Voi saada yli 100 % arvon, koska jaksoissa päällekkäisyyksiä. Numeerinen tieto.\nTieto vuodesta 2019 alkaen.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutussopimuspaivat",
+      "variablename": "Koulutussopimuksen päivät/vuosi",
+      "conceptdef": "Koulutussopimuksen päivät/vuosi, ajanjaksoissa päällekkäisyyksiä, joten voi saada arvon yli 365. Numeerinen tieto. Tieto vuodesta 2019 alkaen.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppisopimusosuus",
+      "variablename": "Oppisopimuksen osuus kalenterivuoden päivistä",
+      "conceptdef": "Oppisopimuksen osuus kalenterivuoden päivistä. Voi saada yli 100 %, koska jaksoissa päällekkäisyyksiä. Tieto vain vuodelta 2019.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppisopimuspaivat",
+      "variablename": "Oppisopimuksen päivät/vuosi",
+      "conceptdef": "Oppisopimuksen päivät/vuosi, ajanjaksoissa päällekkäisyyksiä, joten voi saada arvon yli 365. Tieto vuodesta 2019 alkaen.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitospaivat",
+      "variablename": "Oppilaitoksessa opiskelu",
+      "conceptdef": "Oppilaitoksessa opiskelu, muualla kuin oppisopimuksella tai koulutussopimuksella. Tieto vuodesta 2019 alkaen.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyan_s",
+      "variablename": "Suojattu työnantajan/yrityksen yritystunnus",
+      "conceptdef": "Muuttujan nimi on muuttunut vuonna 2019 ammatillisen koulutuksen reformin vuoksi. Oli aikaisemmin OPYRTUNN_S, nyt TYAN_S. Tieto KOSKI-tietovarannosta. Aiemmin vain oppisopimuskoulutuksessa. Tieto vuodesta 2019 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ykunta",
+      "variablename": "Koulutuksen järjestäjän sijaintikunnan koodi",
+      "conceptdef": "Koulutuksen järjestäjän sijaintikunnan koodi. Tilastokeskuksen kuntaluokitusrekisteri\n\nVarhaiskasvatuksen esiopetuksen tieto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "c koulutusta tai tavoitetutkintoa kuvaavat tiedot"
+    },
+    {
+      "identifier": "vuosiluokka",
+      "variablename": "Vuosiluokka",
+      "conceptdef": "Vuosiluokka\n\n01=1. vuosiluokka\t\n02=2. vuosiluokka\t\n…\t\n09=9. vuosiluokka\t\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "c koulutusta tai tavoitetutkintoa kuvaavat tiedot"
+    }
+  ]
+}

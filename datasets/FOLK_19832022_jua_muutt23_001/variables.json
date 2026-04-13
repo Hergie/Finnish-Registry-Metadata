@@ -1,0 +1,124 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "folk_id",
+      "variablename": "Kuuluu FOLK-aineistoon",
+      "conceptdef": "Henkilö kuuluu FOLK-väestöön kun folk_id=1. \n\nFOLK-väestöön kuuluviksi määritellään ne henkilöt, joiden tiedot löytyvät FOLK Perustieto tai FOLK Väestölaskennat 1970-1985 -kokonaisaineistosta. Eli henkilö on kuulunut vähintään yhden aikasarjan tilastovuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Muuttovuosi",
+      "conceptdef": "Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muuttolaji",
+      "variablename": "Muuttolaji",
+      "conceptdef": "Tietoja maahan-  ja maastamuutosta vuodesta 1983 alkaen. Kuntien välisestä ja kuntien sisäisestä muutosta tietoja on vuodesta 1987 alkaen. \n\n41 = maahanmuutto \n42 = maastamuutto \n43 = kuntien välinen muutto \n44 = kunnan sisäinen muutto ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muuttopv",
+      "variablename": "Muuttopäivä",
+      "conceptdef": "Tieto maasta- ja maahanmuuttaneilla vuosilta vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla alkaen vuodesta 1987. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkunta",
+      "variablename": "Lähtöasuinkunta",
+      "conceptdef": "Tieto muuton lähtöasuinkunnasta suurimmalle osalle maastamuuttaneista vuosina 1983-2004 ja vuodesta 2005 eteenpäin kaikille maastamuuttaneille. Samoin suurimmalle osalle kuntien välillä ja kuntien sisällä muuttaneista tieto lähtöasuinkunnasta on vuosina 1983-2004 ja vuodesta 2005 eteenpäin kaikille. Maahanmuuttaneilla lähtöasuinkunnan arvo '200'. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkunta",
+      "variablename": "Tuloasuinkunta",
+      "conceptdef": "Tieto muuton kohdekunnasta suurimmalle osalle maahanmuuttaneista vuosina 1983-2004 ja vuodesta 2005 eteenpäin kaikille maahanmuuttaneille. Samoin suurimmalle osalle kuntien välillä ja kuntien sisällä muuttaneista tieto tuloasuinkunnasta on vuosina 1983-2004 ja vuodesta 2005 eteenpäin kaikille. Maastamuuttaneilla tuloasuinkuntana arvo '200'. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lahtomaakoodi",
+      "variablename": "Lähtömaa",
+      "conceptdef": "Tieto maahanmuuttaneilla vuodesta 1983 lähtien. Muilla paitsi maahanmuuttajilla lahtomaakoodi=246 (Suomi). ",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tulomaakoodi",
+      "variablename": "Tulomaa",
+      "conceptdef": "Tieto maastamuuttaneilla vuodesta 1983 lähtien, arvo '200'=tuntematon. Muilla paitsi maastamuuttajilla tulomaakoodi=246 (Suomi). ",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kslaitmaimuu",
+      "variablename": "Kunnan sisäisen muuton laitosmaisuus",
+      "conceptdef": "Kertoo muuttaako henkilö laitokseen vai yksityisasuntokuntaan. \n\nLuokitus: \n0 = Ei kuulu esiintyä \n1 = Yksityisasunnosta yksityisasuntoon \n2 = Yksityisasunnosta ilman vakituista asuntoa -asumiseen \n3 = Yksityisasunnosta laitosasuntoon \n4 = Ilman vakituista asuntoa -asumisesta yksityisasuntoon \n5 = Ilman vakituista asuntoa -asumisesta ilman vakituista asuntoa -asumiseen \n6 = Ilman vakituista asuntoa -asumisesta laitosasuntoon \n7 = Laitosasunnosta yksityisasuntoon \n8 = Laitosasunnosta ilman vakituista asuntoa -asumiseen \n9 = Laitosasunnosta ilman laitosasuntoon \n\nTieto kunnan sisäisissä muutoissa vuodesta 2005 ja kuntien välisissä muutoissa vuodesta 2007. Kunnan sisäisissä muutoissa luokat 5,6,8,9 eivät ole käytössä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivs_m",
+      "variablename": "Siviilisääty muuttohetkellä",
+      "conceptdef": "Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987. \n\n0 = tuntematon \n1 = naimaton \n2 = naimisissa \n4 = eronnut \n5 = leski \n6 = rekisteröidyssä parisuhteessa \n7 = eronnut rekisteröidystä parisuhteesta \n8 = leski rekisteröidyn parisuhteen jälkeen ",
+      "measunit": null,
+      "classification": "siviilisaaty_2_2005_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansa1_m",
+      "variablename": "Kansalaisuus muuttohetkellä",
+      "conceptdef": "Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987. ",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kieli_m",
+      "variablename": "Äidinkieli (muutto)",
+      "conceptdef": "Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987. ",
+      "measunit": null,
+      "classification": "kieli_15_2002_12_31",
+      "variablegroups": null
+    },
+    {
+      "identifier": "svaltio_m",
+      "variablename": "Syntymävaltio (muutto)",
+      "conceptdef": "Tieto kunnan sisällä muuttaeilla vuodesta 2006 lähtien. Muilla tieto on alkaen vuodesta 1990. ",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansa2_m",
+      "variablename": "2. kansalaisuus muuttohetkellä",
+      "conceptdef": "Muuttavan henkilön toinen kansalaisuus muuttohetkellä mikäli se on tiedossa. Tietoja vuodesta 2006 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

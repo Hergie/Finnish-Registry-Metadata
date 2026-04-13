@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FLOWN_20062016_jua_firm_002.xml",
+      "doi": "work_2017-03_2017-03-23_ain_0001",
+      "subject": "FLOWN - FIRM yritys- ja henkilötiedot",
+      "contentdescription": "FLOWN - FIRM -data sisältää tutkimusta varten muokatut tiedot yrityksittäin ja henkilöittäin vuosilta 2006-2016. Aineisto on rajattu verottajan osakastietokannan yrityksiin, joille on löytynyt vähintään 1 henkilöomistaja (tarvittaessa ketjutettu 1 tai 2 omistusportaan päästä). Aineistoon on yhdistetty tietoja FLEED-aineistosta. FLOWN-aineistoa on kehitetty yhteistyössä Etlan kanssa: Maliranta, M. and S. Nurmi (2019). Business Owners, Employees and Firm Performance. Small Business Economics 52(1) (ETLA Working Papers No. 42).\nhttps://www.etla.fi/julkaisut/business-owners-employees-and-firm-performance/\n\nFIRM-osiota ei päivitetä. Omistajien ketjuttaminen on mahdollista erillisellä stata-koodilla, joka on saatavissa FLOWN-valmisaineiston yhteydessä. Yrityksen henkilöstön ominaisuudet ja henkilö-yritys-linkit ovat erikseen saatavissa FOLK-valmisaineistomoduuleista. Yritysten ja toimipaikkojen tietoja on saatavissa FIRM-valmisaineistomoduuleista.\n \nMuista yksikkötason tiedoista poiketen kynnyssääntönä FLOWN-aineiston tietoja julkaistaessa on vähintään 5 havaintoa/luokka. Erityistä huomiota on kiinnitettävä siihen, että suojaus tehdään henkilö- ja yritystasolla siten, että sekä henkilöitä että yrityksiä on oltava julkaistavissa luokissa tietojen taustalla vähintään kynnysarvon verran.\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.",
+      "coveragetemporal": "2006-01-01 - 2016-01-01",
+      "published_day": "2022-04-06",
+      "variable_count": "21",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Osakeyhtiöt ja niiden osakkaat",
+      "resourcerelation_1": "Verohallinnon osakeyhtiöiden osakas- ja osinkotiedot, Tilastokeskuksen rakenne- ja tilinpäätöstilaston tiedot sekä työssäkäynti- ja työsuhdetiedot (FLEED)",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

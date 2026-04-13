@@ -1,0 +1,1180 @@
+{
+  "variables": [
+    {
+      "identifier": "TR41",
+      "variablename": "T&k-menot, TOL 3852 valokuvaus- ja optiikkavälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3852 valokuvaus- ja optiikkavälineet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR25",
+      "variablename": "T&k-menot, TOL 38242 Rakennus- ja kivenjalostuskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 38242 Rakennus- ja kivenjalostuskoneet sekä -laitteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Liikevaihto vastauksista",
+      "conceptdef": "Liikevaihto, lomaketieto. Yrityksen tai toimialayksikön liikevaihtovuonna 1985 (tilikaudelta, joka pättyi 1.4.1985-31.3.1986)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PTALA",
+      "variablename": "Toimialan (TOL88) 4-numerotaso",
+      "conceptdef": "Toimialan (TOL79) 4-numerotaso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SL",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Henkilöstön suuruusluokka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOLKM",
+      "variablename": "Tohtorit ja liensiaatit lkm",
+      "conceptdef": "T&k-henkilöstö: tohtorit ja lisensiaatit tai vast. (ei lääketiet. lis.) lukumäärä vuonna 1985.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DILKM",
+      "variablename": "Diplomi-insinöörit lkm",
+      "conceptdef": "T&k-henkilöstö: diplomi-insinöörit, muut korkeakoulututkinnot tai vast. (myös lääketiet.lis) lukumäärä vuonna 1985.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INSLKM",
+      "variablename": "Opistoinsinöörit lkm",
+      "conceptdef": "T&k-henkilöstö: opistoinsinöörit, lukumäärä vuonna 1985.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEKLM",
+      "variablename": "Teknikot lkm",
+      "conceptdef": "T&k-henkilöstö: teknikot, lukumäärä vuonna 1985.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MLKM",
+      "variablename": "Muu koulutus, lkm",
+      "conceptdef": "T&k-henkilöstö: muu koulutus, lukumäärä vuonna 1985.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTLKM",
+      "variablename": "T&k-henkilöstö yhteensä",
+      "conceptdef": "Tutkimus- ja kehittämishenkilöstö, lukumäärä yhteensä vuonna 1985.Tutkimushenkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&khankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOTTV",
+      "variablename": "Tohtorit ja lisensiaatit, työvuodet",
+      "conceptdef": "Tohtorit ja lisensiaatit tai vast. (ei lääketiet.lis.) tutkimustyövuodet vuoden 1985 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DITTV",
+      "variablename": "Diplomi-insinöörit, työvuodet",
+      "conceptdef": "Diplomi-insinöörit, tutkimustyövuodet vuoden 1985 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INSTTV",
+      "variablename": "Opistoinsinöörit, työvuodet",
+      "conceptdef": "Opistoinsinöörit, tutkimustyövuodet vuoden 1985 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEKTTV",
+      "variablename": "Teknikot, työvuodet",
+      "conceptdef": "Teknikot, tutkimustyövuodet vuoden 1985 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MTTV",
+      "variablename": "Muu koulutus, työvuodet",
+      "conceptdef": "Muu koulutus, tutkimustyövuodet vuoden 1985 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTTTV",
+      "variablename": "Tutkimustyövuodet yhteensä",
+      "conceptdef": "Tutkimustyövuodet yhteensä  vuoden 1985 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKME",
+      "variablename": "Rakennusten käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985, rakennusten käyttömenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITAR",
+      "variablename": "Aineet, tarvikkeet",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985, aineet, tarvikkeet markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTPA",
+      "variablename": "Ostetut palvelut",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985, omiin t&k-projekteihin liittyvät palvelujen ostot, markkaa (1000mk)  Ulkopuolisilta tilattuja kokonaisia t&k-hankkeita ei ole ilmoitettu tässä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUME",
+      "variablename": "Muut käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985, muut käyttömenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKHA",
+      "variablename": "Rakennusten hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985,  rakennusten hankintamenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUHA",
+      "variablename": "Muut käyttöomaisuuden hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985, muut (pl. rakennukset) käyttöomaisuuden hankintamenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YSYHT",
+      "variablename": "Oman t&k:n menot yhteensä",
+      "conceptdef": "Yrityksessä/yksikössä tehdyn t&k- toiminnan menot yhteensä 1985, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YUME",
+      "variablename": "Ulkopuolelta tilatun t&k:n menot",
+      "conceptdef": "Yksikön ulkopuolelta (esim. yrityksen toinen yksikkö, myy yritys tai laitos) tilatun t&k-toiminann menot yhteensä 1985, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLMA",
+      "variablename": "Avustukset, ylläpitomaksut",
+      "conceptdef": "Yrityksen maksamat avustukset, tutkimuslaitosten ylläpitomaksut tai vastaavat 1985,  markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEYHT",
+      "variablename": "T&k-menot yhteensä",
+      "conceptdef": "Yrityksen tutkimuksen ja tuotekehityksen menot yhteensä vuonna 1985 (=yksikössä tehty + muut t&k-menot), markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "UML",
+      "variablename": "T&k-menot, Uusimaa",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Uudenmaan lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TPL",
+      "variablename": "T&k-menot, Turun ja Porin lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Turun ja Porin lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AHVMK",
+      "variablename": "T&k-menot, Ahvenanmaan maakunta",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Ahvenanmaan maakunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAL",
+      "variablename": "T&k-menot, Hämeen lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Hämeen lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KYL",
+      "variablename": "T&k-menot, Kymen lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Kymen lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MIKL",
+      "variablename": "T&k-menot, Mikkelin lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Mikkelin lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKL",
+      "variablename": "T&k-menot, Pohjois-Karjalan lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Pohjois-Karjalan lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUOL",
+      "variablename": "T&k-menot, Kuopion lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Kuopion lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KSL",
+      "variablename": "T&k-menot, Keski-Suomen lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Keski-Suomen lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAAL",
+      "variablename": "T&k-menot, Vaasan lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Vaasan lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OUL",
+      "variablename": "T&k-menot, Oulun lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Oulun lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAL",
+      "variablename": "T&k-menot, Lapin lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin (1000mk), Lapin lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTL",
+      "variablename": "T&k-menot lääneittäin, yhteensä",
+      "conceptdef": "Yksikön t&k-menot vuonna 1985 lääneittäin yhteensä (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LPS",
+      "variablename": "Pankkien lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Pankkilainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKES",
+      "variablename": "KERAn lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: KERAn lainat ehdottomin takaisinmaksuvelvollisuuksin  (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LTES",
+      "variablename": "TEKESin lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: TEKES-lainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LMUS",
+      "variablename": "Muut lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut lainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LESIS",
+      "variablename": "SITRA ehdolliset lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: SITRAn ehdolliset lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LETES",
+      "variablename": "TEKES ehdolliset lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: TEKESin ehdolliset lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LEMUS",
+      "variablename": "Muut ehdolliset lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut ehdolliset lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATES",
+      "variablename": "Muu TEKES, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : TEKES (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKTMS",
+      "variablename": "Muu KTM, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Muu kauppa- ja teollisuusministeriö (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APMS",
+      "variablename": "PM avustus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Puolustusministeriö (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMMS",
+      "variablename": "MMM avustus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Maa- ja metsätalousmministeriö (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMHS",
+      "variablename": "Muut hallinnonalat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Muut hallinnonalat (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASIS",
+      "variablename": "SITRA, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : SITRA (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKES",
+      "variablename": "KERA, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : KERA (avustukset, tilaustutkimukset), (1000 mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMUS",
+      "variablename": "Muu ulkomainen rahoitus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Muu ulkomainen rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKYS",
+      "variablename": "Muut kotimaiset yritykset, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Muut kotimaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APJS",
+      "variablename": "Yrityksiä palvelevat järjestöt, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Yrityksiä palvelevat järjestöt (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUYS",
+      "variablename": "Ulkomaiset yritykset, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Ulkomaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUUS",
+      "variablename": "Muu rahoitus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus : Muu rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHTS",
+      "variablename": "Omat t&k-menot, rahoitus yhteensä",
+      "conceptdef": "Yrityksen oman t&k:n menot rahoituslähteiden mukaan yhteensä 1985, (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LPU",
+      "variablename": "Pankkien lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Pankkilainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKEU",
+      "variablename": "KERAn lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: KERAn lainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LTEU",
+      "variablename": "TEKESin lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: TEKES-lainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LMUU",
+      "variablename": "Muu lainoitus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muut lainat ehdottomin takaisinmaksuvelvollisuuksin (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LESIU",
+      "variablename": "SITRA ehdolliset lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: SITRAn lainat ehdolliset lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LETEU",
+      "variablename": "TEKES ehdolliset lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: TEKESin ehdolliset lainat  (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LEMUU",
+      "variablename": "Muut ehdolliset lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muut ehdolliset lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATEU",
+      "variablename": "Muu TEKES, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : TEKES (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKTMU",
+      "variablename": "Muu KTM, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : Muu kauppa- ja teollisuusministeriö (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APMU",
+      "variablename": "PM avustus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Puolustusministeriö (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMMU",
+      "variablename": "MMM avustus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Maa- ja metsätalousmministeriö (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMHU",
+      "variablename": "Muut hallinnonalat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : Muut hallinnonalat (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASIU",
+      "variablename": "SITRA, avustus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : SITRA (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKEU",
+      "variablename": "KERA, avustus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : KERA (avustukset, tilaustutkimukset), (1000 mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMJU",
+      "variablename": "Muut julkiset rahoituslähteet, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : Muut julkiset rahoituslähteet (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKYU",
+      "variablename": "Muut kotimaiset yritykset, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : Muut kotimaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APJU",
+      "variablename": "Yrityksiä palvelevat järjestöt, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : Yrityksiä palvelevat järjestöt (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUYU",
+      "variablename": "Ulkomaiset yritykset, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Ulkomaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMUU",
+      "variablename": "Muu ulkomainen rahoitus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muu ulkomainen rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUUU",
+      "variablename": "Muu rahoitus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus : Muu rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHTU",
+      "variablename": "Muut t&k-menot, rahoitus yhteensä",
+      "conceptdef": "Yrityksen muut t&k-menot rahoituslähteiden mukaan yhteensä 1985, (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR1",
+      "variablename": "T&k-menot, TOL 1 maa-, metsä- ja kalatalous",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 1 maa- metsä- ja kalatalouden jalostamattomat tuotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR2",
+      "variablename": "T&k-menot, TOL 2 kaivos- ja kaivannaistoiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 2 kaivos- ja kaivannaistoiminnan tuotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk). (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR3",
+      "variablename": "T&k-menot, TOL 31 elintarvikkeet, juomat, tupakka",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 31 elintarvikkeet, juomat ja tupakka (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).(Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR4",
+      "variablename": "T&k-menot, TOL 321, 322 tekstiilit, vaatteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 321, 322 tekstiilituotteet, vaatteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR5",
+      "variablename": "T&k-menot, TOL 323, 324 nahkatuotteet, kengät",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 323, 324 nahkatuotteet, kengät (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR6",
+      "variablename": "T&k-menot, TOL 331 puutavarat",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 331 puutavarat (pl. puukalusteet) (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR7",
+      "variablename": "T&k-menot, TOL 332, 3812 kalusteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 332, 3812 kalusteet (ml. Metalli- ja muovikalusteet) (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR8",
+      "variablename": "T&k-menot, TOL 341 massa, paperi ja paperituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 341 massa, paperi ja paperituotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR9",
+      "variablename": "T&k-menot, TOL 342 graafiset tuotteet, kustannustoiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 342 graafiset tuotteet, kustannustoiminta (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR10",
+      "variablename": "T&k-menot, TOL 351 kemikaalit",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 351 kemikaalit (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR11",
+      "variablename": "T&k-menot, TOL 3522 lääkkeet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3522 lääkkeet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR12",
+      "variablename": "T&k-menot, TOL muu 352 muut kemialliset tuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, muu 352 muut kemialliset tuotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR13",
+      "variablename": "T&k-menot, TOL 353, 354 maaöljyn jalostus, maaöljy- kivihiilituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 353, 354 maaöljyn jalostus, maaöljy- kivihiilituotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR14",
+      "variablename": "T&k-menot, TOL 355 kumituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 355 kumituotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR15",
+      "variablename": "T&k-menot, TOL 356 muovituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 356 muovituotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR16",
+      "variablename": "T&k-menot, TOL 361, 362 posliini, saviastiat ja lasituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 361, 362 posliini, saviastiat ja lasituotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR17",
+      "variablename": "T&k-menot, TOL 369 muut savi- ja kivituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 369 muut savi- ja kivituotteet (esim. tiili, sementti, kalkki, laasti, betoni ja betonituotteet, vuori- ja lasivilla)(Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR18",
+      "variablename": "T&k-menot, TOL 371 rauta, teräs, ferroseokset",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 371 rauta, teräs, ferroseokset (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR19",
+      "variablename": "T&k-menot, TOL 372 muut metallit",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 372 muut metallit  (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR20",
+      "variablename": "T&k-menot, TOL 381 (pl. 3812) metallituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 381 (pl. 3812) metallituotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR21",
+      "variablename": "T&k-menot, TOL 3821 kiinteät moottorit ja turbiinit",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3821 kiinteät moottorit ja turbiinit (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR22",
+      "variablename": "T&k-menot, TOL 3822 maatalouskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3822 maatalouskoneet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR23",
+      "variablename": "T&k-menot, TOL 3823 metallin- ja puuntyöstökoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3823 metallin- ja puuntyöstökoneet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR24",
+      "variablename": "T&k-menot, TOL 38241 massa- ja paperikoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 38241 massa- ja paperikoneet sekä -laitteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR26",
+      "variablename": "T&k-menot, TOL 38249 muut teollisuuden erikoiskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 38249 muut teollisuuden erikoiskoneet ja -laitteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR27",
+      "variablename": "T&k-menot, TOL osa 3825 konttorikoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, osa 3825 konttorikoneet  (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR28",
+      "variablename": "T&k-menot, TOL 3825 tietokoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3825 tietokoneet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR29",
+      "variablename": "T&k-menot, TOL 38291 kotitalouskoneet ja -laitteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 38291 kotitalouskoneet ja -laitteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR30",
+      "variablename": "T&k-menot, TOL 38299 muut koneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 38299 muut koneet (nostolaitteet, aseet, jäähdytyskalusto, kompressorit, sulatusuunit, tulensammuttimet) (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR31",
+      "variablename": "T&k-menot, TOL 3831 teollisuussähkökoneet ja -laitteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3831 teollisuussähkökoneet ja -laitteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR32",
+      "variablename": "T&k-menot, TOL 3832 radiot, televisiot, tietoliikennevälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3832 radiot, televisiot, tietoliikennevälineet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR33",
+      "variablename": "T&k-menot, TOL 3833 kotitalouden sähkölaitteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3833 kotitalouden sähkölaitteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR34",
+      "variablename": "T&k-menot, TOL 3839 muut sähkölaitteet ja -varusteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3839 muut sähkölaitteet ja -varusteet (esim. sähkökaapelit, lamput, akut, paristot) (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR35",
+      "variablename": "T&k-menot, TOL 3841 laivat ja veneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3841 laivat ja veneet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR36",
+      "variablename": "T&k-menot, TOL 3842 kiskoilla kulkevat ajoneuvot",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3842 kiskoilla kulkevat ajoneuvot (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR37",
+      "variablename": "T&k-menot, TOL 3843 autot ja autonosat",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3843 autot ja autonosat (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR38",
+      "variablename": "T&k-menot, TOL 3845 lentokoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3845 lentokoneet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR39",
+      "variablename": "T&k-menot, TOL 3844, 3849 muut kulkuneuvot",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3844, 3849 muut kulkuneuvot (esim. polku- ja moottoripyörät) (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR40",
+      "variablename": "T&k-menot, TOL 3851 instrumentit",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3851 instrumentit (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR42",
+      "variablename": "T&k-menot, TOL 3903 urheiluvälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 3903 urheiluvälineet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR43",
+      "variablename": "T&k-menot, TOL 39 (pl.3903) muut tehdasteollisuustuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 39 (pl.3903) muut tehdasteollisuustuotteet (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR44",
+      "variablename": "T&k-menot, TOL 4 sähkö, kaasu, vesi",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 4 sähkö, kaasu, vesi (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR45",
+      "variablename": "T&k-menot, TOL 5 rakennukset",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 5 rakennukset (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR46",
+      "variablename": "T&k-menot, TOL 6 kauppa",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 6 kauppa (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR47",
+      "variablename": "T&k-menot, TOL 71 kuljetus",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 71 kuljetus (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR48",
+      "variablename": "T&k-menot, TOL 72 posti- ja teleliikenne",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 72 posti- ja teleliikenne (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR49",
+      "variablename": "T&k-menot, TOL 8323 atk-palvelut",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 8323 atk-palvelut (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR50",
+      "variablename": "T&k-menot, TOL 8 (pl. 8323) rahoitus-, vakuutus, liike-elämää palv. toiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 8 (pl. 8323) rahoitus-, vakuutus, liike-elämää palveleva toiminta (pl. atk-palvelut) (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR51",
+      "variablename": "T&k-menot, TOL 9 yht.kunnalliset ja henk.koht. palvelut ja luokittelemattomat",
+      "conceptdef": "Tuoteryhmä (TOL 1979), johon yksikössä tehty t&k kohdistuu, 9 yht.kunnalliset ja henkilökohtaiset palvelut sekä muualle luokittelematon toiminta (Tilastokeskuksen Toimialaluokitus 1979 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKLKM",
+      "variablename": "Patenttihakemukset Suomessa",
+      "conceptdef": "Yrityksen vuonna 1985 Suomessa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRLKM",
+      "variablename": "Patenttihakemukset Ruotsissa",
+      "conceptdef": "Yrityksen vuonna 1985 Ruotsissa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PPLKM",
+      "variablename": "Patenttihakemukset muissa pohjoismaissa",
+      "conceptdef": "Yrityksen vuonna 1985 muissa pohjoismaissa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PBLKM",
+      "variablename": "Patenttihakemukset Iso-Britanniassa",
+      "conceptdef": "Yrityksen vuonna 1985 Iso-Britanniassa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PSLKM",
+      "variablename": "Patenttihakemukset Saksan liittotasavallassa",
+      "conceptdef": "Yrityksen vuonna 1985 Saksan liittotasavallassa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PULKM",
+      "variablename": "Patenttihakemukset USAssa",
+      "conceptdef": "Yrityksen vuonna 1985 USAssa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PJLKM",
+      "variablename": "Patenttihakemukset Japanissa",
+      "conceptdef": "Yrityksen vuonna 1985 Japanissa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POLKM",
+      "variablename": "Patenttihakemukset muissa OECD-maissa",
+      "conceptdef": "Yrityksen vuonna 1985 muissa OECD-maissa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PSELKM",
+      "variablename": "Patenttihakemukset SEV-maissa",
+      "conceptdef": "Yrityksen vuonna 1985 SEV-maissa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PMMLKM",
+      "variablename": "Patenttihakemukset muissa maissa",
+      "conceptdef": "Yrityksen vuonna 1985 muissa maissa jättämät patenttihakemukset, lukumäärä (kpl). Kansainvälisten patenttisopimusten perusteella tehtyjä hakemuksia ei ole laskettu tähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PYLKM",
+      "variablename": "Patenttihakemukset yhteensä",
+      "conceptdef": "Yrityksen vuonna 1985 jättämät patenttihakemukset yhteensä, lukumäärä (kpl)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PLKM",
+      "variablename": "Keksintöjen lukumäärä",
+      "conceptdef": "Keksinnöt, joille yritys on hakenut patenttia 1985, lukumäärä yhteensä(kpl)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVOS",
+      "variablename": "Uusien tuotteiden osuus liikevaihdosta",
+      "conceptdef": "Vuosina 1981-1985 markkinoille tuotujen uusien tuotteiden osuus yksikön vuoden 1985 liikevaihdosta. Tuote katsotaan markkinoille tuoduksi silloin, kun mainonta alkaa tai ykisttäsituote on toimietttu asiakkaalle. Koskee ainoastaan teollisuusyrityksiä, ei kuitenkaan koko yritystä palvelevia keskitettyjä tutkimusyksikköjä. prosenttiosuudet: 0%, 1-2%, 3-5%, 6-10%, 11-20%, 21-30%, 31-40%, 41-60%, 61-80%, 81-99%, 100%",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALME",
+      "variablename": "Palkat",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1985; palkkausmenot, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMJS",
+      "variablename": "T&k:n rahoitus, muut julkiset rahoituslähteet, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut julkiset rahoituslähteet (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1985 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1985 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1986 myönnettyä rahoitusta tai vuonna 1985 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TRSUM",
+      "variablename": "T&k menot tuoteryhmittäin yhteensä",
+      "conceptdef": "Yrityksen t&k-menot tuoteryhmittäin yhteensä 1985, markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, yrityksen y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "petu",
+      "variablename": "Perheen tunniste",
+      "conceptdef": "Perheen tunnisteella voidaan liittää yhtenä havaintovuonna saman perheen henkilöt yhteen. Havaintovuosien välillä sama perheen tunniste ei välttämättä tarkoita samaa perhettä eikä muuttuja kerro riippumatonta lapsi-vanhempi suhdetta. Perheen tunniste perustuu TK:n rakennusnumero-huoneistonumero-perhenumero-yhdistelmään, joka voi samalla perheellä vaihdella vuosittain esimerkiksi muuton takia. Muuttujan arvoon vaikuttaa myös poimintavuosi, eli arvo ei ole identtinen vuositiedostojen ja vanhojen, useita vuosia sisältävien tiedostojen välillä.\n\n'00000000' = perheväestöön kuulumaton henkilö, jolla on kuitenkin adpotio/biologinen lapsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laplubio",
+      "variablename": "Henkilön biologisten lasten lukumäärä",
+      "conceptdef": "Henkilön biologisten lasten lukumäärä, tieto vuodesta 1989 lähtien. Lapsettomille muuttujan arvo on puuttuva vuosina 1987-2004 ja nolla vuodesta 2005 lähtien. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "lapluka",
+      "variablename": "Henkilön kaikkien lasten lukumäärä",
+      "conceptdef": "Henkilön kaikkien biologisten ja/tai adoptiolasten lukumäärä. Lapsettomille muuttujan arvo on puuttuva vuosina 1987-2004 ja nolla vuodesta 2005 lähtien. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "uusper",
+      "variablename": "Uusperhe",
+      "conceptdef": "Perheessä ainakin yksi ei-yhteinen lapsi, ei ikärajaa.\n\nVuodesta 2006 lähtien:\n0 = ei uusperhe, \n1 = uusperhe, vanhemmat aviopari, vanhemmat rekisteröity pari, vanhemmat samansukupuolinen aviopari\n2 = uusperhe, vanhemmat avopari, \nnull = ei kuulu perheväestöön\n\nSeuraavat arvot ovat sisällytetty arvoon 1:\n3 = uusperhe, vanhemmat rekisteröity pari,\n4 = uusperhe, vanhemmat samansukupuolinen aviopari\n\nVuoteen 2005 asti: \n1 = on uusperhe\nnull = ei uusperhe / ei kuulu perheväestöön",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "pekoko",
+      "variablename": "Perheen koko",
+      "conceptdef": "Perheen henkilöiden lukumäärä. Perheväestöön kuuluvilla perheen koko on kaksi tai enemmän, bl = perheväestöön kuulumaton",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "lkm",
+      "variablename": "Perheen lasten lukumäärä",
+      "conceptdef": "Perheen lasten lukumäärä, kaikki kotona asuvat biologiset ja ottolapset, ei ikärajaa, bl = perheväestöön kuulumaton",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a3lkm",
+      "variablename": "Perheen alle 3-vuotiaiden lasten lkm",
+      "conceptdef": "Perheen alle 3-vuotiaiden lasten lukumäärä, kotona asuvat kaikki  biologiset ja ottolapset. Tieto vuodesta 2006 lähtien, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a7lkm",
+      "variablename": "Perheen alle 7-vuotiaiden lasten lkm",
+      "conceptdef": "Perheen alle 7-vuotiaiden lasten lukumäärä, kotona asuvat kaikki  biologiset ja ottolapset, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a18lkm",
+      "variablename": "Perheen alle 18-v. lasten lkm",
+      "conceptdef": "Perheen alle 18-vuotiaiden lasten lukumäärä, kaikki kotona asuvat biologiset ja ottolapset, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "a25lkm",
+      "variablename": "Perheen alle 25-v. lasten lkm",
+      "conceptdef": "Perheen alle 25-vuotiaiden lasten lukumäärä, kaikki kotona asuvat biologiset ja ottolapset, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "yhta18",
+      "variablename": "Perheen vanhempien alle 18-v. yhteisten biologisten tai adoptiolasten",
+      "conceptdef": "Uusperheen vanhempien alle 18-vuotiaiden yhteisten biologisten tai adoptiolasten lukumäärä, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "aidina18",
+      "variablename": "Vain äidin alle 18-v. t lasten lkm",
+      "conceptdef": "Vain äidin alle 18-vuotiaat biologiset tai adoptiolapset. Vuosina 1987-2005 tieto koskee vain uusperheitä, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    },
+    {
+      "identifier": "isana18",
+      "variablename": "Vain isän alle 18-v. lasten lkm",
+      "conceptdef": "Vain isän alle 18-vuotiaat biologiset tai adoptiolapset. Vuosina 1987-2005 tieto koskee vain uusperheitä, bl = perheväestöön kuulumaton.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Perhe"
+    }
+  ]
+}

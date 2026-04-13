@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "repId",
+      "variablename": "Ilmoituksen tunniste",
+      "conceptdef": "Tunniste on muodostettu Tilastokeskuksessa taulun luomisen yhteydessä. Ilmoitus ja sen sisältämät tulolajit ovat yhdistettävissä toisiinsa ilmoituksen tunnisteen avulla (report.repId = transactionInfo.repId).\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "delId",
+      "variablename": "Aineiston tunniste",
+      "conceptdef": "Yksilöi aineiston, johon ilmoitus sisältyy. Aineisto ja sen sisältämät ilmoitukset ovat yhdistettävissä toisiinsa aineiston tunnisteen avulla (delivery.delId = report.delId).\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IncomeEarnerHid_e",
+      "variablename": "Suojattu tulonsaajan yksilöivä tunniste",
+      "conceptdef": "Suojattu tulonsaajan yksilöivä tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerSyrtun",
+      "variablename": "Tulonsaajan suojattu y-tunnus",
+      "conceptdef": "Tulonsaajan suojattu y-tunnus (suojattu ilman väliviivaa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulonsaajan tunnisteet"
+    },
+    {
+      "identifier": "incomeEarnerOtherSId",
+      "variablename": "Tulonsaajan suojattu muu tunniste",
+      "conceptdef": "Tulonsaajan suojattu muu tunniste, y-tunnuksesta on poistettu viiva ennen suojausta. Tätä muuttujaa ei suositella vielä käytettävän linkkauksissa, koska muuttujan suojaus on ollut sikäli virheellinen, etteivät kaikki alkuperäiset tunnukset ole saaneet oikein yksilöityvää suojattua tunnusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulonsaajan tunnisteet"
+    },
+    {
+      "identifier": "IncomeEarnerOtherIdCode_s",
+      "variablename": "Tulonsaajan suojattu muu tunniste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerIdType",
+      "variablename": "Tulonsaajan tunnisteen tyyppi",
+      "conceptdef": "1 = Y-tunnus (suomalainen)\n2 = Henkilötunnus (suomalainen)\n5 = Verotunniste (TIN)\n9 = Ulkomainen henkilötunnus\n99 = Muu tunnus\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.15)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulonsaajan tunnisteet"
+    },
+    {
+      "identifier": "reportVersion",
+      "variablename": "Ilmoituksen versionumero",
+      "conceptdef": "Etuuden maksaja voi korvata tai mitätöidä aikaisemman ilmoituksensa, jolloin syntyy uusi versio ilmoituksesta. Halutessaan hän voi eritellä lähettämänsä korjaukset tai mitätöinnit versionumeron avulla, jolloin varmistetaan, että korjaaminen tai mitätöinti kohdistuu oikeaan ilmoitukseen. Tähän aineistoon on otettu kustakin ilmoituksesta vain viimeisin versio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "latauspvm",
+      "variablename": "Aineiston poimintapäivämäärä tulorekisteristä",
+      "conceptdef": "Tarkoittaa sitä hetkeä, jolloin Tilastokeskus on poiminut aineiston tulorekisteristä.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "incomeEarnerIdCountryCode",
+      "variablename": "Maakoodi",
+      "conceptdef": "Jos tunnisteen tyyppinä on muu kuin suomalainen henkilötunnus, merkitään tulonsaajan tunnisteen myöntäneen maan koodi. Tunnisteen myöntänyt maa voi olla eri kuin tulonsaajan asuinvaltio. Maakoodi valitaan koodistosta:\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.59)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulonsaajan tunnisteet"
+    },
+    {
+      "identifier": "incomeEarnerIdCountryName",
+      "variablename": "Maan nimi",
+      "conceptdef": "Merkitään tunnisteen myöntäneen maan nimi, jos maakoodiksi on annettu arvo ”tuntematon” (99).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulonsaajan tunnisteet"
+    },
+    {
+      "identifier": "IncomeEarnerHidType",
+      "variablename": "Tulonsaajan henkilötunnisteen tyyppi",
+      "conceptdef": "1 = Y-tunnus (suomalainen)\n2 = Henkilötunnus (suomalainen)\n5 = Verotunniste (TIN)\n9 = Ulkomainen henkilötunnus\n99 = Muu tunnus\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.15)\nJoissakin tapauksissa saajalla voi olla kaksi erityyppistä tunnistetta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nonResident",
+      "variablename": "Rajoitetusti verovelvollinen",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "kansainväliset tilanteet"
+    },
+    {
+      "identifier": "nonResidentCountryCode",
+      "variablename": "Asuinvaltion maakoodi",
+      "conceptdef": "Rajoitetusti verovelvollisesta on ilmoitettava sen valtion maatunnus, jota pidetään tulonsaajan asuinpaikkana. Maakoodi valitaan koodistosta:\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.59)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "kansainväliset tilanteet"
+    },
+    {
+      "identifier": "nonResidentCountryName",
+      "variablename": "Asuinvaltion nimi",
+      "conceptdef": "Merkitään asuinvaltion nimi, jos asuinvaltion maakoodin arvoksi on annettu ”tuntematon” (99).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "kansainväliset tilanteet"
+    },
+    {
+      "identifier": "subToWithold",
+      "variablename": "Ennakonpidätyksen alainen tulo",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "kansainväliset tilanteet"
+    },
+    {
+      "identifier": "receivedTimestamp",
+      "variablename": "receivedTimestamp",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "createdTimestamp",
+      "variablename": "createdTimestamp",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

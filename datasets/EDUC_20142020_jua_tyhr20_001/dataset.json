@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "EDUC_20142020_jua_tyhr20_001.xml",
+      "doi": "khak_2017-05_2017-05-05_ain_0001",
+      "subject": "Toisen asteen yhteishaku - moduuli, osa 6 (2014 - 2020)",
+      "contentdescription": "Toisen asteen yhteishaku -moduulin 6. osa koostuu henkilöistä, jotka osallistuivat tilastovuodesta 2014 alkaen  toisen asteen koulutuksen yhteishakuun. Vuosilta 2014 - 2016 tiedostot on toimitettu Tilastokeskukseen OPH:sta. Vuodesta 2017 alkaen aineisto on haettu rajapinnalta json-muotoisina tiedostoina, joista Tilastokeskuksessa on koottu varsinainen aineisto. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.\n\n- Vuonna alkaneisiin toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneet\n- Opetushallitus, Opintopolku, ODW-tietokanta\n- Henkilö usealla rivillä haun, hakemuksen ja hakutoiveen mukaan\n\nToisen asteen yhteishaku -moduulin 7. osa koostuu seuraavista tiedostoista\neduc_tyhr_20142016\neduc_tyhr_2017\neduc_tyhr_2018\neduc_tyhr_2019\neduc_tyhr_2020\n\nArvosanamuuttujat on sisällytetty seuraaviin erillisiin tiedostoihin (vuoden 2020 arvosanatiedosto puuttuu toistaiseksi): \neduc_tyhr_arvos_2014\neduc_tyhr_arvos_2015\neduc_tyhr_arvos_2016\neduc_tyhr_arvos_2017\neduc_tyhr_arvos_2018\neduc_tyhr_arvos_2019\n\nHuomaathan, että arvosanatiedot ovat rakenteeltaan erilaisia: esimerkiksi 2014 jokaisella henkilöllä on yhtä monta riviä kuin kouluaineita, kun taas 2015 yhden henkilön kaikki aineet ovat samalla rivillä. Vuoden 2015 pakollisten aineiden arvosanat sisältävissä muuttujissa on paljon tyhjää, mutta valinnaisten aineiden muuttujissa on paljon havaintoja. Näiden muuttujien käyttö on siis tutkijan oman harkinnan varassa.\n\nLähtökoulun tiedot täytyy etsiä eri tiedostosta/yhdistää myöhemmin\n\nTiedostoista on salattu henkilön tunnistetiedot. Lisäksi tiedostoista on suojattu kaikkien oppilaitosten tunnistetiedot.\n\nHUOMIOITA tiedostosta:\n\n2014 - 2016:\nYksilöintitunnuksissa SHAKU_OID, SHAKEMUS_OID, SHLOOID, SHAKUKOHTEEN_ORGANISAATIO_OID, SHAKUKOHTEEN_OID ja SLAHTOKOULUN_ORGANISAATIO_OID on havaittu virheitä. Nämä muuttujat eivät vuosien 2014 - 2016 tiedostoissa yksilöi kuvauksen mukaisia kohteita. Näiden muuttujien tiedot vuosilta 2014 - 2016 eivät ole (toistaiseksi) vertailukelpoisia vuoden 2017 ja myöhempien vuosien tietojen kanssa. Mainittujen yksilöintitunnusten avulla tietoja voidaan yhdistellä yli ajan (toistaiseksi) vuodesta 2017 alkaen.\n\n2014:\nUusimuotoisessa toisen asteen hakuaineistossa on laatupulmia. Ensimmäinen hakutoive on kaikkiaan 94 000 hakijalla, mutta 1 300 hakijalta se puuttuu, vaikka muita hakutoiveita heiltä kyllä löytyy. Tähän todennäköisenä selityksenä on vuoden 2015 puolella poistetut hakukohteet, joiden mukana hakukohteeseen liittyvät tiedot hyväksymisineen ja vastaanottoineen ovat hävinneet, eivätkä siis ole mukana TK:een tulleessa aineistossa. Sama ongelma koskee myös muita hakutoiveita. Esimerkiksi toinen hakutoive puuttuu 740 hakijalta, joilta kuitenkin löytyy kolmas hakutoive.",
+      "coveragetemporal": null,
+      "published_day": "2025-12-18",
+      "variable_count": "111",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": null,
+      "resourcerelation_1": "OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Taustatietoja saatu Väestörekisterikeskuksesta.",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

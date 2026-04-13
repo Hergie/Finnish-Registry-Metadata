@@ -1,0 +1,36 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shetu",
+      "variablename": "Suojattu hetu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYYPPI",
+      "variablename": "Koe- ja verrokkiryhmä ",
+      "conceptdef": "Tieto kuulumisesta perustulon koe- tai verrokkiryhmään\nK = koeryhmä\nV = verrokkiryhmä\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EL",
+      "variablename": "Etuuslaji",
+      "conceptdef": "Työttömyysturvaetuus, jonka perusteella valikoituminen pe-rustulon kohdejoukkoon on määräytynyt\nFP = peruspäiväraha \nFM = työmarkkinatuki\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

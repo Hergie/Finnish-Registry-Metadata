@@ -1,0 +1,220 @@
+{
+  "variables": [
+    {
+      "identifier": "jnro",
+      "variablename": "Juokseva numero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastointivuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nelj",
+      "variablename": "Tilastointineljännes",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osite",
+      "variablename": "Osite",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kpvm",
+      "variablename": "Kuorma-auton käyttöönottopäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kaytto",
+      "variablename": "Ajoneuvon käyttö",
+      "conceptdef": "Ajoneuvon käyttö (yks/amm)",
+      "measunit": null,
+      "classification": "ajon_kaytto_2_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "opaino",
+      "variablename": "Ajoneuvon omamassa (kg)",
+      "conceptdef": "Ajoneuvon omamassa. Saadaan ATJ:n massa-taulusta muuttujasta omamassa, \njoka on ajoneuvon mitattu koko omamassa kilogrammoina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kantav",
+      "variablename": "Ajoneuvon kantavuus (kg)",
+      "conceptdef": "Ajoneuvon kantavuus. Saadaan kaavalla kantav=kpaino-opaino.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kpaino",
+      "variablename": "Ajoneuvon kokonaispaino, joka on tieliikenteessä suurin sallittu kokonaismassa (kg)",
+      "conceptdef": "Ajoneuvon kokonaispaino. Saadaan ATJ:n massa-taulusta muuttujasta \ntieliiksuursallkokmassa, joka on tieliikenteessä suurin sallittu kokonaismassa kiloina.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ykantav",
+      "variablename": "Ajoneuvon ja perävaunun yhteinen kantavuus (kg)",
+      "conceptdef": "Ajoneuvon ja perävaunun yhteinen kantavuus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokpain",
+      "variablename": "Ajoneuvon ja perävaunun yhteinen kokonaismassa (kg)",
+      "conceptdef": "Ajoneuvon ja perävaunun yhteinen kokonaismassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ktyyp",
+      "variablename": "Kuormakorityyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "kuormatyyppi_1_2017_01_30",
+      "variablegroups": null
+    },
+    {
+      "identifier": "lisal",
+      "variablename": "Lisälaitekoodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "lisal_1_2017_01_30",
+      "variablegroups": null
+    },
+    {
+      "identifier": "akseli",
+      "variablename": "Akseleiden lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ajo",
+      "variablename": "Ajoneuvon käyttö tutkimuspäivinä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "ajon_kaytto_3_2017_02_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "liiken",
+      "variablename": "Kuorma-auton liikennöinti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "ajon_kaytto_3_2017_02_02",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyyppi",
+      "variablename": "Kuorma-auton tyyppi tutkimuspäivinä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "ktyyppi_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "km",
+      "variablename": "Edellisvuonna ajetut kilometrit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "km_ulko",
+      "variablename": "Edellisvuonna ajetut kilometrit ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpvm",
+      "variablename": "Tutkimuspäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jalki_osite",
+      "variablename": "Jälkiosite",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "kttavosite_1_2017_01_23",
+      "variablegroups": null
+    },
+    {
+      "identifier": "jakson_pituus",
+      "variablename": "Tutkimusjakson pituus vuorokausina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kerroin",
+      "variablename": "kerroin",
+      "conceptdef": "Tulosten estimoinnissa käytettävä painokerroin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shatun",
+      "variablename": "Ajoneuvon haltijan suojattu Y-tunnus tai henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shtun",
+      "variablename": "Ajoneuvon omistajan suojattu Y-tunnus tai henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "idtyyp_hatun",
+      "variablename": "Yritystunnuksen tyyppi",
+      "conceptdef": "Yritystunnuksen tyyppi\n1 = y-tunnus\n2 = henkilönumero\n3 = muu (esim. tekstiä tai liian lyhyt)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "idtyyp_htun",
+      "variablename": "Yritystunnuksen tyyppi",
+      "conceptdef": "Yritystunnuksen tyyppi\n1 = y-tunnus\n2 = henkilönumero\n3 = muu (esim. tekstiä tai liian lyhyt)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

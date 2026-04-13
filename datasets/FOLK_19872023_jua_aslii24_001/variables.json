@@ -1,0 +1,140 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunnus",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "spuhnro",
+      "variablename": "Suojattu henkilön yksilöivä tunniste puolisolle",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alku",
+      "variablename": "Tekninen alkupäivämäärä",
+      "conceptdef": "Alku on yhteenmuuttopäivä, jos päivämäärä on tiedossa. Niillä pareilla, jotka asuivat yhdessä jo 31.12.1986, on alku tämä ko. päivä. Jos yhteenmuuttopäivä puuttuu, niin alku on asuinliiton ensimmäisen vuoden joulukuun 30. päivä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppu",
+      "variablename": "Tekninen loppupäivämäärä",
+      "conceptdef": "Jos asuinliitto on päättynyt erilleen muuttoon tai kuolemaan, on loppu tämä päivämäärä, mikäli tieto on saatavilla. Jos päättyneestä asuinliitosta ei ole päivämäärä-tietoa, niin loppu on viimeistä asuinliittovuotta seuraavan tammikuun 1. päivä. Jos asuinliitto ei ole päättynyt aineiston viimeisenä tilastovuonna, niin loppu on tämän vuoden viimeinen päivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pnro",
+      "variablename": "Puolison järjestysnumero",
+      "conceptdef": "Järjestysnumero laskettu vain asuinliittoaineistossa olevista puolisoista. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarnro",
+      "variablename": "Avioliiton järjestysnumero",
+      "conceptdef": "Avioliiton järjestysnumero -tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ymuuttopv",
+      "variablename": "Yhteenmuuttopäivä",
+      "conceptdef": "Yhteenmuuttopäivä-tiedon lähteenä henkilötilastojen tietovaraston muuttotilastoaineisto. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emuuttopv",
+      "variablename": "Erilleen muuttopäivä",
+      "conceptdef": "Erilleen muuttopäivä-tiedon lähteenä henkilötilastojen tietovaraston muuttotilastoaineisto. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vihkipvm",
+      "variablename": "Avioliiton solmimispäivä",
+      "conceptdef": "Vihkipäivä-tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. Jos sama pari avioeron jälkeen avioituu uudestaan, niin parilla on aineistossa vain ensimmäiset tiedot vihkipäivästä ja avioeropäivästä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asumero",
+      "variablename": "Asumuseropäivä",
+      "conceptdef": "Asumuseropäivä-tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aeropvm",
+      "variablename": "Avioeropäivä",
+      "conceptdef": "Avioeropäivä-tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. Kullakin parilla on vain yksi päivämäärätieto, vaikka pari olisi avioitunut ja eronnut useamman kerran. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolpv",
+      "variablename": "Henkilön kuolinpäivä",
+      "conceptdef": "Kuolinpäivä-tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pu_kuolpv",
+      "variablename": "Puolison kuolinpäivä",
+      "conceptdef": "Kuolinpäivä-tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pu_pnro",
+      "variablename": "Puolison järjestysnumero (puoliso)",
+      "conceptdef": "Järjestysnumero laskettu vain asuinliittoaineistossa olevista puolisoista. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pu_jarnro",
+      "variablename": "Avioliiton järjestysnumero (puoliso)",
+      "conceptdef": "Avioliiton järjestysnumero -tiedot Väestörekisterikeskuksen väestötietojärjestelmästä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laitos",
+      "variablename": "Vanhuksen laitosasuminen",
+      "conceptdef": "Jos asuinliittoparista jompikumpi puoliso erilleen muuton jälkeen asuu laitoksessa tai huoltolaitosrakennuksessa tulee Vanhuksen laitosasuminen -tiedon arvoksi ’1’. Tieto koskee vain 70 vuotta täyttäneitä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

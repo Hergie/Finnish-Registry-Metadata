@@ -1,0 +1,1308 @@
+{
+  "variables": [
+    {
+      "identifier": "FINUNFIN",
+      "variablename": "Lisätyt innovaatioprojektit",
+      "conceptdef": "Lisätyt innovaatioprojektit",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NUTS",
+      "variablename": "Yrityksen sijainti osoitteen mukaan",
+      "conceptdef": "Yrityksen sijainti osoitteen mukaan. Luokitus  NUTS-suuralueen mukaan (Nomenclature des Unités Territoriales Statistiques).  NUTS luokitus on Euroopan unionin (EU) alueluokitusjärjestelmä, jonka mukaisesti laaditaan kaikki EU:n yhteiset alueelliset tilastot. Suomen NUTS-aluejaossa Manner-Suomi ja Ahvenanmaa muodostavat NUTS 1 -aluetason ja suuralueet NUTS 2 -tason.\nTilastoissa tärkein on NUTS 2 -taso (suuralueet),  millä tuotetaan kaikki alueellinen tieto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV94",
+      "variablename": "Tilinpäätöstilasto 1994,  liikevaihto",
+      "conceptdef": "Yrityksen liikevaihto vuonna 1994,  (1000 markkaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTI94",
+      "variablename": "Tilinpäätöstilasto 1994, vienti",
+      "conceptdef": "Yrityksen vienti vuonna 1994,  (1000 markkaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHMA",
+      "variablename": "Tutkimuksen pääryhmä",
+      "conceptdef": "Tutkimuksen pääryhmä: D=teollisuus, PAL=palvelutoimialat, (D+PAL=EU innovaatiotutkimus), MYR=lisäotos 1-9 hengen yrityksistä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK",
+      "variablename": "Henkilökunta 1996",
+      "conceptdef": "Yrityksen henkilökunta 31.12.1996.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Liikevaihto 1996",
+      "conceptdef": "Yrityksen liikevaihto vuonna 1996  tai tilikaudelta (12kk),  joka päättyi 1.4.1996-31.3.1997, (1000 markkaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTI",
+      "variablename": "Vienti 1996",
+      "conceptdef": "Yrityksen vienti vuonna 1996 (1000 markkaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENTIM",
+      "variablename": "Viennin muutos 1994 - 1996",
+      "conceptdef": "Yrityksen viennin muutos vuosina 1994 - 1996  (1000 markkaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ITSEN",
+      "variablename": "Itsenäinen yritys",
+      "conceptdef": "Yritys on itsenäinen, 1=kyllä.  Yritys on itsenäinen, kun yrittäjä yksin tai yhdessä muiden kanssa omistavat ne yhtiöimättömät yritykset, joissa he työskentelevät, pois lukien yritysmäisiksi yhteisöiksi luokiteltavat yhtiöimättömät yritykset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KONS",
+      "variablename": "Osa konsernia",
+      "conceptdef": "Yritys on osa konsernia, 1=kyllä. Konserni on kahden tai useamman yrityksen muodostama taloudellinen kokonaisuus, jossa emoyrityksellä on yksin tai yhdessä muiden samaan konserniin kuuluvien yritysten kanssa määräämisvalta yhdessä tai useassa muussa yrityksessä (tytär).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUOMI",
+      "variablename": "Konsernin kotimaa, Suomi",
+      "conceptdef": "Konsernin kotimaa on Suomi, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAA",
+      "variablename": "Konsernin kotimaa, muu maa",
+      "conceptdef": "Konsernin kotimaa on muu ulkomaa. A=Itävalta, 1=kyllä, CAN=Kanada, 1=kyllä, CHE=Sveitsi, 1=kyllä, CZE=Tsekki, 1=kyllä, D=Saksa, 1=kyllä, DK=Tanska, 1=kyllä,  EST=Viro, 1=kyllä, F=Ranska, 1=kyllä,  FIN=Suomi,1=kyllä, I=Italia, 1=kyllä,  JPN=Japani, 1=kyllä,  L=Luxemburg, 1=kyllä,  NL=Alankomaat, 1=kyllä, NOR=Norja, 1=kyllä,  RUS=Venäjä, 1=kyllä,  S=Ruotsi, 1=kyllä, UK=Iso-Britannia, 1=kyllä, USA, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAK1",
+      "variablename": "Yrityksen rakenne, perustaminen",
+      "conceptdef": "Yrityksen rakenne muuttui merkittävästi vuosina 1994-96,  jolloin yritys perustettiin. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä, 0=ei.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAK2",
+      "variablename": "Yrityksen rakenne, kasvu",
+      "conceptdef": "Yritys kasvoi merkittävästi vuosina 1994-96, yritysostojen ja/tai fuusioiden vuoksi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä, 0=ei.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAK3",
+      "variablename": "Yrityksen rakenne,  toimita supistui",
+      "conceptdef": "Yrityksen toiminta supistui merkittävästi vuosina 1994-96,  yrityksen osien myynnin tai toimintojen lopettamisen vuoksi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä, 0=ei.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNO1",
+      "variablename": "Tuoteinnovaatiot",
+      "conceptdef": "Yritys toi markkinoille teknologisesti uusia tai/ja parannettuja tuote- tai palveluinnovaatioita vuosina 1994-96,  1=kyllä, 0=ei. Teknologisesti uusi tuote eroaa selvästi aikaisemmin tuotetuista. Perustana voi olla uusi teknologia, entisten teknologioiden uusi sovellus tai uuden tiedon hyödyntäminen. Tuoteparannus on olemassa olevan tuotteen ominaisuuksien merkittävä parannus. Tuotteita voidaan kehittää parantamalla tuotteen yhtä tai useampaa teknistä osatekijää.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNO2",
+      "variablename": "Kehittäjänä, muut yritykset",
+      "conceptdef": "Tuote- tai palveluinnovaation kehittäjänä oli ensisijaisesti muut yritykset tai laitokset, 1=kyllä, 0=ei. Tuoteinnovaatio on yrityksen markkinoille tuoma uusi tai olennaisesti parannettu tuote tai palvelu. Uusi tai olennaisesti parannettu tuote tai palvelu eroaa ominaisuuksiltaan aikaisemmin tuotetuista (esim. olennaiset parannukset teknisessä suorituskyvyssä, komponenteissa ja materiaaleissa, ohjelmistossa, käyttömukavuudessa tai muissa toiminnallisissa ominaisuuksissa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNO3",
+      "variablename": "Kehittäjänä, oma ja muut  yritykset yhdessä",
+      "conceptdef": "Tuote- tai palveluinnovaation kehittäjänä oli oma yritys sekä toiset yritykset tai laitokset, 1=kyllä, 0=ei.Tuoteinnovaatio on yrityksen markkinoille tuoma uusi tai olennaisesti parannettu tuote tai palvelu. Uusi tai olennaisesti parannettu tuote tai palvelu eroaa ominaisuuksiltaan aikaisemmin tuotetuista (esim. olennaiset parannukset teknisessä suorituskyvyssä, komponenteissa ja materiaaleissa, ohjelmistossa, käyttömukavuudessa tai muissa toiminnallisissa ominaisuuksissa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNO4",
+      "variablename": "Kehittäjänä, oma yritys",
+      "conceptdef": "Tuote- tai palveluinnovaation kehittäjänä oli ensisijaisesti oma yritys, 1=kyllä, 0=ei. Tuoteinnovaatio on yrityksen markkinoille tuoma uusi tai olennaisesti parannettu tuote tai palvelu. Uusi tai olennaisesti parannettu tuote tai palvelu eroaa ominaisuuksiltaan aikaisemmin tuotetuista (esim. olennaiset parannukset teknisessä suorituskyvyssä, komponenteissa ja materiaaleissa, ohjelmistossa, käyttömukavuudessa tai muissa toiminnallisissa ominaisuuksissa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROSE1",
+      "variablename": "Prosessi-innovaatiot 1994-96",
+      "conceptdef": "Yritys on ottanut käyttöön teknologisia prosessi-innovaatioita vuosina 1994-96, 1=kyllä, 0=ei. Teknologiset prosessi-innovaatiot ovat käyttöön otettuja teknologisesti uusia tai olennaisesti parannettuja tuotantomenetelmiä tai tuotteiden jakelumenetelmiä. Nämä voivat sisältää laitteisiin tai tuotannon organisointiin liittyviä muutoksia ja ne voivat perustua uuden tiedon hyödyntämiseen. Prosessi-innovaatioita voidaan käyttää tuoteinnovaatioiden tuottamiseen tai vanhojen tuotteiden tuotannon tai jakelun tehostamiseen. (HUOM: tietoa ei ole kysytty palvelutoimialoilla)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROSE2",
+      "variablename": "Prosessi-innovaatiot, kehittäjänä, muut yritykset tai laitokset",
+      "conceptdef": "Prosessi-innovaation kehittäjänä olivat ensisijaisesti muut yritykset tai laitokset, 1=kyllä. Prosessi-innovaatio on yrityksen käyttöön ottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotantoprosessi, jakelumenetelmä tai tukitoiminto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROSE3",
+      "variablename": "Prosessi-innovaatiot, kehittäjänä, oma sekä toiset yritykset",
+      "conceptdef": "Prosessi-innovaation kehittäjänä olivat ensisijaisesti oma yritys sekä toiset yritykset tai laitokset, 1=kyllä. (HUOM: tietoa ei ole kysytty palvelutoimialoilla.) Prosessi-innovaatio on yrityksen käyttöön ottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotantoprosessi, jakelumenetelmä tai tukitoiminto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROSE4",
+      "variablename": "Prosessi-innovaatiot, kehittäjänä ensisijaisesti oma yritys",
+      "conceptdef": "Prosessi-innovaation kehittäjänä olivat ensisijaisesti oma yritys, 1=kyllä. (HUOM: tietoa ei ole kysytty palvelutoimialoilla.) Prosessi-innovaatio on yrityksen käyttöön ottama uusi tai olennaisesti parannettu tuotteiden tai palveluiden tuotantoprosessi, jakelumenetelmä tai tukitoiminto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNOKUV",
+      "variablename": "Kuvaus innovaatiosta",
+      "conceptdef": "Lomakeella on kuvaus yrityksen merkittävimmästä teknologisesta (tuote tai prosessi) innovaatiosta vuosina 1994-96. (Kuvausta ei ole tallennettu). ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAYT2B",
+      "variablename": "Innnovaation hyödyntäjä, muu yritys (kuvaus)",
+      "conceptdef": "Kuvaus yrityksen tärkeintä innovaatiota käyttävästä tai hyödyntävästä muusta yrityksestä, koodattu lähinnä toimialatietona.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAYT3B",
+      "variablename": "Innovaation hyödyntäjä, muu (kuvaus) ",
+      "conceptdef": "Kuvaus muusta yrityksen tärkeimmän innovaation käyttäjästä tai hyödyntäjästä. Koodattu etupäässä toimialakoodilla. Suurin osa kuitenkin OK=eli yrityksen oma käyttö.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAYT1",
+      "variablename": "Innovaation hyödyntäjä, yksityisasiakkaat",
+      "conceptdef": "Yrityksen tärkeimmän innovaation käyttäjä tai hyödyntäjä, 1=yksityisasiakkaat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAYT2",
+      "variablename": "Innovaation hyödyntäjä, muut yritykset",
+      "conceptdef": "Yrityksen tärkeimmän innovaation käyttäjät tai hyödyntäjät, 1=muut yritykset, koodattu etupäässä toimialakoodilla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KAYT3",
+      "variablename": "Innovaation hyödyntäjä, muu",
+      "conceptdef": "Tärkeimmän innovaation käyttäjät tai hyödyntäjät, 1=jonkin muu kuin yritys tai yksityisasiakas.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROJEKTI",
+      "variablename": "Keskeytyneet tai keskeneräiset projektit ",
+      "conceptdef": "Yrityksellä oli vuosina 1994-1996 projekteja, joiden tavoitteena oli kehittää tai tuoda markkinoille teknologisia tuote- tai prosessi-innovaatioita, mutta jotka keskeytyivät tai eivät valmistuneet vuoteen 1996 mennessä\n1=kyllä, 0=ei. \n\nTeknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVOS1",
+      "variablename": "Liikevaihto, uudet tuotteet",
+      "conceptdef": "Tuoteinnovaatioden vaikutus liikevaihtoon, vuosina 1994-96 markkinoille tuotujen teknologisesti uusien tuotteiden osuus yrityksen1996 liikevaihdosta, prosenttia (%). Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVOS2",
+      "variablename": "Liikevaihto, parannetut tuotteet",
+      "conceptdef": "Tuoteinnovaatioden vaikutus liikevaihtoon, vuosina 1994-96 markkinoille tuotujen teknologisesti parannettujen tuotteiden osuus yrityksen1996 liikevaihdosta, prosenttia (%). Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVOS3",
+      "variablename": "Liikevaihto, muuttumattomat tuotteet",
+      "conceptdef": "Tuoteinnovaatioden vaikutus liikevaihtoon, vuosina 1994-96 markkinoille tuotujen teknologisesti muuttumattomien tai vain vähän muutettujen tuotteiden osuus yrityksen1996 liikevaihdosta, prosenttia (%). Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MARKUUS",
+      "variablename": "Uusia tuoteinnovaatioita yrityksen ja markkinoiden kannalta",
+      "conceptdef": "Yritys toi markkinoille sekä yrityksen että markkinoiden kannalta uusia teknologisia tuoteinnovaatioita vuosina 1994-96,  1=kyllä, 0=ei. Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MARKUUSP",
+      "variablename": "Markkinoille tuotujen tuoteinnovaatioiden osuus liikevaihdosta",
+      "conceptdef": "Markkinoille tuotujen sekä yrityksen että markkinoiden kannalta uusien teknologisten tuoteinnovaatioiden osuus yrityksen liikevaihdosta vuonna 1996, prosenttia ( %).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK",
+      "variablename": "Oma t&k - toiminta",
+      "conceptdef": "Yrityksellä oli vuonna 1996 omaa tutkimus- ja kehittämistoimintaa, 1=kyllä, 0=ei. Tutkimus- ja kehittämistoiminnalla tarkoitetaan systemaattista toimintaa, jonka tavoitteena on tiedon lisääminen tai olemassa olevan osaamisen käyttäminen uusien sovellusten kehittämiseksi. Prototyyppien kehittäminen on usein keskeinen osa  t&k-toimintaa. Atk-ohjelmistojen kehittäminen luetaan t&k:ksi silloin, kun tavoitteena on atk-teknologian olennainen kehittäminen tai ne ovat kiinteä osa  t&k-projektia. T&k:ta on sekä yrityksen oman henkilökunnan työ että ulkopuolelta tilatut t&k-projektit.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILTK",
+      "variablename": "Tilattu t&k toiminta",
+      "conceptdef": "Yrityksellä oli vuonna 1996  ulkopuolelta tilattua tutkimus- ja kehittämistoimintaa (t&k), 1=kyllä, 0=ei. Tutkimus- ja kehittämistoiminnalla tarkoitetaan systemaattista toimintaa, jonka tavoitteena on tiedon lisääminen tai olemassa olevan osaamisen käyttäminen uusien sovellusten kehittämiseksi. Prototyyppien kehittäminen on usein keskeinen osa  t&k-toimintaa. Atk-ohjelmistojen kehittäminen luetaan t&k :ksi silloin, kun tavoitteena on atk-teknologian olennainen kehittäminen tai ne ovat kiinteä osa t&k -projektia. T&k:ta on sekä yrityksen oman henkilökunnan työ että ulkopuolelta tilatut t&k -projektit.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KONE",
+      "variablename": "Kone- ja laitehankinnat",
+      "conceptdef": "Yrityksellä oli vuonna 1996 innovaatioihin liittyviä kone- ja laitehankintoja, 1=kyllä, 0=ei. Sisältää myös näihin suoraan liittyvät atk-ohjelmistot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEKNO",
+      "variablename": "Teknologisen osaamisen hankinta",
+      "conceptdef": "Yrityksellä oli vuonna 1996 innovaatioihin liittyvää teknologisen osaamisen hankintaa, 1=kyllä, 0=ei. Sisältää innovaatioiden aikaansaamiseksi hankitut patentit, keksinnöt, lisenssit, tuotemerkit, piirustukset, konsultointipalvleut (poislukien t&k), muun tietotaidon sekä muualle luokittelemattomat atk-ohjelmat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUOK",
+      "variablename": "Tuotantoprosessin muokkaus, teollinen muotoilu",
+      "conceptdef": "Yrityksellä oli vuonna1996 innovaatioiden edellyttämää tuotantoprosessin muokkaamista tai teollista muotoilua, 1=kyllä, 0=ei. Suunnitelmat ja piirustukset, joiden tarkoituksena on määritellä menettelytavat, tekniset tavat ja käytännön toimenpiteet tuoteinnovaatioiden tuottamiseksi ja prosessi-innovaatioiden käyttöön ottamiseksi. Myös näiden vaatimat muutokset tuotannossa, laadunvalvonnassa, standardeissa ja atk-ohjelmistoissa. Myös tuotteiden tai prosessien muokkaus tuotannnon aloittamiseksi, sekä t&k-vaiheen jälkeinen koetuotanto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULU",
+      "variablename": "Koulutus ja perehdyttäminen",
+      "conceptdef": "Yrityksellä oli vuonna 1996  innovaatiotoimintaan liittyvää koulutusta ja perehdyttämistä, 1=kyllä, 0=ei. Sekä yrityksen oma koulutus että ostetut koulutuspalvelut. Innovaatioiden toteuttamiseen suoraan liittyvä henkilökunnan kouluttaminen ja muu perehdyttäminen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MARK",
+      "variablename": "Innovaatioiden markkinointi",
+      "conceptdef": "Yrityksellä oli vuonna 1996 innovaatioiden markkinoille tuomista, 1=kyllä, 0=ei. Sisältää esim. alustavan markkinatutkimuksen, koemarkkinoinnin ja markkinoille tulon vaativan mainonnan. Rajaus: ei sisällä jakeluverkoston rakentamista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKM",
+      "variablename": "Menot, oma t&k toiminta",
+      "conceptdef": "Yrityksen oman tutkimus- ja kehittämistoiminnan (t&k) menot vuonna 1996, 1000 mk. Tutkimus- ja kehittämistoiminnalla tarkoitetaan systemaattista toimintaa, jonka tavoitteena on tiedon lisääminen tai olemassa olevan osaamisen käyttäminen uusien sovellusten kehittämiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILTKM",
+      "variablename": "Menot, tilattu t&k toiminta",
+      "conceptdef": "Yrityksen ulkopuolelta tilatun tutkimus- ja kehittämistoiminnan (t&k) menot vuonna 1996, 1000 mk.  Tutkimus- ja kehittämistoiminnalla tarkoitetaan systemaattista toimintaa, jonka tavoitteena on tiedon lisääminen tai olemassa olevan osaamisen käyttäminen uusien sovellusten kehittämiseksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KONEM",
+      "variablename": "Menot, kone- ja laitehankinnat",
+      "conceptdef": "Yrityksen innovaatioihin liittyvien koneiden ja laitteiden hankinnan menot vuonna 1996, 1000 mk. Sisältää myös näihin suoraan liittyvät atk-ohjelmistot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEKNOM",
+      "variablename": "Menot, teknologisen osaamisen hankinta",
+      "conceptdef": "Yrityksen innovaatioihin liittyvän teknologisen osaamisen hankinnan menot vuonna1996, 1000 mk. Sisältää innovaatioiden aikaansaamiseksi hankitut patentit, keksinnöt, lisenssit, tuotemerkit, piirustukset, konsultointipalvelut (poislukien t&k), muun tietotaidon sekä muualle luokittelemattomat atk-ohjelmat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUOKM",
+      "variablename": "Menot, tuotantoprosessin muokkaus, teollinen muotoilu",
+      "conceptdef": "Yrityksen innovaatioiden edellyttämän tuotantoprosessin muokkaamisen tai teollisen muotoilun menot vuonna 1996, 1000 mk. Suunnitelmat ja piirustukset, joiden tarkoituksena on määritellä menettelytavat, tekniset tavat ja käytännön toimenpiteet tuoteinnovaatioiden tuottamiseksi ja prosessi-innovaatioiden käyttöön ottamiseksi. Myös näiden vaatimat muutokset tuotannossa, laadunvalvonnassa, standardeissa ja atk-ohjelmistoissa. Myös tuotteiden tai prosessien muokkaus tuotannnon aloittamiseksi, sekä t&k-vaiheen jälkeinen koetuotanto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUM",
+      "variablename": "Menot, koulutus ja perehdyttäminen",
+      "conceptdef": "Yrityksen innovaatiotoiminintaan liittyvän koulutuksen ja perehdyttämisen menot vuonna1996, 1000 mk. Innovaatioiden toteuttamiseen suoraan liittyvä henkilökunnan kouluttaminen ja muu perehdyttäminen. Sekä yrityksen oma koulutus että ostetut koulutuspalvelut.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MARKM",
+      "variablename": "Menot, innovaatioiden markkinointi",
+      "conceptdef": "Yrityksen innovaatioiden markkinoille tuomiseen liittyvät menot vuonna1996, 1000 mk. Sisältää esim. alustavan markkinatutukimuksen, koemarkkinoinnin ja markkinoille tulon vaativan mainonnan. Rajaus: ei sisällä jakeluverkoston rakentamista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MYHT",
+      "variablename": "Innovaatiomenot yhteensä 1996",
+      "conceptdef": "Yrityksen innovaatiomenot yhteensä vuonna 1996, 1000 mk.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "THK",
+      "variablename": "T&k-henkilökunta 1996",
+      "conceptdef": "Yrityksen tutkimushenkilökunnan määrä vuonna 1996.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TTV",
+      "variablename": "Tutkimustyövuodet 1996",
+      "conceptdef": "Yrityksen tutkimus- ja kehittämistoiminnan  (t&k) panos tutkimustyövuosina vuonna 1996. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4-6 viikon loma-aika mukaanluettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TK97",
+      "variablename": "Suunnitellut oman t&k:n menot 1997",
+      "conceptdef": "Yrityksen suunnitellut oman tutkimus- ja kehittämistoiminnan (t&k) menot vuodelle 1997, 1000 mk.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKHARJ",
+      "variablename": "Tutkimus- ja kehittämistoiminnan säännöllisyys",
+      "conceptdef": "Yritys harjoitti tutkimus- ja kehittämistoimintaa (t&k) vuosina 1994-96, 1=säännöllisesti 2=satunnaisesti ( esim. yksittäisten t&k -projektien muodossa) 3= ei harjoittanut t&k-toimintaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JTUKI",
+      "variablename": "Innovaatiotoiminnan julkinen tuki ",
+      "conceptdef": "Yritys sai innovaatiotoimintaan ( rahamääräistä)  julkista tukea vuonna 1996 ( esim. avustukset, subventoidut lainajärjestelyt), 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PATEN",
+      "variablename": "Patentointi ",
+      "conceptdef": "Yritys haki yhtä tai useampia patentteja vuosina 1994-96 (kotimaassa, ulkomailla, kansainvälisten patenttijärjestöjen tai sopimusten kautta),1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV1",
+      "variablename": "Tavoite, vanhentuneiden tuotteiden korvaaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena vanhentuneiden tuotteiden/palvelujen korvaaminen; merkitys yrityksen innovaatiotoiminnalle vuosina1994-96  0=ei merkitystä,1=vähäinen, 2=merkittävä, 3=suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV2",
+      "variablename": "Tavoite, tuotteiden laadun parantaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena palvelujen/tuotteiden laadun parantaminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV3",
+      "variablename": "Tavoite, tuotevalikoiman laajentaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena palvelujen/tuotteiden tuotevalikoiman laajentaminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV4",
+      "variablename": "Tavoite, uusien markkinoiden avaaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena uusien markkinoiden avaaminen tai markkinaosuuksien kasvattaminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96  0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV5",
+      "variablename": "Tavoite, viranomaismääräyksien täyttyminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena viranomaismääräysten, lainsäädännön ja standardien vaatimusten täyttyminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV6",
+      "variablename": "Tavoite, tuotannon joustavuuden lisääminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena tuotannon joustavuuden lisääminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96,  0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV7",
+      "variablename": "Tavoite, työvoimakustannusten alentaminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena työvoimakustannusten alentaminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV8",
+      "variablename": "Tavoite, materiaalien kulutuksen vähentäminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena materiaalien kulutuksen vähentäminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV9",
+      "variablename": "Tavoite, energiankulutuksen vähentäminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena energiankulutuksen vähentäminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV10",
+      "variablename": "Tavoite,  ympäristöhaittojen vähentäminen",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena ympäristöhaittojen vähentäminen; merkitys yrityksen innovaatiotoiminnalle vuosina 1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAV11",
+      "variablename": "Muu tavoite",
+      "conceptdef": "Innovaatiotoiminnan tavoitteena jokin muu mikä (kuvattu lomakkeella)?  Tavoitteen merkitys yrityksen innovaatiotoiminnalle vuosina1994-96, 0=ei merkitystä, 1=vähäinen, 2=merkittävä, 3=suuri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH1",
+      "variablename": "Tietolähde, oma yritys",
+      "conceptdef": "Oman yrityksen merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH2",
+      "variablename": "Tietolähde, oma konserni",
+      "conceptdef": "Oman konsernin merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH3",
+      "variablename": "Tietolähde, kilpailijat",
+      "conceptdef": "Killpailijoiden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH4",
+      "variablename": "Tietolähde, asiakkaat",
+      "conceptdef": "Asiakkaiden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH5",
+      "variablename": "Tietolähde, konsulttiyritykset",
+      "conceptdef": "Konsulttiyritysten merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH6",
+      "variablename": "Tietolähde, laitteiden ym. toimittajat",
+      "conceptdef": "Laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH7",
+      "variablename": "Tietolähde, yliopistot ja korkeakoulut",
+      "conceptdef": "Yliopistojen ja korkeakoulujen merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH8",
+      "variablename": "Tietolähde, tutkimuslaitokset",
+      "conceptdef": "Julkisten tai voittoa tavoittelemattomien tutkimuslaitosten merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH9",
+      "variablename": "Tietolähde, julkistetut patentit",
+      "conceptdef": "Julkistettujen patenttien merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH10",
+      "variablename": "Tietolähde, konferenssit yms.",
+      "conceptdef": "Konferenssien, kokousten ammattikirjallisuuden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH11",
+      "variablename": "Tietolähde, tietoverkot",
+      "conceptdef": "Tietoverkkojen, esim. internetin merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH12",
+      "variablename": "Tietolähde, messut",
+      "conceptdef": "Messujen ja näyttelyjen merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLAH13",
+      "variablename": "Tietolähde, muu",
+      "conceptdef": "Jonkin muun tietolähteen (minkä?) merkitys yrityksen innovaatiotoiminnassa vuosina1994-1996, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO",
+      "variablename": "Yhteistyöhön osallistuminen",
+      "conceptdef": "Yrityksellä oli innovaatiotoimintaan liittyvää yhteistyötä muiden yritysten tai laitosten kanssa vuosina 1994-1996, 1=kyllä, 0=ei. Innovaatiotoimintaan liittyvällä yhteistyöllä tarkoitetaan aktiivista osallistumista muiden yritysten tai voittoa tavoittelemattomien laitosten kanssa innovaatioprojekteihin. Yhteistyöstä ei tarvitse välttämättä perustua kaupalliseen hyötyyn.  Tilaustöitä, joihin ei itse aktiivisesti osallistuta, ei lueta yhteistyöksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO11",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO21",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO31",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO41",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO51",
+      "variablename": "Innovaatioyhteistyö, laitteiden ym. toimittajat Suomi",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO61",
+      "variablename": "Innovaatioyhteistyö, yliopistot, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkekoulujen kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO71",
+      "variablename": "Innovaatioyhteistyö, tutkimuslaitokset, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Suomessa vuosina 1994-1996, 1=kyllä, 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO12",
+      "variablename": "Innovaatioyhteistyö, oma konserni, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä oman konsernin yritysten kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO22",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä kilpailijoiden kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO32",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä asiakkaiden kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO42",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä konsulttiyritysten kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO52",
+      "variablename": "Innovaatioyhteistyö, laitteiden ym. toimittajat, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO62",
+      "variablename": "Innovaatioyhteistyö, yliopistot, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä yliopistojen ja korkeakoulujen kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO72",
+      "variablename": "Innovaatioyhteistyö, tutkimuslaitokset, EU",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa vuosina 1994-96. Organisaation kotipaikka EU, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO13",
+      "variablename": "Innovaatioyhteistyö, oma konserni, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä oman konsernin yritysten kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO23",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä kilpailijoiden kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO33",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä asiakkaiden kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO43",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä konsulttiyritysten kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO53",
+      "variablename": "Innovaatioyhteistyö, laitteiden ym. toimittajat, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO63",
+      "variablename": "Innovaatioyhteistyö. yliopistot, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä yliopistojen ja korkeakoulujen kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO73",
+      "variablename": "Innovaatioyhteistyö, tutkimuslaitokset, USA",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa vuosina 1994-96. Organisaation kotipaikka USA, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO14",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä oman konsernin yritysten kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO24",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä kilpailijoiden kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO34",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä asiakkaiden kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO44",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä konsulttiyritysten kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO54",
+      "variablename": "Innovaatioyhteistyö, laitteiden ym. toimittajat, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO64",
+      "variablename": "Innovaatioyhteistyö, yliopistot, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä yliopistojen ja korkeakoulujen kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO74",
+      "variablename": "Innovaatioyhteistyö, tutkimuslaitokset, Japani",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa vuosina 1994-96. Organisaation kotipaikka Japani, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO15",
+      "variablename": "Innovaatioyhteistyö, oma konserni, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä oman konsernin yritysten kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO25",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä kilpailijoiden kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO35",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä asiakkaiden kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO45",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä konsulttiyritysten kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO55",
+      "variablename": "Innovaatioyhteistyö, laitteiden ym. toimittajat, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO65",
+      "variablename": "Innovaatioyhteistyö, yliopistot, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä yliopistojen ja korkeakoulujen kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YTYO75",
+      "variablename": "Innovaatioyhteistyö, tutkimuslaitokset, muu maa",
+      "conceptdef": "Yrityksellä ollut innovaatiotoimintaan liittyvää yhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa vuosina 1994-96. Organisaation kotipaikka muu, kuin edellä mainitut, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTEHID",
+      "variablename": "Esteet, projekti hidastui",
+      "conceptdef": "Yrityksen innovaatioprojekti kohtasi vuosina 1994-96 vaikeuksia; projekti hidastui merkittävästi, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTELOP",
+      "variablename": "Esteet, projekti lopetettiin",
+      "conceptdef": "Yrityksen innovaatioprojekti kohtasi vuosina 1994-96 vaikeuksia; projekti jouduttiin lopettamaan, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTEALO",
+      "variablename": "Esteet, projektia ei voitu aloittaa",
+      "conceptdef": "Yrityksen innovaatioprojekti kohtasi vuosina 1994-96 vaikeuksia; projektia ei voitu edes aloittaa, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE11",
+      "variablename": "Toiminta hidastui, taloudellinen riski liian suuri  ",
+      "conceptdef": "Yrityksen innovaatiotoimintaan vaikuttanut este. Arvioitu taloudellinen riski liian suuri, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE21",
+      "variablename": "Toiminta hidastui, kustannukset liian suuret",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Kustannukset liian suuret, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE31",
+      "variablename": "Toiminta hidastui, resurssit liian pienet",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Omat taloudelliset resussit liian pienet, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE41",
+      "variablename": "Toiminta hidastui, rahoituslähteet puuttuivat",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Soveltuvien rahoituslähteitten puuttuminen, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE51",
+      "variablename": "Toiminta hidastui, organisatoriset jäykkyydet",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Organisatoriset jäykkyydet, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE61",
+      "variablename": "Toiminta hidastui, koulutetun työvoiman puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Koulutetun työvoiman puute, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE71",
+      "variablename": "Toiminta hidastui, teknologiatiedon puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Teknologiaa koskevan tiedon puute, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE81",
+      "variablename": "Toiminta hidastui, markkinatiedon puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Markkinoita koskevan tiedon puute, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE91",
+      "variablename": "Toiminta hidastui, viranomaismääräykset",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Viranomaismääräykset, lainsäädäntö, standardit, mitkä hidastivat merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE101",
+      "variablename": "Toiminta hidastui, asiakkaiden kiinnostus vähäistä",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Asiakkaiden kiinnostus tuoteinnovaatioihin vähäinen, mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE111",
+      "variablename": "Toiminta  hidastui, muu syy",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Muu syy, (kuvattu lomakkeella), mikä hidasti merkittävästi aloitettua toimintaa, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE12",
+      "variablename": "Toiminta lopetettiin, taloudellinen riski liian suuri",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Arvioitu taloudellinen riski liian suuri, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE22",
+      "variablename": "Toiminta lopetettiin, kustannukset liian suuret",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este.  Kustannukset liian suuret, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE32",
+      "variablename": "Toiminta lopetettin, resurssit liian pienet",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este.  Omat taloudelliset resussit liian pienet, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE42",
+      "variablename": "Toiminta lopetettiin, rahoituslähteet puuttuivat",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Soveltuvien rahoituslähteitten puuttuminen, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE52",
+      "variablename": "Toiminta lopetettiin, organisatoriset jäykkyydet",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Organisatoriset jäykkyydet, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE62",
+      "variablename": "Toiminta  lopetettin, koulutetun työvoiman puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Koulutetun työvoiman puute, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE72",
+      "variablename": "Toiminta lopetettiin, teknologiatiedon puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Teknologiaa koskevan tiedon puute, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE82",
+      "variablename": "Toiminta lopetettiin, markkinatiedon puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Markkinoita koskevan tiedon puute, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE92",
+      "variablename": "Toiminta lopetettiin, viranomaismääräykset",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Viranomaismääräykset, lainsäädäntö, standardit, mitkä aiheuttivat toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE102",
+      "variablename": "Toiminta lopetettiin, asiakkaiden kiinnostus vähäistä",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Asiakkaiden kiinnostus tuoteinnovaatioihin vähäinen, mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE112",
+      "variablename": "Toiminta lopetettiin, muu syy",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Muu syy, (kuvattu lomakkeella), mikä aiheutti toiminnan lopettamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE13",
+      "variablename": "Toimintaa ei aloitettu, taloudellinen riski liian suuri",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Arvioitu taloudellinen riski liian suuri, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE23",
+      "variablename": "Toimintaa ei aloitettu, kustannukset liian suuret",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Kustannukset liian suuret,  mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE33",
+      "variablename": "Toimintaa ei aloitettu, resurssit liian pienet",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Omat taloudelliset resussit liian pienet, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE43",
+      "variablename": "Toimintaa ei aloitettu, rahoituslähteet puuttuivat",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Soveltuvien rahoituslähteitten puuttuminen, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE53",
+      "variablename": "Toimintaa ei aloitettu, organisatoriset jäykkyydet",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Organisatoriset jäykkyydet, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE63",
+      "variablename": "Toimintaa ei aloitettu, koulutetun työvoiman puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Koulutetun työvoiman puute, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE73",
+      "variablename": "Toimintaa ei aloitettu, teknologiatiedon puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Teknologiaa koskevan tiedon puute, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE83",
+      "variablename": "Toimintaa ei aloitettu, markkinatiedon puute",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Markkinoita koskevan tiedon puute, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE93",
+      "variablename": "Toimintaa ei aloitettu, viranomaismääräykset",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Viranomaismääräykset, lainsäädäntö, standardit, mitkä estivät toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE103",
+      "variablename": "Toimintaa ei aloitettu, asiakkaiden kiinnostus  vähäistä",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Asiakkaiden kiinnostus tuoteinnovaatioihin vähäinen, mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTE113",
+      "variablename": "Toimintaa ei aloitettu, muu syy",
+      "conceptdef": "Yrityksen innovaatioprojektiin vaikuttanut este. Muu syy, (kuvattu lomakkeella), mikä esti toiminnan aloittamisen, 1=kyllä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_ALOIT",
+      "variablename": "yr_aloitusaika",
+      "conceptdef": "Yrityksen aloitusaika.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK94",
+      "variablename": "Tp-tilaston henkilökunta 94",
+      "conceptdef": "Tuote- ja palvelutilaston henkilökunta vuonna 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_TOL95",
+      "variablename": "yr_tol95",
+      "conceptdef": "Yrityksen toimialaluokitus vuonna 1995.",
+      "measunit": null,
+      "classification": "toimiala_35_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTE",
+      "variablename": "Vastekoodi tiedonantajarekisterissä",
+      "conceptdef": "Vsstaustilanne –koodit tiedonantajarekisterissä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTOSSL",
+      "variablename": "Suuruusluokka otoksessa",
+      "conceptdef": "Otoksen suuruusluokka.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTOSTOL",
+      "variablename": "Toimiala otoksessa",
+      "conceptdef": "Toimiala otoksessa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKERR",
+      "variablename": "Painokerroin",
+      "conceptdef": "Otoksen painokerroin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKM",
+      "variablename": "Henkilökunnan muutos 1994-96",
+      "conceptdef": "Henkilökunnan muutos  vuosina1994-96 .",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVM",
+      "variablename": "Liikevaihdon muutos 1994-96",
+      "conceptdef": "Liikevaihdon muutos vuosina 1994-96.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

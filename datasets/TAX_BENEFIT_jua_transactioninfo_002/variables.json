@@ -1,0 +1,220 @@
+{
+  "variables": [
+    {
+      "identifier": "trxId",
+      "variablename": "Tulolajin tunniste",
+      "conceptdef": "Tunniste on muodostettu Tilastokeskuksessa taulun luomisen yhteydessä. Tulolaji ja siitä tehdyt vähennykset ovat yhdistettävissä toisiinsa tulolajin tunnisteen avulla (transactionInfo.trxId = deduction.trxId).\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "repId",
+      "variablename": "Ilmoituksen tunniste",
+      "conceptdef": "Yksilöi ilmoituksen, johon tulolaji sisältyy. Ilmoitus ja sen sisältämät tulolajit ovat yhdistettävissä toisiinsa ilmoituksen tunnisteen avulla (report.repId = transactionInfo.repId).\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "txno",
+      "variablename": "Tulolajin numero",
+      "conceptdef": "Samalla ilmoituksella olevien tulolajien juokseva järjestysnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "transactionCode",
+      "variablename": "Tulolajin koodi",
+      "conceptdef": "Päämoduuli sisältää seuraaviin luokkiin kuuluvat tulolajit:\n\nLapsiperheiden etuudet ja kotihoidon tuki\nOpintoetuudet\nTyöttömyysetuudet\nVanhuuseläkkeet\nMuut eläkkeet\nMuut etuudet ja suoritukset*\nRintamalisät\nVähennettävät erät\n\n*Muut etuudet ja suoritukset seuraavien tulolajien osalta:\n\nVuorottelukorvaus (Kela)\nVuorottelukorvaus (työttömyyskassat)\nEläkkeensaajan asumistuki\nYleinen asumistuki\nStarttiraha (Laki julkisesta työvoima- ja yrityspalvelusta)\nYleinen asumistuki (Ahvenanmaan maakunta)\nPäiväraha (Ahvenanmaan maakunta)\nOsa-aikaeläke (ryhmäeläkevakuutus)\nEläke (yksityishenkilön ottama vapaaehtoinen yksilöllinen eläkevakuutus)\nEläke (työnantajan ottama vapaaehtoinen yksilöllinen eläkevakuutus)\nEläke (kertamaksullinen vapaaehtoinen eläkevakuutus)\nOsa-aikaeläke (vapaaehtoinen työeläkevakuutus)\nTyöttömyyseläke (yksityishenkilön ottama vapaaehtoinen yksilöllinen eläkevakuutus)\nTyöttömyyseläke (työnantajan ottama vapaaehtoinen yksilöllinen eläkevakuutus)\n\nMuut kuin edellä määritellyt tulolajit on katsottu arkaluonteisiksi ja siksi rajattu päämoduulin ulkopuolelle.\n\nKatso tulolajien tarkat koodit ja niiden selitteet tulorekisterin sivuilta:\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/etuudet-tulolajien-ja-tuloista-vahennettavien-erien-selitteet-2021.pdf",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "retroactiveTransactionCode",
+      "variablename": "Tulolaji muuttunut, uusi tulolajin koodi",
+      "conceptdef": "Uusi tulolajin koodi noudattaa samaa koodistoa kuin alkuperäinen (transactionCode). Rivit, joilla uusi tulolajin koodi on arkaluonteinen (= ei sisälly transactionCode-muuttujan kuvauksessa määriteltyihin luokkiin), on jätetty aineiston ulkopuolelle.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "amount",
+      "variablename": "Määrä",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "taxTreatment",
+      "variablename": "Etuuden veronalaisuus",
+      "conceptdef": "1 = Ansiotuloa\n2 = Ansiotuloa, korotettu 20%\n3 = Ansiotuloa, peritään ainoastaan sairaanhoitomaksu\n4 = Pääomatuloa\n5 = Pääomatuloa, korotettu 20%\n6 = Pääomatuloa, korotettu 50%\n7 = Verotonta\n8 = Verotonta, annetaan perintö- ja lahjaverolain tieto\n9 = Pääomatuloa sekä annetaan perintö- ja lahjaverolain tieto\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.16)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "oneOff",
+      "variablename": "Kertakorvaus",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "unjustEnrichment",
+      "variablename": "Perusteeton etu",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "recovery",
+      "variablename": "Takaisinperintä",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "unpromptedRefund",
+      "variablename": "Oma-aloitteinen palautus",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "delayIncrease",
+      "variablename": "Viivästyskorotus",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "recourse",
+      "variablename": "Regressi",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "paymentReallocation",
+      "variablename": "Maksun oikaisu",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "noTaxEffect",
+      "variablename": "Ei vaikuta verotukseen",
+      "conceptdef": "”Kyllä” (true) tai tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin yleistiedot"
+    },
+    {
+      "identifier": "earningPeriodStartDate",
+      "variablename": "Alkupäivä",
+      "conceptdef": "Ansaintakauden alkupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ansaintakausi"
+    },
+    {
+      "identifier": "earningPeriodEndDate",
+      "variablename": "Loppupäivä",
+      "conceptdef": "Ansaintakauden loppupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ansaintakausi"
+    },
+    {
+      "identifier": "benefitUnitCode",
+      "variablename": "Yksikkö",
+      "conceptdef": "1 = Tunti\n2 = Päivä\n3 = Viikko\n4 = Kuukausi\n5 = Neljännesvuosi\n6 = Vuosi\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.17)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "etuuden yksikkö"
+    },
+    {
+      "identifier": "benefitUnitAmount",
+      "variablename": "Yksiköiden määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "etuuden yksikkö"
+    },
+    {
+      "identifier": "recoveryDate",
+      "variablename": "Takaisinmaksupäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "takaisinmaksun lisätiedot"
+    },
+    {
+      "identifier": "recoveryWithhold",
+      "variablename": "Takaisinmaksuun kohdistuva ennakonpidätys",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "takaisinmaksun lisätiedot"
+    },
+    {
+      "identifier": "recoveryTaxAtSource",
+      "variablename": "Takaisinmaksuun kohdistuva lähdevero",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "takaisinmaksun lisätiedot"
+    },
+    {
+      "identifier": "origPaymentDate",
+      "variablename": "Suorituksen maksupäivä tai muu ilmoituspäivä",
+      "conceptdef": "Alkuperäinen suorituksen maksupäivä tai muu ilmoituspäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alkuperäinen ansaintakausi"
+    },
+    {
+      "identifier": "origStartDate",
+      "variablename": "Alkupäivä",
+      "conceptdef": "Alkuperäisen ansaintakauden alkupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alkuperäinen ansaintakausi"
+    },
+    {
+      "identifier": "origEndDate",
+      "variablename": "Loppupäivä",
+      "conceptdef": "Alkuperäisen ansaintakauden loppupäivä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alkuperäinen ansaintakausi"
+    },
+    {
+      "identifier": "recoursePaymentDate",
+      "variablename": "Regressi verottomasta tulosta, maksupäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "regressin lisätiedot"
+    },
+    {
+      "identifier": "NonresidentPensionBasis",
+      "variablename": "Rajoitetusti verovelvolliselle maksetun eläkkeen peruste",
+      "conceptdef": "1 = Muussa kuin liiketoiminnassa ansaittu julkisyhteisön maksama työeläke\n2 = Liiketoiminnassa ansaittu julkisyhteisön maksama työeläke\n3 = Kansaneläkelaitoksen tai Valtiokonttorin maksama muu kuin työeläke\n4 = Muu sosiaaliturvalainsäädäntöön perustuva suoritus\n5 = Muu kuin sosiaaliturvalainsäädäntöön perustuva suoritus\n\nhttps://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-20212.pdf (§ 1.41)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tulolajin lisätiedot"
+    }
+  ]
+}

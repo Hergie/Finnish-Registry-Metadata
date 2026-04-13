@@ -1,0 +1,140 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi/Haastatteluvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "id",
+      "variablename": "Yksilöivä tunniste (vain ATH)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "tutkimus",
+      "variablename": "Minkä tutkimuksen otokseen henkilö kuuluu",
+      "conceptdef": "1 = Ulkomaista syntyperää olevien työ ja hyvinvointi -tutkimus (UTH) 2014\n2 = Työvoimatutkimus (LFS) 2014 (5. rotaatio)\n3 = Alueellinen terveys- ja hyvinvointi -tutkimus (ATH)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "w_analysis",
+      "variablename": "Analyysipaino",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "w_expansion",
+      "variablename": "Korottava paino",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "synt_vuosi",
+      "variablename": "Syntymävuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "ika",
+      "variablename": "Ikä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1 = mies\n2 = nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "sivsal",
+      "variablename": "Siviilisääty, rekisteri",
+      "conceptdef": "0 = tuntematon\n1 = naimaton\n2 = avioliitossa\n3 = asumuserossa\n4 = eronnut\n5 = leski\n6 = rekisteröidyssä parisuhteesa\n7 = eronnut rekisteröidystä parisuhteesta\n8 = leski rekisteröidystä parisuhteesta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "pe1",
+      "variablename": "Siviilisääty, itse raportoitu",
+      "conceptdef": "Mikä on siviilisäätynne? Oletteko\n1 = naimisissa (tai rekisteröity parisuhde)\n2 = avoliitossa\n3 = eronnut tai asumuserossa\n4 = leski\n5 = vai naimaton (sinkku)?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "koulutus_tk_3",
+      "variablename": "Koulutusaste",
+      "conceptdef": ". = ei perusasteen jälkeistä koulutusta tai tieto puuttuu\n3 = keskiasteen koulutus\n4 = keskiasteen jälkeinen koulutus, joka ei ole korkea-asteen koulutus\n5 = alin korkea-aste\n6 = alempi korkeakouluaste\n7 = ylempi korkeakouluaste\n8 = tutkijakoulutusaste\n9 = tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "educ_years",
+      "variablename": "Koulutus vuosina",
+      "conceptdef": "\"Kuinka monta vuotta olette yhteensä käyneet koulua tai opiskelleet päätoimisesti\"? Vastaus vuosina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "alue3",
+      "variablename": "Asuinalue, luokiteltu",
+      "conceptdef": "1 = Länsi-Suomi ja Ahvenanmaa\n2 = (Muu) Uusimaa\n3 = (Muu) Etelä-Suomi\n4 = Pohjois- ja Itä-Suomi\n5 = Helsinki\n6 = Espoo\n7 = Vantaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "alue4",
+      "variablename": "Asuinalue, luokiteltu",
+      "conceptdef": "1 = Helsinki\n2 = Espoo ja Vantaa\n3 = Muu Etelä-Suomi ja Uusimaa\n4 = Länsi-Suomi ja Ahvenanmaa\n5 = Pohjois- ja Itä-Suomi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "maakunta_2011",
+      "variablename": "Asuinmaakunta",
+      "conceptdef": "Maakunnat 2011 -luokituksen mukainen aluetieto.\n01 = Uusimaa\n02 = Varsinais-Suomi\n04 = Satakunta\n05 = Kanta-Häme\n06 = Pirkanmaa\n07 = Päijät-Häme\n08 = Kymenlaakso\n09 = Etelä-Karjala\n10 = Etelä-Savo\n11 = Pohjois-Savo\n12 = Pohjois-Karjala\n13 = Keski-Suomi\n14 = Etelä-Pohjanmaa\n15 = Pohjanmaa\n16 = Keski-Pohjanmaa\n17 = Pohjois-Pohjanmaa\n18 = Kainuu\n19 = Lappi\n21 = Ahvenanmaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "avi",
+      "variablename": "Aluahallintovirasto -luokituksen mukainen aluejako",
+      "conceptdef": "Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.\n1 = Etelä-Suomen AVI\n2 = Lounais-Suomen AVI\n3 = Itä-Suomen AVI\n4 = Länsi- ja Sisä-Suomen AVI\n5 = Pohjois-Suomen AVI\n6 = Lapin AVI\n7 = Ahvenanmaan valtionvirasto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    },
+    {
+      "identifier": "synt_ulkom",
+      "variablename": "Syntynyt ulkomailla",
+      "conceptdef": "0 = syntynyt Suomessa\n1 = syntynyt ulkomailla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ath"
+    }
+  ]
+}

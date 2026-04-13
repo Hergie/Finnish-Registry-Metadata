@@ -1,0 +1,252 @@
+{
+  "variables": [
+    {
+      "identifier": "avainnro",
+      "variablename": "Avainnumero",
+      "conceptdef": "ajoneuvolle luotu pseudotunnus ajoneuvojen eri teknisten tietojen (dataosiot) sekä rajattujen omistaja/haltijatietojen yhdistelyä varten",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omaslaji",
+      "variablename": "Omistajan asiakaslaji",
+      "conceptdef": "1. omistajan asiakaslaji.\n1= yksityinen, 2= yritys",
+      "measunit": null,
+      "classification": "ajot_3_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "omalkupvm",
+      "variablename": "Omistussuhteen alkupäivä",
+      "conceptdef": "Tieto kertoo milloin ajoneuvon ja 1. omistajan välinen omistussuhde on alkanut (milloin ajoneuvon edellinen rekisteriin merkitty omistaja on luovuttanut ajoneuvon).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omaskieli",
+      "variablename": "Omistajan asiointikieli",
+      "conceptdef": "1. omistajan asiointikieli\nfi = suomi, sv= ruotsi",
+      "measunit": null,
+      "classification": "ajot_2_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "omkunta",
+      "variablename": "Omistajan kunta",
+      "conceptdef": "Ajoneuvon 1. omistajan osoitteeseen liittyvä kunta. Henkilön kotipaikkakunta, jos kyseessä vakituinen osoite. Saadaan VTJ:sta tai päätellään voimassaolevan osoitteen postinumerosta. Manner-Suomen rekisterissä olevat ajoneuvot, mutta mukana pieni määrä Ahvenanmaalle sekä ulkomaille (kuntakoodi=200) rekisteröityjä ajoneuvoja ja tuntemattomia kuntakoodeja (198, 199).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ompnro",
+      "variablename": "Omistajan postinumeron alku",
+      "conceptdef": "Ajoneuvon 1. omistajan kotimaisen katuosoitteen postinumeron alku, 3 ensimmäistä numeroa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omsukupuoli",
+      "variablename": "Omistajan sukupuoli",
+      "conceptdef": "Tieto luonnollisen henkilön (1. omistaja) sukupuolesta (Mies/Nainen)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "halaslaji",
+      "variablename": "Haltijan asiakaslaji",
+      "conceptdef": "1. haltijan asiakaslaji.\n0 = ykistyinen, 2= yritys",
+      "measunit": null,
+      "classification": "ajot_3_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "halaskieli",
+      "variablename": "Haltijan asiointikieli",
+      "conceptdef": "1. haltijan asiointikieli\nfi = suomi, sv = ruotsi",
+      "measunit": null,
+      "classification": "ajot_2_2017_12_07",
+      "variablegroups": null
+    },
+    {
+      "identifier": "halalkupvm",
+      "variablename": "Hallintasuhteen alkupäivä",
+      "conceptdef": "Tieto kertoo milloin ajoneuvon ja 1. haltijan välinen hallintasuhde on alkanut (milloin ajoneuvon edellinen rekisteriin merkitty haltija on luovuttanut ajoneuvon).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "halkunta",
+      "variablename": "Haltijan kunta",
+      "conceptdef": "A.joneuvon 1. haltijan osoitteeseen liittyvä kunta. Henkilön kotipaikkakunta, jos kyseessä vakituinen osoite. Saadaan VTJ:sta tai päätellään voimassaolevan osoitteen postinumerostaManner-Suomen rekisterissä olevat ajoneuvot, mutta mukana pieni määrä Ahvenanmaalle sekä ulkomaille (kuntakoodi=200) \nrekisteröityjä ajoneuvoja ja tuntemattomia kuntakoodeja (198, 199). ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "halpnro",
+      "variablename": "Haltijan postinumeron alku",
+      "conceptdef": "Ajoneuvon 1. haltijan kotimaisen katuosoitteen postinumeron alku, 3 ensimmäistä numeroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "halsukupuoli",
+      "variablename": "Haltijan sukupuoli",
+      "conceptdef": "Tieto luonnollisen henkilön (1. haltija) sukupuolesta (Mies/Nainen)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omist",
+      "variablename": "omistajatunnuksen tyyppi",
+      "conceptdef": "1= henkilötunnus\n2=y-tunnus\n3= muu tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "somtunnus",
+      "variablename": "Ajoneuvon 1. omistajan suojattu Y-tunnus tai henkilötunnus",
+      "conceptdef": "Ajoneuvon 1. omistajan suojattu Y-tunnus tai henkilötunnus (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "om_shnro",
+      "variablename": "Ajoneuvon 1. omistajan suojattu TK:n henkilönumero",
+      "conceptdef": "Ajoneuvon 1. omistajan suojattu TK:n henkilönumero (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "haltija",
+      "variablename": "haltijatunnuksen tyyppi",
+      "conceptdef": "1=henkilötunnus\n2=y-tunnus\n3=muu tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shaltunnus",
+      "variablename": "Ajoneuvon 1. haltijan suojattu Y-tunnus tai henkilötunnus",
+      "conceptdef": "Ajoneuvon 1. haltijan suojattu Y-tunnus tai henkilötunnus (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hal_shnro",
+      "variablename": "Ajoneuvon 1. haltijan suojattu TK:n henkilönumero",
+      "conceptdef": "Ajoneuvon 1. haltijan suojattu TK:n henkilönumero  (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vakut",
+      "variablename": "Vakutuksenottajan tunnuksen tyyppi",
+      "conceptdef": "1=henkilötunnus\n2=y-tunnus\n3=muu tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svakuttajantun",
+      "variablename": "Ajoneuvon vakutuksenottajan suojattu Y-tunnus tai henkilötunnus",
+      "conceptdef": "Ajoneuvon vakutuksenottajan suojattu Y-tunnus tai henkilötunnus (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vak_shnro",
+      "variablename": "Ajoneuvon vakuutuksenottajan suojattu TK:n henkilönumero",
+      "conceptdef": "Ajoneuvon vakutuksenottajan suojattu TK:n henkilönumero (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jartun_s",
+      "variablename": "Suojattu järjestelmätunnus",
+      "conceptdef": "Tilastokeskuksen Tutkijapalveluissa pseudonymisoitu tunnus yksilöi Traficomin liikenneasioiden rekisterissä olevat ajoneuvot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "om_ytun_s",
+      "variablename": "Ajoneuvon 1. omistajan suojattu TK:n y-tunnus",
+      "conceptdef": "Ajoneuvon 1. omistajan suojattu TK:n y-tunnus (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hal_ytun_s",
+      "variablename": "Ajoneuvon 1. haltijan suojattu TK:n y-tunnus",
+      "conceptdef": "Ajoneuvon 1. haltijan suojattu TK:n y-tunnus (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vak_ytun_s",
+      "variablename": "Ajoneuvon vakuutuksenottajan suojattu TK:n y-tunnus",
+      "conceptdef": "Ajoneuvon vakutuksenottajan suojattu TK:n y-tunnus (pseudotunnus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omyrlaji",
+      "variablename": "Omistajan yritys laji",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "halyrlaji",
+      "variablename": "Haltijan yritys laji",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "halsuhde",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtunnus_m_s",
+      "variablename": "omistajatunnus muu suojattu",
+      "conceptdef": "Suojattu muu omistaja tunnus, joka ei ole perinteinen hetu tai y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "haltunnus_m_s",
+      "variablename": "Haltijantunnus muu suojattu",
+      "conceptdef": "Suojattu muu haltijantunnus, joka ei ole perinteinen hetu tai y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

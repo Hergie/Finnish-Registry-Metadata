@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "sykstun",
+      "variablename": "suojattu toimipaikkatunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l_x",
+      "variablename": "työlliset lähtövuonna, työssäkäynti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l_y",
+      "variablename": "työlliset päätevuonna, työssäkäynti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jcr",
+      "variablename": "työpaikkojen syntyminen, työssäkäynti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jdr",
+      "variablename": "työpaikkojen tuhoutuminen, työssäkäynti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "wif",
+      "variablename": "sisään tulleet työntekijät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "wof",
+      "variablename": "ulos menneet työntekijät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "l_xy",
+      "variablename": "työlliset keskimäärin, työssäkäynti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lyr_x",
+      "variablename": "työlliset lähtövuonna, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lyr_y",
+      "variablename": "työlliset päätevuonna, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jcr_yr",
+      "variablename": "työpaikkojen syntyminen, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jdr_yr",
+      "variablename": "työpaikkojen tuhoutuminen, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lyr_xy",
+      "variablename": "työlliset keskimäärin, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jcr_yr_x",
+      "variablename": "työpaikkojen syntyminen, uudet toimipaikat, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jdr_yr_x",
+      "variablename": "työpaikkojen tuhoutuminen, lopetetut toimipaikat, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stan",
+      "variablename": "OECD STAN toimialaluokitus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stan_lab",
+      "variablename": "STAN labelit",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

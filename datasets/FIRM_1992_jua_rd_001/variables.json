@@ -1,0 +1,116 @@
+{
+  "variables": [
+    {
+      "identifier": "TALA",
+      "variablename": "Toimiala (TOL88)",
+      "conceptdef": "Toimiala  Tilastokeskuksen Toimialaluokitus 1988 mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SL",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Henkilöstön suuruusluokka: 4=50-99 5=100-499 6=500-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTLKM",
+      "variablename": "T&k-henkilöstö yhteensä",
+      "conceptdef": "T&k-henkilöstö, lukumäärä yhteensä vuonna 1992. Tutkimus- ja tuotekehityshenkilökuntaan kuuluvat ne henkilöt, jotka yrityksessä ovat tilikaudella tehneet t&k-työtä tai t&k-hankkeisiin suoranaisesti lliittyvää hallintotyötä tai toimisto- ym. rutiinitehtäviä. Mukaan lasketaan myös varsinaisten t&k-ykiköiden ulkopuolella olevat t&k-työtä tehneet henkilöt. Henkilökuntaan ei lasketa yrityksen keskushallintoon kuuluvia koko yriystä palvelevia yleisiä hallinto- ja toimistotehtäviä suorittaneita henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTTTV",
+      "variablename": "Tutkimustyövuodet yhteensä",
+      "conceptdef": "Tutkimustyövuodet yhteensä tilikauden (1.4.1992-31.3.1993) aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan mukaan laskettua t&k-työtä tilikaudella. T&k-työn lisäksi muita tehtäviä hoitavien henkilöiden osalta lasketaan kokonaistyöajasta mukaan vain t&k-työn osuus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALME",
+      "variablename": "Palkat",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992; palkkausmenot, markkaa (1000mk). T&k-henkilökunnan palkkausmenot on saatu laskemalla t&k-toiminnan osuus tilikauden palkkausmenoista kunkin tutkimustyövuosiin mukaan lasketun henkilön osalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKME",
+      "variablename": "Rakennusten käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992, rakennusten käyttömenot markkaa (1000mk). Rakennusten käyttömenoihin on laskettu t&k-toiminnan arvioitu osuus esim. seuraavista menoeristä: lämmitys, sähkö, vesi, vuokrat, kunnossa- ja puhtaanapito, vakuutukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITAR",
+      "variablename": "Aineet, tarvikkeet",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992, aineet, tarvikkeet markkaa (1000mk). T&k-hankkeissa tarvittavat ainetta ja tarvikkeet sekä t&k-toiminnan osuus esim. kirja- ja lehtihankinnoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTPA",
+      "variablename": "Ostetut palvelut",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992, omiin t&k-projekteihin liittyvät palvelujen ostot, markkaa (1000mk). Ulkopuolisilta tilattuja kokonaisia t&k-hankkeita ei ole ilmoitettu tässä. Ostettuihin palveluihin on ilmoitettu yrityksen omiin t&k-hankkesiiin tehdyt palvelujen ostot. Ostetut palvelut voivat olla esim. konstruktioita, atk-töitä tai suunnittelupalveluja. Ulkopuolisilla teetettyjä kokonaisia t&k-hankkeita ei ole ilmoitettu tässä. a t",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUME",
+      "variablename": "Muut käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992, muut käyttömenot markkaa (1000mk). Tässä on ilmoitettu mm. t&k-toiminnan osuus posti- ja puhelinmaksuista sekä hallinto- ja huoltohenkilökunnan palkkausmenoista, joita ei ole sisällytetty t&k-henkilökunnan palkkausmenoihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKHA",
+      "variablename": "Rakennusten hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992,  rakennusten hankintamenot markkaa (1000mk). Rakennusten hankintamenoiksi on laskettu vain t&k-tarkoituksia palvelevan laboratorion, tuotantolaitoksen tai muun rakennuksen rakentamisesta tilikaudella aiheutuneet menot kokonaaan tai käyttösuhteen mukaan arvioitu t&k-toiminnan osuuus käyttömenoista. Hankintamenoiksi on laskettu myös esim. käyttöikää tai kapasiteettia lisäävät perusparannukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUHA",
+      "variablename": "Muut käyttöomaisuuden hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1992, muut (pl. rakennukset) käyttöomaisuuden hankintamenot markkaa (1000mk). Muita hankintamenoja ovat laitteiden ja koneiden hankintamenot tilikaudella kokonaan jos ne ovat t&k-toiminnan käytössä tai t&k-toiminnan osuus menoista käyttösuhteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YSYHT",
+      "variablename": "Oman t&k:n menot yhteensä",
+      "conceptdef": "Yrityksessä tehdyn t&k- toiminnan menot yhteensä 1992, markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTE",
+      "variablename": "Vastekoodi tiedonantajarekisterissä",
+      "conceptdef": "Tiedonantajarekisterin vastaustilanne ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, yrityksen liikeyhteisötunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu TK:n henkilönumero, lapsi",
+      "conceptdef": "Lapsen suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Lapsen syntymävuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuolv",
+      "variablename": "Kuolinvuosi",
+      "conceptdef": "Lapsen kuolinvuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_m",
+      "variablename": "Suojattu TK:n henkilönumero, biol. äiti",
+      "conceptdef": "Biologisen äidin suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro_f",
+      "variablename": "Suojattu TK:n henkilönumero, biol. isä",
+      "conceptdef": "Biologisen isän suojattu TK:n henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "folk_c",
+      "variablename": "Kuuluu FOLK-aineistoon, lapsi",
+      "conceptdef": "Lapsi kuuluu FOLK-väestöön (folk_c='1') tai ei kuulu, jolloin ainakin toisen vanhemmista on kuuluttava FOLK-väestöön (folk_c='0' ja folk_m/folk_f='1').",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "folk_m",
+      "variablename": "Kuuluu FOLK-aineistoon, biol. äiti",
+      "conceptdef": "Biologinen äiti  kuuluu FOLK-väestöön (folk_m='1') tai ei kuulu, jolloin joko lapsen tai lapsen biologisen isän on kuuluttava FOLK-väestöön  (folk_m='0'  ja folk_c/folk_f='1'),  Jos tietoa biologisesta äidistä ei ole on arvo tyhjä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "folk_f",
+      "variablename": "Kuuluu FOLK-aineistoon, biol. isä",
+      "conceptdef": "Biologinen isä kuuluu FOLK-väestöön (folk_f='1') tai ei kuulu, jolloin joko lapsen tai lapsen biologisen äidin on kuuluttava FOLK-väestöön  (folk_f='0'  ja folk_c/folk_m='1'),  Jos tietoa biologisesta isästä ei ole on arvo tyhjä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

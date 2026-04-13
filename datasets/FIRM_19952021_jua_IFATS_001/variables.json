@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritysiD_s",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Alkaen vuodesta 2013",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilyks",
+      "variablename": "Tilastotieto, Yritysrekisteri",
+      "conceptdef": "Yritysrekisterin vuositilaston tilastoyksikkö. \nMahdolliset arvot ovat:\n1            = tulee tilastoon\nblankko = ei tule tilastoon\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hkyr",
+      "variablename": "Henkilöstön lukumäärä, Yritysrekisteri",
+      "conceptdef": "Oikeudellisen yksikön henkilöstö, kokoaikavastaava tieto. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvyr",
+      "variablename": "Liikevaihto euroina, Yritysrekisteri",
+      "conceptdef": "Oikeudellisen yksikön liikevaihto.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik",
+      "variablename": "Oikeudellinen muoto, Yritysrekisteri",
+      "conceptdef": "Oikeudellisen yksikön oikeudellinen muoto. \nOikeudellisia muotoja ovat:\n\t\t\t\t11= Luonnollinen henkilö\n\t\t\t\t12= Kuolinpesä, perikunta\n\t\t\t\t13= Verotusyhtymä\n\t\t\t\t14= Avoin yhtiö\n\t\t\t\t15= Konkurssipesä\n\t\t\t\t21= Kommandiittiyhtiö\n\t\t\t\t22= Laivanisännistöyhtiö ( ei osakeyhtiö)\n\t\t\t\t31= Osakeyhtiö\n\t\t\t\t32= Keskinäinen vakuutusyhtiö\n\t\t\t\t33= Säästöpankki\n\t\t\t\t34= Eläkesäätiö tai –kassa, työeläkelaitos, ty\n\t\t\t\t35= Asunto-osakeyhtiö\n\t\t\t\t41= Osuuskunta\n\t\t\t\t51= Säätiö, rahasto\n\t\t\t\t52= Aatteellinen yhdistys\n\t\t\t\t53= Keskinäinen vahinkovakuutusyhdistys\n\t\t\t\t54= Taloudellinen yhdistys\n\t\t\t\t61= Julkinen viranomainen\n\t\t\t\t62= Julkinen liikelaitos\n\t\t\t\t63= Julkisoikeudellinen yhteisö\n\t\t\t\t71= Valtionkirkko\n\t\t\t\t72= Muu uskonnollinen yhteisö\n\t\t\t\t90= Muu oikeudellinen muoto\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oty95",
+      "variablename": "Omistajatyyppi, Yritysrekisteri",
+      "conceptdef": "Oikeudellisen yksikön omistajatyyppi vuoden 1995 luokituksen mukaan. \nOmistajatyyppejä ovat:\n1 = Yksityinen kotimainen\n2 = Valtio\n3 = Kunta\n4 = Ahvenanmaan maakunta\n5 = Ulkomaalaisomisteinen\n6 = Muu omistajatyyppi\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilimpex",
+      "variablename": "Tuoja/viejä-tieto, Yritysrekisteri",
+      "conceptdef": "Yritystä koskeva tilastovuoden TUOJA/VIEJÄ –tieto, saatavissa vuodesta 1996 lähtien. \nMahdolliset arvot ovat:\n\t1 = Tuoja (harjoittaa tuontia)\n\t2 = Viejä (harjoittaa vientiä)\n\t3 = Molempia (harjoittaa tuontia ja vientiä)\n. Vuodesta 2013 eteenpäin saa arvon 0, jos ei ole tuoja eikä viejä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkomiyr",
+      "variablename": "Ulkomainen omistusosuus, Yritysrekisteri",
+      "conceptdef": "Oikeudellista yksikköä eniten suoraan omistavan ulkomaalaisen yhtiön omistusosuus tilastovuonna. Konsernien tytärsuhteisilla oikeudellisilla yksiköillä tämä on sama kuin emoyhtiöllä.\t\nYritysrekisterin lähde: Suomen Pankin aineisto, Invest in Finland -säätiön aineisto, Konsernirekisteri.\n Saatavissa vuoteen 2012 asti.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkomifa",
+      "variablename": "Ulkomainen suora tai välillinen omistusosuus 1995-2002, FATS",
+      "conceptdef": "Suora tai välillinen ulkomainen omistusosuus (%) yhteensä (äänivalta). Saa arvoja välillä 51-100. 100, jos tietoa tarkasta osuudesta ei ole saatu. Saatavissa vain vuosina 1995-2002, lähde Inward Fats -tilaston aineisto.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "fats",
+      "variablename": "Ulkomainen suora tai välillinen omistusosuus >50%, FATS",
+      "conceptdef": "FATS saa arvon 1, jos yrityksen omistuksesta tai äänivallasta yli 50 prosenttia on suoraan tai välillisesti yhden ulkomaisen tahon hallussa Inward FATS -tilaston aineistosta saatujen tietojen perusteella.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "uci",
+      "variablename": "Perimmäisen ulkomaisen omistajan kotimaa, ultimate controlling institutional unit of a foreign affiliate, FATS, -2012",
+      "conceptdef": "Ultimate controlling institutional unit of a foreign affiliate (UCI) -kotimaa. Käytössä vuodesta 2004 lähtien. UCI on institutionaalinen yksikkö, joka on ylimpänä ulkomaisen osakkuus- ja tytäryhtiön määräysvaltaketjussa ja joka ei ole minkään muun institutionaalisen yksikön määräysvallassa.\n\nUltimate beneficial owner (UBO) -kotimaa käytössä vuoteen 2003 asti. UBO on ulkomaisessa osakkuus- ja tytäryhtiössä määräysvaltaa käyttävä institutionaalinen yksikkö eli institutionaalinen yksikkö, joka on ylimpänä ulkomaisen osakkuus- ja tytäryhtiön määräysvaltaketjussa ja joka ei ole minkään muun institutionaalisen yksikön määräysvallassa. Ulkomaisella määräysvallalla tarkoitetaan sitä, että institutionaalisella yksiköllä on määräysvaltaa toiseen maahan sijoittautuneeseen institutionaaliseen yksikköön nähden.\n\nMääräysvallalla tarkoitetaan mahdollisuutta päättää yrityksen yleisestä politiikasta valitsemalla tarpeen mukaan sopivia johtajia. Yrityksen A katsotaan olevan institutionaalisen yksikön B määräysvallassa, jos B:llä on määräysvallassaan (suoraan tai epäsuorasti) yli puolet osakkaiden äänioikeudesta tai yli puolet osakkeista.\n\nKaksikirjaiminen maatunnus (ISO 3166). Vuodesta 2013 alkaen numeerinen maatunnus, jossa myös Suomi mukana.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "uci_yty",
+      "variablename": "Perimmäisen ulkomaisen omistajan kotimaa, ultimate controlling institutional unit of a foreign affiliate, FATS, 2013-",
+      "conceptdef": "Ultimate controlling institutional unit of a foreign affiliate (UCI) -kotimaa yritystietovarastosta. Käytössä vuodesta 2013 lähtien. UCI on institutionaalinen yksikkö, joka on ylimpänä ulkomaisen osakkuus- ja tytäryhtiön määräysvaltaketjussa ja joka ei ole minkään muun institutionaalisen yksikön määräysvallassa.\n\nMääräysvallalla tarkoitetaan mahdollisuutta päättää yrityksen yleisestä politiikasta valitsemalla tarpeen mukaan sopivia johtajia. Yrityksen A katsotaan olevan institutionaalisen yksikön B määräysvallassa, jos B:llä on määräysvallassaan (suoraan tai epäsuorasti) yli puolet osakkaiden äänioikeudesta tai yli puolet osakkeista.\n\nVuodesta 2013 alkaen 3-numeroinen maatunnus, jossa myös Suomi mukana.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "moni",
+      "variablename": "Monikansalliseen konserniin kuuluva yritys, Konsernirekisteri",
+      "conceptdef": "Monikansalliseen konserniin tai kotimaiseen konserniin kuuluva yritys:\n1 = kotimaisessa kontrollissa oleva monikansallinen konserni (domestically controlled group) tai ulkomaalaisessa kontrollissa oleva monikansallinen konserni (foreign controlled group)\n0 =  täysin kotimainen konserni (all resident group)\nKonsernirekisterin tiedot ovat saatavissa 1995, 1997-. Jos muuttuja on tyhjä, yritys ei todennäköisesti kuulu konserniin mutta tieto ei ole varma konsernirekisterin kattavuuden puutteista johtuen.\nKonsernisuhde on määritelty vain tytäryrityksille, väliemoille ja emoyrityksille (ei osakkuusyrityksille tms.) vuoden viimeisen voimassaolleen suhteen mukaan.\nLähde: konsernirekisteri",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oik_vero",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": "Saatavilla vuodesta 2013 lähtien.\n\n01 Luonnollinen henkilö\n10 Avoin yhtiö\n11 Kommandiittiyhtiö\n12 Osakeyhtiö\n13 Asunto-osakeyhtiö\n14 Laivanisännistöyhtiö\n16 Keskinäinen kiinteistö-oy\n17 Muu kiinteistö-oy\n18 Konserni\n19 Muu yhtiö\n20 Aatteellinen yhdistys\n21 Erityislainsäädäntöön perustuva yhdistys\n22 Keskinäinen vahinkovakuutusyhdistys\n23 Metsänhoitoyhdistys\n24 Osuuspankki\n25 Osuuskunta\n26 Vakuutuskassa\n27 Työttömyyskassa\n28 Muu taloudellinen yhdistys\n29 Muu yhdistys\n30 Säätiö (säätiölain mukainen)\n31 Säästöpankki\n32 Eläkesäätiö (säädekirjalla perustettu)\n33 Työeläkekassa\n35 Hypoteekkiyhdistys\n39 Muu säätiö\n40 Valtio ja sen laitokset\n60 Valtion liikelaitos\n41 Kunta\n61 Kunnallinen liikelaitos\n42 Kuntayhtymä\n62 Kuntainliiton (kuntayhtymän) liikelaitos\n43 Ahvenanmaan maakunta ja sen virastot\n63 Ahvenanmaan liikelaitos\n44 Evankelis-luterilainen kirkko\n45 Ortodoksinen kirkko\n46 Rekisteröity uskonnollinen yhdyskunta\n47 Ylioppilaskunta tai osakunta\n48 Erillishallinnollinen valtion laitos\n49 Muu julkisoikeudellinen oikeushenkilö\n50 Yhteisetuudet (esim. kalastuskunta)\n51 Verotusyhtymät\n52 Yhteisvastuullinen pidätysvelvollinen\n53 Kuolinpesä\n54 Konkurssipesä\n55 Yhteismetsä\n57 Elinkeinoyhtymä\n59 Muu verotuksen yksikkö\n70 Ulkomainen yhteisö\n71 Ulkomaisen yhteisön sivuliike Suomessa\n91 Muut\n92 Muut\n93 Muut\n94 Muut\n95 Muut\n96 Muut\n99 Muut\nZZ Tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EBSTilastoyksikko",
+      "variablename": "EBSTilastoyksikko",
+      "conceptdef": "Yritysten rakenne- ja tilinpäätöstilaston, alueellisen yritystoimintatilaston sekä ulkomaiset tytäryhtiöt Suomessa -tilaston tilastoyksikkö vuodesta 2021 lähtien. Tämä muuttuja korvasi tilastossa muuttujan Vuositilastonyksikkö. EBS-asetuksen aktiivisen markkinaehtoisen yrityksen mukainen määritelmä. Yritykset on valittu tilastoon mikäli ne toimivat markkinaehtoisesti sekä niillä on liikevaihtoa, liiketoiminnan muita tuottoja, tasetta, henkilöstöä tai investointeja tilastovuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VuositilastonYksikko",
+      "variablename": "Vuositilaston yksikkö",
+      "conceptdef": "Saa arvon 1, jos yritys kuuluu vuositilastoon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

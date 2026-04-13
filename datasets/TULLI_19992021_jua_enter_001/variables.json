@@ -1,0 +1,84 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "totimp",
+      "variablename": "Tuonnin kokonaisarvo",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "totexp",
+      "variablename": "Viennin kokonaisarvo",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "impintra",
+      "variablename": "Tuonnin arvo, EU-sisäkauppa",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "expintra",
+      "variablename": "Viennin arvo, EU-sisäkauppa",
+      "conceptdef": null,
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "n_imp_cn",
+      "variablename": "CN-luokkien lukumäärä, tuonti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "n_exp_cn",
+      "variablename": "CN-luokkien lukumäärä, vienti",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "n_imp_co",
+      "variablename": "Tuontimaiden lukumäärä OECD:ssä, 2010",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "n_exp_co",
+      "variablename": "Vientimaiden lukumäärä OECD:ssä, 2010",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

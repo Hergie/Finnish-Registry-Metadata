@@ -1,0 +1,2596 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritys- ja yhteisötunnus eli Y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PURCHASE_GOODS",
+      "variablename": "Tavaroiden ulkomaanostot",
+      "conceptdef": "Onko yrityksenne ostanut tavaroita tai palveluita ulkomailla sijaitsevilta yrityksiltä vuosien 2021–2023 aikana? Tavaroita tai raaka-aineita  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PURCHASE_SERV",
+      "variablename": "Palveluiden ulkomaanostot",
+      "conceptdef": "Onko yrityksenne ostanut tavaroita tai palveluita ulkomailla sijaitsevilta yrityksiltä vuosien 2021–2023 aikana? Palveluita  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PURCHASE_GOODS_INTL",
+      "variablename": "Tavaroiden ulkomaanostot konsernin sisällä ja ulkopuolella",
+      "conceptdef": "Olivatko nämä ulkomaanostot 2021–2023 pääasiallisesti konsernin sisältä vai konsernin ulkopuolelta? Tavarat tai raaka-aineet  1 = Kyllä, pääasiassa konsernimme sisältä 2 = Kyllä, pääasiassa konsernimme ulkopuolelta  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PURCHASE_SERV_INTL",
+      "variablename": "Palveluiden ulkomaanostot konsernin sisällä ja ulkopuolella",
+      "conceptdef": "Olivatko nämä ulkomaanostot 2021–2023 pääasiallisesti konsernin sisältä vai konsernin ulkopuolelta? Palvelut  1 = Kyllä, pääasiassa konsernimme sisältä 2 = Kyllä, pääasiassa konsernimme ulkopuolelta  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PURCHASE_GOODS_LIMIT",
+      "variablename": "Tavaroiden ulkomaanostot yli 100 000 euroa",
+      "conceptdef": "Vuonna 2023, ylittivätkö tavara- tai palveluostonne ulkomailta 100 000 euroa? Tavarat tai raaka-aineet  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PURCHASE_SERV_LIMIT",
+      "variablename": "Palveluiden ulkomaanostot yli 100 000 euroa",
+      "conceptdef": "Vuonna 2023, ylittivätkö tavara- tai palveluostonne ulkomailta 100 000 euroa? Palvelut  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_RM_ENT_B0",
+      "variablename": "Raaka-aineostot EU-maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Raaka-aineet, joita käytetään yrityksenne omassa tuotantoprosessissa? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_RM_ENT_G4",
+      "variablename": "Raaka-aineostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Raaka-aineet, joita käytetään yrityksenne omassa tuotantoprosessissa? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_RM_ENT_W1XE1",
+      "variablename": "Raaka-aineostot muista maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Raaka-aineet, joita käytetään yrityksenne omassa tuotantoprosessissa? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_RM_ENT_NOT",
+      "variablename": "Ei raaka-aineostoja ulkomailta",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Raaka-aineet, joita käytetään yrityksenne omassa tuotantoprosessissa? Ei kyseisiä ostoja  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_CMPT_ENT_B0",
+      "variablename": "Komponenttiostot EU-maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Osat tai komponentit, jotka sisältyvät yrityksenne valmistamiin tuotteisiin? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_CMPT_ENT_G4",
+      "variablename": "Komponenttiostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Osat tai komponentit, jotka sisältyvät yrityksenne valmistamiin tuotteisiin? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_CMPT_ENT_W1XE1",
+      "variablename": "Komponenttiostot muista maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Osat tai komponentit, jotka sisältyvät yrityksenne valmistamiin tuotteisiin? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_CMPT_ENT_NOT",
+      "variablename": "Ei komponenttiostoja ulkomailta",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Osat tai komponentit, jotka sisältyvät yrityksenne valmistamiin tuotteisiin? Ei kyseisiä ostoja  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_MAC_ENT_B0",
+      "variablename": "Koneiden ostot EU-maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Koneet ja muut tekniset välineet, jotka on tarkoitettu yrityksenne omaan käyttöön? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_MAC_ENT_G4",
+      "variablename": "Koneiden ostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Koneet ja muut tekniset välineet, jotka on tarkoitettu yrityksenne omaan käyttöön? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_MAC_ENT_W1XE1",
+      "variablename": "Koneiden ostot muista maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Koneet ja muut tekniset välineet, jotka on tarkoitettu yrityksenne omaan käyttöön? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_MAC_ENT_NOT",
+      "variablename": "Ei koneiden ostoja ulkomailta",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Koneet ja muut tekniset välineet, jotka on tarkoitettu yrityksenne omaan käyttöön? Ei kyseisiä ostoja  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_ENT_B0",
+      "variablename": "Itse suunniteltujen tuotteiden ostot EU-maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_ENT_G4",
+      "variablename": "Itse suunniteltujen tuotteiden ostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_ENT_W1XE1",
+      "variablename": "Itse suunniteltujen tuotteiden ostot muista maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_ENT_NOT",
+      "variablename": "Ei itse suunniteltujen tuotteiden ostoja ulkomailta",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? Ei kyseisiä ostoja  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_OTH_B0",
+      "variablename": "Toisen yrityksen suunnittelemien tuotteiden ostot EU-maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_OTH_G4",
+      "variablename": "Toisen yrityksen suunnittelemien tuotteiden ostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_OTH_W1XE1",
+      "variablename": "Toisen yrityksen suunnittelemien tuotteiden ostot muista maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_DESG_OTH_NOT",
+      "variablename": "Ei toisen yrityksen suunnittelemien tuotteiden ostoja ulkomailta",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet kotimaan tai ulkomaiden jälleenmyyntimarkkinoille? Ei kyseisiä ostoja  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_GDS_OTH_B0",
+      "variablename": "Muiden tavaroiden ostot EU-maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Muut tavarat? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_GDS_OTH_G4",
+      "variablename": "Muiden tavaroiden ostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Muut tavarat? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_GDS_OTH_W1XE1",
+      "variablename": "Muiden tavaroiden ostot muista maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Muut tavarat? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "P_GDS_OTH_NOT",
+      "variablename": "Muiden tavaroiden ostot muista Euroopan maista",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on ostanut suoraan ulkomailla sijaitsevilta yrityksiltä vuoden 2023 aikana? Muut tavarat? Ei kyseisiä ostoja  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUPPLY_GOODS",
+      "variablename": "Tavaroiden ulkomaanmyynnit",
+      "conceptdef": "Onko yrityksenne myynyt tavaroita tai palveluita ulkomaille sijaitseville yrityksille vuosien 2021–2023 aikana? Tavaroita  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUPPLY_SERV",
+      "variablename": "Palvelujen ulkomaanmyynnit",
+      "conceptdef": "Onko yrityksenne myynyt tavaroita tai palveluita ulkomaille sijaitseville yrityksille vuosien 2021–2023 aikana? Palveluita  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUPPLY_GOODS_INTL",
+      "variablename": "Tavaroiden ulkomaanmyynnit konsernin sisällä ja ulkopuolella",
+      "conceptdef": "Olivatko nämä ulkomaanmyynnit 2021–2023 pääasiallisesti konsernin sisälle vai konsernin ulkopuolelle? Tavarat tai raaka-aineet  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUPPLY_SERV_INTL",
+      "variablename": "Palveluiden ulkomaanmyynnit konsernin sisällä ja ulkopuolella",
+      "conceptdef": "Olivatko nämä ulkomaanmyynnit 2021–2023 pääasiallisesti konsernin sisälle vai konsernin ulkopuolelle? Palvelut  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUPPLY_GOODS_LIMIT",
+      "variablename": "Tavaroiden ulkomaanmyynnit yli 100 000 euroa",
+      "conceptdef": "Vuonna 2023, ylittivätkö tavara- tai palvelumyyntinne ulkomaille 100 000 euroa? Tavarat ja raaka-aineet  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUPPLY_SERV_LIMIT",
+      "variablename": "Palveluiden ulkomaanmyynnit yli 100 000 euroa",
+      "conceptdef": "Vuonna 2023, ylittivätkö tavara- tai palvelumyyntinne ulkomaille 100 000 euroa? Palvelut  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_RM_ABR_B0",
+      "variablename": "Raaka-ainemyynnit EU-maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Raaka-aineita, joita asiakkaanne käyttää omassa tuotantoprosessissaan? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_RM_ABR_G4",
+      "variablename": "Raaka-ainemyynnit muihin Euroopan maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Raaka-aineita, joita asiakkaanne käyttää omassa tuotantoprosessissaan? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_RM_ABR_W1XE1",
+      "variablename": "Raaka-ainemyynnit muihin maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Raaka-aineita, joita asiakkaanne käyttää omassa tuotantoprosessissaan? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_RM_ABR_NOT",
+      "variablename": "Ei raaka-ainemyyntejä ulkomaille",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Raaka-aineita, joita asiakkaanne käyttää omassa tuotantoprosessissaan? Ei kyseisiä myyntejä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_CMPT_ABR_B0",
+      "variablename": "Komponenttimyynnit EU-maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Osia tai komponentteja, jotka muodostavat osan asiakkaanne valmistamista tuotteista? EU-maat 1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_CMPT_ABR_G4",
+      "variablename": "Komponenttimyynnit muihin Euroopan maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Osia tai komponentteja, jotka muodostavat osan asiakkaanne valmistamista tuotteista? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä) 1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_CMPT_ABR_W1XE1",
+      "variablename": "Komponenttimyynnit muihin maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Osia tai komponentteja, jotka muodostavat osan asiakkaanne valmistamista tuotteista? Muu maailma 1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_CMPT_ABR_NOT",
+      "variablename": "Ei komponenttimyyntejä ulkomaille",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Osia tai komponentteja, jotka muodostavat osan asiakkaanne valmistamista tuotteista? Ei kyseisiä myyntejä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_MAC_ABR_B0",
+      "variablename": "Koneiden myynnit EU-maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Koneita ja muita teknisiä laitteita, joita asiakkaanne käyttää omassa toiminnassaan? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_MAC_ABR_G4",
+      "variablename": "Koneiden myynnit muihin Euroopan maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Koneita ja muita teknisiä laitteita, joita asiakkaanne käyttää omassa toiminnassaan? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_MAC_ABR_W1XE1",
+      "variablename": "Koneiden myynnit muihin maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Koneita ja muita teknisiä laitteita, joita asiakkaanne käyttää omassa toiminnassaan? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_MAC_ABR_NOT",
+      "variablename": "Ei koneiden myyntiä ulkomaille",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Koneita ja muita teknisiä laitteita, joita asiakkaanne käyttää omassa toiminnassaan? Ei kyseisiä myyntejä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_ENT_B0",
+      "variablename": "Itse suunniteltujen tuotteiden myynnit EU-maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_ENT_G4",
+      "variablename": "Itse suunniteltujen tuotteiden myynnit muihin Euroopan maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_ENT_W1XE1",
+      "variablename": "Itse suunniteltujen tuotteiden myynnit muihin maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_ENT_NOT",
+      "variablename": "Ei itse suunniteltujen tuotteiden myyntiä ulkomaille",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Yrityksenne suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? Ei kyseisiä myyntejä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_OTH_B0",
+      "variablename": "Toisen yrityksen suunnittelemien tuotteiden myynnit EU-maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_OTH_G4",
+      "variablename": "Toisen yrityksen suunnittelemien tuotteiden myynnit muihin Euroopan maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_OTH_W1XE1",
+      "variablename": "Toisen yrityksen suunnittelemien tuotteiden myynnit muihin maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_DESG_OTH_NOT",
+      "variablename": "Ei toisen yrityksen suunnittelemien tuotteiden myyntejä",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Toisen yrityksen suunnittelemat lopputuotteet jälleenmyyntimarkkinoille? Ei kyseisiä myyntejä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_GDS_OTH_B0",
+      "variablename": "Muiden tavaroiden myynnit EU-maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Muut tavarat? EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_GDS_OTH_G4",
+      "variablename": "Muiden tavaroiden myynnit muihin Euroopan maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Muut tavarat? Muut Euroopan maat (mukaan lukien Britannia, Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_GDS_OTH_W1XE1",
+      "variablename": "Muiden tavaroiden myynnit muihin maihin",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Muut tavarat? Muu maailma  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "S_GDS_OTH_NOT",
+      "variablename": "Ei muiden tavaroiden myyntejä ulkomaille",
+      "conceptdef": "Millaisia tavaroita tai raaka-aineita yrityksenne on myynyt suoraan ulkomailla sijaitseville yrityksille vuoden 2023 aikana? Muut tavarat? Ei kyseisiä myyntejä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GDS_DOM",
+      "variablename": "Myynti pääasiallisesti kotimaisille yrityksille",
+      "conceptdef": "Mitkä seuraavista asioista pitivät paikkansa kaupankäyntinne osalta vuosina 2021–2023?  Myimme pääasiassa kotimaisille yrityksille (kotimaan liikevaihto vähintään 50 % koko liikevaihdosta).  Olivatko nämä edellä mainitut erät pääasiassa konsernin sisäisiä vai ulkopuolisia?  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GDS_DOM_EXP",
+      "variablename": "Kotimaisille yrityksille myytyjen tuotteiden pääasiallinen päätyminen ulkomaille",
+      "conceptdef": "Mitkä seuraavista asioista pitivät paikkansa kaupankäyntinne osalta vuosina 2021–2023?  Oletamme, että tuotteet, jotka myimme kotimaisille yrityksille, myytiin pääasiassa lopulta ulkomaille. Olivatko nämä edellä mainitut erät pääasiassa konsernin sisäisiä vai ulkopuolisia?  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GDS_DOM_WHLS",
+      "variablename": "Kotimaan myyntien pääasiallinen kohdistuminen kotimaisille tukkuliikkeille",
+      "conceptdef": "Mitkä seuraavista asioista pitivät paikkansa kaupankäyntinne osalta vuosina 2021–2023?  Suurin osa kotimaan myynneistämme kohdistui kotimaisille tukkuliikkeille (enemmän kuin 50 % kaikesta kotimaisesta liikevaihdosta). Olivatko nämä edellä mainitut erät pääasiassa konsernin sisäisiä vai ulkopuolisia?  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GDS_DOM_WHLS_EXP",
+      "variablename": "Kotimaisille tukkuliikkeille myytyjen tuotteiden pääasiallinen päätyminen ulkomaille",
+      "conceptdef": "Mitkä seuraavista asioista pitivät paikkansa kaupankäyntinne osalta vuosina 2021–2023?  Oletamme, että tuotteet, jotka myimme kotimaisille tukkuliikkeille, myytiin lopulta pääasiassa ulkomaille. Olivatko nämä edellä mainitut erät pääasiassa konsernin sisäisiä vai ulkopuolisia?  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GDU_ENT_IMP_THRD",
+      "variablename": "Riippuvaisuus ulkomailta tulevista tuotteista",
+      "conceptdef": "Mitkä seuraavista asioista pitivät paikkansa kaupankäyntinne osalta vuosina 2021–2023?  Yrityksemme oli erittäin riippuvainen ulkomailta tulevista tuotteista, jotka on tuonut Suomeen toinen yritys konsernimme sisällä tai ulkopuolella. Olivatko nämä edellä mainitut erät pääasiassa konsernin sisäisiä vai ulkopuolisia?  1 = Kyllä, pääasiassa konsernimme sisällä 2 = Kyllä, pääasiassa konsernimme ulkopuolella 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_IN_INTL",
+      "variablename": "Oman tuotteen osittaisen teollisen palvelun osto konsernin sisällä ulkomailta",
+      "conceptdef": "Ostimme osan jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalveluista vuosina 2021–2023, konserniyrityksiltä ulkomailta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.   1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_OUT_INTL",
+      "variablename": "Oman tuotteen osittaisen teollisen palvelun osto konsernin ulkopuolelta ulkomailta",
+      "conceptdef": "Ostimme osan jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalveluista vuosina 2021–2023, konsernin ulkopuolisilta yrityksiltä ulkomailta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_IN_DOM",
+      "variablename": "Oman tuotteen osittaisen teollisen palvelun osto konsernin sisällä kotimaasta",
+      "conceptdef": "Ostimme osan jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalveluista vuosina 2021–2023, konserniyrityksiltä kotimaasta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_OUT_DOM",
+      "variablename": "Oman tuotteen osittaisen teollisen palvelun osto konsernin ulkopuolella kotimaasta",
+      "conceptdef": "Ostimme osan jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalveluista vuosina 2021–2023, konsernin ulkopuolisilta yrityksiltä kotimaasta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä 0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CMFG_IN_INTL",
+      "variablename": "Oman tuotteen kokonaisen teollisen palvelun osto konsernin sisällä ulkomailta",
+      "conceptdef": "Ostimme jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalvelut kokonaan vuosina 2021–2023, konserniyrityksiltä ulkomailta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.   1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CMFG_OUT_INTL",
+      "variablename": "Oman tuotteen kokonaisen teollisen palvelun osto konsernin ulkopuolella ulkomailta",
+      "conceptdef": "Ostimme jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalvelut kokonaan vuosina 2021–2023, konsernin ulkopuolisilta yrityksiltä ulkomailta.  Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CMFG_IN_DOM",
+      "variablename": "Oman tuotteen kokonaisen teollisen palvelun osto konsernin sisällä kotimaasta",
+      "conceptdef": "Ostimme jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalvelut kokonaan vuosina 2021–2023, konserniyrityksiltä kotimaasta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CMFG_OUT_DOM",
+      "variablename": "Oman tuotteen kokonaisen teollisen palvelun osto konsernin ulkopuolella kotimaasta",
+      "conceptdef": "Ostimme jonkin oman tuotteemme valmistus-, jalostus- tai kokoonpanopalvelut kokonaan vuosina 2021–2023, konsernin ulkopuolisilta yrityksiltä kotimaasta. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_SELL_IN_INTL",
+      "variablename": "Teollisen palvelun myynti konsernin sisällä ulkomaille",
+      "conceptdef": "Myimme valmistus-, jalostus-, tai kokoonpanopalveluja muiden yritysten tuotteiden valmistamiseksi vuosina 2021–2023, konserniyrityksille ulkomailla. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_SELL_OUT_INTL",
+      "variablename": "Teollisen palvelun myynti konsernin ulkopuolella ulkomaille",
+      "conceptdef": "Myimme valmistus-, jalostus-, tai kokoonpanopalveluja muiden yritysten tuotteiden valmistamiseksi vuosina 2021–2023, konsernin ulkopuolisille yrityksille ulkomailla. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_SELL_IN_DOM",
+      "variablename": "Teollisen palvelun myynti konsernin sisällä kotimaahan",
+      "conceptdef": "Myimme valmistus-, jalostus-, tai kokoonpanopalveluja muiden yritysten tuotteiden valmistamiseksi vuosina 2021–2023, konserniyrityksille kotimaassa. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MFG_SELL_OUT_DOM",
+      "variablename": "Teollisen palvelun myynti konsernin ulkopuolella kotimaahan",
+      "conceptdef": "Myimme valmistus-, jalostus-, tai kokoonpanopalveluja muiden yritysten tuotteiden valmistamiseksi vuosina 2021–2023, konsernin ulkopuolisille yrityksille kotimaassa. Koskee vain teollisuuden, kaivosalan, rakentamisen sekä energia-, vesi- ja jätehuollon tuotteita.  1 = Kyllä  0 = Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC",
+      "variablename": "Ulkoistus ulkomaille",
+      "conceptdef": "Onko yrityksenne siirtänyt tai ulkoistanut toimintoja ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)??  1 = Kyllä 0 = Ei 2 = Ei, mutta olemme harkinneet asiaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_PRD_IN_INTL",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tavaroiden ja raaka-aineiden tuotanto: Oman konsernin yrityksiin ulkomaille.  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_PRD_OUT_INTL",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tavaroiden ja raaka-aineiden tuotanto: Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_PRD_NOT",
+      "variablename": "Ei tavaroiden ja raaka-aineiden tuotannon ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tavaroiden ja raaka-aineiden tuotanto: Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DIST_LOG_IN_INTL",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Liikenne, varastointi ja logistiikka: Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DIST_LOG_OUT_INTL",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Liikenne, varastointi ja logistiikka: Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DIST_LOG_NOT",
+      "variablename": "Ei liikenteen, varastoinnin ja logistiikan ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Liikenne, varastointi ja logistiikka: Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_MKTG_SLS_IN_INTL",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_MKTG_SLS_OUT_INTL",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_MKTG_SLS_NOT",
+      "variablename": "Ei myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ICT_IN_INTL",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tieto- ja viestintätekniikkapalvelut (ICT): Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ICT_OUT_INTL",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tieto- ja viestintätekniikkapalvelut (ICT): Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ICT_NOT",
+      "variablename": "Ei tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tieto- ja viestintätekniikkapalvelut (ICT): Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ADM_MGMT_IN_INTL",
+      "variablename": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ADM_MGMT_OUT_INTL",
+      "variablename": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ADM_MGMT_NOT",
+      "variablename": "Ei hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_EGNG_TEC_IN_INTL",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Insinööripalvelut ja muut tekniset palvelut: Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_EGNG_TEC_OUT_INTL",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Insinööripalvelut ja muut tekniset palvelut: Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_EGNG_TEC_NOT",
+      "variablename": "Ei insinööripalveluiden ja muiden teknisten palveluiden ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Insinööripalvelut ja muut tekniset palvelut: Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_RND_IN_INTL",
+      "variablename": "Tutkimus- ja kehittämistoiminnan ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tutkimus- ja kehittämistoiminta: Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_RND_OUT_INTL",
+      "variablename": "Tutkimus- ja kehittämistoiminnan ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tutkimus- ja kehittämistoiminta: Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_RND_NOT",
+      "variablename": "Ei tutkimus- ja kehittämistoiminnan ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Tutkimus- ja kehittämistoiminta: Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_OTH_IN_INTL",
+      "variablename": "Muiden toimintojen ulkoistus oman konsernin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Muut toiminnot: Oman konsernin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_OTH_OUT_INTL",
+      "variablename": "Muiden toimintojen ulkoistus oman konsernin ulkopuolisiin yrityksiin ulkomaille",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Muut toiminnot: Oman konsernin ulkopuolisiin yrityksiin ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_OTH_NOT",
+      "variablename": "Ei muiden toimintojen ulkoistusta",
+      "conceptdef": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosien 2021–2023 aikana (osittain tai kokonaan)? Muut toiminnot: Ei siirretty / ulkoistettu ulkomaille  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_PRD_XX",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Tavaroiden ja raaka-aineiden tuotannon ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DIST_LOG_XX",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Liikenteen, varastoinnin ja logistiikan ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_MKTG_SLS_XX",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ICT_XX",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_ADM_MGMT_XX",
+      "variablename": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_EGNG_TEC_XX",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Insinööripalveluiden ja muiden teknisten palveluiden ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_RND_XX",
+      "variablename": "Tutkimus- ja kehittämistoiminnan ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Tutkimus- ja kehittämistoiminnan ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_OTH_XX",
+      "variablename": "Muiden toimintojen ulkoistus maahan tai alueelle XX",
+      "conceptdef": "Muiden toimintojen ulkoistus tiettyyn maahan.  XX indikoi maakoodia, joka noudattaa ISO 3166 -luokituksen kahden kirjaimen tasoa. Luokitukset voi tarkistaa esimerkiksi Tilastokeskuksen luokitussivuilta. Poikkeuksia, jotka eivät löydy linkin takaa, ovat  EU_IDK: En osaa sanoa, EU-maita koskevassa osiossa F1: Afrikka A9: Keski- ja Etelä-Amerikka S1O1_O: Jokin muu Aasian tai Oseanian maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) E1_O: Jokin muu Euroopan maa (suhteessa kysymyksen muihin vastausvaihtoehtoihin) IDK: En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_PRD",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä tavaroiden ja raaka-aineiden tuotannossa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tavaroiden ja raaka-aineiden tuotanto: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_DIST_LOG",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä liikenteessä, varastoinnissa ja logistiikassa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Liikenne, varastointi ja logistiikka: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_MKTG_SLS",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä myynnissä, markkinoinnissa ja myynnin jälkeisissä palveluissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_ICT",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä tieto- ja viestintätekniikkapalveluissa (ICT)",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tieto- ja viestintätekniikkapalvelut (ICT): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_ADM_MGMT",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä hallinnon ja johdon toimissa (ml. rahoituspalveluissa):",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_EGNG_TEC",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä insinööripalveluissa ja muissa teknisissä palveluissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_RND",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä tutkimus- ja kehittämistoiminnassa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_OTH",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä muissa toiminnoissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Muut toiminnot: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä YHTEENSÄ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_PRD",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä tavaroiden ja raaka-aineiden tuotannossa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tavaroiden ja raaka-aineiden tuotanto: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_DIST_LOG",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä liikenteessä, varastoinnissa ja logistiikassa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Liikenne, varastointi ja logistiikka: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_MKTG_SLS",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä myynnissä, markkinoinnissa ja myynnin jälkeisissä palveluissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_ICT",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä tieto- ja viestintätekniikkapalveluissa (ICT)",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tieto- ja viestintätekniikkapalvelut (ICT): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_ADM_MGMT",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä hallinnon ja johdon toimissa (ml. rahoituspalveluissa):",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_EGNG_TEC",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä insinööripalveluissa ja muissa teknisissä palveluissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_RND",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä tutkimus- ja kehittämistoiminnassa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_HIGH_OTH",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen korkean osaamisen tehtävissä olleiden lukumäärä muissa toiminnoissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Muut toiminnot: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta korkean osaamisen tehtävissä olleiden lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_PRD",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä tavaroiden ja raaka-aineiden tuotannossa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tavaroiden ja raaka-aineiden tuotanto: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_DIST_LOG",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä liikenteessä, varastoinnissa ja logistiikassa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Liikenne, varastointi ja logistiikka: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_MKTG_SLS",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä myynnissä, markkinoinnissa ja myynnin jälkeisissä palveluissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_ICT",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä tieto- ja viestintätekniikkapalveluissa (ICT)",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tieto- ja viestintätekniikkapalvelut (ICT): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_ADM_MGMT",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä hallinnon ja johdon toimissa (ml. rahoituspalveluissa):",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_EGNG_TEC",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä insinööripalveluissa ja muissa teknisissä palveluissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_RND",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä tutkimus- ja kehittämistoiminnassa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_DEC_WOMEN_OTH",
+      "variablename": "Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen naisten lukumäärä muissa toiminnoissa",
+      "conceptdef": "Kuinka monta henkilöä yrityksessänne irtisanottiin tai siirrettiin uusiin työtehtäviin toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023? Muut toiminnot: Ulkoistuksen myötä irtisanottujen tai uusiin työtehtäviin siirrettyjen henkilöiden lukumäärä - josta naisten lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_PRD",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä tavaroiden ja raaka-aineiden tuotannossa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tavaroiden ja raaka-aineiden tuotanto: Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_DIST_LOG",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä liikenteessä, varastoinnissa ja logistiikassa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Liikenne, varastointi ja logistiikka: Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_MKTG_SLS",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä myynnissä, markkinoinnissa ja myynnin jälkeisissä palveluissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_ICT",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä tieto- ja viestintätekniikkapalveluissa (ICT)",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tieto- ja viestintätekniikkapalvelut (ICT): Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_ADM_MGMT",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä hallinnon ja johdon toimissa (ml. rahoituspalveluissa)",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Hallinnon ja johdon toimet (ml. rahoituspalvelut): Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_EGNG_TEC",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä insinööripalveluissa ja muissa teknisissä palveluissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Insinööripalvelut ja muut tekniset palvelut: Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_RND",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä tutkimus- ja kehittämistoiminnassa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tutkimus- ja kehittämistoiminta: Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_OTH",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien työpaikkojen lukumäärä insinööripalveluissa ja muissa toiminnoissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Muut toiminnot: Uusien työpaikkojen määrä yhteensä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_PRD",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä tavaroiden ja raaka-aineiden tuotannossa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tavaroiden ja raaka-aineiden tuotanto - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_DIST_LOG",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä liikenteessä, varastoinnissa ja logistiikassa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Liikenne, varastointi ja logistiikka - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_MKTG_SLS",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä myynnissä, markkinoinnissa ja myynnin jälkeisissä palveluissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta) - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_ICT",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä tieto- ja viestintätekniikkapalveluissa (ICT)",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tieto- ja viestintätekniikkapalvelut (ICT) - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_ADM_MGMT",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä hallinnon ja johdon toimissa (ml. rahoituspalveluissa)",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Hallinnon ja johdon toimet (ml. rahoituspalvelut) - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_EGNG_TEC",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä insinööripalveluissa ja muissa teknisissä palveluissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Insinööripalvelut ja muut tekniset palvelut - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_RND",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä tutkimus- ja kehittämistoiminnassa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tutkimus- ja kehittämistoiminta - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_HIGH_OTH",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden uusien korkean osaamisen työpaikkojen lukumäärä muissa toiminnoissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Muut toiminnot - josta korkean osaamisen työpaikkojen lukumäärä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_PRD",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä tavaroiden ja raaka-aineiden tuotannossa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tavaroiden ja raaka-aineiden tuotanto - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_DIST_LOG",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä liikenteessä, varastoinnissa ja logistiikassa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Liikenne, varastointi ja logistiikka - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_MKTG_SLS",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä myynnissä, markkinoinnissa ja myynnin jälkeisissä palveluissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta) - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_ICT",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä tieto- ja viestintätekniikkapalveluissa (ICT)",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tieto- ja viestintätekniikkapalvelut (ICT) - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_ADM_MGMT",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä hallinnon ja johdon toimissa (ml. rahoituspalveluissa)",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Hallinnon ja johdon toimet (ml. rahoituspalvelut) - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_EGNG_TEC",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä insinööripalveluissa ja muissa teknisissä palveluissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Insinööripalvelut ja muut tekniset palvelut - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_RND",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä tutkimus- ja kehittämistoiminnassa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Tutkimus- ja kehittämistoiminta - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_NEW_WOMEN_OTH",
+      "variablename": "Ulkoistuksen seurauksena syntyneiden naisia työllistävien työpaikkojen lukumäärä muissa toiminnoissa",
+      "conceptdef": "Kuinka monta uutta työpaikkaa yritykseenne syntyi toimintojen ulkomaille siirtämisen tai ulkoistamisen seurauksena vuosina 2021–2023?  Muut toiminnot - josta naisia työllistävien työpaikkojen lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_RED_LC",
+      "variablename": "Työvoimakustannusten alentaminen? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Työvoimakustannusten alentaminen?  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_RED_OTHXLC",
+      "variablename": "Muiden kuin työvoimakustannusten alentaminen? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023?  Muiden kuin työvoimakustannusten alentaminen  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_ACS_NEWMKT",
+      "variablename": "Toiminnan laajentaminen uusille markkinoille ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Toiminnan laajentaminen uusille markkinoille  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_LQLFLAB",
+      "variablename": "Pätevän työvoiman puute kotimaassa ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023?  Pätevän työvoiman puute kotimaassa  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_ACS_SPEKNOW",
+      "variablename": "Tarvittavan erityisosaamisen tai teknologian saaminen käyttöön? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Tarvittavan erityisosaamisen tai teknologian saaminen käyttöön  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_IQUAL_NEWPRD",
+      "variablename": "Laadun paraneminen tai uusien tuotteiden lisääminen valikoimaan? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023?  Laadun paraneminen tai uusien tuotteiden lisääminen valikoimaan  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_FOC_CORBSN",
+      "variablename": "Yrityksen ydinliiketoimintaan keskittyminen ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Yrityksen ydinliiketoimintaan keskittyminen  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_DLVTIME_TLG",
+      "variablename": "Toimitusaikojen lyhentyminen? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Toimitusaikojen lyhentyminen?  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_STRAT_DEC",
+      "variablename": "Konsernijohdon tekemät strategiset päätökset? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Konsernijohdon tekemät strategiset päätökset  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_LS_REG",
+      "variablename": "Keveämpi sääntely ulkomailla ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Yrityksen toimintaan vaikuttava keveämpi sääntely ulkomailla (esimerkiksi verotukselliset asiat, ympäristölainsäädäntö)  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_COV19",
+      "variablename": "Koronapandemian vaikutus? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Koronapandemian vaikutus  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_SANC_RU",
+      "variablename": "Venäjään kohdistuvat pakotteet? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Venäjään kohdistuvat pakotteet  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTIVFACTOR_ENV",
+      "variablename": "Ympäristöpolitiikkaan liittyvät tekijät? ulkoistuksen motivaationa",
+      "conceptdef": "Miten merkittäviä seuraavat motivaatiotekijät olivat päättäessänne yrityksenne toimintojen ulkomaille siirtämisestä ja ulkoistamisesta vuosina 2021–2023? Ympäristöpolitiikkaan liittyvät tekijät (esim. mahdollisuus ympäristötukiin ulkomailla)  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_LEG_ADM",
+      "variablename": "Lainsäädäntöön tai hallintoon liittyvät esteet ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023? Lainsäädäntöön tai hallintoon liittyvät esteet  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_TAX",
+      "variablename": "Verotukselliset asiat ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023? Verotukselliset asiat  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_TAR_TRD",
+      "variablename": "Tullimaksut tai kansainvälisen kaupan esteet? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Tullimaksut tai kansainvälisen kaupan esteet?  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_ACS_FIN_OTH",
+      "variablename": "Rahoituksen saatavuus tai muu rahoitukseen liittyvä rajoite?? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Rahoituksen saatavuus tai muu rahoitukseen liittyvä rajoite?  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_LANG_CLT",
+      "variablename": "Kieleen tai kulttuuriin liittyvät esteet?? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Kieleen tai kulttuuriin liittyvät esteet?  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_DST_CL",
+      "variablename": "Tarve olla lähellä jo olemassa olevia suomalaisia asiakkaita",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Tarve olla lähellä jo olemassa olevia suomalaisia asiakkaita  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_DIF_IDF_PROVABR",
+      "variablename": "Vaikeudet sopivan ulkomaisen palveluntarjoajan löytämisessä? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Vaikeudet sopivan ulkomaisen palveluntarjoajan löytämisessä  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_UNC_QUALPRD_ABR",
+      "variablename": "Epävarmuus ulkomailla tuotettujen tavaroiden tai palveluiden laadusta?? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Epävarmuus ulkomailla tuotettujen tavaroiden tai palveluiden laadusta?  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_LQLFLAB_ABR",
+      "variablename": "Puute osaavasta työvoimasta ulkomailla? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Puute osaavasta työvoimasta ulkomailla  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_CNC_SAL",
+      "variablename": "Työntekijöihin liittyvät huolenaiheet (esim. ammattiliitot) ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Työntekijöihin liittyvät huolenaiheet (esim. ammattiliitot)   Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_CNC_SRCOP_BEN",
+      "variablename": "Ongelmat suuremmat kuin odotetut hyödyt?? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Toimintojen ulkomaille siirtämisen tai ulkoistamisen ongelmat suuremmat kuin odotetut hyödyt?  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_COV19",
+      "variablename": "Koronapandemiaan liittyvät huolenaiheet? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Koronapandemiaan liittyvät huolenaiheet?  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_SANC_RU",
+      "variablename": "Venäjään kohdistuvat pakotteet? ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Venäjään kohdistuvat pakotteet  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BARRIER_ENV",
+      "variablename": "Ympäristöpolitiikkaan liittyvät tekijät ulkoistuksen haasteena",
+      "conceptdef": "Miten merkittäviä seuraavat haasteet olivat siirtäessänne tai ulkoistaessanne toimintoja ulkomaille tai harkitessanne sitä vuosina 2021–2023?  Ympäristöpolitiikkaan liittyvät tekijät  Ulkoistuksen haasteita koskevat kysymykset on esitetty sekä ulkoistuksen tehneille että sitä harkinneille yrityksille. Muita ulkoistuksia koskevia kysymyksiä ei ole esitetty asiaa harkinneille.  1 = Hyvin merkittävä 2 = Merkittävä 3 = Ei merkittävä 4 = En osaa sanoa / Ei sovellettavissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_PRD_IN",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tavaroiden ja raaka-aineiden tuotanto: Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_PRD_OUT",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tavaroiden ja raaka-aineiden tuotanto: Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_PRD_NO",
+      "variablename": "Ei tavaroiden ja raaka-aineiden tuotannon ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tavaroiden ja raaka-aineiden tuotanto: Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_DIST_LOG_IN",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa? Liikenne, varastointi ja logistiikka: Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_DIST_LOG_OUT",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Liikenne, varastointi ja logistiikka: Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_DIST_LOG_NO",
+      "variablename": "Ei liikenteen, varastoinnin ja logistiikan ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Liikenne, varastointi ja logistiikka: Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_MKTG_SLS_IN",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_MKTG_SLS_OUT",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_MKTG_SLS_NO",
+      "variablename": "Ei myynnin, markkinoinnin ja myynnin jälkeisten palveluiden ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta): Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_ICT_IN",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tieto- ja viestintätekniikkapalvelut (ICT): Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_ICT_OUT",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tieto- ja viestintätekniikkapalvelut (ICT): Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_ICT_NO",
+      "variablename": "Ei tieto- ja viestintätekniikkapalveluiden (ICT) ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tieto- ja viestintätekniikkapalvelut (ICT): Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_ADM_MGMT_IN",
+      "variablename": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Hallinnon ja johdon toimet (ml. rahoituspalvelut): Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_ADM_MGMT_OUT",
+      "variablename": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Hallinnon ja johdon toimet (ml. rahoituspalvelut): Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_ADM_MGMT_NO",
+      "variablename": "Ei hallinnon ja johdon toimien (ml. rahoituspalveluiden) ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Hallinnon ja johdon toimet (ml. rahoituspalvelut): Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_EGNG_TEC_IN",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Insinööripalvelut ja muut tekniset palvelut: Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_EGNG_TEC_OUT",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Insinööripalvelut ja muut tekniset palvelut: Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_EGNG_TEC_NO",
+      "variablename": "Ei insinööripalveluiden ja muiden teknisten palveluiden ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Insinööripalvelut ja muut tekniset palvelut: Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_RND_IN",
+      "variablename": "Tutkimus- ja kehittämistoiminnan ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tutkimus- ja kehittämistoiminta: Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_RND_OUT",
+      "variablename": "Tutkimus- ja kehittämistoiminnan ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tutkimus- ja kehittämistoiminta: Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_RND_NO",
+      "variablename": "Ei tutkimus- ja kehittämistoiminnan tuotannon ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Tutkimus- ja kehittämistoiminta: Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_OTH_IN",
+      "variablename": "Muiden toimintojen ulkoistus kotimaan sisällä konserniyritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Muut toiminnot: Kyllä, konsernin sisällä  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_OTH_OUT",
+      "variablename": "Muiden toimintojen ulkoistus kotimaan sisällä konsernin ulkopuoliselle yritykselle",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Muut toiminnot: Kyllä, konsernin ulkopuolelle  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SRC_DOM_OTH_NO",
+      "variablename": "Ei muiden toimintojen ulkoistusta kotimaan sisällä",
+      "conceptdef": "Onko yrityksenne ulkoistanut vuosien 2021–2023 aikana yrityksessänne (Suomessa) aiemmin suoritettuja toimintoja toiselle yritykselle Suomessa?  Muut toiminnot: Ei  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC",
+      "variablename": "Toimintojen takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)?  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRD",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Tavaroiden ja raaka-aineiden tuotanto  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOG",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Liikenne, varastointi ja logistiikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLS",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICT",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Tieto- ja viestintätekniikkapalvelut (ICT)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMT",
+      "variablename": "Hallinnon ja johdon toimien (ml. rahoituspalveluiden) takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Hallinnon ja johdon toimet (ml. rahoituspalvelut)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TEC",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Insinööripalvelut ja muut tekniset palvelut  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RND",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Tutkimus- ja kehittämistoiminta  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTH",
+      "variablename": "Muiden toimintojen takaisinsiirto Suomeen omaan yritykseen",
+      "conceptdef": "Onko yrityksenne siirtänyt toimintoja takaisin ulkomailta Suomeen omaan yritykseenne vuosien 2021–2023 aikana (osittain tai kokonaan)? Muut toiminnot  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDB0",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDGB",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDR2",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: EFTA-maat (Islanti, Liechtenstein, Norja ja Sveitsi)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDG4",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDCN",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDIN",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDS1O1_O",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDCA_US",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDA9",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_PRDF1",
+      "variablename": "Tavaroiden ja raaka-aineiden tuotannon Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tavaroiden ja raaka-aineiden tuotanto: Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGB0",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGGB",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGR2",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: EFTA-maat (Islanti, Liechtenstein, Norja ja Sveitsi)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGG4",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGCN",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGIN",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGS1O1_O",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGCA_US",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGA9",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_DIST_LOGF1",
+      "variablename": "Liikenteen, varastoinnin ja logistiikan takaisinsiirto Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Liikenne, varastointi ja logistiikka: Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSB0",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSGB",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSR2",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: EFTA-maat (Islanti, Liechtenstein, Norja ja Sveitsi)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSG4",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)   1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSCN",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSIN",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSS1O1_O",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSCA_US",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSA9",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_MKTG_SLSF1",
+      "variablename": "Myynnin, markkinoinnin ja myynnin jälkeisten palveluiden takaisinsiirto Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Myynti, markkinointi ja myynnin jälkeiset palvelut (esimerkiksi erilaiset asiakaspalvelut, Helpdesk ja Call Center-toiminta)?: Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTB0",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTGB",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTR2",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): EFTA-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTG4",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTCN",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTIN",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTS1O1_O",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTCA_US",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTA9",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ICTF1",
+      "variablename": "Tieto- ja viestintätekniikkapalveluiden (ICT) takaisinsiirto Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tieto- ja viestintätekniikkapalvelut (ICT): Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTB0",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTGB",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTR2",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): EFTA-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTG4",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTCN",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTIN",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTS1O1_O",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTCA_US",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTA9",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_ADM_MGMTF1",
+      "variablename": "Hallinnon ja johdon toimien takaisinsiirto Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Hallinnon ja johdon toimet (ml. rahoituspalvelut): Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECB0",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECGB",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECR2",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: EFTA-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECG4",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECCN",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECIN",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECS1O1_O",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto muista Aasian maista ja Oseania Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECCA_US",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECA9",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_EGNG_TECF1",
+      "variablename": "Insinööripalveluiden ja muiden teknisten palveluiden takaisinsiirto Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Insinööripalvelut ja muut tekniset palvelut: Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDB0",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDGB",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDR2",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: EFTA-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDG4",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDCN",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDIN",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Intia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDS1O1_O",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDCA_US",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDA9",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_RNDF1",
+      "variablename": "Tutkimus- ja kehittämistoiminnan takaisinsiirto Afrikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Tutkimus- ja kehittämistoiminta: Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHB0",
+      "variablename": "Muiden toimintojen takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: EU-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHGB",
+      "variablename": "Muiden toimintojen takaisinsiirto Britanniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Britannia  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHR2",
+      "variablename": "Muiden toimintojen takaisinsiirto EFTA-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: EFTA-maat  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHG4",
+      "variablename": "Muiden toimintojen takaisinsiirto muista Euroopan maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Muut Euroopan maat (mukaan lukien Turkki ja Venäjä)  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHCN",
+      "variablename": "Muiden toimintojen takaisinsiirto Kiinasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Kiina  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHIN",
+      "variablename": "Muiden toimintojen takaisinsiirto Intiasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Intia   1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHS1O1_O",
+      "variablename": "Muiden toimintojen takaisinsiirto muista Aasian maista ja Oseaniasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Muut Aasian maat ja Oseania  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHCA_US",
+      "variablename": "Muiden toimintojen takaisinsiirto Yhdysvalloista ja Kanadasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Yhdysvallat ja Kanada  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHA9",
+      "variablename": "Muiden toimintojen takaisinsiirto Keski- ja Etelä-Amerikasta Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Keski- ja Etelä-Amerikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BACKSRC_OTHF1",
+      "variablename": "Muiden toimintojen takaisinsiirto EU-maista Suomeen omaan yritykseen",
+      "conceptdef": "Mistä maista yrityksenne on siirtänyt toimintojaan takaisin Suomeen vuosina 2021–2023? Muut toiminnot: Afrikka  1=Kyllä 0=Ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUP_SH",
+      "variablename": "Saatavuushaasteet arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Saatavuushaasteet raaka-aineiden, väli- ja lopputuotteiden sekä palvelujen toimitusketjuissa  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INCR_COST_NRG",
+      "variablename": "Energian hinnoista johtuvat raaka-ainekustannukset arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Energian hinnoista johtuva raaka-ainekustannusten nousu  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PB_COST_TRA",
+      "variablename": "Kuljetukseen liittyvät ongelmat arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Kuljetuskapasiteettiin liittyvät ongelmat, kuljetusaikojen pidentyminen tai kuljetuskustannukset jo olemassa olevista toimipaikoista markkinoille  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INCR_COST_OTH",
+      "variablename": "Muusta kuin energiasta tai kuljetuksesta johtuvat kustannukset arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Muusta kuin energian toimituksesta ja kuljetuskustannuksista johtuva raaka-aineiden sekä väli- ja lopputuotteiden kustannusten nousu toimitusketjuissa  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SANC_RU",
+      "variablename": "Venäjään kohdistuvat pakotteet arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Venäjään kohdistuvat pakotteet  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIM_COV19",
+      "variablename": "Koronaan liittyvät rajoitukset arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Koronaan liittyvät rajoitukset  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CSTR_ENV",
+      "variablename": "Ympäristöpolitiikkaan liittyvät rajoitukset arvoketjun rajoitteena",
+      "conceptdef": "Arvioi seuraavien rajoitteiden vaikutusta yrityksenne arvoketjuihin vuosien 2021–2023 aikana? Ympäristöpolitiikkaan liittyvät rajoitukset  1 = Merkittävä vaikutus 2 = Jonkin verran vaikutusta 3 = Ei vaikutusta 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FND_NEWSUPPL_EU",
+      "variablename": "Uudet toimittajat tai ostajat EU:ssa arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Löysimme uusia tavaran/palveluiden toimittajia tai ostajia EU:n alueelta   1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FND_NEWSUPPL_NEU",
+      "variablename": "Uudet toimittajat tai ostajat EU:n ulkopuolella arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Löysimme uusia tavaran toimittajia tai ostajia EU:n ulkopuolelta  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RED_SUPPL_ORD",
+      "variablename": "Toimittajien määrän vähentäminen arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Keskityimme luotettavimpiin tavaroiden/palveluiden toimittajiin vähentämällä toimittajien kokonaismäärää tai vähentämällä tilauksia muilta toimittajilta  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INCR_SUPPL",
+      "variablename": "Toimittajien määrän kasvattaminen vallitsevissa toimitusmaissa arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Lisäsimme tavaroiden/palveluiden toimittajien määrää maista, joissa meillä on jo entuudestaan toimittajia  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RE_BKSRC_OUT",
+      "variablename": "Takaisinsiirto Suomeen toiselle yritykselle arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Siirsimme aiemmin ulkomaille ulkoistetut liiketoiminnot takaisin Suomeen, mutta toiselle yritykselle  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RE_BKSRC_IN",
+      "variablename": "Takaisinsiirto Suomeen omalle yritykselle arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Siirsimme aiemmin ulkomaille ulkoistetut liiketoiminnot takaisin omaan yritykseemme  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INCR_DGTL_GVC",
+      "variablename": "Kaupankäynnin digitalisointi Suomeen arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Lisäsimme kaupankäyntiprosessien digitalisointia  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INCR_STK",
+      "variablename": "Varastojen kasvatus arvoketjun uudelleenjärjestelynä",
+      "conceptdef": "Missä määrin olette muuttaneet tai järjestäneet uudelleen globaaleita toimitus- ja arvoketjujanne vuosien 2021–2023 aikana, jotta olette selvinneet näihin kohdistuneista haasteista? Kasvatimme varastoja  1 = Paljon 2 = Jonkin verran 3 = Ei lainkaan 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_ACQ_RM_DOM",
+      "variablename": "Saatavuusongelmat kotimaassa kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Yrityksemme hankkimien raaka-aineiden ja välituotteiden saatavuusongelmat Suomessa  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_ACQ_RM_ABR",
+      "variablename": "Saatavuusongelmat ulkomailla kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Yrityksemme hankkimien raaka-aineiden ja välituotteiden saatavuusongelmat ulkomailla  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_ACS_SERV_DOM",
+      "variablename": "Vaikeudet saada palveluita kotimaassa kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Vaikeudet saada tarvittavia palveluja kotimaisilta palveluntarjoajilta  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_ACS_SERV_ABR",
+      "variablename": "Vaikeudet saada palveluita ulkomailla kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Vaikeudet saada tarvittavia palveluja ulkomaisilta palveluntarjoajilta  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_TRA_GD_BK_FCUS",
+      "variablename": "Logistiset ongelmat kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Logistiset ongelmat yrityksemme ulkomailla valmistettujen tavaroiden toimittamisessa Suomeen tai tavaroiden toimittamisessa loppukäyttäjille  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_RECV_EXPT_ABR",
+      "variablename": "Vaikeudet saada asiantuntijoita ulkomailta kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Vaikeudet saada asiantuntijoita tai muita ammattilaisia ulkomailta  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIF_SEND_EXPT_ABR",
+      "variablename": "Vaikeudet lähettää asiantuntijoita ulkomaille kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Vaikeudet lähettää asiantuntijoita tai muita työntekijöitä ulkomaille  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CANC_ORD_DOM",
+      "variablename": "Kotimaisten tilausten väheneminen koronapandemian seurauksena kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Yrityksemme kotimaisten asiakkaiden tilausten peruutukset tai uusien tilausten väheneminen koronapandemian seurauksena  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CANC_ORD_ABR",
+      "variablename": "Ulkomaisten tilausten väheneminen koronapandemian seurauksena kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Yrityksemme ulkomaisten asiakkaiden tilausten peruutukset tai uusien tilausten väheneminen koronapandemian seurauksena  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CHG_SLS_CHAN",
+      "variablename": "Myyntikanavien muutokset kaupankäynnin haasteena",
+      "conceptdef": "Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021–2023 aikana? Yrityksemme myyntikanavien muutokset, esimerkiksi kasvanut verkkokaupankäynti tai kasvanut riippuvuus verkkokaupasta.  1 = Paljon haasteita 2 = Jonkin verran haasteita 3 = Ei lainkaan haasteita 4 = Ei sovellettavissa / En osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "variables": [
+    {
+      "identifier": "suorlaji",
+      "variablename": "Suorituslaji",
+      "conceptdef": "Suorituslajilla tarkoitetaan ilmoitettavan tulon laatua. Suorituslajeja ovat mm. palkka, palkkio, työkorvaus, kulu- ja käyttökorvaus tai eläke. Suorituslajien luokituksessa saattaa olla puutteita vuosittaisten muutosten vuoksi. Joitakin suorituslajeja on yhdistelty luokkiin F, L ja H4. Suorituslajien tunnukset ovat:\n1 Palkka sivutoimesta\t\n1Y Yrittäjän palkka sivutoimesta (palkka tehtävästä, josta saaja on YEL- tai MYEL-vakuuutettu)\t\n2 Merityötulo\t\n2B Sijoitusrahaston voitto-osuus\t\n2C Joukkovelkakirjalainan korko\t\n2D Muu korko tai pääomatulo\t\n2E Vuosi-ilmoituksen antajan maksama jälkimarkkinahyvitys verovelvolliselle\t\n2F Vuosi-ilmoituksen antajan perimä (saama) jälkimarkkinahyvitys\t\n2G Sijoitusrahaston rahasto-osuus\t\n2M Merityötulo, joka kuuluu matkustaja-alusten maksuvapautuksen piiriin (2005-2007)\t\n2Y Yrittäjän merityötulo\t\n3J Ulkomaisen yhteissijoitusyrityksen osuudelle maksettu korko\t\n3K Ulkomailta maksettu/välitetty korko\t\n3L Ulkomaisen yhteissijoitusyrityksen osuus\t\n3M Toisesta EU-jäsenvaltiosta maksettu/välitetty korko (alkaen 2009)\t\n3N Toisesta EU-jäsenvaltiosta maksettu/välitetty myynnin,\t\ntakaisinoston tai lunastuksen tuoton kokonaismäärä\t\n5 Ns. 6 kk:n säännön alainen palkka\t\n5Y Yrittäjän 6 kk:n säännön alainen palkka\t\n6 Sijaismaksajan maksama palkka\t\n61 Sijaismaksajan maksama 6 kk:n säännön alainen palkka\t\n7K Työnantajan (kiinteä toimipaikka Suomessa) maksama palkka\t\ntyöntekijälle, joka ei ole Suomessa vakuutettu (alkaen 2009)\t\n7L Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\t\nmaksama palkka työntekijälle, joka ei ole Suomessa vakuutettu (alkaen 2009)\t\n7M Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\t\nmaksama palkka Suomessa vakuutetulle työntekijälle (alkaen 2009)\t\n7N Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa)\t\nmaksama palkka työntekijälle, kun työnantaja maksaa \t\ntyöntekijän puolesta verot (nettopalkkasopimus) (alkaen 2009)\t\n7Q Ulkomaisen työnantajan (ei kiinteää toimipaikkaa Suomessa) \t\nmaksama palkka työntekijälle, joka on oleskellut Suomessa\t\nenintään 183 päivää verosopimuksessa tarkoitettuna ajanjaksona (alkaen 2009)\t\n9A Metsänmyyntitulot pystykaupoista (ennen 1.4.2008, 2009-2011)\t\n9B Metsänmyyntitulot hankinta- tai käteiskaupoista (ennen 1.4.2008, 2009-2011)\t\n9C Puun myynnin vakuutussuoritus\t\n9D 1.4.2008-31.12.2009 tehty pystykauppa (2009-2010)\t\n9E 1.4.2008-31.12.2009 tehty hankinta- tai käteiskauppa (2009-2010)\t\n9F 1.1.2010-31.12.2010 tehty pystykauppa (2010-2011)\t\n9G 1.1.2010-31.12.2010 tehty hankinta- tai käteiskauppa (2010-2011)\t\nA Kansaneläke\t\nAA Takuueläke (alkaen 2011)\t\nB Työ-, virka- ja yrittäjäeläke\t\nB6 Eläke, joka maksettu ulkomailla asuvalle henkilölle ja josta\t\nperitty vain sairausvakuutusmaksu\t\nF Muut eläkkeet\t\nG Ansiotuloa oleva käyttökorvaus\t\nG1 Pääomatulot (käyttökorvaus, palkkasaatavan korko tms.)\t\nH Työkorvaus\t\nH1 Henkilöstörahaston rahasto-osuus ja ylijäämä\t\nH2 Urheilijan palkkio\t\nH3 Perhehoitajan tai omaishoitajan palkkio\t\nH4 Muu ansiotuloa oleva suoritus\t\nH5 Yleishyöd. yhteisön maksama matkakustannusten korvaus\t\nH6 Sovittelijan kulukorvaus (alkaen 2007)\t\nHT Työpanokseen perustuva osinko (työkorvausta) (alkaen 2010)\t\nJ Takaisin peritty suoritus, jolla ei ole omaa suorituslajia\t\nK Vapaaehtoiseen henkilövakuutukseen perustuvat suoritukset,\t\nmm. potilas- ja vastuuvakuutuksen ansionmenetyskorvaus\t\nL Pakollisen tapaturma- ja liikennevakuutuksen päiväraha, vastuuvakuutuskorvaus ym.\t\nM Veronalainen lakkoavustus\t\nO Yleinen perhe-eläke\t\nP Palkka päätoimesta\t\nP2 Urheilijan palkka (vuoteen 2010 asti)\t\nP3 Kunnallisen perhepäivähoitajan palkka\t\nPT Työpanokseen perustuva osinko (palkkaa) (alkaen 2010)\t\nPU Urheilijarahastosta maksettava palkka (2011 asti)\t\nPY Yrittäjän palkka päätoimesta (palkka tehtävästä, josta saaja on YEL- tai MYEL-vakuuutettu)\t\nQ Vapaaehtoisen yksilölliseen eläkevakuutukseen perustuva\t\npääomatuloa oleva vuosittain maksettava eläke (2009 asti suorituslajin kuvaus: vapaaehtoisen henkivakuutuksen suoritukset ym.)\t\nQ1 Pitkäaikaissäästämissopimukseen perustuva pääoamtuloa oleva (alkaen 2011)\t\nvuosittain maksettava suoritus\t\nQ2 Muut pääomatulona verotettavat eläkkeet ja etuudet (alkaen 2010)\t\nQ3 Kapitalisaatiosopimuksen tuotto (alkaen 2013)\t\nR1 Reserviläispalkka\t\nS Sairausvakuutuslain ym. nojalla maksettavat korvaukset\t\nSA Sairauskassan täydennyspäiväraha\t\nT Työttömyyspäiväraha ym.\t\nU Koulutustuki, toistuva korvaus, aikuiskoulutustuki\t\nV Tuesta tai päivärahasta peritty eläkemaksu (2006 asti)\t\nV1 Pääomatuloa oleva vapaaehtoiseen eläkevakuutukseen perustuva\t\neläke, joka luetaan tuloksi 50 prosentilla korotettuna (2007-2009) / 20 prosentilla korotettuna (alkaen 2010)\t\nV2 Vapaaehtoiseen yksilölliseen eläkevakuutukseen perustuva eläke,\t\njoka verotetaan pääomatulona 50 prosentilla korotettuna (alkaen 2010)\t\nV3 Pitkäaikaissäästämissopimukseen perustuva suoritus, joka\t\nverotetaan pääomatulona 20 prosentilla korotettuna\t\nV4 Pitkäaikaissäästämissopimukseen perustuva suoritus, joka\t\nverotetaan pääomatulona 50 prosentilla korotettuna (alkaen 2011)\t\nW Maatalousyrittäjän luopumiskorvaus\t\nW1 Opintoraha\t\nX Lapsen kotihoidontuki ja osittainen hoitoraha\t\nY Starttiraha (yrittäjän työllistämistuki) (alkaen 2011)\t\nYT YEL/MYEL-vakuutetun yrittäjän työpanokseen perustuva osinko\t\n(palkkaa) (alkaen 2010)\t\nZ Eläkevakuutusmaksun palautus\t\nZ Lakisääteisen eläkevakuutusmaksun palautus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palkka",
+      "variablename": "Palkka",
+      "conceptdef": "Maksetut ennakonpidätyksen alaiset palkat ilman luontoisetuja, euroa (€). Palkalla tarkoitetaan mitä tahansa palkkaa, palkkiota ja korvausta, joka saadaan työ- tai virkasuhteessa, sekä kokouspalkkiota, henkilökohtaista luento- ja esitelmäpalkkiota, hallintoelimen jäsenyydestä saatua palkkiota, toimitusjohtajan palkkiota, avoimen yhtiön ja kommandiittiyhtiön yhtiömiehen nostamaa palkkaa sekä luottamustoimesta saatua korvausta. Palkkaa ovat myös asunto-, ravinto- ym. luontoisedut sekä veronalaiset henkilökuntaedut ja veronalaiset kustannusten korvaukset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ennpid",
+      "variablename": "Ennakonpidätys",
+      "conceptdef": "Maksetuista palkoista toimitetun ennakonpidätyksen määrä, euroa (€). Ennakonpidätyksellä tarkoitetaan useimmiten tuloveron ennakonpidätystä, jonka työnantaja tekee työntekijän palkkatulosta ja tulouttaa verottajalle.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lakismak",
+      "variablename": "Eläke- ja työttömyysvakuutusmaksut",
+      "conceptdef": "Eläke- ja työttömyysvakuutusmaksut yhteensä, euroa (€). Palkoista maksetut  ja työnantajan eläkeyhtiöille ilmoittamat työttömyysvakuutusmaksut ja työeläkemaksut yhteensä, euroa (€).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vahennpi",
+      "variablename": "Vähennys ennen ennakonpidätystä",
+      "conceptdef": "Vähennys, joka on tehty palkasta ennen ennakonpidätyksen toimittamista, euroa (€). Työnantaja voi vähentää ennen ennakonpidätyksen toimittamista palkansaajan itsensä maksamat työn tekemisestä aiheutuneet välittömät kustannukset. Tällaisia kustannuksia ovat mm. palkansaajan maksamat kustannukset moottorisahan käytöstä ja muut työvälineistä aiheutuneet kustannukset tai menot työmatkoista, jos työnantaja ei maksa niistä verovapaita korvauksia palkan lisäksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autolis",
+      "variablename": "Verotettavan autoedun määrä",
+      "conceptdef": "Auton verotusarvon ja työntekijältä perityn määrän erotus, euroa (€). Autoedun määrää ei ole ilmoitettu jos työnantaja perii työntekijältä autoedusta vähintään edun verotusarvon mukaisen määrän. Verotettava autoetu on ilmoitettu myös silloin kun työntekijällä on pelkkä autoetu eikä rahapalkkaa ole maksettu lainkaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autokorv",
+      "variablename": "Työnantajan perimä korvaus autoedusta",
+      "conceptdef": "Työnanantajan työntekijältä perimä korvaus autoedusta, euroa (€). Korvaus autoedusta on ilmoiettu vaikka työnantaja perisi autoedusta vähintään autoedun raha-arvoa vastaavan tai suuremman korvauksen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autokaut",
+      "variablename": "Auton käyttöetu",
+      "conceptdef": "Työntekijällä on auton käyttöetu, 1=kyllä, 0=ei. Auton käyttöedussa työntekijä vastaa itse ainakin auton polttoainekuluista. Käyttöedussa työntekijälle maksetaan korvausta työajoista auton polttoainekuluista laadittua matkalaskua vastaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autovapa",
+      "variablename": "Vapaa autoetu",
+      "conceptdef": "Työntekijällä on vapaa autoetu, 1=kyllä, 0=ei. Työnantaja maksaa kaikki autosta aiheutuneet kustannukset myös yksityisajojen osalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "korkoetu",
+      "variablename": "Asuntolainan korkoetu",
+      "conceptdef": "Asuntolainan korkoedun määrä, euroa (€). Työsuhteen perusteella annetusta asuntolainasta työntekijälle syntyvä korkoetu. Työntekijälle syntyy korkoetu, jos työnantaja perii työntekijälle myöntämästään lainasta vuotuista korkoa, joka on alempi kuin viitekorko, silloin kun lainan korko on sidottu yleisesti markkinoilla käytössä olevaan lainan viitekorkoon. Jos lainan korkoa ei ole sidottu viitekorkoon, työntekijälle syntyy korkoetu, silloin kun lainasta peritty vuotuinen korko on alempi kuin 12 kuukauden euribor-korko vuoden ensimmäisenä päivänä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muulis",
+      "variablename": "Muut luontoisedut, palkkaan lis.",
+      "conceptdef": "Muut luontoisedut, palkkaan lisätty määrä, euroa (€). Luontoisetujen verotusarvojen ja työntekijältä perittyjen korvausten erotus. Luontoisetuja ovat työnantajan muuna kuin rahana antamat edut, mm. asunto-, puhelin- ja ravintoetu. Muita etuja ovat myös mm. autotalli- ja vene-etu, palkaksi katsotut henki- ja eläkevakuutusmaksut, yksilöimättömästä lahjakortista syntyvä etu, merimiespalveluksessa olevan henkilön merimiehenä saama luontoisetu ja henkilöstöannista syntyvät edut.  Jos verotusarvoa ei ole erikseen vahvistettu Verohallinnon antamassa päätöksessä, luontoisedun arvo on sen käypä arvo. Luontoisetujen määrä on ilmoitettu, vaikka työntekijälle ei maksettaisi lainkaan rahapalkkaa tai rahapalkka ei riittäisi ennakonpidätyksen täysimääräiseen toimittamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muukorva",
+      "variablename": "Muut luontoisedut, työnant. perimä korvaus",
+      "conceptdef": "Muut luontoisedut; työnantajan perimä korvaus on summa, joka työntekijältä on peritty muista luontoiseduista kuin autoedusta tai työsuhdematkalippuedusta, euroa (€).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asuntoet",
+      "variablename": "Asuntoetu",
+      "conceptdef": "Työntekijällä on luontoisetuna asuntoetu, 1=kyllä, 0=ei. Kun työntekijä on saanut asunnon käytettäväksesi työ- tai virkasuhteen perusteella tai asunto kuuluu palkkaan, tämä on verotettavaa asuntoetua. Asunnon arvoon vaikuttavat asunnon ikä, perusparannukset sekä pinta-ala.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ravintoe",
+      "variablename": "Ravintoetu",
+      "conceptdef": "Työntekijällä on luontoisetuna ravintoetu, 1=kyllä, 0=ei. Ravintoedun arvo määräytyy sen mukaan, onko kyseessä tavanomainen työpaikkaruokailu, laitosruokailu, ruokailun valvonnan yhteydessä saatu etu, hotelli-, ravintola- tai lentohenkilöstön, lounasseteli tai muu vastaava ravintoetu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muuetu",
+      "variablename": "Muu etu",
+      "conceptdef": "Työntekijällä on luontoisetuna muu etu, 1=kyllä, 0=ei. Tällaisia etuja ovat esimerkiksi kodinhoitoetu, vene-etu ja palkkiomatka. Jos työsuhde-edun arvoa ei ole määritelty Verohallinnon päätöksessä, edun arvona pidetään käypää arvoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ravintva",
+      "variablename": "Ravintoedun korvaus vastaa verotusarvoa",
+      "conceptdef": "Työntekijältä ravintoedusta peritty korvaus vastaa verohallinnon antaman luontoisetupäätöksen mukaista ravintoedunarvoa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paivarah",
+      "variablename": "Päivärahat yhteensä",
+      "conceptdef": "Verovapaiden päivärahojen ja ateriakorvausten yhteismäärä euroa (€). Myös seuraavat ulkomaantyöskentelyyn liittyvät verovapaat edut, verovelvollisen ja hänen perheenjäsenensä muutto- ja matkakustannukset työntekovaltioon ja takaisin, työnantajan kustantama lasten perus- ja lukiotason koulutus, työnantajan ulkomailla kustantama tavanomainen yksityinen palveluhenkilöstö.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokopvra",
+      "variablename": "Kokopäiväraha",
+      "conceptdef": "Työnantaja on maksanut kokopäivärahaa tai ateriaedun sisältävää puolitettua kokopäivärahaa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osapvrah",
+      "variablename": "Osapäiväraha",
+      "conceptdef": "Työnantaja on maksanut puolitettua päivärahaa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ulkompvr",
+      "variablename": "Ulkomaanpäiväraha",
+      "conceptdef": "Työnantaja on maksanut ulkomaanpäivärahaa tai ateriaetua sisältävää puolitettua ulkomaanpäivärahaa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ateriako",
+      "variablename": "Ateriakorvaus",
+      "conceptdef": "Työnantaja on maksanut ateriakorvausta sisältävää puolitettua osapäivärahaa, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kilometr",
+      "variablename": "Kilometrikorvaus, km",
+      "conceptdef": "Kilometrikorvauksen perusteena oleva kilometrimäärä, km (kilometrit).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kilomkor",
+      "variablename": "Kilometrikorvaus",
+      "conceptdef": "Verovapaiden kilometrikorvausten yhteismäärä, pl. muut matkakorvaukset, yhteensä euroa (€)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muukorv",
+      "variablename": "Muut maksetut korvaukset",
+      "conceptdef": "Muut maksetut korvaukset, esim. työpuku, -väline, tms, euroa (€).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "puheline",
+      "variablename": "Puhelinetu",
+      "conceptdef": "Työntekijälle on annettu luontoisetuna puhelinetu, 1=kyllä, 0=ei . Jos työntekijä soittaa puhelimella vapaa-aikana yksityispuheluja ja työnantaja maksaa myös ne, saat työnantajalta verotettavaa puhelinetua. Verohallinnon luontoisetupäätöksessä on määritelty, mitä kuluja puhelinetu kattaa. Matkapuhelimen käyttö maksuvälineenä ei sisälly puhelinetuun, vaan se verotetaan erikseen. Sen sijaan tietoliikenneyhteyden yksityiskäyttö on verotonta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "optio",
+      "variablename": "Optioetu",
+      "conceptdef": "Työsuhdeoptiot ja osakepalkkiot, josta on vähennetty työntekijän osakkeesta tai osuudesta ja työsuhdeoptiosta maksama hinta. Etua käsitellään kuin luontoisetua, ennakkopidätys lasketaan rahapalkan luontoisetujen, optioedun ja muiden veronalaisten etujen yhteismäärästä ja vähennetään rahapalkasta. Työsuhdeoptioita ovat etu työsuhteeseen perustuvasta oikeudesta saada tai hankkia yhteisön osakkeista tai osuuksia käypää hintaa alempaan hintaan vaihtovelkakirjan, optiolainan, optio-oikeuden tai muun näihin verrattavan sopimuksen tai sitoumuksen perusteella. Edun arvo on osakkeen tai osuuden käypä arvo sillä hetkellä kun työsuhdeoptiota käytetään. Edun arvosta on vähennetty hinta, jonka työntekijä yhteensä maksaa osakkeesta tai osuudesta ja työsuhdeoptiosta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tavakmak",
+      "variablename": "Kollekt. lisäeläketurvan vakuutusmaksut, työnantajan maksamat",
+      "conceptdef": "Työnantajan maksamat kollektiivisen lisäeläketurvan vakuutusmaksut, euroa (€). Tässä on ilmoitettu työnantajan maksamat 6.5.2004 tai sen jälkeen työntekijöilleen otetun lisäeläketurvan maksut, jos työntekijä on itse maksanut maksuista osan.  Jos työnantaja on maksanut kollektiivisen lisäeläketurvan maksut kokonaan, tietoja ei ole ilmoitettu vuosi-ilmoituksella. Tässä on ilmoitettu maksut  myös silloin, kun uusi työntekijä on tullut 6.5.2004 jälkeen mukaan työnantajan ennen tuota päivää ottamaan, ns. kollektiiviseen vakuutusjärjestelmään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "psvakmak",
+      "variablename": "Kollekt. lisäeläketurvan vakuutusmaksut, palkansaajan maksamat",
+      "conceptdef": "Palkansaajan maksamat kollektiivisen lisäeläketurvan vakuutusmaksut, euroa (€). Tässä on ilmoitettu työntekijän maksama osuus 6.5.2004 tai sen jälkeen työnantajan työntekijöilleen ottaman lisäeläketurvan maksuista. Jos työnantaja on maksanut kollektiivisen lisäeläketurvan maksut kokonaan, tietoja ei ole ilmoitettu vuosi-ilmoituksella. Tässä on ilmoitettu maksut  myös silloin, kun uusi työntekijä on tullut 6.5.2004 jälkeen mukaan työnantajan ennen tuota päivää ottamaan, ns. kollektiiviseen vakuutusjärjestelmään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vayelmak",
+      "variablename": "Vapaaeht. yksilöllisen eläkevakuutuksen maksut",
+      "conceptdef": "Vapaaehtoisen yksilöllisen eläkevakuutuksen maksut yhteensä, euroa (€). Tässä on ilmoitettu työnantajan työntekijöille ottaman vapaaehtoisen eläkevakuutuksen maksut kokonaisuudessaan. Sisältää myös sellaisen yksilöllisen eläkevakuutuksen maksut, joka on otettu avoimen yhtiön yhtiömiehelle, kommandiittiyhtiön vastuunalaiselle yhtiömiehelle tai sellaisen osakeyhtiön osakkaalle, joka ei ole TyEL-vakuutettu. Jos työnantajan työntekijälle ottaman vapaaehtoisen yksilöllisen eläkevakuutuksen maksut ylittävät 8500 euroa, ylittävältä osalta maksut ovat palkkaa ja ne on ilmoitettu kohdassa/muuttujassa Muut luontoisedut.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "luhlomak",
+      "variablename": "Luottamushenkilömaksu",
+      "conceptdef": "Luottamushenkilömaksu euroa (€). Luottamushenkilömaksun on ilmoittanut vain kunta, kuntayhtymä, puolue tai puolueen paikallisosasto. Kunta tai kuntayhtymä on ilmoittanut luottamushenkilömaksun, joka on peritty kunnalliseen luottamustoimeen valitulle henkilölle maksetuista palkkiosta. Maksua ei ole ilmoitettu, jos se on peritty muusta kuin kunnallisesta luottamustoimesta, esimerkiksi osakeyhtiön tai muun yksityisoikeudellisen yhteisön hallituksen jäsenyydestä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palkeisv",
+      "variablename": "Palkka, josta ei sairausvakuutusmaksua",
+      "conceptdef": "Palkka, josta ei makseta sairausvakuutusmaksua, euroa (€). Sairausvakuutuksen päivärahamaksu määrätään veronalaisen palkkatulon ja työtulon perusteella. Veronalaiseen tuloon voi sisältyä joitakin sellaisia eriä, jotka eivät kuulu päivärahamaksun perusteeseen. Näistä tuloista ei makseta työnantajan sairausvakuutusmaksua.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tsmlietu",
+      "variablename": "Työntekijällä on työsuhdematkalippu käytössä 1=on, 0=ei",
+      "conceptdef": "Vuosina 2006-2007.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tsmlivah",
+      "variablename": "Työsuhdematkalippuetu",
+      "conceptdef": "Työntekijän työsuhdematkalippuetu, joko kokonaan palkaksi katsottu tai työntekijältä peritty määrä, euroa (€). Jos palkansaaja ostaa matkalipun itse ja työnantaja maksaa työntekijälle matkalipun hinnan tai osan siitä, työnantajan maksama korvaus katsotaan kokonaisuudessaan työntekijän palkaksi. Tässä on ilmoitettu sekä palkkana verotettava summa, että mahdollinen palkansaajan nettopalkasta peritty korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "everonal",
+      "variablename": "Eläkkeen tai etuuden veronalaisen osan määrä",
+      "conceptdef": "Eläkkeen tai etuuden veronalaisen osan määrä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suoritus",
+      "variablename": "Suorituksen määrä",
+      "conceptdef": "Suoritusten määrä tai sijoitusrahasto-osuuden määrä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omistaja",
+      "variablename": "Metsänomistajaryhmä",
+      "conceptdef": "Metsänomistajaryhmä,01 = yksittäinen metsän omistaja tai kuolinpesä, 02 = metsän yhdessä omistavat puolisot, 03 = verotusyhtymä, 04 = avoin yhtiö, kommandiittiyhtiö tai muu elinkeinoyhtymä, 05 = yhteismetsä, tiekunta, kalastuskunta tai jakokunta,09 = osakeyhtiö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kauppahi",
+      "variablename": "Metsän kauppahinta",
+      "conceptdef": "Kauppahinta ilman arvonlisäveron osuutta euroa (€)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alvosuus",
+      "variablename": "Arvonlisäveron osuus myyjälle",
+      "conceptdef": "Puun myyjälle maksettu arvonlisäveron osuus euroa (€)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_yrtun",
+      "variablename": "Suojattu maksajan tunnus, yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_hnro",
+      "variablename": "Suojattu maksajan tunnus, henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "smak_muutun",
+      "variablename": "Suojattu maksajan muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_hnro",
+      "variablename": "Suojattu saajan henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_yrtun",
+      "variablename": "Suojattu saajan yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ssaa_muutun",
+      "variablename": "Suojattu saajan muu tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "srah_yrtun",
+      "variablename": "Suojattu sijoitusrahaston tunnus, yritystunnus",
+      "conceptdef": "Vuodesta 2015 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "srah_muutun",
+      "variablename": "Suojattu sijoitusrahaston tunnus, muu",
+      "conceptdef": "Vuodesta 2015 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Maksuvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

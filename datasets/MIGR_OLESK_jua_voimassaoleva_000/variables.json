@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "CASE_ID_s",
+      "variablename": "Suojattu asianumero",
+      "conceptdef": "Asian yksilöivä tunniste joka syntyy asian vireillepanossa. Vireillepanotoimenpide luo asian, johon myöhemmin kertyy asian käsittelyä varten tehdyt toimenpiteet. Asianumeroa voidaan käyttää yhdistämään samaan asiaan tehdyt muut toimenpiteet, kuten osapäätökset, päätökset tai työehdot toimenpiteet\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEASURE_ID_s",
+      "variablename": "Suojattu toimenpiteen numero",
+      "conceptdef": "Vireillepanotoimenpiteen (hakemuksen) yksilöllinen tunnus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": "Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle tehnyt muut asiat ja toimenpiteet.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOVUOSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOKUUKAUSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PERMIT_VALID_ON_DATE",
+      "variablename": "Poikkileikkaus_pvm",
+      "conceptdef": "Poikkileikkaus päivä jolloin lupa tai rekisteröinti on voimassa\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEASURE_CONFIRMATION_DATE_HAKEMUS",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSALAISUUS",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANS_VALIDITY_START",
+      "variablename": "Kansalaisuuden alkupvm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANS_VALIDITY_END",
+      "variablename": "Kansalaisuuden loppu pvm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CASE_GROUP_NAME_FIN",
+      "variablename": "Asiaryhma",
+      "conceptdef": "Lupatyyppi ilmaistaan Migrissä neljällä eri muuttujalla, jotka ovat hierarkkisessa suhteessa toisiinsa. Asiaryhmä on lupatyypin ylin hierarkia taso, joka jakautuu edelleen asiatyyppeihin, käsittelyperustetasoihin ja käsittelyperusteisiin, joista viimeisin lupatyypin tarkin taso. Asiaryhmiä ovat esimerkiksi Oleskeluluvat, Kansalaisuushakemukset, Kansainvälinen suojelu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CASE_TYPE_NAME_FIN",
+      "variablename": "Asiatyyppi",
+      "conceptdef": "case_type_name_fin case_type_id\nEU oleskeluoikeus 63\nEnsimmäistä oleskelulupaa koskeva hakemus 59\nJatkolupahakemus 60\nKiintiöpakolaisvalinta, UNHCR:n esitys, Humanitaarinen maahanmuutto, VN:n päätös 46\nOleskeluasema 532000\nOleskelutodistukset ja -ilmoitukset 83\nPitkäaikainen viisumi 488002\nPysyvää oleskelulupaa koskeva hakemus 61\nTilapäinen suojelu 48\nTurvapaikkahakemus 49",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROCESSING_GROUNDS_GROUP",
+      "variablename": "Kasittelyperustetaso",
+      "conceptdef": "Hakemuksen perusteen yläkategoria:\n\nprocessing_grounds_group processing_grounds_group_id\nEU-kansalainen 490003\nEnsimmäinen hakemus 490001\nKiintiöpakolaisvalinta 460001\nKv-suojelua saaneiden jatkoluvat 50\nMuut 4\nOleskeluasema 532001\nOleskelutodistukset ja -ilmoitukset 830001\nOpiskelu 3\nPerhe 1\nPerheenjäsenen oleskelukortti 1005\nPitkäaikainen viisumi 488001\nPitkään oleskelleen kolmannen maan kansalaisen EU -oleskelulupa 2000\nPysyvä oleskelulupa 2001\nSisäinen siirto 490004\nTilapäinen suojelu 480001\nTyö 2\nUusintahakemus 490002",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROCESSING_GROUNDS_NAME_FIN",
+      "variablename": "Kasittelyperuste ",
+      "conceptdef": "Hakemuksen peruste: Esimerkiksi Eritysasiantuntija, Suomen kansalaisen puoliso. \nValmisaineistossa käsittelyperuste karkeistetaan niin, että arkaluontoisimmat käsittelyperusteet peittyvät.\n\n\nprocessing_grounds_name_fin\n611-ryhmään liittyvä oleskelulupahakemus\nAdoptio\nAu pair\nD-viisumi\nEU-kansalaisen perheenjäsenen pysyvää oleskelukorttia koskeva hakemus\nEU-kansalaisen rekisteröinti\nEU-kansalaisen rekisteröinti, Elinkeinonharjoittaminen\nEU-kansalaisen rekisteröinti, opiskelu\nEU-kansalaisen rekisteröinti, perheside\nEU-kansalaisen rekisteröinti, riittävä toimeentulo\nEU-kansalaisen rekisteröinti, työnteko\nEntinen Suomen kansalainen, suomalainen syntyperä\nErityisasiantuntija\nErityisasiantuntija, sininen kortti\nErosopimuksen mukainen oleskeluoikeus\nErosopimuksen mukainen perheenjäsenen oleskeluoikeus\nErosopimuksen mukainen perheenjäsenen pysyvä oleskeluoikeus\nErosopimuksen mukainen pysyvä oleskeluoikeus\nHarjoittelija\nIlmoitus lyhytaikaisesta liikkumisesta\nIlmoitus opiskelijan liikkumisesta\nIlmoitus tutkijan liikkumisesta\nIlmoitus tutkijan perheenjäsenen liikkumisesta\nKansallinen tutkija\nKasvuyrittäjä\nKausityö\nKausityötodistus\nKiintiöpakolaisvalintaesitys\nKiintiöpakolaisvalintaesitys, EU\nKv. Suojelua saaneen huoltaja\nKv. Suojelua saaneen lapsi\nKv. Suojelua saaneen muu omainen\nKv. Suojelua saaneen puoliso\nKv. suojelua saaneen huoltaja\nKv. suojelua saaneen lapsi\nKv. suojelua saaneen muu omainen\nKv. suojelua saaneen puoliso\nLapsi\nLiikkuva sisäinen siirto\nMaastapoistamisen este\nMuu harjoittelija\nMuu omainen\nMuu peruste\nMuu työnteko\nMuun ulkomaalaisen huoltaja\nMuun ulkomaalaisen lapsi\nMuun ulkomaalaisen muu omainen\nMuun ulkomaalaisen puoliso\nOleskelukortin uusiminen\nOleskelulupa suojelun tarpeen perusteella\nOpiskelu\nOleskelulupakortin uusiminen\nOleskeluluvan peruuttaminen\nOsaratkaisua edellyttävä kausityö\nP-EU -asema toisessa valtiossa\nPakolaisasema\nPaluumuuttaja\nPerheenjäsenen oleskelukortti, ei EU-kansalainen\nPerhesidelupa\nPitkään oleskelleen EU-oleskelulupahakemus\nPuoliso\nPysyvä oleskelulupa muulla perusteella\nPysyvä oleskelulupa perhesiteen perusteella\nPysyvä oleskelulupa suojelun perusteella\nPysyvä oleskelulupa työnteon perusteella\nPysyvä oleskelulupa yrittämisen perusteella\nPysyvän statuksen vaihtaminen\nPysyvän statuksen vaihtaminen oleskelukortti\nPysyvää oleskelulupaa koskeva hakemus\nSeurustelusuhde\nSisäinen siirto\nSuomen kansalaisen huoltaja\nSuomen kansalaisen lapsi\nSuomen kansalaisen muu omainen\nSuomen kansalaisen puoliso\nSuomessa tutkinnon tai tutkimuksen suorittanut\nTieteellinen tutkimus\nTilapäinen suojelu\nTilapäistä suojelua koskeva asia\nTilapäistä suojelua koskeva asia, alaikäinen yksin tullut\nToissijaisen suojelun asema\nTurvapaikkahakemus, EU-kansalainen\nTurvapaikkahakemus, aikuinen\nTurvapaikkahakemus, mukana hakeva alaikäinen\nTurvapaikkahakemus, sisäinen siirto aikuinen\nTurvapaikkahakemus, sisäinen siirto alaikäinen yksin tullut\nTurvapaikkahakemus, sisäinen siirto mukana tullut alaikäinen\nTurvapaikkahakemus, uusintahakemus\nTurvapaikkahakemus, uusintahakemus aikuinen\nTurvapaikkahakemus, uusintahakemus mukana hakeva alaikäinen\nTurvapaikkahakemus, uusintahakemus yksin tullut alaikäinen\nTurvapaikkahakemus, yksin tullut alaikäinen\nTyönantajan moitittava menettely\nTyönhaku\nTyöntekijän oleskelulupa\nUrheilu ja valmentaminen\nVN:n esitys henkilöstä ja lupa\nVapaaehtoistoiminta\nWorking holiday\nYksilöllinen, inhimillinen syy\nYrittäjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALIDITY_START_DATE",
+      "variablename": "Voimassaolon alkupvm",
+      "conceptdef": "Tyhjät arvo: 1.1.1900\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALIDITY_END_DATE",
+      "variablename": "Voimassaolon loppupvm",
+      "conceptdef": "Tyhjät arvo: 31.12.9999\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALIDITY_PERMANENT",
+      "variablename": "Pysyva lupa",
+      "conceptdef": "Saa arvon 1 jos lupa on toistaiseksi voimassaoleva, arvon 0 jos määräaikainen. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

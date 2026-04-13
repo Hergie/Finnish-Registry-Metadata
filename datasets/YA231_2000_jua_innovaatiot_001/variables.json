@@ -1,0 +1,1404 @@
+{
+  "variables": [
+    {
+      "identifier": "OTOSSL",
+      "variablename": "Otoksen suuruusluokka",
+      "conceptdef": "Otoksessa käytetty suuruusluokka, 3= 10-19 henkilöä, \n4= 20-49 henkilöä, \n5= 50-9\n6 henkilöä,  6= 100-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTE",
+      "variablename": "Vaste-koodi tiedonantajarekisterissä",
+      "conceptdef": "Vastaustilanne, 0 = ei innovaatiotoimintaa, 1 =  innovaattori, 2=  konsernivastaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTOS",
+      "variablename": "Mukana otoksen perusteella",
+      "conceptdef": "Otokseen kuuluminen, 0= ei kuulu otokseen, 1= kuuluu otokseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PANELI",
+      "variablename": "Mukana panelissa",
+      "conceptdef": "Paneliin kuuluminen, 0 = ei kuulu paneliosioon, 1=kuuluu paneliosioon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILYKS",
+      "variablename": "Tilastoyksikkö, yritysrekisteri",
+      "conceptdef": "Kehikon tilastoyksikkö Yritys- ja toimipaikkarekisterin tilastoyksiköitä ovat yritys, paikallisyksikkö, toimipaikka, yritysryhmä (konserni) ja julkisyhteisö. Määrittely perustuu tilastoyksikköasetukseen (ETY) 696/93 ja yritysrekisteriasetukseen (EY) 177/2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTOSTOL",
+      "variablename": "Otostoimiala",
+      "conceptdef": "Toimiala otoksessa. Vähintään kymmenen henkilöä työllistävät yritykset teollisuudessa (ml. kaivostoiminta ja louhinta sekä sähkö-, kaasu- ja lämpöhuolto ja vesi- ja jätehuolto) sekä eräillä palvelualoilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_TOL95",
+      "variablename": "Toimialaluokitus 1995, yritysrekisteri",
+      "conceptdef": "Yrityksen päätoimiala, toimialaluokitus TOL 1995:n mukaan, taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_HK_SU",
+      "variablename": "Henkilökunnan suuruusluokka, kehikko",
+      "conceptdef": "Henkilöstön suuruusluokka, yritysrekisteri, yritysrekisterissä SLHKY (9 luokkaa), taustamuuttuja. 3 = 10-19 henkilöä, \n4 = 20-49 henkilöä, \n5 = 50-99\n henkilöä, 6 = 100-249\n henkilöä, 7 = 250-499\n henkilöä, 8 = 500-999\n henkilöä,  9= 1000- ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_VIE00",
+      "variablename": "Vienti 2000, rakennetilasto",
+      "conceptdef": " Yrityksen vienti 2000, 1 000 euroa ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_LV00",
+      "variablename": "Liikevaihto 2000, rakennetilasto",
+      "conceptdef": "Kirjanpidon mukainen liikevaihto, 1 000 euroa. Liikevaihto koostuu yrityksen varsinaisen toiminnan myyntituloista, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_HEN00",
+      "variablename": "Henkilökunta 2000, rakennetilasto",
+      "conceptdef": "Yrityksen henkilökunta 31.12. 2000.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_INV00",
+      "variablename": "Koneinvestoinnit 2000, rakennetilasto",
+      "conceptdef": "Yrityksen koneinvestoinnit. Määrittely perustuu tilastoyksikköasetukseen (ETY) 696/93 ja yritysrekisteriasetukseen (EY) 177/2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP_ALK",
+      "variablename": "Henkilöstö ",
+      "conceptdef": "Alkuperäinen henkilökunta ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKINNO",
+      "variablename": "Tutkimusmenot, kysely 2000",
+      "conceptdef": "Yrityksen omat tutkimusmenot, alkuperäinen vastaus, 1 000 euroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNOT",
+      "variablename": "Innovaattori",
+      "conceptdef": "Innovaattori, 1 = kyllä, 0 = ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERR",
+      "variablename": "Korotuskerroin, liikevaihdon mukainen",
+      "conceptdef": "Liikevaihdon mukainen korotuskerroin. Rakennetilaston tuotantotietokannan liikevaihdosta laskettu kerroin, ositteen kokonaisliikevaihto jaettuna vastanneiden liikevaihdolla. Korotuskerroin tarkoittaa havaintoon liittyvää painokerrointa, jonka avulla kokonaismääriä perusjoukossa arvioidaan otoksen perusteella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKMKERR",
+      "variablename": "Korotuskerroin, lukumäärän mukainen ",
+      "conceptdef": "Korotuskerroin tarkoittaa havaintoon liittyvää painokerrointa, jonka avulla kokonaismääriä perusjoukossa arvioidaan otoksen perusteella. Esim. henkilöstölukumäärän mukainen korotuskerroin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ID",
+      "variablename": "id-tunnus, Eurostat",
+      "conceptdef": " Eurostatin antama yksilöllinen tunniste.\t\t\t\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NACE",
+      "variablename": "Toimialaluokitus  NACE, Eurostat",
+      "conceptdef": "EU:n toimialaluokitus NACE.  EU-jäsenmaiden on käytettävä tilastotoimessa NACEa tai siihen perustuvaa kansallista versiota, jollainen toimialaluokitus ( TOL) on.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RDENG",
+      "variablename": "Oman tutkimus- ja kehittämistoiminnan säännöllisyys",
+      "conceptdef": "Yrityksen tutkimustoiminta vuosina 1998-2000 oli 1= säännöllistä (yrityksellä omaa pysyvää t&k-henkilöstöä), 2= satunnaista (vain tarvittaessa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GPX",
+      "variablename": "Yritystyyppi",
+      "conceptdef": " Yrityksen yritystyyppi: 1= konserni,  2= osa konsernia, 3= itsenäinen yritys.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HOX",
+      "variablename": "Konsenin kotimaa",
+      "conceptdef": "Konsernin emoyhtiön kotimaa, 1 = Konsernin kotimaa Suomi,  puuttuu = jokin muu maa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HO",
+      "variablename": "Konsernin kotimaa",
+      "conceptdef": "Konsernin emoyhtiön kotimaan 2-kirjaiminen maatunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP",
+      "variablename": "Henkilökunta 31.12.2000",
+      "conceptdef": "Henkilökunnan lukumäärä 31.12.2000.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMPHI",
+      "variablename": "Korkea-asteen tutkinnon suorittaneita",
+      "conceptdef": "Vähintään alimman korkea-asteen tutkinnon suorittaneiden osuus henkilökunnasta, prosenttia (%).  Yliopisto-, korkeakoulu- tai ammattikorkeakoulututkinto; opistoinsinööri, teknikko, merkonomi tai vastaava tutkinto.",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURN",
+      "variablename": "Liikevaihto, kysely",
+      "conceptdef": "Yrityksen liikevaihto vuonna 2000, tai viimeisin 12 kk tilikausi (vakuutusyhtiöt: vakuutusmaksutulo),  tuhansina euroina (1000€).",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EXP",
+      "variablename": "Vienti 2000",
+      "conceptdef": "Vienti vuonna 2000,  tuhansina euroina (1000€). Ei koske pankkeja ja vakuutusyhtiöitä.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INVTA",
+      "variablename": "Bruttoinvestoinnit aineelliseen käyttöomaisuuteen 2000",
+      "conceptdef": "Bruttoinvestoinnit aineelliseen käyttöomaisuuteen vuonna 2000, tuhansina euroina (1000€).",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EST",
+      "variablename": "Muutos: Yritys perustettiin",
+      "conceptdef": "Yrityksen perustaminen vuosina 1998-2000 on vaikuttanut yrityksen rakenteen muuttumiseen merkittävästi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä 0=ei. ",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURNINC",
+      "variablename": "Muutos: Yritys kasvoi",
+      "conceptdef": "Yrityksen kasvu vuosina 1998-2000 on vaikuttanut yrityksen rakenteen muuttumiseen merkittävästi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä 0=ei. ",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURNDEC",
+      "variablename": "Muutos: Toiminta supistui",
+      "conceptdef": "Yrityksen toiminnan supistuminen osien myynnin tai toimintojen lopettamisten vuoksi  on vaikuttanut vuosina 1998-2000  yrityksen rakenteen muuttumiseen merkittävästi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä 0=ei. ",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SIGMAR",
+      "variablename": "Tärkein markkina-alue",
+      "conceptdef": "Yrityksen tärkein markkina-alue on 1=lähimarkkinat kotimaassa (n. 50 km säteellä yrityksen kotipaikasta), 2=lähialueiden rajakauppa Venäjän, Ruotsin tai Norjan kanssa, 3=Suomen markkinat laajemmin, 4=kansainväliset markkinat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INPDT",
+      "variablename": "Uudet tuote- tai palveluinnovaatiot",
+      "conceptdef": "Yritys toi markkinoille vuosina1998-2000 sellaisia tuotteita tai palveluja, jotka olivat uusia tai olennaisesti parannettuja yrityksen aikaisempiin verrattuna, 1=kyllä 0=ei \n.\nTuoteinnovaatio on tavara tai palvelu, joka keskeisiltä ominaisuuksiltaan (esim. käyttötarkoitus, tekniset ratkaisut, tietotekniikan tai muun tietotaidon uudenlainen hyödyntäminen, käyttömukavuus) eroaa selvästi aikaisemmin tuotetuista. Pelkät tuotteen ulkonäköön tai muihin esteettisiin ominaisuuksiin kohdistuvat muutokset eivät ole innovaatioita. \n\nTuotteet tai palvelut ovat innovaatioita silloin, kun ne ovat uusia yrityksen näkökulmasta, niiden ei tarvitse olla uusia markkinoiden kannalta ja ne voivat myös olla muiden yritysten kehittämiä. Mukaan ei kuitenkaan lasketa pelkkää innovaatioiden jälleenmyyntiä ilman omaa tuotantoa tai kehittämistyötä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INPDTW",
+      "variablename": "Tuote- tai palveluinnovaatioiden kehittäjä",
+      "conceptdef": "Tuoteinnovaatioiden ensisijainen kehittäjä oli 1= oma yritys tai konserni, 2=oma yritys yhdessä muiden yritysten tai laitosten kanssa, 3=muut yritykset tai laitokset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURNIN",
+      "variablename": "Uusien tuotteiden osuus liikevaihdosta",
+      "conceptdef": "Vuosina1998-2000 markkinoille tuodut uudet tai olennaisesti parannetut tuotteet, osuus liikevaihdosta, prosenttia (%).\n\nTuoteinnovaatio on tavara tai palvelu, joka keskeisiltä ominaisuuksiltaan (esim. käyttötarkoitus, tekniset ratkaisut, tietotekniikan tai muun tietotaidon uudenlainen hyödyntäminen, käyttömukavuus) eroaa selvästi aikaisemmin tuotetuista. Pelkät tuotteen ulkonäköön tai muihin esteettisiin ominaisuuksiin kohdistuvat muutokset eivät ole innovaatioita. \n\nTuotteet tai palvelut ovat innovaatioita silloin, kun ne ovat uusia yrityksen näkökulmasta, niiden ei tarvitse olla uusia markkinoiden kannalta ja ne voivat myös olla muiden yritysten kehittämiä. Mukaan ei kuitenkaan lasketa pelkkää innovaatioiden jälleenmyyntiä ilman omaa tuotantoa tai kehittämistyötä.\n",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURNUNG",
+      "variablename": "Muuttumattomien tuotteiden osuus liikevaihdosta",
+      "conceptdef": "Vuosina 1998-2000 markkinoille tuodut muuttumattomat tai vain vähän muutetut tuotteet, osuus liikevaihdosta, prosenttia (%).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INMAR",
+      "variablename": "Yrityksen ja markkinoiden kannalta uudet tuotteet",
+      "conceptdef": "Yritys toi markkinoille vuosina1998-2000 sellaisia tuotteita tai palveluja, jotka olivat uusia tai olennaisesti parannettuja sekä yrityksen että markkinoiden kannalta,1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURNMAR",
+      "variablename": "Yrityksen ja markkinoiden kannalta uusien tuotteiden lv-osuus",
+      "conceptdef": "Yrityksen vuosina 1998-2000 markkinoille tuomia tuotteita tai palveluja, jotka olivat uusia tai olennaisesti parannettuja sekä yrityksen että markkinoiden kannalta, osuus  yrityksen liikevaihdosta vuonna 2000, prosenttia (%).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INPCS",
+      "variablename": "Uudet prosessi- innovaatiot",
+      "conceptdef": "Yritys on ottanut käyttöön vuosina 1998-2000 uusia tai olennaisesti parannettuja tuotteiden tai palvelujen prosesseja, kuten  tuotanto- tai jakelumenetelmiä, 1=kyllä 0=ei.  \n\nProsessi-innovaatio on yrityksen käyttöön ottama uusi tai olennaisesti parannettu tuotteiden ja palvelujen tuotantoteknologia, tuotanto- tai jakelumenetelmä. Prosessi-innovaatio vaikuttaa merkittävästi esimerkiksi tuotannon määrään, laatuun tai tuotanto- ja jakelukustannuksiin. Prosessi on innovaatio silloin, kun se on uusi yrityksen näkökulmasta, eli menetelmä on voinut olla käytössä aikaisemmin muualla. Prosessi voi olla myös muiden kuin oman yrityksen kehittämä. Pelkät organisaatioon tai johtamiseen liittyvät muutokset eivät ole tässä innovaatioita. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INPCSW",
+      "variablename": "Prosessi- innovaatioiden kehittäjä",
+      "conceptdef": "Prosessi-innovaatioiden ensisijainen kehittäjä oli 1= oma yritys tai konserni, 2=oma yritys yhdessä muiden yritysten tai laitosten kanssa, 3=muut yritykset tai laitokset.\nProsessi-innovaatio on yrityksen käyttöön ottama uusi tai olennaisesti parannettu tavaroiden tai palveluiden tuotantoprosessi, jakelumenetelmä tai tukitoiminto. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INNOKUV",
+      "variablename": "Innovaatiokuvaus",
+      "conceptdef": "Erillinen kuvaus tuote- tai prosessi-innovaatioista vuosina 1998-2000 kuvausmuuttujassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INON",
+      "variablename": "Keskeneräisiä innovaatioprojekteja",
+      "conceptdef": "Yrityksellä oli vuosina1998-2000 projekteja, joiden tavoitteena oli kehittää uusia tai olennaisesti parannettuja tuotteita, palveluja tai prosesseja (mukaan lukien t&k -toiminta), mutta jotka eivät valmistuneet vuoteen 2000 mennessä, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INAB",
+      "variablename": "Keskeytyneitä innovaatioprojekteja",
+      "conceptdef": "Yrityksellä oli vuosina1998-2000 projekteja, joiden tavoitteena oli kehittää uusia tai olennaisesti parannettuja tuotteita, palveluja tai prosesseja (mukaan lukien t&k -toiminta), mutta jotka keskeytyivät, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RRDIN",
+      "variablename": "Oma tutkimus ja kehittäminen",
+      "conceptdef": "Yrityksellä oli  vuonna 2000  omaa tutkimus-ja kehittämistoimintaa ( esim. tuotteet, palvelut, prosessit, atk-ohjelmistoihin kohdistuva tutkimus) 1=kyllä, 0=ei. Tutkimuksella ja kehittämisellä tarkoitetaan yleisesti systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämiseksi uusiin sovelluksiin. Tavoitteena on jotakin olennaisesti uutta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RRDEX",
+      "variablename": "Ulkopuolelta tilattu tutkimus ja kehittäminen",
+      "conceptdef": "Yrityksellä oli vuonna 2000 menoja ulkopuolelta tilatusta tutkimus- ja kehittämistoiminnasta ( esim. tuotteet, palvelut, prosessit, atk-ohjelmistoihin kohdistuva tutkimus): 1=kyllä, 0=ei. \n\nMuilta yrityksiltä (ml. oman konsernin yritykset), korkeakouluilta tai tutkimuslaitoksilta tilattu t&k. \n\nTutkimuksella ja kehittämisellä tarkoitetaan yleisesti systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämiseksi uusiin sovelluksiin. Tavoitteena on jotakin olennaisesti uutta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RMAC",
+      "variablename": "Innovaatioihin liittyvät kone- ja laitehankinnat",
+      "conceptdef": "Yrityksellä oli vuonna 2000 menoja kone- ja laitehankinnoista tai atk-laitteiden ja -ohjelmistojen hankinnoista uusien tai olennaisesti parannettujen tuotteiden tai prosessien tuottamiseksi 1=kyllä, 0=ei.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROEK",
+      "variablename": "Osaamisen hankinta ulkopuolelta",
+      "conceptdef": "Yrityksellä oli vuonna 2000 muita innovaatioihin liittyvän osaamisen hankintamenoja, mm. patentit, oikeudet ei-patentoituihin keksintöihin, lisenssit, tuotemerkit, ohjelmistot ja muu vastaava tietotaidon hankinta 1=kyllä, 0=ei. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RTR",
+      "variablename": "Innovaatiotoimintaan liittyvä koulutus ja perehdyttäminen",
+      "conceptdef": "Yrityksellä oli vuonna 2000 innovaatiotoimintaan liittyviä menoja oman yrityksen järjestämästä tai ulkopuolelta tilatusta koulutuksesta, joka liittyi uusien tai olennaisesti parannettujen tuotteiden tai prosessien kehittämiseen ja/tai käyttöönottoon 1=kyllä, 0=ei.  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RMAR",
+      "variablename": "Innovaatioiden markkinoille tuominen",
+      "conceptdef": "Yrityksellä oli vuonna 2000 menoja omista tai tilatuista markkinointitoimenpiteistä innovaatioiden markkinoille tuomiseksi. Sisältää alustavan markkinatutkimuksen, koemarkkinoinnin ja markkinoille tulon vaatiman mainonnan. Ei sisällä jakeluverkostojen rakentamista, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RPRE",
+      "variablename": "Tuotantoprosessien muokkaus ja teollinen muotoilu",
+      "conceptdef": "Yrityksellä oli vuonna 2000 menoja innovaatioiden edellyttämistä tuotteiden tai palvelujen tuotantoprosessien muokkauksesta ja/ tai teollisesta muotoilusta. Innovaatioiden toteutuksesta aiheutuneet kustannukset, jotka eivät sisälly aikaisempiin kohtiin, 1=kyllä 0=ei. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RRDINX",
+      "variablename": "Omat tutkimusmenot",
+      "conceptdef": "Yrityksen oman tutkimus- ja kehittämistoiminnan menot vuonna 2000,  markkoina / tuhansina euroina (1000€). Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.\n\nTutkimus- ja kehittämistoiminnalla tarkoitetaan systemaattista toimintaa, jonka tavoitteena on tiedon lisääminen tai olemassa olevan osaamisen käyttäminen uusien sovellusten kehittämiseksi (esim. tuotteet, palvelut, prosessit, atk-ohjelmistoihin kohdistuva tutkimus).",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RRDEXX",
+      "variablename": "Tilatun tutkimuksen menot",
+      "conceptdef": "Yrityksen ulkopuolelta tilatun tutkimus- ja kehittämistoiminnan menot vuonna 2000, markkoina / tuhansina euroina (1000€). Ulkopuolelta tilattuun t&k:hon lasketaan mukaan muilta yrityksiltä (ml. oman konsernin yritykset), korkeakouluilta tai tutkimuslaitoksilta tilattu t&k. \n\nMukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RMACX",
+      "variablename": "Innovaatiohin liittyvien kone- ja laitehankintojen menot",
+      "conceptdef": "Innovaatioihin liittyvien koneiden ja laitteiden (ml. atk-laitteet) hankintamenot vuonna 2000, markkoina / tuhansina euroina (1000€). Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit, ilman poistoja. Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROEKX",
+      "variablename": "Ulkopuolelta hankitun osaamisen menot",
+      "conceptdef": "Muu innovaatioihin liittyvän osaamisen hankintamenot vuonna 2000, markkoina / tuhansina euroina (1000€). Tähän kuuluvat mm. patentit, oikeudet ei-patentoituihin keksintöihin, lisenssit, tuotemerkit, ohjelmistot ja muu vastaava tietotaidon hankinta. Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja).  Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROTHX",
+      "variablename": "Innovaatiotoiminnan muut menoerät",
+      "conceptdef": "Innovaatioihin liittyvät  muut menoerät vuonna 2000, markkoina / tuhansina euroina (1000€). Tähän lasketaan mukaan koulutus ja perehdyttäminen (RTR), markkinoille tuominen (RMAR) sekä  tuotteiden ja palvelujen tuotantoprosessin muokkaus ja teollinen muotoilu (RPRE). Mukaan lasketaan sekä oman yrityksen järjestämä että ulkopuolelta tilattu koulutus ja perehdyttäminen. Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RTOT",
+      "variablename": "Innovaatiotoiminnan menot yhteensä",
+      "conceptdef": "Innovaatiotoiminnan menot yhteensä, markkoina / tuhansina euroina (1000€). Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.",
+      "measunit": "1 000 €",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKHENK",
+      "variablename": "Tutkimushenkilökunta",
+      "conceptdef": "Tutkimushenkilökunnan lukumäärä vuonna 2000. Tutkimus- ja tuotekehityshenkilökuntaan kuuluvat ne henkilöt, jotka ovat yksikössä tilastovuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&k-hankkeisiin suoranaisesti liittyvää hallintotyötä tai toimisto- yms. rutiinitehtäviä. Henkilökuntaan ei lasketa yksikön keskushallintoon kuuluvia koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä suorittaneita henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RDPER",
+      "variablename": "Tutkimustyövuodet",
+      "conceptdef": "Tutkimustyövuodet vuonna 2000, henkilötyövuosina. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4-6 viikon loma-aika mukaanluettuna). Henkilötyövuosi kuvaa kokoaikaiseksi muutetun henkilön työpanosta. Yrityksen (yhteisön) kaikki palkatut tunnit (säännöllinen työaika+ylityötunnit) jaetaan yrityksen (yhteisön) kokoaikaisten palkansaajien keskimääräisillä palkatuilla tunneilla vuodessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERANGE",
+      "variablename": "Vaikutukset, tuote- tai palveluvalikoiman laajentuminen",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa tuote- tai palveluvalikoiman laajentumiseen, 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMAR",
+      "variablename": "Vaikutukset, markkinoiden laajentuminen tai markkinaosuuden kasvaminen\n",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa markkinoiden laajentumiseen tai markkinaosuuden kasvamiseen, 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EQUA",
+      "variablename": "Vaikutukset, tuotteiden tai palvelujen laadun paraneminen",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa tuotteiden tai palvelujen laadun paranemiseen, 0=ei relevantti, 1= vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EFLEX",
+      "variablename": "Vaikutukset, tuotannon joustavuuden parantuminen",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa tuotannon joustavuuden parantumiseen, 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ECAP",
+      "variablename": "Vaikutukset, tuotantokapasiteetin lisäys",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa tuotantokapasiteetin lisäykseen 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ELBR",
+      "variablename": "Vaikutukset, alentuneet työkustannukset",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa alentuneisiin työkustannuksiin tuotettua yksikköä kohden 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMAT",
+      "variablename": "Vaikutukset, vähentynyt materiaalien ja energian käyttö",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa vähentyneeseen materiaalien ja energian käyttöön tuotettua yksikköä kohden, 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EENV",
+      "variablename": "Vaikutukset, ympäristöhaittojen vähentyminen",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa ympäristöhaittojen vähentymiseen, parantuneisiin terveys- ja turvallisuusnäkökohtiin, 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESTD",
+      "variablename": "Vaikutukset, viranomaismääräysten täyttyminen",
+      "conceptdef": "Vuosien 1998-2000 innovaatiotoiminnan vaikutus vuoden 2000 lopussa viranomaismääräysten, lainsäädännön tai standardien vaatimusten täyttymiseen, 0=ei relevantti, 1=vähäinen, 2=merkittävä, 3=suuri.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FUNLOC",
+      "variablename": "Innovaatioitoiminnan rahoitustuki paikallisilta tai alueellisilta viranomaisilta",
+      "conceptdef": "Vuosina 1998-2000 yritys sai julkista rahoitustukea innovaatiotoiminnalle paikallisilta tai alueellisilta viranomaisilta 1=kyllä 0=ei. Innovaatiotoiminnan julkisella tuella tarkoitetaan julkisrahoitteisia avustuksia tai lainoja, joiden ehtoihin liittyy tukielementtejä. Tavanomaisia julkisia hankintoja ei  lasketa mukaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FUNGMT",
+      "variablename": "Innovaatioitoiminnan  rahoitustuki valtiolta tai sen laitoksilta",
+      "conceptdef": "Vuosina 1998-2000 yritys sai julkista rahoitustukea innovaatiotoiminnalle valtiolta tai sen laitoksilta (esim. Tekes, Sitra) 1=kyllä 0=ei. Innovaatiotoiminnan julkisella tuella tarkoitetaan julkisrahoitteisia avustuksia tai lainoja, joiden ehtoihin liittyy tukielementtejä. Tavanomaisia julkisia hankintoja ei  lasketa mukaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FUNEU",
+      "variablename": "Innovaatiotoiminnan rahoitustuki EUlta",
+      "conceptdef": "Vuosina 1998-2000 yritys sai julkista rahoitustukea innovaatiotoiminnalle Euroopan Unionilta 1=kyllä, 0=ei. Innovaatiotoiminnan julkisella tuella tarkoitetaan julkisrahoitteisia avustuksia tai lainoja, joiden ehtoihin liittyy tukielementtejä. Tavanomaisia julkisia hankintoja ei  lasketa mukaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "FUNRTD",
+      "variablename": "Innovaatiotoiminnan rahoitus EU:n tutkimuksen puiteohjelmasta",
+      "conceptdef": "Vuosina 1998-2000 yritys sai julkista rahoitustukea innovaatiotoiminnalle EU:n 4. (1994-1998) tai 5. (1998-2002)  tutkimuksen puiteohjelmasta 1=kyllä, 0=ei. Innovaatiotoiminnan julkisella tuella tarkoitetaan julkisrahoitteisia avustuksia tai lainoja, joiden ehtoihin liittyy tukielementtejä. Tavanomaisia julkisia hankintoja ei  lasketa mukaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO",
+      "variablename": "Innovaatioyhteistyö",
+      "conceptdef": "Yrityksellä oli tuote- ja prosessi-innovaatioihin liittyvää yhteistyötä muiden yritysten tai laitosten kanssa vuosina 1998-2000, 1=kyllä, 0=ei. Innovaatiotoimintaan liittyvällä yhteistyöllä tarkoitetaan aktiivista osallistumista muiden yritysten tai voittoa tavoittelemattomien laitosten kanssa innovaatioprojekteihin. Yhteistyöstä ei tarvitse välttämättä koitua kaupallista hyötyä. Pelkkiä tilaustöitä ei lueta yhteistyöksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO11",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Suomessa vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO12",
+      "variablename": "Innovaatioyhteistyö, oma konserni,  EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa muissa Euroopan maissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO13",
+      "variablename": "Innovaatioyhteistyö, oma konserni, EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa muissa  EU:n ehdokasjäsenmaissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO14",
+      "variablename": "Innovaatioyhteistyö, oma konserni,  Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Yhdysvalloissa vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO15",
+      "variablename": "Innovaatioyhteistyö, oma konserni, Japani",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa Japanissa vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO16",
+      "variablename": "Innovaatioyhteistyö, oma konserni, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä oman konsernin yritysten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO21",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Suomessa vuosina 1998-2000, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO22",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat,  EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa muissa Euroopan maissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO23",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa  EU:n ehdokasjäsenmaissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO24",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Yhdysvalloissa  vuosina 1998-2000, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO25",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat Japani",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa Japanissa vuosina 1998-2000, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO26",
+      "variablename": "Innovaatioyhteistyö, materiaalien toimittajat. muu maa",
+      "conceptdef": "Innovaatioyhteistyötä laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000, 1=kyllä 0=ei ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO31",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Suomessa vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO32",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa muissa Euroopan maissa vuosina 1988-2000, 1=kyllä, 0=ei.Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO33",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa EU:n ehdokasjäsenmaissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n  ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO34",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Yhdysvalloissa vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO35",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, Japani",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa Japanissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO36",
+      "variablename": "Innovaatioyhteistyö, asiakkaat, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä asiakkaiden kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO41",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Suomessa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO42",
+      "variablename": "Innovaatioyhteistyö, kilpailijat,  EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa muissa Euroopan maissa vuosina 1988-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO43",
+      "variablename": "Innovaatioyhteistyö, kilpailijat,  EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa EU:n ehdokasjäsenmaissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n  ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO44",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Yhdysvalloissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO45",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, Japani",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa Japanissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO46",
+      "variablename": "Innovaatioyhteistyö, kilpailijat, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä kilpailijoiden tai toimialan muiden yritysten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO51",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten, kanssa Suomessa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO52",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten kanssa muissa Euroopan maissa vuosina 1988-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO53",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten kanssa EU:n ehdokasjäsenmaissa vuosina 1988-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO54",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten kanssa Yhdysvalloissa vuosina 1988-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO55",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, Japani",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten kanssa Japanissa vuosina 1988-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO56",
+      "variablename": "Innovaatioyhteistyö, konsulttiyritykset, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä konsulttiyritysten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1988-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO61",
+      "variablename": "Innovaatioyhteistyö, tutkimus- ja kehittämistoiminta, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä tutkimus- ja kehittämistoiminta palveluja tarjoavien yritysten kanssa Suomessa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO62",
+      "variablename": "Innovaatioyhteistyö, tutkimus- ja kehittämistoiminta, EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä tutkimus- ja kehittämistoiminta palveluja tarjoavien yritysten kanssa muissa Euroopan maissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO63",
+      "variablename": "Innovaatioyhteistyö, tutkimus- ja kehittämistoiminta, EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä tutkimus- ja kehittämistoiminta palveluja tarjoavien yritysten kanssa EU:n ehdokasjäsenmaissa vuosina vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO64",
+      "variablename": "Innovaatioyhteistyö, tutkimus- ja kehittämistoiminta, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä tutkimus- ja kehittämistoiminta palveluja tarjoavien yritysten  kanssa Yhdysvalloissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO65",
+      "variablename": "Innovaatioyhteistyö, tutkimus- ja kehittämistoiminta, Japani",
+      "conceptdef": "Innovaatioyhteistyötä tutkimus- ja kehittämistoiminta palveluja tarjoavien yritysten kanssa Japanissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO66",
+      "variablename": "Innovaatioyhteistyö, tutkimus- ja kehittämistoiminta, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä tutkimus- ja kehittämistoiminta palveluja tarjoavien yritysten  kanssa muissa maissa  (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO71",
+      "variablename": "Innovaatioyhteistyö, yliopistot ja korkeakoulut,  Suomi",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkeakoulujen kanssa Suomessa vuosina 1998-2000, 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO72",
+      "variablename": "Innovaatioyhteistyö, yliopistot ja korkeakoulut EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkeakoulujen kanssa muissa Euroopan maissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO73",
+      "variablename": "Innovaatioyhteistyö, yliopistot ja korkeakoulut, EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkeakoulujen kanssa EU:n ehdokasjäsenmaissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat EU:n ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO74",
+      "variablename": "Innovaatioyhteistyö, yliopistot ja korkeakoulut, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkeakoulujen kanssa Yhdysvalloissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO75",
+      "variablename": "Innovaatioyhteistyö, yliopistot ja korkeakoulut, Japani",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkeakoulujen kanssa Japanissa vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO76",
+      "variablename": "Innovaatioyhteistyö, yliopistot ja korkeakoulut,  muu maa",
+      "conceptdef": "Innovaatioyhteistyötä yliopistojen ja korkeakoulujen kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000, 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO81",
+      "variablename": "Innovaatioyhteistyö, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset, Suomi",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Suomessa vuosina 1998-2000 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO82",
+      "variablename": "Innovaatioyhteistyö, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset, EU, Efta maa",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa muissa Euroopan maissa vuosina 1998-2000, 1=kyllä, 0=ei. Tähän kuuluvat seuraavat Euroopan unionin (EU) maat, Efta-maat: Alankomaat, Belgia, Britannia, Espanja, Irlanti, Italia, Itävalta, Kreikka, Luxemburg, Portugali, Ranska, Ruotsi, Saksa, Tanska, Islanti, Liechtenstein, Norja, Sveitsi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO83",
+      "variablename": "Innovaatioyhteistyö, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset, EU:n ehdokasjäsenmaa",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa EU:n ehdokasjäsenmaissa vuosina 1998-2000, 1=kyllä, 0=ei.Tähän kuuluvat seuraavat EU:n ehdokasjäsenmaat, Bulgaria, Kypros, Latvia, Liettua, Malta, Puola, Romania, Slovakia, Slovenia, Tsekki, Turkki, Unkari, Viro.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO84",
+      "variablename": "Innovaatioyhteistyö, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset, Yhdysvallat",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Yhdysvalloissa vuosina 1998-2000 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO85",
+      "variablename": "Innovaatioyhteistyö, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset, Japani",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa Japanissa vuosina 1998-2000 1=kyllä, 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CO86",
+      "variablename": "Innovaatioyhteistyö, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset, muu maa",
+      "conceptdef": "Innovaatioyhteistyötä julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa muissa maissa (eli muissa kohdissa mainitsemattomilla alueilla) vuosina 1998-2000 1=kyllä, 0=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COGRP",
+      "variablename": "Innovaatioyhteistyön merkitys, oma konserni",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle oman konsernin kanssa, 0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COSUP",
+      "variablename": "Innovaatioyhteistyön merkitys, materiaalien toimittajat",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle  laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien kanssa,  0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COCLI",
+      "variablename": "Innovaatioyhteistyön merkitys, asiakkaat",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle asiakkaiden kanssa,  0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COCOM",
+      "variablename": "Innovaatioyhteistyön merkitys, kilpailijat",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle kilpailijoiden kanssa,  0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COCON",
+      "variablename": "Innovaatioyhteistyön merkitys, konsulttiyritykset",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle konsulttiyritysten kanssa, 0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CORD",
+      "variablename": "Innovaatioyhteistyön merkitys, t&k-palveluja tarjoavat yritykset ",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle tutkimus- ja kehittämispalveluja tarjoavien yritysten kanssa, 0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COUNI",
+      "variablename": "Innovaatioyhteistyön merkitys, yliopistot ja korkeakoulut",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle yliopistojen ja korkeakoulujen kanssa, 0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COGMT",
+      "variablename": "Innovaatioyhteistyön merkitys, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset",
+      "conceptdef": "Innovaatioyhteistyön merkitys yritykselle julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten kanssa,  0= ei yhteistyötä, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SENT",
+      "variablename": "Tietolähteet, oma yritys",
+      "conceptdef": "Oman yrityksen merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SGRP",
+      "variablename": "Tietolähteet, oma konserni",
+      "conceptdef": "Oman konsernin merkitys tietolähteenä yrityksen innovaatiotoiminnassa  vuosina 1998 - 2000,0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SSUP",
+      "variablename": "Tietolähteet, materiaalien toimittajat",
+      "conceptdef": "Laitteiden, materiaalien, komponenttien tai atk-ohjelmistojen toimittajien merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCLI",
+      "variablename": "Tietolähteet, asiakkaat",
+      "conceptdef": "Asiakkaiden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCOM",
+      "variablename": "Tietolähteet, kilpailijat",
+      "conceptdef": "Kilpailijoiden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUNI",
+      "variablename": "Tietolähteet, yliopistot ja korkeakoulut",
+      "conceptdef": "Yliopistojen ja korkeakoulujen merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SGMT",
+      "variablename": "Tietolähteet, julkiset tai yksityiset voittoa tavoittelemattomat tutkimuslaitokset",
+      "conceptdef": "Julkisten tai yksityisten voittoa tavoittelemattomien tutkimuslaitosten merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SPRO",
+      "variablename": "Tietolähteet, konferenssit, kokoukset, yms.",
+      "conceptdef": "Konferenssien, kokouksien, ammattikirjallisuuden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SEXB",
+      "variablename": "Tietolähteet, messut, näyttelyt",
+      "conceptdef": "Messujen ja näyttelyiden merkitys tietolähteenä yrityksen innovaatiotoiminnassa vuosina 1998 - 2000, 0= ei käytössä, 1= vähäinen, 2= merkittävä, 3= suuri. Tietolähteet, joista yritys sai informaatiota uusia innovaatioprojekteja varten tai jotka myötävaikuttivat käynnissä olleiden innovaatioprojektien päätökseen saattamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HDLAY",
+      "variablename": "Vaikeudet, projekti hidastui",
+      "conceptdef": "Projekti hidastui merkittävästi vuosina 1998-2000 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HSTAR",
+      "variablename": "Vaikeudet, projektia ei aloitettu",
+      "conceptdef": "Projektia ei voitu edes aloittaa vuosina 1998-2000, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HBUR",
+      "variablename": "Vaikeudet, projektilla muita ongelmia",
+      "conceptdef": "Projektilla oli muita merkittäviä ongelmia vuosina 1998-2000 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HPRIOR",
+      "variablename": "Haittaava tekijä, uusia innovaatioita ei tarvittu",
+      "conceptdef": "Uusia innovaatioita ei tarvittu vuosina 1998-2000  jo olemassa olleiden riittäessä, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HMAR",
+      "variablename": "Haittaava tekijä, innovaatioita ei tarvittu markkinatilanteen vuoksi",
+      "conceptdef": "Innovaatioita ei tarvittu vuosina 1998-2000  markkinatilanteen vuoksi, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HIMP",
+      "variablename": "Haittaava tekijä, muut ",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haittasi vuosina 1998-2000,  muut tekijät, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HECO",
+      "variablename": "Haittaava tekijä, liian suuri taloudellinen riski",
+      "conceptdef": " Yrityksen innovaatiotoimintaa haitanneiden taloudellisten tekijöiden merkitys vuosina 1998-2000; arvioitu taloudellinen riski liian suuri: 0= ei relevantti,1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HCOS",
+      "variablename": "Haittaava tekijä, liian suuret kustannukset",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden taloudellisten tekijöiden merkitys vuosina 1998-2000; innovaatiotoiminnan kustannukset liian suuret: 0= ei relevantti,1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HFIN",
+      "variablename": "Haittaava tekijä, rahoituslähteiden puute",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden taloudellisten tekijöiden merkitys vuosina 1998-2000; soveltuvien rahoituslähteiden puuttuminen: 0= ei relevantti, 1= vähäinen, 2=merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HORG",
+      "variablename": "Haittaava tekijä, organisatoriset jäykkyydet",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden sisäisten tekijöiden merkitys vuosina 1998-2000; organisatoriset jäykkyydet: 0= ei relevantti, 1= vähäinen, 2=merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HPER",
+      "variablename": "Haittaava tekijä, pätevän henkilökunnan puute",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden sisäisten tekijöiden merkitys vuosina 1998-2000; pätevän henkilökunnan puute: 0= ei relevantti, 1= vähäinen, 2=merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HTEC",
+      "variablename": "Haittaava tekijä, teknologiaa koskevan tiedon puute",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden sisäisten tekijöiden merkitys vuosina 1998-2000; teknologiaa koskevan tiedon puute, 0= ei relevantti, 1= vähäinen, 2=merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HINF",
+      "variablename": "Haittaava tekijä, markkinoita koskevan tiedon puute",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden sisäisten tekijöiden merkitys vuosina1998-2000; markkinoita koskevan tiedon puute, 0= ei relevantti, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HFLEX",
+      "variablename": "Haittaava tekijä, joustamaton lainsäädäntö, standardit",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden sisäisten tekijöiden merkitys vuosina1998-2000; joustamaton lainsäädäntö, standardit, 0= ei relevantti, 1= vähäinen, 2= merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HCUS",
+      "variablename": "Haittaava tekijä, asiakkaiden vähäinen kiinnostus ",
+      "conceptdef": "Yrityksen innovaatiotoimintaa haitanneiden sisäisten tekijöiden merkitys vuosina1998-2000; asiakkaiden kiinnostus innovaatioihin vähäinen, 0= ei relevantti, 1= vähäinen, 2=merkittävä, 3= suuri ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAAP",
+      "variablename": "Suojauskeinot, patenttihakemukset",
+      "conceptdef": "Yrityksellä/omalla konsernilla oli innovaatioiden ja keksintöjen suojauskeinoina vuosina 1998-2000  patenttihakemuksia 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAVAL",
+      "variablename": "Suojauskeinot, voimassaolevat patentit",
+      "conceptdef": "Yrityksellä/omalla konsernilla oli innovaatioiden ja keksintöjen suojauskeinoina vuosina 1998-2000 voimassaolevia patentteja 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROREG",
+      "variablename": "Suojauskeinot, mallioikeuksien rekisteröinti",
+      "conceptdef": "Yrityksellä/omalla konsernilla oli innovaatioiden ja keksintöjen suojauskeinoina vuosina 1998-2000  mallioikeuksien rekisteröinti,1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROTM",
+      "variablename": "Suojauskeinot, tavaramerkin rekisteröinti",
+      "conceptdef": "Yrityksellä/omalla konsernilla oli innovaatioiden ja keksintöjen suojauskeinoina vuosina 1998-2000  tavaramerkin rekisteröinti, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROCP",
+      "variablename": "Suojauskeinot, tekijänoikeudet",
+      "conceptdef": "Yrityksellä/omalla konsernilla oli innovaatioiden ja keksintöjen suojauskeinoina  vuosina 1998-2000  tekijänoikeudet (copyright), 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROSEC",
+      "variablename": "Suojauskeinot, salassapito",
+      "conceptdef": "Yrityksellä/omalla konsernilla ol innovaatioiden ja keksintöjen suojauskeinoina vuosina1998-2000 salassapito,1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRODES",
+      "variablename": "Suojauskeinot, tuotteen tai palvelun kompleksisuus",
+      "conceptdef": "Yrityksellä/omalla konsernilla ol innovaatioiden ja keksintöjen suojauskeinoina vuosina1998-2000  tuotteen tai palvelun kompleksisuus, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PROTIM",
+      "variablename": "Suojauskeinot, kilpailijoita nopeampi toiminta",
+      "conceptdef": "Yrityksellä/omalla konsernilla ol innovaatioiden ja keksintöjen suojauskeinoina vuosina1998-2000  kilpailijoita nopeampi toiminta, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACTSTR",
+      "variablename": "Strategiset tai organisatoriset uudistukset, yritysstrategia",
+      "conceptdef": "Yrityksen muut strategiset tai organisatoriset uudistukset vuosina 1998 - 2000. Uuden tai olennaisesti muutetun yritysstrategian käyttöönotto, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACTMAN",
+      "variablename": "Strategiset tai organisatoriset uudistukset, johtamismenetelmät",
+      "conceptdef": "Yrityksen muut strategiset tai organisatoriset uudistukset vuosina 1998 - 2000. Uudenlaisten johtamismenetelmien käyttöönotto, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACTORG",
+      "variablename": "Strategiset tai organisatoriset uudistukset, organisaatiorakenne",
+      "conceptdef": "Yrityksen muut strategiset tai organisatoriset uudistukset vuosina 1998 - 2000. Uusi tai olennaisesti muutettu organisaatiorakenne, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACTMAR",
+      "variablename": "Strategiset tai organisatoriset uudistukset, markkinointi",
+      "conceptdef": "Yrityksen muut strategiset tai organisatoriset uudistukset vuosina 1998 - 2000. Uusi tai olennaisesti muutettu markkinointimenetelmä tai -strategia, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ACTAES",
+      "variablename": "Strategiset tai organisatoriset uudistukset, esteettiset muutokset",
+      "conceptdef": "Yrityksen muut strategiset tai organisatoriset uudistukset vuosina 1998 - 2000. Yrityksen tuotteisiin tai palveluihin tehdyt esteettisluonteiset, \nulkonäköön, houkuttelevuuteen yms. liittyvät merkittävät muutokset, 1=kyllä 0=ei",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "GP",
+      "variablename": "Yritystyyppi",
+      "conceptdef": "Yritystyyppi, 0= itsenäinen yritys, 1= konserniyritys.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMP98",
+      "variablename": "Henkilöstö  ",
+      "conceptdef": "Henkilökunta 31.12. 1998 \t\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EXP98",
+      "variablename": "Vienti 1998",
+      "conceptdef": "Vienti vuonna 1998,  lähde: Yritysten rakennetietokanta, 1 000 euroa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TURN98",
+      "variablename": "Liikevaihto, rakennetilasto vuonna 1998",
+      "conceptdef": "Liikevaihto vuonna 1998, lähde: Yritysten rakennetietokanta, 1 000 euroa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INVTA98",
+      "variablename": "Kone- ja laiteinvestoinnit  vuonna 1998",
+      "conceptdef": "Kone- ja laiteinvestoinnit vuonna 1998, lähde: Yritysten rakennetietokanta, 1 000 euroa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WEIGHT",
+      "variablename": "Painokerroin",
+      "conceptdef": "Korotuskerroin, lukumäärän suhteen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HINNO",
+      "variablename": "Innovoinnin esteitä, 1 = kyllä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NUTS2",
+      "variablename": "Suur-alue",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "STRB",
+      "variablename": "Osite, Eurostat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

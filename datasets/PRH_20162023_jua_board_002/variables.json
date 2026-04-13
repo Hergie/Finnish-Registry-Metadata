@@ -1,0 +1,100 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Pohja-aineistossa on myös tyhjiä jenttiä, jotka on myös tuotu mukaan. Kyseessä on useimmiten henkilö, jolla ei ole suomalaista henkilötunnusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRITYKSEN_TILA",
+      "variablename": "Yrityksen tila",
+      "conceptdef": "R=rekisterissä, L=lakannut",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOIMIELINKOODI",
+      "variablename": "Toimielimen koodi",
+      "conceptdef": "Toimielinkoodi: \nASTO\tAsukastoimikunta\nEDU\tEdustaja\nELI\tElinkeinonharjoittaja\nESR\tTosiasialliset edunsaajat\nETJÄS\tEtuyhtymän jäsenet\nEVA\tEdunvalvojat\nHAL\tHallitus\nHH\tHallinnon hoitaja\nHN\tHallintoneuvosto\nIS\tIsännöitsijä\nISAN\tIsännöitsijät\nJO\tJohtaja\nJOH\tJohtokunta\nJOHT\tJohtajat\nOI\tOikeutetut\nPER\tPerustajat\nPR\tProkuristit\nSANS\tSelvittäjät\nSELM\tSelvitysmiehet\nSO\tOikeutetut selvitystilan aikana\nTEDU\tToimipaikan edustajat\nTIL\tTilintarkastajat\nTJ\tToimitusjohtaja\nTJS\tToimitusjohtajan sijainen\nTOIM\tToimitusjohtajat\nUE\tUlkomaiset edustajat\nUSM\tUskotut miehet\nVAH\tVastuunalainen hoitaja\nVED\tVaraedustaja\nVIS\tVaraisännöitsijä\nVTJ\tVaratoimitusjohtaja\nYHM\tYhtiömiehet\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROOLIKOODI",
+      "variablename": "Vastuuhenkilörooli",
+      "conceptdef": "Vastuuhenkilörooli saa arvot:\nE  Edunvalvoja\nEDU\tEdustaja\nELI\tElinkeinonharjoittaja\nES\tTosiasiallinen edunsaaja\nHH\tHallinnon hoitaja\nIS\tIsännöitsijä\nJ\tVarsinainen jäsen\nJO\tJohtaja\nLT\tLisätilintarkastaja\nOI\tOikeutettu\nPIS\tPäävastuullinen isännöitsijä\nPJ\tPuheenjohtaja\nPR\tProkuristi\nPTI\tPäävastuullinen tilintarkastaja\nS\tSelvitysmies\nSANS\tSaneerauksen selvittäjä\nSO\tOikeutettu selvitystilan aikana\nT\tTilintarkastaja\nTJ\tToimitusjohtaja\nTJS\tToimitusjohtajan sijainen\nU\tUskottu mies\nUE\tUlkomainen edustaja\nVAH\tVastuunalainen hoitaja\nVED\tVaraedustaja\nVIS\tVaraisännöitsijä\nVJ\tVarajäsen\nVPJ\tVarapuheenjohtaja\nVS\tVaraselvitysmies\nVT\tVaratilintarkastaja\nVTJ\tVaratoimitusjohtaja\nVU\tUskotun miehen varamies\nYHM\tYhtiömies\nYHMÄ\tÄänetön yhtiömies\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JASENMAARA_MAX",
+      "variablename": "Jasenet enimmäismäärä",
+      "conceptdef": "Varsinaisten jäsenten enimmäismäärä toimielimessä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "JASENMAARA_MIN",
+      "variablename": "Jasenet vähimmäismäärä",
+      "conceptdef": "Varsinaisten jäsenten vähimmäismäärämäärä toimielimessä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASUINMAA",
+      "variablename": "Asuinmaa karkeistettuna",
+      "conceptdef": "Jäsenen asuinmaa karkeistettuna: FI, Muu Eurooppa ja Muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANSALAISUUS",
+      "variablename": "Jasenen kansallisuus karkeistettuna",
+      "conceptdef": "FI - Suomi, muutoin \"-\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROOLIN_ALKU_PVM",
+      "variablename": "Vastuuhenkilön roolin alkamispäivämäärä",
+      "conceptdef": "Perustuu Kaupparekisrein Companyrolesid-taulun muuttujaan body_registrationDate",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROOLIN_LOPPU_PVM",
+      "variablename": "Vastuuhenkilön roolin loppumispäivämäärä",
+      "conceptdef": "Jos kaupparekisteri poiminnan Companyrolesid-taulun muuttuja \"body_expirationDate\" on  tyhjä, niin perustuu muodostamissääntöön.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ORGANISAATION_REKISTEROINTI_PVM",
+      "variablename": "Organisaation  perustamispäivämäärä",
+      "conceptdef": "Yrityksen/organisaation perustamispäivämäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

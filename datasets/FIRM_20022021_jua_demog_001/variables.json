@@ -1,0 +1,108 @@
+{
+  "variables": [
+    {
+      "identifier": "DemAlpvm",
+      "variablename": "Demografinen aloituspvm",
+      "conceptdef": "Demografinen aloituspäivämäärä on se päivämäärä, jolloin yrityksen on aidosti katsottu aloittaneen toimintansa. Liikevaihtoon huomoidaan kaikki lähteet. Yrityksellä ei katsota olleen henkilöstöä, jos se pyöristyy alle arvon 0.1. Aloitusvuotta edeltää vähintään kaksi tilastovuotta, jolloin yrityksellä ei ole ollut liikevaihtoa tai henkilöstöä. Aloituspäivämäärä on sen vuoden ensimmäinen päivä, jolloin yrityksellä on liikevaihtoa ja / tai henkilöstöä ensimmäistä kertaa vähintään kahteen vuoteen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DemAloitusAito",
+      "variablename": "Aloituksen aitouskoodi, kyllä/ei",
+      "conceptdef": "Aloituksen aitouskoodi, kyllä/ei. Luokitus ei täsmällisesti vastaa kuvauksessa esitettyä.\n\nTyhjä arvo viittaa aloitukseen, joka ei ole yhdistynyt automaattisessa aitouksien tarkistuksissa muihin yrityksiin, joten niitä voi pitää aitoina aloituksina.\n\nArvo 0 viittaa epäaitoon aloitukseen. Mikäli yritys yhdistyy potentiaaliseen edeltäjään, on muuttujassa SDemEdeltaja tämän yrityksen yritysID. Mikäli SDemEdeltäjä on tyhjä, potentiaalisia edeltäjiä on useita (esim. fuusiotilanne), aloitusmuoto on väärä tai aloittaneella yrityksellä on voimassa konsernisuhde aloitusvuonna.\n\nArvo 1 viittaa aitoon aloitukseen, joka on automaattisessa tai manuaalisessa tarkistuksessa todettu aidoksi. Automaattisessa tarkistuksessa yritys on yhdistynyt toisiin yksiköihin, mutta aloitus on katsottu aidoksi.",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "luokitus"
+    },
+    {
+      "identifier": "DemLopPvm",
+      "variablename": "Demografinen lopetuspvm",
+      "conceptdef": "Demografinen lopetuspvm. Liikevaihtoon huomoidaan kaikki lähteet. Yrityksellä ei katsota olleen henkilöstöä, jos se pyöristyy alle arvon 0.1. Lopetuspäivämäärä on sen tilastovuoden viimeinen päivä, jota seuraa vähintään kaksi tilastovuotta, joiden aikana yrityksellä ei ole ollut henkilöstöä tai liikevaihtoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DemLopetusAito",
+      "variablename": "Lopetuksen aitouskoodi, kyllä/ei",
+      "conceptdef": "Lopetuksen aitouskoodi, kyllä/ei. \n\nTyhjä arvo viittaa aitoon lopetukseen, jossa yritys aidosti lopettaa, eikä yhdisty automaattisessa tarkistuksessa muihin yksiköihin.\n\nArvo 0 viittaa epäaitoon lopetukseen, jossa yritys ei aidosti lopeta toimintaansa tuotannontekijöiden yhdistelmänä, vaan liiketoiminta jatkuu oletettavasti jossakin muussa yrityksessä. Mikäli SDemSeuraaja - muuttuja on tyhjä, potentiaalisia seuraajia on useita eikä seuraajaa voida määrittää. Mikäli SDemSeuraaja - muuttuja ei ole tyhjä, potentiaalinen seuraaja on tunnistettu.\n\nArvo 1 viittaa aitoon lopetukseen, jossa yritys lopettaa toimintansa. Lopetuksen aitous on tarkistettu automaattisesti tai manuaalisesti, mutta lopetus on todettu aidoksi.\n",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "luokitus"
+    },
+    {
+      "identifier": "tilaDemografia",
+      "variablename": "Demografiatiedon tila -koodi",
+      "conceptdef": "Demografiatiedon tila -koodi. Luokitus ei välttämättä ole aina aineistossa tässä kuvatun kaltainen. \n\n0 Tarkistamaton\n1 Automaattisesti hyväksytty\n2 Tarkistettava manuaalisesti\n3 Manuaalisesti hyväksytty",
+      "measunit": null,
+      "classification": "demogtila_2_2012_01_01",
+      "variablegroups": "luokitus"
+    },
+    {
+      "identifier": "lopEnnakollinen",
+      "variablename": "Lopetuksen ennakollisuuskoodi (kyllä/ei -ennakko)",
+      "conceptdef": "Lopetuksen ennakollisuuskoodi (kyllä 1/ei 0 -ennakko). Luokitus ei välttämättä ole aina aineistossa tässä kuvatun kaltainen. ",
+      "measunit": null,
+      "classification": "vast_vaihtoehdo_69_2012_01_01",
+      "variablegroups": "luokitus"
+    },
+    {
+      "identifier": "versioID",
+      "variablename": "VersioID",
+      "conceptdef": "YTY-tietovaraston demografia-taulun versioID.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnistetiedot, ohjaustiedot"
+    },
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritys-ID, yrityksen tunnus",
+      "conceptdef": "Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa, käytössä muissa yritysaineistoissa vuodesta 2013 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnus"
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Yritystunnus puuttuu kunnallisilta liikelaitoksilta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SDemSeuraaja",
+      "variablename": "Seuraajayrityksen suojattu yritysID",
+      "conceptdef": "Seuraajayrityksen suojattu yritysID, mikäli lopettaneelle yritykselle on pystytty tunnistamaan yksi yritysID joka on potentiaalinen jatkaja. Potentiaalisia seuraajia ei saa olla useita. Seuraajaksi valitaan ensisijaisesti hallinnollisesta aineistosta löydetty yritys. Mikäli yritys yhdistyy osoitteen ja toimialan perusteella toiseen yritykseen, saa samassa osoitteessa olla korkeintaan kolme yritystä, jotta kyseessä voi olla edeltäjä - jatkaja -pari.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnus"
+    },
+    {
+      "identifier": "SDemEdeltaja",
+      "variablename": "Edeltäjäyrityksen suojattu yritysID",
+      "conceptdef": "Edeltäjäyrityksen suojattu yritysID. Potentiaalisia edeltäjiä ei saa olla useita. Edeltäjäksi valitaan ensisijaisesti hallinnollisesta aineistosta löydetty yritys. Mikäli yritys yhdistyy osoitteen ja toimialan perusteella toiseen yritykseen, saa samassa osoitteessa olla korkeintaan kolme yritystä, jotta kyseessä voi olla edeltäjä - jatkaja -pari. Yritykset, joilla on voimassa oleva konsernisuhde aloitusvuonna, merkitään epäaidoiksi aloituksiksi ilman edeltäjää. Vastaavasti toimitaan määrättyjen oikeudellisten yksiköiden hallinnollisten aloitusmuotojen kanssa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnus"
+    },
+    {
+      "identifier": "sdemseuyrtun",
+      "variablename": "Suojattu seuraajan yritystunnus",
+      "conceptdef": "Ks. sdemseuraaja-muuttujan kuvaus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sdemedyrtun",
+      "variablename": "Suojattu edeltäjän yritystunnus",
+      "conceptdef": "ks. sdemedeltaja-muuttujan kuvaus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

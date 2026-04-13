@@ -1,0 +1,196 @@
+{
+  "variables": [
+    {
+      "identifier": "jnro",
+      "variablename": "Juokseva numero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastointivuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nelj",
+      "variablename": "Tilastointineljännes",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rno",
+      "variablename": "Matkan numero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pvm",
+      "variablename": "Matkan alkamispäivämäärä (ppkk)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mlkm",
+      "variablename": "Samanlaisten matkojen lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "almaa",
+      "variablename": "Matkan alkamismaa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkdi1",
+      "variablename": "Matkan alkamispaikan kunnan nimi Suomessa tai paikkakunnan nimi ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lno1",
+      "variablename": "Matkan alkamispaikka, jos terminaali",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "kttav_terminaal_1_2017_01_30",
+      "variablegroups": null
+    },
+    {
+      "identifier": "paatmaa",
+      "variablename": "Matkan päättymismaa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkdi2",
+      "variablename": "Matkan päättymispaikan kunnan nimi Suomessa tai paikkakunnan nimi ulkomailla",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lno2",
+      "variablename": "Matkan päättymispaikka, jos terminaali",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "kttav_terminaal_1_2017_01_30",
+      "variablegroups": null
+    },
+    {
+      "identifier": "Transito",
+      "variablename": "Ulkomaanmatkan transitomaat, pilkulla eroteltuna",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tlaji",
+      "variablename": "Tavaralaji",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "tavaralaji_2_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "mpit",
+      "variablename": "Matkan pituus (km)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pvaunu",
+      "variablename": "Perävaunu mukana matkan aikana",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "ktyyppi_1_2017_01_30",
+      "variablegroups": null
+    },
+    {
+      "identifier": "pakseli",
+      "variablename": "Perävaunun akseleiden lukumäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "matkaty",
+      "variablename": "Matkatyyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "matka_11_2017_01_19",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tmaara",
+      "variablename": "Kuorman paino suurimmillaan (kg)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taytto",
+      "variablename": "Kuorman täyttöaste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "tayttoaste_1_2017_02_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "adr_lk",
+      "variablename": "Vaarallisten aineiden luokka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "adr_1_2017_01_30",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpi_lk",
+      "variablename": "Kuormatyyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": "kuormatyyppi_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuntakoodi1",
+      "variablename": "Matkan alkamiskunnan koodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuntakoodi2",
+      "variablename": "Matkan päättymiskunnan koodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FIRM_19882018_jua_empestjwfl_001.xml",
+      "doi": "ata_2014-01_2014-01-02_ain_0001",
+      "subject": "FIRM_EMPEST Toimipaikkakohtainen työpaikka- ja työntekijävirta-aineisto",
+      "contentdescription": "Työpaikka- ja työntekijävirta-aineistoon on laskettu toimipaikoittain virtatietoja käyttäen 1-vuoden aikavälejä (1988 - 1989, 1990 - 1991,  …, 2017 - 2018). \n\nAineisto jwflow_vvvv on koottu yhdistämällä työssäkäyntitilastoaineisto (FLEED) yritysrekisterin toimipaikka-aineiston kanssa. Mukaan on otettu kaikki toimipaikat, joissa on yli 1 henkilöä. Vuodesta 2017 alkaen aineisto pohjautuu FLEEDin sijaan FOLK työssäkäyntimoduulin tietoihin.\n\nAineistossa jwflow_vvvv_stan_1p toimipaikkatason tiedot on aggregoitu yrityssektorin toimialoille. Jos ryhmässä on alle 3 toimipaikkaa, työpaikkavirtoja koskevia tunnuslukuja ei ole esitetty tietosuojasyistä. Aineisto sisältää seuraavat indikaattorit:\nlkm='Number of establishments'\nl_x='Number of emplyees in initial year, employment stat'=sum(l_x)\nl_y='Number of emplyees in end year, employment stat'=sum(l_y)\nlyr_x='Number of emplyees in initial year, business reg.'=sum(lyr_x)\nlyr_y='Number of emplyees in end year, business reg.'=sum(lyr_y)\nnetr='Net rate, linked employees'=sum(jc-jd)/sum(l_xy)\nnetr_yr='Net rate, BR persons'=sum(jc_yr-jd_yr)/sum(lyr_xy)\njcr ='Job creation rate, linked emp.'=sum(jc)/sum(l_xy)\njcr_yr ='Job creation rate, BR per.'=sum(jc_yr)/sum(lyr_xy)\njcr_yr_x='Job creation rate, new plants, BR per.'\njdr = 'Job destruction rate, linked emp.'=sum(jd)/sum(l_xy)\njdr_yr='Job destruction rate, BR per.'=sum(jd_yr)/sum(lyr_xy)\njdr_yr_x='Job destruction rate, exit plants, BR per.'\nejr= 'Excess job reallocation rate'=sum(jc+jd)/sum(l_xy)-abs(sum(jc-jd)/sum(l_xy))\nejr_yr= 'Excess job reallocation, BR'=sum(jc_yr+jd_yr)/sum(lyr_xy)-abs(sum(jc_yr-jd_yr)/sum(lyr_xy))\nwifr= 'Worker inflow rate'=sum(wif)/sum(l_xy)\nwofr= 'Worker outflow rate'=sum(wof)/sum(l_xy)\ncfr='Churning rate'=sum(wif+wof-jc-jd)/sum(l_xy)\n\nAineisto on alunperin tuotettu osana OECD:n Multiprod-hanketta. \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n\n",
+      "coveragetemporal": "1988-01-01 - 2022-12-31",
+      "published_day": "2021-06-18",
+      "variable_count": "18",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Yrityssektorin toimipaikat, joissa on yli 1 henkilö",
+      "resourcerelation_1": "FLEED/FOLK-aineisto (työssäkäyntitilasto), yritysrekisteri",
+      "resourcerelation_2": "<a href= \"http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_tyopaikka_ja_tyontekijavirta.html\">Työpaikka- ja työntekijävirta</a> ",
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

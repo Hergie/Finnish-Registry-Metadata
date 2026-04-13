@@ -1,0 +1,132 @@
+{
+  "variables": [
+    {
+      "identifier": "toimija_OID_s",
+      "variablename": "Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID).",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimija"
+    },
+    {
+      "identifier": "toimipaikka_OID_s",
+      "variablename": "Toimipaikan suojattu tunniste (organisaatio-OID).",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "toimipaikka_id_s",
+      "variablename": "Suojattu Vardan sisäinen tunniste toimipaikalle",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "alkamispvm",
+      "variablename": "Toiminnan alkamispäivämäärä.",
+      "conceptdef": "Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen alkamispäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka, toimija"
+    },
+    {
+      "identifier": "paattymispvm",
+      "variablename": "Toiminnan päättymispäivämäärä, jos tiedossa.",
+      "conceptdef": "Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen päättymispäivämäärä. Tyhjät arvot voidaan tulkita toiminnan jatkumisena.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimija, toimipaikka"
+    },
+    {
+      "identifier": "y_tunnus_s",
+      "variablename": "Suojattu toimijan yritystunnus.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimija"
+    },
+    {
+      "identifier": "yritysmuoto_k",
+      "variablename": "Karkeistettu toimijan yritysmuoto.",
+      "conceptdef": "Yritysmuoto on karkeistettu aattellisten yhdistysten, kirkon, seurakuntien tai muiden uskonnollisten yhteisöjen osalta luokkaan muut. Toimija-taulussa arvot pohjautuvat <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/yritysmuoto\"> Vardan luokitukseen</a> (31.03.2026),\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimija"
+    },
+    {
+      "identifier": "kuntakoodi",
+      "variablename": "Kuntakoodi",
+      "conceptdef": "Toimijan tai toimipaikan kuntakoodi, pohjautuu Tilastokeskuksen kolminumeroiseen kuntakoodiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka, toimija"
+    },
+    {
+      "identifier": "kasvatusopillinen_jarjestelma",
+      "variablename": "Toimipaikan kasvatusopilliseen järjestelmään viittaava koodi, perustuu Vardan luokitukseen.",
+      "conceptdef": "<a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardakasvatusopillinenjarjestelma\">Vardan kasvatusopillinen järjestelmä -koodisto</a> (26.03.2026):\nKJ01=Steiner-pedagogiikka,\nKJ02=Montessori-pedagogiikka,\nKJ03=Freinet-pedagogiikka,\nKJ04=Reggio Emilia -pedagogiikka,\nKJ05=Freireläinen pedagogiikka,\nKJ98=Ei painotusta,\nKJ99=Muu (passiivinen).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "toimintamuotokoodi",
+      "variablename": "Toimipaikan viimeisin havaittu toimintamuotokoodi, perustuu Vardan luokitukseen.",
+      "conceptdef": "<a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardatoimintamuoto\">Vardan toimintamuoto-koodisto</a> (31.03.2026):\nTM01=Päiväkoti,\nTM02=Perhepäivähoito,\nTM03=Ryhmäperhepäivähoito.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "JM01",
+      "variablename": "Järjestämismuoto on kunnan tai kuntayhtymän järjestämä.",
+      "conceptdef": "Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <p><a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto\">Vardan järjestämismuoto-koodistoon</a></p> (26.03.2026).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "JM02",
+      "variablename": "Järjestämismuoto on ostopalvelu, kunnan tai kuntayhtymän järjestämä.",
+      "conceptdef": "Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto\">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "JM03",
+      "variablename": "Järjestämismuoto on palveluseteli, kunnan tai kuntayhtymän järjestämä.",
+      "conceptdef": "Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto\">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "JM04",
+      "variablename": "Järjestämismuoto on yksityisen hoidon tuella järjestetty.",
+      "conceptdef": "Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto\">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "JM05",
+      "variablename": "Järjestämismuoto on yksityinen varhaiskasvatus ilman yksityisen hoidon tukea.",
+      "conceptdef": "Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto\">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    },
+    {
+      "identifier": "varhaiskasvatuspaikat",
+      "variablename": "Toimipaikan varhaiskasvatuspaikat",
+      "conceptdef": "Perustuu viimeisimpään Vardaan kirjattuun tietoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "toimipaikka"
+    }
+  ]
+}

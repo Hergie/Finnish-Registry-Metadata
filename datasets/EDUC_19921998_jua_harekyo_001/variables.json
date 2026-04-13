@@ -1,0 +1,108 @@
+{
+  "variables": [
+    {
+      "identifier": "HYV",
+      "variablename": null,
+      "conceptdef": "Hyväksyminen korkeakouluhauissa.\n1=on hyväksytty\n2=ei ole hyväksytty\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HJAR",
+      "variablename": null,
+      "conceptdef": "Hakutoiveen järjestys:\n1=1. sija\n2=2. sija\n3=3. sija\n...\n9=9. sija\n\nSisältää myös puuttuvia arvoja, Z-arvoja ja 0-arvoja: Vuodelta 1993 HJAR-muuttuja puuttuu kokonaan, jonka lisäksi muinakin vuosina esiintyy puuttuvia arvoja ja myös 0-arvoja ja Z-arvoja. Puuttuvia arvoja esiintyy vuosilta 1992, 1993, 1995 ja 1998, 0-arvoja esiintyy vuosilta 1995 ja 1998. Z-arvoja esiintyy vain vuodelta 1992, ja ne esiintyvät yhteydessä hakuihin ylempään korkeakoulututkintoon (opintoasteelle 5), vaikuttaen vain noin 0.3%:iin kaikista kokonaisaikavälin havainnoista. \n\nHuom.: vuodelta 1998 hakutoiveen järjestysdata on käyttökelpoista vain ns. valtakunnallisissa yhteisvalinnoissa mukana olleista. Tällöin yliopistojen opiskelijavalinnoissa vuonna 1998 on ensimmäisen kerran sovellettu yhteistä järjestelmää yliopistojen opiskelijavalintojen tueksi (HE 59/1998).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERVAL",
+      "variablename": null,
+      "conceptdef": "Erikoistapausvalinnalla haku korkeakouluihin.\n1=hakija on mukana erillisvalinnassa\n2=hakija ei ole mukana erillisvalinnassa\n\nSisältää myös puuttuvia arvoja ja 0-arvoja: Puuttuvia arvoja on vuosilta 1992-1994, joista 1992-1993 ERVAL-muuttuja puuttuu kokonaan. Vuonna 1994 muuttujalle ERVAL on annettu arvo ainoastaan jos hakija on mukana erillisvalinnassa (arvo 1).\nVuosina 1995-1997 erillisvalinnassa mukana olevat hakijat saavat ERVAL-muuttujassa arvon 1, ja hakijat, jotka eivät ole mukana erillisvalinnassa, saavat arvon 2. \n1998 muuttujalle ERVAL on annettu arvo 1 jos hakija on mukana erillisvalinnassa, ja arvo 0 kaikissa muissa tapauksissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OALA",
+      "variablename": null,
+      "conceptdef": "Opintoala-muuttuja viittaa yliopistojen opintoaloihin seuraavan mukaisesti:\n75 teologinen\n76 humanistinen \n77 taideteollinen\n78 musiikkiala\n79 teatteri- ja tanssiala\n80 kasvatustieteellinen\n81 liikuntatieteellinen\n82 yhteiskuntatieteellinen\n83 psykologia\n84 terveydenhuolto/terveystieteet\n85 oikeustieteellinen\n86 kauppatieteellinen\n87 luonnoniteteellinen\n88 maatalous-metsätieteellinen\n89 teknillistieteellinen\n90 lääketieteellinen\n91 hammaslääketieteellinen\n92 eläinlääketieteellinen\n93 farmasia\n94 kuvataideala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OASTE",
+      "variablename": null,
+      "conceptdef": "Korkeakoulujen opintoasteet. Huom. muuttujan tilastointi vaihtelee aikavälillä. Vuosina 1992-1995:\n04 = alempi korkeakoulututkinto\n05 = ylempi korkeakoulututkinto \n\nVuosina 1996-1998 yliopistojen opintoasteet:\n05=alempi korkeakoulututkinto\n06=ylempi korkeakoulututkinto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou",
+      "variablename": "Salattu_koulumuuttuja",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme. Skkou on muodostettu niin, että kaikki korkeakoulut on luokiteltu kunkin kyseisen hakuvuoden tilanteen mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou1",
+      "variablename": "Salattu_koulumuuttuja_2009",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme.\nSkkou1 on muodostettu niin, että kaikki korkeakoulut on luokiteltu vuoden 2009 tilanteen mukaan. Aineistosta on siis korvattu hakuvuoden jälkeen yhdistyneiden korkeakoulujen tunnukset vuonna 2009 olemassaolevan yliopiston suojatulla tunnuksella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "skkou2",
+      "variablename": "Salattu_koulumuuttuja_2013",
+      "conceptdef": "Yliopistojen salatut muuttujat (skkou-muuttujat) ovat suojattuja korkeakoulujen tunnusnumeroita. Korkeakoulujen ja tiedekuntien yhdistymisistä johtuen muuttujia on kolme.\nSkkou2 on muodostettu niin, että kaikki korkeakoulut on luokiteltu vuoden 2013 tilanteen mukaan. Aineistosta on siis korvattu hakuvuoden jälkeen yhdistyneiden korkeakoulujen tunnukset vuonna 2013 olemassaolevan yliopiston suojatulla tunnuksella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SP",
+      "variablename": null,
+      "conceptdef": "Hakijan  sukupuoli\n 1=mies\n 2=nainen\nTieto saatavilla vuodesta 1997 alkaen. Sisältää myös puuttuvia arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VOSAL",
+      "variablename": null,
+      "conceptdef": "Valintakokeeseen osallistuminen korkeakouluhauissa.\n1=on osallistunut valintakokeeseen\n2=ei ole osallistunut valintakokeeseen\nSisältää myös puuttuvia arvoja ja 0- ja 3-arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvuosi",
+      "variablename": null,
+      "conceptdef": "Vuosimuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": null,
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shetu",
+      "variablename": null,
+      "conceptdef": "Suojattu henkilötunnus. Muuttuja shnro toimii tunnisteena vuosittaisten aineistojen välillä, ja shetu toimii toissijaisena tunnisteena vain kunkin vuosiaineiston sisällä hakijoille, jolta puuttuu shnro. Ei yhdisty aineistojen välillä. Muuttujassa esiintyy myös vaillinaisista tiedoista johtuvia virheitä, eikä siihen tule suhtautua shnro:n tapaan luotettavana tunnistamisen välineenä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

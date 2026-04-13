@@ -1,0 +1,412 @@
+{
+  "variables": [
+    {
+      "identifier": "ilmnro_s",
+      "variablename": "Suojattu onnettomuuden ilmoitusnumero",
+      "conceptdef": "Onnettomuuden suojattu tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tietue",
+      "variablename": "Tietuetyyppi",
+      "conceptdef": "Onnettomuusmoduuli sisältää vain onnettomuustietueen arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tietotyy",
+      "variablename": "Onnettomuuden tietotyyppi",
+      "conceptdef": "Rivin tietotyyppi:\n1=henkilövahinko-onnettomuus,\n2=omaisuusvahinko-onnettomuus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vvonn",
+      "variablename": "Tieliikenneonnettomuuden tapahtumavuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkonn",
+      "variablename": "Tieliikenneonnettomuuden tapahtumakuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pponn",
+      "variablename": "Tieliikenneonnettomuuden tapahtumapäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ttonn",
+      "variablename": "Tieliikenneonnettomuuden tapahtumatunti.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "viikpv",
+      "variablename": "Viikonpäivä",
+      "conceptdef": "1=Maanantai,\n2=Tiistai,\n3=Keskiviikko,\n4=Torstai,\n5=Perjantai,\n6=Lauantai,\n7=Sunnuntai.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kunta",
+      "variablename": "Kunta",
+      "conceptdef": "Tieliikenneonnettomuuden tapahtumahetken kunta. Perustuu kolminumeroiseen Tilastokeskuksen kuntakoodiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "taajama",
+      "variablename": "Onnettomuuspaikka taajamassa",
+      "conceptdef": "1=Taajaman sisällä,\n2=Taajaman ulkopuolella,\nTyhjä arvo=Ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "onnpaik",
+      "variablename": "Tieliikenneonnettomuuden onnettomuuspaikka",
+      "conceptdef": "Onnettomuuspaikan luokitus.\n1=Ajorata,\n2=Suojatie,\n3=Kevyen liikenteen väylä,\n4=Pysäköintialue, piha,\n5=Muu,\n6=Silta,\n7=Lautta tai lossi,\n8=Ramppi,\n9=Linja-autopysäkki,\nTyhjä arvo=Ei tietoa.",
+      "measunit": null,
+      "classification": "onnettomuus_15_2020_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "x",
+      "variablename": "Tieliikenneonnettomuuspaikan x-koordinaatti",
+      "conceptdef": "Käytetty koordinaattijärjestelmä: ETRS-TM35FIN. Voi sisältää tyhjiä arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "y",
+      "variablename": "Tieliikenneonnettomuuspaikan y-koordinaatti",
+      "conceptdef": "Käytetty koordinaattijärjestelmä: ETRS-TM35FIN. Voi sisältää tyhjiä arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "thmomol",
+      "variablename": "Onnettomuuspaikka moottoritiellä tai moottoritieliikennetiellä",
+      "conceptdef": "Tapahtuiko tieliikenneonnettomuus moottoritiellä tai moottoriliikennetiellä.\n1=moottoritie,\n2=moottoriliikennetie,\nTyhjä arvo=Muu tai ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tienro",
+      "variablename": "Tien numero",
+      "conceptdef": "Tieliikenneonnettomuuspaikan tien numero.\n1-39=Valtatie,\n40-99=Kantatie,\n100-9999=Muu maantie,\n10000-99999=paikallistie,\nTyhjä arvo=Kadut tai yksityistiet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tieptja",
+      "variablename": "Tienpitäjä",
+      "conceptdef": "1= Väylävirasto (ent. nimiltään Tiehallinto, Liikennevirasto),\n2=Kunta,\n3=Yksityinen tai muu.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "risteys",
+      "variablename": "Risteyksen tyyppi",
+      "conceptdef": "1=Tasa-arvoinen,\n2=Kärkikolmio,\n3=STOP-merkki\n4=Liikennevalolaitteet,\n5=Muu risteys\n8=Kiertoliittymä.\nTyhjä arvo=Ei risteystä tai ei liikennevaloja tai ei tietoa.\n\nVoi sisältää luokituksen ulkopuolisia arvoja sekä tyhjiä arvoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tasoris",
+      "variablename": "Rautatien tasoristeys",
+      "conceptdef": "Rautatien tasoristeyksen tyyppi.\n1=Puomi,\n2=Ääni ja valo,\n3=Ei turvalaitetta,\nTyhjä arvo=Ei tasoristeys tai ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tietyo",
+      "variablename": "Tietyö",
+      "conceptdef": "1=Kyllä,\n2=Ei,\nTyhjä arvo=Ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "livalot",
+      "variablename": "Liikennevalojen toiminta onnettomuushetkellä",
+      "conceptdef": "1=Toiminnassa,\n2=Vilkuilla,\n3=Ei toiminnassa,\n4=Epäkunnossa,\nTyhjä arvo=Ei liikennevaloja tai ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nopeusr",
+      "variablename": "Nopeusrajoitus tieliikenneonnettomuuspaikalla (km/h)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "keli",
+      "variablename": "Keli tien pinnalla",
+      "conceptdef": "1=Paljas, kuiva,\n2=Paljas, märkä,\n3=Urissa vettä,\n4=Luminen,\n5=Sohjoinen,\n6=Jäinen,\n7=Ajourat paljaat,\nTyhjä arvo=Ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saa",
+      "variablename": "Sää onnettomuushetkellä",
+      "conceptdef": "1=Kirkas päivä,\n2=Pilvipouta,\n3=Sumu,\n4=Vesisade,\n5=Lumisade,\n6=Räntäsade,\nTyhjä arvo=Ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lampilma",
+      "variablename": "Ilman lämpötila onnettomuushetkellä (celsiusasteina)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valoisu",
+      "variablename": "Valoisuus onnettomuushetkellä",
+      "conceptdef": "1=Päivänvalo,\n2=Hämärä,\n3=Pimeä,\n4=Pimeä, tie valaistu,\nTyhjä arvo=Ei tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "onntyyp",
+      "variablename": "Onnettomuustyyppi",
+      "conceptdef": "00\tOhitus\n01\tKaksoisohitus\n02\tKaistanvaihto oikealle\n03\tKaistanvaihto vasemmalle\n04\tKylkikosketus\n05\tAjo liikkeelle lähtevään ajoneuvoon\n06\tPeräänajo jarruttavaan ajoneuvoon\n07\tMuu peräänajo liikkuvaan ajoneuvoon\n08\tPeräänajo\n09\tMuu samat ajosuunnat, ei kääntymisiä\n10\tPeräänajo käännyttäessä oikealle\n11\tMuu törmäys käännyttäessä oikealle\n12\tPeräänajo käännyttäessä vasemmalle\n13\tMuu törmäys käännyttäessä vasemmalle\n14\tU-käännös samaan suuntaan kulkeneen ajoneuvon eteen\n15\tPolkupyöräilijä pyörätiellä, toinen ajoneuvo kääntyi oikealle\n16\tPolkupyöräilijä pyörätiellä, toinen ajoneuvo kääntyi vasemmalle\n19\tMuu samat ajosuunnat, kääntyminen\n20\tKohtaaminen suoralla\n21\tKohtaaminen kaarteessa\n22\tKohtaaminen ohitettaessa suoralla\n23\tKohtaaminen ohitettaessa kaarteessa\n24\tSuistuminen väistämisen seurauksena\n29\tMuu kohtaamisonnettomuus ei kääntymisiä\n30\tKääntyminen vasemmalle vastaantulevan eteen tai kylkeen\n31\tKääntyminen samaan ajosuuntaan\n32\tKääntyminen eri ajosuuntiin\n33\tU-käännös vastaantulevan eteen\n34\tPolkupyöräilijä pyörätiellä, toinen ajon. kääntyi oikealle\n35\tPolkupyöräilijä pyörätiellä, toinen ajon. kääntyi vasemmalle\n36\tMuu törmäys käännyttäessä oikealle\n39\tMuu vastakkaiset ajosuunnat, kääntyminen\n40\tajo risteäviä ajosuuntia suoraan\n41\tPolkupyöräilijä pyörätiellä risteyksessä\n42\tPolkupyöräilijä pyörätiellä muualla\n43\tJunan ja ajoneuvon törmäys\n49\tMuu risteämisonnettomuus, ei kääntymisiä\n50\tKääntyminen oikealle toisen eteen tai kylkeen\n51\tKääntyminen oikealle vastaantulevan eteen tai kylkeen\n52\tKääntyminen vasemmalle toisen eteen tai kylkeen\n53\tKääntyminen vasemmalle vastaantulevan eteen tai kylkeen\n54\tYhtäaikainen vasemmalle kääntyminen\n55\tPyörätietä ajavan polkupyöräilijän kääntyminen ajoneuvon eteen tai kylkeen\n59\tMuu Risteävät ajosuunnat, kääntyminen\n60\tJalankulkija suojatiellä ennen risteystä\n61\tJalankulkija suojatiellä risteyksen jälkeen\n62\tJalankulkija suojatiellä, ajon. kääntyi vasemmalle\n63\tJalankulkija suojatiellä,  ajon. kääntyi oikealle\n64\tJalankulkija suojatiellä, suojatie risteyksen ulkop.\n65\tJalankulkija suojatiellä, suojatien eteen pysäht. ajon.\n69\tMuu jalankulkijaonnettomuus. suojatiellä\n70\tJalankulkija tuli pysähtyneen ajoneuvon takaa\n71\tJalankulkija ylitti tien ajorataa suojatien ulkopuolella\n72\tJalankulkija pysähtyneenä ajoradalla\n73\tJalankulkija kulki liikenteen suuntaan\n74\tJalankulkija kulki liikennettä vastaan\n75\tJalankulkija jalkakäytävällä tai liikennekorokkeella\n76\tJunan ja jalankulkijan törmäys\n79\tMuu jalankulkija-onnettomuus suojatien ulkopuolella\n80\tSuistuminen oikealle suoralla\n81\tSuistuminen vasemmalle suoralla\n82\tSuistuminen oikealle kääntyvässä kaarteessa\n83\tSuistuminen vasemmalle oikealle kääntyvässä kaarteessa\n84\tSuistuminen oikealle vasemmalle kääntyvässä kaarteessa\n85\tSuistuminen vasemmalle kääntyvässä kaarteessa\n86\tSuistuminen tieltä risteyksessä\n89\tMuu tieltä suistuminen\n90\tEläinonnettomuus\n91\tTörmäys oikeassa reunassa olevaan pysäköityyn ajoneuvoon\n92\tTörmäys vasemmassa reunassa olevaan pysäköityyn ajoneuvoon\n93\tTörmäys liikennekorokkeeseen\n94\tTörmäys esteeseen ajoradalla\n95\tKumoonajo ajoradalla\n96\tPeruutusonnettomuus\n97\tMatkustaja nousemassa tai poistumassa ajoneuvosta\n99\tMuu onnettomuus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vakav",
+      "variablename": "Onnettomuuden vakavuusaste",
+      "conceptdef": "0=Omaisuusvahinkoon johtanut,\n1=Kuolemaan johtanut,\n2=Loukkaantumiseen johtanut.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkm_vakavlouk",
+      "variablename": "Vakavasti loukkaantuneiden lukumäärä",
+      "conceptdef": "Määrittely: Henkilö, joka ei ole kuollut (30 vuorokauden kuluessa onnettomuudesta), mutta on saanut onnettomuudessa vammoja, jotka vaativat hoitoa tai tarkkailua hoitolaitoksessa ja on hakeutunut hoidettavaksi kuuden vuorokauden sisällä onnettomuudesta ja on saanut vamman tai vammoja jotka on AIS-vakavuusluokituksen (AAAM, Association for the Advancement of Automotive Medicine) mukaisesti luokiteltu vakaviksi.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmaj",
+      "variablename": "Osallisten muiden moottorikäyttöisten ajoneuvojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmava",
+      "variablename": "Alkoholin vaikutuksen alaisten osallisten lukumäärä.",
+      "conceptdef": "Lukumäärässä otetaan huomioon kuljettajat ja jalankulkijat, mutta ei matkustajia.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmea",
+      "variablename": "Osallisten erikoisautojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "elosal",
+      "variablename": "Eläin osallisena",
+      "conceptdef": "0=ei,\n1=vähintään yksi eläin on ollut osallisena onnettomuudessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmha",
+      "variablename": "Osallisten henkilöautojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmjk",
+      "variablename": "Osallisten jalankulkijoiden lukumäärä",
+      "conceptdef": null,
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmju",
+      "variablename": "Osallisten junien lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkaip",
+      "variablename": "Osallisten perävaunuttomien kuorma-autojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkapv",
+      "variablename": "Osallisten perävaunullisten kuorma-autojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkuol",
+      "variablename": "Kuolleiden lukumäärä",
+      "conceptdef": "Määrittely: osallinen henkilö on kuollut onnettomuuden seurauksena 30 vuorokauden kuluessa onnettomuudesta, poislukien sairaskohtauksiin kuolleet.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmla",
+      "variablename": "Osallisten linja-autojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmlouk",
+      "variablename": "Loukkaantuneiden lukumäärä",
+      "conceptdef": null,
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmlyks",
+      "variablename": "Osallisten liikenneyksiköiden lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmmo",
+      "variablename": "Osallisten mopojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmmp",
+      "variablename": "Osallisten moottoripyörien lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmmpa",
+      "variablename": "Muun päihdyttävän aineen käytön alaisten osallisten lukumäärä",
+      "conceptdef": null,
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmmu",
+      "variablename": "Osallisten muiden ajoneuvojen, mukaan lukien hevosajoneuvot, lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmos",
+      "variablename": "Osallisten lukumäärä",
+      "conceptdef": "Määrttely: onnettomuuteen osallisiksi henkilöiksi katsotaan onnettomuuteen osallistuneet kulkuneuvojen kuljettajat ja jalankulkijat sekä kuolleet ja loukkaantuneet matkustajat. Eläin on eläinonnettomuuden osallinen.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmpa",
+      "variablename": "Osallisten pakettiautojen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmpp",
+      "variablename": "Osallisten polkupyörien lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmrj",
+      "variablename": "Osallisten rattijuoppojen lukumäärä",
+      "conceptdef": "Määrittely: osallisen kuljettajan on todettu (verikokeen tulos vähintään 0,5 promillea tai puhalluskokeen tuloksena todettu litrassa uloshengitysilmaa vähintään 0,22 milligrammaa alkoholia) tai vahvoin perustein epäillään olleen onnettomuushetkellä alkoholin vaikutuksen alaisena.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmrv",
+      "variablename": "Osallisten raitiovaunujen lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmtr",
+      "variablename": "Osallisten traktorien lukumäärä",
+      "conceptdef": null,
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

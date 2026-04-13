@@ -1,0 +1,188 @@
+{
+  "variables": [
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHENK"
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1=Mies\n2=Nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "yhenk"
+    },
+    {
+      "identifier": "kansah",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "suomi='246' tai null",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHENK"
+    },
+    {
+      "identifier": "kasno",
+      "variablename": "Tyött.kassanro",
+      "conceptdef": "null=ei kassan jäsen (vain viimeisin tieto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHENK"
+    },
+    {
+      "identifier": "kiekd",
+      "variablename": "Kielikoodi",
+      "conceptdef": "0=suomi, 1=ruotsi, 2=muu (myös null=suomi)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHENK"
+    },
+    {
+      "identifier": "pkokdh",
+      "variablename": "Pohjakoulutus",
+      "conceptdef": "1=kansa, 2=keski, 3=perus, 4=yo, 9=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHENK"
+    },
+    {
+      "identifier": "vppvmh",
+      "variablename": "Viimeinen päivityspvm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHENK"
+    },
+    {
+      "identifier": "kunnoh",
+      "variablename": "Asuinkunta",
+      "conceptdef": "Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämiä 3-numeroisia kuntakoodeja. Jos työnhakijan asuinpaikka on työnhaun alussa Ruotsissa, merkitään kuntakoodiksi 198, tai Norjassa, merkitään 197, tai muualla ulkomailla, merkitään 200. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHKUNTA"
+    },
+    {
+      "identifier": "muupv6",
+      "variablename": "Alkamispäivä",
+      "conceptdef": "Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHKUNTA"
+    },
+    {
+      "identifier": "paapv6",
+      "variablename": "Loppumispvm",
+      "conceptdef": "Henkilön asuinkunnasta muuttopäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHKUNTA"
+    },
+    {
+      "identifier": "koukdh",
+      "variablename": "uusi koulutuskoodi",
+      "conceptdef": "Työnhakijan saaman koulutuksen luokittelemiseen käytetään kunakin vuonna voimassa olevaa Tilastokeskuksen laatimaa luokitusta Koulutusluokitus  (Tilastokeskuksen käsikirjoja 1),",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHKOUL"
+    },
+    {
+      "identifier": "muupv3",
+      "variablename": "alkamispvm",
+      "conceptdef": "Koulutustiedon alkamispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHKOUL"
+    },
+    {
+      "identifier": "paapv3",
+      "variablename": "loppumispvm",
+      "conceptdef": "Koulutustiedon loppumispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHKOUL"
+    },
+    {
+      "identifier": "ammnoh",
+      "variablename": "ammatti",
+      "conceptdef": "Ammattiluokitus\nhttps://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHAMM"
+    },
+    {
+      "identifier": "muupv1",
+      "variablename": "alkamispvm",
+      "conceptdef": "Ammattitiedon alkamispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHAMM"
+    },
+    {
+      "identifier": "paapv1",
+      "variablename": "loppumispvm",
+      "conceptdef": "Ammattitiedon loopumispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHAMM"
+    },
+    {
+      "identifier": "alkupv",
+      "variablename": "Alkamispäivä",
+      "conceptdef": "Palvelulinjan alkamispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YASSEGMENTTI"
+    },
+    {
+      "identifier": "assegkdi",
+      "variablename": "Asiatuntijapalvelun tarve",
+      "conceptdef": "00 = Ei asiantuntijapalvelun tarvetta,  01 = Työnvälitys- ja yrityspalvelut, 02 = Osaamisen kehittämispalvelut, 03 = Tuetun työllistämisen palvelut, 05 = Monialainen yhteispalvelu (2015 alkaen), 04 = Etuusasiakkaat (ei enää käytössä) ,null =ei määritelty",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YASSEGMENTTI"
+    },
+    {
+      "identifier": "paatpv",
+      "variablename": "Päättymispäivä",
+      "conceptdef": "Palvelulinjan päättymispvm",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YASSEGMENTTI"
+    },
+    {
+      "identifier": "muupv7",
+      "variablename": "alkamispvm",
+      "conceptdef": "Henkilön työvoimatoimistonalkamispvm Ei päivitetä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHTSTO"
+    },
+    {
+      "identifier": "paapv7",
+      "variablename": "loppumispvm",
+      "conceptdef": "Henkilön työvoimatoimiston loppumispvm Ei päivitetä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHTSTO"
+    },
+    {
+      "identifier": "toinoh",
+      "variablename": "työvoimatoimisto",
+      "conceptdef": "0201\tHAAPANIEMI/HELSINKI\n0203\tHANKO / RAASEPORI\n0204\tHYVINKÄÄ/POHJOIS-UUSIMAA\n0205\tJÄRVENPÄÄ/KESKI-UUSIMAA\n0206\tRAASEPORI\n0207\tKARKKILA/LÄNSI-UUSIMAA\n0208\tKERAVA /KESKI-UUSIMAA\n0209\tLOHJA / LÄNSI-UUSIMAA\n0210\tLOVIISA /ITÄ-UUSIMAA\n0211\tMÄNTSÄLÄ/KESKI-UUSIMAA\n0212\tNURMIJÄRVI/POHJOIS-UUSIMAA\n0213\tPORVOO/ITÄ-UUSIMAA\n0215\tTAMMISAARI/RAASEPORI\n0217\tVIHTI / LÄNSI-UUSIMAA\n0218\tKIRKKONUMMI /ESPOO\n0219\tTUUSULA /KESKI-UUSIMAA\n0221\tSIPOO /ITÄ-UUSIMAA\n0230        HELSINGIN KUNTAKOKEILU\n0231        ESPOON KUNTAKOKEILU\n0232        VANTAA-KERAVA KUNTAKOKEILU\n0233        RAASEPORI-HANKO KUNTAKOKEILU\n0234        PORVOON KUNTAKOKEILU\n0250\tHELSINKI (PK)\n0254\tESPOO (PK)\n0256\tVANTAA (PK)\n0258\tHYVINKÄÄ (PK)\n0259\tPORVOO (PK)\n0260\tKARKKILA (PK)\n0261\tLOHJA (PK)\n0262\tVIHTI (PK)\n0263\tNURMIJÄRVI (PK)\n0271\tLEPPÄVAARA/ESPOO\n0272\tESPOON KESKUS\n0273\tMALMI/HELSINKI\n0274\tKLUUVI/HELSINKI\n0276\tTIKKURILA/VANTAA\n0277\tMYYRMÄKI/VANTAA\n0278\tITÄKESKUS/HELSINKI\n0279\tKAMPPI/HELSINKI\n0280\tHALLINTOYKS./HKI\n0281\tMAAHANM.PALV./HKI\n0282\tTIKKURILA/VANTAA\n0283\tMUUTOSTURVA/ESPOO\n0299\tUUDENMAAN TE-TOIMISTO\n0301\tTURKU\n0305\tKEMIÖ\n0306\tLAITILA\n0307\tLOIMAA\n0308\tTURUNMAA\n0310\tSALO\n0312\tUUSIKAUPUNKI\n0313\tNAANTALI\n0314\tPAIMIO\n0315\tRAISIO\n0316\tKAARINA\n0317\tSOMERO (ST)\n0319\tLIETO (ST)\n0330        TURUN SEUDUN KUNTAKOKEILU\n0331        SALON SEUDUN KUNTAKOKEILU\n0350\tTURKU (PK)\n0351\tSALON SEUTU (PK)\n0391\tVARS.-SUOMEN TYÖNV.KOKEILU\n0395\tTURUN SEUDUN AL. KOKEILU\n0399\tVARS.-SUOMEN TE-TOIMISTO\n0401\tTAMPERE\n0403\tHÄMEENKYRÖ\n0405\tKESKI-PIRKANMAA\n0408\tMÄNTTÄ\n0409\tNOKIA\n0410\tORIVESI\n0411\tPOHJOIS-PIRKANMAA\n0413\tETELÄ-PIRKANMAA\n0414\tVALKEAKOSKI\n0415\tSASTAMALA\n0416\tVIRRAT\n0417\tJANAKKALA\n0422\tLEMPÄÄLÄ\n0423\tYLÖJÄRVI\n0430        PIRKANMAAN KUNTAKOKEILU\n0450\tTAMPERE (PK)\n0451\tETELÄ-PIRKANMAA PK\n0452\tSASTAMALA (PK)\n0453\tKESKI-PIRKANMAA PK\n0470\tHERVANTA\n0495\tTAMPEREEN SEUTU,TYÖLL.PALV\n0499\tPIRKANMAAN TE-TOIMISTO\n0501\tKOUVOLA\n0502\tANJALANKOSKI\n0503\tHAMINA\n0504\tIITTI\n0505\tIMATRA\n0506\tJOUTSENO\n0507\tKOTKA\n0508\tKUUSANKOSKI\n0510\tLAPPEENRANTA\n0512\tPARIKKALA\n0513\tSAVITAIPALE\n0550\tKOUVOLAN SEUTU PK\n0551\tKOTKA (PK)\n0552\tLAPPEENRANTA (PK)\n0553\tIMATRA (PK)\n0554\tPARIKKALA (PK)\n0555\tKOTKAN-HAMINAN PK\n0556\tANJALANKOSKI (PK)\n0557\tKUUSANKOSKI (PK)\n0599\tKAAKK.-SUOMEN TE-TOIMISTO\n0601\tMIKKELI\n0603\tHEINÄVESI\n0604\tJUVA\n0605\tKANGASNIEMI\n0606\tMÄNTYHARJU\n0607\tPIEKSÄMÄKI\n0608\tSAVONLINNA\n0611\tKERIMÄKI\n0630        MIKKELIN SEUDUN KUNTAKOKEILU\n0631        SAVONLINNAN KUNTAKOKEILU\n0650\tMIKKELI (PK)\n0651\tSAVONLINNA (PK)\n0699\tETELÄ-SAVON TE-TOIMISTO\n0701\tVAASA\n0705\tKANNUS\n0708\tKAUSTINEN\n0709\tKOKKOLA\n0710\tSUUPOHJAN RANNIKKO\n0712\tKYRÖNMAA\n0715\tNÄRPIÖ\n0716\tPIETARSAARI\n0702\tALAJÄRVI\n0703\tALAVUS\n0704\tJALASJÄRVI\n0706\tKAUHAJOKI\n0707\tKAUHAVA\n0711\tKURIKKA\n0713\tLAPPAJÄRVI\n0714\tLAPUA\n0717\tSEINÄJOKI\n0718\tTEUVA\n0719\tÄHTÄRI\n0720\tILMAJOKI\n0730        KOKKOLAN SEUDUN KUNTAKOKEILU\n0750\tVAASA (PK)\n0751\tKOKKOLA (PK)\n0752\tPIETARSAARI (PK)\n0799\tPOHJANMAAN TE-TOIMISTO\n0801\tJYVÄSKYLÄ\n0802\tJOUTSA\n0803\tJÄMSÄ\n0804\tKARSTULA (ST)\n0805\tKEURUU\n0806\tLAUKAA (ST)\n0807\tSAARIJÄRVI\n0809\tVIITASAARI\n0810\tÄÄNEKOSKI\n0830        JYVÄSKYLÄN SEUDUN KUNTAKOKEILU\n0831        JÄMSÄ-KEURUU-SAARIJÄRVI KUNTAKOKEILU\n0850\tJYVÄSKYLÄ (PK)\n0851\tÄÄNESEUTU (PK)\n0891\tKESKI-SUOMEN KOKEILU\n0899\tKESKI-SUOMEN TE-TOIMISTO\n0901\tKUOPIO\n0902\tIISALMEN SEUTU\n0903\tJUANKOSKI\n0905\tKIURUVESI\n0906\tLAPINLAHTI\n0907\tNILSIÄ\n0908\tPIELAVESI\n0909\tSIILINJÄRVI\n0911\tVARKAUDEN SEUTU\n0912\tLEPPÄVIRTA\n0913\tSISÄ-SAVO\n0930        KUOPION SEUDUN KUNTAKOKEILU\n0950\tKUOPION SEUTU (PK)\n0953\tVARKAUS (PK)\n0954\tYLÄ-SAVO (PK)\n0995\tKUOPION SEUDUN AL. KOKEILU\n0999\tPOHJOIS-SAVON TE-TOIMISTO\n1001\tJOENSUUN SEUTU\n1002\tENO\n1003\tILOMANTSI\n1004\tJUUKA (ST)\n1005\tKESKI-KARJALA\n1006\tKONTIOLAHTI (ST)\n1007\tLIEKSA\n1008\tPIELISEN KARJALA\n1009\tOUTOKUMMUN SEUTU\n1010\tTOHMAJÄRVI (ST)\n1012\tLIPERI\n1013\tPYHÄSELKÄ (ST)\n1014\tPOLVIJÄRVI (ST)\n1015\tILOMANTSI\n1016\tOUTOKUMPU\n1017\tLIEKSA\n1030        JOENSUUN SEUDUN KUNTAKOKEILU\n1031        MAISEMA-KARJALAN KUNTAKOKEILU\n1050\tJOENSUUN SEUTU(PK)\n1051\tKESKI-KARJALA (PK)\n1052\tLIEKSA (PK)\n1099\tPOHJ.-KARJALAN TE-TOIMISTO\n1101\tLÄNSI-KAINUU\n1102\tHYRYNSALMI\n1103\tITÄ-KAINUU\n1104\tPALTAMO\n1105\tPUOLANKA\n1106\tSOTKAMO\n1107\tYLÄ-KAINUU\n1108\tVAALA\n1130        KAINUUN SEUDUN KUNTAKOKEILU\n1150\tKAINUU (PK)\n1199\tKAINUUN TE-TOIMISTO\n1201\tOULUN SEUTU\n1202\tNIVALA-HAAPAJÄRVI\n1203\tSIIKALATVA\n1204\tHAUKIPUDAS\n1205\tII\n1206\tKALAJOKI\n1207\tKOILLISMAA\n1208\tLIMINKA\n1209\tMUHOS\n1210\tOULAINEN\n1212\tPUDASJÄRVI\n1213\tRAAHEN SEUTUKUNTA\n1214\tRUUKKI\n1215\tSIEVI\n1216\tYLIVIESKAN SEUTUK.\n1217\tNIVALA\n1218\tPYHÄJÄRVI\n1219\tTAIVALKOSKI\n1221\tPULKKILA\n1222\tUTAJÄRVI\n1224\tKIIMINKI\n1225\tPYHÄJOKI (ST)\n1226\tREISJÄRVI\n1227\tKUIVANIEMI\n1228\tKÄRSÄMÄKI\n1230\tVIHANTI  (2002 ASTI)\n1231\tYLIKIIMINKI (2002 ASTI)\n1230\tOULUN SEUDUN KUNTAKOKEILU\n1231\tRAAHEN SEUDUN KUNTAKOKEILU\n1232\tYLIVIESKAN SEUDUN KUNTAKOKEILU\n1250\tOULU (PK)\n1251\tRAAHEN SEUTUK.(PK)\n1299\tP-POHJANMAAN TE-TOIMISTO\n1301\tROVANIEMI\n1302\tPOHJOIS-LAPPI\n1303\tMERI-LAPPI\n1304\tITÄ-LAPPI\n1305\tTUNTURI-LAPPI\n1306\tMUONIO\n1307\tTORNIONLAAKSO\n1308\tRANUA/ROVANIEMI\n1309\tSALLA\n1310\tSODANKYLÄ\n1311\tTORNIO\n1312\tYLITORNIO\n1313\tKOLARI\n1314\tTERVOLA\n1315\tSAVUKOSKI\n1316\tSIMO\n1317\tPELKOSENNIEMI\n1318\tUTSJOKI\n1319\tENONTEKIÖ\n1320\tPOSIO\n1330\tROVANIEMEN SEUDUN KUNTAKOKEILU\n1350\tROVANIEMI (PK)\n1352\tMERI-LAPPI (PK)\n1395\tLAPIN ALUEELLINEN KOKEILU\n1399\tLAPIN TE-TOIMISTO\n1401\tPORIN SEUTU\n1402\tEURA\n1403\tKAAKKOIS-SATAKUNTA\n1404\tHUITTINEN\n1405\tPOHJOIS-SATAKUNTA\n1406\tMERIKARVIA\n1407\tRAUMAN SEUTU\n1408\tKOKEMÄKI\n1409\tULVILA\n1410\tNOORMARKKU\n1430\tPORIN SEUDUN KUNTAKOKEILU\n1450\tPORIN SEUTU (PK)\n1453\tRAUMA (PK)\n1495\tPORIN ALUEELLINEN KOKEILU\n1499\tSATAKUNNAN TE-TOIMISTO\n1501\tPÄIJÄT-HÄME\n1502\tFORSSA\n1503\tHEINOLA\n1504\tHÄMEENLINNAN SEUTU\n1505\tJANAKKALA\n1506\tNASTOLA\n1507\tORIMATTILA\n1508\tRIIHIMÄKI\n1509\tSYSMÄ\n1530\tLAHDEN SEUDUN KUNTAKOKEILU\n1531\tHÄMEENLINNAN SEUDUN KUNTAKOKEILU\n1550\tLAHTI (PK)\n1551\tHÄMEENLINNA (PK)\n1552\tRIIHIMÄEN SK (PK)\n1553\tITÄ-HÄME (PK)\n1554\tFORSSAN SEUTU (PK)\n1599\tHÄMEEN TE-TOIMISTO\n1601\tSEINÄJOEN SEUTU\n1602\tJÄRVISEUTU (ALAJÄRVI)\n1603\tKUUSIOKUNNAT (ALAVUS)\n1604\tILMAJOKI\n1605\tJALASJÄRVI\n1606\tSUUPOHJA (KAUHAJOKI)\n1607\tKAUHAVA\n1608\tKURIKKA\n1609\tLAPPAJÄRVI\n1610\tHÄRMÄNMAA (LAPUA)\n1611\tTEUVA\n1612\tÄHTÄRI\n1630\tSEINÄJOKI-ILMAJOKI KUNTAKOKEILU\n1631\tE-POHJANMAAN SEUDUN KUNTAKOKEILU\n1650\tSEINÄJOEN SEUTU PK\n1691\tAIMO MONIAL. TYÖLL.PALVELU\n1699\tE-POHJANMAAN TE-TOIMISTO\n2001\tAHVENANMAA\n2002\tÅLAND\n3002\tTYÖLINJA\n3001\tULKOMAAT\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "YHTSTO"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilvv",
+      "variablename": "Tilastovuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilkk",
+      "variablename": "Tilastokuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntykk",
+      "variablename": "Syntymäkuukausi",
+      "conceptdef": "Henkilön syntymäkuukausi, muotoa KK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntyv",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Henkilön syntymävuosi, muotoa VVVV",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Tieto sukupuolesta on saatu Väestötietojärjestelmästä.",
+      "measunit": null,
+      "classification": "sukupuoli_2_1970_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansa1",
+      "variablename": "1. kansalaisuus",
+      "conceptdef": "1. Kansalaisuus \nTieto kansalaisuudesta on karkeistettu kolmeen luokkaan: \n\n1 = Suomi\n2 = Muu Eurooppa\n3 = Muu\n\nKansalaisuudella tarkoitetaan jonkin maan kansalaisena olemista. Yleensä kansalaisuus saadaan syntyessä, mutta se voidaan vaihtaa muutettaessa toiseen maahan asumaan. Henkilöllä voi olla myös useamman maan kansalaisuus (kansalaisuuslaki 2003/359 ja kansalaisuusasetus 1985/699). Jos henkilöllä on kahden maan kansalaisuus, joista toinen on Suomen, hän on tilastoissa Suomen kansalaisena. Jos Suomessa asuvalla ulkomaan kansalaisella on useita ulkomaiden kansalaisuuksia, hän on rekisterissä ja tilastoissa sen maan kansalaisena, jonka passilla hän on maahan tullut.\n",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "askunta",
+      "variablename": "Asuinkunta",
+      "conceptdef": "Kuntanumero. Avain näille on FIONAN Meta-kansiossa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "prt_s",
+      "variablename": "Suojattu pysyvä rakennustunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "olinpaikka",
+      "variablename": "Olinpaikka",
+      "conceptdef": "Olinpaikka-muuttuja on karkeistettu sen arkaluontoisuuden vuoksi kahteen ryhmään, 0 ja 1. \n\n\n0= Kuuluu asuinväestöön\n\n1= Laitoskoodin saanut (esimerkiksi Vailla vakinaista asuntoa, Laitoksessa, Tietymättömissä olevat, Lähetystöissä maailmalla, tilapäisesti ulkomailla, laivanpäällystö, rangaistuslaitokset, hoitolaitokset, asevelvolliset, opiskelun takia poissa, sairaana muualla (ei hoitolaitoksessa), eduskunnassa, lyhyaikaisen työn takia poissa, satunnaisesti poissa kotipaikkakunnalta)\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "huontuvtj_s",
+      "variablename": "Suojattu huoneistotunnus",
+      "conceptdef": "Huoneistotieto perustuu rappukirjaimeen ja huoneistonumeroon. Näiden tarkka kirjoitusasu on saattanut muuttua tietovuosien välillä, joten arvo saattaa muuttua eri vuosina asunnon pysyessä samana.\nPorras (1 merkki) + Huoneistonumero (3 merkkiä) + Huoneistotunnisteen jakokirjainosa (1 merkki) + Osoitenumero (1 merkki)\n\nKatso myös \"H:\\VE\\va_513\\vaesto\\metatiedot\\tietojarjestelmat\\vtietojarjestelma\\attrirh1.doc\"\nHuoneistotunniste eli huoneistotunnus sisältää seuraavaa\n                  \n                  1 Porraskirjain on huoneiston tunnisteen kirjainosa. Se\n                  kertoo missä portaassa huoneisto sijaitsee.\n                  \n                  A - Ö, tyhjä. \n                  \n                  2 Huoneiston tunnisteen numero_osa. 000 - 999.\n                  \n                  3 Huoneiston tunnisteen jakokirjain. Jakokirjainta \n                  käytetään kun huoneisto on jaettu kahdeksi tai \n                  useammaksi huoneistoksi.\n                  \n                  a - ö, tyhjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivs",
+      "variablename": "Siviilisääty",
+      "conceptdef": "Tieto siviilisäädystä saadaan Väestörekisterikeskuksen väestötietojärjestelmästä. On huomioitava, ettei avoliitto ole siviilisääty. Avoliitossa elää jokaisen siviilisäädyn edustajia, myös virallisesti edelleen naimisissa olevia.\n\nNykyiset avioerosäännökset eivät enää tunne asumuseron käsitettä. Vanhojen avioerosäännösten nojalla ennen 1.1.1988 asumuseroon tuomitut ja edelleen asumuserossa elävät on tilastoissa luettu naimisissa oleviin. \n\nSamaa sukupuolta olevat parit ovat voineet 1.3.2002 lähtien myös  Suomessa rekisteröidä parisuhteensa. Rekisteröidyssä parisuhteessa olevat on tietosuojasyistä kunnittaisissa taulukoissa luokiteltu yhteen naimisissa olevien kanssa, samoin rekisteröidystä parisuhteesta eronneet tai leskeksi jääneet eronneiden ja leskien kanssa.\n\nSiviilisäätyluokitus on seuraava: \n- naimaton\n- naimisissa  \n- eronnut  \n- leski  \n- rekisteröidyssä parisuhteessa\n- eronnut rekisteröidystä parisuhteesta\n- leski rekisteröidyn parisuhteen jälkeen.",
+      "measunit": null,
+      "classification": "siviilisaaty_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "laplubio",
+      "variablename": "Biologisten lasten lukumäärä",
+      "conceptdef": "Henkilön biologisten lasten määrä. Sisältää myös lapset, jotka ovat kuolleet tilastoajankohtaan mennessä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lapluka",
+      "variablename": "Kaikkien lasten lukumäärä",
+      "conceptdef": "Henkilön biologisten lasten ja adoptiolasten yhteismäärä. Sisältää myös lapset, jotka ovat kuolleet tilastoajankohtaan mennessä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valkukunta",
+      "variablename": "valkukunta",
+      "conceptdef": "Vuoden alun asuinkunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "rnro_s",
+      "variablename": "Suojattu rakennusnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansa2",
+      "variablename": "2. Kansalaisuus",
+      "conceptdef": "2. Kansalaisuus \nTieto toisesta kansalaisuudesta on karkeistettu:\n\n1 = Suomi\n2 = Muu Eurooppa\n3 = Muu\n' ' = ei toista kansalaisuutta\n\nKansalaisuudella tarkoitetaan jonkin maan kansalaisena olemista. Yleensä kansalaisuus saadaan syntyessä, mutta se voidaan vaihtaa muutettaessa toiseen maahan asumaan. Henkilöllä voi olla myös useamman maan kansalaisuus (kansalaisuuslaki 2003/359 ja kansalaisuusasetus 1985/699). Jos henkilöllä on kahden maan kansalaisuus, joista toinen on Suomen, hän on tilastoissa Suomen kansalaisena. Jos Suomessa asuvalla ulkomaan kansalaisella on useita ulkomaiden kansalaisuuksia, hän on rekisterissä ja tilastoissa sen maan kansalaisena, jonka passilla hän on maahan tullut.\n",
+      "measunit": null,
+      "classification": "valtio_12_1999_05_10",
+      "variablegroups": null
+    },
+    {
+      "identifier": "a3lapluka",
+      "variablename": "Alle 3-vuotiaiden kaikkien lasten määrä",
+      "conceptdef": "Henkilön 0-2-vuotiaiden biologisten lasten ja adoptiolasten yhteismäärä. Ikäryhmittäisissä lapsiluvuissa mukana vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a7lapluka",
+      "variablename": "Alle 7-vuotiaiden kaikkien lasten määrä",
+      "conceptdef": "Henkilön 0-6-vuotiaiden biologisten lasten ja adoptiolasten yhteismäärä. Ikäryhmittäisissä lapsiluvuissa mukana vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a13lapluka",
+      "variablename": "Alle 13-vuotiaiden kaikkien lasten määrä",
+      "conceptdef": "Henkilön 0-12-vuotiaiden biologisten lasten ja adoptiolasten yhteismäärä. Ikäryhmittäisissä lapsiluvuissa mukana vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a18lapluka",
+      "variablename": "Alle 18-vuotiaiden kaikkien lasten määrä",
+      "conceptdef": "Henkilön 0-17-vuotiaiden biologisten lasten ja adoptiolasten yhteismäärä. Ikäryhmittäisissä lapsiluvuissa vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a3laplubio",
+      "variablename": "Alle 3-vuotiaiden biologisten lasten määrä",
+      "conceptdef": "Henkilön 0-2-vuotiaiden biologisten lasten määrä. Ikäryhmittäisissä lapsiluvuissa vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a7laplubio",
+      "variablename": "Alle 7-vuotiaiden biologisten lasten määrä",
+      "conceptdef": "Henkilön 0-6-vuotiaiden biologisten lasten määrä. Ikäryhmittäisissä lapsiluvuissa vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a13laplubio",
+      "variablename": "Alle 13-vuotiaiden biologisten lasten määrä",
+      "conceptdef": "Henkilön 0-12-vuotiaiden biologisten lasten määrä. Ikäryhmittäisissä lapsiluvuissa vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "a18laplubio",
+      "variablename": "Alle 18-vuotiaiden biologisten lasten määrä",
+      "conceptdef": "Henkilön 0-17-vuotiaiden biologisten lasten määrä. Ikäryhmittäisissä lapsiluvuissa vain tilastoajankohtana elossa olevat lapset.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

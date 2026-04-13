@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "TRAFI_20132025_jua_omistaja_002.xml",
+      "doi": "mkan_2017-12_2017-12-12_ain_0001",
+      "subject": "TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli 2  omistaja/haltijatiedot ",
+      "contentdescription": "TRAFI-valmisaineistot perustuvat Liikenne- ja viestintävirasto (Traficom) ajoneuvoliikennerekisteriin, joka sisältää tiedot kaikista rekisteröintivelvollisuuden alaisista tieliikenteen ajoneuvoista Manner-Suomessa vuodesta 2013 eteenpäin.\n\nAjoneuvokannasta on muodostettu kaksi valmisaineistomoduulia tutkimuskäyttöön. Moduuli 2 sisältää rajatut omistaja/haltijatiedot, jotka liittyvät moduulin 1 ajoneuvotietoihin (yhdistely avainnro- ja sjartun -muuttujilla).\n\nNäihin valmisaineistoihin tulee hakea käyttölupaa Traficomilta. Aineistojen käsittely tapahtuu Tilastokeskuksen ylläpitämässä FIONA-etäkäyttöjärjestelmässä.\n\n8.8.2025: Aineistoon on tehty muutoksia siten, että 2025 Q2 eteenpäin omistajatunnuksista (omtunnus_s) on eroteltu henkilötiedot (shnro), yritystiedot (ytun) ja muut tiedot (omtunnus_m ja haltunnus_m) erikseen. Tätä ennen kaikki ovat olleet samassa muuttujassa. Tämän lisäksi muuttuja suojattu vakuutuksenottaja (svakuttajantun) on poistettu aineistosta käytöstä.\n\n22.12.2022: Tietoa päivämäärämuuttujista: Ajankohtien 2021q1-2022q2 tiedostoissa olevat päivämäärämuuttujat ovat sekä date-muodossa (ISO8601-formaatti) että string-muodossa. String-muotoiset muuttujat löytyvät tiedostoista, joiden tiedostonimissä on \"_2\"-pääte. Ajankohdan 2022q3 ja sen jälkeiset tiedostot sisältävät ainoastaan string-muotoiset päivämäärämuuttujat. \n\n11.5.2021: Aineistoa täydennetty omistajien, haltijoiden sekä vakuutuksenottajien shnro-tunnisteilla. \n\nLisätietoa: Traficom: tietojenluovutus(at)trafi.fi \n                 Tilastokeskus: tutkijapalvelut(at)stat.fi",
+      "coveragetemporal": "2013-01-01 - 2025-09-30",
+      "published_day": "2025-10-27",
+      "variable_count": "31",
+      "orgname": "Liikenteen turvallisuusvirasto Trafi ",
+      "coveragepopulation": "Manner-Suomen ajoneuvorekisterissä olevat tieliikenteen ajoneuvoihin liittyvät rajatut omistaja/haltija tiedot",
+      "resourcerelation_1": "\nLiikenteen turvallisuusviraston (Trafi) ajoneuvorekisteri (ATJ ajoneuvojen tietojärjestelmä)",
+      "resourcerelation_2": "<a href= \"https://www.stat.fi/til/mkan/index.html\">ajoneuvokanta</a> <a href= \"https://www.trafi.fi/filebank/a/1327477425/20a2a2f466b690ed94131f93468d4c69/9021-Rekisteriseloste_Ajoneuvoliikennerekisteri.pdf\">ajoneuvoliikennerekisteri</a> ",
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

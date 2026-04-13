@@ -1,0 +1,1428 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, yrityksen liike- ja yhteisötunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERR",
+      "variablename": "Liikevaihto-osuuden mukainen kerroin",
+      "conceptdef": "Painokerroin, ositteen koko liikevaihto jaettuna vastanneiden liikevaihdolla. Tällä kertoimella on korotettu t&k-menotiedot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKKERR",
+      "variablename": "Henkilökunnan korotuskerroin",
+      "conceptdef": "Henkilökunnan korotuskerroin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKMKERR",
+      "variablename": "Vastanneiden lukumäärän mukainen kerroin",
+      "conceptdef": "Painokerroin, ositteen yritysten lukumäärä  jaettuna vastanneiden lukumäärällä. Tällä kertoimella on korotettu t&k:ta harjoittavien yritysten lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KEHSL",
+      "variablename": "Ositteen suuruusluokka",
+      "conceptdef": "Ositteen suuruusluokka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL2",
+      "variablename": "Toimialan (TOL88) 2-numerotaso",
+      "conceptdef": "Toimialan (TOL88) 2-numerotaso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKPA",
+      "variablename": "Henkilökunta",
+      "conceptdef": "Henkilökunta 31.12.1991",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SL",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Henkilöstön suuruusluokka 1991: 0-19, 20-49, 50-99, 100-499, 500-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKKYS",
+      "variablename": "Konsernin muut kotim. yritykset, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Konsernin muut kotimaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKKU",
+      "variablename": "Konsernin muut kotim. yritykset, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Konsernin muut kotimaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUYS",
+      "variablename": "Konsernin ulkom. yritykset, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Konsernin ulkomaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUYU",
+      "variablename": "Konsernin ulkom. yritykset, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Konsernin ulkomaiset yritykset, (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TULTK",
+      "variablename": "Tuotteisiin liittyvän kehittämistyön osuus",
+      "conceptdef": "T&k-menojen kohdistuminen: tuotteisiin liittyvän t&k:n osuus, prosenttia (%). Kehittämistyö luokitellaan ensisijaisesti tavoitteen mukaan. Tuotekehityksen tavoitteena on uusi tai olennaisesti parannettu vanha tuote. Jos tuotekehitysprojektiin liittyy uuden tai olennaisesti parannetun tuotantomenetelmän kehittäminen, lasketaan myös nämä kehitysmenoiksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRLTK",
+      "variablename": "Prosesseihin liittyvän kehittämistyön osuus",
+      "conceptdef": "T&k-menojen kohdistuminen: prosesseihin liittyvän t&k:n osuus prosenttia (%). Kehittämistyö luokitellaan ensisijaisesti tavoitteen mukaan. Prosessikehitysmenoiksi lasketaan uuden tai olennaisesti parannetun tuotantomenetelmän kehittämistyö vanhojen tuotteiden tuotannon olennaista tehostamista varten.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKETUPR",
+      "variablename": "Tutkimus ilman välitöntä sovellusta, osuus",
+      "conceptdef": "T&k-menojen kohdistuminen: tutkimus ilman välitöntä tuote- tai prosessisovellusta, osuus prosenttia (%).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKOKON",
+      "variablename": "Tilattu t&k, kotim. oma konserni",
+      "conceptdef": "Omalta konsernilta kotimaasta tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKMYR",
+      "variablename": "Tilattu t&k, kotim. muut yritykset",
+      "conceptdef": "Muilta kotimaisilta yrityksiltä tilatun t&k:n menot 1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKTUTL",
+      "variablename": "Tilattu t&k, kotim. tutkimuslaitokset",
+      "conceptdef": "Kotimaisilta tutkimuslaitoksilta tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKKK",
+      "variablename": "Tilattu t&k, kotim. korkeakoulut",
+      "conceptdef": "Kotimaisilta korkeakouluilta tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKMUU",
+      "variablename": "Tilattu t&k, kotim. muu",
+      "conceptdef": "Muilta kotimaisilta tahoilta tilatun tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUOKON",
+      "variablename": "Tilattu t&k, ulkom. oma konserni",
+      "conceptdef": "Oman konsernin ulkomaisilta yksiköiltä tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUMYR",
+      "variablename": "Tilattu t&k, ulkom. muu yritykset",
+      "conceptdef": "Muilta ulkomaisilta yrityksiltä tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUTUTL",
+      "variablename": "Tilattu t&k, ulkom. tutkimuslaitokset",
+      "conceptdef": "Ulkomaisilta tutkimuslaitoksilta tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUKK",
+      "variablename": "Tilattu t&k, ulkom. korkeakoulut",
+      "conceptdef": "Ulkomaisilta korkeakouluilta tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUMUU",
+      "variablename": "Tilattu t&k, ulkom. muu",
+      "conceptdef": "Muilta ulkomaisilta tahoilta tilatun tilatun t&k:n menot  1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Liikevaihto, lomaketieto",
+      "conceptdef": "Yrityksen liikevaihto vuonna 1991 tai tilikaudelta 1.4.1991 - 31.3.1992",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOLKM",
+      "variablename": "Tohtorit lkm",
+      "conceptdef": "T&k-henkilöstö: tohtorit (väitelleet) lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LISLKM",
+      "variablename": "Lisensiaatit lkm",
+      "conceptdef": "T&k-henkilöstö: lisensiaatit tai vastaavat (ei lääketiet.lis.) lukumäärä 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DILKM",
+      "variablename": "Muu korkeakoulututkinto lkm",
+      "conceptdef": "T&k-henkilöstö: muu korkeakoulututkinto (esim. DI, FK, LuK, myös lääketiet.lis) lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INSLKM",
+      "variablename": "Opistoinsinöörit lkm",
+      "conceptdef": "T&k-henkilöstö: opistoinsinöörit, lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEKLKM",
+      "variablename": "Teknikot lkm",
+      "conceptdef": "T&k-henkilöstö: teknikot, lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPISK",
+      "variablename": "Korkeakouluopiskelijat lkm",
+      "conceptdef": "T&k-henkilöstö: korkeakouluopiskelijat, lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MLKM",
+      "variablename": "Muu ammatillinen koulutus, lkm",
+      "conceptdef": "T&k-henkilöstö: muu ammatillinen koulutus lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EILKM",
+      "variablename": "Ei ammatillista koulutusta, lkm",
+      "conceptdef": "T&k-henkilöstö: Ei ammatillista koulutusta lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTLKM",
+      "variablename": "T&k-henkilöstö yhteensä",
+      "conceptdef": "Tutkimus- ja kehittämishenkilöstö, lukumäärä yhteensä vuonna 1991 T&k-henkilökuntaan kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&khankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NTOLKM",
+      "variablename": "Tohtorit, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: tohtorit (väitelleet) naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NLISLKM",
+      "variablename": "Lisensiaatit, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: lisensiaatit tai vastaavat (ei lääketiet.lis.) naisten lukumäärä 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NDILKM",
+      "variablename": "Muu korkeakoulututkinto, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: muu korkeakoulututkinto (esim. DI, FK, LuK, myös lääketiet.lis) naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NINSLKM",
+      "variablename": "Opistoinsinöörit,  naiset lkm",
+      "conceptdef": "T&k-henkilöstö: opistoinsinöörit, naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NTEKLKM",
+      "variablename": "Teknikot, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: teknikot, naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NOPISK",
+      "variablename": "Korkeakouluopiskelijat, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: korkeakouluopiskelijat, naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NMLKM",
+      "variablename": "Muu ammatillinen koulutus, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: muu ammatillinen koulutus naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NEILKM",
+      "variablename": "Ei ammatillista koulutusta, naiset lkm",
+      "conceptdef": "T&k-henkilöstö: Ei ammatillista koulutusta, naisten lukumäärä vuonna 1991.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NYHTLKM",
+      "variablename": "T&k-henkilöstö, naiset yhteensä",
+      "conceptdef": "T&k-henkilöstö, naisten lukumäärä yhteensä  vuonna 1991.Tutkimus- ja kehittämishenkilöstöön kuuluvat henkilöt, jotka yrityksessä ovat ko. vuonna tehneet vähintään 0,1 työvuotta (= 10 % työajasta) t&k-työtä tai t&khankkeisiin suoraan liittyviä hallinto-, toimisto- ym. tukitoimintoja. Tutkimushenkilökuntaan ei lasketa koko yritystä palvelevia yleisiä hallinto- tai toimistotehtäviä tehneitä henkilöitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOTTV",
+      "variablename": "Tohtorit, tutkimustyövuodet",
+      "conceptdef": "Tohtorit (väitelleet) tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LISTTV",
+      "variablename": "Lisensiaatit, tutkimustyövuodet",
+      "conceptdef": "Lisensiaatit tai vastaavat (ei lääketiet.lis.) tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DITTV",
+      "variablename": "Muu korkeakoulututkinto, tutkimustyövuodet",
+      "conceptdef": "Muu korkeakoulututkinto ( esim.DI, FK, LuK, myös lääketiet.lis) tutkimustyövuodet vuoden 1991 aikana.Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INSTTV",
+      "variablename": "Opistoinsinöörit, tutkimustyövuodet",
+      "conceptdef": "Opistoinsinöörit, tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEKTTV",
+      "variablename": "Teknikot, tutkimustyövuodet",
+      "conceptdef": "Teknikot, tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPITTV",
+      "variablename": "Korkeakouluopiskelijat, tutkimustyövuodet",
+      "conceptdef": "Korkeakouluopiskelijat, tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUUTTV",
+      "variablename": "Muu ammatillinen koulutus, tutkimustyövuodet",
+      "conceptdef": "Muu ammatillinen koulutus tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EITTV",
+      "variablename": "Ei ammatillista koulutusta, tutkimustyövuodet",
+      "conceptdef": "Ei ammatillista koulutusta,  tutkimustyövuodet vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTTTV",
+      "variablename": "Tutkimustyövuodet yhteensä",
+      "conceptdef": "Tutkimustyövuodet yhteensä  vuoden 1991 aikana. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "URAHA",
+      "variablename": "Tutkimustyövuodet ulkopuolisella rahoituksella",
+      "conceptdef": "Ulkopuolisella rahoituksella tehdyt tutkimustyövuodet. Tutkimustyövuodella tarkoitetaan yhden vuoden aikana tehtyä täyspäiväisen työajan (n. 35 tuntia viikossa) mukaan laskettua t&k-työtä (4–6 viikon loma-aika mukaan luettuna). Normaalin työajan ylitykset otetaan huomioon tutkimustyövuosilaskelmissa, mikäli niistä on maksettu korvaus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALME",
+      "variablename": "Palkat",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991; palkkausmenot, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKME",
+      "variablename": "Rakennusten käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991, rakennusten käyttömenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITAR",
+      "variablename": "Aineet, tarvikkeet",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991, aineet, tarvikkeet markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTPA",
+      "variablename": "Ostetut palvelut",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991, omiin t&k-projekteihin liittyvät palvelujen ostot, markkaa (1000mk)  Ulkopuolisilta tilattuja kokonaisia t&k-hankkeita ei ole ilmoitettu tässä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUME",
+      "variablename": "Muut käyttömenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991, muut käyttömenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAKHA",
+      "variablename": "Rakennusten hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991,  rakennusten hankintamenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUHA",
+      "variablename": "Muut käyttöomaisuuden hankintamenot",
+      "conceptdef": "Yrityksessä tehdyn t&k-toiminnan menot 1991, muut (pl. rakennukset) käyttöomaisuuden hankintamenot markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YSYHT",
+      "variablename": "Oman t&k:n menot yhteensä",
+      "conceptdef": "Yrityksessä tehdyn t&k- toiminnan menot yhteensä 1993, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLMA",
+      "variablename": "Avustukset, ylläpitomaksut",
+      "conceptdef": "Yrityksen maksamat avustukset, tutkimuslaitosten ylläpitomaksut tai vastaavat 1991, markkaa (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YUYHT",
+      "variablename": "Ulkopuolelta tilatun t&k:n menot yhteensä",
+      "conceptdef": "Yrityksen ulkopuolelta tilatun t&k-toiminnan menot yhteensä 1991, markkaa (1000mk). Sisältää yrityksen kotimaasta tilaaman t&k:n, ulkomailta tilatun t&k:n ja avustukset, tutkimuslaitosten ylläpitomaksut tai vastaavat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEYHT",
+      "variablename": "Kaikki t&k-menot yhteensä",
+      "conceptdef": "Yrityksen kaikki tutkimus- ja kehittämismenot vuonna 1991\n(=yksikössä tehty + muut t&k-menot)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAAK",
+      "variablename": "T&k-menot, Uusimaa, pääkaupunkiseutu",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk),  Uudenmaan lääni, pääkaupunkiseutu (Helsinki, Espoo, Kauniainen, Vantaa)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUUSI",
+      "variablename": "T&k-menot, muu Uusimaa",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Uudenmaan lääni, muu Uusimaa (pl. pääkaupunkiseutu)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TPL",
+      "variablename": "T&k-menot, Turun ja Porin lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Turun ja Porin lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AHVMK",
+      "variablename": "T&k-menot, Ahvenanmaan maakunta",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Ahvenanmaan maakunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAL",
+      "variablename": "T&k-menot, Hämeen lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Hämeen lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KYL",
+      "variablename": "T&k-menot, Kymen lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Kymen lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MIKL",
+      "variablename": "T&k-menot, Mikkelin lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Mikkelin lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKL",
+      "variablename": "T&k-menot, Pohjois-Karjalan lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Pohjois-Karjalan lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUOL",
+      "variablename": "T&k-menot, Kuopion lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Kuopion lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KSL",
+      "variablename": "T&k-menot, Keski-Suomen lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Keski-Suomen lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAAL",
+      "variablename": "T&k-menot, Vaasan lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Vaasan lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OUL",
+      "variablename": "T&k-menot, Oulun lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Oulun lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAL",
+      "variablename": "T&k-menot, Lapin lääni",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), Lapin lääni",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERIL",
+      "variablename": "T&k-menot, erittelemätön",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin (1000mk), erittelemätön",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTL",
+      "variablename": "T&k-menot lääneittäin yhteensä",
+      "conceptdef": "Yksikön t&k-menot vuonna 1991 lääneittäin yhteensä (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ORAHAS",
+      "variablename": "Oma rahoitus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: oma rahoitus 1991, markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKES",
+      "variablename": "KERAn lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: KERAn lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SITRAS",
+      "variablename": "T&k:n rahoitus, SITRAn lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: SITRAn lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LTES",
+      "variablename": "TEKESin lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: TEKES-lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LMUS",
+      "variablename": "Muut lainat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: muut lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATES",
+      "variablename": "Muu TEKES, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: TEKES (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKTMS",
+      "variablename": "Muu KTM, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muu KTM (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMHS",
+      "variablename": "Muut hallinnonalat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut hallinnonalat (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUS",
+      "variablename": "Kunnat, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Kunnat (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASIS",
+      "variablename": "SITRA, avustus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: SITRA (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKES",
+      "variablename": "KERA, avustus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: KERA (avustukset, tilaustutkimukset), (1000 mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMJS",
+      "variablename": "Muut julkiset rahoituslähteet, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut julkiset rahoituslähteet (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAHAS",
+      "variablename": "Rahastot, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Rahastot (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKYS",
+      "variablename": "Muut kotimaiset yritykset,  oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut kotimaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APJS",
+      "variablename": "Yrityksiä palvelevat järjestöt, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Yrityksiä palvelevat järjestöt (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUYS",
+      "variablename": "Muut ulkomaiset yritykset, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muut ulkomaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKVS",
+      "variablename": "Kansainväliset järjestöt, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Kansainväliset järjestöt (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMUS",
+      "variablename": "Muu ulkomainen rahoitus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muu ulkomainen rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMUU",
+      "variablename": "Muu rahoitus, oma t&k",
+      "conceptdef": "Yrityksen oma t&k, rahoitus: Muu rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHTS",
+      "variablename": "Omat t&k-menot, rahoitus yhteensä",
+      "conceptdef": "Yrityksen oman t&k:n menot rahoituslähteiden mukaan yhteensä 1991, (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ORAHAU",
+      "variablename": "Oma rahoitus, muu t&k",
+      "conceptdef": "Muut t&k-menot, oma rahoitus (1000mk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKEU",
+      "variablename": "KERAn lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: KERAn lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SITRAU",
+      "variablename": "SITRAn lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: SITRAn lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LTEU",
+      "variablename": "TEKESin lainat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: TEKES-lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LMUU",
+      "variablename": "Muu lainoitus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: muut lainat (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATEU",
+      "variablename": "Muu TEKES, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: TEKES (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKTMU",
+      "variablename": "Muu KTM, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muu KTM (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMHU",
+      "variablename": "Muut hallinnonalat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muut hallinnonalat (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKUU",
+      "variablename": "Kunnat, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Kunnat (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASIU",
+      "variablename": "SITRA, avustus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: SITRA (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKEU",
+      "variablename": "KERA, avustus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: KERA (avustukset, tilaustutkimukset), (1000 mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMJU",
+      "variablename": "Muut julkiset rahoituslähteet, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muut julkiset rahoituslähteet (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAHAU",
+      "variablename": "Rahastot, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Rahastot (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKYU",
+      "variablename": "Muut kotimaiset yritykset, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muut kotimaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "APJU",
+      "variablename": "Yrityksiä palvelevat järjestöt, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Yrityksiä palvelevat järjestöt (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUYU",
+      "variablename": "Muut ulkomaiset yritykset, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muut ulkomaiset yritykset (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKVU",
+      "variablename": "Kansainväliset järjestöt, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Kansainväliset järjestöt (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AMULKOU",
+      "variablename": "Muu ulkomainen rahoitus, muu t&k",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muu ulkomainen rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUUU",
+      "variablename": "Muu rahoitus, muut t&k-menot",
+      "conceptdef": "Muut t&k-menot, rahoitus: Muu rahoitus (avustukset, tilaustutkimukset), (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1992 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHTU",
+      "variablename": "Muut t&k-menot, rahoitus yhteensä",
+      "conceptdef": "Yrityksen muut t&k-menot rahoituslähteiden mukaan yhteensä 1991, (1000mk). Ulkopuolinen rahoitus on ilmoitettu vuoteen 1991 kohdistuvan laskutuksen mukaan. Ellei kaikkea v. 1991 toimintaan kohdistunutta ulkopuolista rahoitusta ole laskutettu, on myöhemmin laskutettavat erät arvioitu. Vuodelle 1994 myönnettyä rahoitusta tai vuonna 1991 saatua aikaisempiin vuosiin kohdistuvaa rahoitusta ei ole laskettu mukaan. Rahoitus on ilmoitettu alkuperäisen rahoituslähteen mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR1",
+      "variablename": "T&k-menot, TOL A, B maa- jametsätalous",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, A, Maa-ja metsätalous (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR2",
+      "variablename": "T&k-menot, TOL C, kaivos- ja kaivannaistoiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, C, kaivos- ja kaivannaistoiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR3",
+      "variablename": "T&k-menot, TOL 111-115, 118-119, elintarvikkeet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 111-115, 118-119, elintarvikkeet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR4",
+      "variablename": "T&k-menot, TOL 116, juomat",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 116, juomat (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR5",
+      "variablename": "T&k-menot, TOL 117 tupakka",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 117 tupakka (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR6",
+      "variablename": "T&k-menot, TOL 12 tekstiilit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 12 tekstiilit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR7",
+      "variablename": "T&k-menot, TOL 131 vaatteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 131 vaatteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR8",
+      "variablename": "T&k-menot, TOL 132 nahkatuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 132 nahkatuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR9",
+      "variablename": "T&k-menot, TOL 133 jalkineet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 133 jalkineet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR10",
+      "variablename": "T&k-menot, TOL 14 puutavara ja puutuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 14 puutavara ja puutuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR11",
+      "variablename": "T&k-menot, TOL 15 massa, paperi ja paperituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, massa, paperi ja paperituotteet(Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR12",
+      "variablename": "T&k-menot, TOL 16 kustantaminen ja painaminen",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, kustantaminen ja painaminen (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR13",
+      "variablename": "T&k-menot, TOL 17 huonekalut",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 17 huonekalut (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR14",
+      "variablename": "T&k-menot, TOL 181-185 teollisuuskemikaalit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 181-185 teollisuuskemikaalit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR15",
+      "variablename": "T&k-menot, TOL lääkkeet 187",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, lääkkeet 187 (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR16",
+      "variablename": "T&k-menot, TOL  186, 188, 189 muut kemialliset tuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 186, 188, 189 muut kemialliset tuotteet (maalit, painovärit, pesuaiineet, kosmetiikka- ja toalettituotteet, muut) (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR17",
+      "variablename": "T&k-menot, TOL 191 öljyn jalostus",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 191 öljyn jalostus (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR18",
+      "variablename": "T&k-menot, TOL 192-194 öljy- ja kivihiilituotteet, ydinpolttoaine",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 192-194 öljy- ja kivihiilituotteet, ydinpolttoaine (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR19",
+      "variablename": "T&k-menot, TOL 211 kumituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 211 kumituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR20",
+      "variablename": "T&k-menot, TOL 212 muovituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 212 muovituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR21",
+      "variablename": "T&k-menot, TOL 221 lasi, lasituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 221 lasi, lasituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR22",
+      "variablename": "T&k-menot, TOL 222 posliinituotteet, saviastiat",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 222 posliinituotteet, saviastiat (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR23",
+      "variablename": "T&k-menot, TOL 223-229 muut savi- ja kivituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 223-229 muut savi- ja kivituotteet (tiili, sementti, kalkki, laasti, betoni, betonituotteet, vuori- ja lasivilla) (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR24",
+      "variablename": "T&k-menot, TOL 231, 2331 rauta ja teräs",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 231, 2331 rauta ja teräs  (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR25",
+      "variablename": "T&k-menot, TOL 232, 2332 muut metallit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 232, 2332 muut metallit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR26",
+      "variablename": "T&k-menot, TOL 24 metallituotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 24 metallituotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR27",
+      "variablename": "T&k-menot, TOL 2511 kiinteät moottorit, turbiinit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2511 kiinteät moottorit, turbiinit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR28",
+      "variablename": "T&k-menot, TOL 251, 253 muut yleiskäyttöiset koneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 251, 253 muut yleiskäyttöiset koneet (pumput,kompressorit, voimansiirtolaitteet, polttimet, nostolaitteet, aseet) (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR29",
+      "variablename": "T&k-menot, TOL 2521 maatalouskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2521 maatalouskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR30",
+      "variablename": "T&k-menot, TOL 2522 työstökoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2522 työstökoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR31",
+      "variablename": "T&k-menot, TOL 2523 metallien jalostuskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2523 metallien jalostuskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR32",
+      "variablename": "T&k-menot, TOL 2524 kaivos- ja rakennustoiminnan koneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2524 kaivos- ja rakennustoiminnan koneet(Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR33",
+      "variablename": "T&k-menot, TOL 2525 massa- ja paperikoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2525 massa- ja paperikoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR34",
+      "variablename": "T&k-menot, TOL 2526 muut teollisuuden erikoiskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2526 muut teollisuuden erikoiskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR35",
+      "variablename": "T&k-menot, TOL 261 tieto- ja konttorikoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 261 tieto- ja konttorikoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR36",
+      "variablename": "T&k-menot, TOL 2621, 2622 elektroniset piirit ja tietoliikennvälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2621, 2622 elektroniset piirit ja tietoliikennvälineet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR37",
+      "variablename": "T&k-menot, TOL 2623, 2624 radiot, televisiot, ääni- ja kuvatallenteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2623, 2624 radiot, televisiot (ml. Äänentaltiointi ja -toistolaitteet, videolaitteet), ääni- ja kuvatallenteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR38",
+      "variablename": "T&k-menot, TOL 263 (pl. 2633) sähkökoneet ja -laitteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 263 (pl. 2633) sähkökoneet ja -laitteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR39",
+      "variablename": "T&k-menot, TOL 2633 kotitalouskoneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2633 kotitalouskoneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR40",
+      "variablename": "T&k-menot, TOL 264 instrumentit ja hienomekaaniset tuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 264 instrumentit ja hienomekaaniset tuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR41",
+      "variablename": "T&k-menot, TOL 271, 272 laivat ja veneet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 271, 272 laivat ja veneet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR42",
+      "variablename": "T&k-menot, TOL 273 kiskoilla kulkevat ajoneuvot",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 273 kiskoilla kulkevat ajoneuvot (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR43",
+      "variablename": "T&k-menot, TOL 274 autot ja perävaunut",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 274 autot ja perävaunut (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR44",
+      "variablename": "T&k-menot, TOL 275 ilma-alukset ja niiden moottorit",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 275 ilma-alukset ja niiden moottorit (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR45",
+      "variablename": "T&k-menot, TOL 2791 polkupyörät, mopot ja moottoripyörät",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 2791 polkupyörät, mopot ja moottoripyörät (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR46",
+      "variablename": "T&k-menot, TOL 279 (pl. 2791) muut kulkuneuvot",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 279 (pl. 2791) muut kulkuneuvot (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR47",
+      "variablename": "T&k-menot, TOL 2903 urheiluvälineet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu,  2903 urheiluvälineet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR48",
+      "variablename": "T&k-menot, TOL 29 (pl.2903) muut tehdasteollisuustuotteet",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 29 (pl.2903) muut tehdasteollisuustuotteet (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR49",
+      "variablename": "T&k-menot, TOL E energia- ja vesihuolto",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, E energia- ja vesihuolto (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR50",
+      "variablename": "T&k-menot, TOL F rakentaminen",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, F rakentaminen (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR51",
+      "variablename": "T&k-menot, TOL G, H kauppa, majoitus- ja ravitsemistoiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, G, H kauppa, majoitus- ja ravitsemistoiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR52",
+      "variablename": "T&k-menot, TOL I kuljetus",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, I kuljetus (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR53",
+      "variablename": "T&k-menot, TOL J tietoliikenne",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, J tietoliikenne (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR54",
+      "variablename": "T&k-menot, TOL 72 tietojenkäsittelypalvelut",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, 72 tietojenkäsittelypalvelut (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR55",
+      "variablename": "T&k-menot, TOL K,L,M (pl. 72) rahoitus- vakuutus-, kiinteistö- ja liike-elämää palveleva toiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, K,L,M (pl. 72) rahoitus- vakuutus-, kiinteistö- ja liike-elämää palveleva toiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TR56",
+      "variablename": "T&k-menot, TOL N-X yhteiskunnalliset ja henkilökohtaiset palvelut ja muualle luokittelematon toiminta",
+      "conceptdef": "Tuoteryhmä (TOL 1988), johon yksikössä tehty t&k kohdistuu, N-X Yhteiskunnalliset ja henkilökohtaiset palvelut ja muualle luokittelematon toiminta (Tilastokeskuksen Toimialaluokitus 1988 mukaan), markkaa (1000mk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL88",
+      "variablename": "Toimialan (TOL88) 4-numerotaso",
+      "conceptdef": "Toimiala  Tilastokeskuksen Toimialaluokitus 1988 mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

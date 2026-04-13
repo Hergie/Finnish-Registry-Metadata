@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "MIGR_TYO_jua_tyoehdot_000.xml",
+      "doi": "std_2025-05_2025-05-19_ain_0001",
+      "subject": "MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot - työehdot",
+      "contentdescription": "\n<h3>MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot (työehdot) </h3>\n\nMaahanmuuttoviraston koostaman oleskelulupatietoja sisältävän aineiston rekisterinpitäjyys on siirtynyt Tilastokeskukselle, mikä tarkoittaa sitä, että aineistoa luvittaa tutkimuskäyttöön sekä tilastollisiin selvityksiin jatkossa Tilastokeskuksen tutkijapalvelut. Kyseisistä tiedoista on muodostettu viisi valmisaineistoa: MIGR_OLESK, MIGR_OPISK, MIGR_PERHE, MIGR_TYO ja MIGR_VOPAL, joiden kuvaukset löytyvät Taika-katalogista.\n\n<b>MIGR_TYO -valmisaineisto koostuu tauluista työehdot ja osapäätökset. Tällä sivulla on aineistokuvaus taululle työehdot. </b>\n\n<b>Työehdot</b>-taulussa on muuttuja, joka kertoo ammattialan (occupation_field_name), ja tämä muuttuja käyttää omaa luokitustaan, mikä tarkoittaa, että ammattialan koodit eivät linkkaannu muista aineistoista löytyviin ammattiluokituksiin.  \n\nAineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamisen mahdollisuus. Taulut linkittyvät toisiinsa pseudonymisoiduilla tunnisteilla. Tietojen laatu on vaihtelevaa, ja pyrimme kuvaamaan esiin nousseet puutteet aineiston käytön helpottamiseksi. Valmisaineiston sisältö on arkaluonteista, ja se luvitetaan tutkimuskäyttöön tai tilastollisiin selvityksiin vain hyvin perustein. Kaikilta MIGR-aineistoja käyttöönsä hakevilta vaaditaan DPIA eli tietosuojan vaikutusten arviointi. \n\nAineiston päivämäärämuuttujat on karkeistettu kuukausitasolle, mutta tarpeen vaatiessa tarkemmat päivämäärät on mahdollista saada räätälöitynä. Valmisaineiston päivityssykli pyritään saamaan jopa kuukausitasolle, kunhan tietojen toimitusprosessi vakiintuu. Aineistoissa käytettäville id-muuttujille löytyy suomenkieliset luokitukset Fionan metatiedoista.\n\nValmisaineistossa on nyt tietoja vuodesta 2011 alkaen, ja tätä vanhempia tietoja on tarkoitus lisätä aineistoon vuonna 2026. Aikasarja katkeaa vuosien 2010 ja 2011 vaihteessa, sillä aiemmat tiedot ovat peräisin eri järjestelmästä kuin UMA:sta, ja mahdollisesti heikkolaatuisempia kuin vuodesta 2011 alkaen. Hankkeille luvitetaan tietoja vain niiltä vuosilta, joille hankkeella on tarvetta. Käytännössä MIGR-valmisaineistoissa vuosijaottelua ei ole mahdollista toteuttaa täydellisesti, vaan tiedot on jaoteltu vuotta 2011 edeltävään ja vuodesta 2011 alkavaan jaksoon. \n\nOleskelulupa-aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoihin voi tulla vielä käytettävyyttä parantavia muutoksia. Otamme mieluusti palautetta vastaan.\n\nViralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella <a href=\"https://tilastot.migri.fi/\" > Migrin tilastointipalvelusta</a>. \nAiheeseen ja terminologiaan voi tutustua tarkemmin <a href=\"https://migri.fi/oleskelulupa\" > Maahanmuuttoviraston sivuilla</a>.\n\nKysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi. \n\n\n",
+      "coveragetemporal": "2011-01-01 - ",
+      "published_day": "2026-02-10",
+      "variable_count": "30",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Oleskelulupaa hakeneet",
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

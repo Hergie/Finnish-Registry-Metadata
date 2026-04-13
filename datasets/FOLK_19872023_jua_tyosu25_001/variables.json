@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aineisto",
+      "variablename": "Aineistotunnus",
+      "conceptdef": "Aineistotunnus, joka ilmaisee lähdeaineiston. \n\nTilastovuonna 2020:\n1 = TyEL-työsuhteet (Työssäkäyntitilaston poiminta tulorekisteristä)\n4 = YEL-yrittäjäsuhteet \n5 = MYEL-yrittäjäsuhteet \n20 = Verottajan vuosi-ilmoitusaineisto \n\nTilastovuonna 2019:\n1 = TyEL-työsuhteet (Työssäkäyntitilaston poiminta tulorekisteristä)\n2 = TyEL-työsuhteet (ETK:n poiminta tulorekisteristä) \n4 = YEL-yrittäjäsuhteet \n5 = MYEL-yrittäjäsuhteet \n13 = Kaupunkien erillisaineistot \n20 = Verottajan vuosi-ilmoitusaineisto \n\nEnnen tilastovuotta 2019: \n1 = TEL-työsuhteet, vuodesta 2007 lähtien TyEL.\n2 = LEL-työsuhteet (ei enää vuodesta 2007 lähtien, sisältyy TyEL:iin). \n3 = TaEL-työsuhteet (ei enää vuodesta 2007 lähtien, sisältyy TyEL:iin)\n4 = YEL-yrittäjäsuhteet\n5 = MYEL-yrittäjäsuhteet\n6 = MEL-työsuhteet\n7 = Kirkon työsuhteet\n8 = KELA:n  työsuhteet\n9 = Suomen Pankin työsuhteet\n10 = KEVA:n työsuhteet\n11 = Valtion työsuhteet\n12 = Ahvenanmaan työsuhteet\n13 = Kaupunkien erillisaineistot\n14 = Helsingin Energian työsuhteet\n15 = Valtionapulaitosten työsuhteet\n20 = Verottajan vuosi-ilmoitusaineisto\n86 = VEL-opettajat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "rivinro",
+      "variablename": "Rivinumero",
+      "conceptdef": "Työ- tai yrittäjäsuhteet erottava rivinumero. Yhdellä henkilöllä voi olla useampi työ- tai yrittäjäsuhde. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus. \n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut yrtun_s-muuttujassa virastotunnus, on voinut tulla yrtun_s-muuttujaan y-tunnus. Samalla virastotunnus, joka aiemmin oli yrtun_s-muuttujassa on siirtynyt tpitunj_s-muuttujaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ykstun_s",
+      "variablename": "Suojattu toimipaikan tunnus",
+      "conceptdef": "Suojattu toimipaikkatunnus. \n\nHUOM! Julkisella sektorilla toimipaikkatunnus ei ole yksikäsitteinen, vaan sitä on aina käytettävä yhdessä yritystunnuksen (yrtun_s)  tai kuntien/kuntayhtymien jäsenyhteisötunnuksen tai valtion virastotunnuksen (tptitunj_s) kanssa. Myös yksityisellä sektorilla voi olla esim. virheellisistä toimipaikkatunnuksista ja yritysjärjestelyistä johtuen poikkeuksia, joissa toimipaikkatunnus liittyy useampaan kuin yhteen yritystunnukseen samana vuonna. Tapauksia voi rajata pois käyttämällä yritys/toimipaikkarekisteriä kehikkona. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpitunj_s",
+      "variablename": "Suojattu jäsenyhteisö- tai virastotunnus",
+      "conceptdef": "Suojattu kuntien/kuntayhtymien jäsenyhteisötunnus tai valtion virastotunnus.\n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut yrtun_s-muuttujassa virastotunnus, on voinut tulla yrtun_s-muuttujaan y-tunnus. Samalla virastotunnus, joka aiemmin oli yrtun_s-muuttujassa on siirtynyt tpitunj_s-muuttujaan. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tpitunt_s",
+      "variablename": "Suojattu kunta- ja valtiosektorin toimipistetunnus",
+      "conceptdef": "Suojattu toimipistetunnus. Kunta- ja valtiosektorin työsuhteilla. \n\nHUOM! Julkisella sektorilla toimipistetunnus ei ole yksikäsitteinen, vaan sitä on aina käytettävä yhdessä yritystunnuksen (yrtun_s)  tai kuntien/kuntayhtymien jäsenyhteisötunnuksen tai valtion virastotunnuksen (tptitunj_s) kanssa. Julkisen sektorin toimipistetunnus tpitunt_s voi myös vaihdella vuodesta toiseen samalla toimipaikalla ja se voi kuvata eritasoisia yksiköitä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Työsuhteen alkamispäivä",
+      "conceptdef": "Työ- tai yrittäjäsuhteen alkamispäivämäärä. \n\nTulorekisterin tiedoissa kyseessä on maksujakson alkamispäivä. Tilastossa on ketjutettu maksujaksoja yhteen, jos niissä ei ole yli kuukauden katkoa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Loppupäivämäärä",
+      "conceptdef": "Työ- tai yrittäjäsuhteen loppumispäivämäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "tvm",
+      "variablename": "Henkilön päätyösuhde",
+      "conceptdef": "Henkilön päätyösuhde. Muodostetaan pääasiallisen toiminnan päättelyajossa. Työvoimakäsite (TVM) määrittyy vuoden viimeisen viikon työsuhteen mukaan. Merkitään TVM = 1. \n\nHenkilön vuoden viimeisen viikon työsuhde on päätelty työssäkäyntitilastossa tilastovuodesta 2019 lähtien tulorekisterin perusteella. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "atv",
+      "variablename": "Henkilön pisin työsuhde",
+      "conceptdef": "Henkilön pisin työsuhde. ATV-työsuhde merkitään ATV = 1. Ammatissatoimivuus käsite = ATV, eli määritellään kyseisen vuoden pisimmän työsuhteen mukaan. \n\nHenkilön vuoden pisin työsuhde on päätelty tilastovuodesta 2019 lähtien tulorekisterin maksujaksotiedoista, mikä heikentää vertailukelpoisuutta tilastovuosien välillä. ATV-tietoa ei käytetä virallisissa tilastojulkistuksissa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "sivu",
+      "variablename": "Henkilön sivutyösuhde",
+      "conceptdef": "Henkilön sivutyösuhde. Muodostetaan pääasiallisen toiminnan päättelyajossa. Henkilölle valitaan vain yksi sivutyösuhde, vaikka henkilöllä olisikin useampi (sivu)työsuhde. Merkitään sivu = 1. Tietoa on vuodesta 1992 lähtien. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "oyr_omist_tyyppi",
+      "variablename": "Omistajatyyppi",
+      "conceptdef": "Oikeudellisen yksikön omistajatyyppi. Yritys- ja toimipaikkarekisterin yritykset ja yhteisöt jaetaan omistajuuden perusteella luokkiin. \n\nVuodesta 1996 alkaen arvoalue: \n1 = Yksityinen kotimainen \n2 = Valtio \n3 = Kunta \n4 = Ahvenanmaan maakunta \n5 = Ulkomaalaisomisteinen \n6 = Muu omistajatyyppi, tuntematon \n\n1987-1995 arvoalue: \n1 = Yksityinen kotimainen \n2 = Valtio \n3 = Kunta \n4 = Kuntainliitto \n6 = Ulkomaalaisten osuus yli 20 %, enintään 50 %\n7 = Ulkomaalaisten osuus yli 50 % \n9 = Muu omistajatyyppi, tuntematon",
+      "measunit": null,
+      "classification": "omistajatyyppi_1_1995_01_01",
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "oyr_oik_muoto",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": "Oikeudellisen yksikön oikeudellinen muoto eli yritysmuoto. \n\n11 = Luonnollinen henkilö\n12 = Kuolinpesä, perikunta\n13 = Verotusyhtymä\n14 = Avoin yhtiö\n15 = Konkurssipesä\n21 = Kommandiittiyhtiö\n22 = Laivanisännistöyhtiö (ei osakeyhtiö)\n31 = Osakeyhtiö\n32 = Keskinäinen vakuutusyhtiö\n33 = Säästöpankki\n34 = Eläkesäätiö tai -kassa, työeläkelaitos\n35 = Asunto-osakeyhtiö\n41 = Osuuskunta\n51 = Säätiö, rahasto\n52 = Aatteellinen yhdistys\n53 = Keskinäinen vahinkovakuutusyhdistys\n54 = Taloudellinen yhdistys\n61 = Julkinen viranomainen\n62 = Julkinen liikelaitos\n63 = Julkisoikeudellinen yhteisö\n71 = Valtionkirkko\n72 = Muu uskonnollinen yhteisö\n90 = Muu oikeudellinen muoto ",
+      "measunit": null,
+      "classification": "oikeudell_muoto_1_1984_01_01",
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "oyr_sektoriluokka",
+      "variablename": "Sektoriluokka",
+      "conceptdef": "Oikeudellisen yksikön sektoriluokka. Luokitus,  jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin. Tietoja vuodesta 1989 lähtien. \n\nVuosina 1989-1994 ja vuosina 1995-1998 luokituksissa jo kahden numeron tasolla merkittäviä eroja, mutta luokitukset ovat samat ensimmäisen numeron tasolla: \n1\tYritykset \n2\tRahoitus- ja vakuutuslaitokset \n3\tJulkisyhteisöt  \n4\tVoittoa tavoittelemattomat yhteisöt \n5\tKotitaloudet \n6\tUlkomaat \n\nVuosien 1999-2012 luokituksen ensimmäinen numero: \n1 Koko kansantalous (kotimaiset sektorit)\n2 Ulkomaat\nNäillä luokituksilla pääsekstorit ovat kahden numeron tasolla:\n11\tYritykset \n12\tRahoitus- ja vakuutuslaitokset \n13\tJulkisyhteisöt \n14\tKotitaloudet \n15\tKotitalouksia palvelevat voittoa tavoittelemattomat yhteisöt \n21\tEuroopan unionin jäsenvaltiot ja toimielimet \n22\tEuroopan unionin ulkopuoliset valtiot ja kansainväliset järjestöt \n\nLuokitus vuodesta 2013 lähtien:\n1\t= Koko kansantalous (kotimaiset sektorit) \n11\t= Yritykset ja asuntoyhteisöt \n111\t= Yritykset \n1111\t= Julkiset yritykset \n11111\t= Valtion yritykset \n11112\t= Kuntien yritykset \n1112\t= Yksityiset yritykset \n11121\t= Yksityiset kotimaiset  yritykset \n111211\t= Yksityiset suomalaisomisteiset yritykset \n111212\t= Yksityiset ulkomaalaisvähemmistöiset yritykset \n11122\t= Yksityiset ulkomaalaisenemmistöiset yritykset \n112\t= Asuntoyhteisöt \n12\t= Rahoitus- ja vakuutuslaitokset\n121-2\t= Rahalaitokset (S.121, S.122)\n121\t= Suomen Pankki\n122\t= Muut rahalaitokset\n1221\t= Talletuspankit\n1222\t= Rahamarkkinarahastot\n1223\t= Muut rahoitusta välittävät rahalaitokset\n123\t= Muut rahoituslaitokset\n124\t= Rahoituksen ja vakuutuksen välitystä avustavat laitokset\n125\t= Vakuutuslaitokset\n13\t= Julkisyhteisöt\n1311\t= Valtionhallinto\n1312\t= Osavaltiohallinto (ei käytössä Suomessa)\n1313\t= Paikallishallinto\n13131\t= Kunnat\n13132\t= Kuntayhtymät\n13133\t= Ahvenanmaan maakuntahallinto\n1314\t= Sosiaaliturvarahastot\n13141\t= Työeläkelaitokset\n13149\t= Muut sosiaaliturvarahastot\n14\t= Kotitaloudet\n141\t= Työnantaja- ja muut elinkeinonharjoittajien kotitaloudet (EKT95: S.141= S.142)\n1411\t= Maatilataloudenharjoittajien kotitaloudet\n1419\t= Muut elinkeinonharjoittajien kotitaloudet\n143\t= Palkansaajakotitaloudet\n144\t= Omaisuustulojen ja tulonsiirtojen saajakotitaloudet (EKT95: S.1441, S.1442, S.1443)\n145\t= Laitoskotitaloudet\n15\t= Kotitalouksia palvelevat voittoa tavoittelemattomat yhteisöt\n151\t= Valtionkirkot\n152\t= Muut voittoa tavoittelemattomat yhteisöt\n2\t= Ulkomaat\n21\t= Euroopan Unioni\n211\t= Euroopan unionin jäsenmaat\n2111\t= EMU:n  jäsenmaat\n2112\t= EU:n muut jäsenmaat\n212\t= Euroopan unionin toimielimet\n22\t= Muut maat ja kansainväliset järjestöt\n221\t= Muut maat\n222\t= Kansainväliset järjestöt\n\nSektoriluokitus 2012 http://www.stat.fi/meta/luokitukset/sektoriluokitus/versio.html. Muut luokitukset pyydettävä Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n\n",
+      "measunit": null,
+      "classification": "sektoriluokitus_11_2013_01_01",
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "toimiala",
+      "variablename": "Toimipaikan toimiala",
+      "conceptdef": "Työnantajan toimiala. Käytössä seuraavat luokitukset: \n toimiala_1_08_s (TOL2008) vuodesta 2007 lähtien \n toimiala_1_02_s (TOL2002) vuodet 2001-2006 \n toimiala_1_00_s (TOL95, toinen tarkistettu painos) vuodet 1998-2000\n toimiala_1_95_s (TOL95) vuodet 1993-1997\n toimiala_1_88_s (TOL88) vuodet 1987-1992 \n\nLuokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusavaimet.html ja http://www.stat.fi/meta/luokitukset/toimiala/versio.html\n\n",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "Työsuhderekisterit"
+    },
+    {
+      "identifier": "tp_sijaintikunta",
+      "variablename": "Toimipaikan sijaintikunta",
+      "conceptdef": "Toimipaikan sijaintikunta. Tietoja vuosilta 1987-2000. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhderekisterit"
+    }
+  ]
+}

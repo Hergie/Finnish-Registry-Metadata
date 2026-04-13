@@ -1,0 +1,172 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Yrityskehikko on osakasdatasta, mukana vain yritykset, joille on löytynyt vähintään 1 henkilöomistaja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "somtun_hlo",
+      "variablename": "Suojattu henkilöomistajan tunnus",
+      "conceptdef": "Suojattu henkilöomistajan tunnus, henkilönumero. Vain tiedetyt henkilöomistajat korkeintaan kahden ketjun päähän.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omosuus",
+      "variablename": "Omistusosuus",
+      "conceptdef": "Henkilöomistajan omistusosuus (ketjutuksessa omistusosuudet kerrottu) Jakajana käytetty ilmoitettujen osakkeiden lukumäärää yhteensä, jos se on suurempi kuin osakekanta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ketj1",
+      "variablename": "Ketjutus1",
+      "conceptdef": "Jos omistaja on yhtiömuotoinen, henkilöomistajaa on haettu yhtiön taustalta yhden tai kahden omistusportaan päähän. Ketjutus1 saa arvon =1, jos henkilö löytynyt yhden omistusportaan päästä. Jos ketjutus1 saa arvon >1, sama henkilö on löytynyt useamman kuin yhden yhtiön takaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ketj2",
+      "variablename": "Ketjutus2",
+      "conceptdef": "Jos omistaja on yhtiömuotoinen, henkilöomistajaa on haettu yhtiön taustalta yhden tai kahden omistusportaan päähän. Ketjutus2 saa arvon =1, jos henkilö löytynyt kahden omistusportaan päästä. Jos ketjutus2 saa arvon >1, sama henkilö on löytynyt useamman kuin yhden yhtiön takaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omryh",
+      "variablename": "Omistusryhmä",
+      "conceptdef": "Omistusryhmä omistuksen hajautumisen mukaan (huomioitu vain tiedetyt henkilöomistajat)\n\t\t1= yksi pääasiallinen henkilöomistaja, joka omistaa yli 50%\n\t\t2= yksi henkilöomistaja, joka omistaa 10-50%\n\t\t3= kaksi henkilöomistajaa, joista kukin omistaa 10-50%\n\t\t4= 3-10 henkilöomistajaa, joista kukin omistaa 10-50%\n\t\t5= muut\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yroik",
+      "variablename": "Yrityksen oikeudellinen muoto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrhenk",
+      "variablename": "Yrityksen henkilöstö",
+      "conceptdef": "Yrityksen henkilöstön lukumäärä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrlv",
+      "variablename": "Yrityksen liikevaihto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrjal",
+      "variablename": "Yrityksen jalostusarvo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtol08",
+      "variablename": "Yrityksen toimiala",
+      "conceptdef": "Toimialaluokituksen 2008 mukainen toimiala",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omsyrtun",
+      "variablename": "Omistajan yritys vuoden lopussa",
+      "conceptdef": "Omistajan työnantajayritys (TVM=vuoden viim. viikon työ/yrittäjäsuhde) vuoden lopussa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omstpitun",
+      "variablename": "Omistajan kunta/valtiotunnus vuoden lopussa",
+      "conceptdef": "Omistajan kunta/valtiotyönantajan tunnus (TVM) vuoden lopussa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omsykstun",
+      "variablename": "Omistajan toimipaikka vuoden lopussa",
+      "conceptdef": "Omistajan toimipaikka (TVM) vuoden lopussa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omkoul",
+      "variablename": "Omistajan koulutus",
+      "conceptdef": "Omistajan tutkintokoodi, kyseisen vuoden koulutusluokitus ktutk (koulutuskoodi on tyhjä, jos henkilöllä ei ole peruskoulun jälkeistä tutkintoa). Vuonna 2016 erikoisammattitutkinnot 4-numerolla alkavia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omsp",
+      "variablename": "Omistajan sukupuoli",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omika",
+      "variablename": "Omistajan ikä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omamas",
+      "variablename": "Omistajan ammattiasema",
+      "conceptdef": "Omistajan ammattiasema (TVM)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omptoim",
+      "variablename": "Omistajan pääasiallinen toiminta",
+      "conceptdef": "Omistajan pääasiallinen toiminta (TVM)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omsen",
+      "variablename": "Omistajan senioriteetti",
+      "conceptdef": "Omistajan senioriteetti/työkokemus kyseisen vuoden lopun TVM- työ/yrittäjäsuhteessa (kk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

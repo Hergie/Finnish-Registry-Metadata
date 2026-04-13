@@ -1,0 +1,228 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppija_oid_s",
+      "variablename": "Suojattu oppijatunnus",
+      "conceptdef": "Suojattu OPH:n oppijatunnus\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluoikeus_oid_s",
+      "variablename": "Suojattu opiskeluoikeuden tunniste",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste, joissain tapauksissa opiskeluoikeuden toimija ostaa koulutuksen toiselta koulutustoimijalta, näissä tapauksissa linkki opiskeluoikeuksien väliltä löytyy tästä kentästä. ks. tarkemmat lisätiedot OPH:n eduuni-wikistä (https://wiki.eduuni.fi/spaces/OPHPALV/pages/431685903/r_opiskeluoikeus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitos_oid_s",
+      "variablename": "Suojattu oppilaitostunnus",
+      "conceptdef": "Suojattu Oppilaitoksen tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitosnumero_s",
+      "variablename": "Suojattu oppilaitosnumero",
+      "conceptdef": "Suojattu oppilaitosnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_koodiarvo2_s",
+      "variablename": "Suojattu koulutusmoduuli koodiarvo",
+      "conceptdef": "koulutusmoduuli_koodiarvo suojattu paikallisilta kursseilta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitos_kotipaikka",
+      "variablename": "Oppilaitoksen kotipaikka",
+      "conceptdef": "Oppilaitoksen kotikunnan kuntakoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimipiste_oid_s",
+      "variablename": "Suojattu toimipisteen tunniste",
+      "conceptdef": "toimipistetietoa ei välttämättä ole viety suoritukseen, tällaisissa tapauksissa toimipiste-kentästä löytyy vastaavan oppilaitoksen tieto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_koulutusmoduuli",
+      "variablename": "Päätaso koulutusmoduuli",
+      "conceptdef": "sen päätason suorituksen koodiarvo, johon tutkinnonosan suoritus kuuluu. Alkuperäinen nimi OPH:n aineistossa on koulutusmoduuli_koodiarvo.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_koulutusmoduuli_koodisto",
+      "variablename": "Päätaso koulutusmoduuli koodisto",
+      "conceptdef": "https://opintopolku.fi/koski/dokumentaatio/koodistot, ammatillisen tutkintokoulutuksen suorituksilla on tässä kentässä arvo 'koulutus'. Alkuperäinen nimi OPH:n aineistossa on koulutusmoduuli_koodisto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_tyyppi",
+      "variablename": "Päätason suorituksen tyyppi",
+      "conceptdef": "Päätason suorituksen tyyppi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_koodiarvo",
+      "variablename": "Koulutusmoduuli koodiarvo",
+      "conceptdef": "osasuorituksen tunniste. Tyhjätty jos kyseessä paikallinen suoritus (koulutusmoduuli_paikallinen='t'). Näille löytyy suojattu tunnus koulutusmoduuli_koodiarvo2_s.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_koodisto",
+      "variablename": "Koulutusmoduuli koodisto",
+      "conceptdef": "Koodisto, josta osasuorituksen koodiarvo löytyy. Jos kyseessä paikallinen suoritus (koulutusmoduuli_paikallinen='t'), niin koodisto on tyhjä https://opintopolku.fi/koski/dokumentaatio/koodistot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_paikallinen",
+      "variablename": "Koulutusmoduuli paikallinen",
+      "conceptdef": "Kertoo onko kyseessä paikallisen opintosuunnitelman mukainen osasuoritus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arviointi_arvosana_koodiarvo",
+      "variablename": "Arviointi arvosana koodiarvo",
+      "conceptdef": "osasuorituksen arvosana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arviointi_arvosana_koodisto",
+      "variablename": "Arviointi arvosana koodisto",
+      "conceptdef": "Koodisto, johon arvosana kuuluu. https://opintopolku.fi/koski/dokumentaatio/koodistot",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arviointi_paiva",
+      "variablename": "Osasuorituksen arviointi päivä",
+      "conceptdef": "Päivä, jolloin osasuoritus on arvioitu. suorituksen tyypille 'nayttotutkintoonvalmistavankoulutuksenosa' ei rekisteröidä arviointipäivää (tai arvosanaa), näille suorituksille yleensä löytyy vastaava suoritus toisella tyypillä samalla koodiarvolla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tunnustettu",
+      "variablename": "Osasuorituksen tunnustus",
+      "conceptdef": "Tieto siitä, onko osasuoritus tunnustettu (eli ns. luettu hyväksi aikaisempien opintojen perusteella).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_pakollinen",
+      "variablename": "Koulutusmoduuli pakollinen",
+      "conceptdef": "Tieto siitä, onko osasuoritus pakollinen suoritettavassa koulutuksessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_laajuus_arvo",
+      "variablename": "Koulutusmoduuli laajuus arvo",
+      "conceptdef": "osasuorituksen laajuuden arvo.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_laajuus_yksikko",
+      "variablename": "Koulutusmoduuli laajuus yksikkö",
+      "conceptdef": "Osasuorituksen laajuuden yksikkö.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutkinnon_nimi_perusteessa",
+      "variablename": "Tutkinnon nimi perusteessa",
+      "conceptdef": "ammatillisen tutkinnon nimi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorituksen_tyyppi",
+      "variablename": "Suorituksen tyyppi",
+      "conceptdef": "Suorituksen tyyppi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toinenOsaamisala",
+      "variablename": "Toinen osaamisala",
+      "conceptdef": "Purettu data-kentästä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sisaltyy_opiskeluoikeuteen_oid_s",
+      "variablename": "Sisältyy opiskeluoikeuteen oid",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste, joissain tapauksissa opiskeluoikeuden toimija ostaa koulutuksen toiselta koulutustoimijalta, näissä tapauksissa linkki opiskeluoikeuksien väliltä löytyy tästä kentästä. ks. tarkemmat lisätiedot OPH:n eduuni-wikistä (https://wiki.eduuni.fi/spaces/OPHPALV/pages/431685903/r_opiskeluoikeus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_vahvistus_paiva",
+      "variablename": "Päätaso vahvistus päivä",
+      "conceptdef": "Päivä jolloin osasuorituksen sisältävä päätason suoritus on vahvistettu. Alkuperäinen nimi OPH:n aineistossa vahvistus_paiva.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ylempi_osasuoritus_key",
+      "variablename": "Ylempi osasuoritus key",
+      "conceptdef": "Yksilöi tutkinnonosan johon suoritus sisältyy, tutkinnonosa johon suoritus sisältyy löytyy vastaavalla avaimella ammatillinen_tutkinnonosat -taulusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_kieliaine_nimi",
+      "variablename": "koulutusmoduuli kieliaine nimi",
+      "conceptdef": "suorituksen kieliaineen nimi. Huomio: Kieliopintojen koodiarvo ei erittele opiskeltavaa kieltä. Tästä muuttujasta löytyy opiskeltava kieli.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "variables": [
+    {
+      "identifier": "VUOSI",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TALA",
+      "variablename": "OSITE.TALA",
+      "conceptdef": "Kunakin vuonna voimassa ollut toimialaluokitus (TOL88, TOL95).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HENLKMYH",
+      "variablename": "Henkilöstö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVAIHTO",
+      "variablename": "Liikevaihto",
+      "conceptdef": "Kirjanpidon mukainen liikevaihto. Liikevaihto koostuu yrityksen varsinaisen toiminnan myyntituloista, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot (KPL 4:1 §).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALMOMAK",
+      "variablename": "Valmistus omaan käyttöön",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIMUTUO",
+      "variablename": "Liiketoiminnan muut tuotot",
+      "conceptdef": "Liiketoiminnan muut tuotot puuttuvat vuosilta 1986-88, luultavasti sisältyneet satunnaisiin tuottoihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTKAIKA",
+      "variablename": "Ostot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTVARMU",
+      "variablename": "Varastojen muutos muutos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOPALV",
+      "variablename": "Ulkopuoliset palvelut",
+      "conceptdef": "Ulkopuoliset palvelut puuttuvat vuosilta 1986-88 ja kasvavat selkeästi vuosina 93-94. Ne ovat lähinnä työsuorituksista maksettuja korvauksia, joten näkyneet aiemmin henkilöstökuluissa. Kasvu selittyy alihankkijoiden käytön lisääntymisellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PAPALKAT",
+      "variablename": "Palkat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASOSKUL",
+      "variablename": "Muut henkilöstökulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOKRAM",
+      "variablename": "Vuokrat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUKULUT",
+      "variablename": "Muut liikekulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKATE",
+      "variablename": "Käyttökate",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POISTOT",
+      "variablename": "Poistot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TROSIN",
+      "variablename": "Osinkotuotot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KORKOT",
+      "variablename": "Korkotuotot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TRMURT",
+      "variablename": "Muut rahoitustuotot",
+      "conceptdef": "Muut rahoitustuotot puuttuvat vuosilta 1986-88.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KORKULUT",
+      "variablename": "Korkokulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUUTRAHK",
+      "variablename": "Muut rahoituskulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TRKURE",
+      "variablename": "Kurssierot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POISPITS",
+      "variablename": "Poistot sijoituksista",
+      "conceptdef": "Poistot sijoituksista vasta vuosina 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SATUNTU",
+      "variablename": "Satunnaiset tuotot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SATUNKU",
+      "variablename": "Satunnaiset kulut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TPOERO",
+      "variablename": "Poistoeron muutos",
+      "conceptdef": "Poistoeron muutos vain vuosina 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TVAYHT",
+      "variablename": "Varausten muutos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALVEROY",
+      "variablename": "Välittämät verot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILIKTUL",
+      "variablename": "Tilikauden tulos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VIENMUU",
+      "variablename": "Vienti (liikev. sisältyvä)",
+      "conceptdef": "Vienti (liikevaihtoon sisältyvä) puuttuu vuosilta 1986-88.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOPERU",
+      "variablename": "Perustamis- ja järjestelymenot",
+      "conceptdef": "Vain vuonna 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOTUTK",
+      "variablename": "Tutkimus- ja kehittämismenot",
+      "conceptdef": "Vain vuonna 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOAINO",
+      "variablename": "Aineettomat oikeudet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOLIAR",
+      "variablename": "Liikearvo",
+      "conceptdef": "Vain vuonna 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOMPIT",
+      "variablename": "Muut pikävaikutteiset menot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOENNA",
+      "variablename": "Ennakkomaksut",
+      "conceptdef": "Vain vuonna 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOATONY",
+      "variablename": "Aineettomat oikeudet yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEMAAV",
+      "variablename": "Maa- ja vesialueet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MERAKE",
+      "variablename": "Rakennukset ja rakennelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEKONE",
+      "variablename": "Koneet ja kalusto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEMUUT",
+      "variablename": "Muut aineelliset hyödykkeet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEENNA",
+      "variablename": "Ennakkomaksut ja keskeneräiset hankinnat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOANENY",
+      "variablename": "Aineelliset hyödykkeet yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MKOSAK",
+      "variablename": "Osakkeet ja osuudet",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MKMUU",
+      "variablename": "Muut sijoitukset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOARYHT",
+      "variablename": "Käyttöom. arvopaperit ja muut sij.",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DKOYHT",
+      "variablename": "Käytöomaisuus yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DARVOSTU",
+      "variablename": "Arvostuserät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DVOYHT",
+      "variablename": "Vaihto-omaisuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRMYYN",
+      "variablename": "Myyntisaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DSAALAIN",
+      "variablename": "Lainasaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DSAASIIR",
+      "variablename": "Siirtosaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRMUUS",
+      "variablename": "Muut saamiset",
+      "conceptdef": "Muut saamiset puuttuu vuosilta 1986-88.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRSAAY",
+      "variablename": "Saamiset yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRRAPY",
+      "variablename": "Rahoitusomaisuusarvopap. yht.",
+      "conceptdef": "Rahoitusomaisuusarvopaperit yht. vain vuosina 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRAHPANK",
+      "variablename": "Rahat ja pankkisaamiset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DRAHOMYH",
+      "variablename": "Rahoitusomaisuus yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DYHT",
+      "variablename": "VASTAAVAA YHTEENSÄ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOMAPA",
+      "variablename": "Oma pääoma yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KVAERO",
+      "variablename": "Kertynyt poistoero",
+      "conceptdef": "Kertynyt poistoero vain vuosina 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KVAMU",
+      "variablename": "Muut varaukset",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KVARVEY",
+      "variablename": "Vapaaeht. varaukset yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KVARPAKO",
+      "variablename": "Pakolliset varaukset",
+      "conceptdef": "Pakolliset varaukset vain vuosina 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KARVOSTU",
+      "variablename": "Arvostuserät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPAALA",
+      "variablename": "Pääoma/Vakautettu laina",
+      "conceptdef": "Pääoma/Vakautettu laina vain vuosina 1993 ja 1994.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPJOUK",
+      "variablename": "Joukkovelkakirjalainat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPLAIN",
+      "variablename": "Lainat rahoituslaitoksilta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPELAK",
+      "variablename": "Eläkelainat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPENNA",
+      "variablename": "Saadut ennakot",
+      "conceptdef": "Saadut ennakot vain vuosina 1993 ja 1994",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUUTPVEL",
+      "variablename": "Muut pitkäaikaiset velat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KPVPYHT",
+      "variablename": "Pitkäaik. vieras pääoma yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLOSTO",
+      "variablename": "Ostovelat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLSIIR",
+      "variablename": "Siirtovelat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLENNA",
+      "variablename": "Saadut ennakot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLMUU",
+      "variablename": "Muut lyhytaik. velat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLYHYY",
+      "variablename": "Lyhytaik. vieras pääoma yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KYHT",
+      "variablename": "VASTATTAVAA YHTEENSÄ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOLLI",
+      "variablename": "päätoimiala86",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOPYHT",
+      "variablename": "Oma pääoma yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RAHTUOTY",
+      "variablename": "Rahoitustuotot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SATTUKYH",
+      "variablename": "Satunnaiset tuotot ja kulut yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "POIVARMU",
+      "variablename": "Poistoero ja varausten muutos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DMUURAH",
+      "variablename": "Muu rahoitusomaisuus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TLIIVO",
+      "variablename": "Liikevoitto/-tappio",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19832024_jua_muuttomaanosa25_001.xml",
+      "doi": "he_201100_ain_Muutto",
+      "subject": "FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot",
+      "contentdescription": "FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot -vuosiaineistossa on tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen maanosatasolla YK:n M49-luokituksen mukaisesti. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. Aineisto on muodostettu muuttotilaston tiedoista, jotka pohjautuvat väestötietojärjestelmän tietoihin. \n\nFOLK_MUUTTO_MAANOSA moduulissa on karkeistettu seuraavat muuttujat maanosatasolle (pl. Suomi) sekä lisätty tieto EU:hun kuulumisesta: 1.kansalaisuus, 2. kansalaisuus, syntymävaltio, lähtömaa ja tulomaa. Äidinkieli on karkeistettu seuraavasti 1=suomi, 2=ruotsi, 3=muu.\n\nEU- ja ETA-kansalaisten muutto Suomeen tulee väestötietojärjestelmään ja sitä kautta Tilastokeskukselle, kun henkilö on hakenut ja saanut vakinaisen kotikunnan. Kolmansien maiden kansalaisten täytyy saada oleskelulupa, jotta voivat hakea kotikuntaa DVV:stä. Maahanmuuttoajankohta on se ajankohta, jolloin oleskeluluvan saanut saa kotikunnan ja hänet merkitään VTJ:ään. Henkilö on siis voinut olla maassa jo pidempään ennen virallista maahanmuuttoa. Väestötietojärjestelmässä henkilöllä voi olla myös tilapäinen asuinpaikka, mutta Tilastokeskuksen muuttoliiketilastossa henkilön siirtyminen muualta Suomeen luetaan maahanmuutoksi vain, jos väestötietojärjestelmään on tehty merkintä, että hän on saanut vakinaisen asuinpaikan Suomesta. \n\nAineisto on tarkoitettu FIONA-etäpalvelun kautta käytettäväksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. \n\nVimeisimmät aineistot ovat kansiossa FOLK_MUUTTO_MAANOSA, jossa tiedostot ovat jaettuna muuttovuosittain. Tiedostonimet ovat muodossa folk_muuttom_\"vuosi\"_1. Luokitusavain löytyy samasta kansiosta tiedostonimellä Maanosa_avain_FMUUTTO_25.xlsx.\n\nVanhat FOLK muutto -aineistot ovat FIONAssa seuraavisa kansioissa: \nTotaaliaineisto vuosille 2011-2020: FOLK_muutt_11a \nTotaaliaineisto vuosille 2001-2010: FOLK_muutt_0110a \nTotaaliaineisto vuosille 1983-2000: FOLK_muutt_8300a \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi. \n",
+      "coveragetemporal": "1983-01-01 - 2024-12-31",
+      "published_day": "2025-11-28",
+      "variable_count": "25",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Vuoden aikana muuttaneet.",
+      "resourcerelation_1": "VTJ",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

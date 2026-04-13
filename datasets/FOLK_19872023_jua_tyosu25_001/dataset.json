@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872023_jua_tyosu25_001.xml",
+      "doi": "tyokay_2012-03_2012-03-01_ain_0001",
+      "subject": "FOLK jaksotiedot: työsuhde ",
+      "contentdescription": "Sisältyy FOLK jaksotiedot -moduuliin. Työsuhdeaineisto sisältää tietoja henkilön vuoden viimeisen viikon työsuhteesta (TVM =1), henkilön vuoden pisimmästä työsuhteesta (ATV =1) ja mahdollisesta henkilön sivutyösuhteesta (SIVU=1). Lisäksi aineistossa on muita työsuhdejaksoja. \n\nTiedot pääsääntöisesti vuodesta 1987 lähtien ja poikkeamat tiedon saatavuudessa on kunkin muuttujan kuvauksessa. Aineistossa on 15 vuotta täyttäneiden työsuhdejaksoja vuoteen 2015 saakka. Vuodesta 2016 lähtien nuorimmat ovat 18-vuotiaita. \n\nHuomioitavaa: \n\nTilastovuodelle 2019 työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona. Tulorekisteri korvasi useita tilastossa aiemmin käytössä olleita työsuhdeaineistoja, mikä vaikuttaa tietojen vertailukelpoisuuteen. Tilastossa henkilön vuoden viimeisen viikon työsuhde (TVM =1) on päätelty tilastovuodelle 2019 tulorekisterin perusteella (aineisto=1). Tulorekisteristä poimitut jaksotiedot ovat maksujaksoja. Tilastovuoden 2019 aineisto sisältää myös ETK:n tulorekisteristä (aineisto=2) poimimat jaksotiedot. \n\nTyösuhdetiedot vuosilta 1987-2004  ovat laadultaan ja kattavuudeltaan heikompia kuin tiedot vuodesta 2005 lähtien. Tietoja puuttuu ennen vuotta 1995 TVM-työsuhteissa noin 23 % ( mm. kaikki yrittäjien tiedot, kunta-alalta noin 20 %  ja vuodelta 1987 valtion työsuhteet). Tiedot voivat olla myös ristiriitaisia FOLK työssäkäynti-aineiston kanssa ennen vuotta 2005, koska tiedot poimitaan eri lähteistä. Esimerkiksi suuressa osassa valtio- tai kunta-alan työsuhdejaksotiedoissa vuosina 1987-2004 yritys- ja toimipaikkatunnukset (yrtun_s ja ykstun_s) eivät ole samat kuin FOLK työssäkäynti -aineistossa, mutta yleensä näiden virastotunnus (tpitunj_s) ja kunta- ja valtiosektorin toimipistetunnus (tpitunt_s) ovat näissä molemmissa aineistoissa samoja. \n\nViimeisimmät aineistot ovat kansiossa FOLK_JAKSOT_C, jossa tiedostot ovat jaettuina vuositiedostoihin.  Tiedostonimet ovat muodossa folk_tyosuhde_\"vuosi\"_1.\n\nAikaisemmin julkaistut aineistot ovat FIONAssa kansiossa: FOLK_jaksot_a. \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi \n",
+      "coveragetemporal": "1987-01-01 - 2023-12-31",
+      "published_day": "2026-01-16",
+      "variable_count": "18",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneet 15 vuotta täyttäneet henkilöt.",
+      "resourcerelation_1": "Työsuhderekisterit (ETK, Keva ja Valtionkonttori), tulorekisteri sekä Tilastokeskuksen oma tiedonkeruu",
+      "resourcerelation_2": "<a href= \"http://www.stat.fi/til/tyokay/\">Työssäkäynti</a> ",
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

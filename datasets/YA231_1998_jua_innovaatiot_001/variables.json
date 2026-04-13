@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "TK98",
+      "variablename": "T&k-toiminta 1998",
+      "conceptdef": "Yritys tai yksikkö on harjoittanut tutkimus- ja kehittämistoimintaa tai tilannut ulkopuolisilta tutkimusta tai tuote/prosessikehitystyötä vuonna 1998, 1=kyllä, 2=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K6",
+      "variablename": "Teknologiset tuoteinnovaatiot ",
+      "conceptdef": "Yritys toi markkinoille teknologisia tuote- tai palveluinnovaatioita vuosina 1996-98, 1=kyllä, 2=ei. Teknologisesti uusi tuote tai palvelu eroaa käyttötarkoitukseltaan tai teknologisilta ominaisuuksiltaan selvästi aikaisemmin tuotetuista. Perustana voi olla uusi teknologia, entisten teknologioiden uusi sovellus tai uuden tiedon hyödyntäminen. Teknologisesti merkittävä tuoteparannus tai parannettu palvelu on olemassa olevan tuotteen tai palvelun ominaisuuksien merkittävä parannus, kuten tuotantokustannusten aleneminen. Tuotteen tai palvelun ei tarvitse olla uusi markkinoiden kannalta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K7",
+      "variablename": "Teknologiset prosessi-innovaatiot ",
+      "conceptdef": "Yritys otti käyttöön teknologisia prosessi-innovaatioita vuosina 1996-98, 1=kyllä, 2=ei. Teknologiset prosessi-innovaatiot ovat teknologisesti uusia tai olennaisesti parannettuja tuotteiden tai palvelujen tuotanto- tai jakelumenetelmiä. Nämä voivat sisältää laitteisiin, atk-ohjelmistoihin tai tuotannon organisointiin liittyviä muutoksia ja ne voivat perustua uuden tiedon hyödyntämiseen. Uusien laatujärjestelmien käyttöönotto tai organisatoriset muutokset eivät yksinään ole teknologisia innovaatioita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K8A1",
+      "variablename": "Uusien tuotteiden vaikutus liikevaihtoon ",
+      "conceptdef": "Vuosina 1996-98 markkinoille tuotujen teknologisesti uusien tai parannettujen tuotteiden ja palveluiden osuus yrityksen liikevaihdosta vuonna 1998, prosenttia (%).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K8A2",
+      "variablename": "Muuttumattomien tuotteiden vaikutus liikevaihtoon ",
+      "conceptdef": "Vuosina 1996-98 teknologisesti muuttumattomien tai vain vähän muutettujen tuotteiden tai palvelujen osuus yrityksen liikevaihdosta vuonna 1998, prosenttia (%).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K8B1",
+      "variablename": "Markkinoiden kannalta uudet tuotteet ",
+      "conceptdef": "Yritys toi vuosina 1996-98 markkinoille sellaisia teknologisesti uusia tuotteita tai palveluja,  jotka olivat uusia sekä yrityksen että markkinoiden kannalta, 1=kyllä, 2=ei.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "K8B2",
+      "variablename": "Markkinoiden kannalta uusien tuotteiden osuus lliikevaihdosta",
+      "conceptdef": "Vuosina 1996-98  sellaisten teknologisesti uusien tuotteiden tai palvelujen tuominen markkinoille,  jotka olivat uusia sekä yrityksen että markkinoiden kannalta, osuus liikevaihdosta vuonna 1998, prosenttia ( %).",
+      "measunit": "%",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK98",
+      "variablename": "Henkilökunta, lomaketieto",
+      "conceptdef": "Yrityksen henkilökunta 31.12.1998.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV98",
+      "variablename": "Liikevaihto, lomaketieto",
+      "conceptdef": "Yrityksen liikevaihto vuonna 1998 tai tilikaudelta,  joka päättyi 1.4.1998 - 31.3.1999 ( 1000 mk).   Liikevaihtoon luetaan kirjanpitovelvollisen varsinaisen toiminnan myyntituotot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VASTE",
+      "variablename": "Vastekoodi tiedonantajarekisterissä",
+      "conceptdef": "Vastaustilanne –koodit tiedonantajarekisterissä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRNTALA",
+      "variablename": "Yrityksen toimiala",
+      "conceptdef": "Toimialaluokitusta ( TOL ) käytetään yritysten ja muiden organisaatioiden tai yksittäisten toimipaikkojen luokitteluun niissä harjoitetun taloudellisen toiminnan perusteella.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VAIHTO98",
+      "variablename": "Kehikon liikevaihto",
+      "conceptdef": "Kirjanpidon mukainen liikevaihto, 1 000 mk. Liikevaihto koostuu yrityksen varsinaisen toiminnan myyntituloista, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HENK98",
+      "variablename": "Kehikon henkilökunta",
+      "conceptdef": "Yrityksen henkilökunta 31.12.1998.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL23",
+      "variablename": "Toimiala",
+      "conceptdef": "-TOL23  Tilastokeskuksen toimialaluokitus 23. Tilastokeskuksen yritysrekisteri sisältää yritykset TOL2002-luokituksen mukaisesti luokiteltuina Toimialaluokitusta ( TOL ) käytetään yritysten ja muiden \norganisaatioiden tai yksittäisten toimipaikkojen luokitteluun niissä harjoitetun taloudellisen toiminnan perusteella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKLK",
+      "variablename": "Kertoimien laskennassa käytetty henkilökunnan suuruusluokka",
+      "conceptdef": "Painokertoimien laskennassa käytetty henkilökunnan suuruusluokka, 1=0-19, 2=20-49, 3=50-99, 4=100+.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERROIN",
+      "variablename": "Liikevaihto-osuuden kerroin",
+      "conceptdef": "Liikevaihdon mukainen painokerroin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERROIN2",
+      "variablename": "Lukumääräosuuden kerroin",
+      "conceptdef": "Yritysten lukumäärän mukainen painokerroin, eli ositteessa N/n. Käytetty julkaistuissa taulukoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

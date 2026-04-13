@@ -1,0 +1,164 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuukausi",
+      "variablename": "Kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkilo_OID_s",
+      "variablename": "Suojattu henkilö-OID",
+      "conceptdef": "Henkilön yksilöivä tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkiön yksilöivä tunniste.",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntymavuosi",
+      "variablename": "Henkilön syntymävuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntymakuukausi",
+      "variablename": "Henkilön syntymäkuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukupuoli",
+      "variablename": "Henkilön sukupuoli",
+      "conceptdef": "1=Mies,\n2=Nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aidinkieli_k",
+      "variablename": "Henkilön äidinkieli, karkeistettu tasolle suomi, ruotsi, muu",
+      "conceptdef": "1=suomi,\n2=ruotsi,\nMUU=muu,\nTyhjä arvo=ei tietoa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotikunta",
+      "variablename": "Lapsen asuinkunta",
+      "conceptdef": "Perustuu Tilastokeskuksen kolminumeroiseen kuntanumeroon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuorohoito_kytkin",
+      "variablename": "Vuorohoito",
+      "conceptdef": "Normaaliksi varhaiskasvatusajaksi on määritelty arkisin (ma-pe) klo 6.00-18.00 välisenä aikana tapahtuva varhaiskasvatus. Vuorohoidoksi on määritelty normaalin varhaiskasvatusajan ulkopuolella tapahtuva varhaiskasvatus.\nLapsi on vuorohoidossa, jos varhaiskasvatus tapahtuu ns. normaalien varhaiskasvatusaikojen ulkopuolella (vuorohoito = true). Lapsi ei ole vuorohoidossa, jos varhaiskasvatus toteutuu normaalin varhaiskasvatusajan sisällä. (vuorohoito = false).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paivittainen_vaka_kytkin",
+      "variablename": "Päivittäinen varhaiskasvatus (mikäli lapsi ei ole vuorohoidossa)",
+      "conceptdef": "Lapsi on päivittäisessä varhaiskasvatuksessa, jos varhaiskasvatus jakautuu viidelle arkipäivälle (ma-pe), (päivittäinen varhaiskasvatus =  true).\n\nLapsi on osaviikkoisessa varhaiskasvatuksessa, jos varhaiskasvatus toteutuu vain joinain arkipäivinä (ma-pe), ei kaikkina arkipäivinä, (päivittäinen varhaiskasvatus = false).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokopaivainen_vaka_kytkin",
+      "variablename": "Kokopäiväinen varhaiskasvatus (mikäli lapsi ei ole vuorohoidossa)",
+      "conceptdef": "Lapsi on kokopäiväisessä varhaiskasvatuksessa, jos varhaiskasvatusaika on yli viisi tuntia päivässä (5.01 tai yli) ja varhaiskasvatus tapahtuu arkipäivinä (ma-pe), (kokopäiväinen varhaiskasvatus  = true).\nLapsi on osapäiväisessä varhaiskasvatuksessa, jos varhaiskasvatusaika on viisi tuntia tai vähemmän (5.0 tai alle) päivässä ja varhaiskasvatus tapahtuu arkipäivinä (ma-pe), (kokopäiväinen varhaiskasvatus = false).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilapainen_vaka_kytkin",
+      "variablename": "Tilapäinen varhaiskasvatus (mikäli lapsi on kunnallisessa varhaiskasvatuksessa, jonka järjestämismuoto on jm01, jm02 tai jm03)",
+      "conceptdef": "Tilapäisellä varhaiskasvatuksella tarkoitetaan kunnan järjestämää varhaiskasvatusta, johon lapsi osallistuu väliaikaisesti ja satunnaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuntimaara_viikossa",
+      "variablename": "Tuntimäärä viikossa",
+      "conceptdef": "Lapsen varhaiskasvatuspäätökseen tai sitä vastaavaan sopimukseen merkitty viikoittainen tuntimäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "jarjestamismuoto",
+      "variablename": "Luokitusmuuttuja varhaiskasvatuksen järjestämismuodosta.",
+      "conceptdef": "Muuttujaan on koottu seuraavat arvot perustuen <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto\">Vardan järjestysmuotoon</a> (30.03.2026):\n0=Kunnan tai kuntayhtymän järjestämä varhaiskasvatus (JM01),\n1=Ostopalveluna tai palvelusetelillä toteutettu varhaiskasvatus, kunnan tai kuntayhtymän järjestämä (JM02 ja JM03),\n2=Yksityisen hoidon tuella järjestetty varhaiskasvatus tai yksityinen varhaiskasvatus ilman yksityisen hoidon tukea (JM04 ja JM05)\n\nMuuttujassa arvo 0 viittaa kunnallisen varhaiskasvatuksen järjestysmuotoon ja arvot 1 ja 2 yksityisen varhaiskasvatuksen järjestämismuotoon.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimipaikan_kuntakoodi",
+      "variablename": "Varhaiskasvatustoimipaikan kuntakoodi",
+      "conceptdef": "Perustuu Tilastokeskuksen kolminumeroiseen kuntanumeroon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimipaikka_OID_s",
+      "variablename": "Suojattu toimipaikan organisaatio-OID",
+      "conceptdef": "Yksilöivä tunniste toimipaikalle.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimija_OID_s",
+      "variablename": "Suojattu toimijan organisaatio-OID",
+      "conceptdef": "Yksilöivä tunniste varhaiskasvatusta tuottaville ja järjestäville toimijoille.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimintamuoto",
+      "variablename": "Toimipaikan toimintamuoto",
+      "conceptdef": "Perustuu <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardatoimintamuoto\">Vardan luokitukseen</a> (30.03.2026):\nTM01=Päiväkoti,\nTM02=Perhepäivähoito,\nTM03=Ryhmäperhepäivähoito.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oma_organisaatio_OID_s",
+      "variablename": "Suojattu organisaatio-OID.",
+      "conceptdef": "Varhiaskasvatuksen järjestämisvastuussa oleva kunta tai kuntayhtymä, jos varhaiskasvatus on tuotettu ostopalvelulla tai palvelusetelillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

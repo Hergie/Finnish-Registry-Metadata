@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "YA222_2019_jua_toimipaikkayty_001.xml",
+      "doi": "work_2012-11_2012-11-28_ain_0001",
+      "subject": "FIRM_ESTAB Yritystietovarasto: toimipaikat 2019 (YA222)",
+      "contentdescription": "Yritysrekisterin toimipaikkatason aineisto kattaa liikeyritysten ja yksityisten voittoa tavoittelemattomien yhteisöjen vuosittaiset toimipaikkatason tilastotiedostot. Aineisto sisältää perustiedot toimipaikkojen toimialasta, sijainnista, omistuksesta, liikevaihdosta, henkilöstömäärästä ja palkoista. Aineisto perustuu Tilastokeskuksen yritys- ja toimipaikkarekisteriin. Tiedot saadaan pääasiassa hallinnollisista lähteistä ja yritysrekisterin omista tiedusteluista. Konsernirekisteristä saadaan tiedot konserniyritysten ulkomaisista omistussuhteista. Ennen konsernirekisterin perustamista 1995 tiedot tulivat Suomen Pankista. Lisätietoja yritystason aineiston kuvauksesta (Yritystietovarasto: yritykset).\n\nVuodesta 2013 alkaen käytössä on uusi suojattu yritysid-tunnus. Jos toimipaikka on siirtynyt yhden yritystunnuksen alta toiselle vuoden aikana, mukaan on otettu vain vuoden viimeinen suhde.\n\nToimipaikkatietojen osalta tilastojoukko on muuttunut vuodesta 2013-  yritystietoja vastaavasti.\n\nToimipaikkojen liikevaihtotieto kerätään 2013 alkaen ainoastaan alue- ja toimialatiedonkeruussa muiden tietojen yhteydessä noin 2000 teolliselta toimipaikalta ja n. 180 liiketoimintayksiköltä (palvelualojen toimipaikalta tai toimipaikkayhdistelmältä), kun liikevaihtotietoa kysyttiin aiemmin myös yritysrekisterin henkilöstö- ja toimipaikkarakennetiedonkeruussa n. 17 000 toimipaikalta. Tästä aiheutuvaa laadunmuutosta on vaikea arvioida, sillä liikevaihdon ilmoittaminen tarkalla toimipaikkajaolla on ollut yrityksille usein haastava tehtävä. Tiedonkeruussa pyritään kuitenkin saamaan kaikkien suurimpien yritysten toimipaikkatiedot käsiteltyä mahdollisimman vertailukelpoisesti edellisvuoteen nähden. Muiden kuin kyselystä saatavien toimipaikkojen osalta toimipaikoittaiset liikevaihtotiedot estimoidaan yritysten liikevaihdon ja toimipaikkojen toimiala- ja henkilöstöjakauman avulla, jolloin päästään näiden osalta aiempaa vertailukelpoisempaan laatuun. T5-lomake tai sen kohdejoukko ei ole muuttunut, mutta tarkistuksia on ehditty tehdä aiempaa vähemmän. \n\nToimipaikoittaisissa henkilöstömäärätiedoissa ei ole tapahtunut merkittäviä muutoksia ja ne kerätään edelleenkin pääosin yritysrekisterin ja työssäkäyntitilaston yhteisellä henkilöstö- ja toimipaikkarakennetiedustelulla (HMTIE). Tämä tarkoittaa sitä, että uudistuksen yhteydessä henkilöstömäärätiedoissa ei tapahdu merkittäviä muutoksia ja näin ollen vuositietojen aikasarja ei katkea tämän tiedon osalta.\n\nKynnysarvosäännön rinnalla tulee soveltaa dominanssisääntöä (1,75) tuoreissa yritystiedoissa (15 kk viiteajankohdasta).\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.\n",
+      "coveragetemporal": "2019-01-01 - 2019-12-31",
+      "published_day": "2021-01-20",
+      "variable_count": "30",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Toimipaikat. Yksilöintitunnuksena toimipaikkatunnus ja liiketunnus.",
+      "resourcerelation_1": "Yritys- ja toimipaikkarekisteri",
+      "resourcerelation_2": "<a href= \"http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yritysrekisterin_toimipaikat_sv.html\">Yritysrekisterin toimipaikat</a> ",
+      "keywords": "toimipaikat,yritykset,yritysrekisteri",
+      "line_count": "399828",
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

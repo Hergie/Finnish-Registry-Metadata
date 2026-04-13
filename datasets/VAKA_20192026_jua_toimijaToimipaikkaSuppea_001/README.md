@@ -1,0 +1,180 @@
+# VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA - vuosipäivitteiset Vardaan pohjautuvat varhaiskasvatustoimija- ja -toimipaikkatiedot
+
+- **Identifier:** `VAKA_20192026_jua_toimijaToimipaikkaSuppea_001.xml`
+- **DOI:** `vaka_2026-03_2026-03-06_ain_0001`
+- **Temporal coverage:** 2019-01-01 - 2024-12-31
+- **Published:** 2026-03-31
+- **Organisation:** Tilastokeskus
+- **Variable count:** 16
+- **Observation count:** —
+- **Population:** Varhaiskasvatus toimijat ja toimipaikat Suomessa
+
+## Kuvaus / Description
+
+VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA-moduuli pohjautuu Varhaiskasvatuksen tietovarannon (Varda) tietoihin. Moduulissa on saatavilla tietoa varhaiskasvatusta järjestävistä ja tuottavista toimijoista ja toimipaikoista Suomessa. VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA-valmisaineistosta on olemassa kaksi vaihtoehtoista versiota: VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA (tämä moduuli) ja VAKA_TOIMIJA_TOIMIPAIKKA.
+
+Tämä moduuli pävitetään kerran vuodessa uudella aineistolla, jonka myötä tämä moduuli soveltuu hyvin sellaisille hankkeille, joissa on tarkoitus tuottaa toistettavia tuloksia. Tämä moduuli on tietosisällöltään suppeampi verrattuna VAKA_TOIMIJA_TOIMIPAIKKA-moduuliin.
+
+Moduulin rakenne tullaan päivittämään vuoden 2026 aikana, jonka myötä moduuliin voi tulla pienimuotoisia sisällöllisiä ja rakenteellisia muutoksia, jotka voivat vaikuttaa myös tietosisällön muuttumiseen. Vaikutuksen suuruus arvioidaan olevan pieni.
+
+Moduuli koostuu seuraavista erillisistä tauluista: toimijan tiedot, toimipaikan tiedot ja toimipaikan muutostiedot. Tietojen yhdistäminen taulujen välillä tapahtuu toimipaikkojen tai toimijoiden suojattujen tunnisteiden sekä päivämäärätietojen kautta. Muita tietoja, kuten paos-hallinnointi, toimipaikan toimintakieli-, kielipainotus- ja toimintapainotustietoja sekä Ahvenanmaan summatason tietoja, voidaan sisällyttää räätälöityjen toimeksiantojen kautta. Sisällytettävistä tiedoista tarkemmin VAKA_TOIMIJA_TOIMIPAIKKA-moduulin TAIKA-kuvauksessa.
+
+
+<h3>Tietolähteet ja perusjoukko</h3>
+Aineisto on kokonaisaineisto, joka pohjautuu Varhaiskasvatuksen tietovarannon tietoihin. Varhaiskasvatuksen tietovaranto on kuvattu seuraavasti <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/453739928/Varda">Vardan Eduuni-wiki palvelussa</a> (9.1.2026):
+<i>Varaiskasvatuksen tietovaranto on kansallinen tietovaranto, joka sisältää tietoja varhaiskasvatustoimijoista, varhaiskasvatuksen toimipaikoista, varhaiskasvatuksessa olevista lapsista, lasten huoltajista, varhaiskasvatuksen henkilöstöstä ja varhaiskasvatuksessa annettavasta tuesta. Varda on otettu käyttöön vaiheittain vuosina 2019-2020.</i>
+
+VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA-moduulin perusjoukko muodostuu Vardasta löytyvistä varhaiskasvatusta järjestävistä ja tuottavista toimijoista ja niihin liittyvistä toimipaikoista Suomessa.
+
+
+<b>Huomioitavaa</b>
+Varda on otettu vaiheittain käyttöön vuosien 2019-2020 aikana, jonka takia ensimmäisten vuosien tiedot voivat olla puutteellisia. Tämä voi näkyä esimerkiksi varhaiskasvatuksen piirissä olevien lasten lukumäärissä.
+
+Kunnan, kuntayhtymän ja yksityisen palveluntuottajan vastuulla on huolehtia tallentamansa tietosisällön oikeellisuudesta, virheettömyydestä sekä ajantasaisuudesta Vardassa <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/190613234/Vardan+tietojen+laatu+luovutus+ja+k%C3%A4ytt%C3%B6">Vardan eeduni-wiki sivusto</a> (4.3.2026). Koska kunnat, kuntayhtymät ja yksityiset palveluntuottajat tallentavat itsenäisesti tietosisältöjä Vardaan, voi tietojen tallennus- tai päivitystiheydessä olla vaihtelevuutta eri tahojen välillä. Tämä voi vaikuttaa aineistoon niin, että aineistossa olla puutteita etenkin tuoreimpien tietojen osalta, joka on syytä huomioida aineistoa käsiteltäessä.
+
+
+<b>Aineiston päivitysaikataulu</b>
+Aineisto päivitetään kerran vuodessa. 
+
+
+<b>Aineiston yleisimmät käyttötavat</b>
+Aineistoa voidaan hyödyntää varhaiskasvatukseen liittyviin tutkimuksiin tai selvityksiin, joissa on etenkin tarve toistettaville tuloksille.
+
+
+<b>Rajoitukset</b>
+Aineiston toimipaikka- tai toimijatiedot voidaan yhdistää suojatun organisaatio-OID muuttujan avulla niihin aineistoihin, joissa on myös organisaatio-OID tunniste käytössä (kuten KOSKI). Tällä hetkellä aineiston toimipaikka- tai toimijatiedot eivät ole yhdistettävissä sellaisiin valmisaineistoihin, joiden toimipaikan tai toimijan tunnisteet pohjautuvat Tilastokeskuksen yritysrekisterin tunnisteisiin.
+
+
+<b>Lisätietoa</b>
+Vardan tietosisältö on dokumentoitu <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/488747922/Vardan+tietoluettelo">Vardan Eduuni-wiki palvelussa</a> (9.1.2026), josta voi hakea lisätietoa aineiston tietosisällöstä.
+
+<a href="https://vipunen.fi/fi-fi/varhaiskasvatus/Sivut/default.aspx">Opetushallituksen tilastopalvelu</a> (9.1.2026)
+
+<a href="https://stat.fi/tilasto/vaka">Varhaiskasvatustilasto</a> ja tilaston <a href="https://stat.fi/tilasto/dokumentaatio/vaka">dokumentaatio</a> (9.1.2026).
+
+Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
+
+## Muuttujat / Variables (16)
+
+| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+|---|---|---|---|---|
+| `toimija_OID_s` | Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID). | — | — | toimija |
+| `toimipaikka_OID_s` | Toimipaikan suojattu tunniste (organisaatio-OID). | — | — | toimipaikka |
+| `toimipaikka_id_s` | Suojattu Vardan sisäinen tunniste toimipaikalle | — | — | toimipaikka |
+| `alkamispvm` | Toiminnan alkamispäivämäärä. | — | — | toimipaikka, toimija |
+| `paattymispvm` | Toiminnan päättymispäivämäärä, jos tiedossa. | — | — | toimija, toimipaikka |
+| `y_tunnus_s` | Suojattu toimijan yritystunnus. | — | — | toimija |
+| `yritysmuoto_k` | Karkeistettu toimijan yritysmuoto. | — | — | toimija |
+| `kuntakoodi` | Kuntakoodi | — | — | toimipaikka, toimija |
+| `kasvatusopillinen_jarjestelma` | Toimipaikan kasvatusopilliseen järjestelmään viittaava koodi, perustuu Vardan luokitukseen. | — | — | toimipaikka |
+| `toimintamuotokoodi` | Toimipaikan viimeisin havaittu toimintamuotokoodi, perustuu Vardan luokitukseen. | — | — | toimipaikka |
+| `JM01` | Järjestämismuoto on kunnan tai kuntayhtymän järjestämä. | — | — | toimipaikka |
+| `JM02` | Järjestämismuoto on ostopalvelu, kunnan tai kuntayhtymän järjestämä. | — | — | toimipaikka |
+| `JM03` | Järjestämismuoto on palveluseteli, kunnan tai kuntayhtymän järjestämä. | — | — | toimipaikka |
+| `JM04` | Järjestämismuoto on yksityisen hoidon tuella järjestetty. | — | — | toimipaikka |
+| `JM05` | Järjestämismuoto on yksityinen varhaiskasvatus ilman yksityisen hoidon tukea. | — | — | toimipaikka |
+| `varhaiskasvatuspaikat` | Toimipaikan varhaiskasvatuspaikat | — | — | toimipaikka |
+
+### Muuttujien määritelmät / Variable definitions
+
+#### `toimija_OID_s` — Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID).
+
+**Ryhmä / Group:** toimija
+
+#### `toimipaikka_OID_s` — Toimipaikan suojattu tunniste (organisaatio-OID).
+
+**Ryhmä / Group:** toimipaikka
+
+#### `toimipaikka_id_s` — Suojattu Vardan sisäinen tunniste toimipaikalle
+
+**Ryhmä / Group:** toimipaikka
+
+#### `alkamispvm` — Toiminnan alkamispäivämäärä.
+
+**Ryhmä / Group:** toimipaikka, toimija
+
+Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen alkamispäivämäärä.
+
+#### `paattymispvm` — Toiminnan päättymispäivämäärä, jos tiedossa.
+
+**Ryhmä / Group:** toimija, toimipaikka
+
+Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen päättymispäivämäärä. Tyhjät arvot voidaan tulkita toiminnan jatkumisena.
+
+#### `y_tunnus_s` — Suojattu toimijan yritystunnus.
+
+**Ryhmä / Group:** toimija
+
+#### `yritysmuoto_k` — Karkeistettu toimijan yritysmuoto.
+
+**Ryhmä / Group:** toimija
+
+Yritysmuoto on karkeistettu aattellisten yhdistysten, kirkon, seurakuntien tai muiden uskonnollisten yhteisöjen osalta luokkaan muut. Toimija-taulussa arvot pohjautuvat <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/yritysmuoto"> Vardan luokitukseen</a> (31.03.2026),
+
+#### `kuntakoodi` — Kuntakoodi
+
+**Ryhmä / Group:** toimipaikka, toimija
+
+Toimijan tai toimipaikan kuntakoodi, pohjautuu Tilastokeskuksen kolminumeroiseen kuntakoodiin.
+
+#### `kasvatusopillinen_jarjestelma` — Toimipaikan kasvatusopilliseen järjestelmään viittaava koodi, perustuu Vardan luokitukseen.
+
+**Ryhmä / Group:** toimipaikka
+
+<a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardakasvatusopillinenjarjestelma">Vardan kasvatusopillinen järjestelmä -koodisto</a> (26.03.2026):
+KJ01=Steiner-pedagogiikka,
+KJ02=Montessori-pedagogiikka,
+KJ03=Freinet-pedagogiikka,
+KJ04=Reggio Emilia -pedagogiikka,
+KJ05=Freireläinen pedagogiikka,
+KJ98=Ei painotusta,
+KJ99=Muu (passiivinen).
+
+#### `toimintamuotokoodi` — Toimipaikan viimeisin havaittu toimintamuotokoodi, perustuu Vardan luokitukseen.
+
+**Ryhmä / Group:** toimipaikka
+
+<a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardatoimintamuoto">Vardan toimintamuoto-koodisto</a> (31.03.2026):
+TM01=Päiväkoti,
+TM02=Perhepäivähoito,
+TM03=Ryhmäperhepäivähoito.
+
+#### `JM01` — Järjestämismuoto on kunnan tai kuntayhtymän järjestämä.
+
+**Ryhmä / Group:** toimipaikka
+
+Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <p><a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a></p> (26.03.2026).
+
+#### `JM02` — Järjestämismuoto on ostopalvelu, kunnan tai kuntayhtymän järjestämä.
+
+**Ryhmä / Group:** toimipaikka
+
+Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
+
+#### `JM03` — Järjestämismuoto on palveluseteli, kunnan tai kuntayhtymän järjestämä.
+
+**Ryhmä / Group:** toimipaikka
+
+Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
+
+#### `JM04` — Järjestämismuoto on yksityisen hoidon tuella järjestetty.
+
+**Ryhmä / Group:** toimipaikka
+
+Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
+
+#### `JM05` — Järjestämismuoto on yksityinen varhaiskasvatus ilman yksityisen hoidon tukea.
+
+**Ryhmä / Group:** toimipaikka
+
+Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
+
+#### `varhaiskasvatuspaikat` — Toimipaikan varhaiskasvatuspaikat
+
+**Ryhmä / Group:** toimipaikka
+
+Perustuu viimeisimpään Vardaan kirjattuun tietoon.
+
+---
+
+[← Takaisin luetteloon / Back to catalogue](../../README.md)

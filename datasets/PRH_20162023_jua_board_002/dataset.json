@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "PRH_20162023_jua_board_002.xml",
+      "doi": "work_2017-11_2017-11-06_ain_0001",
+      "subject": "PRH_BOARD Kaupparekisterin vastuuhenkilötiedot",
+      "contentdescription": "PRH_BOARD-aineisto sisältää tietoja yritysten ja muiden organisaatioiden vastuuhenkilöistä, kuten toimitusjohtajista, hallitusten jäsenistä ja tilintarkastajista vuosilta 2016 - 2023. Aineisto pohjautuu Patentti- ja rekisterihallituksen (PRH) kaupparekisteripoiminnan tauluihin (Companrolesid_base ja Companyrolesid) vuodesta 2025 alkaen. Näitä tauluja ei hyödynnetä varsinaisessa tilastotoiminnassa.\n\nAiemmat vastuuhenkilöitä koskevat valmisaineistot (prh_011994122015 ja prh_012016072019) on koottu PRH:n Tilastokeskukselle toimittaman erillistoimituksen perusteella. \n\nLähtökohta on ollut säilyttää aiempien aineistojen sisältö ja muuttujien nimeämiskäytännöt mahdollisimman yhteneväisinä myös suoraan kaupparekisteri poimintaan pohjautuvassa aineistossa. Kaupparekisteripohja mahdollistaa myös aineiston sisällön laajentamisen, mutta toistaiseksi laajennukset ovat olleet maltillisia.\n\nAineisto kattaa kaikki lähdeaineiston yhtiömuodot ja juridiset toimielimet. Käyttäjän tulee tehdä tarvittavat rajaukset, esimerkiksi osakeyhtiöiden keskeiset toimielimet ovat hallitus (HAL) ja tilintarkastus (TIL).\n\nYritystunnukset ja toimielimen roolien henkilökohtaiset tiedot on pseudonymisoitu. Aineistosta on poistettu vapaasti kirjoitetut kentät, kuten toiminnan tai oikaisun kuvaukset, jotka voivat sisältää yksilöiviä tietoja. Myös suurelta osin tyhjät kentät, kuten osakepääomaa koskevat tiedot, on jätetty pois.\n\nYritysmuotoa ja toiminnan lopettamista koskevia tietoja ei ole sisällytetty kaupparekisteripoimintaan tietojen puutteellisuuden vuoksi. Näitä tietoja on saatavilla Tilastokeskuksen Yritys- ja toimipaikkarekisteriin pohjautuvasta FIRM_BASE-aineistosta, johon PRH_BOARD-aineisto on linkitettävissä Syrtun-muuttujan avulla.\n\nAineiston poimintaan on vaikuttanut ilmoitusten käsittelyn ja järjestelmien muutokset eri aikaväleillä. Erityisesti uuden kaupparekisterin käsittelyjärjestelmän käyttöönotto toukokuussa 2014 muutti vastuuhenkilöiden eroilmoitusten käsittelyä. Tämän seurauksena hallituksen voimassaolon alkupäivämäärä voi määräytyä eri tavoin järjestelmän muutoksista riippuen. Historiatiedoissa voi esiintyä tietoteknisten ja käsittelyprosessien muutosten vuoksi puutteita tai virheitä.\n\nPRH ei vastaa aineistoon sisältyvien tietojen virheistä, katoamisista tai muuttumisesta eikä näistä mahdollisesti aiheutuvista vahingoista käyttäjälle tai kolmansille osapuolille. PRH ei myöskään vastaa Tilastokeskuksen aineistoon tekemistä muutoksista tai tarjoamista palveluista.\n\n\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi. ",
+      "coveragetemporal": "2016-01-01 - 2022-12-31",
+      "published_day": "2025-03-17",
+      "variable_count": "12",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Tietyt yhtiömuodot ja tietyt roolit",
+      "resourcerelation_1": "Patentti- ja rekisterihallituksen ylläpitämä kaupparekisteri",
+      "resourcerelation_2": "<a href= \"https://www.prh.fi/stc/attachments/rekisteri-_ja_tietosuojaselosteet/kaupparekisteri_tietosuojaseloste.pdf\">Kaupparekisteri</a> ",
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

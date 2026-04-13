@@ -1,0 +1,404 @@
+{
+  "variables": [
+    {
+      "identifier": "LUOK",
+      "variablename": "Erikoistumislinjan aloittaminen ammatillisessa ja ammattikorkeakoulutuksessa",
+      "conceptdef": "1 = erikoistumislinjan aloittanut, m = muiden vuosien opiskelija",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AKK",
+      "variablename": "Väliaikaisen ammattikorkeakoulun koodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LINTY",
+      "variablename": "Ammatillisen koulutuksen linjatyyppi",
+      "conceptdef": "Nuorten koulutus: 0=nuorten ammatillinen perustutkinto, 1=yleis-/aloitusjakso, 2=yleis-/aloitusjaksoon pohjautuva erikoistumislinja, 3=muu nuorten linja\n. Aikuiskoulutus: 4=Koulutusammattiin tai tutkintoon johtava aikuiskoulutuslinja, 6=aikuisten ammatillinen perustutkinto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPAIKA",
+      "variablename": "Opetusaika",
+      "conceptdef": "Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan opetusaika ilman harjoittelua 0,5 vuoden tarkkuudella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYYPPI",
+      "variablename": "Oppilaitostyyppi",
+      "conceptdef": "Oppilaitostyyppiluokitus 1995",
+      "measunit": null,
+      "classification": "oppilaittostyyp_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "APUK",
+      "variablename": "Koulutuskoodin apukoodi",
+      "conceptdef": "Koulutusluokitus 1995",
+      "measunit": null,
+      "classification": "koulutus_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPALA",
+      "variablename": "Opintoala",
+      "conceptdef": "Opintoala- ja asteavain 1995",
+      "measunit": null,
+      "classification": "opintoala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLOHKO",
+      "variablename": "Koulutuslohko",
+      "conceptdef": "Opintoala- ja asteavain 1995",
+      "measunit": null,
+      "classification": "opintoala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPASTE",
+      "variablename": "Opintoaste",
+      "conceptdef": "Opintoala- ja asteavain 1995",
+      "measunit": null,
+      "classification": "opintoala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALAIKA",
+      "variablename": "Opintolinjan alkamisajankohta",
+      "conceptdef": "Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan alkamisajankohta ppkkvv.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOAIKA",
+      "variablename": "Opintolinjan päättymisaika",
+      "conceptdef": "Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan päättymisaika ppkkvv.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LEVEL",
+      "variablename": "Isced level",
+      "conceptdef": "Isced level 1995",
+      "measunit": null,
+      "classification": "isced_aste_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "FIELD",
+      "variablename": "Isced field",
+      "conceptdef": "Isced field 1995",
+      "measunit": null,
+      "classification": "isced_ala_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "SP",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1 = mies, 2 = nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KANS",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "VRK:n valtioluokitus (on eri kuin ISO 3166-standardi), 999 = ei tietoa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "measunit": null,
+      "classification": "valtio_11_1970_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIELI",
+      "variablename": "Äidinkieli",
+      "conceptdef": "Huom! VRK:n kieliluokitus (eri kuin 2-kirjaiminen tunnus (ISO 639-standardi)), 99 = ei tietoa. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "UUSIOPIS",
+      "variablename": "Yliopiston uusi opiskelija",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIRTU",
+      "variablename": "Kirjoihintuloaika yliopistoon",
+      "conceptdef": "1 = kevät, 2 = syksy",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TIED",
+      "variablename": "Tiedekunta/osasto",
+      "conceptdef": "Korkeakoulun ja tiedekunnan koodia käytettävä yhdessä, jotta saadaan kunkin korkeakoulun tiedekuntaa koskevat tiedot.\nTieto on vain korkeakouluopiskelijoilla, muilla tieto on blanco.\n\n01 HELSINGIN YLIOPISTO\n     01 Teologinen tiedekunta\n     02 Oikeustieteellinen tiedekunta\n     03 Lääketieteellinen tiedekunta\n     04 Humanistinen tiedekunta\n         41 Kouvolan kääntäjänkoulutuslaitos\n     05 Matemaattis- luonnontieteellinen tiedekunta\n     06 Kasvatustieteellinen tiedekunta\n     07 Valtiotieteellinen tiedekunta\n         71 Svenska social- och kommunalhögskolan\n     08 Maatalous- metsätieteellinen tiedekunta\n     09 Eläinlääketieteellinen tiedekunta\n\n02 TURUN YLIOPISTO\n     01 Humanistinen tiedekunta\n     02 Yhteiskuntatieteellinen tiedekunta\n     03 Matemaattis-luonnontieteellinen tiedekunta\n     04 Lääketieteellinen tiedekunta\n     06 Oikeustieteellinen tiedekunta\n     07 Kasvatustieteiden tiedekunta\n         08 Turun opettajankoulutuslaitos\n         09 Rauman opettajankoulutuslaitos\n\n03 ÅBO AKADEMI\n     01 Humanistiska fakulteten\n     02 Matematisk-naturvetenskapliga fakulteten\n     03 Ekonomisk-statsvetenskapliga  fakulteten\n     04 Kemisk-tekniska fakulteten\n     05 Teologiska fakulteten\n     06 Pedagogiska fakulteten (Vasa)\n     07 Samhälls- och vårdvetenskapliga fakulteten (Vasa)\n\n 04 OULUN YLIOPISTO\n     01Humanistinen tiedekunta\n     02 Luonnontieteellinen tiedekunta\n     03 Teknillinen tiedekunta\n     04 Lääketieteellinen tiedekunta\n     05 Kasvatustieteiden tiedekunta\n          06 Oulun opettajankoulutuslaitos\n          07 Kajaanin opettajankoulutuslaitos\n\n 05 TAMPEREEN YLIOPISTO\n     01 Yhteiskuntatieteellinen tiedekunta\n     02 Humanistinen tiedekunta\n     03 Taloudellis-hallinnollinen tiedekunta\n     09 Lääketieteellinen tiedekunta\n     10 Kasvatustieteiden tiedekunta\n         11 Tampereen opettajankoulutuslaitos\n         12 Hämeenlinnan opettajankoulutuslaitos\n     13 Tampereen yliopiston opetusjaosto\n\n06 JYVÄSKYLÄN YLIOPISTO\n     10 Humanistinen tiedekunta\n     20 Yhteiskuntatieteellinen tiedekunta\n     30 Matemaattis-luonnontieteellinen tiedekunta\n     41 Liikuntatieteellinen tiedekunta\n     50 Kasvatustieteiden tiedekunta\n   \n07 TEKNILLINEN KORKEAKOULU\n     01 Tietotekniikan osasto\n     02 Sähkötekniikan osasto\n     03 Konetekniikan osasto\n     04 Prosessi- ja materiaalitekniikan osasto\n     05 Rakennus- ja maanmittaustekniikan osasto\n     06 Arkkitehtiosasto\n\n08 ELÄINLÄÄKETIETEELLINEN  KORKEAKOULU\n     01 Eläinlääketieteelliset opinnot\n\n09 HELSINGIN KAUPPAKORKEAKOULU\n     01 Kauppatieteelliset opinnot\n\n10 SVENSKA HANDELSHÖGSKOLAN\n     01 Helsingfors\n     02 Vasa\n\n11 TURUN KAUPPAKORKEAKOULU\n     01 Kauppatieteelliset opinnot\n\n13 VAASAN YLIOPISTO\n     10 Humanistinen tiedekunta\n     20 Kaupallis-hallinnollinen tiedekunta\n     30 Kaupallis-tekninen tiedekunta\n     40 Yhteiskuntatieteellinen tiedekunta\n\n14 LAPPEENRANNAN TEKNILLINEN KORKEAKOULU\n     01 Konetekniikan osasto\n     02 Energiatekniikan osasto\n     03 Tuotantotalouden osasto\n     04 Kemiantekniikan osasto\n     05 Tietotekniikan osasto\n     06 Kauppatieteiden osasto\n\n15 TAMPEREEN TEKNILLINEN KORKEAKOULU\n     01 Arkkitehtuurin osasto\n     02 Konetekniikan osasto\n     03 Rakennustekniikan osasto\n     04 Sähkötekniikan osasto\n     05 Materiaalitekniikan osasto\n     06 Tietotekniikan osasto\n\n16 KUOPION YLIOPISTO\n     01 Lääketieteellinen tiedekunta\n     02 Hammaslääketieteellinen tiedekunta\n     03 Farmaseuttinen tiedekunta\n     04 Luonnontieteiden ja  ympäristötieteiden tiedekunta\n     06 Yhteiskuntatieteellinen tiedekunta\n\n17 JOENSUUN YLIOPISTO\n     10 Kasvatustieteiden tiedekunta\n          12 Savonlinnan opettajankoulutuslaitos\n     20 Humanistinen tiedekunta\n          21 Kansainvälisen viestinnän laitos\n     30 Yhteiskuntatieteiden tiedekunta\n     40 Matemaattis-luonnontieteellinen tiedekunta\n     50 Metsätieteellinen tiedekunta\n\n19 SIBELIUS-AKATEMIA\n     01 Helsinki\n     02 Kuopio\n     03 Turku\n     04 Oulu\n     05 Joensuu\n\n20 TAIDETEOLLINEN KORKEAKOULU\n     01 Yleisen opetuksen osasto\n     02 Taidekasvatuksen osasto\n     03 Kuvallisen viestinnän osasto\n     04 Tuote- ja ympäristösuunnittelun osasto\n     05 Koulutuskeskus\n\n21 LAPIN YLIOPISTO\n     01 Kasvatustieteiden tiedekunta\n     02 Oikeustieteiden tiedekunta\n     03 Yhteiskuntatieteiden tiedekunta\n     04 Täydennyskoulutuskeskus\n     05 Taiteiden tiedekunta\n\n22 TEATTERIKORKEAKOULU\n     01 Näyttelijäntyön laitos\n     02 Ohjaajantyön ja dramaturgian laitos\n     04 Svenska institutionen\n     05 Koulutuskeskus\n     06 Tanssitaiteen laitos\n     07 Valo- ja äänisuunnittelun laitos\n\n23 KUVATAIDEAKATEMIA\n     01 Maalaustaiteen laitos\n     02 Kuvanveiston laitos\n     03 Taidegrafiikan laitos\n     04 Tila-aikateosten laitos\n     05 Yleisen opetuksen laitos\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPS",
+      "variablename": "Yliopistokoulutuksen pääaine/koulutusohjelma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPTAR",
+      "variablename": "Yliopisto-opintojen tarkoitus",
+      "conceptdef": "Korkeakouluopiskelijan opintojen tarkoitus\n          \n011=maat.- ja metsätiet. tri \n012=eläinlääketiet.tri\n021=maat.- ja metsätiet. lis. \n022=eläinlääketiet.lis.\n031=maat.- ja metsätiet. maisteri /maat.- ja metsätiet. kand. (ylempi)\n032=eläinlääketiet.kand.\n033=maat.- ja metsätiet. kand. (alempi)\t041=agronomi\n042=metsätutkinto \n110=tekniikan tri\n120=tekniikan lis. \n130=dipl.ins. \n139=arkkitehti \n140=maisema-arkkitehti \n211=kauppatiet.tri \n221=kauppatiet.lis.  \n231=kauppatiet. maisteri / kauppatiet. kand. (ylempi)\n232=kauppatieteiden kandidaatti (alempi)\n241=kirjeenvaihtaja  \n242=ekonomi (alempi) \n243=akateeminen sihteeri \n247=ekonomi (ylempi)\n310=taloustiet. tri\n311=teologian tri \n312 =oikeustiet.tri  \n313=hallintotiet.tri \n316=valtiotiet.tri \n317=kasvatustiet.tri \n318=liikuntatiet.tri\n319=yhteiskuntatiet.tri \n320=taloustiet.lis.  \n321=teologian lis.  \n322=oikeustiet.lis. \n323=hallintotiet.lis.  \n326=valtiotiet.lis.   \n327=kasvatustiet.lis. \n328=liikuntatiet.lis. \n329=yhteiskuntatiet.lis. \n330=taloustiet.kand.  \n331=teologian maisteri /teologian kand. (ylempi)  \n332=oikeustiet.kand. \n333=hallintotiet. maisteri /hallintotiet. kand. (ylempi)  \n336=valtiotiet. maisteri /valtiotiet. kand. (ylempi)   \n337=kasvatustiet. maisteri /kasvatustiet. kand. (ylempi)  \n338=liikuntatiet. maisteri /liikuntatiet. kand. (ylempi)  \n339=yhteiskuntatiet. maisteri /yhteiskuntatiet. kand. (ylempi) \n343=taloudell.-hallinn. tutk.  \n345=luonnontiet.kand. \n348=teatteritutkinto  \n350=varanotaari \n351=oikeusnotaari\n370=kirjastotutkinto  \n372=kunnallistutk., sosionomi \n373=nuorisotyön tutkinto  \n375=sos.huolt.tutk., sosionomi  \n376=verovirkamiestutkinto  \n377=yhteiskunnallinen tutkinto    \n378=sosiaalivakuutustutk.  \n379=hallintovirkamiestutkinto  \n380=toimittajatutk., sosionomi  \n382=sos.huolt., avohuolto  \n383=sos.huolt., laitoshuolto \n385=sos.huolt., kuraattorityö \n386=yl.vakuutustutk., sos.vak. \n387=yl.vakuutustutk., yks.vak. \n391=sosiaaliturvan perustutk.  \n392=vak.alan perustutk., sos.vak \n393=vak.alan perustutk., yks.vak  \n411=lääketiet.tri  \n412=hammaslääketiet. tri                   \n414=farmasian tri                          \n421=lääketiet. lis.                         \n422=hammaslääketiet. lis.                \n424=farmasian lis.                         \n431=lääketiet. kand.                        \n432=hammaslääketiet. kand.\n433=proviisori                             \n434=farmasian kand.                        \n443=farmaseutti                            \n444=farmaseutti                            \n631=psykologian kandidaatti (alempi)\n632=psykologian maisteri /psykologian kand. (ylempi)                      \n633=psykologian lis.                       \n634=psykologian tri  \n641=liikuntakasv. kand.                    \n651=kuvaamataidonopettaja                  \n655=apukoulunopettaja                      \n657=kotitalousopettaja                    \n658=käsityönopettaja                       \n659=lastentarhanopettaja                  \n670=erityisopettaja                        \n673=peruskoulun luokanopettaja             \n674=erityislastentarhanopett.             \n675=kuulovammaisten opettaja               \n676=puluki-häir. opettaja                  \n677=näkövammaisten opettaja                \n678=opinto-ohjaaja                         \n679=puhehäiriöisten opettaja               \n680=tarkkailuluokan opettaja               \n681=kotital tekst.käsit.opett.             \n682=kehitysvammaisten opettaja            \n683=teknisen käsityön opettaja            \n684=erityisluokanopettaja                  \n701=hum. kand.                        \n702=fil. maisteri /fil. kand.                \n703=fil. lis.                               \n704=fil. tri                               \n711=vakuutusalan perustutkinto             \n712=yleinen vakuutustutkinto               \n714=terveydenhuollon kand.                \n715=terveydenhuollon lis.                  \n716=terveydenhuollon tri                   \n717=elintarviketiet. maisteri / elintarviketiet. kand. (ylempi) \n718=elintarviketiet. lis.                  \n719=elintarviketiet. tri                   \n720=teatteritaiteen maisteri /teatteritaiteen kand. (ylempi)                  \n721=teatteritaiteen lis.                  \n722=teatteritaiteen tri                   \n725=dipl. kielenkääntäjä                   \n726=erikoishammaslääkäri                   \n727=erikoislääkäri (6 v.)                  \n728=erikoiseläinlääkäri                    \n730=ortod. kirkon kanttori                 \n731=ortod. kirkon pappi           \n732=yht. kand. (alempi)                    \n733=valt. kand. (alempi)                   \n734=erikoislääkäri (8 v.)                  \n735=hallintot. kand.(alempi)               \n736=liikuntat. kand.(alempi)\n737=teatteritaiteen kand. (alempi)              \n738=elintarviketiet. kand. (alempi)\n801=elokuvatyöntekijä                     \n802=graafikko                              \n803=lavastaja                              \n804=valokuvaaja                            \n805=keraamikko                             \n806=sisustusarkkitehti                     \n807=teollinen muotoilija                   \n808=tekstiilisuunnittelija                 \n809=vaatetussuunnittelija                  \n810=yl.linjan tutk. koul.kesk.              \n811=graafikko (koul.keskus)               \n812=sisustusneuvoja                        \n813=valokuvaaja (koul.keskus)              \n814=kirjapainotyöntekijä                   \n815=sib.akat. dipl.t. (teoria)        \n816=sib.akat. dipl.t. (soitto)             \n817=musiikinjohtaja                        \n818=ylempi musiikinopettaja                \n819=ylempi kanttori-urkuri                 \n820=mus.teorianopettaja                    \n821=sib.akat. päästöt.(teoria)             \n822=sotilaskapellimestari                  \n823=sib.akat. päästöt.(soitto)             \n824=yksinlaulunopettaja                    \n825=soitonopettaja                         \n826=musiikinopettaja                       \n827=kanttori-urkuri                        \n828=soittoryhmän johtaja                   \n830=taiteen maisteri /taiteen kand.(ylempi)                  \n831=taiteen lis.                           \n832=taiteen tri.                           \n833=näyttelijä                             \n834=ohjaaja                                \n835=dramaturgi                             \n836=musiikin maisteri / musiikin kand. (ylempi) \n837=musiikin lis.                                            \n838=musiikin tri\n839=tanssitaiteen maisteri /tanssitaiteen kand. (ylempi)\n840=tanssitaiteen lis.\n841=tanssitaiteen tri\n843=oopperalaulaja\n844=kuvataiteen tutkinto\n845=kuvataideakatemian loppututkinto\n846=kuvataideakatemian päästötodistus\n847=taiteen kand. (alempi)\n848=tanssitaiteen kand. (alempi)\n849=teologian kand. (alempi)\n850=kasvatustiet. kand. (alempi)\n851=musiikin kandidaatti (alempi)\n\n901=Erilliset arvosanat ja opintokokonaisuudet, kuulustelut ja kurssit                                                                     \n904=Erilliset aineenopettajan kasvatustieteelliset opinnot\n910=Erilliset opinnot, jotka aiotaan sisällyttää toisessa kotimaisessa korkeakoulussa tai muussa oppilaitoksessa                          \nsuoritettavaan tutkintoon\n912=Ammatillisten oppilaitosten ja kansan- ja kansalaisopistojen opettajille tarkoitetut erilliset kasvatustieteel-liset opinnot\n914=Erikoislääkärin koulutus, suppea ala, vuodesta 1994 lähtien tutkintoon johtavaa koulutusta\n915=Erilliset opinnot ulkomaalaisena vaihto-opiskelijana, tai muut ulkomaalaisten opiskelijoiden määräaikai-seen opiskeluoikeuteen pohjautuvat opinnot\n918=Ulkomaalaisen tutkinnon pohjalta tapahtuva pätevöitymiskoulutus\n919=Kansainväliset koulutukset ja opinto-ohjelmat\n921=Erikoisproviisorin koulutus\n922=Kelpoisuus- ja pätevoitymiskoulutus tai muu täydennyskoulutus erilaisen pohjakoulutuksen omaaville henkiloille\n997=Muu koulutus, joka ei johda tutkintoon\n998=Ei tutkintoon johtava koulutus tuntematon\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUUNTV",
+      "variablename": "Yliopisto-opintojen suuntautumisvaihtoehto",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OMIST",
+      "variablename": "Oppilaitoksen omistajatyyppi",
+      "conceptdef": "TK:n oppilaitosluokitus 31.12.1995. 1 = yksityinen, 2 = valtio, 3 = kunta, 4 = kuntayhtymä, 5 = Ahvenanmaa, 9 = muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULK5",
+      "variablename": "Koulutuskoodi",
+      "conceptdef": "Koulutusluokitus 1995",
+      "measunit": null,
+      "classification": "koulutus_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULK",
+      "variablename": "Tilastokeskuksen koulutuskoodi",
+      "conceptdef": "Tilastokeskuksen koulutusluokitus 1997",
+      "measunit": null,
+      "classification": "koulutus_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKLE",
+      "variablename": "Unescon koulutusaste",
+      "conceptdef": "ISCED 1997",
+      "measunit": null,
+      "classification": "isced_aste_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKFI",
+      "variablename": "Unescon koulutusala",
+      "conceptdef": "ISCED 1997, Field",
+      "measunit": null,
+      "classification": "isced_ala_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKDE",
+      "variablename": "Unescon sijoittumistavoiteluokitus",
+      "conceptdef": "ISCED 1997, Destination",
+      "measunit": null,
+      "classification": "isced_6_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKOR",
+      "variablename": "Unescon suuntautumisluokitus",
+      "conceptdef": "ISCED 1997, Orientation",
+      "measunit": null,
+      "classification": "isced_3_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKST",
+      "variablename": "Unescon kansallinen tutkintorakenne",
+      "conceptdef": "ISCED 1997, National degree structure",
+      "measunit": null,
+      "classification": "isced_4_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "ATKDU",
+      "variablename": "Unescon koulutuksen suunniteltu kesto",
+      "conceptdef": "ISCED 1997, Duration",
+      "measunit": null,
+      "classification": "isced_5_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KLOHKOU",
+      "variablename": "Opetushallinnon koulutusala",
+      "conceptdef": "Opetushallinnon koulutusala 1997. 0 = Yleissivistävä koulutus, 1 = Luonnonvara-ala, 2 = Tekniikan ja liikenteen ala, 3 = Kaupan ja hallinnon ala, 4 = Matkailu-, ravitsemis- ja talousala, 5 = Sosiaali- ja terveysala, 6 = Kulttuuriala, 7 = Humanistinen ja opetusala, 9 = Muu koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPALAU",
+      "variablename": "Opetushallinnon opintoala",
+      "conceptdef": "Opetushallinnon opintoala 1997",
+      "measunit": null,
+      "classification": "opintoala_1_1997_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPASTEU",
+      "variablename": "Opetushallinnon koulutusaste",
+      "conceptdef": "Opetushallinnon koulutusaste 1997. \n0 = Aste eriytymättä, \n1 = Toinen aste, \n2 = Opistoaste, \n3 = Ammatillinen korkea-aste, \n4 = Ammattikorkeakoulututkinto, \n5 = Alempi korkeakoulututkinto, \n6 = Ylempi korkeakoulututkinto, \n7 = Lisensiaattitutkinto, \n8 = Tohtorin tutkinto, \n9 = Muu tai tuntematon koulutusaste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTIKUN",
+      "variablename": "Kotikunta",
+      "conceptdef": "Opiskelijan kotikunta 31.12.1995\n. VRK:n kuntakoodi\n, 200=ulkomaalainen, \n999=ei tietoa",
+      "measunit": null,
+      "classification": "kunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTNUTS2",
+      "variablename": "Kotikunnan suuralue",
+      "conceptdef": "31.12.1995, TK:n alueluokitus. \n1=Uusimaa, \n2=Etelä-Suomi, \n3=Itä-Suomi, \n4=Väli-Suomi\n, 5=Pohjois-Suomi, \n6=Ahvenanmaa, \n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTNUTS3",
+      "variablename": "Kotimaakunta",
+      "conceptdef": "31.12.1995, TK:n alueluokitus\n. 99=ei tietoa",
+      "measunit": null,
+      "classification": "maakunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTIKRYH",
+      "variablename": "Kotikunnan kuntaryhmitys",
+      "conceptdef": "31.12.1995, TK:n alueluokitus\n. 1=Kaupunkimaiset kunnat\n, 2=Taajaan asutut kunnat\n, 3=Maaseutumaiset kunnat\n, 9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTISEUT",
+      "variablename": "Kotikunnan seutukunta",
+      "conceptdef": "31.12.1995, TK:n alueluokitus\n. 999=ei tietoa\n(NUTS4)",
+      "measunit": null,
+      "classification": "seutukunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KRYH",
+      "variablename": "Koulutusryhmä",
+      "conceptdef": "21=Päivälukiokoulutus, \n22=Aikuislukiokoulutus\n, 31=Toisen asteen ammatillinen koulutus, \n41=Ammattikorkeakoulutus, vakinaiset\n. Järjestäjänä vakinainen ammattikorkeakoulu, \n42=Ammattikorkeakoulutus, väliaikaiset\n. Järjestäjänä väliaikainen ammattikorkeakoulu\n, 51=Yliopistokoulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKOUL",
+      "variablename": "Nuorten/aikuisten koulutus",
+      "conceptdef": "1=nuorten koulutus, \n2=aikuisten koulutus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUN",
+      "variablename": "Koulutuksen sijaintikunta",
+      "conceptdef": "VRK:n kuntakoodi. \n999=ei tietoa",
+      "measunit": null,
+      "classification": "kunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNUTS2",
+      "variablename": "Koulutuksen sijaintikunnan \nsuuralue",
+      "conceptdef": "TK:n alueluokitus. \n1=Uusimaa, \n2=Etelä-Suomi, \n3=Itä-Suomi, \n4=Väli-Suomi\n, 5=Pohjois-Suomi, \n6=Ahvenanmaa, \n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KNUTS3",
+      "variablename": "Koulutuksen sijaintimaakunta",
+      "conceptdef": "TK:n alueluokitus. \n99=ei tietoa",
+      "measunit": null,
+      "classification": "maakunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKUNRYH",
+      "variablename": "Koulutuksen sijaintikunnan \nkuntaryhmä",
+      "conceptdef": "TK:n alueluokitus. \n1=Kaupunkimaiset kunnat, \n2=Taajaan asutut kunnat, \n3=Maaseutumaiset kunnat, \n9=Ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KSEUTU",
+      "variablename": "Koulutuksen sijaintikunnan \nseutukunta",
+      "conceptdef": "TK:n alueluokitus\n. 999=ei tietoa\n(NUTS4)",
+      "measunit": null,
+      "classification": "seutukunta_1_1995_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILV",
+      "variablename": "Aineistovuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "Ikä vuosina",
+      "conceptdef": "Ikä vuosina 31.12.1995. \nbl = tieto puuttuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Tilastokeskuksen suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "s_oltunn",
+      "variablename": "Tilastokeskuksen suojattu oppilaitostunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

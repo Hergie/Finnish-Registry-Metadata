@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppija_oid_s",
+      "variablename": "Suojattu oppijatunnus",
+      "conceptdef": "Suojattu OPH:n oppijatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluoikeus_oid_s",
+      "variablename": "Suojattu opiskeluoikeuden tunniste",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitos_oid_s",
+      "variablename": "Suojattu Oppilaitoksen tunniste",
+      "conceptdef": "Suojattu Oppilaitoksen tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitosnumero_s",
+      "variablename": "Suojattu oppilaitosnumero",
+      "conceptdef": "Suojattu oppilaitosnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sis_opiskeluoikeuteen_oid_s",
+      "variablename": "sisaltyy opiskeluoikeuteen oid",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste, joissain tapauksissa opiskeluoikeuden toimija ostaa koulutuksen toiselta koulutustoimijalta, näissä tapauksissa linkki opiskeluoikeuksien väliltä löytyy tästä kentästä. ks. tarkemmat lisätiedot OPH:n eduuni-wikistä (https://wiki.eduuni.fi/spaces/OPHPALV/pages/431685903/r_opiskeluoikeus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitos_kotipaikka",
+      "variablename": "Oppilaitoksen kotikunta",
+      "conceptdef": "Oppilaitoksen kotikunnan kuntakoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutustoimija_oid_s",
+      "variablename": "Suojattu koulutustoimijan tunniste",
+      "conceptdef": "Suojattu koulutustoimijan tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutustoimija_y_tunnus",
+      "variablename": "suojattu koulutustoimijan y-tunnus",
+      "conceptdef": "suojattu koulutustoimijan y-tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmuoto",
+      "variablename": "koulutusmuoto",
+      "conceptdef": "Huom. ammatilliseen koulutukseen kuuluu monta eri tyyppistä koulutusta (tutkintokoulutuksen lisäksi esim. valma-koulutus), joten niiden tunnistamiseen täytyy lisäksi käyttää suorituksen_tyyppi-kenttää",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkamispaiva",
+      "variablename": "Opiskeluoikeuden alkamispäivä",
+      "conceptdef": "Opiskeluoikeuden alkamispäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paattymispaiva",
+      "variablename": "Opiskeluoikeuden päättymispäivä",
+      "conceptdef": "Opiskeluoikeuden päättymispäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "viimeisin_tila",
+      "variablename": "Opiskeluoikeuden viimeisin tila",
+      "conceptdef": "Opiskeluoikeuden tila aineiston generointiajankohtana",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorituksen_tyyppi",
+      "variablename": "Opiskeluoikeuden päätason suorituksen suorituksen tyyppi",
+      "conceptdef": "Suorituksen tyyppi, joka yksilöi millaisesta päätason suorituksessa on kyse (esimerkiksi ammatillisessa koulutuksessa tieto kertoo sen, suoritetaanko kokonaista tutkintoa, tutkinnon osaa/osia, tutkinnon osaa pienemmistä kokonaisuuksista koostuvaa suoritusta, muun ammatillisen koulutuksen suoritusta, VALMA-koulutusta). Opiskeluoikeus-tauluun poimitaan tiedot yhdestä päätason suorituksesta priorisoiden lukiokoulutuksessa lukion oppimäärän suoritusta, ammatillisessa koulutuksessa tutkinnon tai tutkinnon osan/osien suoritusta, perusopetuksessa oppimäärän suoritusta yms.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_koodisto",
+      "variablename": "Opiskeluoikeuden päätason suorituksen koulutusmoduuli_koodisto",
+      "conceptdef": "Tutkintokoulutukset (ammatillinen/lukio) saa eroteltua rajoittamalla tämän kentän arvolla 'koulutus'. HUOM. Valma-koulutuksen sekä ammatillisen koulutuksen jossa tavoitteena on suorittaa tutkinnonosa tai osia on tässä kentässä myös arvo 'koulutus', eli ammatillisen koulutuksen tutkintotavoitteisia koulutuksia eroteltaessa tulee nämä suodattaa pois myös suorituksen_tyyppi-muuttujan avulla. HUOM. Ei välttämättä toimi täysin oikein ib-tutkinnon opiskelijoille, mutta näiden voidaan olettaa olevan tutkintokoulutuksessa. HUOM! Ammatilliseen tehtävään valmistavilla koulutuksilla on tässä kentässä arvo 'ammatilliseentehtavaanvalmistavakoulutus'",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutkinnon_nimi_perusteessa",
+      "variablename": "ammatillisen tutkinnon nimi",
+      "conceptdef": "Relevantti ammatillisen koulutuksen opiskeluoikeuksille silloin kun päätason suorituksen_tyyppi on 'ammatillinentutkinto' tai 'ammatillinentutkintoosittainen'",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Suoritustapa_nimi",
+      "variablename": "Suoritustapa nimi",
+      "conceptdef": "Relevantti ammatillisen koulutuksen opiskeluoikeuksille, kertoo suorittaako opiskelija ammatillisen perustutkinnon 1.1.2018 voimaan tulleen lain ammatillisesta koulutuksesta mukaisesti ('reformin mukainen naytto') vai 13.12.2017 asti voimassa olleen lain mukaan. 13.12.2017 voimassa olleiden lakien mukaisessa opetuksessa olleet saavat suoritustapa_nimi arvot ('ammatillinenperustutkinto) opetussuunnitelmaperusteisesta ammatillisesta peruskoulutuksesta ja  ('nayttotutkinto) ammatillisen aikuiskoulutuksen mukainen näyttötutkinto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaamisala_nimi",
+      "variablename": "Päätason suoritukseen liittyvän osaamisalan nimi",
+      "conceptdef": "Relevantti ammatillisen koulutuksen opiskeluoikeuksille",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osaamisala_koodiarvo",
+      "variablename": "Päätason suoritukseen liittyvän osaamisalan koodiarvo",
+      "conceptdef": "Relevantti ammatillisen koulutuksen opiskeluoikeuksille",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_koodiarvo",
+      "variablename": "Opiskeluoikeuden päätason suorituksen koulutusmoduuli koodiarvo",
+      "conceptdef": "Opiskeluoikeuden päätason suorituksen koulutusmoduuli koodiarvo. HUOM! Lukion aineopiskelijoilla joilla päätason suorituksen tyyppi on 'lukionoppiaineenoppimaara' voi opiskeluoikeuteen sisältyä useampi päätason suoritus, opiskeluoikeus-tauluun poimitaan tiedot vain yhdestä päätason suorituksesta, joten muuttuja koulutusmoduuli_koodiarvo ei kattavasti näiden opiskelijoiden tapauksessa kerro koulutuksen sisällöstä. Kurssitason suoritustiedot löytyvät toisen asteen moduulin lukio/ib-suoritustaulusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_laajuus_arvo",
+      "variablename": "Opiskeluoikeuden päätason suorituksen laajuuden arvo",
+      "conceptdef": "Relevantti joillekin tuva-, luva sekä valma-koulutuksen opiskeluoikeuksille. Lisäksi monet muun ammatillisen koulutuksen (suorituksen_tyyppi='muuammatillinenkoulutus') opiskeluoikeudet koostuvat vain päätason suorituksesta, jolloin niiden laajuus on määritelty vain tässä kentässä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_laajuus_yksikko",
+      "variablename": "Opiskeluoikeuden päätason suorituksen laajuuden yksikko",
+      "conceptdef": "Opiskeluoikeuden päätason suorituksen laajuuden yksikko",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppimaara_koodiarvo",
+      "variablename": "oppimäärä koodiarvo",
+      "conceptdef": "Päätason suorituksen oppimäärä lukiokoulutuksen opiskelijoille, kertoo opiskeleeko opiskelija nuorten opintosuunnitelman mukaan ('nuortenops') vai aikuisten opintosuunnitelman mukaan ('aikuistenops')",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tuva_jarjestamislupa",
+      "variablename": "tuva jarjestamislupa",
+      "conceptdef": "Tieto siitä, minkä koulutuksen järjestämisluvan puitteissa tutkintokoulutukseen valmentavaa koulutusta järjestetään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vahvistus_paiva",
+      "variablename": "Vahvistus päivä",
+      "conceptdef": "Opiskeluoikeuden päätason suorituksen vahvistus päivä. Huom: päättyneiden opiskeluoikeuksien viimeisen_tilan kanssa kannattaa tarkastella onko päätason suoritus vahvistettu. Esim. joihinkin lukion opiskeluoikeuksiin sisältyy lukion oppimäärän suoritus sekä aineopintojen suoritus ja tällaisissa tapauksissa viimeisin_tila saattaa näkyä tilassa 'eronnut', vaikka lukion oppimäärän suoritus on vahvistettu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

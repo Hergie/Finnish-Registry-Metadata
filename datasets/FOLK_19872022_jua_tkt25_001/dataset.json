@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872022_jua_tkt25_001.xml",
+      "doi": "work_2017-12_2017-12-20_ain_0001",
+      "subject": "FOLK työssäkäynti ",
+      "contentdescription": "FOLK-henkilöaineiston työssäkäyntimoduuli sisältää pääasiassa työssäkäyntitilaston tietoja. Työnantajaa koskevia tietoja on moduulissa sekä vuoden viimeisen viikon työsuhteesta (TVM) että vuoden pisimmästä, vähintään puoli vuotta kestäneestä  työsuhteesta (ATV). Moduulin tietoja on saatavilla vuodesta 1987 lähtien, jollei muuttujankuvauksessa toisin mainita.\n\nTyössäkäyntimoduulin kokonaisaineistoon voidaan antaa käyttöoikeus vain jos tutkimuksellisesta syystä kokonaisaineiston käyttöön on erityinen tarve. Aineisto on tarkoitettu vain FIONA-etäpalvelun kautta käytettäväksi. Aineisto voidaan linkittää muihin valmisaineistoihin suojatun henkilönumeron sekä henkilön työnantajan liittyvien suojattujen tunnusten avulla. \n\nHuomioitavaa: \nTilastovuodelle 2019 työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona. Tulorekisteri korvasi useita tilastossa aiemmin käytössä olleita työsuhdeaineistoja, mikä vaikuttaa tietojen vertailukelpoisuuteen. Tulorekisteristä poimitut jaksotiedot ovat maksujaksoja, minkä seurauksena ATV-pääteltyjä tietoja ei ole moduulissa tilastovuodesta 2019 alkaen. Muutos vaikuttaa myös tilastovuoden 2019 päivämäärämuuttujiin, sillä tulorekisterin tiedoissa kyseessä on maksujakson alkamis- ja loppumispäivämäärät, jotka eroavat aiemmista työsuhdeaineistojen päivämäärätiedoista.\n\nYrittäjien (amas2 = 2) ATV-tietoja puuttuu vuosilta 1998 ja 2005-2010. \n\nVuoden 2023 päivityksessä korjattiin takautuvasti moduulin vuositaulun 2006 syrtun-muuttujan virheellset arvot. \n\nFOLK Työssäkäynti -aineistot sijaitsevat FIONAssa FOLK_TKT_C-kansiossa, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muotoa \"folk_tkt_vuosi_1\". \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi. \n",
+      "coveragetemporal": "1987-12-31 - 2022-12-31",
+      "published_day": "2025-01-24",
+      "variable_count": "48",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö",
+      "resourcerelation_1": "Tilastokeskuksen henkilötietovarasto, yritysrekisterin toimipaikat",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

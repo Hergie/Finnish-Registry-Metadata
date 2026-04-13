@@ -1,0 +1,1428 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtyyppi",
+      "variablename": "Omistajatyyppi",
+      "conceptdef": "Yrityksen omistajatyyppi vuoden 1995 luokituksen mukaan. Omistajatyypit: 1= Yksityinen kotimainen, 2= valtio, 3= kunta, 4= Ahvenanmaan maakunta, 5= ulkomaalaisomisteinen, 6= muu omistajatyyppi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol2008",
+      "variablename": "Yrityksen toimiala TOL2008",
+      "conceptdef": "Yrityksen toimiala tilastovuonna TOL 2008 toimialaluokituksen mukaan. Toimiala, joka yrityksellä on ollut pisimmän aikaa tilastovuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sektoriluokka",
+      "variablename": "Yrityksen sektoriluokka",
+      "conceptdef": "Yrityksen sektoriluokitus vuoden 2000 sektoriluokituksen mukaan. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ToimipLaji",
+      "variablename": "Toimipaikkaisuus, yksi- tai monitoimipaikkainen",
+      "conceptdef": "Yrityksen tilikauden toimipaikkaisuus. Kertoo kuinka monta oikeudellista toimipaikkaa yrityksellä on ollut tilastovuoden tilikautena. Mahdolliset arvot ovat: 0 = Ei toimivia, 1 = Yksi toimiva, 2 = Useita toimivia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OikYksLaji",
+      "variablename": "Yksikkölaji",
+      "conceptdef": "Oikeudellisen yksikön yksikkölaji eli yksi/monitoimipaikkaisuus. Mahdolliset arvot: 1 = Yksitoimipaikkainen, 2 = Monitoimipaikkainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VersioID",
+      "variablename": "Tilastoversio",
+      "conceptdef": "Tilastoversio",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oikMuoto",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": "Oikeudellisen yksikön oikeudellinen muoto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VerohOikMuoto",
+      "variablename": "Verohallinnon oikeudellinen muoto",
+      "conceptdef": "Verohallinnon oikeudellinen muoto, 2013 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Henkilostomaara",
+      "variablename": "Henkilöstömäärä, yritysrekisteri",
+      "conceptdef": "Henkilöstömäärä, yritysrekisteristä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palkansaajat",
+      "variablename": "Palkansaajien lukumäärä, yritysrekisteri",
+      "conceptdef": "Palkansaajien lukumäärään liittyvä taustamuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritlkm",
+      "variablename": "Yrittäjien lukumäärä, yritysrekisteri",
+      "conceptdef": "Yrittäjien lukumäärään liittyvä taustamuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INETHLO",
+      "variablename": "Osuus henkilökunnasta käyt Internetiä (%)",
+      "conceptdef": "Yrityksen sellaisten työntekijöiden osuus koko henkilöstöstä (%), joka käyttää työssään internet-yhteyden sisältävää tietokonetta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INETHLOK",
+      "variablename": "Internetiä ja tietokonetta käyttävien henkilöiden lukumäärä",
+      "conceptdef": "Tietokoneella internetiä käyttävien henkilöiden lukumäärä yrityksessä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAAJA",
+      "variablename": "Laajakaistayhteys (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä on kiinteä laajakaistayhteys internetiin. Esimerkiksi ADSL, kaapelimodeemi tai kuitutekniikkaan perustuva yhteys.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTNOP",
+      "variablename": "Nettiyhteyden suurin nopeus (1=<2Mbit/s, 2Mbit/s=<2<10Mbit/s, 10Mbit/s<=3<30Mbit/s, 30Mbit/s=4<100Mbit/s, 100Mbit=<5'",
+      "conceptdef": "Yrityksen nopein käytössä oleva internet-yhteys teoreettisen maksiminopeuden mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBKA",
+      "variablename": "Mobiilien internet-yhteyksien käyttö, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä käytetään mobiileja internet-yhteyksiä puhelimilla, taulutietokoneilla tai kannettavilla laitteilla",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBHLO",
+      "variablename": "Osuus henkilökunnasta käyt kannettavaa (%)",
+      "conceptdef": "Osuus henkilökunnasta (%), jolla on käytössä yrityksen kustantama kannettava laite, jolla voi työasioissa ottaa internet-yhteyden matkapuhelinverkon kautta. Kannettavia laitteita ovat esimerkiksi kannettavat tietokoneet, taulutietokoneet (tabletit) ja älypuhelimet.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBHLOK",
+      "variablename": "Kannettavia laitteita käyttävien lukumäärä",
+      "conceptdef": "Kannettavan laitteen avulla internetiä työasioissa matkapuhelinverkon kautta käyttävien henkilöiden lukumäärä yrityksessä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOSVER",
+      "variablename": "Sos verkosto, yhteisöpalvelu (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää sosiaalisen median verkostoja (yhteisöpalveluja), esimerkiksi Facebook, LinkedIn, Xing, Viadeo, Yammer tms.  Sosiaalista mediaa käyttäväksi yritykseksi katsotaan sellainen jolla on käyttäjäprofiili, käyttäjätili tai käyttölisenssi, riippuen sosiaalisen median vaatimuksista ja tyypistä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOSBLO",
+      "variablename": "Blogi tai mikroblogi (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä on blogi tai mikroblogi, esimerkiksi Twitter.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOSMUL",
+      "variablename": "Multimediasisällön jakaminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys jakaa multimediasisältöjä, esimerkiksi kanavissa kuten YouTube, Flickr, Picassa, Slideshare, tms.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOSWIK",
+      "variablename": "Wiki-pohjainen tiedon jakaminen (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys käyttää Wiki-pohjaisia tiedon jakamisen työkaluja sosiaalisessa mediassa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVOL",
+      "variablename": "Ilmoitettu nettimyynnin arvo (euro)",
+      "conceptdef": "Internet-tilausten osuus liikevaihdosta (euroa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVOLOS",
+      "variablename": "Ilmoitettu nettimyynnin osuus liikevaihdosta (%)",
+      "conceptdef": "Internet-tilausten osuus liikevaihdosta (%).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETOMA",
+      "variablename": "Tilauksia omilta verkkosivuilta tai sovelluksista, (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys on ottanut vastaan tuotteiden tai palveluiden internet-tilauksia vuonna 2018 omilta verkkosivuilta tai sovelluksista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETMAR",
+      "variablename": "Tilauksia sähköisiltä markkinapaikoilta, (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys on ottanut vastaan tuotteiden tai palveluiden internet-tilauksia vuonna 2018 sähköisiltä markkinapaikoilta, joilla useat yritykset myyvät tuotteitaan\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OMAVOL",
+      "variablename": "Verkkosivujen tai sovellusten kautta saadut tilaukset, (%)",
+      "conceptdef": "Yrityksen verkkosivujen tai sovellusten kautta saaduista tilauksista kertynyt yrityksen verkkokaupan arvon osuus vuonna 2018\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MARVOL",
+      "variablename": "Tilaukset sähköisiltä markkinapaikoilta, (%)",
+      "conceptdef": "Sähköisiltä markkinapaikoilta tulevien verkkokaupan tilausten osuus yrityksessä\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAVAR",
+      "variablename": "Osuus nettimyynnistä tavaroina (%).",
+      "conceptdef": "Tavaroiden ja aineellisten hyödykkeiden osuus nettimyynnistä (%). Tarkoittaa nettimyyntiä, jossa tuotteet tilataan netistä ja toimitetaan myöhemmin. Huom.! Ei EU.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALVAR",
+      "variablename": "Osuus nettimyynnistä palveluina (%)",
+      "conceptdef": "Palvelujen osuus  nettimyynnistä (%). Tarkoitetaan sellaisten palvelujen myyntiä, jotka tilataan internetissä, mutta käytetään myöhemmin, esimerkiksi majoitus, matkat, pääsyliput. Huom! Ei EU.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILVI",
+      "variablename": "Pilvipalveluiden osto (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa maksullisia pilvipalveluja. Pilvipalveluilla tarkoitetaan tässä tietotekniikkapalveluita, joita käytetään verkkopalveluina internetissä (mukaan lukien VPN). Palvelut voivat olla esim. sovelluksia, laskentaresursseja tai tallennustilaa, ja jossa palvelulla on kaikki seuraavat ominaisuudet: 1) tuotetaan palvelun tarjoajan palvelimilta, 2) on helposti skaalautuva tarpeen mukaan (esim. käyttäjien määrä, tallennuskapasiteetti), 3) voidaan käyttää itsepalveluna (ainakin palvelun ensimmäisen käyttöönoton jälkeen), 4) maksetaan käytön mukaan (yleensä käyttäjämäärän tai käytetyn kapasiteetin mukaan).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILSP",
+      "variablename": "Sähköposti pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa sähköpostin maksullisena pilvipalveluna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILTOI",
+      "variablename": "Toimisto-ohjelma pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa toimisto-ohjelmat pilvipalveluna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILTKA",
+      "variablename": "Tietokantojen ylläpito pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa tietokantojen ylläpidon pilvipalveluna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILTIE",
+      "variablename": "Tiedostojen tallennus pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa tiedostojen tallennuksen pilvipalveluna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILKIR",
+      "variablename": "Kirjanpitosovellus pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa kirjanpitosovellukset pilvipalveluna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILCRM",
+      "variablename": "Asiakkuudenhallinta CRM pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa asiakkuudenhallinnan (CRM) pilvipalveluna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PILLAS",
+      "variablename": "Laskentateho pilvi (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys ostaa pilvipalveluna laskentatehoa yrityksen käyttämien sovellusten ajamiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OWN",
+      "variablename": "Ohjelmia omaan käyttöön (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OWNYAR",
+      "variablename": "Omien ohjelmien valmistusaika (henkilötyövuotta)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Liikevaihto, yritysrekisteri",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VuositilastonYksikko",
+      "variablename": "Vuositilaston yksikko",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajHtv",
+      "variablename": "Palkansaajat henkilötyövuosina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrittajat",
+      "variablename": "Yrittäjät henkilötyövuosina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkmaara",
+      "variablename": "henkmaara",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PalksaajKeskim",
+      "variablename": "Palkansaajat keskimäärin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YrittajatKeskim",
+      "variablename": "Yrittäjät keskimäärin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Henlkm",
+      "variablename": "Johdettu henkilöstömäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mobka1",
+      "variablename": "Mobka ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag12",
+      "variablename": "mobka imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pilpub2",
+      "variablename": "pilpub ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag40",
+      "variablename": "pilpub imputoitu edvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pilpri2",
+      "variablename": "pilpri ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag41",
+      "variablename": "pilpri imputoitu edvuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag42",
+      "variablename": "pilpub imputoitu oletus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlo2",
+      "variablename": "inethlo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mobhlo2",
+      "variablename": "mobhlo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtnopx",
+      "variablename": "nopeus ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laajax",
+      "variablename": "laaja ennen inputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag15",
+      "variablename": "laaja imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag1",
+      "variablename": "korj_mobhlo_inethlo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlo1",
+      "variablename": "inethlo ennen loog korj",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag2",
+      "variablename": "Korjattu mobhlok ja inethlok",
+      "conceptdef": "Mobhlok ja inethlok -muuttujat on korjattu keskenään loogiseksi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlok1",
+      "variablename": "Inethlok ennen loogista korjausta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag3",
+      "variablename": "Korjattu inethlo ja tkhlo",
+      "conceptdef": "Inethlo ja tkhlo -muuttujat on korjattu keskenään loogiseksi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hlok",
+      "variablename": "Tilastossa käytetty henkilökunnan lukumäärä tilastoyksikössä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sosverx",
+      "variablename": "sosver ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sosblox",
+      "variablename": "sosblo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sosmulx",
+      "variablename": "sosmul ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "soswikx",
+      "variablename": "soswik ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inetlkm",
+      "variablename": "Laskettu netin käyttäjien lkm",
+      "conceptdef": "Johdettu muuttuja, tietokonetta, jossa netttiyhteys käyttävän henkilökunnan lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "moblkm",
+      "variablename": "Laskettu mobiililaitteen käyttäjien määrä",
+      "conceptdef": "Johdettu muuttuja, mobiililaitetta käyttävän henkilökunnan lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lveuro",
+      "variablename": "Lopullinen tilaston liikevaihto",
+      "conceptdef": "Lopullinen tilaston liikevaihto, jossa käytetty ensisijaisesti rakennetilaston liikevaihtoa, toissijaisesti yritysrekisterin liikevaihtoa ja viimeisenä vaihtoehtona kyselyn liikevaihtoa, jos em. tietoja ei ole saatavissa tai kyselyn tieto muutoin soveltuu paremmin yrityksen vastaukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "netvoleur",
+      "variablename": "Nettimyynnin arvo (euro), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omaeuro",
+      "variablename": "Omavol-muuttujasta johdettu arvo euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mareuro",
+      "variablename": "Marvol-muuttujasta johdettu arvo euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yriteuro",
+      "variablename": "Nettimyynti yrityksille (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotiteuro",
+      "variablename": "Nettimyynti kotitalouksille (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tavaeuro",
+      "variablename": "Nettimyynnin arvo tavaroina (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palveuro",
+      "variablename": "Nettimyynnin arvo palveluina (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SuEuro",
+      "variablename": "Assuomi-muuttujasta johdettu arvo euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EUeuro",
+      "variablename": "Aseu-muuttujasta johdettu arvo euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MuEuro",
+      "variablename": "Asmuu-muuttujasta johdettu arvo euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "netvolosuudet",
+      "variablename": "Nettikaupan osuus liikevaihdosta (%), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emyvolosuudet",
+      "variablename": "EDI-kaupan osuus liikevaihdosta (%), lopullinen",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KODE",
+      "variablename": "Tilastossa ao. tilastoyksikön ositemuuttuja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ison",
+      "variablename": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä kehikossa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pikkun",
+      "variablename": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä (lopullisessa) otoksessa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "Tilastossa ao. tilastoyksikön kerroin yritysten lukumäärään liittyvissä laskuissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apukode",
+      "variablename": "Tilastossa ao. tilastoyksikön ositemuuttuja Eulle toimitettavassa datassa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ison2",
+      "variablename": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä kehikossa EU-laskuissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pikkun2",
+      "variablename": "Tilastossa ao. tilastoyksikön ositteen yritysten lukumäärä (lopullisessa) otoksessa EU-laskuissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERR",
+      "variablename": "Tilastossa ao. tilastoyksikön kerroin liikevaihtoon liittyvissä laskuissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOKERR",
+      "variablename": "Tilastossa ao. tilastoyksikön kerroin henkilöstön määrään liittyvissä laskuissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERRb",
+      "variablename": "Tilastossa ao. tilastoyksikön kerroin liikevaihtoon liittyvissä laskuissa EU:lle",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKMKERRb",
+      "variablename": "Tilastossa ao. tilastoyksikön kerroin yritysten lukumäärään liittyvissä laskuissa EU:lle",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOKERRb",
+      "variablename": "Tilastossa ao. tilastoyksikön kerroin henkilöstön määrään liittyvissä laskuissa EU:lle",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syritysid",
+      "variablename": "Suojattu yritys-id",
+      "conceptdef": "Uusi yritysyksikön tunnus, vuodesta 2013 alkaen\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTI",
+      "variablename": "Kotisivut (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä on joko omat internet-kotisivut tai oma osio yritysryhmän kotisivuilla. Myös extranet-ratkaisut ja omat verkkokaupat lasketaan kotisivuiksi. Kotisivuilla ei tarkoiteta esimerkiksi yrityksen yhteystietojen julkaisua erilaisilla yritys- tai osoitelistoilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTLUET",
+      "variablename": "Tuotteet, palvelut, hinnastot (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on saatavilla tuotteiden ja palvelujen kuvauksia tai hinnastoja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTOSTO",
+      "variablename": "Tilaukset tai varaukset (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on tilaukset tai varaukset-toiminto, esimerkiksi ostoskori.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMUTU",
+      "variablename": "Tuotteiden muokkaus (1=kyllä, 0=ei)",
+      "conceptdef": "Asiakkaalla on mahdollisuus muokata (räätälöidä)tuotteita tai palveluja yrityksen kotisivuilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTTILSE",
+      "variablename": "Tilausten seuranta (1=kyllä, 0=ei)",
+      "conceptdef": "Asiakkaalla on mahdollisuus seurata tilauksiaan yrityksen kotisivuilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMUSI",
+      "variablename": "Sisällön muokkaus, personointi (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen sivuston sisältöä voi muokata asiakaskohtaisesti, eli asiakkaalle on kotisivuilla personoitua sisältöä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTSOS",
+      "variablename": "Linkki sosiaaliseen mediaan (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on linkkejä tai viittauksia yrityksen sosiaalisen median profiileihin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTAVOIN",
+      "variablename": "Avoimet työpaikat (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen kotisivuilla on ilmoitukset avoimista työpaikoista tai mahdollisuus jättää hakemus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOT",
+      "variablename": "Yrityksellä on käytössä laitteita/järjestelmiä, joita voi valvoa internetin välityksellä (arvot kyllä=1, ei=0)",
+      "conceptdef": "Yrityksellä on käytössä laitteita/järjestelmiä, joita voidaan valvoa tai hallita internetin välityksellä. (Esimeiden internet, IoT)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTENE",
+      "variablename": "Esineiden internet käytössä energiankulutuksen hallinnassa (arvot kyllä=1, ei=0) ",
+      "conceptdef": "Yritys käyttää esineiden internettiä energiankulutuksen hallinnassa (esim. älytermostaatit, älymittarit tai älylamput, jotka ovat yhteydessä internetiin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTTUR",
+      "variablename": "Esineiden internet käytössä toimitilojen turvallisuuden valvonnassa(arvot kyllä=1, ei=0)",
+      "conceptdef": "Yritys käyttää esineiden internetiä toimitilojen turvallisuuden valvonnassa (esim. internetiin yhteydessä olevat hälytysjärjestelmät, savun ilmaisimet, lukot tai valvontakamerat).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTTUO",
+      "variablename": "Esineiden internet käytössä tuotantoprosessissa (arvot kyllä=1, ei=0) ",
+      "conceptdef": "Yrityksellä on esineiden internet käytössä tuotantoprosessissa (esim. sensorit tai RFID-tunnisteet, joiden avulla voidaan internetin välityksellä seurata tai automatisoida prosesseja).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTLOG",
+      "variablename": "Esineiden internet käytössä logistiikassa (arvot kyllä=1, ei=0)",
+      "conceptdef": "Yrityksellä on esineiden internet käytössä logistiikassa (esim. sensorit, joiden avulla voidaan internetin välityksellä seurata tuotteiden tai ajoneuvojen sijaintia tai varastonhallintaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTHUO",
+      "variablename": "Esineiden internet käytössä kuntoon perustuvassa huollossa (arvot kyllä=1, ei=0)",
+      "conceptdef": "Yrityksessä on esineiden internet käytössä kuntoon perustuvassa huollossa (esim. sensorit, joiden avulla voidaan internetin välityksellä seurata koneiden tai ajoneuvojen huoltotarvetta).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTASI",
+      "variablename": "Esineiden internet käytössä asiakaspalvelussa (arvot kyllä=1, ei=0)",
+      "conceptdef": "Yritys käyttää esineiden internetiä asiakaspalveluun liittyen (esim. älykamerat tai sensorit, joiden avulla voidaan internetin välityksellä seurata asiakkaiden toimintaa tai tarjota heille personoitu asiakaskokemus).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IOTMUU",
+      "variablename": "Esineiden internet käytössä muihin tarkoituksiin (arvot kyllä=1, ei=0)",
+      "conceptdef": "Yritys käyttää esineiden internetiä muihin tarkoituksiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mobhlok9",
+      "variablename": "alkup mobhlok",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mobhlo9",
+      "variablename": "alkup mobhlo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASSUOMI1",
+      "variablename": "Tilauksia Suomesta, (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys on saanut tilauksia verkkokaupalla Suomesta vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASEU1",
+      "variablename": "Tilauksia muista EU-maista, (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys on saanut tilauksia verkkokaupalla muista EU-maista vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASMUU1",
+      "variablename": "Tilauksia EU:n ulkopuolelta, (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys on saanut tilauksia verkkokaupalla EU:n ulkopuolelta vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASSUOMI",
+      "variablename": "Tilaukset Suomesta (%)",
+      "conceptdef": "Yrityksen verkkokaupan Suomesta saamien  tilausten arvioitu osuus kaikista tilauksista vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASMUU",
+      "variablename": "Tilaukset EU:n ulkopuolelta (%)",
+      "conceptdef": "Yrityksen verkkokaupan EU:n ulkopuolelta saamien tilausten arvioitu osuus kaikista tilauksista vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASEU",
+      "variablename": "Tilaukset muista EU-maista (%)",
+      "conceptdef": "Yrityksen verkkokaupan muista EU-maista saamien tilausten arvioitu osuus kaikista tilauksista vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONGTOI",
+      "variablename": "Toimitus- tai palautuskustannukset ongelmana, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen verkkokaupassa myynnin ongelmana oli tuotteiden toimitusten tai palautusten korkeat kustannukset myytäessä muihin EU-maihin vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONGVAL",
+      "variablename": "Valitusten ja kiistojen ratkaiseminen ongelmana, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen verkkokaupassa myynnin ongelmana olivat vaikeuden valitusten ja kiistojen ratkaisemisessa myydessä muihin EU-maihin vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONGMER",
+      "variablename": "Tuotemerkintöjen mukauttaminen ongelmana, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen verkkokaupassa oli myynnin ongelmana tuotemerkintöjen mukauttaminen muita EU-maita varten vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONGKIE",
+      "variablename": "Kieliongelmia, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksellä oli kieliongelmia muiden EU-maiden asiakkaiden kanssa myydessään muihin EU-maihin vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ONGKUM",
+      "variablename": "Kumppaneiden asettamat rajoitukset, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksen verkkokaupassa myynnin ongelmana oli kumppaneiden asettamat rajoitukset myynnissä joihinkin EU-maihin vuonna 2018",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDISUOMI1",
+      "variablename": "EDI-tilaukset Suomesta, (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIEU1",
+      "variablename": "EDI-tilaukset EU-maista, (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIMUUM1",
+      "variablename": "EDI-tilaukset EU:n ulkopuolelta, (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERP1",
+      "variablename": "Toiminnanohjausjärjestelmä, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä toiminnanohjausjärjestelmä (ERP-ohjelmisto)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CRMINF",
+      "variablename": "Ohjelmisto asiakastiedon hankintaa, tallentamista ja jakamista varten, (1=kyllä,0=ei)",
+      "conceptdef": "Yrityksessä on käytössä ohjelmisto (CRM) asiakastiedon hankintaa, tallentamista ja jakamista varten",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CRMANA",
+      "variablename": "Ohjelmisto asiakastiedon analysointiin, (1=kyllä, 0=ei)",
+      "conceptdef": "Yrityksessä on käytössä ohjelmisto (CRM) markkinointitarkoituksiin asiakastiedon analysointia varten",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ongalv",
+      "variablename": "ongalv",
+      "conceptdef": "Ongelmat muiden EU-maiden\narvonlisäveroon liittyen (esim.\nepävarmuus arvonlisäverokäsittelyssä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pilerp",
+      "variablename": "pilerp",
+      "conceptdef": "Toiminnanohjausjärjestelmä (ERP) \n(pilvipalveluna)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "piltur",
+      "variablename": "piltur",
+      "conceptdef": "Tietoturva (pilvipalveluna)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pilal",
+      "variablename": "pilal",
+      "conceptdef": "Alustapalveluita (PaaS)\nsovelluskehitykseen, -testaukseen tai \n-jakeluun (pilvipalveluna) ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKIR",
+      "variablename": "AIKIR",
+      "conceptdef": "8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?\n8.1a Teknologiat, jotka analysoivat\nkirjoitettua tekstiä (text mining)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIPUH",
+      "variablename": "AIPUH",
+      "conceptdef": "8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?\n8.1b Teknologiat, jotka muuttavat puhuttua\nkieltä koneluettavaan muotoon \n(puheentunnistus)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AINLG",
+      "variablename": "AINLG",
+      "conceptdef": "8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?\n8.1.d. Teknologiat, jotka tunnistavat kohteita\ntai henkilöitä kuvista (kuvan tunnistus,\nkuvan käsittely)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIKON",
+      "variablename": "AIKON",
+      "conceptdef": "8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?\n8.1.e. Koneoppiminen (ml. syväoppiminen)\ndatan analysoimiseksi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIOHJ",
+      "variablename": "AIOHJ",
+      "conceptdef": "8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?\n8.1.f. Teknologiat, joilla automatisoidaan\ntyöprosesseja tai avustetaan\npäätöksenteossa (tekoälyä käyttävä\nohjelmistorobotiikka)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIROB",
+      "variablename": "AIROB",
+      "conceptdef": "8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?\n8.1.g. Teknologiat, jotka mahdollistavat \nkoneiden itsenäisen liikkumisen\nympäristön havainnointiin pohjaten\n (autonomiset robotit, itseohjautuvat\najoneuvot, autonomiset droonit)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIMAR",
+      "variablename": "AIMAR",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.a. Markkinoinnissa tai myynnissä \n(esim. chatbot, joka perustuu\nluonnollisen kielen käsittelylle (NLP),\nasiakkaiden profilointi, hinnan\noptimointi, personoidut tarjoukset,\nmarkkina-analyysit koneoppimista\nhyväksikäyttäen) (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUO",
+      "variablename": "AITUO",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.b. Tuotantoprosessissa \n(esim. ennakoiva huolto koneoppimista\nhyväksikäyttäen, tuotteiden lajittelu tai\nlaatukontrolli konenäköä\nhyväksikäyttäen, autonomiset droonit\ntuotannon tai turvallisuuden\nvalvonnassa, autonomiset robotit\ntuotannon kokoonpanotöissä) (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIHAL",
+      "variablename": "AIHAL",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.c. Yrityshallinnon prosesseissa \n(esim. virtuaalinen avustaja, joka\nkäyttää hyväksi koneoppimista ja/tai\nluonnollisen kielen käsittelyä (NLP),\npuheen muuttaminen kirjoitetuksi\ntekstiksi (puheentunnistus),\nautomatisoitu suunnittelu tai\naikatauluttaminen koneoppimista\nhyväksikäyttäen, konekääntäminen) (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIJOH",
+      "variablename": "AIJOH",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.d. Yrityksen johtamisessa\n(esim. koneoppimisen hyväksikäyttö\ndatan analysoinnissa investointi- tai\nmuiden päätösten tekemisessä,\nmyyntiennusteet koneoppimista\nhyväksikäyttäen, riskien arviointi\nkoneoppimista hyväksikäyttäen) (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AILOG",
+      "variablename": "AILOG",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.e. Logistiikassa \n(esim. autonomiset robotit\nvarastonhallinnan automatisoinnissa,\nreittioptimointi koneoppimista \nhyväksikäyttäen) (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AITUR",
+      "variablename": "AITUR",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.f. Tietoturvallisuudessa \n(esim. kasvontunnistus konenäön\navulla, kyberhyökkäysten\nhavaitseminen ja estäminen\nkoneoppimista hyväksikäyttäen) (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIHR",
+      "variablename": "AIHR",
+      "conceptdef": "8.2 Käyttääkö yrityksenne tekoälyohjelmia tai järjestelmiä seuraaviin tarkoituksiin?\n8.2.g. Henkilöstöhallinnossa tai\nrekrytoinnissa (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIOMA",
+      "variablename": "AIOMA",
+      "conceptdef": "8.3 Kuinka yrityksenne hankki käyttämänsä tekoälyohjelmat tai -järjestelmät?\n8.3.a. Yrityksen oma henkilöstö kehitti ne \n(mukaan lukien emo- tai tytäryhtiön\nhenkilöstö)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIOSM",
+      "variablename": "AIOSM",
+      "conceptdef": "8.3 Kuinka yrityksenne hankki käyttämänsä tekoälyohjelmat tai -järjestelmät?\n8.3.b. Ostimme ohjelman tai järjestelmän,\n jota oma henkilöstö muokkasi yrityksen\nkäyttöön (mukaan lukien emo- tai\ntytäryhtiön henkilöstö)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIAVM",
+      "variablename": "AIAVM",
+      "conceptdef": "8.3 Kuinka yrityksenne hankki käyttämänsä tekoälyohjelmat tai -järjestelmät?\n8.3.c. Hankimme avoimen lähdekoodin\n(open-source) ohjelman tai järjestelmän, \njota oma henkilöstö muokkasi yrityksen\nkäyttöön (mukaan lukien emo- tai\ntytäryhtiön henkilöstö)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIOSV",
+      "variablename": "AIOSV",
+      "conceptdef": "8.3 Kuinka yrityksenne hankki käyttämänsä tekoälyohjelmat tai -järjestelmät?\n8.3.d. Ostimme käyttövalmiin kaupallisen\nohjelman tai järjestelmän (mukaan\nlukien tavarat tai järjestelmät, jotka\n sisälsivät tekoälyohjelman tai \njärjestelmän)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIULK",
+      "variablename": "AIULK",
+      "conceptdef": "8.3 Kuinka yrityksenne hankki käyttämänsä tekoälyohjelmat tai -järjestelmät?\n8.3.e. Ostimme tekoälyn kehittämisen tai\nmuokkaamisen ulkopuoliselta \npalveluntarjoajalta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIHAR",
+      "variablename": "AIHAR",
+      "conceptdef": "8.4. Onko yritys koskaan harkinnut minkään kohdissa 8.1. mainitun tekoälyteknologian käyttämistä? (AIKUV)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEKU",
+      "variablename": "AIEKU",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.a. Kulut vaikuttavat liian suurilta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEOS",
+      "variablename": "AIEOS",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.b. Yrityksellä ei ole tarpeellista \nosaamista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEYH",
+      "variablename": "AIEYH",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.c. Yhteensopivuusongelmat nykyisten\nvälineiden, ohjelmien tai järjestelmien\nkanssa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEDA",
+      "variablename": "AIEDA",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.d. Ongelmat tarvittavan datan\nsaatavuudessa tai laadussa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIETU",
+      "variablename": "AIETU",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.e. Huoli tietosuojasta tai yksityisyyden\nsuojasta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEJU",
+      "variablename": "AIEJU",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.f. Epäselvyys juridisista kysymyksistä,\nesim. vastuu tekoälyn aiheuttamista\nvahingoista",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEEE",
+      "variablename": "AIEEE",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.g. Eettisistä syistä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AIEHY",
+      "variablename": "AIEHY",
+      "conceptdef": "8.5 Miksi yrityksenne ei käytä mitään kysymyksessä 8.1 mainittuja tekoälyteknologioita?\n\n\n8.5.h. Tekoälyteknologiat eivät ole\nhyödyllisiä yritykselle",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIESP",
+      "variablename": "LIESP",
+      "conceptdef": "10.1 Vuoden 2020 aikana\n\na) Lisääntyikö yrityksessänne niiden\nhenkilöiden osuus, joilla on etäyhteys\nyrityksen sähköpostiin (tietokoneella tai\npuhelimella)? (K/E/kysymys ei sovellu yritykselle)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COVSP",
+      "variablename": "COVSP",
+      "conceptdef": "10.1 Vuoden 2020 aikana\n\n\n2) Missä määrin nämä muutokset\njohtuivat Covid-19 pandemiasta? (kokonaan/osittain/ei ollenkaan)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIEMU",
+      "variablename": "LIEMU",
+      "conceptdef": "10.1 Vuoden 2020 aikana\n\n) Lisääntyikö yrityksessänne niiden \nhenkilöiden osuus, joilla on etäyhteys\nyrityksen muihin järjestelmiin kuin \nsähköpostiin (tietokoneella tai\npuhelimella)? (K/E/kysymys ei sovellu yritykselle)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COVMU",
+      "variablename": "COVMU",
+      "conceptdef": "10.1 Vuoden 2020 aikana\n\n\nb2) Missä määrin nämä muutokset\njohtuivat Covid-19 pandemiasta? (kokonaan/osittain/ei ollenkaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LIEKO",
+      "variablename": "LIEKO",
+      "conceptdef": "10.1 Vuoden 2020 aikana\n\n\nc) Lisääntyikö yrityksessänne\netäkokousten määrä (esim. MS Teams,\nSkype, Zoom jne)? (K/E/kysymys ei sovellu yritykselle)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COVKO",
+      "variablename": "COVKO",
+      "conceptdef": "10.1 Vuoden 2020 aikana\n\n\nc2) Missä määrin nämä muutokset\njohtuivat Covid-19 pandemiasta? (kokonaan/osittain/ei ollenkaan)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COVEC",
+      "variablename": "COVEC",
+      "conceptdef": "10.2 Aloittiko tai lisäsikö yrityksenne pyrkimyksiä myydä tavaroita tai palveluita verkkokaupalla vuonna\n2020 Covid-19 pandemian vuoksi? (K/E)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASYRIT",
+      "variablename": "Osuus nettimyynnistä yrityksille (%)",
+      "conceptdef": "Yrityksiltä ja julkiselta sektorilta saatujen internet-tilausten osuus nettitilausten kokonaisarvosta (%).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKOTIT",
+      "variablename": "Osuus nettimyynnistä kotitalouksille (%)",
+      "conceptdef": "Kotitalouksilta saatujen internet-tilausten osuus nettitilausten kokonaisarvosta (%).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIGIAR",
+      "variablename": "Osuus nettimyynnistä sähk tuotteina (%)",
+      "conceptdef": "Sähköisten tuotteiden osuus nettimyynnistä (%) . Tarkoittaa nettimyyntiä, jossa tuotteet ladataan ja/tai tallennetaan tai saadaan käyttöön internetissä. Huom! Ei EU.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIVAST",
+      "variablename": "Vastaanotetut myyntitilaukset EDI:llä (1=kyllä, 0=ei)",
+      "conceptdef": "Yritys otti vastaan tilauksia sähköisellä tiedonsiirrolla eli EDI:llä. Sähköinen tiedonsiirto eli EDI (Electronic Data Interchange) on menettely, jossa yrityksen tietojärjestelmässä sijaitsevista tiedoista tuotetaan määrämuotoinen tietovirta, joka välitetään sähköisesti vastaanottavaan organisaatioon ja on siellä automaattisesti jatkokäsiteltävissä, esim. tilaus, lasku, tulliasiakirja tai rahtikirja. Sähköinen kauppa yrityksen myynneissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMYVOL",
+      "variablename": "Ilmoitettu Edi myynnin arvo (euro)",
+      "conceptdef": "EDI:n välityksellä saatujen tilausten osuus liikevaihdosta, EDI-kaupan arvo (euro).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMYVOLOS",
+      "variablename": "Ilmoitettu Edi myynnin osuus liikevaihdosta (%)",
+      "conceptdef": "EDI:n välityksellä saatujen tilausten osuus liikevaihdosta (%), arvio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

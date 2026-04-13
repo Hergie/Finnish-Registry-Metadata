@@ -1,0 +1,36 @@
+{
+  "variables": [
+    {
+      "identifier": "delId",
+      "variablename": "Aineiston tunniste",
+      "conceptdef": "Tunniste on muodostettu Tilastokeskuksessa taulun luomisen yhteydessä. Aineisto ja sen sisältämät ilmoitukset ovat yhdistettävissä toisiinsa aineiston tunnisteen avulla (delivery.delId = report.delId).\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "payerIdType1_s",
+      "variablename": "Etuuden maksajan suojattu y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "latauspvm",
+      "variablename": "Aineiston poimintapäivämäärä tulorekisteristä",
+      "conceptdef": "Tarkoittaa sitä hetkeä, jolloin Tilastokeskus on poiminut aineiston tulorekisteristä.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paymentDate",
+      "variablename": "Suorituksen maksupäivä tai muu ilmoituspäivä",
+      "conceptdef": "Suorituksen maksupäivä on päivä, jolloin suoritus on tulonsaajan käytettävissä, esimerkiksi merkitty tulonsaajan pankkitilille. Muu ilmoituspäivä voi tulla kyseeseen esimerkiksi takaisinperintätilanteissa. Aineiston poiminta ja ajallinen jaottelu on tehty Tilastokeskuksessa tämän päivämäärän perusteella.\n\nPakollisuus (K/E) = K",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

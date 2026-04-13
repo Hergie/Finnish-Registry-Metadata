@@ -1,0 +1,308 @@
+{
+  "variables": [
+    {
+      "identifier": "VUOSI",
+      "variablename": "TILASTOVUOSI",
+      "conceptdef": "Tilaston tilastointivuosi. Tässä tiedostossa 1995-2023. Tiedot kuvaavat pääasiassa vuoden viimeistä neljännestä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PMUOTO",
+      "variablename": "PALKKAUSMUOTO",
+      "conceptdef": "Työsuhteen palkkausmuoto. Mahdolliset arvot vv 1995-2023: \n1 = Kuukausipalkkainen \n2 = Tuntipalkkainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AINE",
+      "variablename": "AINEISTOTUNNUS",
+      "conceptdef": "Aineistotunnuksella erotetaan eri tiedonantajalähteet toisistaan. Yksit. sekt. mahdolliset arvot vv 1995-2023:\n0 - Järjestäytymättömät - palvelualat (TK:n oma otos) \n1 - Elinkeinoelämän keskusliitto - teollisuus (ent. TT) \n2 - Elinkeinoelämän keskusliitto - palvelualat (ent. PT)\n3 - Elinkeinoelämän keskusliitto - autoliikenne (ent. PT); \n4 - Autoalan keskusliitto (EK/AKL);\n5 - Valtion liikelaitokset (aineistossa vain 1995-98); \n6 - Energia-alan kuukausipakkaiset (ENL, aineistossa vain 1995-96); \n7 - Avaintyönantajat ry (AVAINTA, ent. PTY, aineistossa 2001 läht.); \n8 - Järjestäytymättömät - teollisuusalat (TK:n oma otos); \n9 - Kirkon työmarkkinalaitos (KIT); \nA - Näyttämöväen vanhuudenturvasäätiö (aineistossa 1996 läht.); \nB - Elinkeinoelämän keskusliitto - yksityinen opetusala (,ent. PT)\nF - Elinkeinoelämän keskusliitto - Kiinteistötyönantajat ry (ent. PT, aineistossa 1996 läht); \nG - PT Siivouspalvelut (nyk. EK,ent. PT, aineistossa 1998 läht);  \nH - Tietojenkäs. palveluala TIPAL (PT, aineistossa vain 1998-2002);  \nJ - Työterveyslaitoksen henkilöstö (PT, aineistossa vain 1999-2005);  \nL - Kirkon lastenohjaajat (KISV, aineistossa 1999-2002, muina vuosina AINE=9)\n; N - PTY opetusala (aineistossa 2001-2006 ja 2014-2015)\nP - Palkka.fi -aineisto (2014-).\nR - Järjestäytymättömät - yksityinen opetusala (TK:n oma otos, aineistossa vain 2003-04); ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu Tilastokeskuksen henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUKU",
+      "variablename": "PALKANSAAJAN SUKUPUOLI",
+      "conceptdef": "Tieto sukupuolesta. Muodostetaan pääasiassa henkilötunnuksen perusteella. 1=mies, 2=nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "PALKANSAAJAN IKÄ",
+      "conceptdef": "Palkansaajan ikä vuosina. Lasketaan henkilön syntymävuoden mukaan henkilötunnuksen perusteella.",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTUN_S",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus (suojaamaton tunnus sisältää myös väliviivan)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL08",
+      "variablename": "Yrityksen toimiala TOL08",
+      "conceptdef": "Yrityksen tai työnantajan päätoimiala. Käytössä EU:n kansainvälistä NACE Rev. 2 vastaava kansallinen TOL2008 versio. TOL2008 on johdettu NACE Rev. 2:sta lisäämällä siihen 5-numerotaso kansallisia erittelytarpeita varten. Muutoin TOL 2008 noudattaa täysin NACE Rev. 2:ta 1-4-numerotasoilla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PLKMKEH",
+      "variablename": "Palkansaajia kehikossa",
+      "conceptdef": "Tieto yrityksen palkansaajien lukumäärästä. Tieto saadaan yritysrekisteristä. Kuvaa kokoaikavastaavaa palkansaajaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TMPTUN_S",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Toimipaikkatunnus yksilöi toimipaikan. Tunnus annetaan Tilastokeskuksen yritys- ja toimipaikkarekisterissä. Se on 9-numeroinen luku, jossa kaksi viimeistä numeroa ovat tarkistusnumeroita. TMPTUN_S on toimipaikkatunnuksen suojattu versio.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PYKSTOL08",
+      "variablename": "Paikallisyksikön toimiala TOL08",
+      "conceptdef": "Paikallisyksikön toimiala. Perustuu kansainväliseen TOL 2008 toimialaluokitukseen. TOL 2008 noudattaa  EU:n toimialaluokitusta NACE Rev. 2:a 1-4-numerotasoilla. 5-numerotaso on määritelty kansallisesti Suomen omien käyttötarpeiden perusteella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PYKSKUNTA",
+      "variablename": "Paikallisyksikön sijaintikunta",
+      "conceptdef": "Paikallisyksikön sijaintikunta. Kuntatieto vastaa aina kyseisen tilastovuoden kuntakenttää.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_BASIS0",
+      "variablename": "Lukumäärärajaus",
+      "conceptdef": "Harmonisoitu rajausehto lukumääriä laskettaessa. Arvo=1 tietueilla, jotka otetaan mukaan palkansaajien lukumääriä laskettaessa. Muuten arvo=0. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_BASIS1",
+      "variablename": "Tuntiansiorajaus",
+      "conceptdef": "Harmonisoitu rajausehto. Arvo=1 tietueilla, jotka voidaan ottaa mukaan kokonaistyöajan kokonaistuntiansioita  (HAR_TUNTIPALKKA) koskeviin laskelmiin ja analyyseihin. Muuten arvo=0. Aina kun HAR_BASIS0=0, on myös HAR_BASIS1=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_BASIS2",
+      "variablename": "Kuukausiansiorajaus",
+      "conceptdef": "Harmonisoitu rajausehto kuukausiansioita koskevia laskelmia varten. Arvo=1 tietueilla, jotka otetaan mukaan kokonaistyöajan kuukausiansioita koskeviin laskelmiin ja analyyseihin. Muuten arvo=0. Aina kun HAR_BASIS0=0, on myös HAR_BASIS2=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KOR",
+      "variablename": "Korotuskerroin",
+      "conceptdef": "Harmonisoitu ositekohtaisiin yritysmääriin perustuva katokorotuskerroin: Tutkimuskehikossa noin (tilastovuodesta riippuen) 210 yrityksen KOKOLUOKKA*TOIMIALA -koht. ositetta (j). Formaalisti esitettynä HAR_KOR on F_j/f_j, missä F_j = (toimivien) tutkimuskehikon yritysten lukumäärä ositteessa j, f_j  = vastanneiden yritysten määrä ositteessa j.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KOR2",
+      "variablename": "Korotuskerroin 2",
+      "conceptdef": "Harmonisoitu ositekohtaisiin työntekijämääriin perustuva katokorotuskerroin: tutkimuskehikossa noin 210 (tilastovuodesta riipuen) yrityksen KOKOLUOKKA*TOIMIALA -koht. ositetta (j). Formaalisti esitettynä korotuskerroin on N_j/n_j, missä N_j = (toimivien) tutkimuskehikon yritysten henkilöstömäärä yhteensä ositteessa j ja n_j  = vastanneiden yritysten henkilöstömäärä yhteensä ositteessa j.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_AML10",
+      "variablename": "TK:n AML2010-ammattiluokitus (kansallinen ISCO)",
+      "conceptdef": "Harmonisoitu kansainväliseen ISCO-ammattiluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen ammattiluokitus. Ammattiluokituksen pohjana ovat alakohtaiset työnantajien ja Tilastokeskuksen ylläpitämät ammattinimikeluokitukset, jotka on käännösavaimella muokattu sekä kansallisen että kansainvälisen virallisen ammattiluokituksen mukaiseksi. Käytössä kansallinen ammattiluokitus 2010 (AML2010). ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TUTK1",
+      "variablename": "Tutkintokoodi",
+      "conceptdef": "Harmonisoitu tutkintokoodi. Palkansaajan viimeisin ja korkein tutkinto tilastovuoden lopussa. Käytössä kansainväliseen Unescon International Standard Classification of Education 2011 (ISCED 2011)  perustuva Tilastokeskuksen ylläpitämä kansallinen Koulutusluokitus 2016 -sovellus. Tutkinnot poimitaan Tilastokeskuksen tutkintorekisteristä prioriteettikentän korkeimman prioriteettiarvon mukaan. Rekisteriin tutkintotiedot on voitu viedä vain niille henkilöille, joilla on suomalainen henkilötunnus. Tästä syystä tutkintorekisteristä puuttuvat henkilötunnusta vailla olevien henkilöiden (esim. monien ulkomaalaisten) tutkintotiedot.\n\nKuvaus suomeksi: https://www.stat.fi/fi/luokitukset/koulutus/koulutus_1_20160101/ ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TUTK1_VUODET",
+      "variablename": "Tutkinnon pituus",
+      "conceptdef": "Harmonisoidut tutkintoasteet koulutusvuosina.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_OSAIK",
+      "variablename": "Osa-aikaisuus",
+      "conceptdef": "Harmonisoitu työsuhteen koko-  tai osa-aikaisuus -tieto. Muodostetaan palvelussuhteen ehtojen ja  säännöllisen viikkotyöajan mukaan. Osa-aikaisuuden määrittelyssä rajana pidetään 90 prosenttia alan yleisestä säännöllisestä työajasta. \nMahdolliset arvot: \n1 - Kokoaikainen, \n2 - Osa-aikainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_VKTA",
+      "variablename": "Säännöllinen sovittu viikkotyöaika",
+      "conceptdef": "Harmonisoitu palkansaajan henkilökohtainen sovittu säännöllinen viikkotyöaika. Kattaa sekä koko- että osa-aikaiset työsuhteet ja määritettävä kirjallisesti työsopimuslain mukaisesti joko työsopimuksessa tai työnantajan antamassa työnteon keskeisiä ehtoja koskevassa selvityksessä. Säännöllisen viikkotyöajan on noudatettava työaikalakia ja mahdollista työsuhteessa noudatettavaa työehtosopimusta. Ei kuvaa pelkästään todellista työssöoloaikaa, sillä myös TES:in mukaiselle säännölliselle työssäoloajalle sijoittuvat palkattomat ja palkalliset poissaolot sisältyvät käsitteeseen. HAR_VKTA sisaltää myös ns. palkalliset pekkasvapaat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TYOAIKAKK",
+      "variablename": "Kokonaistyöaika",
+      "conceptdef": "Harmonisoitu kokonaistyöaika kuukaudessa (=HAR_STYOAIKAKK+HAR_YLIT). Harmonisoidut lisä- ja ylityötunnit (HAR_YLIT) kuvaavat yksinomaan todellisia palkattuja työssäolotunteja.  Sen sijaan säännöllisen kuukausityöajan tunnit (HAR_STYOAIKAKK) sisältävät todellisten työssöolotuntien lisäksi myös TES:in määrittämälle työssäoloajalle sijoittuvat palkattomat ja palkalliset poissaolotunnit.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_YLIT",
+      "variablename": "Ylityötunnit",
+      "conceptdef": "Palkatut lisä- ja ylityötunnit kuukaudessa. Lisätyö määritellään työksi, jota tehdään työnantajan aloitteesta ja sovitun työajan lisäksi ja joka ei ylitä työaikalaissa.säädettyä säännöllisen työajan enimmäismäärää. Työaikalaissa säädetyn säännöllisen työajan enimmäismäärän ylittävät työtunnit ovat ylityötä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_STYOAIKAKK",
+      "variablename": "Säännöllinen sovittu työaika kuukaudessa",
+      "conceptdef": "Harmonisoitu säännöllisen työajan tuntien lukumäärä kuukaudessa. Säännöllisen työajan tunnit eivät sisällä lisä - ja ylityöajan eikä ns. varallaolajan tunteja. Säännöllisen kuukausityöajan tunnit eivät kata pelkkiä todellisia palkattuja työssäolotunteja, sillä myös työaikakalain ja/tai TES:in määrittämälle säännölliselle työssäoloajalle sijoittuvat palkattomat ja palkalliset poissaolotuniit sisältyvät käsitteeseen. \n\nHUOM! Palkkausmuoto (PMUOTO) on syytä ottaa huomioon, kun käytetään kuukausitason työtuntiien määrää kuvaavia muuttujia HAR_STYOAIKAKK ja HAR_TYOAIKAKK. \n\n1. Kuukausipalkkaisilla (PMUOTO=1) säännöllisen työajan tuntisumma kuukaudessa (HAR_STYOAIKAKK) on laskennallinen määräytyen työaikalain, työ-/virkaehtosopimusten sekä työsopimusten perusteella. Kuukausipalkkaisissa työsuhteissa ei tehtyjä työtunteja seurata samalla tuntikohtaisella  tarkkuudella kuin tuntipalkkaisissa (PMUOTO=2) työsuhteissa. \n\n2. Kuukausipalkkaisten työsuhteiden tapaan myös tuntipalkkaisilla on säännöllisen työajan tuntisumma kuukaudessa (HAR_STYOAIKAKK) laskennallinen ja määräytyy työaikalain ja  työ-/virkaehtosopimusten perusteella. Lisäksi  tämä laskennallinen tuntisumma kuukaudessa voi poiketa tuntipalkkaisen työntekijän työaikakirjaukseen kirjatuista todellisista kuukausityötuntimääristä. Tilastokeskuksen tekemien laskelmien perusteella ero ei yleensä ole suuri. Muuttujan yhteydessä on syytä kuitenkin pitää mielessä se, että osajoukko- ja työsuhdetasolla HAR_STYOAIKAKK voi toisinaan tuntipalkkaislla poiketa työaikakirjauksen todennetuista työaikatuntien kuukausisummasta. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TPSANS",
+      "variablename": "Säännöllisen työajan tuntiansio",
+      "conceptdef": "Harmonisoitu sovitun säännöllisen työajan tuntiansio. Säännölliseltä työajalta maksetun ansion määrä euroina tunnissa. Muodostettu säännöllisen työajan kuukausiansiosta (HAR_KKSANS) jakamalla se säännöllisen työajan tuntien määrällä kuukaudessa  (HAR_STYOAIKAKK). \n\nHarmonisoituun säännöllisen työajan tuntiansioon luetaan kultakin palkanmaksujaksolta peruspalkka + tehtävän, ammattitaidon, palvelusvuosien yms. perusteella maksettavat lisät+ työpaikan sijainnin ja olosuhteiden perusteella maksettavat lisät + työaikalisät + määrältään vaihtelevat mutta säännöllisesti palkanmaksujaksoittain maksettavat provisiot (sisältää myyntiprovisiot, toimihenkilöiden yksilötason työsuoritukseen pohjaavat tulos- ja suoritusperusteiset palkanosat ja työntekijöiden yksilötason työsuoritukseen perustuvat suoritusperusteiset ansiot) + luontoisetujen verotusarvo. Säännöllisen työajan ansioihin luetaan myös palkka säännöllisen työajan palkallisilta ei-tehdyiltä tunneilta (esim. palkalliset sairaspoissaolot) . Sen sijaan säännöllisen työajan ansio ei sisällä lisä- ja ylityöajan ansioita; varallaolokorvauksia eikä kertaluonteisia tai epäsäännöllisesti maksettavia palkkaeriä, kuten lomarahaa ja usean työntekijän tai koko yrityksen kollektiivisen työsuoritukseen/-tulokseen pohjautuvia epäsäännöllisiä tulospalkkioita ja yrityksen yksipuolisesti määrittämiä käteisiä voitonjakoeriä.\n\nHUOM! Palkkausmuoto on syytä ottaa huomioon tunti- ja kuukausiansioita koskevissa tutkimuksissa - ennen kaikkea tutkimuksessa käytettävien  palkkamuuttujiien valinnassa.\n\n1. Kuukausipalkkaisilla (PMUOTO=1) säännöllisen työajan tuntisumma kuukaudessa (HAR_STYOAIKAKK) määräytyy työaikalain, työ-/virkaehtosopimusten sekä työsopimusten perusteella. Kuukausipalkkaisissa työsuhteissa ei tehtyjä työtunteja kuitenkaan seurata samalla tuntikohtaisella  tarkkuudella kuin tuntipalkkaisissa (PMUOTO=2) työsuhteissa. Niinpä kuukausipalkkaisten työsuhteiden osalta säännöllisen vs. kokonaistyöajan tuntia kohden lasketut palkat (HAR_TPSANS vs. HAR_TUNTIPALKKA) eivät vastaa samalla tarkkuudella  tehtyä työtuntia kohden laskettua työpanosvakioitua palkkaa kuin vastaavat muuttujat tuntipalkkaisissa työsuhteissa. Tästä syystä kuukausipalkkaisten työsuhteiden osalta antavat kuukaustason palkkamuuttujat (HAR_KKSANS ja HAR_KKPALKKA) yksikäsitteisemmän lähtökohdan palkkoja koskeville  tutkimuksille ja analyyseille kuin tuntitason palkkamuuttujat HAR_TPSANS ja HAR_TUNTIPALKKA.\n\n2. Kuukausipalkkaisten työsuhteiden tapaan myös tuntipalkkaisilla säännöllisen työajan tuntisumma kuukaudessa (HAR_STYOAIKAKK)  määräytyy työaikalain sekä työ-/virkaehtosopimusten perusteella. Tuntipalkkaisilla säännöllisen työajan tuntisumma kuukaudessa on luonteeltaan kuitenkin  laskennallisempi ja voi poiketa tuntipalkkaisen työntekijän työaikakirjaukseen kirjatuista todellisista palkatuista  kuukausityötuntimääristä. Tilastokeskuksen tekemien laskelmien perusteella ero ei keskimääräisesti yleensä ole kuitenkaan suuri. Tutkimusta tehtäessä on syytä kuitenkin pitää mielessä se, että osajoukko- ja työsuhdetasolla HAR_STYOAIKAKK voi toisinaan poiketa työaikakirjauksen todennetuista palkattujen tehtyjen työaikatuntien kuukausisummasta. Tämä tarkoittaa sitä, että tuntipalkkaisissa työsuhteissa (PMUOTO=2)  tarjoavat tuntipalkkamuuttujat HAR_TPSANS ja HAR_TUNTIPALKKA tilastollisesti tarkemman ja yksiselitteisemmän lähtökohdan  palkkoja koskeville  analyyseille kuin vastaavat kuukausitason muuttujat HAR_KKSANS ja HAR_KKPALKKA.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKSANS",
+      "variablename": "Säännöllisen sovitun työajan kuukausiansio",
+      "conceptdef": "Harmonisoitu säännöllisen työajan kuukausiansio. Säännölliseltä työajalta maksetun ansion määrä euroina kuukaudessa. \n\nHarmonisoituun säännöllisen työajan kuukausiansioon luetaan kultakin palkanmaksujaksolta peruspalkka + tehtävän, ammattitaidon, palvelusvuosien yms. perusteella maksettavat lisät + työpaikan sijainnin ja olosuhteiden perusteella maksettavat lisät + työaikalisät +  luontoisetujen verotusarvo + määrältään vaihtelevat mutta säännöllisesti palkanmaksujaksoittain maksettavat provisiot (myyntiprovisiot, toimihenkilöiden yksilötason työsuoritukseen pohjaavat tulos- ja suoritusperusteiset palkanosat ja työntekijöiden yksilötason työsuoritukseen perustuvat suoritusperusteiset ansioerät, kuten urakkapalkka ja palkkiopalkka). Mukaan lasketaan myös ei-tehdyltä säännölliseltä työajalta maksettu palkka. \n\nSäännöllisen työajan ansio ei luonnollisesti sisällä lisä- ja ylitytuntien anioita, mutta ei myöskään varallaolokorvauksia eikä kertaluonteisia tai epäsäännöllisesti maksettavia palkkaeriä, kuten lomarahaa ja usean työntekijän tai koko yrityksen kollektiivisen työsuoritukseen/-tulokseen pohjautuvia tulospalkkioita ja yrityksen yksin päättämiä käteisiä voitonjakoeriä.\n\nHUOM! Palkkausmuoto (PMUOTO) on syytä ottaa huomioon tunti- ja kuukausiansioita koskevissa tutkimuksissa - ennen kaikkea kun pohditaan tutkimuksessa käytettävien palkkamuuttujien valintaa. Asia selitetty tarkemmin HAR_TPSANS-kuvauksen yhteydessä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKSANSLIS",
+      "variablename": "Säännöllisen työajan palkanlisät",
+      "conceptdef": "Harmonisoidut säännölliseltä työajalta maksetut palkanlisät euroina kuukaudessa. Säännöllisen työajan palkanlisiin lasketaan työpaikan sijainnin ja olosuhteiden perusteella maksettavat lisät + työaikalisät + provisiot (myyntiprovisiot, toimihenkilöiden yksilötason työsuoritukseen pohjaavat tulos- ja suoritusperusteiset palkanosat ja työntekijöiden yksilötason työsuoritukseen perustuvat suoritusperusteiset ansiot) + luontoisetujen verotusarvo. Perusmuodostussääntö formaalisti ilmaistuna on HAR_KKSANSLIS=HAR_OLS+HAR_VTL+HAR_PROV+HAR_LED.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_LED",
+      "variablename": "Luontoisedut",
+      "conceptdef": "Harmonisoitujen veronalaisten luontoisetujen arvo euroina kuukaudessa. Esimerkiksi auto- tai puhelinetu. Luontoisedut on määritelty niiden verotusarvon mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_OSL",
+      "variablename": "Olosuhdelisät",
+      "conceptdef": "Harmonisoidut työntekijän erillisinä maksetut olosuhdelisät kuukautta kohden. Huom! Poikkeuksellisesti vastaava harmonisoimaton muuttuja ei sisälly yli ajan harmonisoimattomiin vuositason poikkileikkaustyyppisiin palkkarakenneaineistoihin. Harmonisoituun palkkarakenneaineistoon muodostettu suoraan alakohtaisista palkkatilastoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_PROV",
+      "variablename": "Provisiot",
+      "conceptdef": "Harmonisoidut säännöllisesti (tai lähes säännöllisesti) jokaiseen palkanmaksujaksoon sisältyvät provisiot ja muut vastaavat yksilön työsuoritukseen perustuvat ansioerät euroina kuukaudessa (vrt HAR_TULOSPA vuodessa!). Varsinaisten (myynti)provisioden lisäksi  kattaa myös mm. teollisuuden tuntipalkkaisten työsuhteiden kappalemäärä-/laatuperusteiset urakka- ja suorituspalkat - näiden tilastoinnin puutteista (erityisesti 1990-luvulla) huolimatta. Teollisuuden tuntipalkkaisten työsuhteiden palkkiopalkkojen osalta on päädytty \"second best\" -ratkaisuun eli HAR_PROV-muuttujaan on sisällytetty muuttuvan suorituspalkkaosan lisäksi myös kiinteä perusosa. Ratkaisuun päädyttiin, kun osoittautui, että muuttuvaa ja kiinteää osaa ei pystytä ykselitteisesti erottamaan toisistaan tarpeeksi luotettavasti. Em. puutteet ja tuntipalkkaisten työsuhteiden osalta myös provisioiden määritelmällinen laajuus on tutkimustuloksia tulkittaessa syytä pitää mielessä. \n\nLisäksi on syytä kiinnittää huomiota siihen, miten tulospalkkiot (vuositason HAR_TULOSPA ja vastaava kuukautta kohden laskettu HAR_KKTULOSPA) eroavat provisioista (HAR_PROV). Harmonisoinnissa on lähdetty ajatuksesta, että tulospalkkioihin luetaan epäsäännöllisesti maksettavat ansioerät, joiden perusteena on koko yrityksen tai jonkin sen työntekijäryhmän kollektiivisesti yrityksen taloudellista kannattavuutta edistäneen työsuorituksen palkitseminen. Provisioihin on sen sijaan pyritty rajaamaan työntekijän yksilölliseen (määrällisen  ja/tai laadulliseen) suoritukseen perustuva palkitseminen (mm. kappale- tai myyntimäärä, laadun tasaisuus). Ennen kaikkea provisioille on tyypillistä se, että vaikka niiden määrä voi vaihdella maksujaksottain, niitä kuitenkin maksetaan (lähes) säännöllisesti jokaisen palkanmaksujakson aikana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_VTL",
+      "variablename": "Työaikalisät",
+      "conceptdef": "Harmonisoitujen vuoro-  ym. työaikalisien euromäärä kuukaudessa. Esimerkiksi vuoro-, yö-, ilta-, viikonloppu- ja arkipyhätyöltä maksetut palkanosat. Sisältää vain säännöllisen työajan peruspalkan päälle epätyypillisten työtuntien osalta maksetun lisäosan tai ylimääräisen maksun, ei siis tällaisesta vuorotyöstä maksettua kokonaiskorvausta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_VKORV",
+      "variablename": "Varallaolokorvaukset",
+      "conceptdef": "Harmonisoidut varallaoloajan palkat tilastokuukaudelta. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_YLIP",
+      "variablename": "Ylityöansiot",
+      "conceptdef": "Harmonisoidut yli- ja lisätyöajalta maksetut palkat euromääräisinä tilastokuukaudelta. Sisältää sekä perustuntipalkka- että ylityökorotusosan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TUNTIPALKKA",
+      "variablename": "Tuntiansiot",
+      "conceptdef": "Harmonisoitu kokonaistyöajan tuntiansio. Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina tunnissa. Muodostettu kuukausiansiosta (HAR_KKPALKKA) jakamalla kuukausiansio kokonaistyöajan tuntien määrällä (HAR_TYOAIKAKK).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKPALKKA",
+      "variablename": "Kokonaiskuukausiansiot",
+      "conceptdef": "Harmonisoitu kokonaistyöajan kuukausiansio. Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina kuukaudessa.\nKattaa kaikki säännölliset palkanmaksujaksoittain maksettavat palkanerät, mukaan lukien säännölliset lähinnä työntekijän henkilökohtaiseen suoritukseen perustuvat bonus-, urakka- ym. suoritusluontoiset erät, jotka maksetaan säännöllisesti maksujaksoittain vaikkakin vaihtelevat suuruudeltaan. Sisältää myös mahdolliset varallaolokorvaukset ja luontoisetujen verotusarvot. Ei kata lomarahaa eikä yrityksen tai sen osan työntekijöiden yhteiseen kollektiiviseen suoritukseen/tulokseen perustuvia ja epäsäännöllisemmn kuin joka palkanmaksujakso maksettavia tulos- ja voittopalkkioeriä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_KKTULOSPA",
+      "variablename": "Tulospalkkiot (työsuhdekuukautta kohden)",
+      "conceptdef": "Harmonisoidut kertaluontoisesti ja epäsäännöllisesti maksettavat tulospalkkiot euroina kuukaudessa. Muuttuja on muodostettu jakamalla henkilön vuositason tulospalkkiot ilmoittava muuttuja (HAR_TULOSPA) vastaavan työsuhteen voimassaolokuukausien määrällä tilastovuoden aikana (max. 12 kk).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HAR_TULOSPA",
+      "variablename": "Tulospalkkiot",
+      "conceptdef": "Harmonisoidut kertaluontoisesti ja epäsäännöllisesti maksettavat tulospalkkiot euroina vuodessa (vrt HAR_PROV kuukaudessa!). Varsinaisten tulospalkkioiden lisäksi mukaan on laskettu myös käteiset voittopalkkiot näiden tilastoinnin puutteista huolimatta (1995-97 ei tietoa tilastoitu ollenkaan ja 1998-2002 kerättiin vain EK:n teknologiateollisuudessa), mikä on yli ajan tarkastelussa syytä ottaa huomioon. Ylipäänsäkin (erityisesti vv 1995-2002) tulospalkkioiden tilastoinnin kattavuus on puutteellinen ja vaihtelee yrityskohtaisesti.\n\nToinen huomioon otettava seikka on tulospalkkioiden erottaminen provisioista (HAR_PROV). Harmonisoinnissa on lähdetty ajatuksesta, että tulospalkkioihin luetaan epäsäännöllisesti maksettavat ansioerät, joiden perusteena on pääosin koko yrityksen tai jonkin sen työntekijäryhmän kollektiivisesti yrityksen taloudellista kannattavuutta edistäneen työsuorituksen palkitseminen. Provisioihin on pyritty sen sijaan rajaamaan työntekijän yksilölliseen (määrällisen  ja/tai laadulliseen) suoritukseen perustuva palkitseminen (mm. kappale- tai myyntimäärä, laadun tasaisuus yms.). Yksilö- vs. kollektiivista palkitsemisperustetta vielä yksiselitteisempi ero on kuitenkin se, että provisiotyyppisiä eriä maksetaan huomattavasti säännöllisemmältä pohjalta - joka tai lähes joka palkanmaksujaksona. Tulospalkkioita taas maksetaan tiheimmilläänkin vain neljännesvuosittaiin ja pääsääntöisemmin vuositasolla.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

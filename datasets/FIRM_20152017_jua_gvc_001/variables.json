@@ -1,0 +1,3236 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_5",
+      "variablename": "Mikä seuraavista vaihtoehdoista kuvaa parhaiten yrityksenne ydinliiketoimintaa vuoden 2017 lopussa?",
+      "conceptdef": "1=teollisuus, 2=rakentaminen, 3=kauppa, 4=palvelut, 5=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_6",
+      "variablename": "Mikä näistä määritelmistä kuvaa parhaiten yrityksenne teollista toimintaa?",
+      "conceptdef": "1=Yrityksenne tuottaa (osittain tai kokonaan) tuotteita, omistaa ja myy niitä, 2=Yrityksenne tuottaa tavaroita sopimuksen mukaan muille, mutta ei kehitä tavaroita, ei omista tavaroiden immateriaalioikeuksia eikä myy niitä, 3=Yrityksenne ei tuota tavaroita, mutta ulkoistaa tuotannon kokonaan ja on kehittänyt tavaroita tai omistaa tuotettujen tavaroiden immateriaalioikeudet ja myy niitä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_7",
+      "variablename": "Mikä näistä määritelmistä kuvaa parhaiten yrityksenne ydinliiketoimintaa?",
+      "conceptdef": "1=Yrityksenne ostaa ja myy tavaroita edelleen kehittämättä niitä tai omistamatta tavaroiden immateriaalioikeuksia, 2=Yrityksenne myy omia tavaroita ja omistaa tuotettujen tavaroiden immateriaalioikeudet. Tavaroiden tuotanto on ulkoistettu.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_8",
+      "variablename": "Mikä seuraavista määritelmistä kuvaa parhaiten yrityksenne ydinliiketoimintaa?",
+      "conceptdef": "1=Yrityksenne kehittää, suunnittelee ja toteuttaa palveluita asiakkaille, 2=Yrityksenne kehittää, suunnittelee ja toteuttaa palveluita asiakkaille, sekä tuottaa, omistaa ja myy tavaroita, 3=Yrityksenne kehittää, suunnittelee ja toteuttaa palveluita asiakkaille, ja hallitsee muiden suorittamaa tavaroiden tuotantoprosessia, ja omistaa tuotettujen tavaroiden immateriaalioikeudet ja myy niitä, 4=Yrityksenne tuottaa muita palveluita, esim. kuljetus- tai kiinteistöhuollon palveluita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_12_row_1",
+      "variablename": "Henkilöstö ydintoiminnoissa vuoden 2017 lopussa:- Tavaroiden tuottaminen markkinoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_12_row_2",
+      "variablename": "Henkilöstö ydintoiminnoissa vuoden 2017 lopussa:- Palveluiden tuottaminen markkinoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_1",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Jakelu ja logistiikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_2",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_3",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Tieto- ja viestintätekniikkapalvelut (ICT)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_4",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Hallinnon ja johdon toiminnot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_5",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Insinööri- ja tekniset palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_6",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Tutkimus ja kehitystoiminta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_13_row_7",
+      "variablename": "Henkilöstö tukitoiminnoissa vuoden 2017 lopussa:- Muut tukitoiminnot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_15",
+      "variablename": "Onko yrityksenne siirtänyt tai ulkoistanut toimintoja toiseen yritykseen Suomessa vuoden 2015 alusta vuoden 2017 loppuun mennessä?",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_1_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:Ydinliiketoiminta:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_1_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:Ydinliiketoiminta:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_1_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:Ydinliiketoiminta:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_10_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tutkimus ja kehitystoiminta:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_10_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tutkimus ja kehitystoiminta:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_10_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tutkimus ja kehitystoiminta:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_11_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Muut tukitoiminnot:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_11_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Muut tukitoiminnot:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_11_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Muut tukitoiminnot:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_2_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tavaroiden tuottaminen markkinoille:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_2_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tavaroiden tuottaminen markkinoille:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_2_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tavaroiden tuottaminen markkinoille:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_3_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Palveluiden tuottaminen markkinoille:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_3_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Palveluiden tuottaminen markkinoille:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_3_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Palveluiden tuottaminen markkinoille:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_4_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:Tukitoiminnot:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_4_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:Tukitoiminnot:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_4_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:Tukitoiminnot:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_5_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Jakelu ja logistiikka:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_5_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Jakelu ja logistiikka:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_5_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Jakelu ja logistiikka:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_6_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_6_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_6_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_7_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tieto- ja viestintätekniikkapalvelut (ICT):Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_7_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_7_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Tieto- ja viestintätekniikkapalvelut (ICT):Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_8_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Hallinnon ja johdon toiminnot:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_8_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Hallinnon ja johdon toiminnot:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_8_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Hallinnon ja johdon toiminnot:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_9_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Insinööri- ja tekniset palvelut:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_9_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Insinööri- ja tekniset palvelut:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_16_row_9_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut Suomessa?:- Insinööri- ja tekniset palvelut:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_18",
+      "variablename": "Onko yrityksenne siirtänyt tai ulkoistanut toimintoja ulkomaille vuosina 2015 - 2017 ?",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_1_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:Ydinliiketoiminta:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_1_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:Ydinliiketoiminta:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_1_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:Ydinliiketoiminta:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_10_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tutkimus- ja kehittämistoiminta:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_10_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tutkimus- ja kehittämistoiminta:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_10_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tutkimus- ja kehittämistoiminta:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_11_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Muut tukitoiminnot:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_11_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Muut tukitoiminnot:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_11_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Muut tukitoiminnot:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_2_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tavaroiden tuottaminen markkinoille:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_2_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tavaroiden tuottaminen markkinoille:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_2_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tavaroiden tuottaminen markkinoille:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_3_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Palveluiden tuottaminen markkinoille:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_3_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Palveluiden tuottaminen markkinoille:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_3_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Palveluiden tuottaminen markkinoille:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_4_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:Tukitoiminnot:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_4_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:Tukitoiminnot:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_4_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:Tukitoiminnot:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_5_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Jakelu ja logistiikka:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_5_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Jakelu ja logistiikka:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_5_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Jakelu ja logistiikka:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_6_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_6_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_6_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_7_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tieto- ja viestintätekniikkapalvelut (ICT):Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_7_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_7_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Tieto- ja viestintätekniikkapalvelut (ICT):Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_8_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Hallinnon ja johdon toiminnot:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_8_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Hallinnon ja johdon toiminnot:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_8_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Hallinnon ja johdon toiminnot:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_9_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Insinööri- ja muut tekniset palvelut:Saman konsernin yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_9_column_2",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Insinööri- ja muut tekniset palvelut:Muille yrityksille",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_19_row_9_column_3",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt tai ulkoistanut ulkomaille vuosina 2015 - 2017 ?:- Insinööri- ja muut tekniset palvelut:Ei siirretty / ulkoistettu",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_1_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Ydinliiketoiminta:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_10_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tutkimus- ja kehittämistoiminta:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_11_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Muut tukitoiminnot:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_2_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_3_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_4_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:Tukitoiminnot:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_5_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Jakelu ja logistiikka:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_6_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_7_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_8_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Hallinnon ja johdon toiminnot:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_1",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:EU-15",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_10",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Muut Aasian maat ja Oseania",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_11",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Muu maailma",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_2",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:EU-13",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_3",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Muut Euroopan maat",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_4",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Venäjä",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_5",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:USA ja Kanada",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_6",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Brasilia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_7",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Muu Keski- ja Etelä-Amerikka",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_8",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Kiina",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_20_row_9_column_9",
+      "variablename": "Mihin maihin yrityksenne on siirtänyt tai ulkoistanut toimintoja vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Intia",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_23_row_1",
+      "variablename": "Työpaikkojen väheneminen ydinliiketoiminnasta ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Tavaroiden tuottaminen markkinoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_23_row_2",
+      "variablename": "Työpaikkojen väheneminen ydinliiketoiminnasta ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Palveluiden tuottaminen markkinoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_1",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Jakelu ja logistiikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_2",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_3",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Tieto- ja viestintätekniikkapalvelut (ICT)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_4",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Hallinnon ja johdon toiminnot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_5",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Insinööri- ja muut tekniset palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_6",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Tutkimus- ja kehittämistoiminta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_24_row_7",
+      "variablename": "Työpaikkojen väheneminen tukitoiminnoista ulkomaille siirtämisen tai ulkoistamisen vuoksi::- Muut tukitoiminnot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_25_row_1",
+      "variablename": "Kuinka suuri osa vähentyneistä työpaikoista oli korkean osaamisen työtehtäviä?:Vähentyneet korkean osaamisen työpaikat yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_27_row_1",
+      "variablename": "Yhteensä (Kuinka monta työpaikkaa on syntynyt yrityksessänne toimintojen ulkomaille ulkoistamisen ja siirtämisen seurauksena 2015 - 2017?):",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_28_row_1_column_1",
+      "variablename": "Ei soveltuva. (Kuinka monta työpaikkaa on syntynyt yrityksessänne toimintojen ulkomaille ulkoistamisen ja siirtämisen seurauksena 2015 - 2017?):Number of jobs created:-",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_1",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Työvoimakustannusten alentaminen",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_10",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Konsernijohdon tekemät strategiset päätökset",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_2",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Muiden kuin työvoimakustannusten alentaminen",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_3",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Pääsy uusille markkinoille",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_4",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Puute osaavasta työvoimasta",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_5",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Erityisosaamisen / teknologian saaminen käyttöön",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_6",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Tuotteiden parempi laatu tai uusien tuotteiden vieminen markkinoille",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_7",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Keskittyminen ydinliiketoimintaan",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_8",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Toimitusaikojen lyheneminen",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_30_row_9",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päättäessänne toimintojen ulkoistamisesta tai siirtämisestä ulkomaille?:Vähemmän yritykseen vaikuttavaa säätelyä, esim. vähemmän ympäristösääntelyä tai suotuisampi verojärjestelmä",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_1",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Lainsäädäntöön tai hallintoon liittyvät esteet",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_10",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Työntekijöihin liittyvät asiat (ml. ammattiliitot)",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_11",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Ulkomaille ulkoistamiseen / siirtämiseen liittyvät ongelmat suuremmat kuin odotetut hyödyt",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_2",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Verotukseen liittyvät kysymykset",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_3",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Tariffit tai kaupan esteet",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_4",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Rahoituksen saatavuus tai muut rahoitukseen liittyvät esteet",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_5",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Kieleen ja kulttuuriin liittyvät esteet",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_6",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Tarve olla lähellä olemassa olevia asiakkaita",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_7",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Vaikeudet löytää mahdollisia tai sopivia kumppaneita ulkomailta",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_8",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Epävarmuus ulkomailla tuotettujen tavaroiden / palvelujen laadusta",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_32_row_9",
+      "variablename": "Kuinka merkittäviä seuraavat haasteet olivat ulkoistaessanne tai siirtäessänne toimintoja ulkomaille tai harkitessanne sitä?:Puute osaavasta työvoimasta ulkomailla",
+      "conceptdef": "1=Hyvin merkittävä, 2=Merkittävä, 3=Ei merkittävä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_34",
+      "variablename": "Onko yrityksenne siirtänyt toimintoja ulkomailta Suomeen vuosina 2015 - 2017?",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_1_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:Ydinliiketoiminta:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_10_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Tutkimus ja kehitystoiminta:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_11_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Muut tukitoiminnot:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_2_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Tavaroiden tuottaminen markkinoille:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_3_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Palveluiden tuottaminen markkinoille:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_4_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:Tukitoiminnot:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_5_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Jakelu ja logistiikka:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_6_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_7_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Tieto- ja viestintätekniikkapalvelut (ICT):Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_8_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Hallinnon ja johdon tehtävät:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_35_row_9_column_1",
+      "variablename": "Mitä toimintoja yrityksenne on siirtänyt ulkomailta Suomeen vuosina 2015 - 2017?:- Insinööri- ja muut tekniset palvelut:Siirretty ulkomailta Suomeen",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_1_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Ydinliiketoiminnot:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_10_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tutkimus- ja kehittämistoiminta:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_11_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Muut tukitoiminnot:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_2_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tavaroiden tuottaminen markkinoille:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_3_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Palveluiden tuottaminen markkinoille:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_4_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:Tukitoiminnot:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_5_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Jakelu ja logistiikka:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_6_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_7_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Tieto- ja viestintätekniikkapalvelut (ICT):Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_8_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Hallinnon ja johdon tehtävät:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_1",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:EU-15",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_10",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Muut Aasian maat ja Oseania",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_11",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Muu maailma",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_2",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:EU-13",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_3",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Muut Euroopan maat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_4",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Venäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_5",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:USA ja Kanada",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_6",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Brasilia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_7",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Muu Keski- ja Etelä-Armeikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_8",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Kiina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_36_row_9_column_9",
+      "variablename": "Mistä maista yrityksenne on siirtänyt toimintoja Suomeen?:- Insinööri- ja muut tekniset palvelut:Intia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_38_row_1",
+      "variablename": "Mikä oli ulkomailta siirtämisen / siirtämisten suuruusluokka?:Ulkomaan toiminta lopetettiin täysin.",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_38_row_2",
+      "variablename": "Mikä oli ulkomailta siirtämisen / siirtämisten suuruusluokka?:Toiminto siirrettiin Suomeen, ulkomaan toiminta lopetettiin osin",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_38_row_3",
+      "variablename": "Mikä oli ulkomailta siirtämisen / siirtämisten suuruusluokka?:Toiminto siirrettiin Suomeen, ulkomaan toiminta jatkuu saman suuruisena",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_38_row_4",
+      "variablename": "Mikä oli ulkomailta siirtämisen / siirtämisten suuruusluokka?:Toiminto siirrettiin Suomeen, ulkomaan toimintaa kasvatetaan",
+      "conceptdef": "0=Ei, 1=Kyllä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_1",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):Core business functions",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_10",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Muut tukitoiminnot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_2",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Tavaroiden tai palvelujen tuottaminen markkinoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_3",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):Support business functions",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_4",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Distribution and logistics",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_5",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Jakelu ja logistiikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_6",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_7",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Hallinnon ja johdon tehtävät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_8",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Insinööri- ja muut tekniset palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_39_row_9",
+      "variablename": "Syntyneiden työpaikkojen lukumäärä (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Tutkimus- ja kehittämistoiminta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_1",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):Core business functions",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_10",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Muut tukitoiminnot",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_2",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Tavaroiden tai palvelujen tuottaminen markkinoille",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_3",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):Support business functions",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_4",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Distribution and logistics",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_5",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Jakelu ja logistiikka",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_6",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Myynti, markkinointi ja myynnin jälkeiset palvelut ml. help desk ja call center -palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_7",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Hallinnon ja johdon tehtävät",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_8",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Insinööri- ja muut tekniset palvelut",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_40_row_9",
+      "variablename": "Joista korkean osaamisen työpaikkoja (Paljonko yritykseenne on syntynyt työpaikkoja toimintojen siirtämisestä ulkomailta Suomeen?):- Tutkimus- ja kehittämistoiminta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_1",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Vaikeudet hallita toimintoja ulkomailla etäisyyden, kielen tai kulttuurierojen vuoksi",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_10",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Useammat muutokset tuotteeseen tekivät sen huonommin hallittavaksi",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_11",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Konsernin johdossa tehdyt strategiset päätökset",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_2",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Ulkomailla tuotettujen tavaroiden / palvelujen riittämätön laatu",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_3",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Työvoiman heikko tuottavuus ulkomailla",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_4",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Osaavan työvoiman heikko saatavuus ulkomailla",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_5",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Liian pitkät toimitusajat asiakkaille ulkomailta",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_6",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Tuottajien joustamattomuus ja epävarmuus tuotannossa ulkomailla",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_7",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Ulkoistukseen liittyvät kulut olivat odotettua suuremmat",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_8",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Kotimaisen tuotannon automatisointi korvaa ulkomaista tuotantoa",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question_41_row_9",
+      "variablename": "Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Tuotannon tulee tapahtua lähempänä T&K - toimintaa ja / tai tuotesuunnittelua",
+      "conceptdef": "1=Hyvin tärkeä, 2=Tärkeä, 3=Ei tärkeä, 4=Ei sovellu / en osaa sanoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

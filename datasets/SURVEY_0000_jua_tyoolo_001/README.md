@@ -1,0 +1,82 @@
+# SURVEY_Tyoolo - haastattelu- ja kyselytutkimus palkansaajien työoloista
+
+- **Identifier:** `SURVEY_0000_jua_tyoolo_001.xml`
+- **DOI:** `atp_2025-12_2025-12-02_ain_0001`
+- **Temporal coverage:** —
+- **Published:** 2025-12-02
+- **Organisation:** Tilastokeskus
+- **Variable count:** 1
+- **Observation count:** —
+
+## Kuvaus / Description
+
+SURVEY_Tyoolo on Tilastokeskuksen työolotutkimuksen pohjalta muodostettu tutkimusvalmisaineisto. Lähdeaineistoina toimivat työolotutkimukset ovat laajoja, Suomessa asuvan palkansaajaväestön kattavia tutkimuksia. Tutkimuksia on tehty vuodesta 1977 alkaen noin viiden vuoden välein. Tämän valmisaineisto rakentuu siten vuosiaineistoista, jotka kattavat vuodet 1977, 1984, 1990, 1997, 2003, 2008, 2013, 2018 ja 2023. Tietosisältö koostuu kunkin tutkimusvuoden lomakkeen kysymyksistä sekä niistä työvoimatutkimuksesta poimittavista tiedoista, jotka ovat relevantteja aineiston muun sisällön kannalta.
+
+Työvoimatutkimus on otantatutkimus, jonka perusjoukkona ovat vähintään 10 tuntia viikossa työskentelevät työlliset palkansaajat. Vuodesta 2023 alkaen otokseen kuuluvat 18–67-vuotiaat. Vuonna 2018 ikärajauksena oli 15–67-vuotiaat. Vuoteen 2013 asti otoksen ikärajauksena olivat 15–64-vuotiaat.
+
+Työolotutkimus tarjoaa arvokasta tietoa työelämätutkimukselle. Aineisto tarjoaa myös vertailukohteen paikalliselle ja alakohtaiselle työelämän tutkimukselle. Työolotutkimuksen tietojen avulla voidaan tutkia Suomessa kulloinkin vallitsevaa työelämän tilaa – niin hyvinvoinnin kuin pahoinvoinnin näkökulmasta – sekä seurata pitkän aikavälin muutosta työoloissa. Työolotutkimuksen avulla voidaankin tehdä suomalaista työelämän koskevia yleistyksiä, ja tuloksia hyödynnetään myös työpoliittisen päätöksenteon tukena, aina valtakunnalliselta tasolta yksittäisten työorganisaatioiden tasolle.
+
+
+<h3><b> TIETOSISÄLLÖSTÄ</b></h3>
+<i> Työolot</i> on ymmärretty tutkimuksessa laajaksi käsitteeksi, ja se pitää sisällään niin fyysiset, psyykkiset kuin sosiaaliset työympäristötekijät. Tutkimus kattaakin kysymyksiä useilta työelämän osa-alueilta, mikä heijastuu  aineiston muuttujasisällössä. 
+
+<i>Aineiston tietosisältö voidaan tiivistää seuraaviin aihekokonaisuuksiin:</i>
+
+<b> Aihealue a: </b> Työhistoria, työtyytyväisyys, vuokratyö, määräaikaisuus, työorganisaation tiedot, työsuhde ja palkkaus. 
+
+Esimerkiksi vuoden 2023 työoloutkimuksessa vastaajilta kysyttiin esimerkiksi heidän tyytyväisyyttään nykyisen työn sisältöön ja työn eri osa-alueisiin, työn ja muun elämän yhteensovittamiseen sekä ammattitaidon arvostamiseen.
+
+<b>Aihealue b: </b> Työajat, työn haitat, vaarat ja uhat. Työn digitalisaatio, tietotekniikan käyttö työssä ja digiosaaminen. Etätyö, vaikutus- ja kehittymismahdollisuudet työssä, työn henkinen kuormittavuus, sosiaaliset suhteet sekä  työn muutokset. Seksuaalinen häirintä työorganisaatiossa.
+
+Esimerkiksi vuonna 2023 vastaajilta kysyttiin muun muassa digitaalisten välineiden käytöstä työssä sekä vastaajan omaa arviota omasta digiosaamisestaan. Työn epävarmuustekijöihin ja uhkiin niveltyen vastaajilta puolestaan kysyttiin esimerkiksi lomautusten, irtisanomisen tai työttömäksi jäämisen uhkaa työssä. Samoin kysyttiin tekoälyn ja uuden teknologian aiheuttamaa epävarmuutta oman työpanoksen tarpeellisuuden kannalta sekä työssä pärjäämisen näkökulmasta.
+
+<b>Aihealue c: </b> Tiimi- ja projektityö, ammattiliittoon kuuluminen, työsuojelu, ulkomaalaiset työntekijät. Tasa-arvo työssä sekä työorganisaatiossa esiintyvä syrjintä ja kiusaaminen. Esihenkilötyö, ekologinen kestävyys työssä.
+
+Osa-alue pitää sisällään muun muassa työyhteisöön, esihenkilötyöhön sekä työelämän tasa-arvoon linkittyviä kysymyksiä; esimerkiksi vuoden 2023 työolotutkimuksessa kysyttiin vastaajan mielipidettä esihenkilöä koskeviin väittämiin, työpaikkakiusaamisen esiintymisestä työpaikalla sekä työorganisaatiossa ilmenevästä syrjinnästä (esim. henkilön taustaan, ihonväriin, uskontoon, ikään, sukupuoleen, seksuaali- tai sukupuolivähemmistöön kuulumiseen, raskauteen, terveydentilaan tai vammaisuuteen perustuen). Samassa tutkimuksessa tiedusteltiin myös vastaajan kuulumisesta ammattiliittoon tai työttömyyskassaan.
+
+<b>Aihealue d: </b> Työ ja perhe. Perhettä koskevia tietoja sekä tietoja työn, perheen ja vapaa-ajan yhteensovittamisesta; fyysinen ja henkinen työstä palautuminen. 
+
+Aihealueeseen niveltyviä kysymyksiä olivat vuoden 2023 työolotutkimuksessa esimerkiksi vastaajan perhetilannetta, taloudessa asuvien lasten lukumäärää ja heidän ikäänsä koskevat kysymykset. Vastaajilta kysyttiin myös kotitöiden jakautumisesta perheessä. Samoin kysyttiin lastenhoidosta ja työn ja perheen yhteensovittamisesta.
+
+<b>Aihealue e:</b> Terveys ja poissaolot, koettu työkyky ja koettu stressi. Kuntoutus sekä erilaisten fyysisten ja psyykkisten oireiden ilmeneminen.
+
+Esimerkiksi vuoden 2023 tutkimuksessa tiedusteltiin vastaajan arviota omasta työkyvystään, työhyvinvoinnistaan sekä nykyisestä terveydentilasta. Lisäksi kysyttiin mahdollisista kiputiloista sekä riittävästä unensaannista.
+
+<b>Aihealue f: </b> Yleisiä piirteitä omasta työstä ja sen muutoksista, työssä jatkamisesta, eläkkeelle siirtymisestä. 
+
+Esimerkiksi vuonna 2023 vastaajalta kysyttiin käsityksiä muun muassa työtehtävien ruumiillisesta ja henkisestä kuormittavuudesta sekä työn koetusta merkityksellisyydestä. Lisäksi kysyttiin vastaajan näkemyksiä työpaikan tai -alan vaihtamista koskien. Niin ikään kysyttiin vastaajan ajatuksia eläkkeelle siirtymisestä ennen alinta vanhuuseläkeikää, ja toisaalta eläkkeelle jäämisen lykkäämisestä ja työnteon jatkamisesta kokoaikaisen vanhuuseläkkeen rinnalla. Mielipiteitä kysyttiin myös siitä, tukeeko työpaikka ikääntyvien työntekijöiden työssä jatkamista nykyistä pidempään, vai yritetäänkö ikääntyvistä työntekijöistä pikemminkin päästä eroon.
+
+Edellisten ohella tutkimukseen poimitaan joitakin taustatietoihin niveltyviä muuttujia (kuten vastaajan ikä, koulutus, ammatti, alue ja työaika) työvoimatutkimuksesta.
+
+<i> Huom.</i> Aihealueiden tarkempi sisältö voi vaihdella eri vuosiaineistojen välillä, sillä tutkimuskerroilla lisätään uusia aiheita, jotta tutkimus säilyttää kykynsä kuvata työelämän ajankohtaisia ilmiöitä ja kehityssuuntia. Myös tietosuoja asettaa omat rajoitteensa tietosisällölle – aineisto ei esimerkiksi sisällä muuttujia siitä, mihin keskusjärjestöön vastaaja kuuluu, eikä siitä, mitä sukupuolta vastaajan puoliso on.
+
+__________________
+__________________|
+__________|
+___|
+
+Työolotutkimus on otantatutkimus, jonka otos poimitaan työvoimatutkimuksen tietyistä ryhmistä (rotaatioryhmistä). Tutkimuksen otokseen kuuluvat työvoimatutkimuksen verkkokyselyyn tai puhelinhaastatteluun vastanneet palkansaajat, jotka kyselyn aikana ovat työskennelleet vähintään 10 tuntia viikossa. Otoskoot ovat vaihdelleet eri tutkimuskerroilla 3 800 henkilöstä yli 7 000 henkilöön.
+
+
+<h3><b>AINEISTON VERTAILUKELPOISUUDESTA</b></h3>
+Ajalliseen vertailukelpoisuuteen vaikuttavat niin tiedonkeruutapa kuin tutkimuksen tietosisältö. Suuri osa työolotutkimuksen kysymyksistä on toistettu samanlaisina tutkimuskerrasta toiseen niin, että vuosien 1977–2018 tutkimuksista muodostuu pääosin vertailukelpoinen aikasarja. Vuosina 1977–2018 tutkimuksen tiedot kerättiin käyntihaastatteluina – tiedonkeruutapa vaihtui kuitenkin vuodesta 2021 alkaen verkkotiedonkeruuksi, mikä aiheutti aikasarjojen katkeamisen. Uusi, vertailukelpoinen aikasarja alkaa vuodesta 2023. Lisäksi jokaisella tutkimuskierroksella on myös lisätty uusia aiheita, joiden osalta aikasarja alkaa aina kyseisestä vuodesta.
+
+Sekä tutkimuksen kansainvälisen vertailukelpoisuuden että toisaalta eri aineistojen välisen yhtenäisyyden kannalta on työolotutkimuksen sisällöllä niin ikään merkitystä: työolotutkimuksen tietosisältö ei perustu kansallisiin tai kansainvälisiin asetuksiin, jolloin tutkimuksen tulokset eivät ole suoraan kansainvälisesti vertailukelpoisia. Toisaalta, vaikka tutkimuksen tietosisältö ja kiinnostuksen kohteet ovat osittain päällekkäisiä työolotutkimuksen kanssa, pyrkii työolotutkimus selvittämään palkansaajien työhistoriaan sekä fyysisiin, psyykkisiin ja sosiaalisiin työoloihin liittyviä asioita huomattavasti laaja-alaisemmin ja syvällisemmin, kuin mitä työvoimatutkimuksen puitteissa on mahdollista tehdä. 
+
+Tutkimustuloksia koskien on syytä myös huomioida, että tulosten oikeellisuuteen voi vaikuttaa lähdeaineiston vastauskato (esimerkiksi vuoden 2023 työolotutkimuksen vastausosuus oli 71 %). Vuodesta 2018 alkaen aineistoille on laskettu painokertoimet, jotka korjaavat vastausten vinoumaa sukupuolen, ikäryhmän, maakunnan, koulutusasteen ja sosioekonomisen aseman mukaan. Joidenkin muuttujien osalta painokertoimet on laskettu takautuvasti myös vuosien 2008 ja 2013 aineistoille.
+
+
+<h3><b> Lisätietoja:</b></h3>
+Tämä aineistokuvaus sisältää ainoastaan valmisaineiston yleisen kuvauksen.
+
+Lähdeaineiston käsitteistöstä, tulosten luotettavuudesta ja oikea-aikaisuudesta, vertailukelpoisuudesta, tiedonkeruusta sekä menetelmistä löytyy tarkempi kuvaus työolotutkimuksen <a href="https://stat.fi/tilasto/dokumentaatio/tyoolot"> tilaston kotisivujen dokumentaatiossa</a>.
+
+Lisätietoja valmisaineistosta, sekä tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat puolestaan ottamalla yhteyttä meihin osoitteeseen tutkijapalvelut@stat.fi.
+
+## Muuttujat / Variables
+
+_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+
+---
+
+[← Takaisin luetteloon / Back to catalogue](../../README.md)

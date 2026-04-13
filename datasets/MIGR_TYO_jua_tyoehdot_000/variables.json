@@ -1,0 +1,244 @@
+{
+  "variables": [
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEASURE_ID_S",
+      "variablename": "Tyoehdot toimenpiteen suojattu ID",
+      "conceptdef": "Työehdot toimenpiteen (lomake) ID",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CASE_ID_s",
+      "variablename": "Suojattu asianumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WORK_CONDITIONS_ID_s",
+      "variablename": "Suojattu tyoehtoihin liittyvän tyonantajan yksiloiva id",
+      "conceptdef": "Jos useampi työnantaja, niin DIM_WORK_CONDITIONS_ID on eri, mutta toimenpide id (lomake id) sama",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMPLOYER_ID_s",
+      "variablename": "Suojattu tyonantaja koodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PRINCIPAL_EMPLOYER_ID",
+      "variablename": "Toimeksiantaja koodi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "company_yrtun_s",
+      "variablename": "Tyonantajan suojattu Y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "principal_company_yrtun_s",
+      "variablename": "Toimeksiantajan suojattu Y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOVUOSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOKUUKAUSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IS_RELEVANT_TO_CASE_PROCESSING",
+      "variablename": "Oleellinen asian käsittelyssä",
+      "conceptdef": "Asian käsittelyn kannalta olennainen työehto (0/1).  Tietoja syötetty 9/2023 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MUNICIPALITY",
+      "variablename": "Paikkakunta",
+      "conceptdef": "Työehdoissa ilmoitettu paikkakunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SALARY_TRIM",
+      "variablename": "Palkka trim",
+      "conceptdef": "Palkka. Tämä muuttuja on muodostettu vapaakentän arvosta muokkaamalla niin, että syötetyt arvot ovat lukuja. Regexp ohessa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SALARY_MONTHLY_TRIM",
+      "variablename": "Kuukausipalkka",
+      "conceptdef": "Muutettu palkan tyyppi ja määrä kuukausipalkaksi, jos työ olisi kokopäiväistä. Tässä voi olla virheitä, jos palkan laji on ilmoitettu väärin esim. syötetty tuntipalkka, mutta valittu tyypiksi joku muu kuin tuntipalkka.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OCCUPATION_FIELD_ID",
+      "variablename": "Tyoehtoihin rekisteroity ammattiala koodi",
+      "conceptdef": "Työehtoihin lisätty ammattiala. Tätä tietoa ei syötetä kovin kattavasti, eli ei löydy kaikille. Selitykset koodeille löytyy metatiedoista taulusta OCCUPATION_FIELD_ID_TO_NAME. Huom. tämä ammattialakoodi on Migrin aineistosta löytyvä luokitus, eli ei linkity muihin ammattialakoodiluokituksiin. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IS_WORKING_HOURS_REGULAR",
+      "variablename": "Tyoajan saannollisyys",
+      "conceptdef": "Saa arvon 1 jos säännöllinen työaika, arvon 0 jos epäsäännöllinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WORKING_HOURS_M",
+      "variablename": "Tyoaika minuuttia",
+      "conceptdef": "Työaika ilmoitetaan muodossa HH:MM",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WORKING_HOURS_CODE",
+      "variablename": "Tyoajan tyyppi koodi",
+      "conceptdef": "Työajan kausi, saa seuraavia arvoja:\n\n17946\tPäivä\n17947\tViikko\n17955\t2 viikkoa\n17956\tKolme viikkoa\n17957\t6 viikkoa\n18058\tKuukausi\n200080\tPoistettu\n455495\tMuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IS_WORK_PERMANENT",
+      "variablename": "Tyosuhteen maaraaikaisuus",
+      "conceptdef": "Jos työsuhde on määräaikanen saa arvon 0, jos toistaiseksi voimassaoleva saa arvon 1",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEMPORARINESS_GROUNDS_CODE",
+      "variablename": "Tyaajan maaraytymisen peruste koodi",
+      "conceptdef": "10000939\tMuu määräaikaisuus\n10002104\tTuntematon\n17917\tKausityö\n17918\tSijaisuus\n17919\tProjektityö\n17954\tLähetetty",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "COLLECTIVE_AGREEMENT_CODE",
+      "variablename": "Työehtosopimus koodi",
+      "conceptdef": "Työehtosopimus jota käytetään, esimerkiksi Maa- ja vesirakennusalan tes, Kiinteistöpalv.alan toimihlö koskeva tes.\nKoodien selitykset löytyvät metatiedoista taulusta COLLECTIVE_AGR_CODE_TO_NAME.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IS_TRIAL_PERIOD",
+      "variablename": "Koeaika",
+      "conceptdef": "Saa arvon 1 jos koeaika käytössä, 0 jos ei koeaikaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TRIAL_PERIOD_DURATION",
+      "variablename": "Koeajan kesto",
+      "conceptdef": "Ilmoitettu kuukausissa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TERM_OF_NOTICE_CODE",
+      "variablename": "Irtisanomisaika koodi",
+      "conceptdef": "10000934\tTES:n mukainen\n10002106\tTuntematon\n17465\tToteamispäätös, ei ole Suomen kansalainen\n17817\t14 pv\n17818\t1 kk\n17819\t2 kk\n17820\t4 kk\n17821\t6 kk\n17822\tMuu\n200134\tMuu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ANNUAL_VACATION_CODE",
+      "variablename": "Vuosiloma koodi",
+      "conceptdef": "17920\tVuosilomalaki\n17921\tTyöehtosopimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arrival_month_work_conditions",
+      "variablename": "Työehtojen ajankohta kuukausitasolla",
+      "conceptdef": "Milloin työehdot saapuneet Migriin. Tästä voidaan päätellä, että kuuluvatkot työehdot esimerkiksi ensimmäiseen Migrin päätökseen (pvm ennen päätöstä) vai valitusvaiheen jälkeiseen. Jos saapumispäivä on tyhjä, käytetään työehtojen lisäysajankohtaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SALARY_EUR_PER_CODE",
+      "variablename": "Palkan tyyppi",
+      "conceptdef": "Esim. Kuukausipalkka, tuntipalkka",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WORK_BEGINNING_ON",
+      "variablename": "Työsuhteen alkuajankohdan kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WORK_ENDING_ON",
+      "variablename": "Työsuhteen loppuajankohdan kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

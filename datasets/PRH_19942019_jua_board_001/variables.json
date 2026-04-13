@@ -1,0 +1,84 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRITYKSEN_TILA",
+      "variablename": "Yrityksen tila",
+      "conceptdef": "R=rekisterissä, L=lakannut",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YR_REKIST_PVM",
+      "variablename": "Yrityksen rekisteröintipäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRITYSMUOTO",
+      "variablename": "Yritysmuoto",
+      "conceptdef": "Yritysmuoto saa arvot:\noy=osakeyhtiö\noyj=julkinen osakeyhtiö\nvoy=vakuutusosakeyhtiö\nvoj=julkinen vakuutusosakeyhtiö\nkvy=keskinäinen vakuutusyhtiö\nkvj=julkinen keskinäinen vakuutusosakeyhtiö\nsp=säästöpankki\nop=osuuspankki\nosk=osuuskunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROOLIKOODI",
+      "variablename": "Vastuuhenkilörooli",
+      "conceptdef": "Vastuuhenkilörooli saa arvot:\nj=hallituksen jäsen\nvj=hallituksen varajäsen\npj=hallituksen puheenjohtaja\ntj=toimitusjohtaja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROOLIN_ALKU_PVM",
+      "variablename": "Roolin alkamispäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ROOLIN_LOPPU_PVM",
+      "variablename": "Roolin loppumispäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAKKAAMIS_PVM",
+      "variablename": "Yrityksen lakkaamispäivämäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAKKAAMISTYYPPI",
+      "variablename": "Yrityksen lakkaamistapa",
+      "conceptdef": "Lakkaamistapa saa arvot:\nFU\tFuusio\t\nJA\tJakautuminen\t\nJY\tJatkaminen yksityisenä elinkeinonharjoittajana\t\nKO\tKonkurssi\t\nKOP\tPoisto\t\nLA\tLakannut\t\nLUP\tSPL 90-92 §:n mukainen liiketoiminnan luovutus, muutos säätiöksi\t\nPA\tPoisto (asunto-osakeyhtiölaki)\t\nPK\tPoisto (osuuskuntalaki)\t\nPO\tPoisto (kaupparekisterilaki)\t\nPOIS\tPoisto\t\nPOT\tTilinpäätöspoisto\t\nPP\tPoisto (osakeyhtiölaki)\t\nPT\tPoisto (tuomioistuinmääräys)\t\nSE\tSelvitystila\t\nSEP\tPoisto\t\nSI\tKotipaikan siirto\t\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

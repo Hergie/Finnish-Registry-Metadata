@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872023_jua_perh24_001.xml",
+      "doi": "work_2017-08_2017-08-03_ain_0003",
+      "subject": "FOLK  perhe ",
+      "contentdescription": "FOLK-henkilöaineiston perhemoduulissa on perheväestöön kuuluvien henkilöiden perhettä koskevia, pääasiassa perheen lasten lukumäärään liittyviä tietoja. Tarkempi kuvaus perheen määritelmästä on saatavilla osoitteesta http://www.stat.fi/meta/kas/perhe.html. Moduuli sisältää perheille luodut koodit perheenjäsenten yhdistämiseksi saman tilastovuoden aikana.\n\nLisäksi moduulissa on niiden perheväestöön kuulumattomien henkilöiden lapsilukutiedot (laplubio ja lapluka), jotka eivät kuulu perheväestöön, mutta joilla on lapsia. Perheväestön lukumäärätiedot ovat numeroarvoina.\n\nAineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvaukseen vuosiluvuilla. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. Mahdolliset muutokset on kuvattu muuttujakohtaisesti.\n\nFOLK Perhe -aineistot ovat kansiossa FOLK_PERH_C, jossa tiedostot ovat jaettuina vuositiedostoihin. Tiedostonimet ovat muodossa folk_perhe_\"vuosi\"_1.\n\nAikaisemmin julkaistut FOLK Perhe -aineistotiedostot, jotka sisältävät useita tilastovuosia ovat FIONAssa seuraavissa kansioissa:\nTotaaliaineisto vuosille 2011-2020 : FOLK_perh_11a\nTotaaliaineisto vuosille 2001-2010 : FOLK_perh_0110a\nTotaaliaineisto vuosille 1987-2000 : FOLK_perh_8800a\n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi\n",
+      "coveragetemporal": "1987-01-01 - 2024-12-31",
+      "published_day": "2025-12-22",
+      "variable_count": "15",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Perheväestöön kuuluvat henkilöt sekä ne perhväestöön kuulumattomat henkilöt, joilla on lapsia",
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppija_oid_s",
+      "variablename": "Suojattu oppijatunnus",
+      "conceptdef": "Suojattu OPH:n oppijatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluoikeus_oid_s",
+      "variablename": "Suojattu opiskeluoikeuden tunniste",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitos_oid_s",
+      "variablename": "Suojattu oppilaitoksen tunniste",
+      "conceptdef": "Suojattu oppilaitoksen tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitosnumero_s",
+      "variablename": "Suojattu oppilaitosnumero",
+      "conceptdef": "Suojattu oppilaitosnumero",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppilaitos_kotipaikka",
+      "variablename": "Oppilaitoksen kotikunta",
+      "conceptdef": "Oppilaitoksen kotikunnan kuntakoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimipiste_oid_s",
+      "variablename": "Suojattu toimipisteen tunniste",
+      "conceptdef": "Suojattu toimipisteen tunniste",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosiluokka",
+      "variablename": "Oppiaine-suorituksen vuosiluokka",
+      "conceptdef": "Kertoo kyseisen oppiaine-suorituksen vuosiluokan. HUOM. laskettu muuttuja. Jos päätason suoritus on tyyppiä perusopetuksenvuosiluokka, haetaan arvo suoraan kyseisestä suorituksesta. Jos taas päätason suoritus on tyyppiä perusopetuksenoppimaara, sijoitetaan näille oppiaineille muuttujaan arvo '9'. Jos kyseessä on perusopetuksen lisäopetuksen suoritus, sijoitetaan tähän kenttää arvo '10'.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiaine",
+      "variablename": "Oppiaineen tunniste",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oppiaine_koodisto",
+      "variablename": "oppiaineen koodisto",
+      "conceptdef": "Koodisto, josta oppiaineen tunniste löytyy. Jos kyseessä paikallinen suoritus (koulutusmoduuli_paikallinen='t'), niin koodisto on tyhjä\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arviointi_arvosana_koodiarvo",
+      "variablename": "oppiaine-suorituksen arvosana",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arviointi_arvosana_koodisto",
+      "variablename": "arvosanan koodisto",
+      "conceptdef": "Dokumentaatio - Koodistot - Koski - Opintopolku.fi (https://opintopolku.fi/koski/dokumentaatio/koodistot).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vahvistus_paiva",
+      "variablename": "Vahvistus päivä",
+      "conceptdef": "Päivä, jolloin vuosiluokka-/oppimäärä-suoritus, johon oppiaine kuuluu on vahvistettu. Oppiaine-suorituksilla ei yleensä omaa arviointi_paivaa, käytetään siksi vastaavan päätason suorituksen vahvistus_paiva-muuttujaa\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_pakollinen",
+      "variablename": "Koulutusmoduuli pakollinen",
+      "conceptdef": "Tieto siitä, onko oppiaine pakollinen suoritettavassa koulutuksessa.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_paikallinen",
+      "variablename": "Koulutusmoduuli paikallinen",
+      "conceptdef": "Tieto siitä, onko oppiaine paikallisen opintosuunnitelman mukainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_kieliaine_nimi",
+      "variablename": "Koulutusmoduuli kieliaine nimi",
+      "conceptdef": "Tieto opiskeltavasta kielestä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_laajuus_arvo",
+      "variablename": "Koulutusmoduuli laajuus arvo",
+      "conceptdef": "Oppiaineen laajuuden arvo",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "koulutusmoduuli_laajuus_yksikko",
+      "variablename": "Koulutusmoduuli laajuus yksikkö",
+      "conceptdef": "Oppiaineen laajuuden yksikkö",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "luokka",
+      "variablename": "Luokka",
+      "conceptdef": "Tieto oppijan luokasta. Purettu päätason suorituksen data-kentästä, muuttuja ei ole kattava.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_suorituksen_tyyppi",
+      "variablename": "Päätaso suorituksen tyyppi",
+      "conceptdef": "Päätason suorituksen tyyppi siinä päätason suorituksessa johon oppiaine-rivi sisältyy. Päättötodistuksen arvosanat saa eroteltua tämän kentän arvolla 'perusopetuksenoppimaara', perusopetuksen lisäopetuksen taas arvolla 'perusopetuksenlisaopetus'.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "suorituksen_tyyppi",
+      "variablename": "Suorituksen tyyppi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

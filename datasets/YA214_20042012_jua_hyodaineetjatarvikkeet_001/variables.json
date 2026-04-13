@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi 4 numerolla, lyhenne tv",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "koodi",
+      "variablename": "Aineet ja tarvikkeet -nimikekoodi",
+      "conceptdef": "Aineet ja tarvikkeet -nimikkeistö on laadittu Euroopan yhteisön CPA-tuoteluokituksen pohjalta soveltaen sitä kansallisten tarpeiden täyttämiseksi. Neljä ensimmäistä numeroa kuvaavat valmistavaa toimialaa (TOL 2008, Nace Rev. 2). Teollisuuden hyödyketilastossa  tilastovuodesta (tv) 2009 lähtien sovellettu CPA-luokitus on nimeltään CPA 2008. (CPA = Euroopan yhteisön tilastollinen toimialoittainen tuoteluokitus)\n\nAine- ja tarvikenimikkeistössä tapahtuu vähäisiä muutoksia vuodesta toiseen, mutta ei kuitenkaan joka vuosi. Tästä syystä useinkaan tarkalla nimikkeistöllä ei voida laatia vertailukelpoisia tilastoja vuosien välillä. Aggregoidummalla nimiketasolla esim. nimikkeen 4-numerotasolla (TOL 2008 -taso) tai 6-numerotasolla (CPA-taso) tilastoja voidaan tehdä vuosien välillä. \n \nNimikemuutokset vuodesta toiseen jaotellaan 4 eri päätyyppiin. Niistä muutostyyppien 2 ja 4 muutokset (2: nimikkeen jakautumiset sekä 4: nimikkeiden ryhmittely uudella tavalla) ovat hankalimpia käsitellä, kun haluttaisiin tehdä vertailukelpoisia tilastoja uusimmalla nimikkeistöllä vuodesta tv vuoteen tv-1. \n \nNimikemuutoksia voidaan myös ketjuttaa vuosien välillä, jolloin voidaan muodostaa esim. nimikemuutokset vuosien tv ja tv-2 välillä. \n",
+      "measunit": null,
+      "classification": "aineet_tarv_1_2011_01_01",
+      "variablegroups": "luokitustiedot"
+    },
+    {
+      "identifier": "kuvaus",
+      "variablename": "Aineiden ja tarvikkeiden nimiketeksti (suomeksi), joka vastaa koodia",
+      "conceptdef": "Nimiketeksti eli koodin mukainen suomenkielinen teksti, lyhennetty max 80 merkkiin. Tieto on alun perin enintään 160 merkkiä.\n \n",
+      "measunit": null,
+      "classification": "aineet_tarv_1_2011_01_01",
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "panostyy",
+      "variablename": "Panostyyppikoodi",
+      "conceptdef": "Panostyyppikoodi kertoo, onko hyödykkeen panoksen (aineiden ja tarvikkeiden) osalta kysytty tiedustelussa ostot vai ostojen lisäksi kokonaiskäyttö. \n \nS = Tiedustellaan vain ostot \nT = Tiedustellaan ostojen lisäksi kokonaiskäyttö  \n   \nNs. kokonaiskäytön määrä (aineissa ja tarvikkeissa) = tilastovuonna tuotantoon käytetty ostettujen raaka-aineiden määrä + samassa yrityksessä jatkojalostettavaksi valmistettujen raaka-aineiden määrä.\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "luokitustiedot"
+    },
+    {
+      "identifier": "yhdtyyp",
+      "variablename": "Yhdistelmätyyppi (oikeudellisen yksikön toimipaikan / toimipaikkojen) vastauksissa",
+      "conceptdef": "Yhdistelmätyyppi on koodi siitä, että kyseisen ei-sivuutettavan, hyödyketiedusteluun tilastovuonna sisältyvän teollisen varsinaisen toimipaikan (= yhdistelmätoimipaikan) vastauksiin sisältyy myös sivuutettavien teollisten varsinaisten toimipaikkojen vastauksia (samalta oikeudelliselta yksiköltä). Yhdistelmätoimipaikka on kyseessä, jos toimipaikalla on yhdistelmätyyppi = Y tai K.\n \nMahdolliset koodit:\n\nY = monitoimipaikkkaisen teollisen yrityksen ainoa teollinen tiedustelutoimipaikka = ainoa yhdistelmätoimipaikka, johon sisältyvät saman oikeudellisen yksikön kaikki muutkin teolliset varsinaiset toimipaikat (Y-koodillisia toimipaikkoja oikeudellisella yksiköllä on vain yksi. Monitoimipaikkaisella ei-teollisella oikeudellisella yksiköllä ei koskaan käytetä Y-koodia, vaan sillä ovat mahdollisia vain X- ja K-koodit, joita esiintyy vähintään yksi kappale.)\nZ = (aidosti) yksitoimipaikkainen oikeudellinen yksikkö tai minikokoinen oikeudellinen yksikkö = oikeudellisen yksikön ainoa teollinen tiedustelutoimipaikka, johon ei sisälly saman oikeudellisen yksikön muita teollisia varsinaisia toimipaikkoja, koska tällaisia ei ole olemassa (Z-koodillisia toimipaikkoja on vain yksi oikeudellista yksikköä kohden. Z-koodi on ollut käytössä tilastovuodesta 2007 lähtien. Tilastovuosina 2005-2006 kattoi Y-koodi myös Z:n osuuden yhdistelmätyypeistä.)\nK = tiedustelutoimipaikka, joka sisältää muita teollisia varsinaisia toimipaikkoja = vastaukset antava teollinen toimipaikka, johon sisältyy saman oikeudellisen yksikön muitakin teollisia varsinaisia toimipaikkoja (K-koodillisia toimipaikkoja oikeudellisella yksiköllä voi olla 0 tai vähintään 1 kappaletta.)\nX = ei yhdistelmätoimipaikka (aito teollinen toimipaikka, yksi- tai monitoimipaikkaisella oikeudellisella yksiköllä, myös sivuutettavalla (eli tiedustelun ulkopuolelle suljetulla) teollisella toimipaikalla esiintyy yhdistelmätyyppikoodi X)\nMonitoimipaikkaisena vastaavalla oikeudellisella yksiköllä, teollisella tai ei-teollisella, voi olla vastaajatoimipaikoilla sekaisin yhdistelmätyypin koodeja X ja K. \n\nJos yhdtyyp on tyhjä, nämä ovat pääsääntöisesti tapauksia, joissa kenttä estlippu = 3 eli ne eivät ole mukana ko. vuoden otoksessa vaan niillä tieto on estimoitu. Niiden yhdtyyp on haettava edellisestä vuodesta, tai joissakin tapauksissa sitä aiemmalta vuodelta.\n\nYhdistelmätoimipaikalla toimiala on vain ko. yksittäisen (yhdistelmä)toimipaikan oma toimiala eikä se kuvaa sitä laajempaa toimipaikkakokonaisuutta, jonka vastaukset saadaan yhdessä ko. toimipaikkaan kytkettyinä. Jos yhdistelmätyyppi = Y, kuvaa tiedonkeruun kohdetta paremmin koko oikeudellisen yksikön toimiala kuin kytköstoimipaikan oma toimiala.\n\nErillisessä tiedostossa tptunnus_hy_sis.sas on listattu toimipaikat, joiden tuotantotietoja sisältyy \nyhdistelmätoimipaikkojen tuotantotietoihin. Eli toimipaikka A:n tuotannoksi raportoidaan toimipaikkojen A ja B tuotannon summa, mutta toimipaikkaa B ei aineistossa mainita. ID:nä toimipaikka ja vuosi ja col-muuttujat (76) kertovat niiden \"haamutoimipaikkojen\" tunnukset, joiden tuotanto on sisällytetty \"emotoimipaikkojen\" tuotantoon. Sama tiedosto pätee ja voidaan käyttää myös tuotetietoihin.\n\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot, Luokitustiedot"
+    },
+    {
+      "identifier": "stptunnus",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Suojattu toimipaikkatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "syrtunnus",
+      "variablename": "Suojattu oikeudellisen yksikön Y-tunnus",
+      "conceptdef": "Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "yrtol08",
+      "variablename": "Oikeudellisen yksikön toimiala (TOL 2008 -luokitus)",
+      "conceptdef": "Oikeudellisen yksikön toimiala, TOL 2008 -luokitus. Saatavissa 2008 alkaen. \n \nPRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "tptol08",
+      "variablename": "Toimipaikan toimiala (TOL 2008 -luokitus)",
+      "conceptdef": "Toimipaikan toimiala, TOL 2008 -luokitus. Saatavissa 2008 alkaen. \n \nPRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.    \n   \n",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "tvarmuus",
+      "variablename": "Aine- ja tarvikehavainnon luotettavuus (tiedon varmuus) tai käsittelyn tilanne",
+      "conceptdef": "Aine- ja tarvikehavainnon tiedon varmuus (TUOTANTOPANOS) tai käsittelyn tilanne. TVARMUUS on havaintokohtainen arvioinnin liputusmuuttuja.\n\nMahdolliset koodit: \nNULL tai tyhjä = tieto saatu normaalisti (tavanomaisin tilanne)\nH = hyväksytty \nA = manuaalisesti arvioitu \nO = ohjelmallisesti arvioitu (yleensä yrityksen / toimipaikan / toimipaikkayhdistelmän koko vastaus; siis kun keruuyksikkö ei ole vastannut miltään osin); O-koodi on käytössä ilmeisesti vasta tv 2012 lähtien   \nE = epävarma\nM = aine- ja tarvike-määrätieto on arvioitu (tietoa käytetään kansalliseen tilastonlaadintaan)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "estlippu",
+      "variablename": "Estimointi / imputointi, liputusmuuttuja",
+      "conceptdef": "Aineissa ja tarvikkeissa ei ole kattava tieto, ei kannata käyttää!",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "arv1",
+      "variablename": "Määrätiedon arviointikoodi mittayksikössä (maara110, maara130)",
+      "conceptdef": "Määrätiedon arviointikoodi mittayksikössä (maara110, maara130) eli estimoinnin liputusmuuttuja",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "mitta1ti",
+      "variablename": "Määräyksikön mittayksikkö (maara110, maara130), hyödyketiedustelu",
+      "conceptdef": "Nimikkeellä hyödyketiedustelussa käytettävä määrätietojen mittayksikkö. Aineissa ja tarvikkeissa on TK:ssa harkittu sopivaksi käyttää vain yhtä määräyksikköä kussakin nimikkeessä.\n \nMittayksiköt voivat kuvata painoa tai bruttovetoisuutta, pituutta, pinta-alaa, tilavuutta, lukumäärää (kappaletta tai paria), tehoa ja energiaa, bruttolämpöarvoa tms.\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "arvo10",
+      "variablename": "Ostojen arvo, euroa",
+      "conceptdef": "Ostojen arvo yritykseen toimitettuna, euroa, kun panostyy = S. Yrityksen ulkopuolelta kalenterivuoden aikana ostettujen aineiden ja tarvikkeiden arvo ilman arvonlisäveroa (alv). Omilla autoilla tapahtuneiden kuljetusten kustannuksia ei kuitenkaan sisällytetä ostoarvoon.\n \nOstetuilla aineilla ja tarvikkeilla tarkoitetaan kalenterivuoden aikana tuotantoa varten yrityksen ulkopuolelta ostettuja aineita ja tarvikkeita eli \n- raaka-aineita,\n- puolivalmisteita,\n- lisäaineita ja\n- tarvikkeita.\n\nOstojen arvoon tai määrään ei sisällytetä kauppatavaroiden ostoja, jotka on ostettu ja myyty sellaisenaan ilman omaa jatkojalostusta toisille yrityksille ja jotka eivät jää osaksi yrityksen omaa tuotetta. \n \nKokonaiskäytöstä ei ilmoiteta arvoa, ainoastaan määrä (= MAARA130). ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "maara110",
+      "variablename": "Ostojen määrä mittayksikössä ",
+      "conceptdef": "Ostojen määrä yhdessä mittayksikössä eli määrä_1, kun panostyy = S, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI. \n \nHyödykenimikkeestä kysytään hyödyketiedustelussa yksi määrätieto. \n   \n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "maara130",
+      "variablename": "Kokonaiskäytön määrä mittayksikössä ",
+      "conceptdef": "Kokonaiskäytön määrä yhdessä mittayksikössä eli määrä_1, kun panostyy = T, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI.\n \nKokonaiskäytön määrä = tilastovuonna tuotantoon käytettyjen ostettujen aineiden ja tarvikkeiden määrä + samassa yrityksessä jatkojalostettavaksi valmistettujen aineiden ja tarvikkeiden määrä + yrityksen toisilta toimipaikoilta hankittujen aineiden ja tarvikkeiden määrä.  \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "yrtol02",
+      "variablename": "Oikeudellisen yksikön toimiala (TOL 2002 -luokitus)",
+      "conceptdef": "Oikeudellisen yksikön toimiala (TOL 2002 -luokitus). Saatavissa 2005-.\n\nPRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "tptol02",
+      "variablename": "Toimipaikan toimiala (TOL 2002 -luokitus)",
+      "conceptdef": "Toimipaikan toimiala (TOL 2002 -luokitus). \n\nPRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": null
+    }
+  ]
+}

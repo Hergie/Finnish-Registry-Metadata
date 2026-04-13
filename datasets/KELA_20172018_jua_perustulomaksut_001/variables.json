@@ -1,0 +1,44 @@
+{
+  "variables": [
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MATY",
+      "variablename": "Maksutyyppi",
+      "conceptdef": "Tapahtuman tyyppi\nMuuttujan arvot: \n•\tS = säännöllinen; \n•\tP = palautus; \n•\tT = takautuva\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAJNO",
+      "variablename": "Maksun järjestysnumero ",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MATODPV",
+      "variablename": "Maksupäivä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BRUTTOMAARA",
+      "variablename": "Maksettu perustulon euromäärä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

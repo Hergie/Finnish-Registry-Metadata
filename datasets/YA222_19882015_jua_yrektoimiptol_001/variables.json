@@ -1,0 +1,116 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ykstun_s",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Aineistossa on tuplia johtuen toimipaikan siirtymisestä vuoden aikana toisen yritystunnuksen alle",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritysid_s",
+      "variablename": "Suojattu yritysid",
+      "conceptdef": "Käytössä 2013 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tilyks",
+      "variablename": "Tilastoyksikkö",
+      "conceptdef": "Tilastoyksikkö. \nMahdolliset arvot ovat:\n1            = tulee tilastoon\nblankko = ei tule tilastoon\nTilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuotta tilastovuonna ja jotka ovat työllistäneet enemmän kuin puoli henkilöä tai joiden liikevaihto on ylittänyt vuosittain määritellyn tilastorajan (10 595 euroa vuonna 2012). Vuonna 2013 alettiin soveltaa myös tase- ja investointirajoja.\n\nVuosina 1989-1993 ja 2006-2007 tilyks = blankko tapauksia erityisen paljon, vuonna 2013 kaikki havainnot tilastoyksiköitä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hktp",
+      "variablename": "Henkilöstön lukumäärä",
+      "conceptdef": "Toimipaikan henkilöstö. Henkilöstö käsittää palkansaajat ja yrittäjät. Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lvtp",
+      "variablename": "Liikevaihto",
+      "conceptdef": "Toimipaikan liikevaihto, ei täysin luotettava tieto ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Kunta",
+      "variablename": "Sijaintikunta ",
+      "conceptdef": "Kyseisen vuoden kuntatieto",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "utalatp",
+      "variablename": "Tol1988",
+      "conceptdef": "Toimialaluokitus 1988, saatavissa vuosille 1988-1993.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ntalatp",
+      "variablename": "Tol1995",
+      "conceptdef": "Toimialaluokitus 1995, saatavissa vuosille 1993-2001.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02tp",
+      "variablename": "Tol2002",
+      "conceptdef": "Toimialaluokitus 2002, saatavissa vuosille 2001-2008.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08tp",
+      "variablename": "Tol2008",
+      "conceptdef": "Toimialaluokitus 2008, saatavissa vuosille 1999-2012.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02_2",
+      "variablename": "Tol2002_2, empiirinen avain",
+      "conceptdef": "2-numerotoimialatason tol02_2 on muodostettu empiirisellä avaimella, jossa on valittu pääasiallinen luokka sen mukaan mihin karkeaan 2-numeroluokkaan 5-numerotoimialalta suurin osa toimipaikkojen henkilöstöstä siirtyy luokitusmuutosvuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08_2",
+      "variablename": "Tol2008_2, empiirinen avain",
+      "conceptdef": "2-numerotoimialatason tol08_2 on muodostettu empiirisellä avaimella, jossa on valittu pääasiallinen luokka sen mukaan mihin karkeaan 2-numeroluokkaan 5-numerotoimialalta suurin osa toimipaikkojen henkilöstöstä siirtyy luokitusmuutosvuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

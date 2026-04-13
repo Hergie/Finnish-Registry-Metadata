@@ -1,0 +1,388 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu TK:n henkilönumero",
+      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ammattikoodi",
+      "variablename": "Ammattikoodi",
+      "conceptdef": "Tietoja vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 lähtien vuosittain. Tieto henkilön ammatista on tuotettu 18-74-vuotiaille työllisille, siis palkansaajille ja yrittäjille. Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. Henkilön ammattikoodi tuotetaan ensisijaisesti vuoden viimeisen viikon päätyösuhteen mukaisen ammatin perusteella. Ammattinimikkeiden lisäksi tiedon tuottamisessa käytetään hyväksi tietoa henkilön työpaikan toimialasta ja sektorista sekä henkilön koulutuksesta. Ammattitietojen tuottamista ohjaa kansainvälisen työjärjestön ILO:n laatima hierarkkinen luokitusjärjestelmä International Standard Classification of Occupations, lyh. ISCO. \n\nLuokitusstandardit:\nVuodesta 2010 lähtien Ammattiluokitus 2010 (AML 2010). \nVuosina 1995, 2000, 2004 - 2009 Ammattiluokitus 2001. \nVuosina 1990 ja 1993 Ammattiluokitus 1980.  \n\nEri luokitusstandardeilla tuotetut tiedot eivät ole keskenään vertailukelpoiset. Tilastossa käytetyt luokitukset samoin kun luokitusten väliset avaimet löytyvät Tilastokeskuksen luokitus- ja metatietopalvelujen kotisivuilta osoitteesta: http://tilastokeskus.fi/luokitukset sekä painetuista luokituskäsikirjoista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ammatti"
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus (TVM)",
+      "conceptdef": "Suojattu yritystunnus (TVM) yksilöi työsuhteen työnantajan. Yksityisillä yrityksillä, liikkeen- ja ammatinharjoittajilla sekä kunnilla ja kuntayhteisöillä suojaamaton yritystunnus on y-tunnus, joka annetaan yritys- ja yhteisötietojärjestelmässä (YTJ ks. ytj.fi).  Valtion yksiköillä se on valtion virastotunnus, VIRTUN, joka annetaan Valtiokonttorissa. Kuntien liikelaitoksilla suojaamaton yritystunnus on Yritys- ja toimipaikkarekisterissä muodostettu surrogaattitunnus.\n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut yritystunnus-muuttujassa virastotunnus, on voinut tulla muutoksen jälkeen tämän tilalle y-tunnus. Samalla yritystunnus-muuttujassa aiemmin ollut virastotunnus on siirtynyt jäsenyhteisö-tai virastotunnus -muuttujaan. Näillä henkilöillä suojattu yritystunnus (syrtun) on siis siirtynyt stpitunt-tietoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun",
+      "variablename": "Suojattu toimipaikan tunnus (TVM)",
+      "conceptdef": "Suojattu toimipaikan tunnus (TVM) on Yritys- ja toimipaikkarekisterin käyttämä toimipaikkatunnus, joka sisältää sekä yksityisen että julkisen sektorin toimipaikkatunnuksia.\n\nMyös yksityisellä sektorilla voi olla esim. yritysjärjestelyistä johtuen poikkeuksia, joissa toimipaikkatunnus liittyy useampaan kuin yhteen yritystunnukseen samana vuonna. Toimipaikkatunnus on TK:n ylläpitämä pysyvä yksilöivä tunniste, mutta siinä voi tapahtua muutoksia ja siksi se on hyvä yhdistää y-tunnukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stpitunj1",
+      "variablename": "Suojattu jäsenyhteisö- tai virastotunnus (TVM)",
+      "conceptdef": "Suojattu kuntien/kuntayhtymien jäsenyhteisötunnus tai valtion virastotunnus (TVM).\n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut yritystunnus-muuttujassa virastotunnus, on voinut tulla muutoksen jälkeen tämän tilalle y-tunnus. Samalla yritystunnus-muuttujassa aiemmin ollut virastotunnus on siirtynyt jäsenyhteisö-tai virastotunnus -muuttujaan. Näillä henkilöillä suojattu yritystunnus (syrtun) on siis  siirtynyt  stpitunj-tietoon.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stpitunt1",
+      "variablename": "Suojattu kunta- ja valtiosektorin toimipistetunnus (TVM)",
+      "conceptdef": "Toimipistetunnus kunta- ja valtiosektorin työsuhteilla (TVM). \n\nHUOM! Toimipistetunnus ei ole yksikäsitteinen, vaan sitä on aina käytettävä yhdessä yritystunnuksen (syrtun1)  tai \nsuojatun jäsenyhteisö- tai virastotunnuksen (stptitunj1) kanssa. Julkisen sektorin toimipistetunnus stpitunt1 voi myös vaihdella vuodesta toiseen samalla toimipaikalla.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm1",
+      "variablename": "Työsuhteen alkamispäivä (TVM)",
+      "conceptdef": "Vuoden viimeisen viikon työsuhteen alkamispäivä. \n\nHuom. Tilastovuonna 2019 tulorekisterin päivämäärätiedoissa kyseessä on maksujakson alkamispäivä. Tilastossa on ketjutettu maksujaksoja yhteen, jos niissä ei ole yli kuukauden katkoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppupvm1",
+      "variablename": "Loppupäivämäärä (TVM)",
+      "conceptdef": "Työ- tai yrittäjäsuhteen loppumispäivämäärä (TVM). \n\nHuom. Tilastovuonna 2019 tulorekisterin päivämäärätiedoissa kyseessä on viimeisen maksujakson päivämäärä. Tilastossa on ketjutettu maksujaksoja yhteen, jos niissä ei ole yli kuukauden katkoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "oty1",
+      "variablename": "Omistajatyyppi (TVM)",
+      "conceptdef": "Henkilön vuoden lopun työsuhteen työnantajayrityksen omistajatyyppi \n\nVuodesta 1996 alkaen arvoalue: \n1 = Yksityinen kotimainen \n2 = Valtio \n3 = Kunta\n4 = Ahvenanmaan maakunta \n5 = Ulkomaalaisomisteinen \n6 = Muu omistajatyyppi, tuntematon\nBL = Henkilö ei työllinen \n\n1987-1995 arvoalue: \n1 = Yksityinen kotimainen \n2 = Valtio \n3 = Kunta \n4 = Kuntainliitto \n6 = Ulkomaalaisten osuus yli 20 %, enintään 50 %\n7 = Ulkomaalaisten osuus yli 50 % \n9 = Muu omistajatyyppi, tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työsuhde"
+    },
+    {
+      "identifier": "oik1",
+      "variablename": "Oikeudellinen muoto (TVM)",
+      "conceptdef": "Henkilön vuoden lopun työsuhteen työnantajayrityksen oikeudellinen muoto. \n11 = Luonnollinen henkilö \n12 = Kuolinpesä, perikunta \n13 = Verotusyhtymä \n14 = Avoin yhtiö \n15 = Konkurssipesä \n21 = Kommandiittiyhtiö \n22 = Laivanisännistö (ei osakeyhtiö) \n31 = Osakeyhtiö \n32 = Keskinäinen vakuutusyhtiö \n33 = Säästöpankki \n34 = Eläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa \n35 = Asunto-osakeyhtiö \n41 = Osuuskunta \n51 = Säätiö, rahasto \n52 = Aatteellinen yhdistys \n53 = Keskinäinen vahinkovakuutusyhtiö \n54 = Taloudellinen yhdistys \n61 = Julkinen viranomainen \n62 = Julkinen liikelaitos \n63 = Julkisoikeudellinen yhteisö\n71 = Valtionkirkko \n72 = Muu uskonnollinen yhteisö \n90 = Muu oikeudellinen muoto, tuntematon \nBL = Henkilö ei työllinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työsuhde"
+    },
+    {
+      "identifier": "toimiala",
+      "variablename": "Toimiala (TVM)",
+      "conceptdef": "Henkilön TVM-käsitteen mukaisen työsuhteen toimiala eli vuoden lopussa työllisenä olevien päätyösuhteen toimiala. \nKäytössä seuraavat luokitukset: \n toimiala_1_08_s (TOL2008) vuodesta 2007 lähtien \n toimiala_1_02_s (TOL2002) vuodet 2001-2006 \n toimiala_1_00_s (TOL95, toinen tarkistettu painos) vuodet 1998-2000\n toimiala_1_95_s (TOL95) vuodet 1993-1997\n toimiala_1_88_s (TOL88) vuodet 1987-1992 \n\nLuokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusavaimet.html ja http://www.stat.fi/meta/luokitukset/toimiala/versio.html",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työsuhde, tyossakaynti"
+    },
+    {
+      "identifier": "tsekt1",
+      "variablename": "Sektori (TVM)",
+      "conceptdef": "Vuoden viimeisen viikon työsuhteen työnantajayrityksen sektori (TVM). Tietoja vuodesta 1989 lähtien.\n\nLuokitus vuodesta 2013 lähtien: Sektoriluokitus 2012 http://www.stat.fi/meta/luokitukset/sektoriluokitus/versio.html.\n\nVuosien 1999-2012 luokituksen  ja vuodesta 2013 alkavan luokituksen ensimmäinen numero: \n1 Koko kansantalous (kotimaiset sektorit)\n2 Ulkomaat\n\nNäillä luokituksilla pääsekstorit ovat kahden numeron tasolla:\n11\tYritykset\n12\tRahoitus- ja vakuutuslaitokset\n13\tJulkisyhteisöt\n14\tKotitaloudet\n15\tKotitalouksia palvelevat voittoa tavoittelemattomat yhteisöt\n21\tEuroopan unionin jäsenvaltiot ja toimielimet\n22\tEuroopan unionin ulkopuoliset valtiot ja kansainväliset järjestöt\n\nVuosina 1989-1994 ja vuosina 1995-1998 luokituksissa jo kahden numeron tasolla merkittäviä eroja, mutta luokitukset ovat samat ensimmäisen numeron tasolla:\n1\tYritykset\n2\tRahoitus- ja vakuutuslaitokset\n3\tJulkisyhteisöt\n4\tVoittoa tavoittelemattomat yhteisöt\n5\tKotitaloudet\n6\tUlkomaat\n\nMuut luokitukset pyydettävä Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "työsuhde"
+    },
+    {
+      "identifier": "tkun",
+      "variablename": "Työpaikan kunta (TVM)",
+      "conceptdef": "Henkilön vuoden viimeisen viikon työpaikan (toimipaikan) kuntakoodi.  Aluejako ollut ennen vuotta 1999 tilastovuoden aluejako ja taas vuodesta 2005 alkaen tilastovuoden aluejako. Vuosina 1999-2004 aluejako on ollut tilastovuosi + 1 vuosi eli esim. 2003 tiedot ilmoitettiin aluejaon 1.1.2004 mukaan. Tieto on vain työllisillä. Tieto vuodesta 1988 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tp1_hl",
+      "variablename": "Toimipaikan henkilöstön suuruusluokka (TVM)",
+      "conceptdef": "Vuoden viimeisen viikon työsuhteen toimipaikan henkilöstön suuruusluokka. Tietoja vuodesta 1988 lähtien.\nSuuruusluokat ovat: \n1 HK < 4,5 \n2 4,5 <= HK < 9,5 \n3 9,5 <= HK < 19,5 \n4 19,5 <= HK < 49,5 \n5 49,5 <= HK < 99,5 \n6 99,5 <= HK < 199,5 \n7 199,5 <= HK < 499,5 \n8 499,5 <= HK < 999,5 \n9 999,5 <= HK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tp1_lvl",
+      "variablename": "Toimipaikan liikevaihdon suuruusluokka (TVM)",
+      "conceptdef": "Vuoden viimeisen viikon työsuhteen toimipaikan liikevaihdon suuruusluokka toimipaikkarekisteristä. Tietoja vuodesta 1988 lähtien.\n \nSuuruusluokat ovat : \n1 LV < 1 000 \n2 1 000 <= LV < 40 000 \n3 40 000 <= LV < 100 000 \n4 100 000 <= LV < 400 000 \n5 400 000 <= LV < 2 000 000 \n6 2 000 000 <= LV < 10 000 000 \n7 10 000 000 <= LV < 40 000 000 \n8 40 000 000 <= LV < 200 000 000 \n9 200 000 000 <= LV ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr1_hl",
+      "variablename": "Yrityksen henkilöstön suuruusluokka (TVM)",
+      "conceptdef": "Vuoden viimeisen viikon työsuhteen yrityksen henkilöstön suuruusluokka. Tietoja vuodesta 1988 lähtien.\nSuuruusluokat ovat: \n1 HK < 4,5 \n2 4,5 <= HK < 9,5 \n3 9,5 <= HK < 19,5 \n4 19,5 <= HK < 49,5 \n5 49,5 <= HK < 99,5 \n6 99,5 <= HK < 199,5 \n7 199,5 <= HK < 499,5 \n8 499,5 <= HK < 999,5 \n9 999,5 <= HK ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr1_lvl",
+      "variablename": "Yrityksen liikevaihdon suuruusluokka (TVM)",
+      "conceptdef": "Vuoden viimeisen viikon työsuhteen yrityksen liikevaihdon suuruusluokka toimipaikkarekisteristä (euroa). Tietoja vuodesta 1988 lähtien. \nSuuruusluokat ovat : \n1 LV < 1 000 \n2 1 000 <= LV < 40 000 \n3 40 000 <= LV < 100 000 \n4 100 000 <= LV < 400 000 \n5 400 000 <= LV < 2 000 000 \n6 2 000 000 <= LV < 10 000 000 \n7 10 000 000 <= LV < 40 000 000 \n8 40 000 000 <= LV < 200 000 000 \n9 200 000 000 <= LV ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun2",
+      "variablename": "Suojattu yritystunnus (ATV)",
+      "conceptdef": "Suojattu yritystunnus (ATV) yksilöi työsuhteen työnantajan. Tietoja vuodesta 1989 lähtien vuoteen 2018 asti. \n\nYksityisillä yrityksillä, liikkeen- ja ammatinharjoittajilla sekä kunnilla ja kuntayhteisöillä suojaamaton yritystunnus on y-tunnus, joka annetaan yritys- ja yhteisötietojärjestelmässä (YTJ ks. ytj.fi).  Valtion yksiköillä se on valtion virastotunnus, VIRTUN, joka annetaan Valtiokonttorissa. \nKuntien liikelaitoksilla suojaamaton yritystunnus on Yritys- ja toimipaikkarekisterissä muodostettu surrogaattitunnus. \n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut yritystunnus-muuttujassa virastotunnus, on voinut tulla muutoksen jälkeen tämän tilalle y-tunnus. Samalla yritystunnus-muuttujassa aiemmin ollut virastotunnus on siirtynyt jäsenyhteisö-tai virastotunnus -muuttujaan. Näillä henkilöillä suojattu yritystunnus (syrtun2) on siis  siirtynyt  stpitunj2-tietoon. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun2",
+      "variablename": "Suojattu toimipaikkatunnus (ATV)",
+      "conceptdef": "Suojattu toimipaikan tunnus (ATV) on Yritys- ja toimipaikkarekisterin käyttämä toimipaikkatunnus, joka sisältää sekä yksityisen että julkisen sektorin toimipaikkatunnuksia. Toimipaikkatunnus on TK:n ylläpitämä pysyvä yksilöivä tunniste, mutta siinä voi tapahtua muutoksia ja siksi se on hyvä yhdistää yritystunnukseen. Myös yksityisellä sektorilla voi olla esim. yritysjärjestelyistä johtuen poikkeuksia, joissa toimipaikkatunnus liittyy useampaan kuin yhteen yritystunnukseen samana vuonna. \nTietoja vuoteen 2018 asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stpitunj2",
+      "variablename": "Suojattu jäsenyhteisötunnus tai virastotunnus (ATV)",
+      "conceptdef": "Suojattu kuntien/kuntayhtymien jäsenyhteisötunnus tai valtion virastotunnus (ATV). \n\nHUOM! Vuodesta 2004 vuoteen 2005 tapahtui hallinnollisia muutoksia työnantajatunnuksissa. Virastotunnusten muuttuessa y-tunnus -muotoon henkilölle, jolla on aiemmin ollut yritystunnus-muuttujassa virastotunnus, on voinut tulla muutoksen jälkeen tämän tilalle y-tunnus. Samalla yritystunnus-muuttujassa aiemmin ollut virastotunnus on siirtynyt jäsenyhteisö-tai virastotunnus -muuttujaan. Näillä henkilöillä suojattu yritystunnus (syrtun2) on siis siirtynyt stpitunj2-tietoon. Tietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stpitunt2",
+      "variablename": "Suojattu kunta- ja valtiosektorin toimipistetunnus (ATV)",
+      "conceptdef": "Toimipistetunnus kunta- ja valtiosektorin työsuhteilla (ATV). \n\nHUOM! Toimipistetunnus ei ole yksikäsitteinen, vaan sitä on aina käytettävä yhdessä yritystunnuksen (syrtun2)  tai \nsuojatun jäsenyhteisö- tai virastotunnuksen (stptitunj2) kanssa. Julkisen sektorin toimipistetunnus stpitunt2 voi myös vaihdella vuodesta toiseen samalla toimipaikalla. Tietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ptoim2",
+      "variablename": "Pääasiallinen toiminta (ATV)",
+      "conceptdef": "Pääasiallinen toiminta pisimmän työsuhteen päättelyllä. \n11 = työllinen \n12 = työtön \n21 = 0-14 vuotias \n22 = opiskelija \n24 = eläkeläinen \n25 = varus- tai siviilipalvelusmies \n29 = työttömyyseläkeläinen \n99 = muu työvoiman ulkopuolella oleva\nTietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tyossakaynti"
+    },
+    {
+      "identifier": "amas2",
+      "variablename": "Ammattiasema (ATV)",
+      "conceptdef": "Ammattiasema vuoden pisimmän työsuhteen mukaan. \n1=palkansaaja \n2=yrittäjä \n\nPäättely muuttunut v. 2005. Aiemmin vaadittu, että yrittäjä on myös työnantaja. Tietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tyossakaynti"
+    },
+    {
+      "identifier": "alkupvm2",
+      "variablename": "Työsuhteen alkamispäivä (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen alkamispäivä. Tietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhde"
+    },
+    {
+      "identifier": "loppupvm2",
+      "variablename": "Loppupäivämäärä (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen päättymispäivä. Tietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhde"
+    },
+    {
+      "identifier": "oty2",
+      "variablename": "Omistajatyyppi (ATV)",
+      "conceptdef": "Henkilön vuoden pisimmän työsuhteen yrityksen omistajatyyppi. Tietoja vuoteen 2018 asti.\n\nVuodesta 1996 alkaen arvoalue: \n1 = Yksityinen kotimainen \n2 = Valtio \n3 = Kunta\n4 = Ahvenanmaan maakunta \n5 = Ulkomaalaisomisteinen \n6 = Muu omistajatyyppi, tuntematon\nBL = Henkilö ei työllinen \n\n1987-1995 arvoalue: \n1 = Yksityinen kotimainen \n2 = Valtio \n3 = Kunta \n4 = Kuntainliitto \n6 = Ulkomaalaisten osuus yli 20 %, enintään 50 %\n7 = Ulkomaalaisten osuus yli 50 % \n9 = Muu omistajatyyppi, tuntematon ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhde"
+    },
+    {
+      "identifier": "oik2",
+      "variablename": "Oikeudellinen muoto (ATV)",
+      "conceptdef": "Henkilön pisimmän työsuhteen työnantajayrityksen oikeudellinen muoto\n11 = Luonnollinen henkilö \n12 = Kuolinpesä, perikunta \n13 = Verotusyhtymä \n14 = Avoin yhtiö \n15 = Konkurssipesä \n21 = Kommandiittiyhtiö \n22 = Laivanisännistö (ei osakeyhtiö) \n31 = Osakeyhtiö \n32 = Keskinäinen vakuutusyhtiö \n33 = Säästöpankki \n34 = Eläkesäätiö tai -kassa, työeläkelaitos, työttömyys- tai avustuskassa \n35 = Asunto-osakeyhtiö \n41 = Osuuskunta \n51 = Säätiö, rahasto \n52 = Aatteellinen yhdistys \n53 = Keskinäinen vahinkovakuutusyhtiö \n54 = Taloudellinen yhdistys \n61 = Julkinen viranomainen \n62 = Julkinen liikelaitos \n63 = Julkisoikeudellinen yhteisö\n71 = Valtionkirkko \n72 = Muu uskonnollinen yhteisö \n90 = Muu oikeudellinen muoto, tuntematon \nBL = Henkilö ei työllinen\nTietoja vuoteen 2018 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhde"
+    },
+    {
+      "identifier": "toimiala2",
+      "variablename": "Toimiala (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen toimiala. Tietoja vuoteen 2018 asti.\nKäytössä seuraavat luokitukset: \ntoimiala_1_08_s (TOL2008) vuodesta 2007 lähtien \ntoimiala_1_02_s (TOL2002) vuodet 2001-2006 \ntoimiala_1_00_s (TOL95, toinen tarkistettu painos) vuodet 1998-2000\ntoimiala_1_95_s (TOL95) vuodet 1993-1997\ntoimiala_1_88_s (TOL88) vuodet 1987-1992 \n\nLuokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusavaimet.html ja http://www.stat.fi/meta/luokitukset/toimiala/versio.html ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhde"
+    },
+    {
+      "identifier": "tsekt2",
+      "variablename": "Sektori (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen työnantajayrityksen sektori (ATV). Tietoja vuodesta 1989 vuoteen 2018.\n\nLuokitus vuodesta 2013 lähtien: Sektoriluokitus 2012 http://www.stat.fi/meta/luokitukset/sektoriluokitus/versio.html.\n\nVuosien 1999-2012 luokituksen  ja vuodesta 2013 alkavan luokituksen ensimmäinen numero: \n1 Koko kansantalous (kotimaiset sektorit)\n2 Ulkomaat\n\nNäillä luokituksilla pääsekstorit ovat kahden numeron tasolla:\n11\tYritykset\n12\tRahoitus- ja vakuutuslaitokset\n13\tJulkisyhteisöt\n14\tKotitaloudet\n15\tKotitalouksia palvelevat voittoa tavoittelemattomat yhteisöt\n21\tEuroopan unionin jäsenvaltiot ja toimielimet\n22\tEuroopan unionin ulkopuoliset valtiot ja kansainväliset järjestöt\n\nVuosina 1989-1994 ja vuosina 1995-1998 luokituksissa jo kahden numeron tasolla merkittäviä eroja, mutta luokitukset ovat samat ensimmäisen numeron tasolla:\n1\tYritykset\n2\tRahoitus- ja vakuutuslaitokset\n3\tJulkisyhteisöt\n4\tVoittoa tavoittelemattomat yhteisöt\n5\tKotitaloudet\n6\tUlkomaat\n\nMuut luokitukset pyydettävä Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työsuhde"
+    },
+    {
+      "identifier": "tkun2",
+      "variablename": "Työpaikan kunta (ATV)",
+      "conceptdef": "Henkilön atv-käsitteen mukaisen työpaikan (toimipaikan) kuntakoodi. Aluejako ollut ennen vuotta 1999 tilastovuoden aluejako ja taas vuodesta 2005 alkaen tilastovuoden aluejako. Vuosina 1999-2004 aluejako on ollut tilastovuosi + 1 vuosi eli esim. 2003 tiedot ilmoitettiin aluejaon 1.1.2004 mukaan. Tieto on vain työllisillä. Tieto vuosilta 1989-2004. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tp2_hl",
+      "variablename": "Toimipaikan henkilöstön suuruusluokka (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen toimipaikan henkilöstön suuruusluokka. Tietoja vuodesta 1988 vuoteen 2018.\nSuuruusluokat ovat: \n1 HK < 4,5 \n2 4,5 <= HK < 9,5 \n3 9,5 <= HK < 19,5 \n4 19,5 <= HK < 49,5 \n5 49,5 <= HK < 99,5 \n6 99,5 <= HK < 199,5 \n7 199,5 <= HK < 499,5 \n8 499,5 <= HK < 999,5 \n9 999,5 <= HK",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tp2_lvl",
+      "variablename": "Toimipaikan liikevaihdon suuruusluokka (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen toimipaikan liikevaihdon suuruusluokka toimipaikkarekisteristä (euroa). Tietoja vuodesta 1988 vuoteen 2018.\nSuuruusluokat ovat : \n1 LV < 1 000 \n2 1 000 <= LV < 40 000 \n3 40 000 <= LV < 100 000 \n4 100 000 <= LV < 400 000 \n5 400 000 <= LV < 2 000 000 \n6 2 000 000 <= LV < 10 000 000 \n7 10 000 000 <= LV < 40 000 000 \n8 40 000 000 <= LV < 200 000 000 \n9 200 000 000 <= LV",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr2_hl",
+      "variablename": "Yrityksen henkilöstön suuruusluokka (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen yrityksen henkilöstön suuruusluokka. Tietoja vuodesta 1988 vuoteen 2018.\nSuuruusluokat ovat: \n1 HK < 4,5 \n2 4,5 <= HK < 9,5 \n3 9,5 <= HK < 19,5 \n4 19,5 <= HK < 49,5 \n5 49,5 <= HK < 99,5 \n6 99,5 <= HK < 199,5 \n7 199,5 <= HK < 499,5 \n8 499,5 <= HK < 999,5 \n9 999,5 <= HK ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr2_lvl",
+      "variablename": "Yrityksen liikevaihdon suuruusluokka (ATV)",
+      "conceptdef": "Vuoden pisimmän työsuhteen yrityksen liikevaihdon suuruusluokka toimipaikkarekisteristä (euroa). Tietoja vuodesta 1988 vuoteen 2018. \nSuuruusluokat ovat : \n1 LV < 1 000 \n2 1 000 <= LV < 40 000 \n3 40 000 <= LV < 100 000 \n4 100 000 <= LV < 400 000 \n5 400 000 <= LV < 2 000 000 \n6 2 000 000 <= LV < 10 000 000 \n7 10 000 000 <= LV < 40 000 000 \n8 40 000 000 <= LV < 200 000 000 \n9 200 000 000 <= LV ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyopv",
+      "variablename": "Työpäiviä",
+      "conceptdef": "Henkilön työpäivien yhteenlaskettu lukumäärä tilastovuonna. Tietoja vuodesta 2005 lähtien. Työpäivät lasketaan työsuhteen alku- ja loppupäivämäärä -tiedoista.\n\nHUOM! Tilastovuonna 2019 työssäkäyntitilastossa siirryttiin käyttämään palkansaajien lähdeaineistona tulorekisteriä, jossa työsuhteden kesto lasketaan maksujakson mukaan. Muuttuja ei ole enää suoraan vertailukelpoinen aiempiin vuosiin lähdeaineiston muutoksen vuoksi. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tyossakaynti"
+    },
+    {
+      "identifier": "tyottpv",
+      "variablename": "Työttömyyspäiviä",
+      "conceptdef": "Henkilön työttömyyspäivien yhteenlaskettu lukumäärä tilastovuonna. Tietoja vuodesta 2005 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "sijpv",
+      "variablename": "Sijoituspäiviä",
+      "conceptdef": "Henkilön työvoimapoliittisten sijoituspäivien yhteenlaskettu lukumäärä tilastovuonna. Eri sijoitusjaksot laskettu yhteen, mahdolliset päällekkäiset jaksot poistettu. Tietoja vuodesta 2004 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "sijti",
+      "variablename": "Sijoittumistieto",
+      "conceptdef": "sijti=1 : Henkilö ollut työvoimapoliittisin toimenpitein sijoitettuna vuoden viimeisellä viikolla (25.12-31.12.tilastovuosi, vuodesta 2005 lähtien) tai vuoden viimeisenä päivänä (vuosina 1993-2004). Tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "tpide",
+      "variablename": "Sijoitetun toimenpidekoodi",
+      "conceptdef": "Työvoimapoliittisen toimenpiteen sijottumiskoodi. Tieto työministeriön työnhakijarekisteristä vuoden viimeisellä viikolla sijoitettuna olevilla. Tietoja vuosilta 1998-2004. \n40 = valtion työtehtävät \n41 = työllistämispalvelu \n42 = työviraston työohjeen mukainen sijoitus \n50 = kunnallinen työllistämistuki \n51 = oppisopimussijoitus, kunta \n53 = yhdistelmätuki, kunta \n60 = työllistämistuki, yksityinen työnantaja \n62 = yrittäjäraha \n64 = harjaantuminen \n68 = oppisopimussijoiutus, yksityinen \n69 = yhdistelmätuki, yksityinen työnantaja \n70 = työharjoittelu työmarkkinatuella \n73 = työllistäminen osa-aikatyöhön (paikkaan välitetty, tilastoidaan) \n74 = 500 pv yksityinen työmarkkinatuki \n75 = 500 pv kunta työmarkkinatuki \nMuut koodit virheellisiä, epävalideja ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "viim_tyott_kesto",
+      "variablename": "Viimeisen työttömyysjakson kesto päivinä",
+      "conceptdef": "Viimeisimmän tilastovuoden lopussa voimassaolevan tai tilastovuoden aikana loppuneen työttömyysjakson kesto päivinä. Lasketaan henkilön viimeisimmän työttömyysjakson alkupäivästä loppupäivään tai jos työttömyys voimassa vuoden loppuun (31.12.) Tietoja vuodesta 2001 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "tpasy",
+      "variablename": "Työttömyyden päättymissyy",
+      "conceptdef": "Työttömyyden päättymisen syy. Tietoja vuodesta 1995 lähtien.\nLuokitus vuodesta 2012 alkaen: \n00 = Työllistetty (entinen nimi: sijoitettu toimenpitein) \n01 = Välitetty työhön yleisille työmarkkinoille \n02 = Lomautus/lyhennetty työviikko päättynyt \n03 = Saanut itse työtä \n04 = Aloittanut työvoimakoulutuksen \n05 = Siirtynyt työvoiman ulkopuolelle (nykyisin merkitään soveltuvin osin syillä 11, 12 ja 13) \n06 = Muu syy tai ei tietoa \n07 = Siirtynyt työttömyyseläkkeelle \n08 = Aloittanut muun koulutuksen \n09 = Työhön/työnhakuun EU/ETA-valtioon \n10 = Ei ole uusinut työnhakuaan \n11 = Aloittanut valmennuksen/kokeilun \n12 = Aloittanut kuntouttavan työtoiminnan \n13 = Aloittanut omaehtoisen opiskelun \n\nLuokitus vuoteen 2011 asti: \n0 = sijoitettu työllistämistoimenpitein \n1 = välitetty työhön yleisille työmarkkinoille \n2 = lomautus tai lyhennetty työviikko on päättynyt \n3 = saanut itse työpaikan \n4 = aloittanut työllisyyskoulutuksen \n5 = siirtynyt työvoiman ulkopuolelle \n6 = muu syy tai ei tietoa \n7 = siirtynyt työttömyyseläkkeelle \n8 = muu koulutus \n9 = työnhakuun ETA-valtioon \nz = tuntematon ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "thpsyy",
+      "variablename": "Työnhaun päättymissyy",
+      "conceptdef": "Henkilön viimeisimmän työnhakujakson päättymisen syy. Osalla henkilöitä, joilla työnhaun päättymispäivä on tyhjä eli työnhaku jatkuu vuodenvaihteen yli, on merkitty päättymisen syy. \n\nLuokitus vuodesta 2012 alkaen: \n00 = Työllistetty (entinen nimi: sijoitettu toimenpitein) \n01 = Välitetty työhön yleisille työmarkkinoille \n02 = Lomautus/lyhennetty työviikko päättynyt \n03 = Saanut itse työtä \n04 = Aloittanut työvoimakoulutuksen \n05 = Siirtynyt työvoiman ulkopuolelle (nykyisin merkitään soveltuvin osin syillä 11, 12 ja 13) \n06 = Muu syy tai ei tietoa \n07 = Siirtynyt työttömyyseläkkeelle \n08 = Aloittanut muun koulutuksen \n09 = Työhön/työnhakuun EU/ETA-valtioon \n10 = Ei ole uusinut työnhakuaan \n11 = Aloittanut valmennuksen/kokeilun \n12 = Aloittanut kuntouttavan työtoiminnan \n13 = Aloittanut omaehtoisen opiskelun \n\nLuokitus vuoteen 2011 saakka: \n0 = sijoitettu työllistämistoimenpitein \n1 = välitetty työhön yleisille työmarkkinoille\n2 = lomautus tai lyhennetty työviikko päättynyt \n3 = saanut itse työpaikan \n4 = aloittanut työllisyyskoulutuksen \n5 = siirtynyt työvoiman ulkopuolelle \n6 = muu syy tai ei tietoa \n7 = siirtynyt työttömyyseläkkeelle \n8 = muu koulutus \n9 = työnhakuun ETA-valtioon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "aika",
+      "variablename": "Eläkkeen alkamisaika",
+      "conceptdef": "Voimassaolevista eläkejaksoista (ei osa-aika-, perhe- eikä takuueläke) varhaisin alkamisaika. Tietoja vuodesta 2005 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläke"
+    },
+    {
+      "identifier": "tyol",
+      "variablename": "Työvoimakoulutuksessa vuoden viimeisellä viikolla",
+      "conceptdef": "Henkilö ollut työvoimapoliittisessa koulutuksessa vuoden viimeisellä viikolla (25.12.-31-12.) Tietoja vuodesta 1989 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyol2",
+      "variablename": "Työvoimakoulutuksessa yli 5 kk",
+      "conceptdef": "Työvoimakoulutuksessa yli 5 kk \n\nArvoalue:\n1 = Ollut työvoimakoulutuksessa yli 5 kk \nbl = Ei ole ollut työvoimakoulutuksessa tai ollut siinä alle 6 kk \n\nTietoja 1988-2004.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyomatka",
+      "variablename": "Työmatka",
+      "conceptdef": "Lineaarinen etäisyys (ns. linnuntie-etäisyys) työpaikan ja asuinpaikan koordinaattien välillä. Mittayksikkö metri. Jos matka > 300 000 m, tieto ei ole luotettava. Tietoja vuodesta 2005 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "auto",
+      "variablename": "Henkilö ajoneuvon omistaja/haltija",
+      "conceptdef": "Henkilö on auton omistaja/haltija ajoneuvorekisterin tietojen mukaan ajoneuvolajeittain vuodesta 2005-2018: \n1=henkilöauto \n2=pakettiauto \n3=kuorma-auto \n4=erikoisauto \nJos henkilöllä useampia ajoneuvoja on prioriteettijärjestys 1-2-3-4. (Muita ajoneuvolajeja ei mukana). \n\nTieto vuosina 1990-2004: \n1 = on auton omistaja/haltija ajoneuvorekisterin tietojen mukaan. \n\nTietoja vuodesta 1990 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "variables": [
+    {
+      "identifier": "stoimipaikkaID",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Suojattu toimipaikkatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtunnus",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "versioID",
+      "variablename": "Tilastoversio",
+      "conceptdef": "Tilastoversio",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AineTarvKoodiCPA",
+      "variablename": "Aineet ja tarvikkeet -nimikekoodi",
+      "conceptdef": "Teollisuustuotannon aineet ja tarvikkeet -kyselyn nimikkeistönä käytetään tilastovuodesta 2019 alkaen Euroopan yhteisön yhdistettyä nimikkeistöä CN (Combined Nomenclature). CN-nimikkeistö on ulkomaankauppatilastoissa käytetty 8-numeroinen tavaraluokitus. Nimikkeistöön tulee muutoksia vuosittain, joten täysin vertailukelpoisia aikasarjoja ei ole mahdollista laatia tilastovuoden 2019 ja sitä tuoreempien vuosien välillä. Aineistossa nimikkeen tarkkuustaso vaihtelee, sillä kyselyyn voidaan vastata CN-luokituksen 8- ja 6-numerotasoilla. \n\nEnnen tilastovuotta 2019 aineiden ja tarvikkeiden nimikkeistönä käytetään luokitusta, joka on laadittu Tilastokeskuksessa Euroopan yhteisön toimialoittaisen CPA 2008 -tuoteluokituksen pohjalta soveltaen sitä kansallisten tarpeiden täyttämiseksi. Koodin pituus on 6-7 numeroa. Koodin 4 ensimmäistä numeroa vastaavat Euroopan yhteisön tilastollisen toimialaluokituksen (NACE Rev. 2) koodia ja siten Tilastokeskuksen toimialaluokituksen TOL 2008 neljää ensimmäistä numeroa.\n\nAine- ja tarvikenimikkeistössä tapahtuu vähäisiä muutoksia vuodesta toiseen, mutta ei kuitenkaan joka vuosi. Tästä syystä useinkaan tarkalla nimikkeistöllä ei voida laatia vertailukelpoisia tilastoja vuosien välillä. Aggregoidummalla nimiketasolla esim. nimikkeen 4-numerotasolla (TOL 2008 -taso) tai 6-numerotasolla (CPA-taso) tilastoja voidaan tehdä vuosien välillä. \n",
+      "measunit": null,
+      "classification": "aineet_tarv_1_2013_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "PanosTyyppiKoodi",
+      "variablename": "Panostyyppikoodi",
+      "conceptdef": "Tilastovuodesta 2019 lähtien panostyyppikoodilla on aina arvo ”1”, sillä panosten määrätietoja ei enää kysytä. \n\nEnnen tilastovuotta 2019 tiedusteltiin nimikekohtaisesti aine- ja tarvikeostojen arvojen ohella myös niiden määrätiedot. Erikseen määritellyistä aine- ja tarvikenimikkeistä kysyttiin lisäksi kokonaiskäytön määrä. Koska tietueella on vain yksi määräkenttä, kokonaiskäyttöön liittyvä vastaus on eri tietueella kuin vastaus ostojen arvo- ja määrätietoihin. Panostyyppikoodi kertoo, kummasta tilanteesta on kyse. Panostyyppikoodin arvolla ”1” kyse on aine- ja tarvikeoston arvo- ja määrätiedoista ja panostyyppikoodin arvolla ”2” kyse on kokonaiskäytöstä. Kokonaiskäyttö tiedusteltiin melko pieneltä nimikejoukolta. Kokonaiskäytöstä ei myöskään kysytty rahallista arvoa, joten sen arvokenttä on tyhjä.\n\nKokonaiskäytöllä tarkoitetaan teollisuustuotannossa tavaroiden valmistukseen käytettyjä yrityksen (oikeudellisen yksikön) ulkopuolelta ostettuja aineita ja tarvikkeita sekä omassa yrityksessä jatkojalostettavaksi valmistettuja tuotteita. \n\nKokonaiskäyttö sisältää kalenterivuoden aikana teollisuustuotannossa käytetyt aineet ja tarvikkeet riippumatta niiden osto- tai hankintavuodesta.\n\nKokonaiskäyttö kysyttiin täydentäväksi tiedoksi niistä aine- ja tarvikenimikkeistä, joista ilmoitettujen ostojen ei uskottu kuvaavan todellista aine- ja tarvikekäyttöä riittävän hyvin.\n\n\n\n",
+      "measunit": null,
+      "classification": "panostyyppi_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "MaaraMittayks1",
+      "variablename": "Aineen tai tarvikkeen määrä ensisijaisessa mittayksikössä eli määrä1",
+      "conceptdef": "Ostettujen aineiden ja tarvikkeiden määrä tai kokonaiskäyttö mittayksikön mukaisesti, ks. panostyyppikoodi. Mittayksiköt vaihtelivat nimikkeittäin. \n\nLähes 40 eri mittayksikköä on käytössä. Tämän vuoksi määrätietojen summaaminen on rajoitettua. Mittayksiköt voivat kuvata painoa tai pituutta, alaa, kapasiteettia, lukumäärää, energiaa, kaloreita jne.\n\nTilastovuodesta 2019 alkaen määrätietoja ei ole enää kysytty.\n\nTiedustelu koskee vain Suomessa tapahtuneen teollisuustuotannon aineita ja tarvikkeita.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuotanArvo",
+      "variablename": "Ostojen arvo",
+      "conceptdef": "Aineiden ja tarvikkeiden ostoarvo yritykseen toimitettuna ilman arvonlisäveroa. Omilla autoilla tapahtuneiden kuljetusten kustannuksia ei kuitenkaan sisällytetä ostoarvoon. Ostojen arvokenttä on määritelmällisesti tyhjä, kun panostyyppikoodi=”2”.\n\nOstetuilla aineilla ja tarvikkeilla tarkoitetaan kalenterivuonna, teollisuustuotannossa tavaroiden valmistusta varten, oikeudellisen yksikön (Y-tunnus) ulkopuolelta ostettuja aineita ja tarvikkeita:\n- raaka-aineita,\n- puolivalmisteita,\n- lisäaineita ja\n- tarvikkeita.\n\nTiedonkeruussa ilmoitetaan kalenterivuoden aikana yrityksen (oikeudellisen yksikön) ulkopuolelta ostetut aineet ja tarvikkeet riippumatta niiden käyttövuodesta.\n\nTiedustelu koskee vain Suomessa tapahtuneen teollisuustuotannon aineita ja tarvikkeita.\n\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TuotanTietoVarmuus",
+      "variablename": "Panostiedon varmuus tai käsittelyn tilanne",
+      "conceptdef": "Muodostetaan ohjelmallisesti tai manuaalisesti uuden havainnon luonnin tai havainnon päivityksen yhteydessä.\n\n1 = Tieto saatu normaalisti\n2, Z, tieto puuttuu = Hyväksytty\n3 = Manuaalisesti arvioitu\n5 = Epävarma tieto (nimike, arvo tai määrä)\n4, 6, 8, 9 = Määrätieto arvioitu\n\nPuuttuvia yksittäisiä arvo- ja määrätietoja on arvioitu manuaalisesti aikaisempien vuosien tietojen sekä muista tilastoista ja lähteistä saatavilla olevien tietojen perusteella. \n\nOhjelmallinen määrätiedon arviointi on perustunut keskihintamenetelmään. Siinä keskihinta on laskettu nimikkeittäin sellaisista vastauksista, joissa on ollut sekä ostojen arvo- että määrätiedot. Kun näiden ns. täysien vastauksien ostojen arvosumma on ollut vähintään tietty prosenttiosuus kyseisen nimikkeen kaikkien vastausten arvosummasta, niin nimikkeen puuttuville määrätiedoille on saatu arvio jakamalla ostojen arvo nimikekohtaisella keskihinnalla. \n\nMäärätiedot kysyttiin viimeisen kerran tilastovuodelta 2017. \n",
+      "measunit": null,
+      "classification": "panostiedvarm_2_2012_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "mitta1ti",
+      "variablename": "Määrän mittayksikkö",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Tol2008Vuosi",
+      "variablename": "Toimipaikan toimiala (TOL2008)",
+      "conceptdef": "Yhdistetty FIRM_PROD-aineistosta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

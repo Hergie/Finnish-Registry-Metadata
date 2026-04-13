@@ -1,0 +1,44 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuodet vuodesta 2005 lähtien. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Vaestorakenne"
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Työvoimakoulutuksen alkupäivämäärä",
+      "conceptdef": "Työvoimakoulutuksen alkupäivämäärä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Työvoimakoulutuksen loppupäivämäärä",
+      "conceptdef": "Työvoimakoulutuksen loppupäivämäärä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Työnhakijarekisteri"
+    },
+    {
+      "identifier": "tyamm",
+      "variablename": "Työllisyyskoulutuksen tyyppi",
+      "conceptdef": "Työllisyyskoulutuksen tyyppi. \n1 = valmentava koulutus \n2 = ammattiin suuntautuva koulutus ",
+      "measunit": null,
+      "classification": "tyollkou_1_1987_01_01",
+      "variablegroups": "Työnhakijarekisteri"
+    }
+  ]
+}

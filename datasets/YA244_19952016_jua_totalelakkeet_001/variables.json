@@ -1,0 +1,60 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi on se kalenterivuosi, jota tilasto koskee.",
+      "measunit": null,
+      "classification": "vuosi_1_2011_07_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "elakelaji_alkuper",
+      "variablename": "Eläkelaji (alkuperäinen)",
+      "conceptdef": "Alkuperäisen aineiston eläkelaji, josta muodostetaan muuttuja eläkelaji.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläkerekisterit"
+    },
+    {
+      "identifier": "aineisto",
+      "variablename": "Aineisto",
+      "conceptdef": "Tieto eläkkeiden lähtöaineistosta.\n31 = Kansaneläkkeet 1995-2002\n32 = Työeläkkeet 1995-2002\n33 = Kansaneläkkeet, taannehtivat 1995-\n34 = Työeläkkeet, taannehtivat 1996-\n35 = Työ- ja kansaneläkkeet, yhteistilastoaineisto 2003-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläkerekisterit"
+    },
+    {
+      "identifier": "elakelaji",
+      "variablename": "Eläkelaji",
+      "conceptdef": "Muodostetaan Tilastokeskuksessa alkuperäisen aineiston koodistosta alla olevan luokituksen mukaisiksi:\n1 = Vanhuuseläke\n2 = Työkyvyttömyyseläke\n3 = Yksilöllinen varhaiseläke\n4 = Työttömyyseläke\n5 = Maatalouden erityiseläke\n6 = Osa-aikaeläke\n7 = Perhe-eläke\n9 = Takuueläke (v.2011 alkaen)",
+      "measunit": null,
+      "classification": "elakelaji_1_99_s",
+      "variablegroups": "Eläkerekisterit"
+    },
+    {
+      "identifier": "alkupvm_elakejakso",
+      "variablename": "Eläkejakson alkamispäivämäärä",
+      "conceptdef": "Koko eläkkeelläolojakson alkamisaika eli se päivä, jolloin henkilö jäi eläkkeelle. Eläkkeelläolojaksolla tarkoitetaan yhtenäistä eläkkeellä oloa. Jos eläkkeessä on välillä aito katkos (esimerkiksi määräaikaisen eläkkeen päättymisen jälkeen), alkuperäinen alkamisaika siirtyy katkoksen jälkeen alkavan eläkkeen alkamispäivään. Esimerkiksi jos henkilö jää työkyvyttömyyseläkkeelle, joka sitten jatkuu vanhuuseläkkeenä ikärajan täyttymisen jälkeen, alkupvm_elakejakso kertoo koko eläkeajan alkamisen ja alkupvm_elakelaji vanhuuseläkkeen alkamisen. Osa-aikaeläke on aina erikseen eli sen jälkeen alkavan eläkkeen alkamispäivä ja alkuperäinen alkamispäivä ovat aina samat.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläkerekisterit"
+    },
+    {
+      "identifier": "alkupvm_elakelaji",
+      "variablename": "Eläkelajin alkamispäivä",
+      "conceptdef": "Nykyisen eläkelajin alkamispäivä eli se päivä, jolloin nykyisen eläkelajin mukainen eläke alkoi. Tieto on mahdollista saada vain työeläkkeille (ETK). Tietoja ei ole toistaiseksi saatavilla millekään vuodelle.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Eläkerekisterit"
+    },
+    {
+      "identifier": "shnro",
+      "variablename": "Suojattu Tilastokeskuksen henkilönumero",
+      "conceptdef": "Suojattu Tilastokeskuksen henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

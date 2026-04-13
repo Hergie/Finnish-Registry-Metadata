@@ -1,0 +1,164 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_astunnus_s",
+      "variablename": "Suojattu yhtymän Y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu osakkaan yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä. Korvaa muuttujan shnro_astunnus2.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun_astunnus2_s",
+      "variablename": "Suojattu osakkaan Y-tunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "astunnus2_s",
+      "variablename": "Suojattu osakkaan muu tunnus",
+      "conceptdef": "Sis. mm. epävalideja hetuja tai muita ilmoitettuja linkittymättömiä tunnuksia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yhtiomies",
+      "variablename": "Yhtiömieslaji",
+      "conceptdef": "Arvot:\n1 = äänetön yhtiömies\n2 = vastuunalainen yhtiömies \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansal",
+      "variablename": "Ulkomaalaisen osakkaan kotivaltio",
+      "conceptdef": "Ulkomaisen osakkaan kotivaltio (esim. CZ, JP).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "alkupvm",
+      "variablename": "Osakkuuden alkupäivä",
+      "conceptdef": "Osakkuuden alkupäivä, muotoa PPKKVVVV",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loppupvm",
+      "variablename": "Osakkuuden loppupäivä",
+      "conceptdef": "Osakkuuden loppupäivä, muotoa PPKKVVVV",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maatnim",
+      "variablename": "Osuus maataloustulosta, nimittäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maatoso",
+      "variablename": "Osuus maataloustulosta, osoittaja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutulonim",
+      "variablename": "Osuus tulosta, nimittäjä",
+      "conceptdef": "Vuodesta 2018 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutulooso",
+      "variablename": "Osuus tulosta, osoittaja",
+      "conceptdef": "Vuodesta 2018 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "varalnim",
+      "variablename": "Osuus varallisuudesta, nimittäjä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "varaloso",
+      "variablename": "Osuus varallisuudesta, osoittaja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "metsanim",
+      "variablename": "Osuus metsätalouden tulosta, nimittäjä",
+      "conceptdef": "Vuoteen 2017 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "metsaoso",
+      "variablename": "Osuus metsätalouden tulosta, osoittaja",
+      "conceptdef": "Vuoteen 2017 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutunim",
+      "variablename": "Osuus yhtymän muusta tulosta, nimittäjä",
+      "conceptdef": "Vuoteen 2017 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutuoso",
+      "variablename": "Osuus yhtymän muusta tulosta, osoittaja",
+      "conceptdef": "Vuoteen 2017 asti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "verohoik_2021",
+      "variablename": "Verohallinnon oikeudellinen muoto 2021",
+      "conceptdef": "Verohallinnon oikeudellinen muoto vuoden 2021 lopussa tai viimeisin tiedossa oleva. Mukaan on otettu seuraavat yhtiömuodot:\n10 avoin yhtiö\n11 kommandiittiyhtiö\n12 osakeyhtiö\n\nYritystunnus ei muutu, jos yritys on vaihtanut yhtiömuotoa ay/ky/oy.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

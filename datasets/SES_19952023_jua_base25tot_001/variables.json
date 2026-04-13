@@ -1,0 +1,284 @@
+{
+  "variables": [
+    {
+      "identifier": "VUOSI",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilaston tilastointivuosi. Tässä tiedostossa 1995-2022. Tiedot kuvaavat pääasiassa vuoden viimeistä neljännestä.",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AINE",
+      "variablename": "Aineistotunnus",
+      "conceptdef": "Aineistotunnuksella erotetaan eri tiedonantajalähteet toisistaan. Mahdolliset arvot vv 1995-2022:\n0 - Järjestäytymättömät - palvelualat (TK:n oma otos) \n1 - Elinkeinoelämän keskusliitto - teollisuus (ent. TT) \n2 - Elinkeinoelämän keskusliitto - palvelualat (ent. PT)\n 3 - Elinkeinoelämän keskusliitto - autoliikenne (ent. PT); \n4 - Autoalan keskusliitto (EK/AKL);\n5 - Valtion liikelaitokset (aineistossa vain 1995-98); \n6 - Energia-alan kuukausipakkaiset (ENL, aineistossa vain 1995-96); \n7 - Avaintyönantajat ry (AVAINTA, ent. PTY, aineistossa 2001 läht.); \n8 - Järjestäytymättömät - teollisuusalat (TK:n oma otos); \n9 - Kirkon työmarkkinalaitos (KIT); \nA - Näyttämöväen vanhuudenturvasäätiö (aineistossa 1996 läht.); \nB - Elinkeinoelämän keskusliitto - yksityinen opetusala (,ent. PT)\nF - Elinkeinoelämän keskusliitto - Kiinteistötyönantajat ry (ent. PT, aineistossa 1996 läht); \nG - PT Siivouspalvelut (nyk. EK,ent. PT, aineistossa 1998 läht);  \nH - Tietojenkäs. palveluala TIPAL (PT, aineistossa vain 1998-2002);  \nJ - Työterveyslaitoksen henkilöstö (PT, aineistossa vain 1999-2005);  \nK - Kunnat ja kuntayhtymät;\nL - Kirkon lastenohjaajat (KISV, aineistossa 1999-2002, muina vuosina AINE=9);\nN - PTY opetusala (aineistossa 2001-2006 ja 2014-2015)\nP - Palkka.fi -aineisto (2014-).\nR - Järjestäytymättömät - yksityinen opetusala (TK:n oma otos, aineistossa vain 2003-04); \nV - Valtio valtion (budjettitalouteen sisältyvät työ- ja virkasuhteet)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PMUOTO",
+      "variablename": "Palkkausmuoto",
+      "conceptdef": " Kertoo työsuhteen palkkausmuodon. Mahdolliset arvot: \n1 - Kuukausipalkkainen\n2 - Tuntipalkkainen",
+      "measunit": null,
+      "classification": "palkkarakenne_4_2001_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "RYHMA",
+      "variablename": "Palvelussuhteen luonne",
+      "conceptdef": "Palvelussuhteen luonne kuvaa palkansaajan ja työnantajan välistä oikeudellista suhdetta. Palkkatilastoissa palvelussuhteen luonne on joko vakinainen / toistaiseksi voimassaoleva tai määräaikainen. Lisäksi palvelussuhteen luonteeseen voi liittyä muita määreitä, kuten harjoittelija, oppisopimusoppilas, vammainen tai työllisyysvaroin palkattu.\n\nTieto saadaan yleensä suoraan palkkatilastojen tiedusteluista. Palkkarakennetilastossa tietoa työllisyysvaroin palkatuista täydennetään työ- ja elinkeinoministeriön työnhakijarekisteristä.\n\nYksityisen sektorin palkkatilastoissa vastaava käsite on työsuhteen luonne. \n\nVrt. työvoimatutkimuksen epätyypillinen työ (määräaikainen ja/tai osa-aikainen)\n\nMuuttuja-arvot (palkkarakenne_9_20060101-luokituksen mukaan): \n1 Vakituinen\n2 Määräaikainen\n3 Oppilas / harjoittelija\n4 Oppisopimuksella\n5 Yksityisellä sektorilla vajaatyökykyinen ja julkisella sektorilla työllistetty\n6 Avainta-aineiston tukityölliset (vuodesta 2016 lähtien, sitä ennen koodi 6 = tuntematon). \n7 Palkka vain osalta kuukautta kuntasektorin aineistossa ja Kirkon aineistossa poikkeava palkkaus\nS Sivutoiminen kuntasektorin aineistossa\n0 Tuntematon\n9 Tuntematon\nA Tuntematon\nH Tuntematon.\n. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SHNRO",
+      "variablename": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu Tilastokeskuksen henkilönumero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus (alkuperäinen suojaamaton yritystunnus ilman väliviivaa).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "STPTUN",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Suojattu toimipaikkatunnus. \n\nAlkuperäisen suojaamattoman tunnuksen osalta pätee sektoreittain seuravaa:\n\n1. Yksityinen sektori: Yrityksen toimipaikan tunniste. Tieto saadaan YTY:stä. \n\n2.Kuntasektorin aineisto: TMPTUN-kenttään viety PYKSTUN vuodesta 2016 lähtien. Huomionarvoista se, että kuntasektorin aineistossa PYKSTUN on merkinnyt ja merkitsee edelleen toimipaikkatunnusta. \n\n3. Valtion aineisto: TMPTUN-kenttään viety PYKSTUN vuodesta 2016 lähtien. TMPTUN-kenttää käytetään paikallisyksikkötietojen muodostamisessa ja toimipaikkatietojen yhdistelyssä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SPYKSTUN",
+      "variablename": "Suojattu paikallisyksikön tunnus",
+      "conceptdef": "Suojattu paikallisyksikön tunnus. Alkuperäisen suojaamattoman tunnuksen osalta pätee sektoreittain seuravaa:\n\n1. Yksityinen sektori: Vuodesta 2014 lähtien kyseessä yrityksen toimipaikkatunnus (TMPTUN) (YTY-järjestelmä toi muutoksia yritysrekisteristä saatavilla oleviin tietoihin). \n2. Paikallishallinnolla (AINE=K) kyseessä on toimintayksikön tunnus (toimipaikka). \n3. Valtion aineisto (AINE=V): tunnus muodostettu virastonumeron ja kuntanumeron perusteella. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRKUNTA",
+      "variablename": "Yrityksen sijaintikunta",
+      "conceptdef": "Tieto yrityksen tai työnantajan sijaintikunnasta. Tieto saadaan yritysrekisteristä tai suoraan palkka-aineistosta. Puuttuvat tiedot on merkattu X:llä tai tuntemattomaksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRTOL",
+      "variablename": "Yrityksen toimiala",
+      "conceptdef": "EU:n NACE-toimialaluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen toimialaluokitus. Vuosina 1995-2001 kyseessä kansallinen TOL95-toimialaluokitus, 2002-2007 kansallinen TOL2002-toimialaluokitus ja 2008-2022 uusin kansallinen TOL2008-toimialaluokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "RNO",
+      "variablename": "Rivinumero (identifioi työnantajakohtaisen työsuhteen)",
+      "conceptdef": "Rivinumeroa käytetään avaimena työsuhteen tunnistamisessa (osa-aikaisella työntekijällä voi olla tilastokuukauden aikana useampi kuin yksi työsuhde). Rivinumero on työnantajakohtainen juokseva numero tilastoiduille työsuhteille.",
+      "measunit": "lkm",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IKA",
+      "variablename": "Palkansaajan ikä",
+      "conceptdef": "Palkansaajan ikä vuosina. Lasketaan henkilön syntymävuoden mukaan henkilötunnuksen perusteella.",
+      "measunit": "vv",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PLKM",
+      "variablename": "Palkansaajia aineistossa",
+      "conceptdef": "Palkansaajien lukumäärä yrityksessä tai työnantajalla palkka-aineistosta laskien. Lasketaan BASIS0-ehdon täyttävien palkansaajien määrä aineistossa ko. yrityksessä.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PLKMKEH",
+      "variablename": "Palkansaajien lukumäärä",
+      "conceptdef": "Tieto yrityksen palkansaajien lukumäärästä. Tieto saadaan yritysrekisteristä. Kuvaa kokoaikavastaavaa palkansaajaa.",
+      "measunit": "henk.",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SUKU",
+      "variablename": "Palkansaajan sukupuoli",
+      "conceptdef": "Tieto sukupuolesta. Muodostetaan pääasiassa henkilötunnuksen perusteella. Arvot: 1=mies, 2=nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISCO5",
+      "variablename": "ISCO ammattiluokitus",
+      "conceptdef": "Kansainväliseen ISCO-ammattiluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen ammattiluokitus. Ammattiluokituksen pohjana ovat alakohtaiset työnantajien ja Tilastokeskuksen ylläpitämät ammattinimikeluokitukset, jotka on käännösavaimella muokattu sekä kansallisen että kansainvälisen virallisen ammattiluokituksen mukaiseksi. Vuosina 1995-2000 kyseessä kansallinen ammattiluokitus 1997 (AML97), 2001-2010 kansallinen ammattiluokitus 2001 (AML01) ja vuodesta 2011 lähtien uusin kansallinen ammattiluokitus 2010 (AML10).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUTK1",
+      "variablename": "Korkeimman tutkinnon koulutuskoodi",
+      "conceptdef": "Palkansaajan viimeisin ja korkein tutkinto kyseisen tilastovuoden lopussa. Tutkinnot poimitaan Tilastokeskuksen tutkintorekisteristä prioriteettikentän korkeimman prioriteettiarvon mukaan. Tutkintokoodina on kyseisen ajankohdan kansallisen tutkintokoodin (TK:n koulutusluokitus) versio, joka perustuu viimeisimpään kansainväliseen ISCED-koulutusluokitustandardiin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUTK2",
+      "variablename": "Toiseksi korkein tutkinto",
+      "conceptdef": "Tieto palkansaajan toiseksi korkeimmasta tutkinnosta. Tieto tuodaan Tilastokeskuksen tutkintorekisteristä henkilötunnuksen avulla. Valitaan tutkintorekisteristä henkilölle seuraava korkein tutkinto, joka ei ole samalla koulutusalalla kuin ensimmäinen tutkinto (TUTK1).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BASIS0",
+      "variablename": "Lukumäärärajaus",
+      "conceptdef": "Rajausehto palkansaajien lukumääriä laskettaessa. Arvo=1 tietueilla, jotka otetaan mukaan palkansaajien käypiä lukumääriä laskettaessa. Muuten arvo=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BASIS1",
+      "variablename": "Tuntiansiorajaus",
+      "conceptdef": "Rajausehto kokonaistyöajan tuntiansioita laskettaessa. Arvo=1 tietueilla, jotka otetaan mukaan kokonaistyöajan kokonaistuntiansioita (TUNTIPALKKA) laskettaessa. Muuten arvo=0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BASIS2",
+      "variablename": "Kuukausiansiorajaus",
+      "conceptdef": "Rajausehto. Arvo=1 tietueilla, jotka otetaan mukaan kokonaistyöajan kuukausiansioita (KKPALKKA) koskevissa laskelmissa ja analyyseissä. Muuten arvo=0. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SOPALA",
+      "variablename": "Sopimusala",
+      "conceptdef": "Sopimusalatiedon sisältö sekä tilastollinen laatu tarkistamatta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSAIK",
+      "variablename": "Osa-aikaisuus",
+      "conceptdef": "Työsuhteen koko-  tai osa-aikaisuus. Muodostetaan palvelussuhteen ehtojen tai säännöllisen viikkotyöajan mukaan. Osa-aikaisuuden määrittelyä on muutettu vuoden 2001 tilastossa. Rajana pidetään nykyisin 90 prosenttia alan yleisestä työajasta. \nMahdolliset arvot: \n1 - Kokoaikainen \n2 - Osa-aikainen \nX tai puuttuva tieto - Tuntematon.",
+      "measunit": null,
+      "classification": "palkkarakenne_3_2005_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "VKTA",
+      "variablename": "Säännöllinen viikkotyöaika",
+      "conceptdef": "Palkansaajan henkilökohtainen säännöllinen sovittu viikkotyöaika. Yleensä työ- tai virkaehtosopimuksen mukainen viikkotyöaika. Käsite kattaa säännöllisen työajan tehtyjen tuntien lisäksi myös säännöllisen työajan ei-tehdyt (palkalliset ja palkattomat) poissaolotunnit.",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYOAIKAKK",
+      "variablename": "Kokonaistyöaika",
+      "conceptdef": "Kokonaistyöaika kuukaudessa (4,345*säännöllinen viikkotyöaika + ylityötunnit)",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLIT",
+      "variablename": "Ylityötunnit",
+      "conceptdef": "Palkatut lisä- ja ylityötunnit kuukaudessa. Lisätyötunteja ovat työtunnit,  jotka ylittävät työntekijään sovellettavassa työ- ja työehtosopimuksessa sovitun säännöllisen työajan työtuntimäärän, mutta eivät työaikalain määrittämää säännöllisen työajan enimmäismäärää. Työaikalain mukaisen säännöllisen työajan enimmäismäärän ylittäviä työtunteja kutsutaan ylityötunneiksi.",
+      "measunit": "h",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KKPALKKA",
+      "variablename": "Kuukausiansio",
+      "conceptdef": "Kokonaistyöajan kuukausiansio (ml. luontaisedut). Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina kuukaudessa. Sisältää myös mahdolliset varallaolokorvaukset.Tuntipalkkaisten osalta (Pmuoto=2) käsite on laskennallinen ja muuttujassa ei työpanoksen todellinen vaihtelu ja siten ei myöskään todellisen kuukausiansion vaihtelu kuvaudu todellisessa laajuudessaan, sillä aineistopohjainen tuntiansio kerrotaan kuukausitasolle käyttäen tes/työsopimus-pohjaista teoreettista säännöllisen työajan kuukausituntimäärää kertoimena. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TUNTIPALKKA",
+      "variablename": "Tuntiansio",
+      "conceptdef": "Kokonaistyöajan tuntiansio (ml. luontaisedut ja mahdolliset varallaolokorvaukset). Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina tunnissa. Muodostettu kuukausiansiosta jakamalla kuukausiansio kokonaistyöajan tuntien määrällä. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLIP",
+      "variablename": "Ylityöansiot",
+      "conceptdef": "Yli- ja lisätyöajalta maksetut palkat euroina kuukaudessa. Muuttuja kattaa koko lisä- ja ylityötunneilta (YLIT) maksetun kokonaispalkan, eli ei siis ainoastaan normaalin tuntipalkan \"päälle\" maksettua erillistä ylityötuntilisää.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VTL",
+      "variablename": "Työaikalisät",
+      "conceptdef": "Vuoro-  ym. työaikalisien euromäärä kuukaudessa. Esimerkiksi vuoro-, yö-, ilta-, viikonloppu- ja arkipyhätyöltä maksetut palkanosat. Kyseessä on lisäosa tai ylimääräinen maksu, ei vuorotyönä tehdyistä tunneista maksettu kokonaiskorvaus.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LED",
+      "variablename": "Luontoisedut",
+      "conceptdef": "Veronalaisten luontoisetujen arvo euroina kuukaudessa. Esimerkiksi auto- tai puhelinetu. Usein kyseessä luontoisedun verotusarvo.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VKORV",
+      "variablename": "Varallaolokorvaukset",
+      "conceptdef": "Varallaoloajan palkat ja muut kokonaisansion lisät, kuten toimenpidepalkkiot euromääräisinä tilastokuukaudelta.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KERTAERAT",
+      "variablename": "Kertaluonteisesti maksettavat palkkaerät/vuosi",
+      "conceptdef": "Kertaluontoisesti maksettavat palkanosat euroina vuodessa. Muuttuja sisältää yhteenlaskettuna lomarahat ja lomakorvaukset, palvelusvuosikorvaukset, kertaluontoisesti maksettavat tulospalkkiot ja muut kertaluontoisesti (lähinnä kerran vuodessa) maksettavat palkanosat (esimerkiksi suhdanneraha). Muuttujan tarkkaa tietosisältöä ei ole tarkastettu.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pykstol",
+      "variablename": "Paikallisyksikön toimiala",
+      "conceptdef": "Paikallisyksikön toimiala.  Tilastokeskuksen virallinen kansallinen toimialaluokitus. Vuosina 1995-2001 kyseessä kansallinen TOL95-toimialaluokitus, 2002-2007 kansallinen TOL2002-toimialaluokitus ja 2008-2022 uusin kansallinen TOL2008-toimialaluokitus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Pykskunta",
+      "variablename": "Paikallisyksikön sijaintikunta",
+      "conceptdef": "Paikallisyksikön sijaintikunta. Kuntatieto vastaa aina kyseisen tilastovuoden kuntakenttää.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

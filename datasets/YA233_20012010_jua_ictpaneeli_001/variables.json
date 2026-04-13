@@ -1,0 +1,252 @@
+{
+  "variables": [
+    {
+      "identifier": "syrtun",
+      "variablename": "Unique firm id",
+      "conceptdef": "Suojattu yritystunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Year",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PC_PCT",
+      "variablename": "% of workers using computers",
+      "conceptdef": "Kuinka suuri osa yrityksen henkilöstöstä käyttää tietokonetta työssään?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTER_PCT",
+      "variablename": "% of workers with access to internet",
+      "conceptdef": "Kuinka suuri osa yrityksen henkilöstöstä käyttää työssään tietokonetta, josta on yhteys internetiin?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EPURCH_PCT",
+      "variablename": "% of orders through internet",
+      "conceptdef": "Kuinka suuri oli yhteensä yrityksen sähköisellä kaupalla (verkkokaupasta, web-lomakkeilla myyjän kotisivuilla tai automaattisella tiedonsiirrolla, EDI:llä) tekemien ostotilausten arvo osuutena yrityksen kaikkien ostojen arvosta? Tieto muutettu luokittelevasta vastauksesta keskiarvoksi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESALES_PCT",
+      "variablename": "% of sales through computer networks (websites or EDI)",
+      "conceptdef": "Kuinka suuri oli internet-tilausten ja EDI:n välityksellä saatujen tilausten osuus liikevaihdosta yhteensä?",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PC",
+      "variablename": "Firm uses computers",
+      "conceptdef": "Yrityksessä käytetään tietokoneita.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTER",
+      "variablename": "Firm has internet",
+      "conceptdef": "Yrityksellä on internet-yhteys.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "WEB",
+      "variablename": "Firm has website",
+      "conceptdef": "Yrityksellä on internet-kotisivut.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EPURCH",
+      "variablename": "Firm orders through computer networks (websites or EDI)",
+      "conceptdef": "Yritys tekee ostotilauksia sähköisellä kaupalla (verkkokaupasta, web-lomakkeilla myyjän kotisivuilla tai automaattisella tiedonsiirrolla, EDI:llä).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ESALES",
+      "variablename": "Firm sells through computer networks  (websites or EDI)",
+      "conceptdef": "Yritys ottaa vastaan tuotteiden tai palvelujen tilauksia internetin kautta tai EDI:llä (myyntitilaukset). Tavanomaisena sähköpostiviestinä kirjoitetut tilaukset eivät ole sähköistä kauppaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "BROAD",
+      "variablename": "Firm has broadband",
+      "conceptdef": "Yrityksellä on kiinteä laajakaistainen (esim. ADSL, SDSL, tai kaapelimodeemi tms., nopeampi kuin perinteinen puhelinmodeemi tai ISDN) internet-yhteys käytössä.\n\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mob",
+      "variablename": "Firm has mobile access to internet",
+      "conceptdef": "Yrityksellä on langaton laajakaistainen internet-yhteys kannettavalla tietokoneella matkapuhelinverkossa tai matkapuhelimella (ns. 3G tai 4G) tai muu hitaampi yhteys matkapuhelinverkon välityksellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERP",
+      "variablename": "Enterprise Resource Planning",
+      "conceptdef": "Yrityksellä on käytössä toiminnanohjausjärjestelmä (ERP-ohjelmisto). Tieto saatavissa vuodesta 2006 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "scmt",
+      "variablename": "Sharing SCM data with suppliers",
+      "conceptdef": "Käyttääkö yritys tietokoneverkkoja (ml. internet) säännölliseen tiedon jakamiseen tavarantoimittajien kanssa (esim. kysyntäennusteita, varastotasoja, tuotantosuunnitelmia, toimitusten etenemistä, tuotesuunnittelun tietoja)? Tieto saatavissa 2006 - 2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "scma",
+      "variablename": "Sharing SCM data with customers",
+      "conceptdef": "Käyttääkö yrityksenne tietokoneverkkoja (ml. internet) säännölliseen tiedon jakamiseen asiakkaiden kanssa (esim. kysyntäennusteita, varastotasoja, tuotantosuunnitelmia, toimitusten etenemistä, tuotesuunnittelun tietoja)? Tieto saatavissa 2006 - 2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "crminf",
+      "variablename": "Share of information with other business functions",
+      "conceptdef": "Yrityksellä on käytössä ohjelmisto asiakastiedon hallinnoimiseen (ns. CRM) siten, että sen avulla voidaan hankkia, tallettaa ja käyttää asiakastietoja muualla yrityksessä. Tieto saatavissa vuodesta 2006 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "crmana",
+      "variablename": "Analyse information for marketing purposes",
+      "conceptdef": "Yrityksellä on käytössä ohjelmisto asiakastiedon hallinnoimiseen (ns. CRM) siten, että asiakastiedoista voidaan tehdä analyysejä markkinointitarkoituksiin (hinnan asetanta, myynnin edistäminen, jakelukanavien valinta jne.). Tieto saatavissa vuodesta 2006 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ITSP",
+      "variablename": "It_specialist",
+      "conceptdef": "Onko yrityksellä omassa henkilökunnassa tietotekniikka-ammattilaisia? Tietotekniikka-ammattilaisella tarkoitetaan henkilöä, jolla on kyky määritellä, suunnitella, kehittää, asentaa, käyttää, tukea, ylläpitää, hallinnoida, arvioida tai tutkia tietotekniikkaa tai tietojärjestelmiä. Tietotekniikka on heidän päätyönsä. Tieto saatavissa vain 2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ITSPT",
+      "variablename": "It_training",
+      "conceptdef": "Tarjosiko yritys koulutusta henkilöstön tietotekniikkataitojen kehittämiseksi tietotekniikan ammattilaisille? Tieto saatavissa vain 2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "XFSP",
+      "variablename": "Outsource_it",
+      "conceptdef": "Teetettiinkö mitään yrityksen tietotekniikka-ammattilaisten taitoja edellyttäviä töitä yrityksen ulkopuolisella työvoimalla (kokonaan tai osittain)? Yrityksen tytäryhtiöiden työntekijät katsotaan tässä omaksi työvoimaksi, ei ulkopuoliseksi työvoimaksi. Tieto saatavissa vain 2006.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autlasva",
+      "variablename": "Receiving e-invoices",
+      "conceptdef": "Yritys käyttää automatisoitua tiedonvaihtoa sähköisten laskujen vastaanottamiseen. Tieto saatavissa 2007-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autlasla",
+      "variablename": "Sending e-invoices",
+      "conceptdef": "Yritys käyttää automatisoitua tiedonvaihtoa sähköisten laskujen lähettämiseen. Tieto saatavissa 2007-2009.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "simyvar",
+      "variablename": "Sales: management of inventory levels",
+      "conceptdef": "Kun yritys vastaanottaa tilauksen asiakkaalta, ovatko relevantit tiedot tilauksesta automaattisesti käytettävissä varastotasojen hallintaan tarkoitetuissa ohjelmistoissa? Automaattisella tiedon jakamisella yrityksen sisällä tarkoitetaan tietojärjestelmään syötettyä tai luettua tietoa, joka on automaattisesti yrityksen eri osien tai eri toimintojen tietojärjestelmien käytössä. Tieto saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "simykir",
+      "variablename": "Sales: accounting",
+      "conceptdef": "Kun yritys vastaanottaa tilauksen asiakkaalta, ovatko relevantit tiedot tilauksesta automaattisesti käytettävissä kirjanpito-ohjelmistoissa? Tieto saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "simytuo",
+      "variablename": "Sales: production or services management",
+      "conceptdef": "Kun yritys vastaanottaa tilauksen asiakkaalta, ovatko relevantit tiedot tilauksesta automaattisesti käytettävissä tuotannon tai palvelujen hallintaan tarkoitetuissa ohjelmistoissa? Tieto saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "simyjak",
+      "variablename": "Sales: distribution management",
+      "conceptdef": "Kun yritys vastaanottaa tilauksen asiakkaalta, ovatko relevantit tiedot tilauksesta automaattisesti käytettävissä jakelun/toimitusten hallintaan tarkoitetuissa ohjelmistoissa? Tieto saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "siosvar",
+      "variablename": "Purchases: management of inventory levels",
+      "conceptdef": "Kun yritys tekee ostotilauksen, ovatko relevantit tiedot ostosta automaattisesti käytettävissä ohjelmistoissa, joita käytetään varastotasojen hallintaan? Tieto saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sioskir",
+      "variablename": "Purchases: accounting",
+      "conceptdef": "Kun yritys tekee ostotilauksen, ovatko relevantit tiedot ostosta automaattisesti käytettävissä ohjelmistoissa, joita käytetään kirjanpitoon? Tieto saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "adengov",
+      "variablename": "Automated Data Exchange for certain purposes",
+      "conceptdef": "Yritys käyttää automatisoitua tiedonvaihtoa tuoteinformaation (esim. luettelot, hinnat jne.) lähettämiseen tai vastaanottoon, kuljetusasiakirjojen lähettämiseen tai vastaanottoon, tai maksutietojen lähettämiseen rahoituslaitoksille. Tieto on saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "adegov",
+      "variablename": "Automated Data Exchange with authorities",
+      "conceptdef": "Yritys käyttää automatisoitua tiedonvaihtoa tietojen lähettämiseen tai vastaanottamiseen viranomaisilta (esim. taloushallinto-ohjelman TYVI-tiedonsiirto). Tieto on saatavissa vuodesta 2007 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

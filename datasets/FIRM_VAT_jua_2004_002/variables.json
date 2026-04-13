@@ -1,0 +1,396 @@
+{
+  "variables": [
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu Y-tunnus",
+      "conceptdef": "Y-tunnus (suojattu ilman välimerkkiä) ei voi sisältää henkilötunnusta. Jos vastaan tulee syötteessä henkilötunnus, se erotetaan muusta aineistosta eikä sitä yksikköä päivitetä tähän tauluuun.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "Vuosi",
+      "variablename": "Vuosi, vvvv",
+      "conceptdef": "Vuosi, vvvv",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnus"
+    },
+    {
+      "identifier": "Kuukausi",
+      "variablename": "Kuukausi / kohdekausi",
+      "conceptdef": "Kohdekausi, jota ilmoitus koskee. Koodit: \n \nKuukausi-ilmoittajilla 01-12,\nNeljännesvuosi-ilmoittajilla 01-04,\nVuosi-ilmoittajilla ja poronhoitovuosi-ilmoittajilla blankko.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "tunnus"
+    },
+    {
+      "identifier": "lv_Saantikoodi",
+      "variablename": "Liikevaihdon saantikoodi",
+      "conceptdef": "Liikevaihdon saantikoodi, 9=alkuperäinen tieto, 7=arvioverotettu ja 6=korjattu",
+      "measunit": null,
+      "classification": "saantik_2_1995_01_01",
+      "variablegroups": "aputiedot_tekniset, alv"
+    },
+    {
+      "identifier": "pa_Saantikoodi",
+      "variablename": "Palkkasumman saantikoodi",
+      "conceptdef": "Palkkasumman saantikoodi, 9=alkuperäinen tieto, 7=arvioverotettu ja 6=korjattu.",
+      "measunit": null,
+      "classification": "saantik_2_1995_01_01",
+      "variablegroups": "aputiedot_tekniset, ta"
+    },
+    {
+      "identifier": "Tilastointikoodi",
+      "variablename": "Tilastointikoodi: 1 = laskennan mielessä validi tapaus / tieto, muulloin blankkoa tai Z",
+      "conceptdef": "Tilastointikoodi: 1 = laskennan mielessä validi tapaus / tieto, muulloin blankkoa tai Z",
+      "measunit": null,
+      "classification": "til_koodi_2_1995_01_01",
+      "variablegroups": "aputiedot_tekniset"
+    },
+    {
+      "identifier": "AlvJakso",
+      "variablename": "Arvonlisäverotietojen ilmoitusjakso (1/2010 lähtien)",
+      "conceptdef": "Arvonlisäverotietojen ilmoitusjakso (1/2010 lähtien), kooditus: \n\nK = kuukausi,\nQ = 1/4-vuosi (quarter),\nV = vuosi (kalenterivuosi),\nP = paliskunta, poronhoitovuosi,\nZ tai tyhjä = tieto puuttuu.\n  \nArvonlisäverotietoja ilmoittaa yritys tai muu toimija, joka on liiketoiminnasta arvonlisäverovelvollinen. Arvonlisäverovelvollisia ovat kaikki, jotka harjoittavat liiketoiminnan muodossa tavaroiden tai palveluiden myyntiä, vuokrausta tai niihin rinnastettavaa toimintaa.",
+      "measunit": null,
+      "classification": "ilmoitusjakso_2_2010_01_01",
+      "variablegroups": "alv, jakso"
+    },
+    {
+      "identifier": "Liikevaihto",
+      "variablename": "Kokonaisliikevaihto",
+      "conceptdef": "Kokonaisliikevaihto, summattuna seuraavasti: Liikevaihto = lv_Myynti1 + lv_Myynti2 + lv_Myynti3 (+ lv_Myynti4) + lv_EUTavaraMyynti + lv_EUPalvMyynti + lv_Veroton + lv_RakenPalvMyynti. \n\nHuom. neljännesvuosi-ilmoittajilla ja vuosi--ilmoittajilla liikevaihdon alaerät eivät summaudu kokonaisliikevaihtoon.Vuosi-ilmoittajien luvut jaetaan kuukausitasolle vastaavalla tavalla kuin neljännesvuosi-ilmoittajien. Neljännesvuosi- ja vuosi-ilmoituksille lasketaan kertoimet eri muuttujille kullekin kuukaudelle. Kertoimien laskennassa käytetään esim. yritysten toimiala/suuruusluokkatietoja. \n\nMikäli vuosi-ilmoittaja on lopettanut kesken vuotta, jaetaan vuosi-ilmoituksen luvut kuukausille vain lopetusajankohtaan asti.\n\nPuuttuva arvo Liikevaihto-muuttujassa tarkoittaa, että yritys ei ole jättänyt alv-ilmoitusta. Jos yritys on jättänyt ilmoituksen, jossa alv-kentät ovat tyhjiä (käytännössä nollia), tulee Liikevaihto-muuttujaan arvoksi nolla.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "lv_Kotimaa",
+      "variablename": "Kotimaan verollinen myynti yhteensä",
+      "conceptdef": "Kotimaan verollinen myynti yhteensä; ks. erittelyt 4 seuraavaa muuttujaa",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv, johdettu"
+    },
+    {
+      "identifier": "lv_Myynti1",
+      "variablename": "Korkeimman verokannan alainen kotimaan myynti (verokanta 24 % hetkellä 03/2016) ",
+      "conceptdef": "Korkeimman verokannan alainen kotimaan myynti (verokanta 24 % hetkellä 03/2016)",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv, johdettu"
+    },
+    {
+      "identifier": "lv_Myynti2",
+      "variablename": "2. korkeimman verokannan alainen kotimaan myynti (verokanta 14 % hetkellä 03/2016)",
+      "conceptdef": "2. korkeimman verokannan alainen kotimaan myynti (verokanta 14 % hetkellä 03/2016)",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv, johdettu"
+    },
+    {
+      "identifier": "lv_Myynti3",
+      "variablename": "3. korkeimman verokannan alainen kotimaan myynti (verokanta 10 % hetkellä 03/2016)",
+      "conceptdef": "3. korkeimman verokannan alainen kotimaan myynti (verokanta 10 % hetkellä 03/2016)",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv, johdettu"
+    },
+    {
+      "identifier": "lv_Myynti4",
+      "variablename": "4. korkeimman verokannan alainen kotimaan myynti (ei ole hetkellä 03/2016)",
+      "conceptdef": "4. korkeimman verokannan alainen kotimaan myynti (ei ole hetkellä 03/2016)",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv, johdettu"
+    },
+    {
+      "identifier": "lv_EUTavaraMyynti",
+      "variablename": "Tavaroiden myynnit muihin EU-maihin (EU-tavaramyynnit / EU-toimitukset)",
+      "conceptdef": "Tavaroiden myynnit muihin EU-maihin (EU-tavaramyynnit), lomakkeen kohta 311. \n  \nTietoa voidaan käyttää tullin Tavaroiden ulkomaankauppatilaston täydentäjänä sisäkaupan viennin (toimitusten) osalta erityisesti pienimmillä vientiyrityksillä kalenterivuoden aikana.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "lv_EUPalvMyynti",
+      "variablename": "Palveluiden myynnit muihin EU-maihin (1/2010 lähtien) (EU-palvelumyynnit)",
+      "conceptdef": "Palveluiden myynnit muihin EU-maihin (1/2010 lähtien) (EU-palvelumyynnit), lomakkeen kohta 312",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "lv_Veroton",
+      "variablename": "Arvonlisäveroton liikevaihto (0-verokannan alainen myynti)",
+      "conceptdef": "Arvonlisäveroton myynti eli liikevaihto (0-verokannan alainen myynti), lomakkeen kohta 309. Näihin liittyvistä ostoista on vähennysoikeus arvonlisäverotuksessa. \n  \nKausiveroilmoituksella ei ilmoiteta myyntiä, joka liittyy *** arvonlisäverotuksen ulkopuolelle jäävään toimintaan ***. Arvonlisäverotuksen ulkopuolelle jäävät esim. kiinteistöjen ja osakehuoneistojen myynti, terveyden- ja sairaanhoitopalvelut sekä sosiaalihuoltopalvelut. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "lv_RakenPalvMyynti",
+      "variablename": "Rakentamispalvelun ja romualan myynnit (käännetty verovelvollisuus) (4/2011 lähtien)",
+      "conceptdef": "Rakentamispalvelun ja romualan myynnit (käännetty verovelvollisuus) (4/2011 lähtien), lomakkeen kohta 319. 1.1.2015 alkaen myös romualan käännettyä verovelvollisuutta koskevat tiedot (metalliromun myynnit) ilmoitetaan tässä. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "RakenPalvOstot",
+      "variablename": "Rakentamispalvelun ja romualan ostot (käännetty verovelvollisuus) (4/2011 lähtien)",
+      "conceptdef": "Rakentamispalvelun ja romualan ostot (käännetty verovelvollisuus) (4/2011 lähtien), lomakkeen kohta 320. 1.1.2015 alkaen myös romualan käännettyä verovelvollisuutta koskevat tiedot (metalliromun ostot) ilmoitetaan tässä. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "RakenPalvOstotVero",
+      "variablename": "Vero rakentamispalvelun ja romualan ostoista (käännetty verovelvollisuus) (4/2011 lähtien)",
+      "conceptdef": "Vero rakentamispalvelun ja romualan ostoista (käännetty verovelvollisuus) (4/2011 lähtien), lomakkeen kohta 318. 1.1.2015 alkaen myös romualan käännettyä verovelvollisuutta koskevat tiedot (metalliromun vero) ilmoitetaan tässä. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "EUTavaraOstot",
+      "variablename": "Tavaraostot muista EU-maista (EU-tavaraostot /EU-hankinnat)",
+      "conceptdef": "Tavaraostot muista EU-maista (EU-tavaraostot), lomakkeen kohta 313. \n \nTietoa voidaan käyttää tullin Tavaroiden ulkomaankauppatilaston täydentäjänä sisäkaupan tuonnin (hankintojen) osalta erityisesti pienimmillä tuontiyrityksillä kalenterivuoden aikana.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "EUPalvOstot",
+      "variablename": "Palveluostot muista EU-maista (1/2010 lähtien) (EU-palveluostot)",
+      "conceptdef": "Palveluostot muista EU-maista (1/2010 lähtien) (EU-palveluostot), lomakkeen kohta 314",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "EUTavaraOstotVero",
+      "variablename": "Vero tavaraostoista muista EU-maista",
+      "conceptdef": "Vero tavaraostoista muista EU-maista, lomakkeen kohta 305",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "EUPalvOstotVero",
+      "variablename": "Vero palveluostoista muista EU-maista (1/2010 lähtien)",
+      "conceptdef": "Vero palveluostoista muista EU-maista (1/2010 lähtien), lomakkeen kohta 306",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "VahennVero",
+      "variablename": "Kohdekauden vähennettävä vero (alv), lomakkeen kohta 307. Voi olla myös negatiivinen.",
+      "conceptdef": "Kohdekauden vähennettävä vero eli vähennyskelpoisten arvonlisäverojen (alv) yhteismäärä, lomakkeen kohta 307. Vähennyskelpoisia ovat sellaiset arvonlisäverot, jotka sisältyvät arvonlisäverollista toimintaa varten ostettuihin tavaroihin ja palveluihin. Tähän sisältyy myös rakennus- ja romualan käännetyn verovelvollisuuden alaiset arvonlisäverot.  \n\nVoi olla myös negatiivinen, jos vähennettävä arvonlisävero on suurempi kuin myynnin vero. Yritys saa tällöin arvonlisäveron palautusta. (Palautettavan arvonlisäveron voi vähentää maksettavista työnantajasuorituksista tai muista verotiliveroista).  \n \nPalautettava vero kirjataan verotilille kuitenkin vasta, kun Verohallinto on sen hyväksynyt. \n  \nJos Verohallinto hylkää kausiveroilmoituksella ilmoitetun negatiivisen arvonlisäveron tai hyväksyy sen vain osittain, yritys saa asiasta erillisen päätöksen. Jos yritys oli jo vähentänyt veron muista eräpäivänä maksamistaan verotiliveroista, yrityksen on maksettava hylätyn palautuksen määrä ja laskettava sille viivästyskorkoa alkuperäisestä eräpäivästä maksupäivään asti.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "lv_Alarajahuoj",
+      "variablename": "Alarajahuojennukseen oikeuttava liikevaihto (1/2010 lähtien)",
+      "conceptdef": "Alarajahuojennukseen oikeuttava liikevaihto (1/2010 lähtien) (arvonlisäveron alarajahuojennukseen oikeutettu täyttää), lomakkeen kohta 315",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "AlarajahuojVero",
+      "variablename": "Alarajahuojennukseen oikeuttava vero (1/2010 lähtien)",
+      "conceptdef": "Alarajahuojennukseen oikeuttava vero (1/2010 lähtien) (arvonlisäveron alarajahuojennukseen oikeutettu täyttää), lomakkeen kohta 316",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "AlarajahuojMaara",
+      "variablename": "Alarajahuojennuksen määrä (1/2010 lähtien)",
+      "conceptdef": "Alarajahuojennuksen määrä (1/2010 lähtien) (arvonlisäveron alarajahuojennukseen oikeutettu täyttää), lomakkeen kohta 317",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "Alkutuottaja",
+      "variablename": "Tieto alkutuottajailmoituksen antajasta -koodi (1/2010)",
+      "conceptdef": "Tieto alkutuottajailmoituksen antajasta -koodi (1/2010): Koodit: \n  \nA = alkutuottajan vuosi-ilmoitus (yhteys tuloverotukseen), \nP = paliskunnan alv-ilmoitus, \ntyhjä tai Z = ei alkutuottajan ilmoitus eikä vuosivalvottavana alkutuottajana olevan ilmoitus.",
+      "measunit": null,
+      "classification": "alkutuottaja_2_2010_01_01",
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "AlvToiminta",
+      "variablename": "ALV-toiminta kyseisenä kohdekuukautena",
+      "conceptdef": "Tilanne arvonlisäverollisen liiketoiminnan (ALV-toiminta) suhteen kyseisenä tilastokautena (oliko toimintaa). Luokitusliitoksessa oleva luokitus on oikea. ***** \n  \ntyhjä / Z / 0  = asiakkaalla ei alv-toimintaa kohdekaudella,\n1, 6 = on alv-toimintaa (palautettu kausiveroilmoitus, jossa on lukuja).\n  \nPäätelty ilmoitetun 'Ei alv-toimintaa' -kohdekauden alkukuukaudesta ja -vuodesta sekä päättymiskuukaudesta ja -vuodesta.  \n  \nTiedot on pääsääntöisesti ilmoitettava säännöllisesti, oman ilmoitus- ja maksujakson mukaisesti. Jos alv-toimintaa ei ole ollut, on tiedonantajan täytettävä kohta 'Ei alv-toimintaa'. Pelkkä tyhjä kausiveroilmoitus ei riitä. Keskeytyksestä voi ilmoittaa myös etukäteen enintään 6 kuukaudeksi (tai seuraavilta 2 vuosineljännekseltä) kerrallaan.\n\nKeskeytystä vastaa tilanne, jossa perustetun yrityksen toimintaa ei ole vielä aloitettu.\n \nEtukäteen ilmoitetun keskeytysjakson ajalta annetaan kausiveroilmoitus, jos alv-toimintaa on kuitenkin ollut.\n\n- - - - - \nOn täysin eri asia tehdä erillinen toiminnan lopettamisilmoitus Yritys- ja yhteisötietojärjestelmään (www.ytj.fi). Tässä on käytössä muutos- ja lopettamisilmoituslomake.",
+      "measunit": null,
+      "classification": "alv_toiminta_2_2010_01_01",
+      "variablegroups": "alv, johdettu, toiminta"
+    },
+    {
+      "identifier": "AlvPvm",
+      "variablename": "Alv-tietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety verohallinnon tietokantaan",
+      "conceptdef": "Alv-tietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety verohallinnon tietokantaan kausivalvonnassa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "AlvTila",
+      "variablename": "Kohdekauden ALV-tietojen valvontatilakoodi (1/2010 lähtien)",
+      "conceptdef": "Kohdekauden ALV-tietojen valvontatila (1/2010 lähtien), koodit: \n\nK = kesken, \nV = valmis laskentaan, \nL = loppuunkäsitelty, \ntyhjä tai Z = ei ilmoitettu ALV-tietoja (tieto puuttuu)",
+      "measunit": null,
+      "classification": "alv_tila_2_2010_01_01",
+      "variablegroups": "alv, johdettu, tila"
+    },
+    {
+      "identifier": "Alitilitys",
+      "variablename": "Alitilityspisteet yrityksellä -koodi (vain työnantajasuorituksissa, vain Y-tunnuksellisilla)",
+      "conceptdef": "Alitilityspisteet yrityksellä (vain työnantajasuorituksissa, vain Y-tunnuksellisilla). Tiedon koodit: \nA = yrityksellä on / on ollut alitilityspisteitä viimeisen 6 kk:n aikana, \nmuutoin Z tai blankkoa.\n \nKaikki ne rivit (tietueet), joissa Y-tunnus oli sama, on laskettu yhteen kausiveroilmoituksen työnantajasuoritusten osalta. \n \n\n",
+      "measunit": null,
+      "classification": "alitil_2_2010_01_01",
+      "variablegroups": "ta, johdettu"
+    },
+    {
+      "identifier": "TaJakso",
+      "variablename": "Työnantajasuoritusten ilmoitusjakso (1/2010 lähtien)",
+      "conceptdef": "Työnantajasuoritusten ilmoitusjakso (1/2010 lähtien). Kooditus: \n\nK = kuukausi-ilmoittaja, \nQ = neljännesvuosi-ilmoittaja (quarter), \nZ tai tyhjä = tieto puuttuu.\n  \nSäännöllisen työnantajan on ilmoittauduttava verohallinnon työnantajarekisteriin. Säännöllinen työnantaja maksaa vakituisesti palkkaa vähintään kahdelle tai useammalle palkansaajalle taikka maksaa samanaikaisesti palkkaa vähintään 6 tilapäiselle / lyhyaikaiselle palkansaajelle. \n  \nSatunnaisesti palkkoja maksavaa työnantajaa ei merkitä työnantajarekisteriin, ellei tämä itse sitä halua. Esim. vain yksi vakituinen työntekijä tai 1-5 työntekijää, joiden työsuhde ei kestä koko kalenterivuotta. Verokausi on kalenterikuukausi.",
+      "measunit": null,
+      "classification": "ilmoitusjakso_3_2010_01_01",
+      "variablegroups": "jakso, ta"
+    },
+    {
+      "identifier": "Palkkasumma",
+      "variablename": "Palkkasumma",
+      "conceptdef": "Palkkasumma, saadaan summattuna (erotuksena) seuraavasti: Palkkasumma = PalkatSosTurv - PalkatLahdevero. Tämä on pääsääntö, mutta on olemassa poikkeuskäsittelyjä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "PalkatSosTurv",
+      "variablename": "Sosiaaliturvamaksun alaiset palkat (1/2010 lähtien)",
+      "conceptdef": "Sosiaaliturvamaksun alaiset palkat (1/2010 lähtien), lomakkeen kohta 609. Yritys laskee itse tästä summasta työnantajan sosiaaliturvamaksun %-perusteisena ja ilmoittaa maksun lomakkeen kohdassa 610 eli tietona SosTurvMaksu.\n   \nTietoon on summattu asiakkaan kaikki voimassa olevat ilmoitukset, siis myös lisäys- ja vähennysilmoitukset samaa kohdekautta koskeviin ilmoituksiin. (Passivoitujen ilmoitusten tietoja ei summata.) Myös alitilityspisteiden kausiveroilmoitukset on luonnollisesti summattu. \n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "PalkatLahdevero",
+      "variablename": "Lähdeveron alaiset palkat ja muut suoritukset",
+      "conceptdef": "Lähdeveron alaiset palkat, palkkiot ja eläkkeet, lomakkeen kohta 605.\n  \nTietoon on summattu asiakkaan kaikki voimassa olevat ilmoitukset, siis myös lisäys- ja vähennysilmoitukset samaa kohdekautta koskeviin ilmoituksiin. (Passivoitujen ilmoitusten tietoja ei summata.) Myös alitilityspisteiden kausiveroilmoitukset on luonnollisesti summattu.\n1/2019 alkaen on aina 0,00, koska palkkoja muita suorituksia ei enää eritellä ennakonpidätyksen alaisiin ja lähdeveron alaisiin. \n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "PalkatEnnakonpid",
+      "variablename": "Ennakonpidätyksen alaiset palkat ja muut suoritukset (1/2010 lähtien)",
+      "conceptdef": "Ennakonpidätyksen alaiset palkat, palkkiot ja eläkkeet (1/2010 lähtien), lomakkeen kohta 601. Riippumatta siitä, maksetaanko niiden perusteella sosiaaliturvamaksua vai ei. Palkka myös silloin, kun siitä ei toimiteta ennakonpidätystä esim. palkan pienuuden vuoksi tai koska palkka maksetaan ainoastaan luontoisetuna tai koska saajan ennakonpidätysprosentti on nolla (ns. nollaverokortti).  \n  \nTyönantajasuorituksiin luetaan palkkojen, palkkioiden ja eläkkeiden lisäksi myös työ- ja käyttökorvaukset. Luonnolliselle henkilölle (toiminimelle) tai yhtymälle (esim. avoin yhtiö, kommandiittiyhtiö) maksetuista työ- ja käyttökorvauksista on toimitettava ennakonpidätys, jos korvauksen saajaa ei ole merkitty ennakkoperintärekisteriin. Nämäkin työ- ja käyttökorvaukset ilmoitetaan kausiveroilmoituksen kohdassa 601. Korvaukset merkitään bruttomääräisinä vähentämättä arvonlisäveroa tai työmatkakustannusten korvauksia. \n  \nTietoon on summattu asiakkaan kaikki voimassa olevat ilmoitukset, siis myös lisäys- ja vähennysilmoitukset samaa kohdekautta koskeviin ilmoituksiin. (Passivoitujen ilmoitusten tietoja ei summata.) Myös alitilityspisteiden kausiveroilmoitukset on luonnollisesti summattu. ",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "SosTurvMaksu",
+      "variablename": "Maksettava työnantajan sosiaaliturvamaksu",
+      "conceptdef": "Maksettava työnantajan sosiaaliturvamaksu. lomakkeen kohta 610. \n \nJos lomakkeen kohdassa 601 eli tietona PalkatEnnakonpid, Ennakonpidätyksen alaiset palkat ja muut suoritukset, on vain sellaisia suorituksia, joiden perusteella ei makseta sosiaaliturvamaksua, merkitään lomakkeen kohtiin 609 (PalkatSosTurv, Sosiaaliturvamaksun alaiset palkat) ja 610 (*** tämä tieto SosTurvMaksu ***, Maksettava työnantajan sosiaaliturvamaksu) nollat.\n\n04/2020 lähtien ei sisällä tietoa, koska tätä tietoa ei haeta tulorekisteristä.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "Lahdevero",
+      "variablename": "Lähdevero palkoista, palkkioista ja eläkkeistä",
+      "conceptdef": "Lähdevero palkoista, palkkioista ja eläkkeistä, lomakkeen kohta 606",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "Ennakonpidatys",
+      "variablename": "Toimitettu ennakonpidätys ",
+      "conceptdef": "Kohdekaudelta toimitettujen ennakonpidätysten yhteismäärä, lomakkeen kohta 602",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "TaToiminta",
+      "variablename": "Toiminta työnantajasuoritusten suhteen kyseisenä tilastokuukautena (oliko palkanmaksua)",
+      "conceptdef": "Tilanne työnantajasuoritusten suhteen kyseisenä tilastokautena (oliko palkanmaksua).  Luokitusliitoksessa oleva luokitus on oikea. \n  \ntyhjä / Z / 0  = asiakkaalla ei palkanmaksua kohdekaudella,\n1, 6 = on palkanmaksua (palautettu kausiveroilmoitus, jossa on palkanmaksua eli on ilmoitettu toimitettua ennakonpidätystä, lähdeveroa tai työnantajan sosiaaliturvamaksua palkoista, palkkioista tai eläkkeistä.\n  \nPäätelty ilmoitetun 'Ei palkanmaksua' -kohdekauden alkukuukaudesta ja -vuodesta sekä päättymiskuukaudesta ja -vuodesta. \n    \nTiedot on pääsääntöisesti ilmoitettava säännöllisesti, oman ilmoitus- ja maksujakson mukaisesti. Jos palkanmaksua ei ole ollut, on tiedonantajan täytettävä kohta 'Ei palkanmaksua'.  Pelkkä tyhjä kausiveroilmoitus ei riitä. Keskeytyksestä voi ilmoittaa myös etukäteen enintään 6 kuukaudeksi (tai seuraavilta 2 vuosineljännekseltä) kerrallaan.\n\nKeskeytystä vastaa tilanne, jossa perustetun yrityksen toimintaa ei ole vielä aloitettu.\n \nEtukäteen ilmoitetun keskeytysjakson ajalta annetaan kausiveroilmoitus, jos palkanmaksua on kuitenkin ollut.\n \n- - - - - \nOn täysin eri asia tehdä erillinen toiminnan lopettamisilmoitus Yritys- ja yhteisötietojärjestelmään (www.ytj.fi). Tässä on käytössä muutos- ja lopettamisilmoituslomake. ",
+      "measunit": null,
+      "classification": "ta_toiminta_2_2010_01_01",
+      "variablegroups": "toiminta, ta, johdettu"
+    },
+    {
+      "identifier": "TaPvm",
+      "variablename": "Työnantajasuoritustietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety verohallinnon tietokantaan",
+      "conceptdef": "Työnantajasuoritustietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety verohallinnon tietokantaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ta"
+    },
+    {
+      "identifier": "TaTila",
+      "variablename": "Kohdekauden palkkatietojen valvontatila -koodi (1/2010 lähtien)",
+      "conceptdef": "Kohdekauden palkkatietojen valvontatila (1/2010 lähtien vuoteen 2014 asti), kooditus: \n \nK = käsittely verottajalla kesken, \nV = valmis laskentaan, \nL = loppuunkäsitelty, \nmuuten blankko tai Z.",
+      "measunit": null,
+      "classification": "alv_tila_2_2010_01_01",
+      "variablegroups": "ta, tila"
+    },
+    {
+      "identifier": "TaTilaSosTurv",
+      "variablename": "Kohdekauden sosiaaliturvamaksutietojen valvontatila (1/2010 lähtien)",
+      "conceptdef": "Kohdekauden sosiaaliturvamaksutietojen valvontatila (1/2010 lähtien), kooditus: \n \nK = käsittely verottajalla kesken, \nV = valmis laskentaan, \nL = loppuunkäsitelty, \nmuuten blankko tai Z. 1/2019 lähtien aina 'L'.",
+      "measunit": null,
+      "classification": "alv_tila_2_2010_01_01",
+      "variablegroups": "tila, ta"
+    },
+    {
+      "identifier": "TaTilaLahdevero",
+      "variablename": "Kohdekauden lähdeverotietojen valvontatila -koodi (1/2010 lähtien)",
+      "conceptdef": "Kohdekauden lähdeverotietojen valvontatila -koodi (1/2010 lähtien), kooditus: \n \nK = käsittely verottajalla kesken, \nV = valmis laskentaan, \nL = loppuunkäsitelty, \nmuuten blankko tai Z.\n1/2019 lähtien aina 'L'.",
+      "measunit": null,
+      "classification": "alv_tila_2_2010_01_01",
+      "variablegroups": "ta, tila"
+    },
+    {
+      "identifier": "TaTilaEnnakonpid",
+      "variablename": "Kohdekauden ennakonpidätystietojen valvontatila -koodi (1/2010 lähtien)",
+      "conceptdef": "Kohdekauden ennakonpidätystietojen valvontatila -koodi (1/2010 lähtien), kooditus: \n \nK = käsittely verottajalla kesken, \nV = valmis laskentaan, \nL = loppuunkäsitelty, \nmuuten blankko tai Z.\n1/2019 lähtien aina 'L'.",
+      "measunit": null,
+      "classification": "alv_tila_2_2010_01_01",
+      "variablegroups": "tila, ta"
+    },
+    {
+      "identifier": "AlvMaksuperusteinen",
+      "variablename": "Maksuperusteinen tilitystapa",
+      "conceptdef": "Maksuperusteinen tilitystapa. Arvot: 0 = Ei tai ei ilmoitettu, 1 = Kyllä ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "EuUlkopTuontiTavara",
+      "variablename": "Tavaroiden maahantuonnit EU:n ulkopuolelta",
+      "conceptdef": "Tavaroiden maahantuonnit EU:n ulkopuolelta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alv"
+    },
+    {
+      "identifier": "EuUlkopVeroTavara",
+      "variablename": "Vero tavaroiden maahantuonneista EU:n ulkopuolelta",
+      "conceptdef": "Vero tavaroiden maahantuonneista EU:n ulkopuolelta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "alv"
+    }
+  ]
+}

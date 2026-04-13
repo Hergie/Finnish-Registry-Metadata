@@ -1,0 +1,116 @@
+{
+  "variables": [
+    {
+      "identifier": "Shnro",
+      "variablename": "Suojattu hnro",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DCSN_DATA_OCCUPATION_ID_s",
+      "variablename": "Osapaatoksen lisatty ammattialan yksilollinen suojattu tunnus",
+      "conceptdef": "Te-toimiston Osapäätöksen yksilöllinen tunnus. Osapäätökseen voi liittyä useampia ammattiala, tällaisia tilanteita ovat jossa henkilön työsopimuksessa on merkitty useampi työtehävä samalla työnantajalla. Tällöin dcsn_data_occupation_id on uniikki id. Measure id:n avulla voidaan tunnistaa samaan osapäätökseen lisätyt ammattiala.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MEASURE_ID_s",
+      "variablename": "Suojattu paatosnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CASE_ID_s",
+      "variablename": "Suojattu asianumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CUSTOMER_ID_s",
+      "variablename": "Suojattu asiakasnumero",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOVUOSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILASTOKUUKAUSI",
+      "variablename": null,
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OCCUPATION_FIELD_ID",
+      "variablename": "Ammattialan koodi",
+      "conceptdef": "Ammattialan koodi. Ammattialan nimi löytyy taulusta OCCUPATION_FIELD_ID_TO_NAME. \nNämä ammattiluokitukset ovat Migrin toimittaman luokituksen mukaisia, eivätkä täten linkkaannu muihin ammattiluokituksiin. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "IS_EMPLOYER_SPECIFIC",
+      "variablename": "Onko lupa tyonantajakohtainen",
+      "conceptdef": "Joissain tapauksissa oleskelulupa voidaan myöntää vain yhdellä työnantajalla työskentelemistä varten. Näissä tapauksissa ammattialatieto saattaa puuttua.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEM_MEASURE_CONF_MONTH",
+      "variablename": "Osapaatoksen vahvistusajankohdan kuukausi",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTHORITY_UNIT",
+      "variablename": "Yksikko",
+      "conceptdef": "Osapäätöksen vahvistaneen työntekijän organisaatiotieto; ylätaso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "AUTHORITY_OFFICE",
+      "variablename": "Toimisto",
+      "conceptdef": "Osapäätöksen vahvistaneen työntekijän organisaatiotieto; alataso",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEM_DCSN_TYPE",
+      "variablename": "Osaratkaisun tyyppi",
+      "conceptdef": "Esimerkiksi myönteinen tai kielteinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TEM_DCSN_GROUNDS",
+      "variablename": "Osaratkaisun peruste",
+      "conceptdef": "Esimerkiksi Saatavuusharkinta tai Myönt: Yrittäjä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

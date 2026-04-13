@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "TAX_SUMINCOMES_jua_summatut_palkkatiedot.xml",
+      "doi": "work_2020-08_2020-08-18_ain_0001",
+      "subject": "TAX_SUMINCOMES Tulorekisterin summatut palkkatiedot",
+      "contentdescription": "Tulorekisteri on Verohallinnon ylläpitämä sähköinen tietokanta, jonne ilmoitetaan tiedot maksetuista palkoista, eläkkeistä ja etuuksista. Lisää tietoa tulorekisteristä: https://www.vero.fi/tulorekisteri/tietoa-meist%C3%A4/ \nTässä tutkimuskäyttöön suojatussa tulorekisterin valmisaineistomoduulissa TAX_SUMINCOMES ”Tulorekisterin summatut palkkatiedot” palvelussuhteen kuukausittaiset tiedot on muodostettu valmiiksi. Eli yhden rivin muodostaa vuosi, kuukausi, maksaja, tulonsaaja. Aineistossa on 47 muuttujaa ja vuodessa aineistoon muodostuu yhteensä noin 30 miljoonaa riviä. \n\nAineiston muuttujat on poimittu enimmäkseen suoraan tulorekisterin palkkojen tiedoista (TAX_INCOMES-valmisaineiston taulut delivery, report ja transactionInfo), mutta muutamia johdettuja muuttujia on muodostettu ennen kuin tiedot summataan kuukausitasolle (apu, kokAik, vajaa, minEmploymentStartDate ja KVV). Kaikkia tulolajeja ei ole poimittu erikseen, vaan osa on summattu yhteen. Summat on muodostettu siten, että yksi tulolaji summautuu vain yhden kerran . \n\nTämä valmisaineisto on muodostettu TAX_INCOMES-valmisaineiston rinnalle ”helppokäyttöisemmäksi” palkkatietoaineistoksi. Emme luvita tätä aineistoa käytettäväksi TAX_INCOMES-valmisaineiston kanssa yhdessä ilman hyvin perusteltua syytä. \n\nKaikki maksajat ovat aineistossa mukana tunnustyypistä riippumatta, ja tulonsaajista on pyritty rajaamaan oikeudelliset henkilöt pois. Palautukset ja perusteettomat edut rajataan tulolajeista pois. Tällöin siis ilmoitukset menevät oikein, jos ilmoittaja on ilmoittanut tulorekisteriin molemmat. Toinen tapa tehdä tämä olisi käyttää palautuksen yhteydessä annettavaa tietoa alkuperäisestä maksujaksosta, mutta tämä olisi työläs toteuttaa ja siitä saatavat hyödyt ovat vielä selvittämättä. \n\nSijaismaksajien lähetykset on rajattu pois. Sijaismaksajien toimiessa ilmoitukset tulisi tehdä kahteen kertaan. Yhden tekee sijaismaksaja ja toisen varsinainen työnantaja. Koska datamartissa ei ole tietoa varsinaisesta työnantajasta sijaismaksajan toimiessa, niin on päädytty käyttämään sijaismaksajien osalta vain tulolajeja 321-325, jotka varsinaisen työnantajan tulisi ilmoittaa. Ikävä kyllä on käynyt ilmi, että varsinaiset työnantajat eivät aina tee ilmoitusta. Tämä aiheuttaa pientä katoa palkkasummissa. \n\nAineistoon on muodostettu muuttujat tyoAlku ja tyoLoppu kuvaamaan työjaksojen aloitusta ja lopetusta. Näiden mukaan tiedot jaetaan eri kuukausille. Työnaloitusmuuttuja on maksujakson aloituspäivä, ellei työsuhteen aloitukseksi ole merkitty päivä, joka sijoittuu maksujakson sisään. Vastaavasti työn lopetus on maksujakson loppupäivä, ellei työsuhteen lopetuspäivä ole maksujakson sisällä. \n\n\nTulorekisterin tietoja julkaistaessa on noudatettava henkilötiedoissa kynnyssääntöä (10) ja yrityksissä kynnyssääntöä (5) sekä lisäksi dominanssisääntöä (1,75). Yhdistetyissä työntekijä-työnantaja-aineistoissa on suojattava sekä henkilö- että yritystaso eli kussakin taulukon solussa on oltava työntekijöitä vähintään viidestä eri yrityksestä. Dominanssisääntöä on käytettävä esimerkiksi, jos yhden yrityksen palkkasumma muodostaa yli 75 prosenttia tietyn toimialan (sektorin tms.) yritysten palkkasummasta tai jos esim. tietyn ammattiryhmän palkansaajista yli 75 prosenttia työskentelee jossain tietyssä yrityksessä.\n\nLisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi ja Verohallinnon sivuilta: vero.fi/tulorekisteri\n\n",
+      "coveragetemporal": "2019-01-01 - ",
+      "published_day": "2025-06-13",
+      "variable_count": "53",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Kaikki maksajat ovat aineistossa mukana tunnustyypistä riippumatta, ja tulonsaajista on pyritty rajaamaan oikeudelliset henkilöt pois.",
+      "resourcerelation_1": "Tulorekisteri",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

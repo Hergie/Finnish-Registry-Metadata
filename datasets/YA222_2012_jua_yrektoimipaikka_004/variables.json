@@ -1,0 +1,372 @@
+{
+  "variables": [
+    {
+      "identifier": "YLAJI",
+      "variablename": "Yksikkölaji",
+      "conceptdef": "Oikeudellisen yksikön yksikkölaji eli yksi/monitoimipaikkaisuus.\n Mahdolliset arvot:\n1 = Yksitoimipaikkainen\n2 = Monitoimipaikkainen\n\n  Yksikkölaji saa toimipaikalla aina arvon 3.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VUOSI",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILYKS",
+      "variablename": "Tilastoyksikkö",
+      "conceptdef": "Tilastoyksikkö. \nMahdolliset arvot ovat:\n1 = tulee tilastoon; \nblankko = ei tule tilastoon.  \nTilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuotta tilastovuonna ja jotka ovat työllistäneet enemmän kuin puoli henkilöä tai joiden liikevaihto on ylittänyt vuosittain määritellyn tilastorajan (10 595 euroa vuonna 2012).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TILIMPEX",
+      "variablename": "Tuoja/viejä -tieto",
+      "conceptdef": "Yritystä koskeva tilastovuoden TUOJA/VIEJÄ –tieto. \nMahdolliset arvot ovat:\n\t1 = Tuoja (harjoittaa tuontia)\n\t2 = Viejä (harjoittaa vientiä)\n\t3 = Molempia (harjoittaa tuontia ja vientiä)   \nMääritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin kynnysarvo on 12 000 euroa ja kauppatapahtumia on vähintään kahtena kuukautena vuodessa tai kaupan arvo yli 120 000 euroa (tällöin riittää yksi kauppatapahtuma ko. vuonna). Ennen vuotta 2008 yritysrekisterissä on tuoja/viejätieto niistä yrityksistä, joiden tuonnin tai viennin arvo oli tarkasteluvuonna vähintään 16 000 euroa.Tiedot saadaan Tullista.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SEKTORI",
+      "variablename": "Sektori",
+      "conceptdef": "(Toimipaikan omistavan) oikeudellisen yksikön sektoriluokitus, 2000:n mukainen sektoriluokka.",
+      "measunit": null,
+      "classification": "sektoriluokitus_1_2000_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "OIK",
+      "variablename": "Oikeudellinen muoto",
+      "conceptdef": "Oikeudellisen yksikön (yrityksen) oikeudellinen muoto. \nOikeudellisia muotoja ovat:\n\t\t\t\t11= Luonnollinen henkilö\n\t\t\t\t12= Kuolinpesä, perikunta\n\t\t\t\t13= Verotusyhtymä\n\t\t\t\t14= Avoin yhtiö\n\t\t\t\t15= Konkurssipesä\n\t\t\t\t21= Kommandiittiyhtiö\n\t\t\t\t22= Laivanisännistöyhtiö ( ei osakeyhtiö)\n\t\t\t\t31= Osakeyhtiö\n\t\t\t\t32= Keskinäinen vakuutusyhtiö\n\t\t\t\t33= Säästöpankki\n\t\t\t\t34= Eläkesäätiö tai -kassa, työeläkelaitos, ty\n\t\t\t\t35= Asunto-osakeyhtiö\n\t\t\t\t41= Osuuskunta\n\t\t\t\t51= Säätiö, rahasto\n\t\t\t\t52= Aatteellinen yhdistys\n\t\t\t\t53= Keskinäinen vahinkovakuutusyhdistys\n\t\t\t\t54= Taloudellinen yhdistys\n\t\t\t\t61= Julkinen viranomainen\n\t\t\t\t62= Julkinen liikelaitos\n\t\t\t\t63= Julkisoikeudellinen yhteisö\n\t\t\t\t71= Valtionkirkko\n\t\t\t\t72= Muu uskonnollinen yhteisö\n\t\t\t\t90= Muu oikeudellinen muoto   \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OTY95",
+      "variablename": "Omistajatyyppi",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen yksikön (yrityksen) omistajatyyppi vuoden 1995 luokituksen mukaan. \nOmistajatyyppejä ovat:\n1 = Yksityinen kotimainen\n2 = Valtio\n3 = Kunta\n4 = Ahvenanmaan maakunta\n5 = Ulkomaalaisomisteinen\n6 = Muu omistajatyyppi.  \n\nOTY-luokitus vuoteen 1992 asti:\n1=Yksityinen kotimainen\n2=Valtio\n3=Kunta\n4=Kuntainliitto\n6=Ulkomaalaisten osuus yli 20 %, enintään 50 %\n7=Ulkomaalaisten osuus yli 50 %\n9=Muu omistajatyyppi.  \n\nLuokitukset voi yhdistää esim. seuraavasti:\n1= Yksityinen kotimainen (oty=1 tai oty=6, oty95=1)\n2= Valtio (oty=2, oty95=2)\n3= Kunta (oty=3 tai oty=4, oty95=3)\n5= Ulkomaalaisomisteinen (oty=7, oty95=5)\n6= Muu omistajatyyppi (oty=9, oty95=6)\n\nKonsernirekisteristä saadaan tiedot konserniyritysten ulkomaisista omistussuhteista. Ennen konsernirekisterin perustamista 1995 tiedot tulivat Suomen Pankista. Tällöin pääsääntö oli, että jos ulkomaisen omistuksen osuus oli yli 10%, niin omistajatyyppi sai arvon 5 ulkomaalaisomisteinen.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08YR",
+      "variablename": "Toimialaluokitus 2008",
+      "conceptdef": "Yrityksen toimiala toimialaluokitus TOL 2008:n mukaan. Käytössä tilastovuodesta 2007 alkaen. Erikseen saatavilla 1999 alkaen.  Monitoimipaikkaisen yrityksen päätoimiala määräytyy yrityksen eri toimialoilla toimivissa toimipaikoissa syntyvän arvonlisäyksen perusteella. Arvonlisäys vastaa läheisesti jalostusarvoa. Yrityksen kunkin toimialan arvonlisäys saadaan kertomalla kunkin toimipaikan työllisten määrä toimipaikan toimialan keskimääräisellä arvonlisäyksellä ja suhteuttamalla saatu luku toimipaikan toiminta-aikaan tilastovuoden tilikaudella. Päätoimiala määritellään vaiheittain toimialaluokituksen kirjaintasolta tarkimmalle tasolle. Yrityksen päätoimialaksi määräytyy yleensä sen toimipaikan toimiala, jossa tilikauden arvonlisäys on suurin. Yksitoimipaikkaisella yrityksellä yrityksen ja toimipaikan toimiala on sama.\n\n",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "HK",
+      "variablename": "Henkilöstön lukumäärä",
+      "conceptdef": "Oikeudellisen toimipaikan henkilöstö. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä. Henkilöstö käsittää palkansaajat ja yrittäjät. Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.\nToimipaikoittain yhteenlaskettu henkilöstö eroaa yrityksittäin lasketusta tilastossa. Ero johtuu siitä, että voittoa tavoittelemattomat yhteisöt eivät sisälly yrityksiin, mutta niiden liiketoimipaikat ovat mukana toimipaikkatilastoissa.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKPA",
+      "variablename": "Palkattu henkilöstö",
+      "conceptdef": "Oikeudellisen toimipaikan palkattu henkilöstö. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PASA",
+      "variablename": "Palkattu henkilöstö –tiedon saantilähde",
+      "conceptdef": "Palkattu henkilöstö –tiedon saantilähde. \nKoodit ovat seuraavat:  \nVTIE = 001, 003 (Mtie, Ytie)  \nTIE4 = 004 (Utie)  \nTEY = 051 (Rakennetilasto)  \nEST1= 901 (Summa)  \nEST5= muut  \nEST7 = 220 (ESTPAVV1)  \nbbbb = 902 (Käsin)  \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HKYR",
+      "variablename": "Yrittäjien lukumäärä",
+      "conceptdef": "Yrittäjien lukumäärä oikeudellisessa toimipaikassa. Henkilöstötiedot yhdellä desimaalilla, joten ne on jaettava 10:llä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YRSA",
+      "variablename": "Yrittäjien saantilähde",
+      "conceptdef": "Yrittäjien määrän saantilähde, josta on saatu yrittäjien lukumäärä.  \nKoodit ovat: \nVTIE = 001, 003 (Mtie, Ytie)  \nTIE4  = 004 (Utie)  \nEST1 = 320 (Rakennetilasto)  \nEST = muut  \n bbbb  = 902 (Käsin)  \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY",
+      "variablename": "Yrityksen henkilöstön suuruusluokka",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen yksikön (yrityksen) henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n1\t\t\tHK\t<\t4,5\n2\t  4,5\t<=\tHK\t<\t9,5\n3\t  9,5\t<=\tHK\t<\t19,5\n4\t 19,5\t<=\tHK\t<\t49,5\n5\t 49,5\t<=\tHK\t<\t99,5\n6\t 99,5\t<=\tHK\t<\t199,5\n7\t199,5\t<=\tHK\t<\t499,5\n8\t499,4\t<=\tHK\t<\t999,5\n9\t999,5\t<=\tHK\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LV",
+      "variablename": "Liikevaihto",
+      "conceptdef": "Oikeudellisen toimipaikan liikevaihto. Toimipaikkatason liikevaihtotieto ei ole täysin luotettava.",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVSA",
+      "variablename": "Liikevaihtotiedon saantilähde",
+      "conceptdef": "Liikevaihtotiedon saantilähde. \nKoodit ovat:  \nVTIE = 001, 003 (Mtie, Ytie)  \nEVR = 102 (Verotk)  \nEST= muut  \nbbb = 902 (Käsin) \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLLVY",
+      "variablename": "Yrityksen liikevaihdon suuruusluokka",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen yksikön (yrityksen) liikevaihdon suuruusluokka. \nLuokat ovat:\n\t1\t\t\t\tLV\t<\t           1 000\n\t2\t           1 000\t<=\tLV\t<\t         40 000\n\t3\t         40 000\t<=\tLV\t<\t       100 000\n\t4\t       100 000\t<=\tLV\t<\t       400 000\n\t5\t       400 000\t<=\tLV\t<\t    2 000 000\n\t6\t    2 000 000\t<=\tLV\t<\t  10 000 000\n\t7\t  10 000 000\t<=\tLV\t<\t  40 000 000\n\t8\t  40 000 000\t<=\tLV\t<\t200 000 000\n\t9\t200 000 000\t<=\tLV\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PALKKA",
+      "variablename": "Estimoitu palkka",
+      "conceptdef": "Toimipaikalle (estimoitu) palkka.  Lähde: Yksitoimipaikkaisen yrityksen (YLAJIYR = 1) toimipaikalla palkka on yrityksen palkka. Monitoimipaikkaisen yrityksen (YLAJIYR=2) toimipaikoille estimoidaan palkka jakamalla yritystietueella oleva palkka toimipaikan HKPA:n  ja toimipaikan toimialan keskipalkalla.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKY2",
+      "variablename": "Yrityksen henkilöstön suuruusluokka EU-luokituksen mukaan",
+      "conceptdef": "EU-luokituksen mukainen yrityksen henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n\t01\t\t                                HK\t<    \t    0,5\n\t02\t\t    0,5\t<=\tHK\t<\t    1,5\n\t03\t\t    1,5\t<=\tHK\t<\t    2,5\n\t04\t\t    2,5\t<=\tHK\t<\t    4,5\n\t05\t\t    4,5\t<=\tHK\t<\t    9,5\n\n\t06                                9,5       <=\tHK\t<\t  19,5\n\t07\t\t  19,5\t<=\tHK\t<\t  49,5\n\t08\t\t  49,5\t<=\tHK\t<\t  99,5\n\t09\t\t  99,5\t<=\tHK\t<\t149,5\n\t10\t\t149,5\t<=\tHK\t<\t199,5\n\t11\t\t199,5\t<=\tHK\t<\t249,5\n\t12\t\t249,5\t<=\tHK\t<\t499,5\n\t13\t\t499,5\t<=\tHK\t<\t999,5\n\t14\t\t999,5\t<=\tHK\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "PKSLY",
+      "variablename": "Yrityksen PK-suuruusluokka",
+      "conceptdef": "Toimipaikan omistavan yrityksen suuruusluokka. \nMahdolliset arvot ovat:  \n\t0 = Ei määritelty\n\t1 = Mikro\n\t2 = Pieni\n\t3 = Keskisuuri\n\t4 = Suuri\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAA",
+      "variablename": "Yrityksen sijoittajamaa",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen suurimman omistajayhtiön sijaintimaa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKOMI",
+      "variablename": "Yrityksen ulkomainen omistusosuus",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen yksikön ulkomainen omistusosuus. Tiedot yhdellä desimaalilla eli jaettava kymmenellä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALKUMAA",
+      "variablename": "Yrityksen alkumaa",
+      "conceptdef": "Toimipaikan omistavan oikeudellisen yksikön merkittävimmän ulkomaisen omistajakonsernin/omistajan alkuperäinen sijaintimaa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYO",
+      "variablename": "Yrityksen työnantajuus",
+      "conceptdef": "Tieto, että toimipaikan omistava oikeudellinen yksikkö toimii työnantajana (verohallinnon asiakastietokanta).  \n0=ei ole koskaan ollut\n1=kyllä\n2=ei ole enää",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TAIKA",
+      "variablename": "Toiminta-aika",
+      "conceptdef": "Toimipaikan toiminta-aika tilastovuonna.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OHI",
+      "variablename": "Ohitustunnus",
+      "conceptdef": "Ohitustunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MAAK",
+      "variablename": "Toimipaikan maakunta",
+      "conceptdef": "Maakunta, jossa toimipaikka sijaitsee.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ALOAIKA",
+      "variablename": "Aloitusaika",
+      "conceptdef": "Oikeudellisen yksikön y-tunnuksen alkamispäivä (VVVVKKPP). Voimassa 5.12.2006 alkaen. Päivä on pääsääntöisesti verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella henkilöllä y-tunnuksen alkamispäivä. Ennen vuotta 2006 määrittely perustui pääsääntöisesti arvonlisäverovelvollisuuteen, ennakkoverovelvollisuuteen tai työnantajana toimimiseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LOPAIKA",
+      "variablename": "Lopettamisaika",
+      "conceptdef": "Oikeudellisen yksikön y-tunnuksen lopettamisaika (VVVVKKPP). Voimassa 5.12.2006 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOL08KNS",
+      "variablename": "Konsernitoimiala",
+      "conceptdef": "Mikäli toimipaikan omistava oikeudellinen yksikkö kuuluu konserniin, muuttuja sisältää TOL 2008 mukaisen 5-numerotason konsernitoimialan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "knslaji",
+      "variablename": "Konsernilaji",
+      "conceptdef": "Yrityskonserniin kuuluvan oikeudellisen toimipaikan omistavan oikeudellisen yksikön (yrityksen) konsernilaji. \nMahdolliset arvot ovat:\n1 = Emo  2 = Tytär   \n6 = Väliemo\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02yr",
+      "variablename": "Yrityksen toimiala (tol2002)",
+      "conceptdef": "Oikeudellisen toimipaikan omistavan oikeudellisen yksikön (yrityksen) toimiala toimialaluokitus TOL 2002:n mukaan.\nKäytössä vuoteen 2008 asti.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol08tp",
+      "variablename": "Toimipaikan toimiala 2008",
+      "conceptdef": "Toimipaikan toimiala toimialaluokitus TOL2008:n mukaan. \nToimipaikkatilastot kootaan toimipaikkojen toimialojen mukaan. Aputoimipaikan toimiala on sama kuin yrityksen päätoimiala. \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol02tp",
+      "variablename": "Toimipaikan toimiala 2002",
+      "conceptdef": "Toimipaikan toimiala toimialaluokitus TOL2002:n mukaan.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YLAJIYR",
+      "variablename": "Yrityksen yksikkölaji",
+      "conceptdef": "Oikeudellisen yksikön (yrityksen) yksikkölaji eli  yksi/monitoimipaikkaisuus. \nMahdolliset arvot:  \n1 = Yksitoimipaikkainen  \n2 = Monitoimipaikkainen  \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KUNTA",
+      "variablename": "Tilastokunta",
+      "conceptdef": "Toimipaikan tilastokunnan kuntakoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TOTY",
+      "variablename": "Toimipaikkatyyppi",
+      "conceptdef": "Toimipaikkatyyppi. Mahdolliset arvot ovat:\n0 = Varsinainen toiminta\n1 = Apu, oyr:n toimiala\n2 = Apu, oma toimiala\n3 = Julkinen toiminta \nHuom! Arvo 2 = Apu, oma toimiala on toukokuussa 2004 poistettu käytöstä. Useimmat kyseiset tapaukset on muutettu varsinaisiksi toimipaikoiksi ja tieto, että toimipaikalla ei ole liikevaihtoa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLHKT",
+      "variablename": "Toimipaikan henkilöstön suuruusluokka",
+      "conceptdef": "Toimipaikan henkilöstön suuruusluokka. \nSuuruusluokat ovat:\n1\t\t\tHK\t<\t4,5\n2\t  4,5\t<=\tHK\t<\t9,5\n3\t  9,5\t<=\tHK\t<\t19,5\n4\t 19,5\t<=\tHK\t<\t49,5\n5\t 49,5\t<=\tHK\t<\t99,5\n6\t 99,5\t<=\tHK\t<\t199,5\n7\t199,5\t<=\tHK\t\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SLLVT",
+      "variablename": "Toimipaikan liikevaihdon suuruusluokka",
+      "conceptdef": "Toimipaikan liikevaihdon suuruusluokka. \nSuuruusluokat ovat (1000€):\n\t1\t\t\t\t\tLV\t<\t         1 000\n\t2\t\t         1 000\t<=\tLV\t<\t       40 000\n\t3\t\t       40 000\t<=\tLV\t<\t     100 000\n\t4\t\t     100 000\t<=\tLV\t<\t     200 000\n\t5\t\t     200 000\t<=\tLV\t<\t  1 000 000\n\t6\t\t  1 000 000\t<=\tLV\t<\t  2 000 000\n\t7\t\t  2 000 000\t<=\tLV\t<\t10 000 000\n\t8\t\t10 000 000\t<=\tLV\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Oikeudellisen yksikön (yrityksen) y-tunnus ilman väliviivaa. (Ennen vuotta 1999 myös henkilötunnuksia)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "stoissij",
+      "variablename": "Suojattu toissijainen tunnus",
+      "conceptdef": "Oikeudellisen yksikön (yrityksen) toissijainen tunnus. Luonnollisilla henkilöillä toissijaisena tunnuksena on henkilötunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sykstun",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Oikeudellisen toimipaikan tunnus. Vuosina 1989-1995 YR12:n (elinkeinoverovelvolliset) toimipaikoilla ei ole sykstun-tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sknstun",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Yrityskonserniin kuuluvan yrityksen konsernitunnus. Kuntakonserneja ei huomioida. Konsernitiedot saatavissa 2001 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun_a",
+      "variablename": "(kryptattu) yritystunnus, johon toimipaikka kuuluu edellisen kalenterivuoden viimeisellä viikolla",
+      "conceptdef": "Toimipaikkatietoihin on lisätty siirtymätiedot vuodesta 1993 alkaen. Mukaan on otettu vain validit toimipaikkojen siirtymiset, eli ne joissa toimipaikan lopettamisaika yhdessä yrityksessä käy yksiin toimipaikan aloitusajan kanssa toisessa yrityksessä. Tiedoista käyvät vuosittain ilmi ne toimipaikat, jotka ovat siirtyneet yhden y-tunnuksen alta toiselle edellisen vuoden ja tilastovuoden viimeisten viikkojen välillä. Ajankohta on valittu siksi, että sen avulla voidaan parhaiten tarkastella FLEED-aineiston työsuhteita, jotka on määritelty vuosittain juuri vuoden viimeisen viikon perusteella.\nJos toimipaikan y-tunnuksen arvo poikkeaa muuttujan yrtun_a arvosta, tarkoittaa tämä sitä, että edellisen vuoden lopussa toimipaikka kuului eri yritykselle. Jos toimipaikan y-tunnuksen arvo poikkeaa muuttujan yrtun_l arvosta, tarkoittaa tämä sitä, että seuraavan vuoden alussa toimipaikka kuului eri yritykselle. \nJos toimipaikka on siirtynyt saman vuoden aikana useaan kertaan y-tunnukselta toiselle, näkyvät toimipaikkatilastoissa vain ne y-tunnukset, joiden alla toimipaikka oli tarkasteltavan sekä edellisen vuoden lopussa. Periaatteessa tilastotiedostossa toimipaikalla oleva y-tunnus voi siis olla joku muu kuin tilastovuoden tai edellisen vuoden lopussa ollut y-tunnus.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syrtun_l",
+      "variablename": "(kryptattu) yritystunnus, johon toimipaikka kuuluu kalenterivuoden lopussa",
+      "conceptdef": "1993 alkaen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sraknrovuosi",
+      "variablename": "Suojattu rakennusnumero",
+      "conceptdef": "Suojattu rakennusnumero. Saatavilla vuosille 2008-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

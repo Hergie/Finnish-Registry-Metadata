@@ -1,0 +1,204 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tilastovuosi 4 numerolla, lyhenne tv",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "prodcom",
+      "variablename": "PRODCOM-koodi eli tuotenimike",
+      "conceptdef": "PRODCOM-koodi eli tuotenimike, pituus 8 tai 10 numeroa. Tilastovuodesta 1997 alkaen teollisuuden tuotantotilaston tiedot on kerätty Eurostatin PRODCOM-luettelon mukaisella luokituksella, täydennettynä kansallisilla tarkennuksilla eli kansallisilla lisänimikkeillä. ",
+      "measunit": null,
+      "classification": "prodcom_1_2011_01_01",
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "kuvaus",
+      "variablename": "PRODCOM nimiketeksti, joka vastaa PRODCOM-tuotantokoodia",
+      "conceptdef": "Nimiketeksti (PRODCOM-koodin mukainen), lyhennetty max 80 merkkiin. ",
+      "measunit": null,
+      "classification": "prodcom_1_2011_01_01",
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "lista2",
+      "variablename": "Nimikelajitieto",
+      "conceptdef": "Nimikelajitieto kuvaa tuotenimikkeistön hierarkiaa. Se kertoo, onko nimike kansallinen pää- tai alanimike (kansallinen lisänimike) ja onko kansainvälisillä nimikkeillä Suomessa alanimikkeitä. Kansallisten lisänimikkeiden tarve on harkittu Tilastokeskuksessa Suomen todellisen tuotantorakenteen perusteella. Kansalliset lisänimikkeet ovat numeromerkkisiä ja 10 merkin mittaisia. \n\nMahdolliset arvot: \n----------------------------\ntyhjä = alkuperäinen PRODCOM-nimike (pituus = 8, muotoa NNNNCCPP)\nX = kansainvälinen PRODCOM-nimike, jolla on kansallinen alanimike (pituus = 8, muotoa NNNNCCPP); nimikkeen tietoa ei kysytä \nY = kansainvälisen PRODCOM-nimikkeen kansallinen alanimike (pituus = 10, muotoa NNNNCCPPFF); nimikkeen tieto kysytään\nZ = kansallinen päänimike, jolla ei ole kansallista alanimikettä (pituus = 10, muotoa NNNNCCFFFF); nimikkeen tieto kysytään\n \nLukumäärät tilastovuonna 2011:\nLISTA2 = X, \"tyhjät\" otsikkonimikkeet eli kansallisten alanimikkeiden ylikansalliset päänimikkeet: 52 kpl \nLISTA2 = Y, kansalliset alanimikkeet: 160 kpl  (esimerkki: 1085190030 = mämmi)\nLISTA2 = Z, kansalliset päänimikkeet: 143 kpl\nLISTA2 = tyhjä, ylikansalliset päänimikkeet:, joilla ei ole kansallisia alanimikkkeitä: 3 747 kpl \nYhteensä käytössä  4 102 nimikettä \n \nEsimerkkejä tilastovuodesta 2011:\n1610 1033, lista2 = X\n1610 103310, lista2 = Y\n1610 103320, lista2 = Y\n1610 103390, lista2 = Y\n1610 410010, lista2 = Z",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "t_tyyppi",
+      "variablename": "Hyödykkeen tuotannon tyyppi",
+      "conceptdef": "Tuotannon tyyppikoodi ilmoittaa, onko hyödykkeen tuotannosta kysyttävä tiedustelussa jotain muutakin kuin myydyn tuotannon arvo ja määrä. \n\nMahdolliset arvot hyödykekyselykannassa: \nS = Tiedustellaan myydyn tuotannon arvo ja määrä. (Kaikista nimikkeistä ei kysytä määrää lainkaan, eri syistä.)\nT = Tiedustellaan em. myydyn tuotannon arvon ja määrän lisäksi kokonaistuotannon määrä Eurostatin tarpeisiin perustuen. \nK = Tiedustellaan em. myydyn tuotannon arvon ja määrän lisäksi kokonaistuotannon määrä Tilastokeskuksen omiin tarpeisiin perustuen. \nL = Tiedustellaan em. myydyn tuotannon (L = Luovutetut isot alukset) arvon ja määrän lisäksi kokonaistuotannon arvo (isot alukset, 301-alkuiset tuotenimikkeet).\n\nKokonaistuotannon määrä = tilastovuoden aikana valmistetun tuotannon määrä riippumatta siitä, onko se valmistettu myytäväksi tai jatkojalostettavaksi saman oikeudellisen yksikön sisällä. \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "yhdtyyp",
+      "variablename": "Yhdistelmätyyppi (oikeudellisen yksikön toimipaikan / toimipaikkojen) vastauksissa",
+      "conceptdef": "Yhdistelmätyyppi on koodi siitä, että kyseisen ei-sivuutettavan, hyödyketiedusteluun tilastovuonna sisältyvän teollisen varsinaisen toimipaikan (= yhdistelmätoimipaikan) vastauksiin sisältyy myös sivuutettavien teollisten varsinaisten toimipaikkojen vastauksia (samalta oikeudelliselta yksiköltä). Yhdistelmätoimipaikka on kyseessä, jos toimipaikalla on yhdistelmätyyppi = Y tai K. \n\nMahdolliset koodit:\n\nY = monitoimipaikkkaisen teollisen yrityksen ainoa teollinen tiedustelutoimipaikka = ainoa yhdistelmätoimipaikka, johon sisältyvät saman oikeudellisen yksikön kaikki muutkin teolliset varsinaiset toimipaikat (Y-koodillisia toimipaikkoja oikeudellisella yksiköllä on vain yksi. Monitoimipaikkaisella ei-teollisella oikeudellisella yksiköllä ei koskaan käytetä Y-koodia, vaan sillä ovat mahdollisia vain X- ja K-koodit, joita esiintyy vähintään yksi kappale.)\nZ = (aidosti) yksitoimipaikkainen oikeudellinen yksikkö tai minikokoinen oikeudellinen yksikkö = oikeudellisen yksikön ainoa teollinen tiedustelutoimipaikka, johon ei sisälly saman oikeudellisen yksikön muita teollisia varsinaisia toimipaikkoja, koska tällaisia ei ole olemassa (Z-koodillisia toimipaikkoja on vain yksi oikeudellista yksikköä kohden. Z-koodi on ollut käytössä vuodesta 2006 lähtien. Aiemmin Y-koodi kattoi myös Z:n osuuden yhdistelmätyypeistä.)\nK = tiedustelutoimipaikka, joka sisältää muita teollisia varsinaisia toimipaikkoja = vastaukset antava teollinen toimipaikka, johon sisältyy saman oikeudellisen yksikön muitakin teollisia varsinaisia toimipaikkoja (K-koodillisia toimipaikkoja oikeudellisella yksiköllä voi olla 0 tai vähintään 1 kappaletta.)\nX = ei yhdistelmätoimipaikka (aito teollinen toimipaikka, yksi- tai monitoimipaikkaisella oikeudellisella yksiköllä, myös sivuutettavalla (eli tiedustelun ulkopuolelle suljetulla) teollisella toimipaikalla esiintyy yhdistelmätyyppikoodi X)\nMonitoimipaikkaisena vastaavalla oikeudellisella yksiköllä, teollisella tai ei-teollisella, voi olla vastaajatoimipaikoilla sekaisin yhdistelmätyypin koodeja X ja K. \n \nJos yhdtyyp on tyhjä, nämä ovat pääsääntöisesti tapauksia, joissa kenttä estlippu = 3 eli ne eivät ole mukana ko. vuoden otoksessa vaan niillä tieto on estimoitu. Niiden yhdtyyp on haettava edellisestä vuodesta, tai joissakin tapauksissa sitä aiemmalta vuodelta.\n\nYhdistelmätoimipaikalla toimiala on vain ko. yksittäisen (yhdistelmä)toimipaikan oma toimiala eikä se kuvaa sitä laajempaa toimipaikkakokonaisuutta, jonka vastaukset saadaan yhdessä ko. toimipaikkaan kytkettyinä. Jos yhdistelmätyyppi = Y, kuvaa tiedonkeruun kohdetta paremmin koko oikeudellisen yksikön toimiala kuin kytköstoimipaikan oma toimiala.\n\nErillisessä tiedostossa tptunnus_hy_sis.sas on listattu toimipaikat, joiden tuotantotietoja sisältyy \nyhdistelmätoimipaikkojen tuotantotietoihin. Eli toimipaikka A:n tuotannoksi raportoidaan toimipaikkojen A ja B tuotannon summa, mutta toimipaikkaa B ei aineistossa mainita. ID:nä toimipaikka ja vuosi ja col-muuttujat (76) kertovat niiden \"haamutoimipaikkojen\" tunnukset, joiden tuotanto on sisällytetty \"emotoimipaikkojen\" tuotantoon. Sama tiedosto pätee ja voidaan käyttää myös raaka-ainetietoihin.\n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Luokitustiedot, Ohjaustiedot"
+    },
+    {
+      "identifier": "stptunnus",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Suojattu toimipaikkatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "syrtunnus",
+      "variablename": "Suojattu oikeudellisen yksikön  Y-tunnus",
+      "conceptdef": "Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy). \n \n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "yrtol08",
+      "variablename": "Oikeudellisen yksikön toimiala (TOL 2008 -luokitus)",
+      "conceptdef": "Oikeudellisen yksikön toimiala, TOL 2008 -luokitus. Saatavissa 2007 alkaen. \n\nPRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "tptol08",
+      "variablename": "Toimipaikan toimiala (TOL 2008 -luokitus)",
+      "conceptdef": "Toimipaikan toimiala, TOL 2008 -luokitus. Saatavissa 2007 alkaen. \n\nPRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.    ",
+      "measunit": null,
+      "classification": "toimiala_1_2008_01_01",
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "tvarmuus",
+      "variablename": "Tuotantohavainnon luotettavuus (tiedon varmuus) tai käsittelyn tilanne",
+      "conceptdef": "Tuotantohavainnon tiedon varmuus (TUOTANTO) tai käsittelyn tilanne.\nMahdolliset koodit: \nNULL tai tyhjä = varmuustieto puuttuu (tavanomaisin tilanne)\nH = hyväksytty \nA = manuaalisesti arvioitu \nO = ohjelmallisesti arvioitu (yleensä yrityksen / toimipaikan / toimipaikkayhdistelmän koko vastaus; siis kun keruuyksikkö ei ole vastannut miltään osin)   \nI = imputoitu (ei-otoksessa oleva teollinen miniyritys, tuotantotietojen hyödykekyselykannassa; samalla pitäisi aina olla muuttuja ESTLIPPU = 3)\nE = epävarma\nM = tuotannon määrätieto on arvioitu (tietoa käytetään kansalliseen tilastonlaadintaan)\nU = tuotannon määrätieto on arvioitu EU-tarpeisiin ja on siksi huonompilaatuinen kuin muunlainen arvioitu tieto (tietoa ei käytetä kansalliseen tilastonlaadintaan).\n \nHuomautus: Kun kyseessä on hyvänlaatuinen arviotieto, on aineiston käsittelijöitä ohjeistettu käyttämään tiedon varmuus -koodia H, A tai M eikä koodia U. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "estlippu",
+      "variablename": "Estimointi / imputointi miniyrityksellä",
+      "conceptdef": "Yrityksen / toimipaikan arvo-määrä_1-määrä_2-tietojen estimoinnin liputusmuuttuja. Saatavissa 2005-.\n\n3 = kokotiedot estimoitu teollisella miniyrityksellä (10-19 henkilöä), joka viettää välivuotta hyödyketiedustelusta; kokotiedot: arvo10, arvo35, maara110, maara130, maara210, maara230\n. (puuttuva tieto) = ei estimoitu (tai ei esim. ole teollinen mini-kokoinen yritys, kokonaishenkilöstö 10-19 henkeä)\n \nKun estlippu = 3, niin samalla pitäisi aina olla tvarmuus = I = imputoitu (ei-otoksessa olevalla eli tiedustelusta välivuotta viettävällä, tuotantotietojen hyödykekyselykannassa).\n \nTeollisia miniyrityksiä on (TOL 2008 pääluokissa B, C) toistaiseksi noin 1600 kpl, mutta niiden yhteenlaskettu myydyn tuotannon arvo edustaa teollisuuden hyödyketilaston myydyn tuotannon kokonaissummasta vain arviolta 2-3 % (vähintään 10 hengen teollisuusyrityksillä + niillä teollisilla toimipaikoilla, jotka kuuluvat päätoimialaltaan ei-teollisille yrityksille ja joilla yrityksillä on kokonaishenkilöstöä vähintään 20 henkeä). ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "arv1",
+      "variablename": "Määrätiedon ensisijaisessa mittayksikössä (maara110, maara130) arviointikoodi",
+      "conceptdef": "Määrätiedon ensisijaisessa mittayksikössä (maara110, maara130) arviointikoodi eli estimoinnin liputusmuuttuja\n\nMyyty tuotanto, maara1:\n1 = arvio ok\n2 = ei voi arvioida",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "arv2",
+      "variablename": "Määrätiedon toissijaisessa mittayksikössä (maara210, maara230) arviointikoodi",
+      "conceptdef": "Määrätiedon toissijaisessa mittayksikössä (maara210, maara230) arviointikoodi eli estimoinnin liputusmuuttuja\n\nMyyty tuotanto, maara2:\n1 = arvio ok\n2 = ei voi arvioida",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Ohjaustiedot"
+    },
+    {
+      "identifier": "mitta1ti",
+      "variablename": "Ensisijainen mittayksikkö (maara110, maara130), hyödyketiedustelu",
+      "conceptdef": "Nimikkeellä hyödyketiedustelussa ensisijaisesti käytettävä määrätietojen mittayksikkö. Tuotantotiedoissa Eurostatin edellyttämä tai harkittu sopivaksi TK:ssa (jos Eurostat ei edellytä määrän kysymistä). \n\nMittayksiköt voivat kuvata painoa tai bruttovetoisuutta, pituutta, pinta-alaa, tilavuutta, lukumäärää (kappaletta tai paria), tehoa ja energiaa, bruttolämpöarvoa tms.\n \n\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "mitta2ti",
+      "variablename": "Toissijainen mittayksikkö (maara210, maara230), hyödyketiedustelu",
+      "conceptdef": "Nimikkeellä hyödyketiedustelussa toissijaisesti käytettävä määrätietojen mittayksikkö. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Luokitustiedot"
+    },
+    {
+      "identifier": "arvo10",
+      "variablename": "Myydyn tuotannon arvo, euroa",
+      "conceptdef": "Myydyn tuotannon arvo, euroa, kun t_tyyppi = S.\n \nMyydyllä tuotannolla tarkoitetaan yrityksen / toimipaikan valmistamien tuotteiden ja puolivalmisteiden kalenterivuoden aikana tapahtunutta myyntiä yrityksen ulkopuolelle tuotannon valmistusajankohdasta riippumatta (veroton myyntihinta). Myyty tuotanto sisältää myös varastosta myynnin. Myydyn tuotannon arvoon tai määrään ei sisällytetä niiden tavaroiden myyntiä, jotka on myyty sellaisenaan ilman jatkojalostusta edelleen toisille yrityksille (kauppatavarat). Myyty tuotanto koskee vain yrityksen Suomessa tapahtunutta eli kotimaista tuotantoa. \n\nTuotteiden arvoon sisältyy\n- pakkauskustannukset (riippumatta siitä, veloitetaanko ne erikseen)\n- tuotantotukipalkkiot ja\n- yrityksen sisäiset siirtokustannukset (esim. kuljetus varastosta myyntiyksikköön).\n \nTuotteiden arvoon ei sisällytetä seuraavia eriä:\n- arvonlisäverot ja muut kulutusverot\n- erikseen veloitettavat kuljetuskustannukset yrityksen ulkopuolelle. \n  \nJos valmiit tuotteet vuokrataan tai liisataan (esim. tietokonelaitteistot, puhelinasennukset, pesukoneet), niiden arvo arvioidaan ko. tuotteesta sillä hetkellä saatavan markkinahinnan perusteella. \n\nTuotanto käsittää myös teolliset palvelut, joita ovat muokkaus, käsittely, työstö yms. viimeistely, ylläpito ja korjaukset sekä asennukset.  Teollisilla palveluilla on omat PRODCOM-palvelunimikkeensä. Yritys / toimipaikka / toimipaikkayhdistelmä ilmoittaa kyseisissä nimikkeissä ***arvoksi*** vain erillisenä palveluna tilaajayritykseltä laskutetun palvelun.  \n\nTeollisuuden hyödyketilastossa pääsääntö on, että tuotannon ilmoittaa tuotteen tosiasiallinen valmistaja eli alihankinnan ollessa kyseessä alihankkija. Alihankkija ilmoittaa tuotannon määrän ja (arvioidun) markkina-arvon eli arvioidun myydyn tuotannon arvon. \n \nIsoista aluksista ilmoitetaan tässä kohdassa (myydyn tuotannon sijasta) kalenterivuonna ***luovutettujen*** alusten arvo ja määrä. \n\nMyyty tuotanto -käsite on englanniksi 'production sold'. \n \n ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "arvo35",
+      "variablename": "Kokonaistuotannon arvo, euroa, kun t_tyyppi = L = Luovutettu",
+      "conceptdef": "Saatavissa 2005-. Kokonaistuotannon arvo, euroa, kun t_tyyppi = L = Luovutettu (harvinainen; koskee vain isojen alusten nimikkeitä). \n \nKokonaistuotanto-käsite on englanniksi 'actual production' tai 'total production'. \n   \nIsojen aluksien valmistuksessa, kun t_tyyppi = L, on yleensä kyseessä useiden vuosien projekti ja arvo-tietoon tietyltä kalenterivuodelta ei lueta koko aluksen arvoa, vaan ainoastaan ao. vuoden valmiusasteen mukainen osa aluksen arvosta. Käytetään siis osatuloutusta aluksen valmiusasteen mukaan. \n   \nHuomautus: Isoista aluksista (t_tyyppi = L) ilmoitetaan tässä kohdassa (kokonaistuotannon määrän sijasta) poikkeuksellisesti  kalenterivuoden kokonaistuotannon arvo, euroina.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "maara110",
+      "variablename": "Myydyn tuotannon määrä ensisijaisessa mittayksikössä eli määrä_1",
+      "conceptdef": "Myydyn tuotannon määrä ensisijaisessa mittayksikössä eli määrä_1, kun t_tyyppi = S, L  (tilastovuodesta 2005 alkaen ei ole enää olemassa C-tyyppiä, joka oli myytäväksi aiottu tuotanto), mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI. \n \nMyyty tuotanto -käsite on englanniksi 'production sold'. \n  \nHyödykenimikkeestä voidaan hyödyketiedustelussa kysyä yksi määrätieto, kaksi määrätietoa tai ei määrätietoa lainkaan. \n   \nTuotteen painoon ei lueta pakkauksen painoa.  ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "maara210",
+      "variablename": "Myydyn tuotannon määrä toissijaisessa mittayksikössä eli määrä_2",
+      "conceptdef": "Myydyn tuotannon määrä toissijaisessa mittayksikössä eli määrä_2, kun t_tyyppi = S, L  (tilastovuodesta 2005 alkaen ei ole enää olemassa C-tyyppiä, joka oli myytäväksi aiottu tuotanto), mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA2TI.\n \n\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "maara130",
+      "variablename": "Kokonaistuotannon määrä ensisijaisessa mittayksikössä eli määrä_1",
+      "conceptdef": "Kokonaistuotannon määrä ensisijaisessa mittayksikössä eli määrä_1, kun t_tyyppi = T, K, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI. \n\nKokonaistuotanto tarkoittaa tilastovuoden aikana valmistettua yrityksen / toimipaikan / toimipaikkayhdistelmän tuotantoa riippumatta siitä, onko se valmistettu myytäväksi tai jatkojalostettavaksi saman yrityksen sisällä tai valmistettu varastoon. Kalenterivuoden kokonaistuotanto kysytään (myydyn tuotannon lisäksi) vain erikseen määritellyistä hyödykkeistä, näiden nimikkeiden kohdalla omalla rivillään lomakkeella. Tilastovuonna 2011 kokonaistuotannon määrä kysyttiin 671 nimikkeestä. Kokonaistuotannosta ilmoitetaan yleensä ainoastaan määrä, ei arvoa.  \n \nKokonaistuotanto-käsite on englanniksi 'actual production' tai 'total production'. \n   \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "maara230",
+      "variablename": "Kokonaistuotannon määrä toissijaisessa mittayksikössä eli määrä_2",
+      "conceptdef": "Kokonaistuotannon määrä toissijaisessa mittayksikössä eli määrä_2, kun t_tyyppi = T, K, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA2TI. Ks. samat lisätiedot kuin muuttujassa MAARA130.\n \n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Kokotiedot"
+    },
+    {
+      "identifier": "salattu",
+      "variablename": "Salattu tieto",
+      "conceptdef": "Saa arvon yksi, jos arvo- ja määrätiedot on salattu kyseisessä nimikkeessä, muutoin 0.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "ohjaustiedot"
+    },
+    {
+      "identifier": "yrtol02",
+      "variablename": "Oikeudellisen yksikön toimiala (TOL 2002 -luokitus)",
+      "conceptdef": "Oikeudellisen yksikön toimiala (TOL 2002 -luokitus). Saatavissa 2005-2006. PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": "luokitustiedot"
+    },
+    {
+      "identifier": "tptol02",
+      "variablename": "Toimipaikan toimiala (TOL 2002 -luokitus)",
+      "conceptdef": "Toimipaikan toimiala (TOL 2002 -luokitus). Saatavissa -2008 asti. PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.",
+      "measunit": null,
+      "classification": "toimiala_1_2002_01_01",
+      "variablegroups": "luokitustiedot"
+    }
+  ]
+}

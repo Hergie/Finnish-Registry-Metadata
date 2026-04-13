@@ -1,0 +1,1220 @@
+{
+  "variables": [
+    {
+      "identifier": "toloma",
+      "variablename": "otannassa käytetty toimialamuuttuja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_tol95",
+      "variablename": "Toimialaluokitus 1995, yritysrekisteri",
+      "conceptdef": "Yrityksen päätoimiala, toimialaluokitus TOL 1995:n mukaan, taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yr_hk_suuruusluokka",
+      "variablename": "Henkilöstön suuruusluokka",
+      "conceptdef": "Henkilöstön suuruusluokka, yritysrekisteri, yritysrekisterissä SLHKY (9 luokkaa), taustamuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HENLKMYH",
+      "variablename": "Henkilöstön lukumäärä yhteensä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKONE",
+      "variablename": "tietokoneita käytössä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TKHLO",
+      "variablename": "osuus henkilökunnasta käyt tietokonetta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LAHIV",
+      "variablename": "lähiverkko=lan tai wlan",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LNGTON",
+      "variablename": "WLAN (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTRA",
+      "variablename": "intranet (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EXTRA",
+      "variablename": "extranet (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OPEN",
+      "variablename": "avoimen lähdenkoodin käyttöjärjestelmä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "DIGI",
+      "variablename": "digitaalinen allekirjoitus (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CRMINF",
+      "variablename": "CRM-ohjelmisto asiakastiedot (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "CRMANA",
+      "variablename": "CRM-ohjelmisto asiakastietojen analysointi (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SPECI",
+      "variablename": "tietotekniikka-ammattilaisia henkilökunnassa (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKSPE",
+      "variablename": "tietotekniikka-ammattilaisia ainakin yritetty rekrytoida (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKSPEONG",
+      "variablename": "tietotekniikka-ammattilaisten työpaikkoja vaikea täyttää (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKHAK",
+      "variablename": "vaikea täyttää syy: ammattitaito (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKKOU",
+      "variablename": "vaikea täyttää syy: koulutus (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKTYO",
+      "variablename": "vaikea täyttää syy: työkokemus (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKPALK",
+      "variablename": "vaikea täyttää syy: palkka (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKMUU",
+      "variablename": "vaikea täyttää syy: muu (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKSPE",
+      "variablename": "tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKFOROM",
+      "variablename": "tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla ulkomailla: oma tytäryhtiö (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKFORMUU",
+      "variablename": "tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla ulkomailla: muu ulkomainen yritys (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKEU",
+      "variablename": "tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: EU (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKUSA",
+      "variablename": "tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: USA (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ULKMUU",
+      "variablename": "tietotekniikka-ammattilaisten töitä ulkopuolisella työvoimalla: muu maa (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKKAY",
+      "variablename": "tietotekniikan käyttäjiä ainakin yritetty rekrytoida (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "REKKAYONG",
+      "variablename": "tietotekniikan käyttäjien työpaikkoja vaikea täyttää (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULSPE",
+      "variablename": "koulutusta tietotekniikan ammattilaisille (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULKAY",
+      "variablename": "koulutusta tietotekniikan käyttäjille (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTERNET",
+      "variablename": "internet yhteys (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INETHLO",
+      "variablename": "osuus henkilökunnasta käyt Internetiä (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETPANK",
+      "variablename": "pankkipalveluita netissä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETKOUL",
+      "variablename": "koulutusta netissä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETMARK",
+      "variablename": "markkinoiden seuranta netissä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETMYJAL",
+      "variablename": "myynnin jälkeisten palveluiden käyttö netissä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRTIE",
+      "variablename": "tiedon hankinta viranomaislta netissä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRLOM",
+      "variablename": "lomakkeiden hankinta netissä viranomaisilta (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRPAL",
+      "variablename": "lomakkeiden palauttaminen netissä viranomaisille (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRKAV",
+      "variablename": "kävi netissä julk hank järj (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVIRTAR",
+      "variablename": "jätti tarjouksen julk hank netissä pohjalta (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MODEM",
+      "variablename": "netyhteys modeemi (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ISDN",
+      "variablename": "netyhteys isdn (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "XDSL",
+      "variablename": "netyhteys xdsl (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KIINMUU",
+      "variablename": "muu laajakaista (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MOBIL",
+      "variablename": "netyhteys matkapuh (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "YHTNOP",
+      "variablename": "nettiyhteyden suurin nopeus (\"1\"=<256 kbit/s, 256=<\"2\"<2Mbit/s,2Mbit/s=<\"3\"<8Mbit/s, 8Mbit/s=<\"4\"",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTI",
+      "variablename": "kotisivut (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMARK",
+      "variablename": "kotisivuilla tuoteiden markkinointia (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTLUET",
+      "variablename": "kotisivuilla luetteloita tai hinnastoja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOTMYJAL",
+      "variablename": "kotisivuilla myynnin jälkeisiä palveluita (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETCOM",
+      "variablename": "nettimyyntiä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVOL",
+      "variablename": "ilmoitettu nettimyynnin arvo (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETVOLOS",
+      "variablename": "ilmoitettu nettimyynnin osuus liikevaihdosta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASYRIT",
+      "variablename": "osuus nettimyynnistä yrityksille (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ASKOTIT",
+      "variablename": "osuus nettimyynnistä kotitalouksille (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETPAY",
+      "variablename": "otti vastaan on-line maksuja netissä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETSAL",
+      "variablename": "internet tilauksissa salausprotokolla (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "NETOSTO",
+      "variablename": "nettiostoja (1=kyllä, 0=ei, 9=EOS)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OSTVOLOS",
+      "variablename": "nettiostojen osuus ostoista (1=mitätön arvo, 2=<1, 3=1-4, 4=5-9,5=10-24, 6=25-49, 7=50<, 8=EOS)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDI",
+      "variablename": "edi käytössä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDIVAST",
+      "variablename": "vastaanottanut edi tilauksia (=myynti) (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMYVOL",
+      "variablename": "ilmoitettu edi myynnin arvo (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EMYVOLOS",
+      "variablename": "ilmoitettu edi myynnin osuus liikevaihdosta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYPNET",
+      "variablename": "edi myynti netin kautta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDINET1",
+      "variablename": "osuus edi myynnistä Internetin kautta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYPEI",
+      "variablename": "edi myynti muun kuin netin kautta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDINET2",
+      "variablename": "osuus edi myynnistä muuta kun Internetin kautta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYPEOSNET",
+      "variablename": "edi myyntikanava eos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDITEKE",
+      "variablename": "tehnyt edi tilauksia (=osto) (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EOSVOLOS",
+      "variablename": "ilmoitettu edi ostojen osuus kaikista ostoista (1=<1, 2=1-9, 3=10-24, 4=25-49,5=50-74, 6=75< %",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYPNETOS",
+      "variablename": "edi osto netin kautta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDINETOS1",
+      "variablename": "osuus edi ostoista Internetin kautta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYPEIOS",
+      "variablename": "edi osto muun kuin netin kautta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EDINETOS2",
+      "variablename": "osuus edi ostoista muuta kun Internetin kautta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "TYPEOSNETOS",
+      "variablename": "edi ostokanava eos",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "MYOSTHAL",
+      "variablename": "osto- tai myyntitilausten hallinta (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTESIS",
+      "variablename": "autom yhteys sis tilaukset (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTELASK",
+      "variablename": "autom yhteys laskutus ja maks (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTETUOT",
+      "variablename": "autom yhteys tuotannonohjaus (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTETOIM",
+      "variablename": "autom yhteys tavarantoimittajat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "INTEASIAK",
+      "variablename": "autom yhteys asiakkaiden järj (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ERP",
+      "variablename": "ERP tiedon jakamiseen myynneistä ja ostoista (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCM",
+      "variablename": "SCM-toimitusketjun hallinta (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMTKYS",
+      "variablename": "SCM kysyntäennusteet tavarantoimittajat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMTVAR",
+      "variablename": "SCM varastotasot tavarantoimittajat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMTTUO",
+      "variablename": "SCM tuotantosuunnitelmat tavarantoimittajat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMTTOI",
+      "variablename": "SCM toimitusten eteneminen tavarantoimittajat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMTDES",
+      "variablename": "SCM tuotesuunnittelun tiedot tavarantoimittajat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMAKYS",
+      "variablename": "SCM kysyntäennusteet asiakkaat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMAVAR",
+      "variablename": "SCM varastotasot asiakkaat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMATUO",
+      "variablename": "SCM tuotantosuunnitelmat asiakkaat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMATOI",
+      "variablename": "SCM toimitusten eteneminen asiakkaat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMADES",
+      "variablename": "SCM tuotesuunnittelun tiedot asiakkaat (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMWEB",
+      "variablename": "SCM web-portaali (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMEDI",
+      "variablename": "SCM EDIn välityksellä (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SCMMUU",
+      "variablename": "SCM muu esim. s-posti (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASVAVER",
+      "variablename": "vastaanotti verkkolaskuja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASVAEDI",
+      "variablename": "vastaanotti edi-laskuja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASVAMUU",
+      "variablename": "vastaanotti muita sähköisiä laskuja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASLAVER",
+      "variablename": "lähetti verkkolaskuja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASLAEDI",
+      "variablename": "lähetti edi-laskuja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LASLAMUU",
+      "variablename": "lähetti muita sähköisiä laskuja (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OWN",
+      "variablename": "ohjelmia omaan käyttöön (1=kyllä, 0=ei)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "OWNYAR",
+      "variablename": "omaan käyttöön tulevien ohjelmien teon työvuodet (henkilötyövuotta)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol",
+      "variablename": "toinen kotimaisten laskelmien agregoidumpi toimialamuuttuja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tol2",
+      "variablename": "kotimaisten laskelmien toimialamuuttuja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "EUtol",
+      "variablename": "EU laskelmien toimiala muuttuja",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag1",
+      "variablename": "korj_tkhlo_inethlo",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlo1",
+      "variablename": "inethlo ennen loog korj",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hlok",
+      "variablename": "laskelmissa käytetty henkilökunnan määrä",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lahiv1",
+      "variablename": "langallinen_LAN",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "laaja",
+      "variablename": "laajakaista",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVAIHTO",
+      "variablename": "liikevaihto rakennetilastosta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lveuro",
+      "variablename": "Liikevaihto euroina",
+      "conceptdef": "Lopullinen tilaston liikevaihto, jossa käytetty ensisijaisesti rakennetilaston liikevaihtoa, toissijaisesti yritysrekisterin liikevaihtoa ja viimeisenä vaihtoehtona arvioitua liikevaihtoa (OTAOMALV=1), jos em. tietoja ei ole saatavissa tai arvioitu liikevaihto muutoin soveltuu paremmin yrityksen vastaukseen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "netvoleur",
+      "variablename": "lopullinen nettimyynnin arvo (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "netvolosuudet",
+      "variablename": "lopullinen nettimyynnin osuus lv:sta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emyvoleur",
+      "variablename": "lopullinen edi myynnin arvo (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "emyvolosuudet",
+      "variablename": "lopullinen edi myynnin osuus lv:sta (%)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yriteuro",
+      "variablename": "nettimyynti yrityksille euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotiteuro",
+      "variablename": "nettimyynti kotitalouksiin euroina",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "typneteur",
+      "variablename": "lopullinen edi-myynti Internetin kautta (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "typeieur",
+      "variablename": "lopullinen edi-myynti muiden verkkojen kautta (euro)",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KODE",
+      "variablename": "ositemuuttuja kotimaiset laskelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ison",
+      "variablename": "N kotimaisissa laskelmissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pikkun",
+      "variablename": "n kotimaisissa laskelmissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkmkerr",
+      "variablename": "kotimaisten laskelmien lukumäärän perustuva korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "apukode",
+      "variablename": "ositemuuttuja EU laskelmat",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ison2",
+      "variablename": "N EU-laskelmissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pikkun2",
+      "variablename": "n EU-laskelmissa",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERR",
+      "variablename": "kotimaisten laskelmien liikevaihtoon perustuva korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOKERR",
+      "variablename": "kotimaisten laskelmien henkilökuntamäärään perustuva korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LVKERRb",
+      "variablename": "EU laskelmien liikevaihtoon perustuva korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "LKMKERRb",
+      "variablename": "EU laskelmien lukumäärän perustuva korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "HLOKERRb",
+      "variablename": "EU-laskelmien henkilökuntamäärään perustuva korotuskerroin",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkhlo1",
+      "variablename": "tkhlo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag2",
+      "variablename": "tkhlo imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inethlo2",
+      "variablename": "inethlo ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag3",
+      "variablename": "inethlo imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tklkm",
+      "variablename": "laskettu tietokoneen käyttäjien lkm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "inetlkm",
+      "variablename": "laskettu netin käyttäjien lkm",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lahiv2",
+      "variablename": "LAN_WLAN ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag4",
+      "variablename": "LAN_WLAN imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lahiv1b",
+      "variablename": "langallinen_LAN ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag5",
+      "variablename": "langallinen_LAN imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "intra1",
+      "variablename": "intra ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag6",
+      "variablename": "intra imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "extra1",
+      "variablename": "extra ennen imputointia",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "flag7",
+      "variablename": "extra imputoitu",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "SYRTUN",
+      "variablename": "Suojattu yritystunnus rakennetilastosta",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

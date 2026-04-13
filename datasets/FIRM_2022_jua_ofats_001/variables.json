@@ -1,0 +1,100 @@
+{
+  "variables": [
+    {
+      "identifier": "sknstun",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Suojattu konsernitunnus konsernirekisteristä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sutun",
+      "variablename": "Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus",
+      "conceptdef": "Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konsernin_toimiala",
+      "variablename": "Konsernitoimiala",
+      "conceptdef": "Konsernitoimiala 2/3-numerotasolla konsernirekisteristä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toimiala_tytar",
+      "variablename": "Tytäryhtiön / sivuliikkeen TOL 2008 mukainen toimiala",
+      "conceptdef": "Tytäryhtiön / sivuliikkeen TOL 2008 mukainen toimiala 2/3-numerotasolla, vain poikkeustapauksissa emon toimiala. \nJos tytäryhtiö\n- on holdingyhtiö, joka valvoo tai johtaa saman konsernin muiden yhtiöiden toimintaa, valitse toimiala 701 ”Pääkonttorien toiminta”.\n- on holdingyhtiö, joka hallinnoi konsernin varoja mutta ei tarjoa muita palveluja yhtiöille, joiden omaisuutta se hallinnoi, valitse toimiala 642 ”Rahoitusalan holdingyhtiöiden toiminta”.\n- harjoittaa tukkukauppaa muille kuin yksityisille kuluttajille (business to business myynti), valitse toimiala 46 ”Tukkukauppa”. Moottoriajoneuvojen ja moottoripyörien tukkukauppa kuuluu toimialaan 45.\n- harjoittaa agentuuritoimintaa, valitse toimiala 46 ”Tukkukauppa”. Moottoriajoneuvojen ja moottoripyörien agentuuritoiminta kuuluu toimialaan 45.\n- harjoittaa vähittäiskauppaa pääasiassa yksityisille kuluttajille henkilökohtaiseen tai kotitalouskäyttöön, valitse toimiala 47 \n”Vähittäiskauppa”. Moottoriajoneuvojen ja moottoripyörien vähittäiskauppa kuuluu toimialaan 45.\n\nKatso tarkemmin toimialaluokitus [http://tilastokeskus.fi/meta/luokitukset/toimiala/910-2008/index.html].\"\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "konsernin_kotimaa",
+      "variablename": "Konsernin perimmäisen omistajatahon sijaintimaa",
+      "conceptdef": "Konsernin perimmäisen omistajatahon sijaintimaa konsernirekisteristä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maa_tytar",
+      "variablename": "Tytäryhtiön / sivuliikkeen sijaintimaa",
+      "conceptdef": "Tytäryhtiön / sivuliikkeen sijaintimaa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "liikevaihto",
+      "variablename": "Tytäryhtiön / sivuliikkeen liikevaihto",
+      "conceptdef": "Tytäryhtiön / sivuliikkeen liikevaihto. Liikevaihto ennen konsolidointia. Se liikevaihto, jonka tytäryhtiö / sivuliike raportoi sijaintimaansa viranomaisille.\nTytäryhtiön liikevaihtoon sisältyy kaikki tavaroiden ja palvelujen markkinaehtoinen myynti riippumatta siitä, onko asiakas konsernin ulkopuolinen vai samaan konserniin kuuluva yhtiö.\nLiikevaihto tulee ilmoittaa kokonaisuudessaan (100 prosenttia), vaikka konserniemo ei omistaisi kuin osan tytäryhtiöstä.\nLiikevaihtoon luetaan tytäryhtiön varsinaisen toiminnan myyntituotot, joista on vähennetty myönnetyt alennukset ja hyvitykset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot. Liikevaihto sisältää muut asiakkaalta veloitettavat kulut kuten kuljetus- ja pakkauskustannukset.\nLiikevaihtoon ei sisälly tuotto, joka tytäryhtiön tilinpäätöksessä luokitellaan muuksi varsinaisen toiminnan tuotoksi, rahoitustuotoksi tai muun kuin varsinaisen toiminnan tuotoksi, eivätkä kansainvälisten tilinpäätösstandardien (IAS/IFRS) mukaisesti myöskään tuotot, jotka syntyvät muiden käyttäessä tytäryhtiön varoja, jotka tuottavat korkoa, rojaltia, osinkoja tai muita tuloja. Siihen ei myöskään sisällytetä viranomaisilta tai EU:n toimielimiltä saatuja toimintatukipalkkioita.\nJos tytäryhtiön toimiala on tukku- ja vähittäiskauppa ml. agentuuritoiminta, liikevaihtoon luetaan tytäryhtiön omissa nimissään ja omaan lukuunsa ostamien ja sellaisinaan tai tytäryhtiön kaupan yrityksille tyypillisellä tavalla pakkaamina ja merkitseminä jälleenmyymien tavaroiden myynti ja kaikki välityspalkkiot, jotka perustuvat tytäryhtiön kolmansien puolesta ja lukuun harjoittamaan osto- ja myyntitoimintaan sekä muuhun vastaavaan toimintaan.\nJos tytäryhtiön toimiala on vakuutusala, liikevaihtoa vastaa bruttovakuutusmaksutulo.\nJos tytäryhtiön toimiala on eläkerahastotoiminta, liikevaihtoa vastaa yhteenlasketut eläkevakuutusmaksut. Tähän sisältyvät kaikki varainhoitovuoden aikana maksettavat eläkesopimuksiin perustuvat eläkevakuutusmaksut, kuten pakolliset eläkevakuutusmaksut, muut säännölliset eläkevakuutusmaksut, vapaaehtoiset eläkevakuutusmaksut, saadut siirrot ja muut eläkevakuutusmaksut.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkilosto",
+      "variablename": "Tytäryhtiön / sivuliikkeen henkilöstön lukumäärä",
+      "conceptdef": "Tytäryhtiön / sivuliikkeen henkilöstön lukumäärä. Henkilöstön lukumäärä sisältää ne tytäryhtiön palveluksessa olevat työntekijät, joilla on työsopimus ja jotka saavat työstä palkkaa. Palkka voi olla kuukausi-, tunti-, urakka- tai muu palkka, muu korvaus tai palkkio tai luontoismuotoinen korvaus. Lukuun sisältyvät kaikki henkilöt, joille suoritettavat maksut kirjataan tytäryhtiön tuloslaskelman kohtaan henkilöstömenot, vaikka kaikissa tapauksissa ei olisikaan työsopimusta.\nHenkilöstön lukumäärä sisältää osa-aikatyöntekijät, kausityöntekijät, lakossa olevat työntekijät sekä lyhyellä lomalla olevat työntekijät, mutta ei pitkällä lomalla olevia työntekijöitä.\nHenkilöstön lukumäärään ei lueta tilapäistyövoimaa välittävän toimiston kautta hankittuja työntekijöitä.\nHenkilöstön lukumäärä lasketaan vuotuisena keskimääränä käyttäen vähintään kunkin vuosineljänneksen tietoja.\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "henkilostomenot",
+      "variablename": "Tytäryhtiön / sivuliikkeen henkilöstömenot",
+      "conceptdef": "Tytäryhtiön / sivuliikkeen henkilöstömenot. Henkilöstömenoihin sisältyvät palkat ja sosiaaliturvamaksut.\nVuokratyövoiman kustannukset eivät sisälly henkilöstömenoihin.\nPalkkoihin luetaan kaikki tilikauden aikana tehdystä työstä henkilöstölle maksetut korvaukset, mukaan lukien ylimääräiset palkkiot, työolosuhteiden ja tuloksen perusteella maksettavat palkanlisät, vapaaehtoiset maksut, kolmannentoista kuukauden palkat (ja muut vastaavat kiinteät lisät), erorahat, majoitus-, matkustus- ja elinkustannuksista maksettavat korvaukset, perheavustukset, komissiot, osallistumismaksujen korvaukset, ylityökorvaukset, yötyökorvaukset, jne. sekä työntekijöiltä kannettavat verot, sosiaaliturvamaksut ja muut maksut, jotka työnantaja pidättää työntekijän palkasta.\nSosiaaliturvamaksuihin luetaan tytäryhtiön sellaisiin järjestelmiin suorittamat maksut, jotka on tarkoitettu muun muassa vanhuuseläkettä, sairautta, äitiyttä, työkyvyttömyyttä, työttömyyttä, työtapaturmia ja työperäisiä sairauksia sekä perhe-etuuksia varten. Nämä kustannukset sisältyvät henkilöstömenoihin siitä riippumatta, ovatko ne lakisääteisiä, työehtosopimukseen perustuvia, sopimusperusteisia vai vapaaehtoisia.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "investoinnit",
+      "variablename": "Tytäryhtiön / sivuliikkeen bruttoinvestoinnit aineelliseen käyttöomaisuuteen",
+      "conceptdef": "Tytäryhtiön / sivuliikkeen bruttoinvestoinnit aineelliseen käyttöomaisuuteen. Bruttoinvestoinneiksi luetaan kaikki aineellisen  käyttöomaisuuden lisäykset, muutokset, parannukset ja uudistukset, jotka pidentävät pääomatavaran käyttöikää tai lisäävät sen tuottavuutta. Bruttoinvestoinnit eivät sisällä omaisuutta, joka saadaan liiketoiminnan uudelleenjärjestelyn yhteydessä kuten yritysten sulautuessa tai yrtiysvaltausten yhteydessä.\nOstetut tavarat arvotetaan hankintahintaan, joten hinta sisältää kuljetus- ja asennuskustannukset, maksut, verot ja muut omistajanvaihdoksen yhteydessä syntyvät kustannukset. Tytäryhtiön itse tuottama aineellinen käyttöomaisuus arvotetaan tuotantokustannuksiin. Rahoitusleasingillä hankitun aineellisen käyttöomaisuuden arvo vastaa kyseisen tavaran markkina-arvoa, jos se on ostettu hankintavuonna.\nInvestoinnit kirjataan, kun omistusoikeus siirtyy tytäryhtiölle.\n",
+      "measunit": "€",
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "maaryhman_nimi_suomi",
+      "variablename": "Maaryhmän nimi suomeksi",
+      "conceptdef": "Maaryhmän nimi suomeksi, saatavissa 2008-",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}
