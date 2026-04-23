@@ -166,6 +166,59 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         f"({len(rows)} datasets, refreshed {fetched_date})."
     )
     lines.append("")
+    lines.append("## Mikä tämä on / What this is")
+    lines.append("")
+    lines.append(
+        "Tämä arkisto peilaa Tilastokeskuksen Taika-tutkimusaineistokatalogin julkisen "
+        "REST-XQ-rajapinnan vastaukset paikalliseksi, greppavaksi ja offline-luettavaksi "
+        "hakemistoksi. Jokaisesta aineistosta tallennetaan raaka JSON-vastaus (`raw/` ja "
+        "`datasets/<tunnus>/dataset.json`, `variables.json`) sekä generoidaan ihmisen luettava "
+        "Markdown-näkymä (`datasets/<tunnus>/README.md`)."
+    )
+    lines.append("")
+    lines.append(
+        "This repository mirrors the responses of Statistics Finland's public Taika REST-XQ "
+        "research-data catalogue API into a local, greppable, offline-readable tree. For each "
+        "dataset the raw JSON is preserved (`raw/` and `datasets/<id>/dataset.json`, "
+        "`variables.json`) alongside a generated Markdown view (`datasets/<id>/README.md`)."
+    )
+    lines.append("")
+    lines.append("## Kenelle / Who this is for")
+    lines.append("")
+    lines.append(
+        "Tutkijoille, jotka kirjoittavat koodia Tilastokeskuksen rekisteriaineistoja (FOLK, "
+        "EDUC, SES, FLEED, FIRM_*, kuolemansyyt, perintöverot jne.) vastaan FIONA-etäkäyttö"
+        "ympäristössä. Taikan verkkokäyttöliittymää ei voi selata offline-tilassa, rajapinta "
+        "on dokumentoimaton, eikä muuttujakuvauksia voi grepata — tämä arkisto ratkaisee kaikki "
+        "kolme. Erityisen hyödyllinen, jos koodia kirjoittaa LLM-avusteisesti ja haluaa, että "
+        "mallilla on muuttujien määritelmät suoraan kontekstissa."
+    )
+    lines.append("")
+    lines.append(
+        "Researchers writing code against Statistics Finland register data (FOLK, EDUC, SES, "
+        "FLEED, FIRM_*, cause-of-death, inheritance-tax registers, …) inside the FIONA remote-"
+        "access environment. Taika's web UI is not browsable offline, the API is undocumented, "
+        "and variable definitions are not greppable — this archive fixes all three. Especially "
+        "useful if you write code with an LLM coding assistant and want the variable "
+        "definitions available directly in-context."
+    )
+    lines.append("")
+    lines.append("## Lisenssi / License")
+    lines.append("")
+    lines.append(
+        "Skriptit ja generoitu dokumentaatio on omistettu yleiseen käyttöön CC0-1.0-lisenssillä. "
+        "Peilatut JSON-tiedostot `raw/`- ja `datasets/`-puissa ovat Tilastokeskuksen Taika-rajapinnan "
+        "vastauksia sellaisenaan — ne eivät kuulu CC0:n piiriin, ja downstream-uudelleenjulkaisijoiden "
+        "tulee mainita Tilastokeskus lähteenä. Katso `LICENSE`."
+    )
+    lines.append("")
+    lines.append(
+        "Scripts and generated documentation are dedicated to the public domain under CC0-1.0. "
+        "The mirrored JSON files under `raw/` and `datasets/` are verbatim responses from "
+        "Statistics Finland's Taika API and are **not** covered by the CC0 dedication; downstream "
+        "republishers should credit Tilastokeskus as the source. See `LICENSE`."
+    )
+    lines.append("")
     lines.append("## Käyttö / Usage")
     lines.append("")
     lines.append(
@@ -223,6 +276,10 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "- **Henkilötunnusmuuttuja / Person ID variable:** Taika dokumentoi henkilön yksilöivän tunnisteen nykyään nimellä `hid_e`. "
         "Aiemmissa aineistotoimituksissa sama tunniste kulki nimellä `shnro`, ja Tilastokeskus on vaihtanut muuttujan nimen. "
         "Joissain tauluissa sama henkilötunniste voi olla vielä näistäkin eroavilla nimillä."
+    )
+    lines.append(
+        "- **Generoitu tiedosto / Generated file:** tämä `README.md` tuotetaan `build_catalogue.py`-skriptillä yhdessä "
+        "312 aineiston `datasets/<tunnus>/README.md`-tiedoston kanssa. Älä muokkaa käsin — muutokset korvautuvat seuraavalla ajolla."
     )
     lines.append("")
     README_FILE.write_text("\n".join(lines), encoding="utf-8", newline="\n")

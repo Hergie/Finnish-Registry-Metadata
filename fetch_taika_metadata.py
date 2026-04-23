@@ -16,7 +16,7 @@ from pathlib import Path
 
 BASE = "https://taika.stat.fi"
 LANG = "fi"
-UA = "Finnish-Registry-Metadata/1.0 (+https://taika.stat.fi)"
+UA = "Finnish-Registry-Metadata/1.0 (+https://github.com/Hergie/Finnish-Registry-Metadata)"
 ROOT = Path(__file__).resolve().parent
 RAW_DIR = ROOT / "raw"
 DATASETS_DIR = ROOT / "datasets"

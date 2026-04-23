@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This repository is a local mirror of the **Taika** research-data catalogue operated by Statistics Finland (Tilastokeskus), available at <https://taika.stat.fi/>. Taika documents every unit-level research dataset that Statistics Finland makes available to permit-holding researchers through the FIONA remote-access environment. The purpose of this archive is to give Claude sessions running in sibling research projects under `C:/Users/vihriae2/ResearchGit/` authoritative, offline access to variable definitions, dataset coverage, population descriptions, and data-source documentation — so code using these registers doesn't have to guess variable names or semantics.
+This repository is a local mirror of the **Taika** research-data catalogue operated by Statistics Finland (Tilastokeskus), available at <https://taika.stat.fi/>. Taika documents every unit-level research dataset that Statistics Finland makes available to permit-holding researchers through the FIONA remote-access environment. The purpose of this archive is to give Claude Code (or any LLM coding assistant) working on research code that reads Finnish administrative registers authoritative, offline access to variable definitions, dataset coverage, population descriptions, and data-source documentation — so code using these registers doesn't have to guess variable names or semantics.
 
 ## Source and API
 
@@ -62,12 +62,3 @@ The `raw/` and `datasets/` trees are generated from the Taika API. Any manual ch
 - **Eight SURVEY datasets list a placeholder "no variables" sentinel** (`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list. The builder filters these out and renders an explanatory note instead.
 - **Some fields are `null`** on some datasets (notably `line_count`, `keywords`, `measunit`, `classification`, `variablegroups`). The builder renders these as `—`.
 - **HTML fragments in descriptions**: `contentdescription` and `resourcerelation_*` may contain inline HTML (`<a href=…>`, `<b>`). The builder leaves them intact — Markdown renderers generally pass inline HTML through.
-
-## Sibling projects that consult this archive
-
-The following research projects have a `## Finnish Register Metadata` stanza in their `CLAUDE.md` pointing here:
-
-- `C:/Users/vihriae2/ResearchGit/Student-Debt-Project`
-- `C:/Users/vihriae2/ResearchGit/Inheritance-Project`
-
-When adding a new project that uses Statistics Finland register data, add the same stanza to its `CLAUDE.md`. Projects under `C:/Users/vihriae2/ResearchGit/Completed/` are frozen replication packages and must not be modified.
