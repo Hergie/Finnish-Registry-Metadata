@@ -219,6 +219,13 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "- Kahdeksalla SURVEY-aineistolla muuttujaluettelo sisältää Taikan placeholder-sentinel-arvon "
         "(`emptyvariablenameforcossicreatedbycsmetaedit`); se suodatetaan pois READMEsta."
     )
+    lines.append(
+        "- **Henkilötunnusmuuttuja / Person ID variable:** Taika dokumentoi henkilön yksilöivän tunnisteen nykyään nimellä `hid_e`. "
+        "Aiemmissa aineistotoimituksissa sama tunniste kulki nimellä `shnro`, ja Tilastokeskus on vaihtanut muuttujan nimen. "
+        "Osa sisarprojekteista (mm. Student-Debt-Project, Inheritance-Project) työskentelee edelleen vanhemmilla `shnro`-toimituksilla — "
+        "tarkista kunkin projektin `CLAUDE.md` ennen kuin oletat muuttujan nimen. "
+        "_Taika now documents the person identifier as `hid_e`; older deliveries called it `shnro`. Several sibling projects still use the older `shnro` deliveries — check each project's CLAUDE.md before assuming a variable name._"
+    )
     lines.append("")
     README_FILE.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
