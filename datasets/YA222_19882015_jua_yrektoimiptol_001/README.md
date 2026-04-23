@@ -10,7 +10,7 @@
 - **Population:** Yritykset ja niiden toimipaikat
 - **Source:** Yritysrekisterin tilastotiedostot, Yritysten rakenne- ja tilinpäätöstilasto 2013-
 
-## Kuvaus / Description
+## Description
 
 Toimiptolvvvv-tauluun on tutkimuskäyttöä varten muodostettu yritysrekisterin tilastotiedostojen toimipaikoille toimialaluokitusten 2002 ja 2008 mukaiset toimialat vuodesta 1988 lähtien (2013- mukana vain tilastoyksiköt, joilla yritystunnus) empiirisillä avaimilla. Lisäksi toimipaikoista on koottu perustiedot (kunkin vuoden kuntatieto, liikevaihto ja henkilöstön lukumäärä) aikasarjaksi. 
 
@@ -29,9 +29,9 @@ Toimipaikkojen liikevaihtotieto kerätään tilastovuodesta 2013 alkaen ainoasta
 
 Toimipaikoittaiset henkilöstömäärätiedot kerätään edelleenkin pääosin yritysrekisterin ja työssäkäyntitilaston yhteisellä henkilöstö- ja toimipaikkarakennetiedustelulla. Tämä tarkoittaa sitä, että uudistuksen yhteydessä henkilöstömäärätiedoissa ei tapahdu merkittäviä muutoksia ja näin ollen vuositietojen aikasarja ei katkea tämän tiedon osalta.
 
-## Muuttujat / Variables (14)
+## Variables (14)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `ykstun_s` | Suojattu toimipaikkatunnus | — | — | — |
@@ -48,7 +48,7 @@ Toimipaikoittaiset henkilöstömäärätiedot kerätään edelleenkin pääosin 
 | `tol02_2` | Tol2002_2, empiirinen avain | — | — | — |
 | `tol08_2` | Tol2008_2, empiirinen avain | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -110,4 +110,4 @@ Toimialaluokitus 2008, saatavissa vuosille 1999-2012.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

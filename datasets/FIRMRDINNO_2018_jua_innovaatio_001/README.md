@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2018 kuvaa yritysten harjoittaman innovaatiotoiminnan ja eri tyyppisten innovaatioiden käyttöönoton yleisyyttä sekä innovaatiotoiminnan luonnetta vuosina 2016-2018. 
 
@@ -53,9 +53,9 @@ Tilastokeskus on tehnyt innovaatiotutkimuksia 1990-luvulta lähtien, mutta kaikk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (285)
+## Variables (285)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `group` | apumuuttuja | — | — | — |
@@ -343,7 +343,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `lkmkerr` | Lukumääräkerroin | — | — | — |
 | `lvkerr` | Liikevaihtokerroin | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -922,4 +922,4 @@ Epävirallinen apumuuttuja, joka kerto onko yritys vastannut innovaatiokyselyyn 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

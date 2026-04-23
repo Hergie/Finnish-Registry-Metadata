@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://tilastokeskus.fi/til/inn/index.html">Innovaatiotoiminta</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_innovaatiotoiminta.html">Innovaatiotoiminta</a>
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2014 kuvaa yritysten harjoittaman innovaatiotoiminnan ja eri tyyppisten innovaatioiden käyttöönoton yleisyyttä vuosina 2012 - 2014. 
 
@@ -49,9 +49,9 @@ Tilastokeskus on tehnyt innovaatiotutkimuksia 1990-luvulta lähtien, mutta kaikk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (178)
+## Variables (178)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `gp` | Vastaajayksikkö | — | — | — |
 | `ho1` | Konsernin kotimaa | — | — | — |
@@ -232,7 +232,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `lvkerr` | Korotuskerroin, liikevaihdon mukainen | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `gp` — Vastaajayksikkö
 
@@ -251,7 +251,7 @@ Henkilökunta 31.12.2014
 
 #### `turn14` — Liikevaihto 2014
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Liikevaihto 2014 (tai viimeisin 12 kk tilikausi), 1000 €. Rahoituslaitokset: korkotuotot tai vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
@@ -328,19 +328,19 @@ Yrityksen 2012-2014 markkinoille tuomat tuoteinnovaatiot olivat uusia ainoastaan
 
 #### `TurnMar` — Markkinoiden kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 2012-2014 markkinoille tuotujen tuoteinnovaatioiden (palvelut ja tavarat), jotka olivat uusia yrityksen markkinoniden kannalta, osuus yrityksen 2014 kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
 #### `TurnIn` — Yrityksen kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 2012-2014 markkinoille tuotujen tuoteinnovaatioiden (palvelut ja tavarat), jotka olivat uusia yksinomaan oman yrityksen kannalta, osuus yrityksen 2014 kokonaisliikevaihdosta, %.  Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
 #### `TurnUng` — Muuttumattomien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 2012-2014 markkinoille tuotujen muuttamattomien tai vain vähän muutettujen tuotteiden osuus yrityksen 2014 kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
@@ -434,31 +434,31 @@ Yrityksellä oli vuosina 2012-2014  muita innovaatiotoimia uusien tai olennaises
 
 #### `Rrdinx` — Oman t&k-toiminnan menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen omaan tutkimus- ja kehittämistoimintaan liittyvät menot vuonna 2014, 1000€. Tähän sisältyvät yrityksessä tehdyn t&k-toiminnan menot, joihin luetaan: 1. palkkausmenot, 2. aineet, tarvikkeet, rakennusten käyttömenot, muut käyttömenot, 3. ostetut palvelut (omiin t&k-projekteihin liittyvät palvelujen ostot, ei ulkopuolisilta tilattuja kokonaisia t&k-hankkeita), 4. koneet, laitteet, rakennukset, muut käyttöomaisuuden hankintamenot.
 
 #### `Rrdexx` — Ulkopuolelta tilatun t&k-toiminnan menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen ulkopuoleta tilattuun tutkimus- ja kehittämistoimintaan liittyvät menot vuonna 2014, 1000€ Tutkimus- ja kehittämistoiminta, jonka yritya on tilannut muilta yrityksiltä (ml. oman konsernin yritykset) tai julkisilta tai yksityisiltä tutkimuslaitoksilta, ml. korkeakoulut. Tähän kirjataan ulkopuolisilla teetetyt kokonaiset t&k-hankkeet.
 
 #### `Rmacx` — Kone- ja laitehankintoihin liittyvät menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatiotoimintaan liittyvien koneiden, laitteiden ja ohjelmistojen hankintaan liittyvät menot (ilman t&k-toimintaan liittyviä laitemenoja), 1000€ vuonna 2014.
 
 #### `Roekx` — Osaamisen hankintaan liittyvät menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatiotoimintaan liittyvän osaamisen hankintaan yrityksen ulkopuolelta liittyvät menot,1000€ vuonna 2014. Olemassa olevan osaamisen ja tietämyksen, tekijänoikeuksien suojaamien töiden, patentoitujen ja ei-patentoitujen keksintöjen ja muun vastaavan hankinta muilta yrityksiltä tai organisaatioilta uusien tai olennaisesti parannettujen tuotteiden ja prosessien kehittämiseksi. Näihin ei sisällytetä eriä, jotka sisältyvät t&k-menoihin.
 
 #### `Rotrx` — Muut innovaatiotoiminnan menot, muotoilu, koulutus, markkinointi yms.
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Oman yrityksen järjestämä tai muilta hankittu henkilöstökoulutus, joka liittyy uusien tai olennaisesti parannettujen tuotteiden tai prosessien kehittämiseen ja/tai käyttöönottoon.
 Oman yrityksen toimet tai muilta hankitut toimet yrityksenne uusien tai olennaisesti parannettujen tavaroiden ja palveluiden markkinoille tuomiseksi, ml. markkinatutkimus ja tuotteiden markkinoille tuomiseen liittyvä mainonta.
@@ -467,7 +467,7 @@ Oman yrityksen tai muilta hankitut muut, edellä oleviin kohtiin sisältymättö
 
 #### `Rallx` — Innovaatiotoiminnan kokonaismenot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatiotoimien yhteenlasketut menot vuonna 2014 (sisältää oman t&k:n menot, ulkopuolelta tilatun t&k:n menot, innovaatiotoiminnan kone- ja laitehankintoihin liittyvät menot, osaamisen hankintaan liittyvät menot ja muihin innovaatiotoimiin liittyvät menot), 1000€
 
@@ -1084,7 +1084,7 @@ Yrityksen ympäristöinnovaatioiden käyttöönoton syynä oli julkisten hankint
 
 #### `yr_tol08` — Toimiala tol2008
 
-**Luokitus / Classification:** toimiala_910_2008_01_01
+**Classification:** toimiala_910_2008_01_01
 
 Tilastokeskuksen toimialaluokitus 2008.
 
@@ -1110,4 +1110,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

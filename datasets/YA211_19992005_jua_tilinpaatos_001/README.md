@@ -12,7 +12,7 @@
 Elinkeinoverotusaineisto sisältää kaikkien elinkeinoverotuslain alaisten yritysten ja ammatinharjoittajien tilinpäätöstiedot. 
 Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
 
-## Kuvaus / Description
+## Description
 
 Tilinpäätöstilasto kuvaa yritystoiminnan tuloksen muodostumista, kannattavuutta sekä taseen rakennetta. Tilastoyksikkönä on yritys. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus.
 
@@ -26,9 +26,9 @@ Tilinpäätöstilastot sisältävät tiettyjä toimialoja, joiden käytön suhte
 
 Luvut ovat euroina.
 
-## Muuttujat / Variables (96)
+## Variables (96)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Tilastovuosi | — | — | — |
 | `TOL02YR` | Toimiala | — | — | — |
@@ -127,7 +127,7 @@ Luvut ovat euroina.
 | `VOLOENNA` | Vaihto-omaisuus tilikauden lopussa | — | — | — |
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Tilastovuosi
 
@@ -145,7 +145,7 @@ Yritysrekisterin mukainen kirjanpitomuoto. 1 yhdenkertainen kirjanpito, 2 kahden
 
 #### `OIK` — Oikeudellinen muoto
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01
+**Classification:** oikeudell_muoto_1_1984_01_01
 
 Yrityksen oikeudellinen muoto, yritysrekisteristä.
 11	Luonnollinen henkilö
@@ -180,7 +180,7 @@ Vuonna 2003 komissio muutti Pk-yritysten kokoluokkarajoja, joten vuodesta 2003 l
 
 #### `TU` — Tuloslaskelma umpeen
 
-**Luokitus / Classification:** 28.2.2013
+**Classification:** 28.2.2013
 
 Laatumuuttuja 1999-2005: tuloslaskelma umpeen = 1, muut arvot kuvaavat erilaisia ongelmia tuloslaskelmassa.
 
@@ -555,4 +555,4 @@ Ennakkomaksut. Vaihto-omaisuushyödykkeiden ennakkomaksut ovat suorituksia, jotk
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

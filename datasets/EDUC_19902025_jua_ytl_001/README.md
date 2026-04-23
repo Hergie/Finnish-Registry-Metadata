@@ -10,7 +10,7 @@
 - **Population:** Ylioppilaskirjoituksiin osallistuneet henkilöt
 - **Source:** Ylioppilastutkintolautakunnan aineisto
 
-## Kuvaus / Description
+## Description
 
 EDUC_YTL-moduuli (FMEB-data = Finnish Matriculation Examination Board data) sisältää Ylioppilastutkintolautakunnan (YTL) tietoja ylioppilaskirjoituksiin osallistuneista vuoden 1990 keväästä alkaen.Tiedostot sisältävät kaikki ylioppilaskirjoituksiin osallistuneet henkilöt tältä periodilla ja heidän ylioppilaskirjoitushistorian tai henkilöt, jotka ovat valmistuneet lukiosta tältä periodilta. 
 
@@ -50,9 +50,9 @@ Tarkemmat muuttujakohtaiset kuvaukset muuttujaluettelossa. Aineiden (exam) ja te
 
 Lisätietoja saatavilla Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `hid_e` | Suojattu henkiön yksilöivä tunniste. | — | — | — |
 | `exam` | Aine (RESULTSxxxx- ja POINTSxxxx-tauluissa) | — | — | — |
@@ -73,7 +73,7 @@ Lisätietoja saatavilla Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@sta
 | `certificate` | Vuosi ja periodi, kun ensimmäinen ylioppilastutkintotodistus on muodostettu ja myönnetty (degree details -tauluissa) | — | — | — |
 | `graduation` | Ylioppilastutkinnnon valmistumisvuosi ja -periodi (degree details -tauluissa). | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `hid_e` — Suojattu henkiön yksilöivä tunniste.
 
@@ -164,4 +164,4 @@ Vuosi (xxxx) and periodi (K=kevät, S=syksy). Kokelas on valmistunut, kun hän o
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Source:** Työ- ja elinkeinoministeriö
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK jaksotiedot -moduuliin. Tietoja toimenpitein sijoitetuista alkaen vuodesta 1991. 
 
@@ -19,9 +19,9 @@ Vanhat FOLK jaksotieto -aineistot ovat FIONAssa kansiossa FOLK_jaksot_a.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -31,7 +31,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `psyy` | Sijoituksen päättymisen syy | — | — | — |
 | `ta_sektori` | Työnantajan sektori | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -128,4 +128,4 @@ HUOM. Vuoden 2000 luokitus poikkeaa tästä, eikä ole tiedossa, millä luokituk
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yritysrekisterin_toimipaikat_sv.html">Yritysrekisterin toimipaikat</a>
 - **Keywords:** toimipaikat,yritykset,yritysrekisteri
 
-## Kuvaus / Description
+## Description
 
 Yritysrekisterin toimipaikkatason aineisto kattaa liikeyritysten ja yksityisten voittoa tavoittelemattomien yhteisöjen vuosittaiset toimipaikkatason tilastotiedostot. Aineisto sisältää perustiedot toimipaikkojen toimialasta, sijainnista, omistuksesta, liikevaihdosta, henkilöstömäärästä ja palkoista. Aineisto perustuu Tilastokeskuksen yritys- ja toimipaikkarekisteriin. Tiedot saadaan pääasiassa hallinnollisista lähteistä ja yritysrekisterin omista tiedusteluista. Lisätietoja yritystason aineiston kuvauksesta (Yritystietovarasto: yritykset).
 
@@ -26,9 +26,9 @@ Toimipaikoittaisissa henkilöstömäärätiedoissa ei ole tapahtunut merkittävi
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (28)
+## Variables (28)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syritysid` | Suojattu yritysID | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
@@ -59,7 +59,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tol08yr` | Yrityksen toimiala (TOL2008) | — | — | — |
 | `verohoikmuoto` | Verohallinnon oikeudellinen muoto | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syritysid` — Suojattu yritysID
 
@@ -127,4 +127,4 @@ Huom. vuoteen 2012 asti SLHKT2
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

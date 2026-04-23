@@ -10,7 +10,7 @@
 - **Population:** Perustulokokeilun kohdejoukko
 - **Source:** Kansaneläkelaitoksen perustulokokeilurekisteri
 
-## Kuvaus / Description
+## Description
 
 Kelan perustulokokeilurekisteri on suojattu tutkimuskäyttöön. Tutkija hakee aineistolle käyttölupaa Kelasta.
 
@@ -25,16 +25,16 @@ Taulut 1 ja 2 muodostavat Perustulokokeilusta annetun lain (1528/2016) 18 §:n m
 Taulu sisältää perustulokokeilun kohdejoukon henkilöt, tiedon henkilön kuulumisesta koe- tai verrokkiryhmään sekä etuuslajin, jonka perusteella valikoituminen perustulon kohdejoukkoon on määräytynyt. 
 Lisätietoa Perustulokokeilusta: https://www.finlex.fi/fi/laki/alkup/2016/20161528
 
-## Muuttujat / Variables (4)
+## Variables (4)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `shetu` | Suojattu hetu | — | — | — |
 | `TYYPPI` | Koe- ja verrokkiryhmä | — | — | — |
 | `EL` | Etuuslaji | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -54,4 +54,4 @@ FM = työmarkkinatuki
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

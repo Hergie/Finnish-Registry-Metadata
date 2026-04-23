@@ -92,15 +92,15 @@ def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list) -> None
 
     description = (docmeta.get("contentdescription") or "").strip()
     if description:
-        lines.append("## Kuvaus / Description")
+        lines.append("## Description")
         lines.append("")
         lines.append(description)
         lines.append("")
 
     if variables:
-        lines.append(f"## Muuttujat / Variables ({len(variables)})")
+        lines.append(f"## Variables ({len(variables)})")
         lines.append("")
-        lines.append("| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |")
+        lines.append("| Identifier | Name | Unit | Classification | Group |")
         lines.append("|---|---|---|---|---|")
         for var in variables:
             lines.append(
@@ -113,7 +113,7 @@ def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list) -> None
                 )
             )
         lines.append("")
-        lines.append("### Muuttujien määritelmät / Variable definitions")
+        lines.append("### Variable definitions")
         lines.append("")
         for var in variables:
             ident = var.get("identifier") or "(no identifier)"
@@ -125,11 +125,11 @@ def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list) -> None
             lines.append("")
             meta_bits = []
             if var.get("measunit"):
-                meta_bits.append(f"**Yksikkö / Unit:** {var['measunit']}")
+                meta_bits.append(f"**Unit:** {var['measunit']}")
             if var.get("classification"):
-                meta_bits.append(f"**Luokitus / Classification:** {var['classification']}")
+                meta_bits.append(f"**Classification:** {var['classification']}")
             if var.get("variablegroups"):
-                meta_bits.append(f"**Ryhmä / Group:** {var['variablegroups']}")
+                meta_bits.append(f"**Group:** {var['variablegroups']}")
             if meta_bits:
                 lines.append(" · ".join(meta_bits))
                 lines.append("")
@@ -138,14 +138,14 @@ def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list) -> None
                 lines.append(conceptdef)
                 lines.append("")
     else:
-        lines.append("## Muuttujat / Variables")
+        lines.append("## Variables")
         lines.append("")
-        lines.append("_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._")
+        lines.append("_Taika does not list variables for this dataset._")
         lines.append("")
 
     lines.append("---")
     lines.append("")
-    lines.append("[← Takaisin luetteloon / Back to catalogue](../../README.md)")
+    lines.append("[← Back to catalogue](../../README.md)")
     lines.append("")
 
     (dir_path / "README.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
@@ -156,25 +156,11 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
     lines.append("# Finnish Registry Metadata")
     lines.append("")
     lines.append(
-        "Paikallinen peilaus Tilastokeskuksen **Taika**-tutkimusaineistokatalogista "
-        "([taika.stat.fi](https://taika.stat.fi/)). "
-        f"{len(rows)} aineistoa, päivitetty {fetched_date}."
-    )
-    lines.append("")
-    lines.append(
         "Local mirror of Statistics Finland's **Taika** research-data catalogue "
-        f"({len(rows)} datasets, refreshed {fetched_date})."
+        f"([taika.stat.fi](https://taika.stat.fi/)) — {len(rows)} datasets, refreshed {fetched_date}."
     )
     lines.append("")
-    lines.append("## Mikä tämä on / What this is")
-    lines.append("")
-    lines.append(
-        "Tämä arkisto peilaa Tilastokeskuksen Taika-tutkimusaineistokatalogin julkisen "
-        "REST-XQ-rajapinnan vastaukset paikalliseksi, greppavaksi ja offline-luettavaksi "
-        "hakemistoksi. Jokaisesta aineistosta tallennetaan raaka JSON-vastaus (`raw/` ja "
-        "`datasets/<tunnus>/dataset.json`, `variables.json`) sekä generoidaan ihmisen luettava "
-        "Markdown-näkymä (`datasets/<tunnus>/README.md`)."
-    )
+    lines.append("## What this is")
     lines.append("")
     lines.append(
         "This repository mirrors the responses of Statistics Finland's public Taika REST-XQ "
@@ -183,16 +169,14 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "`variables.json`) alongside a generated Markdown view (`datasets/<id>/README.md`)."
     )
     lines.append("")
-    lines.append("## Kenelle / Who this is for")
-    lines.append("")
     lines.append(
-        "Tutkijoille, jotka kirjoittavat koodia Tilastokeskuksen rekisteriaineistoja (FOLK, "
-        "EDUC, SES, FLEED, FIRM_*, kuolemansyyt, perintöverot jne.) vastaan FIONA-etäkäyttö"
-        "ympäristössä. Taikan verkkokäyttöliittymää ei voi selata offline-tilassa, rajapinta "
-        "on dokumentoimaton, eikä muuttujakuvauksia voi grepata — tämä arkisto ratkaisee kaikki "
-        "kolme. Erityisen hyödyllinen, jos koodia kirjoittaa LLM-avusteisesti ja haluaa, että "
-        "mallilla on muuttujien määritelmät suoraan kontekstissa."
+        "The mirrored content itself (dataset subjects, descriptions, variable concept "
+        "definitions) is in Finnish — that is the authoritative language of Statistics Finland's "
+        "metadata, and the English Taika endpoint covers only a fraction of the datasets. The "
+        "scaffolding around that content is in English."
     )
+    lines.append("")
+    lines.append("## Who this is for")
     lines.append("")
     lines.append(
         "Researchers writing code against Statistics Finland register data (FOLK, EDUC, SES, "
@@ -203,14 +187,7 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "definitions available directly in-context."
     )
     lines.append("")
-    lines.append("## Lisenssi / License")
-    lines.append("")
-    lines.append(
-        "Skriptit ja generoitu dokumentaatio on omistettu yleiseen käyttöön CC0-1.0-lisenssillä. "
-        "Peilatut JSON-tiedostot `raw/`- ja `datasets/`-puissa ovat Tilastokeskuksen Taika-rajapinnan "
-        "vastauksia sellaisenaan — ne eivät kuulu CC0:n piiriin, ja downstream-uudelleenjulkaisijoiden "
-        "tulee mainita Tilastokeskus lähteenä. Katso `LICENSE`."
-    )
+    lines.append("## License")
     lines.append("")
     lines.append(
         "Scripts and generated documentation are dedicated to the public domain under CC0-1.0. "
@@ -219,27 +196,26 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "republishers should credit Tilastokeskus as the source. See `LICENSE`."
     )
     lines.append("")
-    lines.append("## Käyttö / Usage")
+    lines.append("## Usage")
     lines.append("")
     lines.append(
-        "Claude-agenttien tulee konsultoida tätä arkistoa kirjoittaessaan koodia, "
-        "joka lukee Tilastokeskuksen rekisteriaineistoja (FOLK, EDUC, SES, FLEED, YA221, kuolemansyyt, "
-        "perintöverot jne.). Muuttujatiedot löytyvät kunkin aineiston "
-        "`datasets/<tunnus>/README.md`-tiedostosta tai raakana `variables.json`-tiedostosta."
+        "LLM coding assistants should consult this archive when writing code that reads Statistics "
+        "Finland register data (FOLK, EDUC, SES, FLEED, YA221, cause-of-death, inheritance-tax, "
+        "etc.). Variable-level documentation lives in each dataset's `datasets/<id>/README.md` or "
+        "in the raw `variables.json`."
     )
     lines.append("")
-    lines.append("## Päivitys / Refresh")
+    lines.append("## Refresh")
     lines.append("")
     lines.append("```")
     lines.append("python fetch_taika_metadata.py && python build_catalogue.py")
     lines.append("```")
     lines.append("")
-    lines.append("Älä muokkaa `raw/`- tai `datasets/`-hakemistoja käsin — ne generoidaan. "
-                 "Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.")
+    lines.append("Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.")
     lines.append("")
-    lines.append("## Luettelo / Catalogue")
+    lines.append("## Catalogue")
     lines.append("")
-    lines.append("| Tunnus / Identifier | Aihe / Subject | Kattavuus / Coverage | #Var | #Obs | |")
+    lines.append("| Identifier | Subject | Coverage | #Var | #Obs | |")
     lines.append("|---|---|---|---|---|---|")
     for row in rows:
         lines.append(
@@ -253,33 +229,33 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
             )
         )
     lines.append("")
-    lines.append("## Lähteet ja rajoitukset / Source notes")
+    lines.append("## Source notes")
     lines.append("")
     lines.append(
-        "- Taustalla on Taikan julkinen REST-XQ-rajapinta "
+        "- The archive is built against Taika's public REST-XQ API "
         "(`/restxq/taika/fi/datasets`, `/restxq/taika/fi/datasets/{id}`, `/restxq/taika/fi/variables/{id}`). "
-        "Rajapintaa ei ole virallisesti dokumentoitu, mutta se on julkinen eikä vaadi autentikointia."
+        "The endpoint is undocumented but public and does not require authentication."
     )
     lines.append(
-        "- Arkisto perustuu suomenkieliseen rajapintaan. Englanninkielinen rajapinta "
-        "(`/restxq/taika/en/datasets`) on kattavuudeltaan paljon suppeampi "
-        "(noin 84 aineistoa vs. suomen 312), joten sitä ei käytetä."
+        "- The Finnish endpoint is used because the English one "
+        "(`/restxq/taika/en/datasets`) covers only about 84 of the 312 datasets."
     )
     lines.append(
-        "- `statmeta`-kenttä on Taikassa yleensä placeholder (`\"metaa...\"`) ja tallennetaan sellaisenaan."
+        "- The `statmeta` field is usually a Taika placeholder (`\"metaa...\"`) and is stored verbatim."
     )
     lines.append(
-        "- Kahdeksalla SURVEY-aineistolla muuttujaluettelo sisältää Taikan placeholder-sentinel-arvon "
-        "(`emptyvariablenameforcossicreatedbycsmetaedit`); se suodatetaan pois READMEsta."
+        "- Eight SURVEY datasets list a placeholder sentinel variable "
+        "(`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out."
     )
     lines.append(
-        "- **Henkilötunnusmuuttuja / Person ID variable:** Taika dokumentoi henkilön yksilöivän tunnisteen nykyään nimellä `hid_e`. "
-        "Aiemmissa aineistotoimituksissa sama tunniste kulki nimellä `shnro`, ja Tilastokeskus on vaihtanut muuttujan nimen. "
-        "Joissain tauluissa sama henkilötunniste voi olla vielä näistäkin eroavilla nimillä."
+        "- **Person ID variable:** Taika currently documents the person-level identifier as `hid_e`. "
+        "Older data deliveries used `shnro` — Statistics Finland renamed the variable. Some tables "
+        "may still expose the identifier under other names."
     )
     lines.append(
-        "- **Generoitu tiedosto / Generated file:** tämä `README.md` tuotetaan `build_catalogue.py`-skriptillä yhdessä "
-        "312 aineiston `datasets/<tunnus>/README.md`-tiedoston kanssa. Älä muokkaa käsin — muutokset korvautuvat seuraavalla ajolla."
+        "- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the "
+        "312 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be "
+        "overwritten on the next refresh."
     )
     lines.append("")
     README_FILE.write_text("\n".join(lines), encoding="utf-8", newline="\n")

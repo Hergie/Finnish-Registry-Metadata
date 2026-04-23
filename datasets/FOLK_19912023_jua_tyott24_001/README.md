@@ -10,7 +10,7 @@
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 - **Keywords:** työttömyys
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK jaksotiedot -moduuliin. Tietoja työttömyysjaksoista vuodesta 1991 alkaen. 
 
@@ -20,9 +20,9 @@ Vanhat FOLK jaksotieto -aineistot ovat FIONAssa kansiossa FOLK_jaksot_a.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (6)
+## Variables (6)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -31,7 +31,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `psyy` | Työttömyyden päättymissyy | — | tyottomy_3_2012_01_01 | Työnhakijarekisteri |
 | `tjtyol` | Työttömyysjakson työllisyyskoodi | — | tyottomy_11_2012_01_01 | Työnhakijarekisteri |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -43,19 +43,19 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `alkupvm` — Työttömyyden alkupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työttömyysjakson alkupäivämäärä.
 
 #### `loppupvm` — Työttömyyden loppupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työttömyysjakson loppupäivämäärä.
 
 #### `psyy` — Työttömyyden päättymissyy
 
-**Luokitus / Classification:** tyottomy_3_2012_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyottomy_3_2012_01_01 · **Group:** Työnhakijarekisteri
 
 Uusi luokitus tilastovuodesta 2012 alkaen:
 
@@ -89,7 +89,7 @@ Aiemmin:
 
 #### `tjtyol` — Työttömyysjakson työllisyyskoodi
 
-**Luokitus / Classification:** tyottomy_11_2012_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyottomy_11_2012_01_01 · **Group:** Työnhakijarekisteri
 
 Työttömyysjakson työllisyyskoodi, työttömien aineistossa mukana vain luokat 2 ja 3. 
 
@@ -98,4 +98,4 @@ Työttömyysjakson työllisyyskoodi, työttömien aineistossa mukana vain luokat
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

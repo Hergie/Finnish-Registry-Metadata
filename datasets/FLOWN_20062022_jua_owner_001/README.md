@@ -10,7 +10,7 @@
 - **Population:** Osakeyhtiöt ja niiden osakkaat
 - **Source:** Verohallinnon Tilastokeskukselle tilastotarkoituksiin toimittamat tiedot
 
-## Kuvaus / Description
+## Description
 
 FLOWN (Finnish Longitudinal OWNer-Employer-Employee Data) -valmisaineisto mahdollistaa yritysten ja niiden omistajien tietojen yhdistämisen ja käytön tutkimuksessa. Aineisto perustuu Verohallinnon Tilastokeskukselle tilastotarkoitusta varten toimittamiin osakeyhtiöiden osakastietoihin, yhtiömiestietoihin ja osinkotietoihin. 
 
@@ -31,9 +31,9 @@ Muista yksikkötason tiedoista poiketen kynnyssääntönä FLOWN-aineiston tieto
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (11)
+## Variables (11)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste (omistajatunnus, henkilö) | — | — | — |
@@ -47,7 +47,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `yhtionomat` | Yhtiön hallussa olevat omat osakkeet | — | — | — |
 | `omistusmuutos` | Omistusmuutoksen vuosi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -97,4 +97,4 @@ Saatavissa vuodesta 2018 lähtien.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

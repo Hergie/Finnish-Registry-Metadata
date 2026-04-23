@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/pul/index.html">Palvelujen ulkomaankauppa</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_palvelujen_ulkomaankauppa.html">Palvelujen ulkomaankauppa</a>
 - **Keywords:** palvelut,tuonti,ulkomaankauppa,vienti,yritykset
 
-## Kuvaus / Description
+## Description
 
 Palvelujen ulkomaankaupan tiedonkeruiden aineisto vuosilta 2002 - 2014 kuvaa palvelujen vientiä ja tuontia palvelutyypeittäin ja kohdemaittain.  Palvelujen vienniksi lasketaan tilanteet, joissa yritys vastaanottaa korvauksen vastikkeena palvelusta ulkomaiselta talousyksiköltä. Vastaavasti tuonnissa suomalainen talousyksikkö maksaa ulkomaiselle toimijalle vastineena palvelusta. Tilastoon sisältyvät myös konsernien sisäiset palvelutransaktiot. Tilasto kattaa tuotannolliset palvelut, huolto- ja korjauspalvelut, posti- ja kuriiripalvelut, rakentamisen, osan rahoituspalveluista, henkisen omaisuuden käytöstä perityt maksut, televiestintä-, tietojenkäsittely- ja tietopalvelut, muut liike-elämän palvelut, henkilökohtaiset, kulttuuri- ja virkistyspalvelut sekä ulkomailla myytyjen tavaroiden katteen. Sisältöön ei kuulu matkailuun tai kuljetukseen liittyvät palvelut, vakuutuspalvelut eikä välilliset rahoituspalvelut. Viennin ja tuonnin palveluerittäiset tiedot luokitellaan maakohtaisesti maksutaseen maaluokitusten mukaisesti.
 
@@ -134,9 +134,9 @@ Tietoja julkaistaessa on huolehdittava siitä, etteivät yksittäisen yrityksen 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -146,7 +146,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `arvo` | Viennin tai tuonnin arvo | — | — | — |
 | `syritysid` | Suojattu yritysid | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -186,7 +186,7 @@ Yhdysvallat US
 
 #### `pu_koodi` — Palvelutyyppi
 
-**Luokitus / Classification:** ebops_1_2015_01_01
+**Classification:** ebops_1_2015_01_01
 
 Vuoden 2013 palveluerien kuvaukset löytyvät luokituskannasta tai tiedonkeruun ohjeesta: http://www.stat.fi/keruu/paul/files/ohje_2014_fi.pdf
 
@@ -343,4 +343,4 @@ Uusi yritysyksikön tunnnus, mukana vuodesta 2014 alkaen
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Taustatietoja saatu Väestörekisterikeskuksesta.
 
-## Kuvaus / Description
+## Description
 
 Toisen asteen yhteishaku -moduulin 6. osa koostuu henkilöistä, jotka osallistuivat tilastovuodesta 2014 alkaen  toisen asteen koulutuksen yhteishakuun. Vuosilta 2014 - 2016 tiedostot on toimitettu Tilastokeskukseen OPH:sta. Vuodesta 2017 alkaen aineisto on haettu rajapinnalta json-muotoisina tiedostoina, joista Tilastokeskuksessa on koottu varsinainen aineisto. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
 
@@ -46,9 +46,9 @@ Yksilöintitunnuksissa SHAKU_OID, SHAKEMUS_OID, SHLOOID, SHAKUKOHTEEN_ORGANISAAT
 2014:
 Uusimuotoisessa toisen asteen hakuaineistossa on laatupulmia. Ensimmäinen hakutoive on kaikkiaan 94 000 hakijalla, mutta 1 300 hakijalta se puuttuu, vaikka muita hakutoiveita heiltä kyllä löytyy. Tähän todennäköisenä selityksenä on vuoden 2015 puolella poistetut hakukohteet, joiden mukana hakukohteeseen liittyvät tiedot hyväksymisineen ja vastaanottoineen ovat hävinneet, eivätkä siis ole mukana TK:een tulleessa aineistossa. Sama ongelma koskee myös muita hakutoiveita. Esimerkiksi toinen hakutoive puuttuu 740 hakijalta, joilta kuitenkin löytyy kolmas hakutoive.
 
-## Muuttujat / Variables (111)
+## Variables (111)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TILV` | Tilastovuosi | — | — | — |
 | `HAKUVUOSI` | Hakuvuosi | — | — | — |
@@ -162,7 +162,7 @@ Uusimuotoisessa toisen asteen hakuaineistossa on laatupulmia. Ensimmäinen hakut
 | `OLTYP` | Hakukohteen oppilaitostyyppi | — | — | — |
 | `OMIST` | Hakukohteen oppilaitoksen omistajatyyppi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TILV` — Tilastovuosi
 
@@ -1286,4 +1286,4 @@ Tieto vuodesta 2015 alkaen.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

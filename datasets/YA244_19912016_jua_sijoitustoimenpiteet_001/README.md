@@ -11,7 +11,7 @@
 - **Source:** Työ- ja elinkeinoministeriö
 - **Related:** <a href= "http://www.stat.fi/til/tyokay/">Työssäkäyntitilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yhdistetty_tyontekija_tyonantaja_aineisto_otos_sijoitusjaksot.html">Yhdistetty työntekijä-työnantaja-aineisto (FLEED), otos, sijoitusjaksot</a>
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -22,9 +22,9 @@ Sijoitusjaksot yhdistetyn työntekijä-työnantaja-aineiston (Finnish Longitudin
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `alkupvm` | Sijoituksen alkupäivämäärä | — | — | — |
@@ -34,11 +34,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `ta_sektori` | Toimenpiteen sektori | — | — | — |
 | `shnro` | Kryptattu Tilastokeskuksen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
@@ -112,4 +112,4 @@ Kryptattu Tilastokeskuksen henkilönumero.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Kaikki teolliset toimipaikat, joissa työhön osallistuvan henkilökunnan määrä on kalenterivuonna pysyvästi vähintään 5 henkilöä.
 - **Source:** Tilastokeskuksen teollisuustilastokyselyt
 
-## Kuvaus / Description
+## Description
 
 Teollisuustilaston palvelukannan aineisto vuosilta 1974-1994 sisältää toimipaikoittaisia tietoja henkilöstöstä, tuotannosta, tuotantopanoksista, viennistä ja investoinneista. Tilastoyksikkönä on toimipaikka. 
 
@@ -27,9 +27,9 @@ Teollisuustilastossa toimipaikan toimiala määräytyy toimipaikan tuottamien te
 
 Arvotiedot ovat tuhansina markkoina ja työtunnit tuhansina tunteina.
 
-## Muuttujat / Variables (165)
+## Variables (165)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | tilastovuosi | — | — | — |
 | `TOIMINTA` | toimintaa ilmaiseva tunnus | — | — | — |
@@ -197,7 +197,7 @@ Arvotiedot ovat tuhansina markkoina ja työtunnit tuhansina tunteina.
 | `slyt` | Suojattu liikeyritystunnus | — | — | — |
 | `skonserni` | Suojattu konsernitunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — tilastovuosi
 
@@ -364,20 +364,20 @@ K)  20000-
 
 #### `VIENOS` — viennin osuus toimituksista %
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Viennin osuus toimituksista, prosenttia. Tavaroiden ja palvelujen vienti EU-maihin ja EU:n  ulkopuolisiin maihin. Vienti arvostetaan samojen periaatteiden  mukaan kuin liikevaihto.
 
 #### `THOS` — toimihenkilöiden osuus henkilökunnasta %
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Toimihenkilöiden osuus henkilökunnasta, prosenttia. THOS = 100 * THLUKU/HENKLKM. Henkilökuntaan luetaan kaikki henkilöt, jotka työskentelevät toimipaikassa tai toimipaikan lukuun (henkilökunnan lukumäärä).
  Henkilökunta luokitellaan itsenäisiin yrittäjiin (omistajiin), toimihenkilöihin ja työntekijöihin.
 
 #### `TVKUSOS` — työvoimakustannusten osuus jalostusarvosta, %
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 TVKUSOS Työvoimakustannusten osuus jalostusarvosta 
 TVKUSOS = 100 * TKYHT / JALKOK
@@ -385,35 +385,35 @@ Korvaus työvoimapanoksesta.
 
 #### `YLUKU` — yrittäjiä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Yrittäjien lukumäärä. Itsenäisiin yrittäjiin sisältyvät yksityisyrittäjät, avoimien ja kommandiittiyhtiöiden osakkaat sekä näiden avustavat perheenjäsenet, jotka työskentelevät toimipaikassa päivittäin. Osakeyhtiön tms. osakkaat samoin kuin heidän avustavat perheenjäsenensä, jos he työskentelevät yrityksessä, luetaan heidän suorittamansa työn luonteen perusteella joko toimihenkilöihin tai työntekijöihin. 
 Henkilöiden lukumäärät ilmoitetaan kalenterivuoden keskimääräisinä lukuina. Siten esim. puoli vuottatyöskentelevä työntekijä vastaa puolta henkilöä. Toisaalta puoli päivää työskentelevä henkilö vastaa yhtä henkilöä
 
 #### `YLUKUN` — naisyrittäjiä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Naisyrittäjien lukumäärä, saatavissa 1984 asti. Itsenäisiin yrittäjiin sisältyvät yksityisyrittäjät, avoimien ja kommandiittiyhtiöiden osakkaat sekä näiden avustavat perheenjäsenet, jotka työskentelevät toimipaikassa päivittäin. Osakeyhtiön tms. osakkaat samoin kuin heidän avustavat perheenjäsenensä, jos he työskentelevät yrityksessä, luetaan heidän suorittamansa työn luonteen perusteella joko toimihenkilöihin tai työntekijöihin. 
 Henkilöiden lukumäärät ilmoitetaan kalenterivuoden keskimääräisinä lukuina. Siten esim. puoli vuottatyöskentelevä työntekijä vastaa puolta henkilöä. Toisaalta puoli päivää työskentelevä henkilö vastaa yhtä henkilöä.
 
 #### `THLUKU` — toimihenkilöitä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Toimihenkilöiden lukumäärä. Toimihenkilöiksi luetaan muut kuin jäljempänä mainittu, työntekijöiksi laskettava henkilöstö. Työntekijöiksi luetaan välittömästi valmistusprosessiin osallistuvat henkilöt, apuosastojen työntekijät kuten pakkaajat, huolto- ja kunnossapitotyöntekijät, rakennusosastojen työntekijät, koneenkäyttäjät, lämmittäjät, siivoojat jne. Myös sellaiset työnjohtajat, jotka osallistuvat varsinaiseen valmistustyöhön, luetaan työntekijöiksi. 
 Henkilöiden lukumäärät ilmoitetaan kalenterivuoden keskimääräisinä lukuina. Siten esim. puoli vuottatyöskentelevä työntekijä vastaa puolta henkilöä. Toisaalta puoli päivää työskentelevä henkilö vastaa yhtä henkilöä.
 
 #### `THLUKUN` — naistoimihenkilöitä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Naistoimihenkilöiden lukumäärä, saatavissa 1984 asti. Toimihenkilöiksi luetaan muut kuin jäljempänä mainittu, työntekijöiksi laskettava henkilöstö. Työntekijöiksi luetaan välittömästi valmistusprosessiin osallistuvat henkilöt, apuosastojen työntekijät kuten pakkaajat, huolto- ja kunnossapitotyöntekijät, rakennusosastojen työntekijät, koneenkäyttäjät, lämmittäjät, siivoojat jne. Myös sellaiset työnjohtajat, jotka osallistuvat varsinaiseen valmistustyöhön, luetaan työntekijöiksi. 
 Henkilöiden lukumäärät ilmoitetaan kalenterivuoden keskimääräisinä lukuina. Siten esim. puoli vuottatyöskentelevä työntekijä vastaa puolta henkilöä. Toisaalta puoli päivää työskentelevä henkilö vastaa yhtä henkilöä
 
 #### `THTUNNIT` — toimihenkilöiden työtunnit
 
-**Yksikkö / Unit:** 1 000 h
+**Unit:** 1 000 h
 
 Toimihenkilöiden työtunnit. Työtunteihin lasketaan kalenterivuoden aikana tehdyt todelliset työtunnit. Työtunteihin ei täten sisälly poissaoloajat (sairasloma, vuosiloma tms.) eikä ns. ylityökorotukset. Odotusajan  työtunnit lasketaan mukaan, jos niistä on maksettu palkkaa.Toimihenkilöiden ja työntekijöiden työtunnit ilmoitetaan erikseen.
 
@@ -446,19 +446,19 @@ Toimihenkilöiksi luetaan muut  kuin  yrittäjät ja työntekijät.
 
 #### `TTLUKU` — työntekijöitä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Työntekijöiden lukumäärä. Työntekijöiksi luetaan välittömästi valmistusprosessiin osallistuvat henkilöt, apuosastojen työntekijät kuten pakkaajat, huolto- ja kunnossapitotyöntekijät, rakennusosastojen työntekijät, koneenkäyttäjät, lämmittäjät, siivoojat jne. Myös sellaiset työnjohtajat, jotka osallistuvat varsinaiseen valmistustyöhön, luetaan työntekijöiksi. Henkilöiden lukumäärät  ilmoitetaan tilikauden keskimääräisinä lukuina.
 
 #### `TTLUKUN` — naistyöntekijöitä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Naistyöntekijöiöden lukumäärä, saatavissa vuoteen 1984 asti. Työntekijöiksi luetaan välittömästi valmistusprosessiin osallistuvat henkilöt, apuosastojen työntekijät kuten pakkaajat, huolto- ja kunnossapitotyöntekijät, rakennusosastojen työntekijät, koneenkäyttäjät, lämmittäjät, siivoojat jne. Myös sellaiset työnjohtajat, jotka osallistuvat varsinaiseen valmistustyöhön, luetaan työntekijöiksi.
 
 #### `TTTUNNIT` — työntekijöiden työtunnit
 
-**Yksikkö / Unit:** 1 000 h
+**Unit:** 1 000 h
 
 Työntekijöiden työtunnit. Työtunteihin lasketaan kalenterivuoden aikana tehdyt todelliset työtunnit. Työtunteihin ei täten sisälly poissaoloajat (sairasloma, vuosiloma tms.) eikä ns. ylityökorotukset. Odotusajan  työtunnit lasketaan mukaan, jos niistä on maksettu palkkaa.Toimihenkilöiden ja työntekijöiden työtunnit ilmoitetaan erikseen.
 
@@ -491,7 +491,7 @@ Työntekijöiksi luetaan välittömästi valmistusprosessiin osallistuvat henkil
 
 #### `HENKLKM` — koko henkilökunnan lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Koko henkilökunnan lukumäärä. Yrityksen henkilöstöön eli työvoimaan luetaan kaikki henkilöt, jotka työskentelevät siinä tai sen  lukuun. Henkilöstö luokitellaan  itsenäisiin yrittäjiin (omistajiin), toimihenkilöihin ja  työntekijöihin. Henkilöiden lukumäärät ilmoitetaan tilikauden keskimääräisinä lukuina. Siten esim. puoli vuotta työskentelevä työntekijä vastaa puolta henkilöä. Toisaalta puoli päivää työskentelevä henkilö vastaa yhtä henkilöä. 
 Henkilöiden lukumääriin lasketaan 
@@ -505,7 +505,7 @@ Henkilöiden lukumääriin lasketaan
 
 #### `PALKLKM` — palkattu henkilökunta
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Palkatun henkilöstön lukumäärä. Palkatun henkilöstön määrä saadaan,  kun työntekijöiden ja toimihenkilöiden määrät lasketaan yhteen.  Henkilöiden lukumäärät ilmoitetaan tilikauden keskimääräisinä lukuina.
 
@@ -1138,4 +1138,4 @@ Suojattu konsernitunnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

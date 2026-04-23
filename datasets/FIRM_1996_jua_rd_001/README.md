@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tkke/index.html">Tutkimus- ja kehittämistoiminta</a> <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_tutkimus_ja_kehittamistoiminta.html">Tutkimus- ja kehittämistoiminta (T&K)</a>
 - **Keywords:** korkeakoulut,menot,tietoyhteiskunta,tuotekehitys,tutkimuslaitokset,tutkimusmenot,tutkimustoiminta,yliopistot,yritykset
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kysely vuodelle 1996 (yri96) tehtiin innovaatiotutkimuksen1996 tiedonkeruun yhteydessä, joten se on sisällöltään muita vuosia suppeampi. 
 
@@ -46,9 +46,9 @@ Kyselylomake saatavissa erikseen. Vastaavia tietoja on saatavissa suppeampana pa
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (13)
+## Variables (13)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `HK` | Yrityksen henkilökunta 1996 | — | — | — |
 | `LV` | Yrityksen liikevaihto vuonna 1996 | — | — | — |
@@ -64,7 +64,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `PKERR` | Lukumääräkerroin | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `HK` — Yrityksen henkilökunta 1996
 
@@ -155,4 +155,4 @@ Suojattu yritystunnus, yrityksen y-tunnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

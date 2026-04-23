@@ -10,7 +10,7 @@
 - **Population:** Oikeudelliset yksiköt (yritykset ja julkisyhteisöt)
 - **Source:** Verohallinnon asiakastietokanta (ASITK) + kunkin päivityksen yhteydessä Tilastokeskuksessa johdetut (päätellyt) tiedot.
 
-## Kuvaus / Description
+## Description
 
 FIRM_BASE-aineisto sisältää yritystietovaraston oikeudellisten yksiköiden kuukausittain päivittyvät taustatiedot, jotka pohjautuvat Verohallinnon asiakastietokantaan ja Tilastokeskuksen yritysrekisterin päättelyihin. Luokitus- ym. tiedot sisältävät tietojen muutoshistorian koko voimassaoloajaltaan. Tutkimusaineiston tiedot päivittyvät noin 45 päivän viiveellä.
  
@@ -18,9 +18,9 @@ Aineisto sisältää perustietoja mm. yritysten ja julkisyhteisöjen toimialasta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (70)
+## Variables (70)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yrityksen (oikeudellisen yksikön) Y-tunnus. | — | — | — |
 | `yritysID_s` | Suojattu yritys-ID, yrityksen tunnus | — | — | — |
@@ -93,7 +93,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `ALVVelvEsiintymispalkkioLopPvm` | ALV-velvollinen esiintymispalkkioista, lopetuspäivä | — | — | — |
 | `shnro_toissijtunnus` | Oikeudellisen yksikön toissijainen tunnus | — | — | tunnus, re |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yrityksen (oikeudellisen yksikön) Y-tunnus.
 
@@ -123,7 +123,7 @@ Valtion virastotunnus. Annetaan Valtiokonttorissa. 7-mittainen, muotoa nnnnnnt, 
 
 #### `AlPvm` — Oikeudellisen yksikön aloituspvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön aloituspäivä. Pääsääntöisesti tämä on verohallintoon tai kaupparekisteriin merkitsemispäivä tai luonnollisella henkilöllä Y-tunnuksen alkamis-/antopäivä. Tietoa johdetaan myös joidenkin ominaisuustietojen alkupäivien avulla ja lisäksi käytössä on puuttuvia ja virheellisiä tietoja korvaavia keinotekoisia päivämääriä (erityisesti vanhemmilla yksiköillä). 
 
@@ -151,13 +151,13 @@ Puutteellisten ja virheellisten tietojen lisäksi sisältää runsaasti - erityi
 
 #### `LopPvm` — Oikeudellisen yksikön hallinnollinen lopetuspvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön lopetuspäivä (= lopetusajankohta verohallinnon asiakastietokannassa) tai sen Y-tunnuksen lopetuspvm.
 
 #### `toimAlPvm` — Oikeudellisen yksikön taloudellisen toiminnan aloituspvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön taloudellisen toiminnan aloituspäivämäärä. Käytännössä sen tilikauden alkupäivä, jolloin yksikön toiminnallisuus havaitaan. Vanhimmilla yksiköillä toiminnan aloituspäivämäärä on varhaisin pvm seuraavista:
 - alv-velvollisuuden alkupäivämäärä
@@ -171,7 +171,7 @@ Toiminnan aloittamiset kasaantuvat tammikuulle, koska aloittaneilla yrityksillä
 
 #### `toimLopPvm` — Oikeudellisen yksikön taloudellisen toiminnan lopetuspvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön taloudellisen toiminnan loppumispäivämäärä. Käytännössä sen tilikauden loppupäivä, jolloin toiminnallisuuden lopetus havaitaan. Lisäksi päivitetään aina, kun saadaan tieto Y-tunnuksen lopettamisesta.
 
@@ -181,7 +181,7 @@ Hallinnollisen lopetuksen käyttö (LopPvm) on yleistymässä tilastoissa, koska
 
 #### `VerohOikMuoto` — Oikeudellinen muoto (Verohallinto)
 
-**Luokitus / Classification:** verohoikmuot_2_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** verohoikmuot_2_2012_01_01 · **Group:** luokitus, RE
 
 Oikeudellisen yksikön oikeudellinen muoto eli yksikön oikeudellisen aseman verotuksessa ilmaiseva koodi. 
 
@@ -247,20 +247,20 @@ Luokitus:
 
 #### `VerohOikAlPvm` — Verohallinnon oikeudellisen muodon alkupvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Verohallinnon oikeudellisen muodon alkupvm
 
 #### `Eurooppayhtio` — Tieto siitä, onko oikeudellinen yksikkö eurooppayhtiö
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** RE, luokitus
 
 Tieto siitä, onko oikeudellinen yksikkö eurooppayhtiö. 
 Mahdolliset arvot ovat: 0 = ei, 1 = kyllä
 
 #### `Kuntayhtyma` — Tieto siitä, onko oikeudellinen yksikkö kuntayhtymä.
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** johdettu, luokitus, RE
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** johdettu, luokitus, RE
 
 Tieto siitä, onko oikeudellinen yksikkö kuntayhtymä. Mahdolliset arvot: 0 = Ei, 1 = Kyllä
  
@@ -275,7 +275,7 @@ päivitetään Kuntayhtyma = 1, muutoin Kuntayhtyma = 0.
 
 #### `Ohi` — Julkisyhteisöjen ohitustieto
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** RE, luokitus, johdettu
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** RE, luokitus, johdettu
 
 Julkisyhteisöjen ohitustieto. Saa arvon 1, mikäli johdettu omistajatyyppi on kunta, valtio tai Ahvenanmaan maakunta. Julkisyhteisöt tunnistaa myös seuraavia tapoja noudattaen (nämä kaikki koskevat oikeudellista yksikköä, yritystä ja toimipaikkaa):
  
@@ -284,7 +284,7 @@ Julkisyhteisöjen ohitustieto. Saa arvon 1, mikäli johdettu omistajatyyppi on k
 
 #### `JulkisyhtTyyppi` — Julkisyhteisötyyppi oikeudellisella yksiköllä
 
-**Luokitus / Classification:** jlkyhttyyp_2_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** jlkyhttyyp_2_2012_01_01 · **Group:** RE, luokitus
 
 Julkisyhteisötyyppi oikeudellisella yksiköllä. Julkisyhteisötyypit ovat:
 
@@ -307,13 +307,13 @@ Tieto lisätty 25.1.2016.
 
 #### `Kieli` — Oikeudellisen yksikön asiointikieli YTY:ssä, verohallinnon mukaan.
 
-**Luokitus / Classification:** kieli_22_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** kieli_22_2012_01_01 · **Group:** luokitus, RE
 
 Oikeudellisen yksikön asiointikieli YTY:ssä, verohallinnon mukaan. 0=Suomi, 1=Ruotsi.
 
 #### `UlkomVuokratyonantaja` — Koodi ulkomaalaisten vuokratyönantajana toimimisesta
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** RE, luokitus
 
 Koodi ulkomaalaisten vuokratyönantajana toimimisesta. Sallitut arvot:
 1 = kyllä,
@@ -321,13 +321,13 @@ Koodi ulkomaalaisten vuokratyönantajana toimimisesta. Sallitut arvot:
 
 #### `Kansalaisuus` — Kansalaisuuden maatunnus
 
-**Luokitus / Classification:** valtio_2_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** valtio_2_2012_01_01 · **Group:** luokitus, RE
 
 Kansalaisuuden maatunnus, luokitus: Valtiot ja maat -luokitus, jossa on yhtenä koodivaihtoehtona 2-kirjaimiset koodit.
 
 #### `YleishYhteiso` — Koodi yleishyödyllisestä yhteisöstä, verotuksessa
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** RE, luokitus
 
 Koodi yleishyödyllisestä yhteisöstä, verotuksessa. Sallitut arvot:
 1 = kyllä,
@@ -335,19 +335,19 @@ Koodi yleishyödyllisestä yhteisöstä, verotuksessa. Sallitut arvot:
 
 #### `YleishAlPvm` — Yleishyödyllisenä yhteisönä aloituspvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Yleishyödyllisenä yhteisönä aloituspvm
 
 #### `TotaalToimAlPvm` — Oikeudellisen yksikön totaalisen toiminnan alkupvm verohallinnossa
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön totaalisen toiminnan alkupvm verohallinnossa
 
 #### `LisPvm` — Oikeudellisen yksikön lisäyspvm yritysrekisteriin / YTY-tuotantokantaan
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Päivämäärä, jolloin oikeudellinen yksikkö on lisätty verohallinnon asiakastietokannasta (ASITK) yritysrekisteriin / YTY-tuotantokantaan.  Asiakastietokannan päivityspäivämäärä (kuukausittain, aiemmin 1/4-vuosittain). 
   
@@ -355,7 +355,7 @@ Käsittely: Ei päivitetä vanhoille oikeudellisille yksiköille.
 
 #### `tilaPerus` — Perustietojen tila oikeudellisella yksiköllä
 
-**Luokitus / Classification:** perustiettila_2_2012_01_01 · **Ryhmä / Group:** RE, johdettu, aputiedot_tekniset
+**Classification:** perustiettila_2_2012_01_01 · **Group:** RE, johdettu, aputiedot_tekniset
 
 Perustietojen tila oikeudellisella yksiköllä: Järjestelmän käyttämä tieto yksikön perustietojen käsittelyn tilasta. Perustiedot sisältävät mm. yksikön toimialan, toiminnan tilan ja osoitetietoja.
 
@@ -371,7 +371,7 @@ Perustietojen tila oikeudellisella yksiköllä: Järjestelmän käyttämä tieto
 
 #### `oikMuoto` — Oikeudellisen yksikön oikeudellinen (juridinen) muoto yritysrekisterissä
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** oikeudell_muoto_1_1984_01_01 · **Group:** luokitus, RE
 
 Oikeudellisen yksikön oikeudellinen (juridinen) muoto yritysrekisterissä. Verohallinnon oikeudellinen muoto muunnettu koneellisesti vastaamaan yritysrekisterissä käytettyä luokitusta.
 
@@ -401,7 +401,7 @@ Oikeudellisen yksikön oikeudellinen (juridinen) muoto yritysrekisterissä. Vero
 
 #### `omtyyppi` — Omistajatyyppi oikeudellisella yksiköllä
 
-**Luokitus / Classification:** omistajatyyppi_1_1995_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** omistajatyyppi_1_1995_01_01 · **Group:** RE, luokitus
 
 Omistajatyyppi oikeudellisella yksiköllä. Johdetaan / muokataan oikeudellisesta muodosta. 
 
@@ -414,7 +414,7 @@ Omistajatyyppi oikeudellisella yksiköllä. Johdetaan / muokataan oikeudellisest
 
 #### `sektoriluokka` — Oikeudellisen yksikön sektoriluokka
 
-**Luokitus / Classification:** sektoriluokitus_11_2013_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** sektoriluokitus_11_2013_01_01 · **Group:** luokitus, RE
 
 Oikeudellisen yksikön sektoriluokka. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.
 
@@ -505,13 +505,13 @@ Oikeudellisen yksikön sektoriluokka. Luokitus, jossa yksiköt jaetaan omistajuu
 
 #### `sektoriAlPvm` — Sektoriluokan muutos-/alkupäivämäärä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Sektoriluokan muutos-/alkupäivämäärä
 
 #### `toiminnallisuudenTila` — Oikeudellisen yksikön toiminnallisuuden tila
 
-**Luokitus / Classification:** toimtila_2_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** toimtila_2_2012_01_01 · **Group:** luokitus, RE
 
 Oikeudellisen yksikön toiminnallisuuden tila
 
@@ -523,7 +523,7 @@ Oikeudellisen yksikön toiminnallisuuden tila
 
 #### `tol2008` — Toimiala (TOL2008)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** toimiala_1_2008_01_01 · **Group:** luokitus, RE
 
 Toimialaluokitus TOL 2008:n mukainen toimialakoodi, joka määräytyy oikeudellisen yksikön toiminnan perusteella. Monitoimipaikkaisella oikeudellisella yksiköllä koodi ilmaisee yksikön päätoimialaa, joka määräytyy ohjelmallisesti toimipaikkojen toimiala- ym. tiedoista.
 
@@ -540,79 +540,79 @@ Julkisen sektorin toimijoille toimiala oikeudellisen yksikön tasolla on yleens�
 
 #### `verohTol2008` — Verohallinnon antama toimialakoodi (TOL2008) oikeudelliselle yksikölle
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** toimiala_1_2008_01_01 · **Group:** luokitus, RE
 
 Verohallinnon antama toimialakoodi (TOL2008) oikeudelliselle yksikölle
 
 #### `kotikunta` — Oikeudellisen yksikön virallisen asuin-/kotikunnan kuntakoodi
 
-**Ryhmä / Group:** RE, luokitus
+**Group:** RE, luokitus
 
 Oikeudellisen yksikön virallisen asuin-/kotikunnan kuntakoodi. (Asuinkunta voi olla myös ns. keinokunta, koodi 200.) Kunkin vuoden / hetken tilanne on omana kuntakoodistonaan TK:n luokituseditorissa.
 
 #### `ALVVelvLiiketoimAlPvm` — ALV-velvollisen liiketoiminnan alkupvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollisen liiketoiminnan alkupvm
 
 #### `ALVVelvLiiketoimLopPvm` — ALV-velvollisen liiketoiminnan loppupvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollisen liiketoiminnan loppupvm
 
 #### `ALVVelvAlkutuotAlPvm` — ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä aloituspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä aloituspäivä
 
 #### `ALVVelvAlkutuotLopPvm` — ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä lopetuspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollinen alkutuottajuudesta ja/tai taide-esineen tekijänä lopetuspäivä
 
 #### `ALVVelvKiintVuokrAlPvm` — ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana aloituspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana aloituspäivä
 
 #### `ALVVelvKiintVuokrLopPvm` — ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana lopetuspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollinen kiinteistön käyttöoikeuden luovuttajana lopetuspäivä
 
 #### `ALVVelvPorotalAlPvm` — ALV-velvollinen porotaloudesta aloituspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollinen porotaloudesta aloituspäivä
 
 #### `ALVVelvPorotalLopPvm` — ALV-velvollinen porotaloudesta lopetuspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollinen porotaloudesta lopetuspäivä
 
 #### `ALVVelvUlkomAlPvm` — ALV-velvollisen ulkomaisen toiminnan aloituspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollisen ulkomaisen toiminnan aloituspäivä
 
 #### `ALVVelvUlkomLopPvm` — ALV-velvollisen ulkomaisen toiminnan lopetuspäivä
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 ALV-velvollisen ulkomaisen toiminnan lopetuspäivä
 
 #### `MuokALVVelv` — Muokattu liiketoiminnasta ALV-velvollisuus
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** luokitus, RE
 
 Indikaattorimuuttuja liiketoiminnasta arvonlisäverovelvollisuudelle
 1	Kyllä	
@@ -621,7 +621,7 @@ Indikaattorimuuttuja liiketoiminnasta arvonlisäverovelvollisuudelle
 
 #### `MuokTyonant` — Muokattu työnantajuus (TA-rooli)
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** RE, luokitus
 
 Indikaattorimuuttuja (säännölliselle) työnantajuudelle (ei koske satunnaista työnantajuutta)
 1	Kyllä	
@@ -630,7 +630,7 @@ Indikaattorimuuttuja (säännölliselle) työnantajuudelle (ei koske satunnaista
 
 #### `MuokEnnakonperYks` — Muokattu ennakkoperintärekisteriin kuuluminen (EPR-rooli)
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** luokitus, RE
 
 Indikaattorimuuttuja ennakkoperintärekisteriin (EPR) kuulumiselle
 1	Kyllä	
@@ -639,7 +639,7 @@ Indikaattorimuuttuja ennakkoperintärekisteriin (EPR) kuulumiselle
 
 #### `MuokAlkutuott` — Muokattu alkutuottajuudesta / taide-esineen tekijänä ALV-velvollisuus
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** RE, luokitus
 
 Indikaattorimuuttuja alkutuottajuudelle / taide-esineen tekijyydelle (ALT-rooli)
 1	Kyllä	
@@ -648,7 +648,7 @@ Indikaattorimuuttuja alkutuottajuudelle / taide-esineen tekijyydelle (ALT-rooli)
 
 #### `oikMuotoLahde` — Oikeudellisen (juridisen) muodon saantilähde
 
-**Ryhmä / Group:** luokitus, RE
+**Group:** luokitus, RE
 
 Oikeudellisen (juridisen) muodon saantilähde
   1 Suorat tiedonkeruut
@@ -661,7 +661,7 @@ Oikeudellisen (juridisen) muodon saantilähde
 
 #### `omtyyppiLahde` — Omistajatyypin saantilähde
 
-**Ryhmä / Group:** RE, luokitus
+**Group:** RE, luokitus
 
 Omistajatyypin saantilähde
   1 Suorat tiedonkeruut
@@ -674,7 +674,7 @@ Omistajatyypin saantilähde
 
 #### `sektoriluokkaLahde` — Sektoriluokan saantilähde
 
-**Ryhmä / Group:** RE, luokitus
+**Group:** RE, luokitus
 
 Sektoriluokan saantilähde
   1 Suorat tiedonkeruut
@@ -687,7 +687,7 @@ Sektoriluokan saantilähde
 
 #### `ToiminnallisuudenTilaLahde` — Toiminnallisuuden tilan saantilähde
 
-**Ryhmä / Group:** luokitus, RE
+**Group:** luokitus, RE
 
 Toiminnallisuuden tilan saantilähde
   1 Suorat tiedonkeruut
@@ -700,7 +700,7 @@ Toiminnallisuuden tilan saantilähde
 
 #### `tol2008Lahde` — Toimialatiedon (TOL 2008) saantilähde
 
-**Ryhmä / Group:** RE, luokitus
+**Group:** RE, luokitus
 
 Toimialatiedon (TOL 2008) saantilähde
   1 Suorat tiedonkeruut
@@ -713,7 +713,7 @@ Toimialatiedon (TOL 2008) saantilähde
 
 #### `verohTol2008Lahde` — Verohallinnon (oman) toimialatiedon (TOL 2008) saantilähde
 
-**Ryhmä / Group:** luokitus, RE
+**Group:** luokitus, RE
 
 Verohallinnon (oman) toimialatiedon (TOL 2008) saantilähde
   1 Suorat tiedonkeruut
@@ -726,7 +726,7 @@ Verohallinnon (oman) toimialatiedon (TOL 2008) saantilähde
 
 #### `kotikuntaLahde` — Kotikuntatiedon saantilähde
 
-**Ryhmä / Group:** RE, luokitus
+**Group:** RE, luokitus
 
 Kotikuntatiedon saantilähde
   1 Suorat tiedonkeruut
@@ -739,13 +739,13 @@ Kotikuntatiedon saantilähde
 
 #### `paaOikYks` — Pää-(asiallinen) oikeudellinen yksikkö ao. yrityksessä (yritysyksikössä)
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** RE, luokitus
 
 Pää-(asiallinen) oikeudellinen yksikkö ao. yrityksessä (yritysyksikössä), luokitus. Luokitus. Koodit: 1 = Kyllä, on pääasiallinen oikeudellinen yksikkö, 0 = Ei ole.
 
 #### `MuokPorotVelv` — Muokattu ALV-velvollisuus porotaloudesta
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** luokitus, RE
 
 Indikaattorimuuttuja arvonlisäverovelvollisuudelle porotaloudesta
 1	Kyllä	
@@ -754,7 +754,7 @@ Indikaattorimuuttuja arvonlisäverovelvollisuudelle porotaloudesta
 
 #### `muokKiintVuokrVelv` — Muokattu ALV-velvollisuus kiinteistöjen vuokrauksesta
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** RE, luokitus
 
 Indikaattorimuuttuja arvonlisäverovelvollisuudelle kiinteistöjen vuokrauksesta 
 1	Kyllä	
@@ -763,7 +763,7 @@ Indikaattorimuuttuja arvonlisäverovelvollisuudelle kiinteistöjen vuokrauksesta
 
 #### `MuokUlkomVelv` — Muokattu ALV-velvollisuus ulkomaisesta toiminnasta
 
-**Luokitus / Classification:** vast_vaihtoehdo_70_2012_01_01 · **Ryhmä / Group:** luokitus, RE
+**Classification:** vast_vaihtoehdo_70_2012_01_01 · **Group:** luokitus, RE
 
 Indikaattorimuuttuja arvonlisäverovelvollisuudelle ulkomaisesta toiminnasta  
 1	Kyllä	
@@ -772,19 +772,19 @@ Indikaattorimuuttuja arvonlisäverovelvollisuudelle ulkomaisesta toiminnasta
 
 #### `TyonantajaRekAlPvm` — Työnantajarekisteröinnin alkupvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Työnantajarekisterin aloituspäivä (= säännöllisen työnantajuuden aloituspäivä).
 
 #### `TyoLopPvm` — Työnantajarekisteröinnin loppupvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Työnantajarekisterin lopetuspäivä (= säännöllisen työnantajuuden lopetuspäivä)
 
 #### `ToimLopMuoto` — Oikeudellisen yksikön toiminnan lopetusmuoto
 
-**Luokitus / Classification:** yrlopmuot_2_2012_01_01 · **Ryhmä / Group:** re, luokitus
+**Classification:** yrlopmuot_2_2012_01_01 · **Group:** re, luokitus
 
 Oikeudellisen yksikön toiminnan lopetusmuoto
 11	Kuoleminen	
@@ -799,7 +799,7 @@ Tieto lisätty 17.3.2014
 
 #### `ALVVelvOmaAlPvm` — Ostajana tai omasta käytöstä ALV-velvollinen -kauden alkupvm
 
-**Ryhmä / Group:** re
+**Group:** re
 
 Ostajana tai omasta käytöstä ALV-velvollinen -kauden alkupvm
 
@@ -807,7 +807,7 @@ Tieto lisätty 17.3.2014
 
 #### `ALVVelvOmaLopPvm` — Ostajana tai omasta käytöstä ALV-velvollinen -kauden loppupvm
 
-**Ryhmä / Group:** re
+**Group:** re
 
 Ostajana tai omasta käytöstä ALV-velvollinen -kauden loppupvm
 
@@ -815,43 +815,43 @@ Tieto lisätty 17.3.2014
 
 #### `KuntaAlPvm` — Oikeudellisen yksikön kotikunnan alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön kotikunnan alku-/muutospvm
 
 #### `oikMuotoAlPvm` — Oikeudellisen yksikön oikeudellisen muodon alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön oikeudellisen muodon alku-/muutospvm
 
 #### `tol2008AlPvm` — Oikeudellisen yksikön toimialakoodin (TOL 2008) alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön toimialakoodin (TOL 2008) alku-/muutospvm
 
 #### `VerohTol2008AlPvm` — Oikeudellisen yksikön verohallinnon käyttämän ja sieltä suoraan saadun toimialakoodin (TOL 2008)  alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön verohallinnon käyttämän ja sieltä suoraan saadun toimialakoodin (TOL 2008)  alku-/muutospvm
 
 #### `omtyyppiAlPvm` — Oikeudellisen yksikön omistajatyyppikoodin alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön omistajatyyppikoodin alku-/muutospvm
 
 #### `toimTilaAlPvm` — Oikeudellisen yksikön toiminnallisuuden tila -koodin alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön toiminnallisuuden tila -koodin alku-/muutospvm
 
 #### `julkisyhtTyyppiAlPvm` — Oikeudellisen yksikön julkisyhteisötyyppi -koodin alku-/muutospvm
 
-**Ryhmä / Group:** RE
+**Group:** RE
 
 Oikeudellisen yksikön julkisyhteisötyyppi -koodin alku-/muutospvm
 
@@ -867,11 +867,11 @@ ALV-velvollinen esiintymispalkkioista, lopetuspäivä
 
 #### `shnro_toissijtunnus` — Oikeudellisen yksikön toissijainen tunnus
 
-**Ryhmä / Group:** tunnus, re
+**Group:** tunnus, re
 
 Oikeudellisen yksikön toissijainen tunnus: 
 Henkilötunnuspohjaiset oikeudellisen yksikön (luonnollisten henkilöiden) tunnukset on viety toissijaisiksi tunnuksiksi. Näitä voidaan joskus hyödyntää toisten aineistojen linkittämisessä erityisesti yrittäjiin liittyen. Tunnus on muutettu Tilastokeskuksen suojatuksi henkilönumeroksi.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

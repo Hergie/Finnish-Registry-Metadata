@@ -10,7 +10,7 @@
 - **Population:** Kohdeperusjoukko on Suomessa toimivat yritykset. Kehikko on Tilastokeskuksen ylläpitämä yritysrekisteri. Aineisto kattaa Suomessa tehdyn tutkimus- ja kehittämistyön. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa.
 - **Source:** Tutkimus- ja kehittämistoiminnan vuosikysely
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kyselyaineisto vuodelle 2023 (FIRM_RDINNO_tk_2023) kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Rahamääräiset tiedot ovat euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja).
 Kynnysarvosäännön rinnalla tulee soveltaa dominanssisääntöä 2 (1,75) tuoreissa yritystiedoissa (15 kk viiteajankohdasta). 
@@ -40,9 +40,9 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
  sekä tilaston sivuilta: stat.fi/tilasto/tkke
 
-## Muuttujat / Variables (324)
+## Variables (324)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | — | — | — | — |
@@ -369,7 +369,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `tk21` | Tk menoja edvuosi | — | — | — |
 | `SyritysID` | Suojattu yritysID | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -1021,4 +1021,4 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

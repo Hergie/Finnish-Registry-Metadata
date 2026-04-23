@@ -10,7 +10,7 @@
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö
 - **Source:** Tilastokeskuksen henkilötietovarasto, yritysrekisterin toimipaikat
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston työssäkäyntimoduuli sisältää pääasiassa työssäkäyntitilaston tietoja. Työnantajaa koskevia tietoja on moduulissa sekä vuoden viimeisen viikon työsuhteesta (TVM) että vuoden pisimmästä, vähintään puoli vuotta kestäneestä  työsuhteesta (ATV). Moduulin tietoja on saatavilla vuodesta 1987 lähtien, jollei muuttujankuvauksessa toisin mainita.
 
@@ -27,9 +27,9 @@ FOLK Työssäkäynti -aineistot sijaitsevat FIONAssa FOLK_TKT_C-kansiossa, jossa
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (48)
+## Variables (48)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `shnro` | Suojattu TK:n henkilönumero | — | — | — |
@@ -80,7 +80,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tyomatka` | Työmatka | — | — | — |
 | `auto` | Henkilö ajoneuvon omistaja/haltija | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -92,7 +92,7 @@ Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa.
 
 #### `ammattikoodi` — Ammattikoodi
 
-**Ryhmä / Group:** Ammatti
+**Group:** Ammatti
 
 Tietoja vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 lähtien vuosittain. Tieto henkilön ammatista on tuotettu 18-74-vuotiaille työllisille, siis palkansaajille ja yrittäjille. Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. Henkilön ammattikoodi tuotetaan ensisijaisesti vuoden viimeisen viikon päätyösuhteen mukaisen ammatin perusteella. Ammattinimikkeiden lisäksi tiedon tuottamisessa käytetään hyväksi tietoa henkilön työpaikan toimialasta ja sektorista sekä henkilön koulutuksesta. Ammattitietojen tuottamista ohjaa kansainvälisen työjärjestön ILO:n laatima hierarkkinen luokitusjärjestelmä International Standard Classification of Occupations, lyh. ISCO. 
 
@@ -142,7 +142,7 @@ Huom. Tilastovuonna 2019 tulorekisterin päivämäärätiedoissa kyseessä on vi
 
 #### `oty1` — Omistajatyyppi (TVM)
 
-**Ryhmä / Group:** työsuhde
+**Group:** työsuhde
 
 Henkilön vuoden lopun työsuhteen työnantajayrityksen omistajatyyppi 
 
@@ -166,7 +166,7 @@ BL = Henkilö ei työllinen
 
 #### `oik1` — Oikeudellinen muoto (TVM)
 
-**Ryhmä / Group:** työsuhde
+**Group:** työsuhde
 
 Henkilön vuoden lopun työsuhteen työnantajayrityksen oikeudellinen muoto. 
 11 = Luonnollinen henkilö 
@@ -196,7 +196,7 @@ BL = Henkilö ei työllinen
 
 #### `toimiala` — Toimiala (TVM)
 
-**Ryhmä / Group:** työsuhde, tyossakaynti
+**Group:** työsuhde, tyossakaynti
 
 Henkilön TVM-käsitteen mukaisen työsuhteen toimiala eli vuoden lopussa työllisenä olevien päätyösuhteen toimiala. 
 Käytössä seuraavat luokitukset: 
@@ -210,7 +210,7 @@ Luokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusa
 
 #### `tsekt1` — Sektori (TVM)
 
-**Ryhmä / Group:** työsuhde
+**Group:** työsuhde
 
 Vuoden viimeisen viikon työsuhteen työnantajayrityksen sektori (TVM). Tietoja vuodesta 1989 lähtien.
 
@@ -329,7 +329,7 @@ suojatun jäsenyhteisö- tai virastotunnuksen (stptitunj2) kanssa. Julkisen sekt
 
 #### `ptoim2` — Pääasiallinen toiminta (ATV)
 
-**Ryhmä / Group:** tyossakaynti
+**Group:** tyossakaynti
 
 Pääasiallinen toiminta pisimmän työsuhteen päättelyllä. 
 11 = työllinen 
@@ -344,7 +344,7 @@ Tietoja vuoteen 2018 asti.
 
 #### `amas2` — Ammattiasema (ATV)
 
-**Ryhmä / Group:** tyossakaynti
+**Group:** tyossakaynti
 
 Ammattiasema vuoden pisimmän työsuhteen mukaan. 
 1=palkansaaja 
@@ -354,19 +354,19 @@ Päättely muuttunut v. 2005. Aiemmin vaadittu, että yrittäjä on myös työna
 
 #### `alkupvm2` — Työsuhteen alkamispäivä (ATV)
 
-**Ryhmä / Group:** Työsuhde
+**Group:** Työsuhde
 
 Vuoden pisimmän työsuhteen alkamispäivä. Tietoja vuoteen 2018 asti.
 
 #### `loppupvm2` — Loppupäivämäärä (ATV)
 
-**Ryhmä / Group:** Työsuhde
+**Group:** Työsuhde
 
 Vuoden pisimmän työsuhteen päättymispäivä. Tietoja vuoteen 2018 asti.
 
 #### `oty2` — Omistajatyyppi (ATV)
 
-**Ryhmä / Group:** Työsuhde
+**Group:** Työsuhde
 
 Henkilön vuoden pisimmän työsuhteen yrityksen omistajatyyppi. Tietoja vuoteen 2018 asti.
 
@@ -390,7 +390,7 @@ BL = Henkilö ei työllinen
 
 #### `oik2` — Oikeudellinen muoto (ATV)
 
-**Ryhmä / Group:** Työsuhde
+**Group:** Työsuhde
 
 Henkilön pisimmän työsuhteen työnantajayrityksen oikeudellinen muoto
 11 = Luonnollinen henkilö 
@@ -421,7 +421,7 @@ Tietoja vuoteen 2018 asti.
 
 #### `toimiala2` — Toimiala (ATV)
 
-**Ryhmä / Group:** Työsuhde
+**Group:** Työsuhde
 
 Vuoden pisimmän työsuhteen toimiala. Tietoja vuoteen 2018 asti.
 Käytössä seuraavat luokitukset: 
@@ -435,7 +435,7 @@ Luokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusa
 
 #### `tsekt2` — Sektori (ATV)
 
-**Ryhmä / Group:** Työsuhde
+**Group:** Työsuhde
 
 Vuoden pisimmän työsuhteen työnantajayrityksen sektori (ATV). Tietoja vuodesta 1989 vuoteen 2018.
 
@@ -526,7 +526,7 @@ Suuruusluokat ovat :
 
 #### `tyopv` — Työpäiviä
 
-**Ryhmä / Group:** tyossakaynti
+**Group:** tyossakaynti
 
 Henkilön työpäivien yhteenlaskettu lukumäärä tilastovuonna. Tietoja vuodesta 2005 lähtien. Työpäivät lasketaan työsuhteen alku- ja loppupäivämäärä -tiedoista.
 
@@ -534,25 +534,25 @@ HUOM! Tilastovuonna 2019 työssäkäyntitilastossa siirryttiin käyttämään pa
 
 #### `tyottpv` — Työttömyyspäiviä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Henkilön työttömyyspäivien yhteenlaskettu lukumäärä tilastovuonna. Tietoja vuodesta 2005 lähtien.
 
 #### `sijpv` — Sijoituspäiviä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Henkilön työvoimapoliittisten sijoituspäivien yhteenlaskettu lukumäärä tilastovuonna. Eri sijoitusjaksot laskettu yhteen, mahdolliset päällekkäiset jaksot poistettu. Tietoja vuodesta 2004 lähtien.
 
 #### `sijti` — Sijoittumistieto
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 sijti=1 : Henkilö ollut työvoimapoliittisin toimenpitein sijoitettuna vuoden viimeisellä viikolla (25.12-31.12.tilastovuosi, vuodesta 2005 lähtien) tai vuoden viimeisenä päivänä (vuosina 1993-2004). Tietoja vuodesta 1993 lähtien.
 
 #### `tpide` — Sijoitetun toimenpidekoodi
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työvoimapoliittisen toimenpiteen sijottumiskoodi. Tieto työministeriön työnhakijarekisteristä vuoden viimeisellä viikolla sijoitettuna olevilla. Tietoja vuosilta 1998-2004. 
 40 = valtion työtehtävät 
@@ -574,13 +574,13 @@ Muut koodit virheellisiä, epävalideja
 
 #### `viim_tyott_kesto` — Viimeisen työttömyysjakson kesto päivinä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Viimeisimmän tilastovuoden lopussa voimassaolevan tai tilastovuoden aikana loppuneen työttömyysjakson kesto päivinä. Lasketaan henkilön viimeisimmän työttömyysjakson alkupäivästä loppupäivään tai jos työttömyys voimassa vuoden loppuun (31.12.) Tietoja vuodesta 2001 lähtien.
 
 #### `tpasy` — Työttömyyden päättymissyy
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työttömyyden päättymisen syy. Tietoja vuodesta 1995 lähtien.
 Luokitus vuodesta 2012 alkaen: 
@@ -614,7 +614,7 @@ z = tuntematon
 
 #### `thpsyy` — Työnhaun päättymissyy
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Henkilön viimeisimmän työnhakujakson päättymisen syy. Osalla henkilöitä, joilla työnhaun päättymispäivä on tyhjä eli työnhaku jatkuu vuodenvaihteen yli, on merkitty päättymisen syy. 
 
@@ -648,7 +648,7 @@ Luokitus vuoteen 2011 saakka:
 
 #### `aika` — Eläkkeen alkamisaika
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Voimassaolevista eläkejaksoista (ei osa-aika-, perhe- eikä takuueläke) varhaisin alkamisaika. Tietoja vuodesta 2005 lähtien.
 
@@ -686,4 +686,4 @@ Tietoja vuodesta 1990 lähtien.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

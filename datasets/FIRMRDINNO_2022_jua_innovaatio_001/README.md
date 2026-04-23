@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus on EU-harmonisoitu kyselytutkimus, mikä toteutetaan joka toinen vuosi parillisia vuosia koskien. Tutkimukseen liitetään EU-sisällön lisäksi vaihtelevasti myös kansallisia kysymyksiä. Innovaatiotutkimus selvittää yritysten innovaatiotoimintaa, sen yleisyyttä ja luonnetta sekä myös innovaatiotoimintaan läheisesti liittyviä ilmiöitä ja innovaatiopotentiaalia.
 
@@ -64,9 +64,9 @@ Lisätietoja:
 Innovaatiotoiminnan tilaston verkkosivut: https://stat.fi/tilasto/inn
 Tilastokeskuksen tutkijapalvelut: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (358)
+## Variables (358)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `ipr_out_pat` | Patenttihakemus | — | — | — |
 | `ipr_out_uti` | Hyödyllisyysmallihakemus | — | — | — |
@@ -427,7 +427,7 @@ Tilastokeskuksen tutkijapalvelut: tutkijapalvelut@tilastokeskus.fi.
 | `reas_nminn_resc` | Ei enempää innovaatiotoimintaa resurssien puuttumisen vuoksi | — | — | — |
 | `syritysid` | Suojattu yritysid-tunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `ipr_out_pat` — Patenttihakemus
 
@@ -1845,4 +1845,4 @@ Yritysyksikön suojattu tunnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

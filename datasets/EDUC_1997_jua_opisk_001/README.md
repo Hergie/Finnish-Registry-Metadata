@@ -11,7 +11,7 @@
 - **Source:** TK: Oppilaitostilastot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
-## Kuvaus / Description
+## Description
 
 EDUC_OPISK Opiskelijat 1997-vuositiedosto sisältää tutkintoon johtavassa koulutuksessa syksyllä 1997 päivälukioissa, ammatillisissa oppilaitoksissa, vakinaisissa ja väliaikaisissa ammattikorkeakouluissa ja yliopistoissa opiskelleet.
 
@@ -56,9 +56,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (55)
+## Variables (55)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `KOTY` | Nuorten/aikuisten koulutus | — | — | — |
 | `OKUNTA` | Opiskelukunta | — | kunta_1_1997_01_01 | — |
@@ -116,7 +116,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `shnro` | Tilastokeskuksen suojattu henkilönumero | — | — | — |
 | `s_oltunn` | Tilastokeskuksen suojattu oppilaitostunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `KOTY` — Nuorten/aikuisten koulutus
 
@@ -125,7 +125,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 #### `OKUNTA` — Opiskelukunta
 
-**Luokitus / Classification:** kunta_1_1997_01_01
+**Classification:** kunta_1_1997_01_01
 
 Opiskelukunta 1997. 
 VRK:n kuntakoodi
@@ -155,7 +155,7 @@ ko. yliopistoon.
 
 #### `KIELI2` — Äidinkieli
 
-**Luokitus / Classification:** kieli_13_1996_01_01
+**Classification:** kieli_13_1996_01_01
 
 Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
 
@@ -165,7 +165,7 @@ Ikä vuosina 31.12.1997
 
 #### `KIELI` — Äidinkieli
 
-**Luokitus / Classification:** kieli_13_1996_01_01
+**Classification:** kieli_13_1996_01_01
 
 Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
 
@@ -175,27 +175,27 @@ Vuoden 1997 syksyn opiskelijat
 
 #### `ASKUNTA` — Asuinkunta
 
-**Luokitus / Classification:** kunta_1_1997_01_01
+**Classification:** kunta_1_1997_01_01
 
 Opiskelijan asuinkunta 31.12.1997
 . VRK:n kuntakoodi
 
 #### `KANSA` — Kansalaisuus
 
-**Luokitus / Classification:** valtio_11_1970_01_01
+**Classification:** valtio_11_1970_01_01
 
 Väestötilastojen maaluokitus. 
 Koodin 1. merkki maanosa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
 
 #### `KOULKX` — Tilastokeskuksen koulutuskoodi
 
-**Luokitus / Classification:** koulutus_1_1996_01_01
+**Classification:** koulutus_1_1996_01_01
 
 Tilastokeskuksen koulutuskoodi 31.12.1997, vanha
 
 #### `APUKX` — Koulutuskoodin apukoodit
 
-**Luokitus / Classification:** koulutus_1_1996_01_01
+**Classification:** koulutus_1_1996_01_01
 
 Tarvitaan, jos käytetään karkeampaa luokitusta. Vanha luokitus.
 
@@ -275,43 +275,43 @@ käännetty uuden TK:n koulutuskoodin kautta.
 
 #### `ATKLE` — Unescon koulutusaste
 
-**Luokitus / Classification:** isced_aste_1_1997_01_01
+**Classification:** isced_aste_1_1997_01_01
 
 ISCED 1997, Level
 
 #### `ATKFI` — Unescon koulutusala
 
-**Luokitus / Classification:** isced_ala_1_1997_01_01
+**Classification:** isced_ala_1_1997_01_01
 
 ISCED 1997, Field
 
 #### `ATKDE` — Unescon sijoittumistavoiteluokitus
 
-**Luokitus / Classification:** isced_6_1997_01_01
+**Classification:** isced_6_1997_01_01
 
 ISCED 1997, Destination
 
 #### `ATKOR` — Unescon suuntautumisluokitus
 
-**Luokitus / Classification:** isced_3_1997_01_01
+**Classification:** isced_3_1997_01_01
 
 ISCED 1997, Orientation
 
 #### `ATKST` — Unescon kansallinen tutkintorakenne
 
-**Luokitus / Classification:** isced_4_1997_01_01
+**Classification:** isced_4_1997_01_01
 
 ISCED 1997, National degree structure
 
 #### `ATKDU` — Unescon koulutuksen suunniteltu kesto
 
-**Luokitus / Classification:** isced_5_1997_01_01
+**Classification:** isced_5_1997_01_01
 
 ISCED 1997, Duration
 
 #### `TYYPPI` — Oppilaitostyyppi
 
-**Luokitus / Classification:** oppilaittostyyp_1_1996_01_01
+**Classification:** oppilaittostyyp_1_1996_01_01
 
 TK:n oppilaitosluokitus 31.12.1997
 
@@ -336,7 +336,7 @@ TK:n oppilaitosluokitus 31.12.1997.
 
 #### `SIJKUNTA` — Oppilaitoksen sijaintikunta
 
-**Luokitus / Classification:** kunta_1_1997_01_01
+**Classification:** kunta_1_1997_01_01
 
 TK:n oppilaitosluokitus 31.12.1997. 
 VRK:n kuntakoodi
@@ -353,13 +353,13 @@ VRK:n kuntakoodi
 
 #### `ASTEKESK` — Asuinkunnan TE-keskus
 
-**Luokitus / Classification:** tyov_elink_kesk_1_1997_09_01
+**Classification:** tyov_elink_kesk_1_1997_09_01
 
 31.12.1997, TK:n alueluokitus, v. 1997
 
 #### `ASMAAK` — Asuinmaakunta
 
-**Luokitus / Classification:** maakunta_1_1997_01_01
+**Classification:** maakunta_1_1997_01_01
 
 31.12.1997, TK:n alueluokitus, v. 1997
 
@@ -382,7 +382,7 @@ VRK:n kuntakoodi
 
 #### `ASSEUTU` — Asuinkunnan seutukunta
 
-**Luokitus / Classification:** seutukunta_1_1997_09_01
+**Classification:** seutukunta_1_1997_09_01
 
 31.12.1997, TK:n alueluokitus, v. 1997
 
@@ -399,13 +399,13 @@ TK:n alueluokitus, v. 1997.
 #### `OTEKESK` — Opiskelukunnan työvoima- 
 ja elinkeinokeskus
 
-**Luokitus / Classification:** tyov_elink_kesk_1_1997_09_01
+**Classification:** tyov_elink_kesk_1_1997_09_01
 
 TK:n alueluokitus, v. 1997
 
 #### `OMAAK` — Opiskelumaakunta
 
-**Luokitus / Classification:** maakunta_1_1997_09_01
+**Classification:** maakunta_1_1997_09_01
 
 TK:n alueluokitus, v. 1997
 
@@ -428,7 +428,7 @@ TK:n alueluokitus, v. 1997.
 
 #### `OSEUTU` — Opiskelukunnan seutukunta
 
-**Luokitus / Classification:** seutukunta_1_1997_09_01
+**Classification:** seutukunta_1_1997_09_01
 
 TK:n alueluokitus, v. 1997
 
@@ -445,13 +445,13 @@ TK:n alueluokitus, v. 1997.
 #### `SIJTEKES` — Oppilaitoksen työvoima- 
 ja elinkeinokeskus
 
-**Luokitus / Classification:** tyov_elink_kesk_1_1997_09_01
+**Classification:** tyov_elink_kesk_1_1997_09_01
 
 TK:n alueluokitus, v. 1997
 
 #### `SIJMAAK` — Oppilaitoksen sijaintimaakunta
 
-**Luokitus / Classification:** maakunta_1_1997_09_01
+**Classification:** maakunta_1_1997_09_01
 
 TK:n alueluokitus, v. 1997
 
@@ -475,13 +475,13 @@ TK:n alueluokitus, v. 1997.
 
 #### `SIJSEUTU` — Oppilaitoksen sijaintiseutukunta
 
-**Luokitus / Classification:** seutukunta_1_1997_09_01
+**Classification:** seutukunta_1_1997_09_01
 
 TK:n alueluokitus, v. 1997
 
 #### `KOULK` — Tilastokeskuksen koulutuskoodi
 
-**Luokitus / Classification:** koulutus_1_1997_01_01
+**Classification:** koulutus_1_1997_01_01
 
 Tilastokeskuksen koulutuskoodi 1997
 
@@ -521,4 +521,4 @@ korkein tavoitetutkinto. 1=korkein, 2=muu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

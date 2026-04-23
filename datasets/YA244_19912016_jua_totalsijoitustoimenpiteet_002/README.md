@@ -10,7 +10,7 @@
 - **Population:** Työikäinen väestö
 - **Source:** Työ- ja elinkeinoministeriö
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -21,9 +21,9 @@ Tietoja toimenpitein sijoitetuista alkaen vuodesta 1991.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `alkupvm` | Sijoituksen alkupäivämäärä | — | — | — |
@@ -33,11 +33,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `ta_sektori` | Toimenpiteen sektori | — | — | — |
 | `shnro` | Kryptattu Tilastokeskuksen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
@@ -134,4 +134,4 @@ Kryptattu Tilastokeskuksen henkilönumero.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

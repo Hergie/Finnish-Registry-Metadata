@@ -10,7 +10,7 @@
 - **Population:** kaikki yli 100 henkilöä työllistävät yritykset ja satunnaisotos 50 – 99 henkilöä työllistävistä yrityksistä; vastanneita noin 1400 yritystä
 - **Source:** Tilastokeskuksen Toimintojen ulkoistaminen ja siirtäminen ulkomaille -kysely
 
-## Kuvaus / Description
+## Description
 
 Aineisto sisältää noin 1400 yrityksen tiedot. Näistä hieman yli 300 on 50–99 henkilöä työllistäviä yrityksiä, loput vähintään 100 henkilöä työllistäviä yrityksiä. Aineisto kattaa joitakin rajauksia lukuun ottamatta kaikki kohdejoukossa olevat vähintään 100 henkilön yritykset. Pienemmistä 50–99 henkilön yrityksistä on poimittu satunnaisotos. Otos painottuu toimialoille, joilla toimintojen ulkoistaminen tai siirtäminen ulkomaille on muita toimialoja yleisempää. Poimintakehikosta ja otoksesta kerrotaan tarkemmin jäljempänä.
 Yli 100 henkilön yrityksistä vain noin 230 (reilut 20 %) oli ulkoistanut toimintojaan ulkomaille vuosina 2001–2006, ja pienempien yritysten joukossa ulkomaille ulkoistaneiden osuus on selvästi tätäkin vähäisempi. Valtaosa aineistosta (n. 80 %) koostuu yrityksistä, jotka eivät olleet ulkoistaneet toimintojaan ulkomaille. Nämä yritykset vastasivat ainoastaan ulkoistamisen esteitä koskevaan kysymykseen. 
@@ -61,9 +61,9 @@ Katokorjauksen jälkeen aineisto jälkiositettiin vastaamaan Eurostatin toimiala
 
 Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (279)
+## Variables (279)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `paino07` | Korotuskerroin | — | — | — |
@@ -345,7 +345,7 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 | `K62_D3` | Onko yrityksenne laajentanut tai aikeissa laajentaa toimintaa/tuotantoa ulkomailla muulla tavoin  kuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Ei | — | — | — |
 | `K62_D4` | Onko yrityksenne laajentanut tai aikeissa laajentaa toimintaa/tuotantoa ulkomailla muulla tavoin  kuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Ei sovellu / en osaa sanoa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -1727,4 +1727,4 @@ kuin ulkoistamalla tai siirtämällä toimintoja Suomesta ulkomaille? Ei sovellu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

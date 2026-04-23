@@ -13,7 +13,7 @@ Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoite
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastotieto: Koulutukseen hakeutuminen</a>
 - **Keywords:** opiskelijat,yliopistot
 
-## Kuvaus / Description
+## Description
 
 Aineisto on osa EDUC-HAREK -moduulia korkeakoulujen hakurekisteritiedoista 1992-2023. Tämä aineisto sisältää yliopistojen kalenterivuonna alkaneeseen koulutukseen hakeneiden hakurekisteritiedot 1999-2003, siltä osin kun tiedot on toimitettu Tilastokeskukseen tilastointia varten. Kokonaisuus sisältää tietoja muun muassa hakemuksesta, hakijasta ja hakukohteesta. 
 
@@ -49,9 +49,9 @@ Hakurekisteristä on erikseen saatavilla arkaluonteisia ja karkeistamattomia muu
 
 Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (28)
+## Variables (28)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SP` | — | — | — | — |
 | `KUNTA` | — | — | — | — |
@@ -82,7 +82,7 @@ Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelu
 | `skkou2` | Salattu koulumuuttuja 2013 | — | — | — |
 | `ytunnus_s` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SP`
 
@@ -249,4 +249,4 @@ Suojattu koulutuksen järjestäjän y-tunnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

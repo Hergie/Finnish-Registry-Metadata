@@ -14,7 +14,7 @@
 3. Palkka.fi -palvelun keräämiin tietoihin.
 - **Keywords:** ansiotaso,palkansaajat,palkat,yksityinen sektori
 
-## Kuvaus / Description
+## Description
 
 Yksityisen sektorin harmonisoitu palkkarakennepaneeli vuosilta 1995-2020 tarjoaa työsuhdetason tietoa palkansaajien
 (palkatuista) tunneista, palkoista ja palkanosista + yksilötason tietoa työntekijän iästä, koulutuksesta yms. + tietoa työsuhteesta vastaavan työnantajan toimialasta, yrityskoosta.jne.
@@ -23,9 +23,9 @@ Tilasto kattaa lähes kaikki ne yksityisen sektorin palkansaajat, jotka työsken
 
 Tiedot on harmonisoitu sekä suhteessa julkisen sektorin vastaaviin palkkatilastokäsitteisiin että yli vuosien. Siinä missä alkuperäinen palkkarakenneaineisto takaa sektorien välisen vertailtavuuden saman tilastovuoden sisällä, takaa harmonisoitu palkkarakenneaineisto lisäksi vielä sen, että käytettävät muuttujat mittaavat/kuvaavat samaa asiaa tilastovuodesta riippumatta. Vuosien yli harmonisoinnissa noudattavat harmonisoidut muuttujat vuoden 2020 yksityisen sektorin palkkarakenneaineiston yhteydessä käytettyjä muuttujien muodostussääntöjä ja luokitusmuuttujien luokitusversioita. HAR_ -etuliite muuttujan nimen alussa viittaa yli ajan harmonisoituun muuttujaan. Loput mukaan otetuista muuttujista olivat yli ajan harmonisoidussa muodossa jo vuosipoikkileikkausaineistoissa.
 
-## Muuttujat / Variables (39)
+## Variables (39)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | TILASTOVUOSI | — | — | — |
 | `PMUOTO` | PALKKAUSMUOTO | — | — | — |
@@ -67,7 +67,7 @@ Tiedot on harmonisoitu sekä suhteessa julkisen sektorin vastaaviin palkkatilast
 | `HAR_KKPALKKA2` | Kuukausiansiot+tulospalkat per kk | — | — | — |
 | `HAR_TULOSPA` | Tulospalkkiot | € | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — TILASTOVUOSI
 
@@ -111,7 +111,7 @@ Tieto sukupuolesta. Muodostetaan pääasiassa henkilötunnuksen perusteella. 1=m
 
 #### `IKA` — PALKANSAAJAN IKÄ
 
-**Yksikkö / Unit:** vv
+**Unit:** vv
 
 Palkansaajan ikä vuosina. Lasketaan henkilön syntymävuoden mukaan henkilötunnuksen perusteella.
 
@@ -273,7 +273,7 @@ Harmonisoitu kokonaistyöajan kuukausiansio, kun myös epäsäännölliset usean
 
 #### `HAR_TULOSPA` — Tulospalkkiot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Harmonisoidut kertaluontoisesti ja epäsäännöllisesti maksettavat tulospalkkiot euroina vuodessa (vrt HAR_PROV kuukaudessa!). Varsinaisten tulospalkkioiden lisäksi mukaan on laskettu myös käteiset voittopalkkiot näiden tilastoinnin puutteista huolimatta (1995-97 ei tietoa tilastoitu ollenkaan ja 1998-2002 kerättiin vain EK:n teknologiateollisuudessa), mikä on yli ajan tarkastelussa syytä ottaa huomioon. Ylipäänsäkin (erityisesti vv 1995-2002) tulospalkkioiden tilastoinnin kattavuus on puutteellinen ja vaihtelee yrityskohtaisesti.
 
@@ -281,4 +281,4 @@ Toinen huomioon otettava seikka on tulospalkkioiden erottaminen provisioista (HA
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

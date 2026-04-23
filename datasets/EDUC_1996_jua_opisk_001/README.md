@@ -11,7 +11,7 @@
 - **Source:** TK: Oppilaitostilastot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
-## Kuvaus / Description
+## Description
 
 EDUC_OPISK Opiskelijat 1996 -vuositiedosto sisältää syksyllä 1996 tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat. Aineisto muodostettu siten, että vuoden 1995 opiskelija-aineistosta on poistettu syksyyn 1996 mennessä tutkinnon suorittaneet ja lisätty vuonna 1996 aloittaneet yhteishakuaineistosta päivälukio-, ammatillisen ja ammattikorkeakoulukoulutuksen osalta.
 
@@ -39,9 +39,9 @@ Tiedot päivälukioiden ja ammatillisten oppilaitosten sekä väliaikaisten amma
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (29)
+## Variables (29)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `IKA` | Ikä vuosina | — | — | — |
 | `UUSI` | aloittanut v.1996 | — | — | — |
@@ -73,7 +73,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `shnro` | Tilastokeskuksen suojattu henkilönumero | — | — | — |
 | `s_oltunn` | Tilastokeskuksen suojattu oppilaitostunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `IKA` — Ikä vuosina
 
@@ -90,13 +90,13 @@ bl = tieto puuttuu
 
 #### `KLOHKO` — Koulutuslohko
 
-**Luokitus / Classification:** opintoala_1_1995_01_01
+**Classification:** opintoala_1_1995_01_01
 
 Opintoala- ja asteavain 1996
 
 #### `ISCED` — Isced level ja field
 
-**Luokitus / Classification:** isced_ala_1_1995_01_01
+**Classification:** isced_ala_1_1995_01_01
 
 Isced level ja field 1996
  
@@ -104,49 +104,49 @@ Isced level ja field 1996
 
 #### `KOULK5` — Koulutuskoodi
 
-**Luokitus / Classification:** koulutus_1_1996_01_01
+**Classification:** koulutus_1_1996_01_01
 
 Koulutusluokitus 1996
 
 #### `KOULK` — Tilastokeskuksen koulutuskoodi
 
-**Luokitus / Classification:** koulutus_1_1997_01_01
+**Classification:** koulutus_1_1997_01_01
 
 Tilastokeskuksen koulutusluokitus 1997
 
 #### `ATKLE` — Unescon koulutusaste
 
-**Luokitus / Classification:** isced_aste_1_1997_01_01
+**Classification:** isced_aste_1_1997_01_01
 
 ISCED 1997
 
 #### `ATKFI` — Unescon koulutusala
 
-**Luokitus / Classification:** isced_ala_1_1997_01_01
+**Classification:** isced_ala_1_1997_01_01
 
 ISCED 1997, Field
 
 #### `ATKDE` — Unescon sijoittumistavoiteluokitus
 
-**Luokitus / Classification:** isced_6_1997_01_01
+**Classification:** isced_6_1997_01_01
 
 ISCED 1997, Destination
 
 #### `ATKOR` — Unescon suuntautumisluokitus
 
-**Luokitus / Classification:** isced_3_1997_01_01
+**Classification:** isced_3_1997_01_01
 
 ISCED 1997, Orientation
 
 #### `ATKST` — Unescon kansallinen tutkintorakenne
 
-**Luokitus / Classification:** isced_4_1997_01_01
+**Classification:** isced_4_1997_01_01
 
 ISCED 1997, National degree structure
 
 #### `ATKDU` — Unescon koulutuksen suunniteltu kesto
 
-**Luokitus / Classification:** isced_5_1997_01_01
+**Classification:** isced_5_1997_01_01
 
 ISCED 1997, Duration
 
@@ -165,7 +165,7 @@ Opetushallinnon koulutusala 1997.
 
 #### `OPALAU` — Opetushallinnon opintoala
 
-**Luokitus / Classification:** opintoala_1_1997_01_01
+**Classification:** opintoala_1_1997_01_01
 
 Opetushallinnon opintoala 1997
 
@@ -185,13 +185,13 @@ Opetushallinnon koulutusaste 1997.
 
 #### `OPASTE` — Opintoaste
 
-**Luokitus / Classification:** opintoala_1_1995_01_01
+**Classification:** opintoala_1_1995_01_01
 
 Opintoala- ja asteavain 1996
 
 #### `OPALA` — Opintoala
 
-**Luokitus / Classification:** opintoala_1_1995_01_01
+**Classification:** opintoala_1_1995_01_01
 
 Opintoala- ja asteavain 1996
 
@@ -201,7 +201,7 @@ Syksyn 1996 opiskelijat.
 
 #### `KOTIKUN` — Kotikunta
 
-**Luokitus / Classification:** kunta_1_1996_01_01
+**Classification:** kunta_1_1996_01_01
 
 Opiskelijan kotikunta 31.12.1996
 . VRK:n kuntakoodi
@@ -221,7 +221,7 @@ Opiskelijan kotikunta 31.12.1996
 
 #### `KOTNUTS3` — Kotimaakunta
 
-**Luokitus / Classification:** maakunta_1_1995_01_01
+**Classification:** maakunta_1_1995_01_01
 
 31.12.1996, TK:n alueluokitus. 
 99=ei tietoa
@@ -239,7 +239,7 @@ Opiskelijan kotikunta 31.12.1996
 
 #### `KKUN` — Koulutuksen sijaintikunta
 
-**Luokitus / Classification:** kunta_1_1996_01_01
+**Classification:** kunta_1_1996_01_01
 
 VRK:n kuntakoodi
 . 999=ei tietoa
@@ -258,7 +258,7 @@ TK:n alueluokitus
 
 #### `KNUTS3` — Koulutuksen sijaintimaakunta
 
-**Luokitus / Classification:** maakunta_1_1995_01_01
+**Classification:** maakunta_1_1995_01_01
 
 TK:n alueluokitus. 
 99=ei tietoa
@@ -266,7 +266,7 @@ TK:n alueluokitus.
 #### `KSEUTU` — Koulutuksen sijaintikunnan
 seutukunta
 
-**Luokitus / Classification:** seutukunta_1_1996_01_01
+**Classification:** seutukunta_1_1996_01_01
 
 TK:n alueluokitus. 
 999=ei tietoa
@@ -278,4 +278,4 @@ TK:n alueluokitus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

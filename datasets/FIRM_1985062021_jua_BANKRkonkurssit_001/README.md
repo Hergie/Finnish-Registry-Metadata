@@ -11,7 +11,7 @@
 - **Source:** Aineisto perustuu käräjäoikeuden riita- ja hakemusasioiden Tuomas -kirjaamisjärjestelmän tietoihin sekä Tilastokeskuksen yritysrekisterin tietoihin.
 - **Related:** <a href= "http://www.stat.fi/til/konk/index.html">Konkurssit</a>
 
-## Kuvaus / Description
+## Description
 
 Tutkimuskäyttöön on suojattu konkurssitilaston perusaineisto vuosilta 1985-06/2021.
 
@@ -45,9 +45,9 @@ Konkurssin käsite ei kuitenkaan ole yksiselitteinen ja viime kädessä tutkija 
 
 Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän kirjamaisohjeet ovat lisäksi saatavilla täältä: www.finlex.fi/data/normit/31061/tuomaskirjaamisohje2007.pdf
 
-## Muuttujat / Variables (45)
+## Variables (45)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TUIS` | Tuomioistuintunnus | — | — | — |
 | `SAAPV1` | Hakemuksen saapumisvuosi | — | — | — |
@@ -95,7 +95,7 @@ Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän k
 | `syrtun` | Suojattu konkurssivelallisen yritystunnus | — | — | — |
 | `shnro` | Suojattu konkurssivelallisen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TUIS` — Tuomioistuintunnus
 
@@ -243,4 +243,4 @@ Vuoteen 2016 asti, puutteellinen
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

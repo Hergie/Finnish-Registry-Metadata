@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_VOPAL Oleskelulupaa hakeneiden vastaanottopalvelutiedot (vastaanottorahat) </h3>
 
@@ -34,9 +34,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (13)
+## Variables (13)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SHNRO` | Suojattu henkilönumero | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
@@ -52,7 +52,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `payment_start_month` | Maksun ajankohdan alku kuukausitasolla | — | — | — |
 | `payment_end_month` | Maksun ajankohdan loppu kuukausitasolla | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SHNRO` — Suojattu henkilönumero
 
@@ -98,4 +98,4 @@ Vastaanottorahamaksu koskee tätä ajanjaksoa. Rahan voi nostaa myös takautuvas
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

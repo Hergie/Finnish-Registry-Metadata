@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.tulli.fi/fi/suomen_tulli/ulkomaankauppatilastot/index.jsp">Tullin ulkomaankauppatilastot</a>
 - **Keywords:** yritykset
 
-## Kuvaus / Description
+## Description
 
 Tullin ulkomaankauppa hyödykkeittäin sisältää tavaranimikkeittäin tiedot Tullin ulkomaankauppatilaston viennistä ja tuonnista yrityksittäin ja maittain (osin maaryhmittäin). Tietosisällössä on jonkin verran vuosittaisia vaihteluita.
 
@@ -67,9 +67,9 @@ Tilastovuonna 2024 lisätty kuukausi-tieto.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tulli.fi/tilastot
 
-## Muuttujat / Variables (22)
+## Variables (22)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -94,7 +94,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tull
 | `kauptil` | Kauppatilastoon kuuluva | — | — | — |
 | `laskarvo` | Laskutusarvo | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -136,13 +136,13 @@ Maaluokitukset: http://www.tulli.fi/fi/suomen_tulli/ulkomaankauppatilastot/tilas
 
 #### `tilarvo` — Tilastoarvo
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Euroa. Tuonnissa tilastoarvo on CIF-arvo (cost-insurance-freight), johon sisältyy myös tavaran toimittamisesta aiheutuneet kustannukset (rahti ja vakuutus) Suomen rajalla olevaan ensimmäiseen rajanylityspaikkaa saakka. Tilastoarvo tuonnissa on arvolisäveron laskemisen pohjana oleva verotusarvo, josta on vähennettävä verotusarvoon kuuluva mahdollinen valmistevero silloin, kun se kannetaan Suomen tuonnin yhteydessä. Viennissä tilastoarvo on FOB-arvo (free-on-board), johon sisältyy tavaran toimittamisesta aiheutuneet kustannukset (rahti ja vakuutus) Suomen rajalla olevaan vientipaikkaan saakka. Viennin tilastoarvona käytetään tavaran verotonta myyntihintaa.
 
 #### `npaino` — Nettopaino
 
-**Yksikkö / Unit:** kg
+**Unit:** kg
 
 Ilmoitetaan nimike-erän puhdas nettopaino kilogrammoina (kg). Nettopaino tarkoittaa tavaran painoa ilman päällystä tai pakkausta. Nettopainon ilmoittaminen on sisäkaupassa pakollista kaikille muille paitsi niille, joilla on toinen paljous.
 
@@ -250,4 +250,4 @@ Koskee EU:n sisäkauppaa. Yritys ilmoittaa tuonnissa tavaran verotusarvon, jolla
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_PERHE Oleskelulupaa hakeneiden perhetiedot (siviilisääty) </h3>
 
@@ -32,9 +32,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `Shnro` | Suojattu hnro | — | — | — |
 | `customer_id_s` | Suojattu asiakasnumero | — | — | — |
@@ -44,7 +44,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `MODIFICATION_MONTH` | Muokkauskuukausi | — | — | — |
 | `CREATION_MONTH` | Luomiskuukausi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `Shnro` — Suojattu hnro
 
@@ -68,4 +68,4 @@ Tieto on luotu tänä ajankohtana.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

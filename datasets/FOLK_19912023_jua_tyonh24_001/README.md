@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK jaksotiedot -moduuliin. Tietoja työnhakujaksoista vuodesta 1991 alkaen. 
 
@@ -19,9 +19,9 @@ Vanhat FOLK jaksotieto -aineistot ovat FIONAssa kansiossa FOLK_jaksot_a.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (6)
+## Variables (6)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -30,7 +30,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `tyol` | Työnhakijan työllisyyskoodi | — | tyottomy_11_2012_01_01 | Työnhakijarekisteri |
 | `psyy` | Työnhaun päättymissyy | — | tyottomy_3_2012_01_01 | Työnhakijarekisteri |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -42,19 +42,19 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `alkupvm` — Työnhaun alkamispäivä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun alkamispäivä.
 
 #### `loppupvm` — Työnhaun päättymispäivä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun päättymispäivä.
 
 #### `tyol` — Työnhakijan työllisyyskoodi
 
-**Luokitus / Classification:** tyottomy_11_2012_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyottomy_11_2012_01_01 · **Group:** Työnhakijarekisteri
 
 Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen vuodenvaihdetta niin työllisyyskoodi on vuoden alun mukainen tilanne. 
 
@@ -71,7 +71,7 @@ Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen v
 
 #### `psyy` — Työnhaun päättymissyy
 
-**Luokitus / Classification:** tyottomy_3_2012_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyottomy_3_2012_01_01 · **Group:** Työnhakijarekisteri
 
 Työnhaun päättymissyy. 
 
@@ -107,4 +107,4 @@ Aiemmin:
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

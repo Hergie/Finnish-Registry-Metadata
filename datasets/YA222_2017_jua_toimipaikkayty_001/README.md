@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yritysrekisterin_toimipaikat_sv.html">Yritysrekisterin toimipaikat</a>
 - **Keywords:** toimipaikat,yritykset,yritysrekisteri
 
-## Kuvaus / Description
+## Description
 
 Yritysrekisterin toimipaikkatason aineisto kattaa liikeyritysten ja yksityisten voittoa tavoittelemattomien yhteisöjen vuosittaiset toimipaikkatason tilastotiedostot. Aineisto sisältää perustiedot toimipaikkojen toimialasta, sijainnista, omistuksesta, liikevaihdosta, henkilöstömäärästä ja palkoista. Aineisto perustuu Tilastokeskuksen yritys- ja toimipaikkarekisteriin. Tiedot saadaan pääasiassa hallinnollisista lähteistä ja yritysrekisterin omista tiedusteluista. Konsernirekisteristä saadaan tiedot konserniyritysten ulkomaisista omistussuhteista. Ennen konsernirekisterin perustamista 1995 tiedot tulivat Suomen Pankista. Lisätietoja yritystason aineiston kuvauksesta (Yritystietovarasto: yritykset).
 
@@ -26,9 +26,9 @@ Toimipaikoittaisissa henkilöstömäärätiedoissa ei ole tapahtunut merkittävi
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (29)
+## Variables (29)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syritysid` | Suojattu yritysID | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
@@ -60,7 +60,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `verohoikmuoto` | Verohallinnon oikeudellinen muoto (yritys) | — | — | — |
 | `versioID` | Tilastoversio | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syritysid` — Suojattu yritysID
 
@@ -101,7 +101,7 @@ Toimipaikan liikevaihto/tuotot ammatista yhteensä. Toimipaikkatason liikevaihto
 
 #### `LiikevaihtoLahde` — Liikevaihtotiedon lähde
 
-**Luokitus / Classification:** sntilahde_2_2012_01_01
+**Classification:** sntilahde_2_2012_01_01
 
 Liikevaihtotiedon saantilähde.
 
@@ -143,7 +143,7 @@ Ohitustunnus
 
 #### `toimipTyyppi` — Toimipaikkatyyppi
 
-**Luokitus / Classification:** toimiptyyp_2_2012_01_01
+**Classification:** toimiptyyp_2_2012_01_01
 
 Toimipaikkatyyppi. 	
 1	Varsinainen toimipaikka		
@@ -299,4 +299,4 @@ ZZ Tieto puuttuu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

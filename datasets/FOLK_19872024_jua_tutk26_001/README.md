@@ -10,7 +10,7 @@
 - **Population:** Tutkinnon suorittanut väestö
 - **Source:** Tutkintorekisteri
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston tutkintomoduuli sisältää 15 vuotta täyttäneen väestön peruskoulun, keskikoulun tai kansakoulun jälkeen suorittamien tutkintojen tietoja. Tietojen lähteenä on tutkintorekisteri. Moduulin tietoja on saatavilla vuodesta 1987 eteenpäin, jollei muuttujankuvauksessa toisin mainita. 
 
@@ -27,9 +27,9 @@ Totaaliaineisto vuosille 1987-2000 : FOLK_tutk_8800a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (22)
+## Variables (22)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -54,7 +54,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `ktutk_4` | Neljänneksi tuorein muu tutkinto | — | — | — |
 | `suorv_4` | Suoritusvuosi, neljänneksi tuorein muu tutkinto | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
@@ -229,4 +229,4 @@ Merkkimuotoinen suoritusvuosi (VVVV).
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

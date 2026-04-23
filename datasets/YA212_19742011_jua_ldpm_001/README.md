@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.tilastokeskus.fi/til/alyr/index.html">Alueellinen yritystoimintatilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_teollisuuden_tuotantotiedot.html">Teollisuuden tuotantotiedot</a>
 - **Keywords:** bruttoarvo,henkilöstö,investoinnit,jalostusarvo,käyttöomaisuus,teollisuus,toimipaikat,tuotanto
 
-## Kuvaus / Description
+## Description
 
 Longitudinal Database on Plants in Finnish Manufacturing (LDPM) -aineisto on vuodet 1974 - 2011 käsittävä paneeli teollisuuden toimipaikoista. Paneeli sisältää toimipaikkatason tietoja tuotantopanoksista ja tuotoksesta sekä lukuisia taustamuuttujia. 
 
@@ -30,9 +30,9 @@ Lähtöaineiston tuotanto- ja kustannustiedot ovat nimellisarvoisia. Joitakin mu
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (107)
+## Variables (107)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `stopc` | Longitudinal corrected code | — | — | — |
 | `stop` | Original plant code | — | — | — |
@@ -142,7 +142,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `oty95` | Oty95 (YREK, 93-) | — | — | — |
 | `ulkomi` | Ulk. omist., % (YREK, 86, 88-) | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `stopc` — Longitudinal corrected code
 
@@ -466,13 +466,13 @@ Vuoteen 1994 asti.
 
 #### `FOR50` — Ulk omist 50- (IS) (-94)
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Ulkomainen omistus yli 50 prosenttia (IS). Vuoteen 1994 asti.
 
 #### `FOR20_50` — Ulk omist 20-50 (IS) (-94)
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Ulkomainen omistus 20-50 prosenttia (IS). Vuoteen 1994 asti.
 
@@ -586,4 +586,4 @@ Ulkomainen omistus, prosenttia (yritysrekisterin tieto, vuosille 1986, 1988-2008
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

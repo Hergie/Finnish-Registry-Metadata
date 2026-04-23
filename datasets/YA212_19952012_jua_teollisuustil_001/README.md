@@ -10,7 +10,7 @@
 - **Population:** Kaikki vähintään 20 hengen monitoimipaikkaisten yritysten teolliset toimipaikat.
 - **Source:** Tilastokeskuksen yritys- ja toimipaikkarekisteri, rakennetilaston tiedonkeruu
 
-## Kuvaus / Description
+## Description
 
 Teollisuuden rakennetilaston teollisuustoimipaikkoja koskevat tiedot vuosilta 1995-2012 on suojattu tutkimuskäyttöön. Aineisto kuvaa teollisuuden tuotannon rakenteita ja rakenteiden muutoksia toimialoittain ja alueittain. Teollisuus käsittää koko teollisuuden, eli toimialaluokitus TOL2008:n mukaiset toimialat B (kaivostoiminta ja louhinta), C (teollisuus), D (sähkö, kaasu- ja lämpöhuolto, jäähdytysliiketoiminta) sekä E (vesihuolto, viemäri- ja jätevesihuolto, jätehuolto ja muu ympäristön puhtaanapito). Aineisto sisältää  tietoja myös rakentamisesta vuosilta 1995-2003. Aineisto sisältää tietoja henkilöstöstä, tuotannosta, tuotantopanoksista, investoinneista ja varastoista. Tilastoyksikkönä on yrityksen tai muun taloudellista toimintaa harjoittavan yksikön teollinen toimipaikka. Yksilöivänä tunnuksena on Yritys- ja toimipaikkarekisterin määrittelemä toimipaikkatunnus. 
 
@@ -37,9 +37,9 @@ Tilastossa määritelmä käyttöomaisuuden investoinnit käsittää käyttöoma
 
 Tiedot ovat euroina.
 
-## Muuttujat / Variables (201)
+## Variables (201)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Tilastovuosi | — | — | — |
 | `TOL2008` | Toimialaluokitus 2008 | — | toimiala_1_2008_01_01 | — |
@@ -243,7 +243,7 @@ Tiedot ovat euroina.
 | `sykstun` | Suojattu toimipaikkatunnus | — | — | — |
 | `ed_sykstun` | Edellinen suojattu toimipaikkatunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Tilastovuosi
 
@@ -251,13 +251,13 @@ Tilastovuosi
 
 #### `TOL2008` — Toimialaluokitus 2008
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Yritysrekisterin mukainen toimialaluokitus TOL 2008:n mukaan.
 
 #### `TOL2002` — Toimialaluokitus 2002
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Yritysrekisterin mukainen toimialaluokitus TOL 2002:n mukaan. Saatavissa vuosille 1995-2008.
 
@@ -303,7 +303,7 @@ Omistajatyyppejä ovat:
 
 #### `YRSEK00` — Sektoriluokitus 2000 (yrek)
 
-**Luokitus / Classification:** sektoriluokitus_1_2000_01_01
+**Classification:** sektoriluokitus_1_2000_01_01
 
 Oikeudellisen yksikön sektoriluokitus, vuoden 2000 mukainen sektoriluokka. Saatavana vuosina 2000-2012.
 
@@ -1173,4 +1173,4 @@ Vuoden 2003-2004 projektissa yhdenmukaistettiin rakennetilaston toimipaikkatunnu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

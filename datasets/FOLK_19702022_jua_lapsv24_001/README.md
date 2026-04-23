@@ -10,7 +10,7 @@
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut alle 18-vuotias väestö
 - **Source:** VTJ
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK lapsi - vanhemmat -moduuliin. 
 
@@ -28,9 +28,9 @@ Aikaisemmin julkaistut FOLK lapsi - vanhemmat - vuosi -aineistotiedostot, jotka 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (15)
+## Variables (15)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `shnro` | Suojattu TK:n henkilönumero | — | — | — |
@@ -48,7 +48,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `status_am` | Asumisstatus, adoptioäiti | — | — | — |
 | `status_af` | Asumisstatus, adoptioisä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -120,4 +120,4 @@ Adoptioisä 1 = asuu lapsen kanssa, 2 = asuu muualla, 3 = kuollut, 4 = ei tietoa
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

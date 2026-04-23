@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://tilastokeskus.fi/til/inn/index.html">Innovaatiotoiminta</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_innovaatiotoiminta.html">Innovaatiotoiminta</a>
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2010 kuvaa yritysten harjoittaman innovaatiotoiminnan ja eri tyyppisten innovaatioiden käyttöönoton yleisyyttä vuosina 2008 - 2010. 
 
@@ -47,9 +47,9 @@ Tilastokeskus on tehnyt innovaatiotutkimuksia 1990-luvulta lähtien, mutta kaikk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (157)
+## Variables (157)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `gp` | Vastaajayksikkö | — | — | — |
 | `ho1` | Konsernin kotimaa Suomi | — | — | — |
@@ -209,7 +209,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `lkmkerr` | Korotuskerroin, henkilöstölukumäärän mukainen | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `gp` — Vastaajayksikkö
 
@@ -232,7 +232,7 @@ Henkilökunta 31.12.2010
 
 #### `turn10` — Liikevaihto 2010
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Liikevaihto 2010 (tai viimeisin 12 kk tilikausi), 1000 €. Rahoituslaitokset: korkotuotot tai vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
@@ -248,7 +248,7 @@ Koskee vain yrityksiä, jotka toimivat sosiaali- ja terveyspalveluiden toimialoi
 
 #### `jspalos` — Julkiselle sektorille tuotetun osuus liikevaihdosta, vain SOTE
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Julkiselle sektorille tuotettujen tuotteiden osuus liikevaihdosta, %. Koskee vain yrityksiä, jotka toimivat sosiaali- ja terveyspalveluiden toimialoilla (toimiala 86, 87 ja 88).
 
@@ -408,25 +408,25 @@ Yrityksen muut vuosina 2008-2010  tekemät  innovaatiotoimet uusien tai olennais
 
 #### `Rrdinx` — Oman t&k-toiminnan menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen omaan tutkimus- ja kehittämistoimintaan liittyvät menot vuonna 2010, 1000€. Tähän sisältyvät yrityksessä tehdyn t&k-toiminnan menot, joihin luetaan: 1. palkkausmenot, 2. aineet, tarvikkeet, rakennusten käyttömenot, muut käyttömenot, 3. ostetut palvelut (omiin t&k-projekteihin liittyvät palvelujen ostot, ei ulkopuolisilta tilattuja kokonaisia t&k-hankkeita), 4. koneet, laitteet, rakennukset, muut käyttöomaisuuden hankintamenot.
 
 #### `Rrdexx` — Ulkopuolelta tilatun t&k-toiminnan menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen ulkopuoleta tilattuun tutkimus- ja kehittämistoimintaan liittyvät menot vuonna 2010, 1000€ Tutkimus- ja kehittämistoiminta, jonka yritya on tilannut muilta yrityksiltä (ml. oman konsernin yritykset) tai julkisilta tai yksityisiltä tutkimuslaitoksilta, ml. korkeakoulut. Tähän kirjataan ulkopuolisilla teetetyt kokonaiset t&k-hankkeet.
 
 #### `Rmacx` — Kone- ja laitehankintoihin liittyvät menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatiotoimintaan liittyvien koneiden, laitteiden ja ohjelmistojen hankintaan liittyvät menot (ilman t&k-toimintaan liittyviä laitemenoja), 1000€ vuonna 2010.
 
 #### `Roekx` — Osaamisen hankintaan liittyvät menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatiotoimintaan liittyvän osaamisen hankintaan yrityksen ulkopuolelta liittyvät menot,1000€ vuonna 2010. Olemassa olevan osaamisen ja tietämyksen, tekijänoikeuksien suojaamien töiden, patentoitujen ja ei-patentoitujen keksintöjen ja muun vastaavan hankinta muilta yrityksiltä tai organisaatioilta uusien tai olennaisesti parannettujen tuotteiden ja prosessien kehittämiseksi. Näihin ei sisällytetä eriä, jotka sisältyvät t&k-menoihin.
 
@@ -933,7 +933,7 @@ Asiakas- ja käyttäjälähtöisyyden mukaan ottamiseksi innovaatiotoiminnassa j
 
 #### `yr_tol08` — Toimiala tol2008
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Tilastokeskuksen toimialaluokitus 2008.
 
@@ -982,19 +982,19 @@ Yrityksen 2008-2010 markkinoille tuomat tuoteinnovaatiot olivat uusia ainoastaan
 
 #### `TurnMar` — Markkinoiden kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 2008-2010 markkinoille tuotujen tuoteinnovaatioiden (palvelut ja tavarat), jotka olivat uusia yrityksen markkinoniden kannalta, osuus yrityksen 2010 kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
 #### `TurnIn` — Yrityksen kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 2008-2010 markkinoille tuotujen tuoteinnovaatioiden (palvelut ja tavarat), jotka olivat uusia yksinomaan oman yrityksen kannalta, osuus yrityksen 2010 kokonaisliikevaihdosta, %.  Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
 #### `TurnUng` — Muuttumattomien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 2008-2010 markkinoille tuotujen muuttamattomien tai vain vähän muutettujen tuotteiden osuus yrityksen 2010 kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
@@ -1012,4 +1012,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Avoimet ja kommandiittiyhtiöt ja niiden yhtiömiehet
 - **Source:** Verohallinnon Tilastokeskukselle tilastotarkoituksiin toimittamat tiedot
 
-## Kuvaus / Description
+## Description
 
 FLOWN (Finnish Longitudinal OWNer-Employer-Employee Data) -valmisaineisto mahdollistaa yritysten ja niiden omistajien tietojen yhdistämisen ja käytön tutkimuksessa. Aineisto perustuu Verohallinnon Tilastokeskukselle tilastotarkoitusta varten toimittamiin osakeyhtiöiden osakastietoihin, yhtiömiestietoihin ja osinkotietoihin. 
 
@@ -31,9 +31,9 @@ Muista yksikkötason tiedoista poiketen kynnyssääntönä FLOWN-aineiston tieto
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (20)
+## Variables (20)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_astunnus_s` | Suojattu yhtymän Y-tunnus | — | — | — |
 | `hid_e` | Suojattu osakkaan yksilöivä tunniste | — | — | — |
@@ -56,7 +56,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `muutuoso` | Osuus yhtymän muusta tulosta, osoittaja | — | — | — |
 | `verohoik_2021` | Verohallinnon oikeudellinen muoto 2021 | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_astunnus_s` — Suojattu yhtymän Y-tunnus
 
@@ -133,4 +133,4 @@ Yritystunnus ei muutu, jos yritys on vaihtanut yhtiömuotoa ay/ky/oy.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

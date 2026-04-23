@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 SURVEY_Tyovoima on Tilastokeskuksen työvoimatutkimuksen pohjalta muodostettu tutkimusvalmisaineisto, joka kuvaa väestön työmarkkinoille osallistumista ja toimintaa vuoden aikana. Kyseessä on vuosiaineistoista muodostuva valmisaineisto, joka kattaa vuodet 2001-2025.
 
@@ -32,10 +32,10 @@ Työvoimatutkimuksen tiedonkeruuta ja menetelmiä, ajallista vertailukelpoisuutt
 
 Tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset – ja muuta aineistoa koskevaa lisätietoa –, saat ottamalla meihin yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

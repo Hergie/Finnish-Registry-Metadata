@@ -11,7 +11,7 @@
 - **Source:** Liikenteen turvallisuusviraston (Trafi) ajoneuvorekisteri (ATJ ajoneuvojen tietojärjestelmä)
 - **Related:** <a href= "https://www.stat.fi/til/mkan/index.html">ajoneuvokanta</a> <a href= "https://www.trafi.fi/filebank/a/1327477425/20a2a2f466b690ed94131f93468d4c69/9021-Rekisteriseloste_Ajoneuvoliikennerekisteri.pdf">ajoneuvoliikennerekisteri</a>
 
-## Kuvaus / Description
+## Description
 
 TRAFI-valmisaineistot perustuvat Liikenne- ja viestintävirasto (Traficom) ajoneuvoliikennerekisteriin, joka sisältää tiedot kaikista rekisteröintivelvollisuuden alaisista tieliikenteen ajoneuvoista Manner-Suomessa vuodesta 2013 eteenpäin.
 
@@ -28,9 +28,9 @@ Näihin valmisaineistoihin tulee hakea käyttölupaa Traficomilta. Aineistojen k
 Lisätietoa: Traficom: tietojenluovutus(at)trafi.fi 
                  Tilastokeskus: tutkijapalvelut(at)stat.fi
 
-## Muuttujat / Variables (31)
+## Variables (31)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `avainnro` | Avainnumero | — | — | — |
 | `omaslaji` | Omistajan asiakaslaji | — | ajot_3_2017_12_07 | — |
@@ -64,7 +64,7 @@ Lisätietoa: Traficom: tietojenluovutus(at)trafi.fi
 | `omtunnus_m_s` | omistajatunnus muu suojattu | — | — | — |
 | `haltunnus_m_s` | Haltijantunnus muu suojattu | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `avainnro` — Avainnumero
 
@@ -72,7 +72,7 @@ ajoneuvolle luotu pseudotunnus ajoneuvojen eri teknisten tietojen (dataosiot) se
 
 #### `omaslaji` — Omistajan asiakaslaji
 
-**Luokitus / Classification:** ajot_3_2017_12_07
+**Classification:** ajot_3_2017_12_07
 
 1. omistajan asiakaslaji.
 1= yksityinen, 2= yritys
@@ -83,7 +83,7 @@ Tieto kertoo milloin ajoneuvon ja 1. omistajan välinen omistussuhde on alkanut 
 
 #### `omaskieli` — Omistajan asiointikieli
 
-**Luokitus / Classification:** ajot_2_2017_12_07
+**Classification:** ajot_2_2017_12_07
 
 1. omistajan asiointikieli
 fi = suomi, sv= ruotsi
@@ -102,14 +102,14 @@ Tieto luonnollisen henkilön (1. omistaja) sukupuolesta (Mies/Nainen)
 
 #### `halaslaji` — Haltijan asiakaslaji
 
-**Luokitus / Classification:** ajot_3_2017_12_07
+**Classification:** ajot_3_2017_12_07
 
 1. haltijan asiakaslaji.
 0 = ykistyinen, 2= yritys
 
 #### `halaskieli` — Haltijan asiointikieli
 
-**Luokitus / Classification:** ajot_2_2017_12_07
+**Classification:** ajot_2_2017_12_07
 
 1. haltijan asiointikieli
 fi = suomi, sv = ruotsi
@@ -205,4 +205,4 @@ Suojattu muu haltijantunnus, joka ei ole perinteinen hetu tai y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

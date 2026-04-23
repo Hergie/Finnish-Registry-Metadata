@@ -10,7 +10,7 @@
 - **Population:** Vuoden aikana muuttaneet.
 - **Source:** VTJ
 
-## Kuvaus / Description
+## Description
 
 FOLK muutto -vuosiaineistossa on tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. Aineisto on muodostettu muuttotilaston tiedoista, jotka pohjautuvat väestötietojärjestelmän tietoihin. 
 
@@ -27,9 +27,9 @@ Totaaliaineisto vuosille 1983-2000: FOLK_muutt_8300a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (15)
+## Variables (15)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `folk_id` | Kuuluu FOLK-aineistoon | — | — | — |
@@ -47,7 +47,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `svaltio_m` | Syntymävaltio (muutto) | — | valtio_12_1999_05_10 | — |
 | `kansa2_m` | 2. kansalaisuus muuttohetkellä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -86,13 +86,13 @@ Tieto muuton kohdekunnasta suurimmalle osalle maahanmuuttaneista vuosina 1983-20
 
 #### `lahtomaakoodi` — Lähtömaa
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 Tieto maahanmuuttaneilla vuodesta 1983 lähtien. Muilla paitsi maahanmuuttajilla lahtomaakoodi=246 (Suomi).
 
 #### `tulomaakoodi` — Tulomaa
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 Tieto maastamuuttaneilla vuodesta 1983 lähtien, arvo '200'=tuntematon. Muilla paitsi maastamuuttajilla tulomaakoodi=246 (Suomi).
 
@@ -116,7 +116,7 @@ Tieto kunnan sisäisissä muutoissa vuodesta 2005 ja kuntien välisissä muutois
 
 #### `sivs_m` — Siviilisääty muuttohetkellä
 
-**Luokitus / Classification:** siviilisaaty_2_2005_01_01
+**Classification:** siviilisaaty_2_2005_01_01
 
 Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987. 
 
@@ -131,19 +131,19 @@ Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja
 
 #### `kansa1_m` — Kansalaisuus muuttohetkellä
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987.
 
 #### `kieli_m` — Äidinkieli (muutto)
 
-**Luokitus / Classification:** kieli_15_2002_12_31
+**Classification:** kieli_15_2002_12_31
 
 Tieto maasta- ja maahanmuuttaneilla vuodesta 1983 lähtien, kuntien välillä ja kuntien sisällä muuttaneilla tieto alkaen vuodesta 1987.
 
 #### `svaltio_m` — Syntymävaltio (muutto)
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 Tieto kunnan sisällä muuttaeilla vuodesta 2006 lähtien. Muilla tieto on alkaen vuodesta 1990.
 
@@ -153,4 +153,4 @@ Muuttavan henkilön toinen kansalaisuus muuttohetkellä mikäli se on tiedossa. 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

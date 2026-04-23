@@ -12,7 +12,7 @@
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastokeskus: Tilastotieto - Koulutukseen hakeutuminen</a>
 - **Keywords:** koulutus,oppilaitokset
 
-## Kuvaus / Description
+## Description
 
 Aineisto on osa EDUC-HAREK -moduulia korkeakoulujen hakurekisteritiedoista 1992-2023. Tämä aineisto sisältää korkeakoulujen (sekä yliopistojen että ammattikorkeakoulujen) kalenterivuonna alkaneeseen koulutukseen hakeneiden hakurekisterin vuodesta 2015 alkaen, siltä osin kun tiedot on toimitettu Tilastokeskukseen tilastointia varten. Kokonaisuus sisältää tietoja muun muassa hakemuksesta, hakijasta ja hakukohteesta. 
 
@@ -54,9 +54,9 @@ Aineisto tilastovuodelta t valmistuu t +1 tammikuussa eli vuoden päästä. Tät
 <b>Lisätietoa</b>
 Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (115)
+## Variables (115)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `sukupuoli_koodi` | sukupuoli | — | — | — |
 | `sp` | sukupuoli | — | — | — |
@@ -174,7 +174,7 @@ Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelu
 | `oppilaitosoid_s` | — | — | — | — |
 | `koulutustoimijan_ytunnus_s` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `sukupuoli_koodi` — sukupuoli
 
@@ -1051,4 +1051,4 @@ Suojattu koulutuksen järjestäjän y-tunnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

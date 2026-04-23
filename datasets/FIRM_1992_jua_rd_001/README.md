@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tkke/index.html">Tutkimus- ja kehittämistoiminta</a> <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_tutkimus_ja_kehittamistoiminta.html">Tutkimus- ja kehittämistoiminta (T&K)</a>
 - **Keywords:** korkeakoulut,menot,tietoyhteiskunta,tuotekehitys,tutkimuslaitokset,tutkimusmenot,tutkimustoiminta,yliopistot,yritykset
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kysely vuodelle 1992 (yri92) on poikkeuksellinen välikysely, jolla lähinnä arvioitiin  yritysten tutkimus- ja kehittämismenoja. Tutkimus- ja kehittämiskyselyaineisto muina vuosina kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Rahamääräiset tiedot ovat tuhansina markkoina vuoteen 1999 asti ja vuodesta 2000 eteenpäin tuhansina euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja). 
 
@@ -43,9 +43,9 @@ Kyselylomake saatavissa erikseen. Vastaavia tietoja on saatavissa suppeampana pa
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (14)
+## Variables (14)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TALA` | Toimiala (TOL88) | — | — | — |
 | `SL` | Henkilöstön suuruusluokka | — | — | — |
@@ -62,7 +62,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `VASTE` | Vastekoodi tiedonantajarekisterissä | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TALA` — Toimiala (TOL88)
 
@@ -122,4 +122,4 @@ Suojattu yritystunnus, yrityksen liikeyhteisötunnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

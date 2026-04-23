@@ -11,7 +11,7 @@
 - **Source:** TK: Oppilaitostilastot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
-## Kuvaus / Description
+## Description
 
 Esi- ja perusopetusmoduuli sisältää tiedot oppilaista, jotka ovat olleet 20.9. kirjoilla esi- ja perusopetuksessa.
 Tiedot pohjautuvat KOSKI-rekisterin ja Ahvenanmaan tilastoviraston ja Helsingin eurooppalaisen koulun henkilöpohjaisiin oppilasaineistoihin, jotka opiskelevat peruskouluissa esiopetuksessa tai peruskoulun oppimäärää vuosiluokilla 1-9 tai lisäopetuksessa (10 -luokka tai pv eli perusopetukseen valmistava koulutus).
@@ -55,9 +55,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (25)
+## Variables (25)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Aineistovuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -85,7 +85,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `suoritus_perusteendiaarinumero` | Perusteen diaarinumero (vain KOSKI -tietovaranto) | — | — | — |
 | `vuosiluokka` | Vuosiluokka | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Aineistovuosi
 
@@ -99,7 +99,7 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `ain` — Lähdeaineisto
 
-**Luokitus / Classification:** lahdeaineisto_1_2014_01_01
+**Classification:** lahdeaineisto_1_2014_01_01
 
 Lähdeaineisto (karkea)
 10 = esi ja perusopetusen aineisto (2020-)
@@ -114,7 +114,7 @@ Vuodesta 2020 alkaen:
 
 #### `sp` — Sukupuoli
 
-**Luokitus / Classification:** sukupuoli_2_1970_01_01
+**Classification:** sukupuoli_2_1970_01_01
 
 Sukupuoli
 1 = Mies
@@ -128,7 +128,7 @@ Ikä vuosina 31.12. Ikätieto on puutteellisen henkilötunnuksen omaavilla oppil
 
 #### `kansal` — Kansalaisuus (2020-)
 
-**Luokitus / Classification:** valtio_1_2012_01_01
+**Classification:** valtio_1_2012_01_01
 
 Opiskelijan kansalaisuus vuoden lopussa.
 Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
@@ -137,7 +137,7 @@ Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henki
 
 #### `aikieli` — Äidinkieli (2020-)
 
-**Luokitus / Classification:** kieli_1_2010_11_15
+**Classification:** kieli_1_2010_11_15
 
 Opiskelijan äidinkieli 31.12.
 2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.
@@ -146,7 +146,7 @@ Opiskelijan äidinkieli 31.12.
 
 #### `olosyys` — Kirjoilla 20.9
 
-**Luokitus / Classification:** kirjoilla_3_2018_01_01
+**Classification:** kirjoilla_3_2018_01_01
 
 Vuodesta 2020 perusopetuksen tiedoille on määritely arvo 1 = läsnä 20.9.
 
@@ -159,7 +159,7 @@ Vuosi (vvvv), jolloin oppilas on ilmoittautunut koulun kirjoihin 20.9. mennessä
 
 #### `askun` — Opiskelijan kotikunta
 
-**Luokitus / Classification:** kunta_1_2019_01_01
+**Classification:** kunta_1_2019_01_01
 
 Opiskelijan kotikunta vuoden lopussa (31.12.), luokitus 1.1. tilastovuosi +1
 200 = Ulkomaa
@@ -169,7 +169,7 @@ Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
 
 #### `ASKUNX` — Kotikunta / vakituinen asuinkunta edellisen vuoden lopussa
 
-**Luokitus / Classification:** kunta_1_2018_01_01
+**Classification:** kunta_1_2018_01_01
 
 Opiskelijan kotikunta 31.12.[tilastovuotta edeltävä vuosi], luokitus 1.1.[tilastovuosi]
 VRK:n kuntakoodi. 
@@ -178,14 +178,14 @@ VRK:n kuntakoodi.
 
 #### `koulk` — Tilastokeskuksen koulutuskoodi
 
-**Luokitus / Classification:** koulutus_18_2018_01_01
+**Classification:** koulutus_18_2018_01_01
 
 Tilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset.
 Koulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki  koulutusalan.
 
 #### `kkieli` — Koulutuksen opetuskieli
 
-**Luokitus / Classification:** kieli_1_2010_11_15
+**Classification:** kieli_1_2010_11_15
 
 Koulutuksen opetuskieli
 2-kirjaiminen tunnus (ISO 639)
@@ -195,7 +195,7 @@ KKIELI-tietoa ei ole varhaiskasvatuksen esiopetustiedoilla.
 
 #### `kkun` — Koulutuksen sijaintikunta
 
-**Luokitus / Classification:** kunta_1_2019_01_01
+**Classification:** kunta_1_2019_01_01
 
 Koulutuksen sijaintikunta 1.1. tilastovuonna 
 VRK:n kuntakoodi
@@ -277,4 +277,4 @@ Tieto vuodesta 2020 alkaen. Vuodesta 2022 alkaen mukana myös PV muuttuja. PV = 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

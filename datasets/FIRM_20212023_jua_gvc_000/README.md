@@ -11,7 +11,7 @@
 - **Source:** Yritysrekisteri, konsernirekisteri, tulorekisteri
 - **Related:** <a href= "https://stat.fi/tilasto/gvc">Globaalit arvoketjut -tilasto</a>
 
-## Kuvaus / Description
+## Description
 
 Globaalit arvoketjut ja toimintojen ulkoistaminen -kyselyllä selvitetään pääasiallisesti yritysten liiketoimintojen ulkoistamista ulkomaille sekä globaalien ilmiöiden vaikutusta yritysten arvoketjuihin. Tiedonkeruu on lakisääteinen ja se toteutetaan kolmen vuoden välein useimmissa EU-maissa.
 
@@ -93,9 +93,9 @@ Vuosien 2021–2023 keruussa osa tiedoista tuotettiin muiden aineistojen pohjalt
 
 Tiedustelun tulokset eivät myöskään välttämättä vastaa samasta aiheesta muussa yhteydessä kerättyjä tietoja. Tästä ehkä relevantein esimerkki on ulkomaankaupan käymiseen viittaavat tiedot, jotka perustuvat tässä kyselyssä täysin yrityksen itse ilmoittamaan tietoon.
 
-## Muuttujat / Variables (324)
+## Variables (324)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `PURCHASE_GOODS` | Tavaroiden ulkomaanostot | — | — | — |
@@ -422,7 +422,7 @@ Tiedustelun tulokset eivät myöskään välttämättä vastaa samasta aiheesta 
 | `CANC_ORD_ABR` | Ulkomaisten tilausten väheneminen koronapandemian seurauksena kaupankäynnin haasteena | — | — | — |
 | `CHG_SLS_CHAN` | Myyntikanavien muutokset kaupankäynnin haasteena | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -1722,4 +1722,4 @@ Kuinka paljon yrityksenne kaupankäynnissä oli seuraavia haasteita vuosien 2021
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

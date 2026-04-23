@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 Tilastokeskuksen varallisuustutkimus on otospohjainen tutkimus, joka kuvaa kotitalouksien varallisuuden jakautumista eri väestöryhmien kesken. Tutkimuksen kuvauskohteena on sekä reaali- että rahoitusvarallisuus. Lisäksi tutkimuksen keskeistä tietosisältöä ovat tiedot kotitalouksien veloista. 
 Varallisuustutkimusta on tehty vuosina 1987, 1988, 1994, 1998, 2004, 2009, 2013, 2016, 2019 ja 2023. Vuotta 2004 lukuun ottamatta tiedot on muodostettu Tilastokeskuksen tulonjakotilaston aliotokselle (1987–1998) tai koko otokselle (2009–2023). Vuoden 2004 tutkimus oli erillinen otostutkimus. Vuosien 2009, 2013, 2016, 2019 ja 2023 varallisuustutkimusten tutkimusmenetelmä poikkeaa merkittävästi aiempien vuosien tutkimuksista. Niiden varallisuustiedot on pääosin johdettu rekistereistä tai estimoitu. Sitä aiemmat tutkimukset ovat käyntihaastattelututkimuksia.
@@ -16,10 +16,10 @@ Tiedoissa on merkittäviä ajalliseen vertailukelpoisuuteen vaikuttavia tekijöi
 Tämä kyseinen aineisto on varallisuustutkimuksen aikasarjatiedosto tutkimuskäyttöön. Aineistoon on yhdistetty tiedot vuosien 1987, 1988, 1994, 1998, 2004, 2009, 2013, 2016, 2019 ja 2023 varallisuustutkimuksista. 
 Tutkimuksen laatuseloste on saatavilla tilaston sivuilla: https://stat.fi/tilasto/dokumentaatio/vtutk. Lisätietoa ja tarkemman aineisto- ja muuttujakuvauksen saat ottamalla yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

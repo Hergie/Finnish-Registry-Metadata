@@ -8,7 +8,7 @@
 - **Variable count:** 21
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 EDUC_KOSKI-valmisaineisto sisältää OPH:n Koski-tietovarannon tietoja perusopetuksen, nivelvaiheen sekä toisen asteen koulutuksien läsnäolosta, sisällöstä sekä suorituksista. Aineiston avulla on mahdollista tutkia läsnäoloa koulutuksissa tarkalla tasolla, sillä aineisto sisältää jaksomuotoisen tilatiedon. Aineisto sisältää myös koulutuksien suoritustietoja, joiden avulla on mahdollista tutkia koulutuksien etenemistä tarkalla tasolla. Aineisto on kattavaa vuodesta 2020 lähtien. KOSKI-järjestelmä on otettu käyttöön vuonna 2018, mutta vuosien 2018 ja 2019 tiedot eivät ole kattavia. Aineistosta ei ole rajattu ulos aiempia tietoja. 
 
@@ -43,9 +43,9 @@ Laaja moduuli EDUC_KOSKI_PERUSOPETUS: Perusopetuksen suoritukset
 Taulu sisältää tietoa perusopetuksen vuosiluokkien sekä oppimäärän oppiainesuorituksista (arvosana, laajuus, oppiaine yms), sekä perusopetuksen lisäopetuksen (ns. 10. luokan) oppiainesuorituksista.
 Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_suoritus, r_osasuoritus, r_henkilo.
 
-## Muuttujat / Variables (21)
+## Variables (21)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `oppija_oid_s` | Suojattu oppijatunnus | — | — | — |
@@ -69,7 +69,7 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_
 | `paataso_suorituksen_tyyppi` | Päätaso suorituksen tyyppi | — | — | — |
 | `suorituksen_tyyppi` | Suorituksen tyyppi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -151,4 +151,4 @@ Päätason suorituksen tyyppi siinä päätason suorituksessa johon oppiaine-riv
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

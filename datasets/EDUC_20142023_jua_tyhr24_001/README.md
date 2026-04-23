@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Taustatietoja saatu Väestörekisterikeskuksesta.
 
-## Kuvaus / Description
+## Description
 
 Toisen asteen yhteishaku -moduulin 6. osa koostuu henkilöistä, jotka osallistuivat tilastovuodesta 2014 alkaen  toisen asteen koulutuksen yhteishakuun. Vuosilta 2014 - 2016 tiedostot on toimitettu Tilastokeskukseen OPH:sta. Vuodesta 2017 alkaen aineisto on haettu rajapinnalta json-muotoisina tiedostoina, joista Tilastokeskuksessa on koottu varsinainen aineisto. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.Tilastotovuodesta 2024 alkaen lähdeaineistoksi tuli Opetushallituksen raportointipalvelu Ovaraan pohjaava data. Tästä aiheutuneet muuteokset on listattu alempana.
 
@@ -88,9 +88,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (132)
+## Variables (132)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TILV` | Tilastovuosi | — | — | — |
 | `HAKUVUOSI` | Hakuvuosi | — | — | — |
@@ -225,7 +225,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `KOULUTUKSEN_OPETUSKIELI_2` | Koulutuksen toinen opetuskieli | — | — | — |
 | `KOULUTUKSEN_OPETUSKIELI_3` | Koulutuksen kolmas opetuskieli | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TILV` — Tilastovuosi
 
@@ -1505,4 +1505,4 @@ Vuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

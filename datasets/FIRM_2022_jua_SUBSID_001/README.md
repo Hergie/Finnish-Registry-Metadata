@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://tilastokeskus.fi/til/yrtt/index.html">Yritystukitilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/rekisteriseloste_yritysrekisterin_yritystuet.html">Yritystuet</a>
 - **Keywords:** lainat,valtiontakaus,valtiontuki,yritykset,yritystuki
 
-## Kuvaus / Description
+## Description
 
 Yritystukitietokanta sisältää tiedot yritystukea rahoittavien instituutioiden myöntämistä ja maksamista yritystuista. Tuenmyöntäjinä ovat seuraavat tahot: asumisen rahoitus- ja kehittämiskeskus, Business Finland, Elinkeino-, liikenne- ja ympäristökeskusten sekä työ- ja elinkeinotoimistojen kehittämis- ja hallintokeskus (KEHA-keskus),  Energiavirasto, ELY-keskukset, työ- ja elinkeinotoimistot, Finnvera, työ- ja elinkeinoministeriö, opetus- ja kulttuuriministeriö, liikenne- ja viestintäministeriö, maa- ja metsätalousministeriö, ulkoministeriö, Ruokavirasto, Valtiokonttori, ympäristöministeriö sekä joukko pienempiä tuenmyöntäjiä, kuten Suomen elokuvasäätiö. 
 
@@ -46,9 +46,9 @@ Yritykset ovat yksilöitävissä tietokannasta suojattujen yritystunnusten avull
  
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (33)
+## Variables (33)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `julkisuusaste` | julkisuusaste | — | — | — |
 | `maksimiMaara` | maksimimaara | — | — | — |
@@ -84,7 +84,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tukiID` | tukiID | — | — | — |
 | `ytunnus` | Syrtun | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `julkisuusaste` — julkisuusaste
 
@@ -244,4 +244,4 @@ Yritystunnus, avainmuuttuja, jolla yritykset (oikeudelliset yksiköt) yksilöid�
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

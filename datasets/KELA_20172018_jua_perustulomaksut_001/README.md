@@ -10,7 +10,7 @@
 - **Population:** Perustulokokeilun kohdejoukko
 - **Source:** Kansaneläkelaitoksen perustulokokeilurekisteri
 
-## Kuvaus / Description
+## Description
 
 Kelan perustulokokeilurekisteri on suojattu tutkimuskäyttöön. Tutkija hakee aineistolle käyttölupaa Kelasta.
 
@@ -25,9 +25,9 @@ Taulut 1 ja 2 muodostavat Perustulokokeilusta annetun lain (1528/2016) 18 §:n m
 Taulu sisältää tiedot perustulokokeilun osallistujille maksetusta perustulosta sekä maksujen mahdollisista takaisinperimisistä. 
 Lisätietoa Perustulokokeilusta: https://www.finlex.fi/fi/laki/alkup/2016/20161528
 
-## Muuttujat / Variables (5)
+## Variables (5)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `MATY` | Maksutyyppi | — | — | — |
@@ -35,7 +35,7 @@ Lisätietoa Perustulokokeilusta: https://www.finlex.fi/fi/laki/alkup/2016/201615
 | `MATODPV` | Maksupäivä | — | — | — |
 | `BRUTTOMAARA` | Maksettu perustulon euromäärä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -55,4 +55,4 @@ Muuttujan arvot:
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

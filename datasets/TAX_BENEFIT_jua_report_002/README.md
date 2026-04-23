@@ -11,7 +11,7 @@
 - **Source:** Tulorekisteri
 - **Keywords:** maksetut tulonsiirrot,saadut tulonsiirrot,tulonsiirrot
 
-## Kuvaus / Description
+## Description
 
 Tulorekisteri on Verohallinnon ylläpitämä kansallinen sähköinen tietokanta, joka sisältää henkilöiden reaaliaikaiset, maksukohtaiset palkka-, eläke- ja etuustiedot. Eläke- ja etuustietoja on ilmoitettu tulorekisteriin vuoden 2021 alusta lähtien. Palkkatietoja on ilmoitettu jo vuoden 2019 alusta lähtien, ja ne on koottu Tilastokeskuksessa TAX_INCOMES-valmisaineistoon. Eläke- ja etuustiedoista on muodostettu tutkimuskäyttöön TAX_BENEFIT-valmisaineisto, joka päivittyy kuukausittain. Tiedot voivat päivittyä myös takautuvasti.
 
@@ -43,9 +43,9 @@ https://www.vero.fi/tulorekisteri/ohjelmistokehitt%C3%A4j%C3%A4t/dokumentaatio/
 
 Lisätietoja Tilastokeskuksen valmisaineistosta saa Tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `repId` | Ilmoituksen tunniste | — | — | — |
 | `delId` | Aineiston tunniste | — | — | — |
@@ -66,7 +66,7 @@ Lisätietoja Tilastokeskuksen valmisaineistosta saa Tutkijapalveluista: tutkijap
 | `receivedTimestamp` | receivedTimestamp | — | — | — |
 | `createdTimestamp` | createdTimestamp | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `repId` — Ilmoituksen tunniste
 
@@ -86,13 +86,13 @@ Suojattu tulonsaajan yksilöivä tunniste
 
 #### `incomeEarnerSyrtun` — Tulonsaajan suojattu y-tunnus
 
-**Ryhmä / Group:** tulonsaajan tunnisteet
+**Group:** tulonsaajan tunnisteet
 
 Tulonsaajan suojattu y-tunnus (suojattu ilman väliviivaa)
 
 #### `incomeEarnerOtherSId` — Tulonsaajan suojattu muu tunniste
 
-**Ryhmä / Group:** tulonsaajan tunnisteet
+**Group:** tulonsaajan tunnisteet
 
 Tulonsaajan suojattu muu tunniste, y-tunnuksesta on poistettu viiva ennen suojausta. Tätä muuttujaa ei suositella vielä käytettävän linkkauksissa, koska muuttujan suojaus on ollut sikäli virheellinen, etteivät kaikki alkuperäiset tunnukset ole saaneet oikein yksilöityvää suojattua tunnusta.
 
@@ -100,7 +100,7 @@ Tulonsaajan suojattu muu tunniste, y-tunnuksesta on poistettu viiva ennen suojau
 
 #### `incomeEarnerIdType` — Tulonsaajan tunnisteen tyyppi
 
-**Ryhmä / Group:** tulonsaajan tunnisteet
+**Group:** tulonsaajan tunnisteet
 
 1 = Y-tunnus (suomalainen)
 2 = Henkilötunnus (suomalainen)
@@ -122,7 +122,7 @@ Pakollisuus (K/E) = K
 
 #### `incomeEarnerIdCountryCode` — Maakoodi
 
-**Ryhmä / Group:** tulonsaajan tunnisteet
+**Group:** tulonsaajan tunnisteet
 
 Jos tunnisteen tyyppinä on muu kuin suomalainen henkilötunnus, merkitään tulonsaajan tunnisteen myöntäneen maan koodi. Tunnisteen myöntänyt maa voi olla eri kuin tulonsaajan asuinvaltio. Maakoodi valitaan koodistosta:
 
@@ -130,7 +130,7 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-2021
 
 #### `incomeEarnerIdCountryName` — Maan nimi
 
-**Ryhmä / Group:** tulonsaajan tunnisteet
+**Group:** tulonsaajan tunnisteet
 
 Merkitään tunnisteen myöntäneen maan nimi, jos maakoodiksi on annettu arvo ”tuntematon” (99).
 
@@ -147,13 +147,13 @@ Joissakin tapauksissa saajalla voi olla kaksi erityyppistä tunnistetta.
 
 #### `nonResident` — Rajoitetusti verovelvollinen
 
-**Ryhmä / Group:** kansainväliset tilanteet
+**Group:** kansainväliset tilanteet
 
 ”Kyllä” (true) tai tyhjä
 
 #### `nonResidentCountryCode` — Asuinvaltion maakoodi
 
-**Ryhmä / Group:** kansainväliset tilanteet
+**Group:** kansainväliset tilanteet
 
 Rajoitetusti verovelvollisesta on ilmoitettava sen valtion maatunnus, jota pidetään tulonsaajan asuinpaikkana. Maakoodi valitaan koodistosta:
 
@@ -161,13 +161,13 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-2021
 
 #### `nonResidentCountryName` — Asuinvaltion nimi
 
-**Ryhmä / Group:** kansainväliset tilanteet
+**Group:** kansainväliset tilanteet
 
 Merkitään asuinvaltion nimi, jos asuinvaltion maakoodin arvoksi on annettu ”tuntematon” (99).
 
 #### `subToWithold` — Ennakonpidätyksen alainen tulo
 
-**Ryhmä / Group:** kansainväliset tilanteet
+**Group:** kansainväliset tilanteet
 
 ”Kyllä” (true) tai tyhjä
 
@@ -177,4 +177,4 @@ Merkitään asuinvaltion nimi, jos asuinvaltion maakoodin arvoksi on annettu ”
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

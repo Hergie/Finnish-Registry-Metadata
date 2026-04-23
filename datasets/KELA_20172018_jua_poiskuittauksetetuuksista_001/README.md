@@ -10,7 +10,7 @@
 - **Population:** Perustulokokeilun kohdejoukko
 - **Source:** Kansaneläkelaitoksen perustulokokeilurekisteri
 
-## Kuvaus / Description
+## Description
 
 Kelan perustulokokeilurekisteri on suojattu tutkimuskäyttöön. Tutkija hakee aineistolle käyttölupaa Kelasta.
 
@@ -27,9 +27,9 @@ Perustulokokeilusta annetun lain (1528/2016) 7 §:n nojalla perustulo pienentä�
 Osasta työttömyyskassojen maksamista etuuksista tehdyistä poiskuittauksista puuttuu muuttujan HETU tieto. Näitä poiskuittauksia ei siis voi yhdistää perustulon saajaan. Tällaisia tiedoiltaan puutteellisia kuittauksia on 178 kappaletta, mikä vastaa noin 16 prosentin osuutta kaikista työttömyyskassojen maksamista etuuksista tehdyistä poiskuittauksista. Euromääräisesti kohdentumattomia kuittauksia on 503609,45 euron verran, mikä vastaa noin 15 prosentin osuutta kaikista työttömyyskassojen maksamista etuuksista tehdyistä poiskuittauksis-ta.
 Lisätietoa Perustulokokeilusta: https://www.finlex.fi/fi/laki/alkup/2016/20161528
 
-## Muuttujat / Variables (5)
+## Variables (5)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `TYYPPI` | Kuittauksen tyyppi | — | — | — |
@@ -37,7 +37,7 @@ Lisätietoa Perustulokokeilusta: https://www.finlex.fi/fi/laki/alkup/2016/201615
 | `KIRJATTU_EUR` | Kuittauksen euromäärä | — | — | — |
 | `PALAUTTAVA_ETUUS_KOODI` | Etuus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -68,4 +68,4 @@ Muuttujan arvot:
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

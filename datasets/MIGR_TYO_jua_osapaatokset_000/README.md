@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot (osapäätökset) </h3>
 
@@ -32,9 +32,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (14)
+## Variables (14)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `Shnro` | Suojattu hnro | — | — | — |
 | `DCSN_DATA_OCCUPATION_ID_s` | Osapaatoksen lisatty ammattialan yksilollinen suojattu tunnus | — | — | — |
@@ -51,7 +51,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `TEM_DCSN_TYPE` | Osaratkaisun tyyppi | — | — | — |
 | `TEM_DCSN_GROUNDS` | Osaratkaisun peruste | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `Shnro` — Suojattu hnro
 
@@ -98,4 +98,4 @@ Esimerkiksi Saatavuusharkinta tai Myönt: Yrittäjä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

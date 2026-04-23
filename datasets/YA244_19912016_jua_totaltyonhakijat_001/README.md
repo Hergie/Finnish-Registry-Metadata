@@ -10,7 +10,7 @@
 - **Population:** Työikäinen väestö
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -21,9 +21,9 @@ Tiedot vuodesta 1991 alkaen.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (6)
+## Variables (6)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `alkupvm` | Työnhaun alkamispäivä | — | — | Työnhakijarekisteri |
@@ -32,29 +32,29 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `psyy` | Työnhaun päättymissyy | — | — | Työnhakijarekisteri |
 | `shnro` | Suojattu Tilastokeskuksen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
 #### `alkupvm` — Työnhaun alkamispäivä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun alkamispäivä.
 
 #### `loppupvm` — Työnhaun päättymispäivä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun päättymispäivä.
 
 #### `tyol` — Työnhakijan työllisyyskoodi
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen vuodenvaihdetta niin työllisyyskoodi on vuoden alun mukainen tilanne. 0 = Työssä oleva, toimenpitein sijoitettu
 1 = Työssä oleva, yleisillä työmarkkinoilla
@@ -67,7 +67,7 @@ Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen v
 
 #### `psyy` — Työnhaun päättymissyy
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 0 = Sijoitettu työllistämistoimenpitein
 1 = Välitetty työhön yleisille työmarkkinoille
@@ -103,4 +103,4 @@ Suojattu Tilastokeskuksen henkilönumero.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

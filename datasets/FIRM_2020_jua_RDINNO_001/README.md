@@ -10,7 +10,7 @@
 - **Population:** Kohdeperusjoukko on Suomessa toimivat yritykset. Kehikko on Tilastokeskuksen ylläpitämä yritysrekisteri. Aineisto kattaa Suomessa tehdyn tutkimus- ja kehittämistyön. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa.
 - **Source:** Tutkimus- ja kehittämistoiminnan vuosikysely
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kyselyaineisto vuodelle 2020 (yri20e) kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Rahamääräiset tiedot ovat euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja).
 Kynnysarvosäännön rinnalla tulee soveltaa dominanssisääntöä 2 (1,75) tuoreissa yritystiedoissa (15 kk viiteajankohdasta). 
@@ -43,9 +43,9 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 sekä Tutkimus- ja kehittämistoiminta 2020 -laatuselosteesta: https://stat.fi/til/tkke/2020/tkke_2020_2021-10-28_laa_001_fi.html
 
-## Muuttujat / Variables (323)
+## Variables (323)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -371,7 +371,7 @@ sekä Tutkimus- ja kehittämistoiminta 2020 -laatuselosteesta: https://stat.fi/t
 | `taysikor` | Korotuskerroin_liikevaihto | — | — | — |
 | `taysikorfre` | Korotuskerroin_lkm | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -1651,4 +1651,4 @@ Korotuskertoimilla oikaistaan katoa, ne eivät korota perusjoukon tasolle (panel
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

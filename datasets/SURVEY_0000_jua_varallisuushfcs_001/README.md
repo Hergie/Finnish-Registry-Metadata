@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 Euroopan keskuspankin (EKP) koordinoima euroalueen varallisuustutkimus Household Finance and Consumption Survey (HFCS) on otostutkimus, joka sisältää yksityiskohtaista tietoa kotitalouksien varallisuudesta ja veloista. Tutkimuksen tavoitteena on tarjota aineisto, joka mahdollistaa varallisuuden ja velkojen jakautumisen tutkimisen, rahapolitiikan vaikutusten ymmärtämisen ja kotitalouksien finanssivakauden analysoinnin. HFCS-aineistoja on saatavilla vuosilta 2009, 2013, 2016, 2019 ja 2023.
  
@@ -19,10 +19,10 @@ Suomen HFCS aineisto sisältää samat tiedot kuin Tilastokeskuksen varallisuust
 Lisätietoa ja tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat ottamalla yhteyttä osoitteeseen tutkijapalvelut@stat.fi. 
 Lisätietoa aiheesta saat myös Euroopan keskuspankin nettisivuilta: https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tkke/index.html">Tutkimus- ja kehittämistoiminta</a> <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_tutkimus_ja_kehittamistoiminta.html">Tutkimus- ja kehittämistoiminta (T&K)</a>
 - **Keywords:** korkeakoulut,menot,tietoyhteiskunta,tuotekehitys,tutkimuslaitokset,tutkimusmenot,tutkimustoiminta,yliopistot,yritykset
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kyselyaineisto vuodelle 1999 (yri99b) kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Rahamääräiset tiedot ovat tuhansina markkoina vuoteen 1999 asti ja vuodesta 2000 eteenpäin tuhansina euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja). 
 
@@ -43,9 +43,9 @@ Kyselylomake saatavissa erikseen. Vastaavia tietoja on saatavissa suppeampana pa
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (291)
+## Variables (291)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `OTOSSL` | Otossuuruusluokka | — | — | — |
 | `IMP1_11` | Tohtorit lkm imputoitu | — | — | — |
@@ -339,7 +339,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `RAHA` | Käytetty rahayksikkö | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `OTOSSL` — Otossuuruusluokka
 
@@ -1508,4 +1508,4 @@ Käytetty rahayksikkö 1=markka, tiedot ovat tuhansissa markoissa
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

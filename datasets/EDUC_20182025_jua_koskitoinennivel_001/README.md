@@ -8,7 +8,7 @@
 - **Variable count:** 26
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 EDUC_KOSKI-valmisaineisto sisältää OPH:n Koski-tietovarannon tietoja perusopetuksen, nivelvaiheen sekä toisen asteen koulutuksien läsnäolosta, sisällöstä sekä suorituksista. Aineiston avulla on mahdollista tutkia läsnäoloa koulutuksissa tarkalla tasolla, sillä aineisto sisältää jaksomuotoisen tilatiedon. Aineisto sisältää myös koulutuksien suoritustietoja, joiden avulla on mahdollista tutkia koulutuksien etenemistä tarkalla tasolla. Aineisto on kattavaa vuodesta 2020 lähtien. KOSKI-järjestelmä on otettu käyttöön vuonna 2018, mutta vuosien 2018 ja 2019 tiedot eivät ole kattavia. Aineistosta ei ole rajattu ulos aiempia tietoja. 
 
@@ -48,9 +48,9 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_
 
 Aineistossa on mukana koulutusmuodot tuva, luva, vapaansivistystyonkoulutus ja ammatillinenkoulutus. Ammatillisista koulutuksista sisällytetty vain valma-koulutus (päätason suorituksen_tyyppi='valma'). Vapaansivistystyön koulutuksesta sisällytetty vain oppivelvolliselle suunnattu vapaansivistystyön koulutus (päätason suorituksen_tyyppi='vstoppivelvollisillesuunnattukoulutus').
 
-## Muuttujat / Variables (26)
+## Variables (26)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `oppija_oid_s` | Suojattu oppijatunnus | — | — | — |
@@ -79,7 +79,7 @@ Aineistossa on mukana koulutusmuodot tuva, luva, vapaansivistystyonkoulutus ja a
 | `paataso_suorituksen_tyyppi` | Päätason suorituksen tyyppi | — | — | — |
 | `paataso_vahvistus_paiva` | Päätaso vahvistus päivä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -185,4 +185,4 @@ Päivä jolloin osasuoritukseen liittyvä päätason suoritus on vahvistettu.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

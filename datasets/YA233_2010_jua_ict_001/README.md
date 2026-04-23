@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen Tietotekniikan käyttö yrityksissä -kysely ja yritysrekisteri.
 - **Related:** <a href= "http://www.stat.fi/til/icte/index.html">Tietotekniikan käyttö yrityksissä</a>
 
-## Kuvaus / Description
+## Description
 
 ICT-aineisto kuvaa yritysten tietotekniikan käyttöä ja liiketoiminnan sähköistymistä. Tilastoaineisto tuotetaan otokseen perustuvana laajana yrityskyselynä. Tulokset korotetaan tilastossa vastaamaan kaikkia tutkittujen toimialojen ja suuruusluokkien yrityksiä. Tilastoyksikkönä on yritys. Yritystason aineisto on saatavissa tutkimuskäyttöön erillisinä vuositiedostoina. 
 Tilastoaineisto ilmestyy vuosittain. Sähköisen kaupan osalta mittausjaksona on edellinen vuosi. Tietotekniikan käytön osalta viiteajankohtana on useimmissa muuttujissa kyselyn ajankohta, eli tammi-huhtikuu. Aineiston aikasarja ulottuu vuoteen 2002 asti. 
@@ -69,9 +69,9 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 * Tietokoneohjelmien valmistus omaan käyttöön; oma henkilökunta kehittäjänä ja valmistajana, käytetyt henkilötyövuodet. 2005 -.	
 * RFID Radio Frequency Identification käyttö; mihin tarkoituksiin käytetään. 2009, 2011, 2014.
 
-## Muuttujat / Variables (160)
+## Variables (160)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yr_yrek_liikevaihto` | Liikevaihto, yritysrekisteri | — | — | — |
 | `yr_aloitusaika` | Aloitusaika, yritysrekisteri | — | — | — |
@@ -234,7 +234,7 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 | `auttied1` | auttied ennen imputointia | — | — | — |
 | `flag10` | auttied imputoitu | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yr_yrek_liikevaihto` — Liikevaihto, yritysrekisteri
 
@@ -802,4 +802,4 @@ Tilastossa ao. tilastoyksikön kerroin henkilöstön määrään liittyvissä la
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

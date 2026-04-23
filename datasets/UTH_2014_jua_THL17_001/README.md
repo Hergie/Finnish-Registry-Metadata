@@ -10,7 +10,7 @@
 - **Population:** Ulkomaalaista syntyperää olevat, Suomessa vakituisesti asuvat henkilöt. Haastatteluaineistossa on 3262 ulkomaista syntyperää olevan henkilön haastattelu vuodelta 1014.
 - **Source:** UTH-kyselytutkimus
 
-## Kuvaus / Description
+## Description
 
 Haastatteluaineisto ulkomaalaistaustaisista henkilöistä vuodelta 2014. N = 3262. UTH-kyselyaineisto sisältää työhön, koulutukseen, terveyteen ja hyvinvointiin liittyviä tietoja. A-osioon on liitetty joitakin rekisteritietoja sekä rekisterin ja kyselyn pohjalta tehtyjä muuttujia, jotka liittyvät olennaisesti maahanmuuttajiin. Tällaisia ovat esimerkiksi sukupuoli, ikä, kansalaisuus, taustamaa, vanhempien syntymämaat, maahan- ja maastamuuttopäivät, asuinvuodet Suomessa sekä ikä muuttovuonna. Aineistoa on kuvattu tarkemmin <a href=http://stat.fi/tup/maahanmuutto/uth-tutkimus/menetelmaseloste.html> menetelmäselosteessa. </a> Esimerkkejä aineistosta aiemmin julkaistuista tuloksista löydät <a href=http://stat.fi/tup/maahanmuutto/uth-tutkimus.html> täältä. </a> Lisätietoa löytyy myös <a href=https://www.thl.fi/fi/tutkimus-ja-asiantuntijatyo/hankkeet-ja-ohjelmat/uth-ulkomaista-syntyperaa-olevien-tyo-ja-hyvinvointi-tutkimus> THL:n sivuilta. </a>
 
@@ -55,9 +55,9 @@ l. Elämänlaatu (k46-k48)
 m. Palveluiden käyttö (k49-52)
 n. Työhön liittyvät asenteet ja tuki (k53-k57)
 
-## Muuttujat / Variables (191)
+## Variables (191)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Haastatteluvuosi | — | — | haast |
 | `shnro_uth` | Suojattu TK:n henkilönumero UTH-aineistossa | — | — | haast |
@@ -251,19 +251,19 @@ n. Työhön liittyvät asenteet ja tuki (k53-k57)
 | `k57b` | "" "Naisilla on täysi oikeus käydä töissä, olipa heidän perhetilanteensa mikä tahansa" | — | — | vast_terve |
 | `k57c` | "" "Miehellä on ensisijainen vastuu perheen toimeentulosta" | — | — | vast_terve |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Haastatteluvuosi
 
-**Ryhmä / Group:** haast
+**Group:** haast
 
 #### `shnro_uth` — Suojattu TK:n henkilönumero UTH-aineistossa
 
-**Ryhmä / Group:** haast
+**Group:** haast
 
 #### `tutkimus` — Tutkimus
 
-**Ryhmä / Group:** haast
+**Group:** haast
 
 1 = Ulkomaista syntyperää olevien työ ja hyvinvointi -tutkimus (UTH) 2014
 2 = Työvoimatutkimus (LFS) 2014 (5. rotaatio)
@@ -271,15 +271,15 @@ n. Työhön liittyvät asenteet ja tuki (k53-k57)
 
 #### `kk` — Haastattelukuukausi
 
-**Ryhmä / Group:** haast
+**Group:** haast
 
 #### `vko` — Haastatteluviikko
 
-**Ryhmä / Group:** haast
+**Group:** haast
 
 #### `tapa` — Haastattelutapa
 
-**Ryhmä / Group:** haast
+**Group:** haast
 
 1 = käyntihaastattelu
 2 = puhelinhaastattelu kotinumerosta
@@ -288,31 +288,31 @@ n. Työhön liittyvät asenteet ja tuki (k53-k57)
 
 #### `thl_calw` — UTH-paino, koko haastattelu, N = 2840
 
-**Ryhmä / Group:** paino
+**Group:** paino
 
 Pitkään UTH-haastatteluun vastanneille, N = 2840. Osa muuttujista ei ole ollut lyhytlomakkeella ja siksi niihin on 422 vastaajaa vähemmän. Käytetään silloin, kun muttujan frekvenssit on nolla, kun HK=2 (tällöin muuttuja ei ole ollut lyhytlomakkeella). Koskee useita terveys- ja hyvinvointiosion tietoja.
 
 #### `uth_calw` — UTH-paino, lyhytlomake, N = 3262
 
-**Ryhmä / Group:** paino
+**Group:** paino
 
 Lyhyeen UTH-haastatteluun vastanneille, N = 3262. UTH-aineiston varsinainen paino. Käytetään silloin, kun muuttujan frekvenssit ei ole noll akun HK = 2 ( muuttuja on ollut siis myös lyhytlomakkeella). Lyhytlomakkeella oli koko työ- ja koulutusosio, mutta vain osa terveys- ja hyvinvointiosiosta.
 
 #### `yhd_calw` — Yhdistelmäaineiston paino, N=20 487
 
-**Ryhmä / Group:** paino
+**Group:** paino
 
 Ns. yhdistelmäaineiston paino, jota käytetään silloin kun analysoidaan LFS- ja UTH-aineistoa yhdessä. N = 20 487
 
 #### `osite` — Yhdistelmäaineiston (sis uth) osite-muuttuja
 
-**Ryhmä / Group:** paino
+**Group:** paino
 
 Muuttujaa voidaa käyttää luottamusvälien laskemiseen.
 
 #### `hk` — Lyhytlomake
 
-**Ryhmä / Group:** paino
+**Group:** paino
 
 Painojen käytössä käytettävä muuttuja, silloin kun käsitellään pelkkää UTH-aineistoa.
 1 = normaali haastattelu
@@ -320,19 +320,19 @@ Painojen käytössä käytettävä muuttuja, silloin kun käsitellään pelkkä�
 
 #### `sukup` — Sukupuoli
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = mies 2 = nainen
 
 #### `ika` — Ikä
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Ikä tutkimushetkellä
 
 #### `ika3` — Ikä, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = alle 30
 2 = 30-44
@@ -340,7 +340,7 @@ Ikä tutkimushetkellä
 
 #### `ika4` — Ikä, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = 20-29
 2 = 30-39
@@ -349,7 +349,7 @@ Ikä tutkimushetkellä
 
 #### `tausta` — Syntyperä
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Syntyperä
 0 = suomalaistaustainen
@@ -357,7 +357,7 @@ Syntyperä
 
 #### `cobfath` — Isän syntymämaa
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 2-kirjaiminen ISO maakoodi 
 98 = Maa tuntematon, mutta isä syntynyt ulkomailla
@@ -366,7 +366,7 @@ Syntyperä
 
 #### `cobmoth` — Ädin syntymämaa
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 2-kirjaiminen ISO maakoodi 
 98 = Maa tuntematon, mutta äiti syntynyt ulkomailla
@@ -375,13 +375,13 @@ Syntyperä
 
 #### `taustamaal` — Taustamaa
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 3-numeroinen valtioluokitus
 
 #### `maal2` — Taustamaa, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1= Entinen NL ja Venäjä
 2 = Viro
@@ -393,13 +393,13 @@ Syntyperä
 
 #### `hdi_2014` — HDI 2014
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Taustamaan vuoden 2014 human development index
 
 #### `hdi_2014_5lk` — HDI 2014, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = very high (0.944-0.816)
 2 = Russia & Belarus (0.798)
@@ -409,20 +409,20 @@ Taustamaan vuoden 2014 human development index
 
 #### `suomi` — Syntymävaltio
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1=Syntynyt Suomessa
 0=muu
 
 #### `kansa1_2013l` — Kansalaisuus
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 3-numeroinen valtioluokitus
 
 #### `kansaeu` — Kansalaisuus, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = Suomi
 2 = Muu EU28-maa 
@@ -430,7 +430,7 @@ Taustamaan vuoden 2014 human development index
 
 #### `kansaefta` — Kansalaisuus, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = Suomi
 2 = Muu EU28-maa tai Efta-maa (Norja, islanti, Sveitsi, Liechtenstein)
@@ -438,31 +438,31 @@ Taustamaan vuoden 2014 human development index
 
 #### `maahanmuuttoeka` — Ensimmäinen maahanmuuttopäivä
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 sas-date
 
 #### `maahanmuuttovika` — Viimeisin maahanmuuttopäivä
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 sas-date
 
 #### `maastamuuttoeka` — Ensimmäinen maastamuuttopäivä
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 sas-date
 
 #### `maastamuuttovika` — Viimeisin maastamuuttopäivä
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 sas-date
 
 #### `ika_maahanmuutto` — Ikä maahanmuuttaessa, luokittelematon
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Ikä numeroina
 
@@ -472,7 +472,7 @@ Ikä numeroina
 
 #### `ika_maahanmuuttol` — Ikä Suomeen muuttaessa
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Ikä Suomeen muuttaessa. 
 0 = Syntynyt Suomessa tai tullut alle vuoden ikäisenä
@@ -480,7 +480,7 @@ Ikä Suomeen muuttaessa.
 
 #### `muuttoika` — Ikä Suomeen muuttaessa, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = Syntynyt Suomessa tai muuttanut alle vuoden ikäisenä
 2 = 1–6-vuotias
@@ -491,7 +491,7 @@ Ikä Suomeen muuttaessa.
 
 #### `migreas` — Maahanmuuton tärkein syy
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 1 = Työ, työpaikka saatu ennen muuttoa
 2 = Työ, työnhaku
@@ -504,7 +504,7 @@ Ikä Suomeen muuttaessa.
 
 #### `migreas2` — Maahanmuuton tärkein syy, karkeistettu
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 1 = Työ (joko työ saatu ennen muuttoa tai työnhaku)
 2 = Perhesyyt tai avioliitto (sis. myös kaikki alle 15-vuotiaana muuttaneet)
@@ -516,7 +516,7 @@ Ikä Suomeen muuttaessa.
 
 #### `asvu` — Asuinvuodet Suomessa
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Suomessa asuttujen vuosien lukumäärä, kyselystä saatu tieto.
 0 = asunut Suomessa alle vuoden
@@ -525,13 +525,13 @@ Suomessa asuttujen vuosien lukumäärä, kyselystä saatu tieto.
 
 #### `yearesidl` — Maassa asumisen aika
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Maassa asumisen aika vuosina
 
 #### `asvuodet10` — Maassa asumisen aika, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = alle 10 vuotta
 2 = 10 vuotta tai enemmän
@@ -540,7 +540,7 @@ Maassa asumisen aika vuosina
 
 #### `asvuodet8` — Maassa asumisen aika, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = alle 8 vuotta
 2 = 8 vuotta tai enemmän
@@ -549,7 +549,7 @@ Maassa asumisen aika vuosina
 
 #### `asvuodet5` — Maassa asumisen aika, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = alle 5 vuotta
 2 = 5-10 vuotta
@@ -559,7 +559,7 @@ Maassa asumisen aika vuosina
 
 #### `alue3` — Asuinalue, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = Länsi-Suomi ja Ahvenanmaa
 2 = (Muu) uusimaa
@@ -571,7 +571,7 @@ Maassa asumisen aika vuosina
 
 #### `alue4` — Asuinalue, luokiteltu
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 1 = Helsinki
 2 = Espoo ja Vantaa
@@ -581,25 +581,25 @@ Maassa asumisen aika vuosina
 
 #### `kansa2` — Toinen kansalaisuustunnus
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 3-numeroinen valtioluokitus
 
 #### `kansa3` — Kolmas kansalaisuustunnus
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 3-numeroinen valtioluokitus
 
 #### `e1kansa` — Edellinen kansalaisuustunnus
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 3-numeroinen valtioluokitus
 
 #### `kieli` — Äidinkielitunnus
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 Kieliluokitus ISO 639
 ...
@@ -608,13 +608,13 @@ Kieliluokitus ISO 639
 
 #### `kan1sapv` — Suomen kansalaisuuden saantivuosi
 
-**Ryhmä / Group:** tausta
+**Group:** tausta
 
 VVVV
 
 #### `avi` — Aluehallintovirasto -luokituksen mukainen aluejako
 
-**Ryhmä / Group:** rek_lfs
+**Group:** rek_lfs
 
 Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.
 1 = Etelä-Suomen AVI
@@ -627,7 +627,7 @@ Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.
 
 #### `pks_avi` — Kotiseutu
 
-**Ryhmä / Group:** rek_lfs
+**Group:** rek_lfs
 
 Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) ja aluehallintoviraston (AVI) perusteella saatava tieto.
 0 = pääkaupunkiseutu
@@ -641,7 +641,7 @@ Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) ja aluehallintoviraston (AVI
 
 #### `ely` — Elinkeino-, liikenne- ja ympäristökeskus
 
-**Ryhmä / Group:** rek_lfs
+**Group:** rek_lfs
 
 Tilastotovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.
 1 = Uudenmaan ELY-keskus
@@ -663,7 +663,7 @@ Tilastotovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.
 
 #### `nuts3_eu` — Asuinpaikan EU:n alueluokitus
 
-**Ryhmä / Group:** rek_lfs
+**Group:** rek_lfs
 
 Kuntarekisteristä asuinkunnan (ASKU) perusteella. NUTS on Euroopan tilastovirasto Eurostatin alueluokitus (Province/NUTS3). NUTS3 -taso vastaa kansallista maakuntaaluejakoa. 
 FI131 = Etelä-Savo
@@ -689,19 +689,19 @@ FI200 = Ahvenanmaa
 
 #### `k1` — Pituus
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 cm
 
 #### `k2` — Paino
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 kg
 
 #### `k3` — Onko terveydentilanne mielestänne nykyisin
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = hyvä
 2 = melko hyvä
@@ -711,7 +711,7 @@ kg
 
 #### `k4_terveys` — Onko teillä jokin pitkäaikainen sairaus tai muu pitkäaikainen terveysongelma
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
@@ -720,7 +720,7 @@ pitkäaikainen = on kestänyt tai sen odotetaan kestävän vähintään puoli vu
 
 #### `k5` — Missä määrin jokin terveysongelma on rajoittanut tavanomaista toimintaanne kuuden (6) viime kuukauden aikana (muihin ihmisiin verrattuna)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = on ollut vakavasti rajoittunutta
 2 = on ollut rajoittunutta, mutta ei vakavasti
@@ -728,214 +728,214 @@ pitkäaikainen = on kestänyt tai sen odotetaan kestävän vähintään puoli vu
 
 #### `k6a` — Onko teillä ollut seuraavia lääkärin toteamia tai hoitamia sairauksia viimeksi kuluneiden 12 kuukauden aikana: Kohonnut verenpaine, verenpainetauti?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6b` — "" Selän kulumavika, iskias tai muu selkäsairaus?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6c` — "" Masennus (depressio, alakuloisuus)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6d` — "" Muu mielenterveysongelma (esimerkiksi pitkään kestänyt ahdistuneisuus)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6e` — "" Astma?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6f` — "" Diabetes (sokeritauti)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6g` — "" HIV (human immunodeficiency virus eli ihmisen immuunikatovirus)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6h` — "" Tuberkuloosi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6i` — "" B-hepatiitti (HBV-infektio)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6j` — "" Jokin muu pitkäaikainen sairaus tai terveysongelma?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k6j_1` — Jokin muu sairaus tai terveysongelma, mikä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Selkokielinen vastaus
 
 #### `k7a` — Kun tulitte Suomeen, tehtiinkö Teille terveystarkastus, jossa selvitettiin mahdollisesti sairastamianne tauteja ja kartoitettiin terveydentilaanne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k7b` — Otettiinko teistä keuhkojen röntgenkuva?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8a` — Oletteko käyttäneet seuraavia lääkkeitä tai valmisteita viimeksi kuluneiden 7 päivän aikana: D-vitamiinivalmisteita?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8b` — "" Muita vitamiini- ja/tai hivenainevalmisteita?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8c` — "" Särkylääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8d` — "" Verenpainelääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8e` — "" Insuliinia tai muita diabeteslääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8f` — "" Astmalääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8g` — "" Rauhoittavia lääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8h` — "" Unilääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8i` — "" Masennuslääkkeitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k8j` — "" Ehkäisypillereitä, -rengasta tai -kapselia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k10a` — Oletteko synnyttänyt?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k10b` — Kuinka monta synnytystä teillä on ollut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k11a` — Onko teillä ollut keskenmenoon päättyneitä raskauksia tai kohdun ulkoisia raskauksia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k11b` — Kuinka monta keskenmenoon päättynyttä raskautta Teillä on ollut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Keskenmenojen lkm, sallitut arvot 1-30
 
 #### `k12a` — Onko teille tehty raskauden keskeytyksiä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k12b` — Kuinka monta keskeytystä teillä on ollut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k13` — Joissakin maissa tehdään tyttöjen ympärileikkauksia, joilla on vaikutusta naisten terveyteen. Onko teille tehty tällainen ympärileikkaus?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k16a` — Kuinka suuren osan ajasta olette viimeksi kuluneiden 4 viikon aikana: Ollut hyvin hermostunut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = koko ajan
 2 = suurimman osan aikaa
@@ -946,7 +946,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k16b` — "" Tuntenut mielialanne niin matalaksi, ettei mikään ole voinut piristää Teitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = koko ajan
 2 = suurimman osan aikaa
@@ -957,7 +957,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k16c` — "" Tuntenut itsenne tyyneksi ja rauhalliseksi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = koko ajan
 2 = suurimman osan aikaa
@@ -968,7 +968,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k16d` — "" Tuntenut itsenne alakuloiseksi ja apeaksi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = koko ajan
 2 = suurimman osan aikaa
@@ -979,7 +979,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k16e` — "" Ollut onnellinen?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = koko ajan
 2 = suurimman osan aikaa
@@ -990,7 +990,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k17` — Tunnetteko itsenne yksinäiseksi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = ei koskaan
 2 = hyvin harvoin
@@ -1000,35 +1000,35 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k18_yhd` — Onko sinulla jokin traumakokemus?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 0 = ei
 1 = kyllä
 
 #### `k19a` — Onko joku viimeksi kuluneiden 12 kuukauden aikana: Estänyt teitä liikkumasta, tarttunut kiinni, tyrkkinyt, töninyt tai läimäissyt?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k19b` — "" Lyönyt nyrkillä tai kovalla esineellä, potkinut, kuristanut tai käyttänyt jotakin asetta?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k19c` — "" Pakottanut tai yrittänyt pakottaa sukupuoliyhteyteen tai muuhun seksuaaliseen kanssakäymiseen?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k20a` — Oletteko viimeksi kuluneiden 12 kuukauden aikana käyttänyt palveluita, asioinut tai ollut tekemisissä seuraavien viranomaisten kanssa? Jos olette, miten teitä kohdeltiin? : Kela (sairausvakuutusasiat ym.), sosiaalitoimisto tai muut sosiaalipalvelut (esim. toimeentulotukiasiat, päivähoito)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole käyttänyt palvelua
 2 = olen käyttänyt palvelua ja minua kohdeltiin hyvin
@@ -1036,7 +1036,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k20b` — "" Terveysasema tai muut terveyspalvelut (esim. lääkäri, hoitaja tai muu ammattihenkilö terveyskeskuksessa, lääkärin vastaanotolla tai sairaalassa)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole käyttänyt palvelua
 2 = olen käyttänyt palvelua ja minua kohdeltiin hyvin
@@ -1044,7 +1044,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k20c` — "" Työ- ja elinkeinotoimisto (TE-toimisto) tai työvoiman palvelukeskus (esim. työtä tai koulutuspaikkaa hakiessa)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole käyttänyt palvelua
 2 = olen käyttänyt palvelua ja minua kohdeltiin hyvin
@@ -1052,7 +1052,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k20d` — "" Poliisi (esim. sakko, passihakemus, oleskelulupa)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole käyttänyt palvelua
 2 = olen käyttänyt palvelua ja minua kohdeltiin hyvin
@@ -1060,21 +1060,21 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k20e_1` — Ovatko vieraat ihmiset kadulla tai muulla yleisellä paikalla (esim. kaupassa, ravintolassa) kohdelleet Teitä epäoikeudenmukaisesti viimeksi kuluneiden 12 kuukauden aikana?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k20e_2` — Onko oma esimies tai ovatko työtoverit työpaikalla kohdelleet Teitä epäoikeudenmukaisesti viimeksi kuluneiden 12 kuukauden aikana?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k21` — Osallistutteko jonkin kerhon, järjestön, yhdistyksen, harrastusryhmän tai hengellisen tai henkisen yhteisön toimintaan?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = aktiivisesti
 2 = silloin tällöin
@@ -1082,7 +1082,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k22a` — Kuinka usein olette osallistunut seuraavien järjestöjen, yhdistysten, seurojen yms. Toimintaan viimeksi kuluneiden 12 kuukauden aikana: Liikunta- tai urheiluseura?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = 3 kertaa viikossa tai useammin
 2 = 1-2 kertaa viikossa
@@ -1092,7 +1092,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k22b` — "" Uskonnollinen yhteisö (seurakunta, moskeija)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = 3 kertaa viikossa tai useammin
 2 = 1-2 kertaa viikossa
@@ -1102,7 +1102,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k22c` — "" Omaan syntymämaahanne tai kulttuuriryhmäänne liittyvä järjestö?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = 3 kertaa viikossa tai useammin
 2 = 1-2 kertaa viikossa
@@ -1112,7 +1112,7 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k22d` — "" Jokin muu järjestö tai seura?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = 3 kertaa viikossa tai useammin
 2 = 1-2 kertaa viikossa
@@ -1122,107 +1122,107 @@ Keskeytysten lkm, sallitut arvot 1-30
 
 #### `k23a` — Käytättekö internetiä seuraaviin tarkoituksiin? Sähköiseen asiointiin, esim. verkkopankki, KELA, verotoimisto, lippupalvelu, kunnan palvelut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä 
 2 = ei
 
 #### `k23b` — "" Tietojen hakemiseen, esim. aikataulut, terveystieto ym.?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä 
 2 = ei
 
 #### `k23c` — "" Yhteydenpitoon, esim. sähköposti, Facebook, keskustelupalstat ym.?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä 
 2 = ei
 
 #### `k24` — Onko Teillä yhtään suomalaista ystävää tai tuttavaa?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä (vähintään 1)
 2 = ei
 
 #### `k25a` — Arvioikaa mahdollisuuksianne saada apua läheisiltänne, kun olette avun tai tuen tarpeessa. Keneltä seuraavista saatte käytännön apua, kun sitä tarvitsette: Puoliso tai kumppani?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k25b` — "" Joku lähiomainen (oma lapsi, sisar, veli, vanhemmat)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k25c` — "" Läheinen ystävä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k25d` — "" Läheinen työtoveri?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k25e` — "" Läheinen naapuri?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k25f` — "" Joku muu läheinen (esim. opiskelukaveri)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k26a` — Arvioikaa asteikolla yhdestä viiteen, kuinka paljon luotatte seuraavaksi luettelemiini tahoihin. Yksi tarkoittaa sitä, että ette luota lainkaan kyseiseen tahoon ja viisi sitä, että luotatte täysin. Julkiseen terveydenhuoltoon?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Vastausvaihtoehdot 1-5
 
 #### `k26b` — "" Julkiseen sosiaalihuoltoon?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Vastausvaihtoehdot 1-5
 
 #### `k26c` — "" Oikeuslaitokseen?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Vastausvaihtoehdot 1-5
 
 #### `k26d` — "" Poliisiin?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Vastausvaihtoehdot 1-5
 
 #### `k26e` — "" Ihmisiin yleensä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Vastausvaihtoehdot 1-5
 
 #### `kokemus_suomi` — Kuinka suomalaiseksi itsensä tuntee
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 1=täysin
 2=melko
@@ -1235,7 +1235,7 @@ Kyselytieto
 
 #### `kokemus_taustamaa` — Kuinka 'taustamaa':laiseksi itsensä tuntee
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 Kysymys kysytty koskien jokaisen henkilön taustamaata
 1=täysin
@@ -1249,7 +1249,7 @@ Kyselytieto
 
 #### `identi` — Identiteettiorientaatio
 
-**Ryhmä / Group:** ahm
+**Group:** ahm
 
 1 = integraatio (kokee itsensä joko täysin tai melko suomalaiseksi sekä 'taustamaalaiseksi')
 2 = separaatio (kokee itsensä joko täysin tai melko 'taustamaalaiseksi' mutta vain vähän tai ei lainkaan suomalaiseksi)
@@ -1260,13 +1260,13 @@ Kyselytieto
 
 #### `k27` — Oletetaan, että työkykynne on parhaimmillaan saanut 10 pistetta. Minkä pistemäärän antaisitte nykyiselle työkyvyllenne asteikolla 0-10? Nolla tarkoittaa että ette pystyisi lainkaan työhön.
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Vastausvaihtoehdot 0-10.
 
 #### `k28` — Arvioikaa minkälainen työkykynne on nykyisin (jos ei-työllinen: vaikka ette nyt ole ansiotyössä), oletteko:
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = täysin työkykyinen (pystyy työskentelemään ilman ongelmia/vaikeuksia)
 2 = osittain työkyvytön (työssä on vähän ongelmia/vaikeuksia)
@@ -1274,7 +1274,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k29a` — Valitkaa tilannettanne parhaiten kuvaava vaihtoehto. Pystyttekö yleensä seuraaviin suorituksiin ilman taukoa? Pystyttekö juoksemaan lyhyen matkan, noin sata metriä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pystyn ilman vaikeuksia
 2 = vähän vaikeuksia
@@ -1283,7 +1283,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k29b` — "" Pystyttekö nousemaan ylös portaita noin kolme kerrosta?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pystyn ilman vaikeuksia
 2 = vähän vaikeuksia
@@ -1292,7 +1292,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k29c` — "" Pystyttekö kävelemään noin puoli kilometriä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pystyn ilman vaikeuksia
 2 = vähän vaikeuksia
@@ -1301,7 +1301,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k29d` — "" Pystyttekö näkemään tavallista sanomalehtitekstiä (silmälaseilla tai ilman)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pystyn ilman vaikeuksia
 2 = vähän vaikeuksia
@@ -1310,7 +1310,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k30a` — Kuinka usein olette käyttänyt seuraavia ruokia viimeksi kuluneiden 7 päivän aikana? Tuoreita kasviksia tai kasvissalaattia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en kertaakaan
 2 = 1-2 päivänä
@@ -1319,7 +1319,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k30b` — "" Kypsennettyjä kasviksia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en kertaakaan
 2 = 1-2 päivänä
@@ -1328,7 +1328,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k30c` — "" Hedelmiä tai marjoja? (tuoreena)
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en kertaakaan
 2 = 1-2 päivänä
@@ -1337,7 +1337,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k30d` — "" Voita tai voi-kasvisöljyseosta?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en kertaakaan
 2 = 1-2 päivänä
@@ -1346,7 +1346,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k31` — Kuinka usein yleensä harjaatte hampaanne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = useammin kuin kaksi kertaa päivässä
 2 = kaksi kertaa päivässä
@@ -1357,7 +1357,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k32` — Miten rasittavaa työnne on ruumiillisesti - valitkaa tilanteeseenne parhaiten sopiva vaihtoehto?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = työni on pääasiassa istumatyötä enkä kävele paljoakaan
 2 = kävelen työssäni melko paljon, mutta en joudu nostelemaan tai kantamaan raskaita taakkoja
@@ -1366,7 +1366,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k33` — Kuinka monta minuuttia liikutte työmatkoillanne tai opiskelumatkoillanne kävellen tai pyöräillen?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = työni on kotona (tai opiskelen kotona)
 2 = 0 minuuttia, kuljen työ- tai opiskelumatkan kokonaan moottoriajoneuvolla
@@ -1377,7 +1377,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k34` — Kuinka paljon liikutte ja rasitatte itseänne ruumiillisesti vapaa-aikana? Älkää laskeko mukaan työmatkaliikuntaa.
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = luen, katselen televisiota ja teen askareita jotka eivät juuri rasita ruumiillisesti
 2 = kävelen, pyöräilen tai teen kevyttä koti- ja pihatyötä yms. useita tunteja viikossa
@@ -1385,7 +1385,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k35` — Tupakoitteko nykyisin (savukkeita, sikareita tai piippua)?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = päivittäin
 2 = satunnaisesti
@@ -1393,42 +1393,42 @@ Vastausvaihtoehdot 0-10.
 
 #### `k36` — Onko joku kehottanut teitä 12 viime kuukauden aikana lopettamaan tupakoinnin?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k36_1_elm_1` — Kuka tai ketkä ovat kehottaneet teitä lopettamaan tupakoinnin? Lääkäri tai hammaslääkäri?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 0 = ei
 1 = kyllä
 
 #### `k36_1_elm_2` — "" Terveyden- tai sairaanhoitaja tai työterveyshoitaja?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 0 = ei
 1 = kyllä
 
 #### `k36_1_elm_3` — "" Perheenjäsen?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 0 = ei
 1 = kyllä
 
 #### `k36_1_elm_4` — "" Joku muu?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 0 = ei
 1 = kyllä
 
 #### `k37` — Kuinka usein juotte olutta, viiniä tai muita alkoholijuomia? (Ottakaa mukaan myös ne kerrat, jolloin nautitte vain pieniä määriä, esim. pullon keskiolutta tai tilkan viiniä. Valitkaa se vaihtoehto, joka lähinnä vastaa omaa tilannettanne):
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en koskaan
 2 = noin kerran kuukaudessa tai harvemmin
@@ -1438,7 +1438,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k38` — Kuinka monta annosta alkoholia olette ottanut niinä päivinä, jolloin käytitte alkoholia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = 1-2 annosta
 2 = 3-4 annosta
@@ -1448,7 +1448,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k39` — Kuinka usein olette juonut kerralla kuusi tai useampia annoksia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en koskaan
 2 = harvemmin kuin kerran kuukaudessa
@@ -1458,7 +1458,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k40` — Missä määrin teitä on vaivannut viimeksi kuluneiden seitsemän päivän aikana vaikeus nukahtaa tai unen katkonaisuus?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = ei lainkaan
 2 = jonkin verran
@@ -1467,11 +1467,11 @@ Vastausvaihtoehdot 0-10.
 
 #### `audit_score` — Audit-suurkulutusindeksi, jatkuva
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 #### `k41_yhd` — Missä asutte tällä hetkellä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = omistamassanne tai jonkun tässä asunnossa asuvan perheen jäsenen omistamassa asunnossa
 2 = vuokra-asunnossa 
@@ -1479,28 +1479,28 @@ Vastausvaihtoehdot 0-10.
 
 #### `k43` — Onko nuorin lapsenne päivähoidossa (tai esiopetuksessa) kodin ulkopuolella?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k43_1` — Onko hän koko- vai osapäivähoidossa?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kokopäivähoidossa
 2 = osapäivähoidossa
 
 #### `k43_2` — Onko toinen alle 7-vuotias lapsenne päivähoidossa (tai esiopetuksessa) kodin ulkopuolella?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
  2 = ei
 
 #### `k44` — Kotitaloudella voi olla erilaisia tulonlähteitä ja useammalla jäsenellä tuloja. Kun kotitaloutenne kaikki tulot otetaan huomioon, onko menojen kattaminen näillä tuloilla
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin hankalaa
 2 = hankalaa
@@ -1512,28 +1512,28 @@ Vastausvaihtoehdot 0-10.
 
 #### `k45a` — Oletteko joskus viimeksi 12 kuukauden aikana... Pelännyt, että teiltä loppuu ruoka, ennen kuin saatte rahaa ostaaksenne lisää?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k45b` — "" Joutunut tinkimään lääkkeiden ostosta rahan puutteen vuoksi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k45c` — "" Jättänyt rahan puutteen vuoksi käymättä lääkärissä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k46` — Millaiseksi arvioitte elämänlaatunne, onko se
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin huono
 2 = huono
@@ -1543,7 +1543,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k47a` — Miten tyytyväinen olette ollut viimeksi kuluneiden kahden viikon aikana seuraaviin asioihin elämässänne: Terveyteenne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tyytymätön
 2 = tyytymätön
@@ -1553,7 +1553,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k47b` — "" Kykyynne selviytyä päivittäisistä toimistanne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tyytymätön
 2 = tyytymätön
@@ -1563,7 +1563,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k47c` — "" Itseenne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tyytymätön
 2 = tyytymätön
@@ -1573,7 +1573,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k47d` — "" Ihmissuhteisiinne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tyytymätön
 2 = tyytymätön
@@ -1591,7 +1591,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k48a` — Missä määrin olette kahden viime viikon aikana kokenut seuraavia asioita: Onko teillä riittävästi tarmoa arkipäivän elämäänne varten?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = ei lainkaan
 2 = vähän
@@ -1601,7 +1601,7 @@ Vastausvaihtoehdot 0-10.
 
 #### `k48b` — "" Onko teillä tarpeeksi rahaa tarpeisiinne nähden?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = ei lainkaan
 2 = vähän
@@ -1611,20 +1611,20 @@ Vastausvaihtoehdot 0-10.
 
 #### `k49a` — Kuinka monta kertaa olette oman sairautenne vuoksi käynyt lääkärissä viimeksi kuluneiden 12 kuukauden aikana?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 Sallitut arvot 0-54
 
 #### `k51` — Oletteko käyttänyt joitain terveys- tai sosiaalipalveluita mielenterveydellisten tai päihteiden käyttöön liittyvien ongelmien takia viimeksi kuluneiden 12 kuukauden aikana Suomessa?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k52a` — Oletteko mielestänne saanut riittävästi seuraavia sosiaali- ja terveyspalveluita 12 viime kuukauden aikana: Terveyskeskuslääkärin vastaanotto?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1633,7 +1633,7 @@ Sallitut arvot 0-54
 
 #### `k52b` — "" Hammashoito?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1642,7 +1642,7 @@ Sallitut arvot 0-54
 
 #### `k52c` — "" Mielenterveyspalvelut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1651,7 +1651,7 @@ Sallitut arvot 0-54
 
 #### `k52d` — "" Sosiaalityöntekijän palvelut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1660,7 +1660,7 @@ Sallitut arvot 0-54
 
 #### `k52e` — "" Äitiys- ja lastenneuvola?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1669,7 +1669,7 @@ Sallitut arvot 0-54
 
 #### `k52f` — Oletteko mielestänne saaneet riittävästi seuraavia (muita) palveluita 12 viime kuukauden aikana? Liikuntapalvelut?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1678,7 +1678,7 @@ Sallitut arvot 0-54
 
 #### `k52g` — "" Kurssi tai ryhmä suomen tai ruotsin kielitaidon parantamiseksi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1687,7 +1687,7 @@ Sallitut arvot 0-54
 
 #### `k52h` — "" Kurssi tai muu toiminta työllistymisen edistämiseksi?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1696,7 +1696,7 @@ Sallitut arvot 0-54
 
 #### `k52i` — "" Muu Suomeen kotoutumista edistävä kurssi tai toiminta?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1705,7 +1705,7 @@ Sallitut arvot 0-54
 
 #### `k52j` — "" Ammattikouluun tai korkeakouluun valmentavaa kurssia?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = en ole tarvinnut palvelua
 2 = olisin tarvinnut, mutta en saanut palvelua
@@ -1714,14 +1714,14 @@ Sallitut arvot 0-54
 
 #### `k50_yhd` — Oletteko käynyt 12 viime kuukauden aikana terveyskeskuksen hammaslääkärillä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = en
 
 #### `k53a` — Kuinka tärkeitä seuraavat elämänalueet ovat Teille: Ansiotyö?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tärkeä
 2 = melko tärkeä
@@ -1729,7 +1729,7 @@ Sallitut arvot 0-54
 
 #### `k53b` — "" Koti- ja perhe-elämä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tärkeä
 2 = melko tärkeä
@@ -1737,7 +1737,7 @@ Sallitut arvot 0-54
 
 #### `k53c` — "" Vapaa-ajan harrastukset?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin tärkeä
 2 = melko tärkeä
@@ -1745,7 +1745,7 @@ Sallitut arvot 0-54
 
 #### `k54a` — Kuinka paljon saatte tarvittaessa tukea ja apua työtovereiltanne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin paljon
 2 = melko paljon
@@ -1756,7 +1756,7 @@ Sallitut arvot 0-54
 
 #### `k54b` — Entä esimieheltänne?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = erittäin paljon
 2 = melko paljon
@@ -1767,14 +1767,14 @@ Sallitut arvot 0-54
 
 #### `k55a` — Onko työpaikallanne muita maahanmuuttajataustaisia työntekijöitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = kyllä
 2 = ei
 
 #### `k55b` — Kuinka paljon työpaikallanne on muita maahanmuuttajataustaisia työntekijöitä?
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = hyvin pieni osa työpaikkanne työntekijöistä
 2 = alle neljännes
@@ -1784,7 +1784,7 @@ Sallitut arvot 0-54
 
 #### `k56` — Oletteko samaa vai eri mieltä seuraavasta väittämästä? "Työpaikallamme suhtaudutaan tasa-arvoisesti ulkomaalaistaustaisiin työntekijöihin"
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = täysin samaa mieltä
 2 = jokseenkin samaa mieltä
@@ -1795,7 +1795,7 @@ Sallitut arvot 0-54
 
 #### `k57a` — Pitävätkö seuraavat väittämät mielestänne paikkansa? "Tunnen laiminlyöväni kotiasioita ansiotyön vuoksi"
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pitää täysin paikkansa
 2 = pitää jokseenkin paikkansa
@@ -1805,7 +1805,7 @@ Sallitut arvot 0-54
 
 #### `k57b` — "" "Naisilla on täysi oikeus käydä töissä, olipa heidän perhetilanteensa mikä tahansa"
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pitää täysin paikkansa
 2 = pitää jokseenkin paikkansa
@@ -1815,7 +1815,7 @@ Sallitut arvot 0-54
 
 #### `k57c` — "" "Miehellä on ensisijainen vastuu perheen toimeentulosta"
 
-**Ryhmä / Group:** vast_terve
+**Group:** vast_terve
 
 1 = pitää täysin paikkansa
 2 = pitää jokseenkin paikkansa
@@ -1825,4 +1825,4 @@ Sallitut arvot 0-54
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

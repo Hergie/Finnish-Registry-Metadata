@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_OLESK Oleskelulupatiedot</h3>
 Maahanmuuttoviraston koostaman oleskelulupatietoja sisältävän aineiston rekisterinpitäjyys on siirtynyt Tilastokeskukselle, mikä tarkoittaa sitä, että aineistoa luvittaa tutkimuskäyttöön sekä tilastollisiin selvityksiin jatkossa Tilastokeskuksen tutkijapalvelut. 
@@ -25,9 +25,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `CASE_ID_s` | Suojattu asianumero | — | — | — |
 | `MEASURE_ID_s` | Suojattu toimenpiteen numero | — | — | — |
@@ -48,7 +48,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `VALIDITY_END_DATE` | Voimassaolon loppupvm | — | — | — |
 | `VALIDITY_PERMANENT` | Pysyva lupa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `CASE_ID_s` — Suojattu asianumero
 
@@ -244,4 +244,4 @@ Saa arvon 1 jos lupa on toistaiseksi voimassaoleva, arvon 0 jos määräaikainen
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

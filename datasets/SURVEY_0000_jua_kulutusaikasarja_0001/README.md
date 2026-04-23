@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 SURVEY_Kulutus_Aikasarja on Tilastokeskuksen kulutustutkimuksen pohjalta muodostettu, kahdesta aikasarjasta rakentuva  tutkimusvalmisaineisto. Aineiston vanhempi aikasarja kattaa tutkimusvuodet 1985, 1990, 1994-1996, 1998, 2001, 2002, 2006, 2012 ja 2016; aineiston toinen aikasarja käsittää vuodet 2012, 2016 ja 2022. Aikasarja mahdollistaa kotitalouksien kulutuksessa tapahtuneiden muutosten tarkastelun sen viiteajanjakson aikana. 
 
@@ -82,10 +82,10 @@ Tämä kuvaus sisältää vain valmisaineiston yleiskuvauksen. Tarkemmin lähdea
 
 Vuosikohtaiset aineisto- ja muuttujakuvaukset sekä muuta valmisaineistoa koskevaa lisätietoa saat ottamalla meihin yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

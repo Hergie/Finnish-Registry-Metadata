@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2020 (taulut FIRM_RDINNO_inno_2020) kuvaa yritysten harjoittaman innovaatiotoiminnan ja eri tyyppisten innovaatioiden käyttöönoton yleisyyttä sekä innovaatiotoiminnan luonnetta vuosina 2018-2020. 
 
@@ -66,9 +66,9 @@ Aineiston käytössä tulisi huomioida myös seuraavat asiat:
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (326)
+## Variables (326)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `ipr_out_pat` | Patenttihakemus | — | — | — |
 | `ipr_out_uti` | Hyödyllisyysmallihakemus | — | — | — |
@@ -397,7 +397,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `group` | Konsernivastaus | — | — | — |
 | `syrtun` | suojattu yritys- ja yhteisötunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `ipr_out_pat` — Patenttihakemus
 
@@ -1697,4 +1697,4 @@ Ulkomaisen konsernin pääkonttorin sijaintimaa
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

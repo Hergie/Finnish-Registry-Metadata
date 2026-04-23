@@ -11,7 +11,7 @@
 - **Source:** Ulkomaiset tytäryhtiöt Suomessa -tilaston tiedot, Yritysrekisteri, Konsernirekisteri
 - **Related:** <a href= "http://www.stat.fi/til/ulkoy/">Ulkomaiset tytäryhtiöt Suomessa</a>
 
-## Kuvaus / Description
+## Description
 
 Ulkomainen omistajuus -aineistoon on koottu tutkimuskäyttöä varten tiedot ulkomaisesta omistuksesta Suomessa vuosina 1995 - 2021 sekä joitakin oleellisia taustatietoja yrityksestä ja konsernista, mm. tieto kuuluuko yritys monikansalliseen konserniin. Tietoja on haettu ulkomaiset tytäryhtiöt Suomessa -tilaston (inward FATS) aineistosta, yritysrekisteristä ja konsernirekisteristä. Kehikkona on yritysrekisterin yritysjoukko, josta saadaan erotettua yritysrekisterin vuositilastossa mukana ollut yritysjoukko tilyks=1- valinnalla (suositus). Vuodesta 2013 lähtien mukaan on otettu vain tilastoyksiköt.
 
@@ -40,9 +40,9 @@ Tilastosta on tilastovuodesta 2021 alkaen poistettu suurimmilta yksiköiltä ulk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `yritysiD_s` | Suojattu yritysID | — | — | — |
@@ -63,7 +63,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `EBSTilastoyksikko` | EBSTilastoyksikko | — | — | — |
 | `VuositilastonYksikko` | Vuositilaston yksikkö | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -86,7 +86,7 @@ Oikeudellisen yksikön henkilöstö, kokoaikavastaava tieto.
 
 #### `lvyr` — Liikevaihto euroina, Yritysrekisteri
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön liikevaihto.
 
@@ -140,7 +140,7 @@ Mahdolliset arvot ovat:
 
 #### `ulkomiyr` — Ulkomainen omistusosuus, Yritysrekisteri
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Oikeudellista yksikköä eniten suoraan omistavan ulkomaalaisen yhtiön omistusosuus tilastovuonna. Konsernien tytärsuhteisilla oikeudellisilla yksiköillä tämä on sama kuin emoyhtiöllä.	
 Yritysrekisterin lähde: Suomen Pankin aineisto, Invest in Finland -säätiön aineisto, Konsernirekisteri.
@@ -148,7 +148,7 @@ Yritysrekisterin lähde: Suomen Pankin aineisto, Invest in Finland -säätiön a
 
 #### `ulkomifa` — Ulkomainen suora tai välillinen omistusosuus 1995-2002, FATS
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Suora tai välillinen ulkomainen omistusosuus (%) yhteensä (äänivalta). Saa arvoja välillä 51-100. 100, jos tietoa tarkasta osuudesta ei ole saatu. Saatavissa vain vuosina 1995-2002, lähde Inward Fats -tilaston aineisto.
 
@@ -256,4 +256,4 @@ Saa arvon 1, jos yritys kuuluu vuositilastoon
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

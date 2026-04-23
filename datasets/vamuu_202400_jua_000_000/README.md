@@ -10,7 +10,7 @@
 - **Population:** Suomessa tapahtumahetkellä vakinaisesti asuva väestö
 - **Source:** Väestön ennakkotilasto
 
-## Kuvaus / Description
+## Description
 
 <b>Tiedote (03/2026):</b>
 
@@ -67,9 +67,9 @@ Ohessa on lyhyesti kuvattu tähän aineistoon sisällytetyt muuttujat luokituksi
 
 Lisätietoja valmisaineistosta Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (25)
+## Variables (25)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `tilvv` | Tilastovuosi | — | — | — |
@@ -97,7 +97,7 @@ Lisätietoja valmisaineistosta Tilastokeskuksen tutkijapalveluista: tutkijapalve
 | `a13laplubio` | Alle 13-vuotiaiden biologisten lasten määrä | — | — | — |
 | `a18laplubio` | Alle 18-vuotiaiden biologisten lasten määrä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -115,13 +115,13 @@ Henkilön syntymävuosi, muotoa VVVV
 
 #### `sukup` — Sukupuoli
 
-**Luokitus / Classification:** sukupuoli_2_1970_01_01
+**Classification:** sukupuoli_2_1970_01_01
 
 Tieto sukupuolesta on saatu Väestötietojärjestelmästä.
 
 #### `kansa1` — 1. kansalaisuus
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 1. Kansalaisuus 
 Tieto kansalaisuudesta on karkeistettu kolmeen luokkaan: 
@@ -170,7 +170,7 @@ Huoneistotunniste eli huoneistotunnus sisältää seuraavaa
 
 #### `sivs` — Siviilisääty
 
-**Luokitus / Classification:** siviilisaaty_1_2002_01_01
+**Classification:** siviilisaaty_1_2002_01_01
 
 Tieto siviilisäädystä saadaan Väestörekisterikeskuksen väestötietojärjestelmästä. On huomioitava, ettei avoliitto ole siviilisääty. Avoliitossa elää jokaisen siviilisäädyn edustajia, myös virallisesti edelleen naimisissa olevia.
 
@@ -203,7 +203,7 @@ Vuoden alun asuinkunta
 
 #### `kansa2` — 2. Kansalaisuus
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 2. Kansalaisuus 
 Tieto toisesta kansalaisuudesta on karkeistettu:
@@ -249,4 +249,4 @@ Henkilön 0-17-vuotiaiden biologisten lasten määrä. Ikäryhmittäisissä laps
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Vuoden aikana muuttaneet.
 - **Source:** VTJ
 
-## Kuvaus / Description
+## Description
 
 FOLK karkeat muuttotiedot tasolla Suomi/muu -vuosiaineistossa on tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. Aineisto on muodostettu muuttotilaston tiedoista, jotka pohjautuvat väestötietojärjestelmän tietoihin. 
 
@@ -29,9 +29,9 @@ Totaaliaineisto vuosille 1983-2000: FOLK_muutt_8300a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (15)
+## Variables (15)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `folk_id` | Kuuluu FOLK-aineistoon | — | — | — |
@@ -49,7 +49,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `svaltio_sm` | Syntymävaltio (Suomi, muu) | — | — | — |
 | `kansa2_sm` | 2. kansalaisuus muuttohetkellä (Suomi, muu) | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -153,4 +153,4 @@ Muuttavan henkilön toinen kansalaisuus muuttohetkellä mikäli se on tiedossa. 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** Aineisto perustuu käräjäoikeuden riita- ja hakemusasioiden Tuomas -kirjaamisjärjestelmän tietoihin sekä Tilastokeskuksen yritysrekisterin tietoihin.
 - **Related:** <a href= "http://www.stat.fi/til/ysan/index.html">Yrityssaneeraukset</a>
 
-## Kuvaus / Description
+## Description
 
 Tutkimuskäyttöön on suojattu yrityssaneeraukset-tilaston perusaineisto vuosilta 1993-06/2022.
 
@@ -41,9 +41,9 @@ Yrityssaneerausaineistossa saneeraukseen joutumisen saa datasta poimimalla mukaa
 
 Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän kirjamaisohjeet ovat lisäksi saatavilla täältä: www.finlex.fi/data/normit/31061/tuomaskirjaamisohje2007.pdf
 
-## Muuttujat / Variables (42)
+## Variables (42)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TUIS` | Tuomioistuintunnus | — | — | — |
 | `SAAPV1` | Hakemuksen saapumisvuosi | — | — | — |
@@ -88,7 +88,7 @@ Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän k
 | `shnro` | Suojattu saneeraukseen haetun henkilönumero | — | — | — |
 | `VARHAINEN_SANEERAUSMENETTELY1` | Varhainen saanerausmenettely | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TUIS` — Tuomioistuintunnus
 
@@ -226,4 +226,4 @@ Heinäkuusta 2022 alkaen on ollut mahdollista tehdä varhainen yrityssaneeraus. 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

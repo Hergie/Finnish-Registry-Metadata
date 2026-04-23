@@ -10,7 +10,7 @@
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö
 - **Source:** Väestörekisterikeskuksen väestötietojärjestelmä, Tilastokeskuksen tulonjakotilasto, Verohallinnon rekisterit, Tilastokeskuksen henkilötietovarasto, Kansaneläkelaitoksen rekisterit, THL:n toimeentulotukirekisteri
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston tulotietomoduulissa on tietoja henkilöiden tuotannontekijätuloista, saaduista ja maksetuista tulonsiirroista, varallisuudesta ja veloista. Aineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujan kuvaukseen vuosiluvuilla.
 
@@ -47,9 +47,9 @@ Totaaliaineisto vuosille 1987-2000: FOLK_tulo_8800a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (32)
+## Variables (32)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -84,7 +84,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `lvar` | Verotettava varallisuus | — | — | Henkilöverotusaineisto |
 | `velaty` | Velat yhteensä | — | — | Henkilöverotusaineisto |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -96,43 +96,43 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `palk` — Palkkatulot
 
-**Ryhmä / Group:** Tulonjakotilasto, TJKT
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `yrtu` — Yrittäjätulot
 
-**Ryhmä / Group:** TJKT, Tulonjakotilasto
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `omtu` — Omaisuustulot
 
-**Ryhmä / Group:** TJKT, Tulonjakotilasto
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `saatusi` — Saadut tulonsiirrot
 
-**Ryhmä / Group:** Tulonjakotilasto, TJKT
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `makstu` — Maksetut tulonsiirrot
 
-**Ryhmä / Group:** TJKT, Tulonjakotilasto
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `kturaha` — Käytettävissä olevat rahatulot
 
-**Ryhmä / Group:** Tulonjakotilasto, TJKT
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite. Tietoja vuodesta 1995 lähtien.
 
 #### `tyotu` — Summatut työtulot (palkkatulot)
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Summatut työtulot (palkkatulot) sisältää seuraavia verotietoja vuoteen 2018 asti: 
 TRPL = rahapalkka päätoimesta, luontaisedut ja työsuhdeoptiot 
@@ -157,7 +157,7 @@ Vuoden 2018 jälkeiset tiedot henkilön palkkatuloista ovat saatavilla muuttujas
 
 #### `tyrtuo` — Yrittäjätulot
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Yrittäjätulot sisältävät maatalouden tulot, elinkeinotoiminnan tulot ja tulot yhtymästä. Elinkeinotoiminnan tulot eivät sisällä puolison elinkeinotuloja.
 
@@ -179,7 +179,7 @@ TOPYKOK = osuuspääoman korot yhtymistä, yhteismäärä (vuosina 2005-2014)
 
 #### `telinko` — Elinkeinotulot
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Elinkeinotulot sisältävät elinkeinotoiminnan ansiotulot ja pääomatulot. Ne eivät sisällä puolison elinkeinotuloja. Elinkeinotulot sisältävät seuraavia verotietoja:
 TLIIK1 = elinkeinotoiminnan ansiotulo-osuus, oma
@@ -189,37 +189,37 @@ TPORO2 = pääomatulo porotaloudesta
 
 #### `tmaat1` — Maatalouden ansiotulot
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Maatalouden ansiotulot, ei sisällä puolison tuloja.
 
 #### `svatv` — Tulot yhteensä valtionverotuksessa
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Valtionveronalaiset tulot = ansiotulot yhteensä + pääomatulot yhteensä. Tietoja vuoteen 1992 asti.
 
 #### `svatva` — Ansiotulot yhteensä valtionverotuksessa
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Ansiotulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 lähtien.
 
 #### `svatvp` — Pääomatulot yhteensä valtionverotuksessa
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Pääomatulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 lähtien.
 
 #### `saiprva` — Sairauspäivärahat
 
-**Ryhmä / Group:** Kela
+**Group:** Kela
 
 Suoraan vakuutetulle Kelan maksamat sairauspäivärahat. Tietoja vuodesta 1995 lähtien.
 
 #### `elatulo` — Eläketulot
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Eläketulot koostuvat seuraavista verotiedoista:
 TKANSEL = Kansaneläke ansiotulona
@@ -239,19 +239,19 @@ TELEUVE = EU-virkamiehen vapaaehtoiseen eläkevakuutukseen perustuva eläke  (vu
 
 #### `tkotihtu` — Lapsen kotihoidon tuki ja osittainen hoitoraha
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Lapsen kotihoidon tuki ja osittainen hoitoraha.
 
 #### `aiprva` — Vanhempainpäiväraha
 
-**Ryhmä / Group:** Kela
+**Group:** Kela
 
 Suoraan vakuutetulle Kelan maksamat äitiys-, isyys- ja vanhempainrahat sekä erityisäitiysraha. Tietoja vuodesta 1995 lähtien.
 
 #### `tyotur` — Työttömyysturvaetuudet
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Työttömyysturvaetuudet koostuvat seuraavista verotiedoista:
 
@@ -261,73 +261,73 @@ TTYOLTUK= yrittäjän työllistämistuki (vuodesta 1992 alkaen)
 
 #### `astuki` — Asumistuet
 
-**Ryhmä / Group:** Kela
+**Group:** Kela
 
 Asumistuet sisältää yleisen asumistuen, eläkeläisen asumistuen, opiskelijan asumislisän ja lesken asumistuen. Tieto yleisestä asumistuesta on saatavilla sille kotitalouden henkilölle, joka on hakenut tukea. Maksettua tukea ei ole jaettu kotitalouteen kuuluvien kesken. Tietoja vuodesta 1995 lähtien.
 
 #### `opira` — Opintorahat
 
-**Ryhmä / Group:** Kela
+**Group:** Kela
 
 Opintorahat sisältää keskiasteen opintorahan, korkeakoulun opintorahan ja aikuisopintorahan, tietoja vuodesta 1995 lähtien.
 
 #### `toimtu` — Toimeentulotuet
 
-**Ryhmä / Group:** Kela, THL
+**Group:** Kela, THL
 
 Toimeentulotuet sisältää varsinaisen toimeentulotuen ja ehkäisevän toimeentulotuen.
 
 #### `tpar` — Sairausvakuutuksen päivärahat
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Sairausvakuutuksen päivärahat = (vanhempainpäivärahat + sairauspäivärahat)
 
 #### `ltv` — Valtion tulovero
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Valtion tulovero, tietoja vuoteen 1992 asti.
 
 #### `ltva` — Valtion tuloveron osuus ansiotulojen verosta
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Valtion tuloveron osuus ansiotulojen verosta, tietoja vuodesta 1993 lähtien.
 
 #### `ltvp` — Valtion tuloveron osuus pääomatulojen verosta
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Valtion tuloveron osuus pääomatulojen verosta, tietoja vuodesta 1993 lähtien.
 
 #### `lkuve` — Kunnallisvero
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Kunnallisvero.
 
 #### `lkive` — Kirkollisvero
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Kirkollisvero.
 
 #### `lvv` — Varallisuusvero
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Varallisuusvero, tietoja vuoteen 2005 asti.
 
 #### `lvar` — Verotettava varallisuus
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Verotettava varallisuus, tietoja vuoteen 2005 asti.
 
 #### `velaty` — Velat yhteensä
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Velat yhteensä koostuu seuraavista verotiedoista: 
 NLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka) 
@@ -338,4 +338,4 @@ NMUUT = Asunto- ja muut velat.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

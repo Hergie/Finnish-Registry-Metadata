@@ -10,7 +10,7 @@
 - **Population:** Kaikki maksajat ovat aineistossa mukana tunnustyypistä riippumatta, ja tulonsaajista on pyritty rajaamaan oikeudelliset henkilöt pois.
 - **Source:** Tulorekisteri
 
-## Kuvaus / Description
+## Description
 
 Tulorekisteri on Verohallinnon ylläpitämä sähköinen tietokanta, jonne ilmoitetaan tiedot maksetuista palkoista, eläkkeistä ja etuuksista. Lisää tietoa tulorekisteristä: https://www.vero.fi/tulorekisteri/tietoa-meist%C3%A4/ 
 Tässä tutkimuskäyttöön suojatussa tulorekisterin valmisaineistomoduulissa TAX_SUMINCOMES ”Tulorekisterin summatut palkkatiedot” palvelussuhteen kuukausittaiset tiedot on muodostettu valmiiksi. Eli yhden rivin muodostaa vuosi, kuukausi, maksaja, tulonsaaja. Aineistossa on 47 muuttujaa ja vuodessa aineistoon muodostuu yhteensä noin 30 miljoonaa riviä. 
@@ -30,9 +30,9 @@ Tulorekisterin tietoja julkaistaessa on noudatettava henkilötiedoissa kynnyssä
 
 Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi ja Verohallinnon sivuilta: vero.fi/tulorekisteri
 
-## Muuttujat / Variables (53)
+## Variables (53)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `kuukausi` | Kuukausi | — | — | — |
@@ -88,7 +88,7 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi ja Ver
 | `muutTulolajit3` | — | — | — | — |
 | `sijaismaksajanPalkat` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -246,4 +246,4 @@ Kuukauden viimeinen viikko saa arvon 1, jos palvelussuhteella on kohdistunut pal
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

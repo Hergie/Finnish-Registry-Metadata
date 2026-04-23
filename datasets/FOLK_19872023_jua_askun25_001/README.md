@@ -10,7 +10,7 @@
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut asuntoväestö
 - **Source:** Tilastokeskuksen tulonjaon kokonaistilasto, Verohallinnon rekisterit, Tilastokeskuksen henkilötietovarasto
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston asuntokuntamoduulissa on tietoja asuntoväestöön kuuluvien henkilöiden asuinoloista ja asuntokunnittain summattuja tulotietoja, jotka on poimittu Tilastokeskuksen tulonjakotilaston aineistosta ja henkilöveroaineistosta. Aineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujan kuvaukseen vuosiluvuilla, esimerkiksi tulonjakotilaston tietoja on vasta vuodesta 1995 lähtien. 
 
@@ -29,9 +29,9 @@ Totaaliaineisto vuosille 1987-2000: FOLK_askun_8700a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (31)
+## Variables (31)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -65,7 +65,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `modoecd` | Kulutusyksiköt modifioidun OECD-skaalan mukaan | — | — | — |
 | `desiili` | Tulodesiilit | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -240,4 +240,4 @@ Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan e
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

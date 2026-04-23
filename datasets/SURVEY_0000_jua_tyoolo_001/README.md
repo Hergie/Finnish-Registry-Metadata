@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 SURVEY_Tyoolo on Tilastokeskuksen työolotutkimuksen pohjalta muodostettu tutkimusvalmisaineisto. Lähdeaineistoina toimivat työolotutkimukset ovat laajoja, Suomessa asuvan palkansaajaväestön kattavia tutkimuksia. Tutkimuksia on tehty vuodesta 1977 alkaen noin viiden vuoden välein. Tämän valmisaineisto rakentuu siten vuosiaineistoista, jotka kattavat vuodet 1977, 1984, 1990, 1997, 2003, 2008, 2013, 2018 ja 2023. Tietosisältö koostuu kunkin tutkimusvuoden lomakkeen kysymyksistä sekä niistä työvoimatutkimuksesta poimittavista tiedoista, jotka ovat relevantteja aineiston muun sisällön kannalta.
 
@@ -73,10 +73,10 @@ Lähdeaineiston käsitteistöstä, tulosten luotettavuudesta ja oikea-aikaisuude
 
 Lisätietoja valmisaineistosta, sekä tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat puolestaan ottamalla yhteyttä meihin osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

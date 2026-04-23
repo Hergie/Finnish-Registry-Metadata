@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 Tilastokeskuksen varallisuustutkimus on otospohjainen tutkimus, joka kuvaa kotitalouksien varallisuuden jakautumista eri väestöryhmien kesken. Tutkimuksen kuvauskohteena on sekä reaali- että rahoitusvarallisuus. Lisäksi tutkimuksen keskeistä tietosisältöä ovat tiedot kotitalouksien veloista. 
 
@@ -20,10 +20,10 @@ Tämä kyseinen aineiston on varallisuustutkimuksen aikasarjatiedosto tutkimusk�
 
 Tutkimuksen laatuseloste on saatavilla tilaston sivuilla: https://stat.fi/tilasto/dokumentaatio/vtutk. Lisätietoa ja tarkemman aineisto- ja muuttujakuvauksen saat ottamalla yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

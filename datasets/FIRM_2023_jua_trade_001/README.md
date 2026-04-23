@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/pul/index.html">Palvelujen ulkomaankauppa</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_palvelujen_ulkomaankauppa.html">Palvelujen ulkomaankauppa</a>
 - **Keywords:** palvelut,tuonti,ulkomaankauppa,vienti,yritykset
 
-## Kuvaus / Description
+## Description
 
 Palvelujen ulkomaankauppa ja ulkomaiset tavaravirrat.
 
@@ -32,9 +32,9 @@ MDL-aineisto sisältää palveluiden ulkomaankaupan lisäksi myös globaalin tuo
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi sekä Tavaroiden ja palveluiden ulkomaankauppa -tilaston dokumentaatiosta: https://stat.fi/tilasto/dokumentaatio/tpulk.
 
-## Muuttujat / Variables (9)
+## Variables (9)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -46,7 +46,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `ITS_TYPE` | ITS_TYPE | — | — | — |
 | `QUARTER` | QUARTER | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -84,4 +84,4 @@ Vuosineljännes / Quater
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

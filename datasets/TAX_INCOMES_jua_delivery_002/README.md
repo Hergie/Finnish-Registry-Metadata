@@ -8,7 +8,7 @@
 - **Variable count:** 23
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 Tulorekisteri on Verohallinnon ylläpitämä kansallinen sähköinen tietokanta, joka sisältää henkilöiden reaaliaikaiset, maksukohtaiset palkka-, eläke- ja etuustiedot. Eläke- ja etuustietoja on ilmoitettu tulorekisteriin vuoden 2021 alusta lähtien. Palkkatietoja on ilmoitettu jo vuoden 2019 alusta lähtien, ja ne on koottu Tilastokeskuksessa TAX_INCOMES-valmisaineistoon. Eläke- ja etuustiedoista on muodostettu tutkimuskäyttöön TAX_BENEFIT-valmisaineisto, joka päivittyy kuukausittain. Tiedot voivat päivittyä myös takautuvasti.
 
@@ -50,9 +50,9 @@ Tulorekisterin tietoja julkaistaessa on noudatettava henkilötiedoissa kynnyssä
 
 Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi ja Verohallinnon sivuilta: https://www.vero.fi/tulorekisteri/
 
-## Muuttujat / Variables (23)
+## Variables (23)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `delId` | Toimituksen tunniste | — | — | — |
 | `payerIdType1_s` | Maksajan suojattu yritystunnus | — | — | — |
@@ -78,7 +78,7 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi ja Ver
 | `payerType10` | Maksajan tunnus, kun koodi = 10 | — | — | — |
 | `latauspvm` | Aineiston poimintapäivämäärä Tulorekisteristä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `delId` — Toimituksen tunniste
 
@@ -188,4 +188,4 @@ Pakollisuus (K/E) = K
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

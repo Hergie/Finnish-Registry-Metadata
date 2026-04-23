@@ -10,7 +10,7 @@
 - **Population:** Työikäinen väestö
 - **Source:** Työsuhderekisterit (ETK, Keva ja Valtionkonttori) sekä Tilastokeskuksen oma tiedonkeruu
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -19,9 +19,9 @@ Tilastokeskuksen tutkijapalveluiden FOLK-moduulien käyttöönoton myötä FLEED
 <b>FLEED-työsuhdejaksot </b>
 Tiedot pääsääntöisesti vuosilta 1988-2016.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `aineisto` | Aineistotunnus | — | — | Työsuhderekisterit |
@@ -42,17 +42,17 @@ Tiedot pääsääntöisesti vuosilta 1988-2016.
 | `stpitunt` | Suojattu toimipistetunnus | — | — | — |
 | `tp_sijaintikunta` | Toimipaikan sijaintikunta | — | — | Työsuhderekisterit |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
 #### `aineisto` — Aineistotunnus
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Aineistotunnus, joka ilmaisee lähdeaineiston. 
 1 = TEL-työsuhteet, vuodesta 2007 lähtien TyEL
@@ -75,43 +75,43 @@ Aineistotunnus, joka ilmaisee lähdeaineiston.
 
 #### `rivinro` — Rivinumero
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Työ- tai yrittäjäsuhteet erottava rivinumero. Yhdellä henkilöllä voi olla useampi työ- tai yrittäjäsuhde.
 
 #### `alkupvm` — Alkupäivämäärä
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Työ- tai yrittäjäsuhteen alkamispäivämäärä.
 
 #### `loppupvm` — Loppupäivämäärä
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Työ- tai yrittäjäsuhteen loppumispäivämäärä.
 
 #### `tvm` — Henkilön päätyösuhde
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Henkilön päätyösuhde. Muodostetaan pääasiallisen toiminnan päättelyajossa. Merkitään TVM = 1. Työvoimakäsite on TVM eli määrittyy vuoden viimeisen viikon työsuhteen mukaan.
 
 #### `atv` — Henkilön pisin työsuhde
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Henkilön pisin työsuhde.  ATV-työsuhde merkitään ATV = 1. Ammatissatoimivuus käsite = ATV eli määritellään kyseisen vuoden pisimmän työsuhteen mukaan.
 
 #### `sivu` — Henkilön sivutyösuhde
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Henkilön sivutyösuhde. Muodostetaan pääasiallisen toiminnan päättelyajossa. Henkilölle valitaan vain yksi sivutyösuhde, vaikka henkilöllä olisikin useampi (sivu)työsuhde. Merkitään sivu = 1. Vuodesta 1992 lähtien.
 
 #### `oyr_omist_tyyppi` — Omistajatyyppi
 
-**Luokitus / Classification:** omistajatyyppi_1_1995_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** omistajatyyppi_1_1995_01_01 · **Group:** Työsuhderekisterit
 
 Oikeudellisen yksikön omistajatyyppi. Yritys- ja toimipaikkarekisterin yritykset ja yhteisöt jaetaan omistajuuden perusteella luokkiin. 
 1 = Yksityinen kotimainen
@@ -123,7 +123,7 @@ Oikeudellisen yksikön omistajatyyppi. Yritys- ja toimipaikkarekisterin yritykse
 
 #### `oyr_oik_muoto` — Yrityksen oikeudellinen muoto
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** oikeudell_muoto_1_1984_01_01 · **Group:** Työsuhderekisterit
 
 Oikeudellisen yksikön oikeudellinen muoto eli yritysmuoto. 
 11 = Luonnollinen henkilö
@@ -152,7 +152,7 @@ Oikeudellisen yksikön oikeudellinen muoto eli yritysmuoto.
 
 #### `oyr_sektoriluokka` — Sektoriluokka
 
-**Luokitus / Classification:** sektoriluokitus_11_2000_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** sektoriluokitus_11_2000_01_01 · **Group:** Työsuhderekisterit
 
 Oikeudellisen yksikön sektoriluokka. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.
 1	= Koko kansantalous (kotimaiset sektorit)
@@ -209,7 +209,7 @@ Oikeudellisen yksikön sektoriluokka. Luokitus, jossa yksiköt jaetaan omistajuu
 
 #### `toimiala` — Toimipaikan toimiala
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** toimiala_1_2008_01_01 · **Group:** Työsuhderekisterit
 
 TVM-työnantajan toimiala, uusin luokitus, 2-numerotaso. Vuodesta 2007 eteenpäin, luokitus on Toimialaluokitus 2008 ja vuosina 2001-2006 luokitus on Toimialaluokitus 2002
 
@@ -256,10 +256,10 @@ FLEED henkilötaulun sykstun-muuttuja sisältää sekä yksityisen että julkise
 
 #### `tp_sijaintikunta` — Toimipaikan sijaintikunta
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Toimipaikan sijaintikunta. Tietoja vuosilta 1988-2000.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

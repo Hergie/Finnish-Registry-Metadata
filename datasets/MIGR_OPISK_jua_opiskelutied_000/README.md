@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_OPISK Oleskelulupaa hakeneiden opiskelutiedot </h3>
 
@@ -34,9 +34,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (8)
+## Variables (8)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SHNRO` | Suojattu henkilönumero | — | — | — |
 | `CASE_ID_s` | Suojattu asianumero | — | — | — |
@@ -47,7 +47,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `STUDY_NATURE_ID` | Opiskelun luonne koodi | — | — | — |
 | `STUDY_LANG_ID` | Opiskelukieli koodi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SHNRO` — Suojattu henkilönumero
 
@@ -94,4 +94,4 @@ Koodi
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** KEHA-keskuksen URA-aineistot
 - **Keywords:** työmarkkinat,työpaikat,työttömyys,työttömät,työvoimapolitiikka
 
-## Kuvaus / Description
+## Description
 
 KEHA-keskus eli ELY-keskusten sekä TE-toimistojen kehittämis- ja hallintokeskus ylläpitää työhallinnon asiakaspalvelun tietojärjestelmää URAa. 
 
@@ -25,9 +25,9 @@ Tässä kuvauksessa on yhdistetty kaikkien osa-aineistojen muuttujakuvaukset. Va
 
 Aineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Käyttölupaa aineistoon haetaan Tilastokeskuksesta.
 
-## Muuttujat / Variables (39)
+## Variables (39)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | Yhteydenottotavat, Tyotarjoukset, Suunnitelmat, Sanssikortti, Palvelulinja, Palkkatukipaikat, Maahanmuuttajien_kielitaito, Kaikkien_kielitaito |
 | `yrtun_s` | Työnantajan suojattu tunnus | — | — | Tyotarjoukset, Palkkatukipaikat |
@@ -69,77 +69,77 @@ Aineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Käyttölup
 | `yhtottopvm` | Yhteydenottopäivämäärä | — | — | Sanssikortti, Yhteydenottotavat |
 | `yhtottotapa` | Yhteydenottotapa (uuden koodit käytössä 5.12.2010 alkaen) | — | — | Yhteydenottotavat |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-**Ryhmä / Group:** Yhteydenottotavat, Tyotarjoukset, Suunnitelmat, Sanssikortti, Palvelulinja, Palkkatukipaikat, Maahanmuuttajien_kielitaito, Kaikkien_kielitaito
+**Group:** Yhteydenottotavat, Tyotarjoukset, Suunnitelmat, Sanssikortti, Palvelulinja, Palkkatukipaikat, Maahanmuuttajien_kielitaito, Kaikkien_kielitaito
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `yrtun_s` — Työnantajan suojattu tunnus
 
-**Ryhmä / Group:** Tyotarjoukset, Palkkatukipaikat
+**Group:** Tyotarjoukset, Palkkatukipaikat
 
 #### `syntyv` — Syntymävuosi
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön syntymävuosi
 
 #### `sukup` — Sukupuoli
 
-**Luokitus / Classification:** sukupuoli_2_1970_01_01 · **Ryhmä / Group:** Vaestorakenne
+**Classification:** sukupuoli_2_1970_01_01 · **Group:** Vaestorakenne
 
 Henkilön sukupuoli
 
 #### `aidinkielikoodi` — Äidinkieli
 
-**Ryhmä / Group:** Maahanmuuttajien_kielitaito
+**Group:** Maahanmuuttajien_kielitaito
 
 Kieliluokitus. Katso Tilastokeskuksen henkilöluokitukset
 
 #### `allekpvm` — Allekirjoituspäivämäärä
 
-**Ryhmä / Group:** Suunnitelmat
+**Group:** Suunnitelmat
 
 Poiminta tehdään tämän mukaan
 
 #### `ammattikoodi` — Työn ammatti
 
-**Ryhmä / Group:** Tyotarjoukset, Palkkatukipaikat
+**Group:** Tyotarjoukset, Palkkatukipaikat
 
 Tarjotun työn ammatti : Työnhakijan ammatin luokittelemiseen käytetään Pohjoismaiseen ammattiluokitukseen (Nordisk Yrkesklassificering, NYK) perustuvaa luokitusta, jonka sisältö on pyritty muokkaamaan mahdollisimman hyvin Suomen oloja vastaavaksi. Työ- ja elinkeinoministeriön käyttämä ammattiluokitus poikkeaa jonkin verran Tilastokeskuksen vastaavasta.
 
 #### `apvm` — Työnhaun alkamispäivä
 
-**Ryhmä / Group:** Sanssikortti, Palvelulinja
+**Group:** Sanssikortti, Palvelulinja
 
 #### `hakijanaidinkieli` — Hakijan äidinkieli
 
-**Ryhmä / Group:** Maahanmuuttajien_kielitaito
+**Group:** Maahanmuuttajien_kielitaito
 
 Kieli selväkielisenä (puutteellinen)
 
 #### `ilmoitusnumero` — ilmoitusnumero
 
-**Ryhmä / Group:** Tyotarjoukset
+**Group:** Tyotarjoukset
 
 Työpaikan numero
 
 #### `kansalaisuus` — Kansalaisuus muu kuin suomi
 
-**Ryhmä / Group:** Maahanmuuttajien_kielitaito
+**Group:** Maahanmuuttajien_kielitaito
 
 Maakoodit. Katso Tilastokeskus alueluokitukset
 
 #### `kesatyo` — Työtarjous on kesätyöpaikkaan
 
-**Ryhmä / Group:** Tyotarjoukset
+**Group:** Tyotarjoukset
 
 #### `kielikirjtaso` — Kirjallinen taito
 
-**Ryhmä / Group:** Kaikkien_kielitaito
+**Group:** Kaikkien_kielitaito
 
 Vuodesta 2020 alkaen nimellä szkielikirjtaso. 01 = äidinkieli  
 02 = erittäin hyvä
@@ -150,7 +150,7 @@ Vuodesta 2020 alkaen nimellä szkielikirjtaso. 01 = äidinkieli
 
 #### `kielisuulltaso` — Suullinen taito
 
-**Ryhmä / Group:** Kaikkien_kielitaito
+**Group:** Kaikkien_kielitaito
 
 Vuodesta 2020 alkaen nimellä szkielisuulltaso. 01 = äidinkieli  
 02 = erittäin hyvä
@@ -161,13 +161,13 @@ Vuodesta 2020 alkaen nimellä szkielisuulltaso. 01 = äidinkieli
 
 #### `kielitaito` — Kielitaito
 
-**Ryhmä / Group:** Maahanmuuttajien_kielitaito
+**Group:** Maahanmuuttajien_kielitaito
 
 Vuodesta 2020 alkaen nimellä szkielitaito.
 
 #### `kieliyleinentaso` — Kielitaidon yleinen taso
 
-**Ryhmä / Group:** Maahanmuuttajien_kielitaito
+**Group:** Maahanmuuttajien_kielitaito
 
 Vuodesta 2020 alkaen nimellä szkieliyleinentaso. A1.1 = Kielitaidon alkeiden hallinta
   A1.2 = Kehittyvä alkeiskielitaito  
@@ -182,27 +182,27 @@ X = Kielitaitoa ei ole testattu
 
 #### `kuntakoodi` — Työtarjouksen työpaikan sijaintikunta
 
-**Ryhmä / Group:** Palkkatukipaikat, Tyotarjoukset
+**Group:** Palkkatukipaikat, Tyotarjoukset
 
 Rekisterissä kuntakoodeina käytetään Tilastoikeskuksen ylläpitämiä 3-numeroisia kuntakoodeja. Jos työnhakijan asuinpaikka on työnhaun alussa Ruotsissa, merkitään kuntakoodiksi 198, tai Norjassa, merkitään 197, tai muualla ulkomailla, merkitään 200. Katso Tilastokeskus alueluokitukset
 
 #### `lpvm` — Työnhaun päättymispäivä
 
-**Ryhmä / Group:** Palvelulinja, Sanssikortti
+**Group:** Palvelulinja, Sanssikortti
 
 #### `oppisopimus` — Työtarjous on oppisopimuspaikkaan
 
-**Ryhmä / Group:** Tyotarjoukset
+**Group:** Tyotarjoukset
 
 #### `osoitettupvm` — Työtarjouksen päivämäärä
 
-**Ryhmä / Group:** Palkkatukipaikat, Tyotarjoukset
+**Group:** Palkkatukipaikat, Tyotarjoukset
 
 Poiminta tehty tämän mukaan
 
 #### `segmenttikoodi` — Segmentti
 
-**Ryhmä / Group:** Palvelulinja
+**Group:** Palvelulinja
 
 00 = Ei asiantuntijapalvelun tarvetta  
 01 = Työnvälitys- ja yrityspalvelut  
@@ -213,17 +213,17 @@ Poiminta tehty tämän mukaan
 
 #### `segmenttipvm` — Segmenttipäivämäärä
 
-**Ryhmä / Group:** Palvelulinja
+**Group:** Palvelulinja
 
 #### `sijmahdnumero` — Sijoitusmahdollisuus
 
-**Ryhmä / Group:** Palkkatukipaikat
+**Group:** Palkkatukipaikat
 
 Sijoitusmahdollisuus on työpaikkakoodi, johon mahdollisesti henkilö sijoitetaan.
 
 #### `sijtyoaikakoodi` — Sijoitustyöpaikan työn työaika
 
-**Ryhmä / Group:** Palkkatukipaikat
+**Group:** Palkkatukipaikat
 
 00 = ei lainkaan - 1v  
 01 = 1-5 vuotta  
@@ -231,13 +231,13 @@ Sijoitusmahdollisuus on työpaikkakoodi, johon mahdollisesti henkilö sijoitetaa
 
 #### `toimiala` — Työnantajan toimiala
 
-**Ryhmä / Group:** Tyotarjoukset, Palkkatukipaikat
+**Group:** Tyotarjoukset, Palkkatukipaikat
 
 työnantajan toimiala eli ei työpaikan toimiala : toimialaluokitus Katso Tilastokeskus henkilöluokitukset
 
 #### `toimikoodi` — Suunnitelmassa sovitetut tehtävä
 
-**Ryhmä / Group:** Suunnitelmat
+**Group:** Suunnitelmat
 
 000 = Määrittelemätön; 001 = Hankin tietoa, jota tarvitsen; 002 = Haen työpaikkoja; 003 = Työnhakukeskuksen palvelut; 004 = Julkaisen CV:ni CV-netissä; 005 = Otan käyttöön Paikkavahdin; 006 = Henkilökohtainen työnvälitys (esittelyt, tarjoukset); 007 = Osallistun työnhakuvalmennukseen; 008 = Osallistun uudelleensijoittumisvalmennukseen; 009 = Selvitän, miten voin hakea töitä Euroopasta (Eures); 010 = Selvitän, mitkä ovat valmiuteni ryhtyä yrittäjäksi; 011 = Selvitän verkkopalveluiden avulla ammatillisia vaihtoehtojani; 012 = Henkilökohtainen urasuunnittelu; 013 = Kartoitan osaamistani ja ammattitaitoani ohjatusti; 014 = Henkilökohtainen koulutusneuvonta; 015 = Henkilökohtainen kuntoutussuunnittelu; 016 = Osallistun työkykyni selvittämiseen; 017 = Tapaan työhönvalmentajan sovitusti; 018 = Osallistun työkokeiluun työpaikalla; 019 = Työelämävalmennus; 020 = Työharjoittelu; 021 = Haen opiskelemaan työttömyysetuudella tuetusti; 022 = Haen työvoimakoulutuksena järjestettävään koulutukseen; 023 = Valmentava työvoimakoulutus; 024 = Haen oppisopimuskoulutukseen; 025 = Kotoutujan rinnasteinen koulutus; 026 = Palkkatuettu työ; 027 = Asioin sovitusti työvoiman palvelukeskuksessa; 028 = Työvoimapalveluja täydentävät palvelut; 029 = Osallistun kuntouttavaan työtoimintaan; 030 = Tarvitsen muita viranomaispalveluja; 031 = Selvitän mahdollisuuksiani saada eläkettä; 032 = Tarvitsen muita palveluja; 033 = Ei soveltuvia palveluja tarjolla; 034 = Menen terveystarkastukseen; 035 = Osallistun maahanmuuttajien alkukartoitukseen; 036 = Haen opiskelemaan työttömyysetuudella tuettuun kotoutumiskoulutukseen; 037 = Haen kotoutumiskoulutukseen, jota järjestetään työvoimakoulutuksena; 038 = Haen työvoimakoulutuksena järjestettävään perusopetukseen; 039 = Selvitän mahdollisen yritykseni toimintaa ja kannattavuutta; 040 = Haen starttirahaa; 041 = Keskustelen ammatillisista mahdollisuuksistani asiantuntijan kanssa; 042 = Osallistun uravalmennukseen; 043 = Osallistun koulutuskokeiluun oppilaitoksessa; 044 = Tarvitsen muun asiantuntijan arviointiapua tilanteestani; 045 = Ilmoitan, että opintoni ovat edenneet suunnitellusti;046 =	Luen verkkosivulta työnhakijan oikeuksista ja velvollisuuksista;
 047 =	Julkaisen CV:n CV-netissä tai muissa osaamisprofiileissa ja pidän sen voimassa;
@@ -274,15 +274,15 @@ työnantajan toimiala eli ei työpaikan toimiala : toimialaluokitus Katso Tilast
 
 #### `toimipvm` — Päivämäärä, mihin mennässä tehtävä on suoritettava
 
-**Ryhmä / Group:** Suunnitelmat
+**Group:** Suunnitelmat
 
 #### `toimkasitelty` — Onko tehtävä toteutunut vai ei
 
-**Ryhmä / Group:** Suunnitelmat
+**Group:** Suunnitelmat
 
 #### `toimsuunlaji` — Suunnitelman laji
 
-**Ryhmä / Group:** Suunnitelmat
+**Group:** Suunnitelmat
 
 01 = Työllistymissuunnitelma
   02 = Työllistymisohjelma  
@@ -293,11 +293,11 @@ työnantajan toimiala eli ei työpaikan toimiala : toimialaluokitus Katso Tilast
 
 #### `toimviimpvm` — Tarkistuspäivämäärä
 
-**Ryhmä / Group:** Suunnitelmat
+**Group:** Suunnitelmat
 
 #### `tuloskoodi` — Työtarjouksen tulos
 
-**Ryhmä / Group:** Palkkatukipaikat, Tyotarjoukset
+**Group:** Palkkatukipaikat, Tyotarjoukset
 
 01 = Työnvälitys  
 02 = Paikka täytetty  
@@ -317,7 +317,7 @@ työnantajan toimiala eli ei työpaikan toimiala : toimialaluokitus Katso Tilast
 
 #### `tyoaikakoodi` — Työn työaika
 
-**Ryhmä / Group:** Tyotarjoukset
+**Group:** Tyotarjoukset
 
 01 = kokoaikatyö
   03 = 2-vuorotyö
@@ -331,19 +331,19 @@ työnantajan toimiala eli ei työpaikan toimiala : toimialaluokitus Katso Tilast
 
 #### `tyok_apvm` — Työllisyyskoodin alkamispvm
 
-**Ryhmä / Group:** Palkkatukipaikat, Tyotarjoukset
+**Group:** Palkkatukipaikat, Tyotarjoukset
 
 ko. työllisyyskoodin alkamispäivä
 
 #### `tyok_lpvm` — Työllisyyskoodin loppumispvm
 
-**Ryhmä / Group:** Tyotarjoukset, Palkkatukipaikat
+**Group:** Tyotarjoukset, Palkkatukipaikat
 
 ko. työllisyyskoodin loppumispäivä
 
 #### `tyollkoodi` — Työllisyyskoodi
 
-**Ryhmä / Group:** Palkkatukipaikat, Tyotarjoukset
+**Group:** Palkkatukipaikat, Tyotarjoukset
 
 Hakijan työllisyyskoodi sillä hetkellä kun työtarjous tehty: 
 00 = työssä oleva, työllistetty
@@ -358,7 +358,7 @@ Hakijan työllisyyskoodi sillä hetkellä kun työtarjous tehty:
 
 #### `tyonkestokoodi` — Työn kesto
 
-**Ryhmä / Group:** Tyotarjoukset
+**Group:** Tyotarjoukset
 
 Tarjotun työn kesto: 
 01 = alle 11 pv  
@@ -370,7 +370,7 @@ Tarjotun työn kesto:
 
 #### `tyosuhttyyppi` — Työsuhteen tyyppi
 
-**Ryhmä / Group:** Tyotarjoukset
+**Group:** Tyotarjoukset
 
 Työsuhteen tyyppi eli ei työpaikan tyyppi  
 01 = palkkatyö
@@ -380,13 +380,13 @@ Työsuhteen tyyppi eli ei työpaikan tyyppi
 
 #### `yhtottopvm` — Yhteydenottopäivämäärä
 
-**Ryhmä / Group:** Sanssikortti, Yhteydenottotavat
+**Group:** Sanssikortti, Yhteydenottotavat
 
 Poiminta tehty tämän mukaan yhteydenottotavat-tiedostossa
 
 #### `yhtottotapa` — Yhteydenottotapa (uuden koodit käytössä 5.12.2010 alkaen)
 
-**Ryhmä / Group:** Yhteydenottotavat
+**Group:** Yhteydenottotavat
 
 01 = Soitto asiakkaalle
   02 = Soittoyritys asiakkaalle  
@@ -408,4 +408,4 @@ Poiminta tehty tämän mukaan yhteydenottotavat-tiedostossa
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen Tietotekniikan käyttö yrityksissä -kysely ja yritysrekisteri
 - **Related:** <a href= "https://www.stat.fi/til/icte/index.html">Tietotekniikan käyttö yrityksissä</a>
 
-## Kuvaus / Description
+## Description
 
 ICT-aineisto kuvaa yritysten tietotekniikan käyttöä ja liiketoiminnan sähköistymistä. Tilastoaineisto tuotetaan otokseen perustuvana laajana yrityskyselynä. Tulokset korotetaan tilastossa vastaamaan kaikkia tutkittujen toimialojen ja suuruusluokkien yrityksiä. Tilastoyksikkönä on yritys. Yritystason aineisto on saatavissa tutkimuskäyttöön erillisinä vuositiedostoina. 
 Tilastoaineisto ilmestyy vuosittain. Sähköisen kaupan osalta mittausjaksona on edellinen vuosi. Tietotekniikan käytön osalta viiteajankohtana on useimmissa muuttujissa kyselyn ajankohta, eli tammi-huhtikuu. Aineiston aikasarja ulottuu vuoteen 2002 asti. 
@@ -69,9 +69,9 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 * Tietokoneohjelmien valmistus omaan käyttöön; oma henkilökunta kehittäjänä ja valmistajana, käytetyt henkilötyövuodet. 2005 -.	
 * RFID Radio Frequency Identification käyttö; mihin tarkoituksiin käytetään. 2009, 2011, 2014, 2017.
 
-## Muuttujat / Variables (179)
+## Variables (179)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SyritysID` | Suojattu yritysID | — | — | — |
 | `omtyyppi` | Omistajatyyppi | — | — | — |
@@ -253,7 +253,7 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 | `tkhlok1` | Tkhlok ennen loogista korjausta | — | — | — |
 | `tkhlok9` | Alkuperäinen tkhlok | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SyritysID` — Suojattu yritysID
 
@@ -853,4 +853,4 @@ Tietokonetta työssään käyttävän henkilöstön lukumäärä yrityksessä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

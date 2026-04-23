@@ -8,7 +8,7 @@
 - **Variable count:** 11
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 EDUC_KOSKI-valmisaineisto sisältää OPH:n Koski-tietovarannon tietoja perusopetuksen, nivelvaiheen sekä toisen asteen koulutuksien läsnäolosta, sisällöstä sekä suorituksista. Aineiston avulla on mahdollista tutkia läsnäoloa koulutuksissa tarkalla tasolla, sillä aineisto sisältää jaksomuotoisen tilatiedon. Aineisto sisältää myös koulutuksien suoritustietoja, joiden avulla on mahdollista tutkia koulutuksien etenemistä tarkalla tasolla. Aineisto on kattavaa vuodesta 2020 lähtien. KOSKI-järjestelmä on otettu käyttöön vuonna 2018, mutta vuosien 2018 ja 2019 tiedot eivät ole kattavia. Aineistosta ei ole rajattu ulos aiempia tietoja. 
 
@@ -44,9 +44,9 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_opiskeluo
 
 HUOM. Perusopetuksessa on jonkin verran voimassa olevia opiskeluoikeuksia, jotka näkyvät läsnä olevana Koski-datassa, mutta eivät ole suorittaneet varsinaisesti mitään. Tällaisia tapauksia ei ole opiskeluoikeus_jakso-taulusta (tai opiskeluoikeus-taulusta) siivottu pois.
 
-## Muuttujat / Variables (11)
+## Variables (11)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `oppija_oid_s` | Suojattu oppijatunnus | — | — | — |
@@ -60,7 +60,7 @@ HUOM. Perusopetuksessa on jonkin verran voimassa olevia opiskeluoikeuksia, jotka
 | `tila_alkanut` | tila alkanut | — | — | — |
 | `oppisopimus_paatason_suoritukses` | oppisopimus jossain paatason suorituksessa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -104,4 +104,4 @@ Tieto siitä, jos oppija on ollut oppisopimusmuotoisessa koulutuksessa rivin kuv
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

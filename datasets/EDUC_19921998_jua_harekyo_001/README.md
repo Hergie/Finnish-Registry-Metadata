@@ -13,7 +13,7 @@ Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoite
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastotieto: Koulutukseen hakeutuminen</a>
 - **Keywords:** jatko-opiskelu,koulutus,opiskelijat
 
-## Kuvaus / Description
+## Description
 
 Aineisto on osa EDUC-HAREK -moduulia korkeakoulujen hakurekisteritiedoista 1992-2023. Tämä aineisto sisältää yliopistojen kalenterivuonna alkaneeseen koulutukseen hakeneiden hakurekisteritiedot 1992-1998, siltä osin kun tiedot on toimitettu Tilastokeskukseen tilastointia varten. Kokonaisuus sisältää tietoja muun muassa hakemuksesta, hakijasta ja hakukohteesta. 
 
@@ -50,9 +50,9 @@ Hakurekisteristä on erikseen saatavilla arkaluonteisia ja karkeistamattomia muu
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (13)
+## Variables (13)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `HYV` | — | — | — | — |
 | `HJAR` | — | — | — | — |
@@ -68,7 +68,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `shnro` | — | — | — | — |
 | `shetu` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `HYV`
 
@@ -175,4 +175,4 @@ Suojattu henkilötunnus. Muuttuja shnro toimii tunnisteena vuosittaisten aineist
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

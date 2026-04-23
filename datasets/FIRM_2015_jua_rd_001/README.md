@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tkke/index.html">Tutkimus- ja kehittämistoiminta</a> <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_tutkimus_ja_kehittamistoiminta.html">Tutkimus- ja kehittämistoiminta (T&K)</a>
 - **Keywords:** korkeakoulut,menot,tietoyhteiskunta,tuotekehitys,tutkimuslaitokset,tutkimusmenot,tutkimustoiminta,yliopistot,yritykset
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kyselyaineisto vuodelle 2015 (yri15e) kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Rahamääräiset tiedot ovat euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja). 
 
@@ -36,9 +36,9 @@ Kyselylomake saatavissa erikseen. Vastaavia tietoja on saatavissa alkaen vuodest
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (325)
+## Variables (325)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -366,7 +366,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `imp4_rmujulk` | Valtionhallinto imputoitu | — | — | — |
 | `imp4_rkork` | Kotim korkeakoulut imputoitu | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -1670,4 +1670,4 @@ Tutkimus ja kehittämistoiminnan menojen rahoitus: kotimaiset korkeakoulut imput
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

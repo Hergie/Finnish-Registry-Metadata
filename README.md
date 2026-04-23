@@ -1,42 +1,36 @@
 # Finnish Registry Metadata
 
-Paikallinen peilaus Tilastokeskuksen **Taika**-tutkimusaineistokatalogista ([taika.stat.fi](https://taika.stat.fi/)). 312 aineistoa, päivitetty 2026-04-13.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 312 datasets, refreshed 2026-04-13.
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue (312 datasets, refreshed 2026-04-13).
-
-## Mikä tämä on / What this is
-
-Tämä arkisto peilaa Tilastokeskuksen Taika-tutkimusaineistokatalogin julkisen REST-XQ-rajapinnan vastaukset paikalliseksi, greppavaksi ja offline-luettavaksi hakemistoksi. Jokaisesta aineistosta tallennetaan raaka JSON-vastaus (`raw/` ja `datasets/<tunnus>/dataset.json`, `variables.json`) sekä generoidaan ihmisen luettava Markdown-näkymä (`datasets/<tunnus>/README.md`).
+## What this is
 
 This repository mirrors the responses of Statistics Finland's public Taika REST-XQ research-data catalogue API into a local, greppable, offline-readable tree. For each dataset the raw JSON is preserved (`raw/` and `datasets/<id>/dataset.json`, `variables.json`) alongside a generated Markdown view (`datasets/<id>/README.md`).
 
-## Kenelle / Who this is for
+The mirrored content itself (dataset subjects, descriptions, variable concept definitions) is in Finnish — that is the authoritative language of Statistics Finland's metadata, and the English Taika endpoint covers only a fraction of the datasets. The scaffolding around that content is in English.
 
-Tutkijoille, jotka kirjoittavat koodia Tilastokeskuksen rekisteriaineistoja (FOLK, EDUC, SES, FLEED, FIRM_*, kuolemansyyt, perintöverot jne.) vastaan FIONA-etäkäyttöympäristössä. Taikan verkkokäyttöliittymää ei voi selata offline-tilassa, rajapinta on dokumentoimaton, eikä muuttujakuvauksia voi grepata — tämä arkisto ratkaisee kaikki kolme. Erityisen hyödyllinen, jos koodia kirjoittaa LLM-avusteisesti ja haluaa, että mallilla on muuttujien määritelmät suoraan kontekstissa.
+## Who this is for
 
 Researchers writing code against Statistics Finland register data (FOLK, EDUC, SES, FLEED, FIRM_*, cause-of-death, inheritance-tax registers, …) inside the FIONA remote-access environment. Taika's web UI is not browsable offline, the API is undocumented, and variable definitions are not greppable — this archive fixes all three. Especially useful if you write code with an LLM coding assistant and want the variable definitions available directly in-context.
 
-## Lisenssi / License
-
-Skriptit ja generoitu dokumentaatio on omistettu yleiseen käyttöön CC0-1.0-lisenssillä. Peilatut JSON-tiedostot `raw/`- ja `datasets/`-puissa ovat Tilastokeskuksen Taika-rajapinnan vastauksia sellaisenaan — ne eivät kuulu CC0:n piiriin, ja downstream-uudelleenjulkaisijoiden tulee mainita Tilastokeskus lähteenä. Katso `LICENSE`.
+## License
 
 Scripts and generated documentation are dedicated to the public domain under CC0-1.0. The mirrored JSON files under `raw/` and `datasets/` are verbatim responses from Statistics Finland's Taika API and are **not** covered by the CC0 dedication; downstream republishers should credit Tilastokeskus as the source. See `LICENSE`.
 
-## Käyttö / Usage
+## Usage
 
-Claude-agenttien tulee konsultoida tätä arkistoa kirjoittaessaan koodia, joka lukee Tilastokeskuksen rekisteriaineistoja (FOLK, EDUC, SES, FLEED, YA221, kuolemansyyt, perintöverot jne.). Muuttujatiedot löytyvät kunkin aineiston `datasets/<tunnus>/README.md`-tiedostosta tai raakana `variables.json`-tiedostosta.
+LLM coding assistants should consult this archive when writing code that reads Statistics Finland register data (FOLK, EDUC, SES, FLEED, YA221, cause-of-death, inheritance-tax, etc.). Variable-level documentation lives in each dataset's `datasets/<id>/README.md` or in the raw `variables.json`.
 
-## Päivitys / Refresh
+## Refresh
 
 ```
 python fetch_taika_metadata.py && python build_catalogue.py
 ```
 
-Älä muokkaa `raw/`- tai `datasets/`-hakemistoja käsin — ne generoidaan. Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
+Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 
-## Luettelo / Catalogue
+## Catalogue
 
-| Tunnus / Identifier | Aihe / Subject | Kattavuus / Coverage | #Var | #Obs | |
+| Identifier | Subject | Coverage | #Var | #Obs | |
 |---|---|---|---|---|---|
 | `EDUC_19751995_jua_000_000.xml` | EDUC_OPISK_HIST: Korkeakouluopiskelijoiden historialliset tiedot 1975-1995 2. osamoduuli | 1970-01-01 - 1995-12-31 | 33 | — | [→](./datasets/EDUC_19751995_jua_000_000/README.md) |
 | `EDUC_1985_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 1, 1985 | — | 105 | — | [→](./datasets/EDUC_1985_jua_tyhr19_001/README.md) |
@@ -351,11 +345,11 @@ python fetch_taika_metadata.py && python build_catalogue.py
 | `vamuu_202400_jua_000_000.xml` | FOLK_VAEN Väestön ennakkotiedot | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
 | `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN Ennakkotiedot henkilötunnuksellisista | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
 
-## Lähteet ja rajoitukset / Source notes
+## Source notes
 
-- Taustalla on Taikan julkinen REST-XQ-rajapinta (`/restxq/taika/fi/datasets`, `/restxq/taika/fi/datasets/{id}`, `/restxq/taika/fi/variables/{id}`). Rajapintaa ei ole virallisesti dokumentoitu, mutta se on julkinen eikä vaadi autentikointia.
-- Arkisto perustuu suomenkieliseen rajapintaan. Englanninkielinen rajapinta (`/restxq/taika/en/datasets`) on kattavuudeltaan paljon suppeampi (noin 84 aineistoa vs. suomen 312), joten sitä ei käytetä.
-- `statmeta`-kenttä on Taikassa yleensä placeholder (`"metaa..."`) ja tallennetaan sellaisenaan.
-- Kahdeksalla SURVEY-aineistolla muuttujaluettelo sisältää Taikan placeholder-sentinel-arvon (`emptyvariablenameforcossicreatedbycsmetaedit`); se suodatetaan pois READMEsta.
-- **Henkilötunnusmuuttuja / Person ID variable:** Taika dokumentoi henkilön yksilöivän tunnisteen nykyään nimellä `hid_e`. Aiemmissa aineistotoimituksissa sama tunniste kulki nimellä `shnro`, ja Tilastokeskus on vaihtanut muuttujan nimen. Joissain tauluissa sama henkilötunniste voi olla vielä näistäkin eroavilla nimillä.
-- **Generoitu tiedosto / Generated file:** tämä `README.md` tuotetaan `build_catalogue.py`-skriptillä yhdessä 312 aineiston `datasets/<tunnus>/README.md`-tiedoston kanssa. Älä muokkaa käsin — muutokset korvautuvat seuraavalla ajolla.
+- The archive is built against Taika's public REST-XQ API (`/restxq/taika/fi/datasets`, `/restxq/taika/fi/datasets/{id}`, `/restxq/taika/fi/variables/{id}`). The endpoint is undocumented but public and does not require authentication.
+- The Finnish endpoint is used because the English one (`/restxq/taika/en/datasets`) covers only about 84 of the 312 datasets.
+- The `statmeta` field is usually a Taika placeholder (`"metaa..."`) and is stored verbatim.
+- Eight SURVEY datasets list a placeholder sentinel variable (`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out.
+- **Person ID variable:** Taika currently documents the person-level identifier as `hid_e`. Older data deliveries used `shnro` — Statistics Finland renamed the variable. Some tables may still expose the identifier under other names.
+- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 312 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.

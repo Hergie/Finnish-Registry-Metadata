@@ -8,13 +8,13 @@
 - **Variable count:** 17
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 UTH-aineiston terveysosioon (osiot D-N) saatavilla oleva ATH-verrokkiaineisto. Tästä kuvauksesta löytyy ATH-verrokkiaineiston rekisteritietojen (A-blokki) muuttujien sisältö. Muilta osin ATH-verrokkiaineiston sisältö vastaa <a href=https://taika.stat.fi/fi/aineistokuvaus.html#!?dataid=UTH_2014_jua_THL17_001.xml> UTH-aineiston terveysosiota (osiot D-N)</a> . Kaikki UTH-tutkimuksen kysymykset eivät sisälly ATH-tutkimukseen, jolloin osa UTH-kuvauksen muuttujista puuttuu. Lisätietoa tutkimuksesta löytyy <a href=https://www.thl.fi/fi/tutkimus-ja-asiantuntijatyo/vaestotutkimukset/aikuisten-terveys-hyvinvointi-ja-palvelututkimus-ath> THL:n sivuilta. </a>
 
-## Muuttujat / Variables (17)
+## Variables (17)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi/Haastatteluvuosi | — | — | ath |
 | `id` | Yksilöivä tunniste (vain ATH) | — | — | ath |
@@ -34,19 +34,19 @@ UTH-aineiston terveysosioon (osiot D-N) saatavilla oleva ATH-verrokkiaineisto. T
 | `avi` | Aluahallintovirasto -luokituksen mukainen aluejako | — | — | ath |
 | `synt_ulkom` | Syntynyt ulkomailla | — | — | ath |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi/Haastatteluvuosi
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 #### `id` — Yksilöivä tunniste (vain ATH)
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 #### `tutkimus` — Minkä tutkimuksen otokseen henkilö kuuluu
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 1 = Ulkomaista syntyperää olevien työ ja hyvinvointi -tutkimus (UTH) 2014
 2 = Työvoimatutkimus (LFS) 2014 (5. rotaatio)
@@ -54,30 +54,30 @@ UTH-aineiston terveysosioon (osiot D-N) saatavilla oleva ATH-verrokkiaineisto. T
 
 #### `w_analysis` — Analyysipaino
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 #### `w_expansion` — Korottava paino
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 #### `synt_vuosi` — Syntymävuosi
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 #### `ika` — Ikä
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 #### `sukup` — Sukupuoli
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 1 = mies
 2 = nainen
 
 #### `sivsal` — Siviilisääty, rekisteri
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 0 = tuntematon
 1 = naimaton
@@ -91,7 +91,7 @@ UTH-aineiston terveysosioon (osiot D-N) saatavilla oleva ATH-verrokkiaineisto. T
 
 #### `pe1` — Siviilisääty, itse raportoitu
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 Mikä on siviilisäätynne? Oletteko
 1 = naimisissa (tai rekisteröity parisuhde)
@@ -102,7 +102,7 @@ Mikä on siviilisäätynne? Oletteko
 
 #### `koulutus_tk_3` — Koulutusaste
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 . = ei perusasteen jälkeistä koulutusta tai tieto puuttuu
 3 = keskiasteen koulutus
@@ -115,13 +115,13 @@ Mikä on siviilisäätynne? Oletteko
 
 #### `educ_years` — Koulutus vuosina
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 "Kuinka monta vuotta olette yhteensä käyneet koulua tai opiskelleet päätoimisesti"? Vastaus vuosina.
 
 #### `alue3` — Asuinalue, luokiteltu
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 1 = Länsi-Suomi ja Ahvenanmaa
 2 = (Muu) Uusimaa
@@ -133,7 +133,7 @@ Mikä on siviilisäätynne? Oletteko
 
 #### `alue4` — Asuinalue, luokiteltu
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 1 = Helsinki
 2 = Espoo ja Vantaa
@@ -143,7 +143,7 @@ Mikä on siviilisäätynne? Oletteko
 
 #### `maakunta_2011` — Asuinmaakunta
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 Maakunnat 2011 -luokituksen mukainen aluetieto.
 01 = Uusimaa
@@ -168,7 +168,7 @@ Maakunnat 2011 -luokituksen mukainen aluetieto.
 
 #### `avi` — Aluahallintovirasto -luokituksen mukainen aluejako
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.
 1 = Etelä-Suomen AVI
@@ -181,11 +181,11 @@ Tilastovuoden kuntarekisteristä asuinkunnan (ASKU) perusteella saatava tieto.
 
 #### `synt_ulkom` — Syntynyt ulkomailla
 
-**Ryhmä / Group:** ath
+**Group:** ath
 
 0 = syntynyt Suomessa
 1 = syntynyt ulkomailla
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

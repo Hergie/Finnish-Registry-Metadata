@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen Liiketoimintojen kansainvälinen organisointi ja ulkoistaminen ulkomaille 2012 -kysely
 - **Related:** <a href= "http://ec.europa.eu/eurostat/statistics-explained/index.php/Global_value_chains">Eurostat Statistics Explained</a>
 
-## Kuvaus / Description
+## Description
 
 Tutkijapalveluiden Global Value Chains (GVC) -aineisto on Eurostatin Survey on measuring global value chains -hankkeen kyselyn pohjalta tuotettu aineisto. Vuonna 2012 toteutetun yrityskyselyn tavoitteena oli tuottaa tietoa yritystoiminnan globalisoitumisesta sekä päätöksenteon avuksi, kansainvälisiin vertailuihin, analyyseihin sekä tutkimuskäyttöön. Vastaava kysely toteutettiin 15 EU-maassa. Kyselyn avulla pyritään arvioimaan globaalien tuotanto/arvoketjujen esiintymistä kysymyksillä, jotka koskevat yritystoimintojen kansainvälistä organisointia, ulkomaisia tytäryhtiöitä sekä ulkopuolisten alihankkijoiden käyttöä. Tiedot koskevat vuosia 2009 - 2011.
 
@@ -65,9 +65,9 @@ Toimintojen ulkoistaminen ja siirtäminen ulkomaille: Yrityksessä tähän asti 
 Toimintojen ulkoistamiseen ja siirtämiseen ulkomaille ei kuulu: 
 Sellainen ydinliiketoimintojen tai tukitoimintojen siirtäminen ulkomaille, jonka yhteydessä ei supisteta yrityksen toimintaa eikä/tai vähennetä yrityksen työpaikkoja (jos yritys perustaa uuden tuotantolinjan ulkomaille ilman supistuksia ja vähennyksiä, vaikka se olisi voinut perustaa tuotantolinjan myös kotimaahan).
 
-## Muuttujat / Variables (852)
+## Variables (852)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `K1_1` | K1_1 Was your enterprise part of an enterprise group at the end of 2011? | — | — | — |
@@ -922,7 +922,7 @@ Sellainen ydinliiketoimintojen tai tukitoimintojen siirtäminen ulkomaille, jonk
 | `wk` | Otoskerroin | — | — | — |
 | `ESTAT` | Eurostat-otoskehikko | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -2782,4 +2782,4 @@ Kuuluu Eurostat-otoskehikkoon=1, muuten saa arvon 0
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

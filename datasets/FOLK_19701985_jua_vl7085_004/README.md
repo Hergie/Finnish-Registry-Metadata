@@ -12,7 +12,7 @@
 - **Related:** <a href= "https://urn.fi/URN:NBN:fi-fe2023013111971">Väestölaskentojen pitkittäistiedosto 1970–1985. Käsikirja</a> <a href= "https://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_vaestolaskentatiedot_1970_1985.html">Väestölaskentatiedot 1970-1985</a>
 - **Keywords:** ammattiasema,asunnot,perheet,sosioekonominen asema,työssäkäynti,väestö,väestönlaskenta
 
-## Kuvaus / Description
+## Description
 
 Aineisto sisältää tietoja väestöstä laskentavuosilta 1970, 1975, 1980 ja 1985. Tietosisältö kattaa tietoja väestön asumisesta, asunnoista ja asuinpaikasta, koulutuksesta ja sosioekonomisesta asemasta, ammateista ja ammattiasemasta,  työpaikoista, toimialasta (elinkeinosta) ja tuloista sekä siviilisäädystä ja perheistä. 
 
@@ -45,9 +45,9 @@ Aineisto on tarkoitettu FIONA-etäpalvelun kautta otosaineistona käytettäväks
 <b>Lisätietoja</b>
 Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (39)
+## Variables (39)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `nro` | Järjestysnumero | — | — | — |
@@ -89,7 +89,7 @@ Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelu
 | `tyotu` | Palkkatulo | — | — | — |
 | `tyrtu` | Yrittäjätulo | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -114,19 +114,19 @@ Asuntokuntanumero ei säily samana eri vuosina, vaikka henkilö ei muuttaisikaan
 
 #### `syntyv` — Syntymävuosi
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön syntymävuosi
 
 #### `kuolv` — Kuolinvuosi
 
-**Ryhmä / Group:** vm_kuolleet
+**Group:** vm_kuolleet
 
 Henkilön kuolinvuosi, arvot 1971-2018
 
 #### `sukup` — sukupuoli
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. 1=Mies 2=Nainen
 
@@ -156,7 +156,7 @@ Taajamaksi määritellään kaikki vähintään 200 asukkaan rakennusryhmät, jo
 
 #### `sivs` — Siviilisääty
 
-**Luokitus / Classification:** siviilisaaty_5_2000_01_01
+**Classification:** siviilisaaty_5_2000_01_01
 
 Henkilön siviilisäädyllä tarkoitetaan Suomen avioliittolain mukaista asemaa. Tieto siviilisäädystä perustuu väestön keskusrekisteriin. Vuosina 1970 ja 1975 käytettiin myös lomaketietoja hyväksi. 
 Tieto kuuluu laskennan luotettavimpiin. 
@@ -170,7 +170,7 @@ Luokitus:
 
 #### `sose` — Sosioekonominen asema (uusi luokitus)
 
-**Luokitus / Classification:** sosioekon_asema_1_1985_12_31
+**Classification:** sosioekon_asema_1_1985_12_31
 
 Sosioekonominen asema -luokitus kuvaa väestön jakautumista sosiaaliselta ja taloudelliselta asemal-taan suhteellisen homogeenisiin ja konkreettisesti miellettäviin luokkiin.
 
@@ -334,7 +334,7 @@ TOIMINTA 11.11. - 17.11.1985
 
 #### `ammattikoodi` — Ammattikoodi
 
-**Luokitus / Classification:** ammatti_108_1980_01_01
+**Classification:** ammatti_108_1980_01_01
 
 Ammatilla tarkoitetaan sitä toimintaa tai työtä, jota henkilö tekee tuloa saadakseen. Yleisenä periaatteena ammatteja luokiteltaessa on mainittu "yhdistää samanlainen toiminta kiinnittämättä yleensä huomiota koulutukseen, ammattiasemaan, virka-asemaan tai toimialaan." Toiminnan samankaltaisuuden arviointiperuste on ollut työn luonne tai toiminnan tarkoitus (esim. hoitotyö, vartiointityö).
 
@@ -374,7 +374,7 @@ Ulkomailla työskentelevillä on tiedostossa oma kood (200)i. Tiedon peittävyys
 
 #### `toimiala` — Toimiala
 
-**Luokitus / Classification:** toimiala_104_1979_01_01
+**Classification:** toimiala_104_1979_01_01
 
 Henkilön elinkeino (toimiala) määräytyy hänen työpaikkansa toimialan mukaan. Kaikki samassa toimipaikassa työskentelevät saavat saman elinkeinon ammatistaan riippumatta. Työpaikan toimiala määritetään kullekin toimipaikalle Tilastokeskuksen toimiala¬luokituksen mukaisesti. Itsenäiselle ammatinharjoittajalle elinkeino määritetään toiminnan laadun mukaan.
 Toimipaikassa yritys harjoittaa pääasiassa yhdenlaatuista toimintaa. Saman yrityksen eri sijaintipaikoilla harjoittamat toiminnot katsotaan yleensä eri toimipaikoiksi.
@@ -672,4 +672,4 @@ Yrittäjätulot euroissa. Tiedot  tuloista koskevat koko väestölaskentavuotta 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

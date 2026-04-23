@@ -10,7 +10,7 @@
 - **Population:** Vuosina 1998-2007 toisen asteen koulutuksen yhteishakuun osallistuneet
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
 
-## Kuvaus / Description
+## Description
 
 Toisen asteen yhteishaku -moduulin 4. osa koostuu henkilöistä, jotka osallistuivat tilastovuosina 1998-2007 toisen asteen koulutuksen yhteishakuun. Tiedostot on toimitettu Tilastokeskukseen OPH:sta ja tiedostoissa on vuosittaisia eroja. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
 
@@ -36,9 +36,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (201)
+## Variables (201)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `HAKUVUOSI` | Hakuvuosi | — | — | — |
 | `HAKUKAUSI` | Hakukausi | — | — | — |
@@ -242,7 +242,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `SYHKOV` | Valinnan suojattu yhteishaun koulukoodi | — | — | — |
 | `SYHKOKV` | Konevalinnan suojattu yhteishaun koulukoodi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `HAKUVUOSI` — Hakuvuosi
 
@@ -990,4 +990,4 @@ Tieto vuodesta 2005 alkaen.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

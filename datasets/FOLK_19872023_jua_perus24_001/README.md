@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston perustietomoduuli sisältää väestörakenne-, tulo- ja työssäkäyntitilastojen tietoja sekä muutamia perhetilaston ja väestön koulutusrakennetilaston tietoja. Tiedot ovat kunkin vuoden lopusta ja yleensä vastaavat virallisia (SVT) tietoja julkaisuajankohtana. Niillä moduulin karkeistetuilla tiedoilla, joista on karkeistamaton tieto saatavissa toisesta FOLK-moduulista tai muualta Tilastokeskuksen tietovarannoista, on loppulyhenteenä _k tai _k2. 
 
@@ -26,9 +26,9 @@ Totaaliaineisto vuosille 1987-2000: FOLK_perus_8800a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (61)
+## Variables (61)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | Vaestorakenne |
@@ -92,7 +92,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tyrtuo_k` | Yrittäjätulot | — | — | Henkilöverotusaineisto |
 | `auto_k` | Henkilön omistama/hallitsema ajoneuvo | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -100,25 +100,25 @@ Tilastovuosi.
 
 #### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `syntyv` — Syntymävuosi
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Syntymävuosi.
 
 #### `kuolv` — Kuolinvuosi
 
-**Ryhmä / Group:** Vaestonmuutos
+**Group:** Vaestonmuutos
 
 Kuolinvuosi. Henkilön kuolinvuosi päivittyy kuolinvuotta edeltävälle tilastovuodelle. Tilastovuoden toisessa päivityksessä päivittyy tieto niistä kuolemista, jotka ovat tulleet tilastoon viiveellä.
 
 #### `sukup` — Sukupuoli
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa folk_perus_sukup_1. 
 1 = Mies
@@ -126,19 +126,19 @@ Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön 
 
 #### `smkunta` — Syntymämaakunta
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Maakunta tuoreimman alueluokituksen mukainen.
 
 #### `skunta` — Syntymäkunta
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Syntymäkotikunta on henkilön syntymävuoden kuntaluokituksen mukainen.
 
 #### `svaltio_k` — Syntymävaltio
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön syntymävaltio.
  1=Suomi 
@@ -147,7 +147,7 @@ bl= puuttuva
 
 #### `kansa1_k` — Kansalaisuus
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön viimeisin kansalaisuustieto. Tieto on vuoteen 2020 asti sama  joka vuonna, vaikka henkilön kansalaisuus olisi muuttunut. 
 1 = suomi 
@@ -156,7 +156,7 @@ bl = puuttuva
 
 #### `syntyp2` — Syntyperä
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Syntyperä, arvot:
 11= Suomalaistaustainen, syntynyt Suomessa 
@@ -166,7 +166,7 @@ Syntyperä, arvot:
 
 #### `kieli_k` — Kieli
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön viimeisin kielitieto. Tieto on vuoteen 2020 asti sama  joka vuonna, vaikka henkilön kieli olisi muuttunut. 
 1 = suomi 
@@ -175,19 +175,19 @@ Henkilön viimeisin kielitieto. Tieto on vuoteen 2020 asti sama  joka vuonna, va
 
 #### `ika` — Ikä
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön ikä vuosissa vuoden lopussa.
 
 #### `mkunta` — Asuinmaakunta
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Maakunta tuoreimman alueluokituksen mukainen.
 
 #### `kunta` — Asuinkunta
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 1.1. tilastovuosi + 1 vuodesta 1999 lähtien. Tätä ennen aluejako on ollut 1.1. tilastovuosi. Kuntanumero 3 merkkiä.
 
@@ -233,7 +233,7 @@ Lisätietoja luokituksesta https://www.ymparisto.fi/kaupunkimaaseutuluokitus.
 
 #### `sivs` — Siviilisääty
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Siviilisääty, arvot:
 1 = naimaton 
@@ -243,7 +243,7 @@ Siviilisääty, arvot:
 
 #### `sose` — Sosioekonominen asema
 
-**Ryhmä / Group:** Ammatti
+**Group:** Ammatti
 
 Sosioekonominen asema -tieto vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 tieto vuosittain (aineiston viimeinen vuosi -1) -vuoteen asti. Perustuu tietoihin henkilön pääasiallisesta toiminnasta, ammatista, ammattiasemasta sekä toimialasta. Henkilöt on luokiteltu oman toimintansa perusteella lukuun ottamatta 0-15 -vuotiaita ja ryhmää "muut työvoimaan kuulumattomat" (lähinnä omaa kotitaloutta hoitavat), jotka ovat saaneet asuntokunnan viitehenkilön sosioekonomisen aseman.
 
@@ -285,7 +285,7 @@ Vuodesta 1995-
 
 #### `yotutk` — Ylioppilastutkinto
 
-**Ryhmä / Group:** Opiskelijat ja tutkinnot
+**Group:** Opiskelijat ja tutkinnot
 
 0 = henkilö ei ole suorittanut pohjakoulutuksena yo-tutkintoa tai yo-tutkinnosta ei ole tietoa 
 4 = henkilö on suorittanut pohjakoulutuksena yo-tutkinnon 
@@ -294,7 +294,7 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `ututku_aste` — Korkeimman tutkinnon koulutusaste
 
-**Ryhmä / Group:** Opiskelijat ja tutkinnot
+**Group:** Opiskelijat ja tutkinnot
 
 Korkeimman tutkinnon koulutusaste (taso-1) Tilastokeskuksen tuoreimman koulutusluokituksen mukaisesta koulutuskoodista, joka on ajan yli yhtenäinen. Koulutusasteen taso 1 on sama kuin ISCED 2011 -luokituksessa.
 
@@ -319,7 +319,7 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `ututku_ala` — Korkeimman tutkinnon koulutusala
 
-**Ryhmä / Group:** Opiskelijat ja tutkinnot
+**Group:** Opiskelijat ja tutkinnot
 
 Korkeimman tutkinnon koulutusala (1-taso). Tilastokeskuksen tuoreimman koulutusluokituksen mukaisesta koulutuskoodista, joka on ajan yli yhtenäinen. Koulutusalan taso 1 on sama kuin ISCED 2011 -luokituksessa.
 
@@ -341,13 +341,13 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `suorv` — Korkeimman tutkinnon suoritusvuosi
 
-**Ryhmä / Group:** Opiskelijat ja tutkinnot
+**Group:** Opiskelijat ja tutkinnot
 
 Korkeimman tutkinnon suoritusvuosi. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `amas1` — Ammattiasema (TVM)
 
-**Ryhmä / Group:** Ammatti
+**Group:** Ammatti
 
 Ammattiasema päätyösuhteen mukaan (tvm-päättely). 
 1 = palkansaaja 
@@ -357,7 +357,7 @@ Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.
 
 #### `klaji_k2` — Koulutuslaji
 
-**Ryhmä / Group:** Opiskelijat ja tutkinnot
+**Group:** Opiskelijat ja tutkinnot
 
 Opiskelijan koulutuslaji, tietoja vuodesta 1999 alkaen vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. 
 
@@ -380,7 +380,7 @@ Tietoja vuodesta 1988 lähtien vuosittain (aineiston viimeinen vuosi - 1) -vuote
 
 #### `ptoim1` — Pääasialllinen toiminta (TVM)
 
-**Ryhmä / Group:** Tyossakaynti
+**Group:** Tyossakaynti
 
 Pääasiallinen toiminta (Työvoimakäsite = TVM eli vuoden viimeisen viikon työsuhteen mukaan). 
 11 = työllinen 
@@ -405,7 +405,7 @@ Muuttujassa perhevapailla olevat henkilöt päätyvät työllisiksi (ptoim1=11),
 
 #### `ammattikoodi_k` — Ammattikoodi, 3-nrotaso
 
-**Ryhmä / Group:** Ammatti
+**Group:** Ammatti
 
 Tietoja vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 lähtien vuosittain vuoteen (aineiston viimeinen vuosi -1) asti. Tieto henkilön ammatista on tuotettu 18-74-vuotiaille työllisille, siis palkansaajille ja yrittäjille. Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. 
 
@@ -418,7 +418,7 @@ Eri luokitusstandardeilla tuotetut tiedot eivät ole keskenään vertailukelpois
 
 #### `tyke` — Työttömyyskuukausia
 
-**Ryhmä / Group:** Työnhakijarekisteri, Tyossakaynti
+**Group:** Työnhakijarekisteri, Tyossakaynti
 
 Henkilön työttömyyskuukaudet -tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. Vuodesta 2005 lähtien tieto laskettu työttömyyspäivien lukumäärästä. 
 
@@ -440,7 +440,7 @@ Vuosina 1987-2004 kukin kalenterikuukausi laskettu erikseen. Jos kalenterikuukau
 
 #### `tyokk` — Työssäolokuukausia
 
-**Ryhmä / Group:** Tyossakaynti
+**Group:** Tyossakaynti
 
 Henkilön työssäolokuukaudet. Tietoja vuodesta 1997 lähtien vuoteen (aineiston viimeinen vuosi -1) asti. Tilastovuodesta 2019 lähtien työssäkäyntitilastossa siirryttiin käyttämään palkansaajien lähdeaineistona tulorekisteriä, jossa työsuhteden kesto lasketaan maksujakson mukaan. Muuttuja ei ole enää suoraan vertailukelpoinen aiempiin vuosiin lähdeaineiston muutoksen vuoksi. 
 
@@ -466,7 +466,7 @@ Vuodet 1999-2004 null=ei työpäiviä, 0 = 1-15 päivää.
 
 #### `akoko_k` — Asuntokunnan koko
 
-**Ryhmä / Group:** Asuminen
+**Group:** Asuminen
 
 Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä. 
 1 = 1 henkilö 
@@ -481,7 +481,7 @@ Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukum�
 
 #### `asty` — Asuntokuntarakenne
 
-**Ryhmä / Group:** Asuminen
+**Group:** Asuminen
 
 Asuntokuntarakenne. Luokitus 2006 alkaen: 
 1 = 1 perhe, ei muita
@@ -512,7 +512,7 @@ Tietoja vuodesta 1990 alkaen. Tieto vuosittain (aineiston viimeinen vuosi - 1) -
 
 #### `hape` — Hallintaperuste
 
-**Ryhmä / Group:** Asuminen
+**Group:** Asuminen
 
 Asunnon hallintaperuste on pääsääntöisesti päätelty vakinaisesti asutuille asunnoille eli asuntokunnille.
 1-2 = Omistusasunnot
@@ -541,13 +541,13 @@ Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.
 
 #### `hulu` — Huoneluku keittiö pl.
 
-**Ryhmä / Group:** Asuminen
+**Group:** Asuminen
 
 Asunnon huoneiden lukumäärä ilman keittiötä.
 
 #### `taty` — Talotyyppi
 
-**Ryhmä / Group:** Rakennus
+**Group:** Rakennus
 
 Talotyyppi. 
 1 = Erillinen pientalo 
@@ -558,7 +558,7 @@ Talotyyppi.
 
 #### `vata` — Varustetaso
 
-**Ryhmä / Group:** Asuminen
+**Group:** Asuminen
 
 Asunnon varustelutason luokitus: 
 1 = hyvin varustettu  
@@ -570,13 +570,13 @@ Varustetasoluokat 2, 3 sekä tuntematon tieto kannattaa yhdistää, sillä eri v
 
 #### `penulaika` — Perheen nuorimman lapsen ikä
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen lapsiksi katsotaan iästä riippumatta vanhempiensa kanssa asuvat omat tai puolison biologiset lapset tai ottolapset, mutta ei kasvattilapsia tai huollettavia lapsia. Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `peas` — Perheasema
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheasema luokitus:
 1 = Päämies 
@@ -591,7 +591,7 @@ Lapseksi katsotaan iästä riippumatta vanhempiensa kanssa asuvat omat tai puoli
 
 #### `lkm_k` — Perheen lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen lasten lukumäärä, kaikki kotona asuvat lapset, biologiset ja ottolapset. 
 0 = perheessä ei lapsia 
@@ -604,7 +604,7 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `a18lkm_k` — Perheen alle 18 v. lasten lukumäärä
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 18 v. lasten lukumäärä 
 0 = perheessä ei alle 18-vuotiaita lapsia 
@@ -619,7 +619,7 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `a7lkm_k` — Perheen alle 7 v. lasten lukumäärä
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 7 v. lasten lukumäärä 
 0 = perheessä ei alle 7-vuotiaita lapsia 
@@ -632,7 +632,7 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `a3lkm_k` — Perheen alle 3 v. lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 3 v. lasten lkm 
 0 = perheessä ei alle 3-vuotiaita lapsia 
@@ -644,7 +644,7 @@ Tieto vuodesta 2006 lähtien. Tietoja (aineiston viimeinen vuosi -1) -vuoteen as
 
 #### `pekoko_k` — Perheen koko
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen henkilöluku. Arvoalue 2-9 (9 = henkilöitä perheessä 9 tai enemmän). Muuttujan arvo on puuttuva henkilöillä, jotka eivät kuulu perheväestöön (ks. perheen määritelmä: http://www.stat.fi/meta/kas/perhe.html). 
 
@@ -652,7 +652,7 @@ Tietoja (aineiston viimeinen vuosi -1) -vuoteen asti.
 
 #### `pety` — Perhetyyppi
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perhetyyppi perheväestöön kuuluvalla
 1 = aviopari ilman lapsia 
@@ -667,49 +667,49 @@ Tarkempi kuvaus perheen määritelmästä: http://www.stat.fi/meta/kas/perhe.htm
 
 #### `vela` — Vanhuuseläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa vuoden lopussa vanhuuseläkettä. Tietoja vuodesta 1988 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.
 
 #### `tkela` — Työkyvyttömyyseläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa vuoden lopussa työkyvyttömyyseläkettä. Tietoja vuodesta 1988 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.
 
 #### `tyela` — Työttömyyseläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa vuoden lopussa työttömyyseläkettä. Tietoja vuosilta 1988-2014.
 
 #### `mela` — Maatalouden erityiseläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa maatalouden erityiseläkettä vuoden lopussa. Tietoja vuodesta 1995 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.
 
 #### `osela` — Osa-aikaeläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa vuoden lopussa osa-aikaeläkettä. Tietoja (aineiston viimeinen vuosi -2) -vuoteen asti.
 
 #### `pela` — Perhe-eläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa vuoden lopussa perhe-eläkettä. Tietoja vuodesta 1996 lähtien (aineiston viimeinen vuosi -2) -vuoteen asti.
 
 #### `yvela` — Yksilöllinen varhaiseläke
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Arvo 1 = Henkilö saa yksilöllistä varhaiseläkettä vuoden lopussa. Tieto vuosilta 1988-2011.
 
 #### `kturaha_k` — Käytettävissä olevat rahatulot
 
-**Ryhmä / Group:** Tulonjakotilasto
+**Group:** Tulonjakotilasto
 
 Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite.
 
@@ -717,7 +717,7 @@ Arvot pyöristetty sadoiksi euroiksi, negatiiviset arvot nollattu, vuosittainen 
 
 #### `velaty_k` — Velat yhteensä
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Velat yhteensä koostuu seuraavista verotiedoista: 
 NLIIKK= Elinkeinotoiminnan velat (vuoteen 1994 saakka)
@@ -730,19 +730,19 @@ Arvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. 
 
 #### `lvar_k` — Verotettava varallisuus
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Verotettavan varallisuuden arvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. Tietoja vuoteen 2005 saakka.
 
 #### `svatva_k` — Ansiotulot yhteensä valtion verotuksessa
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Ansiotulot yhteensä valtionverotuksessa. Arvot pyöristetty sadoiksi euroiksi, vuosittainen  ylin persentiili mediaanina. Tietoja vuodesta 1993 lähtien vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.
 
 #### `palk_k` — Palkkatulot
 
-**Ryhmä / Group:** Tulonjakotilasto
+**Group:** Tulonjakotilasto
 
 Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta.
 
@@ -750,7 +750,7 @@ Arvot pyöristetty sadoiksi euroiksi, negatiiviset arvot nollattu, vuosittainen 
 
 #### `tyotu_k` — Summatut työtulot (palkkatulot)
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Summatut työtulot (palkkatulot) sisältää seuraavia verotietoja vuoteen 2018 asti:
 TRPL = rahapalkka päätoimesta, luontaisedut ja työsuhdeoptiot
@@ -775,7 +775,7 @@ Arvot on pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanin
 
 #### `tyrtuo_k` — Yrittäjätulot
 
-**Ryhmä / Group:** Henkilöverotusaineisto
+**Group:** Henkilöverotusaineisto
 
 Yrittäjätulot sisältävät maatalouden tulot, elinkeinotoiminnan tulot ja tulot yhtymästä. Elinkeinotoiminnan tulot eivät sisällä puolison elinkeinotuloja.
 
@@ -803,4 +803,4 @@ Arvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

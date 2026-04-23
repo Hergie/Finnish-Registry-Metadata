@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen YTY-tietokannat
 - **Keywords:** Yritykset
 
-## Kuvaus / Description
+## Description
 
 Yritystietovaraston (YTY) demografia-taulun tiedot on suojattu tutkimuskäyttöön. Aineisto sisältää yritysten demografiatietoja vuosilta 2002-2021. Vanhempien vuosien tiedot on konvertoitu vanhasta yritysrekisterijärjestelmästä (-2012 asti). Laatu paranee tietojärjestelmäuudistuksen myötä vuodesta 2013 lähtien. Tiedot voivat päivittyä myös takautuvasti tietojen vuosipäivityksen yhteydessä. 
 
@@ -21,9 +21,9 @@ Huom. aloituspäivämäärät vuosilla 2002 ja 2003 voivat olla virheellisiä la
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (13)
+## Variables (13)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `DemAlpvm` | Demografinen aloituspvm | — | — | — |
 | `DemAloitusAito` | Aloituksen aitouskoodi, kyllä/ei | — | vast_vaihtoehdo_69_2012_01_01 | luokitus |
@@ -39,7 +39,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `sdemseuyrtun` | Suojattu seuraajan yritystunnus | — | — | — |
 | `sdemedyrtun` | Suojattu edeltäjän yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `DemAlpvm` — Demografinen aloituspvm
 
@@ -47,7 +47,7 @@ Demografinen aloituspäivämäärä on se päivämäärä, jolloin yrityksen on 
 
 #### `DemAloitusAito` — Aloituksen aitouskoodi, kyllä/ei
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** luokitus
 
 Aloituksen aitouskoodi, kyllä/ei. Luokitus ei täsmällisesti vastaa kuvauksessa esitettyä.
 
@@ -63,7 +63,7 @@ Demografinen lopetuspvm. Liikevaihtoon huomoidaan kaikki lähteet. Yrityksellä 
 
 #### `DemLopetusAito` — Lopetuksen aitouskoodi, kyllä/ei
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** luokitus
 
 Lopetuksen aitouskoodi, kyllä/ei. 
 
@@ -75,7 +75,7 @@ Arvo 1 viittaa aitoon lopetukseen, jossa yritys lopettaa toimintansa. Lopetuksen
 
 #### `tilaDemografia` — Demografiatiedon tila -koodi
 
-**Luokitus / Classification:** demogtila_2_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** demogtila_2_2012_01_01 · **Group:** luokitus
 
 Demografiatiedon tila -koodi. Luokitus ei välttämättä ole aina aineistossa tässä kuvatun kaltainen. 
 
@@ -86,19 +86,19 @@ Demografiatiedon tila -koodi. Luokitus ei välttämättä ole aina aineistossa t
 
 #### `lopEnnakollinen` — Lopetuksen ennakollisuuskoodi (kyllä/ei -ennakko)
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** luokitus
 
 Lopetuksen ennakollisuuskoodi (kyllä 1/ei 0 -ennakko). Luokitus ei välttämättä ole aina aineistossa tässä kuvatun kaltainen.
 
 #### `versioID` — VersioID
 
-**Ryhmä / Group:** tunnistetiedot, ohjaustiedot
+**Group:** tunnistetiedot, ohjaustiedot
 
 YTY-tietovaraston demografia-taulun versioID.
 
 #### `syritysid` — Suojattu yritys-ID, yrityksen tunnus
 
-**Ryhmä / Group:** tunnus
+**Group:** tunnus
 
 Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa, käytössä muissa yritysaineistoissa vuodesta 2013 lähtien.
 
@@ -108,13 +108,13 @@ Yritystunnus puuttuu kunnallisilta liikelaitoksilta.
 
 #### `SDemSeuraaja` — Seuraajayrityksen suojattu yritysID
 
-**Ryhmä / Group:** tunnus
+**Group:** tunnus
 
 Seuraajayrityksen suojattu yritysID, mikäli lopettaneelle yritykselle on pystytty tunnistamaan yksi yritysID joka on potentiaalinen jatkaja. Potentiaalisia seuraajia ei saa olla useita. Seuraajaksi valitaan ensisijaisesti hallinnollisesta aineistosta löydetty yritys. Mikäli yritys yhdistyy osoitteen ja toimialan perusteella toiseen yritykseen, saa samassa osoitteessa olla korkeintaan kolme yritystä, jotta kyseessä voi olla edeltäjä - jatkaja -pari.
 
 #### `SDemEdeltaja` — Edeltäjäyrityksen suojattu yritysID
 
-**Ryhmä / Group:** tunnus
+**Group:** tunnus
 
 Edeltäjäyrityksen suojattu yritysID. Potentiaalisia edeltäjiä ei saa olla useita. Edeltäjäksi valitaan ensisijaisesti hallinnollisesta aineistosta löydetty yritys. Mikäli yritys yhdistyy osoitteen ja toimialan perusteella toiseen yritykseen, saa samassa osoitteessa olla korkeintaan kolme yritystä, jotta kyseessä voi olla edeltäjä - jatkaja -pari. Yritykset, joilla on voimassa oleva konsernisuhde aloitusvuonna, merkitään epäaidoiksi aloituksiksi ilman edeltäjää. Vastaavasti toimitaan määrättyjen oikeudellisten yksiköiden hallinnollisten aloitusmuotojen kanssa.
 
@@ -128,4 +128,4 @@ ks. sdemedeltaja-muuttujan kuvaus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

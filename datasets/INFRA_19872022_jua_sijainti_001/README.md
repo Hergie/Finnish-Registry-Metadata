@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Source:** Digi- ja väestötietoviraston väestötietojärjestelmä. Koostettu henkilötietovaraston henkilö-vuosi- ja rakennus-tauluista.
 
-## Kuvaus / Description
+## Description
 
 INFRA Sijaintitietomoduuli sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. 
 
@@ -19,9 +19,9 @@ Rakennusten koordinaattitietoja ei koskaan anneta ulos etäkäyttöjärjestelmä
 
 Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksiöivä tunniste | — | — | — |
@@ -31,7 +31,7 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 | `rnro_s` | Suojattu rakennusnumero | — | — | — |
 | `rappu_s` | Suojattu rappukäytävän tunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -43,19 +43,19 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `kunta` — Kunta
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 1.1. tilastovuosi + 1 vuodesta 1999 lähtien. Tätä ennen aluejako on ollut 1.1. tilastovuosi. Kuntanumero 3 merkkiä.
 
 #### `euref_1000` — 1 km -ruudun tunniste (euref)
 
-**Ryhmä / Group:** Spatiaalisettiedot
+**Group:** Spatiaalisettiedot
 
 1 neliökilometriruudun (hilaruudukko) tunnus EUREF-FIN-koordinaatistossa (ETRS89-TM35FIN). Vastaa avoimen Tilastoruudukko 1 km x 1 km -paikkatietoaineiston muuttujaa 'nro'.
 
 #### `posti_alue` — Tilastollinen postinumeroalue
 
-**Ryhmä / Group:** Spatiaalisettiedot
+**Group:** Spatiaalisettiedot
 
 Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Tilastokeskuksessa ylläpidettävää tilastolliset postinumeroalueet kartta-aineistoa.
 
@@ -69,4 +69,4 @@ Rakennuskohtainen suojattu rapputunnus on vain asutuilla kerros- ja rivitalohuon
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Perheväestöön kuuluvat henkilöt sekä ne perhväestöön kuulumattomat henkilöt, joilla on lapsia
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston perhemoduulissa on perheväestöön kuuluvien henkilöiden perhettä koskevia, pääasiassa perheen lasten lukumäärään liittyviä tietoja. Tarkempi kuvaus perheen määritelmästä on saatavilla osoitteesta http://www.stat.fi/meta/kas/perhe.html. Moduuli sisältää perheille luodut koodit perheenjäsenten yhdistämiseksi saman tilastovuoden aikana.
 
@@ -26,9 +26,9 @@ Totaaliaineisto vuosille 1987-2000 : FOLK_perh_8800a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (15)
+## Variables (15)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -46,7 +46,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `aidina18` | Vain äidin alle 18-v. t lasten lkm | — | — | Perhe |
 | `isana18` | Vain isän alle 18-v. lasten lkm | — | — | Perhe |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -64,19 +64,19 @@ Perheen tunnisteella voidaan liittää yhtenä havaintovuonna saman perheen henk
 
 #### `laplubio` — Henkilön biologisten lasten lukumäärä
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön biologisten lasten lukumäärä, tieto vuodesta 1989 lähtien. Lapsettomille muuttujan arvo on puuttuva vuosina 1987-2004 ja nolla vuodesta 2005 lähtien.
 
 #### `lapluka` — Henkilön kaikkien lasten lukumäärä
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön kaikkien biologisten ja/tai adoptiolasten lukumäärä. Lapsettomille muuttujan arvo on puuttuva vuosina 1987-2004 ja nolla vuodesta 2005 lähtien.
 
 #### `uusper` — Uusperhe
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheessä ainakin yksi ei-yhteinen lapsi, ei ikärajaa.
 
@@ -96,58 +96,58 @@ null = ei uusperhe / ei kuulu perheväestöön
 
 #### `pekoko` — Perheen koko
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen henkilöiden lukumäärä. Perheväestöön kuuluvilla perheen koko on kaksi tai enemmän, bl = perheväestöön kuulumaton
 
 #### `lkm` — Perheen lasten lukumäärä
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen lasten lukumäärä, kaikki kotona asuvat biologiset ja ottolapset, ei ikärajaa, bl = perheväestöön kuulumaton
 
 #### `a3lkm` — Perheen alle 3-vuotiaiden lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 3-vuotiaiden lasten lukumäärä, kotona asuvat kaikki  biologiset ja ottolapset. Tieto vuodesta 2006 lähtien, bl = perheväestöön kuulumaton.
 
 #### `a7lkm` — Perheen alle 7-vuotiaiden lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 7-vuotiaiden lasten lukumäärä, kotona asuvat kaikki  biologiset ja ottolapset, bl = perheväestöön kuulumaton.
 
 #### `a18lkm` — Perheen alle 18-v. lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 18-vuotiaiden lasten lukumäärä, kaikki kotona asuvat biologiset ja ottolapset, bl = perheväestöön kuulumaton.
 
 #### `a25lkm` — Perheen alle 25-v. lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Perheen alle 25-vuotiaiden lasten lukumäärä, kaikki kotona asuvat biologiset ja ottolapset, bl = perheväestöön kuulumaton.
 
 #### `yhta18` — Perheen vanhempien alle 18-v. yhteisten biologisten tai adoptiolasten
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Uusperheen vanhempien alle 18-vuotiaiden yhteisten biologisten tai adoptiolasten lukumäärä, bl = perheväestöön kuulumaton.
 
 #### `aidina18` — Vain äidin alle 18-v. t lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Vain äidin alle 18-vuotiaat biologiset tai adoptiolapset. Vuosina 1987-2005 tieto koskee vain uusperheitä, bl = perheväestöön kuulumaton.
 
 #### `isana18` — Vain isän alle 18-v. lasten lkm
 
-**Ryhmä / Group:** Perhe
+**Group:** Perhe
 
 Vain isän alle 18-vuotiaat biologiset tai adoptiolapset. Vuosina 1987-2005 tieto koskee vain uusperheitä, bl = perheväestöön kuulumaton.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** Patentti- ja rekisterihallitus, hakemuskohtaiset tiedot
 - **Keywords:** innovaatiot,innovaatiotoiminta,patentit,tuotekehitys
 
-## Kuvaus / Description
+## Description
 
 Suomessa haetut patentit (1985 - 2013) on koottu aikasarjaksi. Aineisto sisältää tietoja Suomessa haetuista patenteista hakijayrityksen mukaan. Patentit voidaan luokitella kansainvälisen patenttiluokituksen (International Patent Classification, IPC) tai toimialan mukaan. 
 
@@ -45,9 +45,9 @@ Teollisella käyttökelpoisuudella tarkoitetaan pääasiassa sitä, että keksin
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi ja Patentti- ja rekisterihallituksen sivuilta: http://www.prh.fi/fi/index.html
 
-## Muuttujat / Variables (6)
+## Variables (6)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -56,7 +56,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tol_2002` | Toimiala tol2002 | — | toimiala_1_2002_01_01 | — |
 | `tol_2008` | Toimiala tol2008 | — | toimiala_1_2008_01_01 | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -70,16 +70,16 @@ Kansainvälinen patenttiluokitus (International Patent Classification) on WIPO:n
 
 #### `tol_2002` — Toimiala tol2002
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Toimialaluokituksen 2002 mukainen toimiala saatavissa vuoteen 2009 asti. Ei täysin vastaa yritysrekisterin päivitettyä toimialatietoa. Onkin suositeltavaa hakea yritysrekisterin toimialatieto kullekin vuodelle (erikseen saatavissa yritys-toimiala-avain), ja käyttää patenttiaineiston toimialatietoa tarvittaessa vain täydentävänä tietona.
 
 #### `tol_2008` — Toimiala tol2008
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Toimialaluokituksen 2008 mukainen toimiala saatavissa vuodesta 2007 lähtien.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

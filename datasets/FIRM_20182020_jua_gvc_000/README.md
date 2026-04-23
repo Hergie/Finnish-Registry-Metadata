@@ -11,7 +11,7 @@
 
 Globaalit arvoketjut ja toimintojen ulkoistaminen -tilasto kuvaa vuonna 2020 Suomessa toimineiden yli 50 palkansaajaa työllistävien yritysten tekemiä ulkoistuksia aikavälillä 2018–2020
 
-## Kuvaus / Description
+## Description
 
 Globaalit arvoketjut ja toimintojen ulkoistaminen -kyselyn tavoitteena on saada tietoa yritysten arvoketjujen jäsentymistä globaalisti. Yksi yritysten tuotantoketjujen hajaantumisen ilmentymä on toimintojen ulkoistaminen. Kyselyn tiedot kertovat, mitä tehtäviä Suomessa toimivat yritykset siirtävät ulkomaille, ja mille alueelle. 
 
@@ -81,9 +81,9 @@ Tiedustelun tulokset eivät myöskään välttämättä vastaa samasta aiheesta 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (374)
+## Variables (374)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu y-tunnus | — | — | — |
 | `BACKSRC` | Onko yrityksenne siirtänyt toimintoja takaisin Suomeen vuosien 2018–2020 aikana (osittain tai kokonaan)? | — | — | — |
@@ -460,7 +460,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `CORE_BFUNC` | Yrityksen ydinliiketoiminto | — | — | — |
 | `EMP_CORE_BFUNC` | Ydinliiketoiminnon henkilöstömäärä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu y-tunnus
 
@@ -1887,4 +1887,4 @@ Ydinliiketoiminnon henkilöstömäärä on sama kuin ko. liiketoimintoa vastaava
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

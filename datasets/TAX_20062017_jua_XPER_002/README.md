@@ -10,7 +10,7 @@
 - **Population:** Työnantajat
 - **Source:** Verohallinnon Tilastokeskukselle tilastotarkoituksiin toimittama vuosi-ilmoitusaineisto
 
-## Kuvaus / Description
+## Description
 
 Työnantajan tai suorituksen maksajan vuosi-ilmoitustiedot ovat saatavissa tutkimuskäyttöön suorituksittain vuosilta 1995 - 2019.
 
@@ -24,9 +24,9 @@ Palkoista ja muista ansiotuloista ei enää ole annettu vuosi-ilmoitusta vuodest
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (47)
+## Variables (47)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `suorlaji` | Suorituslaji | — | — | — |
 | `palkka` | Palkka | — | — | — |
@@ -76,7 +76,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `srah_muutun` | Suojattu sijoitusrahaston tunnus, muu | — | — | — |
 | `vuosi` | Maksuvuosi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `suorlaji` — Suorituslaji
 
@@ -350,4 +350,4 @@ Vuodesta 2015 lähtien.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

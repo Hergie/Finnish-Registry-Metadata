@@ -11,7 +11,7 @@
 - **Source:** Verohallinnon Tilastokeskukselle tilastotarkoituksiin toimittamat tiedot
 - **Related:** <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_yhdistetty_omistaja_tyontekija_tyonantaja_aineisto_flown.html">FLOWN-aineisto</a>
 
-## Kuvaus / Description
+## Description
 
 FLOWN (Finnish Longitudinal OWNer-Employer-Employee Data) -valmisaineisto mahdollistaa yritysten ja niiden omistajien tietojen yhdistämisen ja käytön tutkimuksessa. Aineisto perustuu Verohallinnon Tilastokeskukselle tilastotarkoitusta varten toimittamiin osakeyhtiöiden osakastietoihin, yhtiömiestietoihin ja osinkotietoihin. 
 
@@ -32,9 +32,9 @@ Muista yksikkötason tiedoista poiketen kynnyssääntönä FLOWN-aineiston tieto
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (17)
+## Variables (17)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `hid_e` | Osingon saajan suojattu henkilön yksilöivä tunniste | — | — | — |
 | `saa_yrtun_s` | Osingon saajan suojattu y-tunnus | — | — | — |
@@ -54,7 +54,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `YLIJAAMA` | Osuuskuntien ylijäämä (brutto) | — | — | — |
 | `LISMAARA` | Omaan pääomaan merkitty määrä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `hid_e` — Osingon saajan suojattu henkilön yksilöivä tunniste
 
@@ -133,4 +133,4 @@ Alkaen vuodesta 2018.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

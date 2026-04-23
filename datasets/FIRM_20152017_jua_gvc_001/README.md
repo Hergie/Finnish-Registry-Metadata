@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen Liiketoimintojen kansainvälinen organisointi ja ulkoistaminen ulkomaille 2018 -kysely
 - **Related:** <a href= "https://www.stat.fi/tup/kokeelliset-tilastot/globaalit-arvoketjut-ja-toimintojen-ulkoistaminen/index.html">Globaalit arvoketjut ja toiminnan ulkoistaminen</a>
 
-## Kuvaus / Description
+## Description
 
 Globaalit arvoketjut ja toimintojen ulkoistaminen -kyselyn tavoitteena on tuottaa tietoa yritystoiminnan globalisoitumisesta. Sen avulla pyritään arvioimaan globaalien tuotanto / arvoketjujen esiintymistä kysymyksillä, jotka koskevat yritysten
 toimintojen kansainvälistä organisointia, ulkopuolisten alihankkijoiden käyttöä ja toimintojen siirtoa
@@ -80,9 +80,9 @@ Yrityksen tukitoiminnot mahdollistavat tavaroiden ja palveluiden tuotannon markk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (404)
+## Variables (404)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `question_5` | Mikä seuraavista vaihtoehdoista kuvaa parhaiten yrityksenne ydinliiketoimintaa vuoden 2017 lopussa? | — | — | — |
@@ -489,7 +489,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `question_41_row_8` | Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Kotimaisen tuotannon automatisointi korvaa ulkomaista tuotantoa | — | — | — |
 | `question_41_row_9` | Miten tärkeitä seuraavat tekijät olivat päätettäessä toimintojen siirtämisestä Suomeen?:Tuotannon tulee tapahtua lähempänä T&K - toimintaa ja / tai tuotesuunnittelua | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -1783,4 +1783,4 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

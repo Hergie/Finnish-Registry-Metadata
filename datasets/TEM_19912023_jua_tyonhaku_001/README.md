@@ -11,7 +11,7 @@
 - **Source:** TEM työnvälitystilaston aineisto
 - **Keywords:** työmarkkinat,työpaikat,työttömyys,työttömät,työvoimapolitiikka
 
-## Kuvaus / Description
+## Description
 
 Työllisyys, kehittämis- ja hallintokeskus (KEHA-keskus) on ylläpitänyt työhallinnon asiakaspalvelun tietojärjestelmää URAa. Ennen KEHA-keskusta tietojärjestelmää on ylläpitänyt Työ- ja elinkeinoministeriö yhdessä työ- ja elinkeinotoimistojen kanssa. Tutkijapalveluissa on käytössä kaksi KEHA:n aineistokokonaisuutta: 
 
@@ -62,9 +62,9 @@ Vuoden 2023 aineistossa on päivittyneitä koodistoja:
 - Etuuslaji 2023: lisätty kaksi uutta koodia.  -- 06 Muutosturvaraha, 07 Peruspäiväraha tai tmtuki
 - Tukiprosentti 2023: lisätty yksi uusi koodi (70%)
 
-## Muuttujat / Variables (96)
+## Variables (96)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `yrtun_s` | Työnantajan liike- ja yhteisötunnus | — | — | YSIJOIT |
@@ -163,7 +163,7 @@ Vuoden 2023 aineistossa on päivittyneitä koodistoja:
 | `jar_s` | Suojattu järjestäjäkoodi | — | — | KTYOKOU |
 | `lausno7` | Lausuntokoodi (A-TMT) | — | — | YTVPOLL |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
@@ -171,61 +171,61 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `yrtun_s` — Työnantajan liike- ja yhteisötunnus
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Suojattu Työantajan liike- ja yhteisötunnus
 
 #### `syntyv` — Syntymävuosi
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Henkilön syntymävuosi
 
 #### `sukup` — sukupuoli
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Tieto sukupuolesta on saatu Väestörekisterikeskuksen väestötietojärjestelmästä.
 
 #### `alkpv1` — Työnhaun alkamispäivä
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Työnhaun alkamispäivä
 
 #### `esppv` — Edellisen työsuhteen päättymispäivä
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Edellisen työsuhteen päättymispäivä
 
 #### `hamaa` — Välitysmaa
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Välitysmaa (vrt. kansalaisuus)
 
 #### `hapkd` — Työnhaun päättymissyy
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Työnhaun päättymissyy.00=Työllistetty, 01=Välitetty työhön yleisille työmarkkinoille, 02=Lom./lyh työvko päät., 03=Saanut itse työpaikan, 04=Saanut itse työpaikan, 05=Siirt. työvoiman ulkopuolelle, 06=Muu syy tai ei tietoa, 07=Siirt. tyött.eläkkeelle, 08=Aloitt. muun koulutuksen, 09=Siirt. työnhakuun ETA-valtioon, 10=Ei uusinut työnhakuaan, 11=Aloittanut valmennuksen/ kokeilun, 12=Aloit. kunt. työtoiminnan, 13=Aloittanut omaehtoisen opiskelun, 14=Toist. asioinnin laiminl. (alk. 05/2022), 15=Ei toimittanut pyyd. selvityksiä (alk. 05/2022), 16=Siirtynyt osa-aikatyöhön (alk. 05/2022), null=Päättymissyytä ei määritelty.
 
 #### `hedkd` — Työnhakua edeltävä toiminta
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Työnhakua edeltävä toiminta  00=Työttömyysuhan alainen, 01=Työssä, 02=Kuntien työllist. tukevassa toiminnassa, 03=Ammatillisessa oppilaitoksessa, 04=Yleissivist. oppilaitoksessa, 05=Työvoimakoulutuksessa, 06=Yrittäjänä, 07=Asevelvollinen/siviilipalvelu, 08=Vapausrangaistusta suorittamassa, 09=Sairaana, 10=Äitiys-, isyys-, perhevapaa, 11=Lapsia hoitamassa, 12=Eläkkeellä, 13=Muu / ei tietoa, ZZ=Koodi ei käytössä,TYHJÄ =Tuntematon
 
 #### `loppv1` — Työnhaun päättymispvm
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Työnhaun päättymispvm
 
 #### `otlupa` — Oleskelu/työlupa
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 0= Suomalainen syntyperä (30.4.2004 asti), 1= Inkeriläinen syntyperä (1.5.99 asti), 2= Suomalainen puoliso/sukulainen (1.5.99 asti), 3= Perheenjäsenet (30.4.2004 asti), 4= Pakolainen (30.4.2004 asti), 5= Työvoimapoliittinen siirtolainen (30.4.2004 asti), 6= Jatkuva oleskelulupa, 7= Pysyvä oleskelulupa (sis.P-EY), 8= ETA/EU-maan kansalainen+Sveitsi, 9= Muu palveluihin oikeutettu (30.4.2004 asti), z= Ei käytössä, A=Brexit pysyvä (PSEU, alk. 01/2022), B=Brexit oleskeluoikeus (SEU, alk. 01/2022), C=Tilap. oleskelulupa (ukrainalainen, alk. 03/2022). 
 
@@ -249,95 +249,95 @@ zz= Ei käytössä,
 
 #### `toanoh` — Edellisen työnantajan toimiala-2
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Työnhakijan nykyisen (työssä oleva) tai aikaisemman (työtön) työnantajan tuotantotoiminnan luokittelemiseen käytetään Tilastokeskuksen laatimaa toimialaluokitusta. Vuodesta 2010 lähtien käytössä on ollut Toimialaluokitus TOL 2008 (Tilastokeskus, Käsikirjoja 4, 2008), joka perustuu Euroopan Unionin tilastoviraston Eurostatin julkaisemaan toimialaluokitukseen NACE Rev.2. TOL 2008 on EU:n tilastoviraston hyväksymä Suomen kansallinen versio NACE -luokituksesta. Luokitus muodostuu viidestä hierarkkisesta tasosta. Työhallinnon asiakasrekisterissä käytössä on 2-numerotaso, johon kuuluvat luokat merkitään 2-numeroisella koodilla. Kunakin ajankohtana aiemmin käytössä ollut toimialaluokitus löytyy työhallinnon koodikirjoista.
 
 #### `tpskd` — Edellisen työsuhteen päättymissyy
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Edellisen työsuhteen päättymissyy  01=Oma pyyntö, 02=Määräaikainen työsuhde päättynyt, 03=Työsuhde purettu koeaikana, 04=Irtisanottu tuotann./taloudell. syistä, 05=Irtisanottu muusta syystä, 06=Toimipaikka lopetettu/siirtynyt muualle, 07=Muu syy tai ei tietoa, 11=Työskentely on päättynyt, 12=Työsuhteen päättyminen riitautettu, 21=Lomautettu määräajaksi, 22=Lomautettu toistaiseksi, 23=Sairausloma, 24=Työsop.sovit.työn/palkanmaksun keskeytys, 25=Tulipalo tms,työn/palkanmaksun keskeytys, 26=Virantoimituksesta pidättäminen tai vast, 27=Työntekijää koskeva lakko tai työnsulku, 28=Muita työntekij. koskeva lakko/työsulku, 29=Rakennus-/metsäala: työnteon pakkaseste, 30=Ei työsuhdetta, 90=Työskentely jatkuu edelleen, TYHJÄ =Tuntematon
 
 #### `ulkkd` — Hakija ulkomailta
 
-**Ryhmä / Group:** YTHAKU
+**Group:** YTHAKU
 
 Hakija ulkomailta 1=Ruotsista, 2=Norjasta, 3=muualta
 
 #### `tappvh` — Alkamispvm
 
-**Ryhmä / Group:** YTYOLL
+**Group:** YTYOLL
 
 Työllisyyden alkamispvm
 
 #### `tppvm` — Päättymispvm
 
-**Ryhmä / Group:** YTYOLL
+**Group:** YTYOLL
 
 Työllisyyden päättymispvm
 
 #### `tymsyy` — Työllisyyden muutossyy
 
-**Ryhmä / Group:** YTYOLL
+**Group:** YTYOLL
 
 Työllisyyden muutossyy   00=Työllistetty, 01=Välitetty työhön yleisille työmarkkinoille, 02=Lomautus/lyhennetty työviikko päättynyt, 03=Saanut itse työtä, 04=Aloittanyt työvoimakoulutuksen, 05=Siirtynyt työvoiman ulkopuolelle, 06=Muu syy tai ei tietoa, 07=Siirtynyt työttömyyseläkkeelle, 08=Aloittanut muun koulutuksen, 09=Työhön/työnhakuun EU/ETA-valtioon, 10=Ei ole uusinut työnhakuaan, 11=Aloittanut valmennuksen/kokeilun, 12=Aloittanut kuntouttavan työtoiminnan, 13=Aloittanut omaehtoisen opiskelun, 14=Toist. asioinnin laiminl. (alk. 05/2022), 15=Ei toimittanut pyyd. selvityksiä (alk. 05/2022), 16=Siirtynyt osa-aikatyöhön (alk. 05/2022), TYHJÄ=Tuntematon
 
 #### `tyok1` — Työllisyyskoodi
 
-**Ryhmä / Group:** YTYOLL
+**Group:** YTYOLL
 
 0=Työllistetty, 1=Työssä, yleisillä työmarkkinoilla, 2=Työtön, 3=Lomautettu, 4=Lyhennetyllä työvkolla, 5=Työvoiman ulkopuolella, 6=Työttömyyseläkkeellä, 7=Työvoiman ulkopuolella, työllistymistä edistävässä palvelussa, 8=Työvoiman ulkopuolella, koulutuksessa, 9=Osa-aikatyössä (alk. 05/2022), z=Tuntematon
 
 #### `alkpv2` — Alkamispvm
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Työllistämisen alkamispvm
 
 #### `ammnos` — Työllistämisen ammatti
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Työllistämisen ammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 #### `eupnos` — ESR-projektikoodi
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 #### `kryhm` — Kohderyhmä
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Työllistämisen kohderyhmä 01=Nuori (v. -2014), 02=Pitkäaikaistyötön (-2014), 03=Vamma/sairaus, 04=Muu työllistettävä (-2014), 05=55-59 -vuotias (v. -2014), 06=Työsuhteesta tuleva, 07=Työtön alle 1 v., 08=Työtön 12/14 kk, 09=Työtön 24/28 kk, 10=60-v. väh. 12 kk työtön, TYHJÄ=Tuntematon
 
 #### `loppv2` — Päättymispäivä
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Työllistämisen päättymispvm
 
 #### `ralaj` — Rahalaji
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Rahalaji 0=alue,1=hlökoht,2=hark.var,3=työmääräraha,4=EU-rah., 5=hakemus 55 vuotta täyttäneiden työll.tuesta
 
 #### `saikd` — Työaika
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Työaika 0=väh 85% normaalityöajasta, 1=koodi ei käytössä (aiemmin ’väh. 75%’), 2=osa-aikatyö, null=tuntematon (nykyisin starttirahan saajia, aikaisemmin oli myös työmarkkinatuen työharjoittelussa/työelämävalmennuksessa olevia)
 
 #### `shlokd` — Henkilöstön kokoluokka
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Henkilöstön kokoluokka 1=0-4 henkilöä, 2=5-9 henkilöä, 3=10-19 henkilöä, 4=20-49 henkilöä, 5=50-99 henkilöä, 6=100-199 henkilöä, 7=200-499 henkilöä, 8=500-999 henkilöä, 9=Yli 1000 henkilöä
 
 #### `sijkds` — Työllistämisen laji
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 5T = PALKKATUKI KUNNALLE (TYÖTT.KESTO), 5V = PALKKATUKI KUNNALLE (VAMMA/SAIRAUS), 50 = PALKKATUKI (-2015)TYÖLL.MÄÄRÄR. KUNTA, 51 = OPPISOPIMUS KUNNALLE (PT) (-2015), 53 = PALKKATUKI TMT:LLA KUNTA (500) (-2015), 54 = PALKKATUKI TMT:LLA KUNTA (130) (-2015), 57 = PALKKATUKI NUOR.KUNTA (TMT,65) (-2015), 58 = OPPISOPIMUS NUOR.KUNTA(TMT,65) (-2015), 55 = OPPISOPIMUS KUNNALLE (TMT,130) (-2015), 55=TYÖLLISTÄMISTUKSI, 56 = OPPISOPIMUS KUNNALLE (TMT,500) (-2015), 6T = PALKKATUKI YKSIT. (TYÖTT.KESTO), 6V = PALKKATUKI YKSIT. (VAMMA/SAIRAUS), 60 = PALKKATUKI TYÖLL.MÄÄRÄR. YKSIT (-2015), 68 = OPPISOPIMUS YKSIT. TA:LLE (PT) (-2015), 69 = PALKKATUKI TMT:LLA YKSIT.(500) (-2015), 80 = PALKKATUKI TMT:LLA YKSIT.(130) (-2015), 81 = PALKKATUKI NUOR.YKSIT.(TMT,65) (-2015), 87 = OPPISOPIMUS NUOR.YKSIT(TMT,65) (-2015), 88 = OPPISOPIMUS YKSIT. (TMT, 130) (-2015), 89 = OPPISOPIMUS YKSIT. (TMT, 500) (-2015), 40 = TYÖLLISTÄM. VALTIOLLE (PL.ELY), 41 = TYÖLLISTÄMINEN ELY-VIRASTOON, 61 = STARTTIRAHA EI TYÖTTÖMÄLLE, 62 = STARTTIRAHA TYÖLL.MÄÄRÄRAHALLA, 65 = STARTTIRAHA TMT:LLA (-2015), 64 = TYÖLL.TUKI TYÖELÄMÄV. (-2010), 73 = SIJ. OSA-AIKALISÄLLÄ (-2014), 70 = TYÖHARJ. TYÖMARKKINATUELLA (-2014), 71 = TYÖELÄMÄVALM. TYÖTT.ETUUDELLA (-2014), 74 = VAIN TMT YKS.T-A, YHDT (-2007), 75 = VAIN TMT KUNTA,YHDTUKI (-2007)
 
@@ -345,157 +345,157 @@ HUOM! Julkinen työvoima- ja yrityspalvelu -lain muutoksen myötä vuoden 2013 a
 
 #### `sipkd` — Työllistämisen päättymissyy
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 00=Työllistämisen osa päättynyt, 01=Määräaika päättynyt, 02=Saanut työllistämispaikasta työtä, 03=Saanut muuta työtä, 04=Aloittanut koulutuksen, 05=Irtisanottu, 06=Muu kuin 1-5 tai ei tietoa, 07=Keskeyttänyt ja jäänyt työttömäksi, TYHJÄ=Tuntematon
 
 #### `staskd` — Sektori
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 1=valtio,2=kunta,3=yks.ta, 4=yritys,5=kotit., 6=kuntainl. 7=hyvalue
 
 #### `toanos` — Työllistäjän toimiala 2 (starttirahoista puuttuu)
 
-**Ryhmä / Group:** YSIJOIT
+**Group:** YSIJOIT
 
 Työnhakijan nykyisen (työssä oleva) tai aikaisemman (työtön) työnantajan tuotantotoiminnan luokittelemiseen käytetään Tilastokeskuksen laatimaa toimialaluokitusta. Vuodesta 2010 lähtien käytössä on ollut Toimialaluokitus TOL 2008 (Tilastokeskus, Käsikirjoja 4, 2008), joka perustuu Euroopan Unionin tilastoviraston Eurostatin julkaisemaan toimialaluokitukseen NACE Rev.2. TOL 2008 on EU:n tilastoviraston hyväksymä Suomen kansallinen versio NACE -luokituksesta. Luokitus muodostuu viidestä hierarkkisesta tasosta. Työhallinnon asiakasrekisterissä käytössä on 2-numerotaso, johon kuuluvat luokat merkitään 2-numeroisella koodilla. Kunakin ajankohtana aiemmin käytössä ollut toimialaluokitus löytyy työhallinnon koodikirjoista.
 
 #### `kotsk` — Suunnitelman laji
 
-**Ryhmä / Group:** YTHAKSU
+**Group:** YTHAKSU
 
 00=Työllistymissuunnitelma, 01=Kotoutumissuunnitelma, 02=Aktivointisuunnitelma, 03=Yksilöity THsuunnitelma (4/2010asti), 04=Uudist, yksil. THsuunn. (4/2010asti), 05=Työllistämisohjelma (4/2010 asti), 07=Monialainen työllistymissuunnitelma (alk. 05/2022), TYHJÄ =Tuntematon
 
 #### `thspv` — Suunnitelman tekopäivä
 
-**Ryhmä / Group:** YTHAKSU
+**Group:** YTHAKSU
 
 Työllistämissuunnitelman tekopäivä
 
 #### `alkpv7` — Jakson alk.pv
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 Jakson alk.pv (mm. vuorottelu, kunt.työtoiminta, omaeht.opiskelu)
 
 #### `kasnol` — Työttömyyskassan numero
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 Työttömyyskassan numero
 
 #### `kelnol` — KELAn toimiston numero
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 toimiston numero
 
 #### `lausno` — Lausuntokoodi
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 A1 (06) = TYÖTTÖMYYSETUUDEN MAKSAMISELLE EI TYÖVOIMAPOLIITTISTA ESTETTÄ, A2 = EI OIKEUTTA TYÖTTÖM.ETUUTEEN, EI HAE KOKOAIKATYÖTÄ, A3 (14) = EI OIKEUTTA TYÖTTÖM.ETUUTEEN, EI OLE TYÖTÖN, A4 (16) = EI OIKEUTTA TYÖTTÖM.ETUUTEEN, TYÖNHAKEMUS EI OLE VOIMASSA, A5 (20) = EI OIKEUTTA TYÖTTÖM.ETUUTEEN, ESTYNYT OLEMASTA TYÖMARKKINOIL, A6 (15) = ILMAN HYV.SYYTÄ ED. 6KK AIKANA TYÖMARKK. VÄH. KUIN 6 VIIKKOA, A7 = EI ESTETTÄ TYÖTT.ED. MAKSAMIS. PALKKATUEN MAKSAM. PÄÄTTYNYT, A8 = EI OIKEUTTA TYÖTT.ETUUTEEN, EI RAJOIT. OIKEUTTA TEHDÄ TYÖTÄ, A9 = EI OIKEUTTA TMTUKEEN, OIKEUS ANSIOTYÖHÖN TILAP.OLESK.LUVALLA, B1 = ON TYÖHARJOITTELUSSA, EI ESTETTÄ TYÖT.ETUU.MAKSAMISELLE, B2 = ON TYÖELÄMÄVALMENNUKSESSA, EI ESTETTÄ TYÖT.ETUU.MAKSAMISELLE, B3 = TYÖKOKEILUSSA, EI ESTETTÄ TYÖT.ETUU.MAKSAMISELLE, B4 = TYÖ- JA KOUL.KOKEILUSSA, EI ESTETTÄ TYÖT.ETUU.MAKSAMISELLE, B5 = EI ESTETTÄ ETUUD.MAKSAMISELLE KUNTOUTTAV.TYÖTOIMINNAN AJALTA, B6 = ALOIT.KUNT.TYÖTOIM.,EI OIKEUT TYÖT.ETUU.,TYÖSSÄOLOVELVOITE, B7 = EI OLE OIKEUTTA TYÖT.ETUUT., POISSA TYÖL. EDIST. PALVELUSTA, B8 = EI ESTETTÄ TYÖTT.ED. MAKSAMIS. POISSA HYVÄKSYTTÄVÄSTÄ SYYSTÄ, B9 = PALVELU ON PÄÄTTYNYT. LAUSUNTO TOIMITETAAN MYÖHEMMIN, BA = TYÖNHAKUVALMENNUKSESSA, EI ESTETTÄ TYÖTT.ETUUD. MAKSAMISELLE, BB = URAVALMENNUKSESSA, EI ESTETTÄ TYÖTTÖMYYSETUUDEN MAKSAMISELLE, BC = TYÖKOKEILUSSA TYÖPAIKALLA, EI ESTETTÄ TYÖT.ETUU.MAKSAMISELLE, BD = KOUL.KOKEILU OPPILAIT., EI ESTETTÄ TYÖTT.ETUUD. MAKSAMISELLE, BE = KUNTOUTT.TYÖTOIMINNASSA, EI ESTETTÄ TYÖTT.ETUUD.MAKSAMISELLE, BF = ALOIT.KUNT.TYÖTOIM.,EI OIKEUT TYÖTT.ETUUT. ODOTUSAJAN VUOKSI, BG = EI OIKEUTTA TYÖTT.ETUUT., POISSA TYÖLL. EDISTÄV. PALVELUSTA, BH = EI ESTETTÄ TYÖTT.ET.MAKS, POISSA TYÖLL.ED.PALV.HYVÄKS.SYYSTÄ, BI = TIEDOKSI MAKSAJALLE: OLLUT POISSA TYÖLLIST.EDIST. PALVELUSTA, BJ = TYÖLL.EDIST.PALVELU ON PÄÄTTYNYT. LAUSUNTO TOIMITETAAN MYÖH., BK=ON TYÖELÄMÄKOKEILUSSA, EI ESTETTÄ TYÖTT.ETUUDEN MAKSAMISELLE, C1 = EI ESTETTÄ TYÖTT.ED. MAKSAMIS. ON LAADITTU TYÖLLISTÄM.OHJELMA, C2 = ON TYÖLL. OHJELMAAN MERKITYSSÄ VALMENNUKSESSA TAI TYÖKOKEIL., C3 = TYÖLLIST. OHJELMAAN MERKITTY VALM. TAI TYÖKOKEILU PÄÄTTYNYT, C4 = EI TÄYTÄ MUUTOSTURVAN EDELLYT., TYÖLL.EDISTÄVÄSSÄ PALVELUSSA, C7 = EI ESTETTÄ TYÖLLIST.RAHAN MYÖNT. EI TYÖTÖN,EI OIK. TM-TUKEEN, C8 = EI ESTETTÄ TYÖLLIST.RAHAN MYÖNT,OSA-AIKATYÖ,EI OIK.TM-TUKEEN, C9 = TYÖLLISTÄMISRAHAA EI MYÖNNETÄ, EDELLYTYKSET EIVÄT TÄYTY, D1 = ALOITTANUT OMAEHT. OPISKELUN, TYÖTT.ETUUD.MAKSAM. EI ESTETTÄ, D2 = EI OLE OIKEUTTA TYÖT.ETUUT., SAAMISEN EDELLYT. EIVÄT TÄYTY, D3 = OMAEHT.OPISKELU KESKEYT. TILAP., LAUSUNTO TOIMITETAAN MYÖH., D4 = EI OIKEUT. TYÖTT.ET. OMAEHT.OPISK.,LAUSUNTO TOIMITETAAN MYÖH, D6=ALOITT.OMAEHTOISEN OPISKELUN, TYÖTT.ETUUD.MAKSAM. EI ESTETTÄ, D9 = OMAEHTOINEN KOUL. PÄÄTTYNYT, LAUSUNTO TOIMITETAAN MYÖHEMMIN, E1 = ON TYÖVOIMAKOULUTUKSESSA, EI ESTETTÄ TYÖTT.ETUUD. MAKSAMISEL, E2 = AVOHJAUKSESSA,KUNTOUTUSTOIMP., EI ESTETTÄ TMTUEN MAKSAMISELLE, E3 = ON TYÖHARJOITTELUSSA, EI ESTETTÄ TYÖM.TUEN MAKSAMISELLE, E4 = ON TYÖELÄMAVALMENNUKSESSA, EI ESTETTÄ TYÖM.TUEN MAKSAMISELLE, E5 = HAKIJAN TMTUEN MAKS. TYÖNANTAJALLE EI OLE TYÖV.POL. ESTETTÄ, E6 (04) = HAKIJAN TMTUKEA EI VOI MAKSAA TYÖNANTAJALLE, E7 = HAKIJA TYÖVOIM.KOULUTUKSESSA, KOULUTUK. SUUNN. LOPPUPV ON OL, E8 = TYÖVOIMAKOULUTUS PÄÄTTYNYT, LAUSUNTO TOIMITETAAN MYÖHEMMIN, E9 = TOIMENPIDE ON PÄÄTTYNYT. LAUSUNTO TOIMITETAAN MYÖHEMMIN, F1 (18) = TE-TOIMISTON LAUSUNTO TOIMITETAAN MYÖHEMMIN, F2 (17) = TIEDOTE, F3 = ALOITTANUT OMAEHT.KOULUTUKSEN, KOUL.PÄIVÄRAHAN MAKS.EI ESTET., F4 = HAKIJA ILMOITT.LÄHTEVÄNSÄ TYÖNHAKUUN EU/ETA-MAAHAN TAI SVEIT, F5 = TYÖSUHDE VOIMASSA,SAANUT ENIMMÄISAJAN SPÄIVÄRAHAA,TYÖKYVYTN, F6 = HAKIJA ON PITKÄAIKAISTYÖTÖN, LAKI ELÄKETUESTA 1 §, F7 = HAKIJA EI OLE PITKÄAIKAISTYÖT. LAKI ELÄKETUESTA 1 §, F8 = ALOITT.TYÖLL.OHJ.S.OMAEHT.KOUL KOUL.PÄIVÄRAHAN MAKS.EI ESTET., F9 = TIEDOKSI MAKSAJALLE PALKKATUEN MAKSAM. PÄÄTTYNYT, G1 = TYÖNHAKIJAN KANSSA ON LAADITTU KOTOUTUMISSUUNNITELMA, G2 = ALOIT. KOT.SUUNN. SIS. OMAEHT.OPISK,KOTOUT.TUEN/ TYÖTT.ETUUD. MAKS. EI EST, G3 OMAEHT.OPISK. KOTOUT.TUELLA/ TYÖTT.ETUUD. KESK. TILAP.,LAUSUNTO TOIM.MYÖH., G4 = EI OIKEUT. OMAEHT.OPISK. PERUST. KOTOUT.TUKEEN/ TYÖTT.ET., LAUS. MYÖH., G9 = OMAEHT.OPISK. KOTOUT.TUELLA/ TYÖTT.ET. PÄÄTTYNYT. LAUSUNTO TOIM. MYÖH., H1 = EI ESTETTÄ TYÖMARKKINATUEN MAKSAMISELLE KOTOUTUMISTUKENA, H2 = EI OIKEUTTA KOTOUTUMISTUKEEN KOTOUTUM.SUUNNITELMA TEKEMÄTTÄ, H3 = EI ESTETTÄ TMTUEN MAKS.KOTOUT. TUKENA, OSALL.RINNASTETT.KOUL., H4 = EI OIKEUT.TMTUKEEN, EI RAJOITM OIKEUTTA TEHDÄ TYÖTÄ SUOMESSA, H5 = EI ESTETTÄ TMTUEN MAKS.KOTOUT. TUKENA, OSALL. RINN. TOIMPIT., H9 = KOUL./TOIMP. RINN.PALV. PÄÄTT LAUSUNTO TOIMITETAAN MYÖHEMMIN, J1 = EI ESTETTÄ MATKA-AVUSTUKSEN MYÖNTÄMISELLE, J2 = MATKA-AVUSTUSTA EI MYÖNNETÄ, EI TYÖM.TUKEEN OIKEUTETTU, J3 = MATKA-AVUSTUSTA EI MYÖNNETÄ, AVUST.EI HAETTU ENNEN TYÖSUHDE, J4 = MATKA-AVUSTUSTA EI MYÖNNETÄ, KUSTANNUKS. JA HAK. OLOSUHTEET, J5 (42) = EI ESTETTÄ TMTUEN MAKSAMISELLE KUNTOUTTAV.TYÖTOIMINNAN AJALTA, K1 = HAKIJA 17-V. AMM.KOULUT.VAILLA EI OLE OIKEUTTA TYÖM.TUKEEN, K2 = HAKIJALLA EI OLE OIKEUTTA TYÖM.TUKEEN ODOTUSAJALTA, K6 = KOULUTUSTA VAILLA OLEVA NUORI, EI HAKENUT OPISKELUPAIKKAA, K7 = KOULUTUSTA VAILLA OLEVA NUORI, KESKEYTTI OPINNOT, K8 = KOULUTUSTA VAILLA OLEVA NUORI, EI NOUDATTANUT SUUNNITELMAA, L1 = VUOROTTELUVAPAANKORVAUK. MAKS. EI OLE TYÖV.POLIITT. ESTETTÄ, L2 = EI OIKEUTTA VUOROTTELUKORVAUK, EI TYÖTÖN,TYÖAIKA EI SÄÄN.MUK., L3 = EI OIKEUTTA VUOROTTELUKORVAUK, TYÖSSÄOLO EI KEST.VÄHINT.VUOTT, L4 = EI OIKEUTTA, VUOROTTELUVAPAAN KESTO YHTEENSÄ YLI 359 PÄIVÄÄ, L5 = EI OIKEUTTA, VUOROTTELUVAPAAN KESTO EI YHDENJ. VÄHINT. 90 PV, L6 = EI OIKEUTTA, VUOROTTELUVAPAAN JAKSOTTAM./PIDENT. EI PERUST., L7 = EI OIKEUTTA. KIRJALLISTA VVSOPIMUSTA EI TOIMIT.TE-TOIMISTOL., L8 = EI OIKEUTTA, EI TOIMITETTU LUOTETTAV. SELV. SIJAIS.PALKK., L9 = EI OIKEUTTA VUOROT.KORV., TYÖ EI KESTÄN.VÄH. 13 KK, LE=EI OIKEUTTA, VUOROTTELUVAPAAN ALOITTAMISEN IKÄRAJA YLITTYY, LF=EI OIKEUTTA, VUOROTTELUVAPAAN KESTO YHT. YLI 360 PV, LG=EI OIKEUTTA, VUOROTTELUVAPAAN KESTO EI YHDENJ. VÄH. 100 PV, LH=EI OIKEUTTA, EI TOIMITETTU MÄÄRÄAJASSA SELV. SIJAISEN PALKK., LJ=EI OIKEUTTA, VUOROTTELUVAPAAN KESTO YHT. YLI 180 PV, M1 (32 ja 33) = TYÖTTÖMYYSEDUN MAKSAMISELLE EI TYÖVOIMAPOLIITTISTA ESTETTÄ, M2 = TODIST.RIITAUTT.TYÖSUHT.IRTIS. EI TVPOL.ESTET.TYÖT.EDUN MAKS., M3 = HAKIJA EI OLE TYÖTÖN MÄÄRÄAJASTA LÄHTIEN, M4 (22) = TYÖLLISTYY PÄÄTOIM. YRITTÄJÄNÄ TAI OMASSA TYÖSSÄÄN, M5 = YRITYST.SATUNN.RINN.PALK.SAAJ. EI TVPOL.ESTET.TYÖT.EDUN MAKS., M6 (23) = PÄÄTOIMINEN OPISKELIJA, EI OIKEUTTA TYÖTTÖMYYSETUUTEEN, M7 = HAKIJA EI TYÖMARKKINOIDEN KÄYTETTÄVISSÄ, M8=PÄÄTOIMINEN OPISKELIJA, EI OIKEUTTA TYÖTTÖMYYSETUUTEEN (alk. 1.9.2022), N1 = ERONNUT ILMAN PÄTEVÄÄ SYYTÄ (YLI 5PV), N2 = ERONNUT ILMAN PÄTEVÄÄ SYYTÄ (ENINT. 5 PV) KEST. TYÖSTÄ, N3 = KIELT. TYÖSTÄ ILMAN PÄTEVÄÄ SYYTÄ (YLI 5 PV), N4 = KIELT. TYÖSTÄ ILMAN PÄTEVÄÄ SYYTÄ (ENINT. 5 PV), N5 = HAKIJA KIELT. 3 KK AIKANA AMM. TAIT.SOPIV.TYÖSTÄ (ENINT. 5PV), N6 = HAKIJA KIELT. AMMATTIT. HUOM. OTTAEN SOP. TYÖSTÄ (YLI 5 PV), N7 = KIELTÄYTYNYT KOULUTUKSESTA ILMAN PÄTEVÄÄ SYYTÄ, N8 = ERONNUT KOULUT. ILMAN PÄTEVÄÄ SYYTÄ, EROTETTU OMASTA SYYSTÄ, N9 = EI OIKEUTTA TYÖT.ETUUT.,ILMAN PÄTEV.SYYT.KESKEYT.TOIM.PITEEN, P1 = EI OIKEUTTA TYÖT.ETUUT.,ILMAN PÄTEV.SYYT.KIELT.SUUNN.LAATIM., P2 = KIELT. TOISTUV. THSUUNNITELM. SISÄLT. TVPOLIITT. TOIMENPIT., P3 = EI OIKEUTTA TYÖT.ETUUT.,KIELT.Q5=KARENSSI 60 PÄIVÄÄ, EI HAKENUT/ KIELTÄYTYI YLI 2 VIIKKOA KESTÄVÄÄ TYÖTÄ (1.5.2022 asti), Q6=1.5.2022 asti: KARENSSI 30 PÄIVÄÄ, KIELTÄYTYI ENINT. 2 VIIKON TYÖSTÄ (1.5.2022 asti), Q7=1.5.2022 asti: KARENSSI 90 PÄIVÄÄ, KIELTÄYTYI VARMASTA TYÖPAIKASTA (1.5.2022 asti), Q8=1.5.2022 asti: KARENSSI 60 PÄIVÄÄ, AIHEUTTI ITSE TYÖN PÄÄTTYMISEN (1.5.2022 asti), QA=KARENSSI 45 PÄIVÄÄ, EROSI TAI EROTETTIIN TYÖSTÄ (alk. 1.5.2022), QB=KARENSSI 45 PÄIVÄÄ, VIRASTA PIDÄTTÄMINEN (alk. 1.5.2022), QC=1.5.2022 asti: KARENSSI 30 PÄIVÄÄ, VIRASTA PIDÄTTÄMINEN (1.5.2022 asti), QE=KARENSSI 45 PÄIVÄÄ, KIELTÄYTYI VARMASTA TYÖSTÄ (alk. 1.5.2022), QF=KARENSSI 30 PÄIVÄÄ, KIELTÄYTYI VARMASTA ENINT. 2 VKOA KESTÄVÄSTÄ TYÖSTÄ (alk. 1.5.2022),  R1 = KIELT.ILMAN PÄTEV.SYYTÄ TYÖ., KOUL.TAI TOIMP., EI OIK. TMT, R2 (31) = 18-24-V. AMM. KOULUT. VAILLA JÄTTÄNYT HAKEM.AMMAT.KOULUTUK., R3 = EI OIKEUTT. TMTUKEEN OPINTOJEN KESKEYTYSAJALTA, ALLE 25-V., R7 = EI OIKEUTT.TMTUKEEN, KIELTÄYT. TAI ERONN. TYÖSTÄ, KOULUTUKS., R8 = EI OIKEUTT.TMTUKEEN, KIELTÄYT. TYÖKOK.TYÖELÄMÄV. TYÖHARJOITT., R9 = EI OIKEUTT.TMTUKEEN, KESKEYTT. TYÖKOK.TYÖELÄMÄV. TYÖHARJOITT., S1 = EI ESTETTÄ TYÖMARKKINATUEN MAKSAMISELLE KOTOUTUMISTUKENA, S2 = EI OIKEUTT. KOTOUTUMISTUKEEN, KIELT. OSALLIST. TVPOL. TOIMP., T1 = HAKIJA KIELT.OSAL. AKTIVOINTISUUNNITELMAN LAATIMISEEN, T2 = KIELT. KUNTOUT. TYÖTOIMINNASTA TAI KESK. KUNTOUT. TYÖTOIMIN., T3 = KUNTOUTTAVA TYÖTOIMINTA ON KESKEYTYNYT PÄTEVÄSTÄ SYYSTÄ, T4 (54) = TOISTUVASTI KIELTÄYTYN. AKTIVOINTISUUNNITELM. LAATIMISESTA, T5 = TOISTUVASTI KIELT.TAI KESKEYT. KUNTOUTTAVAN TYÖTOIMINNAN, T6 = EI OIKEUTTA TMTUKEEN, LAIMINL. AKTIVOINTISUUNN. NOUDATTAMISEN, U1 = VUOROTTELUVAPAAKORVAUKSEN MAKSAMISELLE EI TVPOL. ESTETTÄ, U2 = EI OIKEUT. VUOR.VAP.KORVAUK. HARJ. PÄÄTOIM.YRITTÄJÄTOIMINT., U3 = TARKOITUKSENA EI OLLUT TYÖVUOROTTELUN TOTEUTTAMINEN, V1 = KOULUT.PÄIVÄRAHAN MAKSAMISELLE EI OLE TYÖVOIMAPOL. ESTETTÄ, V2 = KOULUTUSPÄIVÄRAHAN SAAMISEN EDELLYTYKSET EI TÄYTY, W1=KARENSSI VÄHINT. 15 PV, EI TULLUT SUUNNITELMAN LAATIMISEEN (1.5.2022 asti), W2=KARENSSI VÄHINT. 30 PV, KIELTÄYTYI SUUNNITELMAN LAATIMISESTA (1.5.2022 asti), W3=KARENSSI 60 PÄIVÄÄ, LAIMINLÖI TOTEUTTAA SUUNNITELMAA (1.5.2022 asti), W4=KARENSSI 60 PÄIVÄÄ, KIELTÄYTYI PALVELUSTA (1.5.2022 asti), W5=KARENSSI 60 PÄIVÄÄ, KESKEYTTI PALVELUN (1.5.2022 asti), WA=KARENSSI 7 PÄIVÄÄ, TYÖNHAKUUN TAI PALVELUIHIN LIITTYVÄ MENETTELY (alk. 1.5.2022), WB=KARENSSI 14 PÄIVÄÄ, TYÖNHAKUUN TAI PALVELUIHIN LIITTYVÄ MENETTELY (alk. 1.5.2022),	Y1=HAKIJAN YRITYSTOIMINTA ALKANUT, EI ESTETTÄ TYÖTT.EDUN MAKS.,	Y2 = TYÖLLISTYY PÄÄTOIM. YRITTÄJÄNÄ, EI OIKEUTTA TYÖTT.ETUUTEEN, Y3 = TYÖLLISTYY PÄÄTOIM. OMASSA TYÖSSÄÄN, EI OIKEUTTA TYÖTT.ETUU., Y4 = YRITYST.SATUNN TAI OMA TYÖ SIVUTOIM,EI ESTET.TYÖT.EDUN MAKS., Y5 = PERH.JÄSENEN TYÖSK. YRITYKS. PÄÄTT, EI ESTET.TYÖT.EDUN MAKS., Y6 = TYÖT.ET. MAKS. EI ESTET, HAKIJAN OMASSA TYÖSSÄ TYÖLL. ALKAN., Y7 = TYÖTT.ET. MAKSAM. EI TYÖV.POL. EST,SIVUTOIM.YRITT. LASK.PALV, Y8 = EI OIKEUTTA TYÖTT.ET., PÄÄTOIM. YRITTÄJÄ LASK.PALV.YRITYKSEN, Y9 = TYÖTT.ET.MAKS. EI ESTETTÄ,TYÖ YRITT.LASK.PALV.YRIT. ON PÄÄTT, YK = TMT.MAKS.EI ESTETTÄ, YRITYSTOIM.PÄÄTT. TARTUNTATAUDIN VUOKSI, Z1 = TE-TOIMISTON SISÄINEN LAUSUNTO,EI TOIMITETA ETUUD.MAKSAJALLE, Z2 = SIIRRETTY TE-TOIMISTON LAUSUNNOKSI, Z3=TYÖSSÄOLOVELVOITE TÄYTTYNYT, TEKNINEN LAUSUNTO, Z4=TYÖSSÄOLOVELVOITE TÄYTTYNYT, TEKNINEN LAUSUNTO, Z5=KOULUTUSTA VAILLA OLEVA NUORI, ETUUSOIKEUDEN PALAUTUMINEN (alk. 2.5.2022), Z9 = TOIMIKUNNAN TIEDOTE
 
 #### `loppv7` — Jakson päättymispäivä
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 Henkilön työpoliittisen lausunnon jakson päättymispäivä
 
 #### `rekpv` — Lausunnon antopäivä
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 Henkilön työpoliittisen lausunnon antopäivä
 
 #### `alkpv8` — Työsuhteen alkamispäivä
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Henkilön tyllistämisen (välitys) työsuhteen alkamispvm
 
 #### `ammno3` — Välitysammatti
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Välitysammatti. 
 https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/.
 
 #### `ilmno` — Työpaikkailmoitusnumero
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Työpaikkailmoitusnumero (mm. vuorottelupaikka)
 
 #### `loppv8` — Työsuhteen päätt.päivä
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Henkilön työllisymisen (välitys) työsuhteen päättymispvm
 
 #### `piikdv` — Välitys te-keskus
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Välitys te-keskus  (merk., kun välitysalue=2)
 
 #### `valkd` — Työhönvälitysalue
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Työhönvälitysalue 1=asuinkuntaan,2=asuinkunnan ulkop,3=ulkom.
 
 #### `valpv` — Välityspäivä
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Työhönvlityspvm
 
 #### `vjskd` — Tukityöpaikka
 
-**Ryhmä / Group:** YTVALIT
+**Group:** YTVALIT
 
 Tukityöpaikka, nykyisin siirtyy tyhjänä?
 
 #### `alkpv4` — Työkokeilun alkamispäivä
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Työkokeilun alkamispäivä
 
 #### `eupnoko` — ESR-projektikoodi
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 #### `kokai` — Kokeilun kesto (työpäivinä)
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Kokeilun kesto (työpäivinä)
 
 #### `kokku` — Kokeilun kustantaja
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Kokeilun kustantaja 1=TEM, 2=muu (2013 alkaen Urasta tyhjää)
 
 #### `loppv4` — Työkokeilun loppupvm
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Työkokeilun loppupvm
 
 #### `ammno` — Kokeilun ammatti
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Kokeilun ammatti (v. 2014 alkaen) 
 https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 #### `kokeilu` — Työkokeilun laji
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Työkokeilun laji  20=Työkok. työpaikalla, 21=Työk. Työpajassa
 
@@ -504,251 +504,251 @@ HUOM! Julkinen työvoima- ja yrityspalvelu -lain muutoksen myötä vuoden 2013 a
 
 #### `kotav` — Kokeilun tavoite
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Kokeilun tavoite (v. 2014 alkaen )1=Työmarkkinoille paluu, 2=Ammatinvalinta ja urasuunnittelu,  - =Tuntematon
 
 #### `taskd` — Kokeilun sektori
 
-**Ryhmä / Group:** YTKOKE
+**Group:** YTKOKE
 
 Kokeilun sektori (v. 2014 alkaen)    1=Valtio, 2=Kunta, 3=Yksityinen työnant., yhteisö pl.yritys, 4=Yritys, 5=Yksityishenkilö, kotitalous, 6=Kuntayhtymä, kuntainliitto, 7=Hyvinvointialue,TYHJÄ=Tuntematon sektori
 
 #### `alkood` — Aloittamiskoodi
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Henkilön työvoimakoulutuksen aloittamiskoodi 0=ei aloittanut, 1=aloitti
 
 #### `alpvm` — Koulutuksen alkamispäivä
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen alkamispäivä
 
 #### `ammnoj` — Sijoittumisammatti
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen sijoittumisammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 #### `hapvm` — Koulutukseen hakupäivä
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen hakupvm
 
 #### `hedkdk` — Koulutusta edeltävä toiminta
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen edeltävä toiminta 00=tyött.uhan alainen, muut tyhjää
 
 #### `klaji` — Koulutuslaji
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen koulutuslaji 0=yl.siv,1=peruskoul,2=uud.koul,3=jatkokoul,4=muu
 
 #### `kopvt` — Koulutuspäivien lukumäärä
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Koulutuspäivien lukumäärä
 
 #### `ktunoh` — Kurssin tunnistenumero
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakurssin tunnistenumero
 
 #### `kunnos` — Sijoittumiskunta
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen sijoittumiskunta. Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämiä 3-numeroisia kuntakoodeja. Jos työnhakijan asuinpaikka on työnhaun alussa Ruotsissa, merkitään kuntakoodiksi 198, tai Norjassa, merkitään 197, tai muualla ulkomailla, merkitään 200.
 
 #### `laatu` — Työsuhteen laatu
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen työsuhteen laatu 1=Vakituinen työ, 2=Väliaikainen työ, 3=Työllistetty,
 
 #### `papvm` — Koulutuksen päättymispäivä
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Koulutuksen päättymispäivä
 
 #### `pasyy` — Päättymissyy
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen päättymisen syy  0=Suorittanut koulutuksen loppuun, 1=Keskeytti, sijoittunut koulutusalan työhön, 2=Keskeytti, sijoittunut muuhun työhön, 3=Keskeytti, mennyt muuhun koulutukseen, 4=Keskeytti, terveydelliset syyt, 5=Keskeytti, muut henkilökohtaiset syyt, 6=Keskeytti, opetusjärjest./karsiutui jatkosta, 7=Keskeytti muista syistä, 8=Erotettu, poissaolot, 9=Erotettu, muut syyt,   TYHJÄ =Tuntematon
 
 #### `styp` — Sijoittumistyyppi
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Sijoittumistyyppi  1=Sijoittunut koulutusalan työhön, 2=Sijoittunut muuhun työhön, 3=Mennyt muuhun koulutukseen, 4=Työmarkkinoiden ulkopuolella, 5=Työtön, 6 TAI TYHJÄ=Ei tietoa
 
 #### `tyokd` — Työllisyyskoodi
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen työllisyyskoodi 0=Työllistetty, 1=Työssä, yleisillä työmarkkinoilla, 2=Työtön, 3=Lomautettu, 4=Lyhennetyllä työvkolla, 5=Työvoiman ulkopuolella, 6=Työttömyyseläkkeellä, 7=Työvoiman ulkopuolella, työllistymistä edistävässä palvelussa, 8=Työvoiman ulkopuolella, koulutuksessa, 9=osa-aikatyössä (alk. 05/2022), z=Tuntematon
 
 #### `tyol` — Työllisyys
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen työllisyys 0=tyött.uhan al, 1= työssä, 2=työtön, 3=lom/lyh.työvko, 4=tv ulkop.
 
 #### `valpt` — Valintapäätös
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 Työvoimakoulutuksen valintapäätös  0=hylätty, 1=hyväksytty, 2=hyväksytty varalle
 
 #### `vapmu` — Vapaamuuttuja (nykyisin tyhjää)
 
-**Ryhmä / Group:** YTYOKOU
+**Group:** YTYOKOU
 
 #### `ely` — Kouluttavan ELY-keskuksen koodi
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Kouluttavan ELY-keskuksen koodi
 
 #### `erryhm` — Erityisryhmä
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Erityisryhmä 01=vammaiset/pitkäaikaissairaat, 02=romanit, 03=ulkomaalaiset, 04=pitkäaik.työtön, 05=pakolaiset, 06=muu, 07=keko, 08=Luku- ja kirjitustaidottomat, 09=Muutosturva 55+
 
 #### `eupno` — ESR-projektikoodi
 
-**Ryhmä / Group:** KTYOKOU, YTYOKOU
+**Group:** KTYOKOU, YTYOKOU
 
 ESR-projektikoodi
 
 #### `kalkpv` — Kurssin alkamispäivä
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Kurssin alkamispäivä (vvvvkk)
 
 #### `koukd` — KKOULUTUS
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 #### `ktuno` — Kurssin tunnistenumero
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Kurssin tunnistenumero
 
 #### `ktyyp` — Koulutustyyppi
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Koulutustyyppi (v. 2013 alkaen tyhjää, ennen pakollinen tieto)  0=Työnhakukoul. (ryhmäpalvelu), 1=Kurssi yleishaussa, 2=Yksittäinen koulutuspaikka, 3=Yrityksen sisäinen koulutus, 4=Rekrytointikurssi, 5=Muu yrityskoulutus, 6=Muu koulutus, 7=Ei enää käytössä (entinen ESR-koulutus), 8=Koodia ei käytetä toistaiseksi, 9=KEKO-koulutus, z=Koodi ei käytössä
 
 #### `kunno` — Koulutuskunta
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Koulutuskunta TK kuntaluokitus
 
 #### `kurslaji` — Kurssilaji
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Kurssilaji  14=valmennus, 15=koulutus,16=muutosturvakoulutus
 
 #### `opkiel` — Pääopetuskieli
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 Pääopetuskieli  0=suomi, 1=ruotsi, 2=muu
 
 #### `perutk` — Kurssi perutettu
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 P=kurssi on peruutettu, muutoin null
 
 #### `ryhma` — Ryhmäkurssi
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 1=ryhmäkurssi null=ei ryhmäkurssi (nykyisin ei merkitystä)
 
 #### `tamtar` — Amm.tarkenne
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 1=v.2002 alk. työnhakukoul, null=muu; nyk. tyhjää
 
 #### `ammnol` — Henkilön aikaisemmat tavoiteammatit
 
-**Ryhmä / Group:** YHTKAMM
+**Group:** YHTKAMM
 
 Henkilön aikaisemmat tavoiteammatit. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 #### `muupv2` — Muutospäivä
 
-**Ryhmä / Group:** YHTKAMM
+**Group:** YHTKAMM
 
 Henkilön työvoimakoulutuksen tavoiteammatin muutospäivä
 
 #### `avukd` — avustuslaji
 
-**Ryhmä / Group:** YLIIKK
+**Group:** YLIIKK
 
 Liikkuvuusavustuksen avustuslaji Ei päivitetä
 
 #### `piikdl` — kohdete-keskus
 
-**Ryhmä / Group:** YLIIKK
+**Group:** YLIIKK
 
 Liikkuvuusavustuksen kohdete-keskus Ei päivitetä
 
 #### `tappv1` — avustuspvm
 
-**Ryhmä / Group:** YLIIKK
+**Group:** YLIIKK
 
 Liikkuvuusavustuksen avustuspvm Ei päivitetä
 
 #### `etuus` — Etuuslaji
 
-**Ryhmä / Group:** ysijoit
+**Group:** ysijoit
 
 01=ansiosid, 02=peruspv.raha, 03=tm-tuki, 04=ei mitään, 06=muutosturvaraha, 07=eruspväraha tai tmtuki
 
 #### `oppisop` — Oppisopimus
 
-**Ryhmä / Group:** ysijoit
+**Group:** ysijoit
 
 1=on, 0=ei, "-" tai tyhjä=tuntematon
 
 #### `tukipros` — Suhteellinen osuus, jolla tukea maksetaan
 
-**Ryhmä / Group:** ysijoit
+**Group:** ysijoit
 
 30, 40, 50, 70, 100 tai tuntematon
 
 #### `vos` — Valtionosuusrahoitteinen koulutus (v.2018 alkaen)
 
-**Ryhmä / Group:** ktyokou
+**Group:** ktyokou
 
 #### `jar_s` — Suojattu järjestäjäkoodi
 
-**Ryhmä / Group:** KTYOKOU
+**Group:** KTYOKOU
 
 #### `lausno7` — Lausuntokoodi (A-TMT)
 
-**Ryhmä / Group:** YTVPOLL
+**Group:** YTVPOLL
 
 Henkilön työpoliittisen lausunnon lausuntokoodit A-TMT (otettu käyttöön 03/2023, Lähde: Työnvälitystilasto  
 C00A MUUTOSTURVARAHAN EDEL. TÄYTTYVÄT, IRTISANOTTU TUTA-SYIN
@@ -829,4 +829,4 @@ Z005 KOULUTUSTA VAILLA OLEVA NUORI, ETUUSOIKEUDEN PALAUTUMINEN
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

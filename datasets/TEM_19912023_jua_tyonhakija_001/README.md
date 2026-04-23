@@ -10,7 +10,7 @@
 - **Population:** TEM rekistereissä työnhakijana 1991- 2024
 - **Source:** TEM työnvälitystilaston aineisto
 
-## Kuvaus / Description
+## Description
 
 Työllisyys, kehittämis- ja hallintokeskus (KEHA-keskus) on ylläpitänyt työhallinnon asiakaspalvelun tietojärjestelmää URAa. Ennen KEHA-keskusta tietojärjestelmää on ylläpitänyt Työ- ja elinkeinoministeriö yhdessä työ- ja elinkeinotoimistojen kanssa. Tutkijapalveluissa on käytössä kaksi KEHA:n aineistokokonaisuutta: 
 
@@ -43,9 +43,9 @@ Aineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Tiedot päi
 
 Kunkin muuttujan kohdalla näkyy alkuperäisen työnvälitystilaston aineiston nimi muuttujakuvauksen kentässä "Muuttujaryhmät".
 
-## Muuttujat / Variables (23)
+## Variables (23)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `syntyv` | Syntymävuosi | — | — | YHENK |
@@ -71,7 +71,7 @@ Kunkin muuttujan kohdalla näkyy alkuperäisen työnvälitystilaston aineiston n
 | `paapv7` | loppumispvm | — | — | YHTSTO |
 | `toinoh` | työvoimatoimisto | — | — | YHTSTO |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
@@ -79,131 +79,131 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `syntyv` — Syntymävuosi
 
-**Ryhmä / Group:** YHENK
+**Group:** YHENK
 
 #### `sukup` — Sukupuoli
 
-**Ryhmä / Group:** yhenk
+**Group:** yhenk
 
 1=Mies
 2=Nainen
 
 #### `kansah` — Kansalaisuus
 
-**Ryhmä / Group:** YHENK
+**Group:** YHENK
 
 suomi='246' tai null
 
 #### `kasno` — Tyött.kassanro
 
-**Ryhmä / Group:** YHENK
+**Group:** YHENK
 
 null=ei kassan jäsen (vain viimeisin tieto)
 
 #### `kiekd` — Kielikoodi
 
-**Ryhmä / Group:** YHENK
+**Group:** YHENK
 
 0=suomi, 1=ruotsi, 2=muu (myös null=suomi)
 
 #### `pkokdh` — Pohjakoulutus
 
-**Ryhmä / Group:** YHENK
+**Group:** YHENK
 
 1=kansa, 2=keski, 3=perus, 4=yo, 9=muu
 
 #### `vppvmh` — Viimeinen päivityspvm
 
-**Ryhmä / Group:** YHENK
+**Group:** YHENK
 
 #### `kunnoh` — Asuinkunta
 
-**Ryhmä / Group:** YHKUNTA
+**Group:** YHKUNTA
 
 Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämiä 3-numeroisia kuntakoodeja. Jos työnhakijan asuinpaikka on työnhaun alussa Ruotsissa, merkitään kuntakoodiksi 198, tai Norjassa, merkitään 197, tai muualla ulkomailla, merkitään 200.
 
 #### `muupv6` — Alkamispäivä
 
-**Ryhmä / Group:** YHKUNTA
+**Group:** YHKUNTA
 
 Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity)
 
 #### `paapv6` — Loppumispvm
 
-**Ryhmä / Group:** YHKUNTA
+**Group:** YHKUNTA
 
 Henkilön asuinkunnasta muuttopäivä
 
 #### `koukdh` — uusi koulutuskoodi
 
-**Ryhmä / Group:** YHKOUL
+**Group:** YHKOUL
 
 Työnhakijan saaman koulutuksen luokittelemiseen käytetään kunakin vuonna voimassa olevaa Tilastokeskuksen laatimaa luokitusta Koulutusluokitus  (Tilastokeskuksen käsikirjoja 1),
 
 #### `muupv3` — alkamispvm
 
-**Ryhmä / Group:** YHKOUL
+**Group:** YHKOUL
 
 Koulutustiedon alkamispvm
 
 #### `paapv3` — loppumispvm
 
-**Ryhmä / Group:** YHKOUL
+**Group:** YHKOUL
 
 Koulutustiedon loppumispvm
 
 #### `ammnoh` — ammatti
 
-**Ryhmä / Group:** YHAMM
+**Group:** YHAMM
 
 Ammattiluokitus
 https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 #### `muupv1` — alkamispvm
 
-**Ryhmä / Group:** YHAMM
+**Group:** YHAMM
 
 Ammattitiedon alkamispvm
 
 #### `paapv1` — loppumispvm
 
-**Ryhmä / Group:** YHAMM
+**Group:** YHAMM
 
 Ammattitiedon loopumispvm
 
 #### `alkupv` — Alkamispäivä
 
-**Ryhmä / Group:** YASSEGMENTTI
+**Group:** YASSEGMENTTI
 
 Palvelulinjan alkamispvm
 
 #### `assegkdi` — Asiatuntijapalvelun tarve
 
-**Ryhmä / Group:** YASSEGMENTTI
+**Group:** YASSEGMENTTI
 
 00 = Ei asiantuntijapalvelun tarvetta,  01 = Työnvälitys- ja yrityspalvelut, 02 = Osaamisen kehittämispalvelut, 03 = Tuetun työllistämisen palvelut, 05 = Monialainen yhteispalvelu (2015 alkaen), 04 = Etuusasiakkaat (ei enää käytössä) ,null =ei määritelty
 
 #### `paatpv` — Päättymispäivä
 
-**Ryhmä / Group:** YASSEGMENTTI
+**Group:** YASSEGMENTTI
 
 Palvelulinjan päättymispvm
 
 #### `muupv7` — alkamispvm
 
-**Ryhmä / Group:** YHTSTO
+**Group:** YHTSTO
 
 Henkilön työvoimatoimistonalkamispvm Ei päivitetä
 
 #### `paapv7` — loppumispvm
 
-**Ryhmä / Group:** YHTSTO
+**Group:** YHTSTO
 
 Henkilön työvoimatoimiston loppumispvm Ei päivitetä
 
 #### `toinoh` — työvoimatoimisto
 
-**Ryhmä / Group:** YHTSTO
+**Group:** YHTSTO
 
 0201	HAAPANIEMI/HELSINKI
 0203	HANKO / RAASEPORI
@@ -528,4 +528,4 @@ Henkilön työvoimatoimiston loppumispvm Ei päivitetä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

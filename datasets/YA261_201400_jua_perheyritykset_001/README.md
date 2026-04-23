@@ -10,7 +10,7 @@
 - **Population:** Perheyritykset
 - **Source:** Yritysten rakenne- ja tilinpäätöstilasto
 
-## Kuvaus / Description
+## Description
 
 Perheyritysten liiton tilaama yksikkötason aineisto tutkimustarkoituksiin sisältää suuret ja keskisuuret perheyritykset sekä otoksen pienistä perheyrityksistä vuodelta 2014 (ei sisällä ammatinharjoittajia). 
 
@@ -50,9 +50,9 @@ Alueellistamisessa NUTS2-luokkiin käytettiin vuoden 2016 kuntaluokitusta. Yrity
 
 Lisätietoja: http://www.perheyritys.fi/wp-content/uploads/2017/02/FamilyBusinessInFinland2014-julkaisu2017-highres-web.pdf
 
-## Muuttujat / Variables (37)
+## Variables (37)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `Vuosi` | Vuosi | — | — | — |
 | `omistus` | Omistusmuoto | — | — | — |
@@ -92,7 +92,7 @@ Lisätietoja: http://www.perheyritys.fi/wp-content/uploads/2017/02/FamilyBusines
 | `k_PakVarYht` | PAKOLLISET VARAUKSET YHTEENSÄ | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `Vuosi` — Vuosi
 
@@ -170,4 +170,4 @@ Lisätietoja: http://www.perheyritys.fi/wp-content/uploads/2017/02/FamilyBusines
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

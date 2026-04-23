@@ -10,7 +10,7 @@
 - **Population:** Yritykset
 - **Source:** Yritysrekisterin tilastotiedostot, Yritysten rakenne- ja tilinpäätöstilasto 2013-, luokitustietokannan toimialaluokitusavaimet
 
-## Kuvaus / Description
+## Description
 
 Yritystol8820-tauluun on tutkimuskäyttöä varten muodostettu yritysrekisterin tilastotiedostojen yrityksille toimialaluokitusten 2002 ja 2008 mukaiset toimialat vuosille 1988 - 2020 (2013- mukana vain tilastoyksiköt, joilla yritystunnus) sekä empiirisillä että luokituskannan avaimilla. Lisäksi yrityksistä on koottu perustiedot (oikeudellinen muoto, liikevaihto ja henkilöstön lukumäärä) aikasarjaksi. Vuodesta 2013 alkaen aineistossa on mukana uusi yritys-id.
 
@@ -24,9 +24,9 @@ Yritysten rakenne- ja tilinpäätöstilasto ilmestyi ensimmäisen kerran 18.12.2
 
 Tietojärjestelmän uudistus on parantunut yritystilastojen yhtenäisyyttä. Merkittävimmät muutokset liittyvät toimialaluokituksen, yritystietojen (mm. liikevaihto- ja henkilöstötieto) ja yritysjärjestelyjen käsittelyn yhtenäistämiseen sekä päättelysääntöihin, jonka perusteella tilastoitava yritys- tai toimipaikkajoukko muodostetaan. Aiemmin yritysrekisterin vuositilastoissa ei ollut tase-ehtoa yrityksen vuositilastoon kuulumisen ratkaisemiseksi, eikä kohdejoukkoon ole kuuluneet kunnalliset liikelaitokset. Alkutuotannon toimialojen osalta tilastossa ovat tilastovuodesta 2013 alkaen mukana alkutuotannosta arvonlisäverovelvolliset, kun myynnit ylittävät tilastointirajan. Muutoksista johtuen tilastovuodesta 2013 alkaen tilastojen tiedot eivät ole vertailukelpoisia aiempiin tilastovuosiin.
 
-## Muuttujat / Variables (16)
+## Variables (16)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 | `SYRITYSID` | Suojattu yritysID | — | — | — |
@@ -45,7 +45,7 @@ Tietojärjestelmän uudistus on parantunut yritystilastojen yhtenäisyyttä. Mer
 | `tol02_2` | Tol2002_2, empiirinen avain | — | — | — |
 | `tol08_2` | Tol2008_2, empiirinen avain | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SYRTUN` — Suojattu yritystunnus
 
@@ -186,13 +186,13 @@ Toimialaluokitus 2008, saatavissa vuosille 2007-2012.
 
 #### `TOL02` — Tol2002, luokituskannan avain
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Toimialaluokitus 2002 (tai luokitus 1995) on ollut käytössä vuosina 1993-2008. Muulloin tarkka toimialatieto tol02 on tarvittaessa käännetty luokitustietokannan avaimilla, jolloin lopputulos on lähinnä suuntaa-antava. Avain kääntää kaikki tiedot 5-numerotasolla pääasialliseen luokkaan, vaikka luokka jakautuisi useaan osaan, mikä voi vääristää aineistoa. Joissakin tapauksissa toimiala on karkeammalla kuin 5-numerotasolla.
 
 #### `TOL08` — Tol2008, luokituskannan avain/yrek
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Vuodesta 1999 lähtien tol08-tieto on peräisin yritysrekisteristä, jossa se on täydennetty yrityksille takautuvasti vuosille1999-2006 erilaisten päättelysääntöjen avulla. Ennen 1999 tarkka tol08 on tarvittaessa käännetty luokitustietokannan avaimilla, jolloin lopputulos on lähinnä suuntaa-antava. Avain kääntää kaikki tiedot 5-numerotasolla pääasialliseen luokkaan, vaikka luokka jakautuisi useaan osaan, mikä voi vääristää aineistoa. Joissakin tapauksissa toimiala on karkeammalla kuin 5-numerotasolla.
 
@@ -206,4 +206,4 @@ Vuodesta 1999 lähtien tol08-tieto on peräisin yritysrekisteristä, jossa se on
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

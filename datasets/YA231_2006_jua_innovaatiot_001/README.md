@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2006 kuvaa yritysten harjoittaman innovaatiotoiminnan ja eri tyyppisten innovaatioiden käyttöönoton yleisyyttä vuosina 2004 - 2006.
 
@@ -42,9 +42,9 @@ Tilastokeskus on tehnyt innovaatiotutkimuksia 1990-luvulta lähtien, mutta kaikk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (124)
+## Variables (124)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `gp` | Vastaajayksikkö | — | — | — |
 | `ho1` | Konsernin kotimaa Suomi | — | — | — |
@@ -171,7 +171,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `VIENMUUT` | Vienti muihin kuin EU-maihin | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `gp` — Vastaajayksikkö
 
@@ -220,19 +220,19 @@ Yrityksen markkinoille tuomat tuoteinnovaatiot olivat uusia ainoastaan oman yrit
 
 #### `TurnMar` — Markkinoiden kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Markkinoiden kannalta uusista tuoteinnovaatioista saadun liikevaihdon osuus yrityksen kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
 #### `TurnIn` — Yrityksen kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yksinomaan oman yrityksen kannalta uusista tuoteinnovaatioista saadun liikevaihdon osuus yrityksen kokonaisliikevaihdosta, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
 #### `TurnUng` — Muuttumattomien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Muuttamattomista tai vain vähän muutetuista tuotteista saadun liikevaihdon osuus yrityksen kokonaisliikevaihdosta, sisältäen muilta yrityksiltä hankittujen uusien tavaroiden tai palvelujen jälleenmyynnin, %. Rahoituslaitokset: korkotuotot ja vastaavat tulot. Vakuutusyhtiöt: vakuutusmaksutulo (brutto).
 
@@ -671,4 +671,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

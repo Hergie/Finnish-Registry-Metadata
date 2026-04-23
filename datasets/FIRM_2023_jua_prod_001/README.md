@@ -12,7 +12,7 @@
 - **Related:** <a href= "https://stat.fi/fi/tilasto/alyr">Alueellinen yritystoimintatilasto</a>
 - **Keywords:** bruttoarvo,henkilöstö,jalostusarvo,kauppa,palvelualat,rakentaminen,teollisuus,toimialat,Toimipaikka
 
-## Kuvaus / Description
+## Description
 
 Alueellinen yritystoimintatilastoaineisto kuvaa Suomessa toimivien yritysten toimipaikkojen rakennetta ja toimintaa toimialoittain ja alueittain. Vuodesta 2013 alkaen alueellisen yritystoimintatilaston toimipaikka-aineistossa ovat mukana teollisuuden ohella rakentamisen, kaupan ja palveluiden toimipaikat. Tilastoaineisto sisältää tietoja tuotannon brutto- ja jalostusarvosta, henkilöstömääristä, tehdyistä työtunneista, palkoista, sosiaalikuluista, käyttöomaisuuden lisäyksistä ja vähennyksistä ja varastoista. 
 
@@ -93,9 +93,9 @@ Kynnysarvosäännön rinnalla tulee soveltaa dominanssisääntöä (1,75) tuorei
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (146)
+## Variables (146)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `yritysid_s` | Suojattu yritys-ID, yrityksen tunnus | — | — | RE, tunnus |
@@ -244,25 +244,25 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `palksummaKevytYrittajat` | Tilastovuoden tilikauden tilastoitavaksi tuleva palkkasumma kevytyrittäjillä | — | — | — |
 | `YrittajatTehtTyotunti` | Yrittäjien tehdyt työtunnit | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
 #### `yritysid_s` — Suojattu yritys-ID, yrityksen tunnus
 
-**Ryhmä / Group:** RE, tunnus
+**Group:** RE, tunnus
 
 Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus. Saatavissa vuodesta 2013 lähtien.
 
 #### `yrtun_s` — Suojattu yritystunnus.
 
-**Ryhmä / Group:** RE, tunnus
+**Group:** RE, tunnus
 
 Suojattu (oikeudellisen yksikön) yritystunnus. Y-tunnus on muotoa nnnnnnn-t, missä t on tarkistenumero.
 
 #### `ykstun_s` — Suojattu toimipaikka-ID eli toimipaikan tunnus
 
-**Ryhmä / Group:** tunnus, RE
+**Group:** tunnus, RE
 
 Suojattu toimipaikka-ID eli toimipaikan tunnus (nnnnnnntt) . Tunnuksen alkuosa nnnnnnn (7 ensimmäistä merkkiä) on juokseva numero ja lopussa on kaksi tarkistemerkkiä tt. Tunnus annetaan Tilastokeskuksessa. Huom. Aineistossa on tuplia johtuen siitä, että toimipaikka on voinut siirtyä vuoden aikana toisen oikeudellisen yksikön tai yritysid:n alta toisen alle. Yritysid ei toisin sanoen aina ole yksikäsitteinen toimipaikka-aineistossa. Rivejä tulee käsitellä aina niin, että huomioi myös yritysid-tason.
 
@@ -272,31 +272,31 @@ Tilastoversio
 
 #### `PalksaajHtv` — Palkansaajien lukumäärä henkilötyövuosina (htv)
 
-**Yksikkö / Unit:** lkm · **Ryhmä / Group:** kokotiedot
+**Unit:** lkm · **Group:** kokotiedot
 
 Palkansaajien lukumäärä henkilötyövuosina (htv).
 
 #### `PalksaajKeskim` — Palkansaajat keskimäärin. koko- ja osa-aikaisten työntekijöiden lukumäärä, nuppiluku (head count)
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Palveluksessa olevien koko- ja osa-aikaisten työntekijöiden lukumäärä, nuppiluku (head count)
 
 #### `yrittajat` — Yrittäjien lukumäärä henkilötyövuosina (htv)
 
-**Yksikkö / Unit:** lkm · **Ryhmä / Group:** kokotiedot
+**Unit:** lkm · **Group:** kokotiedot
 
 Yrittäjien lukumäärä henkilötyövuosina (htv).
 
 #### `Liikevaihto` — Liikevaihto tai tuotot ammatista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kokotiedot
+**Unit:** € · **Group:** kokotiedot
 
 Varsinaisen toiminnan myyntituotot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.
 
 #### `PalksaajHtvLahde` — Palkansaajatiedon (htv) lähde, luokitus
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Tilastovuoden palkansaajien lukumäärätiedon (htv) saantilähde
  Luokitus yhden numeron tarkkuudella (ensimmäinen numero):
@@ -309,7 +309,7 @@ Tilastovuoden palkansaajien lukumäärätiedon (htv) saantilähde
 
 #### `PalksaajKeskimLahde` — Palkansaajatiedon (keskimäärin) saantilähde, luokitus
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Palkansaajatiedon (keskimäärin) saantilähde
  Luokitus yhden numeron tarkkuudella (ensimmäinen numero):
@@ -322,7 +322,7 @@ Palkansaajatiedon (keskimäärin) saantilähde
 
 #### `yrittajatLahde` — Yrittäjien lukumäärä -tiedon (htv) saantilähde, luokitus
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Yrittäjien lukumäärä -tiedon (htv) saantilähde
  Luokitus yhden numeron tarkkuudella (ensimmäinen numero):
@@ -335,7 +335,7 @@ Yrittäjien lukumäärä -tiedon (htv) saantilähde
 
 #### `LiikevaihtoLahde` — Liikevaihtotiedon saantilähde, luokitus
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Tilastovuoden liikevaihtotiedon saantilähde
  Luokitus yhden numeron tarkkuudella (ensimmäinen numero):
@@ -364,7 +364,7 @@ Liikevaihto
 
 #### `EUMukTuotBruttoarvo` — EU:n mukainen tuotannon bruttoarvo
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kokotiedot
+**Unit:** € · **Group:** kokotiedot
 
 Tuotannon bruttoarvo mittaa toimipaikan tosiasiallista tuotantoa. Tuotantotoimintaan lasketaan mukaan liikevaihdon lisäksi kaikki tuotantoon liittyvät tuotot, myös valmistus omaan käyttöön ja valmistus, joka toimitetaan yrityksen muille toimipaikoille. Kauppatavaroiden hankinta vähennetään tuotoista, jotta tuotantotoimintaan saadaan mukaan vain kauppatavaroiden myynnistä syntyvä marginaali. Bruttoarvon laskentakaava:
 
@@ -398,13 +398,13 @@ Ku_-alkuiset ovat tuloslaskelman kulumuuttujia. Henkilöstökulut sisältävät 
 
 #### `ToimAikaTilikausi` — Toiminta-aika tilikaudella, kuukautta
 
-**Yksikkö / Unit:** kk
+**Unit:** kk
 
 Toiminta-aika tilikaudella, kuukautta
 
 #### `ToimAikaVuosi` — Toiminta-aika kalenterivuonna, kuukautta
 
-**Yksikkö / Unit:** kk
+**Unit:** kk
 
 Toiminta-aika kalenterivuonna, kuukautta
 
@@ -524,13 +524,13 @@ Aiemmin nimellä kulmuain.
 
 #### `Palkkasumma` — Palkkasumma
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Tilastovuoden tilikauden tilastoitavaksi tuleva palkkasumma. Tilastokeskuksen yritysrekisterin useista lähteistä koostama tieto maksetuista palkasta.
 
 #### `PalkkasummaLahde` — Tilastovuoden palkkasummatiedon saantilähde, luokitus
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Tilastovuoden palkkasummatiedon saantilähde. Luokitus yhden numeron tarkkuudella (ensimmäinen numero):
   1 Suorat tiedonkeruut 
@@ -546,32 +546,32 @@ Tilastovuoden palkkasummatiedon saantilähde. Luokitus yhden numeron tarkkuudell
 
 #### `henkmaara` — Henkilöstön lukumäärä yhteensä kokoaiseksi muunnettuna. Sekä palkansaajien että yrittäjien lukumäärä.
 
-**Yksikkö / Unit:** lkm · **Ryhmä / Group:** kokotiedot
+**Unit:** lkm · **Group:** kokotiedot
 
 Henkilöstön lukumäärä yhteensä kokoaiseksi muunnettuna. Sekä palkansaajien että yrittäjien lukumäärä.
 
 #### `Tol2008Vuosi` — Toimipaikan toimiala (TOL2008) vuositieto
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** toimiala_1_2008_01_01 · **Group:** RE, luokitus
 
 Toimipaikan toimialaluokitus TOL 2008:n mukainen toimialakoodi, vuositieto. Toimipaikan toimialaksi määritellään se, mitä toimintaa toimipaikalla eniten harjoitetaan.
 
 #### `SijaintikuntaVuosi` — Toimipaikan sijaintikunta, vuositieto
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Toimipaikan sijaintikunta, vuositieto. Kunkin vuoden / hetken kuntakoodiston mukainen.
 
 #### `VuositilastonYksikko` — Vuositilaston yksikkönä oleva yritys; yksiköiden poiminta-/rajaussääntöjen mukaan
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** luokitus
 
 Vuositilaston yksikkönä oleva yritys; yksiköiden poiminta- / rajaussäännön mukaan. 
 Huom.: aikaisemmin aineistoon oli rajattu vain ne yritykset, joille VuosiTilastonYksikko=1, mutta tästä rajauksesta on tilastovuonna 2023 luovuttu, sillä muuttujan VuosiTilastonYksikko käytöstä on tilastossa luovuttu. Rajaus tehdään nyt valitsemalla ne yritykset, joille EBSTilastoyksikko=1 tilastovuodesta 2023 eteenpäin, ja aineistossa on enemmän rivejä kuin aiemmin
 
 #### `toimipTyyppiVuosi` — Toimipaikan tyyppi (vuositieto)
 
-**Luokitus / Classification:** toimiptyyp_2_2012_01_01 · **Ryhmä / Group:** RE, luokitus
+**Classification:** toimiptyyp_2_2012_01_01 · **Group:** RE, luokitus
 
 Toimipaikan tyyppi (vuositieto).  
 Koodissa 3 = Ulkomaiset toiminnot määritellään toimipaikan tyyppi globaaliksi (maailmanlaajuiseksi) toimipaikaksi. Tälle toimipaikalle tuodaan mm. ko. oikeudellisen yksikön globaalin toiminnan liikevaihto.
@@ -580,7 +580,7 @@ Koodi 5 = Sivuliike ulkomailla.
 
 #### `PoikkeavatKokotiedot` — Toimipaikan poikkeavien kokotietojen tyyppi tilastovuonna
 
-**Luokitus / Classification:** poikkoko_2_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** poikkoko_2_2012_01_01 · **Group:** luokitus
 
 Toimipaikan poikkeavien kokotietojen tyyppi tilastovuonna:
 
@@ -754,7 +754,7 @@ EVR:sta saatava palkkasumma (EVR = elinkeinoverotusaineisto)
 
 #### `tilaVuosi` — Vuositietojen käsittely-/vastaustila
 
-**Luokitus / Classification:** tpvuositila_2_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** tpvuositila_2_2012_01_01 · **Group:** luokitus
 
 Vuositietojen käsittely-/vastaustila:
 
@@ -773,19 +773,19 @@ Vuositietojen käsittely-/vastaustila:
 
 #### `vuositilastonYksikkoJulkyht` — Julkisyhteisöjen vuositilaston yksikkönä oleva 'yritys'; yksiköiden poiminta- / rajaussäännön mukaan
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** luokitus
 
 Julkisyhteisöjen vuositilaston yksikkönä oleva 'yritys'; yksiköiden poiminta- / rajaussäännön mukaan.
 
 #### `vuositilastonYksikkoVyty` — Voittoa tavoittelemattomien yhteisöjen (vyty) vuositilaston yksikkönä oleva 'yritys'; yksiköiden poiminta-/rajaussääntöjen mukaan
 
-**Luokitus / Classification:** vast_vaihtoehdo_69_2012_01_01 · **Ryhmä / Group:** luokitus
+**Classification:** vast_vaihtoehdo_69_2012_01_01 · **Group:** luokitus
 
 Voittoa tavoittelemattomien yhteisöjen (vyty) vuositilaston yksikkönä oleva 'yritys'; yksiköiden poiminta-/rajaussääntöjen mukaan.
 
 #### `YrittajatKeskimLahde` — Yrittäjät keskimäärin tilastovuonna, saantilähde, luokitus
 
-**Ryhmä / Group:** luokitus
+**Group:** luokitus
 
 Yrittäjät keskimäärin tilastovuonna, saantilähde
  Luokitus yhden numeron tarkkuudella (ensimmäinen numero):
@@ -798,7 +798,7 @@ Yrittäjät keskimäärin tilastovuonna, saantilähde
 
 #### `YrittajatKeskim` — Yrittäjät keskimäärin, nuppiluku
 
-**Yksikkö / Unit:** lkm · **Ryhmä / Group:** kokotiedot
+**Unit:** lkm · **Group:** kokotiedot
 
 Yrittäjät keskimäärin, nuppiluku
 
@@ -808,7 +808,7 @@ Yrittäjät keskimäärin, nuppiluku
 
 #### `vuositoimipaiklaji` — Toimipaikkaisuus, yksi- tai monitoimipaikkainen
 
-**Luokitus / Classification:** alayksik_2_2012_01_01
+**Classification:** alayksik_2_2012_01_01
 
 Saa arvot:
 0 Ei toimivia alayksiköitä
@@ -857,4 +857,4 @@ Yrittäjien tehdyt työtunnit. Vuodesta 2023.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

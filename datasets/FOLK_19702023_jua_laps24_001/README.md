@@ -10,7 +10,7 @@
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö
 - **Source:** VTJ
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK lapsi - vanhemmat -moduuliin. FOLK lapsi - vanhemmat on suhdeaineisto, joka sisältää biologisten vanhempien henkilötiedot niille henkilöille, joilla on tieto vanhemmista. Aineistossa lapsi tai ainakin lapsen toinen vanhemmista kuuluu FOLK väestöön, eli henkilön tiedot löytyvät joko FOLK perustieto tai FOLK Väestölaskennat 1970-1985 -aineistoista.
 
@@ -24,9 +24,9 @@ FOLK lapsi - vanhemmat -aineisto on kansiossa FOLK_LAPS_C. Viimeisimmän aineist
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (8)
+## Variables (8)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu TK:n henkilönumero, lapsi | — | — | — |
 | `syntyv` | Syntymävuosi | — | — | — |
@@ -37,7 +37,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `folk_m` | Kuuluu FOLK-aineistoon, biol. äiti | — | — | — |
 | `folk_f` | Kuuluu FOLK-aineistoon, biol. isä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu TK:n henkilönumero, lapsi
 
@@ -73,4 +73,4 @@ Biologinen isä kuuluu FOLK-väestöön (folk_f='1') tai ei kuulu, jolloin joko 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

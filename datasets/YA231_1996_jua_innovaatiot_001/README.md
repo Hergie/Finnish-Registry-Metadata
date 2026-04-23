@@ -11,7 +11,7 @@
 - **Source:** Innovaatiotutkimus 1996
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimuksen 1996 tutkimuskohteena on innovaatiotoiminnan laajuus ja luonne vuosina 1994 -1996. Tutkimus sisältää tietoja teollisuuden ja joidenkin palvelutoimialojen tuote- ja prosessi-innovaatioista, innovaatiotoiminnan rakenteesta, menoista, tavoitteista, tietolähteistä, yhteistyöstä ja innovaatiotoimintaa haitanneista tekijöistä vuosina 1994 -1996.Tilasto kattaa sekä innovaatiotoimintaa harjoittaneet yritykset että yritykset, joilla ei ollut innovaatiotoimintaa kyselyn tarkoittamalla ajanjaksolla.
 
@@ -46,9 +46,9 @@ Tiedot eivät ole kaikilta osin vertailukelpoisia edellisiin vastaaviin tutkimuk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (163)
+## Variables (163)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `FINUNFIN` | Lisätyt innovaatioprojektit | — | — | — |
 | `NUTS` | Yrityksen sijainti osoitteen mukaan | — | — | — |
@@ -214,7 +214,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `LVM` | Liikevaihdon muutos 1994-96 | — | — | — |
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `FINUNFIN` — Lisätyt innovaatioprojektit
 
@@ -271,19 +271,19 @@ Konsernin kotimaa on muu ulkomaa. A=Itävalta, 1=kyllä, CAN=Kanada, 1=kyllä, C
 
 #### `RAK1` — Yrityksen rakenne, perustaminen
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yrityksen rakenne muuttui merkittävästi vuosina 1994-96,  jolloin yritys perustettiin. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä, 0=ei.
 
 #### `RAK2` — Yrityksen rakenne, kasvu
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yritys kasvoi merkittävästi vuosina 1994-96, yritysostojen ja/tai fuusioiden vuoksi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä, 0=ei.
 
 #### `RAK3` — Yrityksen rakenne,  toimita supistui
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yrityksen toiminta supistui merkittävästi vuosina 1994-96,  yrityksen osien myynnin tai toimintojen lopettamisen vuoksi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä, 0=ei.
 
@@ -352,19 +352,19 @@ Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenet
 
 #### `LVOS1` — Liikevaihto, uudet tuotteet
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Tuoteinnovaatioden vaikutus liikevaihtoon, vuosina 1994-96 markkinoille tuotujen teknologisesti uusien tuotteiden osuus yrityksen1996 liikevaihdosta, prosenttia (%). Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.
 
 #### `LVOS2` — Liikevaihto, parannetut tuotteet
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Tuoteinnovaatioden vaikutus liikevaihtoon, vuosina 1994-96 markkinoille tuotujen teknologisesti parannettujen tuotteiden osuus yrityksen1996 liikevaihdosta, prosenttia (%). Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.
 
 #### `LVOS3` — Liikevaihto, muuttumattomat tuotteet
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Tuoteinnovaatioden vaikutus liikevaihtoon, vuosina 1994-96 markkinoille tuotujen teknologisesti muuttumattomien tai vain vähän muutettujen tuotteiden osuus yrityksen1996 liikevaihdosta, prosenttia (%). Teknologinen innovaatio on sellainen uusi tai parannettu tuote tai tuotantomenetelmä, jonka teknologiset ominaisuudet selvästi eroavat aikaisemmasta. Toteutuneet teknologiset innovaatiot ovat markkinoille tuotuja uusia tuotteita (tuoteinnovaatiot) tai käyttöönotettuja uusia tuotantomenetelmiä (prosessi-innovaatiot). Tuote tai prosessi on innovaatio silloin, kun se toteuttaa mainitut ehdot yrityksen näkökulmasta; niiden ei tarvitse olla uusia muiden yritysten tai markkinoiden kannalta.
 
@@ -374,7 +374,7 @@ Yritys toi markkinoille sekä yrityksen että markkinoiden kannalta uusia teknol
 
 #### `MARKUUSP` — Markkinoille tuotujen tuoteinnovaatioiden osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Markkinoille tuotujen sekä yrityksen että markkinoiden kannalta uusien teknologisten tuoteinnovaatioiden osuus yrityksen liikevaihdosta vuonna 1996, prosenttia ( %).
 
@@ -856,7 +856,7 @@ Tuote- ja palvelutilaston henkilökunta vuonna 1994.
 
 #### `YR_TOL95` — yr_tol95
 
-**Luokitus / Classification:** toimiala_35_1995_01_01
+**Classification:** toimiala_35_1995_01_01
 
 Yrityksen toimialaluokitus vuonna 1995.
 
@@ -890,4 +890,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

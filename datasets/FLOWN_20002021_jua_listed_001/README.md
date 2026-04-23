@@ -10,7 +10,7 @@
 - **Population:** Pörssiyritykset
 - **Source:** Tilastokeskuksen julkisista lähteistä kokoamat tiedot
 
-## Kuvaus / Description
+## Description
 
 FLOWN (Finnish Longitudinal OWNer-Employer-Employee Data) -valmisaineisto mahdollistaa yritysten ja niiden omistajien tietojen yhdistämisen ja käytön tutkimuksessa. Aineisto perustuu Verohallinnon Tilastokeskukselle tilastotarkoitusta varten toimittamiin osakeyhtiöiden osakastietoihin, yhtiömiestietoihin ja osinkotietoihin. 
 
@@ -31,15 +31,15 @@ Muista yksikkötason tiedoista poiketen kynnyssääntönä FLOWN-aineiston tieto
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (3)
+## Variables (3)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
 | `oyr_porssi` | Pörssilistattu yritys | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -51,4 +51,4 @@ Saa arvon 1, jos yritys on pörssilistattu Helsingissä (OMXH). Lähde: Kauppale
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

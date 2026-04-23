@@ -11,7 +11,7 @@
 - **Source:** Liikenteen turvallisuusviraston (Trafi) ajoneuvorekisteri (ATJ ajoneuvojen tietojärjestelmä)
 - **Related:** <a href= "https://www.stat.fi/til/mkan/index.html">Moottoriajoneuvokanta</a> <a href= "https://www.trafi.fi/filebank/a/1327477425/20a2a2f466b690ed94131f93468d4c69/9021-Rekisteriseloste_Ajoneuvoliikennerekisteri.pdf">Ajoneuvoliikennerekisteri</a>
 
-## Kuvaus / Description
+## Description
 
 TRAFI-valmisaineistot perustuvat Liikenne- ja viestintävirasto (Traficom) ajoneuvoliikennerekisteriin, joka sisältää tiedot kaikista rekisteröintivelvollisuuden alaisista tieliikenteen ajoneuvoista Manner-Suomessa vuodesta 2013 alkaen. Ajoneuvokannasta on muodostettu kaksi valmisaineistomoduulia tutkimuskäyttöön. 
 
@@ -24,9 +24,9 @@ Näihin valmisaineistoihin tulee hakea käyttölupaa Traficomilta. Aineistojen k
 Lisätietoa: Traficom: tietojenluovutus(at)trafi.fi 
                  Tilastokeskus: tutkijapalvelut(at)stat.fi
 
-## Muuttujat / Variables (128)
+## Variables (128)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `avainnro` | avainnumero | — | — | — |
 | `ajluok` | Ajoneuovoluokka | — | ajot_1_2017_12_07 | — |
@@ -157,7 +157,7 @@ Lisätietoa: Traficom: tietojenluovutus(at)trafi.fi
 | `voimakkuusmelupaikallaan` | Voimakkuus melu paikallaan. | — | — | — |
 | `aineistonajankohta` | Aineiston ajankohta | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `avainnro` — avainnumero
 
@@ -165,7 +165,7 @@ ajoneuvolle luotu yksilöivä pseudotunnus teknisten tietojen yhdistelyä varten
 
 #### `ajluok` — Ajoneuovoluokka
 
-**Luokitus / Classification:** ajot_1_2017_12_07
+**Classification:** ajot_1_2017_12_07
 
 Ajoneuvon direktiivin mukainen ajoneuvoluokka  luokittelu.
 
@@ -183,7 +183,7 @@ Ajoneuvon ensirekisteröintipäivä Suomessa.
 
 #### `liikpoistolaji` — Liikenteestäpoiston laji
 
-**Luokitus / Classification:** ajot_4_2017_12_07
+**Classification:** ajot_4_2017_12_07
 
 Ajoneuvon liikennekäytöstä poiston syy. Rajoitustiedon alalaji. Rajoituslajin täydentävä tieto
 
@@ -204,7 +204,7 @@ Liikenteestäpoiston alkamispäivämäärä. Rajoitustiedon voimassaolon alkamis
 
 #### `kaytto` — Käyttötieto.
 
-**Luokitus / Classification:** kayttotarkoitus_2_2017_11_07
+**Classification:** kayttotarkoitus_2_2017_11_07
 
 Ajoneuvon käyttötieto (tarkoitus) liikenteessä
 
@@ -231,7 +231,7 @@ Ajoneuvon käyttöönottopäivä, jonka katsastaja tallentaa tai ajoneuvo saa en
 
 #### `lisavari` — Lisäväri
 
-**Luokitus / Classification:** ajot_6_2017_12_07
+**Classification:** ajot_6_2017_12_07
 
 Ajoneuvon lisäväri.
 
@@ -263,7 +263,7 @@ Tieto (K/E) siitä onko ajoneuvo rakennettu.
 
 #### `tuontimaa` — tuontimaa
 
-**Luokitus / Classification:** ajot_7_2017_12_07
+**Classification:** ajot_7_2017_12_07
 
 Yksittäin maahantuodun ajoneuvon tuontimaa.
 Maaluokitus https://www.stat.fi/meta/luokitukset/valtio/001-2012/index.html
@@ -274,7 +274,7 @@ Ajoneuvon tyypin yksilöivä tunniste.
 
 #### `vari` — Väri
 
-**Luokitus / Classification:** ajot_5_2017_12_07
+**Classification:** ajot_5_2017_12_07
 
 Ajoneuvon väri
 0	Musta
@@ -313,7 +313,7 @@ Ajoneuvon version yksilöivä tunniste.
 
 #### `yksmaah` — Yksittäin maahantuotu
 
-**Luokitus / Classification:** ajot_8_2017_12_07
+**Classification:** ajot_8_2017_12_07
 
 Tieto siitä onko ajoneuvo yksittäin maahantuotu uutena/käytettynä.
 1	Tuotu käytettynä
@@ -329,7 +329,7 @@ Istumapaikkojen lukumäärä.
 
 #### `korityyppi` — Korityyppi
 
-**Luokitus / Classification:** ajot_9_2017_12_07
+**Classification:** ajot_9_2017_12_07
 
 Ajoneuvon korityyppi. Vapaasti ajoneuvorekisteriin merkittävä tieto, joten ei täysin noudata todellista korimallia kaikilla ajoneuvoilla.
 CO	Nivelöity matalalattiainen yksikerroksinen (CO)
@@ -393,7 +393,7 @@ SM	Monilaiteajoneuvo
 
 #### `kuormakorityyppi` — Kuormakorityyppi
 
-**Luokitus / Classification:** ajot_10_2017_12_07
+**Classification:** ajot_10_2017_12_07
 
 Kuormakorin tyyppi
 01	Kappaletavaralava
@@ -457,7 +457,7 @@ Ajoneuvon leveys millimetreinä.
 
 #### `kvoima` — Käyttövoima
 
-**Luokitus / Classification:** ajot_13_2017_12_07
+**Classification:** ajot_13_2017_12_07
 
 Ajoneuvon käyttövoima.
 10	Biodiesel
@@ -532,14 +532,14 @@ Moottorin iskutilavuus kuutiosenttimetreinä (cm3).
 
 #### `pataso` — paastotaso
 
-**Luokitus / Classification:** ajot_14_2017_12_07
+**Classification:** ajot_14_2017_12_07
 
 Päästöjen hyväksyntätaso, joka kertoo sen säädöstason, jolla tämän version ajoneuvon päästötasot on hyväksytty.
 Päästöluokka luokitus
 
 #### `polttoainejarjTyyppi` — polttoainejarjTyyppi
 
-**Luokitus / Classification:** ajot_32_2018_01_04
+**Classification:** ajot_32_2018_01_04
 
 Ajoneuvon polttoainejärjestelmän tyyppi (Yhdellä tai kahdella polttoaineella toimiva tai polttoainevaatimuksiltaan joustava). Tieto vuodesta 2014 ->
  Luokitus Trafilta KdTyytiPolttoainejarjTyyppi
@@ -557,7 +557,7 @@ Tieto (K/E) siitä, onko ajoneuvo sähkökäyttöinen hybridi. Tieto vuodesta 20
 
 #### `sahkohybridinluokka` — Sähköhybridinluokka
 
-**Luokitus / Classification:** ajot_31_2017_12_12
+**Classification:** ajot_31_2017_12_12
 
 Tieto onko ajoneuvo verkosta ladattava (01) vai pelkästään polttomoottorilla ladattava (02). Tieto vuodesta 2014 ->
 
@@ -587,7 +587,7 @@ Valmistajan ilmoittama kaupallinen nimi
 
 #### `kilvenmalli` — KilvenMalli
 
-**Luokitus / Classification:** ajot_15_2017_12_07
+**Classification:** ajot_15_2017_12_07
 
 Ajoneuvon rekisterikilven malli.
 01	Matala
@@ -600,7 +600,7 @@ Ajoneuvon mallimerkintä. Tieto kootaan tyyppirekisterin tiedoista kaupallinen n
 
 #### `merkki` — Merkki
 
-**Luokitus / Classification:** ajot_16_2017_12_07
+**Classification:** ajot_16_2017_12_07
 
 Ajoneuvon merkki.
 
@@ -614,7 +614,7 @@ Eteenpäin vievien vaihteiden lukumäärä.
 
 #### `vaihteisto` — Vaihteisto
 
-**Luokitus / Classification:** ajot_17_2017_12_07
+**Classification:** ajot_17_2017_12_07
 
 Vaihteiston tyyppi.
 1	Käsivalintainen
@@ -629,7 +629,7 @@ Y	Muu
 
 #### `jarru` — VoimanvalJaTehostamistapa
 
-**Luokitus / Classification:** ajot_18_2017_12_07
+**Classification:** ajot_18_2017_12_07
 
 Ajoneuvon jarrujen voimanvälitys  ja tehostamistapa.
 01	Mekaanisesti käytett.jarrut
@@ -652,7 +652,7 @@ Ajoneuvon jarrujen voimanvälitys  ja tehostamistapa.
 
 #### `lisajarrulaite` — Lisajarrulaite
 
-**Luokitus / Classification:** ajot_19_2017_12_07
+**Classification:** ajot_19_2017_12_07
 
 Lisäjarrulaite.
 
@@ -665,7 +665,7 @@ Y	Muu
 
 #### `Jarrulisatieto` — Jarrulisatieto
 
-**Luokitus / Classification:** ajot_20_2017_12_07
+**Classification:** ajot_20_2017_12_07
 
 Voimanvälitys ja tehostamistavan lisätieto (esim. lukkiutumattomat jarrut).
 1	Lukkiutumisen estojärjestelmä (ABS)
@@ -684,7 +684,7 @@ Tieto vakuutusyhtiöstä. Selkokielinen nimi.
 
 #### `ajryhm` — Ajoneuvoryhmnä
 
-**Luokitus / Classification:** ajot_21_2017_12_07
+**Classification:** ajot_21_2017_12_07
 
 Ajoneuvoluokan alaluokitus. Voi olla yksi tai useampi eri ajoneuvoryhmä-tieto per ajoneuvo.
 
@@ -738,7 +738,7 @@ Akseliryhmän tieliikenteessä suurin sallittu massa kilogrammoina.
 
 #### `aksryhmatyyppi` — Aksryhmatyyppi
 
-**Luokitus / Classification:** ajot_22_2017_12_07
+**Classification:** ajot_22_2017_12_07
 
 Akseliryhmän tyyppi johon akseli kuuluu.
 1	Yksiakselinen
@@ -762,7 +762,7 @@ Päivämäärä ja kellonaika, jolloin katsastussuorite on suoritettu loppuun ta
 
 #### `katslaji` — Katsastuslaji
 
-**Luokitus / Classification:** ajot_23_2017_12_07
+**Classification:** ajot_23_2017_12_07
 
 Katsastuslaji.
 1.5.1	Rekisteröintikatsastus
@@ -834,7 +834,7 @@ Tieto onko ajoneuvossa viisi numeroinen matkamittari.
 
 #### `kulutuslaji` — Kulutuslaji
 
-**Luokitus / Classification:** ajot_24_2017_12_07
+**Classification:** ajot_24_2017_12_07
 
 Kulutuslaji. Kulutuslaji kertoo mihin kulutustietoon kulutusmäärä-tieto liittyy.
 1	Kulutus maantieajossa
@@ -852,7 +852,7 @@ Kulutuksen määrä sataa kilometriä kohden. Kulutuslajiin liittyvä kulutus-ti
 
 #### `kytkajryhm` — Kytkajryhm
 
-**Luokitus / Classification:** ajot_21_2017_12_07
+**Classification:** ajot_21_2017_12_07
 
 Kytkennän ajoneuvoryhma.
 
@@ -870,7 +870,7 @@ Kyllä/ei  tieto siitä soveltuuko vetokytkin kiinteäaisaisen perävaunun vetoo
 
 #### `kytkentalaite` — Kytkentalaite
 
-**Luokitus / Classification:** ajot_25_2017_12_07
+**Classification:** ajot_25_2017_12_07
 
 Kytkentälaitteen laji.
 
@@ -886,7 +886,7 @@ Kytkentälaitteen laji.
 
 #### `lisalaite` — Lisalaite
 
-**Luokitus / Classification:** ajot_26_2017_12_07
+**Classification:** ajot_26_2017_12_07
 
 Lisalaitteen laji.
 01	Nosturi
@@ -923,7 +923,7 @@ Päästölajiin liittyvä päästömäärä. Päästötyyppi huomioitava myös
 
 #### `palaji` — Päästölaji
 
-**Luokitus / Classification:** ajot_27_2017_12_07
+**Classification:** ajot_27_2017_12_07
 
 Päästölaji, johon päästömäärä-tieto liittyy.
 01	CO
@@ -945,7 +945,7 @@ Päästölaji, johon päästömäärä-tieto liittyy.
 
 #### `patyyppi` — Päästötyyppi
 
-**Luokitus / Classification:** ajot_28_2017_12_07
+**Classification:** ajot_28_2017_12_07
 
 Käytönaikaisen pakokaasupäästön tyyppi.
 01	Joutokäynti [%]
@@ -959,7 +959,7 @@ Käytönaikaisen pakokaasupäästön tyyppi.
 
 #### `ppuhdlaite` — Puhdistuslaite
 
-**Luokitus / Classification:** ajot_29_2017_12_07
+**Classification:** ajot_29_2017_12_07
 
 Pakokaasun puhdistuslaite.
 01	Kolmitoimikatalysaattori
@@ -1021,7 +1021,7 @@ Ajoneuvon polttoainesäiliön tilavuus litroina. Arvossa on max 1 desimaali ajon
 
 #### `turvav` — Turvavaruste
 
-**Luokitus / Classification:** ajot_30_2017_12_07
+**Classification:** ajot_30_2017_12_07
 
 Turvavarusteen laji
 an	Aktiivinen niskatuki
@@ -1031,7 +1031,7 @@ vk	Turvavyön kiristin
 
 #### `ohjtyyppi` — Ohjaamotyyppi
 
-**Luokitus / Classification:** ajot_12_2017_12_07
+**Classification:** ajot_12_2017_12_07
 
 Ajoneuvon ohjaamotyyppi.
 1	Umpiohjaamo
@@ -1049,7 +1049,7 @@ Ajoneuvoryhmätieto 21 eli rekisteröity museoajoneuvoksi
 
 #### `yksittaiskayttovoima` — Yksittäiskäyttövoima
 
-**Luokitus / Classification:** ajot_13_2017_12_07
+**Classification:** ajot_13_2017_12_07
 
 Ajoneuvolla voi olla useampi eri käyttövoima, joihin kulutus- ja päästötiedot liittyvät.
 10	Biodiesel
@@ -1120,4 +1120,4 @@ Poikkileikkauksen ajankohdan osoittava päivämäärä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

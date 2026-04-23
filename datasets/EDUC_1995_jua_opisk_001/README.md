@@ -11,7 +11,7 @@
 - **Source:** TK: Oppilaitostilastot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
-## Kuvaus / Description
+## Description
 
 EDUC_OPISK Opiskelijat 1995-vuositiedosto sisältää syksyllä 1995 tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat.
 
@@ -54,9 +54,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (50)
+## Variables (50)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `LUOK` | Erikoistumislinjan aloittaminen ammatillisessa ja ammattikorkeakoulutuksessa | — | — | — |
 | `AKK` | Väliaikaisen ammattikorkeakoulun koodi | — | — | — |
@@ -109,7 +109,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `shnro` | Tilastokeskuksen suojattu henkilönumero | — | — | — |
 | `s_oltunn` | Tilastokeskuksen suojattu oppilaitostunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `LUOK` — Erikoistumislinjan aloittaminen ammatillisessa ja ammattikorkeakoulutuksessa
 
@@ -128,31 +128,31 @@ Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan opetusaika ilman harj
 
 #### `TYYPPI` — Oppilaitostyyppi
 
-**Luokitus / Classification:** oppilaittostyyp_1_1995_01_01
+**Classification:** oppilaittostyyp_1_1995_01_01
 
 Oppilaitostyyppiluokitus 1995
 
 #### `APUK` — Koulutuskoodin apukoodi
 
-**Luokitus / Classification:** koulutus_1_1995_01_01
+**Classification:** koulutus_1_1995_01_01
 
 Koulutusluokitus 1995
 
 #### `OPALA` — Opintoala
 
-**Luokitus / Classification:** opintoala_1_1995_01_01
+**Classification:** opintoala_1_1995_01_01
 
 Opintoala- ja asteavain 1995
 
 #### `KLOHKO` — Koulutuslohko
 
-**Luokitus / Classification:** opintoala_1_1995_01_01
+**Classification:** opintoala_1_1995_01_01
 
 Opintoala- ja asteavain 1995
 
 #### `OPASTE` — Opintoaste
 
-**Luokitus / Classification:** opintoala_1_1995_01_01
+**Classification:** opintoala_1_1995_01_01
 
 Opintoala- ja asteavain 1995
 
@@ -166,13 +166,13 @@ Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan päättymisaika ppkkv
 
 #### `LEVEL` — Isced level
 
-**Luokitus / Classification:** isced_aste_1_1995_01_01
+**Classification:** isced_aste_1_1995_01_01
 
 Isced level 1995
 
 #### `FIELD` — Isced field
 
-**Luokitus / Classification:** isced_ala_1_1995_01_01
+**Classification:** isced_ala_1_1995_01_01
 
 Isced field 1995
 
@@ -182,7 +182,7 @@ Isced field 1995
 
 #### `KANS` — Kansalaisuus
 
-**Luokitus / Classification:** valtio_11_1970_01_01
+**Classification:** valtio_11_1970_01_01
 
 VRK:n valtioluokitus (on eri kuin ISO 3166-standardi), 999 = ei tietoa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
 
@@ -562,49 +562,49 @@ TK:n oppilaitosluokitus 31.12.1995. 1 = yksityinen, 2 = valtio, 3 = kunta, 4 = k
 
 #### `KOULK5` — Koulutuskoodi
 
-**Luokitus / Classification:** koulutus_1_1995_01_01
+**Classification:** koulutus_1_1995_01_01
 
 Koulutusluokitus 1995
 
 #### `KOULK` — Tilastokeskuksen koulutuskoodi
 
-**Luokitus / Classification:** koulutus_1_1997_01_01
+**Classification:** koulutus_1_1997_01_01
 
 Tilastokeskuksen koulutusluokitus 1997
 
 #### `ATKLE` — Unescon koulutusaste
 
-**Luokitus / Classification:** isced_aste_1_1997_01_01
+**Classification:** isced_aste_1_1997_01_01
 
 ISCED 1997
 
 #### `ATKFI` — Unescon koulutusala
 
-**Luokitus / Classification:** isced_ala_1_1997_01_01
+**Classification:** isced_ala_1_1997_01_01
 
 ISCED 1997, Field
 
 #### `ATKDE` — Unescon sijoittumistavoiteluokitus
 
-**Luokitus / Classification:** isced_6_1997_01_01
+**Classification:** isced_6_1997_01_01
 
 ISCED 1997, Destination
 
 #### `ATKOR` — Unescon suuntautumisluokitus
 
-**Luokitus / Classification:** isced_3_1997_01_01
+**Classification:** isced_3_1997_01_01
 
 ISCED 1997, Orientation
 
 #### `ATKST` — Unescon kansallinen tutkintorakenne
 
-**Luokitus / Classification:** isced_4_1997_01_01
+**Classification:** isced_4_1997_01_01
 
 ISCED 1997, National degree structure
 
 #### `ATKDU` — Unescon koulutuksen suunniteltu kesto
 
-**Luokitus / Classification:** isced_5_1997_01_01
+**Classification:** isced_5_1997_01_01
 
 ISCED 1997, Duration
 
@@ -614,7 +614,7 @@ Opetushallinnon koulutusala 1997. 0 = Yleissivistävä koulutus, 1 = Luonnonvara
 
 #### `OPALAU` — Opetushallinnon opintoala
 
-**Luokitus / Classification:** opintoala_1_1997_01_01
+**Classification:** opintoala_1_1997_01_01
 
 Opetushallinnon opintoala 1997
 
@@ -634,7 +634,7 @@ Opetushallinnon koulutusaste 1997.
 
 #### `KOTIKUN` — Kotikunta
 
-**Luokitus / Classification:** kunta_1_1995_01_01
+**Classification:** kunta_1_1995_01_01
 
 Opiskelijan kotikunta 31.12.1995
 . VRK:n kuntakoodi
@@ -654,7 +654,7 @@ Opiskelijan kotikunta 31.12.1995
 
 #### `KOTNUTS3` — Kotimaakunta
 
-**Luokitus / Classification:** maakunta_1_1995_01_01
+**Classification:** maakunta_1_1995_01_01
 
 31.12.1995, TK:n alueluokitus
 . 99=ei tietoa
@@ -669,7 +669,7 @@ Opiskelijan kotikunta 31.12.1995
 
 #### `KOTISEUT` — Kotikunnan seutukunta
 
-**Luokitus / Classification:** seutukunta_1_1995_01_01
+**Classification:** seutukunta_1_1995_01_01
 
 31.12.1995, TK:n alueluokitus
 . 999=ei tietoa
@@ -693,7 +693,7 @@ Opiskelijan kotikunta 31.12.1995
 
 #### `KKUN` — Koulutuksen sijaintikunta
 
-**Luokitus / Classification:** kunta_1_1995_01_01
+**Classification:** kunta_1_1995_01_01
 
 VRK:n kuntakoodi. 
 999=ei tietoa
@@ -712,7 +712,7 @@ TK:n alueluokitus.
 
 #### `KNUTS3` — Koulutuksen sijaintimaakunta
 
-**Luokitus / Classification:** maakunta_1_1995_01_01
+**Classification:** maakunta_1_1995_01_01
 
 TK:n alueluokitus. 
 99=ei tietoa
@@ -729,7 +729,7 @@ TK:n alueluokitus.
 #### `KSEUTU` — Koulutuksen sijaintikunnan 
 seutukunta
 
-**Luokitus / Classification:** seutukunta_1_1995_01_01
+**Classification:** seutukunta_1_1995_01_01
 
 TK:n alueluokitus
 . 999=ei tietoa
@@ -748,4 +748,4 @@ bl = tieto puuttuu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

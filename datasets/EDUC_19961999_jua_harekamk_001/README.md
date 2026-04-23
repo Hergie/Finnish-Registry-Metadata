@@ -13,7 +13,7 @@ Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoite
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastotieto: Koulutukseen hakeutuminen</a>
 - **Keywords:** koulutus,oppilaitokset
 
-## Kuvaus / Description
+## Description
 
 Tämä aineisto on osa laajempaa EDUC-HAREK -moduulia korkeakoulujen hakurekisteritiedoista 1992-2022. Tämä aineisto sisältää ammattikorkeakoulujen kalenterivuonna alkaneeseen koulutukseen hakeneiden hakurekisterin tiedot 1996-1999, siltä osin kun tiedot on toimitettu Tilastokeskukseen tilastointia varten. Kokonaisuus sisältää tietoja muun muassa hakemuksesta, hakijasta ja hakukohteesta sekä arvosanoista.
 <b>Huomaathan, että oppiaine- ja arvosanatietoja (edellisten opintojen tiedot, joiden perusteella hakija on hakemassa korkeakouluun) on saatavilla ammattikorkeakouluhakujen osalta vuosilta 1996-1999 hakukorttiperusteisesti, jonka lisäksi aineistovuosille 2000-2005 näitä tietoja on yhdistetty jälkikäteen saatavilta osin ammattikorkeakoulujen yhteishakuun osallistuneilta.</b>
@@ -49,9 +49,9 @@ Hakurekisteristä on erikseen saatavilla arkaluonteisia ja karkeistamattomia muu
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (255)
+## Variables (255)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `KIELI` | — | — | — | — |
 | `sp` | — | — | — | — |
@@ -309,7 +309,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `yhkouv_s` | — | — | — | — |
 | `tun` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `KIELI`
 
@@ -1410,4 +1410,4 @@ Tunnistetieto.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

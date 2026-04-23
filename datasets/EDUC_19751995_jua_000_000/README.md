@@ -8,7 +8,7 @@
 - **Variable count:** 33
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 EDUC_OPISK_HIST Korkeakouluopiskelijoiden historialliset tiedot 1975-1995 -moduulin 2. osa perustuu Tilastokeskuksen niin sanottuun kertymätilastoon, jota tuotettiin vuodesta 1975 alkaen. Tämä moduuli sisältää kyseisen kertymätilaston tiedot vuosilta 1975–1995Tämä tiedostomuoto toimi myöhemmin pohjana Tilastokeskuksen laajemmalle opiskelija-taululle (tutkijakäytössä nimeltään Educ_opisk), josta on löydettävissä samantyyppiset tiedot korkeakoulujen opiskelijoista tuoreemmille vuosille.  
   
@@ -23,9 +23,9 @@ Hid, opintokirjan numero (voi olla osalle puuttellinen, koska numeroinissa esiin
 Tiedostosta salataan seuraavat muuttujat:
 Henkilön hid-tunniste, opintokirjan numero (voi olla osalle puuttellinen, koska numeroinissa esiintyy "00000") sekä korkeakoulutunnukset.
 
-## Muuttujat / Variables (33)
+## Variables (33)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `tun` | Uusi tietueen tunnus | — | — | — |
 | `syntymaaika` | Syntymäaika | — | — | — |
@@ -61,7 +61,7 @@ Henkilön hid-tunniste, opintokirjan numero (voi olla osalle puuttellinen, koska
 | `kkou1_s` | Suojattu oppilaitostunnus 5-numeroinen | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `tun` — Uusi tietueen tunnus
 
@@ -197,4 +197,4 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

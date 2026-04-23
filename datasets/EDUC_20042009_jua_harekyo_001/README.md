@@ -13,7 +13,7 @@ Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoite
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastotieto: Koulutukseen hakeutuminen</a>
 - **Keywords:** koulutus,oppilaitokset
 
-## Kuvaus / Description
+## Description
 
 Aineisto on osa EDUC-HAREK -moduulia korkeakoulujen hakurekisteritiedoista 1992-2023. Tämä aineisto sisältää yliopistojen kalenterivuonna alkaneeseen koulutukseen hakeneiden hakurekisteritiedot 2004-2009, siltä osin kun tiedot on toimitettu Tilastokeskukseen tilastointia varten. Kokonaisuus sisältää tietoja muun muassa hakemuksesta, hakijasta ja hakukohteesta. 
 
@@ -49,9 +49,9 @@ Hakurekisteristä on erikseen saatavilla arkaluonteisia ja karkeistamattomia muu
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (69)
+## Variables (69)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `AIKIELI_K` | — | — | — | — |
 | `MAA_K` | — | — | — | — |
@@ -123,7 +123,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `skkou2` | Salattu koulumuuttuja 2013 | — | — | — |
 | `jarj_s` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `AIKIELI_K`
 
@@ -650,4 +650,4 @@ Suojattu muuttuja hakukohteen koulutuksen järjestäjän/ylläpitäjän y-tunnuk
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** FLEED/FOLK-aineisto (työssäkäyntitilasto), yritysrekisteri
 - **Related:** <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_tyopaikka_ja_tyontekijavirta.html">Työpaikka- ja työntekijävirta</a>
 
-## Kuvaus / Description
+## Description
 
 Työpaikka- ja työntekijävirta-aineistoon on laskettu toimipaikoittain virtatietoja käyttäen 1-vuoden aikavälejä (1988 - 1989, 1990 - 1991,  …, 2017 - 2018). 
 
@@ -41,9 +41,9 @@ Aineisto on alunperin tuotettu osana OECD:n Multiprod-hanketta.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `sykstun` | suojattu toimipaikkatunnus | — | — | — |
 | `l_x` | työlliset lähtövuonna, työssäkäynti | — | — | — |
@@ -64,7 +64,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `stan` | OECD STAN toimialaluokitus | — | — | — |
 | `stan_lab` | STAN labelit | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `sykstun` — suojattu toimipaikkatunnus
 
@@ -104,4 +104,4 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

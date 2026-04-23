@@ -10,7 +10,7 @@
 - **Population:** Työikäinen väestö
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -21,9 +21,9 @@ Tietoja vuodesta 2005 alkaen.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (5)
+## Variables (5)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `alkupvm` | Työvoimakoulutuksen alkupäivämäärä | — | — | Työnhakijarekisteri |
@@ -31,29 +31,29 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tyamm` | Työllisyyskoulutuksen tyyppi | — | tyollkou_1_1987_01_01 | Työnhakijarekisteri |
 | `shnro` | Suojattu Tilastokeskuksen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
 #### `alkupvm` — Työvoimakoulutuksen alkupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työvoimakoulutuksen alkupäivämäärä.
 
 #### `loppupvm` — Työvoimakoulutuksen loppupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työvoimakoulutuksen loppupäivämäärä.
 
 #### `tyamm` — Työllisyyskoulutuksen tyyppi
 
-**Luokitus / Classification:** tyollkou_1_1987_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyollkou_1_1987_01_01 · **Group:** Työnhakijarekisteri
 
 Työllisyyskoulutuksen tyyppi. 
 1 = valmentava koulutus
@@ -65,4 +65,4 @@ Suojattu Tilastokeskuksen henkilönumero.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

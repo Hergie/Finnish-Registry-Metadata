@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.tulli.fi/fi/suomen_tulli/ulkomaankauppatilastot/index.jsp">Tullin ulkomaankauppatilastot</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_tavaroiden_ulkomaankauppa_tulli.html">Tavaroiden ulkomaankauppa (Tulli)</a>
 - **Keywords:** yritykset
 
-## Kuvaus / Description
+## Description
 
 Tutkimuskäyttöön on koottu tavaranimikkeittäisistä Tullin ulkomaankauppatilaston tiedoista aikasarja yritystason tuonnista ja viennistä. Aineisto sisältää  yrityksittäin tuonnin ja viennin kokonaistilastoarvot ja EU-sisäkaupan tuonnin ja viennin tilastoarvot sekä tuonnin/viennin CN-tuotteiden lukumäärän ja alkuperä/määrämaiden lukumäärän OECD:ssä (vuosina 2010 ja 2020). 
 
@@ -62,9 +62,9 @@ Aineistossa on mukana kaikki ulkomaankauppatilastoon kuuluvat yritykset, joilla 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tulli.fi/tilastot
 
-## Muuttujat / Variables (10)
+## Variables (10)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yrtun_s` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -77,7 +77,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tull
 | `n_imp_co` | Tuontimaiden lukumäärä OECD:ssä, 2010 | — | — | — |
 | `n_exp_co` | Vientimaiden lukumäärä OECD:ssä, 2010 | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yrtun_s` — Suojattu yritystunnus
 
@@ -85,19 +85,19 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tull
 
 #### `totimp` — Tuonnin kokonaisarvo
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 #### `totexp` — Viennin kokonaisarvo
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 #### `impintra` — Tuonnin arvo, EU-sisäkauppa
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 #### `expintra` — Viennin arvo, EU-sisäkauppa
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 #### `n_imp_cn` — CN-luokkien lukumäärä, tuonti
 
@@ -109,4 +109,4 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tull
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

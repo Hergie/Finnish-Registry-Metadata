@@ -14,7 +14,7 @@ Tilinpäätöstilasto
 - **Related:** <a href= "http://tilastokeskus.fi/til/tkke/index.html">Tutkimus- ja kehittämistoiminta</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_tutkimus_ja_kehittamistoiminta.html">Tutkimus- ja kehittämistoiminta (T&K)</a>
 - **Keywords:** yritykset
 
-## Kuvaus / Description
+## Description
 
 T&K-paneeliaineisto (1985 - 2017) on tutkimuskäyttöön tarkoitettu aineisto, joka on muodostettu yhdistämällä tutkimus- ja kehittämistoiminnan kyselyt (pl. vuodet 1986, 1988 ja 1990). Aineisto kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Lisäksi joinakin vuosina on kysytty tietoja myös menojen jakautumisesta tuotteisiin ja prosesseihin sekä toimialoittain. Rahamääräiset tiedot ovat euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja). 
 
@@ -43,9 +43,9 @@ Korotusten ja imputointien vaikutus on noin 14 prosenttia t&k-menojen loppusumma
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (82)
+## Variables (82)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -130,7 +130,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `type3` | T&k-toiminnan tyyppi: kehittämistyö (%) | % | — | — |
 | `TILYHT` | Tilaustutkimus, yhteensä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -142,25 +142,25 @@ Vuosi
 
 #### `tol88` — Toimialaluokitus 1988, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_1988_01_01
+**Classification:** toimiala_1_1988_01_01
 
 Yritysrekisteristä haettu toimialaluokitus 1988. Saatavissa vuosille 1985-1993. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa. Koska yritysrekisterin tiedot puuttuvat vuosilta 1985 ja 1987, vuoden 1985 toimialakoodina on käytetty saman yrityksen vuoden 1986 toimialaa ja vuoden 1987 toimialakoodina vuoden 1988 tai toissijaisesti vuoden 1986 toimialaa.
 
 #### `tol95` — Toimialaluokitus 1995, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_1995_01_01
+**Classification:** toimiala_1_1995_01_01
 
 Yritysrekisteristä haettu toimialaluokitus 1995. Saatavissa vuosille 1985-2005. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa.
 
 #### `tol02` — Toimialaluokitus 2002, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Yritysrekisteristä haettu toimialaluokitus 2002. Saatavissa vuosille 1989-. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa. Vuoden 2002 toimialaluokitus on täydennetty koko ajanjaksolle 1989- luokitustietokannan toimiala-avaimen avulla. Toimialaluokitusten muutoksista johtuen uusi luokitus on vain suuntaa antava vanhempien vuosien kohdalla, mikä vaikuttaa luokkien vertailukelpoisuuteen.
 
 #### `tol08` — Toimialaluokitus 2008, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Yritysrekisteristä haettu toimialaluokitus 2008. Saatavissa vuosille 1989-. Ei löydy kaikille yrityksille, syynä mm. ajalliset erot tilastoinnissa. Vuoden 2008 toimialaluokitus on täydennetty vuosille 1989-1998 luokitustietokannan toimiala-avaimen avulla ja vuosille 1999- yritysrekisterin taaksepäin vietyjen toimialatietojen pohjalta. Toimialaluokitusten muutoksista johtuen uusi luokitus on vain suuntaa-antava vanhempien vuosien kohdalla, mikä vaikuttaa luokkien vertailukelpoisuuteen.
 
@@ -178,7 +178,7 @@ T&K-tilastossa käytetty toimialaluokitus. Saatavissa vuosille 2008-.
 
 #### `ysyht` — Sisäinen T&K yhteensä
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Yrityksessä tehdyn oman tutkimus- ja kehittämistoiminnan menot yhteensä. Tutkimuksella ja kehittämisellä tarkoitetaan yleisesti systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämistä uusiin sovelluksiin. Tavoitteena on jotakin olennaisesti uutta. Oman tutkimus- ja kehittämistoiminnan menot sisältävät palkkausmenot (palme), aineet, tarvikkeet, rakennusten käyttömenot, muut käyttömenot, ostetut palvelut, koneet, laitteet, rakennukset ja muut käyttöomaisuuden hankintamenot. Menot ilmoitetaan euroina ilman arvonlisäveroa (alv). Niihin sisällytetään vuonna 2012 toiminnasta aiheutuneet kulut sekä taseeseen aktivoidut erät. Poistoja ei lasketa.
 T&K-tietoja on imputoitu kyselyyn vastaamattomille, joilla on ollut edellisenä vuonna huomattavia T&K-menoja, vuoden t-1 vastauksen arviotiedoilla vuoden t menoista. Menojen jakaumat pysyvät ennallaan. T&K-työtä tehneiden henkilöiden lukumääriä ja tutkimustyövuosia ei koroteta, ts. suora t-1 vastaus. Imputointi tehdään vain kerran, ts. t-2 tiedoilla ei imputoida. Imputoituja havaintoja on ollut alle 100/vuosi. Osittaiskadon imputoinnit voidaan tulkita aineiston loogiseksi paikkaamiseksi (esim. jos on T&K-henkilöitä ja palkkoja, pitää olla käyttömenoja). Puuttuvat arvioidut menot t+1 tosin imputoidaan otostoimialan trendillä (k), ts. arvio(t+1)=k*menot(t). Imputoidut havainnot on merkitty (X) alkuperäisiin T&K-vuosiaineistoihin. Paneelia rakennettaessa puuttuvat tiedot sisäisissä ja muissa T&K-menoissa on oletettu nolliksi, jos yrityksellä on positiivinen määrä joko sisäistä tai tilattua T&K:ta. Joitakin havaintoja on jätetty pois, koska ei ole ollut varmuutta ovatko puuttuvat tiedot aidosti nollia.
@@ -187,20 +187,20 @@ Muutamilla yrityksillä (lähinnä vuosina 1989 ja 1996) T&K-kyselyn liikevaihto
 
 #### `palme` — Palkkamenot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 T&k-toiminnan palkkausmenot, ei vuonna 1996. Tutkimushenkilökunnan palkkausmenot saadaan laskemalla tutkimustyövuosien mukainen t&ktoiminnan osuus ko. vuoden palkkausmenoista kunkin kohdassa 1 tutkimustyövuosisarakkeeseen sisällytetyn henkilön osalta. Palkkausmenoihin lasketaan varsinainen rahapalkka, luontaisedut arvioituna todellisiin arvoihin, loma-ajan palkka sekä lomaraha. Palkkausmenoihin lasketaan myös sosiaaliturvamaksu, työttömyysvakuutusmaksu, lakisääteiset ja vapaaehtoiset eläkevakuutusmaksut sekä kannatusmaksut avustuskassoihin.
 
 #### `yuyht` — Ulkopuolelta tilattu T&K yhteensä
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Yrityksen ulkopuolelta tilatun (muun) t&k:n menot yhteensä, huom. ei enää tarkistettu tilastointia varten 1998 lähtien, joten laatu on heikko. Ei kysytty vuosina 1992 ja 1994. Sisältää yrityksen kotimaasta tilaaman T&K:n, ulkomailta tilatun T&K:n ja avustukset, tutkimuslaitosten ylläpitomaksut tai vastaavat. 
 Ei mukana vuodesta 2015-, korvattuu muuttujalla TILYHT: Tilaustutkimukset yhteensä
 
 #### `tklv` — Liikevaihto, T&K-kysely
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Kysytty vuosina 1985-1991 ja 1993-1998
 
@@ -210,7 +210,7 @@ Kysytty vuosina 1991 ja 1993-.
 
 #### `yreklv` — Liikevaihto, yritysrekisteri
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Saatavissa 1989 lähtien.
 
@@ -224,7 +224,7 @@ TILYKS saa arvon yksi, jos kyseessä on yritysrekisterin tilastotieto, 0 muuten.
 
 #### `tplv` — Liikevaihto, tilinpäätöstilasto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Saatavissa 1987 lähtien 2011 asti.
 
@@ -298,19 +298,19 @@ Tuotekehitysinsinöörit, tutkijat tai vastaavissa tehtävissä olevat, vuoden a
 
 #### `tultk` — Tuotteisiin liittyvä kehittämistyö
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Kysytty 1991, 1993, 1995, 1997.
 
 #### `prltk` — Prosesseihin liittyvä kehittämistyö
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Kysytty 1991, 1993, 1995, 1997.
 
 #### `tketupr` — Ei välitöntä tuote- tai prosessisovellusta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Kysytty 1991, 1993, 1995, 1997.
 
@@ -444,25 +444,25 @@ T&K-menojen kohdistuminen tuotteisiin tai palveluihin kyseisenä vuonna. Toimial
 
 #### `orahs` — Sisäinen T&K oma rahoitus ml. lainat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Sisäisen T&K:n oma rahoitus ml. ehdolliset ja ehdottomat lainat. Saatavissa 1985-1991, 1993, 1995, 1997-.
 
 #### `lesyht` — Ehdolliset lainat, sisäinen T&K
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Ehdolliset lainat, sisäinen T&K. Saatavissa 1985, 1987.
 
 #### `orahu` — Ulk. TK oma rahoitus ml. ehdolliset & ehdottomat lainat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Ulkopuolelta tilatun T&K:n oma rahoitus ml. ehdolliset ja ehdottomat lainat. Saatavissa 1985-1991, 1993, 1995, 1997.
 
 #### `leuyht` — Ehdolliset lainat, ulk. T&K
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Ehdolliset lainat ulkopuolelta tilattu T&K. Saatavissa 1985, 1987.
 
@@ -498,20 +498,20 @@ Rakennetilaston tuotantotietokannan yritysten määrästä laskettu kerroin, osi
 
 #### `type1` — T&k-toiminnan tyyppi: perustutkimus (%)
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 T&k-toiminnan tyyppi: perustutkimus (%), saatavissa 2011-. Perustutkimukselle on tunnusomaista uuden tiedon
 tavoittelu ilman välitöntä käytännön sovellusta. Perustutkimusta on esimerkiksi ominaisuuksien, rakenteiden, syy- ja seuraussuhteiden analyysit, joiden tavoitteena on uusien hypoteesien, teorioiden ja lainalaisuuksien muodostaminen, todentaminen ja selittäminen.
 
 #### `type2` — T&k-toiminnan tyyppi: soveltava tutkimus (%)
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 T&k-toiminnan tyyppi: soveltava tutkimus (%), saatavissa 2011-. Soveltava tutkimus, jossa tavoitteena on jokin uuden tiedon avulla toteutettava käytännön sovellus. Pyrkimyksenä voi olla esim. sovellusten etsiminen perustutkimuksen tuloksille tai uusien menetelmien ja keinojen luominen tietyn ongelman ratkaisemiseksi.
 
 #### `type3` — T&k-toiminnan tyyppi: kehittämistyö (%)
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 T&k-toiminnan tyyppi: kehittämistyö (%), saatavissa 2011-. Kehittämistyö, jolla tarkoitetaan tutkimuksen tuloksena ja/tai käytännön kokemuksen kautta saadun tiedon käyttämistä uusien tuotteiden, palvelujen, tuotantoprosessien tai menetelmien aikaansaamiseen tai olemassa olevien olennaiseen parantamiseen.
 
@@ -527,4 +527,4 @@ Tieto pääosin kysytty ja tarkistettu vain T&K:ta harjoittaneiden osalta. Saata
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Osakeyhtiöt ja niiden osakkaat
 - **Source:** Verohallinnon osakeyhtiöiden osakas- ja osinkotiedot, Tilastokeskuksen rakenne- ja tilinpäätöstilaston tiedot sekä työssäkäynti- ja työsuhdetiedot (FLEED)
 
-## Kuvaus / Description
+## Description
 
 FLOWN - FIRM -data sisältää tutkimusta varten muokatut tiedot yrityksittäin ja henkilöittäin vuosilta 2006-2016. Aineisto on rajattu verottajan osakastietokannan yrityksiin, joille on löytynyt vähintään 1 henkilöomistaja (tarvittaessa ketjutettu 1 tai 2 omistusportaan päästä). Aineistoon on yhdistetty tietoja FLEED-aineistosta. FLOWN-aineistoa on kehitetty yhteistyössä Etlan kanssa: Maliranta, M. and S. Nurmi (2019). Business Owners, Employees and Firm Performance. Small Business Economics 52(1) (ETLA Working Papers No. 42).
 https://www.etla.fi/julkaisut/business-owners-employees-and-firm-performance/
@@ -21,9 +21,9 @@ Muista yksikkötason tiedoista poiketen kynnyssääntönä FLOWN-aineiston tieto
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (21)
+## Variables (21)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -47,7 +47,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `omptoim` | Omistajan pääasiallinen toiminta | — | — | — |
 | `omsen` | Omistajan senioriteetti | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -128,4 +128,4 @@ Omistajan senioriteetti/työkokemus kyseisen vuoden lopun TVM- työ/yrittäjäsu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

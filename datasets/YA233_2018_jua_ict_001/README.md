@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen Tietotekniikan käyttö yrityksissä -kysely ja yritysrekisteri
 - **Related:** <a href= "https://www.stat.fi/til/icte/index.html">Tietotekniikan käyttö yrityksissä</a>
 
-## Kuvaus / Description
+## Description
 
 ICT-aineisto kuvaa yritysten tietotekniikan käyttöä ja liiketoiminnan sähköistymistä. Tilastoaineisto tuotetaan otokseen perustuvana laajana yrityskyselynä. Tulokset korotetaan tilastossa vastaamaan kaikkia tutkittujen toimialojen ja suuruusluokkien yrityksiä. Tilastoyksikkönä on yritys. Yritystason aineisto on saatavissa tutkimuskäyttöön erillisinä vuositiedostoina. 
 Tilastoaineisto ilmestyy vuosittain. Sähköisen kaupan osalta mittausjaksona on edellinen vuosi. Tietotekniikan käytön osalta viiteajankohtana on useimmissa muuttujissa kyselyn ajankohta, eli tammi-huhtikuu. Aineiston aikasarja ulottuu vuoteen 2002 asti. 
@@ -71,9 +71,9 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 * 3D-tulostus; käyttikö yritys 3D-tulostusta, 3D-tulostuksen käyttötarkoitukset. 2018
 * Robotiikan käyttö; robotiikan tyypit ja käyttötarkoitukset. 2018
 
-## Muuttujat / Variables (186)
+## Variables (186)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SyritysID` | Suojattu yritysID | — | — | — |
 | `omtyyppi` | Omistajatyyppi | — | — | — |
@@ -262,7 +262,7 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 | `VERVAP` | Osuus vastaanotetut verkkolasku (%) | — | — | — |
 | `MUVAP` | Osuus vastaanotetut paperi/sähköpostilasku (%) | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SyritysID` — Suojattu yritysID
 
@@ -908,4 +908,4 @@ Paperilaskujen tai sähköpostilaskujen osuus (%) yrityksen kaikista vastaanotta
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

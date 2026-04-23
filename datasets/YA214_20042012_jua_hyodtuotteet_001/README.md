@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.tilastokeskus.fi/til/tti/index.html">Teollisuustuotanto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_hyodykkeet_tuotteet.html">Hyödykkeet: tuotteet</a>
 - **Keywords:** hyödykkeet,jalostus,kaivostoiminta,louhinta,PRODCOM-nimikkeistö,tavarat,teollisuus,teollisuustuotanto,toimialat,tuotanto,tuotteet,valmistus
 
-## Kuvaus / Description
+## Description
 
 Hyödyketilasto eli teollisuustuotantotilasto sisältää tavaranimikkeittäisiä eli hyödykkeittäisiä arvo- ja määrätietoja myydystä tuotannosta ja kokonaistuotannosta kultakin kalenterivuodelta tiedonantajakohtaisesti. Tutkimuskäyttöön on suojattu tiedot tilastovuodesta 1986 alkaen. Aineistokuvaus koskee vuosia 2004 - 2012, mutta tätä vanhemmat tiedot ovat pääosin samoja. Tiettyjen hyödykeluokkien arvo- ja määrätiedot on salattu tiedonantajien pyynnöstä. Yritysten lukumäärä on luottamuksellinen tieto kaikissa tuotantonimikkeissä.
 
@@ -37,9 +37,9 @@ Lisäksi estimoidaan eri tavoilla havaintoaineistosta puuttuvia yksittäisiä fy
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (25)
+## Variables (25)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | — | Tunnistetiedot |
 | `prodcom` | PRODCOM-koodi eli tuotenimike | — | prodcom_1_2011_01_01 | Luokitustiedot |
@@ -67,29 +67,29 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `yrtol02` | Oikeudellisen yksikön toimiala (TOL 2002 -luokitus) | — | toimiala_1_2002_01_01 | luokitustiedot |
 | `tptol02` | Toimipaikan toimiala (TOL 2002 -luokitus) | — | toimiala_1_2002_01_01 | luokitustiedot |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 Tilastovuosi 4 numerolla, lyhenne tv
 
 #### `prodcom` — PRODCOM-koodi eli tuotenimike
 
-**Luokitus / Classification:** prodcom_1_2011_01_01 · **Ryhmä / Group:** Luokitustiedot
+**Classification:** prodcom_1_2011_01_01 · **Group:** Luokitustiedot
 
 PRODCOM-koodi eli tuotenimike, pituus 8 tai 10 numeroa. Tilastovuodesta 1997 alkaen teollisuuden tuotantotilaston tiedot on kerätty Eurostatin PRODCOM-luettelon mukaisella luokituksella, täydennettynä kansallisilla tarkennuksilla eli kansallisilla lisänimikkeillä.
 
 #### `kuvaus` — PRODCOM nimiketeksti, joka vastaa PRODCOM-tuotantokoodia
 
-**Luokitus / Classification:** prodcom_1_2011_01_01 · **Ryhmä / Group:** Ohjaustiedot
+**Classification:** prodcom_1_2011_01_01 · **Group:** Ohjaustiedot
 
 Nimiketeksti (PRODCOM-koodin mukainen), lyhennetty max 80 merkkiin.
 
 #### `lista2` — Nimikelajitieto
 
-**Ryhmä / Group:** Luokitustiedot
+**Group:** Luokitustiedot
 
 Nimikelajitieto kuvaa tuotenimikkeistön hierarkiaa. Se kertoo, onko nimike kansallinen pää- tai alanimike (kansallinen lisänimike) ja onko kansainvälisillä nimikkeillä Suomessa alanimikkeitä. Kansallisten lisänimikkeiden tarve on harkittu Tilastokeskuksessa Suomen todellisen tuotantorakenteen perusteella. Kansalliset lisänimikkeet ovat numeromerkkisiä ja 10 merkin mittaisia. 
 
@@ -116,7 +116,7 @@ Esimerkkejä tilastovuodesta 2011:
 
 #### `t_tyyppi` — Hyödykkeen tuotannon tyyppi
 
-**Ryhmä / Group:** Luokitustiedot
+**Group:** Luokitustiedot
 
 Tuotannon tyyppikoodi ilmoittaa, onko hyödykkeen tuotannosta kysyttävä tiedustelussa jotain muutakin kuin myydyn tuotannon arvo ja määrä. 
 
@@ -130,7 +130,7 @@ Kokonaistuotannon määrä = tilastovuoden aikana valmistetun tuotannon määrä
 
 #### `yhdtyyp` — Yhdistelmätyyppi (oikeudellisen yksikön toimipaikan / toimipaikkojen) vastauksissa
 
-**Ryhmä / Group:** Luokitustiedot, Ohjaustiedot
+**Group:** Luokitustiedot, Ohjaustiedot
 
 Yhdistelmätyyppi on koodi siitä, että kyseisen ei-sivuutettavan, hyödyketiedusteluun tilastovuonna sisältyvän teollisen varsinaisen toimipaikan (= yhdistelmätoimipaikan) vastauksiin sisältyy myös sivuutettavien teollisten varsinaisten toimipaikkojen vastauksia (samalta oikeudelliselta yksiköltä). Yhdistelmätoimipaikka on kyseessä, jos toimipaikalla on yhdistelmätyyppi = Y tai K. 
 
@@ -151,19 +151,19 @@ yhdistelmätoimipaikkojen tuotantotietoihin. Eli toimipaikka A:n tuotannoksi rap
 
 #### `stptunnus` — Suojattu toimipaikkatunnus
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 Suojattu toimipaikkatunnus
 
 #### `syrtunnus` — Suojattu oikeudellisen yksikön  Y-tunnus
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).
 
 #### `yrtol08` — Oikeudellisen yksikön toimiala (TOL 2008 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** Luokitustiedot
+**Classification:** toimiala_1_2008_01_01 · **Group:** Luokitustiedot
 
 Oikeudellisen yksikön toimiala, TOL 2008 -luokitus. Saatavissa 2007 alkaen. 
 
@@ -171,7 +171,7 @@ PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista to
 
 #### `tptol08` — Toimipaikan toimiala (TOL 2008 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** Luokitustiedot
+**Classification:** toimiala_1_2008_01_01 · **Group:** Luokitustiedot
 
 Toimipaikan toimiala, TOL 2008 -luokitus. Saatavissa 2007 alkaen. 
 
@@ -179,7 +179,7 @@ PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista to
 
 #### `tvarmuus` — Tuotantohavainnon luotettavuus (tiedon varmuus) tai käsittelyn tilanne
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Tuotantohavainnon tiedon varmuus (TUOTANTO) tai käsittelyn tilanne.
 Mahdolliset koodit: 
@@ -196,7 +196,7 @@ Huomautus: Kun kyseessä on hyvänlaatuinen arviotieto, on aineiston käsittelij
 
 #### `estlippu` — Estimointi / imputointi miniyrityksellä
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Yrityksen / toimipaikan arvo-määrä_1-määrä_2-tietojen estimoinnin liputusmuuttuja. Saatavissa 2005-.
 
@@ -209,7 +209,7 @@ Teollisia miniyrityksiä on (TOL 2008 pääluokissa B, C) toistaiseksi noin 1600
 
 #### `arv1` — Määrätiedon ensisijaisessa mittayksikössä (maara110, maara130) arviointikoodi
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Määrätiedon ensisijaisessa mittayksikössä (maara110, maara130) arviointikoodi eli estimoinnin liputusmuuttuja
 
@@ -219,7 +219,7 @@ Myyty tuotanto, maara1:
 
 #### `arv2` — Määrätiedon toissijaisessa mittayksikössä (maara210, maara230) arviointikoodi
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Määrätiedon toissijaisessa mittayksikössä (maara210, maara230) arviointikoodi eli estimoinnin liputusmuuttuja
 
@@ -229,7 +229,7 @@ Myyty tuotanto, maara2:
 
 #### `mitta1ti` — Ensisijainen mittayksikkö (maara110, maara130), hyödyketiedustelu
 
-**Ryhmä / Group:** Luokitustiedot
+**Group:** Luokitustiedot
 
 Nimikkeellä hyödyketiedustelussa ensisijaisesti käytettävä määrätietojen mittayksikkö. Tuotantotiedoissa Eurostatin edellyttämä tai harkittu sopivaksi TK:ssa (jos Eurostat ei edellytä määrän kysymistä). 
 
@@ -237,13 +237,13 @@ Mittayksiköt voivat kuvata painoa tai bruttovetoisuutta, pituutta, pinta-alaa, 
 
 #### `mitta2ti` — Toissijainen mittayksikkö (maara210, maara230), hyödyketiedustelu
 
-**Ryhmä / Group:** Luokitustiedot
+**Group:** Luokitustiedot
 
 Nimikkeellä hyödyketiedustelussa toissijaisesti käytettävä määrätietojen mittayksikkö.
 
 #### `arvo10` — Myydyn tuotannon arvo, euroa
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Myydyn tuotannon arvo, euroa, kun t_tyyppi = S.
  
@@ -270,7 +270,7 @@ Myyty tuotanto -käsite on englanniksi 'production sold'.
 
 #### `arvo35` — Kokonaistuotannon arvo, euroa, kun t_tyyppi = L = Luovutettu
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Saatavissa 2005-. Kokonaistuotannon arvo, euroa, kun t_tyyppi = L = Luovutettu (harvinainen; koskee vain isojen alusten nimikkeitä). 
  
@@ -282,7 +282,7 @@ Huomautus: Isoista aluksista (t_tyyppi = L) ilmoitetaan tässä kohdassa (kokona
 
 #### `maara110` — Myydyn tuotannon määrä ensisijaisessa mittayksikössä eli määrä_1
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Myydyn tuotannon määrä ensisijaisessa mittayksikössä eli määrä_1, kun t_tyyppi = S, L  (tilastovuodesta 2005 alkaen ei ole enää olemassa C-tyyppiä, joka oli myytäväksi aiottu tuotanto), mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI. 
  
@@ -294,13 +294,13 @@ Tuotteen painoon ei lueta pakkauksen painoa.
 
 #### `maara210` — Myydyn tuotannon määrä toissijaisessa mittayksikössä eli määrä_2
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Myydyn tuotannon määrä toissijaisessa mittayksikössä eli määrä_2, kun t_tyyppi = S, L  (tilastovuodesta 2005 alkaen ei ole enää olemassa C-tyyppiä, joka oli myytäväksi aiottu tuotanto), mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA2TI.
 
 #### `maara130` — Kokonaistuotannon määrä ensisijaisessa mittayksikössä eli määrä_1
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Kokonaistuotannon määrä ensisijaisessa mittayksikössä eli määrä_1, kun t_tyyppi = T, K, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI. 
 
@@ -310,28 +310,28 @@ Kokonaistuotanto-käsite on englanniksi 'actual production' tai 'total productio
 
 #### `maara230` — Kokonaistuotannon määrä toissijaisessa mittayksikössä eli määrä_2
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Kokonaistuotannon määrä toissijaisessa mittayksikössä eli määrä_2, kun t_tyyppi = T, K, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA2TI. Ks. samat lisätiedot kuin muuttujassa MAARA130.
 
 #### `salattu` — Salattu tieto
 
-**Ryhmä / Group:** ohjaustiedot
+**Group:** ohjaustiedot
 
 Saa arvon yksi, jos arvo- ja määrätiedot on salattu kyseisessä nimikkeessä, muutoin 0.
 
 #### `yrtol02` — Oikeudellisen yksikön toimiala (TOL 2002 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2002_01_01 · **Ryhmä / Group:** luokitustiedot
+**Classification:** toimiala_1_2002_01_01 · **Group:** luokitustiedot
 
 Oikeudellisen yksikön toimiala (TOL 2002 -luokitus). Saatavissa 2005-2006. PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.
 
 #### `tptol02` — Toimipaikan toimiala (TOL 2002 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2002_01_01 · **Ryhmä / Group:** luokitustiedot
+**Classification:** toimiala_1_2002_01_01 · **Group:** luokitustiedot
 
 Toimipaikan toimiala (TOL 2002 -luokitus). Saatavissa -2008 asti. PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista toimialakoodia. Nimikettä tuottavan yrityksen / toimipaikan / toimipaikkayhdistelmän (pää)toimiala voi hyvinkin poiketa nimikkeen omasta toimialasta.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

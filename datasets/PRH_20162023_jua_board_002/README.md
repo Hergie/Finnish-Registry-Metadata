@@ -11,7 +11,7 @@
 - **Source:** Patentti- ja rekisterihallituksen ylläpitämä kaupparekisteri
 - **Related:** <a href= "https://www.prh.fi/stc/attachments/rekisteri-_ja_tietosuojaselosteet/kaupparekisteri_tietosuojaseloste.pdf">Kaupparekisteri</a>
 
-## Kuvaus / Description
+## Description
 
 PRH_BOARD-aineisto sisältää tietoja yritysten ja muiden organisaatioiden vastuuhenkilöistä, kuten toimitusjohtajista, hallitusten jäsenistä ja tilintarkastajista vuosilta 2016 - 2023. Aineisto pohjautuu Patentti- ja rekisterihallituksen (PRH) kaupparekisteripoiminnan tauluihin (Companrolesid_base ja Companyrolesid) vuodesta 2025 alkaen. Näitä tauluja ei hyödynnetä varsinaisessa tilastotoiminnassa.
 
@@ -33,9 +33,9 @@ PRH ei vastaa aineistoon sisältyvien tietojen virheistä, katoamisista tai muut
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (12)
+## Variables (12)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `shnro` | Suojattu henkilönumero | — | — | — |
@@ -50,7 +50,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `ROOLIN_LOPPU_PVM` | Vastuuhenkilön roolin loppumispäivämäärä | — | — | — |
 | `ORGANISAATION_REKISTEROINTI_PVM` | Organisaation  perustamispäivämäärä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -165,4 +165,4 @@ Yrityksen/organisaation perustamispäivämäärä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

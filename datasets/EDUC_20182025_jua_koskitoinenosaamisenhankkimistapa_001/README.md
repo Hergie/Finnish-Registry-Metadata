@@ -8,7 +8,7 @@
 - **Variable count:** 11
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 EDUC_KOSKI-valmisaineisto sisältää OPH:n Koski-tietovarannon tietoja perusopetuksen, nivelvaiheen sekä toisen asteen koulutuksien läsnäolosta, sisällöstä sekä suorituksista. Aineiston avulla on mahdollista tutkia läsnäoloa koulutuksissa tarkalla tasolla, sillä aineisto sisältää jaksomuotoisen tilatiedon. Aineisto sisältää myös koulutuksien suoritustietoja, joiden avulla on mahdollista tutkia koulutuksien etenemistä tarkalla tasolla. Aineisto on kattavaa vuodesta 2020 lähtien. KOSKI-järjestelmä on otettu käyttöön vuonna 2018, mutta vuosien 2018 ja 2019 tiedot eivät ole kattavia. Aineistosta ei ole rajattu ulos aiempia tietoja. 
 
@@ -45,9 +45,9 @@ Sisältää tietoja KOSKEN osaamisen_hankkimistapa_ ammatillinen- taulusta.
 
 Huom. Osaamisen_hankkimistapa-taulu ei sisällä tietoja aivan kaikista ennen ammatillisen koulutuksen reformia voimassa olleista opiskeluoikeuksista, opiskeluoikeus_jakso-taulun muuttuja oppisopimus_jossain_paatason_suorituksessa, mahdollistaa oppisopimuskoulutuksen erottelun näillekin koulutuksille.
 
-## Muuttujat / Variables (11)
+## Variables (11)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `opiskeluoikeus_oid_s` | suojattu opiskeluoikeuden tunniste | — | — | — |
@@ -61,7 +61,7 @@ Huom. Osaamisen_hankkimistapa-taulu ei sisällä tietoja aivan kaikista ennen am
 | `koulutussopimus_paikkakunta` | Koulutussopimuksen paikkakunta | — | — | — |
 | `koulutussopimus_maa` | Koulutussopimus maa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -109,4 +109,4 @@ Tieto koulutussopimuksen maasta.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

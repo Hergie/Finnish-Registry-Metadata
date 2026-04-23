@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_PERHE Oleskelulupaa hakeneiden perhetiedot (perheside) </h3>
 
@@ -32,9 +32,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (5)
+## Variables (5)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SHNRO` | Suojattu henkilönumero | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
@@ -42,7 +42,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `PERSON_RELATIONSHIP_CODE` | Asiakkaan ja sukulaisen sukulaisuussuhde koodi | — | — | — |
 | `MODIFICATION_DAY` | Sukulaissuhteen kirjaus tai paivityspvm | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SHNRO` — Suojattu henkilönumero
 
@@ -64,4 +64,4 @@ Jos muuttuja saa esim. arvon "Äiti", niin related_customer_id on customer_id:n 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

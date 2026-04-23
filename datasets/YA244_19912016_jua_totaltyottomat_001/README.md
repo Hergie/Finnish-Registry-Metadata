@@ -11,7 +11,7 @@
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 - **Keywords:** työttömyys
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -20,9 +20,9 @@ Tilastokeskuksen tutkijapalveluiden FOLK-moduulien käyttöönoton myötä FLEED
 <b>FLEED-työttömyysjaksot</b> 
 Tietoja vuodesta 1991 alkaen.
 
-## Muuttujat / Variables (6)
+## Variables (6)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `alkupvm` | Työttömyyden alkupäivämäärä | — | — | Työnhakijarekisteri |
@@ -31,29 +31,29 @@ Tietoja vuodesta 1991 alkaen.
 | `tjtyol` | Työttömyysjakson työllisyyskoodi | — | — | Työnhakijarekisteri |
 | `shnro` | Suojattu Tilastokeskuksen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
 #### `alkupvm` — Työttömyyden alkupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työttömyysjakson alkupäivämäärä.
 
 #### `loppupvm` — Työttömyyden loppupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työttömyysjakson loppupäivämäärä.
 
 #### `psyy` — Työttömyyden päättymissyy
 
-**Luokitus / Classification:** tyottomy_3_1987_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyottomy_3_1987_01_01 · **Group:** Työnhakijarekisteri
 
 Työllisyyskoodin muutoksen syy.
 0 = Sijoitettu työllistämistoimenpitein
@@ -86,7 +86,7 @@ Uusi luokitus tilastovuodesta 2012 alkaen:
 
 #### `tjtyol` — Työttömyysjakson työllisyyskoodi
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työttömyysjakson työllisyyskoodi.
 2 = työtön
@@ -98,4 +98,4 @@ Suojattu Tilastokeskuksen henkilönumero.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

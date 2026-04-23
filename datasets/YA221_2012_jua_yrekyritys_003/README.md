@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yritysrekisterin_yritykset.html">Yritysrekisterin yritykset</a>
 - **Keywords:** yritykset,yritysrekisteri
 
-## Kuvaus / Description
+## Description
 
 Yritysrekisterin yritystason aineisto kattaa liikeyritysten ja yksityisten voittoa tavoittelemattomien yhteisöjen vuosittaiset yritystason tilastotiedostot. Aineisto sisältää perustiedot yritysten toimialasta, sijainnista, omistuksesta, liikevaihdosta, henkilöstömäärästä ja palkoista. 
 
@@ -106,9 +106,9 @@ Tilastoraja 2012, liikevaihto 10595
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (68)
+## Variables (68)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `YLAJI` | Yksikkölaji | — | — | — |
 | `VUOSI` | Vuosi | — | — | — |
@@ -179,7 +179,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `toimlopmuoto` | Yrityksen toiminnan lopetusmuoto | — | — | — |
 | `toimalomuoto` | Yrityksen toiminnan aloitusmuoto | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `YLAJI` — Yksikkölaji
 
@@ -212,7 +212,7 @@ Määritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin k
 
 #### `SEKTORI` — Sektori
 
-**Luokitus / Classification:** sektoriluokitus_1_2000_01_01
+**Classification:** sektoriluokitus_1_2000_01_01
 
 Oikeudellisen yksikön Sektoriluokitus 2000:n mukainen sektoriluokka.
 
@@ -275,7 +275,7 @@ Konsernirekisterin perimmäisen omistajan maan perusteella määräytyy onko kys
 
 #### `TOL08YR` — Toimialaluokitus 2008
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Oikeudellisen yksikön toimiala toimialaluokitus TOL 2008:n mukaan. Käytössä tilastovuodesta 2007 alkaen. Erikseen saatavissa yritysten toimialat 2002 ja 2008 vuodesta 1988 alkaen.
 Yritystilastoissa yrityksen koko toiminta tilastoidaan yrityksen päätoimialalle. Monitoimipaikkaisen yrityksen päätoimiala määräytyy yrityksen eri toimialoilla toimivissa toimipaikoissa syntyvän arvonlisäyksen perusteella. Arvonlisäys vastaa läheisesti jalostusarvoa. Yrityksen kunkin toimialan arvonlisäys saadaan kertomalla kunkin toimipaikan työllisten määrä toimipaikan toimialan keskimääräisellä arvonlisäyksellä ja suhteuttamalla saatu luku toimipaikan toiminta-aikaan tilastovuoden tilikaudella. Päätoimiala määritellään vaiheittain toimialaluokituksen kirjaintasolta tarkimmalle tasolle. Yrityksen päätoimialaksi määräytyy yleensä sen toimipaikan toimiala, jossa tilikauden arvonlisäys on suurin. Yksitoimipaikkaisella yrityksellä yrityksen ja toimipaikan toimiala on sama.
@@ -334,7 +334,7 @@ Suuruusluokat ovat:
 
 #### `LV` — Liikevaihto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön liikevaihto.
 
@@ -363,7 +363,7 @@ Luokat ovat:
 
 #### `PALKKA` — Maksetut palkat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön maksamat palkat.
 
@@ -481,7 +481,7 @@ Oikeudellisen yksikön ikä.
 
 #### `PA01` — Tammikuussa maksetut palkat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön tammikuussa maksamat palkat.
 
@@ -531,19 +531,19 @@ Oikeudellisen yksikön joulukuussa maksamat palkat.
 
 #### `PA13` — Kuukausipalkat yhteensä
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön kalenterivuonna maksamat palkat yhteensä.
 
 #### `MAATAL` — Tuotot maataloudesta
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön tuotot maataloudesta.
 
 #### `METSAT` — Tuotot metsätaloudesta
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen yksikön tuotot metsätaloudesta.
 
@@ -668,4 +668,4 @@ Huom. vuosina 2006-2007 on tapahtunut muutoksia aloitusten määrittelyssä (sii
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** Tulorekisteri
 - **Keywords:** maksetut tulonsiirrot,saadut tulonsiirrot,tulonsiirrot
 
-## Kuvaus / Description
+## Description
 
 Tulorekisteri on Verohallinnon ylläpitämä kansallinen sähköinen tietokanta, joka sisältää henkilöiden reaaliaikaiset, maksukohtaiset palkka-, eläke- ja etuustiedot. Eläke- ja etuustietoja on ilmoitettu tulorekisteriin vuoden 2021 alusta lähtien. Palkkatietoja on ilmoitettu jo vuoden 2019 alusta lähtien, ja ne on koottu Tilastokeskuksessa TAX_INCOMES-valmisaineistoon. Eläke- ja etuustiedoista on muodostettu tutkimuskäyttöön TAX_BENEFIT-valmisaineisto, joka päivittyy kuukausittain. Tiedot voivat päivittyä myös takautuvasti.
 
@@ -43,9 +43,9 @@ https://www.vero.fi/tulorekisteri/ohjelmistokehitt%C3%A4j%C3%A4t/dokumentaatio/
 
 Lisätietoja Tilastokeskuksen valmisaineistosta saa Tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (27)
+## Variables (27)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `trxId` | Tulolajin tunniste | — | — | — |
 | `repId` | Ilmoituksen tunniste | — | — | — |
@@ -75,7 +75,7 @@ Lisätietoja Tilastokeskuksen valmisaineistosta saa Tutkijapalveluista: tutkijap
 | `recoursePaymentDate` | Regressi verottomasta tulosta, maksupäivä | — | — | regressin lisätiedot |
 | `NonresidentPensionBasis` | Rajoitetusti verovelvolliselle maksetun eläkkeen peruste | — | — | tulolajin lisätiedot |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `trxId` — Tulolajin tunniste
 
@@ -95,7 +95,7 @@ Samalla ilmoituksella olevien tulolajien juokseva järjestysnumero
 
 #### `transactionCode` — Tulolajin koodi
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 Päämoduuli sisältää seuraaviin luokkiin kuuluvat tulolajit:
 
@@ -134,17 +134,17 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/etuudet-tulola
 
 #### `retroactiveTransactionCode` — Tulolaji muuttunut, uusi tulolajin koodi
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 Uusi tulolajin koodi noudattaa samaa koodistoa kuin alkuperäinen (transactionCode). Rivit, joilla uusi tulolajin koodi on arkaluonteinen (= ei sisälly transactionCode-muuttujan kuvauksessa määriteltyihin luokkiin), on jätetty aineiston ulkopuolelle.
 
 #### `amount` — Määrä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tulolajin yleistiedot
+**Unit:** € · **Group:** tulolajin yleistiedot
 
 #### `taxTreatment` — Etuuden veronalaisuus
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 1 = Ansiotuloa
 2 = Ansiotuloa, korotettu 20%
@@ -160,67 +160,67 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-2021
 
 #### `oneOff` — Kertakorvaus
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `unjustEnrichment` — Perusteeton etu
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `recovery` — Takaisinperintä
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `unpromptedRefund` — Oma-aloitteinen palautus
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `delayIncrease` — Viivästyskorotus
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `recourse` — Regressi
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `paymentReallocation` — Maksun oikaisu
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `noTaxEffect` — Ei vaikuta verotukseen
 
-**Ryhmä / Group:** tulolajin yleistiedot
+**Group:** tulolajin yleistiedot
 
 ”Kyllä” (true) tai tyhjä
 
 #### `earningPeriodStartDate` — Alkupäivä
 
-**Ryhmä / Group:** ansaintakausi
+**Group:** ansaintakausi
 
 Ansaintakauden alkupäivä.
 
 #### `earningPeriodEndDate` — Loppupäivä
 
-**Ryhmä / Group:** ansaintakausi
+**Group:** ansaintakausi
 
 Ansaintakauden loppupäivä.
 
 #### `benefitUnitCode` — Yksikkö
 
-**Ryhmä / Group:** etuuden yksikkö
+**Group:** etuuden yksikkö
 
 1 = Tunti
 2 = Päivä
@@ -233,45 +233,45 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-2021
 
 #### `benefitUnitAmount` — Yksiköiden määrä
 
-**Ryhmä / Group:** etuuden yksikkö
+**Group:** etuuden yksikkö
 
 #### `recoveryDate` — Takaisinmaksupäivä
 
-**Ryhmä / Group:** takaisinmaksun lisätiedot
+**Group:** takaisinmaksun lisätiedot
 
 #### `recoveryWithhold` — Takaisinmaksuun kohdistuva ennakonpidätys
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** takaisinmaksun lisätiedot
+**Unit:** € · **Group:** takaisinmaksun lisätiedot
 
 #### `recoveryTaxAtSource` — Takaisinmaksuun kohdistuva lähdevero
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** takaisinmaksun lisätiedot
+**Unit:** € · **Group:** takaisinmaksun lisätiedot
 
 #### `origPaymentDate` — Suorituksen maksupäivä tai muu ilmoituspäivä
 
-**Ryhmä / Group:** alkuperäinen ansaintakausi
+**Group:** alkuperäinen ansaintakausi
 
 Alkuperäinen suorituksen maksupäivä tai muu ilmoituspäivä.
 
 #### `origStartDate` — Alkupäivä
 
-**Ryhmä / Group:** alkuperäinen ansaintakausi
+**Group:** alkuperäinen ansaintakausi
 
 Alkuperäisen ansaintakauden alkupäivä.
 
 #### `origEndDate` — Loppupäivä
 
-**Ryhmä / Group:** alkuperäinen ansaintakausi
+**Group:** alkuperäinen ansaintakausi
 
 Alkuperäisen ansaintakauden loppupäivä.
 
 #### `recoursePaymentDate` — Regressi verottomasta tulosta, maksupäivä
 
-**Ryhmä / Group:** regressin lisätiedot
+**Group:** regressin lisätiedot
 
 #### `NonresidentPensionBasis` — Rajoitetusti verovelvolliselle maksetun eläkkeen peruste
 
-**Ryhmä / Group:** tulolajin lisätiedot
+**Group:** tulolajin lisätiedot
 
 1 = Muussa kuin liiketoiminnassa ansaittu julkisyhteisön maksama työeläke
 2 = Liiketoiminnassa ansaittu julkisyhteisön maksama työeläke
@@ -283,4 +283,4 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-2021
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 Aikuiskoulutustutkimuksia on tehty Tilastokeskuksessa vuodesta 1980 alkaen noin viiden vuoden välein. Tarkemmin ilmaistuna tutkimusvuodet ovat olleet 1980, 1990, 1995, 2000, 2006, 2012, 2017 ja 2022. Seuraava tiedonkeruu tehdään vuonna 2028. Vuodesta 2006 lähtien tutkimus on toteutettu osana EU:n tilastoviraston Eurostatin Adult Education Survey -projektia, johon tiedot on kerätty noin 30 Euroopan maasta. Suomessa tutkimus on toteutettu Tilastokeskuksen ja opetus- ja kulttuuriministeriön yhteishankkeena. 
 
@@ -22,10 +22,10 @@ Aikuiskoulutukseen osallistuminen -tilaston dokumentaatiossa tilaston kotisivull
 
 Lisätietoa ja tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat ottamalla yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

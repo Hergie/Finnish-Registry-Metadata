@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK jaksotiedot -moduuliin. Tietoja työvoimakoulutusjaksoista vuodesta 2005 alkaen. 
 
@@ -19,9 +19,9 @@ Vanhat FOLK jaksotieto -aineistot ovat FIONAssa kansiossa FOLK_jaksot_a.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (5)
+## Variables (5)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | Vaestorakenne |
@@ -29,7 +29,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `loppupvm` | Työvoimakoulutuksen loppupäivämäärä | — | — | Työnhakijarekisteri |
 | `tyamm` | Työllisyyskoulutuksen tyyppi | — | tyollkou_1_1987_01_01 | Työnhakijarekisteri |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -37,25 +37,25 @@ Tilastovuodet vuodesta 2005 lähtien.
 
 #### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `alkupvm` — Työvoimakoulutuksen alkupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työvoimakoulutuksen alkupäivämäärä.
 
 #### `loppupvm` — Työvoimakoulutuksen loppupäivämäärä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työvoimakoulutuksen loppupäivämäärä.
 
 #### `tyamm` — Työllisyyskoulutuksen tyyppi
 
-**Luokitus / Classification:** tyollkou_1_1987_01_01 · **Ryhmä / Group:** Työnhakijarekisteri
+**Classification:** tyollkou_1_1987_01_01 · **Group:** Työnhakijarekisteri
 
 Työllisyyskoulutuksen tyyppi. 
 1 = valmentava koulutus 
@@ -63,4 +63,4 @@ Työllisyyskoulutuksen tyyppi.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

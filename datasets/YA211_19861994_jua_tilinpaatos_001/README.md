@@ -10,7 +10,7 @@
 - **Population:** Tilastoyksikkönä on yritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu).
 - **Source:** Tilinpäätöstilaston aineisto perustuu Tilastokeskuksen yritystiedusteluun. Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
 
-## Kuvaus / Description
+## Description
 
 Tilinpäätöstilasto kuvaa yritystoiminnan tuloksen muodostumista, kannattavuutta sekä taseen rakennetta. Tilastoyksikkönä on yritys. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus.
 
@@ -20,9 +20,9 @@ Vuosina 1986 - 1994 yritysotos on koostunut Tilastokeskuksen omasta kyselystä (
 
 Luvut ovat tuhansina markkoina.
 
-## Muuttujat / Variables (84)
+## Variables (84)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Vuosi | — | — | — |
 | `TALA` | OSITE.TALA | — | — | — |
@@ -109,7 +109,7 @@ Luvut ovat tuhansina markkoina.
 | `TLIIVO` | Liikevoitto/-tappio | — | — | — |
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Vuosi
 
@@ -317,4 +317,4 @@ Saadut ennakot vain vuosina 1993 ja 1994
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

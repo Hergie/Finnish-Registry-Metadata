@@ -11,7 +11,7 @@
 - **Source:** Valtiosektorin tuntipalkat, valtiosektorin kuukausipalkat, valtiosektorin palkkarakenneaineistot (harmonisoimattomat vuosipoikkileikkaukset)
 - **Keywords:** ansiotaso,palkansaajat,palkat,yksityinen sektori
 
-## Kuvaus / Description
+## Description
 
 Valtiosektorin harmonisoitu palkkarakennepaneeli vuosilta 1995-2018 tarjoaa työsuhdetason tietoa valtion budjettitalouden piiriin kuuluvien palkansaajien (palkatuista) tunneista, palkoista ja palkanosista + yksilötason tietoa työntekijän iästä, koulutuksesta yms. + tietoa työ-/virkasuhteesta vastaavan valtion paikallisyksikön toimialasta jne (yhteensä 34 muuttujaa). Tilasto on kokonaisaineisto kattaen kaikki tilastovuonna marraskuun lopussa (30.11.) valtion budjettitalouden piiriin kuuluneet työ- ja virkasuhteiset palkansaajat (2674189 työsuhdehavaintoa). 
 
@@ -21,9 +21,9 @@ Harmonisoidussa palkkarakennepaneelissa on tiedot harmonisoitu keskenään verta
 
 Vuosien yli harmonisoinnissa noudattavat harmonisoidut muuttujat vuoden 2018 valtiosektorin palkkarakenneaineiston yhteydessä käytettyjä muuttujien muodostussääntöjä ja luokitusmuuttujien luokitusversioita. HAR_ -etuliite muuttujan nimen alussa viittaa yli ajan harmonisoituun muuttujaan. Loput mukaan otetuista muuttujista olivat yli ajan harmonisoidussa muodossa jo vuosipoikkileikkausaineistoissa.
 
-## Muuttujat / Variables (34)
+## Variables (34)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Tilastovuosi | — | — | — |
 | `AINE` | Aineistotunnus | — | — | — |
@@ -60,7 +60,7 @@ Vuosien yli harmonisoinnissa noudattavat harmonisoidut muuttujat vuoden 2018 val
 | `HAR_KERTERA` | Sekalaiset ei-tulokseen perustuvat kertaerät tilastovuodelta. | — | — | — |
 | `HAR_KKTULOSPA` | Tulospalkkiot kuukautta kohden laskettuna | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Tilastovuosi
 
@@ -103,7 +103,7 @@ Tieto sukupuolesta. Muodostetaan pääasiassa henkilötunnuksen perusteella. 1=m
 
 #### `IKA` — Palkansaajan ikä
 
-**Yksikkö / Unit:** vv
+**Unit:** vv
 
 Palkansaajan ikä vuosina. Lasketaan henkilön syntymävuoden mukaan henkilötunnuksen perusteella.
 
@@ -121,7 +121,7 @@ Harmonisoitu rajausehto. Arvo=1 havainnoilla, jotka voidaan ottaa mukaan kokonai
 
 #### `HAR_AML2010` — Tilastokeskuksen AML2010-ammattiluokitus (kansallinen ISCO)
 
-**Luokitus / Classification:** ammatti_1_2010_01_01
+**Classification:** ammatti_1_2010_01_01
 
 Harmonisoitu kansainväliseen ISCO-ammattiluokitukseen pohjautuva Tilastokeskuksen virallinen kansallinen ammattiluokitus. Ammattiluokituksen pohjana ovat alakohtaiset työnantajien ja Tilastokeskuksen ylläpitämät ammattinimikeluokitukset, jotka on käännösavaimella muokattu sekä kansallisen että kansainvälisen virallisen ammattiluokituksen mukaiseksi. Käytössä kansallinen ammattiluokitus 2010 (AML2010).
 
@@ -131,13 +131,13 @@ Paikallisyksikön sijaintikunta. Kuntatieto vastaa aina kyseisen tilastovuoden k
 
 #### `HAR_YRTOL08` — Valtion työnantajayksikön toimiala TOL08
 
-**Luokitus / Classification:** toimiala_910_2008_01_01
+**Classification:** toimiala_910_2008_01_01
 
 Yksikön toimiala. Perustuu kansainväliseen TOL2008 toimialaluokitukseen. Toimiala on mahdollista luokitella usealle eri tasolle.
 
 #### `HAR_TUTK1` — Tutkintokoodi
 
-**Luokitus / Classification:** koulutus_1_2016_01_01
+**Classification:** koulutus_1_2016_01_01
 
 Harmonisoitu tutkintokoodi. 
 
@@ -219,7 +219,7 @@ Harmonisoitu kokonaistyöajan tuntiansio. Säännölliseltä työajalta sekä li
 
 #### `HAR_TULOSPA` — Tulospalkkiot vuositasolla
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Harmonisoidut kertaluontoisesti ja epäsäännöllisesti maksettavat tulospalkkiot euroina vuodessa (vrt HAR_PROV kuukaudessa!).
 
@@ -243,4 +243,4 @@ Tässä  tulospalkkiokäsite tarkottaa epäsäännöllisesti (yleensä korkeinta
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

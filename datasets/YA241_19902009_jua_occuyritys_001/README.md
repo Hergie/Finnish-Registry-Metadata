@@ -11,7 +11,7 @@
 - **Source:** FLEED (mm. työssäkäyntitilasto), yritysrekisteri
 - **Related:** <a href= "http://www.tilastokeskus.fi/til/tyokay/">Työssäkäynti</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_toimipaikkojen_yritysten_ammattirakenteet.html">Toimipaikkojen/yritysten ammattirakenteet</a>
 
-## Kuvaus / Description
+## Description
 
 Occu_tt_xxyy-aineistot kuvaavat henkilökunnan ammattirakenteita yritys- (tt=yr) ja toimipaikkatasolla (tt=tp) sekä niiden muutoksia lähtövuoden (xx) ja päätevuoden (yy) välillä. Muutoksien osalta tarkastellaan sitä, millaisten työntekijävirtojen välityksellä ne ovat tapahtuneet. Tässä erotellaan työtekijöiden liikkuvuus yritysten/toimipaikkojen välillä (external) ja yritysten/toimipaikkojen sisällä ammattien välillä (internal).
 
@@ -76,9 +76,9 @@ Nilsson Hakkala, K., Heyman, F., Sjöholm, F. (2009). Multinational firms and jo
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (79)
+## Variables (79)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Year | — | — | — |
 | `syrtun` | Firm code (encrypted) | — | — | — |
@@ -160,7 +160,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `si_8` | Internal separation, occupation=8 | — | — | — |
 | `si_9` | Internal separation, occupation=9 | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Year
 
@@ -328,4 +328,4 @@ Only in plant-level data
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

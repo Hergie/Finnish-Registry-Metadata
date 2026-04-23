@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yritysrekisterin_toimipaikat_sv.html">Yritysrekisterin toimipaikat</a>
 - **Keywords:** toimipaikat,yritykset,yritysrekisteri
 
-## Kuvaus / Description
+## Description
 
 Yritysrekisterin toimipaikkatason aineisto kattaa liikeyritysten ja yksityisten voittoa tavoittelemattomien yhteisöjen vuosittaiset toimipaikkatason tilastotiedostot. Aineisto sisältää perustiedot toimipaikkojen toimialasta, sijainnista, omistuksesta, liikevaihdosta, henkilöstömäärästä ja palkoista. Aineisto perustuu Tilastokeskuksen yritys- ja toimipaikkarekisteriin. Tiedot saadaan pääasiassa hallinnollisista lähteistä ja yritysrekisterin omista tiedusteluista. Konsernirekisteristä saadaan tiedot konserniyritysten ulkomaisista omistussuhteista. Ennen konsernirekisterin perustamista 1995 tiedot tulivat Suomen Pankista.  Lisätietoja yritystason aineiston kuvauksesta (Yritysrekisterin tilastotiedostot: yritykset 2012).
 
@@ -35,9 +35,9 @@ tol2008, vuodet 2007- (tol08yr, tol08tp) (+ vuodet 1999-2006)
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (46)
+## Variables (46)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `YLAJI` | Yksikkölaji | — | — | — |
 | `VUOSI` | Vuosi | — | — | — |
@@ -86,7 +86,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `syrtun_l` | (kryptattu) yritystunnus, johon toimipaikka kuuluu kalenterivuoden lopussa | — | — | — |
 | `sraknrovuosi` | Suojattu rakennusnumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `YLAJI` — Yksikkölaji
 
@@ -120,7 +120,7 @@ Määritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin k
 
 #### `SEKTORI` — Sektori
 
-**Luokitus / Classification:** sektoriluokitus_1_2000_01_01
+**Classification:** sektoriluokitus_1_2000_01_01
 
 (Toimipaikan omistavan) oikeudellisen yksikön sektoriluokitus, 2000:n mukainen sektoriluokka.
 
@@ -183,7 +183,7 @@ Konsernirekisteristä saadaan tiedot konserniyritysten ulkomaisista omistussuhte
 
 #### `TOL08YR` — Toimialaluokitus 2008
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Yrityksen toimiala toimialaluokitus TOL 2008:n mukaan. Käytössä tilastovuodesta 2007 alkaen. Erikseen saatavilla 1999 alkaen.  Monitoimipaikkaisen yrityksen päätoimiala määräytyy yrityksen eri toimialoilla toimivissa toimipaikoissa syntyvän arvonlisäyksen perusteella. Arvonlisäys vastaa läheisesti jalostusarvoa. Yrityksen kunkin toimialan arvonlisäys saadaan kertomalla kunkin toimipaikan työllisten määrä toimipaikan toimialan keskimääräisellä arvonlisäyksellä ja suhteuttamalla saatu luku toimipaikan toiminta-aikaan tilastovuoden tilikaudella. Päätoimiala määritellään vaiheittain toimialaluokituksen kirjaintasolta tarkimmalle tasolle. Yrityksen päätoimialaksi määräytyy yleensä sen toimipaikan toimiala, jossa tilikauden arvonlisäys on suurin. Yksitoimipaikkaisella yrityksellä yrityksen ja toimipaikan toimiala on sama.
 
@@ -238,7 +238,7 @@ Suuruusluokat ovat:
 
 #### `LV` — Liikevaihto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Oikeudellisen toimipaikan liikevaihto. Toimipaikkatason liikevaihtotieto ei ole täysin luotettava.
 
@@ -267,7 +267,7 @@ Luokat ovat:
 
 #### `PALKKA` — Estimoitu palkka
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Toimipaikalle (estimoitu) palkka.  Lähde: Yksitoimipaikkaisen yrityksen (YLAJIYR = 1) toimipaikalla palkka on yrityksen palkka. Monitoimipaikkaisen yrityksen (YLAJIYR=2) toimipaikoille estimoidaan palkka jakamalla yritystietueella oleva palkka toimipaikan HKPA:n  ja toimipaikan toimialan keskipalkalla.
 
@@ -442,4 +442,4 @@ Suojattu rakennusnumero. Saatavilla vuosille 2008-
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

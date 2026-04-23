@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.tilastokeskus.fi/meta/kas/konsernirekist.html">Konsernirekisteri</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_konsernit.html">Konsernit</a>
 - **Keywords:** konsernit
 
-## Kuvaus / Description
+## Description
 
 Konsernirekisterin tiedoista on muodostettu tutkimuskäyttöön kaksi yhtenäistä aikasarjaa vuosille 1995, 1997 - 2007 ja 2008 - . Aineisto sisältää konsernitason tietoja konsernin rakenteesta (emo-, tytär-, yhteis- ja osakkuusyritykset), henkilöstön määrästä, liikevaihdosta ja kansallisuudesta. Liikevaihdon osalta tietoja on karkeistettu.
 Konsernirekisterin ylläpitäminen on aloitettu vuonna 1995. Kattavuus on rekisterin alkuvuosina heikko. Kattavuus paranee ajan myötä rekisterin tietolähteiden ja päivitysprosessien kehittymisen ansiosta. Nykyinen rekisterin tietojärjestelmä on ollut käytössä vuodesta 2008 alkaen. Vuodesta 2008 eteenpäin rekisterin laatu on aiempia vuosia parempi ja tiedot vuosien välillä ovat vertailukelpoisia. Aineisto päivitetään vuosittain uudestaan kaikille vuosille alkaen vuodesta 2008. Tällöin aiempien vuosien (2008-) tiedot saattavat päivittyä takautuvasti. 
@@ -21,9 +21,9 @@ Konsernin rakenne voi muuttua tilastovuoden sisällä. Valitsemalla tilastovuode
 
 Lisätietoja tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (23)
+## Variables (23)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `knstun_s` | Suojattu konsernitunnus | — | — | — |
 | `yrtun_s` | Suojattu konserniyrityksen tunnus | — | — | — |
@@ -49,7 +49,7 @@ Lisätietoja tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 | `aanivalta` | Konsernin äänivaltaosuus tytär-, osakkuus- ja muissa yrityksissä | — | — | — |
 | `kontrolli` | Konsernin määräysvalta yritykseen | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `knstun_s` — Suojattu konsernitunnus
 
@@ -103,7 +103,7 @@ Konsernin kansallisuus viitevuonna. Jos konsernilla ei ole voimassa olevaa suhde
 
 #### `tol2008` — Konsernin laskennallinen päätoimiala TOL2008
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Konsernin laskennallinen päätoimiala (TOL2008) tilastovuonna. Saatavilla 2007-.
 
@@ -164,7 +164,7 @@ Konsernin ulkomainen liikevaihto tilastovuonna suuruusluokittain:
 
 #### `ulkom_liikevaihto_kasvu` — Konsernin ulkomaisen liikevaihdon kasvuprosentti
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Konsernin ulkomaisen liikevaihdon kasvuprosentti verrattuna edelliseen tilastovuoteen.
 
@@ -219,4 +219,4 @@ Konsernin määräysvalta yritykseen. Alkaen vuodesta 2008. Muuttuja kertoo onko
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

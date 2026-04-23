@@ -14,7 +14,7 @@ Tilastokeskuksen yritys- ja toimipaikkarekisteri
 - **Related:** <a href= "http://tilastokeskus.fi/til/yrti/index.html">Yritysten rakenne- ja tilinpäätöstilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_tilinpaatosaineistot.html">Tilinpäätösaineistot</a>
 - **Keywords:** yritykset
 
-## Kuvaus / Description
+## Description
 
 Tilinpäätöspaneeli on tutkimuskäyttöön tarkoitettu tilinpäätösaikasarja, joka sisältää tutkimuskäytön kannalta olennaisimmat yritysten tuloslaskelman ja taseen tiedot, sekä joitakin suhteellisen karkealla tasolla määriteltyjä tunnuslukuja. Tilinpäätöstietoihin on tehty joitakin oikaisuja paneelin aikasarjaluonteen parantamiseksi. Erityisesti tuloslaskelmaa on muokattu siten, että käyttökate, jalostusarvo, ja muut välitulokset ovat vertailtavissa yli ajan. Tästä syystä liiketoiminnan muita tuottoja ei ole lisätty liikevaihtoon käyttökatetta laskettaessa vaan niitä käsitellään satunnaisena eränä.
 
@@ -60,9 +60,9 @@ Aineistoa rajatessa kannattaa erityisesti huomioida laatukoodien merkitys havain
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (85)
+## Variables (85)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yritysid_s` | Suojattu yritysID | — | — | — |
 | `yrtun_s` | Alkuperäinen yritystunnus (suojattu) | — | — | — |
@@ -150,7 +150,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `PALKKORP` | Lakennallinen palkkakorjaus (palautus) | € | — | — |
 | `oik_vero` | Verohallinnon oikeudellinen muoto | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yritysid_s` — Suojattu yritysID
 
@@ -170,25 +170,25 @@ Vuosi
 
 #### `tol88` — Toimialaluokitus 1988, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_1988_01_01
+**Classification:** toimiala_1_1988_01_01
 
 Toimialaluokitus 1988, yritysrekisteristä, saatavilla vuosille 1986-1993. Yrityksen päätoimiala määräytyy arvonlisäyksen perusteella. Yritysrekisterin tietojen puuttuessa vuodelta 1987 yritysten toimialat on haettu ensisijaisesti vuoden 1988 tiedoista ja toissijaisesti vuoden 1986 tiedoista.
 
 #### `tol95` — Toimialaluokitus 1995, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_1995_01_01
+**Classification:** toimiala_1_1995_01_01
 
 Toimialaluokitus 1995, yritysrekisteristä, saatavilla vuosille 1986-2005
 
 #### `tol02` — Toimialaluokitus 2002, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Toimialaluokitus 2002, yritysrekisteristä, täydennetty luokituskannan toimiala-avaimen avulla kaikille vuosille 1986-.  Yhtenäinen luokitus on kuitenkin vain suuntaa antava, sillä avain kääntää kunkin luokan tiedot aina vain yhteen pääasialliseen luokkaan, vaikka tosiasiallisesti olisi tapahtunut jakautumista useampaan luokkaan. Erityisen suuri muutos luokituksissa on vuoden 2008 jälkeen TOL2008 tultua voimaan. Suositeltavaa on tehdä empiirinen avain vuoden 2008 perusteella, jolloin sekä TOL2002 että TOL2008 ovat saatavissa suoraan yrityksille määriteltyinä.
 
 #### `tol08` — Toimialaluokitus 2008, yritysrekisteri
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Toimialaluokitus 2008, yritysrekisteristä, saatavissa 2006 alkaen.
 Toimialojen käyttö (TOL 2008):
@@ -211,7 +211,7 @@ Toimialan yrityksen voivat ilmoittaa tietonsa verottajan lomakkeella 4, josta Ti
 
 #### `oik` — Yrityksen oikeudellinen muoto, yritysrekisteri
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01
+**Classification:** oikeudell_muoto_1_1984_01_01
 
 Vuoteen 2013 asti.
 
@@ -456,13 +456,13 @@ Hyväksytty tarkoittaa, että tiedot on manuaalisesti käsitelty paitsi jos erik
 
 #### `tplv` — Liikevaihto, tilinpäätöstilasto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Liikevaihto, tilinpäätöstilasto. Liikevaihto koostuu yrityksen varsinaiseen toimintaan kuuluvien tuotteiden ja palveluiden myyntituotoista,  joista on vähennetty annetut alennukset, arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot. Tunnuslukuja laskettaessa on suositeltavaa käyttää tilinpäätöstilaston liikevaihtotietoa tai liiketoiminnan tuottoja yhteensä. Liiketoiminnan tuotot yhteensä = liikevaihto + liiketoiminnan muut tuotot - käyttöomaisuuden myyntivoitot - fuusiovoitot.
 
 #### `yrlv` — Liikevaihto, yritysrekisteri
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Liikevaihto, yritysrekisteri (ei saatavissa vuonna 1987), vuoteen 2012 asti
 
@@ -476,253 +476,253 @@ Henkilökunta, yritysrekisteri (ei saatavissa 1987). Henkilöstön määrä kesk
 
 #### `palkat` — Palkat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Ennakkopidätyksen alaiset palkat ja niihin verrattavat kulut.
 
 #### `soskul` — Muut henkilöstökulut
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Välittömästi palkan perusteella määräytyvät henkilöstökulut, kuten sosiaaliturvamaksut, pakolliset ja vapaaehtoiset henkilövakuutusmaksut sekä eläkekulut.
 
 #### `elakekul` — Eläkekulut
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Eläkekulut (vain 1999-)
 
 #### `ulkopalv` — Ulkopuoliset palvelut
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Ulkopuoliset palvelut, saatavissa erikseen 1989-. Ulkopuoliset palvelut ovat välittömästi tuotantoon tai myyntiin liittyvistä työsuorituksista maksettuja korvauksia.  Ulkopuolisia palveluja voivat olla esimerkiksi alihankkijoiden, suunnittelu- ja konsulttitoimistojen sekä huoltoyhtiöiden suorittamat palvelut ja sellaisen työvoiman vuokrauskulut, jotka liittyvät välittömästi suoritetuotantoon.
 
 #### `vuokrat` — Vuokrat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vuokrat
 
 #### `atkkul` — Atk-, suunnittelu- ja ohjelmointikulut
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Atk-, suunnittelu- ja ohjelmointikulut, vain vuodesta 1999-. Kulut sisältävät vain hankinnat yrityksen ulkopuolelta, myös hankinnat konsernin muilta juridisilta yrityksiltä. Imputointimenetelmien muutos näkyy vuosina 1999 ja 2007 tietojen kattavuuden laajenemisena.
 
 #### `kate` — Korjattu käyttökate
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Korjattu käyttökate = käyttökate - liiketoiminnan muut tuotot. Käyttökate kertoo yrityksen liiketoiminnan tuloksen ennen poistoja ja rahoituseriä.
 
 #### `jal` — Jalostusarvo
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Jalostusarvo = korjattu käyttökate + palkat + muut henkilöstökulut
 
 #### `rahtuot` — Rahoitustuotot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Rahoitustuotot. Rahoitustuottoja ovat tuotot osuuksista ja muista pysyvien vastaavien sijoituksista sekä muut korko- ja rahoitustuotot.
 
 #### `rahkul` — Rahoituskulut
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Rahoituskulut. Rahoituskuluja ovat arvonalentumiset pysyvien vastaavien sijoituksista ja vaihtuvien vastaavien rahoitusarvopapereista (2010-) sekä muut korko- ja rahoituskulut.
 
 #### `verot` — Välittömät verot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Välittömät verot. Vuodesta 2006 alkaen saatavissa vain tuloverot. Erä sisältää tilikauden verot, laskennalliset verot sekä muut välittömät verot.
 
 #### `rahtulos` — Rahoitustulos
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Rahoitustulos = korjattu käyttökate + rahoitustuotot - rahoituskulut - välittömät verot.
 
 #### `poistot` — Poistot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Poistosuunnitelman mukaiset tilikauden poistot. Suunnitelman mukaiset poistot perustuvat pysyvien vastaavien hankintamenoon ja näiden taloudelliseen käyttöikään.
 
 #### `nettulos` — Nettotulos
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Nettotulos = rahoitustulos - poistot
 
 #### `limutuot` — Liiketoiminnan muut tuotot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Liiketoiminnan muut tuotot (vain vuodesta 1989), ei sisällä käyttöomaisuuden myyntivoittoja vuodesta 1999- ja käyttöomaisuuden myyntitappioita, fuusiovoittoja, fuusiotappioita 2004-. Liiketoiminnan muita tuottoja ovat  yrityksen varsinaiseen toimintaan liittyvät tuotot, jotka ovat luonteeltaan lähellä liikevaihtoa. Tällaisia tuottoja ovat esimerkiksi vuokratuotot, saadut provisiot, muilta yrityksiltä perityt hallinto-, tietojenkäsittely- yms. korvaukset, mikäli yrityksen varsinaisena toimialana ei ole vuokraustoiminta tai muiden edellä mainittujen palvelujen tuottaminen. Liiketoiminnan muihin tuottoihin kirjataan myös yrityksen varsinaiseen toimintaansa saamansa avustustukset ja tuet. Käyttöomaisuuden myyntivoitot ja fuusiovoitot esitetään satunnaisten erien ryhmässä. Tilinpäätöspaneelissa aikasarjan ajallisen vertailukelpoisuuden parantamiseksi liiketoiminnan muita tuottoja käsitellään satunnaisena eränä eli käyttökatetta laskettaessa erää ei ole lisätty liikevaihtoon.
 
 #### `lvkomyvo` — Käyttöomaisuuden myyntivoitot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Käyttöomaisuuden myyntivoitot, vain vuodesta 1999-. Vuodesta 2004 alkaen negatiiviset käyttöomaisuuden myyntivoitot on muutettu nolliksi. Samoin tapauksissa, joissa käyttöomaisuuden myyntivoitot ovat yli 1,05*liiketoiminnan muut tuotot, käyttöomaisuuden myyntivoitot on muutettu nolliksi.
 
 #### `komytapp` — Käyttöomaisuuden myyntitappiot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Käyttöomaisuuden myyntitappiot, vain 2004-
 
 #### `fuvoitto` — Fuusiovoitto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Fuusiovoitto, vain 2004-
 
 #### `futappio` — Fuusiotappio
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Fuusiotappio, vain 2004-
 
 #### `arvonal` — Arvonalentumiset
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Arvonalentumiset pysyvien vastaavien hyödykkeistä ja vaihtuvien vastaavien poikkeukselliset arvonalentumiset, vuodesta 1999-. Arvonalentuminen +. Arvonalentumiset perustuvat todennäköisen luovutushinnan pysyvään alenemiseen.
 
 #### `poispits` — Poistot sijoituksista
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Poistot sijoituksista, vain vuosina 1986-1998. Vuodesta 1999 lähtien tämän erän korvasivat arvonalentumiset pysyvien vastaavien sjoituksista ja vaihtuvien vastaavien arvopapereista.
 
 #### `arvonal2` — Sijoitusten/rahoitusarvopapereiden arvonalentumiset
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Arvonalentumiset pysyvien vastaavien sijoituksista ja vaihtuvien vastaavien rahoitusarvopapereista vuosina 1999 - 2005. Sisältää vain arvonalentumiset pysyvien vastaavien sijoituksista 2006 - 2012. Arvonalentuminen +. Vuodesta 2010 alkaen erä sisältyy myös rahoituskuluihin. Vuosina 2006-2009 tämä erä on jätetty suurelta osin erittelemättä, mutta sisällytetty kirjanpitokäytännöistä riippuen erilaisiin eriin (rahoitustulos, poistot).
 
 #### `koktulos` — Kokonaistulos
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Kokonaistulos = nettotulos + satunnaiset tuotot - satunnaiset kulut + liiketoiminnan muut tuotot (sis. käyttöomaisuuden myyntivoitot) - poistot sijoituksista - arvonalentumiset.
 
 #### `tiltulos` — Tilikauden tulos
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Tilikauden tulos = kokonaistulos + poistoeron ja varausten muutos. Tilikauden tuloksessa on huomioitu kaikki yrityksen tuotot ja kulut tilikaudelta sekä etukäteen pakollisina varauksina kirjatut vastaiset menot ja menetykset.
 
 #### `kaytom` — Käyttöomaisuus
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Käyttöomaisuus (pysyvät vastaavat 1999-). Taseen pysyvät vastaavat yhteensä muodostuu kolmesta pääryhmästä: aineettomat hyödykkeet, aineelliset hyödykkeet ja sijoitukset. Pysyvillä vastaavilla tarkoitetaan eriä, jotka on tarkoitettu tuottamaan tuloa jatkuvasti useana tilikautena.
 
 #### `atkinv` — Investoinnit ATK-ohjelmistoihin
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Investoinnit ATK-ohjelmistoihin, vain vuodesta 1999-. Saatavilla vain suoran kyselyn yrityksille, ei imputoitu muille.
 
 #### `arvostux` — Arvostuserät, vastaavaa
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Arvostuserät, vastaavaa, vain vuosina 1986-1998
 
 #### `vaihtom` — Vaihto-omaisuus
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vaihto-omaisuudella tarkoitetaan sellaisinaan tai jalostettuina luovutettaviksi tai kulutettaviksi tarkoitettuja hyödykkeitä. Vaihto-omaisuus yhteensä  on aineiden ja tarvikkeiden, keskeneräisten tuotteiden, valmiiden tuotteiden, tavaroiden (kauppatavarat) sekä muun vaihto-omaisuuden (sis. ennakkomaksut) yhteissumma.
 
 #### `rahom` — Rahoitusomaisuus
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Rahoitusomaisuus yhteensä on taseen vaihtuvien vastaavien erien lyhyt- ja pitkäaikaiset saamiset, rahoitusarvopaperit sekä rahat ja pankkisaamiset summa. Rahoitusomaisuus määritellään kirjanpitolaissa, mutta se ei esiinny nimikkeenä tasekaavassa.
 
 #### `tasex` — Vastaavaa yhteensä
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Taseen vastaavaa yhteensä on pysyvien vastaavien ja vaihtuvien vastaavien yhteissumma.
 
 #### `omapo` — Oma pääoma
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Erä sisältää kaikki oman pääoman erät yhteensä. Yhteisöillä omassa pääomassa esitetään osake-, osuus-, ja  muu vastaava pääoma, rahastot, edellisten tilikausien voitto/tappio ja tlikauden voitto/tappio. Muut yhtiömuodot ja säätiöt esittävät oman pääomansa erät soveltuvin osin kaavaa noudattaen ottaen huomioon omien erityislakiensa mukaiset oman pääoman muodot.
 
 #### `vapvar` — Vapaaehtoiset varaukset
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vapaaehtoiset varaukset
 
 #### `pakvar` — Pakolliset varaukset
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Pakolliset varaukset, vain vuodesta 1993-. Pakolliset varaukset yhteensä on erien eläkevaraukset, verovaraukset ja muut pakolliset varaukset yhteissumma. Pakolliset varaukset ovat  menoja, joiden suorittamiseen on sitouduttu ja ovat todennäköisiä vastaisia menetyksiä.
 
 #### `arvostuy` — Arvostuserät, vastattavaa
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Arvostuserät, vastattavaa, vain vuosina 1986-1998.
 
 #### `lmaksu` — Liittymismaksurahasto, sähköyhtiöt
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Liittymismaksurahasto, sähköyhtiöt, vain vuosina 1995-1998.
 
 #### `pvpo` — Pitkäaikainen vieras pääoma
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Pitkäaikainen vieras pääoma. Pitkäaikaista ja lyhytaikaista vierasta pääomaa ei voida luotettavasti erottaa vuonna 1994 aineisto-ongelmista johtuen.
 
 #### `lvpo` — Lyhytaikainen vieras pääoma
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Lyhytaikainen vieras pääoma. Pitkäaikaista ja lyhytaikaista vierasta pääomaa ei voida luotettavasti erottaa vuonna 1994 aineisto-ongelmista johtuen.
 
 #### `tasey` — Vastattavaa yhteensä
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vastattavaa yhteensä on taseen neljän pääryhmän oma pääoma, tilinpäätössiirtojen kertymä, pakolliset varaukset  ja vieras pääoma summa.
 
 #### `irtomlis` — Lisäykset, koneet ja kalusto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Lisäykset, koneet ja kalusto, vain vuodesta 1994-. Vuonna 2013 tieto puutteellinen toimialojen 41-49 (rakentamisen ja kaupan toimialat) osalta. Nettoinvestoinnit koneisiin ja kalustoon = lisäykset - vähennykset.
 
 #### `irtomvah` — Vähennykset, koneet ja kalusto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vähennykset, koneet ja kalusto, vain vuodesta 1994-
 
 #### `raralis` — Lisäykset, rakennukset ja rakennelmat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Lisäykset, rakennukset ja rakennelmat, vain 1994-. Nettoinvestoinnit rakennuksiin ja rakennelmiin = lisäykset - vähennykset.
 
 #### `raravah` — Vähennykset, rakennukset ja rakennelmat
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vähennykset, rakennukset ja rakennelmat, vain 1994-
 
@@ -768,7 +768,7 @@ Current ratio = (rahoitusomaisuus + vaihto-omaisuus) / lyhytaikainen vieras pä�
 
 #### `PALKKORP` — Lakennallinen palkkakorjaus (palautus)
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Laskennallinen palkkakorjaus, vain vuodesta 1999- (laatu heikompi 1999). Palkkakorjaus on laskennallinen erä, jolla ei ole vaikutusta yrityksen vakavaraisuuteen eikä kassavirtaan, erä palautetaan ennen tilikauden tulosta. Yhtiömuodosta riippuen omistajan palkkaa käsitellään verotuksessa eri tavoin. Yksityisen elinkeinonharjoittajan palkka ei koskaan sisälly tuloslaskelmaan ja henkilöyhtiöissä omistajan palkka voi vain poikkeustapauksissa olla kuluna. Tämä epäyhtenäinen käytäntö vaikeuttaa erityisesti pienten yritysten keskinäistä vertailua. Palkkakorjaus  tehdään  mikroyrityksille eli alle 10 henkilöä työllistäville. Lähtötietoina käytetään yrityksen yrittäjätyöpanosta ja yrityskohtaista palkatun henkilöstön keskipalkkaa. Yrittäjätyöpanoksen määrittelee yritys- ja toimipaikkarekisteri YEL-maksutietojen perusteella, eli laskennallinen palkkakorjaus = yrittäjätyöpanos * keskipalkka.
 
@@ -837,4 +837,4 @@ ZZ	Tieto puuttuu
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

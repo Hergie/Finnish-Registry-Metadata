@@ -11,7 +11,7 @@
 - **Source:** Työ- ja elinkeinoministeriön työnhakijarekisteri
 - **Related:** <a href= "http://www.stat.fi/til/tyokay/">Työssäkäyntitilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yhdistetty_tyontekija_tyonantaja_aineisto_otos_tyonhakujaksot.html">Yhdistetty työntekijä-työnantaja-aineisto (FLEED), otos, työnhakujaksot</a>
 
-## Kuvaus / Description
+## Description
 
 <b>FLEED-aineiston päivitykset päättyvät</b>
 
@@ -22,9 +22,9 @@ Työnhakujaksot yhdistetyn työntekijä-työnantaja-aineiston (Finnish Longitudi
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
-## Muuttujat / Variables (6)
+## Variables (6)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | vuosi_1_2011_07_01 | — |
 | `alkupvm` | Työnhaun alkamispäivä | — | — | Työnhakijarekisteri |
@@ -33,29 +33,29 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `psyy` | Työnhaun päättymissyy | — | — | Työnhakijarekisteri |
 | `shnro` | Suojattu Tilastokeskuksen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Luokitus / Classification:** vuosi_1_2011_07_01
+**Classification:** vuosi_1_2011_07_01
 
 Tilastovuosi on se kalenterivuosi, jota tilasto koskee.
 
 #### `alkupvm` — Työnhaun alkamispäivä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun alkamispäivä.
 
 #### `loppupvm` — Työnhaun päättymispäivä
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun päättymispäivä.
 
 #### `tyol` — Työnhakijan työllisyyskoodi
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen vuodenvaihdetta niin työllisyyskoodi on vuoden alun mukainen tilanne. 0 = Työssä oleva, toimenpitein sijoitettu
 1 = Työssä oleva, yleisillä työmarkkinoilla
@@ -68,7 +68,7 @@ Työnhakijan työllisyyskoodi työnhaun alussa. Jos työnhaku on alkanut ennen v
 
 #### `psyy` — Työnhaun päättymissyy
 
-**Ryhmä / Group:** Työnhakijarekisteri
+**Group:** Työnhakijarekisteri
 
 Työnhaun päättymissyy. 
 0 = Sijoitettu työllistämistoimenpitein
@@ -105,4 +105,4 @@ Suojattu Tilastokeskuksen henkilönumero.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

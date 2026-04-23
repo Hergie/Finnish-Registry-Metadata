@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tkke/index.html">Tutkimus- ja kehittämistoiminta</a> <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_tutkimus_ja_kehittamistoiminta.html">Tutkimus- ja kehittämistoiminta (T&K)</a>
 - **Keywords:** korkeakoulut,menot,tietoyhteiskunta,tuotekehitys,tutkimuslaitokset,tutkimusmenot,tutkimustoiminta,yliopistot,yritykset
 
-## Kuvaus / Description
+## Description
 
 Tutkimus- ja kehittämistoiminnan kyselyaineisto vuodelle 2018 (yri18e) kuvaa yritysten tutkimukseen sekä tuote- ja prosessikehittämiseen käyttämiä resursseja. Aineisto sisältää tietoja yksikön sisäisistä ja muista tutkimusmenoista (ml. palkkausmenot), tutkimushenkilökunnasta (sukupuolen ja koulutuksen mukaan), tutkimustyövuosista sekä menojen rahoituksesta. Rahamääräiset tiedot ovat euroina. Tiedustelu kattaa Suomessa tehdyn tutkimus- ja kehittämistyön yrityssektorilla. Tilastoyksikkö on pääsääntöisesti yritys. Joissakin tapauksissa tilastoyksikkö on konserni tai kansainvälisen konsernin Suomessa toimiva osa (KOSKEE-muuttuja). 
 
@@ -34,9 +34,9 @@ Alkaen vuodesta 2000 katoon jääneiden paneeliin kuuluneiden yritysten vastauks
 
 Kyselylomake saatavissa erikseen. Vastaavia tietoja on saatavissa alkaen vuodesta 2000 vuosittain sekä suppeampana paneeliaineistona alkaen vuodesta 1985.
 
-## Muuttujat / Variables (321)
+## Variables (321)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -360,7 +360,7 @@ Kyselylomake saatavissa erikseen. Vastaavia tietoja on saatavissa alkaen vuodest
 | `lvkerr` | Liikevaihto-osuuden kerroin | — | — | — |
 | `lkmkerr` | Lukumääräosuuden kerroin | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -1648,4 +1648,4 @@ Korotuskertoimilla oikaistaan katoa, ne eivät korota perusjoukon tasolle (panel
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

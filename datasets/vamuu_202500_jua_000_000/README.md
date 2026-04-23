@@ -11,7 +11,7 @@
 - **Source:** Väestön ennakkotilasto
 - **Keywords:** ennakkoväkiluku,väestö,väestönmuutokset
 
-## Kuvaus / Description
+## Description
 
 <b>Kuukausipäivityksistä huomiotavaa:</b>
 
@@ -84,9 +84,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
  
 Ohessa on lyhyesti kuvattu tähän aineistoon sisällytetyt muuttujat luokituksineen. Lisätietoa datasta saatavilla tilastosta: <a href= "<https://stat.fi/tilasto/vamuu >">Väestön ennakkotilasto</a>, ja osoitteesta vaesto.tilasto@stat.fi. Lisätietoja valmisaineistosta Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (13)
+## Variables (13)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `tilvv` | Tilastovuosi | — | — | — |
@@ -102,7 +102,7 @@ Ohessa on lyhyesti kuvattu tähän aineistoon sisällytetyt muuttujat luokituksi
 | `syntymakk` | Syntymäkuukausi | — | — | — |
 | `kuolinkk` | Kuolinkuukausi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -154,4 +154,4 @@ Henkilön kuolinkuukausi, muotoa VVVVKK
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

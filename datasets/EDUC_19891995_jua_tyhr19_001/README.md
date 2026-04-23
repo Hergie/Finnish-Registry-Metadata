@@ -10,7 +10,7 @@
 - **Population:** Vuosina 1989 ja 1991-1995 toisen asteen koulutuksen yhteishakuun osallistuneet
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
 
-## Kuvaus / Description
+## Description
 
 Toisen asteen yhteishaku -moduulin 2. osa koostuu henkilöistä, jotka osallistuivat tilastovuosina 1989 ja 1991-1995 toisen asteen koulutuksen yhteishakuun (tiedostoissa esiintyy myös vuosien 1988 ja 1990 tietoja). Kyseiset tiedostot on toimitettu Tilastokeskukseen OPH:sta ja tiedostoissa on vuosittaisia eroja. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
 
@@ -25,9 +25,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (104)
+## Variables (104)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `HAKUVUOSI` | Hakuvuosi | — | — | — |
 | `HAKUKAUSI` | Hakukausi | — | — | — |
@@ -134,7 +134,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `KALA5` | 5. hakutoiveen koulutusala | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `HAKUVUOSI` — Hakuvuosi
 
@@ -429,4 +429,4 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

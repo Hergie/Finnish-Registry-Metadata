@@ -10,7 +10,7 @@
 - **Population:** Tilastoyksikkönä on yritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu).
 - **Source:** Tilinpäätöstilaston aineisto perustuu verohallinnon elinkeinoverotusaineistoon ja Tilastokeskuksen yritystiedusteluun. Elinkeinoverotusaineisto sisältää kaikkien elinkeinoverotuslain alaisten yritysten ja ammatinharjoittajien tilinpäätöstiedot. Se on ollut Tilastokeskuksen käytettävissä vuodesta 1994 lähtien. Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
 
-## Kuvaus / Description
+## Description
 
 Tilinpäätöstilasto kuvaa yritystoiminnan tuloksen muodostumista, kannattavuutta sekä taseen rakennetta. Tilastoyksikkönä on yritys. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus.
 
@@ -24,9 +24,9 @@ Tilinpäätöstilastot sisältävät tiettyjä toimialoja, joiden käytön suhte
 
 Luvut ovat euroina.
 
-## Muuttujat / Variables (99)
+## Variables (99)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Tilastovuosi | — | — | — |
 | `TOL08YR` | Toimiala | — | toimiala_1_2008_01_01 | — |
@@ -128,19 +128,19 @@ Luvut ovat euroina.
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `VIENTIYH` | Vienti yhteensä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Tilastovuosi
 
 #### `TOL08YR` — Toimiala
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Toimialaluokitus 2008, rakennetilastosta, saatavissa 2006 alkaen. Toimialojen käyttö (TOL 2008): Tilinpäätöstilasto sisältää kattavasti tiedot kaikista liikeyrityksistä lähes kaikilta toimialoilta. Joidenkin toimialojen osalta tietoja käytettäessä on kuitenkin huomioitava tietojen heikko laatutaso. 1) Seuraavien toimialojen osalta on huomioitava, että toimiala ei kuulu tilinpäätöstilaston kuvausalueeseen. Toimialan yritysten tietojen oikeellisuutta ei tarkisteta. Toimialalta saattaa puuttua joitain yrityksiä ja niiden tiedot saattavat olla virheellisiä. Näiden toimialojen käyttöä on vältettävä ja tietoja käytettäessä on hyvä olla yhteydessä Tilastokeskuksen henkilökuntaan. 01-03 Maatalous, metsätalous ja kalatalous 64-66 Rahoitus ja vakuutustoiminta 84 Julkinen hallinto 851 - 854 Koulutus 85591 Kansanopistot, kansalaisopistot ja työväenopistot 856 Koulutusta palveleva toiminta 86210 Terveyskeskus- ja vastaavat yleislääkäripalvelut 91010 Kirjastojen ja arkistojen toiminta 94 Järjestöjen toiminta 97-98 (T) Kotitalouksien toiminta työnantajina 99 (U) Kansainvälisten organisaatioiden toiminta 00 (X) Toimiala tuntematon 2) Toimialan 68 ”Kiinteistöalan toiminta” tietoja käytettäessä on huomioitava seuraavaa: Toimialan yrityksen voivat ilmoittaa tietonsa verottajan lomakkeella 4, josta Tilastokeskus ei saa tietoja. Tästä johtuen toimialalta saattaa puuttua joitain yrityksiä ja monien toimialalla olevien yritysten tiedot on jouduttu imputoimaan. Toimialan tietoja on käytettävä varoen.
 
 #### `TOL08REK` — Toimiala (yrek)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01
+**Classification:** toimiala_1_2008_01_01
 
 Toimialaluokitus 2008, yritysrekisteristä, saatavissa 2006 alkaen. Toimialojen käyttö (TOL 2008): Tilinpäätöstilasto sisältää kattavasti tiedot kaikista liikeyrityksistä lähes kaikilta toimialoilta. Joidenkin toimialojen osalta tietoja käytettäessä on kuitenkin huomioitava tietojen heikko laatutaso. 1) Seuraavien toimialojen osalta on huomioitava, että toimiala ei kuulu tilinpäätöstilaston kuvausalueeseen. Toimialan yritysten tietojen oikeellisuutta ei tarkisteta. Toimialalta saattaa puuttua joitain yrityksiä ja niiden tiedot saattavat olla virheellisiä. Näiden toimialojen käyttöä on vältettävä ja tietoja käytettäessä on hyvä olla yhteydessä Tilastokeskuksen henkilökuntaan. 01-03 Maatalous, metsätalous ja kalatalous 64-66 Rahoitus ja vakuutustoiminta 84 Julkinen hallinto 851 - 854 Koulutus 85591 Kansanopistot, kansalaisopistot ja työväenopistot 856 Koulutusta palveleva toiminta 86210 Terveyskeskus- ja vastaavat yleislääkäripalvelut 91010 Kirjastojen ja arkistojen toiminta 94 Järjestöjen toiminta 97-98 (T) Kotitalouksien toiminta työnantajina 99 (U) Kansainvälisten organisaatioiden toiminta 00 (X) Toimiala tuntematon 2) Toimialan 68 ”Kiinteistöalan toiminta” tietoja käytettäessä on huomioitava seuraavaa: Toimialan yrityksen voivat ilmoittaa tietonsa verottajan lomakkeella 4, josta Tilastokeskus ei saa tietoja. Tästä johtuen toimialalta saattaa puuttua joitain yrityksiä ja monien toimialalla olevien yritysten tiedot on jouduttu imputoimaan. Toimialan tietoja on käytettävä varoen.
 
@@ -158,7 +158,7 @@ Yritysrekisterin mukainen kirjanpitomuoto. 1 yhdenkertainen kirjanpito, 2 kahden
 
 #### `OIK` — Oikeudellinen muoto
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01
+**Classification:** oikeudell_muoto_1_1984_01_01
 
 Yrityksen oikeudellinen muoto, yritysrekisteristä.
 11	Luonnollinen henkilö
@@ -200,7 +200,7 @@ Vuodet 1999-2002 ja 2003-  eivät ole tältä osin aivan vertailukelpoisia.
 
 #### `TU` — Tuloverolaskelman tarkistus koodi (tulot)
 
-**Luokitus / Classification:** 28.2.2013
+**Classification:** 28.2.2013
 
 Laatukoodien luokitus 2006-2012:
 Tuloverolaskelman tarkistuskoodi (tuotot): 
@@ -209,37 +209,37 @@ Suositukset laatukoodien käyttäjille: Tilastokeskuksen omaan otokseen sisälty
 
 #### `KU` — Tuloverolaskelman tarkistus koodi (kulut)
 
-**Luokitus / Classification:** 23.1.2015
+**Classification:** 23.1.2015
 
 Tuloverolaskelman tarkistuskoodi (kulut) Laatukoodien luokitus 2006-2012: 1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto Suositukset laatukoodien käyttäjille: Tilastokeskuksen omaan otokseen sisältyvät yritykset tarkistetaan käsin (IMPU=0) ja niiden sisältämä tieto on luotettavinta. Varsinaisissa laatukoodeissa koodi 1 on luotettavinta. Näistä ei ole löydetty virheitä tai löydetyt virheet on kyetty yksiselitteisesti korjaamaan. Laatukoodit 21 ja 31 ovat myös hyvin luotettavia: Outlier menetelmä (21) on löytänyt ja korjannut virheen sellaisesta muuttujasta, jonka arvo on poikkeuksellisen suuri. Vastaavasti laatukoodin 31 (skaalaus) tapauksessa löydetty virhe on ollut hyvin pieni ja se on kyetty korjaamaan pienin muutoksin. Laatukoodi 41 on myös kohtuullisen luotettava, sillä tiedot pohjautuvat yrityksen edellisen vuoden tietoihin. Laatukoodi 51 tarkoittaa, että yrityksen tiedot on imputoitu. Laatukoodeista 51 indikoi heikointa laatua. Koodilla 99 on jäänyt tietoja kantoihin ja ne liittyvät laatumuuttujiin TU ja KU. Näiden kohdalla tuloissa ja kuluissa olevia tietoja ei ole saatu korjattua, mutta tuloslaskelma täsmää, jolloin tiedot on hyväksytty käytettäviksi. Laatukoodi L5 liittyy tasetietoihin. Varat, velat ja oma pääoma tiedot ovat oikein (vastaa laatukoodia 1), mutta tehdyt tarkastukset ovat normaalia kevyempiä. Laatukoodien luokitus 2013-: 01 = Tiedot OK 02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä 03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä 04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista 05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista 06 = Virheellistä muuttujaa korjattu useammalla menetelmällä 07 = Tiedoissa virhe 08 = Tase tyhjätty fuusion takia EI KÄYTÖSSÄ ZZ = Tieto puuttuu
 
 #### `TT` — Tuloverolaskelman tarkistus koodi (verotettava tulo)
 
-**Luokitus / Classification:** 23.1.2015
+**Classification:** 23.1.2015
 
 Tuloverolaskelman tarkistuskoodi (verot) Laatukoodien luokitus 2006-2012: 1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto
 
 #### `VA` — Varallisuuslaskelman tarkistus koodi (varat)
 
-**Luokitus / Classification:** 23.1.2015
+**Classification:** 23.1.2015
 
 Varallisuuslaskelman tarkistuskoodi (varat) Laatukoodien luokitus 2006-2012: 1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto Laatukoodien luokitus 2013-: 01 = Tiedot OK 02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä 03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä 04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista 05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista 06 = Virheellistä muuttujaa korjattu useammalla menetelmällä 07 = Tiedoissa virhe 08 = Tase tyhjätty fuusion takia EI KÄYTÖSSÄ ZZ = Tieto puuttuu
 
 #### `VE` — Varallisuuslaskelman tarkistus koodi (velat)
 
-**Luokitus / Classification:** 23.1.2015
+**Classification:** 23.1.2015
 
 Varallisuuslaskelman tarkistuskoodi (velat) Laatukoodien luokitus 2006-2012: 1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto Laatukoodien luokitus 2013-: 01 = Tiedot OK 02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä 03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä 04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista 05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista 06 = Virheellistä muuttujaa korjattu useammalla menetelmällä 07 = Tiedoissa virhe 08 = Tase tyhjätty fuusion takia EI KÄYTÖSSÄ ZZ = Tieto puuttuu
 
 #### `OP` — Varallisuuslaskelman tarkistus koodi (oma pääoma)
 
-**Luokitus / Classification:** 23.1.2015
+**Classification:** 23.1.2015
 
 Varallisuuslaskelman tarkistuskoodi (oma pääoma) Laatukoodien luokitus 2006-2012: 1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto Laatukoodien luokitus 2013-: 01 = Tiedot OK 02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä 03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä 04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista 05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista 06 = Virheellistä muuttujaa korjattu useammalla menetelmällä 07 = Tiedoissa virhe 08 = Tase tyhjätty fuusion takia EI KÄYTÖSSÄ ZZ = Tieto puuttuu
 
 #### `SS` — Tilikauden tuloksen tarkistus koodi (tulos ja tase)
 
-**Luokitus / Classification:** 23.1.2015
+**Classification:** 23.1.2015
 
 Tilikauden tuloksen tarkistuskoodi Laatukoodien luokitus 2006-2012: 1 = tieto virheetön 21 = tietoja on korjattu outlier-menetelmällä 31 = tietoja on korjattu skaalausmenetelmällä 41 = tiedot on imputoitu edellisen vuoden tietojen perusteella 51 = imputoitu käyttäen donor-menetelmää 99 = virheellinen/määrittelemätön tieto L5 = lomakkeelta 5 saatu tasetieto Laatukoodien luokitus 2013-: 01 = Tiedot OK 02 = Virheellistä muuttujaa korjattu Outlier-menetelmällä 03 = Virheellistä muuttujaa korjattu skaalausmenetelmällä 04 = Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista 05 = Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista 06 = Virheellistä muuttujaa korjattu useammalla menetelmällä 07 = Tiedoissa virhe 08 = Tase tyhjätty fuusion takia EI KÄYTÖSSÄ ZZ = Tieto puuttuu
 
@@ -590,4 +590,4 @@ Vienti yhteensä. Erään sisältyy vienti EU-maihin ja EU:n ulkopuolisiin maihi
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Suomessa varhaiskasvatukseen osallistuneet lapset
 
-## Kuvaus / Description
+## Description
 
 FOLK_VAKA moduuli pohjautuu Varhaiskasvatuksen tietovarannon (Varda) tietoihin. Moduulissa on saatavilla tietoa kuukausitasolla varhaiskasvatukseen osallistuvista lapsista Suomessa.
 
@@ -57,9 +57,9 @@ Vardan tietosisältö on dokumentoitu <p><a href="https://wiki.eduuni.fi/spaces/
 
 Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (20)
+## Variables (20)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `kuukausi` | Kuukausi | — | — | — |
@@ -82,7 +82,7 @@ Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut
 | `toimintamuoto` | Toimipaikan toimintamuoto | — | — | — |
 | `oma_organisaatio_OID_s` | Suojattu organisaatio-OID. | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -174,4 +174,4 @@ Varhiaskasvatuksen järjestämisvastuussa oleva kunta tai kuntayhtymä, jos varh
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

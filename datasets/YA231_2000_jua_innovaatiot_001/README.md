@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2000 sisältää tietoja teollisuuden ja palvelutoimialojen innovaatio- ja uudistamistoiminnasta, uusista tuotteista, tuotantomenetelmistä, innovaatiotoiminnan menoista ja rakenteesta vuosina 1998 - 2000. Tutkimuskohteena on innovaatiotoiminnan laajuus ja luonne vuosina 1998-2000. Tilasto kattaa sekä innovaatiotoimintaa harjoittaneet yritykset että yritykset, joilla ei ollut innovaatiotoimintaa kyselyn tarkoittamalla ajanjaksolla.
 
@@ -50,9 +50,9 @@ Tiedot eivät ole kaikilta osin vertailukelpoisia edellisiin vastaaviin tutkimuk
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (175)
+## Variables (175)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `OTOSSL` | Otoksen suuruusluokka | — | — | — |
 | `VASTE` | Vaste-koodi tiedonantajarekisterissä | — | — | — |
@@ -230,7 +230,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `STRB` | Osite, Eurostat | — | — | — |
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `OTOSSL` — Otoksen suuruusluokka
 
@@ -339,43 +339,43 @@ Henkilökunnan lukumäärä 31.12.2000.
 
 #### `EMPHI` — Korkea-asteen tutkinnon suorittaneita
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vähintään alimman korkea-asteen tutkinnon suorittaneiden osuus henkilökunnasta, prosenttia (%).  Yliopisto-, korkeakoulu- tai ammattikorkeakoulututkinto; opistoinsinööri, teknikko, merkonomi tai vastaava tutkinto.
 
 #### `TURN` — Liikevaihto, kysely
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen liikevaihto vuonna 2000, tai viimeisin 12 kk tilikausi (vakuutusyhtiöt: vakuutusmaksutulo),  tuhansina euroina (1000€).
 
 #### `EXP` — Vienti 2000
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Vienti vuonna 2000,  tuhansina euroina (1000€). Ei koske pankkeja ja vakuutusyhtiöitä.
 
 #### `INVTA` — Bruttoinvestoinnit aineelliseen käyttöomaisuuteen 2000
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Bruttoinvestoinnit aineelliseen käyttöomaisuuteen vuonna 2000, tuhansina euroina (1000€).
 
 #### `EST` — Muutos: Yritys perustettiin
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yrityksen perustaminen vuosina 1998-2000 on vaikuttanut yrityksen rakenteen muuttumiseen merkittävästi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä 0=ei.
 
 #### `TURNINC` — Muutos: Yritys kasvoi
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yrityksen kasvu vuosina 1998-2000 on vaikuttanut yrityksen rakenteen muuttumiseen merkittävästi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä 0=ei.
 
 #### `TURNDEC` — Muutos: Toiminta supistui
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yrityksen toiminnan supistuminen osien myynnin tai toimintojen lopettamisten vuoksi  on vaikuttanut vuosina 1998-2000  yrityksen rakenteen muuttumiseen merkittävästi. Vaikutus liikevaihtoon vähintään 10%, 1=kyllä 0=ei.
 
@@ -397,7 +397,7 @@ Tuoteinnovaatioiden ensisijainen kehittäjä oli 1= oma yritys tai konserni, 2=o
 
 #### `TURNIN` — Uusien tuotteiden osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina1998-2000 markkinoille tuodut uudet tai olennaisesti parannetut tuotteet, osuus liikevaihdosta, prosenttia (%).
 
@@ -407,7 +407,7 @@ Tuotteet tai palvelut ovat innovaatioita silloin, kun ne ovat uusia yrityksen n�
 
 #### `TURNUNG` — Muuttumattomien tuotteiden osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1998-2000 markkinoille tuodut muuttumattomat tai vain vähän muutetut tuotteet, osuus liikevaihdosta, prosenttia (%).
 
@@ -417,7 +417,7 @@ Yritys toi markkinoille vuosina1998-2000 sellaisia tuotteita tai palveluja, jotk
 
 #### `TURNMAR` — Yrityksen ja markkinoiden kannalta uusien tuotteiden lv-osuus
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Yrityksen vuosina 1998-2000 markkinoille tuomia tuotteita tai palveluja, jotka olivat uusia tai olennaisesti parannettuja sekä yrityksen että markkinoiden kannalta, osuus  yrityksen liikevaihdosta vuonna 2000, prosenttia (%).
 
@@ -478,7 +478,7 @@ Yrityksellä oli vuonna 2000 menoja innovaatioiden edellyttämistä tuotteiden t
 
 #### `RRDINX` — Omat tutkimusmenot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen oman tutkimus- ja kehittämistoiminnan menot vuonna 2000,  markkoina / tuhansina euroina (1000€). Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.
 
@@ -486,7 +486,7 @@ Tutkimus- ja kehittämistoiminnalla tarkoitetaan systemaattista toimintaa, jonka
 
 #### `RRDEXX` — Tilatun tutkimuksen menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Yrityksen ulkopuolelta tilatun tutkimus- ja kehittämistoiminnan menot vuonna 2000, markkoina / tuhansina euroina (1000€). Ulkopuolelta tilattuun t&k:hon lasketaan mukaan muilta yrityksiltä (ml. oman konsernin yritykset), korkeakouluilta tai tutkimuslaitoksilta tilattu t&k. 
 
@@ -494,25 +494,25 @@ Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvel
 
 #### `RMACX` — Innovaatiohin liittyvien kone- ja laitehankintojen menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatioihin liittyvien koneiden ja laitteiden (ml. atk-laitteet) hankintamenot vuonna 2000, markkoina / tuhansina euroina (1000€). Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit, ilman poistoja. Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.
 
 #### `ROEKX` — Ulkopuolelta hankitun osaamisen menot
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Muu innovaatioihin liittyvän osaamisen hankintamenot vuonna 2000, markkoina / tuhansina euroina (1000€). Tähän kuuluvat mm. patentit, oikeudet ei-patentoituihin keksintöihin, lisenssit, tuotemerkit, ohjelmistot ja muu vastaava tietotaidon hankinta. Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja).  Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.
 
 #### `ROTHX` — Innovaatiotoiminnan muut menoerät
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatioihin liittyvät  muut menoerät vuonna 2000, markkoina / tuhansina euroina (1000€). Tähän lasketaan mukaan koulutus ja perehdyttäminen (RTR), markkinoille tuominen (RMAR) sekä  tuotteiden ja palvelujen tuotantoprosessin muokkaus ja teollinen muotoilu (RPRE). Mukaan lasketaan sekä oman yrityksen järjestämä että ulkopuolelta tilattu koulutus ja perehdyttäminen. Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.
 
 #### `RTOT` — Innovaatiotoiminnan menot yhteensä
 
-**Yksikkö / Unit:** 1 000 €
+**Unit:** 1 000 €
 
 Innovaatiotoiminnan menot yhteensä, markkoina / tuhansina euroina (1000€). Mukaan lasketaan sekä käyttömenot (palkkaus, aineiden, tarvikkeiden ja palvelujen hankinta) että investoinnit (ilman poistoja). Mukaan lasketaan myös keskeytyneistä innovaatioprojekteista aiheutuneet menot.
 
@@ -989,4 +989,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

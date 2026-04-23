@@ -12,7 +12,7 @@
 Elinkeinoverotusaineisto sisältää kaikkien elinkeinoverotuslain alaisten yritysten ja ammatinharjoittajien tilinpäätöstiedot. 
 Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
 
-## Kuvaus / Description
+## Description
 
 Tilinpäätöstilasto kuvaa yritystoiminnan tuloksen muodostumista, kannattavuutta sekä taseen rakennetta. Tilastoyksikkönä on yritys. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus.
 
@@ -26,9 +26,9 @@ EVR-aineiston käyttöön siirtymisen myötä vuoden 1994 osalta aineiston laatu
 
 Luvut ovat tuhansina markkoina.
 
-## Muuttujat / Variables (107)
+## Variables (107)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 | `VUOSI` | vuosi | — | — | — |
@@ -138,7 +138,7 @@ Luvut ovat tuhansina markkoina.
 | `MAAK` | Maakunta | — | — | — |
 | `SYRTUN2` | Suojattu korjattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SYRTUN` — Suojattu yritystunnus
 
@@ -360,4 +360,4 @@ Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

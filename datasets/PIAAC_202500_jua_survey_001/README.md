@@ -10,7 +10,7 @@
 - **Population:** Suomessa asuva työikäinen aikuisväestö, otos 16-65 v.
 - **Source:** Aikuisten taitotutkimus PIAAC II (Suomen tiedonkeruu), Väestörekisterikeskuksen väestötietojärjestelmä, Tutkintorekisteri, Tilastokeskuksen tulonjaon kokonaistilasto (tulonjakotilasto), Verohallinnon rekisterit, Kansaneläkelaitoksen rekisterit, Tilastokeskuksen henkilötietovarasto, yritysrekisterin toimipaikat
 
-## Kuvaus / Description
+## Description
 
 Valmisaineisto on koostettu toisen Kansainvälisen aikuisten taitotutkimuksen Suomen tiedonkeruuaineistosta ja siihen yhdistetyistä rekisteritiedoista. Valmisaineisto perustuu taitotutkimuksen II (Programme for the International Assessment of Adult Competencies, Cycle II) Suomen aineistoon. PIAAC-tiedonkeruu toistetaan 10 vuoden välein. Valmisaineiston tietojen avulla voidaan kartoittaa taitojen yhteyttä erilaisiin tekijöihin. 
 
@@ -37,9 +37,9 @@ Tutkijat eivät voi itsenäisesti yhdistää muiden aineistojen rekisterimuuttuj
 <b> Lisätietoja:</b>
 Lisätietoja valmisaineistosta Tilastokeskuksen tutkijapalveluista osoitteesta: tutkijapalvelut@tilastokeskus.fi. Lisätietoja yleisesti haastattelukysymyksistä ja käsitteistä on saatavilla OECD:n <a href="https://www.oecd.org/en/data/datasets/piaac-2nd-cycle-database.html" > sivuilta</a> sekä Tilastokeskukselta Tutkijapalveluiden kautta.
 
-## Muuttujat / Variables (175)
+## Variables (175)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `PERSID_S` | Kohdetunnus | — | — | — |
 | `vuosi_1` | Vuosimuuttuja (2023) | — | — | — |
@@ -217,7 +217,7 @@ Lisätietoja valmisaineistosta Tilastokeskuksen tutkijapalveluista osoitteesta: 
 | `asty_3` | Asuntokuntarakenne (2017) | — | — | — |
 | `nika_3` | Nuorimman ikä (2017) | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `PERSID_S` — Kohdetunnus
 
@@ -1359,4 +1359,4 @@ Asuntokunnan nuorimman henkilön ikä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

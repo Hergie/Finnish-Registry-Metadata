@@ -10,7 +10,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 1998 on toteutettu edellisvuosien innovaatiotutkimuksia suppeampana, yritysten tutkimus- ja kehittämistilaston yhteydessä. Tutkimuskohteena on suomalaisyritysten innovaatiotoiminnan laajuus vuosina 1996 - 1998 ja siihen on sisällytetty kysymykset innovaatiotoiminnan keskeisimmistä tiedoista. Tilasto kattaa sekä innovaatiotoimintaa harjoittaneet yritykset että yritykset, joilla ei ollut innovaatiotoimintaa kyselyn tarkoittamalla ajanjaksolla.
 
@@ -34,9 +34,9 @@ Tilasto on vertailukelpoinen vuosien 1996 ja 2002 tilastoon, mutta ei muiden vuo
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TK98` | T&k-toiminta 1998 | — | — | — |
 | `K6` | Teknologiset tuoteinnovaatiot | — | — | — |
@@ -57,7 +57,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `KERROIN2` | Lukumääräosuuden kerroin | — | — | — |
 | `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TK98` — T&k-toiminta 1998
 
@@ -73,13 +73,13 @@ Yritys otti käyttöön teknologisia prosessi-innovaatioita vuosina 1996-98, 1=k
 
 #### `K8A1` — Uusien tuotteiden vaikutus liikevaihtoon
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1996-98 markkinoille tuotujen teknologisesti uusien tai parannettujen tuotteiden ja palveluiden osuus yrityksen liikevaihdosta vuonna 1998, prosenttia (%).
 
 #### `K8A2` — Muuttumattomien tuotteiden vaikutus liikevaihtoon
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1996-98 teknologisesti muuttumattomien tai vain vähän muutettujen tuotteiden tai palvelujen osuus yrityksen liikevaihdosta vuonna 1998, prosenttia (%).
 
@@ -89,7 +89,7 @@ Yritys toi vuosina 1996-98 markkinoille sellaisia teknologisesti uusia tuotteita
 
 #### `K8B2` — Markkinoiden kannalta uusien tuotteiden osuus lliikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1996-98  sellaisten teknologisesti uusien tuotteiden tai palvelujen tuominen markkinoille,  jotka olivat uusia sekä yrityksen että markkinoiden kannalta, osuus liikevaihdosta vuonna 1998, prosenttia ( %).
 
@@ -140,4 +140,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

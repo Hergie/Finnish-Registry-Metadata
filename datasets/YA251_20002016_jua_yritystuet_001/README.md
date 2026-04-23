@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://tilastokeskus.fi/til/yrtt/index.html">Yritystukitilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/rekisteriseloste_yritysrekisterin_yritystuet.html">Yritystuet</a>
 - **Keywords:** lainat,valtiontakaus,valtiontuki,yritykset,yritystuki
 
-## Kuvaus / Description
+## Description
 
 Yritystukitietokanta on julkisen tutkimusrahoituksen ja elinkeinotukien tehokkuuden ja taloudellisten vaikutusten selvittämiseksi perustettu tietokanta. Yritystukitietokanta käsittää Teknologian kehittämiskeskuksen Tekesin, Finnveran, työ- ja elinkeinoministeriön (2007 asti työministeriön ja kauppa- ja teollisuusministeriön), sekä maa- ja metsätalousministeriön hallinnonalan tuet yrityksille. Yritykset ovat yksilöitävissä tietokannasta suojattujen yritystunnusten avulla, ja tuet on luokiteltu myöntäneiden tahojen perusteella. Tukien luokitukset ja käytetyt myöntämisperusteet riippuvat kunkin tukijatahon lähdeaineistojen luonteesta. Tietokanta sisältää tietoja yritystuista tukityypeittäin, joita ovat suorat tuet, lainat ja takaukset.
 
@@ -30,9 +30,9 @@ Yritystuki on julkisista varoista yritykselle tai yhteisölle maksettu avustus t
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (99)
+## Variables (99)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Alkuperäinen yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -134,7 +134,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `ener_my_tem` | TEM:n myönnetyt energiatuet | — | — | tem |
 | `ener_hlkm_tem` | TEM:n energiatuet, hankkeiden lkm | — | — | tem |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Alkuperäinen yritystunnus
 
@@ -150,428 +150,428 @@ Suojattu vaihtoehtoinen yritystunnus, jossa on korjattu henkilömuotoisia yritys
 
 #### `tamy_fiv` — Finnveran myöntämät takaukset
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-
 
 #### `lamy_fiv` — Finnveran myöntämät lainat
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-. Finnveran yritystukitietokannassa esiintyvät tuet koostuvat myönnetyistä lainoista ja takauksista, jotka sisältävät kotimaista tai EU-tukea (takaukset sisältävät tukea vasta vuodesta 2010 eteenpäin). Ainoastaan luoton tai takauksen suuruus on ilmoitettu, ei tuen määriä. Tukitietokantaan ilmoitetut laina- ja rahoituspäätökset ovat uuden rahoituksen myöntämiseen liittyviä, eivät vuosittain uusittavia takauspäätöksiä, joita käsitellään pääasiassa muutoskäsittelynä. Vuosittain uusittavien takausten sijaan Finnvera pyrkii lähtökohtaisesti tarjoamaan pidempiä takausaikoja.
 
 #### `hlkm_fiv` — Tukihankkeiden lukumäärä Finnvera (myönnettyä tukea kohden)
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-
 
 #### `haai_fiv` — Hakuajankohta Finnvera
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-. Muodossa KKVV.
 
 #### `tlaaj_fiv` — Finnveran myöntämisperuste: Toiminnan laajentaminen
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-.  Jos käytetty, arvo=1. Käytännössä kaikkien lainojen ensisijainen myöntämisperuste on toiminnan laajentaminen.
 
 #### `ympva_fiv` — Finnveran myöntämisperuste: Ympäristövaikutukset
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-. Jos käytetty, arvo=2, muutoin tyhjä. Ympäristöperustein myönnetyt lainat on tarkoitettu pk-yritysten vapaaehtoisiin ympäristöinvestointeihin. Näitä myönnetään säästävän teknologian investointeihin tai päästöjä vähentäviin ulkoisiin investointeihin. Ympäristöperustein myönnetyt takaukset ovat vakuuksia vesiensuojelu-, ilmansuojelu-, sekä jätteidenhyödyntämisinvestointien rahoitukseen.
 
 #### `tasar_fiv` — Finnveran myöntämisperuste: Sukupuolten välinen tasa-arvo
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-. Jos käytetty, arvo=2, muutoin tyhjä. Sukupuolten välinen tasa-arvo -perusteella myönnetyt lainat sisältävät esimerkiksi naisyrittäjälainat, joita myönnetään yrityksille, jossa naiset ovat enemmistöosakkaina ja jota yksi naispuolisista osakkaista johtaa päätoimisesti.
 
 #### `aluet_fiv` — Finnveran myöntämisperuste: Alueellinen tasa-arvo
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-. Jos käytetty, arvo=2, muutoin tyhjä.
 
 #### `lahy_fiv` — Finnveran hylkäämät lainahakemukset
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-2008. Muuttujan tietosisältö ei luotettava.
 
 #### `tahy_fiv` — Finnveran hylkäämät takaushakemukset
 
-**Ryhmä / Group:** finnvera
+**Group:** finnvera
 
 2000-2008. Muuttujan tietosisältö ei luotettava.
 
 #### `plma_tek` — TEKESin maksamat pääomalainat
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-2010
 
 #### `lama_tek` — TEKESin maksamat lainat
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-
 
 #### `tuma_tek` — TEKESin maksamat suorat tuet
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-. Tekesin osalta mukana ovat kansalliset tutkimus- ja kehitysavustukset ja -lainat sekä EAKR- hankkeiden avustukset.
 
 #### `plmy_tek` — TEKESin myöntämät pääomalainat
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-2010.
 
 #### `lamy_tek` — TEKESin myöntämät lainat
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-
 
 #### `tumy_tek` — TEKESin myöntämät suorat tuet
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-. Tekesin osalta mukana ovat kansalliset tutkimus- ja kehitysavustukset ja -lainat sekä EAKR- hankkeiden avustukset.
 
 #### `hlkm_tek` — Tukihankkeiden lukumäärä TEKES (myönnettyä tukea kohden)
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-
 
 #### `kpros_tek` — Kehitystyöprosentti TEKES
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-2008. Kehitystyöprosentti-muuttuja Tekniikan kehittämiskeskuksen aineistossa kertoo asiantuntijan arvion projektin painotuksesta tuotekehityksen ja tutkimuksen välillä. Tuotekehityksessä projektissa pyritään kehittämään uusi tuote tai prosessi, ja tutkimuksessa projekti pyrkii luomaan uutta tietoa tulevaisuuden tuotekehitystä varten. Arvon 100 saava muuttuja kuvaa tuotekehityksellistä, ja arvon 0 tutkimuksellista projektia: välillä olevat arvot kuvaavat painotuksia (mitä lähempänä nollaa, sitä tutkimuspainotteisempi projekti). Jos yrityksellä on monta hanketta, suurin kehitystyöprosentti on valittu.
 
 #### `tuhy_tek` — TEKESin hylkäämät tukihakemukset (sis. kaikki hakemukset)
 
-**Ryhmä / Group:** tekes
+**Group:** tekes
 
 2000-2008. Muuttujan tietosisältö ei luotettava.
 
 #### `tumy_temktm` — TEM/KTM:n myöntämät suorat tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-. Vastaavat aiempia KTM:n tukia, mutta tukimuoto 3, kansainvälistymistuet, on jäänyt pois käytöstä.
 
 #### `tumy1_temktm` — Myönnetyt energiatuet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-.
 
 #### `tumy2_temktm` — Myönnetyt investointituet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tumy3_temktm` — Myönnetyt kansainvälistymistuet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-, ei arvoja, sisältyy ryhmään 5 muut kehittämistuet ja avustukset.
 
 #### `tumy4_temktm` — Myönnetyt toimintaymäristötuet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tumy5_temktm` — Myönnetyt muut kehittämistuet ja avustukset, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tuma_temktm` — TEM/KTM:m maksamat suorat tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-. Vastaavat aiempia KTM:n tukia, mutta tukimuoto 3, kansainvälistymistuet, on jäänyt pois käytöstä.
 
 #### `tuma1_temktm` — Maksetut energiatuet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tuma2_temktm` — Maksetut investointituet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tuma3_temktm` — Maksetut kansainvälistymistuet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-, ei arvoja, sisältyy ryhmään 5 muut kehittämistuet ja avustukset.
 
 #### `tuma4_temktm` — Maksetut toimintaymäristötuet, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tuma5_temktm` — Maksetut muut kehittämistuet ja avustukset, tem
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `hlkm_temktm` — Tukihankkeiden lukumäärä KTM
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-. Tukihankkeiden lukumäärä, ELY-keskusten jakamat tuet.
 
 #### `stma_tem` — TEM:n maksamat starttituet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `stesrma_tem` — TEM:n maksamat startti/ESR-tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `stmy_tem` — TEM:n myöntämät starttituet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `stesrmy_tem` — TEM:n myöntämät startti/ESR-tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tuma_tem` — TEM:n maksamat suorat tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-. TEM-yhdistymisen jälkeen työministeriön yritystuet voidaan jaotella "tavallisiin" tukiin ja starttitukiin. On huomioitava, että yksittäiset päätökset voivat sisältää sekä kansallisia tukia että EU-tukia. Näistä ESR-projektit ovat EU-tukia. TE-keskuksen kautta maksettavia investointitukia ei ole mukana tietokannassa.
 
 #### `esrma_tem` — TEM:n maksamat ESR-tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `tumy_tem` — TEM:n myöntämät suorat tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-. TEM-yhdistymisen jälkeen työministeriön yritystuet voidaan jaotella "tavallisiin" palkkatukiin ja starttitukiin. On huomioitava, että yksittäiset päätökset voivat sisältää sekä kansallisia tukia että EU-tukia. Osalla tuista on kytkentä ESR-projektiin, jotka ovat EU-tukia. TE-keskuksen kautta maksettavia investointitukia ei ole mukana tietokannassa.
 
 #### `esrmy_tem` — TEM:n myöntämät ESR-tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `hlkm_tem` — Tukihankkeiden lukumäärä TEM
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-2008. Tukihankkeiden lukumäärä, työllisyystuet.
 
 #### `esrhlkm_tem` — ESR-tukihankkeiden lukumäärä TEM
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-2008.
 
 #### `sthlkm_tem` — Startti-tukihankkeiden lukumäärä TEM
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2008.
 
 #### `stesrhlkm_tem` — Startti/ESR-tukihankkeiden lukumäärä TEM
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2008.
 
 #### `tuha_temktm` — TEM/KTM:stä haetut suorat tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007-
 
 #### `kvma_temktm` — TEM:n maksetut yhteishankkeiden kv-tuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007- (2006 asti nimellä kvma_ktm). Yhteishankkeiden kansainvälistymistuilla tarkoitetaan avustusta toimialoittain toteutettaviin vienninedistämistapahtumiin, kaupallis-teollisen tiedottamisen hankkeisiin, muihin viejäyritysten yhteisiin kansainvälistymishankkeisiin (esim. vientirenkaat) sekä matkailualan valtakunnallisiin ja muihin laajoihin ulkomaan markkinoinnin hankkeisiin. Yhteishankkeisiin tulee osal-listua vähintään 4 yritystä. Yritysten omiin kansainvälistymishankkeisiin avustusta myöntävät työvoima- ja elinkeinokeskukset, nämä tuet sisältyvät KTM:n suoriin yritystukiin. Avustusta voidaan myöntää ulkomaankauppaa edistävälle järjestölle, yrityksiä edustavalle toimialayhteisölle tai yritykselle, joka vastaa vientiä edistävän hankkeen tai tapahtuman järjestämisestä. Avustusta voidaan käyttää Suomen vientitarjonnan ja osaamisen tunnetuksi tekemiseen uusilla markkina-alueilla, markkinaosuuksien laajentamiseen sekä yritysten kansainvälistymistä tukeviin suomalaisten viejäyritysten yhteisiin vienninedistämistapahtumiin.
 
 #### `hlkm_kv_temktm` — TEM:n yhteishankkeiden kv-tuet, hankkeiden lkm
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2007- (2006 asti hlkm_kv_ktm)
 
 #### `tuma_tym` — Työministeriön maksamat työllistämistuet
 
-**Ryhmä / Group:** työministeriö
+**Group:** työministeriö
 
 2003-2006 työministeriön tuet ovat aina suoria tukia, ja niiden myöntämisperuste on aina työllisyyden lisääminen. Työllistämistuet sisältävät sekä kansallisia että EU-tukia (ESR-projektit), mutta eivät työvoima- ja elinkeinokeskusten (TE-keskusten) kautta maksettavia investointitukia.
 
 #### `tumy_tym` — Työministeriön myöntämät työllistämistuet
 
-**Ryhmä / Group:** työministeriö
+**Group:** työministeriö
 
 2003-2006 työministeriön tuet ovat aina suoria tukia, ja niiden myöntämisperuste on aina työllisyyden lisääminen. Työllistämistuet sisältävät sekä kansallisia että EU-tukia (ESR-projektit), mutta eivät työvoima- ja elinkeinokeskusten (TE-keskusten) kautta maksettavia investointitukia.
 
 #### `hlkm_tym` — Tukihankkeiden lukumäärä työministeriö
 
-**Ryhmä / Group:** työministeriö
+**Group:** työministeriö
 
 2003-2006.
 
 #### `tumy_ktm` — KTM:m myöntämät suorat tuet
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006. Tuet sisältävät kansallisen rahoituksen lisäksi Euroopan aluekehitysrahaston (EAKR) tukia, mutta eivät Euroopan Sosiaalirahaston (ESR) tukia. Tuet on jaettu viiteen eri tukimuotoryhmään (summat euroina). Yritys on voinut saada useamman kuin yhden tukimuodon tukea.
 
 #### `tumy1_ktm` — Myönnetyt energiatuet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tumy2_ktm` — Myönnetyt investointituet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006. Investointituet sisältävät maataloustuotteiden jalostuksen ja markkinoinnin investointituet.
 
 #### `tumy3_ktm` — Myönnetyt kansainvälistymistuet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006. Kansainvälistymistuet sisältävät maataloustuotteiden jalostuksen ja markkinoinnin kansainvälistymistuet.
 
 #### `tumy4_ktm` — Myönnetyt toimintaympäristötuet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tumy5_ktm` — Myönnetyt muut kehittämistuet ja avustukset, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuma_ktm` — KTM:m maksamat suorat tuet
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuma1_ktm` — Maksetut energiatuet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuma2_ktm` — Maksetut investointituet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuma3_ktm` — Maksetut kansainvälistymistuet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuma4_ktm` — Maksetut toimintaympäristötuet, KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuma5_ktm` — Maksetut muut kehittämistuet ja avustukset, ktm
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `tuha_ktm` — KTM:stä haetut suorat tuet
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006. Jos 0/1 euroa, ei tarkkaa tietoa.
 
 #### `hlkm_ktm` — Tukihankkeiden lukumäärä KTM
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2000-2006.
 
 #### `kvma_ktm` — KTM:n maksetut yhteishankkeiden kv-tuet
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2003-2006 (2007- nimellä kvma_temktm). Yhteishankkeiden kansainvälistymistuilla tarkoitetaan avustusta toimialoittain toteutettaviin vienninedistämistapahtumiin, kaupallis-teollisen tiedottamisen hankkeisiin, muihin viejäyritysten yhteisiin kansainvälistymishankkeisiin (esim. vientirenkaat) sekä matkailualan valtakunnallisiin ja muihin laajoihin ulkomaan markkinoinnin hankkeisiin. Yhteishankkeisiin tulee osallistua vähintään 4 yritystä. Yritysten omiin kansainvälistymishankkeisiin avustusta myöntävät työvoima- ja elinkeinokeskukset, nämä tuet sisältyvät KTM:n suoriin yritystukiin. Avustusta voidaan myöntää ulkomaankauppaa edistävälle järjestölle, yrityksiä edustavalle toimialayhteisölle tai yritykselle, joka vastaa vientiä edistävän hankkeen tai tapahtuman järjestämisestä. Avustusta voidaan käyttää Suomen vientitarjonnan ja osaamisen tunnetuksi tekemiseen uusilla markkina-alueilla, markkinaosuuksien laajentamiseen sekä yritysten kansainvälistymistä tukeviin suomalaisten viejäyritysten yhteisiin vienninedistämistapahtumiin.
 
 #### `hlkm_kv_ktm` — KTM:n yhteishankkeiden kv-tuet, hankkeiden lkm
 
-**Ryhmä / Group:** ktm
+**Group:** ktm
 
 2003-2006.
 
 #### `TUMA_MMM` — MMM:n maksamat suorat tuet
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-.
 
 #### `TUMY_MMM` — MMM:n myöntämät suorat tuet
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-. Vuotta 2010 aikaisemmissa tiedoissa MMM:n tukiin sisältyy sekä yritys- että hanketukia. Vuoden 2010 tiedoissa hanketukia ei enää ole.
 Maa- ja metsätalousministeriön tuet koskevat lähinnä pieniä yrityksiä (suuremmat kuuluvat KTM:n piiriin). Tällaisia ovat alle kolmen henkilötyövuoden maatalouspohjaiset yritykset, jotka hakevat tukea muuhun kuin maataloustoimintaan (mutta jossa ne hyödyntävät maatalouden rakennuksia tai välineitä), sekä alle viiden henkilötyövuoden maaseudun pienimuotoista yritystoimintaa koskevat tuet, jotka eivät suoraan kytkeydy maatalouteen. Tämän lisäksi tukia myönnetään ns. ketjuyrityksille, jotka perustuvat yhteistyösopimuksiin maatilojen kanssa. Maa- ja metsätalousministeriön hallinnonalalta yritystukitiedoissa ovat mukana vain varsinaisille yrityksille myönnetyt yritystuet, eivät maataloustuet. Tiedoissa ei ole mukana yritystoiminnan kehittämiseen liittyviä yleisiä kehityshankkeita eikä tietyn yritysryhmän toimintaan liittyviä kehityshankkeita. Maa- ja metsätalousministeriön tuet ovat luonteeltaan suoria tukia. Maa- ja metsätalousministeriön tietojen osalta ongelmaa aikasarjamielessä aiheuttaa tukijärjestelmän sisällöllinen muuttuminen vuosina 2008 ja 2010. Lisäksi vuoden 2007 tiedoissa on hyvä huomioida, että MMM:n vanha ohjelmakausi päättyi ja tukien määrä on tästä syystä alhaisempi kuin edeltävinä vuosina.
 
 #### `tuha_mmm` — MMM:stä haetut suorat tuet
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-2007.
 
 #### `hlkm_mmm` — Tukihankkeiden lukumäärä MMM
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-2009.
 
 #### `ohj_mmm` — Tukiohjelma: MMM
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-2007. Tukiohjelma oletettu samaksi samalla yrityksellä.
 Vuosina 2001-2005:
@@ -586,7 +586,7 @@ Vuosina 2006 ja 2007:
 
 #### `mkyt_mmm` — Maatilakytkentä: MMM
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-2007. Oletettu samaksi samalla yrityksellä.
 1= maatilakytkentä
@@ -597,13 +597,13 @@ Vuosina 2006 ja 2007:
 
 #### `alue_mmm` — Yrityksen kunta: MMM
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-2007.
 
 #### `erit_mmm` — Tuen erittely: MMM
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2001-2007. Valittu se, joka useimmassa hankkeessa.
 2= rakentaminen
@@ -614,19 +614,19 @@ Vuosina 2006 ja 2007:
 
 #### `tuma_mmm_vanha` — MMM:n maksamat suorat tuet (vanha kausi)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009. Vuodesta 2008- maa- ja metsätalousministeriön tuissa esiintyy sekä vanhoja tukia (joiden maksut jatkuvat) sekä uusia tukia.
 
 #### `hlkm_mmm_vanha` — Tukihankkeiden lukumäärä MMM (vanha kausi)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 
 #### `mmm_ma_tplaji1` — MMM toimenpide (suurin maksettu)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 Toimenpiteet:
@@ -645,13 +645,13 @@ Toimenpiteet:
 
 #### `mmm_ma_tplaji2` — MMM toimenpide (2. suurin maksettu)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 
 #### `mmm_my_tplaji1` — MMM toimenpide (suurin myönnetty)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 Toimenpiteet:
@@ -670,106 +670,106 @@ Toimenpiteet:
 
 #### `mmm_my_tplaji2` — MMM toimenpide (2. suurin myönnetty)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 
 #### `mmm_my_tplaji3` — MMM toimenpide (3. suurin myönnetty)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 
 #### `mmm_ma_leader` — MMM leader-toimintatapa (maksetut tuet)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009. Leader-toimintaryhmä on rekisteröity maaseudun kehittämisyhdistys, joka rahoittaa yleishyödyllisiä ja elinkeinotoimintaa edistäviä hankkeita sekä yritystukia.
 
 #### `mmm_my_leader` — MMM leader-toimintatapa (myönnetyt tuet)
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009. Leader-toimintaryhmä on rekisteröity maaseudun kehittämisyhdistys, joka rahoittaa yleishyödyllisiä ja elinkeinotoimintaa edistäviä hankkeita sekä yritystukia.
 
 #### `mmm_ma_hanketuki` — MMM maksanut hanketukea
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 
 #### `mmm_ma_yritystuki` — MMM maksanut yritystukea
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2008-2009.
 
 #### `hlkm_ma_mmm` — Maksettujen tukihankkeiden lukumäärä, MMM
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Maksettujen tukihankkeiden lukumäärä, MMM.
 
 #### `hlkm_my_mmm` — Myönnettyjen tukihankkeiden lukumäärä, MMM.
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Myönnettyjen tukihankkeiden lukumäärä, MMM.
 
 #### `inv_ma_mmm` — MMM:n maksama tukimuoto: yrityksen investointituki
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Maatiloille ja mikroyrityksille voidaan myöntää avustusta yritystoiminnan aloittamisessa tai laajentamisessa tarpeellisen käyttöomaisuuden hankintaan ja sen muutos- ja parannustöihin. Vaihto-omaisuuden hankintaan ja käyttöpääomaan avustusta ei myönnetä. Pk-yrityksille voidaan myöntää avustusta maataloustuotteiden ensiasteen jalostuksen ja markkinoinnin tuottavuuden lisäämistä, tuotteiden laadun parantamista sekä toiminnan kansainvälistämistä tukeviin investointeihin.
 
 #### `keh_ma_mmm` — MMM:n maksama tukimuoto: yrityksen kehittämistuki
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Tukea voidaan myöntää sellaisen yrityksen ulkopuolisen asiantuntemuksen ja osaamisen hankkimiseen, joka kehittää yrityksen tuotteita, tuotantomenetelmiä tai markkinointia tai muuten parantaa yrityksen liiketoimintaa. Vähintään kolme yritystä voi toteuttaa kehittämishankkeen ryhmänä. Kaikkien hankkeessa mukana olevien yritysten tulee täyttää ohjelman edellytykset. Hakijana tai hankkeen vetäjänä voi toimia kehittämisyhteisö (neuvontajärjestö, kunnallinen elinkeinoyhtiö, oppilaitos tai muu yrityksille kehittämispalveluita tarjoava organisaatio) tai yksi ryhmän jäsenistä.
 
 #### `kay_ma_mmm` — MMM:n maksama tukimuoto: yrityksen käynnistystuki
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Yritys voi saada käynnistystukea palkatessaan ensimmäisiä vieraita työntekijöitä. Tukea voi saada enintään kahden henkilötyövuoden palkkauksesta aiheutuviin kustannuksiin kahden vuoden aikana. Näin voidaan siis enintään tukea yhden työntekijän kahden vuoden palkkausta, kahden työntekijän yhden vuoden palkkausta tai neljän työntekijän puolen vuoden palkkausta.
 
 #### `inv_my_mmm` — MMM:n myöntämä tukimuoto: yrityksen investointituki
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Maatiloille ja mikroyrityksille voidaan myöntää avustusta yritystoiminnan aloittamisessa tai laajentamisessa tarpeellisen käyttöomaisuuden hankintaan ja sen muutos- ja parannustöihin. Vaihto-omaisuuden hankintaan ja käyttöpääomaan avustusta ei myönnetä. Pk-yrityksille voidaan myöntää avustusta maataloustuotteiden ensiasteen jalostuksen ja markkinoinnin tuottavuuden lisäämistä, tuotteiden laadun parantamista sekä toiminnan kansainvälistämistä tukeviin investointeihin.
 
 #### `keh_my_mmm` — MMM:n myöntämä tukimuoto: yrityksen kehittämistuki
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Tukea voidaan myöntää sellaisen yrityksen ulkopuolisen asiantuntemuksen ja osaamisen hankkimiseen, joka kehittää yrityksen tuotteita, tuotantomenetelmiä tai markkinointia tai muuten parantaa yrityksen liiketoimintaa. Vähintään kolme yritystä voi toteuttaa kehittämishankkeen ryhmänä. Kaikkien hankkeessa mukana olevien yritysten tulee täyttää ohjelman edellytykset. Hakijana tai hankkeen vetäjänä voi toimia kehittämisyhteisö (neuvontajärjestö, kunnallinen elinkeinoyhtiö, oppilaitos tai muu yrityksille kehittämispalveluita tarjoava organisaatio) tai yksi ryhmän jäsenistä.
 
 #### `kay_my_mmm` — MMM:n myöntämä tukimuoto: yrityksen käynnistystuki
 
-**Ryhmä / Group:** mmm
+**Group:** mmm
 
 2010-. Yritys voi saada käynnistystukea palkatessaan ensimmäisiä vieraita työntekijöitä. Tukea voi saada enintään kahden henkilötyövuoden palkkauksesta aiheutuviin kustannuksiin kahden vuoden aikana. Näin voidaan siis enintään tukea yhden työntekijän kahden vuoden palkkausta, kahden työntekijän yhden vuoden palkkausta tai neljän työntekijän puolen vuoden palkkausta.
 
 #### `ener_ma_tem` — TEM:n maksetut energiatuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2013-. TEM:n maksetut energiatuet
 
 #### `ener_my_tem` — TEM:n myönnetyt energiatuet
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2013-. TEM:n myönnetyt energiatuet
 
 #### `ener_hlkm_tem` — TEM:n energiatuet, hankkeiden lkm
 
-**Ryhmä / Group:** tem
+**Group:** tem
 
 2013-. TEM:n energiatuet, hankkeiden lkm
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

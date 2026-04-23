@@ -11,7 +11,7 @@
 - **Source:** Patentti- ja rekisterihallituksen ylläpitämä kaupparekisteri
 - **Related:** <a href= "https://www.prh.fi/stc/attachments/rekisteri-_ja_tietosuojaselosteet/kaupparekisteri_tietosuojaseloste.pdf">Kaupparekisteri</a>
 
-## Kuvaus / Description
+## Description
 
 Tutkimuskäyttöön on poimittu PRH:n kaupparekisteristä vastuuhenkilöt, hallituksen jäsenet, varajäsenet, puheenjohtajat sekä toimitusjohtajat, jotka on rekisteröity aikavälillä 1.1.1994 - 31.12.2015 ja 1.1.2016 - 14.7.2019 (kaksi erillistä poimintaa). Yhtiömuodoista ovat mukana osakeyhtiöiden lisäksi vakuutusyhtiöt, säästö- ja osuuspankit sekä osuuskunnat. 
 
@@ -23,9 +23,9 @@ PRH ei vastaa aineistoon sisältyvien tietojen virheistä, katoamisista tai muut
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (10)
+## Variables (10)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `shnro` | Suojattu henkilönumero | — | — | — |
@@ -38,7 +38,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `LAKKAAMIS_PVM` | Yrityksen lakkaamispäivämäärä | — | — | — |
 | `LAKKAAMISTYYPPI` | Yrityksen lakkaamistapa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -100,4 +100,4 @@ SI	Kotipaikan siirto
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

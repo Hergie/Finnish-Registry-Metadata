@@ -11,7 +11,7 @@
 - **Source:** Työsuhderekisterit (ETK, Keva ja Valtionkonttori), tulorekisteri sekä Tilastokeskuksen oma tiedonkeruu
 - **Related:** <a href= "http://www.stat.fi/til/tyokay/">Työssäkäynti</a>
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK jaksotiedot -moduuliin. Työsuhdeaineisto sisältää tietoja henkilön vuoden viimeisen viikon työsuhteesta (TVM =1), henkilön vuoden pisimmästä työsuhteesta (ATV =1) ja mahdollisesta henkilön sivutyösuhteesta (SIVU=1). Lisäksi aineistossa on muita työsuhdejaksoja. 
 
@@ -29,9 +29,9 @@ Aikaisemmin julkaistut aineistot ovat FIONAssa kansiossa: FOLK_jaksot_a.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -52,7 +52,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `toimiala` | Toimipaikan toimiala | — | toimiala_1_2008_01_01 | Työsuhderekisterit |
 | `tp_sijaintikunta` | Toimipaikan sijaintikunta | — | — | Työsuhderekisterit |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -64,7 +64,7 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `aineisto` — Aineistotunnus
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Aineistotunnus, joka ilmaisee lähdeaineiston. 
 
@@ -103,7 +103,7 @@ Ennen tilastovuotta 2019:
 
 #### `rivinro` — Rivinumero
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Työ- tai yrittäjäsuhteet erottava rivinumero. Yhdellä henkilöllä voi olla useampi työ- tai yrittäjäsuhde.
 
@@ -133,7 +133,7 @@ HUOM! Julkisella sektorilla toimipistetunnus ei ole yksikäsitteinen, vaan sitä
 
 #### `alkupvm` — Työsuhteen alkamispäivä
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Työ- tai yrittäjäsuhteen alkamispäivämäärä. 
 
@@ -141,13 +141,13 @@ Tulorekisterin tiedoissa kyseessä on maksujakson alkamispäivä. Tilastossa on 
 
 #### `loppupvm` — Loppupäivämäärä
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Työ- tai yrittäjäsuhteen loppumispäivämäärä.
 
 #### `tvm` — Henkilön päätyösuhde
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Henkilön päätyösuhde. Muodostetaan pääasiallisen toiminnan päättelyajossa. Työvoimakäsite (TVM) määrittyy vuoden viimeisen viikon työsuhteen mukaan. Merkitään TVM = 1. 
 
@@ -155,7 +155,7 @@ Henkilön vuoden viimeisen viikon työsuhde on päätelty työssäkäyntitilasto
 
 #### `atv` — Henkilön pisin työsuhde
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Henkilön pisin työsuhde. ATV-työsuhde merkitään ATV = 1. Ammatissatoimivuus käsite = ATV, eli määritellään kyseisen vuoden pisimmän työsuhteen mukaan. 
 
@@ -163,13 +163,13 @@ Henkilön vuoden pisin työsuhde on päätelty tilastovuodesta 2019 lähtien tul
 
 #### `sivu` — Henkilön sivutyösuhde
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Henkilön sivutyösuhde. Muodostetaan pääasiallisen toiminnan päättelyajossa. Henkilölle valitaan vain yksi sivutyösuhde, vaikka henkilöllä olisikin useampi (sivu)työsuhde. Merkitään sivu = 1. Tietoa on vuodesta 1992 lähtien.
 
 #### `oyr_omist_tyyppi` — Omistajatyyppi
 
-**Luokitus / Classification:** omistajatyyppi_1_1995_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** omistajatyyppi_1_1995_01_01 · **Group:** Työsuhderekisterit
 
 Oikeudellisen yksikön omistajatyyppi. Yritys- ja toimipaikkarekisterin yritykset ja yhteisöt jaetaan omistajuuden perusteella luokkiin. 
 
@@ -192,7 +192,7 @@ Vuodesta 1996 alkaen arvoalue:
 
 #### `oyr_oik_muoto` — Oikeudellinen muoto
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** oikeudell_muoto_1_1984_01_01 · **Group:** Työsuhderekisterit
 
 Oikeudellisen yksikön oikeudellinen muoto eli yritysmuoto. 
 
@@ -222,7 +222,7 @@ Oikeudellisen yksikön oikeudellinen muoto eli yritysmuoto.
 
 #### `oyr_sektoriluokka` — Sektoriluokka
 
-**Luokitus / Classification:** sektoriluokitus_11_2013_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** sektoriluokitus_11_2013_01_01 · **Group:** Työsuhderekisterit
 
 Oikeudellisen yksikön sektoriluokka. Luokitus,  jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin. Tietoja vuodesta 1989 lähtien. 
 
@@ -303,7 +303,7 @@ Sektoriluokitus 2012 http://www.stat.fi/meta/luokitukset/sektoriluokitus/versio.
 
 #### `toimiala` — Toimipaikan toimiala
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** Työsuhderekisterit
+**Classification:** toimiala_1_2008_01_01 · **Group:** Työsuhderekisterit
 
 Työnantajan toimiala. Käytössä seuraavat luokitukset: 
  toimiala_1_08_s (TOL2008) vuodesta 2007 lähtien 
@@ -316,10 +316,10 @@ Luokitusavaimet: http://www.stat.fi/meta/luokitukset/toimiala/001-2008/luokitusa
 
 #### `tp_sijaintikunta` — Toimipaikan sijaintikunta
 
-**Ryhmä / Group:** Työsuhderekisterit
+**Group:** Työsuhderekisterit
 
 Toimipaikan sijaintikunta. Tietoja vuosilta 1987-2000.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

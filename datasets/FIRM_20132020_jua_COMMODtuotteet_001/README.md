@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.tilastokeskus.fi/til/tti/index.html">Teollisuustuotanto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_hyodykkeet_tuotteet.html">Hyödykkeet:tuotteet</a>
 - **Keywords:** hyödykkeet,jalostus,kaivostoiminta,louhinta,PRODCOM-nimikkeistö,tavarat,teollisuus,teollisuustuotanto,toimialat,tuotanto,tuotteet,valmistus
 
-## Kuvaus / Description
+## Description
 
 Hyödyketilasto eli teollisuustuotantotilasto sisältää tavaranimikkeittäisiä eli hyödykkeittäisiä arvo- ja määrätietoja myydystä tuotannosta ja joistakin nimikkeistä myös kokonaistuotannosta kultakin kalenterivuodelta tiedonantajakohtaisesti. Vuodesta 2013 alkaen tiedot saadaan YTY-yritystietojärjestelmästä, mikä heikentää vertailtavuutta aiempiin vuosiin. Aineistoa päivitetään myös takautuvasti.
 
@@ -45,9 +45,9 @@ Lisäksi estimoidaan eri tavoilla havaintoaineistosta puuttuvia yksittäisiä fy
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (16)
+## Variables (16)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `stoimipaikkaID` | Suojattu toimipaikkatunnus | — | — | — |
 | `syrtunnus` | Suojattu yritystunnus | — | — | — |
@@ -66,7 +66,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `salattu` | Arvo- tai määrätieto on salattu | — | — | — |
 | `versioID` | Tilastoversio | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `stoimipaikkaID` — Suojattu toimipaikkatunnus
 
@@ -76,11 +76,11 @@ Toimipaikkatunnus on TK:n ylläpitämä pysyvä yksilöivä tunniste, mutta siin
 
 #### `vuosi` — Vuosi
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 #### `Prodcomkoodi` — Prodcom-koodi
 
-**Luokitus / Classification:** prodcom_1_2014_01_01
+**Classification:** prodcom_1_2014_01_01
 
 PRODCOM-koodi eli tuotenimike, pituus 8 tai 10 numeroa. Tilastovuodesta 1997 alkaen teollisuuden tuotantotilaston tiedot on kerätty Eurostatin PRODCOM-luettelon mukaisella luokituksella, täydennettynä kansallisilla tarkennuksilla eli kansallisilla lisänimikkeillä. 
 
@@ -90,7 +90,7 @@ Erikseen käytettävissä on tuotteet0419_prodcom2019-tiedosto, jossa eri vuosie
 
 #### `TuotanTyyppi` — Hyödykkeen tuotannon tyyppi
 
-**Luokitus / Classification:** tuottyyp_2_2012_01_01
+**Classification:** tuottyyp_2_2012_01_01
 
 Tuotannon tyyppikoodi ilmoittaa, onko hyödykkeen tuotannosta kysyttävä tiedustelussa jotain muutakin kuin myydyn tuotannon arvo ja määrä. 
 
@@ -124,7 +124,7 @@ Mittayksiköt vaihtelevat paljon.
 
 #### `TuotanArvo` — Tuotannon arvo
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Tuotannon arvo, euroa, kun TuotanTyyppi = 1, 3. Jokaista tuotannon tyyppikoodia kohden on taulussa oma havainto (rivi). 
 
@@ -140,7 +140,7 @@ Isojen alusten valmistuksessa, kun TuotanTyyppi = 3, on yleensä kyseessä useid
 
 #### `TuotanTietoVarmuus` — Tuotantotiedon varmuus tai käsittelyn tilanne
 
-**Luokitus / Classification:** tuottiedvarm_2_2012_01_01
+**Classification:** tuottiedvarm_2_2012_01_01
 
 Tuotantohavainnon tiedon varmuus tai käsittelyn tilanne.
 
@@ -168,7 +168,7 @@ Koodi 9 = Määrätieto arvioitu ohjelmallisesti tilanteessa toinen tieto MaaraM
 
 #### `MaaraMittayks1Arviointi` — Määrätiedon ensisijaisessa mittayksikössä arviointikoodi
 
-**Luokitus / Classification:** hyodarvio_4_2012_01_01
+**Classification:** hyodarvio_4_2012_01_01
 
 Määrätiedon ensisijaisessa mittayksikössä (MaaraMittayks1) arviointikoodi eli estimoinnin liputusmuuttuja
 
@@ -182,7 +182,7 @@ Ohjelmallinen arviointi tehdään saman hyödykenimikkeen muiden tiedonantajien 
 
 #### `MaaraMittayks2Arviointi` — Määrätiedon toissijaisessa mittayksikössä arviointikoodi
 
-**Luokitus / Classification:** hyodarvio_4_2012_01_01
+**Classification:** hyodarvio_4_2012_01_01
 
 Määrätiedon toissijaisessa mittayksikössä (MaaraMittayks2) arviointikoodi eli estimoinnin liputusmuuttuja
 
@@ -204,4 +204,4 @@ yhdistetty FIRM_PROD-aineistosta
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen tutkimukset: Yritysten innovaatiotoiminta 2000 - 2002  ja Yritysten tutkimus- ja kehittäminen 2002
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Innovaatiotutkimus 2002 on toteutettu edellistä, vuoden 2000 innovaatiotutkimusta, suppeampana. Tutkimus on toteutettu yritysten tutkimus- ja kehittämistilaston yhteydessä. Tutkimuskohteena on suomalaisyritysten innovaatiotoiminnan laajuus vuosina 2000-2002 ja siihen on sisällytetty kysymykset innovaatiotoiminnan keskeisimmistä tiedoista; tuote- ja prosessi-innovaatiot, innovaatioprojektit sekä innovaatiotoimintaan liittyvä yhteistyö.Tilasto kattaa sekä innovaatiotoimintaa harjoittaneet yritykset että yritykset, joilla ei ollut innovaatiotoimintaa kyselyn tarkoittamalla ajanjaksolla.
 
@@ -39,9 +39,9 @@ Tilasto on vertailukelpoinen vuoden 2000 tilastoon, mutta ei aiempiin tilastoihi
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (252)
+## Variables (252)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Tilastovuosi | — | — | — |
@@ -296,7 +296,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `vastein` | Innovaatiovastekoodi | — | — | — |
 | `yr_tol02` | Toimiala | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -1337,4 +1337,4 @@ Toimiala TOL2002 Tilastokeskuksen toimialaluokitus 2002
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

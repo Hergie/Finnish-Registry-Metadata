@@ -8,7 +8,7 @@
 - **Variable count:** 36
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 Teollisuuden ympäristönsuojelumenot -valmisaineisto 
 
@@ -38,9 +38,9 @@ Noin 2000 toimipaikalle lähetetyn kyselyn vastausprosentti on viime vuosina oll
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (36)
+## Variables (36)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `sykstun` | Suojattu toimipaikkatunnus | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
@@ -79,7 +79,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tav_invest_avust_arvo` | Investointiavustukset | — | — | TULOT |
 | `tav_sivutuott_tuotot_arvo` | Sivutuotteiden myynnistä saadut tuotot | — | — | TULOT |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `sykstun` — Suojattu toimipaikkatunnus
 
@@ -93,61 +93,61 @@ Yhdistetty FIRM_PROD-aineistosta. Vuodet 14-16 tol08 ja vuodet 17-19 TOL08YR
 
 #### `inv_ilma` — Ympäristöinvestoinnin arvo: Ulkoilman- ja ilmastonsuojelu (NOx, SOx, CO, VOC, CH4, CO2, CFC, N2O, hiukkaset)
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on päästöjä vähentävät prosessimuutokset; päästöjen käsittely; mittaus ja seuranta, tutkimuslaboratoriot tai muut toimenpiteet.
 
 #### `inv_jate` — Ympäristöinvestoinnin arvo: Jätehuolto
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on jätteiden syntymisen ehkäisy; jätteiden keräys ja kuljetus; jätteen käsittely ja sijoitus (myös sijoitukseen liittyvä maaperän, pinta- ja pohjaveden suojelu); mittaus ja seuranta, tutkimuslaboratoriot tai muut toimenpiteet.
 
 #### `inv_maa` — Ympäristöinvestoinnin arvo: Maaperän, pinta- ja pohjaveden suojelu
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on haitta-aineen imeytymisen ehkäisy; pilaantuneen maaperän, pinta- ja pohjaveden puhdistaminen; kaatopaikan maisemointi (ilmoitetaan investointina); mittaus ja seuranta, tutkimuslaboratoriot tai muut toimenpiteet.
 
 #### `inv_melu` — Ympäristöinvestoinnin arvo: Melun ja tärinän torjunta
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on päästölähteeseen kohdistuva ehkäisy; laitoksen tai kiinteistön ulkopuolelle tapahtuvan leviämisen estäminen; mittaus ja seuranta, tutkimuslaboratoriot tai muut toimenpiteet.
 
 #### `inv_vesi` — Ympäristöinvestoinnin arvo: Jäteveden käsittely (kiintoaine, BOD/COD, N, P, metallit, mikrobit)
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on vesien pilaantumista vähentävät prosessimuutokset; viemärit; jätevesien käsittely; jäähdytysvesien käsittely; mittaus ja seuranta, tutkimuslaboratoriot tai muut toimenpiteet.
 
 #### `inv_biodiv` — Ympäristöinvestoinnin arvo: Biologisen monimuotoisuuden ja maiseman suojelu
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on biodiversiteetin eli luonnon monimuotoisuuden ja maiseman suojelu: lajien, elinympäristöjen, eliökantojen ja maiseman palauttaminen ennalleen, vesistöjen kunnostus ja puhdistaminen; mittaus, seuranta, tutkimuslaboratoriot yms. tai muut toimenpiteet.
 
 #### `inv_sateil` — Ympäristöinvestoinnin arvo: Säteilyltä suojaaminen (pois lukien ydinvoimaloiden turvallisuus ja työsuojelu)
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on ympäristön suojelu; korkea-aktiivisen jätteen kuljetus ja käsittely; mittaus, seuranta, tutkimuslaboratoriot yms. tai muut toimenpiteet.
 
 #### `inv_ytuke` — Ympäristöinvestoinnin arvo: Ympäristöä koskeva tutkimus- ja kehittämistoiminta
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on ulkoilman ja ilmaston suojeleminen; vesiensuojelu; jäte; maaperän, pinta- ja pohjaveden suojelu; melun ja tärinän torjunta; biologisen monimuotoisuuden ja maiseman suojelu; lajien ja elinympäristöjen suojelu; säteilyltä suojaaminen tai muu ympäristötutkimus.
 
 #### `inv_muu` — Ympäristöinvestoinnin arvo: Muut ympäristönsuojelutoimenpiteet ja ympäristöhallinnon kulut
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Pääomameno joka aiheutuu niistä ympäristönsuojelutoimenpiteistä, joiden pääasiallisena tarkoituksena on ympäristöjohtaminen; koulutus, perehdyttäminen ja tiedotus; toimenpiteet, joiden kustannuksia ei voi kohdentaa tai toimenpiteet, joita ei ole täsmennetty muualla.
 
 #### `inv_tyyppi` — Ympäristöinvestoinnin tyyppi: Ulkoinen tai sisäinen
 
-**Ryhmä / Group:** INV
+**Group:** INV
 
 Ympäristöinvestoinnin tyyppikoodi ilmoittaa, onko kyseessä ulkoinen vai sisäinen investointi. 
 
@@ -175,61 +175,61 @@ Sisäiset investoinnit ovat tavallisesti vain osa tehdystä kokonaisinvestoinnis
 
 #### `men_ilma` — Tuotannon käyttö- ja kunnossapitokulut: Ulkoilman- ja ilmastonsuojelu
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat ulkoilman- ja ilmastonsuojelun toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_jate` — Tuotannon käyttö- ja kunnossapitokulut: Jätehuolto
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat jätehuollon toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_maa` — Tuotannon käyttö- ja kunnossapitokulut: Maaperän, pinta- ja pohjaveden suojelu
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat maaperän, pinta- ja pohjaveden suojelun toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_melu` — Tuotannon käyttö- ja kunnossapitokulut: Melun ja tärinän torjunta
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat melun ja tärinän torjunnan toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_vesi` — Tuotannon käyttö- ja kunnossapitokulut: Jäteveden käsittely
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat jäteveden käsittelyn toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_biodiv` — Tuotannon käyttö- ja kunnossapitokulut: Biologisen monimuotoisuuden ja maiseman suojelu
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat biologisen monimuotoisuuden ja maiseman suojelun toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_sateil` — Tuotannon käyttö- ja kunnossapitokulut: Säteilyltä suojaaminen
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat säteilyltä suojaamisen toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_ytuke` — Tuotannon käyttö- ja kunnossapitokulut: Ympäristöä koskeva tutkimus- ja kehittämistoiminta
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat ympäristöä koskevasta tutkimus- ja kehittämistoiminnasta, jonka ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_muu` — Tuotannon käyttö- ja kunnossapitokulut: Muut ympäristönsuojelutoimenpiteet ja ympäristöhallinnon kulut
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 Menot, jotka aiheutuvat muista ympäristönsuojelutoimenpiteistä ja ympäristöhallinnon toimenpiteistä, joiden ensisijaisena tarkoituksena on toimipaikan omien haitallisten ympäristövaikutusten vähentäminen. Käyttö- ja kunnossapitokulut jaetaan palkkoihin, energia ja materiaalikustannuksiin sekä muihin toimintamenoihin.
 
 #### `men_tyyppi` — Tuotannon käyttö- ja kunnossapitokulun tyyppi: Palkkakulu, energia ja materiaalikustannus tai muu toimintameno
 
-**Ryhmä / Group:** MEN
+**Group:** MEN
 
 "Tuotannon käyttö- ja kunnossapitokulun tyyppikoodin mahdolliset arvot: 
 
@@ -245,61 +245,61 @@ Ympäristönsuojeluun liittyvät menot koskevat kaikkia ympäristönsuojeluun li
 
 #### `opa_ilma` — Ostetut palvelut: Ulkoilman- ja ilmastonsuojelu
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut ulkoilman- ja ilmastonsuojelun toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_jate` — Ostetut palvelut: Jätehuolto
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut jätehuollon toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_maa` — Ostetut palvelut: Maaperän, pinta- ja pohjaveden suojelu
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut maaperän, pinta- ja pohjaveden suojelun toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_melu` — Ostetut palvelut: Melun ja tärinän torjunta
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut melun ja tärinän torjunnan toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_vesi` — Ostetut palvelut: Jäteveden käsittely
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut jäteveden käsittelyn toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_biodiv` — Ostetut palvelut: Biologisen monimuotoisuuden ja maiseman suojelu
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut biologisen monimuotoisuuden ja maiseman suojelun toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_sateil` — Ostetut palvelut: Säteilyltä suojaaminen
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut säteilyltä suojaamisen toimenpiteet ja muut maksut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_ytuke` — Ostetut palvelut: Ympäristöä koskeva tutkimus- ja kehittämistoiminta
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut ympäristöä koskeva tutkimus- ja kehittämistoiminta. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_muu` — Ostetut palvelut: Muut ympäristönsuojelutoimenpiteet, korvaukset ja kompensaatiot sekä ympäristöhallinnon kulut
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 Ulkopuolisena palveluna ostetut muut ympäristönsuojelutoimenpiteet, korvaukset ja kompensaatiot sekä ympäristöhallinnon kulut. Palveluostoista eritellään, onko ne hankittu ”ulkopuoliselta/ympäristöalan yritykseltä” tai ”kunnalta/valtiolta”.
 
 #### `opa_tyyppi` — Palvelutuottajan tyyppi: Yksityinen yritys tai julkinen taho
 
-**Ryhmä / Group:** OPA
+**Group:** OPA
 
 "Palvelutuottajan tyyppikoodin mahdolliset arvot: 
 
@@ -313,16 +313,16 @@ Ostetut palvelut-osiossa ilmoitetaan myös hallinnolliset- ja viranomaismaksut k
 
 #### `tav_invest_avust_arvo` — Investointiavustukset
 
-**Ryhmä / Group:** TULOT
+**Group:** TULOT
 
 Avustukset ja tuet, jotka kohdistuvat ympäristöhaittoja vähentäviin hankkeisiin tai toimenpiteisiin. Tällaisia tukia ovat mm. TEM:n, Business Finland Oy:n (ent. TEKES) ja muiden organisaatioiden ympäristönsuojeluinvestointeihin myöntämät investointiavustukset sekä korkotuet. Ei koske energiansäästöön tähtääviä investointeja ja niiden tukia.
 
 #### `tav_sivutuott_tuotot_arvo` — Sivutuotteiden myynnistä saadut tuotot
 
-**Ryhmä / Group:** TULOT
+**Group:** TULOT
 
 Tulot, jotka on saatu sellaisten sivutuotteiden myynnistä, joista on aiheutunut tai aiheutuisi ympäristönsuojeluun liittyviä kustannuksia. Tällaisia sivutuotteita ovat esim. hyödynnettävät jätteet ja prosessin ylijäämätuotteet kuten sivukiven tai romuraudan myynti.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

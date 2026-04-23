@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/icte/index.html">Tietotekniikan käyttö yrityksissä</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_ict_aineistot.html">ICT-aineistot</a>
 - **Keywords:** yritykset
 
-## Kuvaus / Description
+## Description
 
 ICT-paneeli vuosilta 2001 - 2010 on tutkimuskäyttöön tarkoitettu aikasarja, johon on koottu Tietotekniikka ja sähköinen kauppa yrityksissä -kyselyiden tietoja EU-hankkeen yhteydessä. Saatavissa tietoja yritysten tietotekniikan käytöstä ja sähköisestä liiketoiminnasta, esim. internet, laajakaista, kotisivut, kotisivuilla tarjotut palvelut, verkkokauppa, EDI.
 
@@ -44,9 +44,9 @@ Vuoden 2006 kyselyssä lomaketta uudistettiin mm. tuomalla määritelmät ja ohj
 
 Lisätietoja tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (31)
+## Variables (31)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Unique firm id | — | — | — |
 | `vuosi` | Year | — | — | — |
@@ -80,7 +80,7 @@ Lisätietoja tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 | `adengov` | Automated Data Exchange for certain purposes | — | — | — |
 | `adegov` | Automated Data Exchange with authorities | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Unique firm id
 
@@ -208,4 +208,4 @@ Yritys käyttää automatisoitua tiedonvaihtoa tietojen lähettämiseen tai vast
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

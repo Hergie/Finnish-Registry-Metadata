@@ -10,7 +10,7 @@
 - **Population:** Vuonna 1985 toisen asteen koulutuksen yhteishakuun osallistuneet
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
 
-## Kuvaus / Description
+## Description
 
 Toisen asteen yhteishaku -moduulin 1. osa koostuu henkilöistä, jotka osallistuivat tilastovuonna 1985 toisen asteen koulutuksen yhteishakuun (tiedostossa esiintyy myös vuoden 1984 tietoja). Tiedosto on toimitettu Tilastokeskukseen OPH:sta. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
 
@@ -26,9 +26,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (105)
+## Variables (105)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `HAKUVUOSI` | Hakuvuosi | — | — | — |
 | `HAKUKAUSI` | Hakukausi | — | — | — |
@@ -136,7 +136,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `JALKIHAKIJA` | Jälkihakija | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `HAKUVUOSI` — Hakuvuosi
 
@@ -488,4 +488,4 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

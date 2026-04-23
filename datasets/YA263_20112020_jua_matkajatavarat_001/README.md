@@ -10,7 +10,7 @@
 - **Population:** Suomessa sekä yksityiseen että luvanvaraiseen liikenteeseen rekisteröityjen kuorma-autojen kotimaan kuljetustoiminta. Tilastoyksikkönä on kuorma-auto.
 - **Keywords:** kuljetus,kuljetussuoritteet,kuorma-autoliikenne,kuorma-autot,liikenne,liikennesuoritteet,tavaraliikenne,tieliikenne
 
-## Kuvaus / Description
+## Description
 
 Tieliikenteen tavarankuljetusaineisto kuvaa Suomeen sekä yksityiseen että luvanvaraiseen liikenteeseen rekisteröityjen kuorma-autojen kuljetustoimintaa koti- ja ulkomailla. Ulkomaan liikenteellä tarkoitetaan Suomesta ulkomaille (vienti), ulkomailta Suomeen (tuonti), ulkomaasta toiseen ulkomaahan (crosstrade) sekä ulkomaan sisällä (kabotaasi) ajettavia kuljetuksia. Kyseessä on ainoa säännöllisesti tehtävä selvitys kotimaan tieliikenteen tavarankuljetuksista.
 
@@ -18,9 +18,9 @@ Tilaston perusjoukon muodostavat Suomessa rekisteröidyt kokonaispainoltaan yli 
 
 Aineisto perustuu neljännesvuosittain sähköisenä tutkimuksena tehtävään otostutkimukseen. Otos on jaettu kahdeksaan ositteeseen käyttäen hyväksi rekisteritietoja kuorma-auton käytöstä joko yksityisessä tai luvanvaraisessa liikenteessä sekä tietoa kuorma-autotyypistä. Vuosittain kysely osoitetaan yhteensä 10 000 kuorma-auton haltijalle, joilta pyydetään tietoja kuorma-autosta ja sen käytöstä kolmen tai neljän peräkkäisen tutkimuspäivän aikana. Aineiston tiedot perustuvat kyselyn perusteella saatuihin kuorma-autojen matkatietoihin, jotka voidaan tilastollisin menetelmin ja painokertoimia käyttämällä korottaa vastaamaan koko otoskehikkoa ja vuosineljännestä. Otos on painotettu ammattimaisiin varsinaisiin perävaunuyhdistelmiin, koska näiden kuorma-autojen merkitys on suurin kuljetussuoritteen estimoimisessa.
 
-## Muuttujat / Variables (24)
+## Variables (24)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `jnro` | Juokseva numero | — | — | — |
 | `vuosi` | Tilastointivuosi | — | — | — |
@@ -47,7 +47,7 @@ Aineisto perustuu neljännesvuosittain sähköisenä tutkimuksena tehtävään o
 | `kuntakoodi1` | Matkan alkamiskunnan koodi | — | — | — |
 | `kuntakoodi2` | Matkan päättymiskunnan koodi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `jnro` — Juokseva numero
 
@@ -67,7 +67,7 @@ Aineisto perustuu neljännesvuosittain sähköisenä tutkimuksena tehtävään o
 
 #### `lno1` — Matkan alkamispaikka, jos terminaali
 
-**Luokitus / Classification:** kttav_terminaal_1_2017_01_30
+**Classification:** kttav_terminaal_1_2017_01_30
 
 #### `paatmaa` — Matkan päättymismaa
 
@@ -75,39 +75,39 @@ Aineisto perustuu neljännesvuosittain sähköisenä tutkimuksena tehtävään o
 
 #### `lno2` — Matkan päättymispaikka, jos terminaali
 
-**Luokitus / Classification:** kttav_terminaal_1_2017_01_30
+**Classification:** kttav_terminaal_1_2017_01_30
 
 #### `Transito` — Ulkomaanmatkan transitomaat, pilkulla eroteltuna
 
 #### `tlaji` — Tavaralaji
 
-**Luokitus / Classification:** tavaralaji_2_2008_01_01
+**Classification:** tavaralaji_2_2008_01_01
 
 #### `mpit` — Matkan pituus (km)
 
 #### `pvaunu` — Perävaunu mukana matkan aikana
 
-**Luokitus / Classification:** ktyyppi_1_2017_01_30
+**Classification:** ktyyppi_1_2017_01_30
 
 #### `pakseli` — Perävaunun akseleiden lukumäärä
 
 #### `matkaty` — Matkatyyppi
 
-**Luokitus / Classification:** matka_11_2017_01_19
+**Classification:** matka_11_2017_01_19
 
 #### `tmaara` — Kuorman paino suurimmillaan (kg)
 
 #### `taytto` — Kuorman täyttöaste
 
-**Luokitus / Classification:** tayttoaste_1_2017_02_01
+**Classification:** tayttoaste_1_2017_02_01
 
 #### `adr_lk` — Vaarallisten aineiden luokka
 
-**Luokitus / Classification:** adr_1_2017_01_30
+**Classification:** adr_1_2017_01_30
 
 #### `tpi_lk` — Kuormatyyppi
 
-**Luokitus / Classification:** kuormatyyppi_1_1995_01_01
+**Classification:** kuormatyyppi_1_1995_01_01
 
 #### `kuntakoodi1` — Matkan alkamiskunnan koodi
 
@@ -115,4 +115,4 @@ Aineisto perustuu neljännesvuosittain sähköisenä tutkimuksena tehtävään o
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

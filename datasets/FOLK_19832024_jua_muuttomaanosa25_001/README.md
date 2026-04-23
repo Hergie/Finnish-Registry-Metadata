@@ -10,7 +10,7 @@
 - **Population:** Vuoden aikana muuttaneet.
 - **Source:** VTJ
 
-## Kuvaus / Description
+## Description
 
 FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot -vuosiaineistossa on tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen maanosatasolla YK:n M49-luokituksen mukaisesti. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. Aineisto on muodostettu muuttotilaston tiedoista, jotka pohjautuvat väestötietojärjestelmän tietoihin. 
 
@@ -29,9 +29,9 @@ Totaaliaineisto vuosille 1983-2000: FOLK_muutt_8300a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (25)
+## Variables (25)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `folk_id` | Kuuluu FOLK-aineistoon | — | — | — |
@@ -59,7 +59,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `kansa1_eu` | Kansalaisuus EU:n sisällä muuttohetkellä | — | — | — |
 | `kansa2_eu` | 2. kansalaisuus EU:n sisällä muuttohetkellä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -228,4 +228,4 @@ Kansalaisuus muuttohetkellä EU:n sisällä. Tieto maasta- ja maahanmuuttaneilla
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

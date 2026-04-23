@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Varhaiskasvatus toimijat ja toimipaikat Suomessa
 
-## Kuvaus / Description
+## Description
 
 VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA-moduuli pohjautuu Varhaiskasvatuksen tietovarannon (Varda) tietoihin. Moduulissa on saatavilla tietoa varhaiskasvatusta järjestävistä ja tuottavista toimijoista ja toimipaikoista Suomessa. VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA-valmisaineistosta on olemassa kaksi vaihtoehtoista versiota: VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA (tämä moduuli) ja VAKA_TOIMIJA_TOIMIPAIKKA.
 
@@ -54,9 +54,9 @@ Vardan tietosisältö on dokumentoitu <a href="https://wiki.eduuni.fi/spaces/oph
 
 Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (16)
+## Variables (16)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `toimija_OID_s` | Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID). | — | — | toimija |
 | `toimipaikka_OID_s` | Toimipaikan suojattu tunniste (organisaatio-OID). | — | — | toimipaikka |
@@ -75,51 +75,51 @@ Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut
 | `JM05` | Järjestämismuoto on yksityinen varhaiskasvatus ilman yksityisen hoidon tukea. | — | — | toimipaikka |
 | `varhaiskasvatuspaikat` | Toimipaikan varhaiskasvatuspaikat | — | — | toimipaikka |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `toimija_OID_s` — Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID).
 
-**Ryhmä / Group:** toimija
+**Group:** toimija
 
 #### `toimipaikka_OID_s` — Toimipaikan suojattu tunniste (organisaatio-OID).
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 #### `toimipaikka_id_s` — Suojattu Vardan sisäinen tunniste toimipaikalle
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 #### `alkamispvm` — Toiminnan alkamispäivämäärä.
 
-**Ryhmä / Group:** toimipaikka, toimija
+**Group:** toimipaikka, toimija
 
 Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen alkamispäivämäärä.
 
 #### `paattymispvm` — Toiminnan päättymispäivämäärä, jos tiedossa.
 
-**Ryhmä / Group:** toimija, toimipaikka
+**Group:** toimija, toimipaikka
 
 Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen päättymispäivämäärä. Tyhjät arvot voidaan tulkita toiminnan jatkumisena.
 
 #### `y_tunnus_s` — Suojattu toimijan yritystunnus.
 
-**Ryhmä / Group:** toimija
+**Group:** toimija
 
 #### `yritysmuoto_k` — Karkeistettu toimijan yritysmuoto.
 
-**Ryhmä / Group:** toimija
+**Group:** toimija
 
 Yritysmuoto on karkeistettu aattellisten yhdistysten, kirkon, seurakuntien tai muiden uskonnollisten yhteisöjen osalta luokkaan muut. Toimija-taulussa arvot pohjautuvat <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/yritysmuoto"> Vardan luokitukseen</a> (31.03.2026),
 
 #### `kuntakoodi` — Kuntakoodi
 
-**Ryhmä / Group:** toimipaikka, toimija
+**Group:** toimipaikka, toimija
 
 Toimijan tai toimipaikan kuntakoodi, pohjautuu Tilastokeskuksen kolminumeroiseen kuntakoodiin.
 
 #### `kasvatusopillinen_jarjestelma` — Toimipaikan kasvatusopilliseen järjestelmään viittaava koodi, perustuu Vardan luokitukseen.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardakasvatusopillinenjarjestelma">Vardan kasvatusopillinen järjestelmä -koodisto</a> (26.03.2026):
 KJ01=Steiner-pedagogiikka,
@@ -132,7 +132,7 @@ KJ99=Muu (passiivinen).
 
 #### `toimintamuotokoodi` — Toimipaikan viimeisin havaittu toimintamuotokoodi, perustuu Vardan luokitukseen.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardatoimintamuoto">Vardan toimintamuoto-koodisto</a> (31.03.2026):
 TM01=Päiväkoti,
@@ -141,40 +141,40 @@ TM03=Ryhmäperhepäivähoito.
 
 #### `JM01` — Järjestämismuoto on kunnan tai kuntayhtymän järjestämä.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <p><a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a></p> (26.03.2026).
 
 #### `JM02` — Järjestämismuoto on ostopalvelu, kunnan tai kuntayhtymän järjestämä.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `JM03` — Järjestämismuoto on palveluseteli, kunnan tai kuntayhtymän järjestämä.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `JM04` — Järjestämismuoto on yksityisen hoidon tuella järjestetty.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `JM05` — Järjestämismuoto on yksityinen varhaiskasvatus ilman yksityisen hoidon tukea.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `varhaiskasvatuspaikat` — Toimipaikan varhaiskasvatuspaikat
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Perustuu viimeisimpään Vardaan kirjattuun tietoon.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

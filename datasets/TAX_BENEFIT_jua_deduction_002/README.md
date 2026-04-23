@@ -11,7 +11,7 @@
 - **Source:** Tulorekisteri
 - **Keywords:** maksetut tulonsiirrot,saadut tulonsiirrot,tulonsiirrot
 
-## Kuvaus / Description
+## Description
 
 Tulorekisteri on Verohallinnon ylläpitämä kansallinen sähköinen tietokanta, joka sisältää henkilöiden reaaliaikaiset, maksukohtaiset palkka-, eläke- ja etuustiedot. Eläke- ja etuustietoja on ilmoitettu tulorekisteriin vuoden 2021 alusta lähtien. Palkkatietoja on ilmoitettu jo vuoden 2019 alusta lähtien, ja ne on koottu Tilastokeskuksessa TAX_INCOMES-valmisaineistoon. Eläke- ja etuustiedoista on muodostettu tutkimuskäyttöön TAX_BENEFIT-valmisaineisto, joka päivittyy kuukausittain. Tiedot voivat päivittyä myös takautuvasti.
 
@@ -43,9 +43,9 @@ https://www.vero.fi/tulorekisteri/ohjelmistokehitt%C3%A4j%C3%A4t/dokumentaatio/
 
 Lisätietoja Tilastokeskuksen valmisaineistosta saa Tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (19)
+## Variables (19)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `dedId` | Vähennyksen tunniste | — | — | — |
 | `trxId` | Tulolajin tunniste | — | — | — |
@@ -67,7 +67,7 @@ Lisätietoja Tilastokeskuksen valmisaineistosta saa Tutkijapalveluista: tutkijap
 | `IncomeBeneficiaryIdCode_s` | Sijaissaajan suojattu y-tunnus | — | — | — |
 | `IncomeBeneficiaryOtherIdCode_s` | Sijaissaajan suojattu muu tunniste | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `dedId` — Vähennyksen tunniste
 
@@ -91,13 +91,13 @@ Samasta tulolajista tehtyjen vähennysten juokseva järjestysnumero
 
 #### `deductionTransactionCode` — Vähennyksen tulolajin koodi
 
-**Ryhmä / Group:** vähennyksen tiedot
+**Group:** vähennyksen tiedot
 
 Vähennyksen tulolajin koodilla ilmoitetaan tieto alkuperäisestä tulolajista, jota vähennys koskee. Koodisto on sama kuin transactionInfo-taulussa (ks. transactionCode-muuttujan kuvaus). Vähennyksissä, joiden tulolajin koodi on arkaluonteinen (= ei sisälly transactionCode-muuttujan kuvauksessa määriteltyihin luokkiin), tulolajin koodi ja sijaissaajan tiedot on peitetty (= tyhjennetty).
 
 #### `deductionType` — Vähennyksen tyyppi
 
-**Ryhmä / Group:** vähennyksen tiedot
+**Group:** vähennyksen tiedot
 
 1 = Elatusapuvelan perintä
 2 = Maksun oikaisu nettotulosta
@@ -115,29 +115,29 @@ Vähennyksen tulolajin koodilla ilmoitetaan tieto alkuperäisestä tulolajista, 
 
 #### `amount` — Vähennyksen määrä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vähennyksen tiedot
+**Unit:** € · **Group:** vähennyksen tiedot
 
 #### `origPaymentDate` — Suorituksen maksupäivä tai muu ilmoituspäivä
 
-**Ryhmä / Group:** alkuperäisen etuuden ansaintakausi
+**Group:** alkuperäisen etuuden ansaintakausi
 
 Alkuperäisen suorituksen maksupäivä.
 
 #### `origStartDate` — Alkupäivä
 
-**Ryhmä / Group:** alkuperäisen etuuden ansaintakausi
+**Group:** alkuperäisen etuuden ansaintakausi
 
 Alkuperäisen ansaintakauden alkupäivä.
 
 #### `origEndDate` — Loppupäivä
 
-**Ryhmä / Group:** alkuperäisen etuuden ansaintakausi
+**Group:** alkuperäisen etuuden ansaintakausi
 
 Alkuperäisen ansaintakauden loppupäivä.
 
 #### `incomeBeneficiaryIdType` — Sijaissaajan tunnisteen tyyppi
 
-**Ryhmä / Group:** sijaissaajan tunnisteet
+**Group:** sijaissaajan tunnisteet
 
 1 = Y-tunnus (suomalainen)
 2 = Henkilötunnus (suomalainen)
@@ -151,7 +151,7 @@ Alkuperäisen ansaintakauden loppupäivä.
 
 #### `incomeBeneficiaryIdCountryCode` — Maakoodi
 
-**Ryhmä / Group:** sijaissaajan tunnisteet
+**Group:** sijaissaajan tunnisteet
 
 Jos tunnisteen tyyppinä on muu kuin Y-tunnus tai suomalainen henkilötunnus, merkitään tunnisteen myöntäneen maan koodi. Maakoodi valitaan koodistosta:
 
@@ -159,7 +159,7 @@ https://www.vero.fi/globalassets/tulorekisteri/dokumentaatio-2021/koodistot-2021
 
 #### `incomeBeneficiaryIdCountryName` — Maan nimi
 
-**Ryhmä / Group:** sijaissaajan tunnisteet
+**Group:** sijaissaajan tunnisteet
 
 Merkitään tunnisteen myöntäneen maan nimi, jos maakoodiksi on annettu arvo ”tuntematon” (99).
 
@@ -178,13 +178,13 @@ Joissakin tapauksissa saajalla voi olla kaksi erityyppistä tunnistetta.
 
 #### `remittanceStartDate` — Alkupäivä
 
-**Ryhmä / Group:** tilitysjakso
+**Group:** tilitysjakso
 
 Sijaissaajalle tilitettävän jakson alkupäivä.
 
 #### `remittanceEndDate` — Loppupäivä
 
-**Ryhmä / Group:** tilitysjakso
+**Group:** tilitysjakso
 
 Sijaissaajalle tilitettävän jakson loppupäivä.
 
@@ -198,4 +198,4 @@ Suojattu sijaissaajan yksilöivä tunniste
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -11,7 +11,7 @@
 - **Source:** TK: Oppilaitostilastot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
-## Kuvaus / Description
+## Description
 
 Opiskelijamoduuli sisältää tiedot opiskelijoista, jotka ovat olleet 20.9. kirjoilla tutkintoon johtavassa lukiokoulutuksessa, ammattikorkeakoulu- ja yliopistokoulutuksessa. Tietosisältö kattaa myös kalenterivuonna ammatillisessa koulutuksessa kirjoilla olleet tai oppisopimukseen osallistuneet opiskelijat. Lisäksi vuodesta 2013 alkaen mukana ovat ammattikorkeakoulukoulutuksen tutkintoon johtamattoman koulutuksen opiskelijat (OPLU=1) ja vuosista 2015/2016 alkaen yliopistokoulutuksen tutkintoon johtamatonta koulutusta suorittaneet opiskelijat (tarkemmin muuttuja klaji). Ammattikorkeakouluaineistossa mukana ovat lisäksi alkuvuonna aloittaneet, jotka eivät ole ilmoittautuneet 20.9. mennessä (alkuvuonna ko. oppilaitoksessa ko. koulutuksen keskeyttäneet tai tutkinnon suorittaneet, OPLU=1).  Vuodesta 2013 alkaen ammatillisen koulutuksen opiskelijatiedot ovat koko vuodelta.
 
@@ -106,9 +106,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (86)
+## Variables (86)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Aineistovuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -197,7 +197,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `ykunta` | Koulutuksen järjestäjän sijaintikunnan koodi | — | — | c koulutusta tai tavoitetutkintoa kuvaavat tiedot |
 | `vuosiluokka` | Vuosiluokka | — | — | c koulutusta tai tavoitetutkintoa kuvaavat tiedot |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Aineistovuosi
 
@@ -230,7 +230,7 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `ain` — Lähdeaineisto
 
-**Luokitus / Classification:** lahdeaineisto_1_2014_01_01
+**Classification:** lahdeaineisto_1_2014_01_01
 
 Lähdeaineisto (karkea)
 20 = Lukiokoulutusaineisto
@@ -290,7 +290,7 @@ Vuodesta 2019 alkaen:
 
 #### `oprior` — Opiskelun prioriteetti (1997-)
 
-**Luokitus / Classification:** opiskelu_1_2014_01_01
+**Classification:** opiskelu_1_2014_01_01
 
 Ensisijainen koulutus on viimeksi aloitettu koulutus. Jos samana vuonna on aloitettu useita koulutuksia, on poimittu TK:n koulutusasteen mukaan korkein koulutus. Tutkintoon johtava koulutus on priorisoitu ennen tutkintoon johtamatonta koulusta. Tiedot alkaen vuodesta 1997.
 1 = Ensisijainen koulutus 
@@ -301,7 +301,7 @@ Vuodesta 2010 lähtien oprior lasketaan vain tutkintoon johtavasta koulutuksesta
 
 #### `oplu` — Opiskelun luonne
 
-**Luokitus / Classification:** oplu_3_2018_01_01
+**Classification:** oplu_3_2018_01_01
 
 Vuonna 2013 vain ammattikorkeakoulukoulutuksesta, vuodesta 2014 alkaen arvot koskevat kaikkia koulutussektoreita.
 0 = Koulutus johtaa tutkintoon ja opiskelija on kirjoilla 20.9. (2013-)
@@ -312,7 +312,7 @@ Vuodesta 2018 arvo 9 muuttunut lakimuutoksen myötä. Tieto kaikilla oppilaitosm
 
 #### `sp` — Sukupuoli
 
-**Luokitus / Classification:** sukupuoli_2_1970_01_01
+**Classification:** sukupuoli_2_1970_01_01
 
 Sukupuoli
 1 = Mies
@@ -326,7 +326,7 @@ Ikä vuosina 31.12. Ikätieto on puutteellisen henkilötunnuksen omaavilla oppil
 
 #### `kansal` — Kansalaisuus (1999-)
 
-**Luokitus / Classification:** valtio_1_2012_01_01
+**Classification:** valtio_1_2012_01_01
 
 Opiskelijan kansalaisuus vuoden lopussa.
 Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
@@ -335,7 +335,7 @@ Tieto saatavilla muuttujissa 1995 KANS ja 1997-1998 KANSA.
 
 #### `aikieli` — Äidinkieli (1999-)
 
-**Luokitus / Classification:** kieli_1_2010_11_15
+**Classification:** kieli_1_2010_11_15
 
 Opiskelijan äidinkieli 31.12.
 2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.
@@ -344,7 +344,7 @@ Tieto vuosina 1995 ja 1997 KIELI, 1998 AIKIELI eroavilla luokituksilla.
 
 #### `olosyys` — Kirjoilla 20.9 (1999-)
 
-**Luokitus / Classification:** kirjoilla_3_2018_01_01
+**Classification:** kirjoilla_3_2018_01_01
 
 Muuttujan määritelmä vuoteen 2017 saakka:
 Kirjoilla 20.9. tai kirjoilla jossain vaiheessa kalenterivuotta (näyttötutk. valm. koulutus) tai voimassa oleva oppisopimus jossain vaiheessa kalenterivuotta 
@@ -367,7 +367,7 @@ Tieto vuosina 1997-1998 muuttujassa LASNAS.
 
 #### `olotamm` — Kirjoilla 20.1. (1999-)
 
-**Luokitus / Classification:** kirjoilla_4_2016_01_01
+**Classification:** kirjoilla_4_2016_01_01
 
 Kirjoilla 20.1. tai kirjoilla kevätlukukaudella (yliopistokoulutus) tai kirjoilla jossain vaiheessa kalenterivuotta (näyttötutk. valm. koulutus) tai voimassa oleva oppisopimus jossain vaiheessa kalenterivuotta 
 1 = Läsnä (=opiskeli tai oli pakollisessa työharjoittelussa) 20.1. tai keväällä
@@ -400,7 +400,7 @@ Vuosina 1997 ja 1998 päivälukioiden, ammatillisten oppilaitosten ja väliaikai
 
 #### `allk` — Tutkinnon aloittamislukukausi/kirjoilletulolukukausi (1997-)
 
-**Luokitus / Classification:** opiskelu_6_2013_01_01
+**Classification:** opiskelu_6_2013_01_01
 
 Tutkinnon aloittamislukukausi (1997-)
 1 = Kevät (1.1.-31.7.)
@@ -413,7 +413,7 @@ Ks. alvv
 
 #### `aiopis` — Aikuisopiskelija
 
-**Luokitus / Classification:** opiskelija_5_2013_01_01 · **Ryhmä / Group:** B Opiskelijaa tai opiskelua kuvaavat tiedot
+**Classification:** opiskelija_5_2013_01_01 · **Group:** B Opiskelijaa tai opiskelua kuvaavat tiedot
 
 Aikuisopiskelija on henkilö, joka on aloittanut opintonsa ko. oppilaitoksessa ko. koulutuksessa tai osallistunut oppisopimuskoulutukseen 25-vuotiaana tai sitä vanhempana. Aikuisopiskelija voi opiskella missä tahansa oppilaitoksessa tai koulutuksessa riippumatta siitä, onko koulutus suunniteltu aikuisille vai ei. Tietoja alkaen vuodesta 2013. 
 Vuodesta 2018 muuttujakuvauksen määritelmää täsmennetty, sisältö ja tarkoitus pysynyt samana: Aikuisopiskelija on henkilö, joka on aloittanut opintonsa ko. oppilaitoksessa ko. koulutuksessa tai solminut oppisopimuksen 25-vuotiaana tai sitä vanhempana. Aikuisopiskelija voi opiskella missä tahansa oppilaitoksessa tai koulutuksessa riippumatta siitä, onko koulutus suunniteltu aikuisille vai ei.
@@ -425,7 +425,7 @@ Tietoa ei saada perusopetuksesta.
 
 #### `askun` — Opiskelijan kotikunta
 
-**Luokitus / Classification:** kunta_1_2019_01_01
+**Classification:** kunta_1_2019_01_01
 
 Opiskelijan kotikunta vuoden lopussa (31.12.), luokitus 1.1. tilastovuosi +1
 200 = Ulkomaa
@@ -436,7 +436,7 @@ Tieto vuosina 1995-1996 KOTIKUN, 1997 ASKUNTA, 1998 ASKUN.
 
 #### `askunx` — Kotikunta / vakituinen asuinkunta edellisen vuoden lopussa
 
-**Luokitus / Classification:** kunta_1_2018_01_01
+**Classification:** kunta_1_2018_01_01
 
 - Tätä muuttujaa ei enää päivitetä vuodesta 2023 lähtien.
 
@@ -447,7 +447,7 @@ VRK:n kuntakoodi. Tiedot alkaen vuodesta 2013.
 
 #### `tilvaskun` — Kotikunta / vakituinen asuinkunta tilastovuoden luokituksin
 
-**Luokitus / Classification:** kunta_1_2018_01_01
+**Classification:** kunta_1_2018_01_01
 
 Opiskelijan kotikunta 31.12.[tilastovuosi], luokitus 1.1.[tilastovuosi]
 Tieto ensisijaisesti VRK:n aineistosta. Tiedot vuodesta 2013 alkaen.
@@ -456,7 +456,7 @@ Tieto ensisijaisesti VRK:n aineistosta. Tiedot vuodesta 2013 alkaen.
 
 #### `tilvaskunx` — Kotikunta edellisen vuoden lopussa ko. tilastovuoden luokituksin
 
-**Luokitus / Classification:** kunta_1_2018_01_01
+**Classification:** kunta_1_2018_01_01
 
 - Tätä muuttujaa ei enää päivitetä vuodesta 2023 lähtien.
 
@@ -467,7 +467,7 @@ VRK:n kuntakoodi. Tiedot vuodesta 2013 alkaen.
 
 #### `kokosa` — Kokopäivä-/osa-aikaopiskelija (yliopisto- ja ammattikorkeakoulukoulutus 2002-)
 
-**Luokitus / Classification:** opiskelija_1_2014_01_01
+**Classification:** opiskelija_1_2014_01_01
 
 Lukio- ja ammatillisessa koulutuksessa opiskelun koko- tai osa-aikaisuutta ei ole määritelty. 
 Yliopisto- ja ammattikorkeakoulukoulutuksessa edellisen lukuvuoden aikana vähintään 30 opintopistettä suorittaneet ja ensimmäistä vuotta opiskelevat luokitellaan kokopäiväisiksi opiskelijoiksi, mikäli he ovat tutkintoon johtavassa peruskoulutuksessa (klajit 41, 42, 51 ja oplu=0) ja läsnä 20.9. (olosyys=1). Muut tutkintoon johtavassa koulutuksessa opiskelevat (edellisenä lukuvuonna alle 30 opintopistettä suorittaneet, poissaoleviksi ilmoittautuneet sekä jatkokoulutuksen opiskelijat) luokitellaan osa-aikaisiksi opiskelijoiksi. Tutkintoon johtamattoman koulutuksen (oplu=1) koko- tai osa-aikaisuutta ei ole määritelty. Tietoja alkaen vuodesta 2002.
@@ -526,7 +526,7 @@ bl = yliopistokoulutuksessa (2018-)
 
 #### `tutalk` — Lukukausi, jolloin opiskelija on aloittanut ko.koulutuksen/tutkinnon missä tahansa oppilaitoksessa
 
-**Luokitus / Classification:** opiskelu_7_2011_01_01
+**Classification:** opiskelu_7_2011_01_01
 
 Tieto ammatillisesta OPS-perusteisesta oppilaitosmuotoisesta koulutuksesta 2004 alkaen, lukio- ja ammattikorkeakoulutuksesta 2011 alkaen
 1 = kevät (1.1.-31.7.)
@@ -541,7 +541,7 @@ Vuodesta 2019 alkaen tietoa ei enää saada ammatillisesta koulutuksesta, koska 
 
 #### `koulk` — Tilastokeskuksen koulutuskoodi
 
-**Luokitus / Classification:** koulutus_18_2018_01_01
+**Classification:** koulutus_18_2018_01_01
 
 Tilastokeskuksen koulutusluokitus 1997 (6-numeroinen koulutuskoodi) ja siihen vuosittain tehdyt muutokset.
 Koulutuskoodin 1. merkki kertoo koulutusasteen ja 2. merkki  koulutusalan. Tiedot vuodesta 1995 alkaen.
@@ -585,7 +585,7 @@ Yliopisto-opintojen osalta vuoden 2001-2013 määritelmää vastaava tieto vuonn
 
 #### `aikoul` — Nuorten/aikuisten koulutus
 
-**Luokitus / Classification:** koulutus_15_2016_01_01
+**Classification:** koulutus_15_2016_01_01
 
 Tieto kuvaa koulutuksen järjestämistapaa, ei opiskelijan ikää. Tietoja vuodesta 1995 eteenpäin, paitsi 1996 ja 2004-2009. Vuonna 1997 muuttujassa KOTY.
 1 = Nuorten koulutus (2001 alkaen kaikki yliopistokoulutus)
@@ -596,7 +596,7 @@ Vuonna 2016 lisätty ammattikorkeakoulujen erikoistumiskoulutukset arvolle 9.
 
 #### `kkieli` — Koulutuksen opetuskieli (1999-)
 
-**Luokitus / Classification:** kieli_1_2010_11_15
+**Classification:** kieli_1_2010_11_15
 
 Koulutuksen opetuskieli
 2-kirjaiminen tunnus (ISO 639)
@@ -604,7 +604,7 @@ bl = yliopistokoulutuksessa tietoa ei ole
 
 #### `kkun` — Koulutuksen sijaintikunta
 
-**Luokitus / Classification:** kunta_1_2019_01_01
+**Classification:** kunta_1_2019_01_01
 
 Koulutuksen sijaintikunta 1.1. tilastovuonna 
 VRK:n kuntakoodi
@@ -626,7 +626,7 @@ Oppisopimuskoulutuksesta tietoa ei ole (ks. opjarj vuodesta 2004 alkaen).
 
 #### `tutklaja` — Ammatillisen koulutuksen koulutuslaji
 
-**Luokitus / Classification:** koullaji_2_2014_01_01
+**Classification:** koullaji_2_2014_01_01
 
 Ammatillisten koulutuslaji. Tiedot puuttuvat vuosilta 2004-2005 ja 2007-2008.
 1 = Ammatillinen peruskoulutus (klajit 31, 32, 35 ja 36)
@@ -636,7 +636,7 @@ Vain ammatillisessa koulutuksessa
 
 #### `tutktav` — Opetussuunnitelmaperusteinen/näyttötutkintoon valmistava koulutus
 
-**Luokitus / Classification:** ammatillinen_1_2000_01_01
+**Classification:** ammatillinen_1_2000_01_01
 
 Vain ammatillisessa koulutuksessa. Tiedot vuosilta 1999-2017. Vuoden 2018 uuden lain myötä ammatillista koulutusta ei enää jaeta nuorille ja aikuisille suunnattuihin koulutuksiin, täten muuttuja poistettu.
 1 = Opetussuunnitelmaperusteinen koulutus (klajit 31 ja 35) 
@@ -650,7 +650,7 @@ Koulutuksen kuuluminen Noste-ohjelmaan (ammatillinen koulutus 2003-). Tietoja vu
 
 #### `oppis` — Oppisopimuskoulutus (ammatillinen koulutus 1999-)
 
-**Luokitus / Classification:** oppisopimus_1_2014_01_01
+**Classification:** oppisopimus_1_2014_01_01
 
 Oppisopimuskoulutus vuodesta 2004 alkaen vuoteen 2018 asti koko kalenterivuodelta. Tätä ennen poikkileikkaustilanteesta 20.9. (alipeittävä). Koko kalenterivuoden tiedot erillisissä oppisopimustoimistojen aineistoissa vuosilta 1997 - 2003. 
 1 = Kyllä
@@ -658,7 +658,7 @@ Oppisopimuskoulutus vuodesta 2004 alkaen vuoteen 2018 asti koko kalenterivuodelt
 
 #### `tyov` — Työvoimakoulutus
 
-**Luokitus / Classification:** ammatillinen_3_2001_01_01
+**Classification:** ammatillinen_3_2001_01_01
 
 Nimi muuttunut 2018. Aikaisempi nimi oli Työvoimapoliittinen aikuiskoulutus. Vain ammatillisessa koulutuksessa. 
 1 = Kyllä
@@ -673,7 +673,7 @@ Opetushallinnon alaiseen koulutukseen ei kuulu työvoimakoulutus (v. 2017 nimell
 
 #### `tavoite` — Opiskelijan tavoite koulutuksessa (ammatillinen koulutus)
 
-**Luokitus / Classification:** ammatillinen_4_2004_01_01
+**Classification:** ammatillinen_4_2004_01_01
 
 1 = Koko tutkinnon suorittaminen
 2 = Tutkinnon osan tai osien suorittaminen
@@ -714,7 +714,7 @@ Vuodesta 2004 alkaen
 
 #### `rahoitus` — Koulutuksen rahoitus (ammatillinen näyttötutkintoon valmistava oppilaitosmuotoinen koulutus)
 
-**Luokitus / Classification:** ammatillinen_2_2018_01_01
+**Classification:** ammatillinen_2_2018_01_01
 
 Vuodesta 2018 alkaen kaikilla ammatillisen koulutuksen opiskelijoilla. Tätä ennen eli vuosina 2004-2017 vain näyttötutkintoon valmistavassa oppilaitosmuotoisessa koulutuksessa (ei oppisopimuskoulutuksessa).
 Vuosina 2004-2017 käytössä yksinumeroiset koodit (1,...,9), vuodesta 2018 alkaen kaksinumeroiset koodit (01,...,12):
@@ -737,7 +737,7 @@ HUOM! Jos haluaa poimia aineistosta vain opetushallinnon alaisen koulutuksen rah
 
 #### `toteuma` — Kalenterivuoden toteuma (ammatillinen oppisopimuskoulutus)
 
-**Luokitus / Classification:** oppisopimus_5_2016_01_01
+**Classification:** oppisopimus_5_2016_01_01
 
 Vain oppisopimuskoulutuksessa 2004-2018
 1 = Suorittanut koko tutkinnon
@@ -746,7 +746,7 @@ Vain oppisopimuskoulutuksessa 2004-2018
 
 #### `purku` — Oppisopimus purkautunut (ammatillinen oppisopimuskoulutus)
 
-**Luokitus / Classification:** oppisopimus_4_2016_01_01
+**Classification:** oppisopimus_4_2016_01_01
 
 Vain oppisopimuskoulutuksessa 2004 alkaen
 
@@ -760,7 +760,7 @@ Vuonna 2019 muuttunut määritelmä
 
 #### `todis` — Opiskelija on saanut todistuksen koulutuksen suorittamisesta (ammatillinen oppisopimuskoulutus)
 
-**Luokitus / Classification:** oppisopimus_3_2016_01_01
+**Classification:** oppisopimus_3_2016_01_01
 
 Tieto vain oppisopimuskoulutuksessa 2004-2018
 1 = Kyllä
@@ -768,7 +768,7 @@ Tieto vain oppisopimuskoulutuksessa 2004-2018
 
 #### `yrit` — Yrittäjän oppisopimuskoulutus (ammatillinen oppisopimuskoulutus)
 
-**Luokitus / Classification:** oppisopimus_2_2016_01_01
+**Classification:** oppisopimus_2_2016_01_01
 
 Yrittäjän oppisopimuskoulutus (ammatillinen oppisopimuskoulutus). Tiedot vuosilta 2010-2017. Muuttuja poistettu vuonna 2018. 
 1 = Kyllä
@@ -805,7 +805,7 @@ Päivämäärä (vvvvkkpp), jolloin opiskelija on ottanut vastaan ko. tutkinnon 
 
 #### `rahlahde` — Opiskelijan rahoitustausta (ammattikorkeakoulukoulutus)
 
-**Luokitus / Classification:** opiskelija_4_2018_01_01
+**Classification:** opiskelija_4_2018_01_01
 
 Opiskelijan rahoitustausta (ammattikorkeakoulukoulutus 2005-)
 1 = Perusrahoitus (2005-)
@@ -819,7 +819,7 @@ Vuodesta 2018 tiedot myös yliopistokoulutuksesta. Sama tieto yliopistosektorist
 
 #### `tilmaa` — Maksullisen tilauskoulutuksen sijaintimaa (ammattikorkeakoulukoulutus)
 
-**Luokitus / Classification:** valtio_1_2012_01_01
+**Classification:** valtio_1_2012_01_01
 
 Maksullisen tilauskoulutuksen sijaintimaa (ammattikorkeakoulukoulutus). Tiedot vuosina 2010, 2013 ja 2014.
 Maakoodi. ISO 3166-standardi, itsenäiset maat ja valtiot. Vain jos Rahlahde = 4.
@@ -827,7 +827,7 @@ Maakoodi. ISO 3166-standardi, itsenäiset maat ja valtiot. Vain jos Rahlahde = 4
 
 #### `ltopo` — Pätevyyteen tähtäävät opinnot
 
-**Luokitus / Classification:** opiskelu_5_2016_01_01
+**Classification:** opiskelu_5_2016_01_01
 
 Vuosina 2013-2014 muuttuja ollut nimellä Lastentarhaopettajan pätevyyteen tähtäävät opinnot. Käsitellyt vain sosionomi (amk)-tutkintoa, johon kuulunut lastentarhaopettajan pätevyyteen tähtääviä opintoja.  1 = Kyllä 2 = Ei. 
 
@@ -840,7 +840,7 @@ Vuonna 2015 muuttunut merkitys ja arvot:
 
 #### `fuksi` — Uusi yliopisto-opiskelija
 
-**Luokitus / Classification:** opiskelija_3_2016_01_01 · **Ryhmä / Group:** E4 Yliopistokoulutus, E Lähdeaineistojen omat muuttujat
+**Classification:** opiskelija_3_2016_01_01 · **Group:** E4 Yliopistokoulutus, E Lähdeaineistojen omat muuttujat
 
 Uusi/vanha yliopisto-opiskelija. Tietoja vuodesta 2013 alkaen.
 0 = Vanha, ennen tilastovuotta kirjoittautunut opiskelija
@@ -863,7 +863,7 @@ Tieto vuosilta 2005-2009.
 
 #### `avo` — Hyväksytty avoimen yliopiston opintojen perusteella (yliopistokoulutus)
 
-**Luokitus / Classification:** opiskelija_2_2016_01_01
+**Classification:** opiskelija_2_2016_01_01
 
 Vain yliopistokoulutuksen uudet opiskelijat. Vuodesta 2018 poistettu tieto, että koskee vain uusia opiskelijoita. Arvo 1 voi olla kaikilla opiskelijoilla.
 0 = Ei
@@ -873,7 +873,7 @@ Tietoja vuodesta 2001 alkaen, puuttuen vuosilta 2004-2005.
 
 #### `opkelp` — Opettajankelpoisuus (yliopistokoulutus)
 
-**Luokitus / Classification:** opiskelu_4_2016_01_01
+**Classification:** opiskelu_4_2016_01_01
 
 Opettajankelpoisuus. Vain yliopistokoulutuksessa.
 0 = Ei ole opettajankelpoisuutta
@@ -881,7 +881,7 @@ Opettajankelpoisuus. Vain yliopistokoulutuksessa.
 
 #### `om` — Opiskelumuoto (yliopistokoulutus)
 
-**Luokitus / Classification:** opiskelu_3_2016_01_01
+**Classification:** opiskelu_3_2016_01_01
 
 Opiskelumuoto. Vain yliopistokoulutuksessa. 
 0 = Tavallinen koulutusohjelma (2005-)
@@ -901,7 +901,7 @@ Vain yliopistokoulutus. Tieto vuosilta 2006-2009.
 
 #### `lkmmt` — Lukukausimaksukokeilu ja maksullinen tilauskoulutus (yliopistokoul.)
 
-**Luokitus / Classification:** lkmmt_1_2016_01_01
+**Classification:** lkmmt_1_2016_01_01
 
 Lukukausimaksukokeilu ja maksullinen tilauskoulutus (vain yliopistokoulutuksessa). Tiedot vuosilta 2010-2017. 
 0 = Ei lukukausimaksukokeilua eikä maksullista tilauskoulutusta
@@ -951,32 +951,32 @@ Suojattu opiskeluoikeuden tunnistenumero KOSKI-tietovarannossa. Tieto vuodesta 2
 
 #### `koulutussopimus_osuus` — Koulutussopimuksen osuus kalenterivuoden päivistä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Koulutussopimuksen osuus kalenterivuoden päivistä. Voi saada yli 100 % arvon, koska jaksoissa päällekkäisyyksiä. Numeerinen tieto.
 Tieto vuodesta 2019 alkaen.
 
 #### `koulutussopimuspaivat` — Koulutussopimuksen päivät/vuosi
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Koulutussopimuksen päivät/vuosi, ajanjaksoissa päällekkäisyyksiä, joten voi saada arvon yli 365. Numeerinen tieto. Tieto vuodesta 2019 alkaen.
 
 #### `oppisopimusosuus` — Oppisopimuksen osuus kalenterivuoden päivistä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Oppisopimuksen osuus kalenterivuoden päivistä. Voi saada yli 100 %, koska jaksoissa päällekkäisyyksiä. Tieto vain vuodelta 2019.
 
 #### `oppisopimuspaivat` — Oppisopimuksen päivät/vuosi
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Oppisopimuksen päivät/vuosi, ajanjaksoissa päällekkäisyyksiä, joten voi saada arvon yli 365. Tieto vuodesta 2019 alkaen.
 
 #### `oppilaitospaivat` — Oppilaitoksessa opiskelu
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Oppilaitoksessa opiskelu, muualla kuin oppisopimuksella tai koulutussopimuksella. Tieto vuodesta 2019 alkaen.
 
@@ -986,7 +986,7 @@ Muuttujan nimi on muuttunut vuonna 2019 ammatillisen koulutuksen reformin vuoksi
 
 #### `ykunta` — Koulutuksen järjestäjän sijaintikunnan koodi
 
-**Ryhmä / Group:** c koulutusta tai tavoitetutkintoa kuvaavat tiedot
+**Group:** c koulutusta tai tavoitetutkintoa kuvaavat tiedot
 
 Koulutuksen järjestäjän sijaintikunnan koodi. Tilastokeskuksen kuntaluokitusrekisteri
 
@@ -994,7 +994,7 @@ Varhaiskasvatuksen esiopetuksen tieto
 
 #### `vuosiluokka` — Vuosiluokka
 
-**Ryhmä / Group:** c koulutusta tai tavoitetutkintoa kuvaavat tiedot
+**Group:** c koulutusta tai tavoitetutkintoa kuvaavat tiedot
 
 Vuosiluokka
 
@@ -1005,4 +1005,4 @@ Vuosiluokka
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Perustulokokeilun kohdejoukko
 - **Source:** Kansaneläkelaitoksen perustulokokeilurekisteri
 
-## Kuvaus / Description
+## Description
 
 Kelan perustulokokeilurekisteri on suojattu tutkimuskäyttöön. Tutkija hakee aineistolle käyttölupaa Kelasta.
 
@@ -25,9 +25,9 @@ Taulut 1 ja 2 muodostavat Perustulokokeilusta annetun lain (1528/2016) 18 §:n m
 
 Taulu sisältää perustulon ratkaisuihin liittyvät tiedot. Kukin ratkaisu kohdistuu tiettyyn ajanjaksoon. Alkuperäisen, koko perustulokokeilun ajan kattavan myöntöpäätöksen lisäksi ratkaisu voi olla esimerkiksi perustulon lakkautus tietyltä ajanjaksolta. Lisätietoa Perustulokokeilusta: https://www.finlex.fi/fi/laki/alkup/2016/20161528
 
-## Muuttujat / Variables (8)
+## Variables (8)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `PERUSTULOJAKSO_ALPV` | Perustulojakson alkamispäivä | — | — | — |
@@ -38,7 +38,7 @@ Taulu sisältää perustulon ratkaisuihin liittyvät tiedot. Kukin ratkaisu kohd
 | `POIKKEUS_SAANNOLLINEN_EUR` | Säännöllisen maksun poikkeuksellinen euromäärä | — | — | — |
 | `POIKKEUS_VAJAA_KK_EUR` | Vajaan kuukauden poikkeuksellinen euromäärä | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -89,4 +89,4 @@ Lopullinen ratkaisupäivä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

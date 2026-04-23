@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tti/index.html ">Teollisuustuotanto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_hyodykkeet_aineet_ja_tarvikkeet.html">Hyödykkeet: aineet ja tarvikkeet</a>
 - **Keywords:** hyödykkeet,jalostus,kaivostoiminta,louhinta,PRODCOM-nimikkeistö,tavarat,teollisuus,teollisuustuotanto,toimialat,tuotanto,tuotteet,valmistus
 
-## Kuvaus / Description
+## Description
 
 Teollisuustuotannon aineet ja tarvikkeet -kyselyaineisto sisältää ostotietoja teollisuustuotannossa tavaroiden valmistukseen käytettävistä aineista ja tarvikkeista. Ostotiedot kysytään tiedonantajilta nimikekohtaisesti. Tilastovuodesta 2013 alkaen tiedot on kerätty vain parittomilta vuosilta eli joka toinen vuosi. Sitä ennen tiedot kerättiin vuosittain. 
 
@@ -36,9 +36,9 @@ Tilastovuonna 2019 tehtiin myös nimikkeistövaihdos. Nimikkeistö vaihdettiin T
    
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (11)
+## Variables (11)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `stoimipaikkaID` | Suojattu toimipaikkatunnus | — | — | — |
 | `syrtunnus` | Suojattu yritystunnus | — | — | — |
@@ -52,7 +52,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `mitta1ti` | Määrän mittayksikkö | — | — | — |
 | `Tol2008Vuosi` | Toimipaikan toimiala (TOL2008) | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `stoimipaikkaID` — Suojattu toimipaikkatunnus
 
@@ -64,7 +64,7 @@ Suojattu yritystunnus
 
 #### `vuosi` — Vuosi
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 #### `versioID` — Tilastoversio
 
@@ -72,7 +72,7 @@ Tilastoversio
 
 #### `AineTarvKoodiCPA` — Aineet ja tarvikkeet -nimikekoodi
 
-**Luokitus / Classification:** aineet_tarv_1_2013_01_01
+**Classification:** aineet_tarv_1_2013_01_01
 
 Teollisuustuotannon aineet ja tarvikkeet -kyselyn nimikkeistönä käytetään tilastovuodesta 2019 alkaen Euroopan yhteisön yhdistettyä nimikkeistöä CN (Combined Nomenclature). CN-nimikkeistö on ulkomaankauppatilastoissa käytetty 8-numeroinen tavaraluokitus. Nimikkeistöön tulee muutoksia vuosittain, joten täysin vertailukelpoisia aikasarjoja ei ole mahdollista laatia tilastovuoden 2019 ja sitä tuoreempien vuosien välillä. Aineistossa nimikkeen tarkkuustaso vaihtelee, sillä kyselyyn voidaan vastata CN-luokituksen 8- ja 6-numerotasoilla. 
 
@@ -82,7 +82,7 @@ Aine- ja tarvikenimikkeistössä tapahtuu vähäisiä muutoksia vuodesta toiseen
 
 #### `PanosTyyppiKoodi` — Panostyyppikoodi
 
-**Luokitus / Classification:** panostyyppi_2_2012_01_01
+**Classification:** panostyyppi_2_2012_01_01
 
 Tilastovuodesta 2019 lähtien panostyyppikoodilla on aina arvo ”1”, sillä panosten määrätietoja ei enää kysytä. 
 
@@ -106,7 +106,7 @@ Tiedustelu koskee vain Suomessa tapahtuneen teollisuustuotannon aineita ja tarvi
 
 #### `TuotanArvo` — Ostojen arvo
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Aineiden ja tarvikkeiden ostoarvo yritykseen toimitettuna ilman arvonlisäveroa. Omilla autoilla tapahtuneiden kuljetusten kustannuksia ei kuitenkaan sisällytetä ostoarvoon. Ostojen arvokenttä on määritelmällisesti tyhjä, kun panostyyppikoodi=”2”.
 
@@ -122,7 +122,7 @@ Tiedustelu koskee vain Suomessa tapahtuneen teollisuustuotannon aineita ja tarvi
 
 #### `TuotanTietoVarmuus` — Panostiedon varmuus tai käsittelyn tilanne
 
-**Luokitus / Classification:** panostiedvarm_2_2012_01_01
+**Classification:** panostiedvarm_2_2012_01_01
 
 Muodostetaan ohjelmallisesti tai manuaalisesti uuden havainnon luonnin tai havainnon päivityksen yhteydessä.
 
@@ -146,4 +146,4 @@ Yhdistetty FIRM_PROD-aineistosta
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

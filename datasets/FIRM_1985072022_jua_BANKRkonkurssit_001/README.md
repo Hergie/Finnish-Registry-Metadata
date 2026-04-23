@@ -11,7 +11,7 @@
 - **Source:** Aineisto perustuu käräjäoikeuden riita- ja hakemusasioiden Tuomas -kirjaamisjärjestelmän tietoihin sekä Tilastokeskuksen yritysrekisterin tietoihin.
 - **Related:** <a href= "http://www.stat.fi/til/konk/index.html">Konkurssit</a>
 
-## Kuvaus / Description
+## Description
 
 Tutkimuskäyttöön on suojattu konkurssitilaston perusaineisto vuosilta 1985-07/2022.
 
@@ -47,9 +47,9 @@ Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän k
 
 Ennen tilastovuotta 2022–2023 oli voimassa lakimuutos, joka rajoitti mahdollisuutta hakea yritystä konkurssiin. Tämä lakimuutos saattaa näkyä tilastovuoden 2022–2023 tilastoissa.
 
-## Muuttujat / Variables (45)
+## Variables (45)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `TUIS` | Tuomioistuintunnus | — | — | — |
 | `SAAPV1` | Hakemuksen saapumisvuosi | — | — | — |
@@ -97,7 +97,7 @@ Ennen tilastovuotta 2022–2023 oli voimassa lakimuutos, joka rajoitti mahdollis
 | `syrtun` | Suojattu konkurssivelallisen yritystunnus | — | — | — |
 | `shnro` | Suojattu konkurssivelallisen henkilönumero | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `TUIS` — Tuomioistuintunnus
 
@@ -245,4 +245,4 @@ Vuoteen 2016 asti, puutteellinen
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Työnantajat
 - **Source:** Verohallinnon Tilastokeskukselle tilastotarkoituksiin toimittama vuosi-ilmoitusaineisto
 
-## Kuvaus / Description
+## Description
 
 Työnantajan tai suorituksen maksajan vuosi-ilmoitustiedot ovat saatavissa tutkimuskäyttöön suorituksittain vuosilta 1995 - 2019.
 
@@ -24,9 +24,9 @@ Palkoista ja muista ansiotuloista ei enää ole annettu vuosi-ilmoitusta vuodest
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (31)
+## Variables (31)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `smak_yrtun` | Suojattu maksajan tunnus, yritystunnus | — | — | — |
 | `smak_hnro` | Suojattu maksajan tunnus, henkilönumero | — | — | — |
@@ -60,7 +60,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `ELALKAMI` | — | — | — | — |
 | `VUOSI` | — | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `smak_yrtun` — Suojattu maksajan tunnus, yritystunnus
 
@@ -169,4 +169,4 @@ Ei saatavissa 1995
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

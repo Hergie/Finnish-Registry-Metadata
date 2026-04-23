@@ -11,7 +11,7 @@
 - **Source:** Suomalaiset tytäryhtiöt ulkomailla -kysely, konsernirekisteri
 - **Related:** <a href= "http://tilastokeskus.fi/til/stu/index.html">Suomalaiset tytäryhtiöt ulkomailla</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_suomalaiset_tytaryhtiot_ulkomailla.html">Suomalaiset tytäryhtiöt ulkomailla</a>
 
-## Kuvaus / Description
+## Description
 
 Suomalaiset tytäryhtiöt ulkomailla -tilasto (outward statistics on foreign affiliates, outward FATS) vuodelle 2020 kuvaa suomalaisyritysten toimintojen maailmanlaajuista sijoittumista ja yritysten ulkomailla sijaitsevan toiminnan merkittävyyttä. Tilasto tuottaa tietoja, joiden avulla voi arvioida Suomen talouden globaalistumisen astetta, Euroopan Unionin sisämarkkinoiden vaikutusta suomalaiseen liiketoimintaan ja suomalaisomisteisten yritysten kilpailukykyä maailmalla. Konsernitason tiedot tytäryhtiöiden tai sivuliikkeiden liikevaihdosta, henkilöstön lukumäärästä, henkilöstömenoista ja bruttoinvestoinneista ovat saatavissa sijaintimaan tai maaryhmän ja toimialan mukaan. Vuonna 2014 on saatavissa myös sisäinen liikevaihto, liiketulos, poistot, vuokrat ja jalostusarvo. Uusia muuttujia koskee laatuvaraus. Imputointeja ei ole tehty vuodesta 2013 alkaen ja manuaalisesta laadun tarkistamisesta on siirrytty pääosin automaattiseen tarkistukseen. Tilasto perustuu Euroopan parlamentin ja neuvoston asetukselle (EY) n:o 716/2007.
 Vuodesta 2015 lähtien muuttujakokonaisuus on vuoden 2014 muuttujakokonaisuutta suppeampi.
@@ -24,9 +24,9 @@ Vuoden 2021 tiedoissa aikasarjakatkoksen aiheuttavia muutoksia. Tilastovuodesta 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (12)
+## Variables (12)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `sknstun` | Suojattu konsernitunnus | — | — | — |
 | `sutun` | Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus | — | — | — |
@@ -41,7 +41,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `investoinnit` | Tytäryhtiön / sivuliikkeen bruttoinvestoinnit aineelliseen käyttöomaisuuteen | € | — | — |
 | `maaryhman_nimi_suomi` | Maaryhmän nimi suomeksi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `sknstun` — Suojattu konsernitunnus
 
@@ -82,7 +82,7 @@ Tytäryhtiön / sivuliikkeen sijaintimaa
 
 #### `liikevaihto` — Tytäryhtiön / sivuliikkeen liikevaihto
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Tytäryhtiön / sivuliikkeen liikevaihto. Liikevaihto ennen konsolidointia. Se liikevaihto, jonka tytäryhtiö / sivuliike raportoi sijaintimaansa viranomaisille.
 Tytäryhtiön liikevaihtoon sisältyy kaikki tavaroiden ja palvelujen markkinaehtoinen myynti riippumatta siitä, onko asiakas konsernin ulkopuolinen vai samaan konserniin kuuluva yhtiö.
@@ -102,7 +102,7 @@ Henkilöstön lukumäärä lasketaan vuotuisena keskimääränä käyttäen väh
 
 #### `henkilostomenot` — Tytäryhtiön / sivuliikkeen henkilöstömenot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Tytäryhtiön / sivuliikkeen henkilöstömenot. Henkilöstömenoihin sisältyvät palkat ja sosiaaliturvamaksut.
 Vuokratyövoiman kustannukset eivät sisälly henkilöstömenoihin.
@@ -111,7 +111,7 @@ Sosiaaliturvamaksuihin luetaan tytäryhtiön sellaisiin järjestelmiin suorittam
 
 #### `investoinnit` — Tytäryhtiön / sivuliikkeen bruttoinvestoinnit aineelliseen käyttöomaisuuteen
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Tytäryhtiön / sivuliikkeen bruttoinvestoinnit aineelliseen käyttöomaisuuteen. Bruttoinvestoinneiksi luetaan kaikki aineellisen  käyttöomaisuuden lisäykset, muutokset, parannukset ja uudistukset, jotka pidentävät pääomatavaran käyttöikää tai lisäävät sen tuottavuutta. Bruttoinvestoinnit eivät sisällä omaisuutta, joka saadaan liiketoiminnan uudelleenjärjestelyn yhteydessä kuten yritysten sulautuessa tai yrtiysvaltausten yhteydessä.
 Ostetut tavarat arvotetaan hankintahintaan, joten hinta sisältää kuljetus- ja asennuskustannukset, maksut, verot ja muut omistajanvaihdoksen yhteydessä syntyvät kustannukset. Tytäryhtiön itse tuottama aineellinen käyttöomaisuus arvotetaan tuotantokustannuksiin. Rahoitusleasingillä hankitun aineellisen käyttöomaisuuden arvo vastaa kyseisen tavaran markkina-arvoa, jos se on ostettu hankintavuonna.
@@ -123,4 +123,4 @@ Maaryhmän nimi suomeksi, saatavissa 2008-
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

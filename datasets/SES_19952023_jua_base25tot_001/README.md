@@ -12,7 +12,7 @@
 - **Related:** <a href= "https://stat.fi/tilasto/pra">Palkkarakenne</a> <a href= "https://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_palkkarakennetilasto.html">Palkkarakennetilasto</a>
 - **Keywords:** ansiotaso,palkansaajat,palkat
 
-## Kuvaus / Description
+## Description
 
 Palkkarakennetilaston vuosipoikkileikkausaineistoista on muodostettu yhdistetty poikkileikkaus-pitkittäisaineisto vuosille 1995-2023. Aineisto sisältää yksilötason tietoja ansioista ja (palkallisista) tunneista sekä taustatietoja työsuhteesta/työntekijästä ja tämän työnantajasta vuoden viimeiseltä neljännekseltä. Vuositasolla voi henkilöllä aineistossa olla useampi osa-aikainen työsuhdehavainto.
 
@@ -26,9 +26,9 @@ Palkkarakenneaineiston 1995-2023 yhdenmukaisuus yli ajan on rajallinen, sillä v
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (35)
+## Variables (35)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Tilastovuosi | vv | — | — |
 | `AINE` | Aineistotunnus | — | — | — |
@@ -66,11 +66,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `pykstol` | Paikallisyksikön toimiala | — | — | — |
 | `Pykskunta` | Paikallisyksikön sijaintikunta | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Tilastovuosi
 
-**Yksikkö / Unit:** vv
+**Unit:** vv
 
 Tilaston tilastointivuosi. Tässä tiedostossa 1995-2022. Tiedot kuvaavat pääasiassa vuoden viimeistä neljännestä.
 
@@ -102,7 +102,7 @@ V - Valtio valtion (budjettitalouteen sisältyvät työ- ja virkasuhteet)
 
 #### `PMUOTO` — Palkkausmuoto
 
-**Luokitus / Classification:** palkkarakenne_4_2001_01_01
+**Classification:** palkkarakenne_4_2001_01_01
 
 Kertoo työsuhteen palkkausmuodon. Mahdolliset arvot: 
 1 - Kuukausipalkkainen
@@ -171,25 +171,25 @@ EU:n NACE-toimialaluokitukseen pohjautuva Tilastokeskuksen virallinen kansalline
 
 #### `RNO` — Rivinumero (identifioi työnantajakohtaisen työsuhteen)
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 Rivinumeroa käytetään avaimena työsuhteen tunnistamisessa (osa-aikaisella työntekijällä voi olla tilastokuukauden aikana useampi kuin yksi työsuhde). Rivinumero on työnantajakohtainen juokseva numero tilastoiduille työsuhteille.
 
 #### `IKA` — Palkansaajan ikä
 
-**Yksikkö / Unit:** vv
+**Unit:** vv
 
 Palkansaajan ikä vuosina. Lasketaan henkilön syntymävuoden mukaan henkilötunnuksen perusteella.
 
 #### `PLKM` — Palkansaajia aineistossa
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Palkansaajien lukumäärä yrityksessä tai työnantajalla palkka-aineistosta laskien. Lasketaan BASIS0-ehdon täyttävien palkansaajien määrä aineistossa ko. yrityksessä.
 
 #### `PLKMKEH` — Palkansaajien lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Tieto yrityksen palkansaajien lukumäärästä. Tieto saadaan yritysrekisteristä. Kuvaa kokoaikavastaavaa palkansaajaa.
 
@@ -227,7 +227,7 @@ Sopimusalatiedon sisältö sekä tilastollinen laatu tarkistamatta.
 
 #### `OSAIK` — Osa-aikaisuus
 
-**Luokitus / Classification:** palkkarakenne_3_2005_01_01
+**Classification:** palkkarakenne_3_2005_01_01
 
 Työsuhteen koko-  tai osa-aikaisuus. Muodostetaan palvelussuhteen ehtojen tai säännöllisen viikkotyöajan mukaan. Osa-aikaisuuden määrittelyä on muutettu vuoden 2001 tilastossa. Rajana pidetään nykyisin 90 prosenttia alan yleisestä työajasta. 
 Mahdolliset arvot: 
@@ -237,61 +237,61 @@ X tai puuttuva tieto - Tuntematon.
 
 #### `VKTA` — Säännöllinen viikkotyöaika
 
-**Yksikkö / Unit:** h
+**Unit:** h
 
 Palkansaajan henkilökohtainen säännöllinen sovittu viikkotyöaika. Yleensä työ- tai virkaehtosopimuksen mukainen viikkotyöaika. Käsite kattaa säännöllisen työajan tehtyjen tuntien lisäksi myös säännöllisen työajan ei-tehdyt (palkalliset ja palkattomat) poissaolotunnit.
 
 #### `TYOAIKAKK` — Kokonaistyöaika
 
-**Yksikkö / Unit:** h
+**Unit:** h
 
 Kokonaistyöaika kuukaudessa (4,345*säännöllinen viikkotyöaika + ylityötunnit)
 
 #### `YLIT` — Ylityötunnit
 
-**Yksikkö / Unit:** h
+**Unit:** h
 
 Palkatut lisä- ja ylityötunnit kuukaudessa. Lisätyötunteja ovat työtunnit,  jotka ylittävät työntekijään sovellettavassa työ- ja työehtosopimuksessa sovitun säännöllisen työajan työtuntimäärän, mutta eivät työaikalain määrittämää säännöllisen työajan enimmäismäärää. Työaikalain mukaisen säännöllisen työajan enimmäismäärän ylittäviä työtunteja kutsutaan ylityötunneiksi.
 
 #### `KKPALKKA` — Kuukausiansio
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Kokonaistyöajan kuukausiansio (ml. luontaisedut). Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina kuukaudessa. Sisältää myös mahdolliset varallaolokorvaukset.Tuntipalkkaisten osalta (Pmuoto=2) käsite on laskennallinen ja muuttujassa ei työpanoksen todellinen vaihtelu ja siten ei myöskään todellisen kuukausiansion vaihtelu kuvaudu todellisessa laajuudessaan, sillä aineistopohjainen tuntiansio kerrotaan kuukausitasolle käyttäen tes/työsopimus-pohjaista teoreettista säännöllisen työajan kuukausituntimäärää kertoimena.
 
 #### `TUNTIPALKKA` — Tuntiansio
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Kokonaistyöajan tuntiansio (ml. luontaisedut ja mahdolliset varallaolokorvaukset). Säännölliseltä työajalta sekä lisä- ja ylityöltä maksetun ansion määrä euroina tunnissa. Muodostettu kuukausiansiosta jakamalla kuukausiansio kokonaistyöajan tuntien määrällä.
 
 #### `YLIP` — Ylityöansiot
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Yli- ja lisätyöajalta maksetut palkat euroina kuukaudessa. Muuttuja kattaa koko lisä- ja ylityötunneilta (YLIT) maksetun kokonaispalkan, eli ei siis ainoastaan normaalin tuntipalkan "päälle" maksettua erillistä ylityötuntilisää.
 
 #### `VTL` — Työaikalisät
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Vuoro-  ym. työaikalisien euromäärä kuukaudessa. Esimerkiksi vuoro-, yö-, ilta-, viikonloppu- ja arkipyhätyöltä maksetut palkanosat. Kyseessä on lisäosa tai ylimääräinen maksu, ei vuorotyönä tehdyistä tunneista maksettu kokonaiskorvaus.
 
 #### `LED` — Luontoisedut
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Veronalaisten luontoisetujen arvo euroina kuukaudessa. Esimerkiksi auto- tai puhelinetu. Usein kyseessä luontoisedun verotusarvo.
 
 #### `VKORV` — Varallaolokorvaukset
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Varallaoloajan palkat ja muut kokonaisansion lisät, kuten toimenpidepalkkiot euromääräisinä tilastokuukaudelta.
 
 #### `KERTAERAT` — Kertaluonteisesti maksettavat palkkaerät/vuosi
 
-**Yksikkö / Unit:** €
+**Unit:** €
 
 Kertaluontoisesti maksettavat palkanosat euroina vuodessa. Muuttuja sisältää yhteenlaskettuna lomarahat ja lomakorvaukset, palvelusvuosikorvaukset, kertaluontoisesti maksettavat tulospalkkiot ja muut kertaluontoisesti (lähinnä kerran vuodessa) maksettavat palkanosat (esimerkiksi suhdanneraha). Muuttujan tarkkaa tietosisältöä ei ole tarkastettu.
 
@@ -305,4 +305,4 @@ Paikallisyksikön sijaintikunta. Kuntatieto vastaa aina kyseisen tilastovuoden k
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

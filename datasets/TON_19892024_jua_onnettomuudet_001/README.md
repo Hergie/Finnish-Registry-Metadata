@@ -10,7 +10,7 @@
 - **Population:** Suomessa tapahtuneet tieliikenneonnettomuuden ja niiden osalliset
 - **Keywords:** ajoneuvot,alkoholi,autot,kuolleisuus,liikenne,liikennejuopumus,liikennekuolemat,liikenneonnettomuudet,liikenneturvallisuus,liikennevahingot,moottoriajoneuvot,päihteet,tapaturmat,tieliikenne
 
-## Kuvaus / Description
+## Description
 
 TON_ONN moduuli sisältää Suomessa tapahtuneista tieliikenneonnettomuuksista tietoja vuodesta 1989 vuoteen 2024. Tiedot perustuvat poliisin tietoon tulleisiin tieliikenneonnettomuuksiin. Tämä moduuli sisältää osallisista vain summatason tietoja. Julkaistavissa tutkimustuloksissa on käytettävä kynnysarvoa 5.
 
@@ -50,9 +50,9 @@ Tieliikenneonnettomuustilaston, johon valmisaineisto pohjautuu, on kuvattu tarke
 
 Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (51)
+## Variables (51)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `ilmnro_s` | Suojattu onnettomuuden ilmoitusnumero | — | — | — |
 | `tietue` | Tietuetyyppi | — | — | — |
@@ -106,7 +106,7 @@ Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelu
 | `lkmrv` | Osallisten raitiovaunujen lukumäärä | lkm | — | — |
 | `lkmtr` | Osallisten traktorien lukumäärä | lkm | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `ilmnro_s` — Suojattu onnettomuuden ilmoitusnumero
 
@@ -152,7 +152,7 @@ Tyhjä arvo=Ei tietoa.
 
 #### `onnpaik` — Tieliikenneonnettomuuden onnettomuuspaikka
 
-**Luokitus / Classification:** onnettomuus_15_2020_01_01
+**Classification:** onnettomuus_15_2020_01_01
 
 Onnettomuuspaikan luokitus.
 1=Ajorata,
@@ -350,23 +350,23 @@ Tyhjä arvo=Ei tietoa.
 
 #### `lkm_vakavlouk` — Vakavasti loukkaantuneiden lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Määrittely: Henkilö, joka ei ole kuollut (30 vuorokauden kuluessa onnettomuudesta), mutta on saanut onnettomuudessa vammoja, jotka vaativat hoitoa tai tarkkailua hoitolaitoksessa ja on hakeutunut hoidettavaksi kuuden vuorokauden sisällä onnettomuudesta ja on saanut vamman tai vammoja jotka on AIS-vakavuusluokituksen (AAAM, Association for the Advancement of Automotive Medicine) mukaisesti luokiteltu vakaviksi.
 
 #### `lkmaj` — Osallisten muiden moottorikäyttöisten ajoneuvojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmava` — Alkoholin vaikutuksen alaisten osallisten lukumäärä.
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Lukumäärässä otetaan huomioon kuljettajat ja jalankulkijat, mutta ei matkustajia.
 
 #### `lkmea` — Osallisten erikoisautojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `elosal` — Eläin osallisena
 
@@ -375,86 +375,86 @@ Lukumäärässä otetaan huomioon kuljettajat ja jalankulkijat, mutta ei matkust
 
 #### `lkmha` — Osallisten henkilöautojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmjk` — Osallisten jalankulkijoiden lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 #### `lkmju` — Osallisten junien lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmkaip` — Osallisten perävaunuttomien kuorma-autojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmkapv` — Osallisten perävaunullisten kuorma-autojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmkuol` — Kuolleiden lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Määrittely: osallinen henkilö on kuollut onnettomuuden seurauksena 30 vuorokauden kuluessa onnettomuudesta, poislukien sairaskohtauksiin kuolleet.
 
 #### `lkmla` — Osallisten linja-autojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmlouk` — Loukkaantuneiden lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 #### `lkmlyks` — Osallisten liikenneyksiköiden lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmmo` — Osallisten mopojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmmp` — Osallisten moottoripyörien lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmmpa` — Muun päihdyttävän aineen käytön alaisten osallisten lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 #### `lkmmu` — Osallisten muiden ajoneuvojen, mukaan lukien hevosajoneuvot, lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmos` — Osallisten lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Määrttely: onnettomuuteen osallisiksi henkilöiksi katsotaan onnettomuuteen osallistuneet kulkuneuvojen kuljettajat ja jalankulkijat sekä kuolleet ja loukkaantuneet matkustajat. Eläin on eläinonnettomuuden osallinen.
 
 #### `lkmpa` — Osallisten pakettiautojen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmpp` — Osallisten polkupyörien lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmrj` — Osallisten rattijuoppojen lukumäärä
 
-**Yksikkö / Unit:** henk.
+**Unit:** henk.
 
 Määrittely: osallisen kuljettajan on todettu (verikokeen tulos vähintään 0,5 promillea tai puhalluskokeen tuloksena todettu litrassa uloshengitysilmaa vähintään 0,22 milligrammaa alkoholia) tai vahvoin perustein epäillään olleen onnettomuushetkellä alkoholin vaikutuksen alaisena.
 
 #### `lkmrv` — Osallisten raitiovaunujen lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 #### `lkmtr` — Osallisten traktorien lukumäärä
 
-**Yksikkö / Unit:** lkm
+**Unit:** lkm
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

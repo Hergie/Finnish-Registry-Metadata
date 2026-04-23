@@ -10,7 +10,7 @@
 - **Population:** Työnantajat
 - **Source:** Verohallinnon Tilastokeskukselle tilastotarkoituksiin toimittama vuosi-ilmoitusaineisto
 
-## Kuvaus / Description
+## Description
 
 Työnantajan tai suorituksen maksajan vuosi-ilmoitustiedot ovat saatavissa tutkimuskäyttöön suorituksittain vuosilta 1995 - 2019.
 
@@ -24,9 +24,9 @@ Palkoista ja muista ansiotuloista ei enää ole annettu vuosi-ilmoitusta vuodest
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (44)
+## Variables (44)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Maksuvuosi | — | — | — |
 | `TAPTYYPP` | Ilmoituksen tyyppi | — | — | — |
@@ -73,7 +73,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `ssaa_yrtun` | Suojattu saajan yritystunnus | — | — | — |
 | `ssaa_muutun` | Suojattu saajan muu tunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Maksuvuosi
 
@@ -285,4 +285,4 @@ Suoritusten määrä tai sijoitusrahasto-osuuden määrä, markkaa (FIM).
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

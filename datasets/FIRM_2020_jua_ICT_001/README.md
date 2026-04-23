@@ -10,7 +10,7 @@
 - **Population:** Yritykset, jotka kuuluvat toimialaluokituksen TOL2008 pääluokkiin C-J ja L-M  sekä toimiala 951. Otoskehikkona on Tilastokeskuksen yritysrekisteriin pohjautuvan yritysten rakennetilaston tuotantotietokannan tai yritystietovaraston (alkaen vuodesta 2013) edellä mainittujen toimialojen vähintään kymmenen henkilöä työllistävät yritykset. Vuosina 2001 - 2009 aineisto kattaa myös 5 – 9 henkeä työllistävät yritykset. Otoskehikon kaikki vähintään sata henkilöä työllistävät yritykset sisällytettiin kyselyyn. Työntekijämäärältään (5)10–99 henkilön yritysten osalta käytettiin otantaa. Otanta-asetelmana oli toimialan ja kokoluokan mukaan ositettu yksinkertainen satunnaisotanta.
 - **Source:** Tilastokeskuksen Tietotekniikan käyttö yrityksissä -kysely ja yritysrekisteri
 
-## Kuvaus / Description
+## Description
 
 ICT-aineisto kuvaa yritysten tietotekniikan käyttöä ja liiketoiminnan sähköistymistä. Tilastoaineisto tuotetaan otokseen perustuvana laajana yrityskyselynä. Tulokset korotetaan tilastossa vastaamaan kaikkia tutkittujen toimialojen ja suuruusluokkien yrityksiä. Tilastoyksikkönä on yritys. Yritystason aineisto on saatavissa tutkimuskäyttöön erillisinä vuositiedostoina. 
 Tilastoaineisto ilmestyy vuosittain. Sähköisen kaupan osalta mittausjaksona on edellinen vuosi. Tietotekniikan käytön osalta viiteajankohtana on useimmissa muuttujissa kyselyn ajankohta, eli tammi-huhtikuu. Aineiston aikasarja ulottuu vuoteen 2002 asti. 
@@ -73,9 +73,9 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 
 Poiketen aiemmista vuosista, vuoden 2020 aineisto ei sisällä sähköistä kauppaa. Sähköisellä kaupalla tarkoitetaan tietokoneverkon kautta suoritettuja tavaroiden ja palvelujen tilauksia. Maksu- tai toimitustavalla ei ole merkitystä.
 
-## Muuttujat / Variables (176)
+## Variables (176)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `omtyyppi` | Omistajatyyppi | — | — | — |
@@ -254,7 +254,7 @@ Poiketen aiemmista vuosista, vuoden 2020 aineisto ei sisällä sähköistä kaup
 | `mobhlok9` | alkup mobhlok | — | — | — |
 | `mobhlo9` | alkup mobhlo | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -842,4 +842,4 @@ Yritys käyttää esineiden internetiä muihin tarkoituksiin.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

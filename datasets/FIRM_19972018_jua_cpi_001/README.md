@@ -10,7 +10,7 @@
 - **Source:** <a href= "http://www.stat.fi/til/khi/">Kuluttajahintaindeksi</a>
 - **Keywords:** hinnat,kuluttajahinnat
 
-## Kuvaus / Description
+## Description
 
 Kuluttajahintaindeksin yksikkötason aineisto sisältää kuluttajahintaindeksin laskentaa varten liikkeistä kuukausittain kerätyt hyödykkeiden hintatiedot alkaen vuodesta 1997.
 
@@ -30,9 +30,9 @@ Kuluttajahintaindeksin käyttäjän käsikirjat ja painot ovat saatavissa Tilast
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (39)
+## Variables (39)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `hyod` | Hyödyketunnus -- surrogaatti | — | coicop | — |
 | `hitun` | Hintahavaintotunnus | — | — | — |
@@ -74,11 +74,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `suuralue` | Suuralue | — | nuts2 | — |
 | `arvo_num` | Arvo, numeerinen | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `hyod` — Hyödyketunnus -- surrogaatti
 
-**Luokitus / Classification:** coicop
+**Classification:** coicop
 
 Hyödykkeen/palvelun surrogaattitunnus. Vuosissa 1997-1999 käytettiin surrogaattitunnusta coicop-koodin sijaan. Vuodesta 2000 lähtien on käytetty coicop-koodia hyödykkeen yksilöimisessä.
 
@@ -116,13 +116,13 @@ Tuotteen tai palvelun nimi. Käytössä vuosina 1997-2012.
 
 #### `sual` — Suuralue
 
-**Luokitus / Classification:** nuts2
+**Classification:** nuts2
 
 NUTS2 alueluokituksen mukainen koodi. Uudemmissa vuosissa käytetty mjanimeä "suuralue". 1=Uusimaa, 2=Southern Finland, 3=Eastern Finalnd, 4=Western Finland, 5=Northern Finland, 6=Ahvenanmaa, 7= Koko maa. Käytössä vuosina 1997-2012.
 
 #### `hyodtunnus` — Hyödyketunnus
 
-**Luokitus / Classification:** coicop
+**Classification:** coicop
 
 Hyödyketunnus, joka vastaa COICOP-luokituksen tarkimman tason kansallista  luokka-arvoa. Käytössä vuosina 2000-2012.
 
@@ -179,7 +179,7 @@ kuvaa tilastoaikaa selkokielisessä muodossa tilastovuosi+ kuukausi suomenkielel
 
 #### `havaintokohde_tunnus` — Hyödyketunnus
 
-**Luokitus / Classification:** coicop_31_2014_01_01
+**Classification:** coicop_31_2014_01_01
 
 9-merkkinen havaintokohdetunnus, josta aiemmin käytettiin nimeä hyod tai hyodtunnus. Hyödyketunnus, joka vastaa COICOP-luokituksen tarkimman tason luokka-arvoa. HUOM! mjaan kytketty luokitus sisältää pisteet eikä sisällä loppunollia, mutta muuten koodisto on oikein vuodelle 2015. Alkaen vuodesta 2013.
 
@@ -234,7 +234,7 @@ gramma, gramma tai kappale, kerta, kilowattitunti, kuukausi, kuutio, kuutiometri
 
 #### `suuralue` — Suuralue
 
-**Luokitus / Classification:** nuts2
+**Classification:** nuts2
 
 sama kuin mja "sual". 1=Uusimaa, 2=Etelä-Suomi, 3=Itä-Suomi, 4=Länsi-Suomi, 5=Pohjois-Suomi, 6=Ahvenanmaa, 7= Koko maa. Alkaen vuodesta 2013.
 
@@ -244,4 +244,4 @@ Kuvaa saa kuin mja "arvo" mutta tämä on numeerisessa muodossa. Käytössä 201
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

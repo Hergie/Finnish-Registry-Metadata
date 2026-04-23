@@ -10,7 +10,7 @@
 - **Population:** 16-70-vuotiaat henkilöt yritysrekisterin toimipaikoissa, joille löytyy vähintään 1 henkilö FOLK/FLEEDistä
 - **Source:** FOLK/FLEED-aineisto (mm. työssäkäyntitilasto) ja yritysrekisteri
 
-## Kuvaus / Description
+## Description
 
 FOLK-aineistosta on muodostettu tutkimuskäyttöön toimipaikkapohjaiset taulut, joihin on laskettu henkilöstön keskimääräisiä ominaisuuksia ja eri henkilöstöryhmien osuuksia vuodesta 2017 alkaen. Ajanjaksolta 1988-2016 päivitys on tehty FLEED (Finnish Longitudinal Employer - Employee Data)-kokonaisaineiston tietojen pohjalta. Kehikkona on käytetty vuodesta 2013 alkaen toimipaikkatietoja yritystietovarastosta (aikaisemmin yritysrekisteristä). Kohdejoukossa on tilastojärjestelmien ja tilastorajojen muutoksista johtuvia vuosittaisia eroja. Vuoteen 2012 asti mukana on myös ei-tilastoyksiköitä. Ennen vuotta 2000 mukana voi olla myös julkisia yksiköitä, joten yritysrekisterin tilastoyksiköt kannattaa rajata käyttämällä TILYKS=1, koska toimipaikkatunnus ei ole välttämättä yksilöivä. Vuodesta 1998 eteenpäin myös henkilöyrittäjille löytyy toimipaikkatunnus. Mukaan on otettu yritykset, joille löytyy vähintään 1 henkilöhavainto FOLK-moduulista (ennen vuotta 2017 FLEED-moduulista). Kyseisen aineiston henkilömäärää on käytetty osuuksia laskettaessa jakajana. Mukana ovat 16 - 70-vuotiaat henkilöt. 
 
@@ -31,9 +31,9 @@ Kullekin koulutusryhmälle on lisäksi laskettu keskimääräiset kuukausiansiot
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (36)
+## Variables (36)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `sykstun` | Suojattu toimipaikkatunnus | — | — | — |
 | `emp_yrek` | Henkilöstön lukumäärä, Yritysrekisteri | — | — | — |
@@ -72,7 +72,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `stdeduc` | Koulutusvuosien keskihajonta | — | — | — |
 | `tilyks` | Tilastoyksikkö yritysrekisterin vuositilastossa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `sykstun` — Suojattu toimipaikkatunnus
 
@@ -202,4 +202,4 @@ Tilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuott
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

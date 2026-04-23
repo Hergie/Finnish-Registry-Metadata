@@ -8,7 +8,7 @@
 - **Variable count:** 28
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 EDUC_KOSKI-valmisaineisto sisältää OPH:n Koski-tietovarannon tietoja perusopetuksen, nivelvaiheen sekä toisen asteen koulutuksien läsnäolosta, sisällöstä sekä suorituksista. Aineiston avulla on mahdollista tutkia läsnäoloa koulutuksissa tarkalla tasolla, sillä aineisto sisältää jaksomuotoisen tilatiedon. Aineisto sisältää myös koulutuksien suoritustietoja, joiden avulla on mahdollista tutkia koulutuksien etenemistä tarkalla tasolla. Aineisto on kattavaa vuodesta 2020 lähtien. KOSKI-järjestelmä on otettu käyttöön vuonna 2018, mutta vuosien 2018 ja 2019 tiedot eivät ole kattavia. Aineistosta ei ole rajattu ulos aiempia tietoja. 
 
@@ -43,9 +43,9 @@ Laaja moduuli EDUC_KOSKI TOINEN ASTE:  ammatillinen_suoritukset
 Suoritukset-taulu sisältää kaikki ammatillisen koulutuksen alemmat osasuoritukset. Sisältää tietoja kuten arvosanat, laajuus ja arviointipäivä. Kaikki tämän taulun rivit ovat osa jotain ammatillinen_tutkinnonosat-taulun suoritusta.
 Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_suoritus, r_osasuoritus, r_henkilo.
 
-## Muuttujat / Variables (28)
+## Variables (28)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `oppija_oid_s` | Suojattu oppijatunnus | — | — | — |
@@ -76,7 +76,7 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_
 | `ylempi_osasuoritus_key` | Ylempi osasuoritus key | — | — | — |
 | `koulutusmoduuli_kieliaine_nimi` | koulutusmoduuli kieliaine nimi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -192,4 +192,4 @@ suorituksen kieliaineen nimi. Huomio: Kieliopintojen koodiarvo ei erittele opisk
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

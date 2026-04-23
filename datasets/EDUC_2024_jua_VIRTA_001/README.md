@@ -11,7 +11,7 @@
 - **Source:** Korkeakoulujen opiskelijarekisterit
 - **Related:** <a href= "https://confluence.csc.fi/display/VIRTA/Tietovarannon+tiedot">Virta-opintopalvelun tietosisältö</a>
 
-## Kuvaus / Description
+## Description
 
 "VIRTA higher education achievement register”
 
@@ -106,9 +106,9 @@ TAIY 10103 Taideyliopisto
 (TAY 01905 Tampereen yliopisto (vanha))
 (TTY 01915 Tampereen tekn. yliopisto (vanha))
 
-## Muuttujat / Variables (61)
+## Variables (61)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `shnro` | Suojattu henkilönumero | — | — | — |
 | `savain` | Suojattu avain | — | — | — |
@@ -172,7 +172,7 @@ TAIY 10103 Taideyliopisto
 | `patevyys_paatpvm` | pätevyyden päättymispäivämäärä | — | — | opiskeluoikeusjakso |
 | `suorituspaivamaara` | Suorituksen päivämäärä | — | — | opintosuoritus |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `shnro` — Suojattu henkilönumero
 
@@ -187,44 +187,44 @@ Opiskeluoikeusjakso-tiedosto: Savain = opiskeluoikeus_avain_s (korkeakoulukohtai
 
 #### `Kirjoihintulopaivamaara` — Kirjoihintulopäivämäärä
 
-**Ryhmä / Group:** opiskelijat
+**Group:** opiskelijat
 
 Opiskelijan kirjoihintulopäivämäärä korkeakouluun. Yliopistoilla tämä on tyypillisesti ollut se ajanhetki, jolloin opiskelija on saanut ja aloittanut ensimmäisen tutkinnonsuoritusoikeuden ko. yliopistossa. Tieto kerätään erikseen, jotta myös todella vanhojen opiskelijoiden, joilla opiskelu on alkanut esim. ennen sähköisten rekisterien aikaa, kirjoihintulopäivämäärä saadaan paikkansa pitävästi tietoon.
 
 #### `kunta_koodi` — Asuinkunta
 
-**Ryhmä / Group:** opiskelijat, opiskeluoikeusjakso
+**Group:** opiskelijat, opiskeluoikeusjakso
 
 Henkilön vakituinen asuinkunta Suomessa. Aineistossa käytetty luokitus löytyy Tilastokeskuksen luokituspalvelun kotisivuilta osoitteesta: https://stat.fi/fi/luokitukset. 200=Ulkomaat ja 999=Tuntematon
 
 #### `kieli_koodi` — Äidinkieli
 
-**Ryhmä / Group:** opiskeluoikeusjakso, opiskelijat, opintosuoritus
+**Group:** opiskeluoikeusjakso, opiskelijat, opintosuoritus
 
 Henkilön äidinkieli. Aineistossa käytetty luokitus löytyy Tilastokeskuksen luokituspalvelun kotisivuilta osoitteesta: https://stat.fi/fi/luokitukset.
 
 #### `maan_koodi` — Kansalaisuus
 
-**Ryhmä / Group:** opiskelijat
+**Group:** opiskelijat
 
 Henkilön viimeisin kansalaisuustieto. Aineistossa käytetty luokitus löytyy Tilastokeskuksen luokituspalvelun kotisivuilta osoitteesta: http://tilastokeskus.fi/luokitukset
 
 #### `patevyys_koodi` — Pätevyys
 
-**Ryhmä / Group:** opiskelijat
+**Group:** opiskelijat
 
 Pätevyystiedolla tarkoitetaan sellaista muodollista pätevyyttä, jota korkeakoulun ulkopuolinen viranomainen valvoo tai rekisteröi. 
 Luokitus löytyy verkosta sivulla https://confluence.csc.fi/display/VIRTA/Tietovarannon+koodistot#Tietovarannonkoodistot-Pätevyys,Behörighet
 
 #### `patev_alkpvm` — Pätevyyden alkupäivämäärä
 
-**Ryhmä / Group:** opiskelijat
+**Group:** opiskelijat
 
 Pätevyyden alkupäivämäärä.
 
 #### `koulutusala` — Koulutusala
 
-**Ryhmä / Group:** opiskeluoikeudet, opintosuoritus
+**Group:** opiskeluoikeudet, opintosuoritus
 
 Tutkintolajisille opintosuorituksille ja tutkintoon johtaville opiskeluoikeuksille koulutusalatieto ilmoitetaan Koulutusluokitus-koodistolla. Koulutuskoodi pitää sisällään tiedon koulutusalasta. Vuoden 2016 tiedoista lähtien on otettu käyttöön Opetus- ja kulttuuriministeriön korkeakoulujen ohjauksen alojen mukainen koodisto (OKM:n ohjauksen ala), joka korvaa molemmilla korkeakoulusektoreilla aiemmin käytössä olleet koulutusala 2002 ja opintoala 1995 koodistojen käytön. 
 Luokitus:
@@ -243,65 +243,65 @@ Luokitus:
 
 #### `opiskeluoikeuden_tyyppi` — Opiskeluoikeuden tyyppi
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Opiskeluoikeudella voi olla koko olemassaolonsa aikana vain yksi opiskeluoikeuden tyyppi. Korkeakoulujen valtakunnalliseen tietovarantoon on pakollista tuoda ne opiskeluoikeudet, jotka liittyvät tutkintoon johtavaan koulutukseen (1-7, pl. 5), erilliseen opettajankoulutukseen (14-15) ja ammattikorkeakoulujen erikoistumisopintoihin (12). 1 Ammattikorkeakoulututkinto  2 Alempi korkeakoulututkinto  3 Ylempi ammattikorkeakoulututkinto   4 Ylempi korkeakoulututkinto   5 Lääkärien erikoistumiskoulutus    6 Lisensiaatintutkinto   7 Tohtorintutkinto   8 Kotimainen opiskelijaliikkuvuus. Korkeakoulujen välisiin sopimuksiin perustuva kotimainen opiskelijaliikkuvuus. 9 Kansainvälinen vaihto. Liikkuva opiskelija suorittaa kokonaista korkeakoulututkintoa (perus- tai jatkotutkintoa) ulkomailla ja suorittaa osan opinnoistaan niin, että Suomessa suoritetut opinnot luetaan hyväksi tutkintoon. 10 Täydennyskoulutus. Opiskeluoikeuden tyyppi on täydennyskoulutus, kun oppija täydentää aiemmin hankittua osaamistaan opinnoilla, jotka eivät tuota pätevyyttä. 11 Pätevöitymiskoulutus. Poistuva opiskeluoikeuden tyyppi, ei käytetä enää vuoden 2018 tiedoista alkaen. Pätevyystiedot tuodaan VIRTAan pätevyyskoodiston arvoina. 12 Erikoistumisopinnot. Ammatilliset erikoistumisopinnot ovat ammattikorkeakoulututkintoon pohjautuvia täydennyskoulutusohjelmia, joiden laajuus on 30-60 opintopistettä. 13 Avoimen opinnot. Opiskeluoikeuden tyyppi on avoimet opinnot, kun oppija suorittaa tutkintoon johtamatonta koulutusta avoimessa yliopistossa tai ammattikorkeakoulussa. 14 Opettajan pedagogiset opinnot. Opiskeluoikeuden tyyppi on opettajan pedagogiset opinnot, kun oppija suorittaa opettajan pedagogisia opintoja erillisopintoina. 15 Ammatillinen opettajankoulutus. Opiskeluoikeuden tyyppi on ammatillinen opettajankoulutus, kun oppija suorittaa ammatillista opettajankoulutusta erillisinä opintoina. 16 Oppisopimus-tyyppinen koulutus. Opiskeluoikeuden tyyppi on korkeakoulutettujen oppisopimustyyppistä täydennyskoulutusta. 17 Valmentava koulutus. Opiskeluoikeuden tyyppi on valmentava koulutus, kun oppija suorittaa esim. maahanmuuttajien valmentavaa koulutusta. 18 Erillisoikeus. Opiskeluoikeuden tyyppi on erillinen opiskeluoikeus, kun korkeakoulu on myöntänyt oppijalle ajallisesti ja sisällöllisesti rajatun oikeuden suorittaa tietyn koulutuksen (opintojakson tai -kokonaisuuden) ilman tutkinnonsuorittamisoikeutta. Tutkintoon johtamattomat opiskeluoikeudet, jotka eivät kategorisoidu muihin opiskeluoikeuden tyyppeihin, saavat myös erillinen opiskeluoikeus -koodiarvon. 19 Erikoistumiskoulutus. Opiskeluoikeuden tyyppi on erikoistumiskoulutus.
 
 #### `Aikuiskoulutus` — Aikuiskoulutus
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Tarkentaa Opiskeluoikeuden tyyppi -koodiston arvoa 1 Ammattikorkeakoulututkinto. Jos opiskeluoikeus on tyyppiä ammattikorkeakoulututkinto ja tätä arvoa A Aikuiskoulutus ei ole tuotu, on kyseessä nuorten koulutus.
 
 #### `Siirtopaivamaara` — Siirtopäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 #### `Lahdejarj_op_oik_tunnus` — Lähdejärjestelmän opiskeluoikeustunnus
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 #### `Opintojen_aloituspaivamaara` — Opintojen aloituspäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 #### `Alkamispaivamaara` — Opiontojen alkamispäivämäärä -
 
-**Ryhmä / Group:** lukukausi_ilmoit, opiskeluoikeudet, opiskeluoikeusjakso
+**Group:** lukukausi_ilmoit, opiskeluoikeudet, opiskeluoikeusjakso
 
 #### `Paattymispaivamaara` — Opintojen päättymispäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeusjakso, opiskeluoikeudet, lukukausi_ilmoit
+**Group:** opiskeluoikeusjakso, opiskeluoikeudet, lukukausi_ilmoit
 
 #### `Avoimen_vayla` — Avoimen väylä
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Opiskeluoikeus myönnetty avoimen opintojen perusteella.
 
 #### `Maisteriohjelma` — Maisteriohjelma
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 #### `Laajuus` — Laajuus
 
-**Ryhmä / Group:** opintosuoritus, opiskeluoikeudet
+**Group:** opintosuoritus, opiskeluoikeudet
 
 #### `ens_alkpvm` — Ensisijaisuuden alkamispäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Päivämäärä, josta alkaen opinto-oikeuden ensisijaisuus on voimassa.
 
 #### `ens_paatpvm` — Ensisijaisuuden päättymispäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Päivämäärä, jolloin opinto-oikeuden ensisijaisuus päättyy.
 
 #### `organisaatio` — Organisaatio
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Organisaation koodistona toimii Tilastokeskuksen Oppilaitosrekisteri laajennettuna eräillä muilla arvoilla. Laajennusarvot koostuvat pääasiassa Tilastokeskuksen oppilaitostyyppiluokituksen arvoista.Laajennusarvoja on tarkoitus käyttää vain, mikäli varsinaista oppilaitosrekisterin oppilaitostietoa ei ole mahdollista antaa. Tilastokeskuksen Oppilaitosrekisteriä on laajennettu vain alla näkyvillä arvoilla. 42 Yliopistot, 
 41 Ammattikorkeakoulut, 
@@ -317,17 +317,17 @@ Tilastokeskuksen Oppilaitosrekisteri löytyy Tilastokeskuksen sivustolta osoitte
 
 #### `org_rooli` — Organisaation rooli
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 Organisaation rooli liittyy tilanteeseen, jossa varsinainen organisaatiotieto liittyy johonkin toiseen tietoon ja liitokseen liittyen on jokin rooli. 1 = Myöntävä. Ilmaisee sitä organisaatiota, jonka omistamasta tiedosta on kyse. 2 = Järjestävä. Ilmaisee sitä organisaatiota, joka on osallistunut kyseenomaisen tiedon syntymisen järjestämiseen tai toteuttamiseen. 3 = Lähde. Ilmaisee sitä organisaatiota, joka on kyseenomaisen tiedon syntymisen alkuperäinen lähde. 4 = Kohde. Ilmaisee sitä organisaatiota, jonka kyseenomaiseen tietoon liittyen on olemassa liikkuvuutta/siirtyvyyttä ja tässä ilmoitettava organisaatio on siirtymisen kohde. 9 = Tuntematon.
 
 #### `org_osuus` — organisaatio osuus
 
-**Ryhmä / Group:** opiskeluoikeudet
+**Group:** opiskeluoikeudet
 
 #### `koulutuskoodi` — Koulutusluokitus
 
-**Ryhmä / Group:** opiskeluoikeusjakso
+**Group:** opiskeluoikeusjakso
 
 Koulutusluokitus on tutkintoon johtavan koulutuksen yhteismitallisuuden tärkein luokitteleva tekijä korkeakoulujen valtakunnallisen tietovarannon käyttöönoton myötä. Koulutusluokitusta ylläpitää Tilastokeskus. Korkeakoulujen vastuulla on Tilastokeskuksen ohjeiden mukaisesti luokitella koulutusluokituksen koodiarvoilla tutkintoon johtavan koulutuksen opiskeluoikeudet ja tutkintolajiset opintosuoritukset. Mahdollisesti tarpeellisia uusia koodiarvoja koulutusluokitukseen määritellään Tilastokeskuksen johdolla yhteistyössä korkeakoulujen sekä opetus- ja kulttuuriministeriön kesken osana korkeakoulujen tietomallin ja korkeakoulujen valtakunnallisen tietovarannon ylläpitoa.  Luokitus on käytettävissä tutkintolajisille opintosuorituksille ja tutkintoon johtavan koulutuksen opiskeluoikeuksille. Muille opintosuorituksille ja opiskeluoikeuksille käytetään Koulutusala-koodistoa tai Opintoala-koodistoa.
 
@@ -335,7 +335,7 @@ Koulutusluokitus on tutkintoon johtavan koulutuksen yhteismitallisuuden tärkein
 
 #### `rahoituslahde_koodi` — Rahoituslähde
 
-**Ryhmä / Group:** opiskeluoikeusjakso
+**Group:** opiskeluoikeusjakso
 
 Rahoituslähde. 
 1 = Perusrahoitus on Opetushallinnon (tai ammattikorkeakoulun) rahoittama koulutus
@@ -345,55 +345,55 @@ Rahoituslähde.
 
 #### `Koulutusmoduulitunniste` — Koulutusmoduulin nimi
 
-**Ryhmä / Group:** opiskeluoikeusjakso, opintosuoritus
+**Group:** opiskeluoikeusjakso, opintosuoritus
 
 Korkeakoulun anatama koulutusmoduulitunniste
 
 #### `Valtakunn_koul_mod_tunniste` — Valtakunnallinen koulutusmoduulitunniste
 
-**Ryhmä / Group:** opintosuoritus, opiskeluoikeusjakso
+**Group:** opintosuoritus, opiskeluoikeusjakso
 
 Tuleva valtakunnallinen koulutusmoduulitunniste.
 
 #### `opiskelija_avain_s` — suojattu opiskelija avain
 
-**Ryhmä / Group:** opiskelijat, opintosuoritus, lukukausi_ilmoit
+**Group:** opiskelijat, opintosuoritus, lukukausi_ilmoit
 
 savain=sHenkiloavain=sopiskavain
 
 #### `Ilmoittautumispaivamaara` — Ilmoittautumispäivämäärä
 
-**Ryhmä / Group:** lukukausi_ilmoit
+**Group:** lukukausi_ilmoit
 
 Päivämäärä, jolloin lukukausi-ilmoittautuminen on tehty.
 
 #### `Ylioppilaskunnan_jasen` — Ylioppilaskunnan jäsen
 
-**Ryhmä / Group:** lukukausi_ilmoit
+**Group:** lukukausi_ilmoit
 
 #### `YTHS_maksu` — YTHS-maksu
 
-**Ryhmä / Group:** lukukausi_ilmoit
+**Group:** lukukausi_ilmoit
 
 YTHS-maksutieto kerätään pakollisena kaikista korkeakouluista, joiden opiskelijoilla YTHS-maksu on käytössä.
 
 #### `ilmoittautumisen_tila_koodi` — Lukukausi-ilmoittautumisen tila
 
-**Ryhmä / Group:** lukukausi_ilmoit
+**Group:** lukukausi_ilmoit
 
 Lukukausi-ilmoittautumisen tilatieto tarkentaa opiskeluoikeuden tilakoodia "aktiivinen". Aktiivisten opiskeluoikeusjaksojen koko ajalta tulee olla tallennettuna myös lukukausi-ilmoittautumistieto. Lukukausi-ilmoittautumisen laiminlyöminen voi johtaa opiskeluoikeuden menettämiseen (opiskeluoikeuden tila -koodistossa arvo ”passivoitu”). Lukukausi-ilmoittautumisen tila kohdistuu lukukausi-ilmoittautumiseen, joka liittyy joko opiskelijaan (kyseessä korkeakouluun ja opiskelijaan liitetty tieto) tai yksittäiseen opiskeluoikeuteen (kyseessä korkeakouluun, opiskelijaan ja opiskeluoikeuteen liitetty tieto). Lukukausi-ilmoittautumisen tilatieto voi vaihtua kesken lukukauden. 1 = Läsnä. Lukukausi-ilmoittautumisen tila on läsnä silloin, kun opiskelija on ilmoittautunut korkeakoulun prosessin mukaisesti läsnäolevaksi opiskelijaksi. 2 = Poissa. Lukukausi-ilmoittautumisen tila on poissa silloin, kun opiskelija on ilmoittautunut korkeakoulun prosessin mukaisesti poissaolevaksi opiskelijaksi ja poissaolon syy on muu kuin koodin 3 mukainen lakisääteinen syy. 3 = Poissa, ei kuluta opintoaikaa. Lukukausi-ilmoittautumisen tila ”poissa, ei kuluta opintoaikaa” koskee sekä ammattikorkeakoulujen että yliopistojen opiskeluoikeutta rajaavissa laeissa määriteltyä poissaoloa, jossa poissaolon syynä on asevelvollisuuslain, siviilipalveluslain tai naisten vapaaehtoisesta asepalveluksesta annetun lain mukaisen palvelun suorittaminen tai äitiys-, isyys- tai vanhempainvapaan pitäminen. 4 = Puuttuu. Lukukausi-ilmoittautumisen tila on voitu kirjata koodiarvolle puuttuu silloin kun opiskeluoikeuteen on liitetty lukukausitieto, mutta ilmoittautumistietoa ei ole (null) tai se on merkitty puuttuvaksi.
 
 #### `ilmoittutumisen_tila_selite` — Lukukausi-ilmoittautumisen tilan selite
 
-**Ryhmä / Group:** lukukausi_ilmoit
+**Group:** lukukausi_ilmoit
 
 #### `opiskeluoikeus_avain_s` — Opiskeluoikeuden avain
 
-**Ryhmä / Group:** lukukausi_ilmoit, opintosuoritus, opiskeluoikeudet, opiskeluoikeusjakso
+**Group:** lukukausi_ilmoit, opintosuoritus, opiskeluoikeudet, opiskeluoikeusjakso
 
 #### `Opiskeluoikeus_Tyyppi` — Opiskeluoikeuden tyyppi
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opiskeluoikeudella voi olla koko olemassaolonsa aikana vain yksi opiskeluoikeuden tyyppi. Korkeakoulujen valtakunnalliseen tietovaranto sisältää ne opiskeluoikeudet, jotka liittyvät tutkintoon johtavaan koulutukseen (1-7, pl. 5), erilliseen opettajankoulutukseen (14-15) ja ammattikorkeakoulujen erikoistumisopintoihin (12).
 
@@ -418,11 +418,11 @@ Opiskeluoikeudella voi olla koko olemassaolonsa aikana vain yksi opiskeluoikeude
 
 #### `Opiskeluoikeus_Siirtopvm` — Opiskeluoikeuden siirtopäivämäärä
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 #### `Arvosana` — Arvosana
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Suorituksen arvosana.
 Viisiportainen: HYV hyväksytty, 1,   2,   3,   4,   5,
@@ -436,7 +436,7 @@ Muu-arvosana-asteikon
 
 #### `Arvosana_Asteikko` — Arvosana-asteikko
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Käytetty arvosana-asteikko.
 Viisiportainen
@@ -447,35 +447,35 @@ Ei käytössä
 
 #### `Tutkinto_Koodi` — Tutkinnon koodi
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Tilastokeskuksen koulutusluokituksen mukainen koodi.
 
 #### `Opetusharjoittelun_Koodi` — Opetusharjoittelun koodi
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 tietoa ei kerätä
 
 #### `Opintosuorituksen_laji` — Opintosuorituksen laji
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintosuorituksen laji. 1 = Tutkinto. Opintosuoritus on tutkinnon suoritus. Tiedon perusteella päättyneestä opiskeluoikeudesta tiedetään, että opiskeluoikeus on päättynyt valmistumiseen. 2 = Muu opintosuoritus 3 = Ei huomioitava. Väliaikainen suoritustieto joka on ositettu tiedonkeruujaksolle myöhemmin syntyvästä suorituksesta. "Osasuoritus" vain Kelaa varten. 4 = Oppilaitoksen sisäinen. Väliaikainen suoritustieto, jota voidaan käyttää opintosuorituksen sisäiseen tiedon tallentamiseen lähinnä opettajan tarpeisiin. Ei huomioida suoritusotteella.
 
 #### `Koulutusaste` — Koulutusaste
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 #### `Luokittelu` — Opintosuorituksen luokittelu
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintosuoritus voi saada opintosuorituksen luokittelu -koodistosta nolla, yksi tai monta luokittelevaa arvoa. 1 = Suoritus on avoimessa korkeakouluopetuksessa suoritettu 2 = Suoritus on saapuvan kansainvälisen vaihto-opiskelijan suorittama 3 = Suoritus on korkeakoulujen välisillä yhteistyösopimuksilla opiskelevan suorittama 4 = Suoritus on erillisellä opiskeluoikeudella opiskelevan suorittama 5 = Suoritus on erillisellä opiskeluoikeudella opettajankoulutuksen opintoja suorittavan opiskelijan suorittama 6 = Suoritus on maahanmuuttajien valmentavassa koulutuksessa opiskelevan suorittama 7 = Suoritus on kotimainen harjoittelu 8 = Suoritus on ulkomainen harjoittelu 9 = Suoritus on kansainvälinen yhteistutkinto 10 = Suoritus on kansainvälinen kaksoistutkinto 11 = Suoritus on erikoistumiskoulutuksessa suoritettu 12 = Suoritus on korkeakoulujen välisillä yhteistyösopimuksilla opiskelevan suorittama ja kirjattu varsinaisena suorituksena opiskelijan kotikorkeakoulussa 13 = Opintosuoritus on täydennyskoulutuksessa suoritettu 14 = Suoritus on suomi/ruotsi vieraana kielenä 15 = Suoritus sisältää kotimaista harjoittelua
 
 #### `Organisaatio_Koodi` — Organisaatiokoodi
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Organisaation koodistona toimii Tilastokeskuksen Oppilaitosrekisteri laajennettuna eräillä muilla arvoilla. Laajennusarvot koostuvat pääasiassa Tilastokeskuksen oppilaitostyyppiluokituksen arvoista.Laajennusarvoja on tarkoitus käyttää vain, mikäli varsinaista oppilaitosrekisterin oppilaitostietoa ei ole mahdollista antaa. Tilastokeskuksen Oppilaitosrekisteriä on laajennettu vain alla näkyvillä arvoilla. 42 Yliopistot, 
 41 Ammattikorkeakoulut, 
@@ -491,93 +491,93 @@ Tilastokeskuksen Oppilaitosrekisteri löytyy Tilastokeskuksen sivustolta osoitte
 
 #### `Organisaatio_Rooli` — organisaation rooli
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Organisaation rooli liittyy tilanteeseen, jossa varsinainen organisaatiotieto liittyy johonkin toiseen tietoon ja liitokseen liittyen on jokin rooli. 1 = Myöntävä. Ilmaisee sitä organisaatiota, jonka omistamasta tiedosta on kyse. 2 = Järjestävä. Ilmaisee sitä organisaatiota, joka on osallistunut kyseenomaisen tiedon syntymisen järjestämiseen tai toteuttamiseen. 3 = Lähde. Ilmaisee sitä organisaatiota, joka on kyseenomaisen tiedon syntymisen alkuperäinen lähde. 4 = Kohde. Ilmaisee sitä organisaatiota, jonka kyseenomaiseen tietoon liittyen on olemassa liikkuvuutta/siirtyvyyttä ja tässä ilmoitettava organisaatio on siirtymisen kohde. 9 = Tuntematon.
 
 #### `Hyvaksilukupaivamaara` — Suorituksen hyväksilukemisen päivämäärä
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Suorituksen hyväksilukemisen päivämäärä on tieto siitä, milloin opintosuoritus on hyväksytty tai kirjattu kyseisen korkeakoulun rekisteriin. Hyväksilukemisen päivämäärä on hyväksiluvun tekevän korkeakoulun hallinnollisen päätöksen päivämäärä eli hyväksiluvun tuloksena uuden suorituksen rekisteriinsä myöntävän korkeakoulun toimenpide.
 
 #### `Opinnaytetyo` — Suoritus opinnäytetyönä
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintosuoritus on suoritettu opinnäytetyönä.
 
 #### `Hankkeistettu` — Suoritus hankkeistettuna
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintosuoritus on suoritettu hankkeistettuna.
 
 #### `Nimi` — Suorituksen nimi
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintosuorituksen nimi.
 
 #### `Opintoviikkolaajuus` — Suorituksen opintoviikkolaajuus
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintoviikkolaajuus on lisätiedon omainen erillinen tieto, joka voi olla suorituksella opintopistelaajuuden lisäksi.
 
 #### `Tki_toiminnan_laajuus` — Tutkimus- ja kehittämistoiminnan laajuus opinnäytetyössä
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Tutkimus- ja kehittämistoiminnan (TKI) laajuus opinnäytetyössä.
 
 #### `Tki_harjoittelun_laajuus` — Tutkimus- ja kehittämistoiminnan harjoittelun laajuus
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Tutkimus- ja kehittämistoiminnan (TKI) harjoittelun laajuus.
 
 #### `Tki_muut_laajuus` — Tutkimus- ja kehittämistoiminnan muu laajuus
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Tutkimus- ja kehittämistoiminnassa (TKI) suoritetut opintopisteet, jotka eivät kuulu harjoitteluun tai opinnäytetyöhön.
 
 #### `Lisatiedot` — Lisätiedot
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Suorituksen mahdolliset, vain julkiset lisätiedot.
 
 #### `Lehtitaso` — Lehtitaso
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 #### `perustutkinto` — Perustutkinto
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 #### `patevyys` — Pätevyys
 
-**Ryhmä / Group:** opiskeluoikeusjakso
+**Group:** opiskeluoikeusjakso
 
 Pätevyystiedolla tarkoitetaan sellaista muodollista pätevyyttä, jota korkeakoulun ulkopuolinen viranomainen valvoo tai rekisteröi. 
 Luokitus löytyy verkosta sivulla https://confluence.csc.fi/display/VIRTA/Tietovarannon+koodistot#Tietovarannonkoodistot-Pätevyys,Behörighet
 
 #### `patevyys_alkpvm` — Pätevyyden alkamispäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeusjakso
+**Group:** opiskeluoikeusjakso
 
 #### `patevyys_paatpvm` — pätevyyden päättymispäivämäärä
 
-**Ryhmä / Group:** opiskeluoikeusjakso
+**Group:** opiskeluoikeusjakso
 
 #### `suorituspaivamaara` — Suorituksen päivämäärä
 
-**Ryhmä / Group:** opintosuoritus
+**Group:** opintosuoritus
 
 Opintosuorituksen päivämäärä
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

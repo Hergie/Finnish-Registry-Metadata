@@ -13,7 +13,7 @@
 <a href= "https://stat.fi/tilasto/ksyyt">Kuolemansyytilastot</a>
 - **Keywords:** alkoholi,itsemurhat,kuolemansyyt,kuolintodistukset,kuolleisuus,lapsikuolleisuus,liikennekuolemat,perinataalikuolleisuus,päihteet,ruumiinavaus,tapaturmat,taudit,työtapaturmat,väkivalta,äitiyskuolleisuus
 
-## Kuvaus / Description
+## Description
 
 Tilastokeskus tuottaa vuosittain tilastot kuolleista, kuolleiden kuolemansyistä ja kuoleman olosuhteista ja ylläpitää kuolintodistusarkistoa, josta voidaan luovuttaa kuolintodistuksen tietoja tai kuolintodistuskopioita laissa määriteltyihin tarkoituksiin. Kuolemansyyaineisto perustuu kuolintodistuksen tietoihin. Tietoja täydennetään ja tarkistetaan Digi- ja väestötietoviraston väestötietojärjestelmän kuolleiden tiedoilla. Tutkimuskäyttöön on muodostettu kuolemansyyaineisto joka sisältää tietoja vuodesta 1971 eteenpäin. Aineistossa on mukana myös tilastosta myöhästyneet ja päivittyneet kuolemansyytiedot läsnä olevalle väestölle. Tiedot eivät vastaa vuosittaisia SVT-tilastojulkistuksia.
 
@@ -86,9 +86,9 @@ Vuosina 1987-1995 käytössä kansallinen Tautiluokitus 1987, johon tehty seuraa
  
 Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että ulkoiset syyt alkavat E-kirjaimella (800-999 --> E800-E999).
 
-## Muuttujat / Variables (69)
+## Variables (69)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `kvuosi` | Kuolinvuosi | — | — | — |
 | `kuolpv` | Kuolinpäivä (vvvv-kk-pp) | — | — | — |
@@ -160,7 +160,7 @@ Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että u
 | `huumeet` | Huumeluokitus | — | — | — |
 | `paihtymys` | Päihtymystyyppi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `kvuosi` — Kuolinvuosi
 
@@ -278,7 +278,7 @@ Voi käyttää vuodesta 2014 lähtien. Kuolintodistukselta lääkärin ilmoittam
 
 #### `kuolmaa` — Kuolinmaa
 
-**Luokitus / Classification:** valtio_12_1999_05_10
+**Classification:** valtio_12_1999_05_10
 
 Henkilön kuolinmaa. Kuolinmaa saadaan kuolintodistukselta, joten jos henkilöllä on vain VTJ-tieto kuolemasta, kuolinmaasta ei ole tietoa.
 
@@ -791,7 +791,7 @@ blanco = ei tapaturmainen kuolema
 
 #### `ulkos` — Tapaturman tai väkivallan ulkoinen syy
 
-**Luokitus / Classification:** kuolinsyyt_71_1996_01_01
+**Classification:** kuolinsyyt_71_1996_01_01
 
 Tieto vuodesta 1996 lähtien. 
 
@@ -904,4 +904,4 @@ Huume/lääkeainepäihtymys: myötävaikuttavassa syyssä esiintyy T360-T509
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -14,7 +14,7 @@ Tilastokeskuksen yritys- ja toimipaikkarekisteri
 - **Related:** <a href= "http://tilastokeskus.fi/til/yrti/index.html">Yritysten rakenne- ja tilinpäätöstilasto</a> <a href= "http://www.stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_tilinpaatosaineistot.html">Tilinpäätösaineistot</a>
 - **Keywords:** Yritykset
 
-## Kuvaus / Description
+## Description
 
 Yritysten rakenne- ja tilinpäätöstilaston tietoihin pohjautuva aineisto sisältää tietoja yritysten tuloslaskelmasta ja taseesta sekä tuottojen ja kulujen erittelystä. Yritysten tilinpäätöstiedoilla kuvataan toimialojen tuloksen muodostumista, kannattavuutta ja taseen rakennetta.
 
@@ -106,9 +106,9 @@ Kynnysarvosäännön rinnalla tulee soveltaa dominanssisääntöä 2 (1,75) tuor
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (307)
+## Variables (307)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yritysid_s` | Suojattu yritysID | — | — | taustatiedot |
 | `yrtun_s` | Suojattu yritystunnus | — | — | taustatiedot |
@@ -418,155 +418,155 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `HyodPalvTot` | Hyödykkeiden ja palveluiden ostot yhteensä | — | — | — |
 | `EBSTilastoyksikko` | EBSTilastoyksikko | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `yritysid_s` — Suojattu yritysID
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus (yrtun_s). Saatavissa vuodesta 2013 lähtien. Yritysyksiköllä (yritysid_s) voi esiintyä useampi kuin yksi oikeudellinen yksikkö (yrtun_s) vuodesta 2018 lähtien. Yritysyksikköjä on toistaiseksi muodostettu lähinnä suuremmista konserniyrityksistä. Koska aineiston tiedot ovat edelleen oikeudellisen yksikön tasolla, syritysid-tunnisteen käyttöä ei suositella. Valmisaineistot yhdistyvät edelleen yrtun_s-tunnisteella.
 
 #### `yrtun_s` — Suojattu yritystunnus
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).
 
 #### `vuosi` — Vuosi
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Tilastovuosi
 
 #### `konserniID_s` — Suojattu konsernitunnus
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Konsernitunnus jolla identifioidaan konserni konsernirekisterissä. Tieto alkaen tilastovuodesta 2018.
 
 #### `AineellinenKayttoOmLis` — Aineellinen käyttöomaisuus; lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttöomaisuus_väh&lis
+**Unit:** € · **Group:** käyttöomaisuus_väh&lis
 
 (LISANLYH) Aineellisen käyttöomaisuuden lisäykset. Aineelliseen käyttöomaisuuteen luetaan maa-, vesi- ja metsäalueet (rakentamattomat), rakennukset ja muut kiinteistöt sekä koneet ja kalusto ja muu aineellinen käyttöomaisuus. Kiinteistöt-erä sisältää sijoituskiinteistöt ja omassa käytössä olevat kiinteistöt. Rakennukset ja rakennelmat sekä maa- ja vesirakennukset luetaan investointeihin sille tilastokaudelle, jolloin ne on maksettu. Muu käyttöomaisuus luetaan investointeihin sille tilastokaudelle, jolloin käyttöomaisuus siirtyy ostajan tai vastaanottajan käyttöön. Ko_MaaVesiAlueLis + Ko_MaaVesiRakenSahkLampoVerkLis + Ko_RakenLis + Ko_KoneKalustoLis + Ko_MuutAineellHyodykeLis + Ko_EnnakKeskRakenMaaVesiAlueLis +Ko_EnnakkoKeskenerKoneKalustoLis
 
 #### `AineellinenKayttoOmVah` — Aineellinen käyttöomaisuus; vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttöomaisuus_väh&lis
+**Unit:** € · **Group:** käyttöomaisuus_väh&lis
 
 (VAHANLYH) Aineellisen käyttöomaisuuden vähennykset. Aineelliseen käyttöomaisuuteen luetaan maa-, vesi- ja metsäalueet (rakentamattomat), rakennukset ja muut kiinteistöt sekä koneet ja kalusto ja muu aineellinen käyttöomaisuus. Kiinteistöt-erä sisältää sijoituskiinteistöt ja omassa käytössä olevat kiinteistöt. Rakennukset ja rakennelmat sekä maa- ja vesirakennukset luetaan investointeihin sille tilastokaudelle, jolloin ne on maksettu. Muu käyttöomaisuus luetaan investointeihin sille tilastokaudelle, jolloin käyttöomaisuus siirtyy ostajan tai vastaanottajan käyttöön. Ko_MaaVesiAlueVah + Ko_MaaVesiRakenSahkLampoVerkVah + Ko_RakenVah + Ko_KoneKalustoVah + Ko_MuutAineellHyodykeVah + Ko_EnnakKeskRakenMaaVesiAlueVah + Ko_EnnakkoKeskenerKoneKalustoVah
 
 #### `AineTarvikeKaytto` — Aine- ja tarvikekäyttö
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (AINETARV) Aine- ja tarvikekäyttö. Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoidut työkalut ja työvälineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.). Aineisiin ja tarvikkeisiin ei lueta konttori- tai pakkaustarvikkeita. Ku_OstotYht - Vm_AineTarvTavaraVarastMuutos
 
 #### `AineTarvTilikAl` — Aineet ja tarvikkeet tilikauden alussa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä
+**Unit:** € · **Group:** taseen_erä
 
 (VOALMANT) Aineet ja tarvikkeet tilikauden alussa. Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoidut työkalut ja työvälineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.). Aineisiin ja tarvikkeisiin ei lueta konttori- tai pakkaustarvikkeita.
 
 #### `Alkuperamaa` — Alkuperämaa
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 (ALKUPERAMAA) Yrityksen merkittävimmän ulkomaisen omistajakonsernin/omistajan alkuperäinen sijaintimaa. Vrt. sijoittajamaa.
 
 #### `er_HankAineelLeasingTavaraArvo` — Hankitun aineellisen leasingtavaran arvo
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (HANKLEAS) Hankitun aineellisen leasing-tavaran arvo, Vain rahoitusleasing-sopimuksella käyttöön hankitun käyttöomaisuuden arvo tai laskennallinen arvo. Arvo ilmoitetaan tilikaudella, jolloin rahoitusleasing-sopimus alkaa. Arvoon ei sisällytetä rahoitusleasing-sopimuksella hankitusta käyttöomaisuudesta maksettua vuotuista vuokraa.
 
 #### `er_JoukkoVelkakLaina` — Joukkovelkakirjat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (JVELKAKI) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat joukkovelkakirjalainat.
 
 #### `er_Korollinen` — Korollinen vieras pääoma
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (KKORVPO) Korollinen vieras pääoma. Korollisten velkojen määrä taseen pitkä- ja lyhytaikaisesta vieraasta pääomasta sekä pääomalainat.
 
 #### `er_KorSiirtosaam` — Siirtyvien korkojen osuus siirtosaamisista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä_vastaavaa
+**Unit:** € · **Group:** tilkes, taseen_erä_vastaavaa
 
 Siirtyvien korkojen osuus siirtosaamisista. Vaihtuvien vastaavien siirtosaamisiin sisältyvien vielä saamatta olevien (kertyneiden maksamattomien) korkojen määrä.
 
 #### `er_KorSiirtovel` — Siirtyvien korkojen osuus siirtoveloista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä_vastattavaa, tilkes
+**Unit:** € · **Group:** taseen_erä_vastattavaa, tilkes
 
 Siirtyvien korkojen osuus siirtoveloista. Vieraan pääoman siirtovelkoihin sisältyvien (kertyneiden maksamattomien) korkojen määrä.
 
 #### `er_MuutRahOmaisArvopap` — Muut rahoitusomaisuusarvopaperit
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (MUARVOP) Muut Vaihtuvien vastaavien rahoitusarvopaperit.
 
 #### `er_OsakeOsu` — Osakkeet ja osuudet yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (OSAKOSYH) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat osakkeet ja osuudet.
 
 #### `er_RahaMarkInstru` — Rahoitusmarkkinainstrumentit
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (RMARKINS) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat rahamarkkinainstrumentit. Rahamarkkinainstrumentit ovat lyhytaikaisia (enintään vuoden mittaisia), jälkimarkkinakelpoisia velkakirjoja. Niitä laskevat liikkeelle pankit, muut rahalaitokset, yritykset, kunnat ja valtio.
 
 #### `er_SaadEnnLyhytAikVel` — Saadut ennakot taseen lyhytaikaisista veloista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (TLVPSAEN) Saadut ennakot taseen lyhytaikaisista veloista. Erä sisältää saadut ennakkomaksut, jotka on ilmoitettu Taseen vastattavaa- puolen lyhytaikaisen vieraan pääoman erässä.
 
 #### `er_SaadEnnPitkaAikVel` — Saadut ennakot taseen pitkäaikaisista veloista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (TPVPSAEN) Saadut ennakot taseen pitkäaikaisista veloista. Erä sisältää saadut ennakkomaksut, jotka on ilmoitettu Taseen vastattavaa- puolen pitkäaikaisen vieraan pääoman erässä.
 
 #### `er_TilikausiAktivKehMeno` — Tilikaudella aktivoidut tutkimus ja kehittämismenot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (AVTUTKEH) Tilikaudella taseeseen aktivoidut tutkimus- ja kehittämismenot. Tutkimus- ja kehittämistoiminnalla (t&k) tarkoitetaan systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämistä uusien sovellusten löytämiseksi. Kriteerinä on, että toiminnan tavoitteena on kehittää jotain oleellisesti uutta. Tutkimus- ja kehittämistoimintaan sisällytetään perustutkimus, soveltava tutkimus sekä kehittämistyö.
 
 #### `er_TilikausiAktivKorkoMeno` — Tilikaudella aktivoidut korkokulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (AVKORKOK) Tilikaudella aktivoitujen korkomenojen määrä pysyvien vastaavien hankintamenoista.
 
 #### `er_TilikausiAktivKurssiTappio` — Tilikaudella aktivoidut kurssitappiot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (AVLISAYS) Tilikaudella taseeseen aktivoidut kurssitappiot.
 
 #### `er_TilikausiAktivMarkkMeno` — Tilikaudella aktivoidut markkinointimenot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (AVMARKKI) Tilikaudella taseeseen aktivoidut markkinointimenot. Erä sisältää yrityksen mainos- , myynti- ja markkinointikulut.
 
 #### `ErittInvLaatukoodi` — Liikevaihdon ja kulujen erittelyjen sekä investointien laatukoodi
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 Liikevaihdon ja kulujen erittelyjen sekä investointien laatukoodi
 
 #### `EUMukTuotBruttoarvo` — EU;n mukainen tuotannon bruttoarvo
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (BRAEU) Tuotannon bruttoarvo (EU;n määritelmän mukainen, ei sisällä tuotetukipalkkiota). Tuotannon bruttoarvo mittaa toimipaikan tosiasiallista tuotantoa. Tuotantotoimintaan lasketaan mukaan liikevaihdon lisäksi kaikki tuotantoon liittyvät tuotot, myös valmistus omaan käyttöön ja valmistus, joka toimitetaan yrityksen muille toimipaikoille. Kauppatavaroiden hankinta vähennetään tuotoista, jotta tuotantotoimintaan saadaan mukaan vain kauppatavaroiden myynnistä syntyvä marginaali. Bruttoarvon laskentakaava:
 Liikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön + valmistevarastojen muutos + valmistus omaan käyttöön + liiketoiminnan muut tuotot
@@ -574,7 +574,7 @@ Liikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön + valmiste
 
 #### `EUMukTuotJalostusarvo` — EU;n mukainen tuotannon jalostusarvo
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (JALEU) Tuotannon jalostusarvo (EU;n arvonlisäys perushintaan, sisältää tukipalkkiot). Jalostusarvo mittaa toimipaikan varsinaisessa tuotantotoiminnassa eri tuotannontekijöiden tuottamaa yhteenlaskettua arvonlisäystä. Jalostusarvo lasketaan tuotantotoiminnasta saatujen tuottojen ja toiminnasta aiheutuneiden kustannusten erotuksena. Määritelmän mukaan kustannuksiin ei sisällytetä toimipaikan työvoimasta aiheutuvia kustannuksia.
 Jalostusarvon laskentakaava: Liikevaihto + toimitukset yrityksen muiden toimipaikkojen käyttöön + valmistevarastojen muutos + valmistus omaan käyttöön + liiketoiminnan muut tuotot
@@ -582,374 +582,374 @@ Jalostusarvon laskentakaava: Liikevaihto + toimitukset yrityksen muiden toimipai
 
 #### `Fuusiotieto` — Fuusiokorjaustieto
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 (FUUSIO) Fuusiokorjaustieto.LUOV   Fuusiotapauksen luovuttajayritys.VAST   Fuusiotapauksen vastaanottajayritys.
 
 #### `globaalitoimintaVuosi` — Yrityksellä on globaalia toimintaa
 
-**Ryhmä / Group:** johdetut_muuttujat
+**Group:** johdetut_muuttujat
 
 Globaali toiminta, perustuu Tilkes-kyselyn lv_sis-muuttujiin. Saa arvot: 0 Ei luokiteltu, 1 Valmistuttaminen ulkomailla, 2 Valmistuttaminen Suomessa, 3 Välityskauppa ulkomailla, 4 Tehtaaton valmistuttaminen ulkomailla, Z Tuntematon
 
 #### `henkmaara` — Henkilöstömäärä
 
-**Yksikkö / Unit:** lkm · **Ryhmä / Group:** taustatiedot
+**Unit:** lkm · **Group:** taustatiedot
 
 (HENKMAARA) Henkilöstön määrä. Henkilöstö käsittää palkansaajat ja yrittäjät (palksaajhtv+yrittäjät). Henkilöstö on muunnettu kokovuosityöllisiksi siten, että esimerkiksi puolipäiväinen työntekijä vastaa puolta henkilöä ja kaksi puolivuotista työntekijää vastaa yhtä kokovuosityöllistä.
 
 #### `JaetPaatOsinkoYht` — Jaettavaksi päätetty osinko yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taustatiedot
+**Unit:** € · **Group:** taustatiedot
 
 (EHDOSING) Yhtiön päätös voitonjaosta. Tilikaudelta päätetty/ehdotettu osingonjako, jaettavaksi päätetty osinko yhteensä.
 
 #### `k_PakVarYht` — PAKOLLISET VARAUKSET YHTEENSÄ
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, taseen_erä
+**Unit:** € · **Group:** tilkes, taseen_erä
 
 (KVARPAKO) Pakolliset varaukset yhteensä. Erä sisältää Taseen vastattavaa puolen eläkevaraukset, verovaraukset sekä muut pakolliset varaukset yhteensä. Pakolliset varaukset ovat menoja, joiden suorittamiseen on sitouduttu ja ovat todennäköisiä vastaisia menetyksiä.
 
 #### `k_TilPaatSiirtKertYht` — TILINPÄÄTÖSSIIRTOJEN KERTYMÄ YHTEENSÄ
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä, tilkes
+**Unit:** € · **Group:** taseen_erä, tilkes
 
 (KVARVEY) Tilinpäätössiirtojen kertymä yhteensä. Erä sisältää Taseen vastattavaa puolen poistoeron ja vapaaehtoiset varaukset yhteensä. Poistoero on kirjanpidossa tehtyjen kokonaispoistojen ja suunnitelman mukaisten poistojen kumulatiivinen erotus. Negatiivista poistoeroa ei taseessa voi olla. Vapaaehtoiset varaukset ovat kirjanpitovelvollisen tekemiä jälleenhankinta-, toiminta-, hinnanlasku-, asuintalo- yms. varauksia.
 
 #### `KauppatavTilikAl` — Kauppatavarat tilikauden alussa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen_erä
+**Unit:** € · **Group:** taseen_erä
 
 (VOALKAUP) Kauppatavaroiden varastot (ml. myytäväksi hankitun sähkön ja lämmön hankinta) tilikauden alussa. Kauppatavaroilla tarkoitetaan niitä hyödykkeitä, jotka yritys on ostanut myytäväksi edelleen ilman jatkokäsittelyä. Kauppatavaroiksi luetaan myös raaka-aineet, jotka yritys on ostanut myytäväksi eteenpäin sellaisenaan.
 
 #### `Kayttokate` — Käyttökate
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 Käyttökate ilman oikaisuja. Käyttökate kertoo yrityksen liiketoiminnan tuloksen ennen poistoja ja rahoituseriä. Käyttökatetta ei esitetä virallisen tuloslaskelman välituloksena.
 
 #### `KayttokateOik` — KÄYTTÖKATE (oikaistu)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (KAYTKATE)  Käyttökate kertoo yrityksen liiketoiminnan tuloksen ennen poistoja ja rahoituseriä. Käyttökatetta ei esitetä virallisen tuloslaskelman välituloksena. Käyttökatetta oikaistu; Liikevaihto + Tu_LiiketoimMuutYht - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto - MaterPalvYht - Ku_HenkilostoYht - LaskennPalkKorj + Tu_ValmOmaKaytto + vm_ValmKeskErTuotVarastMuutos - Ku_LiiketoimMuutYht + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio
 
 #### `ke_AineTarv` — Aineiden ja tarvikkeiden hankinta (pl. energia, pakk.aineet)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULMUAIN) Aineiden ja tarvikkeiden hankinta (pl. energia, pakkausaineet). Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoitavat työkalut ja välineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.), mutta ei konttori- yms. tarvikkeita. Ilman varastojen muutoksia.
 
 #### `ke_AlihankTyo` — Alinhankintatyöt
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULALIHA) Alihankintatyöt. Alihankkijalle maksettu korvaus tehdystä työstä, joka kohdentuu tuotteiden valmistukseen tai myytäviin palveluihin. Toimeksiantajan katsotaan osallistuvan tuotteen tuottamiseen, kun se toimittaa alihankkijayritykselle vähintään osittaiset tekniset ohjeet. Toimeksiantaja myy edelleen alihankinnan kohteena olleen tuotteen joko sellaisenaan tai tuotteen osana ja ottaa kaupan jälkeisen vastuun tuotteesta. Ei sisällä yrityksen oman henkilöstön henkilöstökuluja.
 
 #### `ke_Arvopaphank` — Arvopapereiden hankinta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 Arvopapereiden hankinta. Yrityksen vaihto-omaisuuteen kuuluvien arvopaperien hankinta tilikaudella.
 
 #### `ke_ATKSuunOhjelmointi` — Atk-suunnittelu- ja ohjelmointikulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULATK) Atk- suunnittelu- ja ohjelmointikulut. Sisältää yrityksen ulkopuolelta hankitut, asiakkaan laskuun tapahtuvat atk-palvelut. Tällaisia palveluja ovat automaattiseen tietojenkäsittelyyn liittyvä laitteisto- ja ohjelmistokonsultointi,  ohjelmistojen suunnittelu ja valmistus, tietokone- ja käsittelypalvelutoiminta, tietokantaisännöinti,  konttori- ja tietokoneiden korjaus ja huolto, muu tietojenkäsittelypalvelu, esim. systeemityöpalvelu, atk-ohjelmistojen ylläpitopalvelu sekä  atk-ohjelmistokonsultointi. Tähän ei kuulu  atk-laitteiden vuokraus ja käyttöleasing, oppilaitosten ja muiden koulutusta antavien yksiköiden atk-opetus, atk-pohjaiset tekstinkäsittelypalvelut yrityksen laskuun,  atk-henkilöiden vuokraus.
 
 #### `ke_FuusioTappio` — Fuusiotappio
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (FUTAPPIO) Fuusiojärjestelyistä yritykselle aiheutuneet tappiot.
 
 #### `ke_Kauppatav` — Kauppatavaroiden hankinta (ml. myytäv. hank. sähkö ja lämpö)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULKATAV) Kauppatavaroiden hankinta (ml. myytäväksi hankitun sähkön ja lämmön hankinta). Sisältää hyödykkeet, jotka yritys on ostanut myytäväksi edelleen sellaisenaan ilman jatkokäsittelyä kolmannelle osapuolelle. Sisältää myös sellaisenaan ilman jatkojalostusta myytyjen raaka-aineiden hankinnat.
 
 #### `ke_KayttOmaisLuovTappio` — Käyttöomaisuuden luovutustappio
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (KOMYTAPP)Pysyviin vastaaviin kuuluvan käyttöomaisuushyödykkeiden myynnistä aiheutuneet luovutustappiot. Luovutustappio syntyy, jos omaisuuden hankintahinta ja myyntikulut ovat yhteensä enemmän kuin sen myyntihinta.
 
 #### `ke_KorjKunnossapAsenn` — Teetetyt korjaus-, kunnossapito- ja asennustyöt
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULKORAS) Teetetyt korjaus-, kunnossapito- ja asennustyöt. Tähän kuuluu ulkopuolisilla teetettyjen oman tuotantokoneiston ja –laitteiden sekä rakennusten korjaus-, kunnossapito- ja asennustöiden arvo mukaan luettuna laskutettujen materiaalien arvo. Ei sisällä yrityksen oman henkilöstön henkilöstökuluja.
 
 #### `ke_KuljVarast` — Kuljetus- ja varastointikulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (KULKULJE) Kuljetus- ja varastointikulut. Sisältää yrityksen ulkopuolelta ostetut kuljetus- ja varastointipalvelut, terminaali- ja lastinkäsittelypalvelut. Varastointipalveluilla tarkoitetaan tässä itsenäisinä palveluina tarjottuja varastointipalveluja. Tähän sisältyvät esim. välivarastointipalvelut kylmävarastoissa ja tullivarastoissa sekä konttien säilytys jne. Jonkin  tietyn alueen tai rakennuksen tai sen osan vuokraus varastoksi ei sisälly tähän.
 
 #### `ke_Lampo` — Lämmön hankinta omaan käyttöön
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULLAMPO) Lämmön hankinta omaan käyttöön (pl. välityslämpö). Lämpöenergian hankintaan luetaan yrityksen tuotantoprosessissa käytetyn lämmön lisäksi myös tilojen lämmitykseen käytetty energia.  Myytäväksi hankittu lämpö ilmoitetaan muuttujassa ke_Kauppatav, Kauppatavaroiden hankinta.
 
 #### `ke_Leasing` — Leasing-vuokrat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (VUOKRLEA) Leasing-vuokrakulut. Yrityksen leasing-sopimuksilla vuokraamien käyttöomaisuushyödykkeiden vuokrakulut. Yritys voi hankkia käyttöomaisuutta joko käyttöleasing-sopimuksella tai rahoitusleasing-sopimuksella. Käyttöleasing-sopimuksessa laitteen vuokraava yritys tekee sopimuksen suoraan laitetta käyttävän yrityksen kanssa. Rahoitusleasing-sopimuksessa laitteen tarvitsija sopii, että rahoitusyhtiö ostaa laitteen ja vuokraa sen laitetta tarvitsevalle.
 
 #### `ke_MainosMyynti` — Mainos-, myynti- ja markkinointikulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULMAINO) Mainos-, myynti- ja markkinointikulut. Yrityksen ulkopuolelta hankitut mainos-, myynti- ja markkinointikulut. Tällaisia eri ovat esimerkiksi; tuotteiden markkinoinnin ja myynnin aiheuttamat kulut,  mainonnan sekä  myyntinäyttelyiden kulut, mainostoimistojen palvelut, markkinoinnin, viestinnän ja suhdetoiminnan konsultointiin,  markkinatutkimuksiin ja mielipideselvityksiin liittyvät kulut,  ulko- ja liikennemainosten pystyttämiseen ja hoitoon liittyvät  kulut,  näyteikkunoiden somistukseen ja näyttelytilojen suunnitteluun liittyvät kulut, urheilumainontaan, puhelinmainontaan, ilmamainontaan jne. liittyvät kulut sekä  messujen yms. tuote-esittelytilaisuuksien järjestämisestä aiheutuvat kulut.
 
 #### `ke_MuutKuinEdMainKulu` — Muut kuin edellä mainitut kulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (KULUMUUT) Muut liiketoiminnan kulut, joita ei ole ilmoitettu muissa kuluerissä. Tähän kuuluvat tuloslaskelman kohtaan Muut liiketoiminnan kulut sisältyvät kulut, esimerkiksi maksetut provisiot, luottotappiot sekä posti- ja jakelukulut, pankki-, lakiasian-, tilitoimisto-, vakuutus-, järjestö- yms. palvelut, edustaminen ja matkustaminen.
 
 #### `ke_MuutVuokra` — Muut vuokrat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (VUOKRMUU) Muut vuokrakulu. Asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten sekä koneiden ja laitteiden vuokrakulut sekä sorakuopista, malmi- ja mineraaliesiintymistä, kivilouhoksista, turvesoista yms. maksetut vuokrat.
 
 #### `ke_Pakkausaine` — Pakkausaineiden hankinnan arvo
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (KULPAKKA) Pakkausaineiden hankinta-arvo. Yrityksen valmistamien tai välittämien tavaroiden pakkaamisessa käytettävät aineet ja tarvikkeet (ilman varastojen muutoksia).
 
 #### `ke_PatenttiLisenssi` — Kulut patenteista, lisensseistä ja rojalteista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULPATEN) Kulut patenteista ja lisensseistä. Patenttien ja lisenssien käyttöoikeuksista maksetut korvaukset.
 
 #### `ke_Polttoaine` — Polttoaineiden hankinta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (KULPOLT) Polttoaineiden hankinta. Polttoaineiksi luetaan yrityksen tuotannollisen toiminnan tai sen ajoneuvojen energialähteiksi hankitut aineet (ilman varastojen muutoksia).
 
 #### `ke_Sahko` — Sähkön hankinta omaan käyttöön
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULSAHKO) Sähkön hankinta omaan käyttöön (pl.  välityssähkö). Sähköenergian hankinta käsittää tuotantoprosessissa käytetyn sähkön lisäksi myös yrityksen tilojen valaistukseen, tuuletukseen, lämmitykseen ym. käytetyn sähkön. Myytäväksi hankittu sähkö ilmoitetaan muuttujassa ke_Kauppatav, Kauppatavaroiden hankinta.
 
 #### `ke_TutkKehitt` — Tutkimus- ja kehittämiskulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (KULTUTKE) Tutkimus- ja kehittämiskulut, €. Tutkimusmenoilla tarkoitetaan ulkopuolisilta yrityksiltä hankittuja tutkimus- ja kehittämispalveluja. Tutkimus- ja kehittämiskulut ovat uuden tieteellisen tai teknisen tiedon tuottamiseksi tarpeellisesta suunnitelmallisesta tutkimustoiminnasta aiheutuneita menoja. Tutkimus- ja kehittämistoimintaan sisällytetään perustutkimus, soveltava tutkimus sekä kehittämistyö.
 
 #### `ke_TyoVoimVuokr` — Työvoiman vuokraus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulujen_erittely, tilkes
+**Unit:** € · **Group:** kulujen_erittely, tilkes
 
 (KULTYVUO) Työvoiman vuokrauskulut. Sisältää yrityksen suorittamat maksut työvoiman käytöstä työvoimaa vuokraavalle yritykselle. Vuokratyössä vuokrayritys on työntekijän työnantaja. Työ tehdään käyttäjäyrityksessä.
 
 #### `ke_VuokraMaaVesialue` — Vuokrat maa- ja vesialueista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulujen_erittely
+**Unit:** € · **Group:** tilkes, kulujen_erittely
 
 (VUOKRMVA) Vuokrakulut maa- ja vesialueista. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Maa- ja vesialueisiin eivät sisälly sorakuopat, malmi- ja mineraaliesiintymät, kivilouhokset, turvesuot yms. Näistä maksetut vuokrat ilmoitetaan muuttujassa ke_Muut vuokra.
 
 #### `KertynytPoistoEro` — Kertynyt poistoero
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (KVARPOIS) Kertynyt poistoero on kirjanpidossa tehtyjen kokonaispoistojen ja suunnitelmanmukaisten poistojen kumulatiivinen erotus.
 
 #### `kes_KulutYht` — KULUT YHTEENSÄ
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, kulut_yhteensä
+**Unit:** € · **Group:** tilkes, kulut_yhteensä
 
 (KULUYHT) Kulut yhteensä. Tilkeksestä ke_kuluerät yhteensä. Tuloslaskelman kohdat: Ostot tilikauden aikana, ulkopuoliset palvelut ja liiketoiminnan muut kulut. Ei sisällä henkilöstökuluja. Tavaroiden ja palvelujen ostot on arvotettu hankintahintaan, josta on vähennetty ALV ja muut välittömästi liikevaihtoon liittyvät, vähennyskelpoiset verot. Hankinnat on ilmoitettu ilman varastojen muutoksia.
 
 #### `KeskenerTuoteTilikAl` — Keskeneräiset tuotteet tilikauden alussa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taseen-erä
+**Unit:** € · **Group:** taseen-erä
 
 (VOALKESK) Keskeneräiset tuotteet tilikauden alussa.Tase-erään kuuluvat myytäväksi valmistettavat tuotteet, jotka eivät vielä ole valmiita myytäväksi.
 
 #### `kirjanpitomuoto` — Kahdenkertainen kirjanpito
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 (KPM) Yritysrekisterin mukainen kirjanpitomuoto. 1 yhdenkertainen kirjanpito, 2 kahdenkertainen kirjanpito
 
 #### `ko_AineetonHyodykeLis` — Aineettomat hyödykkeet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISANTYH) Aineettomien hyödykkeiden lisäykset (hankintahinta). Aineettomia hyödykkeitä ovat kehittämismenot, liikearvo, aineettomat oikeudet, muut pitkävaikutteiset menot sekä aineettomiin hyödykkeisiin kohdistuvat ennakkomaksut ja keskeneräiset hankinnat. Aineettomista oikeuksista ilmoitetaan erikseen siihen sisältyvät atk-ohjelmistot.
 
 #### `ko_AineetonHyodykeVah` — Aineettomat hyödykkeet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHAINTY) Aineettomien hyödykkeiden vähennykset (luovutushinta tai muu vastike). Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä. Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Aineettomia hyödykkeitä ovat kehittämismenot, liikearvo, aineettomat oikeudet, muut pitkävaikutteiset menot sekä aineettomiin hyödykkeisiin kohdistuvat ennakkomaksut ja keskeneräiset hankinnat. Aineettomista oikeuksista ilmoitetaan erikseen siihen sisältyvät atk-ohjelmistot.
 
 #### `ko_ATKOhjelmistoLis` — Atk-ohjelmistot, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (INVSOFTW) Atk-ohjelmistojen lisäykset. Atk-ohjelmistoihin luetaan valmiina ostetut ja tilaustyönä teetetyt atk-ohjelmistot. Ohjelmistojen hankintaan liittyviä vuosittaisia lisenssimaksuja ei lueta investoinneiksi.
 
 #### `ko_ATKOhjelmistoVah` — Atk-ohjelmistot, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VINVSOFT) Atk-ohjelmistojen vähennykset. Atk-ohjelmistoihin luetaan valmiina ostetut ja tilaustyönä teetetyt atk-ohjelmistot.
 
 #### `ko_EnnakKeskRakenMaaVesiAlueLis` — Ennakot ja keskeneräiset työt; rakennukset ja rakennelmat, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISENNRA)Ennakkomaksut ja keskeneräiset työt; rakennukset ja rakennelmat, lisäykset. Ennakkomaksut ja keskeneräiset hankinnat rakennuksista ja rakennelmista sekä maa- ja vesirakennuksista. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.
 
 #### `ko_EnnakKeskRakenMaaVesiAlueVah` — Ennakot ja keskeneräiset työt; rakennukset ja rakennelmat, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHENNRA) Ennakkomaksut ja keskeneräiset työt; rakennukset ja rakennelmat, vähennykset. Ennakkomaksut ja keskeneräiset hankinnat rakennuksista ja rakennelmista sekä maa- ja vesirakennuksista. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.
 
 #### `ko_EnnakkoKeskenerKoneKalustoLis` — Ennakot ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISENNMU) Ennakkomaksut ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., lisäykset. Ennakkomaksut ja keskeneräiset hankinnat koneista ja kalustosta sekä muista aineellisista hyödykkeistä. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.
 
 #### `ko_EnnakkoKeskenerKoneKalustoVah` — Ennakot ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHENNMU) Ennakkomaksut ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., vähennykset. Ennakkomaksut ja keskeneräiset hankinnat koneista ja kalustosta sekä muista aineellisista hyödykkeistä. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.
 
 #### `ko_KoneKalustoLis` — Koneet, kalusto ja kuljetusvälineet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISKONE) Koneiden ja kaluston lisäykset. Koneet, kalusto ja kuljetusvälineet ilmoitetaan yhdessä. Koneista ja kalustosta ilmoitetaan erikseen niihin sisältyvät tietokoneet ja ICT -laitteet.
 
 #### `ko_KoneKalustoVah` — Koneet, kalusto ja kuljetusvälineet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHKONE) Koneiden ja kaluston vähennykset. Koneet, kalusto ja kuljetusvälineet ilmoitetaan yhdessä. Koneista ja kalustosta ilmoitetaan erikseen niihin sisältyvät tietokoneet ja ICT -laitteet.
 
 #### `ko_kuljetusvalineLis` — Kuljetusvälineet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 Kuljetusvälineet, lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankinta-hintaisina (pois lukien fuusiolisäykset). Kuljetusvälineet ovat henkilö- tai tavarankuljetukseen tarkoitettuja moottorikäyttöisiä koneita. Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset. Koneiden ja kaluston uusi eroteltu alaerä 2018, ei summaudu.
 
 #### `ko_kuljetusvalineVah` — Kuljetusvälineet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 Kuljetusvälineet, vähennykset. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Kuljetusvälineet ovat henkilö- tai tavarankuljetukseen tarkoitettuja moottorikäyttöisiä koneita. Koneiden ja kaluston uusi eroteltu alaerä 2018, ei summaudu.
 
 #### `ko_MaaVesiAlueLis` — Maa- ja vesialueet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISMVAL) Maa- ja vesialueiden lisäykset. Maa- ja vesialueilla tarkoitetaan mm. maa- ja metsäalueita, rakennettuja ja rakentamattomia tontteja sekä vesialueita.
 
 #### `ko_MaaVesiAlueVah` — Maa- ja vesialueet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHMVAL) Maa- ja vesialueiden vähennykset. Maa- ja vesialueilla tarkoitetaan mm. maa- ja metsäalueita, rakennettuja ja rakentamattomia tontteja sekä vesialueita.
 
 #### `ko_MaaVesiRakenSahkoLampoVerkLis` — Maa- ja vesirakennukset, sähkö-, lämpö-, ja tietoliikenneverkot, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISMVRA) Maa- ja vesirakennusten lisäykset. Maa- ja vesirakennuksilla tarkoitetaan katuja, teitä, rauta- ja raitioteitä, siltoja, laitureita, patoja, altaita, vesi- ja viemäriverkostoja, polttoainesäiliöitä, kalliosuojia, sähkö- ja lämpöverkkoja, tietoliikenneverkkoja (runkoverkot), energialaitoksia yms. käyttöomaisuutta.
 
 #### `ko_MaaVesiRakenSahkoLampoVerkVah` — Maa- ja vesirakennukset, sähkö-, lämpö-, ja tietoliikenneverkot, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHMVRAK) Maa- ja vesirakennusten vähennykset. Maa- ja vesirakennuksilla tarkoitetaan katuja, teitä, rauta- ja raitioteitä, siltoja, laitureita, patoja, altaita, vesi- ja viemäriverkostoja, polttoainesäiliöitä, kalliosuojia, sähkö- ja lämpöverkkoja, tietoliikenneverkkoja (runkoverkot), energialaitoksia yms. käyttöomaisuutta.
 
 #### `ko_MuutAineellHyodykeLis` — Muut aineelliset hyödykkeet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISMAINL) Muiden aineellisten hyödykkeiden lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Muuhun aineelliseen käyttöomaisuuteen luetaan sora-, malmi-, turve- yms. luonnonvarat ja aineelliset oikeudet. Tässä kohdassa ei ilmoiteta osakkeita ja osuuksia.
 
 #### `ko_MuutAineellHyodykeVah` — Muut aineelliset hyödykkeet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHMAINL) Muiden aineellisten hyödykkeiden vähennykset. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Muuhun aineelliseen käyttöomaisuuteen luetaan sora-, malmi-, turve- yms. luonnonvarat ja aineelliset oikeudet. Tässä kohdassa ei ilmoiteta osakkeita ja osuuksia.
 
 #### `ko_OsakeOsuusLis` — Osakkeet ja osuudet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISOSAKE) Taseen pysyvien vastaavien sijoituksiin kuuluvat osakkeiden ja osuuksien lisäykset.
 
 #### `ko_OsakeOsuusVah` — Osakkeet ja osuudet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (VAHOSAK)Taseen pysyvien vastaavien sijoituksiin kuuluvat osakkeiden ja osuuksien vähennykset.
 
 #### `ko_RakenLis` — Rakennukset ja rakennelmat, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (LISRAKEN) Rakennusten ja rakennelmien lisäykset. Rakennuksilla tarkoitetaan asuinrakennuksia ja muita talorakennuksia.
 
 #### `ko_RakenVah` — Rakennukset ja rakennelmat, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (VAHRAKEN) Rakennusten ja rakennelmien vähennykset. Rakennuksilla tarkoitetaan asuinrakennuksia ja muita talorakennuksia.
 
 #### `ko_TeleAudioVideoICTLis` — Televiestintä-, audio- ja muut ICT-laitteet, lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (LISICTMU) Televiestintä-, audio-, video- ja muut ICT -laitteet, lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Erikseen rakennettavat lähiverkot, puhelinvaihteet, puhelimet, puhelinvastaajat, faksit ja antennit. Murto- ja palohälytysjärjestelmät. Televisiot, videot, dvd-laitteet, monitorit ja projektorit. Videokamerat ja digitaalikamerat. Radiovastaanottimet, vahvistimet ja kaiuttimet.  Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset.
 
 #### `ko_TeleAudioVideoICTVah` — Televiestintä-, audio- ja muut ICT-laitteet, vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (VAHICTMU)Televiestintä-, audio-, video- ja muut ICT -laitteet, vähennykset, €. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä. Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Erikseen rakennettavat lähiverkot, puhelinvaihteet, puhelimet, puhelinvastaajat, faksit ja antennit. Murto- ja palohälytysjärjestelmät. Televisiot, videot, dvd-laitteet, monitorit ja projektorit. Videokamerat ja digitaalikamerat. Radiovastaanottimet, vahvistimet ja kaiuttimet.
 
 #### `ko_TietokPalvelinVerkOhLaiteLis` — Tietokoneet, verkkolaitteet, oheislaitteet yms., lisäykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, käyttömaisuus_väh&lis
+**Unit:** € · **Group:** tilkes, käyttömaisuus_väh&lis
 
 (LISATK) Koneet, kalusto ja kuljetusvälineet, josta tietokoneet, palvelimet, tietoverkkolaitteet ja tietokoneiden oheislaitteet, lisäykset, €. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tietokoneet koosta riippumatta ja palvelimet. Näytöt, näppäimistöt, printterit, skannerit, kaapelit ja muut tietokoneiden oheislaitteet. Tietoverkkolaitteet, mukaan lukien reitittimet. Tietokoneiden yhteydessä hankitut ohjelmistot sisällytetään tähän kohtaan.  Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset.
 
 #### `ko_TietokPalvelinVerkOhLaiteVah` — Tietokoneet, verkkolaitteet, yms., vähennykset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** käyttömaisuus_väh&lis, tilkes
+**Unit:** € · **Group:** käyttömaisuus_väh&lis, tilkes
 
 (VAHATK)Koneet, kalusto ja kuljetusvälineet, josta tietokoneet, palvelimet, tietoverkkolaitteet ja tietokoneiden oheislaitteet, vähennykset, €. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tietokoneet koosta riippumatta ja palvelimet. Näytöt, näppäimistöt, printterit, skannerit, kaapelit ja muut tietokoneiden oheislaitteet. Tietoverkkolaitteet, mukaan lukien reitittimet. Tietokoneiden yhteydessä hankitut ohjelmistot sisällytetään tähän kohtaan.
 
 #### `Kokonaistulos` — KOKONAISTULOS
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (KOKOT) Kokonaistulos = nettotulos +/- satunnaiset erät. Kokonaistulos saadaan, kun nettotulokseen lisätään satunnaiset tuotot sekä myynti- ja fuusiovoitot ja vähennetään satunnaiset kulut sekä myynti- ja fuusiotappiot. LiikeVoitTap - LaskennPalkKorj + Rah_TuKuYht + SatunEratYht + Ku_ValittVero2
 (Vuodesta 2018 lähtien lisäys kaavaan:  - sat_MaksKonsAvust + sat_SaadKonsAvust )
 
 #### `KorkoKulutYht` — Korkokulut yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KORKULUT) Korkokulut ovat vieraan pääoman käytöstä johtuvia lainamäärän, korkokannan ja laina-ajan mukaan määräytyviä eriä.
 
@@ -957,230 +957,230 @@ ku_KorkoSamaKonsYri + ku_KorkoOmistusYhtYri + ku_MuutKorko
 
 #### `KorkoTuototYht` — Korkotuotot yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (KORTUOT) Korkotuotot ovat talletusten ja lainasaamisten sekä muiden saamisten korkotuloja. Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork  Korkotuottoihin sisällytetään osamaksukaupassa ostajalta erikseen veloitettu korko, mutta osamaksulisä luetaan liikevaihtoon. Saatavissa 2006 alkaen.
 
 #### `ku_Edustus` — Edustuskulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (EDUSKULU) Edustuskulut. Edustusmenoina pidetään elinkeinoverolain mukaan verotettavaan tulonhankintaan liittyviä, yrityksen ulkopuolisiin henkilöihin, kuten asiakkaisiin tai liiketuttaviin, kohdistuvia vieraanvaraisuudesta tai muusta huomaavaisuudesta aiheutuneita menoja. Edustamisella pyritään liiketoiminnan edistämiseen ja esimerkiksi uusien liikesuhteiden luomiseen tai entisten suhteiden säilyttämiseen ja parantamiseen. Edustusmenojen tunnusmerkkinä on, että ne kohdistuvat yrityksen ulkopuolisiin tahoihin. Yrityksen omaan henkilökuntaan kohdistuvia menoja ei pidetä edustusmenoina.
 
 #### `ku_Elake` — Eläkekulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (ELAKEKUL) Kirjanpidon mukaiset eläkekulut. Tässä  ilmoitetaan sekä pakolliset että vapaaehtoiset henkilövakuutusmaksut ja eläkekulut. Työeläkevakuutusmaksuja ovat; 1) TEL-vakuutusmaksu, 2) LEL-vakuutusmaksu, 3) YEL-vakuutusmaksu, 4) Työttömyysvakuutusmaksut,  5) Ryhmähenkivakuutusmaksut.
 
 #### `ku_FuusioTappio` — Fuusiotappio verottajalta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (FUTAPVER) Fuusiotappio verottajalta, jos se on kirjattu kerralla vuosikuluksi. Virallisessa tuloslaskelmassa sisältyy erään liiketoiminnan muut kulut yhteensä.
 
 #### `ku_HenkilostoYht` — Henkilöstökulut yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (HEKULYHT) Henkilöstökulut sisältävät ennakonpidätyksen alaiset palkat ja niihin verrattavat kulut sekä välittömästi palkan perusteella määräytyvät kulut, kuten sosiaaliturvamaksut, pakolliset ja vapaaehtoiset henkilövakuutusmaksut sekä eläkekulut.
 
 #### `ku_HenkKohtTulolahde` — Henkilökohtaisen tulolähteen kulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KULUHENK) Henkilökohtaisen tulolähteen kulut. Ei enää tule tietoa veroliitelomakkeelta, mutta on mukana joinakin vuosina
 
 #### `ku_KayttOmaisArvoAlen2` — Käyttöomaisuuden arvonalentumiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (ARVALPVH) Todennäköisen luovutushinnan alentumisen perusteella tehtävä arvonalennuspoisto. Vaihto-omaisuusvaraston poikkeukselliset arvonalennukset, esim. tulipalosta tai vesivahingosta johtuva arvonlasku.
 
 #### `ku_KayttOmaisOsakLuovTappio` — Ko osakkeitten luovutus- ja purkutappiot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KOMOTAPP) Kirjanpidon mukaiset käyttöomaisuuteen kuuluneiden osakkeiden ja yhtymäosuuksien luovutustappiot sekä purkutappiot.  Virallisessa tuloslaskelmassa sisältyy erään  liiketoiminnan muut kulut yhteensä.
 
 #### `ku_konsTukiSaamArvoAlen` — Konsernituki ja saamisten arvonalentumiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KONTUSAA) Konsernituki ja saamisten arvonalentumiset. Sellaisille yhtiöille annettu konsernituki, josta yhteisö yksin tai yhdessä konserniyhtiöiden kanssa omistaa vähintään 10% sekä muut vastaavat toisen yhtiön taloudellisen aseman parantamiseksi ilman vastasuoritusta suoritetut menot (verottajan ohjeistus). Tässä on ilmoitettu myös tällaiselta yhtiöltä olevien saamisten (pl. myyntisaamisten) menetykset ja arvonalentumiset.
 
 #### `ku_KorkoOmistusYhtYri` — Korkokulut omistusyhteysyrityksille
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KORKKOMY ) Korkokulut, jotka on maksettu omistusyhteysyrityksille. Omistusyhteysyritys on konserniin kuulumaton kotimainen tai ulkomainen yritys, jossa toisella yrityksellä yksin tai yhdessä useamman yrityksen kanssa on sellainen omistusosuus (vähintään 20 % yrityksen omasta pääomasta), joka luo pysyvän yhteyden.
 
 #### `ku_KorkoSamaKonsYri` — Korkokulut saman konsernin yrityksille
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KORKULKO) Korkokulut, jotka on maksettu saman konsernin yrityksille. Konserniyrityksillä tarkoitetaan emoyritystä ja sen tytäryrityksiä.
 
 #### `ku_Lahjoitus` — Annetut lahjoitukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (LAHJOIT) Annetut lahjoitukset. Kaikki kirjanpidon mukaiset yhteisön antamat lahjoitukset.
 
 #### `ku_Leasing` — Leasingmaksut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (LEAMAKS) Leasingmaksut. Yrityksen leasing-sopimuksilla vuokraamien käyttöomaisuushyödykkeiden vuokrakulut.
 
 #### `ku_LiiketoimMuutYht` — Liiketoiminnan muut kulut yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MUKULUT) Liiketoiminnan muut kulut yhteeensä. Liiketoiminnan muita kuluja ovat kaikki ne yrityksen varsinaiseen toimintaan kuuluvat erät, joita ei ole tuloslaskelmassa erikseen mainittu mm. vuokrat, leasingmaksut, mainos- ja markkinointikulut, hallintopalvelujen kulut, tietoliikenne- ja pankkipalvelumaksut sekä käyttöomaisuuden myyntitappiot. Tähän erään kuuluvat myös maksetut myyntiprovisiot, tekijäpalkkiot, rahtikulut ja syntyneet luottotappiot. Käyttöomaisuuden myyntitappiot ja fuusiotappiot esitetään satunnaisten erien ryhmässä.
 
 #### `ku_MaatalTulolahde` — Maatalouden tulolähteen kulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MAATTKUL) Maatalouden tulolähteen kulut /ei enää tule tietoa veroliitelomakkeelta, mutta mukana joinakin vuosina.
 
 #### `ku_MuuHenkSivu` — Muut henkilösivukulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MUHESIKU) Muut henkilösivukulut. Virallisen tuloslaskelman muut henkilösivukulut ovat pääsääntöisesti välittömästi palkkaan liittyviä menoja,  kuten sosiaaliturvamaksu. Henkilöstön koulutus sekä virkistys ja harrastustoiminnasta aiheutuneet kulut esitetään kohdassa Liiketoiminnan muut kulut.
 
 #### `ku_MuuKayttOmaisLuovTappio` — Muut käyttöomaisuuden luovutustappiot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KOMTAPPI) Muun käyttöomaisuuden luovutustappiot, esimerkiksi rakennuksen, maa-alueen, koneiden, pienhankinnan tai ammattimaisessa käytössä olleen auton luovutuksesta syntynyt tappio.  Virallisessa tuloslaskelmassa sisältyy erään Liiketoiminnan muut kulut yhteensä.
 
 #### `ku_MuuRah` — Muut rahoituskulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (RAHKMUUT) Muut rahoituskulut. Kirjanpidon mukaiset muut rahoituskulut, esimerkiksi; lainojen hoitokulut, limiittipalkkiot, takausprovisiot, luottovakuutukset, kiinnityskulut, perimiskulut, kurssitappiot, factoring-kulut, terminointikulut.
 
 #### `ku_MuuRahOmaisMenetArvoAlen` — Muun rahoitusomaisuuden menetykset ja lopulliset arvonalentumiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MUROARAL) Muun rahoitusomaisuuden menetykset ja lopulliset arvonalentumiset
 
 #### `ku_MuutKorko` — Muut korkokulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (KORKULMU) Muut korkokulut. Näitä ovat esim. ostoveloista, joukkovelkakirjalainoista, vaihtovelkakirjalainoista, rahoituslaitoslainoista, rahoitusyhtiölainoista, eläkelainoista ja rahoitusvekseleistä johtuvat korot.
 
 #### `ku_MuuVahKelp` — Muut vähennyskelvottomat kulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MUKULEVK) Muut vähennyskelvottomat kulut, joita ei voi vähentää verotuksessa mutta jotka sisältyvät kirjanpidossa tuloslaskelman kuluihin. Tällaisia ovat esim. verovapaan tulon hankkimisesta tai säilyttämisestä johtuvat menot, sähkö-, tele-, vesi-, viemäri- tai kaukolämpöverkkoon liittymisestä suoritetut maksut, annetut lahjukset ja lahjusten kaltaiset edut, yhtiön omista osakkeistaan maksama summa, elleivät kyseessä ole sellaiset osakkeet, jotka yhtiö on luovuttanut työsuhteen perusteella.
 
 #### `ku_MuuVahKelpLiiketoimMuu` — Muut vähennyskelpoiset liiketoiminnan muut kulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MUKULUVK) Muut vähennyskelpoiset liiketoiminnan muut kulut ovat liiketoiminnan vähennyskelpoisia muita kuluja, joita ei ole ilmoitettu erässä Liiketoiminnan muu kulut. Tällaisia kuluja ovat mm. vapaaehtoiset henkilösivukulut, toimitilakulut, ajoneuvokulut, tietotekniikkaan liittyvät laite- ja ohjelmistokulut, muut kone- ja kalustokulut, matkakulut, myyntikulut, markkinointikulut, tutkimus- ja kehityskulut, hallintopalvelut, muut hallintokulut ja muut liikekulut. Tässä ilmoitetaan myös vähennyskepoiset Yle-vero ja kiinteistövero.
 
 #### `ku_MyyntisaamArvoAlen` — Myyntisaamisten arvonalentumiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MYSARVAL) Myyntisaamisten arvonalentumiset ovat saamisia, joista perustellusti ei enää odoteta suoritusta kertyväksi ja arvonaleneminen on ilmeinen (esim. saamista ei ole perimisyrityksistä huolimatta maksettu). Myyntisaamisilla tarkoitetaan liiketoimintaan liittyvien suoritteiden myynnistä syntyneitä saamisia. Suorite voi koostua vaihto-omaisuudesta, käyttöomaisuudesta tai muusta elinkeinotoimintaan liittyvästä omaisuudesta tai palvelusta. Velallinen on tällöin suoritteen ostaja ja myyntisaaminen perustuu myyjän suoritteen luovutuksen yhteydessä tuloksi lukemaan myyntihintaan, jota ei ole vielä maksettu.
 
 #### `ku_OstotYht` — Ostot tilikauden aikana
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (OSTKAIKA) Kaikki ostomenot tilikauden aikana riippumatta siitä, onko ostetut hyödykkeet myyty sellaisinaan tai jalostettuina vai ovatko ne raaka-aine-, puolivalmiste- tai valmistevarastossa.
 
 #### `ku_PakollVaraus` — Pakolliset varaukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (PAKOLVAR) Pakolliset varaukset. Kirjanpidossa tehdyt pakolliset varaukset. Pakollinen varaus tarkoittaa tulevia menoja, joiden täsmällistä määrää tai toteutumisajankohtaa ei vielä tiedetä. Esimerkiksi liiketoiminnan tuotantolinjan tai tuotantolaitoksen saneeraus ja lopettaminen, luovutettujen tuotteiden takuukorjausvastuut, reklamaatiot ja vahingonkorvaukset. Pakollisia varauksia ei yleensä voi vähentää verotuksessa.
 
 #### `ku_PalkkaPalkkio` — Palkat ja palkkiot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (YHTEEPAL) Palkat ja palkkiot. Palkoissa ja palkkioissa ilmoitetaan ennakonpidätyksen alaiset palkat. Palkkoihin ei lueta luontoisetujen johdosta aiheutuvia menoja. Luontoisedut esitetään siinä kuluryhmässä, johon ne luonteensa puolesta kuuluvat.  Jos työsuorituksesta maksetaan esimerkiksi ammatinharjoittajalle tai toiselle yritykselle, ilmoitetaan hankinta kohdassa  Ulkopuoliset palvelut. Yrityksen tuloksen  perusteella maksetut palkkiot, kuten bonuspalkat, henkilöstörahastosiirto yms. sisällytetään palkkoihin.
 
 #### `ku_poisto2` — Poistot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (POISTOT) Tuloslaskelman suunnitelman mukaiset poistot. Suunnitelman mukaiset poistot perustuvat käyttöomaisuuden hankintamenoon ja omaisuuden taloudelliseen käyttöikään. Poistot tehdään investointiavustuksella vähennetystä hankintamenosta. Investointiin käytettyä varausta ei vähennetä hankintahinnasta, vaan varauksen käyttö käsitellään poistoeron lisäyksenä.
 
 #### `ku_rahOmaisLuovTappio` — Rahoitusomaisuuden luovutustappiot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (ROMLUTAP) Rahoitusomaisuuden luovutustappiot, esim. rahoitusomaisuuteen kuuluneen arvopaperin tai saamisen luovutuksesta syntyneet tappiot.
 
 #### `ku_Sakot` — Sakot ja muut rangaistukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (SAKOT) Sakot, seuraamusmaksut ja muut sanktioluonteiset julkisoikeudelliset maksuseuraamukset.
 
 #### `ku_Satun` — Satunnaiset kulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (SATKULUT) Tuloslaskelman mukaiset satunnaiset kulut, esim. maksettu konserniavustus. Satunnaisiksi katsotaan sellaiset kulut, jotka perustuvat yhteisön tavanomaisesta toiminnasta poikkeaviin, kertaluonteisiin ja olennaisiiin tapahtumiin.
 
 #### `ku_UlkopPalv` — Ulkopuoliset palvelut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (ULKOPALV)  Ulkopuoliset palvelut ovat  lähinnä välittömästi tuotantoon tai myyntiin liittyvistä työsuorituksista maksettuja korvauksia. Ulkopuolisia palveluja voivat olla esimerkiksi alihankkijoiden, suunnittelu- ja konsulttitoimistojen sekä huoltoyhtiöiden suorittamat palvelut ja sellaisen työvoiman vuokrauskulut, jotka liittyvät välittömästi suoritetuotantoon.
 
 #### `ku_ValittVero2` — Välittömät verot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (VEROTUMU) Yhteissumma tuloslaskelman eristä Tuloverot ja Muut välittömät verot, joissa on huomioitu veronpalautukset. Tuloverot sisältävät joko yrityksen kaikki tuloverot tai muihin kuin satunnaisiin eriin kohdistuvat tuloverot. Muut välittömät verot ovat varallisuusveroa maksavien yritysten tilinpäätöksessä. Kiinteistöverot ilmoitetaan liiketoiminnan muissa kuluissa.
 
 #### `ku_VeroKoro` — Veronkorotukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (VEROKORO) Veronkorotukset, myös myöhästymismaksu, huojennettu viivästyskorko, viivästyskorko ja laiminlyöntimaksu.
 
 #### `LaskennPalkKorj` — Lakennallinen palkkakorjaus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (PALKKORJ) Palkkakorjaus on laskennallinen erä, jolla ei ole vaikutusta yrityksen vakavaraisuuteen eikä kassavirtaan. Palkkakorjaus on tehty vastaamaan yrittäjien itsensä tekemän palkattoman työpanoksen arvoa yrityksessä. 
 Lähtötietoina käytetään yrityksen yrittäjätyöpanosta ja yrityskohtaista palkatun henkilöstön keskipalkkaa. Arvo perustuu YTR:stä saatavien yrittäjien lukumääriin, ja yrittäjien palkka on arvioitu toimialakohtaisten keskipalkkojen mukaan. Laskennallinen palkkakorjaus = yrittäjätyöpanos * keskipalkka. Palkkakorjaus esitetään omana eränä ja liitetään henkilöstökuluihin. Palkkakorjaus palautetaan oikaistuun tuloslaskelmaan ennen tilikauden tulosta.
 
 #### `LaskennPalkKorjPalautus` — Laskennallinen palkkakorjaus (palautus)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (PALKKORP) LaskennPalkKorj Laskennallinen palkkakorjaus = yrittäjätyöpanos * keskipalkka. Palkkakorjaus esitetään omana eränä ja liitetään henkilöstökuluihin. Palkkakorjaus palautetaan oikaistuun tuloslaskelmaan ennen tilikauden tulosta. Palkkakorjaus on laskennallinen erä, jolla ei ole vaikutusta yrityksen vakavaraisuuteen eikä kassavirtaan. Palkkakorjaus on tehty vastaamaan yrittäjien itsensä tekemän palkattoman työpanoksen arvoa yrityksessä.Tämän palkan yrittäjä joutuisi maksamaan palkansaajalle, jos hän palkkaisi palkansaajan tekemään omat työt. Lähtötietoina käytetään yrityksen yrittäjätyöpanosta ja yrityskohtaista palkatun henkilöstön keskipalkkaa. Arvo perustuu YTR:stä saatavien yrittäjien lukumääriin, ja yrittäjien palkka on arvioitu toimialakohtaisten keskipalkkojen mukaan.
 
 #### `Liiketulos` — LIIKETULOS
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (LIVOILMY) Liiketulos eli liikevoitto/-tappio kertoo, kuinka paljon varsinaisen liiketoiminnan tuotoista on jäljellä ennen rahoituseriä ja veroja. LiikeVoitTap - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio - LaskennPalkKorj
 
 #### `Liikevaihto` — Liikevaihto / tuotot ammatista yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (LVAIHTO) Yrityksen liikevaihto / tuotot ammatista yhteensä, €. Liikevaihtoon luetaan varsinaisen toiminnan myyntitulot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot. Myynnin oikaisuerien lisäksi myynnistä vähennetään tulonsiirtoerät ja läpikulkuerät. Liikevaihtoon sisältyvät erät vaihtelevat toimialakohtaisesti. Liikevaihtoon luetaan kuitenkin aina vaihto-omaisuudesta saadut tuotot.
 
 #### `LiikevaihtoLahde` — Liikevaihtotiedon lähde
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 (LVSA) Yrityksen  tilastovuoden liikevaihtotiedon saantilähde. Luokitus sntilahde_2_2012_01_01  Koodit ovat;
 VTIE = 001, 003 (Mtie, Ytie)
@@ -1190,217 +1190,217 @@ bbb = 902 (Käsin)
 
 #### `LiikeVoitTap` — Liikevoitto (tappio)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (LIVOITAP) Liikevoitto/-tappio on liiketoiminnan tulos ennen korkoja, veroja, tilinpäätössiirtoja ja voitonjakoa.
 
 #### `LiikToimMuutKulutOik` — Liiketoiminnan muut kulut (oikaistu)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (MUKULYH) Liiketoiminnan muita kuluja ovat kaikki ne yrityksen varsinaiseen toimintaan kuuluvat erät, joita ei ole tuloslaskelmassa erikseen mainittu mm. vuokrat, leasingmaksut, mainos- ja markkinointikulut, hallintopalvelujen kulut, tietoliikenne- ja pankkipalvelumaksut sekä käyttöomaisuuden myyntitappiot. Tähän erään kuuluvat myös maksetut myyntiprovisiot, tekijäpalkkiot, rahtikulut ja syntyneet luottotappiot. Kuluja on oikaistu; Ku_LiiketoimMuutYht + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio
 
 #### `LiikToimMuutTuotOik` — Liiketoiminnan muut tuotot (oikaistu)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (LIIKMUUT)Liiketoiminnan muita tuottoja ovat yrityksen varsinaiseen toimintaan liittyvät tuotot, jotka ovat luonteeltaan lähellä liikevaihtoa. Tällaisia tuottoja ovat esimerkiksi vuokratuotot, saadut provisiot, muilta yrityksiltä perityt hallinto-, tietojenkäsittely- yms. korvaukset, mikäli yrityksen varsinaisena toimialana ei ole vuokraustoiminta tai muiden edellä mainittujen palvelujen tuottaminen. Liiketoiminnan muihin tuottoihin kirjataan myös yrityksen varsinaiseen toimintaan saadut avustukset ja tuet. Tuottoja on oikaistu Tu_LiiketoimMuutYht - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto
 
 #### `LiikToimTuotYht` — LIIKETOIMINNAN TUOTOT YHTEENSÄ
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (TUOTYH) Liiketoiminnan tuotot yhteensä = Liikevaihto + Liiketoiminnan muut tuotot
 
 #### `ltt_FuusioVoitto` — Fuusiovoitto
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liiketoiminnan_tuotot, tilkes
+**Unit:** € · **Group:** liiketoiminnan_tuotot, tilkes
 
 (FUVOITTO) Fuusiovoitot, €. Fuusiojärjestelyistä yrityksen saamat voitot.
 
 #### `ltt_KayttOmaisLuovVoitto` — Käyttöomaisuuden luovutusvoitot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liiketoiminnan_tuotot
+**Unit:** € · **Group:** tilkes, liiketoiminnan_tuotot
 
 (LVKOMYVO) Luovutusvoitot, €. Pysyviin vastaaviin kuuluvan käyttöomaisuuden hyödykkeiden myynnistä saadut luovutusvoitot.
 
 #### `ltt_MuuVuokra` — Muut vuokratuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liiketoiminnan_tuotot, tilkes
+**Unit:** € · **Group:** liiketoiminnan_tuotot, tilkes
 
 (LVUOKRMU) Muihin vuokratuottoihin (€) sisältyvät asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten vuokrauksesta saadut tuotot sekä koneiden ja laitteiden vuokrauksesta saadut tuotot.  Jos yrityksen päätoimiala on Kulkuneuvojen, koneiden ja laitteiden vuokraus , vuokratuotot ilmoitetaan liikevaihdossa.
 
 #### `ltt_Rojalt` — Tuotot patenteista, lisensseistä ja rojalteista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liiketoiminnan_tuotot
+**Unit:** € · **Group:** tilkes, liiketoiminnan_tuotot
 
 (LVPATENT) Tuotot patenteista ja lisensseistä, €. Erä sisältää ulkopuolisilta saadut tuotot yhtiön omistamista patenteista ja lisensseistä.
 
 #### `ltt_VuokraMaaVesiAl` — Vuokratuotot maa- ja vesialueista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liiketoiminnan_tuotot, tilkes
+**Unit:** € · **Group:** liiketoiminnan_tuotot, tilkes
 
 (LVUOKRMV) Vuokratuotot  maa- ja vesialueista, €. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Maa- ja vesialueisiin eivät sisälly sorakuopat, malmi- ja mineraaliesiintymät, kivilouhokset, turvesuot yms. Näistä saadut vuokratuotot ilmoitetaan muuttujassa Muut vuokratuotot.
 
 #### `lv_Agentuuri` — Agentuuritoiminta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVAGENTU) Liikevaihto agentuuritoiminnasta, €. Liikevaihto koostuu komissioista, joita agentuuri saa välitystoiminnasta ostajien ja myyjien kesken.
 
 #### `lv_Arvopap` — Arvopaperikauppa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 Liikevaihto yrityksen vaihto-omaisuusarvopapereiden myynnistä
 
 #### `lv_Kauppa` — Kaupallinen toiminta (kauppatav. myynti ml. välityssähkö)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVKAUPAL) Liikevaihto kauppatavaroiden myynnistä , € ml. välityssähkö, -lämpö ja -kaasu; myös ulkomaisilta tytäryhtiöiltä hankitut, sellaisenaan edelleen myydyt tavarat ja palvelut sekä ulkomaisten sivuliikkeiden liikevaihto. Kaupallisen toiminnan liikevaihtoon sisältyy tukku- ja vähittäiskaupan liikevaihdon lisäksi myös muiden toimialojen kauppatavaroiden myynnistä saadut tuotot. Kauppatavaroita ovat ne tavarat, jotka on ostettu myytäväksi edelleen sellaisenaan ilman jatkojalostusta. Erä sisältää myös satunnaisen omien raaka-aineiden jälleen myynnin sellaisenaan ilman jatkokäsittelyä. Erä sisältää myös laskuttajina toimivien palveluyritysten tekemät palveluostot. Ostetun sähkön, lämmön ja kaasun jälleen myynti (välitystoiminta) on ilmoitettu tässä. Sisäältää yrityksen ulkomailla alihankintana valmistuttamien tavaroiden liikevaihdon. Tässä on ilmoitettu myös autojen myynti sekä varaosien tukku- ja vähittäiskauppa. Korjaamotoiminta ml. korjaamotoiminnan yhteydessä myydyt ja asennetut osat on ilmoitettu muuttujassa  lv_Muupal (liikevaihto muusta palvelutoiminnasta).
 
 #### `lv_KorjAsenHuolto` — Teolliset korjaus- ja asennustoimitukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVKORASE) Yyrityksen ulkopuolisille suorittamien teollisten korjaus-, asennus- ja  huoltotöiden liikevaihto (sisältää myös laskutukseen sisältyvät tarvikkeet), €.
 
 #### `lv_LampoToim` — Tuotetun lämmön toimitukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVLAMPO) Yrityksen tuottaman lämmön myynti, €. Ostetun lämmön myynti ml. saman konsernin toisen yrityksen tuottama lämpö (välitystoiminta) on ilmoitettu muuttujassa lv_Kauppa (Tukku- ja vähittäiskauppa).
 
 #### `lv_MaaVesiRaken` — Maa- ja vesirakentaminen
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (MVRLV) Liikevaihto (€) maa- ja vesirakennustoiminnasta, kuten teiden, energialaitosten, siltojen, tunnelien, sähkölinjojen, lento- ja urheilukenttien, ym. rakentaminen. Tähän kuuluu myös erikoistunutta rakennustoimintaa harjoittavan yrityksen liikevaihdosta se osa, joka kohdentuu maa- ja vesirakentamiseen. Sisältää myös liikevaihdon maa- ja vesirakentamiseen kohdentuvasta rakennuskoneiden vuokrauksesta käyttäjineen.
 
 #### `lv_Mainos` — Mainostuotot ilmoitusmyynnistä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVMAINOS) Liikevaihto mainostilan myynnistä, €. Tähän sisältyy painettu media (sanoma- ja aikakauslehdet sekä painetut hakemistot), sähköinen mainonta (televisio-, radio-, elokuva- ja verkkomainonta) sekä ulko- ja liikennemainonta. Mainostuotot eritellään vain kaupan ja palvelujen toimialoilla. Muilla toimialoilla erä sisältyy muuhun erittelemättömään liikevaihtoon.
 
 #### `lv_Majoit` — Majoitustoiminta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVMAJOIT) Liikevaihto majoitustoiminnasta, €. Asiakkaiden majoittamisesta saatu liikevaihto.
 
 #### `lv_Muupalv` — Muu erittelemätön liikevaihto
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVERITL) Yrityksen muu liikevaihto, jota ei ole eritelty muissa kohdissa. Kaikenlainen palvelutoiminta, vuokrausmuotoinen rahoitustoiminta (rahoitusleasing) tai arvopapereihin sijoittaminen ja näiden myynti pörssien välityksellä (sijoitustoiminta),  maa- ja metsätalous.
 
 #### `lv_PalkkaMuutTeolPalv` — Palkkatyö ja muut teolliset palvelut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVPALKTY) Liikevaihto toiselle talousyksikölle tehdystä palkkatyöstä (ml. viemäri- ja jätevesihuolto, jätteen keruu ja käsittely, maaperän ja vesistöjen kunnostus ja muut ympäristönhuoltopalvelut), €. Palkkatyö on tuotteiden valmistamista toiselle talousyksikölle. Käytettävät aineet ja tarvikkeet ovat pääosin valmistuttajan omistuksessa tai hallinnassa.
 
 #### `lv_RakenOsake` — Rakentamisen osakekauppa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVOSAKEK) Perustajaurakoitsijan liikevaihto asunto- ja kiinteistöosakkeiden myynnistä, mikäli sitä ei ole jo vähennetty varsinaisesta rakentamisen liikevaihdosta, €.
 
 #### `lv_RakYht` — Erittelemätön liikevaihto rakennustoiminnasta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVRAKYHT) Liikevaihto rakennustoiminnasta yhteensä. Sisältää erät Talonrakentaminen, Maa- ja vesirakentaminen ja  Rakentamisen osakekauppa.
 
 #### `lv_Ravit` — Ravitsemistoiminta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVRAVITS) Liikevaihto ravitsemistoiminnasta, €. Aterioiden, muiden ruoka-annosten ja juomien myynnin sekä ateriapalvelun liikevaihto.
 
 #### `lv_Sahko` — Tuotetun sähkön toimitukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVSAHKO) Yrityksen tuottaman sähkön myynti, €. Ostetun sähkön myynti ml. saman konsernin toisen yrityksen tuottama sähkö (välitystoiminta) on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).
 
 #### `lv_sisOsatuloutus` — Liikevaihtoon sisältyy osatuloutusta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, muita_lisätietoja
+**Unit:** € · **Group:** tilkes, muita_lisätietoja
 
 Yrityksen liikevaihtoon sisältyy valmistusasteen perusteella kirjattua tuloa 1=kyllä 0= ei.
 
 #### `lv_sisSopValmistus` — Liikevaihto sisältää ulkomailla valmistettujen tuotteiden myyntiä tai kaupallista lv:a
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** muita_lisätietoja, tilkes
+**Unit:** € · **Group:** muita_lisätietoja, tilkes
 
 Liikevaihto sisältää tuotteiden myyntiä, jotka on yrityksen toimesta valmistettu ulkomailla tai kaupallista liikevaihtoa ulkomailla 1=kyllä, 0=ei. Yritys valmistuttaa myymänsä tuotteet kokonaan tai osittain ulkomailla. Tuotteet tuodaan Suomeen ja myydään täällä tai myynti tapahtuu suoraan ulkomailta ulkomaille. Tai yrityksen liikevaihdossa on ulkomailta ulkomaille myytyjä tuotteita.
 
 #### `lv_TaloRaken` — Rakennusten rakentaminen
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (RAKLV) Liikevaihto (€) kaikentyyppisestä rakennusten uudis- ja korjausrakentamisesta sekä rakennuttamisesta, jotka ovat yleensä pääurakoitsijan suorittamia töitä. Tähän kuuluu myös erikoistunutta rakennustoimintaa (esim. rakennuspaikan valmistelutyöt, LVIS-asennukset, maalaus ja lasitus sekä muu rakennusasennus, rakennusten ja rakennelmien viimeistely) harjoittavan yrityksen liikevaihdosta se osa, joka kohdentuu talonrakentamiseen. Sisältää myös liikevaihdon talonrakentamiseen kohdentuvasta rakennuskoneiden vuokrauksesta käyttäjineen.
 
 #### `lv_TeolYht` — Erittelemätön liikevaihto teollisesta toiminnasta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVTEOLYH) Liikevaihto teollisesta toiminnasta yhteensä, €. Sisältää erät Tuotteiden toimitukset,  Tuotetun lämmön toimitukset, Verkkopalvelut, Toimitusten arvo teollisista korjaus-, asennus- ja huoltopalveluista ja Palkkatyö.
 
 #### `lv_Tuote` — Tuotteiden toimitukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVTUOT)  Yrityksen Suomessa valmistamien ja valmistuttamien tavaroiden liikevaihto. Teolliset tavarat, puhdas vesi, materiaalien kierrätys. Yrityksen ulkomailla alihankintana valmistuttamien tavaroiden liikevaihto on kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa). Tässä on myös liikevaihto käyttöveden puhdistus- ja jakelutoiminnasta ja liikevaihto materiaalien kierrätystoiminnasta (Metalli- ja muun jätteen, romun ja muun tavaran muuntaminen uusioraaka-aineeksi, romujen purkaminen). Elintarviketeollisuus; saman konsernin muiden yritysten tuotteiden tukku- tai vähittäiskauppa on ilmoitettu kohdassa lv_Kauppa, samoin kuin muu tukku- tai vähittäiskauppa on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).
 
 #### `lv_Verkko` — Verkkotoiminta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** liikevaihto, tilkes
+**Unit:** € · **Group:** liikevaihto, tilkes
 
 (LVVERKKO) Liikevaihto sähkön siirto- ja jakelupalveluista ja kaasun jakelupalveluista, €. Saman konsernin toisen yrityksen tuottama verkkotoiminta on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).
 
 #### `lv_Yhteensa` — LIIKEVAIHTO YHTEENSÄ
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, liikevaihto
+**Unit:** € · **Group:** tilkes, liikevaihto
 
 (LVYHTEEN) Liikevaihto yhteensä.  Liikevaihtoon luetaan varsinaisen toiminnan myyntituotot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.
 
 #### `MaterPalvYht` — Materiaalit ja palvelut yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (MATPALVY) Materiaalien ja palvelujen ostot yhteensä sekä ostovarastojen muutos.
 
 #### `mlt_KayttOlleidRakenHank` — Käytössä olleiden rakennusten hankinta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tilkes, muita_lisätietoja
+**Unit:** € · **Group:** tilkes, muita_lisätietoja
 
 (INVKARAK) Käytössä olleiden rakennusten hankinta, €. Toisilta yrityksiltä ostettuja jo tuotanto- tai muussa käytössä olleita rakennuksia, ei uudisrakennuksia. Fuusioiden tms. omistusjärjestelyjen kautta yrityksen omistukseen tulleita rakennuksia ei lasketa tähän.
 
 #### `Nettotulos` — NETTOTULOS
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (NETTOT) Nettotulos saadaan, kun liiketulokseen lisätään tuloslaskelman rahoitustuotot ja vähennetään rahoituskulut ja verot. Lasketaan oikaistusta tuloslaskelmasta. LiikeVoitTap - LttKayttOmaisLuovVoitto - Ltt_FuusioVoitto + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio - LaskennPalkKorj + Rah_TuKuYht  + Ku_ValittVero2
 
 #### `NettoVarallNeg` — Elinkeinotoiminnan negatiivinen nettovarallisuus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (NETVARNE) Nettovarallisuus, negatiivinen.  Jos elinkeinotoiminnan velat ovat suuremmat kuin varat, nettovarallisuus on negatiivinen.
 
 #### `NettoVarallPos` — Elinkeinotoiminnan nettovarallisuus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (NEVARPOS) Elinkeinotoiminnan nettovarallisuus =  varoista vähennetään velat ja lisätään maksetuista palkoista 30 %.
 
 #### `OmtyyppiVuosi` — Omistajatyyppi (vuositieto)
 
-**Luokitus / Classification:** omistajatyyppi_1_1995_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** omistajatyyppi_1_1995_01_01 · **Group:** taustatiedot
 
 Yrityksen omistajatyyppi vuoden 1995 luokituksen mukaan. 
 Omistajatyyppejä ovat: 1 = Yksityinen kotimainen  2 = Valtio 3 = Kunta 4 = Ahvenanmaan maakunta 5 = Ulkomaalaisomisteinen 6 = Muu omistajatyyppi    
@@ -1409,56 +1409,56 @@ Niille yksiköille, jotka eivät löydy konsernirekisteristä, omistajatyyppi p�
 
 #### `op_EdTilikTulos` — Edellisten tilikausien tulos
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** oma_pääoma
+**Unit:** € · **Group:** oma_pääoma
 
 (KOPEDTUL) Edellisten tilikausien voitto/tappio.
 
 #### `op_OsakePaaom` — Osakepääoma
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** oma_pääoma
+**Unit:** € · **Group:** oma_pääoma
 
 (OPOOSAKE) Omistajien yritykseen sijoittamat varat. Osakepääoma on osakeyhtiön oman pääoman erä, joka näkyy yhtiön taseessa vastattavaa -puolella.
 
 #### `op_TilikTulos` — Tilikauden voitto tai tappio
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** oma_pääoma
+**Unit:** € · **Group:** oma_pääoma
 
 (KOPTULOS) Tilikauden tulos tuloslaskelmasta, voitto tai tappio.
 
 #### `ops_OmaPaaomaYht` — Oma pääoma yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** oma_pääoma
+**Unit:** € · **Group:** oma_pääoma
 
 (KOPYHT) Oma pääoma yhteensä. Erä sisältää kaikki oman pääoman erät yhteensä. Yhteisöillä omassa pääomassa esitetään osake-, osuus-, ja muu vastaava pääoma, rahastot, edellisten tilikausien voitto/tappio ja tilikauden voitto/tappio. Oma pääoma on se osa pääomasta, jolla ei ole takaisinmaksuvelvollisuutta, toisin kuin vieraalla pääomalla.
 
 #### `PaaomanTuotto` — Pääoman tuotto
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (SIJTULO) Sijoitetun pääoman tuotto. Pääoman tuotto = LiikeVoitTap - LttKayttOmaisLuovVoitto - Ltt_FuusioVoitto + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio - LaskennPalkKorj + Tu_SaadOsinko + Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork + 
 Tu_VoitOsuYhtym + Tu_RahOmLuovVoitto + Tu_MuutRah + Tu_PalArvonal
 
 #### `PalkansaajTehtTyotunti` — Palkansaajien tehdyt työtunnit
 
-**Yksikkö / Unit:** h · **Ryhmä / Group:** taustatiedot
+**Unit:** h · **Group:** taustatiedot
 
 (PATEHTUN) Palkansaajien tehdyt työtunnit. Tehdyt työtunnit ovat kaikkien työllisten tekemien työtuntien summa eli toteutunut työpanos. Se voidaan laskea kuukausittain, neljännesvuosittain tai vuosittain. Tehdyissä työtunneissa ovat mukana pää- ja sivutyön tunnit sekä palkalliset ja palkattomat ylityötunnit.
 
 #### `Palkkasumma` — Palkkasumma
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taustatiedot
+**Unit:** € · **Group:** taustatiedot
 
 Palkkasumma on yrityksen tilastovuoden tilikauden tilastoitavaksi tuleva palkka, €. Palkkasumma käsittää kaikki ennakonpidätyksen alaiset erät ennen välittömien verojen ja työntekijöiden lakisääteisten sosiaaliturvamaksujen vähennyksiä.
 
 #### `PalksaajHtv` — Palkansaajat henkilötyövuosina
 
-**Yksikkö / Unit:** vv · **Ryhmä / Group:** taustatiedot
+**Unit:** vv · **Group:** taustatiedot
 
 (PATEHTUN) Yrityksen palkansaajat henkilötyövuosina. Henkilötyövuosi kuvaa kokoaikaiseksi muutetun henkilön työpanosta. Yrityksen (yhteisön) kaikki palkatut tunnit (säännöllinen työaika+ylityötunnit) jaetaan yrityksen (yhteisön) kokoaikaisten palkansaajien keskimääräisillä palkatuilla tunneilla vuodessa.
 
 #### `PalksaajHtvLahde` — Palkansaajatiedon (htv) lähde
 
-**Luokitus / Classification:** sntilahde_2_2012_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** sntilahde_2_2012_01_01 · **Group:** taustatiedot
 
 Yrityksen tilastovuoden palkansaajien lukumäärätiedon saantilähde.
   Yhden numeron tarkkuudella (ensimmäinen numero):
@@ -1471,13 +1471,13 @@ Yrityksen tilastovuoden palkansaajien lukumäärätiedon saantilähde.
 
 #### `PalksaajKeskim` — Palkansaajat keskimäärin
 
-**Yksikkö / Unit:** lkm · **Ryhmä / Group:** taustatiedot
+**Unit:** lkm · **Group:** taustatiedot
 
 Yrityksen palveluksessa olevien koko- ja osa-aikaisten työntekijöiden lukumäärä, nuppiluku ( head count).
 
 #### `PalksaajKeskimLahde` — Palkansaajatiedon (keskim.) lähde
 
-**Luokitus / Classification:** sntilahde_2_2012_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** sntilahde_2_2012_01_01 · **Group:** taustatiedot
 
 Palkansaajatiedon (keskim. tilikautena) saantilähde.
   Yhden numeron tarkkuudella (ensimmäinen numero):
@@ -1490,13 +1490,13 @@ Palkansaajatiedon (keskim. tilikautena) saantilähde.
 
 #### `PalksaajKKEstim` — Palkansaajat keskimäärin, kuukausiestimaatti (MAVA)
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Palkansaajien määrä keskimäärin, kuukausiestimaatti (mm. OAV-aineiston = Oma-aloitteisten verojen aineisto 1.1.2017 alkaen, KAVA = kausiveroaineiston 31.12.2016 saakka perusteella)
 
 #### `PalksaajVuosiEstim` — Palkansaajat keskimäärin, vuosiestimaatti (VILMTK)
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Palkansaajat keskimäärin, vuosiestimaatti verohallituksen vuosipalkka-aineistosta (VILMTK), nuppiluku (head count) kalenterivuoden aikana. Estimointi;
 ***********
@@ -1520,25 +1520,25 @@ Yhden henkilön yhteenlaskettu kontribuutio palkansaajien keskimääräisen luku
 
 #### `PalkSummaEVR` — Palkkasumma (EVR)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taustatiedot
+**Unit:** € · **Group:** taustatiedot
 
 Palkkasumma (EVR = elinkeinoverotusaineisto)
 
 #### `PalkSummaMAVA` — Palkkasumma (MAVA)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taustatiedot
+**Unit:** € · **Group:** taustatiedot
 
 Palkkasumma (OAV-aineisto / KAVA-aineisto / MAVA-aineisto). OAV = Oma-aloitteiset verot 1.1.2017 alkaen, KAVA = kausiveroaineisto 31.12.2016 saakka, MAVA = maksuvalvonta-aineisto, nimitys ennen KAVA;a
 
 #### `PalkSummaVILMTK` — Palkkasumma (VILMTK)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** taustatiedot
+**Unit:** € · **Group:** taustatiedot
 
 Palkkasumma verohallituksen vuosipalkka-aineistosta (VILMTK=vuosi-ilmoitustietokanta, henkilöittäin ja työsuhteittain kalenterivuoden aikana, verohallinto). Tiedot perustuvat palkansaajien osalta työnantajien vuosi-il­moituksiin. Aineisto sisältää työnantajien maksamat palkat. Tiedot ovat kalenterivuodelta.
 
 #### `PKSLuokitusEU` — EU;n pieni-, keskisuuri-, suuri-luokitus
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Oikeudellisen yksikön PK-suuruusluokka tilastovuonna. Suuruusluokkaan vaikuttavat yrityksen henkilöstön määrä, vuosiliikevaihdon määrä, taseen loppusumma ja yksikön riippumattomuus. 
 
@@ -1547,110 +1547,110 @@ Mahdolliset arvot ovat: Mikro, Pieni, Keskisuuri, Suuri, Ei määritelty.
 
 #### `PoikkeavatKokotiedot` — PoikkeavatKokotiedot
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Oikeudellisen yksikön kokotietojen tyyppi tilastovuonna. Mahdolliset arvot ovat; 0 Normaalit kokotiedot 1 Ei henkilöstöä 2 Pieni henkilöstö 3 Ei liikevaihtoa 4 Pieni liikevaihto 5 Vain sisäisiä toimituksia, ei liikevaihtoa 6 Ei henkilöstöä tai liikevaihtoa
 
 #### `PoistArvonalentYht` — Poistot ja arvonalentumiset yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (POIARALY) Poistojen ja arvonalentumisten yhteissumma. Tuloslaskelmassa esitetään poistosuunnitelman mukaiset tilikauden poistot. Suunnitelman mukaiset poistot perustuvat pysyvien vastaavien hankintamenoon ja näiden taloudelliseen käyttöikään. Arvonalentumiset perustuvat todennäköisen luovutushinnan pysyvään alenemiseen.
 
 #### `PoistoEroMuutos` — Poistoeron muutos (lisäys -, vähennys +)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** kulut
+**Unit:** € · **Group:** kulut
 
 (POISEROM) Poistoeron muutos (lisäys-, vähennys +). Kirjanpidossa vähennetään vähintään yhtä suuret poistot kuin verotuksessa halutaan vähentää. Kohdassa Poistot esitetään ainoastaan suunnitelmapoistot, jolloin ylittävä tai alittava poisto esitetään kohdassa Poistoero. Suunnitelmapoistot oikaistuna poistoeron muutoksella ovat tilikauden kokonaispoistot.
 
 #### `PUOhitus` — PU:n ohitustieto
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Yrityksellä ei palvelujen ulkomaankauppaa tilastovuonna, saatavilla 2017 asti
 
 #### `RahastYht` — Rahastot yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (OPORAHYH) Rahastot yhteensä sisältää esim. ylikurssirahaston, arvonkorotusrahaston, omien osakkeiden rahaston, vararahaston ja käyttörahastot mm. rakennusrahastot ja henkilökunnan virkistysrahastot.
 
 #### `RahKulut` — Rahoituskulut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (RAHKUL) Rahoituskuluja ovat arvonalentumiset pysyvien vastaavien sijoituksista ja vaihtuvien vastaavien rahoitusarvopapereista sekä muut korko- ja rahoituskulut, esim. lainojen hoitokulut, limiittipalkkiot, takausprovisiot, luottovakuutukset, kiinnityskulut, perimiskulut, kurssitappiot, factoring-kulut ja terminointikulut. Tu_ArvonalPysVastSij + Ku_KorkoSamaKonsYri + Ku_KorkoOmistusYhtYri + ku_MuuKorko + ku_KonsTukiSaamArvoAlen + ku_MuuRahOmaisMenetArvoAlen + ku_RahOmaisLuovTappio + Ku_MuuRah
 
 #### `RahTuKuYht` — Rahoitustuotot ja -kulut yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (RATUKUYH) Rahoitustuotot ja -kulut yhteensä.
 
 #### `RahTulos` — Rahoitustulos
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (RAHTUL) Rahoitustulos saadaan lisäämällä nettotulokseen ennen liiketulosta vähennetyt suunnitelman mukaiset poistot ja arvonalentumiset.  Liikevaihto + Tu_LiiketoimMuutYht - Ltt_KayttOmaisLuovVoitto - Ltt_FuusioVoitto - MaterPalvYht - Ku_HenkilostoYht - LaskennPalkKorj + Tu_ValmOmaKaytto + vm_ValmKeskErTuotVarastMuutos - Ku_LiiketoimMuutYht + Ke_FuusioTappio + Ke_KayttOmaisLuovTappio + Rah_TuKuYht + Ku_ValittVero2
 
 #### `RahTuotot` — Rahoitustuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (RAHTUOT) Rahoitustuottoja ovat tuotot osuuksista ja muista pysyvien vastaavien sijoituksista sekä muut korko- ja rahoitustuotot. Tu_SaadOsinko + Tu_KorkoKonsYri + Tu_KorkoOmistYhtYri + Tu_MuutKork + 
 Tu_VoitOsuYhtym + Tu_RahOmLuovVoitto + Tu_MuutRah + Tu_PalArvonal
 
 #### `sat_MaksKonsAvust` — Maksetut konserniavustukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** satunnaiset_erät
+**Unit:** € · **Group:** satunnaiset_erät
 
 (MAKSKONS) Maksetut konserniavustukset. On satunnainen erä, joka sisältää konserniavustuslain mukaan maksettuja konserniavustuksia. Konserniavustuksella tarkoitetaan liiketoimintaa harjoittavan osakeyhtiön tai osuuskunnan toiselle osakeyhtiölle tai osuuskunnalle sen harjoittamaa liiketoimintaa varten muuna kuin pääomansijoituksena suorittamaa avustusta, joka ei elinkeinotulon verotuksessa saa vähentää tulosta.
 
 #### `sat_SaadKonsAvust` — Saadut konserniavustukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** satunnaiset_erät
+**Unit:** € · **Group:** satunnaiset_erät
 
 (SAAKONSA) Saadut konserniavustukset. On satunnainen erä, joka sisältää konserniavustuslain mukaan saatuja konserniavustuksia.
 
 #### `SatunEratYht` — Satunnaiset erät yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** satunnaiset_erät
+**Unit:** € · **Group:** satunnaiset_erät
 
 (SATUKUYH) Satunnaiset tuotot ja kulut yhteensä. Satunnaiset tuotot ja kulut sisältää oikaistun tuloslaskelman satunnaiset tuotot ja kulut, niiden verot ja konserniavustukset. Erä sijoitetaan kassavirtalaskelmassa ennen rahoitusjäämää. Tällöin ne ovat mukana, kun tarkastellaan tulorahoituksen riittävyyttä investointien rahoittamisessa.
 
 #### `SektoriluokkaVuosi` — Sektoriluokka (vuositieto)
 
-**Luokitus / Classification:** sektoriluokitus_11_2013_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** sektoriluokitus_11_2013_01_01 · **Group:** taustatiedot
 
 Yrityksen sektoriluokka tilastovuonna. Luokitus, jossa yksiköt jaetaan omistajuuden, toiminnan tarkoituksen ja rahoitustavan perusteella eri sektoreihin.
 
 #### `SijoitPaaoma` — Sijoitettu pääoma
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (SIJOP) sijoitettu pääoma, laskettu tk:ssa tunnuslukuja varten.
 
 #### `Sijoittajamaa` — Sijoittajamaa
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 (MAA) Yritystä eniten omistavan yhtiön sijaintimaa tilastovuonna. Konsernien tytärsuhteisilla yrityksillä tämä on sama kuin konsernin emoyhtiöllä. Luokitus; muuttujan arvo on kolminumeroinen koodi, joka saadaan luokitusstandardiin ISO 3166 perustuvasta kaksikirjaimisesta koodista luokituskannassa olevan muunnosavaimen avulla. Vrt. alkumaa.
 
 #### `ss_RahTulos` — Rahoitustulos
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (RAHTULOS) Rahoitustulos. Lisäämällä nettotulokseen ennen liiketulosta vähennetyt poistot ja arvonalentumiset, saadaan rahoitustulos. (Rahoitustulos= Nettotulos+poistot ja arvonalentumiset). Rahoitustulos kertoo, kuinka paljon yrityksen varsinainen liiketoiminta tuottaa tulorahoitusta. Tieto saatavilla 2017 asti.
 
 #### `TaseOik` — Oikaistu tase
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (OIKTASE) Oikaistu tase = Vastattavaa yhteensä - lyhytaikaiset ennakkomaksut - pitkäaikaiset ennakkomaksut. VastattavaYht - Er_SaadEnnLyhytAikVel - Er_SaadEnnPitkaAikVel  Taseen oikaisujen tavoitteena tilinpäätöksessä on saada oikea ja vertailukelpoinen kuva yrityksen taloudellisesta asemasta tilinpäätöshetkellä.
 
 #### `tilaVuosi` — Vuositietojen tila
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 Vuositietojen käsittely-/vastaustila. TilaVuosi-muuttujan arvo kertoo käsittelyn tilan.
 0      Tarkistamaton. Kaikki tiedot imputoitu
@@ -1667,244 +1667,244 @@ Hyväksytty tarkoittaa, että tiedot on manuaalisesti käsitelty paitsi jos erik
 
 #### `TilikausiAlPvm` — Tilikauden alku
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Yrityksen tilikauden  alkupäivämäärä, ppkkvvvv.
 
 #### `TilikausiLahde` — Tilikausitiedon lähde
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Yrityksen tilikausitietojen saantilähde tilastovuonna, luokitus. Mahdolliset arvot ovat; Tiedustelu, Muu lähde, Kk-tiedot, Konearvio, ASITK, VEROTK
 
 #### `TilikausiLopPvm` — Tilikauden loppu
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Yrityksen tilikauden loppupäivämäärä, ppkkvvvv.
 
 #### `TilikMuunnos` — Tilikauden arvot muunnettu 12 kk mittaiseksi
 
-**Yksikkö / Unit:** kk · **Ryhmä / Group:** taustatiedot
+**Unit:** kk · **Group:** taustatiedot
 
 Tilikauden arvotiedot muunnettu 12 kk mittaiseksi.
 
 #### `TilikPituus` — Tilikauden pituus
 
-**Yksikkö / Unit:** kk · **Ryhmä / Group:** taustatiedot
+**Unit:** kk · **Group:** taustatiedot
 
 (TILIK) Yrityksen tilikauden pituus kuukausina. Laskettu ohjelmallisesti tilikauden loppumis- ja alkupvm-tiedoista.
 
 #### `TilikTulos` — Tilikauden voitto (tappio)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (TILIKTUL) Tilikauden tulos on tuloslaskelman tulos, jossa on huomioitu kaikki yrityksen tuotot ja kulut tilikaudelta sekä etukäteen pakollisina varauksina kirjatut vastaiset menot ja menetykset.
 
 #### `tilinpKehikko` — Tilinpäätöskehikkoon kuuluminen
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Tieto saatavilla 2017 asti
 
 #### `TilinpSiirrotYht` — Tilinpäätössiirrot yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (TILINPSY) Tilinpäätössiirrot yhteensä.
 
 #### `ToimAikaTilikausi` — Toiminta-aika tilikaudella
 
-**Yksikkö / Unit:** kk · **Ryhmä / Group:** taustatiedot
+**Unit:** kk · **Group:** taustatiedot
 
 Yrityksen toiminta-aika tilikaudella, kuukautta.
 
 #### `ToimAikaVuosi` — Toiminta-aika kalenterivuonna
 
-**Yksikkö / Unit:** kk · **Ryhmä / Group:** taustatiedot
+**Unit:** kk · **Group:** taustatiedot
 
 Yrityksen toiminta-aika kalenterivuonna, kuukautta.
 
 #### `ToimipVuosiTila` — Toimipaikkatiedon vuositila
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Yrityksen toimipaikkojen vuositietojen tila, saatavilla 2017 asti.
 
 #### `Tol2008Vuosi` — Toimiala (TOL 2008)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** toimiala_1_2008_01_01 · **Group:** taustatiedot
 
 Yrityksen toimiala tilastovuonna TOL 2008 toimialaluokituksella. Toimiala, joka yrityksellä on ollut pisimmän aikaa tilastovuonna. Toimialakoodi määräytyy oikeudellisen yksikön toiminnan perusteella. Monitoimipaikkaisella oikeudellisella yksiköllä koodi ilmaisee yksikön päätoimialaa, joka määräytyy ohjelmallisesti toimipaikkojen toimiala- ym. tiedoista.
 
 #### `tol2008VuosiPuhtPros5` — TOL 2008 puhtausprosentti (5 nro taso)
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 (Pää)toimialan puhtaus-% TOL 2008-luokituksen 5-numerotasolla
 
 #### `tu_ArvonalPysVastSij` — Arvonalentumiset pysyvien vastaavien sijoituksista
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (RAKOMARA) Arvonalentumiset pysyvien vastaavien sijoituksista. Sijoitusten arvonalentumiset ovat pysyvien vastaavien sijoitusten ja lainasaamisten arvonalennuksia.
 
 #### `tu_AvustTuki` — Saadut avustukset ja tuet
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (AVUSVERO) Elinkeinotoimintaa varten saadut, suoraan tuloutetut avustukset, lisät ja tuet valtiolta ja kunnalta (TEM, YM, TEKES jne.).
 
 #### `tu_HkohtTulolTuotVeronalLuovVoit` — Henkilökohtaisen tulolähteen tuotot ja veronalainen luovutusvoitto
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (HENKTULO) Henkilökohtaisen tulolähteen tuotot ja veronalainen luovutusvoitto, joka on syntynyt henkilökohtaiseen tulolähteeseen kuuluvasta omaisuudesta. Henkilökohtaiseen tulolähteeseen kuuluvaa toimintaa voi olla esimerkiksi elinkeinotoimintaan kuulumattoman kiinteistön ja huoneisto-osakkeen vuokraus, passiivinen arvopaperiomistus, yhtiön rahavarojen lainaaminen osakkaalle (koron periminen) tai elinkeinotoimintaan kuulumaton metsätalouden harjoittaminen. Tulolähdejako poistui verovuonna 2020.
 
 #### `tu_KayttOmaisOsakLuovVoitto` — Ko osakkeitten luovutus- ja purkuvoitot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (KOSLUOVV) Kaikkien käyttöomaisuuteen kuuluneiden osakkeiden luovutusvoittojen ja purkuvoittojen yhteissumma.
 
 #### `tu_KorkoKonsYri` — Korkotuotot saman konsernin yrityksiltä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (MURAHTUK) Saman konsernin yrityksiltä saadut korkotuotot. Konserniyrityksillä tarkoitetaan tässä emoyritystä tai sen tytäryrityksiä.
 
 #### `tu_KorkoOmistYhtYri` — Korkotuotot omistusyhteysyrityksiltä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (KORKTOMY) Omistusyhteysyrityksiltä saadut korkotuotot. Omistusyhteysyritys on konserniin kuulumaton kotimainen tai ulkomainen yritys, jossa toisella yrityksellä yksin tai yhdessä useamman yrityksen kanssa on sellainen omistusosuus (vähintään 20 % yrityksen omasta pääomasta), joka luo pysyvän yhteyden.
 
 #### `tu_LiiketoimMuutYht` — Liiketoiminnan muut tuotot yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (LIMUTUOT) Liiketoiminnan muut tuotot yhteensä. Sisältää käyttöomaisuusosakkeiden luovutusvoitot ja purkuvoitot, muun käyttöomaisuuden luovutusvoitot, saadut avustukset ja tuet ja muut liiketoiminnan muut tuotot.
 
 #### `tu_MaatalTulolah` — Maatalouden tulolähteen tuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (MAATALTU) Maatalouden tulolähteen tuotot poistuu, mutta mukana joinakin vuosina.
 
 #### `tu_MuuKayttOmaisLuovVoitto` — Muut käyttöomaisuuden luovutusvoitot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (MUKOMLVO) Muun käyttöomaisuuden luovutusvoitot, kuten rakennusten, maa-alueiden ja koneiden luovutusvoitot.
 
 #### `tu_MuutKork` — Muut korkotuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (MURAHTUM) Muut korkotuotot, esim korkotuotot pankkisaamisista ja talletuksista.
 
 #### `tu_MuutLiikToimMuutTuot` — Muut liiketoiminnan muut tuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (MUULIMUT) Muut liiketoiminnan muut tuotot, joita ovat esim. liiketoimintakaupoista syntyneet myyntivoitot, leasinghyvitykset, saadut vahingonkorvaukset, vuokratuotot kiinteistöistä, vuokratuotot henkilöstön virkistyskäytössä olevista tiloista, toimistopalvelutuotot.
 
 #### `tu_MuutRah` — Muut rahoitustuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (MURATUOT) Muut rahoitustuotot, esim. valuuttakurssivoitot.
 
 #### `tu_PalArvonal` — Palautuvat arvonalennukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (PALARVAL) Rahoitusomaisuuteen, vaihto-omaisuuteen tai käyttöomaisuuteen liittyvät palautuvat arvonalennukset.
 
 #### `tu_RahOmLuovVoitto` — Rahoitusomaisuuden luovutusvoitot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (ROLUVOIT) Rahoitusomaisuudesta, kuten rahoitusomaisuuteen kuuluneista arvopapereista saadut luovutusvoitot.
 
 #### `tu_SaadOsinko` — Saadut osingot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (OSINKOSA) Yhteisön saamien osinkojen ja muiden voitonjaon luonteisten erien yhteismäärä.
 
 #### `tu_Satun` — Satunnaiset tuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (SATTUOT) Satunnaiset tuotot syntyvät muusta kuin yrityksen varsinaisesta toiminnasta ja ovat luonteeltaan kertaluonteisia ja suuruudeltaan olennaisia. Pysyvistä vastaavista syntyneet myyntivoitot ja -tappiot ovat normaalisti liiketoiminnan muita tuottoja ja kuluja. Kokonaisesta toimialasta luopumisen yhteydessä syntynyttä myyntivoittoa tai -tappiota pidetään kuitenkin satunnaisena eränä. Konserniavustuslain mukaiset saadut konserniavustukset esitetään myös satunnaisissa tuotoissa.
 
 #### `tu_TuloslaskMuuVerot` — Tuloslaskelman muut verottomat tuotot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (VEROTONT) Tuloslaskelman muut verottomat tuotot.
 
 #### `tu_ValmOmaKaytto` — Valmistus omaan käyttöön
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (VALMOMAK) Omaan käyttöön valmistettujen tuotteiden arvo. Valmistus omaan käyttöön tarkoittaa yrityksen omana  tuotantona tekemiä, mutta myynnin sijasta käyttöomaisuudeksi otettuja hyödykkeitä.
 
 #### `tu_VoitOsuYhtym` — Voitto-osuudet yhtymistä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 (VOSYHTYM) Voitto-osuudet yhtymistä.
 
 #### `Tulorahoitus` — Tulorahoitus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (TULORAH) Tulorahoitus on yrityksen toiminnan tai investointien rahoittamista käyttäen liiketoiminnasta kertyviä tuloja. Tulorahoitus = NETTOT = LIVOILMY + RAHTUOTOT + RAHKULUT + VALVERTU + VALMERMU = liiketulos + rahoitustuotot + rahoituskulut + tuloverot + muut välittömät verot.
 Nettotulos saadaan, kun liiketulokseen lisätään tuloslaskelman rahoitustuotot ja vähennetään rahoituskulut ja verot.
 
 #### `TulosEnnenSatErat` — Voitto (tappio) ennen satunnaisia eriä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (TULOSESA) Voitto/tappio ennen satunnaisia eriä.
 
 #### `TulosEnnenTilinpSiirrotVerot` — Voitto (tappio) ennen tilinpäätössiirtoja ja veroja
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** johdetut_muuttujat
+**Unit:** € · **Group:** johdetut_muuttujat
 
 (TULOSEVA) Voitto/tappio ennen tilinpäätössiirtoja ja veroja.
 
 #### `TuloverolaskTarkKulu` — Tuloverolaskelman tarkistus koodi (kulut)
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 (KU) Laatukoodi verolaskelman kuluille. Tuloverolaskelman tarkistuskoodi (kulut) 
 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu
 
 #### `TuloverolaskTarkTulo` — Tuloverolaskelman tarkistus koodi (tulot)
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 (TU) Laatukoodi tuloslaskelman tuloille. 
 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu
 
 #### `TuototMaatalous` — Tuotot maataloudesta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 Yrityksen tuotot maataloudesta tilastovuonna, €.
 
 #### `TuototMetsatalous` — Tuotot metsätaloudesta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** tuotot
+**Unit:** € · **Group:** tuotot
 
 Yrityksen tuotot metsätaloudesta tilastovuonna, €.
 
 #### `ulkomaanTavaraKaupHarj` — Ulkomaantavarakaupan harjoittaminen
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Yritystä koskeva tilastovuoden tuoja/viejä -tieto. 
 Mahdolliset arvot ovat;
@@ -1915,323 +1915,323 @@ Määritelmän mukaan ulkomaankauppaa harjoittaa yritys, jonka tuonnin/viennin k
 
 #### `va_AineetonOik` — Aineettomat oikeudet
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOATONO) Aineettomat oikeudet yhteensä. Tähän ryhmään kuuluvat patentti-, toimilupa-, tavara-, merkki-, toiminimi- ja apteekkioikeudet, vuokraoikeudet, erilaiset tekijänoikeudet sekä käyttöoikeudet.
 
 #### `va_AineTarv` — Aineet ja tarvikkeet
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOLOMANT) Aineita ja tarvikkeita ovat esimerkiksi raaka-aineet sekä apu- ja tarveaineet. Aineet ja tarvikkeet saattavat liittyä välittömästi myytäväksi tarkoitetun hyödykkeen valmistamiseen tai valmistuksessa käytettävien koneiden ja laitteiden huoltoon. Aineisiin ja tarvikkeisiin luetaan mukaan myös myytävien hyödykkeiden pakkaustarvikkeet.
 
 #### `va_EnnakkoMaks` — Ennakkomaksut
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOENNAK) Ennakkomaksut liittyvät käyttömaisuushyödykkeiden hankintaan, mutta hyödykettä ei ole vielä toimitettu tai sen rakentaminen on kesken. Kun hyödykkeet otetaan käyttöön, suoritetaan siirto tästä ryhmästä asianomaiseen käyttöomaisuusryhmään. Tasekaavassa on yleisenä periaatteena, että ennakkomaksut esitetään siinä taseryhmässä, mihin ne luonteensa puolesta kohdistuvat.
 
 #### `va_KayttOmaisArvopap` — Käyttöomaisuusarvopaperit
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOARPAP) Osakkeet ja osuudet saman konsernin yrityksissä, osakkeet ja osuudet omistusyhteysyrityksissä, muut osakkeet ja osuudet. Osakkeita ja osuuksia ovat pitkäaikaiseen käyttöön tarkoitetut arvopaperit. Näitä ovat puhelinosakkeet ja osuustodistukset, toimitilaosakkeet, henkilökunnan asunnoksi hankitut huoneisto-osakkeet, tytäryhtiöosakkeet ja muut intressiyhtiöiden osakkeet.
 
 #### `va_KayttOmaisSaam` — Muut käyttöomaisuussaamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOSAAMU) Muut käyttöomaisuuteen kuuluvat saamiset.
 
 #### `va_KeskenerTuote` — Keskeneräiset tuotteet
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOLOKESK) Keskeneräisten tuotteiden varastot tilikauden lopussa. Keskeneräisillä tuotteilla tarkoitetaan itse valmistettuja, myytäväksi aiottuja hyödykkeitä, joiden valmistusprosessi on tilikauden päättyessä kesken (puolivalmisteet). Keskeneräinen tuote voi olla aineellinen tai aineeton. Aineeton vaihto-omaisuushyödyke on esimerkiksi arkkitehti- tai suunnittelualan yrityksen keskeneräinen suunnittelutyö tai keskeneräinen elokuva, jonka esitysoikeudet on tarkoitus myydä elokuvan valmistuttua. Aineellisiin keskeneräisiin tuotteisiin sisältyvät puolivalmisteet, keskeneräiset rakennustyöt, keskeneräisten koneiden ja laitteiden rakennustyöt.
 
 #### `va_Kiint` — Kiinteistöt
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOKIINT) Kiinteistöjen, rakennusten ja rakennelmien yhteenlaskettu arvo. Kiinteistöön luetaan maapohja ja sillä olevat rakennukset.  Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Rakennuksia ovat kirjanpitovelvollisen toiminnassa käyttämät tehdas-, varasto-, talous,- myymälä-, toimisto-, ja asuinrakennukset, hotellit, sairaalat, hallit, voima-asemat yms. Rakennelmia ovat siilot, polttoneste- ja happosäilöt, kalliosuojat ja -varastot sekä parakit.
 
 #### `va_KoneKalusto` — Koneet ja kalusto
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOKONE) Koneisiin ja kalustoihin luetaan irtain käyttöomaisuus kuten tehdaskoneet, konttorikoneet, autot, trukit, traktorit, alukset, lentokoneet, kuljetuskalustot, televisiot, radiot, viestintäkalustot ja huonekalut. Leasingille otettua kalustoa ei lueta verotuksessa käyttöomaisuuteen, joten sitä ei merkitä tähän.
 
 #### `va_LainaSaam` — Lainasaamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DSAALAIN) Lainasaamiset ovat rahan lainauksesta syntyneitä saamisia, jotka ovat suhteellisen lyhytaikaisia. Lainasaamisia ovat mm. lainat konserniyhtiöille, henkilökunnalle, osakkaille ja muille yrityksille.
 
 #### `va_MuuKayttOmais` — Muu käyttöomaisuus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOMUU) Muita aineellisia hyödykkeitä ovat esimerkiksi; rautatiet, kadut, sillat, rummut, viemärit, väylät, kanavat, altaat, padot sekä sähkö-, kaasu-, ja vesijohtoverkostot (sähkö-, kaasu- ja vesijohtoverkot voivat olla myös kiinteistöjen ryhmässä maa- ja vesirakennelmina). Muita eriä ovat turve-, malmi-, sora-, savi- ym. alueet. Myös taide-esineet voidaan esittää tässä ryhmässä.
 
 #### `va_MuuRahoitOmais` — Muu rahoitusomaisuus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DROMUU) Muu rahoitusomaisuus.
 
 #### `va_MuuSaam` — Muut saamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DSAAMUUT) Muita saamisia voivat olla mm. verosaamiset, vakuutustalletukset, maksetut vuokravakuudet ja vahingonkorvaussaamiset. Myös osakassaamiset erikoisluonteensa johdosta voidaan esittää tässä erässä, samoin kuin investointitalletuskin.
 
 #### `va_MuuVaihtOmais` — Muu vaihto-omaisuus
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (MUUVOLO) Muut vaihto-omaisuuteen kuuluvat hyödykkeet. Muuta vaihto-omaisuutta ovat mm. ennakkomaksut.
 
 #### `va_Myyntisaam` — Myyntisaamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DSAAMYY) Kaikki pitkä- ja lyhytaikaiset myyntisaamiset, osamaksusaamiset yms. Myyntisaamiset ovat varsinaisesta toiminnasta eli tavaroiden ja palveluiden myynnistä syntyneitä saamisia.
 
 #### `va_OsaTulSaam` — Osatuloutuksen saamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 Osatuloutuksen saamiset. 2018 uusi erä verottajalta.
 
 #### `va_PankkiSaam` — Pankkisaamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DSAAMYY) Pankissa olevat talletukset, sijoitusvarat ja valuuttavarat.
 
 #### `va_PitkaVaikMeno` — Pitkävaikutteiset menot
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOPIMEN) Menot, jotka kerryttävät tai säilyttävät tuloa kolmen tai useamman vuoden ajan, mm. vuokrahuoneistojen perusparannusmenot ja liikearvon hankintameno.
 
 #### `va_Rahat` — Rahat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DRORAHAT) Yhtiön käteiset kassavarat.
 
 #### `va_RahoitOmaisArvopap` — Rahoitusomaisuusarvopaperit
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DROARYHT) Osakkeet ja osuudet sisältävät tilapäisiä osakesijoituksia tai niitä on saatettu ottaa vastaan maksun tai saamisen turvaamisesksi. Muut arvopaperit ovat tilapäisiä sijoituksia joukkovelkakirjoihin ja niitä on otettu maksuksi saatavasta.
 
 #### `va_SaamKonsYri` — Käyttöomaisuussaamiset saman konsernin yrityksiltä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOSAAMK) Käyttöomaisuuteen kuuluvat saamiset saman konsernin yrityksiltä. Konserniyrityksiä ovat kirjanpitolaissa tarkoitetut emoyritys ja tytäryritys.
 
 #### `va_SaamOmistYhtYri` — Saamiset omistusyhteysyrityksiltä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOSAAMK) Omistusyhteysyritys on kirjanpitovelvollisen konserniin kuulumaton kotimainen tai ulkomainen yritys.  Yritystä pidetään omistusyhteysyrityksenä, jos kirjanpitovelvollisella on vähintään viidesosa yrityksen osakepääomasta tai vastaavasta pääomasta.
 
 #### `va_SaamOmYhtYri` — Käyttöomaisuussaamiset omistusyhteysyrityksiltä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DKOSAAOM) Käyttöomaisuuteen kuuluvat saamiset omistusyhteysyrityksiltä.
 
 #### `va_SaamSamaKonsYri` — Saamiset saman konsernin yrityksiltä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DSAAKONS) Saamiset saman konsernin yrityksiltä. Konserniyrityksiä ovat kirjanpitolaissa tarkoitetut emoyritys ja tytäryritys.
 
 #### `va_SiirtoSaam` — Siirtosaamiset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (DSASIIRT) Siirtosaamisiin sisältyy menoennakkoja, kuten etukäteen maksettuja korkoja, vuokramenoja, vakuutusmaksuja, veroja, jäsenmaksuja, tilausmaksuja ja ostotoiminnan perusteella tulevia alennuksia. Toinen siirtosaamisten ryhmä on tulojäämät, kuten maksamattomat korkotulot, vuokratulot, vakuutuskorvaukset ja avustukset sekä arvonlisäverosaaminen.
 
 #### `va_Tavara` — Tavarat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOLOKAUP) Kauppatavarat tilikauden lopussa. Kauppatavaroiden varastot tilikauden lopussa. Kauppatavaroilla tarkoitetaan niitä hyödykkeitä, jotka yritys on ostanut myytäväksi edelleen ilman jatkokäsittelyä. Kauppatavaroiksi luetaan myös raaka-aineet, jotka yritys on ostanut myytäväksi eteenpäin sellaisenaan.
 
 #### `va_VaihtOmaisArvopap` — Vaihto-omaisuusarvopaperit
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOLOARVP) Vaihto-omaisuuteen kuuluvat arvopaperit.
 
 #### `va_VaihtOmaisKiint` — Vaihto-omaisuuskiinteistöt
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOLOKIIN) Vaihto-omaisuuteen kuuluvat kiinteistöt.
 
 #### `va_ValmTuote` — Valmiit tuotteet
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOLOVALM) Valmiit tuotteet tilikauden lopussa. Vaihto-omaisuuden valmiiden tuotteiden tai tavaroiden määrä tilikauden lopussa. Valmiilla tuotteilla tarkoitetaan hyödykkeitä, jotka on itse valmistettu ja saatettu luovutusvalmiiksi ja jotka on tarkoitettu myytäviksi. Valmiisiin tuotteisiin luetaan mukaan myös sivutuotteet ja valmistusjätteet, joita valmistustoimintaa harjoittavan yrityksen tuotannossa syntyy.
 
 #### `VaihtOmaisYhtTilikAl` — Vaihto-omaisuus yhteensä tilikauden alussa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOALYHT) Vaihto-omaisuus yhteensä tilikauden alussa.
 
 #### `VaihtOmLaatukoodi` — Tilikauden alun vaihto-omaisuustietojen laatukoodi
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 #### `ValmTuoteTilikAl` — Valmiit tuotteet tilikauden alussa
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VOALVALM) Valmiit tuotteet tilikauden alussa. Vaihto-omaisuuden valmiiden tuotteiden tai tavaroiden määrä tilikauden alussa.
 
 #### `VapaaehtVaraukset` — Vapaaehtoiset varaukset
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (KVARVEM) Vapaaehtoiset varaukset ovat investointi-, toiminta-, luottotappio-, yms. varauksia.
 
 #### `VapaaehtVarauksetMuutos` — Vapaaehtoisten varausten muutos
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa
+**Unit:** € · **Group:** vastaavaa
 
 (VAPEHTVA) Vapaaehtoisten varausten muutos (lisäys -, vähennys +). Vapaaehtoisia varauksia ovat investointi-, luottotappio-, toiminta-, varasto-,  asuintalo- ja muut sellaiset varaukset. Myös EVLn siirtymävarauksen muutos kuuluu tähän ryhmään. Näiden varausten lisäys tai vähennys esitetään tässä kohdassa.
 
 #### `VarallLaskTarkKoodiOmaP` — Varallisuuslaskelman tarkistus koodi (oma pääoma)
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 (OP) Laatukoodi varallisuuslaskelman omalle pääomalle. 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu
 
 #### `VarallLaskTarkKoodiTulosTase` — Tilikauden tuloksen tarkistus koodi (tulos ja tase)
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 (SS) Tilikauden tuloksen tarkistus koodi (tulos ja tase). 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu
 
 #### `VarallLaskTarkKoodiVarat` — Varallisuuslaskelman tarkistus koodi (varat)
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 (VA) Laatukoodi varallisuuslaskelman varatiedoille. 01 Tiedot OK  02 Virheellistä muuttujaa korjattu Outlier-menetelmällä  03  Virheellistä muuttujaa korjattu skaalausmentelmällä  04 Virheellistä muuttujaa korjattu imputoimalla edellisvuoden tiedoista  05  Virheellistä muuttujaa korjattu imputoimalla luovuttajayrityksen tiedoista  06 Virheellistä muuttujaa korjattu useammalla menetelmällä  07 Tiedoissa virhe  08 Tase tyhjätty fuusion takia / EI KÄYTÖSSÄ  ZZ Tieto puuttuu
 
 #### `VarallLaskTarkKoodiVelat` — Varallisuuslaskelman tarkistus koodi (velat)
 
-**Ryhmä / Group:** laatumuuttujat
+**Group:** laatumuuttujat
 
 (VE) Laatukoodi varallisuuslaskelman velkatiedoille. 1  Varallisuuslaskelman velat menee umpeen. 21  Jokin virheellinen varallisuuslaskelman velkamuuttuja korjattu Outlier-menetelmällä. 31 Jokin virheellinen varallisuuslaskelman velkamuuttuja korjattu skaalausmenetelmällä. 41  Jokin virheellinen varallisuuslaskelman velkamuuttuja imputoitu yrityksen edellisvuoden tiedoilla. 51  Jokin virheellinen varallisuuslaskelman velkamuuttuja imputoitu jonkun luovuttajayrityksen tiedoilla. L5  Varallisuuslaskelman velat eivät mene umpeen. Virhettä ei kyetä korjaamaan.
 
 #### `vas_KayttOmais` — Käyttöomaisuus yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa_yhteensä
+**Unit:** € · **Group:** vastaavaa_yhteensä
 
 (DKOMYHTA) Käyttöomaisuushyödykkeiden yhteissumma. Taseen pysyvät vastaavat yhteensä muodostuu kolmesta pääryhmästä: aineettomat hyödykkeet, aineelliset hyödykkeet ja sijoitukset. Pysyvillä vastaavilla tarkoitetaan eriä, jotka on tarkoitettu tuottamaan tuloa jatkuvasti useana tilikautena.
 
 #### `vas_RahoitOmais` — Rahoitusomaisuus yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa_yhteensä
+**Unit:** € · **Group:** vastaavaa_yhteensä
 
 (DRAOMYHT) Rahoitusomaisuus yhteensä. Rahoitusomaisuus yhteensä on taseen vaihtuvien vastaavien erien lyhyt- ja pitkäaikaiset saamiset, rahoitusarvopaperit sekä rahat ja pankkisaamiset summa. Rahoitusomaisuus määritellään kirjanpitolaissa, mutta se ei esiinny nimikkeenä tasekaavassa.
 
 #### `vas_VaihtOmais` — Vaihto-omaisuus yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa_yhteensä
+**Unit:** € · **Group:** vastaavaa_yhteensä
 
 (DVOYHT) Vaihto-omaisuus yhteensä.  Erä on aineiden ja tarvikkeiden, keskeneräisten tuotteiden, valmiiden tuotteiden, tavaroiden (kauppatavarat), muun vaihto-omaisuuden sekä ennakkomaksujen yhteissumma. Vaihto-omaisuutta ovat sellaisenaan tai jalostettuina luovutettavaksi tai kulutettavaksi tarkoitetut hyödykkeet. Vastaa taseen arvoa vaihto-omaisuus yhteensä.
 
 #### `vas_VaratYht` — Varat yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa_yhteensä
+**Unit:** € · **Group:** vastaavaa_yhteensä
 
 (DVARATYH)  Vaihtuvat vastaavat yhteensä muodostuu taseen neljästä pääryhmästä: vaihto-omaisuus, saamiset, rahoitusarvopaperit sekä rahat ja pankkisaamiset. Vaihtuvien vastaavien vaikutusaika on lyhyt. Niitä ei ole tarkoitettu tuottamaan tuloa useana tilikautena.
 
 #### `VastaavaYht` — Vastaavaa yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastaavaa_yhteensä
+**Unit:** € · **Group:** vastaavaa_yhteensä
 
 (DYHT) Vastaavaa yhteensä. Taseen vastaavaa yhteensä on pysyvien vastaavien ja vaihtuvien vastaavien yhteissumma.
 
 #### `VastattavaYht` — Vastattavaa yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa_yhteensä
+**Unit:** € · **Group:** vastattavaa_yhteensä
 
 (KYHT) Vastattavaa yhteensä. Vastattavaa yhteensä on taseen neljän pääryhmän, oma pääoma, tilinpäätössiirtojen kertymä, pakolliset varaukset ja vieras pääoma, summa.
 
 #### `ve_JoukkoVelkakLaina` — Joukkovelkakirjalainat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPJOUVKL) Joukkovelkakirjat ovat liikkeelle laskettuja obligaatio-, debentuuri-, yritystodistus- ja sijoitustodistuslainoja sekä haltijalle asetettuja optiolainoja.
 
 #### `ve_KonsYri` — Velat saman konsernin yrityksille
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPVEKONS) Velat saman konsernin yrityksille ovat tytäryhtiöille ja osakkuusyrityksille olevia velkoja, esim. konserniyrityksiltä saadut ennakot, rahoitusvekselit ja muut velat.
 
 #### `ve_LainatRahLait` — Lainat rahoituslaitoksilta
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (RAHOTL) Lainat rahoituslaitoksilta. Lainoihin sisältyy sekä lyhyt- ja pitkäaikaiset lainat.
 
 #### `ve_Muu` — Muut velat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPMUVEL) Muita velkoja voivat olla esimerkiksi  saadut ennakot, rahoitusvekselit ja velat työntekijöille, lyhytaikaiset rahoitusvekselit, ennakonpidätysvelat, sosiaaliturvamaksuvelat. Velkana pidetään myös vakuutuslaitoksen ja vakuutusyhtiön sekä eläkelaitoksen, eläkesäätiön, ja eläkekassan vastuita ja vakavaraisuuden parantamiseksi tekemää varausta. Myös sähkö-, tele- yms. laitoksen saamat liittymämaksut ovat velkaa, jos niihin liittyy palautusvelvollisuus.
 
 #### `ve_OmistYhtYri` — Velat omistusyhteysyrityksille
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPVOMISY) Velat omistusyhteysyrityksille esim. saadut ennakot, rahoitusvekselit ja muut velat.
 
 #### `ve_Osakas` — Velat osakkaille
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPVOSAK) Velat osakkaille.
 
 #### `ve_OstoVe` — Ostovelat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPOSTOV) Ostovelat ovat vaihto-, käyttö-, tai rahoitusomaisuuden hankkimiseen  liittyviä velkoja.
 
 #### `ve_PaaomLaina` — Pääomalainat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (PAAOMLAI) Pääomalaina on ehdoiltaan omaa pääomaa muistuttava rahoitusjärjestely. Pääomalaina esitetään luonteensa mukaisesti joko pitkäaikaisen ja/tai lyhytaikaisen vieraan pääoman ryhmässä. Sen takaisinmaksu tehdään vapaista varoista.
 
 #### `ve_Siirto` — Siirtovelat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPSIIRTV) Siirtovelkoihin kuuluvat menojäämät, kuten maksamattomat korot, vuokrat, lomapalkat, palkat, sosiaali- ja muut vakuutukset, verot, myynnin perusteella annettavat alennukset, tantieemit ja provisiot. Tuloennakot ovat myös siirtovelkoja. Niitä ovat etukäteen saadut vuokratulot, korkotulot ja tilausmaksut.
 
 #### `ve_VaihtoVelkaKirjLain` — Vaihtovelkakirjalainat
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa
+**Unit:** € · **Group:** vastattavaa
 
 (VPVAVEKL) Vaihtovelkakirjalainat ovat lainoja, joiden lainaehtoihin liittyy oikeus vaihtaa lainapääoma yrityksen osakkeiksi.
 
 #### `verohoikmuoto` — Verohallinnon oikeudellinen muoto
 
-**Luokitus / Classification:** verohoikmuot_2_2012_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** verohoikmuot_2_2012_01_01 · **Group:** taustatiedot
 
 Verohallinnon oikeudellinen muoto, 2013 alkaen.
 01 Luonnollinen henkilö
@@ -2295,49 +2295,49 @@ ZZ Tieto puuttuu
 
 #### `VersioID` — Tilastoversio
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Tilastoversio
 
 #### `ves_LyhytaikYhteens` — Lyhytaikaiset velat yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa_yhteensä
+**Unit:** € · **Group:** vastattavaa_yhteensä
 
 (VELVPYHT) Lyhytaikainen vieras pääoma yhteensä. Lyhytaikainen vieraspääoma sisältää lyhytaikaiset pankkilainat, ostovelat ja muut lyhytaikaiset velat.
 
 #### `ves_PitkaaikYhteens` — Pitkäaikaiset velat yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa_yhteensä
+**Unit:** € · **Group:** vastattavaa_yhteensä
 
 (VEPVPYHT) Pitkäaikainen vieras pääoma yhteensä. Pitkäaikainen vieraspääoma muodostuu joukkokirjalainojen, vaihtovelkakirjalainojen, rahoituslaitoslainojen, eläkelainojen, saatujen ennakoiden, ostovelkojen, veloista saman konsernin yrityksille, veloista omistusyhteysyrityksille, muista veloista sekä siirtoveloista.
 
 #### `ves_Yhteens` — Velat yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa_yhteensä
+**Unit:** € · **Group:** vastattavaa_yhteensä
 
 (VPOYHT) Velat yhteensä. Taseen pitkäaikainen ja lyhytaikainen vieras pääoma yhteensä.
 
 #### `VierasPaaomYht` — Vieras pääoma yhteensä
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** vastattavaa_yhteensä
+**Unit:** € · **Group:** vastattavaa_yhteensä
 
 (VPOYHT) Vieras pääoma yhteensä.
 
 #### `vm_AineTarvTavaraVarastMuutos` — Varastojen muutos (lisäys -, vähennys +)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** varastojen_muutos
+**Unit:** € · **Group:** varastojen_muutos
 
 (OSTVARMU) Ostovarastojen muutos (lisäys +, vähennys -). Virallisen tuloslaskelman aine-, tarvike- ja tavaravarastojen muutos. Voidaan laskea vaihto-omaisuuden tasearvoista.
 
 #### `vm_ValmKeskErTuotVarastMuutos` — Valmistevarastojen lisäys (+) tai vähennys (-)
 
-**Yksikkö / Unit:** € · **Ryhmä / Group:** varastojen_muutos
+**Unit:** € · **Group:** varastojen_muutos
 
 (VALMVARM) Valmiiden ja keskeneräisten tuotteiden varaston muutos (lisäys +, vähennys-). Valmiiden ja keskeneräisten tuotteiden varastojen muutos koostuu vaihto-omaisuuden keskeneräisten tuotteiden ja valmiiden tuotteiden tai tavaroiden yhteisestä varaston muutoksesta. Vaihto-omaisuudessa olevien ennakkomaksujen muutos ei sisälly tuloslaskelman varaston muutokseen.
 
 #### `VuositilastonYksikko` — Vuositilaston yksikkö
 
-**Ryhmä / Group:** taustatiedot
+**Group:** taustatiedot
 
 Saa arvon 1, jos yritys kuuluu vuositilastoon, jonka rajaukset ovat seuraavat:
 
@@ -2352,19 +2352,19 @@ d.       sektoriluokkaVuosi is null.
 
 #### `VuosiToimipaikLaji` — Toimipaikkaisuus, yksi- tai monitoimipaikkainen
 
-**Luokitus / Classification:** alayksik_2_2012_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** alayksik_2_2012_01_01 · **Group:** taustatiedot
 
 Yrityksen tilikauden toimipaikkaisuus. Kertoo kuinka monta oikeudellista toimipaikkaa yrityksellä on ollut tilastovuoden tilikautena. Mahdolliset arvot ovat; Ei toimivia, Yksi toimiva, Useita toimivia.
 
 #### `yrittajat` — Yrittäjät henkilötyövuosina
 
-**Yksikkö / Unit:** vv · **Ryhmä / Group:** taustatiedot
+**Unit:** vv · **Group:** taustatiedot
 
 Yrityksen yrittäjät henkilötyövuosina. Henkilötyövuosi kuvaa kokoaikaiseksi muutetun henkilön työpanosta. Yrityksen (yhteisön) kaikki palkatut tunnit (säännöllinen työaika+ylityötunnit) jaetaan yrityksen (yhteisön) kokoaikaisten palkansaajien keskimääräisillä palkatuilla tunneilla vuodessa.
 
 #### `YrittajatKeskim` — Yrittäjät keskimäärin
 
-**Yksikkö / Unit:** henk. · **Ryhmä / Group:** taustatiedot
+**Unit:** henk. · **Group:** taustatiedot
 
 Yrittäjien lukumäärä keskimäärin tilikautena / kalenterivuonna, nuppiluku. 
   
@@ -2391,13 +2391,13 @@ Yrityksille, joihin ei yhdisty yrittäjiä, estimointi tehdään toimialan liike
 
 #### `yrittajatLahde` — Yrittäjätiedon (htv) lähde
 
-**Luokitus / Classification:** sntilahde_2_2012_01_01 · **Ryhmä / Group:** taustatiedot
+**Classification:** sntilahde_2_2012_01_01 · **Group:** taustatiedot
 
 Yrittäjien lukumäärä -tiedon (htv) saantilähde.
 
 #### `oik` — Oikeudellinen muoto
 
-**Luokitus / Classification:** oikeudell_muoto_1_1984_01_01
+**Classification:** oikeudell_muoto_1_1984_01_01
 
 Tillinpäätösaineistossa vuoteen 2013 asti.
 
@@ -2440,4 +2440,4 @@ Yritysten rakenne- ja tilinpäätöstilaston, alueellisen yritystoimintatilaston
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

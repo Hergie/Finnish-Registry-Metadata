@@ -10,7 +10,7 @@
 - **Population:** Vuosina 2008-2013 toisen asteen koulutuksen yhteishakuun osallistuneet. Aineisto sisältää myös kaikki peruskoulujen 9. ja 10. luokalla tilastovuoden keväällä opiskelleiden henkilötiedot riippumatta siitä, onko henkilö hakenut toisen asteen jatko-opintoihin tai saanut päättötodistuksen.
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
 
-## Kuvaus / Description
+## Description
 
 Toisen asteen yhteishaku -moduulin 5. osa koostuu henkilöistä, jotka osallistuivat tilastovuosina 2008-2013 toisen asteen koulutuksen yhteishakuun. Aineisto sisältää tiedot toisen asteen ammatillisen koulutuksen ja lukiokoulutuksen opiskelijaksi hakeutumisesta ja opiskelijavalinnoista. Aineisto sisältää myös talouskoulukoulutuksen (tutkintokoodi 038411). Eri vuosien tiedostot ovat sisällöltään samanlaisia. Kyseiset tiedostot on toimitettu Tilastokeskukseen OPH:sta. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
 
@@ -49,9 +49,9 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (142)
+## Variables (142)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `VUOSI` | Koulutuksen alkamiskalenterivuosi | — | — | — |
 | `KAUSI` | Koulutuksen alkamislukukausi | — | — | — |
@@ -196,7 +196,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `LAHTOKOULUTKNUTS3` | Oppilaitoksen sijaintimaakunta, lisätty TK:ssa tiedostoon | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `VUOSI` — Koulutuksen alkamiskalenterivuosi
 
@@ -1036,4 +1036,4 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

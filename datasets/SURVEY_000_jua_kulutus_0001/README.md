@@ -8,7 +8,7 @@
 - **Variable count:** 1
 - **Observation count:** —
 
-## Kuvaus / Description
+## Description
 
 SURVEY_Kulutus on Tilastokeskuksen kulutustutkimuksen pohjalta muodostettu tutkimusvalmisaineisto. Kyseessä on vuosiaineisto, joka kattaa kulutustutkimuksen viimeisimmän tiedonkeruuvuoden 2022 aineiston.
 
@@ -88,10 +88,10 @@ Tämä kuvaus sisältää vain valmisaineiston yleiskuvauksen. Tarkemmin lähdea
 
 Vuosikohtaiset aineisto- ja muuttujakuvaukset sekä muuta valmisaineistoa koskevaa lisätietoa saat ottamalla meihin yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables
+## Variables
 
-_Taika ei listaa tämän aineiston muuttujia. / Taika does not list variables for this dataset._
+_Taika does not list variables for this dataset._
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

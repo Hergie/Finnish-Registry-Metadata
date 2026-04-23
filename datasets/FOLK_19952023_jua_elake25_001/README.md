@@ -10,7 +10,7 @@
 - **Source:** Kansaneläkelaitoksen ja Eläketurvakeskuksen rekisterit eläkkeensaajista
 - **Keywords:** eläkeläiset,eläkkeelle siirtyminen,eläkkeet,kansaneläkkeet,työeläkkeet
 
-## Kuvaus / Description
+## Description
 
 Sisältyy FOLK jaksotiedot -moduuliin. Tietoja eläkkeistä vuodesta 1995 alkaen kunkin vuoden lopun tilanteen mukaan (sisältää vain vuoden lopussa voimassa olleet eläkkeet). 
 
@@ -30,9 +30,9 @@ Muutoksia vuoden 2023 aineistossa:
 - Eläkelajit mukailevat ETK-datan mukaisia eläkelajeja ja uutena eläkelajina eläkelaji = 8 = Muut eläkkeet
 - Jatkossa uusille eläkeläisille otetaan vain minimiarvo alkupäivämääristä ja se pysyy muuttumattomana. ETK:n datassa otettiin "aidot katkokset" huomioon, mutta tulorekisterin datassa tätä ei oteta huomioon vuodesta 2023 eteenpäin.
 
-## Muuttujat / Variables (7)
+## Variables (7)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | Vaestorakenne |
@@ -42,7 +42,7 @@ Muutoksia vuoden 2023 aineistossa:
 | `alkupvm_elakejakso` | Eläkejakson alkamispäivämäärä | — | — | Eläke |
 | `alkupvm_elakelaji` | Eläkelajin alkamispäivämäärä | — | — | Eläke |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -50,13 +50,13 @@ Tilastovuosi.
 
 #### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-**Ryhmä / Group:** Vaestorakenne
+**Group:** Vaestorakenne
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `elakelaji_alkuper` — Eläkelaji (alkuperäinen)
 
-**Luokitus / Classification:** elakelaji_3_2017_01_01 · **Ryhmä / Group:** Eläke
+**Classification:** elakelaji_3_2017_01_01 · **Group:** Eläke
 
 Alkuperäisen aineiston eläkelaji, josta muodostetaan muuttuja 'eläkelaji'. 
 
@@ -119,7 +119,7 @@ A = Työuraeläke (v.2018 alkaen) (aineisto 35)
 
 #### `aineisto` — Aineisto
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Tieto eläkkeiden lähtöaineistosta: 
 31 = Kansaneläkkeet 1995-2002 
@@ -130,7 +130,7 @@ Tieto eläkkeiden lähtöaineistosta:
 
 #### `elakelaji` — Eläkelaji
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Muodostetaan Tilastokeskuksessa alkuperäisen aineiston koodistosta alla olevan luokituksen mukaisiksi:
 1 = Vanhuuseläke 
@@ -144,16 +144,16 @@ Muodostetaan Tilastokeskuksessa alkuperäisen aineiston koodistosta alla olevan 
 
 #### `alkupvm_elakejakso` — Eläkejakson alkamispäivämäärä
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Koko eläkkeelläolojakson alkamisaika eli se päivä, jolloin henkilö jäi eläkkeelle. Eläkkeelläolojaksolla tarkoitetaan yhtenäistä eläkkeellä oloa. Jos eläkkeessä on välillä aito katkos (esimerkiksi määräaikaisen eläkkeen päättymisen jälkeen), alkuperäinen alkamisaika siirtyy katkoksen jälkeen alkavan eläkkeen alkamispäivään. Esimerkiksi jos henkilö jää työkyvyttömyyseläkkeelle, joka sitten jatkuu vanhuuseläkkeenä ikärajan täyttymisen jälkeen, alkupvm_elakejakso kertoo koko eläkeajan alkamisen ja alkupvm_elakelaji vanhuuseläkkeen alkamisen. Osa-aikaeläke on aina erikseen eli sen jälkeen alkavan eläkkeen alkamispäivä ja alkuperäinen alkamispäivä ovat aina samat.
 
 #### `alkupvm_elakelaji` — Eläkelajin alkamispäivämäärä
 
-**Ryhmä / Group:** Eläke
+**Group:** Eläke
 
 Alkuperäisen eläkelajin alkupäivämäärä. Tieto päivitetty ainoastaan aineistokoodille 35. Tietoja vuodesta 2015 lähtien.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

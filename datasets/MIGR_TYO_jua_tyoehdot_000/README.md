@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
-## Kuvaus / Description
+## Description
 
 <h3>MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot (työehdot) </h3>
 
@@ -32,9 +32,9 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Muuttujat / Variables (30)
+## Variables (30)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `SHNRO` | Suojattu henkilönumero | — | — | — |
 | `MEASURE_ID_S` | Tyoehdot toimenpiteen suojattu ID | — | — | — |
@@ -67,7 +67,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `WORK_BEGINNING_ON` | Työsuhteen alkuajankohdan kuukausi | — | — | — |
 | `WORK_ENDING_ON` | Työsuhteen loppuajankohdan kuukausi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `SHNRO` — Suojattu henkilönumero
 
@@ -194,4 +194,4 @@ Esim. Kuukausipalkka, tuntipalkka
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

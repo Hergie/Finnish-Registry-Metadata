@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/pul/index.html">Palvelujen ulkomaankauppa</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_palvelujen_ulkomaankauppa.html">Palvelujen ulkomaankauppa</a>
 - **Keywords:** palvelut,tuonti,ulkomaankauppa,vienti,yritykset
 
-## Kuvaus / Description
+## Description
 
 Tavaroiden ja palveluiden ulkomaankaupan aineisto vuosilta 2015 - 2016 kuvaa palvelujen ja tavaroiden vientiä ja tuontia maittain ja erittäin. Tiedot ovat saatavissa neljännesvuosittain sekä palveluiden ja tavaroiden osalta erikseen alkaen vuodesta 2015. Tiedot eivät ole vertailukelpoisia aiempiin vuosiin nähden. 
 
@@ -37,9 +37,9 @@ Tietoja julkaistaessa on huolehdittava siitä, etteivät yksittäisen yrityksen 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (10)
+## Variables (10)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
@@ -52,7 +52,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `neljannes` | Vuosineljännes | — | — | — |
 | `syritysid` | Suojattu yritysid | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -62,13 +62,13 @@ Suojattu yritys- ja yhteisötunnus eli Y-tunnus
 
 #### `maa_koodi` — Kohde/lähdemaa
 
-**Luokitus / Classification:** valtio_2_2012_01_01
+**Classification:** valtio_2_2012_01_01
 
 ISO 3166:n kaksikirjaintason maakoodi.
 
 #### `pu_koodi` — Palvelutyyppi
 
-**Luokitus / Classification:** ebops_1_2015_01_01
+**Classification:** ebops_1_2015_01_01
 
 Vuoden 2015 palvelujen ulkomaankaupan EBOPS-luokitus löytyy Tilastokeskuksen luokituseditorista: http://luokituseditori.stat.fi/editor/
 
@@ -124,4 +124,4 @@ Yritysyksikön tunnnus
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

@@ -10,7 +10,7 @@
 - **Population:** Suomessa sekä yksityiseen että luvanvaraiseen liikenteeseen rekisteröityjen kuorma-autojen kotimaan kuljetustoiminta. Tilastoyksikkönä on kuorma-auto.
 - **Keywords:** kuljetus,kuljetussuoritteet,kuorma-autoliikenne,kuorma-autot,liikenne,liikennesuoritteet,tavaraliikenne,tieliikenne
 
-## Kuvaus / Description
+## Description
 
 Kotimaan tieliikenteen tavarankuljetusaineisto kuvaa Suomeen sekä yksityiseen että luvanvaraiseen liikenteeseen rekisteröityjen kuorma-autojen kuljetustoimintaa kotimaassa. Kyseessä on ainoa säännöllisesti tehtävä selvitys kotimaan tieliikenteen tavarankuljetuksista. Tilaston tiedot ovat vertailukelpoisia muiden EU-maiden vastaaviin tilastoihin.
 
@@ -31,9 +31,9 @@ ELSE -> 	   kuljetussuorite = kerroin*tmaara*mpit*mlkm /1 000 000 000
 
 Tilastovuoden 2020 päivityksessä on korvattu suojatut henkilötunnukset suojatuilla Tilastokeskuksen henkilönumeroilla vuosina 2011-2020.
 
-## Muuttujat / Variables (27)
+## Variables (27)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `jnro` | Juokseva numero | — | — | — |
 | `vuosi` | Tilastointivuosi | — | — | — |
@@ -63,7 +63,7 @@ Tilastovuoden 2020 päivityksessä on korvattu suojatut henkilötunnukset suojat
 | `idtyyp_hatun` | Yritystunnuksen tyyppi | — | — | — |
 | `idtyyp_htun` | Yritystunnuksen tyyppi | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `jnro` — Juokseva numero
 
@@ -77,7 +77,7 @@ Tilastovuoden 2020 päivityksessä on korvattu suojatut henkilötunnukset suojat
 
 #### `kaytto` — Ajoneuvon käyttö
 
-**Luokitus / Classification:** ajon_kaytto_2_1995_01_01
+**Classification:** ajon_kaytto_2_1995_01_01
 
 Ajoneuvon käyttö (yks/amm)
 
@@ -105,25 +105,25 @@ Ajoneuvon ja perävaunun yhteinen kokonaismassa.
 
 #### `ktyyp` — Kuormakorityyppi
 
-**Luokitus / Classification:** kuormatyyppi_1_2017_01_30
+**Classification:** kuormatyyppi_1_2017_01_30
 
 #### `lisal` — Lisälaitekoodi
 
-**Luokitus / Classification:** lisal_1_2017_01_30
+**Classification:** lisal_1_2017_01_30
 
 #### `akseli` — Akseleiden lukumäärä
 
 #### `ajo` — Ajoneuvon käyttö tutkimuspäivinä
 
-**Luokitus / Classification:** ajon_kaytto_3_2017_02_01
+**Classification:** ajon_kaytto_3_2017_02_01
 
 #### `liiken` — Kuorma-auton liikennöinti
 
-**Luokitus / Classification:** ajon_kaytto_3_2017_02_02
+**Classification:** ajon_kaytto_3_2017_02_02
 
 #### `tyyppi` — Kuorma-auton tyyppi tutkimuspäivinä
 
-**Luokitus / Classification:** ktyyppi_1_1995_01_01
+**Classification:** ktyyppi_1_1995_01_01
 
 #### `km` — Edellisvuonna ajetut kilometrit
 
@@ -133,7 +133,7 @@ Ajoneuvon ja perävaunun yhteinen kokonaismassa.
 
 #### `jalki_osite` — Jälkiosite
 
-**Luokitus / Classification:** kttavosite_1_2017_01_23
+**Classification:** kttavosite_1_2017_01_23
 
 #### `jakson_pituus` — Tutkimusjakson pituus vuorokausina
 
@@ -161,4 +161,4 @@ Yritystunnuksen tyyppi
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

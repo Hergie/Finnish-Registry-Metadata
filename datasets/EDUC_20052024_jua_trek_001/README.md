@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Tutkinnon suorittanut väestö
 
-## Kuvaus / Description
+## Description
 
 Taulu sisältää tutkintorekisterin tutkintotiedot. Mukana kaikki tutkintorekisterin tutkinnot riippumatta siitä onko henkilö masssa asuvassa väestössä ko. vuonna. Tiedoston vuosi kertoo tutkintorekisterin rekisterivuoden, ja näin yli ajan mahdollisesti muuttuvat muuttujat  (tutkintokoodin luokitus, oppilaitostunnus) kuvaavat sen hetkistä tilannetta. Rekisterin tietoja täydennetään/korjataan takautuvasti, ja näin rekisterin viimeisin rekisterivuosi kertoo ajantasaisimman tiedon.
 
@@ -28,9 +28,9 @@ Muutokset v.2023 päivityksessä:
 ammoppsop= tutkinnossa oppisopimusjaksoja
 ammkouso= tutkinnossa koulutussopimusjaksoja
 
-## Muuttujat / Variables (23)
+## Variables (23)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi tutkintorekisterissä | — | — | — |
 | `shnro` | Suojattu henkilönumero | — | — | — |
@@ -56,7 +56,7 @@ ammkouso= tutkinnossa koulutussopimusjaksoja
 | `ammoppsop` | Tutkinnossa oppisopimusjaksoja | — | — | — |
 | `ammkouso` | Tutkinnossa koulutussopimusjaksoja | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi tutkintorekisterissä
 
@@ -292,4 +292,4 @@ Muuttujien avulla saa tiedon onko suoritettuun tutkintoon kuulunut koulutussopim
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

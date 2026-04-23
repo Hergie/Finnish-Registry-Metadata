@@ -12,7 +12,7 @@
 - **Related:** <a href= "http://www.stat.fi/til/tti/index.html">Teollisuustuotanto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_hyodykkeet_aineet_ja_tarvikkeet.html">Hyödykkeet: aineet ja tarvikkeet</a>
 - **Keywords:** hyödykkeet,jalostus,kaivostoiminta,louhinta,PRODCOM-nimikkeistö,tavarat,teollisuus,teollisuustuotanto,toimialat,tuotanto,tuotteet,valmistus
 
-## Kuvaus / Description
+## Description
 
 Teollisuuden Aineet ja tarvikkeet -tilasto sisältää tavaranimikkeittäisiä eli hyödykkeittäisiä arvo- ja määrätietoja ostetuista aineista ja tarvikkeista sekä joistakin nimikkeistä myös kokonaiskäytöstä kalenterivuodelta tiedonantajakohtaisesti. Tutkimuskäyttöön on suojattu tiedot vuodesta 1986 alkaen. Aineistokuvaus koskee vuosia 2004 - 2012, mutta tätä vanhemmat tiedot ovat pääosin samoja. 
 
@@ -31,9 +31,9 @@ Hyödyketilaston Aineet ja tarvikkeet -tietokokonaisuus on periaatteessa Suomen 
    
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (18)
+## Variables (18)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Tilastovuosi | — | — | Tunnistetiedot |
 | `koodi` | Aineet ja tarvikkeet -nimikekoodi | — | aineet_tarv_1_2011_01_01 | luokitustiedot |
@@ -54,17 +54,17 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `yrtol02` | Oikeudellisen yksikön toimiala (TOL 2002 -luokitus) | — | toimiala_1_2002_01_01 | — |
 | `tptol02` | Toimipaikan toimiala (TOL 2002 -luokitus) | — | toimiala_1_2002_01_01 | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Tilastovuosi
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 Tilastovuosi 4 numerolla, lyhenne tv
 
 #### `koodi` — Aineet ja tarvikkeet -nimikekoodi
 
-**Luokitus / Classification:** aineet_tarv_1_2011_01_01 · **Ryhmä / Group:** luokitustiedot
+**Classification:** aineet_tarv_1_2011_01_01 · **Group:** luokitustiedot
 
 Aineet ja tarvikkeet -nimikkeistö on laadittu Euroopan yhteisön CPA-tuoteluokituksen pohjalta soveltaen sitä kansallisten tarpeiden täyttämiseksi. Neljä ensimmäistä numeroa kuvaavat valmistavaa toimialaa (TOL 2008, Nace Rev. 2). Teollisuuden hyödyketilastossa  tilastovuodesta (tv) 2009 lähtien sovellettu CPA-luokitus on nimeltään CPA 2008. (CPA = Euroopan yhteisön tilastollinen toimialoittainen tuoteluokitus)
 
@@ -76,13 +76,13 @@ Nimikemuutoksia voidaan myös ketjuttaa vuosien välillä, jolloin voidaan muodo
 
 #### `kuvaus` — Aineiden ja tarvikkeiden nimiketeksti (suomeksi), joka vastaa koodia
 
-**Luokitus / Classification:** aineet_tarv_1_2011_01_01 · **Ryhmä / Group:** Ohjaustiedot
+**Classification:** aineet_tarv_1_2011_01_01 · **Group:** Ohjaustiedot
 
 Nimiketeksti eli koodin mukainen suomenkielinen teksti, lyhennetty max 80 merkkiin. Tieto on alun perin enintään 160 merkkiä.
 
 #### `panostyy` — Panostyyppikoodi
 
-**Ryhmä / Group:** luokitustiedot
+**Group:** luokitustiedot
 
 Panostyyppikoodi kertoo, onko hyödykkeen panoksen (aineiden ja tarvikkeiden) osalta kysytty tiedustelussa ostot vai ostojen lisäksi kokonaiskäyttö. 
  
@@ -93,7 +93,7 @@ Ns. kokonaiskäytön määrä (aineissa ja tarvikkeissa) = tilastovuonna tuotant
 
 #### `yhdtyyp` — Yhdistelmätyyppi (oikeudellisen yksikön toimipaikan / toimipaikkojen) vastauksissa
 
-**Ryhmä / Group:** Ohjaustiedot, Luokitustiedot
+**Group:** Ohjaustiedot, Luokitustiedot
 
 Yhdistelmätyyppi on koodi siitä, että kyseisen ei-sivuutettavan, hyödyketiedusteluun tilastovuonna sisältyvän teollisen varsinaisen toimipaikan (= yhdistelmätoimipaikan) vastauksiin sisältyy myös sivuutettavien teollisten varsinaisten toimipaikkojen vastauksia (samalta oikeudelliselta yksiköltä). Yhdistelmätoimipaikka on kyseessä, jos toimipaikalla on yhdistelmätyyppi = Y tai K.
  
@@ -114,19 +114,19 @@ yhdistelmätoimipaikkojen tuotantotietoihin. Eli toimipaikka A:n tuotannoksi rap
 
 #### `stptunnus` — Suojattu toimipaikkatunnus
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 Suojattu toimipaikkatunnus
 
 #### `syrtunnus` — Suojattu oikeudellisen yksikön Y-tunnus
 
-**Ryhmä / Group:** Tunnistetiedot
+**Group:** Tunnistetiedot
 
 Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).
 
 #### `yrtol08` — Oikeudellisen yksikön toimiala (TOL 2008 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** Luokitustiedot
+**Classification:** toimiala_1_2008_01_01 · **Group:** Luokitustiedot
 
 Oikeudellisen yksikön toimiala, TOL 2008 -luokitus. Saatavissa 2008 alkaen. 
  
@@ -134,7 +134,7 @@ PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista to
 
 #### `tptol08` — Toimipaikan toimiala (TOL 2008 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2008_01_01 · **Ryhmä / Group:** Luokitustiedot
+**Classification:** toimiala_1_2008_01_01 · **Group:** Luokitustiedot
 
 Toimipaikan toimiala, TOL 2008 -luokitus. Saatavissa 2008 alkaen. 
  
@@ -142,7 +142,7 @@ PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista to
 
 #### `tvarmuus` — Aine- ja tarvikehavainnon luotettavuus (tiedon varmuus) tai käsittelyn tilanne
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Aine- ja tarvikehavainnon tiedon varmuus (TUOTANTOPANOS) tai käsittelyn tilanne. TVARMUUS on havaintokohtainen arvioinnin liputusmuuttuja.
 
@@ -156,19 +156,19 @@ M = aine- ja tarvike-määrätieto on arvioitu (tietoa käytetään kansalliseen
 
 #### `estlippu` — Estimointi / imputointi, liputusmuuttuja
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Aineissa ja tarvikkeissa ei ole kattava tieto, ei kannata käyttää!
 
 #### `arv1` — Määrätiedon arviointikoodi mittayksikössä (maara110, maara130)
 
-**Ryhmä / Group:** Ohjaustiedot
+**Group:** Ohjaustiedot
 
 Määrätiedon arviointikoodi mittayksikössä (maara110, maara130) eli estimoinnin liputusmuuttuja
 
 #### `mitta1ti` — Määräyksikön mittayksikkö (maara110, maara130), hyödyketiedustelu
 
-**Ryhmä / Group:** Luokitustiedot
+**Group:** Luokitustiedot
 
 Nimikkeellä hyödyketiedustelussa käytettävä määrätietojen mittayksikkö. Aineissa ja tarvikkeissa on TK:ssa harkittu sopivaksi käyttää vain yhtä määräyksikköä kussakin nimikkeessä.
  
@@ -176,7 +176,7 @@ Mittayksiköt voivat kuvata painoa tai bruttovetoisuutta, pituutta, pinta-alaa, 
 
 #### `arvo10` — Ostojen arvo, euroa
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Ostojen arvo yritykseen toimitettuna, euroa, kun panostyy = S. Yrityksen ulkopuolelta kalenterivuoden aikana ostettujen aineiden ja tarvikkeiden arvo ilman arvonlisäveroa (alv). Omilla autoilla tapahtuneiden kuljetusten kustannuksia ei kuitenkaan sisällytetä ostoarvoon.
  
@@ -192,7 +192,7 @@ Kokonaiskäytöstä ei ilmoiteta arvoa, ainoastaan määrä (= MAARA130).
 
 #### `maara110` — Ostojen määrä mittayksikössä
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Ostojen määrä yhdessä mittayksikössä eli määrä_1, kun panostyy = S, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI. 
  
@@ -200,7 +200,7 @@ Hyödykenimikkeestä kysytään hyödyketiedustelussa yksi määrätieto.
 
 #### `maara130` — Kokonaiskäytön määrä mittayksikössä
 
-**Ryhmä / Group:** Kokotiedot
+**Group:** Kokotiedot
 
 Kokonaiskäytön määrä yhdessä mittayksikössä eli määrä_1, kun panostyy = T, mittayksiköt vaihtelevat paljon, ks. muuttuja MITTA1TI.
  
@@ -208,7 +208,7 @@ Kokonaiskäytön määrä = tilastovuonna tuotantoon käytettyjen ostettujen ain
 
 #### `yrtol02` — Oikeudellisen yksikön toimiala (TOL 2002 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Oikeudellisen yksikön toimiala (TOL 2002 -luokitus). Saatavissa 2005-.
 
@@ -216,7 +216,7 @@ PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista to
 
 #### `tptol02` — Toimipaikan toimiala (TOL 2002 -luokitus)
 
-**Luokitus / Classification:** toimiala_1_2002_01_01
+**Classification:** toimiala_1_2002_01_01
 
 Toimipaikan toimiala (TOL 2002 -luokitus). 
 
@@ -224,4 +224,4 @@ PRODCOM-nimikekoodin ensimmäiset 4 merkkiä edustavat nimikkeen 4-numeroista to
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

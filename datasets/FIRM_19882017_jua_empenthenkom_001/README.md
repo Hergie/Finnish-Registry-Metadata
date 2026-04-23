@@ -11,7 +11,7 @@
 - **Source:** FOLK/FLEED-aineisto (mm. työssäkäyntitilasto) ja yritysrekisteri
 - **Related:** <a href= "http://www.stat.fi/til/tyokay/index.html">Työssäkäynti</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_toimipaikka_yrityskohtaiset_henkilostoominaisuudet.html">Toimipaikka/yrityskohtaiset henkilöstöominaisuudet</a>
 
-## Kuvaus / Description
+## Description
 
 FLEED (Finnish Longitudinal Employer - Employee Data) -kokonaisaineistosta on tutkimuskäyttöön muodostettu yrityspohjaiset taulut, joihin on laskettu henkilöstön keskimääräisiä ominaisuuksia ja eri henkilöstöryhmien osuuksia ajanjaksolle 1988 - 2016. Vuodesta 2017 lähtien päivitys tehdään FOLK-moduulien tietojen pohjalta. Kehikkona on käytetty yritysrekisteriä (vuodesta 2013 eteenpäin yritystiedot yritystietovarastosta)  Kohdejoukossa on tilastojärjestelmien ja tilastorajojen muutoksista johtuvia vuosittaisia eroja. Vuoteen 2012 asti mukana on myös ei-tilastoyksiköitä. Ennen vuotta 2000 mukana voi olla myös julkisia yksiköitä, joten yritysrekisterin tilastoyksiköt kannattaa rajata käyttämällä TILYKS=1. Vuonna 1998 yritysrekisteristä on käytetty yritystunnuksen ohella toissijaista hetu-muotoista tunnusta henkilöyrittäjien saamiseksi mukaan aineistoon. Mukaan on otettu yritykset, joille löytyy vähintään 1 henkilöhavaintoa FLEED/FOLKista. FLEED/FOLK-aineiston henkilömäärää on käytetty osuuksia laskettaessa jakajana. Mukana ovat 16 - 70-vuotiaat henkilöt.
 
@@ -31,9 +31,9 @@ Kullekin koulutusryhmälle on lisäksi laskettu keskimääräiset kuukausiansiot
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (36)
+## Variables (36)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `emp_yrek` | Henkilöstön lukumäärä, Yritysrekisteri | — | — | — |
@@ -72,7 +72,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `stdeduc` | Koulutusvuosien keskihajonta | — | — | — |
 | `tilyks` | Tilastoyksikkö yritysrekisterin vuositilastossa | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `syrtun` — Suojattu yritystunnus
 
@@ -202,4 +202,4 @@ Tilastoon tulevat yritykset ja toimipaikat, jotka ovat toimineet yli puoli vuott
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

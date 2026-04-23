@@ -10,7 +10,7 @@
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut, 18 vuotta täyttänyt väestö
 - **Source:** VTJ, perhe- ja muuttotilastoaineistot
 
-## Kuvaus / Description
+## Description
 
 FOLK-henkilöaineiston asuinliitot -moduulissa on tietoja vuoden vaihteessa väestöön kuuluvista yhdessä asuvista pareista vuodesta 1987 lähtien. Aineisto on muodostettu perhe- ja muuttotilastoaineistojen sekä VTJ-tietojen pohjalta. Asuinliittoaineiston pareja ovat perhetilaston määritelmien mukaiset eri sukupuolta olevat avo- ja avioparit. Perhetilastoaineistosta poimituille pareille on liitetty tietoja yhteen ja erilleen muuttamisesta henkilötilastojen tietovaraston muuttotilastoaineistosta. Lisäksi pareille on liitetty tietoja mahdollisesta avioliitosta ja kuolinpäivämäärät. Tähän aineistoon on hyväksytty ainoastaan ne parit, joiden yhdessä asuminen on kestänyt vähintään 90 päivää. Avopareista kummankin puolison täytyy olla täysi-ikäinen. Kummankin puolison täytyy kuulua väestöön ainakin kerran aineiston vuosien viimeisenä päivänä.
 
@@ -25,9 +25,9 @@ Totaaliaineisto vuosille 1987-2000 : FOLK_aslii_8800a
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Muuttujat / Variables (17)
+## Variables (17)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunnus | — | — | — |
@@ -47,7 +47,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `pu_jarnro` | Avioliiton järjestysnumero (puoliso) | — | — | — |
 | `laitos` | Vanhuksen laitosasuminen | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `vuosi` — Vuosi
 
@@ -119,4 +119,4 @@ Jos asuinliittoparista jompikumpi puoliso erilleen muuton jälkeen asuu laitokse
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

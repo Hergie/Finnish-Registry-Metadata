@@ -9,7 +9,7 @@
 - **Observation count:** —
 - **Population:** Varhaiskasvatus toimijat ja toimipaikat Suomessa
 
-## Kuvaus / Description
+## Description
 
 VAKA_TOIMIJA_TOIMIPAIKKA-moduuli pohjautuu Varhaiskasvatuksen tietovarannon (Varda) tietoihin. Moduulissa on saatavilla tietoa varhaiskasvatusta järjestävistä ja tuottavista toimijoista ja toimipaikoista Suomessa. VAKA_TOIMIJA_TOIMIPAIKKA-valmisaineistosta on olemassa kaksi vaihtoehtoista versiota: VAKA_TOIMIJA_TOIMIPAIKKA (tämä moduuli) ja VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA.
 
@@ -56,9 +56,9 @@ Vardan tietosisältö on dokumentoitu <a href="https://wiki.eduuni.fi/spaces/oph
 
 Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Muuttujat / Variables (26)
+## Variables (26)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `toimija_OID_s` | Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID). | — | — | toimija |
 | `toimija_OID_tuottaja_s` | Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID) varhaiskasvatuksen tuottajalle. | — | — | paos-hallinnointi |
@@ -87,59 +87,59 @@ Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut
 | `maara` | Kategorisoitujen havaintojen lukumäärä. | — | — | st_ahvenanmaa |
 | `vuosi` | Havaintovuosi | — | — | st_ahvenanmaa |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `toimija_OID_s` — Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID).
 
-**Ryhmä / Group:** toimija
+**Group:** toimija
 
 #### `toimija_OID_tuottaja_s` — Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID) varhaiskasvatuksen tuottajalle.
 
-**Ryhmä / Group:** paos-hallinnointi
+**Group:** paos-hallinnointi
 
 #### `toimija_OID_jarjestaja_s` — Suojattu varhaiskasvatustoimijan tunniste (organisaatio-OID) varhaiskasvatuksen järjestäjälle.
 
-**Ryhmä / Group:** paos-hallinnointi
+**Group:** paos-hallinnointi
 
 #### `toimipaikka_OID_s` — Toimipaikan suojattu tunniste (organisaatio-OID).
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 #### `toimipaikka_id_s` — Suojattu Vardan sisäinen tunniste toimipaikalle
 
-**Ryhmä / Group:** toimipaikka, toimintapainotus, toimintakieli, kielipainotus
+**Group:** toimipaikka, toimintapainotus, toimintakieli, kielipainotus
 
 #### `alkamispvm` — Toiminnan alkamispäivämäärä.
 
-**Ryhmä / Group:** toimipaikka, toimintapainotus, toimija, kielipainotus
+**Group:** toimipaikka, toimintapainotus, toimija, kielipainotus
 
 Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen alkamispäivämäärä.
 
 #### `paattymispvm` — Toiminnan päättymispäivämäärä, jos tiedossa.
 
-**Ryhmä / Group:** kielipainotus, toimija, toimintapainotus, toimipaikka
+**Group:** kielipainotus, toimija, toimintapainotus, toimipaikka
 
 Toimijan, toimipaikan, toimipaikkaan liittyvän toiminta- tai kielipainotuksen päättymispäivämäärä. Tyhjät arvot voidaan tulkita toiminnan jatkumisena.
 
 #### `y_tunnus_s` — Suojattu toimijan yritystunnus.
 
-**Ryhmä / Group:** toimija
+**Group:** toimija
 
 #### `yritysmuoto_k` — Karkeistettu toimijan yritysmuoto.
 
-**Ryhmä / Group:** toimija, st_ahvenanmaa
+**Group:** toimija, st_ahvenanmaa
 
 Yritysmuoto on karkeistettu aattellisten yhdistysten, kirkon, seurakuntien tai muiden uskonnollisten yhteisöjen osalta luokkaan muut ja tämä pätee myös Ahvenanmaan summatason tiedoissa. Toimija-taulussa arvot pohjautuvat <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/yritysmuoto"> Vardan luokitukseen</a> (31.03.2026), Ahvenanmaan summatiedoissa arvot voivat olla MUU tai KUNTA.
 
 #### `kuntakoodi` — Kuntakoodi
 
-**Ryhmä / Group:** st_ahvenanmaa, toimija, toimipaikka
+**Group:** st_ahvenanmaa, toimija, toimipaikka
 
 Toimijan tai toimipaikan kuntakoodi, pohjautuu Tilastokeskuksen kolminumeroiseen kuntakoodiin.
 
 #### `kasvatusopillinen_jarjestelma` — Toimipaikan kasvatusopilliseen järjestelmään viittaava koodi, perustuu Vardan luokitukseen.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardakasvatusopillinenjarjestelma">Vardan kasvatusopillinen järjestelmä -koodisto</a> (26.03.2026):
 KJ01=Steiner-pedagogiikka,
@@ -152,7 +152,7 @@ KJ99=Muu (passiivinen).
 
 #### `toimintamuotokoodi` — Toimipaikan viimeisin havaittu toimintamuotokoodi, perustuu Vardan luokitukseen.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardatoimintamuoto">Vardan toimintamuoto-koodisto</a> (31.03.2026):
 TM01=Päiväkoti,
@@ -161,49 +161,49 @@ TM03=Ryhmäperhepäivähoito.
 
 #### `JM01` — Järjestämismuoto on kunnan tai kuntayhtymän järjestämä.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <p><a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a></p> (26.03.2026).
 
 #### `JM02` — Järjestämismuoto on ostopalvelu, kunnan tai kuntayhtymän järjestämä.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `JM03` — Järjestämismuoto on palveluseteli, kunnan tai kuntayhtymän järjestämä.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `JM04` — Järjestämismuoto on yksityisen hoidon tuella järjestetty.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `JM05` — Järjestämismuoto on yksityinen varhaiskasvatus ilman yksityisen hoidon tukea.
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Saa arvon 1 jos toimipaikalla on havaittu rivi tällä järjestämismuodolla, muutoin saa arvon 0. Pohjautuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardajarjestamismuoto">Vardan järjestämismuoto-koodistoon</a> (31.03.2026).
 
 #### `varhaiskasvatuspaikat` — Toimipaikan varhaiskasvatuspaikat
 
-**Ryhmä / Group:** toimipaikka
+**Group:** toimipaikka
 
 Perustuu viimeisimpään Vardaan kirjattuun tietoon.
 
 #### `kielikoodi` — Kielikoodi
 
-**Ryhmä / Group:** toimintakieli
+**Group:** toimintakieli
 
 Perustuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/kielikoodistoopetushallinto">Vardan luokitukseen</a> (31.3.2026).
 
 #### `toimintapainotuskoodi_k` — Toimipaikan toimintapainotus
 
-**Ryhmä / Group:** toimintapainotus
+**Group:** toimintapainotus
 
 Toimintapainotus pohjautuu <a href="">Vardan toiminnallisen painotuksen koodiin</a> (31.03.2026):
 TP01=Musiikki,
@@ -220,40 +220,40 @@ Erityiseen katsomukseen perustuva varhaiskasvatus (TP09) toiminnallisen painotus
 
 #### `kielipainotuskoodi` — Kielipainotuksen kielikoodi
 
-**Ryhmä / Group:** kielipainotus
+**Group:** kielipainotus
 
 Perustuu <a href="https://virkailija.opintopolku.fi/varda/julkinen/koodistot/kielikoodistoopetushallinto">Vardan luokitukseen</a> (31.3.2026).
 
 #### `lkm_jako` — Havaintojen tarkempi jaottelu
 
-**Ryhmä / Group:** st_ahvenanmaa
+**Group:** st_ahvenanmaa
 
 Sisältyy Ahvenanmaan summatason tietoihin.
 
 #### `lkm_tarkenne` — Tarkennin lukumäärän tyypille
 
-**Ryhmä / Group:** st_ahvenanmaa
+**Group:** st_ahvenanmaa
 
 Sisältyy Ahvenanmaan summatason tietoihin.
 
 #### `lkm_tyyppi` — Lukumäärän tyyppi
 
-**Ryhmä / Group:** st_ahvenanmaa
+**Group:** st_ahvenanmaa
 
 Sisältyy Ahvenanmaan summatason tietoihin.
 
 #### `maara` — Kategorisoitujen havaintojen lukumäärä.
 
-**Ryhmä / Group:** st_ahvenanmaa
+**Group:** st_ahvenanmaa
 
 Sisältyy Ahvenanmaan summatason tietoihin.
 
 #### `vuosi` — Havaintovuosi
 
-**Ryhmä / Group:** st_ahvenanmaa
+**Group:** st_ahvenanmaa
 
 Sisältyy Ahvenanmaan summatason tietoihin.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)

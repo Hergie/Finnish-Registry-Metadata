@@ -11,7 +11,7 @@
 - **Source:** Tilastokeskuksen innovaatiotutkimus
 - **Keywords:** innovaatiot,innovaatiotoiminta,tuotekehitys,tutkimus- ja kehittämistoiminta,yritykset
 
-## Kuvaus / Description
+## Description
 
 Teollisuuden innovaatiotoiminta 1991-tutkimus sisältää tietoja teollisuuden uusista tuotteista, tuotantomenetelmistä, innovaatiotoiminnan menoista ja rakenteesta vuosina 1989 -1991. Innovaatiotoiminnalla tarkoitetaan kaikkia niitä toimenpiteitä, jotka tähtäävät uusien tai olennaisesti parannettujen tuotteiden ja palvelujen markkinoille tuomiseen (tuoteinnovaatiot) sekä uusien tai olennaisesti parannettujen tuotantomenetelmien käyttöönottoon (prosessi-innovaatiot). 
 
@@ -41,9 +41,9 @@ Tulosten vertailua vuoden 1988 innovaatiotutkimukseen vaikeuttaa otosten erilais
 	
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi <mailto:tutkijapalvelut@tilastokeskus.fi>.
 
-## Muuttujat / Variables (244)
+## Variables (244)
 
-| Tunnus / Identifier | Nimi / Name | Yksikkö / Unit | Luokitus / Classification | Ryhmä / Group |
+| Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `K0110` | Liikevaihto | — | — | — |
 | `K0111` | Vienti | — | — | — |
@@ -290,7 +290,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `KERR9` | Painokerroin, lv-osuus | — | — | — |
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 
-### Muuttujien määritelmät / Variable definitions
+### Variable definitions
 
 #### `K0110` — Liikevaihto
 
@@ -965,85 +965,85 @@ Yksikkö myi muita teknologiamuotoja vuonna 1991, tarkennus mikä/mitkä
 
 #### `K0811` — Esittelyvaiheen osuus lv:sta, koko yksikkö
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%) liikevaihdosta  koko yksikössä. Tiedot annettu koko yksikön tai kolmen tärkeimmän tuoteryhmän osalta.
 
 #### `K0812` — Esittelyvaiheen osuus lv:sta, tuoteryhmä A
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä
 
 #### `K0813` — Esittelyvaiheen osuus lv:sta, tuoteryhmä B
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%)  liikevaihdosta, 2. tuoteryhmä
 
 #### `K0814` — Esittelyvaiheen osuus lv:sta, tuoteryhmä C
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Esittelyvaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä
 
 #### `K0821` — Kasvuvaiheen osuus lv:sta, koko yksikkö
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuvaiheen osuus (%) liikevaihdosta koko yksikössä
 
 #### `K0822` — Kasvuvaiheen osuus lv:sta, tuoteryhmä A
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä
 
 #### `K0823` — Kasvuvaiheen osuus lv:sta, tuoteryhmä B
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuvaiheen osuus (%) liikevaihdosta, 2. tuoteryhmä
 
 #### `K0824` — Kasvuvaiheen osuus lv:sta, tuoteryhmä C
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kasvuvaiheen vaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä
 
 #### `K0831` — Kyllästysvaiheen osuus lv:sta, koko yksikkö
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta koko yksikössä
 
 #### `K0832` — Kyllästysvaiheen osuus lv:sta, tuoteryhmä A
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä
 
 #### `K0833` — Kyllästysvaiheen osuus lv:sta, tuoteryhmä B
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta, 2. tuoteryhmä
 
 #### `K0834` — Kyllästysvaiheen osuus lv:sta, tuoteryhmä C
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Kyllästysvaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä
 
 #### `K0841` — Supistumisvaiheen osuus lv:sta, koko yksikkö
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%) liikevaihdosta koko yksikössä
 
 #### `K0842` — Supistumisvaiheen osuus lv:sta, tuoteryhmä A
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%) liikevaihdosta, 1. tuoteryhmä
 
@@ -1053,43 +1053,43 @@ Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisv
 
 #### `K0844` — Supistumisvaiheen osuus lv:sta, tuoteryhmä C
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Liikevaihdon jakautuminen tuotteen elinkaaren mukaan eri vaiheisiin: Supistumisvaiheen osuus (%) liikevaihdosta, 3. tuoteryhmä
 
 #### `K0852` — Tuoteryhmä A, osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Tuoteryhmä A:n osuus liikevaihdosta, prosenttia (%)
 
 #### `K0853` — Tuoteryhmä B, osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Tuoteryhmä B:n osuus liikevaihdosta, prosenttia (%)
 
 #### `K0854` — Tuoteryhmä C, osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Tuoteryhmä C:n osuus liikevaihdosta, prosenttia (%)
 
 #### `K0901` — Uudet tuotteet, osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1989-1991 markkinoille tuotujen uusien tai radikaalisti muutettujen tuotteiden osuus (%) vuoden 1991 liikevaihdosta.
 
 #### `K0902` — Parannetut tuotteet, osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1989-1991 markkinoille tuotujen olennaisten tuoteparannusten osuus (%) vuoden 1991 liikevaihdosta.
 
 #### `K0903` — Vanhat tuotteet, osuus liikevaihdosta
 
-**Yksikkö / Unit:** %
+**Unit:** %
 
 Vuosina 1989-1991 muuttumattomien tai vain vähäisesti muutettujen tuotteiden osuus (%) vuoden 1991 liikevaihdosta.
 
@@ -1330,4 +1330,4 @@ Suojattu yritystunnus, oikeudellisen yksikön y-tunnus.
 
 ---
 
-[← Takaisin luetteloon / Back to catalogue](../../README.md)
+[← Back to catalogue](../../README.md)
