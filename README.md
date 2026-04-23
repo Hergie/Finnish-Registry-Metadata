@@ -47,7 +47,7 @@ summary_stats <- tulo_2020[, .(
 print(summary_stats)
 ```
 
-The exact folder layout and file-naming convention vary between FIONA releases and research projects. Give your LLM assistant a short description of your particular setup — the directory where the files live and whether they are SAS, Stata, or CSV — so the generated code runs on the first try.
+The exact folder layout and file-naming convention vary between FIONA releases and research projects. Give your LLM assistant information on your particular setup — the directory where the files live, the file names, and whether they are SAS, Stata, or CSV — so the generated code (ideally) runs on the first try.
 
 ## Refresh
 

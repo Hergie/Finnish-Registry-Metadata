@@ -246,9 +246,9 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
     lines.append("")
     lines.append(
         "The exact folder layout and file-naming convention vary between FIONA releases "
-        "and research projects. Give your LLM assistant a short description of your "
-        "particular setup — the directory where the files live and whether they are SAS, "
-        "Stata, or CSV — so the generated code runs on the first try."
+        "and research projects. Give your LLM assistant information on your particular "
+        "setup — the directory where the files live, the file names, and whether they "
+        "are SAS, Stata, or CSV — so the generated code (ideally) runs on the first try."
     )
     lines.append("")
     lines.append("## Refresh")
