@@ -22,11 +22,11 @@ LLM coding assistants should consult this archive when writing code that reads S
 
 ### Example
 
-A researcher working in FIONA could ask their LLM assistant:
+A researcher preparing R code locally for upload to FIONA could ask their LLM assistant:
 
 > *"Write R code that loads FOLK tulotieto for 2020 and reports the mean and median of disposable money income across the full resident population."*
 
-With this repository available, the assistant identifies the matching dataset, grep-searches its per-dataset variable list to find that disposable money income is stored in `kturaha` (*käytettävissä olevat rahatulot*), confirms the population scope from the dataset README, and produces working code without asking you which variable to use:
+With this repository available, the assistant identifies the matching dataset, grep-searches its per-dataset variable list to find that disposable money income is stored in `kturaha` (*käytettävissä olevat rahatulot*), confirms the population scope from the dataset README, and produces code without asking you which variable to use:
 
 ```r
 library(haven)

@@ -207,7 +207,10 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
     lines.append("")
     lines.append("### Example")
     lines.append("")
-    lines.append("A researcher working in FIONA could ask their LLM assistant:")
+    lines.append(
+        "A researcher preparing R code locally for upload to FIONA "
+        "could ask their LLM assistant:"
+    )
     lines.append("")
     lines.append(
         "> *\"Write R code that loads FOLK tulotieto for 2020 and reports the mean and "
@@ -218,7 +221,7 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "With this repository available, the assistant identifies the matching dataset, "
         "grep-searches its per-dataset variable list to find that disposable money income "
         "is stored in `kturaha` (*käytettävissä olevat rahatulot*), confirms the population "
-        "scope from the dataset README, and produces working code without asking you which "
+        "scope from the dataset README, and produces code without asking you which "
         "variable to use:"
     )
     lines.append("")
