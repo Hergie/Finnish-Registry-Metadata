@@ -205,6 +205,49 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "in the raw `variables.json`."
     )
     lines.append("")
+    lines.append("### Example")
+    lines.append("")
+    lines.append("A researcher working in FIONA could ask their LLM assistant:")
+    lines.append("")
+    lines.append(
+        "> *\"Write R code that loads FOLK tulotieto for 2020 and reports the mean and "
+        "median of disposable money income across the full resident population.\"*"
+    )
+    lines.append("")
+    lines.append(
+        "With this repository available, the assistant identifies the matching dataset, "
+        "grep-searches its per-dataset variable list to find that disposable money income "
+        "is stored in `kturaha` (*käytettävissä olevat rahatulot*), confirms the population "
+        "scope from the dataset README, and produces working code without asking you which "
+        "variable to use:"
+    )
+    lines.append("")
+    lines.append("```r")
+    lines.append("library(haven)")
+    lines.append("library(data.table)")
+    lines.append("")
+    lines.append("tulo_2020 <- as.data.table(")
+    lines.append("  read_sas(\"FOLK_TULO_C/folk_tulo_2020_1.sas7bdat\")")
+    lines.append(")")
+    lines.append("")
+    lines.append("# kturaha = käytettävissä olevat rahatulot (disposable money income).")
+    lines.append("# FOLK tulotieto is the full resident population, so no filter is needed.")
+    lines.append("summary_stats <- tulo_2020[, .(")
+    lines.append("  n      = .N,")
+    lines.append("  mean   = mean(kturaha, na.rm = TRUE),")
+    lines.append("  median = median(kturaha, na.rm = TRUE)")
+    lines.append(")]")
+    lines.append("")
+    lines.append("print(summary_stats)")
+    lines.append("```")
+    lines.append("")
+    lines.append(
+        "The exact folder layout and file-naming convention vary between FIONA releases "
+        "and research projects. Give your LLM assistant a short description of your "
+        "particular setup — the directory where the files live and whether they are SAS, "
+        "Stata, or CSV — so the generated code runs on the first try."
+    )
+    lines.append("")
     lines.append("## Refresh")
     lines.append("")
     lines.append("```")

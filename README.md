@@ -20,6 +20,35 @@ Scripts and generated documentation are dedicated to the public domain under CC0
 
 LLM coding assistants should consult this archive when writing code that reads Statistics Finland register data (FOLK, EDUC, SES, FLEED, YA221, cause-of-death, inheritance-tax, etc.). Variable-level documentation lives in each dataset's `datasets/<id>/README.md` or in the raw `variables.json`.
 
+### Example
+
+A researcher working in FIONA could ask their LLM assistant:
+
+> *"Write R code that loads FOLK tulotieto for 2020 and reports the mean and median of disposable money income across the full resident population."*
+
+With this repository available, the assistant identifies the matching dataset, grep-searches its per-dataset variable list to find that disposable money income is stored in `kturaha` (*käytettävissä olevat rahatulot*), confirms the population scope from the dataset README, and produces working code without asking you which variable to use:
+
+```r
+library(haven)
+library(data.table)
+
+tulo_2020 <- as.data.table(
+  read_sas("FOLK_TULO_C/folk_tulo_2020_1.sas7bdat")
+)
+
+# kturaha = käytettävissä olevat rahatulot (disposable money income).
+# FOLK tulotieto is the full resident population, so no filter is needed.
+summary_stats <- tulo_2020[, .(
+  n      = .N,
+  mean   = mean(kturaha, na.rm = TRUE),
+  median = median(kturaha, na.rm = TRUE)
+)]
+
+print(summary_stats)
+```
+
+The exact folder layout and file-naming convention vary between FIONA releases and research projects. Give your LLM assistant a short description of your particular setup — the directory where the files live and whether they are SAS, Stata, or CSV — so the generated code runs on the first try.
+
 ## Refresh
 
 ```
