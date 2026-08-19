@@ -57,9 +57,25 @@
       "variablegroups": null
     },
     {
+      "identifier": "CASE_GROUP_NAME_FIN",
+      "variablename": "Asiaryhma",
+      "conceptdef": "Lupatyyppi ilmaistaan Migrissä neljällä eri muuttujalla, jotka ovat hierarkkisessa suhteessa toisiinsa. Asiaryhmä on lupatyypin ylin hierarkia taso, joka jakautuu edelleen asiatyyppeihin, käsittelyperustetasoihin ja käsittelyperusteisiin, joista viimeisin lupatyypin tarkin taso. Asiaryhmiä ovat esimerkiksi Oleskeluluvat, Kansalaisuushakemukset, Kansainvälinen suojelu\n",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "MEASURE_CONFIRMATION_DATE_HAKEMUS",
       "variablename": null,
       "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "VALIDITY_PERMANENT",
+      "variablename": "Pysyva lupa",
+      "conceptdef": "Saa arvon 1 jos lupa on toistaiseksi voimassaoleva, arvon 0 jos määräaikainen. \n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -84,14 +100,6 @@
       "identifier": "KANS_VALIDITY_END",
       "variablename": "Kansalaisuuden loppu pvm",
       "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "CASE_GROUP_NAME_FIN",
-      "variablename": "Asiaryhma",
-      "conceptdef": "Lupatyyppi ilmaistaan Migrissä neljällä eri muuttujalla, jotka ovat hierarkkisessa suhteessa toisiinsa. Asiaryhmä on lupatyypin ylin hierarkia taso, joka jakautuu edelleen asiatyyppeihin, käsittelyperustetasoihin ja käsittelyperusteisiin, joista viimeisin lupatyypin tarkin taso. Asiaryhmiä ovat esimerkiksi Oleskeluluvat, Kansalaisuushakemukset, Kansainvälinen suojelu\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -123,7 +131,7 @@
     {
       "identifier": "VALIDITY_START_DATE",
       "variablename": "Voimassaolon alkupvm",
-      "conceptdef": "Tyhjät arvo: 1.1.1900\n",
+      "conceptdef": "Muuttuja kuukausitasolla (validity_start_month)",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -131,15 +139,7 @@
     {
       "identifier": "VALIDITY_END_DATE",
       "variablename": "Voimassaolon loppupvm",
-      "conceptdef": "Tyhjät arvo: 31.12.9999\n",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "VALIDITY_PERMANENT",
-      "variablename": "Pysyva lupa",
-      "conceptdef": "Saa arvon 1 jos lupa on toistaiseksi voimassaoleva, arvon 0 jos määräaikainen. \n",
+      "conceptdef": "Muuttuja kuukausitasolla (validity_end_month)",
       "measunit": null,
       "classification": null,
       "variablegroups": null

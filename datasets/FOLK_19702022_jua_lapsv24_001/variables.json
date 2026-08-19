@@ -3,15 +3,15 @@
     {
       "identifier": "vuosi",
       "variablename": "Vuosi",
-      "conceptdef": "Väestölaskentavuodet 1970,1975, 1980 sekä 1985 ja vuodet 1987-2019.",
+      "conceptdef": "Tilastovuosi.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro",
-      "variablename": "Suojattu TK:n henkilönumero",
-      "conceptdef": "Lapsen suojattu TK:n henkilönumero.",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Lapsen suojattu TK:n henkilö yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -41,49 +41,49 @@
       "variablegroups": null
     },
     {
-      "identifier": "shnro_m",
-      "variablename": "Suojattu TK:n henkilönumero, biol. äiti",
-      "conceptdef": "Biologisen äidin suojattu TK:n henkilönumero.",
+      "identifier": "hid_e_m",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, biol. äiti",
+      "conceptdef": "Biologisen äidin suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro_f",
-      "variablename": "Suojattu TK:n henkilönumero, biol. isä",
-      "conceptdef": "Biologisen isän suojattu TK:n henkilönumero.",
+      "identifier": "hid_e_f",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, biol. isä",
+      "conceptdef": "Biologisen isän suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro_am",
-      "variablename": "Suojattu TK:n henkilönumero, adoptioäiti",
-      "conceptdef": "Adoptioäidin suojattu TK:n henkilönumero. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.",
+      "identifier": "hid_e_am",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, adoptioäiti",
+      "conceptdef": "Adoptioäidin suojattu henkilön yksilöivä tunniste. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro_af",
-      "variablename": "Suojattu TK:n henkilönumero, adoptioisä",
-      "conceptdef": "Adoptioisän suojattu TK:n henkilönumero. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.",
+      "identifier": "hid_e_af",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, adoptioisä",
+      "conceptdef": "Adoptioisän Suojattu henkilön yksilöivä tunniste. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro_s1",
-      "variablename": "Suojattu TK:n henkilönumero, sosiaalinen vanh.1",
-      "conceptdef": "Sosiaalisen vanhemman (1.) suojattu TK:N henkilönumero. Sosiaalinen vanhempi (1.) on samassa asunnossa asuva isä, adoptioisä, sosiaalinen isä tai naisparista se, joka ei ole biologinen äiti.",
+      "identifier": "hid_e_s1",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, sosiaalinen vanh.1",
+      "conceptdef": "Sosiaalisen vanhemman (1.) suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n\n\n\nSosiaalinen vanhempi (1.) on samassa asunnossa asuva isä, adoptioisä, sosiaalinen isä tai naisparista se, joka ei ole biologinen äiti.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro_s2",
-      "variablename": "Suojattu TK:n henkilönumero, sosiaalinen vanh.2",
-      "conceptdef": "Sosiaalisen vanhemman (2.) suojattu TK:N henkilönumero. Sosiaalinen vanhempi (2.) on samassa asunnossa asuva äiti, adoptioäiti, sosiaalinen äiti tai miesparista se, joka ei ole biologinen isä.",
+      "identifier": "hid_e_s2",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, sosiaalinen vanh.2",
+      "conceptdef": "Sosiaalisen vanhemman (2.) suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n\n\nSosiaalinen vanhempi (2.) on samassa asunnossa asuva äiti, adoptioäiti, sosiaalinen äiti tai miesparista se, joka ei ole biologinen isä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

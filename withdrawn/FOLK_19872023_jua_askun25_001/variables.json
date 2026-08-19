@@ -1,0 +1,252 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ak_koodi",
+      "variablename": "Asuntokuntanumero",
+      "conceptdef": "Asuntokuntanumero yhdistää asuntokunnan jäsenet tilastovuonna. Sama asuntokuntanumero säilyy henkilöllä eri vuosina vain jos henkilö ei muuta asunnosta pois. Tilastovuodesta 2021 alkaen asuntokuntanumero sisältää myös kirjainarvoja. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "akoko",
+      "variablename": "Asuntokunnan koko",
+      "conceptdef": "Asunnossa vuoden viimeisenä päivänä vakinaisesti asuvien henkilöiden lukumäärä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asty",
+      "variablename": "Asuntokuntarakenne",
+      "conceptdef": "Asuntokuntarakenne-tieto vuodesta 1990 lähtien. \n\nLuokitus 2006 alkaen: \n1 = 1 perhe, ei muita \n2 = 1 perhe ja muita \n3 = 2 perhettä, ei lisäksi muita \n4 = 2 perhettä, lisäksi muita \n5 = vähintään 3 perhettä, ei lisäksi muita \n6 = vähintään 3 perhettä, lisäksi muita \n7 = ei perhettä, asuntokunnan koko = 1 \n8 = ei perhettä, asuntokunnan koko = 2 joilla sama sukupuoli \n9 = ei perhettä, asuntokunnan koko = 2 joilla eri sukupuoli \n10 = ei perhettä, asuntokunnan koko > 2; kaikilla sama sukupuoli \n11 = ei perhettä, asuntokunnan koko > 2; joilla eri sukupuoli\n \nLuokitus vuoteen 2005: \n1 = 1 perhe ja ei muita \n2 = 1 perhe ja muita \n3 = 2+ perhettä ja ei muita \n4 = 2+ perhettä ja muita, \n5 = ei perhettä 1 henkilö, \n6 = ei perhettä, 2 henkilöä samaa sukupuolta. \n7 = ei perhettä, 2 henkilöä eri sukupuolta, \n8 = ei perhettä, väh. kolme henkilä samaa sukupuolta, \n9 = ei perhettä vähintään 3 henkilöä, kaikki eivät samaa sukupuolta\nnull = ei asukkaita\n \nVuotta 2006 edeltävän luokituksen muuntaminen nykyiseen, (vanha luokitus = uusi luokitus): \n1 = 1 \n2 = 2 \n3 = 3, 5 \n4 = 4, 6 \n5 = 7 \n6 = 8 \n7 = 9 \n8 = 10 \n9 = 11",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asva",
+      "variablename": "Asumisväljyys",
+      "conceptdef": "Asumisväljyysluokitus: \n1 = Tilava. 1-5 henkilön asuntokunta, jonka käytössä on vähintään kolme asuinhuonetta enemmän kuin asuntokunnan henkilömäärä (keittiötä ei lueta huonelukuun) \n2 = Normaali \n3 = Ahdas. Enemmän kuin yksi henkilö huonetta kohti (keittiötä ei lueta huonelukuun) \n4 = Tuntematon \n\nKeittiötä ei ole luettu mukaan huonelukuun vuodesta 1989 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "autolkm",
+      "variablename": "Autojen lkm asuntokunnassa",
+      "conceptdef": "Tieto vuosilta 1990, 1994-1996, 1998  ja vuodesta 2000 lähtien vuosittain. Asuntokunnille summataan asuntokunnan hallinnassa tai omistuksessa olevat autot (kuorma-auto, erikoisauto, pakettiauto, henkilöauto). Auto on ensisijaisesti haltijan nimissä, mutta jos haltijan henkilötunnusta ei ole ollut niin silloin auto on omistajan nimissä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "nika",
+      "variablename": "Asuntokunnan nuorimman henkilön ikä",
+      "conceptdef": "Asuntokunnan nuorimman henkilön ikä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "palk_ak",
+      "variablename": "Palkkatulot (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut palkkatulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Negatiiviset arvot nollattu. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrty_ak",
+      "variablename": "Yrittäjätulot (asuntokunta)",
+      "conceptdef": "Kaikki yrittäjätulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttuja on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "omtu_ak",
+      "variablename": "Omaisuustulot (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut omaisuustulot kunkin vuoden tulonjakotilaston tulonimikkeistön mukaan. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Siten mm. haastatelluin kerättävät lähdeveronalaiset korkotulot jäävät puuttumaan tulonjaon kokonaistilaston omaisuustuloista. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatva_ak",
+      "variablename": "Ansiotulot valtionverotuksessa (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ansiotulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "svatvp_ak",
+      "variablename": "Pääomatulot valtionverotuksessa (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut pääomatulot yhteensä valtionverotuksessa. Tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saatusi_ak",
+      "variablename": "Saadut tulonsiirrot (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut saatujen tulonsiirtojen yhteissummat. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "saira_ak",
+      "variablename": "Sairausajan toimeentuloturva (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset sairauteen liittyvät etuudet. Muuttujaan on summattu Kelan maksamat sairasvakuutuksen suoraan vakuutetulle maksetut sairauspäivärahat (SAIPRVA) ja ruokavaliokorvaus (RVVM vuosina 2002-2016). Lisäksi muuttujaan on summattu tapaturmapäiväraha (TTAPPR) ja sairauskassojen maksamat lisä- ja täydennyspäivärahat, jotka ovat verottajan tiedoissa (TPAR), mutta eivät sisälly Kelan em. etuuksiin (LISAPR). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vamtyoky_ak",
+      "variablename": "Toimintarajoitteisuuteen liittyvä tuki (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset työkyvyttömyys ja vammaisetuudet. Muuttujaan on summattu Kelan maksama työkyvyttömyyseläke (KELATK), ETK:n työeläkejärjestelmien työkyvyttömyyseläkkeet lain ja lajin mukaan (TYELTK, TELTK, LELTK, YELTK, MYELTK, MELTK, VELTK, KVTELTK, KIELTK, SPYMTK ja KUNTOUTU) sekä Valtionkonttorin sotilasvammalain mukaiset etuudet (SOTTK, SOTAVLIS, SOTTAYDE, SOTLISEL). Lisäksi muuttujaan on summattu henkilöveroaineistosta lakisääteisten tapaturma- ja potilasvakuutusten eläkkeet (TTAPEL ja TPOTEL) sekä takuueläkkeen (TAKUUEL) ja ulkomaan eläkkeiden (TULKEL) työkyvyttömmyyseläkkeiksi määritellyt osuudet (TAKUUELTK ja TULKELTK). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vanel_ak",
+      "variablename": "Vanhuuden turva (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset vanhuuden turvaan luettavat etuudet. Muuttujaan on summattu Kelan maksama vanhuuseläke (KELAVE) ja rintamalisät (RILI ja RIYLLI), ETK:n työeläkejärjetelmien vanhuuseläkkeet lain ja lajin mukaan (TYELVE, TELVE, LELVE, YELVE, MYELVE, MELVE, VELVE, KVTELVE, KIELVE, SPYMVE ja MAATEREL). Lisäksi muuttujaan on summattu henkilöveroaineistosta ulkomaanedustuston virkamiehen puolison erityiskorvaus (TSUURPU) sekä takuueläkkeen (TAKUUEL) ja ulkomaan eläkkeiden (TULKEL) vanhuusseläkkeiksi määritellyt osuudet (TAKUUELVE ja TULKELVE). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pelake_ak",
+      "variablename": "Lesken ja muiden omaisten tuki (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset lesken ja orpojen lasten tuet. Muuttujaan on summattu Kelan lesken ja lasten perhe-eläkkeet (LEPE, LETO, LAKE), ETK:n ansioeläkejärjestelmien perhe-eläkkeet (TYELPE, TELPE, LELPE, YELPE, MYELPE, MELPE, VELPE, KVTELPE, KIELPE, SPYMPE), Valtionkonttorin sotilasvammalain mukaiset perhe-eläkkeet ja -korvaukset (SOTPE ja SOTPEPIT) sekä perhe-eläikkeiksi määritelty jäännöserä verottajan ansioeläketiedon (TANSEL) ja ETK:n ansioeläkesumman positiivisesta erotuksesta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "perav_ak",
+      "variablename": "Lapsiperheiden etuudet (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset lapsiperheiden tuet. Muuttujaan on summattu Kelan rekistereistä oman kansaneläkkeen lapsikorotus (OMALAPSK), vanhempainpäivärahat (AITPRV), kotihoidon tuet (KTHR, KTHL, KTKU, OSHR), lapsilisät (LLMK), lapsen vammaistuki (LHOTU) ja erityishoitoraha (sairaan lapsen hoito- ja kuntoutusavustus WMKY). Lisäksi muuttujaan on summattu verottajan kotihoidontuen (TKOTIHTU) ja edellä mainittujen Kelan kotihoidontukien positiivinen erotus (TKOTIMUO). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tyoel_ak",
+      "variablename": "Työttömyysturva (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset työttömyyteen liittyvät etuudet. Muuttujaan on summattu Kelan työttömyyseläkkeet (KELATY), ETKn eri ansioeläkejärjestelmien työttömyyseläkkeet (TYELTY, TELTY, LELTY, YELTY, MYELTY, MELTY, VELTY, KVTELTY, KIELTY, SPYMTY), Kelan työttömyyden peruspäivärahat (YHTE), kotoutumustuki (YHTEZ) ja työmarkkinatuki (TMTUKIMK) , finassivalvonnan ansiosidonnaiset työttömyyspäivärahat (VVVMK1 ja VVVMK5), henkilöveroaineiston yrittäjän työllistämistuki (TTYOLTUK), koulutustuet (TKOULTUK) sekä rekisterivertailuista syntyvät ns. jäännöserät (TYOTKMUU ja TUNTELTY). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "asutu_ak",
+      "variablename": "Asumisen tuet (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut ESSPROS -luokituksen mukaiset asumisen tuet. Muuttujaan on summattu Kelan yleinen asumistuki (ASTUKI), eläkkeensaajan asumistuki (AEMKM) ja opintorahan asumislisä (ASULI). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "optuki_ak",
+      "variablename": "Opintoetuudet (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut opintoetuudet. Opintoetuudet eivät kuulu ESSPROS-etuuksiin, mutta sisältyvät kuitenkin asuntokuntien saamiin toimeentuloturvaetuuksiin (SAATUSI).  Muuttujaan on summattu Kelan opintorahat (OPIRAKE ja OPIRAKO), Koulutusrahaston ammattitutkintosipendit (AMSTIPE) ja verottajan veronalainen apuraha (TAPUR). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "muutuki_ak",
+      "variablename": "Muu toimeentuloturva (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut muut toimeentuloturvaetuudet ESSPROS-luokituksen mukaan. Muuttujaan on summattu THL:n toimeentulotuki, Kelan sotilasavustus, Kelan maahanmuuttajatuki ja Kelan opintolainojen korkoavustus. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "makstu_ak",
+      "variablename": "Maksetut tulonsiirrot (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut maksettujen tuloverojen ja veronluonteisten maksujen yhteissummat. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lkuve_ak",
+      "variablename": "Kunnallisvero (asuntokunta)",
+      "conceptdef": "Asuntokunnille summattu kunnallisvero.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltva_ak",
+      "variablename": "Tulovero ansiotulosta (asuntokunta)",
+      "conceptdef": "Asuntokunnille summattu valtion tuloveron osuus ansiotulojen verosta, tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ltvp_ak",
+      "variablename": "Tulovero pääomatulosta (asuntokunta)",
+      "conceptdef": "Asuntokunnille summattu valtion tuloveron osuus pääomatulojen verosta, tietoja vuodesta 1993 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kturaha_ak",
+      "variablename": "Käytettävissä oleva rahatulo (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut käytettävissä oleva rahatulot. Käytettävissä oleva rahatulo muodostuu palkka-, yrittäjä- ja omaisuustuloista sekä saaduista tulonsiirroista vähennettynä em. tuloista maksetusta veroista ja veronluonteisista maksuista. Tulonjaon kokonaistilaston päätulokäsite, joka muodostuu vuosittain päivitettävän tulonjaon tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "velaty_ak",
+      "variablename": "Velat yhteensä (asuntokunta)",
+      "conceptdef": "Asuntokunnan jäsenten yhteenlasketut velat yhteensä koostuu seuraavista verotiedoista:\nNLIIKK = Elinkeinotoiminnan velat (vuoteen 1994 saakka) \nNLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014 alkaen) \nNMAAT = Maatalouteen kohdistuneet velat \nNYHT = Velat yhtymistä (vuoteen 2005 saakka) \nNMUUT = Asunto- ja muut velat",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "modoecd",
+      "variablename": "Kulutusyksiköt modifioidun OECD-skaalan mukaan",
+      "conceptdef": "Tulonjakotilastossa ja kulutustutkimuksessa on käytetty vuodesta 2002 lähtien Euroopan unionin tilastoviraston Eurostatin suosittamaa OECD:n ns. muunnettua kulutusyksikköasteikkoa, jossa - kotitalouden ensimmäinen aikuinen saa painon 1 - muut yli 13-vuotiaat saavat painon 0,5 - lapset saavat painon 0,3 (0–13-vuotiaat). Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "desiili",
+      "variablename": "Tulodesiilit",
+      "conceptdef": "Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan ekvivalenttien käytettävissä olevien rahatulojen pohjalta.Desiiliryhmät eli tulokymmenykset on muodostettu jakamalla ensin asuntokunnan tulot talouden kulutusyksiköillä (ns. ekvivalentit tulot). Jokaiselle kotitalouden jäsenelle tulee sama ekvivalentti tulo. Henkilöt järjestetään tämän jälkeen tulojensa mukaiseen järjestykseen ja jaetaan kymmeneen yhtä suureen ryhmään. Jokaisessa tulokymmenyksessä on siten 10 prosenttia väestöstä. Ensimmäiseen tulokymmenykseen kuuluu pienituloisin kymmenes ja viimeiseen suurituloisin. Tulokymmenysten tulo-osuudet osoittavat, kuinka suuren osan kyseessä olevien tulojen kokonaissummasta kukin kymmenys saa. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

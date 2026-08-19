@@ -1,94 +1,68 @@
-# EDUC TYHR Toisen asteen yhteishaku - moduuli, osa 6, 2014 - 2024
+# EDUC_TYHR Toisen asteen yhteishaku, v. 2014 - 2024
 
 - **Identifier:** `EDUC_20142023_jua_tyhr24_001.xml`
 - **DOI:** `khak_2017-05_2017-05-05_ain_0001`
 - **Temporal coverage:** 2014-01-01 - 2024-12-31
-- **Published:** 2025-08-22
+- **Published:** 2026-04-29
 - **Organisation:** Tilastokeskus
-- **Variable count:** 132
+- **Variable count:** 133
 - **Observation count:** —
+- **Population:** Henkilöt, jotka osallistuivat tilastovuodesta 2014 alkaen toisen asteen koulutuksen yhteishakuun
 - **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Taustatietoja saatu Väestörekisterikeskuksesta.
 
 ## Description
 
-Toisen asteen yhteishaku -moduulin 6. osa koostuu henkilöistä, jotka osallistuivat tilastovuodesta 2014 alkaen  toisen asteen koulutuksen yhteishakuun. Vuosilta 2014 - 2016 tiedostot on toimitettu Tilastokeskukseen OPH:sta. Vuodesta 2017 alkaen aineisto on haettu rajapinnalta json-muotoisina tiedostoina, joista Tilastokeskuksessa on koottu varsinainen aineisto. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.Tilastotovuodesta 2024 alkaen lähdeaineistoksi tuli Opetushallituksen raportointipalvelu Ovaraan pohjaava data. Tästä aiheutuneet muuteokset on listattu alempana.
+EDUC_TYHR-valmisaineisto sisältää Opetushallituksen yhteishakurekisteriin perustuvia henkilötason tietoja toisen asteen koulutukseen hakeneista henkilöistä, heidän taustatekijöistään, hakutoiveistaan, arvosanoistaan sekä opiskelijavalintojen tuloksista.
 
-- Vuonna alkaneisiin toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneet
-- Opetushallitus, Opintopolku, ODW-tietokanta
-- Henkilö usealla rivillä haun, hakemuksen ja hakutoiveen mukaan
-- Koski tietoja käytettäessä lisäinformaatiota löytyy: https://wiki.eduuni.fi/spaces/OPHPALV/pages/578273051/1.+KOSKI-raakadata+normalisoidussa+formaatissa
-- Arvosanatiedoista on erityiset herkät tiedot poistettu aineistosta.
+Tämä aineistokuvaus koskee vuosien 2014–2024 vuositiedostoja. EDUC_TYHR-aineistosta on erilliset kuvaukset myös vuosille 1985, 1989, 1991–1995, 1998–2008 sekä 2008–2013. 
 
-Kyseinen toisen asteen yhteishaku -moduuli  koostuu seuraavista tiedostoista
-educ_tyhr_20142016
-educ_tyhr_2017
-educ_tyhr_2018
-educ_tyhr_2019
-educ_tyhr_2020
-educ_tyhr_2021
-educ_tyhr_2022
-educ_tyhr_2023
+<b> Valmisaineiston tarkentava nimi </b> 
+Toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneiden yhteishakutiedot, sisältäen hakijoiden taustatietoja tarkalla tasolla
 
-Arvosanamuuttujat on sisällytetty seuraaviin erillisiin tiedostoihin (vuodesta 2019 alk. arvosanatiedostot tulevat KOSKI-palvelusta ja nämä tiedostot ovat muotoa educ_tyhr_arvos_2019_1): 
-educ_tyhr_arvos_2014
-educ_tyhr_arvos_2015
-educ_tyhr_arvos_2016
-educ_tyhr_arvos_2017
-educ_tyhr_arvos_2018
-educ_tyhr_arvos_2019
-educ_tyhr_arvos_2019_1
-educ_tyhr_arvos_2020_1
-educ_tyhr_arvos_2021_1
-educ_tyhr_arvos_2022_1
-educ_tyhr_arvos_2023_1
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Vuosien 2014–2024 datataulut sisältävät henkilöt, jotka ovat osallistuneet toisen asteen koulutuksiin sekä valmentaviin ja valmistaviin koulutuksiin tilastovuodesta 2014 alkaen. Vuosien 2014–2016 tiedostot on toimitettu Tilastokeskukseen Opetushallitukselta. Vuodesta 2017 alkaen aineisto on haettu rajapinnan kautta json-muotoisina tiedostoina, joista Tilastokeskuksessa on koottu varsinainen aineisto. 
 
-Huomaathan, että arvosanatiedot ovat rakenteeltaan erilaisia: esimerkiksi 2014 jokaisella henkilöllä on yhtä monta riviä kuin kouluaineita, kun taas 2015 yhden henkilön kaikki aineet ovat samalla rivillä. Vuoden 2015 pakollisten aineiden arvosanat sisältävissä muuttujissa on paljon tyhjää, mutta valinnaisten aineiden muuttujissa on paljon havaintoja. Näiden muuttujien käyttö on siis tutkijan oman harkinnan varassa.
+Tietojen täsmäävyyttä Opetushallituksen lopulliseen rekisteriin ei ole voitu tarkistaa.
 
-Lähtökoulun tiedot täytyy etsiä eri tiedostosta/yhdistää myöhemmin
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Tiedostoista on salattu henkilön tunnistetiedot. Lisäksi kaikkien oppilaitosten tunnistetiedot on suojattu.
+Yksi henkilö voi esiintyä usealla rivillä haun, hakemuksen ja hakutoiveen mukaan.
+Yhteishaussa käytetyt hakijoiden arvosanat löytyvät erillisistä vuosikohtaisista tiedostoista ”educ_tyhr_arvos vvvv”.
 
-Tiedostoista on salattu henkilön tunnistetiedot. Lisäksi tiedostoista on suojattu kaikkien oppilaitosten tunnistetiedot.
+<u>Arvosanatietojen rakenne vaihtelee vuosittain: </u>
+- Vuosi 2014: Jokaisella henkilöllä on yhtä monta riviä kuin kouluaineita
+- Vuosi 2015: Kaikki henkilön kouluaineet ja arvosanat on tallennettu yhdelle riville. Pakollisia aineita koskevissa sarakkeissa on runsaasti puuttuvia arvoja, kun taas valinnaisten aineiden sarakkeissa havaintoja on huomattavasti enemmän. Näiden muuttujien käyttö edellyttää tutkijalta harkintaa, ja aineiston huolellinen tarkastelu ennen analyysien aloittamista on suositeltavaa.
 
-MUUTOKSIA vuoden 2025 päivityksessä:
+Virheitä yksilöintitunnuksissa v. 2014–2016:
+- Yksilöintitunnuksissa SHAKU_OID, SHAKEMUS_OID, SHLOOID, SHAKUKOHTEEN_ORGANISAATIO_OID, SHAKUKOHTEEN_OID ja SLAHTOKOULUN_ORGANISAATIO_OID on havaittu virheitä. Vuosien 2014–2016 aineistoissa nämä tunnukset eivät yksilöi kohteita kuvatulla tavalla, eivätkä siten ole vertailukelpoisia vuoden 2017 ja sitä uudempien vuosien tietojen kanssa. Mainittuja yksilöintitunnuksia voidaan kuitenkin käyttää tietojen yhdistämiseen vuodesta 2017 alkaen.
 
-- Joissakin jatkuvan haun tapauksissa aineistoon muodostui uusi rivi uudella, muutaman viikon mittaisella hakuajalla, vaikka henkilö-, haku-, hakemus-, hakukohde- ja valintatapajonotiedot olivat samat. Näissä tapauksissa aineistoon on jätetty vain hakuajan perusteella viimeisin rivi.
-- Vuoden 2024 aineistossa ei ole saatavissa seuraavia muuttujia: hakijan_jonosijan_tarkenne, onuts3
-- Aineistoon lisättiin seuraavat muuttujat: koulutuksen_opetuskieli2, koulutuksen_opetuskieli3 
+Laatupuutteita uusimuotoisessa toisen asteen hakuaineistossa 2014:
+- Aineistossa on havaittu puutteita hakutoivemerkinnöissä. Ensimmäinen hakutoive löytyy 94 000 hakijalta, mutta 1 300 hakijalta se puuttuu, vaikka heiltä löytyy muita hakutoiveita. Todennäköinen selitys on, että vuoden 2015 puolella on poistettu hakukohteita. Näiden mukana ovat kadonneet myös kyseisiin hakukohteeseen liittyvät tiedot, kuten hyväksymis- ja vastaanottotiedot, eikä niitä ole mukana Tilastokeskukselle toimitetussa aineistossa. Sama ongelma koskee myös muita hakutoiveita. Esimerkiksi toinen hakutoive puuttuu 740 hakijalta, joilta kuitenkin löytyy kolmas hakutoive.
 
+Vuoden 2023 päivityksen muutokset:
+- Vuoden 2023 päivityksen yhteydessä on täydennetty vuosien 2005–2007 aineistoa takautuvasti. Täydennykset koskevat muuttujia PE1-PE5 ja PEV. Täydennetyt tiedot löytyvät erillisestä tiedostosta nimeltä: ”tyhr_korjattu_pe_pev_05_07”
+- Vuoden 2023 aineistosta puuttuvat seuraavat muuttujat: Hakuk_sis_koulk1, Hakuk_koulk2, Hakuk_koulk3, Hakuk_koulk4, Hakuk_koulk5, Kielikoodi, Kielityyppi ja Osallistui_kielikokeeseen.
 
-MUUTOKSIA vuoden 2024 päivityksessä:
+Vuoden 2022 päivityksen muutokset:
+- Vuoden 2022 aineisto ei sisällä seuraavia muuttujia: hakijan_koulusivistyskieli, harkinnanvarainen_valinta, harkinnanvarainen_valintatk, pohjakoulutustk, slähtökoulun_organisaatio_oid ja shakukohteen_koodi.
+- Hakukohteen koulutustyyppitk-muuttujaan lisätty uusia luokituksia: 40 ja 41 (lisätietoa muuttujan kuvauksessa).
+- Haku ja haku_sv muuttujissa uusi luokitus: 15 (lisätietoa muuttujan kuvauksessa).
 
-Vuoden 2023 aineistossa ei ole seuraavia muuttujia: Hakuk_sis_koulk1, Hakuk_koulk2, Hakuk_koulk3, Hakuk_koulk4, Hakuk_koulk5, Kielikoodi, Kielityyppi ja Osallistui_kielikokeeseen.
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-Arvosana tiedot _1 päätteiset on noudettu KOSKI-palvelusta ja tämän takia näiden rakenne eroaa aikaisemmista arvosana tiedostoista. Aikaisemmin arvosanatiedoissa on henkilöllä ollut yksi rivi, mutta uudessa henkilöllä voi olla useita rivejä joista jokaisella on oma oppiaine tieto. Lisätietoa Koski tietoja muuttujista löytyy: https://wiki.eduuni.fi/spaces/OPHPALV/pages/578273051/1.+KOSKI-raakadata+normalisoidussa+formaatissa
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_TYHR-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
 
-MUUTOKSIA vuoden 2023 päivityksessä:
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_TYHR_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
 
-Vuoden 2022 osalta aineistossa ei ole seuraavia muuttujia: hakijan_koulusivistyskieli, harkinnanvarainen_valinta, harkinnanvarainen_valintatk, pohjakoulutustk, slähtökoulun_organisaatio_oid ja shakukohteen_koodi.
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista.
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
-Hakukohteen koulutustyyppitk-muuttujaan lisätty uusia luokituksia: 40 ja 41 (lisätietoa muuttujan kuvauksessa).
+<b> Lisätietoja </b> 
+Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-Haku ja haku_sv muuttujissa uusi luokitus: 15 (lisätietoa muuttujan kuvauksessa).
-
-
-HUOMIOITA tiedostosta:
-
-Takautuvasti vuoden 2023 päivityksen yhteydessä täydennetty aineistoa vuosien 2005-2007 osalta PE1-PE5 sekä PEV muuttujan tietoja.Täydennetyt tiedot erillisessä tiedostossa nimeltä tyhr_korjattu_pe_pev_05_07:
-
-
-2014 - 2016:
-Yksilöintitunnuksissa SHAKU_OID, SHAKEMUS_OID, SHLOOID, SHAKUKOHTEEN_ORGANISAATIO_OID, SHAKUKOHTEEN_OID ja SLAHTOKOULUN_ORGANISAATIO_OID on havaittu virheitä. Nämä muuttujat eivät vuosien 2014 - 2016 tiedostoissa yksilöi kuvauksen mukaisia kohteita. Näiden muuttujien tiedot vuosilta 2014 - 2016 eivät ole (toistaiseksi) vertailukelpoisia vuoden 2017 ja myöhempien vuosien tietojen kanssa. Mainittujen yksilöintitunnusten avulla tietoja voidaan yhdistellä yli ajan (toistaiseksi) vuodesta 2017 alkaen.
-
-2014:
-Uusimuotoisessa toisen asteen hakuaineistossa on laatupulmia. Ensimmäinen hakutoive on kaikkiaan 94 000 hakijalla, mutta 1 300 hakijalta se puuttuu, vaikka muita hakutoiveita heiltä kyllä löytyy. Tähän todennäköisenä selityksenä on vuoden 2015 puolella poistetut hakukohteet, joiden mukana hakukohteeseen liittyvät tiedot hyväksymisineen ja vastaanottoineen ovat hävinneet, eivätkä siis ole mukana TK:een tulleessa aineistossa. Sama ongelma koskee myös muita hakutoiveita. Esimerkiksi toinen hakutoive puuttuu 740 hakijalta, joilta kuitenkin löytyy kolmas hakutoive.
-
-KARKEISTETUT MUUTTUJATIEDOT:
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_TYHR_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_TYHR, ja maksaa saman verran. EDUC_TYHR sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
-
-Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
-
-## Variables (132)
+## Variables (133)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
@@ -224,6 +198,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `SUORITUKSEN_TYYPPI` | Suorituksen tyyppi | — | — | — |
 | `KOULUTUKSEN_OPETUSKIELI_2` | Koulutuksen toinen opetuskieli | — | — | — |
 | `KOULUTUKSEN_OPETUSKIELI_3` | Koulutuksen kolmas opetuskieli | — | — | — |
+| `KOULUTUKSEN_OPETUSKIELI4` | Koulutuksen neljäs opetuskieli | — | — | — |
 
 ### Variable definitions
 
@@ -558,11 +533,11 @@ Tieto vuodesta 2017 alkaen
 
 #### `HAKUKOHTEEN_NIMI_SV` — Hakukohteen nimi ruotsiksi
 
-Tieto vuodesta 2017 alkaen
+Tieto vuodesta 2017 alkaen. 2024: ei voi päätellä koulutuksen kieltä.
 
 #### `HAKUKOHTEEN_NIMI_EN` — Hakukohteen nimi englanniksi
 
-Tieto vuodesta 2017 alkaen
+Tieto vuodesta 2017 alkaen. 2024: ei voi päätellä koulutuksen kieltä.
 
 #### `HAKUKOHTEEN_KOULUTUSKOODI` — Hakukohteen koulutuskoodi
 
@@ -697,7 +672,9 @@ FI = suomi
 SV = ruotsi
 EN = englanti
 
- Tieto vuodesta 2017 alkaen. Vuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: "Kaikki kielet, joilla koulutus järjestetään"
+ Tieto vuodesta 2017 alkaen. Vuodesta 2024 alkaen: 1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu
+
+.Ttiedot jaettuna 2024 alkaen useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: "oppilaitoksen opetuskieli"
 
 #### `HAKUKOHTEEN_KOULUTUSTYYPPI` — Hakukohteen koulutustyyppi
 
@@ -774,7 +751,7 @@ YO = ylioppilastutkinto (ei 2019)
 ER = peruskoulu / yksilöllistetty perusopetus
 
 Vuodesta 2021 alk. 
-PK/YO = peruskoulun päättötodistus/ylioppilastutkinto (ei 2019)
+PK/YO = peruskoulun päättötodistus/ylioppilastutkinto (ei 2019). 2024: ovaran myötä hakukohteelle on voitu kirjata useampia pohjakoulutusvaatimuksia. Avain: pohjakoulutusvaatimus_2024
 
 #### `HARKINNANVARAINEN_VALINTA` — Harkinnanvarainen valinta
 
@@ -1485,23 +1462,27 @@ Suorituksen tyyppi, joka yksilöi millaisesta osasuorituksesta on kyse (esimerki
 
 #### `KOULUTUKSEN_OPETUSKIELI_2` — Koulutuksen toinen opetuskieli
 
-FI = suomi
-SV = ruotsi
-EN = englanti
+1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu
 
 . Tieto vuodesta 2024 alkaen.
 
-Vuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: "Kaikki kielet, joilla koulutus järjestetään"
+Vuodesta 2024 alkaen tiedot jaettuna useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: "oppilaitoksen opetuskieli"
 
 #### `KOULUTUKSEN_OPETUSKIELI_3` — Koulutuksen kolmas opetuskieli
 
-FI = suomi
-SV = ruotsi
-EN = englanti
+1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu
 
 . Tieto vuodesta 2024 alkaen.
 
-Vuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: "Kaikki kielet, joilla koulutus järjestetään"
+Vuodesta 2024 alkaen tiedot jaettuna useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: "oppilaitoksen opetuskieli"
+
+#### `KOULUTUKSEN_OPETUSKIELI4` — Koulutuksen neljäs opetuskieli
+
+1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu
+
+. Tieto vuodesta 2024 alkaen.
+
+Vuodesta 2024 alkaen tiedot jaettuna useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: "oppilaitoksen opetuskieli"
 
 ---
 

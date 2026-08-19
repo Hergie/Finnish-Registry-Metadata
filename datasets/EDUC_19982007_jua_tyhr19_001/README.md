@@ -1,4 +1,4 @@
-# EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 4, 1998-2007
+# EDUC_TYHR Toisen asteen yhteishaku, v. 1998-2007
 
 - **Identifier:** `EDUC_19982007_jua_tyhr19_001.xml`
 - **DOI:** `khak_2015-07_2015-07-30_ain_0002`
@@ -8,32 +8,43 @@
 - **Variable count:** 201
 - **Observation count:** —
 - **Population:** Vuosina 1998-2007 toisen asteen koulutuksen yhteishakuun osallistuneet
-- **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
+- **Source:** Opetushallitus
 
 ## Description
 
-Toisen asteen yhteishaku -moduulin 4. osa koostuu henkilöistä, jotka osallistuivat tilastovuosina 1998-2007 toisen asteen koulutuksen yhteishakuun. Tiedostot on toimitettu Tilastokeskukseen OPH:sta ja tiedostoissa on vuosittaisia eroja. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
+EDUC_TYHR-valmisaineisto sisältää Opetushallituksen yhteishakurekisteriin perustuvia henkilötason tietoja toisen asteen koulutukseen hakeneista henkilöistä, heidän taustatekijöistään, hakutoiveistaan, arvosanoistaan sekä opiskelijavalintojen tuloksista.
 
-Tiedostoista on salattu henkilön tunnistetiedot. Tämän lisäksi tiedostoista on salattu kaikkien oppilaitosten tunnistetiedot.
+Tämä aineistokuvaus koskee vuosien 1998–2007 vuositiedostoja. EDUC_TYHR-aineistosta on erilliset kuvaukset myös vuosille 1985, 1989, 1991–1995, 1996–1997 sekä 2008–2013. Vuoden 2014 jälkeisille tiedoille on olemassa yksi kuvaus. 
 
-Arvosana- ja oppiainemuuttujissa on havaittu puutteita ja niiden oikeallisuutta ei ole pystytty tarkistamaan. Keskiarvotiedot pois lukien arvosanatietojen käytössä tulee ottaa huomioon tietojen rajoittuneisuus ja mahdolliset puutteet. 
-Arvosanamuuttujissa arvo 0 tarkoittaa arvosanaa 10. 
+<b> Valmisaineiston tarkentava nimi </b> 
+Toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneiden yhteishakutiedot, sisältäen hakijoiden taustatietoja tarkalla tasolla.
 
-Muuttujien kuvauksissa on ollut puutteita ja niitä on selvitetty ja mukailtu jälkikäteen. Muuttujien kuvauksia on ensisijaisesti mukailtu aineiston uudempien vuosien kattavampien kuvauksien perusteella. Muun muassa muuttujien laani, kiintio, p1...pkv, aimtu ja aimtuopis kuvauksista ja luokituksista ei ole saatu tarkkaa selvyyttä. 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Lähdeaineistona toimii Opetushallituksen Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Vuosien 1998–2007 datataulut koostuvat henkilöistä, jotka osallistuivat toisen asteen koulutuksen yhteishakuun tilastovuosina 1998–2007. Tiedosto on toimitettu Tilastokeskukseen Opetushallituksesta. Huomioithan, että tietojen vastaavuutta Opetushallituksen lopulliseen rekisteriin ei ole voitu varmistaa.
 
-Laani-muuttujan luokituksesta ei ole pystytty päästä varmuuteen. Läänien tietoja on todennäköisimmin mukailtu alkuperäisestä. Koko aikasarjan ajan läänejä esiintyy aineistossa 12 kpl, vaikka vuoden 1997 lääniuudistus vähensi läänien määrän 6 lääniin. 
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Henkilön tunnistetiedot on salattu aineistosta. Lisäksi kaikkien oppilaitosten tunnistetiedot on salattu.
 
-Kiintiö-muuttujasta puuttuu muuttujan kuvaus täysin. Muuttujan tarkoituksesta ei tämän vuoksi ole varmuutta.
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-P1,P2,P3...PKV muuttuja kuvaa valinnan pohjakoulutusvaatimusta. Kyseisten muuttujien luokitus puuttui aineistosta, joten luokitus on mukailtu vuoden 2008 olemassa olevasta luokituksesta parhaan tietämyksen mukaisesti. Vuoden 2008 luokitus vastaa todennäköisesti suurimmilta osin myös aiempien vuosien luokituksia. 
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_TYHR-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
 
-AIMTU-muuttuja kuvaa ammatillista tutkintoa ja AIMTUOPIS ammatillista tutkintoa opisto- tai ammattikorkea-asteelta. Selitteiden ja luokitteluiden puuttuessa luokkien määräytymisperusteista ei kuitenkaan ole varmuutta.
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_TYHR_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
 
-KARKEISTETUT MUUTTUJATIEDOT:
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_TYHR_K, jossa on karkeistettu tiedot äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_TYHR, ja maksaa saman verran. EDUC_TYHR sisältää muuten samat muuttujat, mutta äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
+<b> Tarkempaa tietoa muuttujista </b> 
+- Arvosana- ja oppiainemuuttujissa on havaittu puutteita, eikä niiden oikeellisuutta ole voitu varmistaa. Lukuun ottamatta keskiarvotietoja, arvosanatietojen käytössä tulee huomioida tietojen rajoittuneisuus ja mahdolliset puutteet. Arvosanamuuttujissa arvo ”0” vastaa arvosanaa ”10”.
+- Muuttujien kuvauksissa on ollut puutteita, joita on pyritty selvittämään ja täydentämään jälkikäteen. Kuvauksia on ensisijaisesti täydennetty aineiston uudempien vuosien kattavampien tietojen perusteella. Joidenkin muuttujien, kuten laani, kiintio, p1...pkv, aimtu ja aimtuopis osalta tarkkaa tietoa sisällöstä ja luokituksista ei ole saatu.
+- Laani-muuttujan luokitusta ei ole pystytty varmentamaan. On todennäköistä, että läänitiedot on mukailtu alkuperäisestä aineistosta. Koko aikasarjan ajan aineistossa esiintyy 12 lääniä, vaikka vuoden 1997 lääniuudistuksessa määrä väheni kuuteen.
+- Kiintio-muuttujalta puuttuu kokonaan kuvaus, eikä sen tarkoituksesta ei tämän vuoksi ole varmuutta.
+- Muuttujat P1, P2, P3...PKV kuvaavat valinnan pohjakoulutusvaatimusta. Koska aineistosta puuttui näiden muuttujien luokitus, se on laadittu vuoden 2008 luokituksen pohjalta parhaan saatavilla olevan tiedon mukaan. Vuoden 2008 luokitus vastaa todennäköisesti suurimmilta osin myös aiempien vuosien luokituksia.
+- AIMTU-muuttuja kuvaa ammatillista tutkintoa ja AIMTUOPIS ammatillista tutkintoa opisto- tai ammattikorkea-asteelta. Koska selitteet ja luokitukset puuttuvat, ei luokkien määräytymisperusteista ole varmuutta.
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (201)

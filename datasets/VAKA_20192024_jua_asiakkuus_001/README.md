@@ -33,7 +33,7 @@ Kunnan, kuntayhtymän ja yksityisen palveluntuottajan vastuulla on huolehtia tal
 
 Koska aineiston tietosisältö päivittyy kuukausittain kokonaisuudessaan, voi aineiston sisältö muuttua, joka voi vaikuttaa tulosten toistettavuuteen. Jos hankkeella on tarkoitus julkaista sellaisia tuloksia, joita on tarkoitus replikoida myöhemmin, suosittelemme käyttämään tämän moduulin sijasta VAKA_ASIAKKUUS_SUPPEA-moduulia.
 
-Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen.
+Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Vardan tietoihin pohjautuva lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. FOLK_MUUTTO, FOLK_VAEN tai FOLK_ENHEN moduulien käyttö tämän moduulin ohella on suositeltavaa, mikäli hankkeella on tarvetta luotettavammalle kotikuntatiedolle.
 
 Vardan tietomallin mukaisesti varhaiskasvatusmaksut eivät linkity suoraan varhaiskasvatuspäätökseen tai -suhteeseen. Tämän takia maksutiedot voidaan yhdistää varhaiskasvatustietoihin parhaiten maksutietojen, varhaiskasvatussuhteen ja varhaiskasvatuspäätöksen päivämäärien kautta.
 
@@ -143,25 +143,25 @@ Tyhjä arvo=ei tietoa.
 
 **Group:** asuinkunta
 
-Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.
+Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `edellinen_asuinkunta` — Lapsen edellinen asuinkunta.
 
 **Group:** asuinkunta
 
-Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.
+Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `vuosi` — Asuinkunnan vaihtumisvuosi.
 
 **Group:** asuinkunta
 
-Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.
+Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `kuukausi` — Asuinkunnan vaihtumiskuukausi.
 
 **Group:** asuinkunta
 
-Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.
+Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `vuorohoito_kytkin` — Vuorohoito.
 

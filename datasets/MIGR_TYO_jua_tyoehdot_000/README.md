@@ -2,12 +2,12 @@
 
 - **Identifier:** `MIGR_TYO_jua_tyoehdot_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
-- **Temporal coverage:** 2011-01-01 - 
-- **Published:** 2026-02-10
+- **Temporal coverage:** 2011-01-01 - 2025-12-31
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
-- **Variable count:** 30
+- **Variable count:** 31
 - **Observation count:** —
-- **Population:** Oleskelulupaa hakeneet
+- **Population:** Oleskelulupaa ja kv suojelua hakeneet
 
 ## Description
 
@@ -32,11 +32,11 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Variables (30)
+## Variables (31)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SHNRO` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `MEASURE_ID_S` | Tyoehdot toimenpiteen suojattu ID | — | — | — |
 | `CASE_ID_s` | Suojattu asianumero | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
@@ -53,6 +53,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `SALARY_MONTHLY_TRIM` | Kuukausipalkka | — | — | — |
 | `OCCUPATION_FIELD_ID` | Tyoehtoihin rekisteroity ammattiala koodi | — | — | — |
 | `IS_WORKING_HOURS_REGULAR` | Tyoajan saannollisyys | — | — | — |
+| `WORKING_HOURS_H` | Työaika tuntia | — | — | — |
 | `WORKING_HOURS_M` | Tyoaika minuuttia | — | — | — |
 | `WORKING_HOURS_CODE` | Tyoajan tyyppi koodi | — | — | — |
 | `IS_WORK_PERMANENT` | Tyosuhteen maaraaikaisuus | — | — | — |
@@ -69,7 +70,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 ### Variable definitions
 
-#### `SHNRO` — Suojattu henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `MEASURE_ID_S` — Tyoehdot toimenpiteen suojattu ID
 
@@ -118,6 +119,10 @@ Työehtoihin lisätty ammattiala. Tätä tietoa ei syötetä kovin kattavasti, e
 #### `IS_WORKING_HOURS_REGULAR` — Tyoajan saannollisyys
 
 Saa arvon 1 jos säännöllinen työaika, arvon 0 jos epäsäännöllinen
+
+#### `WORKING_HOURS_H` — Työaika tuntia
+
+Työaika ilmoitetaan muodossa HH:MM
 
 #### `WORKING_HOURS_M` — Tyoaika minuuttia
 
@@ -186,7 +191,10 @@ Milloin työehdot saapuneet Migriin. Tästä voidaan päätellä, että kuuluvat
 
 #### `SALARY_EUR_PER_CODE` — Palkan tyyppi
 
-Esim. Kuukausipalkka, tuntipalkka
+1="Kausi- tai urakkapalkka"
+2= "Kuukausipalkka"
+3="Tuntipalkka"
+4="Muu"
 
 #### `WORK_BEGINNING_ON` — Työsuhteen alkuajankohdan kuukausi
 

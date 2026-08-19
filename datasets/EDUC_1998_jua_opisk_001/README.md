@@ -1,4 +1,4 @@
-# EDUC_OPISK Opiskelijat 1998
+# EDUC_OPISK Opiskelijat, v. 1998
 
 - **Identifier:** `EDUC_1998_jua_opisk_001.xml`
 - **DOI:** `he_201304_ain_Opiskelutekeilla`
@@ -8,46 +8,60 @@
 - **Variable count:** 50
 - **Observation count:** —
 - **Population:** Tutkintoon johtavan koulutuksen opiskelijat Suomessa
-- **Source:** TK: Oppilaitostilastot
+- **Source:** Tilastokeskuksen ikätilastoa varten keräämät henkilöpohjaiset tiedot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
 ## Description
 
-EDUC_OPISK Opiskelijat 1998 -vuositiedosto sisältää tutkintoon johtavassa koulutuksessa syksyllä 1998 päivälukioissa, ammatillisissa oppilaitoksissa, vakinaisissa ja väliaikaisissa ammattikorkeakouluissa ja yliopistoissa opiskelleet.
-Vuosina 1996-1998 yliopistokoulutuksesta ovat mukana sekä oikean että puutteellisen henkilötunnuksen opiskelijat, mutta muilta koulutussektoreilta vain oikean henkilötunnuksen opiskelijat.
+EDUC_OPISK-valmisaineisto sisältää tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat, sekä tietoja heidän demografisista taustatekijöistään, opintoaloistaan sekä tiedekunnistaan. 
 
-MUUTOKSIA VUOTEEN 1997 VERRATTUNA:	
-	
-- Lähes kaikkien muuttujien nimilyhenteet on muutettu samanlaisiksi kuin muissa	
-  koulutustilastoaineistoissa. Muuttujien sijainti ja sisällöt ovat pysyneet samoina	
-  alla olevia poikkeuksia lukuunottamatta.	
-- Muuttuja alvv tutkinnon aloittamisvuosi: yliopisto-opiskelijoilla nykyisen tutkinnon 	
-  aloittamisvuosi (tiekir), kun se edellisessä opiskelijarekisterissä oli kirjoihintulo yliopistoon (kirtu).	
-- Vanhat koulutusluokituksen muuttujat on poistettu ja oppilaitostyyppi (oltyp) on siirretty pääasiallisen toiminnan (ptoim1) perään.	
-	
-YLEISIMMÄT KÄYTTÖTAVAT:
+Tämä aineistokuvaus koskee vuoden 1998 vuositiedostoa. EDUC_OPISK-aineistosta on erilliset kuvaukset myös vuosille 1995, 1996 ja 1997. Vuoden 1999 ja sen jälkeisille tiedoille on olemassa yksi kuvaus. 
 
-Tiedostossa ovat sekä läsnä- että poissaoleviksi syksyllä ilmoittautuneet opiskelijat. Syksyn 1998 läsnäolevat saadaan poimittua muuttujalla lasnas=1. Kevään 1998 läsnäolevat saadaan poimittua muuttujalla lasnak=1. Huom! Kevään läsnäolotieto koskee vain niitä opiskelijoita, jotka ovat olleet kirjoilla syksyllä (läsnä- tai poissaolevina).
+<b> Valmisaineiston tarkentava nimi </b> 
+Opiskelijoiden tiedot lukiokoulutuksessa, ammatillisessa koulutuksessa, oppisopimuskoulutuksessa ja ammattikorkeakoulu- ja yliopistokoulutuksessa kirjoilla olleista, sisältäen kansalaisuus-, kieli- ja opintotietoja.
+
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Vuoden 1998 datataulusisältää tiedot opiskelijoista, jotka syksyllä 1998 opiskelivat tutkintoon johtavassa koulutuksessa seuraavilla koulutussektoreilla: päivälukiot, ammatilliset oppilaitokset, vakinaiset ja väliaikaiset ammattikorkeakoulut sekä yliopistot
+
+Vuosien 1996–1998 osalta yliopistokoulutuksen opiskelijatiedot sisältävät sekä opiskelijat, joilla on oikea henkilötunnus, että ne, joilla se on puutteellinen. Muiden koulutussektoreiden osalta mukana ovat vain opiskelijat, joilla on oikea henkilötunnus.
+
+<u>Tietolähteet: </u>
+Tiedot päivälukioiden, ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen opiskelijoista perustuvat pääteltyihin tietoihin. Ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen osalta tiedot pohjautuvat Tilastokeskuksen vuonna 1995 oppilaitoksilta keräämiin henkilöpohjaisiin tietoihin. Näihin on lisätty vuosina 1996, 1997 ja 1998 yhteishaussa tai sen ulkopuolella opintonsa aloittaneet opiskelijat, ja poistettu ne, jotka ovat suorittaneet tutkinnon vuosina 1995, 1996, 1997 tai tammi–syyskuussa 1998.
+
+Päivälukioiden opiskelijatiedot perustuvat puolestaan opetushallinnon valtionosuusjärjestelmän vuoden 1995 henkilöpohjaisiin tietoihin. Näihin on lisätty vuosina 1996–1998 aloittaneet opiskelijat (sekä yhteishaussa että sen ulkopuolella) ja poistettu ylioppilastutkinnon suorittaneet vuosilta 1995, 1996, 1997 ja 1998.
+
+Vakinaisten ammattikorkeakoulujen ja yliopistojen opiskelijatiedot perustuvat Tilastokeskuksen vuonna 1998 keräämiin henkilöpohjaisiin tietoihin. Vakinaisten ammattikorkeakoulujen opiskelijatiedot kuvaavat tilannetta 20.9.1998, ja yliopisto-opiskelijatietojen ajankohta on 31.12.1998. Väestötiedot on saatu Tilastokeskuksen väestötiedostoista.
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Tiedostossa ovat sekä läsnä- että poissaoleviksi syksyllä ilmoittautuneet opiskelijat. Syksyn 1998 läsnäolevat saadaan poimittua muuttujalla lasnas=1. Kevään 1998 läsnäolevat saadaan poimittua muuttujalla lasnak=1. Kevään läsnäolotieto koskee vain niitä opiskelijoita, jotka ovat olleet kirjoilla syksyllä (läsnä- tai poissaolevina).
 
 Opiskelija voi samanaikaisesti opiskella useammassa koulutuksessa. Aineistossa ovat opiskelijan kaikki opiskelutiedot. Mikäli halutaan valita henkilölle vain yksi opiskelutieto, saadaan se muuttujalla oprior=1, joka valitsee viimeksi aloitetun ja koulutusluokituksen koulutusasteen mukaisen korkeimman koulutuksen. Oprior on muodostettu syksyllä läsnäoleville opiskelijoille.
 
-Muuttujalla kryh saadaan valittua erikseen lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkeakoulukoulutuksessa sekä yliopistokoulutuksessa opiskelevat. Huom! Jos halutaan valita ammattikorkeakoulut, ne saa helpoimmin muuttujalla kryh=41 ja 42 tai muuttujalla opaste=4. Oppilaitostyypin "oltyp" arvolla 313 tulevat mukaan vain vakinaiset ammattikorkeakoulut.
+Muuttujalla kryh saadaan valittua erikseen lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkeakoulukoulutuksessa sekä yliopistokoulutuksessa opiskelevat. Mikäli halutaan valita ammattikorkeakoulut, saa ne helpoimmin muuttujalla kryh=41 ja kryh=42 tai muuttujalla opaste=4. Vain vakinaiset ammattikorkeakoulut voidaan poimia muuttujallaoltyp=313.
 
-Jos tiedot halutaan koulutuksittain, käytetään yleensä TK:n koulutusluokituksen (standardiluokitus) 6-numeroista koulutuskoodia, joka löytyy muuttujasta koulk.
+Mikäli tiedot halutaan koulutuksittain, käytetään yleensä TK:n koulutusluokituksen (standardiluokitus) 6-numeroista koulutuskoodia, joka löytyy muuttujasta koulk.
 
-TIETOLÄHTEET:
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-Tiedot päivälukioiden ja ammatillisten oppilaitosten sekä väliaikaisten ammattikorkeakoulujen opiskelijoista perustuvat pääteltyihin tietoihin. Tiedot ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen opiskelijoiden osalta	perustuvat vuonna 1995 Tilastokeskuksen oppilaitoksilta keräämiin henkilöpohjaisiin tietoihin. Näihin on lisätty vuosina 1996, 1997 ja 1998 yhteishauissa ja yhteishakujen ulkopuolella aloittaneet sekä poistettu vuosina 1995, 1996, 1997 ja tammi-syysk./1998 tutkinnon suorittaneet. Päivälukioiden opiskelijoita koskevat tiedot perustuvat vuoden 1995 opetushallinnon valtionosuusjärjestelmän henkilöpohjaisiin tietoihin, joihin on lisätty vuosina 1996, 1997 ja 1998 yhteishauissa ja yhteishakujen ulkopuolella aloittaneet sekä poistettu vuosina 1995, 1996, 1997 ja 1998 ylioppilastutkinnon suorittaneet.
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_OPISK-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
 
-Tiedot vakinaisten ammattikorkeakoulujen sekä yliopistojen opiskelijoista perustuvat Tilastokeskuksen vuonna 1998 keräämiin henkilöpohjaisiin tietoihin. Vakinaisten ammattikorkeakoulujen opiskelijat ovat 20.9.1998 tilanteen mukaisia, yliopisto-opiskelijat 31.12.1998 tilanteen mukaisia. Väestötiedot ovat Tilastokeskuksen väestötiedostoista.
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_OPISK_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
 
-KARKEISTETUT MUUTTUJATIEDOT:
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
 
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_OPISK_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_OPISK, ja maksaa saman verran. EDUC_OPISK sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
+<b> Tarkempaa tietoa muuttujista </b> 
 
+<u>Muutokset vuoteen 1997 verrattuna: </u>
+- Lähes kaikkien muuttujien nimilyhenteet on yhdenmukaistettu muiden koulutustilastoaineistojen kanssa. Muuttujien sijainti ja sisältö ovat pääosin ennallaan, lukuun ottamatta alla mainittuja poikkeuksia.
+- Muuttuja alvv (tutkinnon aloittamisvuosi): tämä muuttuja kuvaa nyt nykyisen tutkinnon aloitusvuotta (tiekirjatieto), kun aiemmin se vastasi yliopistoon kirjoittautumisvuotta (kirtu).
+- Vanhat koulutusluokituksen muuttujat on poistettu. Lisäksi muuttuja oltyp (oppilaitostyyppi) on siirretty muuttujan ptoim1 (pääasiallinen toiminta) perään.
 
+Datassa on mukana sekä Tilastokeskuksen vanhan koulutusluokituksen 5-numeroiset koulutuskoodit ja niihin liittyvät luokitusmuuttujat, että vuonna 1997 käyttöön otetun uuden koulutusluokituksen 6-numeroiset koodit ja niihin liittyvät muut luokitusmuuttujat. Lisäksi tiedostossa on mukana sekä vanhan että uuden version tiedot Unescon ISCED-luokituksesta, joka uudistui vuonna 1997.
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (50)

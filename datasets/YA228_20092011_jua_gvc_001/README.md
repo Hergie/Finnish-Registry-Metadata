@@ -1,4 +1,4 @@
-# FIRM_GVC Global Value Chains 2009-2011 (YA228)
+# FIRM_GVC Global Value Chains 2009-2011
 
 - **Identifier:** `YA228_20092011_jua_gvc_001.xml`
 - **DOI:** `work_2013-12_2013-12-09_ain_0001`

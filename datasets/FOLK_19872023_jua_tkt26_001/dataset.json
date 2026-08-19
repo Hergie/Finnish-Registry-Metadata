@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19872023_jua_tkt26_001.xml",
+      "doi": "work_2017-12_2017-12-20_ain_0001",
+      "subject": "FOLK_TKT",
+      "contentdescription": "FOLK-henkilöaineiston työssäkäyntimoduuli sisältää tietoja, jotka liittyvät henkilöiden työsuhteisiin, työpaikkoihin, työttömyyteen ja työnhakuun. Moduulissa on myös työnantajaa koskevia tietoja vuoden viimeisen viikon työsuhteesta (TVM) sekä vuoden pisimmästä, vähintään puoli vuotta kestäneestä työsuhteesta (ATV). Moduulin tietoja on saatavilla vuodesta 1987 alkaen, ellei muuttujankuvauksessa toisin mainita. \n\n<b> Valmisaineiston tarkentava nimi </b> \n\nTyössäkäyntitilaston tietoja henkilön työpaikasta (ammatista, toimipaikoista, toimipisteistä), henkilöstä (työnhausta ja jaksotietoja maksujaksoista) ja työnantajasta (sijainnista, omistuksesta, liikevaihdosta, henkilöstömäärästä ja palkoista) (FOLK_TKT)** \n\n<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> \n\nKohdejoukko on Suomessa vakituisesti asunut väestö vuoden viimeisenä päivänä.  \n\nAineisto perustuu Tilastokeskuksen henkilötietovarannon työssäkäyntitilastoihin sekä yritysrekisterin toimipaikkatietoihin.  \n\n<b> Huomioitavaa aineistosta ja sen käytöstä </b> \n\nTilastovuodesta 2019 alkaen työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona. Tulorekisteri korvasi useita aiemmin käytössä olleita työsuhdeaineistoja, mikä vaikuttaa tietojen vertailukelpoisuuteen aiempiin vuosiin nähden. Tulorekisteristä poimitut jaksotiedot ovat maksujaksoja, minkä vuoksi ATV-pääteltyjä tietoja ei ole saatavilla tilastovuodesta 2019 alkaen. Tämä muutos vaikuttaa myös tilastovuoden 2019 päivämäärämuuttujiin, sillä tulorekisterissä käytetään maksujakson alkamis- ja loppumispäivämääriä, jotka poikkeavat aiempien työsuhdeaineistojen päivämäärätiedoista. \n \n<b> Aineiston päivitysaikataulu </b> \n\nTutustu valmisaineistojen päivitysaikatauluun. \n\n<b> Aineiston käyttö ja tilaaminen </b> \n\nAineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron sekä henkilön työnantajan liittyvien suojattujen tunnusten avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. \n\nFOLK Työssäkäynti -aineistot ovat FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain. \n\nVimeisimmät FOLK työssäkäyntiaineistot ovat kansiossa FOLK_TKT_A, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tkt_\"vuosi\"_1. \n \n<b> Tarkempaa tietoa muuttujista </b> \n\nYrittäjien (amas2 = 2) ATV-tietoja puuttuu vuosilta 1998 ja 2005–2010. \n\nVuoden 2023 päivityksessä moduulin vuositaulun 2006 syrtun-muuttujan virheelliset arvot korjattiin takautuvasti. \n\n<b> Lisätietoja </b> \n\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi. ",
+      "coveragetemporal": "1987-12-31 - 2023-12-31",
+      "published_day": "2026-06-30",
+      "variable_count": "48",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö",
+      "resourcerelation_1": "Tilastokeskuksen henkilötietovarasto, yritysrekisterin toimipaikat",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

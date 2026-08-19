@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "shnro",
-      "variablename": "Suojattu henkilönumero",
-      "conceptdef": null,
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null

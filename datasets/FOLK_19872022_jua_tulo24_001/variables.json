@@ -22,7 +22,7 @@
       "conceptdef": "Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tulonjakotilasto, TJKT"
+      "variablegroups": "TJKT, Tulonjakotilasto"
     },
     {
       "identifier": "yrtu",
@@ -30,7 +30,7 @@
       "conceptdef": "Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "TJKT, Tulonjakotilasto"
+      "variablegroups": "Tulonjakotilasto, TJKT"
     },
     {
       "identifier": "omtu",
@@ -38,7 +38,7 @@
       "conceptdef": "Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "TJKT, Tulonjakotilasto"
+      "variablegroups": "Tulonjakotilasto, TJKT"
     },
     {
       "identifier": "saatusi",
@@ -46,7 +46,7 @@
       "conceptdef": "Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tulonjakotilasto, TJKT"
+      "variablegroups": "TJKT, Tulonjakotilasto"
     },
     {
       "identifier": "makstu",
@@ -54,7 +54,7 @@
       "conceptdef": "Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "TJKT, Tulonjakotilasto"
+      "variablegroups": "Tulonjakotilasto, TJKT"
     },
     {
       "identifier": "kturaha",
@@ -62,7 +62,7 @@
       "conceptdef": "Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite. Tietoja vuodesta 1995 lähtien.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tulonjakotilasto, TJKT"
+      "variablegroups": "TJKT, Tulonjakotilasto"
     },
     {
       "identifier": "tyotu",
@@ -182,7 +182,7 @@
       "conceptdef": "Toimeentulotuet sisältää varsinaisen toimeentulotuen ja ehkäisevän toimeentulotuen.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Kela, THL"
+      "variablegroups": "THL, Kela"
     },
     {
       "identifier": "tpar",
@@ -255,6 +255,22 @@
       "measunit": null,
       "classification": null,
       "variablegroups": "Henkilöverotusaineisto"
+    },
+    {
+      "identifier": "myvo",
+      "variablename": "Myyntivoitot",
+      "conceptdef": "Myyntivoitot (veronalainen luovutusvoitto - luovutustappio, min 0)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "desiili",
+      "variablename": "Tulodesiilit",
+      "conceptdef": "Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan ekvivalenttien käytettävissä olevien rahatulojen pohjalta.Desiiliryhmät eli tulokymmenykset on muodostettu jakamalla ensin asuntokunnan tulot talouden kulutusyksiköillä (ns. ekvivalentit tulot). Jokaiselle kotitalouden jäsenelle tulee sama ekvivalentti tulo. Henkilöt järjestetään tämän jälkeen tulojensa mukaiseen järjestykseen ja jaetaan kymmeneen yhtä suureen ryhmään. Jokaisessa tulokymmenyksessä on siten 10 prosenttia väestöstä. Ensimmäiseen tulokymmenykseen kuuluu pienituloisin kymmenes ja viimeiseen suurituloisin. Tulokymmenysten tulo-osuudet osoittavat, kuinka suuren osan kyseessä olevien tulojen kokonaissummasta kukin kymmenys saa. Tietoja vuodesta 1995 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
     }
   ]
 }

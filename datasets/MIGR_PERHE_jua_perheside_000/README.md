@@ -3,7 +3,7 @@
 - **Identifier:** `MIGR_PERHE_jua_perheside_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
 - **Temporal coverage:** 2011-01-01 - 
-- **Published:** 2026-02-10
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
 - **Variable count:** 5
 - **Observation count:** —
@@ -36,7 +36,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SHNRO` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
 | `RELATED_CUSTOMER_ID_s` | Suojattu asiakkaan sukulaisen asiakasnumero | — | — | — |
 | `PERSON_RELATIONSHIP_CODE` | Asiakkaan ja sukulaisen sukulaisuussuhde koodi | — | — | — |
@@ -44,9 +44,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 ### Variable definitions
 
-#### `SHNRO` — Suojattu henkilönumero
-
-Henkilönumero on poimittu niille joille se löytyy.
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `CUSTOMER_ID_s` — Suojattu asiakasnumero
 

@@ -2,7 +2,7 @@
 
 - **Identifier:** `TRAFI_20132025_jua_ajoneuvo_001.xml`
 - **DOI:** `mkan_2017-12_2017-12-08_ain_0001`
-- **Temporal coverage:** 2013-01-01 - 2025-09-30
+- **Temporal coverage:** 2013-01-01 - 2026-03-31
 - **Published:** 2025-10-27
 - **Organisation:** Liikenteen turvallisuusvirasto Trafi 
 - **Variable count:** 128

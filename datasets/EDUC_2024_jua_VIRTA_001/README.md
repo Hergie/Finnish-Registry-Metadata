@@ -1,9 +1,9 @@
-# EDUC_VIRTA-aineisto
+# EDUC_VIRTA Korkeakoulujen opiskelijarekisteri
 
 - **Identifier:** `EDUC_2024_jua_VIRTA_001.xml`
 - **DOI:** `yop_2018-08_2018-08-24_ain_0001`
 - **Temporal coverage:**  - 2024-12-31
-- **Published:** 2025-06-09
+- **Published:** 2026-08-14
 - **Organisation:** Tilastokeskus
 - **Variable count:** 61
 - **Observation count:** —
@@ -13,98 +13,102 @@
 
 ## Description
 
-"VIRTA higher education achievement register”
+EDUC_VIRTA-valmisaineisto sisältää tietoja muun muassa hakijoiden demografisista taustatekijöistä sekä laajasti koulutukseen liittyvistä asioista.
 
-VIRTA-aineisto on korkeakoulujen opiskelijatietoja sisältävä valtakunnallinen tietovaranto. Virta-aineisto sisältää korkeakoulujen opiskelijarekisterien tietoja. Historiatietojen kattavuus riippuu korkeakoulusta.
-Virta-aineistoa voi saada tutkimuskäyttöön Tilastokeskuksen FIONA-tutkimusaineistojen etäkäyttöpalveluun. Tutkimushankekohtainen tutkimuslupa VIRTA-aineiston käyttämiseen haetaan Tilastokeskuksen kautta ja korkeakoulut rekisterinpitäjinä vastaavat luvan myöntämisestä. FIONAssa käytettävissä oleva aineisto sisältää kattavasti VIRTA-aineiston tietosisällön ja tiedot päivitetään kerran vuodessa. Maanpuolustuskorkeakoulun opiskelijarekisteriä ei ole otettu Virta-aineistoon mukaan.
+<b>Valmisaineiston tarkentava nimi</b>
+VIRTA-tietovarannon korkeakoulujen opiskelijarekisterien tietoja, sisältäen tietoja opiskelijoista, lukukausi-ilmoittautumisesta, opiskeluoikeudesta, opiskeluoikeusjaksoista, opintosuorituksista sekä taustatiedoista tarkalla tasolla (EDUC_VIRTA)
 
-VIRTA-aineisto sisältää tietoja viidestä tietoryhmästä: opiskelijat, lukukausi-ilmoittautuminen, opiskeluoikeudet, opiskeluoikeusjakso, opintosuoritukset. 
+<b>Aineiston koostaminen, tietolähteet ja perusjoukko</b> 
+VIRTA-aineisto sisältää korkeakoulujen opiskelijarekisterien tietoja, ja historiatietojen kattavuus vaihtelee korkeakoulukohtaisesti. Aineisto perustuu valtakunnalliseen VIRTA-opintotietopalveluun (VIRTA Higher Education Achievement Register), joka kokoaa korkeakoulujen opiskelijatiedot yhteen tietovarantoon. 
 
-Aineisto koostuu seuraavista tiedostoista:
-LYHENNE_OPISKELIJAT
-LYHENNE_LUKUKAUSI_ILMOITTAUTUMINEN
-LYHENNE_OPISKELUOIKEUDET
-LYHENNE_OPISKELUOIKEUSJAKSO
-LYHENNE_OPINTOSUORITUS_vvvv
+VIRTA-aineisto kattaa viisi tietoryhmää: opiskelijat, lukukausi-ilmoittautumiset, opiskeluoikeudet, opiskeluoikeusjaksot ja opintosuoritukset. 
 
-Huom: muuttujaluettelossa on mukana kaikki muuttujat (huomioi poimintamahdollisuus muuttujaryhmän mukaan), mutta fyysisesti tiedostot ovat FIONA:ssa erillään. Tiedostot on jaoteltu korkeakoulukohtaisiin kansioihin, jotka voidaan avata tutkimushankkeelle korkeakoulun myöntämän luvan mukaisesti. 
+Aineisto koostuu seuraavista tiedostoista: 
+LYHENNE_Opiskelijat_vvvv 
+LYHENNE_Lukukausi_ilmoit_vvvv 
+LYHENNE_Opiskeluoikeudet_vvvv 
+LYHENNE_Opiskeluoikjakso_vvvv 
+LYHENNE_Opintosuoritus_vvvv (+ "_001", "_002" tai "_003") 
 
-VIRTA-aineisto sisältää seuraavat korkeakoulut ("LYHENNE"-osa yläpuolella olevissa tiedostonimissä)
+VIRTA-aineisto sisältää seuraavat korkeakoulut, joiden lyhenteet esiintyvät edellä mainituissa tiedostonimissä kohdassa "LYHENNE" 
 
-Tarkempia tietoja aineistosta ja muuttujista VIRTA-opintotietopalvelun sivuilla: https://wiki.eduuni.fi/display/CSCVIRTA/Tietovarannon+tiedot
+<u>LYHENNE / Oppilaitosrekisterin 5-numeroinen koodi / Nimi</u> 
+HAMK 02467 Hämeen ammattikorkeakoulu 
+KARELIA 02469 Karelia-ammattikorkeakoulu 
+OAMK 02471 Oulun ammattikorkeakoulu 
+SEAMK 02472 Seinäjoen ammattikorkeakoulu 
+KAMK 02473 Kajaanin ammattikorkeakoulu 
+JAMK 02504 Jyväskylän ammattikorkeakoulu 
+SAMK 02507 Satakunnan ammattikorkeakoulu 
+TUAMK 02509 Turun ammattikorkeakoulu 
+ARCADA 02535 Yrkeshögskolan Arcada 
+CENTRIA 02536 Centria-ammattikorkeakoulu 
+SAVONIA 02537 Savonia-ammattikorkeakoulu 
+DIAK 02623 Diakonia-ammattikorkeakoulu 
+VAMK 02627 Vaasan ammattikorkeakoulu 
+LAUREA 02629 Laurea-ammattikorkeakoulu 
+TAMK 02630 Tampereen ammattikorkeakoulu 
+HUMAK 02631 Humanistinen ammattikorkeakoulu 
+HAAGAHEL 10056 Haaga-Helia ammattikorkeakoulu 
+METROPOL 10065 Metropolia ammattikorkeakoulu 
+NOVIA 10066 Yrkeshögskolan Novia 
+LAPINAMK 10108 Lapin ammattikorkeakoulu 
+XAMK 10118 Kaakkois-Suomen ammattikorkeakoulu 
+LAB 10126 LAB-ammattikorkeakoulu 
+(SAIMAA 02609 Saimaan ammattikorkeakoulu (vanha)) 
+(LAMK 02470 Lahden ammattikorkeakoulu (vanha)) 
+HY 01901 Helsingin yliopisto 
+AA 01903 Åbo Akademi 
+OY 01904 Oulun yliopisto 
+TAU 10122 Tamperen yliopisto 
+JY 01906 Jyväskylän yliopisto 
+SHH 01910 Svenska handelshögskolan 
+VY 01913 Vaasan yliopisto 
+LTY 01914 Lappeenrannan-Lahden teknillinen yliopisto LUT 
+LAY 01918 Lapin yliopisto 
+AYO 10076 Aalto yliopisto 
+ISY 10088 Itä-Suomen yliopisto 
+TY 10089 Turun yliopisto 
+TAIY 10103 Taideyliopisto 
+(TAY 01905 Tampereen yliopisto (vanha)) 
+(TTY 01915 Tampereen tekn. yliopisto (vanha)) 
 
-Aineistossa käytetyt luokitukset löytyvät VIRTA Tietovarannon koodistot-luettelosta:
-https://confluence.csc.fi/display/VIRTA/Tietovarannon+koodistot
+<b>Huomioitavaa aineistosta ja sen käytöstä</b> 
+Maanpuolustuskorkeakoulun opiskelijarekisteriä ei ole otettu Virta-aineistoon mukaan. 
+Huomio: muuttujaluettelossa on mukana kaikki muuttujat (huomioi poimintamahdollisuus muuttujaryhmän mukaan), mutta fyysisesti tiedostot ovat FIONA:ssa erillään. Tiedostot on jaoteltu korkeakoulukohtaisiin kansioihin, jotka voidaan avata tutkimushankkeelle korkeakoulun myöntämän luvan mukaisesti. 
 
-
-Tiedoksi tiedostojen- ja aineiston rakenteesta 5.6.2025):
-**************************************************************************
+Tiedoksi tiedostojen- ja aineiston rakenteesta (5.6.2025):
 1. Opiskelijat -tiedostot
-	- Avain on muutettu muotoon opiskelija_avain
-
+- Avain on muutettu muotoon opiskelija_avain
 2. Opiskeluoikeudet -tiedostot
-	- Avain on muutettu muotoon opiskeluoikeus_avain
-
+- Avain on muutettu muotoon opiskeluoikeus_avain
 3. Lukukausi_ilmoittautuminen -tiedostot
-	- OpiskelijaAvain on muutettu muotoon opiskelija_avain
-	- Opiskeluoikeuden_avain on muutettu muotoon opiskeluoikeus_avain
-
+- OpiskelijaAvain on muutettu muotoon opiskelija_avain
+- Opiskeluoikeuden_avain on muutettu muotoon opiskeluoikeus_avain
 4. Opiskeluoikeusjakso -tiedostot
-	- Avain on muutettu muotoon opiskeluoikeus_avain
-
+- Avain on muutettu muotoon opiskeluoikeus_avain
 5. Opintosuoritus_VVVV -tiedostot
-	- Henkilo_avain on muutettu muotoon opiskelija_avain
-	- Opiskeluoikeus_Avain on muutettu muotoon opiskeluoikeus_avain
-	- Opintosuoritus_avain on poistettu kokonaan toimituksesta.
-
+- Henkilo_avain on muutettu muotoon opiskelija_avain
+- Opiskeluoikeus_Avain on muutettu muotoon opiskeluoikeus_avain
+- Opintosuoritus_avain on poistettu kokonaan toimituksesta.
 Muokkauksessa on otettu huomioon korkeakoulujen opiskelijoiden yksilöllinen tunnistaminen.
-
 6. Jatkossa uusi data ajetaan vanhojen tiedostojen päälle.
 
+<b>Aineiston päivitysaikataulu</b>
+Tutustu valmisaineistojen <a href="https://stat.fi/tup/tutkijapalvelut/valmisaineistojen-paivitysaikataulu.html" > päivitysaikatauluun</a>. 
 
-************************************************************************
-LYHENNE / Oppilaitosrekisterin 5-numeroinen koodi / Nimi
-************************************************************************
-HAMK 02467 Hämeen ammattikorkeakoulu
-KARELIA 02469 Karelia-ammattikorkeakoulu
-OAMK 02471 Oulun ammattikorkeakoulu
-SEAMK 02472 Seinäjoen ammattikorkeakoulu
-KAMK 02473 Kajaanin ammattikorkeakoulu
-JAMK 02504 Jyväskylän ammattikorkeakoulu
-SAMK 02507 Satakunnan ammattikorkeakoulu
-TUAMK 02509 Turun ammattikorkeakoulu
-ARCADA 02535 Yrkeshögskolan Arcada
-CENTRIA 02536 Centria-ammattikorkeakoulu
-SAVONIA 02537 Savonia-ammattikorkeakoulu
-DIAK 02623 Diakonia-ammattikorkeakoulu
-VAMK 02627 Vaasan ammattikorkeakoulu
-LAUREA 02629 Laurea-ammattikorkeakoulu
-TAMK 02630 Tampereen ammattikorkeakoulu
-HUMAK 02631 Humanistinen ammattikorkeakoulu
-HAAGAHEL 10056 Haaga-Helia ammattikorkeakoulu
-METROPOL 10065 Metropolia ammattikorkeakoulu
-NOVIA 10066 Yrkeshögskolan Novia
-LAPINAMK 10108 Lapin ammattikorkeakoulu
-XAMK 10118 Kaakkois-Suomen ammattikorkeakoulu
-LAB 10126 LAB-ammattikorkeakoulu
-(SAIMAA 02609 Saimaan ammattikorkeakoulu (vanha))
-(LAMK 02470 Lahden ammattikorkeakoulu (vanha))
+<b>Aineiston käyttö ja tilaaminen</b> 
+Tutkimushankekohtainen tutkimuslupa VIRTA-aineiston käyttämiseen haetaan Tilastokeskuksen kautta ja korkeakoulut rekisterinpitäjinä vastaavat luvan myöntämisestä. Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla. 
 
-HY 01901 Helsingin yliopisto        
-AA 01903 Åbo Akademi                 
-OY 01904 Oulun yliopisto            
-TAU 10122 Tamperen yliopisto
-JY 01906 Jyväskylän yliopisto        
-SHH 01910 Svenska handelshögskolan
-VY 01913 Vaasan yliopisto  
-LTY 01914 Lappeenrannan-Lahden teknillinen yliopisto LUT
-LAY 01918 Lapin yliopisto     
-AYO 10076 Aalto yliopisto
-ISY 10088 Itä-Suomen yliopisto  
-TY 10089 Turun yliopisto
-TAIY 10103 Taideyliopisto
-(TAY 01905 Tampereen yliopisto (vanha))
-(TTY 01915 Tampereen tekn. yliopisto (vanha))
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+
+<b>Tarkempia tietoja muuttujista</b> 
+Tarkempia tietoja aineistosta ja muuttujista <a href="https://wiki.eduuni.fi/display/CSCVIRTA/Tietovarannon+tiedot" >VIRTA-opintotietopalvelun</a> sivuilla.
+
+Aineistossa käytetyt luokitukset löytyvät VIRTA Tietovarannon <a href="https://wiki.eduuni.fi/spaces/CSCVIRTA/pages/145305828/Tietovarannon+koodistot" >koodistot-luettelosta</a>.
+
+<b>Lisätietoja</b> 
+Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (61)
 

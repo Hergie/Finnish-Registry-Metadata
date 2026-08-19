@@ -1,6 +1,30 @@
 {
   "variables": [
     {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Yritystunnus, avainmuuttuja, jolla yritykset (oikeudelliset yksiköt) yksilöidään.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tukiID",
+      "variablename": "tukiID",
+      "conceptdef": "Tuen yksilöivä tunniste. Toimii avainmuuttujana myös. Tuelle myönnetään tukiID, joka on yksilöivä jokaista myöntötapahtumaa kohtaan. Mahdollistaa maksettujen ja myönnettyjen tukien linkkaamisen toisiinsa. Vanhassa aineistossa tukiID on itse generoitu laittamalla kirjain \"v\" ja satunnainen luku.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tukitapahtuman vuosi. Mikäli samana vuonna myöntöjä ja/tai maksuja, niin näiden vuodet täsmäävät tähän muuttuujaan. Tämä muuttuja mukana, jotta saadaan erotteleva avainmuuttuja.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "julkisuusaste",
       "variablename": "julkisuusaste",
       "conceptdef": "Viranomaisen toiminnan julkisuudesta annetun lain (621/1999 mukainen julkisuusaste ellei muussa laissa ole toisin säädetty. Lähtökohtaisesti myönnetyt ja maksetut tukitiedot ovat julkisia. \n",
@@ -236,30 +260,6 @@
       "identifier": "alkuperainenMyontaja",
       "variablename": "AlkuperainenMyontaja",
       "conceptdef": "Tuen myöntäjän nimi.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "vuosi",
-      "variablename": "Vuosi",
-      "conceptdef": "Tukitapahtuman vuosi. Mikäli samana vuonna myöntöjä ja/tai maksuja, niin näiden vuodet täsmäävät tähän muuttuujaan. Tämä muuttuja mukana, jotta saadaan erotteleva avainmuuttuja.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "tukiID",
-      "variablename": "tukiID",
-      "conceptdef": "Tuen yksilöivä tunniste. Toimii avainmuuttujana myös. Tuelle myönnetään tukiID, joka on yksilöivä jokaista myöntötapahtumaa kohtaan. Mahdollistaa maksettujen ja myönnettyjen tukien linkkaamisen toisiinsa. Vanhassa aineistossa tukiID on itse generoitu laittamalla kirjain \"v\" ja satunnainen luku.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "ytunnus",
-      "variablename": "Syrtun",
-      "conceptdef": "Yritystunnus, avainmuuttuja, jolla yritykset (oikeudelliset yksiköt) yksilöidään.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

@@ -3,7 +3,7 @@
 - **Identifier:** `MIGR_VOPAL_jua_vorahat_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
 - **Temporal coverage:** 2011-01-01 - 2025-12-31
-- **Published:** 2026-04-07
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
 - **Variable count:** 13
 - **Observation count:** —
@@ -38,7 +38,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SHNRO` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
 | `ALLOWANCE_DCSN_ID_s` | Suojattu vastaanottorahapaatos id | — | — | — |
 | `ALLOWANCE_PAYM_DETAIL_ID_s` | Suojattu maksutapahtuman id | — | — | — |
@@ -54,7 +54,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 ### Variable definitions
 
-#### `SHNRO` — Suojattu henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `CUSTOMER_ID_s` — Suojattu asiakasnumero
 

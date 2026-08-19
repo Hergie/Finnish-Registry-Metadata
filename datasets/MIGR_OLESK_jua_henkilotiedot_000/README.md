@@ -2,12 +2,12 @@
 
 - **Identifier:** `MIGR_OLESK_jua_henkilotiedot_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
-- **Temporal coverage:** 2011-01-01 - 2024-12-31
-- **Published:** 2026-04-13
+- **Temporal coverage:** 2011-01-01 - 2025-12-31
+- **Published:** 2026-04-14
 - **Organisation:** Tilastokeskus
-- **Variable count:** 7
+- **Variable count:** 6
 - **Observation count:** —
-- **Population:** Oleskelulupaa hakeneet
+- **Population:** Oleskelulupaa ja kv suojelua hakeneet
 
 ## Description
 
@@ -20,28 +20,27 @@ Aineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamise
 
 Oleskelulupa-aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoon voi tulla vielä käytettävyyttä parantavia muutoksia. 
 
+MIGR-valmisaineistojen sisältämien muuttujien luokitukset sijaitsevat FIONAn metadata-kansiossa (D:/metadata/migr).
+
 Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella <a href="https://tilastot.migri.fi/" > Migrin tilastointipalvelusta</a>. 
 Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/oleskelulupa" > Maahanmuuttoviraston sivuilla</a>.
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Variables (7)
+## Variables (6)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SHNRO` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
 | `TILASTOVUOSI` | — | — | — | — |
 | `Birth_year` | Syntymävuosi | — | — | — |
 | `Sex` | Sukupuoli | — | — | — |
 | `Citizenzhip` | Kansalaisuus | — | — | — |
-| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 
 ### Variable definitions
 
-#### `SHNRO` — Suojattu henkilönumero
-
-Henkilönumero on poimittu niille joille se löytyy.
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `CUSTOMER_ID_s` — Suojattu asiakasnumero
 
@@ -54,8 +53,6 @@ Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle 
 #### `Sex` — Sukupuoli
 
 #### `Citizenzhip` — Kansalaisuus
-
-#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 ---
 

@@ -3,7 +3,7 @@
 - **Identifier:** `PIAAC_202500_jua_survey_001.xml`
 - **DOI:** `work_2017-08_2017-08-17_ain_0001`
 - **Temporal coverage:** 2022-09-01 - 2023-06-30
-- **Published:** 2025-11-26
+- **Published:** 2026-04-21
 - **Organisation:** Tilastokeskus
 - **Variable count:** 175
 - **Observation count:** 4,061

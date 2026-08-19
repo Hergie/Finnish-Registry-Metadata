@@ -49,6 +49,14 @@
       "variablegroups": null
     },
     {
+      "identifier": "prt_s",
+      "variablename": "Suojattu pysyvä rakennustunnus",
+      "conceptdef": "Pysyvä rakennustunnus yksilöi rakennuksen ja se säilyy rakennuksella koko rakennuksen elinkaaren ajan. Pysyvä rakennustunnus on otettu käyttöön VTJ-tietojärjestelmässä 10.11.2014. Tätä aiemmat tiedot on täydennetty henkilötietovaraston rnro:n mukaisesti.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "rappu_s",
       "variablename": "Suojattu rappukäytävän tunnus",
       "conceptdef": "Rakennuskohtainen suojattu rapputunnus on vain asutuilla kerros- ja rivitalohuoneistoilla vuodesta 2005 alkaen. Tieto puuttuu, jos rakennuksessa on vähemmän kuin kolme asuttua huoneistoa.",

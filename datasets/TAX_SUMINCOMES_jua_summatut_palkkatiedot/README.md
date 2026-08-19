@@ -3,7 +3,7 @@
 - **Identifier:** `TAX_SUMINCOMES_jua_summatut_palkkatiedot.xml`
 - **DOI:** `work_2020-08_2020-08-18_ain_0001`
 - **Temporal coverage:** 2019-01-01 - 
-- **Published:** 2025-06-13
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
 - **Variable count:** 53
 - **Observation count:** —
@@ -39,9 +39,9 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi ja Ver
 | `payerIdType` | Maksajan tunnisteen tyyppi | — | — | — |
 | `payerIdCode_s` | Maksajan suojattu yritystunnus | — | — | — |
 | `payerOtherIdCode_s` | Maksajan suojattu muu tunnus | — | — | — |
-| `payerShnro` | Maksajan suojattu henkilönumero | — | — | — |
+| `payerhid_e` | Suojattu maksajan yksilöivä tunniste | — | — | — |
 | `incomeEarnerIdType` | Tulonsaajan tunnisteen tyyppi | — | — | — |
-| `incomeEarnerShnro` | Tulonsaajan suojattu henkilönumero | — | — | — |
+| `incomeEarnerhid_e` | Suojattu tulonsaajan yksilöivä tunniste | — | — | — |
 | `kokoAikaisuus` | Kokoaikaisuus (kokAik) | — | — | — |
 | `tyosuhdeKatkennut` | Vajaa (vajaa) | — | — | — |
 | `employmentCode` | Palvelussuhteen tyyppi | — | — | — |
@@ -104,17 +104,13 @@ Pakollisuus (K/E) = K
 
 #### `payerOtherIdCode_s` — Maksajan suojattu muu tunnus
 
-#### `payerShnro` — Maksajan suojattu henkilönumero
-
-Maksajan suojattu henkilönumero, muodostetaan Tilastokeskuksessa.
+#### `payerhid_e` — Suojattu maksajan yksilöivä tunniste
 
 #### `incomeEarnerIdType` — Tulonsaajan tunnisteen tyyppi
 
 Tulonsaajan tunnisteen tyyppi
 
-#### `incomeEarnerShnro` — Tulonsaajan suojattu henkilönumero
-
-Tulonsaajan suojattu henkilönumero
+#### `incomeEarnerhid_e` — Suojattu tulonsaajan yksilöivä tunniste
 
 #### `kokoAikaisuus` — Kokoaikaisuus (kokAik)
 

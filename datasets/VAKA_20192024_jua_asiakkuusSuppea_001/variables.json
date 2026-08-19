@@ -6,7 +6,7 @@
       "conceptdef": "Lisää tietoa <a href=\"https://wiki.eduuni.fi/spaces/ophPPK/pages/190612188/Mik%C3%A4+on+oppijanumero\">OPH:n eeduuni-wikistä</a>.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta"
+      "variablegroups": "asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus"
     },
     {
       "identifier": "hid_e",
@@ -14,7 +14,7 @@
       "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
-      "variablegroups": "asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus"
+      "variablegroups": "varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta"
     },
     {
       "identifier": "syntymavuosi",
@@ -51,7 +51,7 @@
     {
       "identifier": "asuinkunta",
       "variablename": "Lapsen asuinkunnan kuntakoodi.",
-      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -59,7 +59,7 @@
     {
       "identifier": "edellinen_asuinkunta",
       "variablename": "Lapsen edellinen asuinkunta.",
-      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -67,7 +67,7 @@
     {
       "identifier": "vuosi",
       "variablename": "Asuinkunnan vaihtumisvuosi.",
-      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -75,7 +75,7 @@
     {
       "identifier": "kuukausi",
       "variablename": "Asuinkunnan vaihtumiskuukausi.",
-      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.",
+      "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"

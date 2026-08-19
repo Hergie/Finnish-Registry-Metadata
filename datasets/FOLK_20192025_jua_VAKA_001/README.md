@@ -1,4 +1,4 @@
-# FOLK_VAKA - Vardaan pohjautuvat varhaiskasvatustiedot kuukausitasolla
+# FOLK_VAKA
 
 - **Identifier:** `FOLK_20192025_jua_VAKA_001.xml`
 - **DOI:** `vaka_2026-01_2026-01-08_ain_0001`
@@ -13,8 +13,10 @@
 
 FOLK_VAKA moduuli pohjautuu Varhaiskasvatuksen tietovarannon (Varda) tietoihin. Moduulissa on saatavilla tietoa kuukausitasolla varhaiskasvatukseen osallistuvista lapsista Suomessa.
 
+<b> Valmisaineiston tarkentava nimi </b> 
+Varda-tietovarannon varhaiskasvatuksessa olevat lapset ja taustatiedot (kuukausitasoinen ja paneelimuotoinen FOLK-helppokäyttömoduuli)
 
-<h3>Tietolähteet ja perusjoukko</h3>
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 Aineisto on kokonaisaineisto, joka pohjautuu Varhaiskasvatuksen tietovarannon tietoihin, joita on voitu täydentää väestötietojärjestelmän tiedoilla. Varhaiskasvatuksen tietovaranto on kuvattu seuraavasti <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/453739928/Varda">Vardan Eduuni-wiki palvelussa</a> (9.1.2026):
 <i>Varaiskasvatuksen tietovaranto on kansallinen tietovaranto, joka sisältää tietoja varhaiskasvatustoimijoista, varhaiskasvatuksen toimipaikoista, varhaiskasvatuksessa olevista lapsista, lasten huoltajista, varhaiskasvatuksen henkilöstöstä ja varhaiskasvatuksessa annettavasta tuesta. Varda on otettu käyttöön vaiheittain vuosina 2019-2020.</i>
 
@@ -22,30 +24,30 @@ Aineisto on muodostettu yhdistämällä kuukausikohtaisesti lapsen varhaiskasvat
 
 FOLK_VAKA moduulin perusjoukko muodostuu Vardasta löytyvistä varhaiskasvatukseen osallistuvista lapsista Suomessa, joilla on ollut voimassaoleva varhaiskasvatuspäätös ja -suhde havaintokuukauden ja -vuoden aikana.
 
-
-<b>Huomioitavaa</b>
+<b>Huomioitavaa aineistosta ja sen käytöstä</b>
 Tämän paneelimuotoisen valmisaineiston avulla voi hakea helposti kuukauden tarkkuudella Vardasta löytyvien lasten varhaiskasvatukseen liittyviä tietoja. Vardaan pohjautuvia varhaiskasvatustietoja löytyy myös moduuleista VAKA_ASIAKKUUS_SUPPEA ja VAKA_ASIAKKUUS.
 
 Varda on otettu vaiheittain käyttöön vuosien 2019-2020 aikana, jonka takia ensimmäisten vuosien tiedot voivat olla puutteellisia. Tämä voi näkyä esimerkiksi varhaiskasvatuksen piirissä olevien lasten lukumäärissä.
 
-Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Tämä voi näkyä siten, että sama lapsi voi esiintyä useammalla rivillä valmisaineistossa saman kuukauden aikana, mikäli hänellä on useampi voimassaoleva varhaiskasvatussuhde tarkastelukuukauden aikana.
+Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Tämä voi näkyä siten, että sama lapsi voi esiintyä useammalla rivillä valmisaineistossa saman kuukauden aikana, mikäli hänellä on useampi voimassaoleva varhaiskasvatussuhde tarkastelukuukauden aikana. Vardan tietoihin pohjautuva lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. FOLK_MUUTTO, FOLK_VAEN tai FOLK_ENHEN moduulien käyttö tämän moduulin ohella on suositeltavaa, mikäli hankkeella on tarvetta luotettavammalle kotikuntatiedolle.
 
 Tämä valmisaineisto ei sisällä varhaiskasvatuksen maksutietoja, mutta ne on mahdollista lisätä räätälöitynä toimeksiantona. Vardan tietomallin mukaisesti varhaiskasvatusmaksut eivät linkity suoraan varhaiskasvatuspäätökseen tai -suhteeseen. Tämän takia maksutietojen yhdistäminen varhaiskasvatustietoihin on tehty pohjautuen maksutietojen, varhaiskasvatussuhteen ja varhaiskasvatuspäätöksen päivämääriin.
 
 Lapsen asuinkunta pohjautuu Digi- ja väestötietoviraston (DVV) väestötietojärjestelmän (VTJ) tietoihin, mutta jota on voitu täydentää Vardan kotikuntatiedolla, mikäli henkilöllä ei ole suomalaista henkilötunnusta.
 
-
-<b>Aineiston päivitysaikataulu</b>
-Aineisto päivitetään kerran vuodessa.
-
-
-<b>Aineiston yleisimmät käyttötavat</b>
+Aineiston yleisimmät käyttötavat
 Aineistoa voidaan hyödyntää tutkimuksiin tai selvityksiin, joissa tarvitaan kuukausitason tarkkuudella tietoa lasten varhaiskasvatuksesta, joiden tietoja on kerätty Vardaan.
 
-
-<b>Rajoitukset</b>
+Rajoitukset
 Aineisto voidaan yhdistää toisiin henkilötason valmisaineistoihin niiden henkilöiden osalta, joilla on suomalainen henkilötunniste. Aineiston toimipaikka- tai toimijatiedot voidaan yhdistää suojatun organisaatio-OID muuttujan avulla niihin aineistoihin, joissa on myös organisaatio-OID tunniste käytössä (kuten KOSKI). Tällä hetkellä aineiston toimipaikka- tai toimijatiedot eivät ole yhdistettävissä sellaisiin valmisaineistoihin, joiden toimipaikan tai toimijan tunnisteet pohjautuvat Tilastokeskuksen yritysrekisterin tunnisteisiin.
 
+<b>Aineiston päivitysaikataulu</b>
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. Aineisto päivitetään kerran vuodessa.
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.    
+
+Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
 
 <b>Lisätietoa</b>
 Vardan tietosisältö on dokumentoitu <p><a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/488747922/Vardan+tietoluettelo">Vardan Eduuni-wiki palvelussa (9.1.2026)</a>, josta voi hakea lisätietoa aineiston tietosisällöstä.
@@ -114,7 +116,7 @@ Tyhjä arvo=ei tietoa.
 
 #### `kotikunta` — Lapsen asuinkunta
 
-Perustuu Tilastokeskuksen kolminumeroiseen kuntanumeroon.
+Tilastokeskuksen kolminumeroinen kuntanumero. Pohjautuu Vardan tietoihin.
 
 #### `vuorohoito_kytkin` — Vuorohoito
 

@@ -1,4 +1,4 @@
-# FOLK lapsi - vanhemmat
+# FOLK_LAPS
 
 - **Identifier:** `FOLK_19702023_jua_laps24_001.xml`
 - **DOI:** `work_2020-01_2020-01-17_ain_0001`
@@ -8,40 +8,54 @@
 - **Variable count:** 8
 - **Observation count:** —
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö
-- **Source:** VTJ
+- **Source:** Tilastokeskuksen väestönmuutos- ja perhetilasto,  VTJ
 
 ## Description
 
-Sisältyy FOLK lapsi - vanhemmat -moduuliin. FOLK lapsi - vanhemmat on suhdeaineisto, joka sisältää biologisten vanhempien henkilötiedot niille henkilöille, joilla on tieto vanhemmista. Aineistossa lapsi tai ainakin lapsen toinen vanhemmista kuuluu FOLK väestöön, eli henkilön tiedot löytyvät joko FOLK perustieto tai FOLK Väestölaskennat 1970-1985 -aineistoista.
+Lapsi - vanhemmat –valmisaineistomoduuli sisältää tietoja lapsen syntymä- ja kuolinvuodesta sekä vanhempien suojatuista yksilöivästä tunnisteesta. 
 
-Aineiston lähteenä on väestötietojärjestelmä (VTJ). Väestörekisterikeskus on perustettu vuonna 1969 ja atk-pohjaiseen väestörekisteriin siirryttiin vuonna 1971. Tietoja vanhemmista on siis kattavammin vain 1950-luvulla tai myöhemmin syntyneille. Näille tieto ainakin toisesta biologisesta vanhemmasta löytyy yli 80 prosentille lapsista.
+<b> Valmisaineiston tarkentava nimi </b> 
 
-Aineisto sisältää vanhempien tietoja myös niille lapsille, jotka ovat syntyneet vuoden 1952 jälkeen, mutta joiden tietoja ei ole FOLK lapsi - vanhemmat - vuosiaineistossa. Näitä lapsia ovat ulkomailla koko elämänsä asuneet Suomen kansalaiset tai ennen syntymävuoden viimeistä päivää kuolleet lapset. Tällöin ainakin toisen vanhemmista on kuuluttava FOLK väestöön.
+Ennakkotietoja väestöön kuuluvien ja muiden suomalaisen henkilötunnuksen omaavien henkilöiden taustatiedoista, karkealla tasolla (kuukausitasoiset ennakkotiedot). 
 
-Aineisto on tarkoitettu otosaineistona käytettäväksi FIONA-etäkäyttöjärjestelmän kautta. Kokonaisaineistoon voidaan antaa käyttöoikeus vain, jos tutkimuksellisesta syystä kokonaisaineiston käyttöön on erityinen tarve. Tiedot ovat linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Aineiston lähteenä on Digi- ja viestintäviraston väestötietojärjestelmä (VTJ). Väestörekisterikeskus perustettiin vuonna 1969 ja atk-pohjaiseen väestörekisteriin siirryttiin vuonna 1971. Tämän vuoksi vanhemmuustiedot ovat kattavampia henkilöille, jotka ovat syntyneet 1950-luvulla tai myöhemmin. Yli 80 prosentilla näistä henkilöistä on tieto ainakin toisesta biologisesta vanhemmasta. 
 
-FOLK lapsi - vanhemmat -aineisto on kansiossa FOLK_LAPS_C. Viimeisimmän aineiston tiedostonimi on folk_laps_19702023_1.
+Lapsi-vanhemmat moduuliin sisältyy myös lapsi-vanhemmat-vuosi-moduuli. FOLK lapsi-vanhemmat on suhdeaineisto, joka sisältää biologisten vanhempien henkilötiedot niille henkilöille, joilta vanhemmuustiedot ovat saatavilla. Aineistossa lapsi tai vähintään toinen vanhemmista kuuluu FOLK väestöön, eli heidän tietonsa löytyvät joko FOLK perustieto- tai FOLK Väestölaskennat 1970–1985-aineistoista. 
 
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Aineisto sisältää myös vanhempien tietoja lapsille, jotka ovat syntyneet vuoden 1952 jälkeen, mutta joita ei ole mukana FOLK lapsi-vanhemmat-vuosiaineistossa. Näihin kuuluvat esimerkiksi Suomen kansalaiset, jotka ovat asuneet koko elämänsä ulkomailla, tai lapset, jotka ovat kuolleet ennen syntymävuotensa päättymistä. Näissä tapauksissa vähintään toisen vanhemman on kuuluttava FOLK-väestöön. 
+
+<b> Aineiston päivitysaikataulu </b>
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+ 
+
+<b> Aineiston käyttö ja tilaaminen </b>
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.    
+
+Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ## Variables (8)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `shnro` | Suojattu TK:n henkilönumero, lapsi | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste, lapsi | — | — | — |
 | `syntyv` | Syntymävuosi | — | — | — |
 | `kuolv` | Kuolinvuosi | — | — | — |
-| `shnro_m` | Suojattu TK:n henkilönumero, biol. äiti | — | — | — |
-| `shnro_f` | Suojattu TK:n henkilönumero, biol. isä | — | — | — |
+| `hid_e_m` | Suojattu henkilön yksilöivä tunniste, biol. äiti | — | — | — |
+| `hid_e_f` | Suojattu henkilön yksilöivä tunniste, biol. isä | — | — | — |
 | `folk_c` | Kuuluu FOLK-aineistoon, lapsi | — | — | — |
 | `folk_m` | Kuuluu FOLK-aineistoon, biol. äiti | — | — | — |
 | `folk_f` | Kuuluu FOLK-aineistoon, biol. isä | — | — | — |
 
 ### Variable definitions
 
-#### `shnro` — Suojattu TK:n henkilönumero, lapsi
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste, lapsi
 
-Lapsen suojattu TK:n henkilönumero.
+Lapsen suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `syntyv` — Syntymävuosi
 
@@ -51,13 +65,13 @@ Lapsen syntymävuosi.
 
 Lapsen kuolinvuosi.
 
-#### `shnro_m` — Suojattu TK:n henkilönumero, biol. äiti
+#### `hid_e_m` — Suojattu henkilön yksilöivä tunniste, biol. äiti
 
-Biologisen äidin suojattu TK:n henkilönumero.
+Biologisen äidin suojattu henkilön yksilöivä tunniste.Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `shnro_f` — Suojattu TK:n henkilönumero, biol. isä
+#### `hid_e_f` — Suojattu henkilön yksilöivä tunniste, biol. isä
 
-Biologisen isän suojattu TK:n henkilönumero.
+Biologisen isän suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `folk_c` — Kuuluu FOLK-aineistoon, lapsi
 

@@ -1,4 +1,4 @@
-# EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 5, 2008-2013
+# EDUC_TYHR Toisen asteen yhteishaku, v. 2008-2013
 
 - **Identifier:** `EDUC_20082013_jua_tyhr19_001.xml`
 - **DOI:** `khak_2015-07_2015-07-30_ain_0003`
@@ -8,15 +8,32 @@
 - **Variable count:** 142
 - **Observation count:** —
 - **Population:** Vuosina 2008-2013 toisen asteen koulutuksen yhteishakuun osallistuneet. Aineisto sisältää myös kaikki peruskoulujen 9. ja 10. luokalla tilastovuoden keväällä opiskelleiden henkilötiedot riippumatta siitä, onko henkilö hakenut toisen asteen jatko-opintoihin tai saanut päättötodistuksen.
-- **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
+- **Source:** Opetushallitus
 
 ## Description
 
-Toisen asteen yhteishaku -moduulin 5. osa koostuu henkilöistä, jotka osallistuivat tilastovuosina 2008-2013 toisen asteen koulutuksen yhteishakuun. Aineisto sisältää tiedot toisen asteen ammatillisen koulutuksen ja lukiokoulutuksen opiskelijaksi hakeutumisesta ja opiskelijavalinnoista. Aineisto sisältää myös talouskoulukoulutuksen (tutkintokoodi 038411). Eri vuosien tiedostot ovat sisällöltään samanlaisia. Kyseiset tiedostot on toimitettu Tilastokeskukseen OPH:sta. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
+EDUC_TYHR-valmisaineisto sisältää Opetushallituksen yhteishakurekisteriin perustuvia henkilötason tietoja toisen asteen koulutukseen hakeneista henkilöistä, heidän taustatekijöistään, hakutoiveistaan, arvosanoistaan sekä opiskelijavalintojen tuloksista.
 
-Tiedostosta on salattu henkilön tunnistetiedot. Tämän lisäksi tiedostosta on salattu kaikkien oppilaitosten tunnistetiedot.
+Tämä aineistokuvaus koskee vuosien 2008–2013 vuositiedostoja. EDUC_TYHR-aineistosta on erilliset kuvaukset myös vuosille 1985, 1989, 1991–1995, 1996–1997 sekä 1998–2007. Vuoden 2014 jälkeisille tiedoille on olemassa yksi kuvaus. 
 
-Aineisto ei sisällä
+<b> Valmisaineiston tarkentava nimi </b> 
+Toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneiden yhteishakutiedot, sisältäen hakijoiden taustatietoja tarkalla tasolla.
+
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Lähdeaineistona toimii Opetushallituksen Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Vuosien 2008–2013 datataulut koostuvat henkilöistä, jotka osallistuivat toisen asteen koulutuksen yhteishakuun tilastovuosina 2008–2013. 
+
+Aineisto sisältää tiedot hakeutumisesta ja opiskelijavalinnoista toisen asteen ammatilliseen koulutukseen ja lukiokoulutukseen. Mukana on myös talouskoulukoulutus (tutkintokoodi 038411). 
+
+Aineisto sisältää myös kaikkien peruskoulujen 9. ja 10. luokalla tilastovuoden keväällä opiskelleiden henkilötiedot riippumatta siitä, ovatko he hakeneet toisen asteen jatko-opintoihin tai saaneet päättötodistuksen.
+ 
+Ammatillisen koulutuksen ja lukiokoulutuksen osalta aineisto on muodostettu siten, että jokaisella yhteishaussa mukana olevaan koulutukseen hakeneella on tietue, johon sisältyy enintään viisi hakutoivetta sekä valintatiedot koulutustietoineen. Eri vuosien tiedostot ovat sisällöltään samanlaisia. Tietojen vastaavuutta Opetushallituksen lopulliseen rekisteriin ei ole voitu varmistaa.
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Henkilön tunnistetiedot on salattu aineistosta. Lisäksi kaikkien oppilaitosten tunnistetiedot on salattu.Sama henkilö voi esiintyä aineistossa useamman kerran, sillä hän on voinut osallistua kevään varsinaiseen hakuun, täydennyshakuun, lisähakuun sekä syksyn hakuun.
+
+Yhteishaussa käytetyt hakijoiden arvosanat löytyvät erillisistä vuosikohtaisista tiedostoista ”educ_tyhr_arvos_vvvvv”.
+
+Aineisto ei sisällä:
 - opetushallinnon ulkopuolista koulutusta
 - oppisopimuskoulutuksena järjestettävää ammatillista peruskoulutusta
 - näyttötutkintona suoritettavaa ammatillista perustutkintoon valmistavaa koulutusta
@@ -26,28 +43,26 @@ Aineisto ei sisällä
 - tanssialan, musiikkialan ja liikunnanohjauksen perustutkintoon johtavaa koulutusta
 - vieraskielistä koulutusta
 - ammatillisten erityisoppilaitosten järjestämää koulutusta
-- ammatilliseen koulutukseen valmistavia koulutuksia.
-- Ahvenanmaan koulutuksia
+- ammatilliseen koulutukseen valmistavia koulutuksia
+- Ahvenanmaalla toteutettuja koulutuksia
 
-Aineisto sisältää myös kaikki peruskoulujen 9. ja 10. luokalla tilastovuoden keväällä opiskelleiden henkilötiedot riippumatta siitä, onko henkilö hakenut toisen asteen jatko-opintoihin tai saanut päättötodistuksen.
+Rekisterin taustalla oleva tietojärjestelmä uudistettiin vuonna 2008.
 
-Ammatillisen koulutuksen ja lukiokoulutuksen hakurekisteri rakentuu siten, että kullakin yhteishakuun kuuluvaan koulutukseen hakeneella on tietueella viisi hakutoivetta ja valintatiedot koulutustietoineen. 
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-Henkilö voi olla aineistossa useamman kerran, koska hän on voinut hakea kevään varsinaisessa haussa, täydennyshaussa ja lisähaussa sekä syksyn haussa. 
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_TYHR-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
 
-Hakijoiden yhteishaussa käytetyt arvosanat löytyvät erillisistä tiedostoista EDUC_2008_arvos - EDUC_2013_arvos.
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_TYHR_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
 
-Toisen asteen yhteishausta on enemmän tietoa Opetushallituksen verkkosivuilla osoitteessa
-http://www.koulutusnetti.fi/
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
-Tietojärjestelmä uudistettiin vuonna 2008.
-
-KARKEISTETUT MUUTTUJATIEDOT:
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_TYHR_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_TYHR, ja maksaa saman verran. EDUC_TYHR sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
-
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
+
+Toisen asteen yhteishausta on enemmän tietoa Opetushallituksen verkkosivuilla osoitteessa <a href=" https://www.koulutusnetti.fi/">  koulutusnetti</a>.
 
 ## Variables (142)
 

@@ -1,4 +1,4 @@
-# EDUC_ESIPERUS Oppilaat 2020 - 2024
+# EDUC_ESIPERUS Esi- ja perusopetus 2020 - 2024
 
 - **Identifier:** `EDUC_20202024_jua_esiperus_001.xml`
 - **DOI:** `he_201304_ain_Opiskelutekeilla`
@@ -7,52 +7,64 @@
 - **Organisation:** Tilastokeskus
 - **Variable count:** 25
 - **Observation count:** —
-- **Population:** Esi -ja perusopetuksen oppilaat Suomessa
-- **Source:** TK: Oppilaitostilastot
+- **Population:** Esi- ja perusopetuksen oppilaat Suomessa
+- **Source:** Tiedot pohjautuvat KOSKI-rekisteriin, Ahvenanmaan tilastoviraston aineistoihin sekä Helsingin eurooppalaisen koulun henkilöpohjaisiin oppilasaineistoihin.
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
 ## Description
 
-Esi- ja perusopetusmoduuli sisältää tiedot oppilaista, jotka ovat olleet 20.9. kirjoilla esi- ja perusopetuksessa.
-Tiedot pohjautuvat KOSKI-rekisterin ja Ahvenanmaan tilastoviraston ja Helsingin eurooppalaisen koulun henkilöpohjaisiin oppilasaineistoihin, jotka opiskelevat peruskouluissa esiopetuksessa tai peruskoulun oppimäärää vuosiluokilla 1-9 tai lisäopetuksessa (10 -luokka tai pv eli perusopetukseen valmistava koulutus).
-Sisältökuvaus
-Tietosisältö kattaa myös ennen oppivelvollisuuden alkua aloittaneet oppilaat.
-Esi- ja perusopetuksen oppilaiden tiedot ovat aineistossa vuodesta 2020 alkaen. 
-EDUC_ESIPERUS moduulin aineisto koostuu seuraavista tiedostoista:	
-educ_esiperus_2020
-educ_esiperus_2021
-educ_esiperus_2022
-educ_esiperus_2023
+EDUC_ESIPERUS –valmisaineistomoduuli sisältää tietoa henkilöiden demografisista taustatekijöistä, koulutuslajista, tutkinnon aloittamisvuodesta, oppilaitoksesta sekä opiskelujakson tilasta ja opiskeluoikeuden tyypistä. Tämä aineistokuvaus koskee EDUC_ESIPERUS-aineistoa, joka sisältää karkeistamattomat tiedot kansalaisuudesta ja äidinkielestä.   
 
+<b>Valmisaineiston tarkentava nimi</b> 
+Esi- ja perusopetuksessa kirjoilla olevat oppilaat ja heidän koulutus- ja taustatietonsa, karkeistamaton (EDUC_ESIPERUS)
 
-Opiskelusta on erikseen saatavilla arkaluonteisia erityisopetukseen liittyviä muuttujia, joihin annetaan
-käyttöoikeus vain, jos niihin on tutkimuksellisesta syystä erityinen tarve.
+<b>Aineiston koostaminen, tietolähteet ja perusjoukko</b> 
+Esi- ja perusopetusmoduuli kattaa oppilaat, jotka ovat olleet kirjoilla esi- tai perusopetuksessa 20. syyskuuta. Tiedot pohjautuvat KOSKI-rekisteriin, Ahvenanmaan tilastoviraston aineistoihin sekä Helsingin eurooppalaisen koulun henkilöpohjaisiin oppilasaineistoihin. Mukana ovat oppilaat, jotka opiskelevat peruskouluissa esiopetuksessa, peruskoulun vuosiluokilla 1–9 tai lisäopetuksessa (10-luokka tai perusopetukseen valmistava koulutus, eli pv). 
 
-YLEISIMMÄT KÄYTTÖTAVAT:
-* Jaottelu esiopetukseen, perusopetukseen, lisäopetukseen ja aikuisten opetukseen saadaan muuttujan KLAJI avulla. Aineisto on rajattu AIN -muuttujan avulla, niin että lähdeaineistosta otetaan arvo ’10’ (esi-ja peruskoulutuksen aineisto).
-* Koulutuksessa läsnä olleet saadaan poimittua valitsemalla OLOSYYS -muuttujan
-arvo 1 (=20.9).
-* Muuttujassa OLOSYYS perusopetuksen tiedoille on määritelty arvo 1 = läsnä 20.9.
-* Jos tiedot halutaan koulutuksittain, käytetään yleensä koulutusluokituksen (standardiluokitus)
-6-numeroista koulutuskoodia, joka löytyy muuttujasta KOULK. Koulutuskoodi on myös avain eri
-koulutusluokituksiin.
-* Uudet opiskelijat saadaan muuttujan ALVV avulla (ALVV=vuosi). 
-* ALVV-muuttuja tarkoittaa peruskoulun 1. vuosiluokan oppilaita. Muilla AIN = 10 -ryhmässä tieto on tyhjä.
-* KKIELI tietoa ei ole varhaiskasvatuksen esiopetustiedoilla.
-* Varhaiskasvatuksen esiopetuksen KKUN-tiedoksi on määritelty järjestäjän kunta.
+<b>Huomioitavaa aineistosta ja sen käytöstä</b> 
+Esi- ja perusopetuksessa kirjoilla olevista oppilaista ja heidän koulutus- ja taustatiedoista on muodostettu kaksi valmisaineistoa: EDUC_ESIPERUS sekä EDUC_ESIPERUS_K. Karkeistamattoman aineiston käyttöön saaminen edellyttää erityistä tutkimuksellista tarvetta sekä vahvoja perusteita. 
 
-LUOKITUKSET:
-* Luokitustiedot ovat tilastovuodelta, mikäli muuta mainintaa ei ole.
-* Tilastovuodesta 2016 alkaen Tilastokeskus raportoi koulutustiedot käyttäen uutta Kansallista
-koulutusluokitusta, joka vastaa Kansainvälistä ISCED 2011 -koulutusluokitusta.
-* Puuttuvat tiedot on usein koodattu merkillä yhdeksän (9) ja kuntamuuttujissa koodi 200 viittaa
-ulkomaihin.
+Tietosisältö kattaa myös oppilaat, jotka ovat aloittaneet opintonsa ennen oppivelvollisuuden alkua. Esi- ja perusopetuksen oppilaiden tiedot ovat mukana aineistossa vuodesta 2020 alkaen. 
 
-KARKEISTETUT MUUTTUJATIEDOT:
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_ESIPERUS_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_ESIPERUS, ja maksaa saman verran. EDUC_ESIPERUS sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
+EDUC_ESIPERUS moduulin aineisto koostuu seuraavista tiedostoista: 
+educ_esiperus_2020 
+educ_esiperus_2021 
+educ_esiperus_2022 
+educ_esiperus_2023 
+educ_esiperus_2024 
 
+Opiskeluun liittyvät arkaluonteiset erityisopetustiedot ovat saatavilla erikseen. Näihin muuttujatietoihin myönnetään käyttöoikeus vain, jos tutkimuksellinen tarve on erityisen perusteltu. 
+
+<b>Aineiston päivitysaikataulu</b>
+Tutustu valmisaineistojen <a href="https://stat.fi/tup/tutkijapalvelut/valmisaineistojen-paivitysaikataulu.html" > päivitysaikatauluun</a>. 
+
+<b>Aineiston käyttö ja tilaaminen</b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla. 
+
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain. 
+
+<b>Tarkempaa tietoa muuttujista</b> 
+* Jaottelu esiopetukseen, perusopetukseen, lisäopetukseen ja aikuisten opetukseen saadaan muuttujan KLAJI avulla. Aineisto on rajattu muuttujalla AIN, josta valitaan arvo ’10’ (esi- ja peruskoulutuksen aineisto). 
+* Koulutuksessa läsnä olleet saadaan poimittua valitsemalla OLOSYYS-muuttujan 
+arvoksi 1 (läsnä 20.9). 
+* Perusopetuksen tiedoissa muuttujan OLOSYYS arvo 1 tarkoittaa, että oppilas on ollut läsnä 20.9. 
+* Koulutuskohtainen tarkastelu tehdään yleensä koulutusluokituksen (standardiluokitus) 
+6-numeroisen koulutuskoodin avulla, joka löytyy muuttujasta KOULK. Tämä koodi toimii myös avaimena eri 
+koulutusluokituksiin. 
+* Uudet opiskelijat tunnistetaan muuttujan ALVV avulla (ALVV=vuosi). Se tarkoittaa peruskoulun 1. vuosiluokan oppilaita. Muilla AIN = 10 -ryhmän oppilaiden kohdalla tämä tieto on tyhjä. 
+* KKIELI-tieto ei ole saatavilla varhaiskasvatuksen esiopetustiedoissa. 
+* Varhaiskasvatuksen esiopetuksessa muuttujan KKUN arvoksi on määritelty opetuksen järjestäjän kunta. 
+ 
+Luokitukset: 
+* Luokitustiedot ovat tilastovuodelta, ellei toisin mainita. 
+* Tilastovuodesta 2016 alkaen Tilastokeskus on raportoinut koulutustiedot käyttäen uutta Kansallista 
+koulutusluokitusta, joka vastaa Kansainvälistä ISCED 2011 -koulutusluokitusta. 
+* Puuttuvat tiedot on usein koodattu numerolla yhdeksän (9). Kuntamuuttujissa koodi 200 viittaa 
+ulkomaihin. 
+
+<b>Lisätietoja</b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (25)

@@ -2,7 +2,7 @@
 
 - **Identifier:** `SURVEY_0000_jua_tyovoima_0001.xml`
 - **DOI:** `tyti_2025-11_2025-11-26_ain_0001`
-- **Temporal coverage:** —
+- **Temporal coverage:** 2001-12-31 - 2025-12-31
 - **Published:** 2025-11-26
 - **Organisation:** Tilastokeskus
 - **Variable count:** 1
@@ -10,7 +10,7 @@
 
 ## Description
 
-SURVEY_Tyovoima on Tilastokeskuksen työvoimatutkimuksen pohjalta muodostettu tutkimusvalmisaineisto, joka kuvaa väestön työmarkkinoille osallistumista ja toimintaa vuoden aikana. Kyseessä on vuosiaineistoista muodostuva valmisaineisto, joka kattaa vuodet 2001-2025.
+SURVEY_Tyovoima on Tilastokeskuksen työvoimatutkimuksen pohjalta muodostettu tutkimusvalmisaineisto, joka kuvaa väestön työmarkkinoille osallistumista ja toimintaa vuoden aikana. Kyseessä on vuosiaineistoista muodostuva valmisaineisto, joka kattaa vuodet aineistoja vuodesta 2001 eteenpäin (uusimman vuoden näet kohdasta "Viiteajankohta").
 
 Tämän valmisaineiston lähdeaineistona toimiva työvoimatutkimus (<i>Labour Force Survey</i>) perustuu kuukausittain haastattelemalla ja verkkokyselylomakkeella kerättävään otosaineistoon, jonka avulla tilastoidaan 15–89-vuotiaan väestön työmarkkinoille osallistumista, työllisyyttä, työttömyyttä ja työaikaa. Tutkimuksen tietosisältö perustuu EU:n asetukseen, ja samaan aihepiiriin liittyviä asioita tutkitaan kuukausittain kaikissa Euroopan unionin maissa.
 

@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "shnro",
+      "identifier": "hid_e",
       "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero. Tilastokeskuksessa yhtenäisesti suojattu henkilö-id mahdollistaa henkilöä koskevien tietojen yhdistämisen eri aineistojen ja vuosien välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -11,7 +11,7 @@
     {
       "identifier": "oppija_oid_s",
       "variablename": "Suojattu oppijatunnus",
-      "conceptdef": "Suojattu OPH:n oppijatunnus",
+      "conceptdef": "Suojattu OPH:n oppijatunnus.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -19,7 +19,7 @@
     {
       "identifier": "opiskeluoikeus_oid_s",
       "variablename": "Suojattu opiskeluoikeuden tunniste",
-      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste",
+      "conceptdef": "Suojattu OPH:n opiskeluoikeuden tunniste.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -59,7 +59,23 @@
     {
       "identifier": "toimipiste_oid_s",
       "variablename": "Suojattu toimipisteen tunniste",
-      "conceptdef": "toimipistetietoa ei välttämättä ole viety suoritukseen, tällaisissa tapauksissa toimipiste-kentästä löytyy vastaavan oppilaitoksen tieto.",
+      "conceptdef": "Toimipistetietoa ei välttämättä ole viety suoritukseen, tällaisissa tapauksissa toimipiste-kentästä löytyy vastaavan oppilaitoksen tieto.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_suorituksen_tyyppi",
+      "variablename": "Päätason suorituksen tyyppi",
+      "conceptdef": "Päätason suorituksen tyyppi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "paataso_vahvistus_paiva",
+      "variablename": "Päätaso vahvistus päivä",
+      "conceptdef": "Päivä, jolloin osasuoritukseen liittyvä päätason suoritus on vahvistettu.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -91,7 +107,7 @@
     {
       "identifier": "koulutusmoduuli_koodisto",
       "variablename": "Koulutusmoduuli koodisto",
-      "conceptdef": "koodisto, josta osasuorituksen koodiarvo löytyy. Jos kyseessä paikallinen suoritus (koulutusmoduuli_paikallinen='t'), niin koodisto on tyhjä",
+      "conceptdef": "Koodisto, josta osasuorituksen koodiarvo löytyy. Jos kyseessä paikallinen suoritus (koulutusmoduuli_paikallinen='t'), niin koodisto on tyhjä",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -99,7 +115,7 @@
     {
       "identifier": "koulutusmoduuli_paikallinen",
       "variablename": "Koulutusmoduuli paikallinen",
-      "conceptdef": "Kertoo onko kyseessä paikallisen opintosuunnitelman mukainen osasuoritus.",
+      "conceptdef": "Kertoo, onko kyseessä paikallisen opintosuunnitelman mukainen osasuoritus.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -107,7 +123,7 @@
     {
       "identifier": "arviointi_arvosana_koodiarvo",
       "variablename": "Arviointi arvosana koodiarvo",
-      "conceptdef": "osasuorituksen arvosana.",
+      "conceptdef": "Osasuorituksen arvosana.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -116,6 +132,14 @@
       "identifier": "arviointi_arvosana_koodisto",
       "variablename": "Arviointi arvosana koodisto",
       "conceptdef": "Koodisto, johon arvosana kuuluu. Lisätietoa: https://opintopolku.fi/koski/dokumentaatio/koodistot",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "arviointi_hyvaksytty",
+      "variablename": "Arviointi hyväksytty",
+      "conceptdef": "Tieto siitä, onko arvioitu osasuoritus hyväksytysti suoritettu vai onko osasuoritus arvosanan perusteella hylätty.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -131,7 +155,7 @@
     {
       "identifier": "ylempi_osasuoritus_koodiarvo",
       "variablename": "Ylempi osasuoritus koodiarvo",
-      "conceptdef": "Jos koulutusmuoto='luva' ylempi_osasuoritus-muuttujissa on tietoa kyseisen luva-kurssin oppiaineesta, jos taas koulutusmuoto='vapaansivistystyonkoulutus' muuttujat sisältävät tietoa osaamiskokonaisuudesta johon kyseinen opintokokonaisuus-rivi kuuluu\n",
+      "conceptdef": "Jos koulutusmuoto='luva' ylempi_osasuoritus-muuttujissa on tietoa kyseisen luva-kurssin oppiaineesta, jos taas koulutusmuoto='vapaansivistystyonkoulutus' muuttujat sisältävät tietoa osaamiskokonaisuudesta johon kyseinen opintokokonaisuus-rivi kuuluu.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -139,7 +163,7 @@
     {
       "identifier": "ylempi_osasuoritus_koodisto",
       "variablename": "Ylempi osasuoritus koodisto",
-      "conceptdef": "Jos kyseessä paikallinen oppiaine (oppiaine_paikallinen='t'), niin koodisto on tyhjä",
+      "conceptdef": "Jos kyseessä paikallinen osasuoritus (ylempi_osasuoritus_paikallinen='t'), niin koodisto on tyhjä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -171,7 +195,7 @@
     {
       "identifier": "koulutusmoduuli_laajuus_arvo",
       "variablename": "Koulutusmoduuli laajuus arvo",
-      "conceptdef": "Kertoo osasuorituksen laajuuden arvon.",
+      "conceptdef": "Osasuorituksen laajuuden arvo. HUOM! Kaikissa osasuorituksissa laajuus ei ole relevantti tieto,\nsillä osasuorituksilla ei välttämättä ole nimettyä laajuutta (esimerkiksi ammatillisen koulutuksen\nreformia edeltävät ammattitutkinnot ja erikoisammattitutkinnot, joiden valtakunnallisille ammatillisille\ntutkinnon osillekaan ei ollut opetussuunnitelman perusteessa määritettyä laajuutta). Myöskään\nkeskeneräisille osasuorituksille (esimerkiksi ammatillisessa tutkintokoulutuksessa keskeneräinen\nyhteinen tutkinnon osa, jossa kaikkia yhteisen tutkinnon osan osa-alueita ole vielä suoritettu) ei\nusein ole tallennettu suorituksen laajuutta, vaikka sellainen arvioidulta (= valmiilta) osasuoritukselta\nlopulta löytyisikin. Näissä tapauksissa kenttä on aina tyhjä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -179,7 +203,15 @@
     {
       "identifier": "koulutusmoduuli_laajuus_yksikko",
       "variablename": "Koulutusmoduuli laajuus yksikkö",
-      "conceptdef": "Osasuorituksen laajuuden yksikko.",
+      "conceptdef": "sasuorituksenlaajuudenyksikkö. \n1:opintoviikko \n2:opintopistettä \n3:vuosiviikkotuntia\n4:kurssia\n5: tuntia\n6:osaamispistettä\n7:vuotta\n8:viikkoa(TUVA-laajuusyksikkö)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tunnustettu",
+      "variablename": "Tunnustettu",
+      "conceptdef": "Tieto siitä,onko osasuoritus tunnustettu (eli ns.luettu hyväksi aikaisempien opintojen perusteella).",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -188,22 +220,6 @@
       "identifier": "suorituksen_tyyppi",
       "variablename": "Suorituksen tyyppi",
       "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "paataso_suorituksen_tyyppi",
-      "variablename": "Päätason suorituksen tyyppi",
-      "conceptdef": "Päätason suorituksen tyyppi.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "paataso_vahvistus_paiva",
-      "variablename": "Päätaso vahvistus päivä",
-      "conceptdef": "Päivä jolloin osasuoritukseen liittyvä päätason suoritus on vahvistettu.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

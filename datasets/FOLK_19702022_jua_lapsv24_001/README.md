@@ -1,31 +1,44 @@
-# FOLK lapsi - vanhemmat - vuosi
+# FOLK_LAPS - vuosi
 
 - **Identifier:** `FOLK_19702022_jua_lapsv24_001.xml`
 - **DOI:** `work_2020-01_2020-01-17_ain_0001`
 - **Temporal coverage:** 1970-01-01 - 2023-12-31
-- **Published:** 2025-11-27
+- **Published:** 2026-04-21
 - **Organisation:** Tilastokeskus
 - **Variable count:** 15
 - **Observation count:** —
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut alle 18-vuotias väestö
-- **Source:** VTJ
+- **Source:** VTJ, Väestölaskennat, väestörakenne-, asuntokunta ja perhetilastot.
 
 ## Description
 
-Sisältyy FOLK lapsi - vanhemmat -moduuliin. 
+FOLK lapsi - vanhemmat - vuosi -valmisaineistomoduuli sisältää tietoja lapsen syntymävuodesta ja  vanhempien, adoptiovanhempien ja sosiaalisten vanhempien suojatut henkilöä identifioivat tunnukset sekä tieto näiden asumisstatuksesta. Aineistossa on mukana myös vuosittaiset perhe- ja asuntokuntatunnukset.
 
-FOLK lapsi - vanhemmat - vuosi  -aineistossa on vuosittaiset henkilötiedot alle 18-vuotiaan, kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneen, lapsen (FOLK-lapsen) biologisista ja adoptiovanhemmista sekä sosiaalisista vanhemmista. Aineisto sisältää perheväestöön kuuluvat lapset, joiden perheasema tilastovuonna ei ole tuntematon tai puuttuva. Lapsen sosiaalinen vanhempi on samassa perheessä asuva biologisen vanhemman avo- tai aviopuoliso, kun lapsen perheasema on ’lapsi’ eikä lapsi ole ottolapsi. Tietoja näistä sosiaalisista vanhemmista on vuoden 1952 jälkeen syntyneille FOLK-lapsille. Aineistossa on tietoja on vain niille FOLK-lapsille, joille löytyy tieto näistä em. vanhemmista.
+<b> Valmisaineiston tarkentava nimi </b> 
+Tiedot perheväestöön kuuluvista lapsista, biologisista ja adoptio- sekä sosiaalisista vanhemmista, ja heidän asumistiedoistaan. 
 
-Lisäksi tässä vuosiaineistossa on tieto siitä, asuuko biologinen ja/tai adoptiovanhempi yhdessä FOLK-lapsen kanssa vuoden viimeisenä päivänä. Tietoja adoptiovanhemmista on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Aineisto sisältyy FOLK lapsi - vanhemmat –valmisaineistoon. Tiedot poimittu Tilastokeskuksen väestölaskenta, väestörakenne, asuntokunta- ja perhetilastoista. Näiden lähteenä on mm. Digi- ja viestintäviraston väestötietojärjestelmä (VTJ). Aineisto sisältää vuosittaiset tiedot lapsista, jotka ovat olleet alle 18-vuotiaita ja asuneet vakituisesti Suomessa kunkin vuoden viimeisenä päivänä. Mukana ovat tiedot lapsen biologisista, adoptiovanhemmista sekä sosiaalisista vanhemmista. 
 
-Aineistossa tietoja on väestölaskentavuosille 1970, 1975, 1980 sekä 1985 ja vuosittain vuodesta 1987 lähtien.
+<b> Huomioitavaa aineistosta ja sen käytöstä </b>
+Aineistossa ovat mukana vain perheväestöön kuuluvat lapset, joiden perheasema ei ole puuttuva tai tuntematon tilastovuonna. Aineistossa ovat mukana vain perheväestöön kuuluvat lapset, joiden perheasema ei ole tuntematon tai puuttuva tilastovuonna. Sosiaaliseksi vanhemmaksi katsotaan samassa perheessä asuva biologisen vanhemman avo- tai aviopuoliso, kun lapsen perheasema on "lapsi" eikä hän ole ottolapsi. Näitä tietoja on saatavilla lapsi-asemassa oleville, jotka ovat syntyneet vuoden 1952 jälkeen ja joille kyseiset tiedot vanhemmista löytyvät. 
+ 
+Aineistossa on myös tieto siitä, asuuko biologinen ja/tai adoptiovanhempi lapsen kanssa saman talouden piirissä vuoden viimeisenä päivänä. Adoptiovanhempien tiedot sisältyvät aineistoon kaikilta vuosilta riippumatta siitä, onko adoptiosuhde kyseisenä vuonna voimassa. 
 
-Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta. Kokonaisaineistoon voidaan antaa käyttöoikeus, jos tutkimuksellisesta syystä kokonaisaineiston käyttöön on erityinen tarve. Tiedot ovat linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.
+Tietoja on saatavilla väestölaskentavuosilta 1970, 1975, 1980 sekä 1985 sekä vuosittain vuodesta 1987 alkaen. 
 
-FOLK lapsi - vanhemmat - vuosi -aineistot ovat kansiossa FOLK_LAPS_C, jossa tiedostot ovat jaettuina vuositiedostoihin. Tiedostonimet ovat muodossa folk_lapsv_"vuosi"_1.
+<b> Aineiston päivitysaikataulu </b>
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
+Aineisto päivittyy vuoden viiveellä verrattuna lapsi-vanhempi-moduuliin. 
 
-Aikaisemmin julkaistut FOLK lapsi - vanhemmat - vuosi -aineistotiedostot, jotka sisältävät useita tilastovuosia ovat FIONAssa FOLK_laps_70a-kansiossa.
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.  
 
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+
+FOLK lapsi - vanhemmat - vuosi -aineistot jaetaan Fiona-etäkäyttöjärjestelmässä vuosikansioihin. Aikaisemmin julkaistut FOLK lapsi - vanhemmat - vuosi -aineistotiedostot, jotka sisältävät useita tilastovuosia ovat FIONAssa FOLK_laps_70a-kansiossa.
+ 
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ## Variables (15)
@@ -33,16 +46,16 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
-| `shnro` | Suojattu TK:n henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `petu` | Perhetunnus | — | — | — |
 | `ak_koodi` | Asuntokuntakoodi | — | — | — |
 | `syntyv` | Syntymävuosi | — | — | — |
-| `shnro_m` | Suojattu TK:n henkilönumero, biol. äiti | — | — | — |
-| `shnro_f` | Suojattu TK:n henkilönumero, biol. isä | — | — | — |
-| `shnro_am` | Suojattu TK:n henkilönumero, adoptioäiti | — | — | — |
-| `shnro_af` | Suojattu TK:n henkilönumero, adoptioisä | — | — | — |
-| `shnro_s1` | Suojattu TK:n henkilönumero, sosiaalinen vanh.1 | — | — | — |
-| `shnro_s2` | Suojattu TK:n henkilönumero, sosiaalinen vanh.2 | — | — | — |
+| `hid_e_m` | Suojattu henkilön yksilöivä tunniste, biol. äiti | — | — | — |
+| `hid_e_f` | Suojattu henkilön yksilöivä tunniste, biol. isä | — | — | — |
+| `hid_e_am` | Suojattu henkilön yksilöivä tunniste, adoptioäiti | — | — | — |
+| `hid_e_af` | Suojattu henkilön yksilöivä tunniste, adoptioisä | — | — | — |
+| `hid_e_s1` | Suojattu henkilön yksilöivä tunniste, sosiaalinen vanh.1 | — | — | — |
+| `hid_e_s2` | Suojattu henkilön yksilöivä tunniste, sosiaalinen vanh.2 | — | — | — |
 | `status_m` | Asumisstatus, biol. äiti | — | — | — |
 | `status_f` | Asumisstatus, biol. isä | — | — | — |
 | `status_am` | Asumisstatus, adoptioäiti | — | — | — |
@@ -52,11 +65,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 #### `vuosi` — Vuosi
 
-Väestölaskentavuodet 1970,1975, 1980 sekä 1985 ja vuodet 1987-2019.
+Tilastovuosi.
 
-#### `shnro` — Suojattu TK:n henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-Lapsen suojattu TK:n henkilönumero.
+Lapsen suojattu TK:n henkilö yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `petu` — Perhetunnus
 
@@ -70,29 +83,36 @@ Lapsen asuntokuntanumero on sama kuin FOLK asuntokuntamoduulissa.
 
 Lapsen syntymävuosi.
 
-#### `shnro_m` — Suojattu TK:n henkilönumero, biol. äiti
+#### `hid_e_m` — Suojattu henkilön yksilöivä tunniste, biol. äiti
 
-Biologisen äidin suojattu TK:n henkilönumero.
+Biologisen äidin suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `shnro_f` — Suojattu TK:n henkilönumero, biol. isä
+#### `hid_e_f` — Suojattu henkilön yksilöivä tunniste, biol. isä
 
-Biologisen isän suojattu TK:n henkilönumero.
+Biologisen isän suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `shnro_am` — Suojattu TK:n henkilönumero, adoptioäiti
+#### `hid_e_am` — Suojattu henkilön yksilöivä tunniste, adoptioäiti
 
-Adoptioäidin suojattu TK:n henkilönumero. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.
+Adoptioäidin suojattu henkilön yksilöivä tunniste. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `shnro_af` — Suojattu TK:n henkilönumero, adoptioisä
+#### `hid_e_af` — Suojattu henkilön yksilöivä tunniste, adoptioisä
 
-Adoptioisän suojattu TK:n henkilönumero. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei.
+Adoptioisän Suojattu henkilön yksilöivä tunniste. Tieto on lapsen jokaiselle vuodelle riippumatta siitä, onko adoptio tuolloin voimassa vai ei. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `shnro_s1` — Suojattu TK:n henkilönumero, sosiaalinen vanh.1
+#### `hid_e_s1` — Suojattu henkilön yksilöivä tunniste, sosiaalinen vanh.1
 
-Sosiaalisen vanhemman (1.) suojattu TK:N henkilönumero. Sosiaalinen vanhempi (1.) on samassa asunnossa asuva isä, adoptioisä, sosiaalinen isä tai naisparista se, joka ei ole biologinen äiti.
+Sosiaalisen vanhemman (1.) suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `shnro_s2` — Suojattu TK:n henkilönumero, sosiaalinen vanh.2
 
-Sosiaalisen vanhemman (2.) suojattu TK:N henkilönumero. Sosiaalinen vanhempi (2.) on samassa asunnossa asuva äiti, adoptioäiti, sosiaalinen äiti tai miesparista se, joka ei ole biologinen isä.
+
+Sosiaalinen vanhempi (1.) on samassa asunnossa asuva isä, adoptioisä, sosiaalinen isä tai naisparista se, joka ei ole biologinen äiti.
+
+#### `hid_e_s2` — Suojattu henkilön yksilöivä tunniste, sosiaalinen vanh.2
+
+Sosiaalisen vanhemman (2.) suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
+
+
+Sosiaalinen vanhempi (2.) on samassa asunnossa asuva äiti, adoptioäiti, sosiaalinen äiti tai miesparista se, joka ei ole biologinen isä.
 
 #### `status_m` — Asumisstatus, biol. äiti
 

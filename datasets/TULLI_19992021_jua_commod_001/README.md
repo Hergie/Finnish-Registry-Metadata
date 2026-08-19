@@ -30,7 +30,11 @@ Pääsääntöisesti kaikki Suomesta vietävät ja Suomeen tuotavat tavarat tila
 Ulkomaankauppatilaston tiedot julkaistaan tilastoarvokäsitteen mukaisina. Tällä tarkoitetaan viennissä/toimituksissa tavaran FOB-arvoa (free on board) ja tuonnissa/hankinnoissa CIF-arvoa (cost, insurance and freight) Suomen rajalla. Tilastoarvo saattaa erota myyntisopimuksen rahasummasta eli laskutusarvosta kauppatapahtumassa käytettyjen toimitusehtojen vuoksi. Tilastoarvoa käytetään
 yhtenäisenä mittasuureena kaikissa EU-jäsenvaltioissa ja se on myös YK:n antamien kansainvälisen tavarakaupan tilastosuositusten mukainen. Arvotiedot eivät sisällä Suomessa kannettavia veroja ja tulleja.
 
-Ulkomaankaupan tilastotiedot kerätään EU:ssa kahdella eri järjestelmällä. Tiedot kaupasta EU:n ulkopuolisten maiden kanssa saadaan tullausjärjestelmällä. Tilastotiedot jäsenmaiden välisestä kaupasta kerätään erillisen menettelyn avulla, jota kutsutaan Intrastat-järjestelmäksi. Tietojen keruu on läheisesti yhteydessä EU:n sisäkaupan arvonlisäverojärjestelmään (ALV-järjestelmä). Tietojen keruussa sovellettava kynnysarvokäytäntö tarkoittaa sitä, että lukumääräisesti suurin osa sisäkauppaa harjoittavista yrityksistä on vapautettu tietojen antamisesta. Tavaroiden keskeisin luokittelustandardi on EU:n yhdistetty nimikkeistö (Combined Nomenclature, CN). Se on tavaroiden yksityiskohtaisin luokitusjärjestelmä ulkomaankauppatilastoissa. 
+Ulkomaankaupan tilastotiedot kerätään EU:ssa kahdella eri järjestelmällä. Tiedot kaupasta EU:n ulkopuolisten maiden kanssa saadaan tullausjärjestelmällä, eli ulkokaupan aineisto perustuu tulli-ilmoituksiin.
+
+Sisäkauppa eli tilastotiedot jäsenmaiden välisestä kaupasta kerätään erillisen menettelyn avulla, jota kutsutaan Intrastat-järjestelmäksi. Tietojen keruu on läheisesti yhteydessä EU:n sisäkaupan arvonlisäverojärjestelmään (ALV-järjestelmä). Tietojen keruussa sovellettava kynnysarvokäytäntö tarkoittaa sitä, että lukumääräisesti suurin osa sisäkauppaa harjoittavista yrityksistä on vapautettu tietojen antamisesta. Tulli estimoi sisäkaupan tietoihin Intrastat-ilmoittamisen kynnysarvorajan alittavat tiedot, sekä puuttuvat ja OSS-tiedot. Estimaatit ovat mukana Tullin julkaisemissa sekä Tilastokeskukselle lähetetyissä luvuissa. Arvokynnyksen alittavat tiedot estimoidaan Verohallinnon ALV-aineiston perusteella. ALV-aineistossa ei ole nimikekohtaista tietoa, vaan nimike- ja maatiedot estimoidaan alle arvokynnyksen yrityksille toimialoittain pienempien Intrastat-yritysten ilmoittamia tietoja hyödyntäen. Alle arvokynnyksen estimaatit ovat CN8-tasolla. Estimaatit eivät ole y-tunnuksittain. OSS-estimaatteja ei ole jaettu nimiketasolle. Kynnysarvorajan alle jäänyt kaupan osuus ilmoitetaan omana erillisenä nimikkeenä "erittelemätön" (CN 99699999) hankinnoissa ja toimituksissa. Arvioiduilla tiedoilla on huomattavasti suurempi vaikutus hankintoihin (vuonna 2019 (4,9%) kuin toimituksiin (1,9%). Arvioiden osuudet on laskettu viennin ja tuonnin arvosta. Estimoinnit tuonnissa koskee aikaa ennen MDE-käyttöönottoa (tuonti muiden EU-maiden vienti-ilmoitusten perusteella), joka otettiin käyttöön v. 2026 alussa.
+
+Tavaroiden keskeisin luokittelustandardi on EU:n yhdistetty nimikkeistö (Combined Nomenclature, CN). Se on tavaroiden yksityiskohtaisin luokitusjärjestelmä ulkomaankauppatilastoissa. 
 
 Ulkokaupan osalta mukana ovat myös kaikkein pienimmät viejät ja tuojat vuodesta 2009 alkaen (aiemmin rajana 1000 euroa). 
 Sisäkaupan osalta Tullin ulkomaankauppa-aineiston kynnysarvo vaihtelee vuosittain:
@@ -58,12 +62,14 @@ Vuosi Hankinnat, Toimitukset
 2019 600 000, 600 000
 2020 600 000, 600 000
 2023 800 000, 800 000
+2024 800 000, 800 000
+2025 800 000, 800 000
 
-Hyödyketason aineisto ei sisällä yritystasolla kynnysarvorajan alle jäänyttä kaupan osuutta, joka on arvioitu ja lisätty Tullin tilastoituihin lukuihin. Arviointi perustuu verohallinnon ALV-aineiston käyttöön. Kynnysarvorajan alle jäänyt kaupan osuus ilmoitetaan omana erillisenä nimikkeenä "erittelemätön" (CN 99699999) hankinnoissa ja toimituksissa. Arvioiduilla tiedoilla on huomattavasti suurempi vaikutus hankintoihin (vuonna 2019 (4,9%) kuin toimituksiin (1,9%). Arvioiden osuudet on laskettu viennin ja tuonnin arvosta.
+Hyödyketason aineisto ei sisällä yritystasolla kynnysarvorajan alle jäänyttä kaupan osuutta, joka on arvioitu ja lisätty Tullin tilastoituihin lukuihin.
 
 Maatieteelliset alueet on muodostettu seuraavasti vuoteen 2012 asti: Erillisinä maina poimitaan kaikki Euroopan maat; Kanada, Yhdysvallat, Meksiko, Turkki, Japani, Korean tasavalta, Australia ja Uusi-Seelanti (Euroopan ulkopuoliset OECD-maat); Brasilia, Intia, Kiina, Taiwan, Hongkong, Indonesia ja Singapore (suurimmat tuonti-/vientimaat). Loput maat summataan maanosittain (muu Amerikka, Afrikka, Muu Aasia, Muu Oseania ja mahd. muut). Summatut maanosat on koodattu seuraavasti Afrikka=20, muu Aasia=30, Muu Oseania=40, erittelemätön=XX. Vuodesta 2013 alkaen ei enää summatietoja.
 
-Tilastovuonna 2024 lisätty kuukausi-tieto.
+Vuoden 2026 alusta Tulli laatii sisäkaupan tuonnin perustuen muiden EU-maiden keräämiin vienti-ilmoituksiin (MDE). 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista ja Tullin sivuilta: http://tulli.fi/tilastot
 

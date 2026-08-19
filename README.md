@@ -1,6 +1,8 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 312 datasets, refreshed 2026-04-13.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 313 datasets, last upstream change 2026-08-19.
+
+A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
 ## What this is
 
@@ -15,6 +17,20 @@ Researchers writing code against Statistics Finland register data (FOLK, EDUC, S
 ## License
 
 Scripts and generated documentation are dedicated to the public domain under CC0-1.0. The mirrored JSON files under `raw/` and `datasets/` are verbatim responses from Statistics Finland's Taika API and are **not** covered by the CC0 dedication; downstream republishers should credit Tilastokeskus as the source. See `LICENSE`.
+
+## Data vintage — read this before using a variable definition
+
+**Taika documents the data Statistics Finland offers today. Your FIONA project uses the delivery frozen when your permit was granted.** Those are not the same thing, and the mismatch grows the longer a project runs.
+
+Statistics Finland reissues most registers annually under a new identifier. `FOLK_19872023_jua_perus24_001` and `FOLK_19872025_jua_perus26_001` are the same register, two vintages apart. Between vintages, variables are added, dropped, renamed, and occasionally redefined — the `shnro` → `hid_e` person-identifier rename noted below is exactly this. A definition read from the wrong vintage is *quietly* wrong: the code runs, the variable exists, the numbers mean something slightly different.
+
+So before relying on any definition in this archive:
+
+1. **Compare the vintage.** Check the identifier's version suffix (`perus24` vs `perus26`) and its year span (`FOLK_19872023_` vs `FOLK_19872025_`) against the file names actually present in your FIONA project directory.
+2. **If they differ, look in [`withdrawn/`](./withdrawn/README.md).** Superseded datasets are archived there rather than deleted, precisely so pinned projects keep their metadata. Each carries the date Taika dropped it.
+3. **Treat the data file as final authority.** If the metadata and the actual columns disagree, the file wins — check the real variable list before debugging your code.
+
+_13 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
 
 ## Usage
 
@@ -61,43 +77,46 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 
 | Identifier | Subject | Coverage | #Var | #Obs | |
 |---|---|---|---|---|---|
+| `EDUC_19681972_jua_000_000.xml` | EDUC_OPISK_HIST Korkeakouluopiskelijoiden historialliset tiedot 1968-1972 1. osamoduuli | 1968-01-01 - 1972-12-31 | 89 | — | [→](./datasets/EDUC_19681972_jua_000_000/README.md) |
 | `EDUC_19751995_jua_000_000.xml` | EDUC_OPISK_HIST: Korkeakouluopiskelijoiden historialliset tiedot 1975-1995 2. osamoduuli | 1970-01-01 - 1995-12-31 | 33 | — | [→](./datasets/EDUC_19751995_jua_000_000/README.md) |
-| `EDUC_1985_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 1, 1985 | — | 105 | — | [→](./datasets/EDUC_1985_jua_tyhr19_001/README.md) |
-| `EDUC_19891995_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 2, 1989, 1991-1995 | — | 104 | — | [→](./datasets/EDUC_19891995_jua_tyhr19_001/README.md) |
+| `EDUC_1985_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1985 | — | 105 | — | [→](./datasets/EDUC_1985_jua_tyhr19_001/README.md) |
+| `EDUC_19891995_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1989, 1991-1995 | — | 104 | — | [→](./datasets/EDUC_19891995_jua_tyhr19_001/README.md) |
 | `EDUC_19902025_jua_ytl_001.xml` | EDUC_YTL  ylioppilaskirjoitusten tulokset 1967-2025 | 1967-01-01 - 2025-12-31 | 18 | — | [→](./datasets/EDUC_19902025_jua_ytl_001/README.md) |
-| `EDUC_19921998_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 1992-1998 | 1992-01-01 - 1998-12-31 | 13 | — | [→](./datasets/EDUC_19921998_jua_harekyo_001/README.md) |
-| `EDUC_1995_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat 1995 | 1995-01-01 - 1995-12-31 | 50 | — | [→](./datasets/EDUC_1995_jua_opisk_001/README.md) |
-| `EDUC_19961997_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 3, 1996-1997 | — | 199 | — | [→](./datasets/EDUC_19961997_jua_tyhr19_001/README.md) |
-| `EDUC_19961999_jua_harekamk_001.xml` | EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 1996-1999 | 1996-01-01 - 1999-12-31 | 255 | — | [→](./datasets/EDUC_19961999_jua_harekamk_001/README.md) |
-| `EDUC_1996_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat 1996 | 1996-01-01 - 1996-12-31 | 29 | — | [→](./datasets/EDUC_1996_jua_opisk_001/README.md) |
-| `EDUC_1997_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat 1997 | 1997-01-01 - 1997-12-31 | 55 | — | [→](./datasets/EDUC_1997_jua_opisk_001/README.md) |
-| `EDUC_19982007_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 4, 1998-2007 | — | 201 | — | [→](./datasets/EDUC_19982007_jua_tyhr19_001/README.md) |
-| `EDUC_1998_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat 1998 | 1998-01-01 - 1998-12-31 | 50 | — | [→](./datasets/EDUC_1998_jua_opisk_001/README.md) |
-| `EDUC_19992003_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 1999-2003 | 1999-01-01 - 2003-12-31 | 28 | — | [→](./datasets/EDUC_19992003_jua_harekyo_001/README.md) |
-| `EDUC_19992024_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat 1999 - 2024 | 1999-01-01 - 2024-12-31 | 86 | — | [→](./datasets/EDUC_19992024_jua_opisk_001/README.md) |
-| `EDUC_20002004_jua_harekamk_001.xml` | EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 2000-2004 | 2000-01-01 - 2004-12-31 | 200 | — | [→](./datasets/EDUC_20002004_jua_harekamk_001/README.md) |
-| `EDUC_20042009_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 2004-2009 | 2004-01-01 - 2009-12-31 | 69 | — | [→](./datasets/EDUC_20042009_jua_harekyo_001/README.md) |
-| `EDUC_20052014_jua_harekamk_001.xml` | EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 2005-2014 | 2005-01-01 - 2014-12-31 | 351 | — | [→](./datasets/EDUC_20052014_jua_harekamk_001/README.md) |
-| `EDUC_20052024_jua_trek_001.xml` | EDUC_TREK Tutkintorekisteri 2005–2024 | 2005-01-01 - 2024-12-31 | 23 | — | [→](./datasets/EDUC_20052024_jua_trek_001/README.md) |
-| `EDUC_20082013_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 5, 2008-2013 | — | 142 | — | [→](./datasets/EDUC_20082013_jua_tyhr19_001/README.md) |
-| `EDUC_20102014_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 2010-2014 | 2010-01-01 - 2014-12-01 | 82 | — | [→](./datasets/EDUC_20102014_jua_harekyo_001/README.md) |
+| `EDUC_19921998_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 1992-1998 | 1992-01-01 - 1998-12-31 | 13 | — | [→](./datasets/EDUC_19921998_jua_harekyo_001/README.md) |
+| `EDUC_1995_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1995 | 1995-01-01 - 1995-12-31 | 50 | — | [→](./datasets/EDUC_1995_jua_opisk_001/README.md) |
+| `EDUC_19961997_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1996-1997 | — | 199 | — | [→](./datasets/EDUC_19961997_jua_tyhr19_001/README.md) |
+| `EDUC_19961999_jua_harekamk_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 1996-1999 | 1996-01-01 - 1999-12-31 | 255 | — | [→](./datasets/EDUC_19961999_jua_harekamk_001/README.md) |
+| `EDUC_1996_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1996 | 1996-01-01 - 1996-12-31 | 29 | — | [→](./datasets/EDUC_1996_jua_opisk_001/README.md) |
+| `EDUC_1997_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1997 | 1997-01-01 - 1997-12-31 | 55 | — | [→](./datasets/EDUC_1997_jua_opisk_001/README.md) |
+| `EDUC_19982007_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1998-2007 | — | 201 | — | [→](./datasets/EDUC_19982007_jua_tyhr19_001/README.md) |
+| `EDUC_1998_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1998 | 1998-01-01 - 1998-12-31 | 50 | — | [→](./datasets/EDUC_1998_jua_opisk_001/README.md) |
+| `EDUC_19992003_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 1999-2003 | 1999-01-01 - 2003-12-31 | 28 | — | [→](./datasets/EDUC_19992003_jua_harekyo_001/README.md) |
+| `EDUC_19992024_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1999 - 2024 | 1999-01-01 - 2024-12-31 | 86 | — | [→](./datasets/EDUC_19992024_jua_opisk_001/README.md) |
+| `EDUC_20002004_jua_harekamk_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 2000-2004 | 2000-01-01 - 2004-12-31 | 200 | — | [→](./datasets/EDUC_20002004_jua_harekamk_001/README.md) |
+| `EDUC_20042009_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 2004-2009 | 2004-01-01 - 2009-12-31 | 69 | — | [→](./datasets/EDUC_20042009_jua_harekyo_001/README.md) |
+| `EDUC_20052014_jua_harekamk_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 2005-2014 | 2005-01-01 - 2014-12-31 | 351 | — | [→](./datasets/EDUC_20052014_jua_harekamk_001/README.md) |
+| `EDUC_20082013_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 2008-2013 | — | 142 | — | [→](./datasets/EDUC_20082013_jua_tyhr19_001/README.md) |
+| `EDUC_20102014_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 2010-2014 | 2010-01-01 - 2014-12-01 | 82 | — | [→](./datasets/EDUC_20102014_jua_harekyo_001/README.md) |
 | `EDUC_20142020_jua_tyhr20_001.xml` | Toisen asteen yhteishaku - moduuli, osa 6 (2014 - 2020) | — | 111 | — | [→](./datasets/EDUC_20142020_jua_tyhr20_001/README.md) |
-| `EDUC_20142023_jua_tyhr24_001.xml` | EDUC TYHR Toisen asteen yhteishaku - moduuli, osa 6, 2014 - 2024 | 2014-01-01 - 2024-12-31 | 132 | — | [→](./datasets/EDUC_20142023_jua_tyhr24_001/README.md) |
-| `EDUC_20152023_jua_harek_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot, 2015-2023 | 2015-01-01 - 2023-12-31 | 115 | — | [→](./datasets/EDUC_20152023_jua_harek_001/README.md) |
-| `EDUC_20182025_jua_koskijakso_001.xml` | EDUC_KOSKI - Opiskeluoikeus_jakso | — | 11 | — | [→](./datasets/EDUC_20182025_jua_koskijakso_001/README.md) |
-| `EDUC_20182025_jua_koskiopiskeluoikeus_001.xml` | EDUC_KOSKI -Opiskeluoikeus | — | 25 | — | [→](./datasets/EDUC_20182025_jua_koskiopiskeluoikeus_001/README.md) |
-| `EDUC_20182025_jua_koskiperus_001.xml` | EDUC_KOSKI - Perusopetus | — | 21 | — | [→](./datasets/EDUC_20182025_jua_koskiperus_001/README.md) |
-| `EDUC_20182025_jua_koskitoinenammatillinensuoritukset_001.xml` | EDUC_KOSKI TOINEN ASTE - ammatillinen_suoritukset | — | 28 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenammatillinensuoritukset_001/README.md) |
-| `EDUC_20182025_jua_koskitoinenammatillinentutkinnonosat_001.xml` | EDUC_KOSKI TOINEN ASTE - ammatillinen_tutkinnonosat | — | 28 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenammatillinentutkinnonosat_001/README.md) |
-| `EDUC_20182025_jua_koskitoinenlukioib_001.xml` | EDUC_KOSKI TOINEN ASTE - Lukio_IB | — | 30 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenlukioib_001/README.md) |
-| `EDUC_20182025_jua_koskitoinennivel_001.xml` | EDUC_KOSKI TOINEN ASTE -  Nivelvaihe | — | 26 | — | [→](./datasets/EDUC_20182025_jua_koskitoinennivel_001/README.md) |
-| `EDUC_20182025_jua_koskitoinenosaamisenhankkimistapa_001.xml` | EDUC_KOSKI TOINEN ASTE -  Osaamisen hankkimistapa | — | 11 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenosaamisenhankkimistapa_001/README.md) |
-| `EDUC_20202024_jua_esiperus_001.xml` | EDUC_ESIPERUS Oppilaat 2020 - 2024 | 2020-01-01 - 2024-12-31 | 25 | — | [→](./datasets/EDUC_20202024_jua_esiperus_001/README.md) |
-| `EDUC_2024_jua_VIRTA_001.xml` | EDUC_VIRTA-aineisto | - 2024-12-31 | 61 | — | [→](./datasets/EDUC_2024_jua_VIRTA_001/README.md) |
+| `EDUC_20142023_jua_tyhr24_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 2014 - 2024 | 2014-01-01 - 2024-12-31 | 133 | — | [→](./datasets/EDUC_20142023_jua_tyhr24_001/README.md) |
+| `EDUC_20152023_jua_harek_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot, haut v. 2015-2023 | 2015-01-01 - 2023-12-31 | 115 | — | [→](./datasets/EDUC_20152023_jua_harek_001/README.md) |
+| `EDUC_20182025_jua_koskiaikperusopetuskurssit_001.xml` | EDUC_KOSKI_PERUS - Aikuisten perusopetus kurssit | — | 33 | — | [→](./datasets/EDUC_20182025_jua_koskiaikperusopetuskurssit_001/README.md) |
+| `EDUC_20182025_jua_koskiaikperusopetusoppiaine_001.xml` | EDUC_KOSKI_PERUS - Aikuisten perusopetus oppiaine | — | 27 | — | [→](./datasets/EDUC_20182025_jua_koskiaikperusopetusoppiaine_001/README.md) |
+| `EDUC_20182025_jua_koskiammatillinenalemmat_001.xml` | EDUC_KOSKI_2ASTE - Ammatillinen_alemmat | — | 29 | — | [→](./datasets/EDUC_20182025_jua_koskiammatillinenalemmat_001/README.md) |
+| `EDUC_20182025_jua_koskiammatillinenylemmat_001.xml` | EDUC_KOSKI_2ASTE - Ammatillinen_ylemmat | — | 29 | — | [→](./datasets/EDUC_20182025_jua_koskiammatillinenylemmat_001/README.md) |
+| `EDUC_20182025_jua_koskijakso_001.xml` | EDUC_KOSKI_SUPPEA - Opiskeluoikeus_jakso | — | 11 | — | [→](./datasets/EDUC_20182025_jua_koskijakso_001/README.md) |
+| `EDUC_20182025_jua_koskiopiskeluoikeus_001.xml` | EDUC_KOSKI_SUPPEA - Opiskeluoikeus | — | 29 | — | [→](./datasets/EDUC_20182025_jua_koskiopiskeluoikeus_001/README.md) |
+| `EDUC_20182025_jua_koskiperus_001.xml` | EDUC_KOSKI_PERUS - Perusopetus | — | 22 | — | [→](./datasets/EDUC_20182025_jua_koskiperus_001/README.md) |
+| `EDUC_20182025_jua_koskitoinenlukioibkurssit_001.xml` | EDUC_KOSKI_2ASTE - IB_lukio_kurssit | — | 33 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenlukioibkurssit_001/README.md) |
+| `EDUC_20182025_jua_koskitoinenlukioiboppiaine_001.xml` | EDUC_KOSKI_2ASTE - IB_lukio_oppiaine | — | 27 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenlukioiboppiaine_001/README.md) |
+| `EDUC_20182025_jua_koskitoinennivel_001.xml` | EDUC_KOSKI_2ASTE -  Nivelvaihe | — | 28 | — | [→](./datasets/EDUC_20182025_jua_koskitoinennivel_001/README.md) |
+| `EDUC_20182025_jua_koskitoinenosaamisenhankkimistapa_001.xml` | EDUC_KOSKI_2ASTE -  Osaamisen_hankkimistapa | — | 11 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenosaamisenhankkimistapa_001/README.md) |
+| `EDUC_20202024_jua_esiperus_001.xml` | EDUC_ESIPERUS Esi- ja perusopetus 2020 - 2024 | 2020-01-01 - 2024-12-31 | 25 | — | [→](./datasets/EDUC_20202024_jua_esiperus_001/README.md) |
+| `EDUC_20202024_jua_esiperusk_001.xml` | EDUC_ESIPERUS_K Esi- ja perusopetus 2020 - 2024 | 2020-01-01 - 2024-12-31 | 25 | — | [→](./datasets/EDUC_20202024_jua_esiperusk_001/README.md) |
+| `EDUC_2024_jua_VIRTA_001.xml` | EDUC_VIRTA Korkeakoulujen opiskelijarekisteri | - 2024-12-31 | 61 | — | [→](./datasets/EDUC_2024_jua_VIRTA_001/README.md) |
 | `FIRMRDINNO_2018_jua_innovaatio_001.xml` | FIRM_RDINNO Innovaatiotutkimus 2018 (YA231) | 2016-01-01 - 2018-12-31 | 285 | 2,267 | [→](./datasets/FIRMRDINNO_2018_jua_innovaatio_001/README.md) |
 | `FIRMRDINNO_2020_jua_innovaatio_001.xml` | FIRM_RDINNO Innovaatiotutkimus 2020 | 2018-01-01 - 2020-12-31 | 326 | 2,267 | [→](./datasets/FIRMRDINNO_2020_jua_innovaatio_001/README.md) |
 | `FIRMRDINNO_2022_jua_innovaatio_001.xml` | FIRM_RDINNO Innovaatiotutkimus 2022 | 2020-01-01 - 2022-12-31 | 358 | 2,267 | [→](./datasets/FIRMRDINNO_2022_jua_innovaatio_001/README.md) |
-| `FIRM_1985062021_jua_BANKRkonkurssit_001.xml` | FIRM_BANKR Konkurssit (YA262) | 1985-01-01 - 2021-06-30 | 45 | — | [→](./datasets/FIRM_1985062021_jua_BANKRkonkurssit_001/README.md) |
 | `FIRM_1985072022_jua_BANKRkonkurssit_001.xml` | FIRM_BANKR Konkurssit | 1985-01-01 - 2024-06-30 | 45 | — | [→](./datasets/FIRM_1985072022_jua_BANKRkonkurssit_001/README.md) |
 | `FIRM_1985_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1985 (YA231) | 1985-01-01 - 1985-12-31 | 147 | 962 | [→](./datasets/FIRM_1985_jua_rd_001/README.md) |
 | `FIRM_19862021_jua_FSSpaneeli_001.xml` | FIRM_FSS Tilinpäätöspaneeli 1986-2024 | 1986-01-01 - 2024-12-31 | 85 | — | [→](./datasets/FIRM_19862021_jua_FSSpaneeli_001/README.md) |
@@ -110,7 +129,6 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_1989_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1989 (YA231) | 1989-01-01 - 1989-12-31 | 172 | 1,190 | [→](./datasets/FIRM_1989_jua_rd_001/README.md) |
 | `FIRM_1991_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1991 (YA231) | 1991-01-01 - 1991-12-31 | 178 | 911 | [→](./datasets/FIRM_1991_jua_rd_001/README.md) |
 | `FIRM_1992_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1992 (YA231) | 1992-01-01 - 1992-12-31 | 14 | 394 | [→](./datasets/FIRM_1992_jua_rd_001/README.md) |
-| `FIRM_1993062021_jua_BANKRsaneeraukset_001.xml` | FIRM_BANKR Yrityssaneeraukset (YA262) | 1993-01-01 - 2021-06-30 | 41 | — | [→](./datasets/FIRM_1993062021_jua_BANKRsaneeraukset_001/README.md) |
 | `FIRM_1993062022_jua_BANKRsaneeraukset_001.xml` | FIRM_BANKR Yrityssaneeraukset | 1993-01-01 - 2024-06-30 | 42 | — | [→](./datasets/FIRM_1993062022_jua_BANKRsaneeraukset_001/README.md) |
 | `FIRM_1993_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1993 (YA231) | 1993-01-01 - 1993-12-31 | 182 | 763 | [→](./datasets/FIRM_1993_jua_rd_001/README.md) |
 | `FIRM_1994_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1994 (YA231) | 1994-01-01 - 1994-12-31 | 80 | 558 | [→](./datasets/FIRM_1994_jua_rd_001/README.md) |
@@ -122,7 +140,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_1998_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1998 (YA231) | 1998-01-01 - 1998-12-31 | 158 | 3,038 | [→](./datasets/FIRM_1998_jua_rd_001/README.md) |
 | `FIRM_1999_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1999 (YA231) | 1999-01-01 - 1999-12-31 | 291 | 3,450 | [→](./datasets/FIRM_1999_jua_rd_001/README.md) |
 | `FIRM_2000_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2000 (YA231) | 2000-01-01 - 2000-12-31 | 284 | 3,590 | [→](./datasets/FIRM_2000_jua_rd_001/README.md) |
-| `FIRM_20012006_jua_gvc_001.xml` | FIRM_GVC Toimintojen ulkoistaminen ja siirtäminen ulkomaille -kyselyn aineisto 2001–2006 (International Sourcing -hanke) (ya228) | 2001-01-01 - 2006-12-31 | 279 | 1,653 | [→](./datasets/FIRM_20012006_jua_gvc_001/README.md) |
+| `FIRM_20012006_jua_gvc_001.xml` | FIRM_GVC Toimintojen ulkoistaminen ja siirtäminen ulkomaille -kyselyn aineisto 2001–2006 (International Sourcing -hanke) | 2001-01-01 - 2006-12-31 | 279 | 1,653 | [→](./datasets/FIRM_20012006_jua_gvc_001/README.md) |
 | `FIRM_2001_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2001 (YA231) | 2001-01-01 - 2001-12-31 | 285 | 3,847 | [→](./datasets/FIRM_2001_jua_rd_001/README.md) |
 | `FIRM_20022021_jua_demog_001.xml` | Yritysten demografiatiedot | 2002-01-01 - 2021-12-31 | 13 | — | [→](./datasets/FIRM_20022021_jua_demog_001/README.md) |
 | `FIRM_2003_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2003 (YA231) | 2003-01-01 - 2004-12-31 | 279 | 4,139 | [→](./datasets/FIRM_2003_jua_rd_001/README.md) |
@@ -143,7 +161,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_2013_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2013 (YA231) | 2013-01-01 - 2013-12-31 | 321 | 4,744 | [→](./datasets/FIRM_2013_jua_rd_001/README.md) |
 | `FIRM_20142019_jua_ENVPROT_001.xml` | FIRM_ENVPROT Teollisuuden ympäristönsuojelumenot 2014-2019 | 2014-01-01 - 2019-12-31 | 36 | — | [→](./datasets/FIRM_20142019_jua_ENVPROT_001/README.md) |
 | `FIRM_2014_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2014 (YA231) | 2014-01-01 - 2014-12-31 | 318 | 4,406 | [→](./datasets/FIRM_2014_jua_rd_001/README.md) |
-| `FIRM_20152017_jua_gvc_001.xml` | FIRM_GVC Global Value Chains 2015-2017 (YA228) | 2015-01-01 - 2017-12-31 | 404 | 1,653 | [→](./datasets/FIRM_20152017_jua_gvc_001/README.md) |
+| `FIRM_20152017_jua_gvc_001.xml` | FIRM_GVC Global Value Chains 2015-2017 | 2015-01-01 - 2017-12-31 | 404 | 1,653 | [→](./datasets/FIRM_20152017_jua_gvc_001/README.md) |
 | `FIRM_2015_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2015 (YA231) | 2015-01-01 - 2015-12-31 | 325 | 4,586 | [→](./datasets/FIRM_2015_jua_rd_001/README.md) |
 | `FIRM_2016_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2016 (YA231) | 2016-01-01 - 2016-12-31 | 322 | 4,447 | [→](./datasets/FIRM_2016_jua_rd_001/README.md) |
 | `FIRM_2017_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2017 (YA231) | 2017-01-01 - 2017-12-31 | 323 | 4,348 | [→](./datasets/FIRM_2017_jua_rd_001/README.md) |
@@ -160,7 +178,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_20212023_jua_gvc_000.xml` | FIRM_GVC Globaalit arvoketjut ja toimintojen ulkoistaminen -kyselyn aineisto 2021-2023 | 2021-01-01 - 2023-12-31 | 324 | 2,047 | [→](./datasets/FIRM_20212023_jua_gvc_000/README.md) |
 | `FIRM_2021_jua_ENTER_001.xml` | FIRM_ENTER Yritystietovarasto: yritykset 2021 | 2020-01-01 - 2021-12-31 | 41 | 370,252 | [→](./datasets/FIRM_2021_jua_ENTER_001/README.md) |
 | `FIRM_2021_jua_ESTAB_001.xml` | FIRM_ESTAB Yritystietovarasto: toimipaikat 2021 | 2021-01-01 - 2021-12-31 | 28 | 410,542 | [→](./datasets/FIRM_2021_jua_ESTAB_001/README.md) |
-| `FIRM_2021_jua_ICT_001.xml` | FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2021 (YA233) | 2021-01-01 - 2021-12-31 | 178 | — | [→](./datasets/FIRM_2021_jua_ICT_001/README.md) |
+| `FIRM_2021_jua_ICT_001.xml` | FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2021 (YA233) | 2021-01-01 - 2021-12-31 | 179 | — | [→](./datasets/FIRM_2021_jua_ICT_001/README.md) |
 | `FIRM_2021_jua_RDINNO_rd.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen vuonna 2021 | 2021-01-01 - 2021-12-31 | 323 | 4,697 | [→](./datasets/FIRM_2021_jua_RDINNO_rd/README.md) |
 | `FIRM_2021_jua_SUBSID_001.xml` | FIRM_SUBSID Yritystukitietokanta 2021 | 2021-01-01 - 2021-12-31 | 60 | — | [→](./datasets/FIRM_2021_jua_SUBSID_001/README.md) |
 | `FIRM_2021_jua_ofats_001.xml` | FIRM_OFATS Suomalaiset tytäryhtiöt ulkomailla 2021 | 2021-01-01 - 2021-12-31 | 12 | 5,398 | [→](./datasets/FIRM_2021_jua_ofats_001/README.md) |
@@ -168,8 +186,8 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_2022_jua_ESTAB_001.xml` | FIRM_ESTAB Yritystietovarasto: toimipaikat 2022 | 2022-01-01 - 2022-12-31 | 28 | 399,828 | [→](./datasets/FIRM_2022_jua_ESTAB_001/README.md) |
 | `FIRM_2022_jua_ICT_001.xml` | FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2022 (YA233) | 2022-01-01 - 2022-12-31 | 150 | — | [→](./datasets/FIRM_2022_jua_ICT_001/README.md) |
 | `FIRM_2022_jua_RDINNO_rd.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen vuonna 2022 | 2022-01-01 - 2022-12-31 | 324 | — | [→](./datasets/FIRM_2022_jua_RDINNO_rd/README.md) |
-| `FIRM_2022_jua_SUBSID_001.xml` | FIRM_SUBSID Yritystukitietokanta 2022-2024 | 2009-01-01 - 2024-12-31 | 33 | — | [→](./datasets/FIRM_2022_jua_SUBSID_001/README.md) |
-| `FIRM_2022_jua_ofats_001.xml` | FIRM_OFATS Suomalaiset tytäryhtiöt ulkomailla 2022 | 2021-01-01 - 2022-12-31 | 12 | 5,398 | [→](./datasets/FIRM_2022_jua_ofats_001/README.md) |
+| `FIRM_2022_jua_SUBSID_001.xml` | FIRM_SUBSID Yritystukitietokanta 2022-2025 | 2009-01-01 - 2025-12-31 | 33 | — | [→](./datasets/FIRM_2022_jua_SUBSID_001/README.md) |
+| `FIRM_2022_jua_ofats_001.xml` | FIRM_OFATS Suomalaiset tytäryhtiöt ulkomailla 2022 - 2024 | 2021-01-01 - 2024-12-31 | 12 | 5,398 | [→](./datasets/FIRM_2022_jua_ofats_001/README.md) |
 | `FIRM_2023_jua_ENTER_001.xml` | FIRM_ENTER Yritystietovarasto: yritykset 2023-2024 | 2023-01-01 - 2024-12-31 | 42 | 580,397 | [→](./datasets/FIRM_2023_jua_ENTER_001/README.md) |
 | `FIRM_2023_jua_ESTAB_001.xml` | FIRM_ESTAB Yritystietovarasto: toimipaikat 2023-2024 | 2023-01-01 - 2024-12-31 | 28 | 399,828 | [→](./datasets/FIRM_2023_jua_ESTAB_001/README.md) |
 | `FIRM_2023_jua_RDINNO_rd.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen vuonna 2023 | 2023-01-01 - 2023-12-31 | 324 | — | [→](./datasets/FIRM_2023_jua_RDINNO_rd/README.md) |
@@ -182,44 +200,42 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FLOWN_20062016_jua_firm_002.xml` | FLOWN - FIRM yritys- ja henkilötiedot | 2006-01-01 - 2016-01-01 | 21 | — | [→](./datasets/FLOWN_20062016_jua_firm_002/README.md) |
 | `FLOWN_20062022_jua_owner_001.xml` | FLOWN - OWNER osakastiedot | 2006-01-01 - 2024-01-01 | 11 | — | [→](./datasets/FLOWN_20062022_jua_owner_001/README.md) |
 | `FLOWN_20072020_jua_partner_001.xml` | FLOWN - PARTNER yhtiömiestiedot | 2007-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FLOWN_20072020_jua_partner_001/README.md) |
-| `FOLK_1950_jua_vl50_001.xml` | FOLK Väestölaskenta 1950 | 1950-12-31 - | 73 | — | [→](./datasets/FOLK_1950_jua_vl50_001/README.md) |
-| `FOLK_19701985_jua_vl7085_004.xml` | FOLK Väestölaskennat 1970-1985 | 1970-12-31 - 1985-12-31 | 39 | 4,601,576 | [→](./datasets/FOLK_19701985_jua_vl7085_004/README.md) |
-| `FOLK_19702022_jua_lapsv24_001.xml` | FOLK lapsi - vanhemmat - vuosi | 1970-01-01 - 2023-12-31 | 15 | — | [→](./datasets/FOLK_19702022_jua_lapsv24_001/README.md) |
-| `FOLK_19702023_jua_laps24_001.xml` | FOLK lapsi - vanhemmat | 1970-01-01 - 2024-12-31 | 8 | — | [→](./datasets/FOLK_19702023_jua_laps24_001/README.md) |
-| `FOLK_19832022_jua_muutt23_001.xml` | FOLK muutto | 1983-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19832022_jua_muutt23_001/README.md) |
-| `FOLK_19832024_jua_muuttomaanosa25_001.xml` | FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot | 1983-01-01 - 2024-12-31 | 25 | — | [→](./datasets/FOLK_19832024_jua_muuttomaanosa25_001/README.md) |
-| `FOLK_19832024_jua_muuttosuomimuu25_001.xml` | FOLK_MUUTTO_SUOMI_MUU Karkeat muuttotiedot tasolla Suomi/muu | 1983-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19832024_jua_muuttosuomimuu25_001/README.md) |
-| `FOLK_19872022_jua_tkt25_001.xml` | FOLK työssäkäynti | 1987-12-31 - 2022-12-31 | 48 | — | [→](./datasets/FOLK_19872022_jua_tkt25_001/README.md) |
-| `FOLK_19872022_jua_tulo24_001.xml` | FOLK tulotieto | 1987-01-01 - 2023-12-31 | 32 | — | [→](./datasets/FOLK_19872022_jua_tulo24_001/README.md) |
-| `FOLK_19872023_jua_askun25_001.xml` | FOLK asuntokunta | 1987-12-31 - 2023-12-31 | 31 | — | [→](./datasets/FOLK_19872023_jua_askun25_001/README.md) |
-| `FOLK_19872023_jua_aslii24_001.xml` | FOLK asuinliitot | 1987-12-31 - 2024-12-31 | 17 | — | [→](./datasets/FOLK_19872023_jua_aslii24_001/README.md) |
-| `FOLK_19872023_jua_perh24_001.xml` | FOLK  perhe | 1987-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19872023_jua_perh24_001/README.md) |
-| `FOLK_19872023_jua_perus24_001.xml` | FOLK perustieto | 1987-01-01 - 2024-12-31 | 61 | — | [→](./datasets/FOLK_19872023_jua_perus24_001/README.md) |
-| `FOLK_19872023_jua_tyosu25_001.xml` | FOLK jaksotiedot: työsuhde | 1987-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FOLK_19872023_jua_tyosu25_001/README.md) |
-| `FOLK_19872024_jua_tutk26_001.xml` | FOLK tutkinto | 1987-12-31 - 2024-12-31 | 22 | — | [→](./datasets/FOLK_19872024_jua_tutk26_001/README.md) |
-| `FOLK_19912023_jua_sijoi24_001.xml` | FOLK jaksotiedot: sijoitetut | 1991-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19912023_jua_sijoi24_001/README.md) |
-| `FOLK_19912023_jua_tyonh24_001.xml` | FOLK jaksotiedot: työnhakijat | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyonh24_001/README.md) |
-| `FOLK_19912023_jua_tyott24_001.xml` | FOLK jaksotiedot: työttömät | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyott24_001/README.md) |
-| `FOLK_19952023_jua_elake25_001.xml` | FOLK jaksotiedot: eläke | 1995-01-01 - 2023-12-31 | 7 | — | [→](./datasets/FOLK_19952023_jua_elake25_001/README.md) |
-| `FOLK_20052023_jua_tyovk24_001.xml` | FOLK jaksotiedot: työvoimakoulutus | 2005-01-01 - 2024-12-31 | 5 | — | [→](./datasets/FOLK_20052023_jua_tyovk24_001/README.md) |
-| `FOLK_20192025_jua_VAKA_001.xml` | FOLK_VAKA - Vardaan pohjautuvat varhaiskasvatustiedot kuukausitasolla | 2019-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FOLK_20192025_jua_VAKA_001/README.md) |
-| `INFRA_19872022_jua_sijainti_001.xml` | INFRA Sijaintitietomoduuli | 1987-12-31 - 2024-12-31 | 7 | — | [→](./datasets/INFRA_19872022_jua_sijainti_001/README.md) |
+| `FOLK_1950_jua_vl50_001.xml` | FOLK_VL50 | 1950-12-31 - | 73 | — | [→](./datasets/FOLK_1950_jua_vl50_001/README.md) |
+| `FOLK_19701985_jua_vl7085_004.xml` | FOLK_VL7085 | 1970-12-31 - 1985-12-31 | 39 | 4,601,576 | [→](./datasets/FOLK_19701985_jua_vl7085_004/README.md) |
+| `FOLK_19702022_jua_lapsv24_001.xml` | FOLK_LAPS - vuosi | 1970-01-01 - 2023-12-31 | 15 | — | [→](./datasets/FOLK_19702022_jua_lapsv24_001/README.md) |
+| `FOLK_19702023_jua_laps24_001.xml` | FOLK_LAPS | 1970-01-01 - 2024-12-31 | 8 | — | [→](./datasets/FOLK_19702023_jua_laps24_001/README.md) |
+| `FOLK_19872022_jua_tulo24_001.xml` | FOLK_TULO | 1987-01-01 - 2024-12-31 | 34 | — | [→](./datasets/FOLK_19872022_jua_tulo24_001/README.md) |
+| `FOLK_19872023_jua_aslii24_001.xml` | FOLK_ASLII | 1987-12-31 - 2024-12-31 | 17 | — | [→](./datasets/FOLK_19872023_jua_aslii24_001/README.md) |
+| `FOLK_19872023_jua_perh24_001.xml` | FOLK_PERH | 1987-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19872023_jua_perh24_001/README.md) |
+| `FOLK_19872023_jua_tkt26_001.xml` | FOLK_TKT | 1987-12-31 - 2023-12-31 | 48 | — | [→](./datasets/FOLK_19872023_jua_tkt26_001/README.md) |
+| `FOLK_19872023_jua_tyosu25_001.xml` | FOLK_JAKSOT: työsuhde | 1987-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FOLK_19872023_jua_tyosu25_001/README.md) |
+| `FOLK_19872024_jua_askun26_001.xml` | FOLK_ASKUN | 1987-12-31 - 2024-12-31 | 31 | — | [→](./datasets/FOLK_19872024_jua_askun26_001/README.md) |
+| `FOLK_19872024_jua_tutk26_001.xml` | FOLK_TUTK | 1987-12-31 - 2024-12-31 | 22 | — | [→](./datasets/FOLK_19872024_jua_tutk26_001/README.md) |
+| `FOLK_19872025_jua_perus26_001.xml` | FOLK perustieto | 1987-01-01 - 2025-12-31 | 60 | — | [→](./datasets/FOLK_19872025_jua_perus26_001/README.md) |
+| `FOLK_19912023_jua_sijoi24_001.xml` | FOLK_JAKSOT: sijoitetut | 1991-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19912023_jua_sijoi24_001/README.md) |
+| `FOLK_19912023_jua_tyonh24_001.xml` | FOLK_JAKSOT: työnhakijat | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyonh24_001/README.md) |
+| `FOLK_19912023_jua_tyott24_001.xml` | FOLK_JAKSOT: työttömät | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyott24_001/README.md) |
+| `FOLK_19952024_jua_elake26_001.xml` | FOLK_JAKSOT: eläkejaksot | 1995-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19952024_jua_elake26_001/README.md) |
+| `FOLK_20052023_jua_tyovk24_001.xml` | FOLK_JAKSOT: työvoimakoulutus | 2005-01-01 - 2024-12-31 | 5 | — | [→](./datasets/FOLK_20052023_jua_tyovk24_001/README.md) |
+| `FOLK_20192025_jua_VAKA_001.xml` | FOLK_VAKA | 2019-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FOLK_20192025_jua_VAKA_001/README.md) |
+| `INFRA_19872022_jua_sijainti_001.xml` | INFRA_SIJAINTI Sijaintitiedot | 1987-12-31 - 2025-12-31 | 8 | — | [→](./datasets/INFRA_19872022_jua_sijainti_001/README.md) |
+| `INFRA_19872025_jua_sijaintitarkka_001.xml` | INFRA_SIJAINTI_TARKKA Sijaintitiedot tarkka | 1987-12-31 - 2025-12-31 | 9 | — | [→](./datasets/INFRA_19872025_jua_sijaintitarkka_001/README.md) |
 | `KEHA_2022_jua_URA_002.xml` | KEHA_URA-aineisto | 2000-01-01 - 2024-12-31 | 39 | 15,293,186 | [→](./datasets/KEHA_2022_jua_URA_002/README.md) |
 | `KELA_20172018_jua_perustulojaksot_001.xml` | KELA_perustulorekisteri, Perustulojaksot | 2017-01-01 - 2018-12-31 | 8 | — | [→](./datasets/KELA_20172018_jua_perustulojaksot_001/README.md) |
 | `KELA_20172018_jua_perustulokokeilunkohdejoukko_001.xml` | KELA_perustulorekisteri, Perustulokokeilun kohdejoukko | 2017-01-01 - 2018-12-31 | 4 | — | [→](./datasets/KELA_20172018_jua_perustulokokeilunkohdejoukko_001/README.md) |
 | `KELA_20172018_jua_perustulomaksut_001.xml` | KELA_perustulorekisteri, Perustulomaksut | 2017-01-01 - 2018-12-31 | 5 | — | [→](./datasets/KELA_20172018_jua_perustulomaksut_001/README.md) |
 | `KELA_20172018_jua_poiskuittauksetetuuksista_001.xml` | KELA_perustulorekisteri, Poiskuittaukset etuuksista | 2017-01-01 - 2018-12-31 | 5 | — | [→](./datasets/KELA_20172018_jua_poiskuittauksetetuuksista_001/README.md) |
-| `MIGR_OLESK_jua_hakemukset_000.xml` | MIGR_OLESK Oleskelulupatiedot - Hakemukset | 2011-01-01 - 2024-12-31 | 17 | — | [→](./datasets/MIGR_OLESK_jua_hakemukset_000/README.md) |
-| `MIGR_OLESK_jua_henkilotiedot_000.xml` | MIGR_OLESK Oleskelulupatiedot - Henkilötiedot | 2011-01-01 - 2024-12-31 | 7 | — | [→](./datasets/MIGR_OLESK_jua_henkilotiedot_000/README.md) |
-| `MIGR_OLESK_jua_kanspaatos_000.xml` | MIGR_OLESK Oleskelulupatiedot - Kansalaisuuspäätökset | 2011-01-01 - 2024-12-31 | 6 | — | [→](./datasets/MIGR_OLESK_jua_kanspaatos_000/README.md) |
-| `MIGR_OLESK_jua_paatoksetjaper_000.xml` | MIGR_OLESK Oleskelulupatiedot - Päätökset ja peruutukset | 2011-01-01 - 2024-12-31 | 21 | — | [→](./datasets/MIGR_OLESK_jua_paatoksetjaper_000/README.md) |
-| `MIGR_OLESK_jua_voimassaoleva_000.xml` | MIGR_OLESK Oleskelulupatiedot - Voimassaolevat | 2011-01-01 - 2024-12-31 | 18 | — | [→](./datasets/MIGR_OLESK_jua_voimassaoleva_000/README.md) |
-| `MIGR_OLESK_jua_yhteystiedot_000.xml` | MIGR_OLESK Oleskelulupatiedot - Yhteystiedot | 2011-01-01 - 2024-12-31 | 8 | — | [→](./datasets/MIGR_OLESK_jua_yhteystiedot_000/README.md) |
+| `MIGR_OLESK_jua_hakemukset_000.xml` | MIGR_OLESK Oleskelulupatiedot - Hakemukset | 2011-01-01 - 2025-12-31 | 17 | — | [→](./datasets/MIGR_OLESK_jua_hakemukset_000/README.md) |
+| `MIGR_OLESK_jua_henkilotiedot_000.xml` | MIGR_OLESK Oleskelulupatiedot - Henkilötiedot | 2011-01-01 - 2025-12-31 | 6 | — | [→](./datasets/MIGR_OLESK_jua_henkilotiedot_000/README.md) |
+| `MIGR_OLESK_jua_kanspaatos_000.xml` | MIGR_OLESK Oleskelulupatiedot - Kansalaisuuspäätökset | 2011-01-01 - 2025-12-31 | 6 | — | [→](./datasets/MIGR_OLESK_jua_kanspaatos_000/README.md) |
+| `MIGR_OLESK_jua_paatoksetjaper_000.xml` | MIGR_OLESK Oleskelulupatiedot - Päätökset ja peruutukset | 2011-01-01 - 2025-12-31 | 21 | — | [→](./datasets/MIGR_OLESK_jua_paatoksetjaper_000/README.md) |
+| `MIGR_OLESK_jua_voimassaoleva_000.xml` | MIGR_OLESK Oleskelulupatiedot - Voimassaolevat | 2011-01-01 - 2025-12-31 | 18 | — | [→](./datasets/MIGR_OLESK_jua_voimassaoleva_000/README.md) |
+| `MIGR_OLESK_jua_yhteystiedot_000.xml` | MIGR_OLESK Oleskelulupatiedot - Yhteystiedot | 2011-01-01 - 2025-12-31 | 7 | — | [→](./datasets/MIGR_OLESK_jua_yhteystiedot_000/README.md) |
 | `MIGR_OPISK_jua_opiskelutied_000.xml` | MIGR_OPISK Oleskelulupaa hakeneiden opiskelutiedot | 2011-01-01 - | 8 | — | [→](./datasets/MIGR_OPISK_jua_opiskelutied_000/README.md) |
 | `MIGR_PERHE_jua_perheside_000.xml` | MIGR_PERHE Oleskelulupaa hakeneiden perhetiedot - perheside | 2011-01-01 - | 5 | — | [→](./datasets/MIGR_PERHE_jua_perheside_000/README.md) |
 | `MIGR_PERHE_jua_siviilisaaty_000.xml` | MIGR_PERHE Oleskelulupaa hakeneiden perhetiedot - siviilisääty | 2011-01-01 - | 7 | — | [→](./datasets/MIGR_PERHE_jua_siviilisaaty_000/README.md) |
 | `MIGR_TYO_jua_osapaatokset_000.xml` | MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot - osapäätökset | 2011-01-01 - 2024-12-31 | 14 | — | [→](./datasets/MIGR_TYO_jua_osapaatokset_000/README.md) |
-| `MIGR_TYO_jua_tyoehdot_000.xml` | MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot - työehdot | 2011-01-01 - | 30 | — | [→](./datasets/MIGR_TYO_jua_tyoehdot_000/README.md) |
+| `MIGR_TYO_jua_tyoehdot_000.xml` | MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot - työehdot | 2011-01-01 - 2025-12-31 | 31 | — | [→](./datasets/MIGR_TYO_jua_tyoehdot_000/README.md) |
 | `MIGR_VOPAL_jua_vopalvelut_000.xml` | MIGR_VOPAL Oleskelulupaa hakeneiden vastaanottopalvelutiedot - vastaanottopalvelut | 2011-01-01 - 2025-12-31 | 8 | — | [→](./datasets/MIGR_VOPAL_jua_vopalvelut_000/README.md) |
 | `MIGR_VOPAL_jua_vorahat_000.xml` | MIGR_VOPAL Oleskelulupaa hakeneiden vastaanottopalvelutiedot - vastaanottorahat | 2011-01-01 - 2025-12-31 | 13 | — | [→](./datasets/MIGR_VOPAL_jua_vorahat_000/README.md) |
 | `PIAAC_202500_jua_survey_001.xml` | PIAAC2 – Aikuisten taitotutkimus II | 2022-09-01 - 2023-06-30 | 175 | 4,061 | [→](./datasets/PIAAC_202500_jua_survey_001/README.md) |
@@ -238,8 +254,9 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `SES_19952023_jua_haryks_001.xml` | SES - harmonisoitu palkkarakennepaneeli - yksityinen sektori 1995-2023 (HSES) | 1995-01-01 - 2023-12-31 | 38 | 23,367,991 | [→](./datasets/SES_19952023_jua_haryks_001/README.md) |
 | `SURVEY_0000_jua_aikuiskoulutus_001.xml` | SURVEY_Aikuiskoulutus - Haastattelu- ja kyselytutkimus aikuisväestön koulutukseen osallistumisesta ja oppimisesta | — | 1 | — | [→](./datasets/SURVEY_0000_jua_aikuiskoulutus_001/README.md) |
 | `SURVEY_0000_jua_kulutusaikasarja_0001.xml` | SURVEY_Kulutus_Aikasarja – haastattelu- ja kyselytutkimus kotitalouksien kulutuksesta Suomessa: aikasarja | — | 1 | — | [→](./datasets/SURVEY_0000_jua_kulutusaikasarja_0001/README.md) |
+| `SURVEY_0000_jua_tulonjako_001.xml` | SURVEY_Tulonjako - Haastattelu- ja kyselytutkimus suomalaisten kotitalouksien vuositulojen jakautumisesta ja tuloeroista | — | 1 | — | [→](./datasets/SURVEY_0000_jua_tulonjako_001/README.md) |
 | `SURVEY_0000_jua_tyoolo_001.xml` | SURVEY_Tyoolo - haastattelu- ja kyselytutkimus palkansaajien työoloista | — | 1 | — | [→](./datasets/SURVEY_0000_jua_tyoolo_001/README.md) |
-| `SURVEY_0000_jua_tyovoima_0001.xml` | SURVEY_Tyovoima – haastattelu- ja kyselytutkimus väestön työmarkkinoille osallistumisesta | — | 1 | — | [→](./datasets/SURVEY_0000_jua_tyovoima_0001/README.md) |
+| `SURVEY_0000_jua_tyovoima_0001.xml` | SURVEY_Tyovoima – haastattelu- ja kyselytutkimus väestön työmarkkinoille osallistumisesta | 2001-12-31 - 2025-12-31 | 1 | — | [→](./datasets/SURVEY_0000_jua_tyovoima_0001/README.md) |
 | `SURVEY_0000_jua_varallisuusaikasarja8719_001.xml` | SURVEY_Varallisuus_aikasarja_1987_2019 - Haastattelu- ja kyselytutkimus suomalaisten kotitalouksien varallisuudesta. Aikasarja-aineisto. | — | 1 | — | [→](./datasets/SURVEY_0000_jua_varallisuusaikasarja8719_001/README.md) |
 | `SURVEY_0000_jua_varallisuusaikasarja8723_001.xml` | SURVEY_Varallisuus_aikasarja_1987_2023 - Haastattelu- ja kyselytutkimus suomalaisten kotitalouksien varallisuudesta. Aikasarja-aineisto. | — | 1 | — | [→](./datasets/SURVEY_0000_jua_varallisuusaikasarja8723_001/README.md) |
 | `SURVEY_0000_jua_varallisuushfcs_001.xml` | SURVEY_Varallisuus_HFCS - Euroopan keskuspankin koordinoima haastattelu- ja kyselytutkimus suomalaisten kotitalouksien varallisuudesta. Vuosiaineisto. | — | 1 | — | [→](./datasets/SURVEY_0000_jua_varallisuushfcs_001/README.md) |
@@ -266,8 +283,8 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `TEM_19912023_jua_tyopaikka_001.xml` | KEHA_Työpaikka: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2024-12-31 | 25 | 4,285,687 | [→](./datasets/TEM_19912023_jua_tyopaikka_001/README.md) |
 | `TON_19892024_jua_onnettomuudet_001.xml` | TONN_ONN Tieliikenneonnettomuudet - onnettomuusmoduuli | 1989-01-01 - 2024-12-31 | 51 | — | [→](./datasets/TON_19892024_jua_onnettomuudet_001/README.md) |
 | `TON_19892024_jua_onnettomuudetosalliset_001.xml` | TONN_ONN_OSALL Tieliikenneonnettomuudet - onnettomuudet ja osalliset -moduuli | 1989-01-01 - 2024-12-31 | 72 | — | [→](./datasets/TON_19892024_jua_onnettomuudetosalliset_001/README.md) |
-| `TRAFI_20132025_jua_ajoneuvo_001.xml` | TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli1 ajoneuvotiedot | 2013-01-01 - 2025-09-30 | 128 | — | [→](./datasets/TRAFI_20132025_jua_ajoneuvo_001/README.md) |
-| `TRAFI_20132025_jua_omistaja_002.xml` | TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli 2  omistaja/haltijatiedot | 2013-01-01 - 2025-09-30 | 31 | — | [→](./datasets/TRAFI_20132025_jua_omistaja_002/README.md) |
+| `TRAFI_20132025_jua_ajoneuvo_001.xml` | TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli1 ajoneuvotiedot | 2013-01-01 - 2026-03-31 | 128 | — | [→](./datasets/TRAFI_20132025_jua_ajoneuvo_001/README.md) |
+| `TRAFI_20132025_jua_omistaja_002.xml` | TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli 2  omistaja/haltijatiedot | 2013-01-01 - 2026-03-31 | 31 | — | [→](./datasets/TRAFI_20132025_jua_omistaja_002/README.md) |
 | `TULLI_19992021_jua_commod_001.xml` | TULLI_COMMOD Tullin ulkomaankauppa hyödykkeittäin | 1999-01-01 - 2024-12-31 | 22 | — | [→](./datasets/TULLI_19992021_jua_commod_001/README.md) |
 | `TULLI_19992021_jua_enter_001.xml` | TULLI_ENTER Tullin ulkomaankauppa yrityksittäin | 1999-01-01 - 2024-12-31 | 10 | 418,299 | [→](./datasets/TULLI_19992021_jua_enter_001/README.md) |
 | `UTH_2014_jua_ATH17_001.xml` | UTH-aineisto 2014 (ATH-verrokin a-osio) | — | 17 | — | [→](./datasets/UTH_2014_jua_ATH17_001/README.md) |
@@ -287,7 +304,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `YA214_20042012_jua_hyodaineetjatarvikkeet_001.xml` | FIRM_COMMOD Hyödykkeet: aineet ja tarvikkeet 2004 - 2012 (YA214) | 2004-01-01 - 2012-12-31 | 18 | 156,398 | [→](./datasets/YA214_20042012_jua_hyodaineetjatarvikkeet_001/README.md) |
 | `YA214_20042012_jua_hyodtuotteet_001.xml` | FIRM_COMMOD Hyödykkeet: tuotteet 2004 - 2012 (YA214) | 2004-01-01 - 2012-12-31 | 25 | 105,309 | [→](./datasets/YA214_20042012_jua_hyodtuotteet_001/README.md) |
 | `YA221_19882020_jua_yrekyritystol_001.xml` | Yritys-toimiala-aikasarja (YA221) | 1988-01-01 - 2020-12-31 | 16 | — | [→](./datasets/YA221_19882020_jua_yrekyritystol_001/README.md) |
-| `YA221_2012_jua_yrekyritys_003.xml` | FIRM_ENTER Yritysrekisterin tilastotiedostot: yritykset (1982-) 2012 (YA221) | 2012-01-01 - 2012-12-31 | 68 | 330,410 | [→](./datasets/YA221_2012_jua_yrekyritys_003/README.md) |
+| `YA221_2012_jua_yrekyritys_003.xml` | FIRM_ENTER Yritysrekisterin tilastotiedostot: yritykset (1982-) 2012 | 2012-01-01 - 2012-12-31 | 68 | 330,410 | [→](./datasets/YA221_2012_jua_yrekyritys_003/README.md) |
 | `YA221_2013_jua_yritysyty_002.xml` | FIRM_ENTER Yritystietovarasto: yritykset 2013 (YA221) | 2013-01-01 - 2013-12-31 | 42 | 356,440 | [→](./datasets/YA221_2013_jua_yritysyty_002/README.md) |
 | `YA221_2014_jua_yritysyty_002.xml` | FIRM_ENTER Yritystietovarasto: yritykset 2014 (YA221) | 2014-01-01 - 2014-12-31 | 41 | 363,587 | [→](./datasets/YA221_2014_jua_yritysyty_002/README.md) |
 | `YA221_2015_jua_yritysyty_004.xml` | FIRM_ENTER Yritystietovarasto: yritykset 2015 (YA221) | 2015-01-01 - 2015-12-31 | 41 | 360,059 | [→](./datasets/YA221_2015_jua_yritysyty_004/README.md) |
@@ -313,7 +330,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `YA225_2017_jua_ofats_001.xml` | FIRM_OFATS Suomalaiset tytäryhtiöt ulkomailla 2017 (YA225) | 2017-01-01 - 2017-12-31 | 12 | 5,398 | [→](./datasets/YA225_2017_jua_ofats_001/README.md) |
 | `YA227_20022014_jua_pukauppa_001.xml` | FIRM_TRADE Palvelujen ulkomaankauppa 2002 - 2014 (YA227) | 2002-01-01 - 2014-12-31 | 7 | 391,670 | [→](./datasets/YA227_20022014_jua_pukauppa_001/README.md) |
 | `YA227_20152016_jua_pukauppa_001.xml` | FIRM_TRADE Tavaroiden ja palveluiden ulkomaankauppa 2015 - 2016 (YA227) | 2015-01-01 - 2016-12-31 | 10 | — | [→](./datasets/YA227_20152016_jua_pukauppa_001/README.md) |
-| `YA228_20092011_jua_gvc_001.xml` | FIRM_GVC Global Value Chains 2009-2011 (YA228) | 2009-01-01 - 2011-12-31 | 852 | 1,653 | [→](./datasets/YA228_20092011_jua_gvc_001/README.md) |
+| `YA228_20092011_jua_gvc_001.xml` | FIRM_GVC Global Value Chains 2009-2011 | 2009-01-01 - 2011-12-31 | 852 | 1,653 | [→](./datasets/YA228_20092011_jua_gvc_001/README.md) |
 | `YA231_19852016_jua_tkpaneeli_002.xml` | FIRM_RDINNO T&K-paneeli (YA231) | 1985-01-01 - 2017-12-31 | 82 | 97,209 | [→](./datasets/YA231_19852016_jua_tkpaneeli_002/README.md) |
 | `YA231_1991_jua_innovaatiot_001.xml` | FIRM_RDINNO Innovaatiotutkimus 1991 (YA231) | 1989-01-01 - 1991-12-31 | 244 | 876 | [→](./datasets/YA231_1991_jua_innovaatiot_001/README.md) |
 | `YA231_1996_jua_innovaatiot_001.xml` | FIRM_RDINNO Innovaatiotutkimus 1996 (YA231) | 1994-01-01 - 1996-12-31 | 163 | 1,993 | [→](./datasets/YA231_1996_jua_innovaatiot_001/README.md) |
@@ -371,14 +388,15 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `YA263_20112020_jua_kuormaautot_001.xml` | FIRM_TRANSP Tieliikenteen tavarankuljetukset (Perusaineisto), Kuorma-auton tiedot 2011-2020 (YA263) | 2011-01-01 - 2020-12-31 | 27 | — | [→](./datasets/YA263_20112020_jua_kuormaautot_001/README.md) |
 | `YA263_20112020_jua_matkajatavarat_001.xml` | FIRM_TRANSP Tieliikenteen tavarankuljetukset (Perusaineisto), Matka- ja tavaratiedot 2011–2020 (YA263) | 2011-01-01 - 2020-12-31 | 24 | — | [→](./datasets/YA263_20112020_jua_matkajatavarat_001/README.md) |
 | `ksyyt_197122_jua_kuolemansyyt_001.xml` | Kuolemansyyaineisto | 1971-01-01 - 2024-12-31 | 69 | 2,738,679 | [→](./datasets/ksyyt_197122_jua_kuolemansyyt_001/README.md) |
-| `vamuu_202400_jua_000_000.xml` | FOLK_VAEN Väestön ennakkotiedot | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
-| `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN Ennakkotiedot henkilötunnuksellisista | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
+| `vamuu_202400_jua_000_000.xml` | FOLK_VAEN | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
+| `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
 
 ## Source notes
 
 - The archive is built against Taika's public REST-XQ API (`/restxq/taika/fi/datasets`, `/restxq/taika/fi/datasets/{id}`, `/restxq/taika/fi/variables/{id}`). The endpoint is undocumented but public and does not require authentication.
-- The Finnish endpoint is used because the English one (`/restxq/taika/en/datasets`) covers only about 84 of the 312 datasets.
+- The Finnish endpoint is used because the English one (`/restxq/taika/en/datasets`) covers only about a third of the datasets, and Finnish is the canonical metadata language at Statistics Finland.
 - The `statmeta` field is usually a Taika placeholder (`"metaa..."`) and is stored verbatim.
-- Eight SURVEY datasets list a placeholder sentinel variable (`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out.
+- 9 datasets (all SURVEY) list a placeholder sentinel variable (`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out.
 - **Person ID variable:** Taika currently documents the person-level identifier as `hid_e`. Older data deliveries used `shnro` — Statistics Finland renamed the variable. Some tables may still expose the identifier under other names.
-- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 312 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.
+- **Withdrawn datasets:** when Taika drops a dataset the fetcher moves it to `withdrawn/<id>/` instead of deleting it, so metadata for superseded vintages stays greppable. `datasets/` therefore always mirrors Taika exactly; `withdrawn/` is everything it used to offer.
+- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 313 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.

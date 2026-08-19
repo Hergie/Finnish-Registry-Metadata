@@ -1,4 +1,4 @@
-# FOLK Väestölaskennat 1970-1985
+# FOLK_VL7085
 
 - **Identifier:** `FOLK_19701985_jua_vl7085_004.xml`
 - **DOI:** `work_2019-09_2019-09-03_ain_0001`
@@ -14,35 +14,50 @@
 
 ## Description
 
-Aineisto sisältää tietoja väestöstä laskentavuosilta 1970, 1975, 1980 ja 1985. Tietosisältö kattaa tietoja väestön asumisesta, asunnoista ja asuinpaikasta, koulutuksesta ja sosioekonomisesta asemasta, ammateista ja ammattiasemasta,  työpaikoista, toimialasta (elinkeinosta) ja tuloista sekä siviilisäädystä ja perheistä. 
+Aineisto sisältää tietoja Suomessa asuvasta väestöstä laskentavuosilta 1970, 1975, 1980 ja 1985. Tietosisältö kattaa väestön asumisen, asunnot ja asuinpaikat, koulutuksen ja sosioekonomisen aseman, ammatit ja ammattiaseman, työpaikat, toimialan (elinkeinon) ja tulot sekä siviilisäädyn ja perherakenteen. 
 
-<h3>Tietolähteet ja perusjoukko</h3> 
-Vuodesta 1970 väestö- ja asuntolaskentoja on suoritettu viiden vuoden välein. Aineisto sisältää tietoja väestölaskentavuosilta 1970, 1975, 1980 ja 1985. Tietoja on kerätty sekä lomakkeilla että suoraan rekistereistä. Tiedostossa on tietoja 5,7 miljoonasta ihmisestä: kaikista, jotka ovat vakituisesti asuneet Suomessa ainakin yhtenä laskenta-ajankohtana.
+<b> Valmisaineiston tarkentava nimi </b> 
 
-<b>Huomioitavaa</b>
-<i>Laskentapäivä ja viiteajanjaksot</i>
+Väestönlaskentatietoja 1970, 1975, 1980 ja 1985, sisältäen tietoja siviilisäädystä, ruokakunnista ja perheistä, asumisesta ja asuinpaikoista, koulutuksesta ja sosioekonomisesta asemasta, ammateista, työpaikoista, elinkeinoista ja tuloista (FOLK_VL7085) ** 
 
-Laskenta-ajankohdat ovat olleet 31.12.1970, 31.12.1975, 1.11.1980 ja 17.11.1985.<br> 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 
-Vaikka perusjoukko on määritelty laskentapäivän avulla, yksittäisten tietojen viiteajanjakson pituus vaihtelee.
+Aineistossa on tiedot noin 5,7 miljoonasta henkilöstä: kaikista, jotka ovat asuneet vakituisesti Suomessa ainakin yhtenä laskenta-ajankohtana. 
 
-Tiedot työ- ja työttömyyskuukausista sekä tuloista koskevat koko väestölaskentavuotta (tulotiedot vuoden 1970 laskennassa koskevat vuotta 1971). Tutkintotiedot kuvaavat kaikissa laskennoissa vuodenvaihteen tilannetta. 
-Tiedot pääasiallisesta toiminnasta, ammatista, ammattiasemasta, toimialasta ja juridisesta muodosta ovat vuosina 1970 ja 1975 enemmän tai vähemmän sidoksissa vuodenvaihteen tilanteeseen (tammikuun 1. päivä), kun taas vuoden
-1980 laskennassa tarkastellaan koko vuoden toimintaa. Vuoden 1985 tiedot perustuvat toimintaan laskentaviikolla.
+Väestö- ja asuntolaskentoja on tehty viiden vuoden välein vuodesta 1970 alkaen. Tämä aineisto kattaa laskentavuodet 1970, 1975, 1980 ja 1985. Tietoja on kerätty sekä lomakekyselyillä että suoraan rekistereistä. 
 
-Kohorttitutkimuksissa on syytä ottaa huomioon poikkeavat laskentapäivämäärät vuosina 1980 ja 1985. Mikäli vuoden 1985 laskentapäivä olisi ollut 31.12 eikä 17.11. noin 11 prosenttia vuosikohorttien henkilöistä olisi ollut iältään vuotta vanhempia. Vuosina 1940 ja 1945 syntyneistä osuus on tätä lukua vielä suurempi.
+Laskenta-ajankohdat ovat olleet 31.12.1970, 31.12.1975, 1.11.1980 ja 17.11.1985. Vaikka perusjoukko on määritelty laskentapäivän mukaan, yksittäisten muuttujien viiteajanjaksot voivat vaihdella. 
 
-<i>Luokitukset</i>
-Vuonna 1980 ja 1985 käytettiin ammattiluokitusta, joka poikkesi melko paljon edeltäjästään. Vuosina 1970 ja 1975 sai jokainen ammattiryhmä kolminumeroisen koodin, mutta vuosina 1980 ja 1985 on käytössä ollut nelinumeroinen koodi. Vuosina 1970-1980 ammattitieto on myös ei-ammatissa toimivilla.  Pitkittäistiedostossa käytetty ammattiluokitus on laadittu vuosien 1980 ja 1985 luokitusten pohjalta. Jotta vertailtavuus aiempiin vuosiin olisi parempi, luokitusta on yksittäisissä tapauksissa saatettu karkeistaa. Vuosien 1970 ja 1975 ammattikoodeja on muutettu nelinumeroisiksi käyttämällä hyväksi ns. statusluokitusta. Myös uusi ja tarkempi toimialaluokitus otettiin käyttöön vuoden 1980 laskennassa. Samana vuonna muuttui myös sosioekonominen asema-luokitus. Jokaisessa laskennassa on pääasiallista toimintaa kuvaava luokitus muuttunut enemmän tai vähemmän. Uudet oppilaitokset ja tutkinnot taas ovat tuoneet muutoksia koulutusluokitukseen. Joissakin tapauksissa on voitu parantaa vertailukelpoisuutta muuttamalla ikärajoja tai karkeistamalla luokitusta. Joskus on muodostettu uusia muuttujia. Esim. tieto sosioekonomisesta asemasta vuosilta 1970 ja 1975 on päätelty uudestaan käyttämällä samoja sääntöjä kuin 
-vuosina 1980 ja 1985.
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
 
-<i>Mittaus- ja käsittelyvirheet</i>
-Laatuselvitykset (1980 ja 1985) osoittavat, että ammatissa toimivien määrä on laskennoissa liian alhainen. Systemaattisten virheiden lisäksi laskenta-aineistossa esiintyy myös satunnaisvirheitä. Tällaiset virheet eivät muuta absoluuttisia lukuja. Ne vaikuttavat kuitenkin virtatilastoihin. Esim. osa laskentojen ns. ammatinvaihdoksista kuvastanee pikemminkin vaihtelua kooditustyössä.
+Työ- ja työttömyyskuukaudet sekä tulotiedot kattavat koko väestölaskentavuoden, lukuun ottamatta vuoden 1970 laskentaa, jossa tulotiedot koskevat vuotta 1971. Tutkintotiedot kuvaavat kaikissa laskennoissa tilannetta vuodenvaihteessa. 
 
-<b>Aineiston käyttö ja rajoitukset</b>
-Aineisto on tarkoitettu FIONA-etäpalvelun kautta otosaineistona käytettäväksi. Kokonaisaineistoon voidaan antaa käyttöoikeus vain jos tutkimuksellisesta syystä kokonaisaineiston käyttöön on erityinen tarve. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.
+Pääasiallinen toiminta, ammatti, ammattiasema, toimiala ja juridinen muoto perustuvat vuosina 1970 ja 1975 pääosin vuodenvaihteen tilanteeseen (1. tammikuuta). Vuoden 1980 laskennassa tarkastellaan koko vuoden toimintaa, kun taas vuoden 1985 tiedot kuvaavat toimintaa laskentaviikolla. 
 
-<b>Lisätietoja</b>
+Kohorttitutkimuksissa on tärkeää huomioida poikkeavat laskentapäivät vuosina 1980 ja 1985. Esimerkiksi, jos vuoden 1985 laskenta olisi tehty 31.12. eikä 17.11., noin 11 % vuosikohorttien henkilöistä olisi ollut iältään vuoden vanhempia. Tämä vaikutus korostuu erityisesti vuosina 1940 ja 1945 syntyneiden kohdalla. 
+
+Luokitukset: 
+
+Ammattiluokituksessa tapahtui merkittäviä muutoksia vuosien 1980 ja 1985 laskennoissa, jolloin siirryttiin nelinumeroisiin koodeihin aiempien kolminumeroisten koodien sijaan.  Vuosina 1970–1980 ammattitieto on tallennettu myös henkilöille, jotka eivät olleet ammatissa. Pitkittäistiedostossa käytetty ammattiluokitus perustuu vuosien 1980 ja 1985 luokituksiin, ja vertailtavuuden parantamiseksi aiempien vuosien luokituksia on joissain tapauksissa karkeistettu.  Esimerkiksi vuosien 1970 ja 1975 ammattikoodeja on muunnettu nelinumeroisiksi hyödyntämällä ns. statusluokitusta.  
+
+Vuoden 1980 laskennassa otettiin käyttöön myös uusi ja tarkempi toimialaluokitus, ja samalla uudistettiin sosioekonomisen aseman luokitus. Pääasiallista toimintaa kuvaava luokitus on muuttunut jokaisessa laskennassa jossain määrin. Uudet oppilaitokset ja tutkinnot ovat puolestaan vaikuttaneet koulutusluokituksen kehitykseen. 
+
+Vertailukelpoisuutta on pyritty parantamaan muun muassa muuttamalla ikärajoja tai karkeistamalla luokituksia ja muodostamalla uusia muuttujia. Esimerkiksi sosioekonomisen aseman tiedot vuosilta 1970 ja 1975 on päätelty uudelleen samoilla säännöillä kuin vuosina 1980 ja 1985. 
+
+Mittaus- ja käsittelyvirheet:  
+
+Laatuselvitykset vuosilta 1980 ja 1985 osoittavat, että ammatissa toimivien määrä on aliraportoitu laskennoissa. Systemaattisten virheiden lisäksi laskenta-aineistossa esiintyy myös satunnaisvirheitä. Vaikka nämä eivät vaikuta absoluuttisiin lukuihin, voi voivat vaikuttaa virtatilastoihin. Esimerkiksi osa laskentojen “ammatinvaihdoksista” saattaa todellisuudessa kuvastaa vaihtelua kooditustyössä, ei todellisia muutoksia ammateissa. 
+
+<b> Aineiston päivitysaikataulu </b> 
+
+Aineistoa ei päivitetä. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta otosaineistona käytettäväksi, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+<b> Lisätietoja </b> 
+
 Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
 ## Variables (39)
@@ -51,7 +66,7 @@ Lisätietoja aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelu
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `nro` | Järjestysnumero | — | — | — |
-| `shnro` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `ak_koodi` | Asuntokuntanumero | — | — | — |
 | `syntyv` | Syntymävuosi | — | — | Vaestorakenne |
 | `kuolv` | Kuolinvuosi | — | — | vm_kuolleet |
@@ -104,9 +119,9 @@ Väestölaskennat suoritettiin
 
 Kaikilla väestölaskennan henkilöillä ei ollut täydellisiä henkilötunnuksia, joten heillä ei ole myöskään yksilöivää henkilönumeroa. Tässä aineistossa vuosi ja nro -tiedot muodostavat yksilöivän perusavaimen (primary key) eikä vuosi ja shnro -tiedot, kuten FOLK-aineistoissa yleensä.
 
-#### `shnro` — Suojattu henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa Huom! Henkilönumero puuttuu n.2700 henkilöltä erityisesti vuonna 1970. Yksilöivä perusavain (primary key) aineistossa on nro ja vuosi -tiedot eikä vuosi ja shnro -tiedot, kuten FOLK-aineistoissa yleensä.
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `ak_koodi` — Asuntokuntanumero
 

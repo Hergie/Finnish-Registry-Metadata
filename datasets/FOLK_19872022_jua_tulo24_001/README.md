@@ -1,64 +1,86 @@
-# FOLK tulotieto
+# FOLK_TULO
 
 - **Identifier:** `FOLK_19872022_jua_tulo24_001.xml`
 - **DOI:** `work_2017-08_2017-08-09_ain_0002`
-- **Temporal coverage:** 1987-01-01 - 2023-12-31
-- **Published:** 2026-01-20
+- **Temporal coverage:** 1987-01-01 - 2024-12-31
+- **Published:** 2026-04-30
 - **Organisation:** Eläketurvakeskus
-- **Variable count:** 32
+- **Variable count:** 34
 - **Observation count:** —
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut väestö
 - **Source:** Väestörekisterikeskuksen väestötietojärjestelmä, Tilastokeskuksen tulonjakotilasto, Verohallinnon rekisterit, Tilastokeskuksen henkilötietovarasto, Kansaneläkelaitoksen rekisterit, THL:n toimeentulotukirekisteri
 
 ## Description
 
-FOLK-henkilöaineiston tulotietomoduulissa on tietoja henkilöiden tuotannontekijätuloista, saaduista ja maksetuista tulonsiirroista, varallisuudesta ja veloista. Aineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujan kuvaukseen vuosiluvuilla.
+FOLK-henkilöaineiston tulotietomoduulissa on tietoja henkilöiden tuloista, saaduista ja maksetuista tulonsiirroista, varallisuudesta ja veloista. Aineistossa on tietoja vuodesta 1987 alkaen.  
 
-Tulonjakotilastossa muodostetut tulomuuttujat ovat mahdollisimman tarkasti pyritty muokkaamaan vertailukelpoisiksi eri vuosille. Verottajan aineistosta otetut tiedot eivät ole täysin vertailukelpoisia yli ajan. Vertailukelpoisuutta heikentää verotukseen tehdyt muutokset, joista merkittävin on vuoden 2005 verouudistus, jonka seurauksena esim. ansiotulot ja pääomatulot valtionverotuksessa sekä tulovero ansio- tai pääomatulosta eivät ole täysin vertailukelpoisia tietoja vuosina 1995-2004 ja vuodesta 2005 eteenpäin.
+<b> Valmisaineiston tarkentava nimi </b> 
 
-Tulonjakotilaston aggregaattimuuttujien (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) kuvauksissa ei ole lueteltu yksittäisiä tuloeriä. Nämä muuttujat muodostuvat vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta ja tietoja on saatavilla vuodesta 1995 lähtien.
+Henkilöaineiston tulotiedot, sisältäen tietoja henkilöiden tuloista, saaduista ja maksetuista tulonsiirroista, varallisuudesta ja veloista. 
 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 
+Tulotietomoduulin perusjoukkona toimii Suomessa vakituisesti asunut väestö kunkin vuoden viimeisenä päivänä. 
 
-Kelan aineistoihin perustuvat tiedot sisältävät myös negatiivisia arvoja. Negatiiviset etuudet voivat johtua takaisinperinnöistä tai väärinmaksatuksista. Tulonjakotilastossa negatiivisia arvoja ei ole nollattu, vaan ne on otettu huomioon käytettävissä olevien tulojen muodostuksessa sellaisenaan. 
+Aineisto perustuu useisiin tietolähteisiin, kuten Digi- ja viestintäviraston väestötietojärjestelmään, Tilastokeskuksen tulonjakotilastoon, Verohallinnon rekistereihin, Tilastokeskuksen henkilötietovarastoon, Kansaneläkelaitoksen rekistereihin sekä THL:n toimeentulotukirekisteriin 
 
-Huomioitavaa: 
+Tulonjakotilaston aggregaattimuuttujat (palkkatulot, yrittäjätulot, omaisuustulot, saadut tulonsiirrot, maksetut tulonsiirrot, käytettävissä oleva rahatulo) eivät sisällä erittelyä yksittäisistä tuloeristä. Nämä muuttujat muodostetaan vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta, ja tietoja on saatavilla vuodesta 1995 alkaen. 
 
-2022 päivitys: Tulonjakotilaston muodostamista muuttujista ja tulonjakotilaston aineistoista poimituista verottajan tiedoista, on siirrytty tilastovuodesta 2022 alkaen poimimaan tiedot suoraan verottajan aineistoista. Päivityksellä ei ole vaikutusta datan vertailukelpoisuuteen. 
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
 
-25.1.2024: "toimtu"-muuttujan arvot 2021 vuositauluun on korjattu ja aineisto on ajantasalla.
+Kelan aineistoihin perustuvat tiedot voivat sisältää myös negatiivisia arvoja, jotka johtuvat esimerkiksi takaisinperinnöistä tai väärinmaksatuksista. Tulonjakotilastossa negatiivisia arvoja ei ole nollattu, vaan ne on otettu huomioon sellaisenaan käytettävissä olevien tulojen muodostuksessa. 
 
-2021 päivityksessä aineistoon lisätty tulonjakotilaston tulomuuttujat PALK (palkkatulot), YRTU (yrittäjätulot) ja OMTU (omaisuustulot).
+Poikkeamat tietojen saatavuudessa on merkitty muuttujakuvauksiin vuosiluvuittain. 
 
-TYOTU-muuttuja sisältää tietoja vuoteen 2018 asti. Verottajan lähtöaineistossa ja tilastossa tapahtuneiden muutosten takia kyseistä muuttujaa ei enää ylläpidetä. Vuoden 2018 jälkeiset tiedot henkilön palkkatuloista ovat saatavilla muuttujasta PALK. 
+Tulonjakotilastossa muodostetut tulomuuttujat on pyritty muokkaamaan mahdollisimman vertailukelpoisiksi eri vuosien välillä. Verohallinnon aineistosta poimitut tiedot eivät ole täysin vertailukelpoisia ajallisesti, sillä verotukseen tehdyt muutokset vaikuttavat tietosisältöön. Merkittävin muutos on vuoden 2005 verouudistus, jonka seurauksena esimerkiksi ansiotulot ja pääomatulot valtionverotuksessa sekä tulovero ansio- tai pääomatulosta eivät ole täysin vertailukelpoisia vuosien 1995–2004 ja vuoden 2005 jälkeisen ajanjakson välillä. 
 
-Tyotu-muuttujassa on puutteita (puuttuvia arvoja) tilastovuoden 1989 osalta.
+Tilastovuodesta 2022 alkaen Tulonjakotilaston muuttujat ja verottajan tiedot poimitaan suoraan verottajan aineistoista, eikä enää Tulonjakotilaston kautta. Muutos ei vaikuta tietojen vertailukelpoisuuteen. 
 
-2020 päivityksessä: ennen 31.2.2020 FOLK tulotieto -valmisaineistossa työtuloihin summautui verotiedot TOSINKP (työpanokseen perustuva osinko, palkkaa) ja TOSINKPY (yrittäjän työpanokseen perustuva osinko, palkkaa) vuosina 2010-17 sekä TELPS7 (kunnallisen perhepäivähoitajan palkka) vuosina 2005-2017 kahteen kertaan, koska nämä tiedot sisältyivät jo verotietoon TRPL. TOSINKP ja TOSINKPY -tietoja oli noin 4 000 henkilöllä ja TELPS7-tietoja 25 000 henkilöllä.
+<b> Aineiston päivitysaikataulu </b>  
 
-Aineisto on tarkoitettu FIONA-etäpalvelun kautta luovutettavaksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-Vimeisimmät FOLK tulotietoaineistot ovat kansiossa FOLK_TULO_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tulo_"vuosi"_1.
+<b> Aineiston käyttö ja tilaaminen </b> 
 
-Vanhat FOLK tulotieto -aineistot ovat FIONAssa seuraavissa kansioissa:
-Totaaliaineisto vuosille 2011-2019: FOLK_tulo_11a
-Totaaliaineisto vuosille 2001-2010: FOLK_tulo_0110a
-Totaaliaineisto vuosille 1987-2000: FOLK_tulo_8800a
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle. Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+FOLK tulotieto -tiedostot ovat FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.  
+
+Vimeisimmät FOLK tulotietoaineistot ovat kansiossa FOLK_TULO_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tulo_"vuosi"_1. 
+ 
+Vanhat FOLK tulotieto -aineistot ovat FIONAssa seuraavissa kansioissa: 
+Totaaliaineisto vuosille 2011-2019: FOLK_tulo_11a 
+Totaaliaineisto vuosille 2001-2010: FOLK_tulo_0110a 
+Totaaliaineisto vuosille 1987-2000: FOLK_tulo_8800a 
+
+<b> Tarkempaa tietoa muuttujista </b> 
+
+TYOTU-muuttuja sisältää tietoja vuoteen 2018 saakka. Verohallinnon lähtöaineiston ja tilastointikäytännöissä tapahtuneiden muutosten takia kyseistä muuttujaa ei enää ylläpidetä. Vuoden 2018 jälkeiset henkilön palkkatulotiedot löytyvät muuttujasta PALK. Vuoden 1989 osalta Tyotu-muuttujassa on puutteita (puuttuvia arvoja). 
+ 
+Vuoden 2021 päivityksessä aineistoon lisättiin tulonjakotilaston tulomuuttujat PALK (palkkatulot), YRTU (yrittäjätulot) ja OMTU (omaisuustulot). 
+ 
+Vuonna 2024 ( 25.1)  tehty korjaus: "toimtu"-muuttujan arvot korjattu vuoden 2021 vuositauluun.  
+
+2024 tilastovuoden päivitys: Lisättiin muuttujat myvo=myyntivoitto ja desiili= asuntokunnan tulodesiilit aineistoon. Desiili-muuttuja päivittettiin erikseen vuoden 2024 aineistolle toukokuussa 2026.  
+
+Vuoden 2020 päivityksessä tehty korjaus: ennen 31.2.2020 FOLK tulotieto -valmisaineistossa työtuloihin laskettiin kahteen kertaan verotiedot TOSINKP (työpanokseen perustuva osinko, palkkaa) ja TOSINKPY (yrittäjän työpanokseen perustuva osinko, palkkaa) vuosina 2010–2017 sekä TELPS7 (kunnallisen perhepäivähoitajan palkka) vuosina 2005–2017. Nämä tiedot sisältyivät jo verotietoon TRPL. TOSINKP ja TOSINKPY –tiedot koskivat noin 4 000 henkilöä ja TELPS7-tiedot noin 25 000 henkilöä. 
+
+<b> Lisätietoja </b> 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Variables (32)
+## Variables (34)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
-| `palk` | Palkkatulot | — | — | Tulonjakotilasto, TJKT |
-| `yrtu` | Yrittäjätulot | — | — | TJKT, Tulonjakotilasto |
-| `omtu` | Omaisuustulot | — | — | TJKT, Tulonjakotilasto |
-| `saatusi` | Saadut tulonsiirrot | — | — | Tulonjakotilasto, TJKT |
-| `makstu` | Maksetut tulonsiirrot | — | — | TJKT, Tulonjakotilasto |
-| `kturaha` | Käytettävissä olevat rahatulot | — | — | Tulonjakotilasto, TJKT |
+| `palk` | Palkkatulot | — | — | TJKT, Tulonjakotilasto |
+| `yrtu` | Yrittäjätulot | — | — | Tulonjakotilasto, TJKT |
+| `omtu` | Omaisuustulot | — | — | Tulonjakotilasto, TJKT |
+| `saatusi` | Saadut tulonsiirrot | — | — | TJKT, Tulonjakotilasto |
+| `makstu` | Maksetut tulonsiirrot | — | — | Tulonjakotilasto, TJKT |
+| `kturaha` | Käytettävissä olevat rahatulot | — | — | TJKT, Tulonjakotilasto |
 | `tyotu` | Summatut työtulot (palkkatulot) | — | — | Henkilöverotusaineisto |
 | `tyrtuo` | Yrittäjätulot | — | — | Henkilöverotusaineisto |
 | `telinko` | Elinkeinotulot | — | — | Henkilöverotusaineisto |
@@ -73,7 +95,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tyotur` | Työttömyysturvaetuudet | — | — | Henkilöverotusaineisto |
 | `astuki` | Asumistuet | — | — | Kela |
 | `opira` | Opintorahat | — | — | Kela |
-| `toimtu` | Toimeentulotuet | — | — | Kela, THL |
+| `toimtu` | Toimeentulotuet | — | — | THL, Kela |
 | `tpar` | Sairausvakuutuksen päivärahat | — | — | Henkilöverotusaineisto |
 | `ltv` | Valtion tulovero | — | — | Henkilöverotusaineisto |
 | `ltva` | Valtion tuloveron osuus ansiotulojen verosta | — | — | Henkilöverotusaineisto |
@@ -83,6 +105,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `lvv` | Varallisuusvero | — | — | Henkilöverotusaineisto |
 | `lvar` | Verotettava varallisuus | — | — | Henkilöverotusaineisto |
 | `velaty` | Velat yhteensä | — | — | Henkilöverotusaineisto |
+| `myvo` | Myyntivoitot | — | — | — |
+| `desiili` | Tulodesiilit | — | — | — |
 
 ### Variable definitions
 
@@ -96,37 +120,37 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `palk` — Palkkatulot
 
-**Group:** Tulonjakotilasto, TJKT
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `yrtu` — Yrittäjätulot
 
-**Group:** TJKT, Tulonjakotilasto
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `omtu` — Omaisuustulot
 
-**Group:** TJKT, Tulonjakotilasto
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `saatusi` — Saadut tulonsiirrot
 
-**Group:** Tulonjakotilasto, TJKT
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `makstu` — Maksetut tulonsiirrot
 
-**Group:** TJKT, Tulonjakotilasto
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `kturaha` — Käytettävissä olevat rahatulot
 
-**Group:** Tulonjakotilasto, TJKT
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite. Tietoja vuodesta 1995 lähtien.
 
@@ -273,7 +297,7 @@ Opintorahat sisältää keskiasteen opintorahan, korkeakoulun opintorahan ja aik
 
 #### `toimtu` — Toimeentulotuet
 
-**Group:** Kela, THL
+**Group:** THL, Kela
 
 Toimeentulotuet sisältää varsinaisen toimeentulotuen ja ehkäisevän toimeentulotuen.
 
@@ -335,6 +359,14 @@ NLIIKKY = Elinkeinotoiminnan velat yhteensä (vuosina 1995-2006 ja vuodesta 2014
 NMAAT = Maatalouteen kohdistuneet velat 
 NYHT = Velat yhtymistä (vuoteen 2005 saakka) 
 NMUUT = Asunto- ja muut velat.
+
+#### `myvo` — Myyntivoitot
+
+Myyntivoitot (veronalainen luovutusvoitto - luovutustappio, min 0)
+
+#### `desiili` — Tulodesiilit
+
+Tulokymmenykset eli tulodesiilit muodostetaan tulonjakotilastossa asuntokunnan ekvivalenttien käytettävissä olevien rahatulojen pohjalta.Desiiliryhmät eli tulokymmenykset on muodostettu jakamalla ensin asuntokunnan tulot talouden kulutusyksiköillä (ns. ekvivalentit tulot). Jokaiselle kotitalouden jäsenelle tulee sama ekvivalentti tulo. Henkilöt järjestetään tämän jälkeen tulojensa mukaiseen järjestykseen ja jaetaan kymmeneen yhtä suureen ryhmään. Jokaisessa tulokymmenyksessä on siten 10 prosenttia väestöstä. Ensimmäiseen tulokymmenykseen kuuluu pienituloisin kymmenes ja viimeiseen suurituloisin. Tulokymmenysten tulo-osuudet osoittavat, kuinka suuren osan kyseessä olevien tulojen kokonaissummasta kukin kymmenys saa. Tietoja vuodesta 1995 lähtien.
 
 ---
 

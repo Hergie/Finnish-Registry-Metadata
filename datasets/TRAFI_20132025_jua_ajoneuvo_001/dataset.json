@@ -5,7 +5,7 @@
       "doi": "mkan_2017-12_2017-12-08_ain_0001",
       "subject": "TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli1 ajoneuvotiedot",
       "contentdescription": "TRAFI-valmisaineistot perustuvat Liikenne- ja viestintävirasto (Traficom) ajoneuvoliikennerekisteriin, joka sisältää tiedot kaikista rekisteröintivelvollisuuden alaisista tieliikenteen ajoneuvoista Manner-Suomessa vuodesta 2013 alkaen. Ajoneuvokannasta on muodostettu kaksi valmisaineistomoduulia tutkimuskäyttöön. \n\nModuuli 1 sisältää ajoneuvojen perustiedot. Moduuli 2 sisältää tietoja ajoneuvon omistajasta/haltijasta.\n\nNäihin valmisaineistoihin tulee hakea käyttölupaa Traficomilta. Aineistojen käsittely tapahtuu Tilastokeskuksen ylläpitämässä FIONA-etäkäyttöjärjestelmässä.\n\n22.12.2022: Tietoa päivämäärämuuttujista: Ajankohtien 2021q1-2022q2 tiedostoissa olevat päivämäärämuuttujat ovat sekä date-muodossa (ISO8601-formaatti) että string-muodossa. String-muotoiset muuttujat löytyvät tiedostoista, joiden tiedostonimissä on \"_2\"-pääte. Ajankohdan 2022q3 ja sen jälkeiset tiedostot sisältävät ainoastaan string-muotoiset päivämäärämuuttujat. \n\nLisätietoa: Traficom: tietojenluovutus(at)trafi.fi \n                 Tilastokeskus: tutkijapalvelut(at)stat.fi\n\n",
-      "coveragetemporal": "2013-01-01 - 2025-09-30",
+      "coveragetemporal": "2013-01-01 - 2026-03-31",
       "published_day": "2025-10-27",
       "variable_count": "128",
       "orgname": "Liikenteen turvallisuusvirasto Trafi ",

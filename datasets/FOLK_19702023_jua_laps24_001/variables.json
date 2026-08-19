@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "shnro",
-      "variablename": "Suojattu TK:n henkilönumero, lapsi",
-      "conceptdef": "Lapsen suojattu TK:n henkilönumero.",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, lapsi",
+      "conceptdef": "Lapsen suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -25,17 +25,17 @@
       "variablegroups": null
     },
     {
-      "identifier": "shnro_m",
-      "variablename": "Suojattu TK:n henkilönumero, biol. äiti",
-      "conceptdef": "Biologisen äidin suojattu TK:n henkilönumero.",
+      "identifier": "hid_e_m",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, biol. äiti",
+      "conceptdef": "Biologisen äidin suojattu henkilön yksilöivä tunniste.Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "shnro_f",
-      "variablename": "Suojattu TK:n henkilönumero, biol. isä",
-      "conceptdef": "Biologisen isän suojattu TK:n henkilönumero.",
+      "identifier": "hid_e_f",
+      "variablename": "Suojattu henkilön yksilöivä tunniste, biol. isä",
+      "conceptdef": "Biologisen isän suojattu henkilön yksilöivä tunniste. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

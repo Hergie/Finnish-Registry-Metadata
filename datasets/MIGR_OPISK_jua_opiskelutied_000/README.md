@@ -3,7 +3,7 @@
 - **Identifier:** `MIGR_OPISK_jua_opiskelutied_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
 - **Temporal coverage:** 2011-01-01 - 
-- **Published:** 2026-02-10
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
 - **Variable count:** 8
 - **Observation count:** —
@@ -38,7 +38,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SHNRO` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `CASE_ID_s` | Suojattu asianumero | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
 | `ACADEM_DEGREE_ID` | Tavoitetutkinnon koodi | — | — | — |
@@ -49,7 +49,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 ### Variable definitions
 
-#### `SHNRO` — Suojattu henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `CASE_ID_s` — Suojattu asianumero
 

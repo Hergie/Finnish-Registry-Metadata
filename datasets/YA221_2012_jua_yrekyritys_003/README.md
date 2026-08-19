@@ -1,4 +1,4 @@
-# FIRM_ENTER Yritysrekisterin tilastotiedostot: yritykset (1982-) 2012 (YA221)
+# FIRM_ENTER Yritysrekisterin tilastotiedostot: yritykset (1982-) 2012
 
 - **Identifier:** `YA221_2012_jua_yrekyritys_003.xml`
 - **DOI:** `work_2012-11_2012-11-28_ain_0001`
@@ -110,6 +110,9 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `toissij_s` | Suojattu toissijainen tunnus | — | — | — |
+| `knstun_s` | Suojattu konsernitunnus | — | — | — |
 | `YLAJI` | Yksikkölaji | — | — | — |
 | `VUOSI` | Vuosi | — | — | — |
 | `TILYKS` | Tilastoyksikkö | — | — | — |
@@ -173,13 +176,22 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tol02yr` | Yrityksen toimiala (tol2002) | — | — | — |
 | `TOL08KNS` | Konsernitoimiala | — | — | — |
 | `knslaji` | Konsernilaji | — | — | — |
-| `syrtun` | Suojattu yritystunnus | — | — | — |
-| `stoissij` | Suojattu toissijainen tunnus | — | — | — |
-| `sknstun` | Suojattu konsernitunnus | — | — | — |
 | `toimlopmuoto` | Yrityksen toiminnan lopetusmuoto | — | — | — |
 | `toimalomuoto` | Yrityksen toiminnan aloitusmuoto | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu yritystunnus
+
+Oikeudellisen yksikön y-tunnus ilman väliviivaa. (Ennen vuotta 1999 myös henkilötunnuksia)
+
+#### `toissij_s` — Suojattu toissijainen tunnus
+
+Oikeudellisen yksikön toissijainen tunnus. Luonnollisilla henkilöillä toissi-jaisena tunnuksena on henkilötunnus.
+
+#### `knstun_s` — Suojattu konsernitunnus
+
+Yrityskonserniin kuuluvan yrityksen konsernitunnus. Kuntakonserneja ei huomioida. Konsernitiedot vuodesta 2001 alkaen.
 
 #### `YLAJI` — Yksikkölaji
 
@@ -457,7 +469,7 @@ Oikeudellisen yksikön 2-kirjaintason toimialan puhtausprosentti (tol2008).
 
 #### `MAAK` — Maakunta
 
-Maakunta.
+Maakunta. Yritysten tilastotiedostoissa oleva maakunta tarkoittaa maakuntaa, jossa oikeudellisen yksikön kotikunta sijaitsee.
 
 #### `ALOAIKA` — Aloitusaika
 
@@ -579,18 +591,6 @@ Mahdolliset arvot ovat:
 1 = Emo
 2 = Tytär
 6 = Väliemo
-
-#### `syrtun` — Suojattu yritystunnus
-
-Oikeudellisen yksikön y-tunnus ilman väliviivaa. (Ennen vuotta 1999 myös henkilötunnuksia)
-
-#### `stoissij` — Suojattu toissijainen tunnus
-
-Oikeudellisen yksikön toissijainen tunnus. Luonnollisilla henkilöillä toissi-jaisena tunnuksena on henkilötunnus.
-
-#### `sknstun` — Suojattu konsernitunnus
-
-Yrityskonserniin kuuluvan yrityksen konsernitunnus. Kuntakonserneja ei huomioida. Konsernitiedot vuodesta 2001 alkaen.
 
 #### `toimlopmuoto` — Yrityksen toiminnan lopetusmuoto
 

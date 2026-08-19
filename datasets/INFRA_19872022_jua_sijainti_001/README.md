@@ -1,11 +1,11 @@
-# INFRA Sijaintitietomoduuli
+# INFRA_SIJAINTI Sijaintitiedot
 
 - **Identifier:** `INFRA_19872022_jua_sijainti_001.xml`
 - **DOI:** `work_2020-07_2020-07-07_ain_0001`
-- **Temporal coverage:** 1987-12-31 - 2024-12-31
+- **Temporal coverage:** 1987-12-31 - 2025-12-31
 - **Published:** 2026-02-27
 - **Organisation:** Tilastokeskus
-- **Variable count:** 7
+- **Variable count:** 8
 - **Observation count:** —
 - **Source:** Digi- ja väestötietoviraston väestötietojärjestelmä. Koostettu henkilötietovaraston henkilö-vuosi- ja rakennus-tauluista.
 
@@ -13,13 +13,15 @@
 
 INFRA Sijaintitietomoduuli sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. 
 
-Sijaintitietomoduuli on saatavilla tutkimuskäyttöön myös tarkempana versiona, joka sisältää kuvauksessa lueteltujen muuttujien lisäksi 250m x 250m ruututunnukset yli kolmen asukkaan ruuduille sekä vähintään kolme vakituisessa asuinkäytössä olevaa huoneistoa sisältävien rivi- ja kerrostalojen koordinaatit. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja. 
+Sijaintitietomoduuli on saatavilla tutkimuskäyttöön myös tarkempana versiona (INFRA_SIJAINTI_TARKKA), joka sisältää kuvauksessa lueteltujen muuttujien lisäksi 250m x 250m ruututunnukset yli kolmen asukkaan ruuduille sekä vähintään kolme huoneistoa sisältävien rakennusten koordinaatit. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja. 
 
 Rakennusten koordinaattitietoja ei koskaan anneta ulos etäkäyttöjärjestelmästä. Ruututasolle tai muulle aluetasolle aggregoituja tietoja voidaan antaa ulos etäkäyttöjärjestelmästä vain silloin, kun alueella on vähintään 10 henkilöä. Kokonaista ruutuaineistoa ei saa julkaista. Ruutuihin tai muihin maantieteellisiin alueisiin perustuvia tietoja voidaan julkaista silloin, kun yksittäisiä henkilöitä tai asuntokuntia ei voi tunnistaa. Julkaistavien tietojen tulee olla aggregoituja suuremmalle aluetasolle, suhtautettuja, tai muulla tavalla käsiteltyjä siten, että suora ja epäsuora tunnistaminen on estetty.
 
+Tilastovuoden 2025 päivityksen yhteydessä on tehty takautuvia muutoksia päivittämällä suojausta ja lisäämällä pysyvä rakennustunnus -muuttuja (prt). 
+
 Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 
-## Variables (7)
+## Variables (8)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
@@ -29,6 +31,7 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 | `euref_1000` | 1 km -ruudun tunniste (euref) | — | — | Spatiaalisettiedot |
 | `posti_alue` | Tilastollinen postinumeroalue | — | — | Spatiaalisettiedot |
 | `rnro_s` | Suojattu rakennusnumero | — | — | — |
+| `prt_s` | Suojattu pysyvä rakennustunnus | — | — | — |
 | `rappu_s` | Suojattu rappukäytävän tunnus | — | — | — |
 
 ### Variable definitions
@@ -62,6 +65,10 @@ Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Til
 #### `rnro_s` — Suojattu rakennusnumero
 
 Suojattu rakennusnumero korvaa kullekin rakennukselle tietokantaan lisäyksen yhteydessä annetun yksilöivän numeron.
+
+#### `prt_s` — Suojattu pysyvä rakennustunnus
+
+Pysyvä rakennustunnus yksilöi rakennuksen ja se säilyy rakennuksella koko rakennuksen elinkaaren ajan. Pysyvä rakennustunnus on otettu käyttöön VTJ-tietojärjestelmässä 10.11.2014. Tätä aiemmat tiedot on täydennetty henkilötietovaraston rnro:n mukaisesti.
 
 #### `rappu_s` — Suojattu rappukäytävän tunnus
 

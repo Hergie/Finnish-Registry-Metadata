@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "SHNRO",
-      "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Henkilönumero on poimittu niille joille se löytyy.\n",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -43,14 +43,6 @@
     {
       "identifier": "Citizenzhip",
       "variablename": "Kansalaisuus",
-      "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "hid_e",
-      "variablename": "Suojattu henkilön yksilöivä tunniste",
       "conceptdef": null,
       "measunit": null,
       "classification": null,

@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "shnro",
-      "variablename": "Suojattu henkilönumero",
-      "conceptdef": null,
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -83,7 +83,7 @@
     {
       "identifier": "huontuvtj_s",
       "variablename": "Suojattu huoneistotunnus",
-      "conceptdef": "Huoneistotieto perustuu rappukirjaimeen ja huoneistonumeroon. Näiden tarkka kirjoitusasu on saattanut muuttua tietovuosien välillä, joten arvo saattaa muuttua eri vuosina asunnon pysyessä samana.\nPorras (1 merkki) + Huoneistonumero (3 merkkiä) + Huoneistotunnisteen jakokirjainosa (1 merkki) + Osoitenumero (1 merkki)\n\nKatso myös \"H:\\VE\\va_513\\vaesto\\metatiedot\\tietojarjestelmat\\vtietojarjestelma\\attrirh1.doc\"\nHuoneistotunniste eli huoneistotunnus sisältää seuraavaa\n                  \n                  1 Porraskirjain on huoneiston tunnisteen kirjainosa. Se\n                  kertoo missä portaassa huoneisto sijaitsee.\n                  \n                  A - Ö, tyhjä. \n                  \n                  2 Huoneiston tunnisteen numero_osa. 000 - 999.\n                  \n                  3 Huoneiston tunnisteen jakokirjain. Jakokirjainta \n                  käytetään kun huoneisto on jaettu kahdeksi tai \n                  useammaksi huoneistoksi.\n                  \n                  a - ö, tyhjä",
+      "conceptdef": "Huoneistotieto perustuu rappukirjaimeen ja huoneistonumeroon. Näiden tarkka kirjoitusasu on saattanut muuttua tietovuosien välillä, joten arvo saattaa muuttua eri vuosina asunnon pysyessä samana.\nPorras (1 merkki) + Huoneistonumero (3 merkkiä) + Huoneistotunnisteen jakokirjainosa (1 merkki) + Osoitenumero (1 merkki)\n\nHuoneistotunniste eli huoneistotunnus sisältää seuraavaa:\n                  \n                  1 Porraskirjain on huoneiston tunnisteen kirjainosa. Se\n                  kertoo missä portaassa huoneisto sijaitsee.\n                  \n                  A - Ö, tyhjä. \n                  \n                  2 Huoneiston tunnisteen numero_osa. 000 - 999.\n                  \n                  3 Huoneiston tunnisteen jakokirjain. Jakokirjainta \n                  käytetään kun huoneisto on jaettu kahdeksi tai \n                  useammaksi huoneistoksi.\n                  \n                  a - ö, tyhjä",
       "measunit": null,
       "classification": null,
       "variablegroups": null

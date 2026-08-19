@@ -6,7 +6,7 @@
       "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Yhteydenottotavat, Tyotarjoukset, Suunnitelmat, Sanssikortti, Palvelulinja, Palkkatukipaikat, Maahanmuuttajien_kielitaito, Kaikkien_kielitaito"
+      "variablegroups": "Kaikkien_kielitaito, Maahanmuuttajien_kielitaito, Palkkatukipaikat, Palvelulinja, Sanssikortti, Suunnitelmat, Tyotarjoukset, Yhteydenottotavat"
     },
     {
       "identifier": "yrtun_s",
@@ -14,7 +14,7 @@
       "conceptdef": null,
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
+      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
     },
     {
       "identifier": "syntyv",
@@ -54,7 +54,7 @@
       "conceptdef": "Tarjotun työn ammatti : Työnhakijan ammatin luokittelemiseen käytetään Pohjoismaiseen ammattiluokitukseen (Nordisk Yrkesklassificering, NYK) perustuvaa luokitusta, jonka sisältö on pyritty muokkaamaan mahdollisimman hyvin Suomen oloja vastaavaksi. Työ- ja elinkeinoministeriön käyttämä ammattiluokitus poikkeaa jonkin verran Tilastokeskuksen vastaavasta. ",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
+      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
     },
     {
       "identifier": "apvm",
@@ -62,7 +62,7 @@
       "conceptdef": null,
       "measunit": null,
       "classification": null,
-      "variablegroups": "Sanssikortti, Palvelulinja"
+      "variablegroups": "Palvelulinja, Sanssikortti"
     },
     {
       "identifier": "hakijanaidinkieli",
@@ -99,7 +99,7 @@
     {
       "identifier": "kielikirjtaso",
       "variablename": "Kirjallinen taito",
-      "conceptdef": "Vuodesta 2020 alkaen nimellä szkielikirjtaso. 01 = äidinkieli  \n02 = erittäin hyvä\n  03 = hyvä  \n04 = tyydyttävä  \n05 = heikko  \n06 = koodi poistetaan",
+      "conceptdef": "Vuodesta 2020 alkaen nimellä szkielikirjtaso. \n01 = äidinkieli  \n02 = erittäin hyvä\n03 = hyvä  \n04 = tyydyttävä  \n05 = heikko  \n06 = koodi poistetaan",
       "measunit": null,
       "classification": null,
       "variablegroups": "Kaikkien_kielitaito"
@@ -107,7 +107,7 @@
     {
       "identifier": "kielisuulltaso",
       "variablename": "Suullinen taito",
-      "conceptdef": "Vuodesta 2020 alkaen nimellä szkielisuulltaso. 01 = äidinkieli  \n02 = erittäin hyvä\n  03 = hyvä  \n04 = tyydyttävä  \n05 = heikko  \n06 = koodi poistetaan",
+      "conceptdef": "Vuodesta 2020 alkaen nimellä szkielisuulltaso. \n01 = äidinkieli  \n02 = erittäin hyvä\n03 = hyvä  \n04 = tyydyttävä  \n05 = heikko  \n06 = koodi poistetaan",
       "measunit": null,
       "classification": null,
       "variablegroups": "Kaikkien_kielitaito"
@@ -123,7 +123,7 @@
     {
       "identifier": "kieliyleinentaso",
       "variablename": "Kielitaidon yleinen taso",
-      "conceptdef": "Vuodesta 2020 alkaen nimellä szkieliyleinentaso. A1.1 = Kielitaidon alkeiden hallinta\n  A1.2 = Kehittyvä alkeiskielitaito  \nA1.3 = Toimiva alkeiskielitaito  \nA2.1 = Peruskielitaidon alkuvaihe  \nA2.2 = Kehittyvä peruskielitaito  \nB1.1 = Toimiva peruskielitaso  \nB1.2 = Sujuva peruskielitaito  \nB2.1 = Itsenäisen kielitaidon perustaso  \nB2.2 = Toimiva itsenäinen peruskielitaito  \nX = Kielitaitoa ei ole testattu",
+      "conceptdef": "Vuodesta 2020 alkaen nimellä szkieliyleinentaso. \nA1.1 = Kielitaidon alkeiden hallinta\nA1.2 = Kehittyvä alkeiskielitaito  \nA1.3 = Toimiva alkeiskielitaito  \nA2.1 = Peruskielitaidon alkuvaihe  \nA2.2 = Kehittyvä peruskielitaito  \nB1.1 = Toimiva peruskielitaso  \nB1.2 = Sujuva peruskielitaito  \nB2.1 = Itsenäisen kielitaidon perustaso  \nB2.2 = Toimiva itsenäinen peruskielitaito  \nX = Kielitaitoa ei ole testattu",
       "measunit": null,
       "classification": null,
       "variablegroups": "Maahanmuuttajien_kielitaito"
@@ -134,7 +134,7 @@
       "conceptdef": "Rekisterissä kuntakoodeina käytetään Tilastoikeskuksen ylläpitämiä 3-numeroisia kuntakoodeja. Jos työnhakijan asuinpaikka on työnhaun alussa Ruotsissa, merkitään kuntakoodiksi 198, tai Norjassa, merkitään 197, tai muualla ulkomailla, merkitään 200. Katso Tilastokeskus alueluokitukset",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
+      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
     },
     {
       "identifier": "lpvm",
@@ -142,7 +142,7 @@
       "conceptdef": null,
       "measunit": null,
       "classification": null,
-      "variablegroups": "Palvelulinja, Sanssikortti"
+      "variablegroups": "Sanssikortti, Palvelulinja"
     },
     {
       "identifier": "oppisopimus",
@@ -158,7 +158,7 @@
       "conceptdef": "Poiminta tehty tämän mukaan",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
+      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
     },
     {
       "identifier": "segmenttikoodi",
@@ -195,7 +195,7 @@
     {
       "identifier": "toimiala",
       "variablename": "Työnantajan toimiala",
-      "conceptdef": "työnantajan toimiala eli ei työpaikan toimiala : toimialaluokitus Katso Tilastokeskus henkilöluokitukset",
+      "conceptdef": "työnantajan toimiala eli ei työpaikan toimiala: toimialaluokitus. Katso Tilastokeskus henkilöluokitukset",
       "measunit": null,
       "classification": null,
       "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
@@ -203,7 +203,7 @@
     {
       "identifier": "toimikoodi",
       "variablename": "Suunnitelmassa sovitetut tehtävä",
-      "conceptdef": "000 = Määrittelemätön; 001 = Hankin tietoa, jota tarvitsen; 002 = Haen työpaikkoja; 003 = Työnhakukeskuksen palvelut; 004 = Julkaisen CV:ni CV-netissä; 005 = Otan käyttöön Paikkavahdin; 006 = Henkilökohtainen työnvälitys (esittelyt, tarjoukset); 007 = Osallistun työnhakuvalmennukseen; 008 = Osallistun uudelleensijoittumisvalmennukseen; 009 = Selvitän, miten voin hakea töitä Euroopasta (Eures); 010 = Selvitän, mitkä ovat valmiuteni ryhtyä yrittäjäksi; 011 = Selvitän verkkopalveluiden avulla ammatillisia vaihtoehtojani; 012 = Henkilökohtainen urasuunnittelu; 013 = Kartoitan osaamistani ja ammattitaitoani ohjatusti; 014 = Henkilökohtainen koulutusneuvonta; 015 = Henkilökohtainen kuntoutussuunnittelu; 016 = Osallistun työkykyni selvittämiseen; 017 = Tapaan työhönvalmentajan sovitusti; 018 = Osallistun työkokeiluun työpaikalla; 019 = Työelämävalmennus; 020 = Työharjoittelu; 021 = Haen opiskelemaan työttömyysetuudella tuetusti; 022 = Haen työvoimakoulutuksena järjestettävään koulutukseen; 023 = Valmentava työvoimakoulutus; 024 = Haen oppisopimuskoulutukseen; 025 = Kotoutujan rinnasteinen koulutus; 026 = Palkkatuettu työ; 027 = Asioin sovitusti työvoiman palvelukeskuksessa; 028 = Työvoimapalveluja täydentävät palvelut; 029 = Osallistun kuntouttavaan työtoimintaan; 030 = Tarvitsen muita viranomaispalveluja; 031 = Selvitän mahdollisuuksiani saada eläkettä; 032 = Tarvitsen muita palveluja; 033 = Ei soveltuvia palveluja tarjolla; 034 = Menen terveystarkastukseen; 035 = Osallistun maahanmuuttajien alkukartoitukseen; 036 = Haen opiskelemaan työttömyysetuudella tuettuun kotoutumiskoulutukseen; 037 = Haen kotoutumiskoulutukseen, jota järjestetään työvoimakoulutuksena; 038 = Haen työvoimakoulutuksena järjestettävään perusopetukseen; 039 = Selvitän mahdollisen yritykseni toimintaa ja kannattavuutta; 040 = Haen starttirahaa; 041 = Keskustelen ammatillisista mahdollisuuksistani asiantuntijan kanssa; 042 = Osallistun uravalmennukseen; 043 = Osallistun koulutuskokeiluun oppilaitoksessa; 044 = Tarvitsen muun asiantuntijan arviointiapua tilanteestani; 045 = Ilmoitan, että opintoni ovat edenneet suunnitellusti;046 =\tLuen verkkosivulta työnhakijan oikeuksista ja velvollisuuksista;\n047 =\tJulkaisen CV:n CV-netissä tai muissa osaamisprofiileissa ja pidän sen voimassa;\n048 =\tTilaan itselleni Avoimet työpaikat -hakupalvelun Työpaikkavahdin ja pidän tilaukseni voimassa;\n049 =\tHaen aktiivisesti työpaikkoja eri työnhakukanavia apuna käyttäen sekä osallistun TE-palvelujen järjestämiin soveltuviin rekrytointitilaisuuksiin;\n050 =\tJulkaisen CV:ni Eures-verkkosivuilla ja haen aktiivisesti työpaikkoja Euroopasta eri työnhakukanavia käyttäen;\n051 =\tHakeudun työnhakuvalmennukseen työnhakutaitojeni parantamiseksi;\n052 =\tTutustun verkossa yrityksen perustamiseen tai osallistun tilaisuuteen, jossa aihetta käsitellään;\n053 =\tLaadin toteuttamiskelpoisen liiketoimintasuunnitelman päätoimista yrittäjyyttä varten;\n054 =\tSelvitän yritystoiminnan rahoittamisen mahdollisuudet ja haen tarvittaessa starttirahaa turvatakseni toimeentuloni;\n055 =\tArvioin työllistymiseni edellytyksiä verkkotyökalun avulla;\n056 =\tSelvitän ammatillisia vaihtoehtojani ammatinvalinnan verkkotyökalun tai verkkosivuston avulla;\n057 =\tHankin tietoa koulutusmahdollisuuksista Suomesta tai muualta Euroopasta;\n058 =\tHakeudun osaamiseni ja ammattitaitoni kartoitukseen;\n059 =\tArvioin ja selvitän ammatillisia mahdollisuuksiani sekä soveltuvaa koulutus- tai työuraa asiantuntijan kanssa;\n060 =\tSuunnittelen soveltuvaa koulutus- ja työuraa ammatinvalinta- ja uraohjauksen psykologin kanssa;\n061 =\tHakeudun uravalmennukseen;\n062 =\tHakeudun  koulutuskokeiluun oppilaitoksessa;\n063 =\tHakeudun työkokeiluun työpaikalla;\n064 =\tHaen työvoimakoulutukseen ja tilaan tarvittaessa sähköpostiini Koulutusvahdilla viestejä alkavista koulutuksista;\n065 =\tHakeudun oppisopimuskoulutukseen;\n066 =\tHaen omaehtoisiin opintoihin;\n067 =\tIlmoitan, että työttömyysetuudella tuetut opintoni ovat edenneet suunnitellusti;\n068 =\tOsallistun työtoiveiden suunnitteluun sekä koulutukseen tai uuteen ammattiin liittyvään työkykyni selvittämiseen;\n069 =\tTarvitsen TE-toimiston palvelujen lisäksi esim. terveydentilan, kuntoutuksen tai eläkemahdollisuuksien selvittämistä;\n070 =\tTapaan työhönvalmentajani sovitusti saadakseni tukea työllistymiseeni;\n071 =\tAsioin sovitusti työllistymistäni edistävässä monialaisessa yhteispalvelussa;\n072 =\tHakeudun  kuntouttavaan työtoimintaan;\n073 =\tHakeudun työnantajan irtisanomistilanteissa järjestämään uudelleensijoittumisvalmennukseen;\n074 =\tMonialaisen yhteispalvelun asiakas;\n075 =\tJulkaisen CV:n osaamisprofiileissa ja pidän sen voimassa työnhakijana oloajan;\n076 =\tMuu kotoutumistani edistävä toiminta;\n077 =\tHaen aktiivisesti palkkatuettuja työpaikkoja;",
+      "conceptdef": "000 = Määrittelemätön; \n001 = Hankin tietoa, jota tarvitsen; \n002 = Haen työpaikkoja; \n003 = Työnhakukeskuksen palvelut; \n004 = Julkaisen CV:ni CV-netissä; \n005 = Otan käyttöön Paikkavahdin; \n006 = Henkilökohtainen työnvälitys (esittelyt, tarjoukset); \n007 = Osallistun työnhakuvalmennukseen; \n008 = Osallistun uudelleensijoittumisvalmennukseen; \n009 = Selvitän, miten voin hakea töitä Euroopasta (Eures); \n010 = Selvitän, mitkä ovat valmiuteni ryhtyä yrittäjäksi; \n011 = Selvitän verkkopalveluiden avulla ammatillisia vaihtoehtojani; \n012 = Henkilökohtainen urasuunnittelu; \n013 = Kartoitan osaamistani ja ammattitaitoani ohjatusti; \n014 = Henkilökohtainen koulutusneuvonta; \n015 = Henkilökohtainen kuntoutussuunnittelu; \n016 = Osallistun työkykyni selvittämiseen; \n017 = Tapaan työhönvalmentajan sovitusti; \n018 = Osallistun työkokeiluun työpaikalla; \n019 = Työelämävalmennus; \n020 = Työharjoittelu; \n021 = Haen opiskelemaan työttömyysetuudella tuetusti; \n022 = Haen työvoimakoulutuksena järjestettävään koulutukseen; \n023 = Valmentava työvoimakoulutus; \n024 = Haen oppisopimuskoulutukseen; \n025 = Kotoutujan rinnasteinen koulutus; \n026 = Palkkatuettu työ; \n027 = Asioin sovitusti työvoiman palvelukeskuksessa; \n028 = Työvoimapalveluja täydentävät palvelut; \n029 = Osallistun kuntouttavaan työtoimintaan; \n030 = Tarvitsen muita viranomaispalveluja; \n031 = Selvitän mahdollisuuksiani saada eläkettä; \n032 = Tarvitsen muita palveluja; \n033 = Ei soveltuvia palveluja tarjolla; \n034 = Menen terveystarkastukseen; \n035 = Osallistun maahanmuuttajien alkukartoitukseen; \n036 = Haen opiskelemaan työttömyysetuudella tuettuun kotoutumiskoulutukseen; \n037 = Haen kotoutumiskoulutukseen, jota järjestetään työvoimakoulutuksena; \n038 = Haen työvoimakoulutuksena järjestettävään perusopetukseen; \n039 = Selvitän mahdollisen yritykseni toimintaa ja kannattavuutta; \n040 = Haen starttirahaa; \n041 = Keskustelen ammatillisista mahdollisuuksistani asiantuntijan kanssa; \n042 = Osallistun uravalmennukseen; \n043 = Osallistun koulutuskokeiluun oppilaitoksessa; \n044 = Tarvitsen muun asiantuntijan arviointiapua tilanteestani; \n045 = Ilmoitan, että opintoni ovat edenneet suunnitellusti;\n046 = Luen verkkosivulta työnhakijan oikeuksista ja velvollisuuksista;\n047 = Julkaisen CV:n CV-netissä tai muissa osaamisprofiileissa ja pidän sen voimassa;\n048 = Tilaan itselleni Avoimet työpaikat -hakupalvelun Työpaikkavahdin ja pidän tilaukseni voimassa;\n049 = Haen aktiivisesti työpaikkoja eri työnhakukanavia apuna käyttäen sekä osallistun TE-palvelujen järjestämiin soveltuviin rekrytointitilaisuuksiin;\n050 = Julkaisen CV:ni Eures-verkkosivuilla ja haen aktiivisesti työpaikkoja Euroopasta eri työnhakukanavia käyttäen;\n051 = Hakeudun työnhakuvalmennukseen työnhakutaitojeni parantamiseksi;\n052 = Tutustun verkossa yrityksen perustamiseen tai osallistun tilaisuuteen, jossa aihetta käsitellään;\n053 = Laadin toteuttamiskelpoisen liiketoimintasuunnitelman päätoimista yrittäjyyttä varten;\n054 = Selvitän yritystoiminnan rahoittamisen mahdollisuudet ja haen tarvittaessa starttirahaa turvatakseni toimeentuloni;\n055 = Arvioin työllistymiseni edellytyksiä verkkotyökalun avulla;\n056 = Selvitän ammatillisia vaihtoehtojani ammatinvalinnan verkkotyökalun tai verkkosivuston avulla;\n057 = Hankin tietoa koulutusmahdollisuuksista Suomesta tai muualta Euroopasta;\n058 = Hakeudun osaamiseni ja ammattitaitoni kartoitukseen;\n059 = Arvioin ja selvitän ammatillisia mahdollisuuksiani sekä soveltuvaa koulutus- tai työuraa asiantuntijan kanssa;\n060 = Suunnittelen soveltuvaa koulutus- ja työuraa ammatinvalinta- ja uraohjauksen psykologin kanssa;\n061 = Hakeudun uravalmennukseen;\n062 = Hakeudun  koulutuskokeiluun oppilaitoksessa;\n063 = Hakeudun työkokeiluun työpaikalla;\n064 = Haen työvoimakoulutukseen ja tilaan tarvittaessa sähköpostiini Koulutusvahdilla viestejä alkavista koulutuksista;\n065 = Hakeudun oppisopimuskoulutukseen;\n066 = Haen omaehtoisiin opintoihin;\n067 = Ilmoitan, että työttömyysetuudella tuetut opintoni ovat edenneet suunnitellusti;\n068 = Osallistun työtoiveiden suunnitteluun sekä koulutukseen tai uuteen ammattiin liittyvään työkykyni selvittämiseen;\n069 = Tarvitsen TE-toimiston palvelujen lisäksi esim. terveydentilan, kuntoutuksen tai eläkemahdollisuuksien selvittämistä;\n070 = Tapaan työhönvalmentajani sovitusti saadakseni tukea työllistymiseeni;\n071 = Asioin sovitusti työllistymistäni edistävässä monialaisessa yhteispalvelussa;\n072 = Hakeudun  kuntouttavaan työtoimintaan;\n073 = Hakeudun työnantajan irtisanomistilanteissa järjestämään uudelleensijoittumisvalmennukseen;\n074 = Monialaisen yhteispalvelun asiakas;\n075 = Julkaisen CV:n osaamisprofiileissa ja pidän sen voimassa työnhakijana oloajan;\n076 = Muu kotoutumistani edistävä toiminta;\n077 = Haen aktiivisesti palkkatuettuja työpaikkoja;\n078 = Osallistun työllistymistäni tukevaan palveluun;\n079 = Työnhakuvelvollisuus;\n080 = Selvitän mahdollisuuksiani yrittäjyyteen esim. yrityksen perustaminen, liiketoimintasuunnitelman laatiminen, yritystoiminnan rahoitus jne.;\n081 = Osallistun osaamiseni ja ammattitaitoni kartoitukseen;\n082 = Osallistun koulutuskokeiluun oppilaitoksessa ammatinvalinta- ja uravaihtoehtojen selvittämiseksi;\n083 = Haen koulutukseen parantaakseni ammattitaitoani, mahdollisuuttani saada työtä tai säilyttääkseni työpaikkani;\n084 = Osallistun TE-toimiston palvelujen lisäksi esim. terveydentilan tai kuntoutuksen selvittämiseen;\n085 = Selvitän eläkemahdollisuuksiani;\n086 = Osallistun kuntouttavaan työtoimintaan elämänhallintani ja työllistymiseni parantamiseksi;\n087 = Osallistun työnantajan irtisanomistilanteissa järjestämään uudelleensijoittumisvalmennukseen;\n088 = Muu henkilökohtainen työnhakua tai työllistymistä edistävä palvelu;\n089 = Muu täydentävä työnhakua tai työllistymisen yleisiä edellytyksiä parantava palvelu;\n090 = Osallistun minulle hankittavaan muutosturvakoulutukseen;",
       "measunit": null,
       "classification": null,
       "variablegroups": "Suunnitelmat"
@@ -227,7 +227,7 @@
     {
       "identifier": "toimsuunlaji",
       "variablename": "Suunnitelman laji",
-      "conceptdef": "01 = Työllistymissuunnitelma\n  02 = Työllistymisohjelma  \n03 = Aktivointisuunnitelma  \n04 = Kotoutumissuunnitelma  \n05 = Yksilöity työnhakusuunnitelma  \n06 = Uudistettu, yksilöity työnhakusuunnitelma",
+      "conceptdef": "01 = Työllistymissuunnitelma\n02 = Työllistymisohjelma  \n03 = Aktivointisuunnitelma  \n04 = Kotoutumissuunnitelma  \n05 = Yksilöity työnhakusuunnitelma  \n06 = Uudistettu, yksilöity työnhakusuunnitelma\n07 = Monialainen työllistymissuunnitelma",
       "measunit": null,
       "classification": null,
       "variablegroups": "Suunnitelmat"
@@ -243,15 +243,15 @@
     {
       "identifier": "tuloskoodi",
       "variablename": "Työtarjouksen tulos",
-      "conceptdef": "01 = Työnvälitys  \n02 = Paikka täytetty  \n03 = Paikka peruutettu\n  04 = TA ei hyväksy hakijaa  \n05 = HA ei hyväksy tarj.  \n06 = HA ei ottanut yht. TA:aan  \n07 = eKirje peruttu  \n08 = sopimusta ei syntynyt  \n09 = Muu/ei tietoa  \n10 = HA ei tavoittanut TA:aa\n  11 = Muu syy  \n12 = Ei tietoa\n  13 = Tarjous peruttu  \n51 = Valinta kesken\n  52 = Valittu, alkamispvm ei tiedossa",
+      "conceptdef": "01 = Työnvälitys  \n02 = Paikka täytetty  \n03 = Paikka peruutettu\n04 = TA ei hyväksy hakijaa  \n05 = HA ei hyväksy tarj.  \n06 = HA ei ottanut yht. TA:aan  \n07 = eKirje peruttu  \n08 = sopimusta ei syntynyt  \n09 = Muu/ei tietoa  \n10 = HA ei tavoittanut TA:aa\n11 = Muu syy  \n12 = Ei tietoa\n13 = Tarjous peruttu  \n51 = Valinta kesken\n52 = Valittu, alkamispvm ei tiedossa",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
+      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
     },
     {
       "identifier": "tyoaikakoodi",
       "variablename": "Työn työaika",
-      "conceptdef": "01 = kokoaikatyö\n  03 = 2-vuorotyö\n  04 = 3-vuorotyö  \n05 = 4-5 -vuorotyö  \n06 = yötyö  \n07 = osapäivätyö  \n08 = muu osa-aikatyö\n  09 = iltatyö\n  10 = viikonlopputyö",
+      "conceptdef": "01 = kokoaikatyö\n03 = 2-vuorotyö\n04 = 3-vuorotyö  \n05 = 4-5 -vuorotyö  \n06 = yötyö  \n07 = osapäivätyö  \n08 = muu osa-aikatyö\n09 = iltatyö\n10 = viikonlopputyö",
       "measunit": null,
       "classification": null,
       "variablegroups": "Tyotarjoukset"
@@ -262,7 +262,7 @@
       "conceptdef": "ko. työllisyyskoodin alkamispäivä",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
+      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
     },
     {
       "identifier": "tyok_lpvm",
@@ -270,12 +270,12 @@
       "conceptdef": "ko. työllisyyskoodin loppumispäivä",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tyotarjoukset, Palkkatukipaikat"
+      "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
     },
     {
       "identifier": "tyollkoodi",
       "variablename": "Työllisyyskoodi",
-      "conceptdef": "Hakijan työllisyyskoodi sillä hetkellä kun työtarjous tehty: \n00 = työssä oleva, työllistetty\n  01 = työssä oleva, yleisillä työmarkkinoilla\n  02 = työtön\n  03 = lomautettu\n  04 = lyhennetyllä työviikolla  \n05 = työvoiman ulkopuolella oleva  \n06 = Koodi ei käytössä (ent. työttömyyseläke)  \n07 = työllistymistä edistävässä palvelussa\n  08 = koulutuksessa",
+      "conceptdef": "Hakijan työllisyyskoodi sillä hetkellä kun työtarjous tehty: \n00 = työssä oleva, työllistetty\n01 = työssä oleva, yleisillä työmarkkinoilla\n02 = työtön\n03 = lomautettu\n04 = lyhennetyllä työviikolla  \n05 = työvoiman ulkopuolella oleva  \n06 = Koodi ei käytössä (ent. työttömyyseläke)  \n07 = työllistymistä edistävässä palvelussa\n08 = koulutuksessa\n09 = osa-aikatyössä oleva",
       "measunit": null,
       "classification": null,
       "variablegroups": "Palkkatukipaikat, Tyotarjoukset"
@@ -291,7 +291,7 @@
     {
       "identifier": "tyosuhttyyppi",
       "variablename": "Työsuhteen tyyppi",
-      "conceptdef": "Työsuhteen tyyppi eli ei työpaikan tyyppi  \n01 = palkkatyö\n  02 = provisio  \n03 = yrittäjä  \n04 = vuorottelu",
+      "conceptdef": "Työsuhteen tyyppi eli ei työpaikan tyyppi  \n01 = palkkatyö\n02 = provisio  \n03 = yrittäjä  \n04 = vuorottelu",
       "measunit": null,
       "classification": null,
       "variablegroups": "Tyotarjoukset"
@@ -302,12 +302,12 @@
       "conceptdef": "Poiminta tehty tämän mukaan yhteydenottotavat-tiedostossa",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Sanssikortti, Yhteydenottotavat"
+      "variablegroups": "Yhteydenottotavat, Sanssikortti"
     },
     {
       "identifier": "yhtottotapa",
       "variablename": "Yhteydenottotapa (uuden koodit käytössä 5.12.2010 alkaen)",
-      "conceptdef": "01 = Soitto asiakkaalle\n  02 = Soittoyritys asiakkaalle  \n03 = Kirje asiakkaalle  \n04 = Tekstiviesti asiakkaalle  \n05 = Sähköposti asiakkaalle\n  20 = Videoneuvottelu\n  31 = Asiakkaan soitto\n  32 = Asiakkaan kirje\n  33 = Asiakkaan tekstiviesti\n  34 = Asiakkaan sähköposti\n  35 = Asiakkaan käynti aikavarauksella  \n36 = Asiakkaan käynti ilman aikavarausta  \n95 = Muu yhteydenotto  \n96 = Muu tallennus toimistossa  \n97 = Asiointi verkossa\n  98 = Ei tiedossa  \n99 = Muu tallennus",
+      "conceptdef": "01 = Soitto asiakkaalle\n02 = Soittoyritys asiakkaalle  \n03 = Kirje asiakkaalle  \n04 = Tekstiviesti asiakkaalle  \n05 = Sähköposti asiakkaalle\n20 = Videoneuvottelu\n21 = Alkuhaastattelu käynti\n22 = Alkuhaastattelu videoneuvottelu\n23 = Alkuhaastattelu puhelinsoitto\n24 = Täydentävä työnhakukeskustelu käynti\n25 = Täydentävä työnhakukeskustelu videoneuvottelu\n26 = Täydentävä työnhakukeskustelu puhelinsoitto\n27 = Työnhakukeskustelu käynti\n28 = Työnhakukeskustelu videoneuvottelu\n29 = Työnhakukeskustelu puhelinsoitto\n30 = Täydentävä työnhakukeskustelu palveluntuottajalla\n31 = Asiakkaan soitto\n32 = Asiakkaan kirje\n33 = Asiakkaan tekstiviesti\n34 = Asiakkaan sähköposti\n35 = Asiakkaan käynti aikavarauksella  \n36 = Asiakkaan käynti ilman aikavarausta \n70 = Haastattelukäynti\n71 = Haastattelu videoneuvotteluna\n72 = Haastattelu puhelimitse\n80 = Haastattelukäynti palveluntuottajalla\n81 = Haastattelu palveluntuottajalla videoneuvotteluna\n82 = Haastattelu palveluntuottajalla puhelimitse\n95 = Muu yhteydenotto  \n96 = Muu tallennus toimistossa  \n97 = Asiointi verkossa\n98 = Ei tiedossa  \n99 = Muu tallennus",
       "measunit": null,
       "classification": null,
       "variablegroups": "Yhteydenottotavat"

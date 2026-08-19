@@ -1,4 +1,4 @@
-# FIRM_GVC Toimintojen ulkoistaminen ja siirtäminen ulkomaille -kyselyn aineisto 2001–2006 (International Sourcing -hanke) (ya228)
+# FIRM_GVC Toimintojen ulkoistaminen ja siirtäminen ulkomaille -kyselyn aineisto 2001–2006 (International Sourcing -hanke)
 
 - **Identifier:** `FIRM_20012006_jua_gvc_001.xml`
 - **DOI:** `work_2013-12_2013-12-09_ain_0001`

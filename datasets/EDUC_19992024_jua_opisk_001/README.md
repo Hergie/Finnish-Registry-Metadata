@@ -1,109 +1,113 @@
-# EDUC_OPISK Opiskelijat 1999 - 2024
+# EDUC_OPISK Opiskelijat, v. 1999 - 2024
 
 - **Identifier:** `EDUC_19992024_jua_opisk_001.xml`
 - **DOI:** `he_201304_ain_Opiskelutekeilla`
 - **Temporal coverage:** 1999-01-01 - 2024-12-31
-- **Published:** 2026-03-25
+- **Published:** 2026-08-14
 - **Organisation:** Tilastokeskus
 - **Variable count:** 86
 - **Observation count:** —
 - **Population:** Tutkintoon johtavan koulutuksen opiskelijat Suomessa
-- **Source:** TK: Oppilaitostilastot
+- **Source:** Tilastokeskuksen ikätilastoa varten keräämät henkilöpohjaiset tiedot, Tilastokeskuksen opiskelijat ja tutkinnot -tilasto.
+- **Related:** <a href= "https://stat.fi/fi/tilasto/opiskt">https://stat.fi/fi/tilasto/opiskt</a>
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
 ## Description
 
-Opiskelijamoduuli sisältää tiedot opiskelijoista, jotka ovat olleet 20.9. kirjoilla tutkintoon johtavassa lukiokoulutuksessa, ammattikorkeakoulu- ja yliopistokoulutuksessa. Tietosisältö kattaa myös kalenterivuonna ammatillisessa koulutuksessa kirjoilla olleet tai oppisopimukseen osallistuneet opiskelijat. Lisäksi vuodesta 2013 alkaen mukana ovat ammattikorkeakoulukoulutuksen tutkintoon johtamattoman koulutuksen opiskelijat (OPLU=1) ja vuosista 2015/2016 alkaen yliopistokoulutuksen tutkintoon johtamatonta koulutusta suorittaneet opiskelijat (tarkemmin muuttuja klaji). Ammattikorkeakouluaineistossa mukana ovat lisäksi alkuvuonna aloittaneet, jotka eivät ole ilmoittautuneet 20.9. mennessä (alkuvuonna ko. oppilaitoksessa ko. koulutuksen keskeyttäneet tai tutkinnon suorittaneet, OPLU=1).  Vuodesta 2013 alkaen ammatillisen koulutuksen opiskelijatiedot ovat koko vuodelta.
+EDUC_OPISK-valmisaineisto sisältää tietoja muun muassa henkilöiden demografisista taustatekijöistä, oppilaitoksista, koulutus- ja opiskelumuodoista, suoritetuista opintoviikoista ja -pisteistä sekä koulutuslajeista.
 
-Opiskelijamoduulin aineisto koostuu seuraavista tiedostoista:
-educ_opisk_1995
-educ_opisk_1996
-educ_opisk_1997
-educ_opisk_1998
-educ_opisk_1999_2005
-educ_opisk_2006_2018
-educ_opisk_2019
-educ_opisk_2020
-educ_opisk_2021
-educ_opisk_2022
-educ_opisk_2023
-educ_opisk_2024
+Tämä aineistokuvaus koskee vuosien 1999–2024 vuositiedostoja. EDUC_OPISK-aineistosta on erilliset kuvaukset edeltävien vuosien vuositiedostoille 1995, 1996, 1997 ja 1998. 
 
-Aineiston opiskelutiedot ovat melko yhdenmukaisia vuodesta 1999 alkaen. Vuosien 1995 - 1998 tietojen sisältö on selvästi suppeampi kuin vuodesta 1999 eteenpäin.
+<b> Valmisaineiston tarkentava nimi </b> 
+Opiskelijoiden tiedot lukiokoulutuksessa, ammatillisessa koulutuksessa, oppisopimuskoulutuksessa ja ammattikorkeakoulu- ja yliopistokoulutuksessa kirjoilla olleista, sisältäen kansalaisuus-, kieli- ja opintotietoja.
 
-Opiskelusta on erikseen saatavilla arkaluonteisia erityisopetukseen liittyviä muuttujia, joihin annetaan käyttöoikeus vain, jos niihin on tutkimuksellisesta syystä erityinen tarve. 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Aineisto sisältää tiedot opiskelijoista, jotka ovat olleet 20.9. kirjoilla tutkintoon johtavassa koulutuksessa seuraavilla koulutussektoreilla: lukiokoulutus, ammattikorkeakoulukoulutus ja yliopistokoulutus. Lisäksi moduuli kattaa kalenterivuoden aikana ammatillisessa koulutuksessa kirjoilla olleet tai oppisopimuskoulutukseen osallistuneet opiskelijat.
 
-YLEISIMMÄT KÄYTTÖTAVAT:
-* Kaikki lukio- ja ammatillinen koulutus on tutkintoon johtavaa koulutusta. Ammattikorkea- ja yliopistokoulutuksen tutkintoon johtava koulutus saadaan pudottamalla pois tutkintoon johtamaton koulutus (OPLU=1).	
-* Jaottelu lukiokoulutukseen, ammatilliseen koulutukseen, ammattikorkeakoulukoulutukseen ja yliopistokoulutukseen saadaan muuttujan AIN tai KLAJI avulla.	
-* Mikäli halutaan kukin henkilö mukaan vain kerran ensisijaisesti opiskelemansa koulutuksen perusteella, käytetään muuttujaa OPRIOR.	
-* Koulutuksessa läsnä olleet saadaan poimittua valitsemalla OLOSYYS (tai OLOTAMM) -muuttujan arvo 1.
-   HUOM! Lukiokoulutuksessa, ammattikorkeakoulutuksessa ja yliopistokoulutuksessa muuttuja OLOTAMM ei sisällä kaikkia kevään opiskelijoita vaan vain ne, jotka jatkoivat opiskeluaan syksyllä 20.9. Ammatillisessa koulutuksessa OLOTAMM = 1 sisältää opiskelijat, jotka ovat olleet kirjoilla oppilaitoksessa 20.1. ja oppisopimuskoulutuksessa jossain vaiheessa kalenterivuotta opiskelleet. Tähän määritelmään on tullut muutos tv. 2018. Aiemman määritelmän mukaan ammatillisessa koulutuksessa OLOTAMM = 1 sisältää opetussuunnitelmaperusteisen koulutuksen opiskelijat, jotka ovat olleet kirjoilla oppilaitoksessa 20.1. sekä oppilaitosmuotoisessa näyttötutkintoon valmistavassa koulutuksessa ja oppisopimuskoulutuksessa jossain vaiheessa kalenterivuotta opiskelleet.
-* Jos tiedot halutaan koulutuksittain, käytetään yleensä koulutusluokituksen (standardiluokitus) 6-numeroista koulutuskoodia, joka löytyy muuttujasta KOULK. Koulutuskoodi on myös avain eri koulutusluokituksiin. Tutkinto-, koulutusohjelma- ja suuntautumisvaihtoehtonimikekoodit ja -nimikkeet tarkentavat koulutustietoa, mutta ovat paikoin epävirallisia.
-* Uudet opiskelijat saadaan muuttujan ALVV avulla (ALVV=vuosi).
+<u>Laajennukset vuodesta 2013 alkaen:</u> 
+- Mukana ovat myös ammattikorkeakoulujen tutkintoon johtamattoman koulutuksen opiskelijat (muuttuja oplu= 1). Ammattikorkeakouluaineistossa ovat mukana myös alkuvuonna opintonsa aloittaneet, jotka eivät ole ilmoittautuneet 20.9. mennessä (esimerkiksi koulutuksen keskeyttäneet tai tutkinnon suorittaneet, oplu= 1). 
+- Vuodesta 2013 alkaen ammatillisen koulutuksen opiskelijatiedot kattavat koko kalenterivuoden, eivät vain syksyn tilanteen.
 
-LUOKITUKSET:
-* Luokitustiedot ovat tilastovuodelta, mikäli muuta mainintaa ei ole.
-* Tilastovuodesta 2016 alkaen Tilastokeskus raportoi koulutustiedot käyttäen uutta Kansallista koulutusluokitusta, joka vastaa Kansainvälistä ISCED 2011 -koulutusluokitusta.
-* Puuttuvat tiedot on usein koodattu merkillä yhdeksän (9) ja kuntamuuttujissa koodi 200 viittaa ulkomaihin.
+<u>Laajennukset vuodesta 2015/2016 alkaen: </u> 
+Mukaan on otettu myös yliopistojen tutkintoon johtamattomassa koulutuksessa opiskelevat, jotka tunnistetaan tarkemmin muuttujan klaji avulla.
+ 
+Aineiston opiskelutiedot ovat melko yhdenmukaisia vuodesta 1999 alkaen. Sen sijaan vuosien 1995–1998 tiedot ovat sisällöltään selvästi suppeampia.
 
-MUUTOKSET:
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+- Kaikki lukio- ja ammatillinen koulutus on tutkintoon johtavaa koulutusta. Ammattikorkeakoulu- ja yliopistokoulutuksessa tutkintoon johtava koulutus saadaan rajaamalla pois tutkintoon johtamaton koulutus (oplu=1).
+- Jaottelu lukiokoulutukseen, ammatilliseen koulutukseen, ammattikorkeakoulukoulutukseen ja yliopistokoulutukseen saadaan muuttujien ain tai  klaji avulla.
+- Mikäli halutaan kukin henkilö mukaan vain kerran ensisijaisen koulutuksen perusteella, käytetään muuttujaaoprior.
+- Koulutuksessa läsnä olevat opiskelijat saadaan poimittua valitsemalla olosyys = 1 (tai olotamm = 1).
+- Lukio-, ammattikorkeakoulu- ja yliopistokoulutuksessa muuttuja olotamm ei sisällä kaikkia keväällä opiskelleita, vaan ainoastaan ne opiskelijat, jotka jatkoivat opintojaan syksyllä 20.9. 
+- Ammatillisessa koulutuksessa olotamm=1 sisältää opiskelijat, jotka ovat olleet kirjoilla oppilaitoksessa 20.1. sekä ne, jotka ovat osallistuneet oppisopimuskoulutukseen kalenterivuoden aikana. Vuonna 2018 tähän määritelmään tehtiin muutos. Aiemmin ammatillisessa koulutuksessa olotamm=1 sisälsi opetussuunnitelmaperusteisen koulutuksen opiskelijat, jotka olivat kirjoilla oppilaitoksessa 20.1. sekä oppilaitosmuotoisessa näyttötutkintoon valmistavassa koulutuksessa ja oppisopimuskoulutuksessa kalenterivuoden aikana opiskelleet.
+- Mikäli tiedot halutaan koulutuksittain, käytetään yleensä koulutusluokituksen (standardiluokitus) 6-numeroista koulutuskoodia koulk, joka toimii avaimena eri koulutusluokituksiin. Tarkennuksia saa tutkinto-, koulutusohjelma- ja suuntautumisvaihtoehtojen nimikkeistä, mutta ne voivat olla epävirallisia.
+- Uudet opiskelijat poimitaan muuttujan alvv avulla (alvv=vuosi).
+- Lukiokoulutuksen tiedot eivät sisällä aineopiskelijoita. Julkaistuissa lukiotilastoissa aineopiskelijat ovat kuitenkin mukana vuoteen 1998 asti.
+- Vuosina 1999–2003 ammatillisen koulutuksen näyttötutkintoon valmistavan koulutuksen ja oppisopimuskoulutuksen tiedot perustuvat poikkileikkausajankohtaan 20.9., mikä tekee tiedoista koulutuksen luonteen huomioon ottaen alipeittäviä. Vuosien 1995–1998 aineisto ei sisällä näiden koulutusmuotojen opiskelijoita lainkaan.
+- Ammattikorkeakoulukoulutuksen tiedot sisältävät sekä vakinaisten ja väliaikaisten ammattikorkeakoulujen opiskelijat. Viimeiset väliaikaiset ammattikorkeakoulut olivat toiminnassa vuoteen 2002 asti.
+- Yliopistokoulutuksen tiedot ovat vuosina 1995–2001 ajankohdalta 31.12. ja vuodesta 2002 alkaen ne perustuvat 20.9. tilanteeseen.
+- Aineisto ei sisällä Maanpuolustuskorkeakoulun koulutuksia ennen vuotta 2010.
+- Vuodesta 1999 alkaen mukana ovat opiskelijat, joilla on joko oikea tai puutteellinen henkilötunnus. Vuosina 1996–1998 yliopistokoulutuksen osalta mukana ovat molemmat ryhmät, mutta muilta koulutussektoreilta vain opiskelijat, joilla on oikea henkilötunnus. Vuoden 1995 tiedoissa ovat mukana ainoastaan ne opiskelijat, joilla on oikea henkilötunnus.
+- Tilastovuodesta 2020 alkaen tiedosto on muodostettu yhdistämällä lukiokoulutuksen, ammatillisen koulutuksen, ammattikorkeakoulukoulutuksen ja yliopistokoulutuksen henkilöpohjaiset tiedostot. Nämä perustuvat opetuksen ja koulutuksen järjestäjien (oppilaitosten Opetushallituksen KOSKI-tietovarantoon tai Korkeakoulujen valtakunnalliseen VIRTA-tietovarantoon) ilmoittamiin tietoihin. Lisäksi on hyödynnetty näitä tietovarantoja täydentäviä tiedonkeruita.
+- Vuoteen 2019 asti tiedosto muodostettiin yhdistämällä lukiokoulutuksen, ammatillisen koulutuksen, ammattikorkeakoulukoulutuksen ja yliopistokoulutuksen henkilöpohjaiset tiedostot, jotka perustuvat Tilastokeskuksen oppilaitoksilta keräämin tietoihin. Päivälukioiden, ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen opiskelijatiedot vuosilta 1996–1998 perustuivat vuosittain pääteltyihin tietoihin. Vuoden 1995 osalta ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen tiedot perustuivat Tilastokeskuksen keräämiin henkilöpohjaisiin tietoihin, joihin lisättiin vuosina 1996, 1997 ja 1998 yhteishaussa tai sen ulkopuolella aloittaneet opiskelijat, ja joista poistettiin vuosina 1995, 1996, 1997 sekä tammi–syyskuussa 1998 tutkinnon suorittaneet. Päivälukioiden vuoden 1995 tiedot perustuivat opetushallinnon valtionosuusjärjestelmän henkilöpohjaisiin tietoihin, joita täydennettiin vastaavalla tavalla: lisättiin vuosina 1996–1998 aloittaneet ja poistettiin ylioppilastutkinnon suorittaneet.
 
-2023:
-- Aluemuuttujia askunx ja tilvaskunx ei enää päivitetä.
-- Klaji-muuttujan muutokset vuonna 2023:
-    - arvo 52 sisältää eläinlääkäreiden erikoistumiskoulutuksen, jos se on aloitettu 31.7.2023 mennessä.
-    - arvo 53 sisältää eläinlääkäreiden erikoistumiskoulutuksen, jos se on aloitettu 1.8.2023 tai sen jälkeen.
-    - ammattikorkeakoulujen erikoistumisopintoja ei enää ole. Klajin arvo 43 pidetään kuvauksessa.
-- Muuttuja kirtupv sisältää vuodesta 2023 alkaen yliopistokoulutuksen, aiemmin vain amk-koulutuksen.
-- Muuttuja kirtu1pv sisältää vuodesta 2023 alkaen myös yliopistokoulutuksen, aiemmin vain amk-koulutuksen.
-- Kirtu-muuttuja on vain yliopistokoulutuksen muuttuja.
-- Muuttuja kokosa:  Määrittelyyn käytettään nyt kirtuv-muuttujaa, joka  tarkoittaa kirjoilletulovuotta ensimmäisen kerran ko. yliopistoon. Vuoteen 2022 asti käytettiin alvv-muuttujaan, joka tarkoittaa kirjoihintuloa (aloitusvuotta) ensimmäisen kerran ko. koulutukseen ko. yliopistoon. Tieto pohjasi tuolloin opoik-muuttujaan.
+Aineistosta on erikseen saatavilla myös arkaluonteisia erityisopetukseen liittyviä muuttujia. Näihin myönnetään käyttöoikeus vain, jos tutkimuksellinen tarve on perusteltu ja erityinen.
 
-2020:
-- Aineistosta on poistettu muuttujat OPPIS (Oppisopimuskoulutus), TOTEUMA (Kalenterivuoden toteuma), TODIS (Opiskelija on saanut todistuksen koulutuksen suorittamisesta) ja oppisopimusosuus (Oppisopimuksen osuus kalenterivuoden päivistä).
+<u>Tarkempaa tietoa luokituksista</u>
+- Luokitustiedot perustuvat tilastovuoteen, ellei toisin mainita.
+- Tilastovuodesta 2016 alkaen Tilastokeskus on raportoinut koulutustiedot uuden Kansallisen koulutusluokituksen mukaisesti, joka vastaa kansainvälistä ISCED 2011 -luokitusta. 
+- Puuttuvat tiedot on yleensä merkitty numerolla yhdeksän (9), ja kuntamuuttujissa koodi 200 viittaa ulkomaihin.
 
-2019: 
-- Muuttujien KLAJI, TUTALV, TUTALK, PURKU, RAHOITUS, S_OPJARJ, S_OPYRTUNN ja SUOROSAT arvoissa, nimikkeissä, tietojen saatavuudessa ja peitossa on muutoksia.
-- Aineistoon on lisätty muuttujat ERIL, KMUOTO, jarjestamiskoodi, s_henkiloOid, s_opiskeluOid, koulutussopimus_osuus, koulutussopimuspaivat, oppisopimusosuus, oppisopimuspaivat, oppilaitospaivat ja s_tyan.
-- Aineistosta on poistettu muuttujat TUTNIM (Tutkintonimike) ja KOUNIM (Koulutusohjelmanimike). Muuttujan TUT koodisto korvaa TUTNIM-muuttujan ja muuttujan KOU koodisto KOUNIM-muuttujan
+<u>Muutokset:</u>
+2012:
+- Muuttujien alvv ja allk sisältö muuttuivat yliopistokoulutuksessa siten, että nyt myös yliopistokoulutuksesta saadaan tieto siitä, milloin henkilö on aloittanut ensimmäistä kertaa kyseisen koulutuksen kyseisessä oppilaitoksessa. Aiemmin, vuoteen 2011 saakka yliopistokoulutuksen aloittamistiedot kuvasivat sitä ajankohtaa, jolloin opiskelija aloitti minkä tahansa koulutuksen kyseisessä oppilaitoksessa (ks. muuttuja kirtu). 
+- Opinto-oikeuden alkamista kuvannut muuttujja opoik on poistettu.
 
-2018:
-- Uusi laki ammatillisesta koulutuksesta tuli voimaan 1.1.2018. Koulutusta ei enää jaotella nuorille suunnattuun opetussuunnitelmaperusteiseen ja aikuisille suunnattuun näyttötutkintoon valmistavaan koulutukseen. Tämän vuoksi muuttuja TUTKTAV ei enää ole tiedostossa. Oppisopimuskoulutuksessa käytössä ollut muuttuja YRIT on myös poistettu.
-- Ammatillisen koulutuksen uudistus on vaikuttanut lisäksi muuttujiin KRYH, KLAJI, OPLU, TUTALV, TUTALK, OLOTAMM, OLOSYYS, RAHOITUS ja TYOV.
-- Muuttujissa RAHLAHDE, LKMMT ja AVO määritelmät ovat muuttuneet syistä, jotka eivät johdu ammatillisen koulutuksen uudistuksesta.
+2013
+- Ennen vuotta 2013 opetussuunnitelmaperusteisen ammatillisen koulutuksen opiskelijatiedot olivat 20.9. tilanteesta, kun taas näyttötutkintoon valmistavan ja oppisopimuskoulutuksen opiskelijatiedot kattoivat koko vuoden.
 
 2016:
-- Tilastovuodesta 2016 alkaen Tilastokeskus raportoi koulutustiedot käyttäen uutta Kansallista koulutusluokitusta, joka vastaa Kansainvälistä ISCED 2011 -koulutusluokitusta.
+- Tilastovuodesta 2016 alkaen Tilastokeskus on raportoinut koulutustiedot uuden Kansallisen koulutusluokituksen mukaisesti, joka vastaa Kansainvälistä ISCED 2011 -koulutusluokitusta.
 
-2013:
-- Ennen vuotta 2013 opetussuunnitelmaperusteisen ammatillisen koulutuksen opiskelijatiedot olivat 20.9. tilanteesta ja näyttötutkintoon valmistavan ja oppisopimuskoulutuksen opiskelijatiedot koko vuodelta
+2018:
+- Uusi laki ammatillisesta koulutuksesta tuli voimaan 1.1.2018, minkä myötä koulutusta ei enää jaotella nuorille suunnattuun opetussuunnitelmaperusteiseen ja aikuisille suunnattuun näyttötutkintoon valmistavaan koulutukseen. 
+- Uudistuksen myötä aineistosta on poistetu muuttujat tutktav sekä yrit.
+- Uudistus vaikutti myös muuttujiin kryh, klaji, oplu, tutalv, tutalk, olotamm, olosyys, rahoitus sekä tyov. 
+- Muuttujien rahlahde, lkmmt sekä avo määritelmät muuttuivat muista kuin ammatillisen koulutuksen uudistuksesta johtuvista syistä.
+ 
+2019:
+- Muuttujien klaji, tutalv, tutalk, purku, rahoitus, opjarj_s, opyrtunn_s sekä suorosat arvoissa, nimikkeissä, tietojen saatavuudessa ja peitossa tapahtui muutoksia.
+- Aineistoon lisättiin useita muuttujia, kuten eril, kmuoto,  jarjestamiskoodi, s_henkiloOid, s_opiskeluOid, koulutussopimus_osuus, koulutussopimuspaivat, oppisopimusosuus, oppisopimuspaivat, oppilaitospaivat sekä s_tyan.
+- Poistettu muuttujat tutnim(tutkintonimike) ja kounim (koulutusohjelmanimike). 
+- Muuttujan tut koodisto on korvannut -tutnim-muuttujan.
+- Muuttujan koukoodisto on korvannut kounim-muuttujan.
 
-2012:
-- Muuttujien ALVV ja ALLK sisältö on muuttunut yliopistokoulutuksessa. Nyt myös yliopistokoulutuksesta saadaan tieto siitä, milloin henkilö on alottanut ensimmäistä kertaa ko. koulutuksen ko. oppilaitoksessa.  Vuoteen 2011 saakka yliopistokoulutuksen aloittamistiedot kuvasivat sitä ajankohtaa, jolloin opiskelija aloitti opinnot ko. oppilaitoksessa missä tahansa koulutuksessa (ks. muuttuja KIRTU) Vanha muuttuja OPOIK, opinto-oikeuden alkaminen, on poistettu.
+2020: 
+Poistettu muuttujat oppis (oppisopimuskoulutus), toteuma (kalenterivuoden toteuma), todis (opiskelija on saanut todistuksen koulutuksen suorittamisesta) sekä oppisopimusosuus (oppisopimuksen osuus kalenterivuoden päivistä).
 
-- Lukiokoulutuksen tiedot eivät sisällä aineopiskelijoita (julkaistuissa lukiotilastoissa aineopiskelijat ovat mukana vuoteen 1998 asti).
-- Ennen vuotta 2004 (vuosina 1999 - 2003) ammatillisen koulutuksen näyttötutkintoon valmistavan koulutuksen ja oppisopimuskoulutuksen tiedot ovat poikkileikkausajankohdalta 20.9., mistä syystä tiedot ovat koulutuksen luonteen huomioon ottaen alipeittäviä. Aineisto ei sisällä em. opiskelijoita vuosilta 1995-1998. 
-- Ammattikorkeakoulukoulutus sisältää vakinaisten ja väliaikaisten ammattikorkeakoulujen opiskelijat. Viimeiset väliaikaiset ammattikorkeakoulut olivat toiminnassa 2002 asti. 
-- Yliopistokoulutuksessa vuosien 1995-2001 tiedot ovat ajankohdalta 31.12. ja vuodesta 2002 alkaen 20.9. tilanteesta. 
-- Tiedosto ei sisällä maanpuolustuskorkeakoulun koulutuksia ennen vuotta 2010. 
-- Vuodesta 1999 lähtien mukana ovat sekä oikean että puutteellisen henkilötunnuksen omaavat opiskelijat. Vuosina 1996-1998 yliopistokoulutuksesta ovat mukana sekä oikean että puutteellisen henkilötunnuksen opiskelijat, mutta muilta koulutussektoreilta vain oikean henkilötunnuksen opiskelijat. Vuoden 1995 tiedoissa ovat mukana vain ne, joilla on oikea henkilötunnus.  
+2023:
+Aluemuuttujia askunx ja tilvaskunx ei enää päivitetä.
 
-Tilastovuodesta 2020 alkaen tiedosto on muodostettu yhdistämällä lukiokoulutuksen, ammatillisen koulutuksen, ammattikorkeakoulukoulutuksen ja yliopistokoulutuksen henkilöpohjaiset tiedostot, jotka perustuvat opetuksen ja koulutuksen järjestäjien(oppilaitosten Opetushallituksen KOSKI-tietovarantoon tai Korkeakoulujen valtakunnalliseen tietovarantoon (VIRTA) ilmoittamiin tietoihin. Lisäksi on ollut käytössä edellä mainittuja tietovarantoja täydentäviä tiedonkeruita. 
+Klaji-muuttujassa tapahtuneet muutokset:
+- arvo 52 sisältää eläinlääkäreiden erikoistumiskoulutuksen, mikäli se on aloitettu 31.7.2023 mennessä.
+- arvo 53 sisältää eläinlääkäreiden erikoistumiskoulutuksen, mikäli se on aloitettu 1.8.2023 tai sen jälkeen.
+- ammattikorkeakoulujen erikoistumisopintoja ei enää ole. Klajin arvo 43 pidetään kuvauksessa.
+- Muuttujat kirtupv ja kirtu1pv sisältävät vuodesta 2023 alkaen yliopistokoulutuksen, kun aiemmin ne kattoivat vain amk-koulutuksen.
+- Kirtu-muuttuja koskee vain yliopistokoulutusta.
+- Muuttujan kokosa määrittelyssä käytettään nyt kirtuv-muuttujaa, joka kertoo kirjoille tulovuoden ensimmäistä kertaa kyseiseen yliopistoon. Vuoteen 2022 asti käytössä oli alvv-muuttuja, joka kuvasi aloitusvuotta kyseisessä koulutuksessa kyseisessä yliopistossa, ja tieto perustui tuolloin opoik-muuttujaan.
 
-Vuoteen 2019 asti tiedosto on muodostettu yhdistämällä lukiokoulutuksen, ammatillisen koulutuksen, ammattikorkeakoulukoulutuksen ja yliopistokoulutuksen henkilöpohjaiset tiedostot, jotka perustuvat Tilastokeskuksen oppilaitoksilta keräämin tietoihin. Tiedot päivälukioiden ja ammatillisten oppilaitosten sekä väliaikaisten ammattikorkeakoulujen opiskelijoista perustuvat vuosittain pääteltyihin tietoihin vuosina 1996 - 1998. Tiedot ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen opiskelijoiden osalta perustuvat vuonna 1995 Tilastokeskuksen oppilaitoksilta keräämiin henkilöpohjaisiin tietoihin. Näihin on lisätty vuosina 1996, 1997 ja 1998 yhteishauissa ja yhteishakujen ulkopuolella aloittaneet sekä poistettu vuosina 1995, 1996, 1997 ja tammi-syysk./1998 tutkinnon suorittaneet. Päivälukioiden opiskelijoita koskevat tiedot perustuvat vuoden 1995 opetushallinnon  
-valtionosuusjärjestelmän henkilöpohjaisiin tietoihin, joihin on lisätty vuosina 1996, 1997 ja 1998
-yhteishauissa ja yhteishakujen ulkopuolella aloittaneet sekä poistettu vuosina 1995, 1996, 1997 ja 1998
-ylioppilastutkinnon suorittaneet.
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
 
-KARKEISTETUT MUUTTUJATIEDOT:
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_OPISK_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
 
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_OPISK_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_OPISK, ja maksaa saman verran. EDUC_OPISK sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista.
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
-
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (86)
@@ -174,7 +178,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `rahlahde` | Opiskelijan rahoitustausta (ammattikorkeakoulukoulutus) | — | opiskelija_4_2018_01_01 | — |
 | `tilmaa` | Maksullisen tilauskoulutuksen sijaintimaa (ammattikorkeakoulukoulutus) | — | valtio_1_2012_01_01 | — |
 | `ltopo` | Pätevyyteen tähtäävät opinnot | — | opiskelu_5_2016_01_01 | — |
-| `fuksi` | Uusi yliopisto-opiskelija | — | opiskelija_3_2016_01_01 | E4 Yliopistokoulutus, E Lähdeaineistojen omat muuttujat |
+| `fuksi` | Uusi yliopisto-opiskelija | — | opiskelija_3_2016_01_01 | E Lähdeaineistojen omat muuttujat, E4 Yliopistokoulutus |
 | `tdk` | Tiedekunta/osasto (yliopistokoulutus) | — | — | — |
 | `tuotanto` | Tuotantopainotteinen koulutus (ammattikorkeakoulukoulutus) | — | — | — |
 | `avo` | Hyväksytty avoimen yliopiston opintojen perusteella (yliopistokoulutus) | — | opiskelija_2_2016_01_01 | — |
@@ -840,7 +844,7 @@ Vuonna 2015 muuttunut merkitys ja arvot:
 
 #### `fuksi` — Uusi yliopisto-opiskelija
 
-**Classification:** opiskelija_3_2016_01_01 · **Group:** E4 Yliopistokoulutus, E Lähdeaineistojen omat muuttujat
+**Classification:** opiskelija_3_2016_01_01 · **Group:** E Lähdeaineistojen omat muuttujat, E4 Yliopistokoulutus
 
 Uusi/vanha yliopisto-opiskelija. Tietoja vuodesta 2013 alkaen.
 0 = Vanha, ennen tilastovuotta kirjoittautunut opiskelija

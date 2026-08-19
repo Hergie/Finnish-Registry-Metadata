@@ -2,12 +2,12 @@
 
 - **Identifier:** `MIGR_OLESK_jua_voimassaoleva_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
-- **Temporal coverage:** 2011-01-01 - 2024-12-31
-- **Published:** 2025-09-05
+- **Temporal coverage:** 2011-01-01 - 2025-12-31
+- **Published:** 2026-04-14
 - **Organisation:** Tilastokeskus
 - **Variable count:** 18
 - **Observation count:** —
-- **Population:** Oleskelulupaa hakeneet
+- **Population:** Oleskelulupaa ja kv suojelua hakeneet
 
 ## Description
 
@@ -19,6 +19,8 @@ Kyseisistä tiedoista on muodostettu valmisaineisto, joka sisältää haetut ole
 Aineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamisen mahdollisuus. Taulut linkittyvät toisiinsa pseudonymisoiduilla tunnisteilla asianumero, toimenpiteen numero, henkilönumero ja Migrin asiakasnumero. Aineistosta on karkeistettu piiloon arkaluontoisimmat oleskelulupahakemusten käsittelyperusteet. Tietojen laatu on vaihtelevaa, ja pyrimme kuvaamaan esiin nousseet puutteet aineiston käytön helpottamiseksi. Valmisaineiston sisältö on arkaluonteista, ja se luvitetaan tutkimuskäyttöön tai tilastollisiin selvityksiin vain hyvin perustein. Kaikilta aineistoa käyttöönsä hakevilta vaaditaan DPIA eli tietosuojan vaikutusten arviointi. Aineiston päivityssykli pyritään saamaan jopa kuukausitasolle, kunhan tietojen toimitusprosessi vakiintuu. 
 
 Oleskelulupa-aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoon voi tulla vielä käytettävyyttä parantavia muutoksia. 
+
+MIGR-valmisaineistojen sisältämien muuttujien luokitukset sijaitsevat FIONAn metadata-kansiossa (D:/metadata/migr).
 
 Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella <a href="https://tilastot.migri.fi/" > Migrin tilastointipalvelusta</a>. 
 Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/oleskelulupa" > Maahanmuuttoviraston sivuilla</a>.
@@ -36,17 +38,17 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `TILASTOVUOSI` | — | — | — | — |
 | `TILASTOKUUKAUSI` | — | — | — | — |
 | `PERMIT_VALID_ON_DATE` | Poikkileikkaus_pvm | — | — | — |
+| `CASE_GROUP_NAME_FIN` | Asiaryhma | — | — | — |
 | `MEASURE_CONFIRMATION_DATE_HAKEMUS` | — | — | — | — |
+| `VALIDITY_PERMANENT` | Pysyva lupa | — | — | — |
 | `KANSALAISUUS` | — | — | — | — |
 | `KANS_VALIDITY_START` | Kansalaisuuden alkupvm | — | — | — |
 | `KANS_VALIDITY_END` | Kansalaisuuden loppu pvm | — | — | — |
-| `CASE_GROUP_NAME_FIN` | Asiaryhma | — | — | — |
 | `CASE_TYPE_NAME_FIN` | Asiatyyppi | — | — | — |
 | `PROCESSING_GROUNDS_GROUP` | Kasittelyperustetaso | — | — | — |
 | `PROCESSING_GROUNDS_NAME_FIN` | Kasittelyperuste | — | — | — |
 | `VALIDITY_START_DATE` | Voimassaolon alkupvm | — | — | — |
 | `VALIDITY_END_DATE` | Voimassaolon loppupvm | — | — | — |
-| `VALIDITY_PERMANENT` | Pysyva lupa | — | — | — |
 
 ### Variable definitions
 
@@ -72,17 +74,21 @@ Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle 
 
 Poikkileikkaus päivä jolloin lupa tai rekisteröinti on voimassa
 
+#### `CASE_GROUP_NAME_FIN` — Asiaryhma
+
+Lupatyyppi ilmaistaan Migrissä neljällä eri muuttujalla, jotka ovat hierarkkisessa suhteessa toisiinsa. Asiaryhmä on lupatyypin ylin hierarkia taso, joka jakautuu edelleen asiatyyppeihin, käsittelyperustetasoihin ja käsittelyperusteisiin, joista viimeisin lupatyypin tarkin taso. Asiaryhmiä ovat esimerkiksi Oleskeluluvat, Kansalaisuushakemukset, Kansainvälinen suojelu
+
 #### `MEASURE_CONFIRMATION_DATE_HAKEMUS`
+
+#### `VALIDITY_PERMANENT` — Pysyva lupa
+
+Saa arvon 1 jos lupa on toistaiseksi voimassaoleva, arvon 0 jos määräaikainen.
 
 #### `KANSALAISUUS`
 
 #### `KANS_VALIDITY_START` — Kansalaisuuden alkupvm
 
 #### `KANS_VALIDITY_END` — Kansalaisuuden loppu pvm
-
-#### `CASE_GROUP_NAME_FIN` — Asiaryhma
-
-Lupatyyppi ilmaistaan Migrissä neljällä eri muuttujalla, jotka ovat hierarkkisessa suhteessa toisiinsa. Asiaryhmä on lupatyypin ylin hierarkia taso, joka jakautuu edelleen asiatyyppeihin, käsittelyperustetasoihin ja käsittelyperusteisiin, joista viimeisin lupatyypin tarkin taso. Asiaryhmiä ovat esimerkiksi Oleskeluluvat, Kansalaisuushakemukset, Kansainvälinen suojelu
 
 #### `CASE_TYPE_NAME_FIN` — Asiatyyppi
 
@@ -232,15 +238,11 @@ Yrittäjä
 
 #### `VALIDITY_START_DATE` — Voimassaolon alkupvm
 
-Tyhjät arvo: 1.1.1900
+Muuttuja kuukausitasolla (validity_start_month)
 
 #### `VALIDITY_END_DATE` — Voimassaolon loppupvm
 
-Tyhjät arvo: 31.12.9999
-
-#### `VALIDITY_PERMANENT` — Pysyva lupa
-
-Saa arvon 1 jos lupa on toistaiseksi voimassaoleva, arvon 0 jos määräaikainen.
+Muuttuja kuukausitasolla (validity_end_month)
 
 ---
 

@@ -1,6 +1,30 @@
 {
   "variables": [
     {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Oikeudellisen yksikön y-tunnus ilman väliviivaa. (Ennen vuotta 1999 myös henkilötunnuksia)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "toissij_s",
+      "variablename": "Suojattu toissijainen tunnus",
+      "conceptdef": "Oikeudellisen yksikön toissijainen tunnus. Luonnollisilla henkilöillä toissi-jaisena tunnuksena on henkilötunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "knstun_s",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Yrityskonserniin kuuluvan yrityksen konsernitunnus. Kuntakonserneja ei huomioida. Konsernitiedot vuodesta 2001 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "YLAJI",
       "variablename": "Yksikkölaji",
       "conceptdef": "Oikeudellisen yksikön yksikkölaji eli  yksi/monitoimipaikkaisuus. \nMahdolliset arvot:\n\t1 = Yksitoimipaikkainen\n\t2 = Monitoimipaikkainen\n",
@@ -283,7 +307,7 @@
     {
       "identifier": "MAAK",
       "variablename": "Maakunta",
-      "conceptdef": "Maakunta.",
+      "conceptdef": "Maakunta. Yritysten tilastotiedostoissa oleva maakunta tarkoittaa maakuntaa, jossa oikeudellisen yksikön kotikunta sijaitsee.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -500,30 +524,6 @@
       "identifier": "knslaji",
       "variablename": "Konsernilaji",
       "conceptdef": "Yrityskonserniin kuuluvan oikeudellisen yksikön konsernilaji. \nMahdolliset arvot ovat:\n1 = Emo\n2 = Tytär\n6 = Väliemo\n",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "syrtun",
-      "variablename": "Suojattu yritystunnus",
-      "conceptdef": "Oikeudellisen yksikön y-tunnus ilman väliviivaa. (Ennen vuotta 1999 myös henkilötunnuksia)",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "stoissij",
-      "variablename": "Suojattu toissijainen tunnus",
-      "conceptdef": "Oikeudellisen yksikön toissijainen tunnus. Luonnollisilla henkilöillä toissi-jaisena tunnuksena on henkilötunnus.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "sknstun",
-      "variablename": "Suojattu konsernitunnus",
-      "conceptdef": "Yrityskonserniin kuuluvan yrityksen konsernitunnus. Kuntakonserneja ei huomioida. Konsernitiedot vuodesta 2001 alkaen.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

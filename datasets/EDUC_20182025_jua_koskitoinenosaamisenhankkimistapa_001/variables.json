@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "shnro",
+      "identifier": "hid_e",
       "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Suojattu henkilönumero.",
+      "conceptdef": "Suojattu henkilönumero. Tilastokeskuksessa yhtenäisesti suojattu henkilö-id mahdollistaa henkilöä koskevien tietojen yhdistämisen eri aineistojen ja vuosien välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -11,7 +11,7 @@
     {
       "identifier": "opiskeluoikeus_oid_s",
       "variablename": "suojattu opiskeluoikeuden tunniste",
-      "conceptdef": "suojattu opiskeluoikeuden tunniste.",
+      "conceptdef": "Suojattu opiskeluoikeuden tunniste.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -19,7 +19,7 @@
     {
       "identifier": "oppisopimus_yrtun_s",
       "variablename": "suojattu oppisopimus yritystunnus",
-      "conceptdef": "suojattu oppisopimukseen liittyvän toimijan yritystunnus.",
+      "conceptdef": "Suojattu oppisopimukseen liittyvän toimijan yritystunnus.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -27,7 +27,7 @@
     {
       "identifier": "koulutussopimus_yrtun_s",
       "variablename": "suojattu koulutussopimus yritystunnus",
-      "conceptdef": "suojattu koulutussopimukseen liittyvän toimijan yritystunnus.",
+      "conceptdef": "Suojattu koulutussopimukseen liittyvän toimijan yritystunnus.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -35,7 +35,7 @@
     {
       "identifier": "aikajakso_tyyppi",
       "variablename": "Aikajakso tyyppi",
-      "conceptdef": "Kertoo onko kyseessä koulutusopimus- vai oppisopimus-jakso.",
+      "conceptdef": "Kertoo, onko kyseessä koulutusopimus- vai oppisopimus-jakso.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -43,7 +43,7 @@
     {
       "identifier": "alku",
       "variablename": "Alku",
-      "conceptdef": "jakson alkupäivä.",
+      "conceptdef": "Jakson alkupäivä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -51,7 +51,7 @@
     {
       "identifier": "loppu",
       "variablename": "Loppu",
-      "conceptdef": "jakson päättymispäivä.",
+      "conceptdef": "Jakson päättymispäivä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -67,7 +67,7 @@
     {
       "identifier": "oppisopimus_purettu_koeajalla",
       "variablename": "Oppisopimus purku koeajalla",
-      "conceptdef": "tieto onko oppisopimus purettu koeajalla.",
+      "conceptdef": "Tieto, onko oppisopimus purettu koeajalla.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -75,7 +75,7 @@
     {
       "identifier": "koulutussopimus_paikkakunta",
       "variablename": "Koulutussopimuksen paikkakunta",
-      "conceptdef": "Tieto koulutussopimuksen paikkakunnasta kuntakoodina.",
+      "conceptdef": "Paikkakunta, jossa koulutussopimukseen kuuluva työssäoppiminen on tapahtunut.\nRelevantti tieto vain koulutussopimuksissa (= jos aikajakson tyyppi on 'koulutussopimus').\n\nKäytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/kunta/latest.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -83,7 +83,7 @@
     {
       "identifier": "koulutussopimus_maa",
       "variablename": "Koulutussopimus maa",
-      "conceptdef": "Tieto koulutussopimuksen maasta.",
+      "conceptdef": "Maa, jossa koulutussopimukseen kuuluva työssäoppiminen on tapahtunut.\nRelevantti tieto vain koulutussopimuksissa (= jos aikajakson tyyppi on 'koulutussopimus').\n\nKäytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/maatjavaltiot2/latest.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

@@ -1,4 +1,4 @@
-# FOLK asuinliitot
+# FOLK_ASLII
 
 - **Identifier:** `FOLK_19872023_jua_aslii24_001.xml`
 - **DOI:** `_2017-03_2017-03-23_ain_0001`
@@ -8,20 +8,43 @@
 - **Variable count:** 17
 - **Observation count:** —
 - **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asunut, 18 vuotta täyttänyt väestö
-- **Source:** VTJ, perhe- ja muuttotilastoaineistot
+- **Source:** Väestötietojärjestelmä,Tilastokeskuksen perhe-, muutto-, asunnot ja asuinolot- sekä  väestötilastoaineistot.
+- **Related:** <a href= "https://stat.fi/fi/tilasto/perh">perheet</a> <a href= "https://stat.fi/meta/tietosuojaselosteet/tutka_tietosuojaseloste_folk-jaksotiedot-asuinliitot.html">FOLK Asuinliitot tietosuojaseloste</a>
 
 ## Description
 
-FOLK-henkilöaineiston asuinliitot -moduulissa on tietoja vuoden vaihteessa väestöön kuuluvista yhdessä asuvista pareista vuodesta 1987 lähtien. Aineisto on muodostettu perhe- ja muuttotilastoaineistojen sekä VTJ-tietojen pohjalta. Asuinliittoaineiston pareja ovat perhetilaston määritelmien mukaiset eri sukupuolta olevat avo- ja avioparit. Perhetilastoaineistosta poimituille pareille on liitetty tietoja yhteen ja erilleen muuttamisesta henkilötilastojen tietovaraston muuttotilastoaineistosta. Lisäksi pareille on liitetty tietoja mahdollisesta avioliitosta ja kuolinpäivämäärät. Tähän aineistoon on hyväksytty ainoastaan ne parit, joiden yhdessä asuminen on kestänyt vähintään 90 päivää. Avopareista kummankin puolison täytyy olla täysi-ikäinen. Kummankin puolison täytyy kuulua väestöön ainakin kerran aineiston vuosien viimeisenä päivänä.
+FOLK-henkilöaineiston asuinliitotmoduuli sisältää tietoa avioliitoista, avioeroista, yhteen- ja erikseen muutoista sekä henkilöiden ja puolisoiden kuolinpäivistä vuodesta 1987 alkaen.
 
-Kokonaisaineistoon voidaan antaa käyttöoikeus vain jos tutkimuksellisesta syystä kokonaisaineiston käyttöön on erityinen tarve. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla.
+<b> Valmisaineiston tarkentava nimi </b>
+ 
+Asuinliitot väestöön kuuluvista yhdessä asuvista pareista. 
 
-FOLK asuinliitot -aineistot ovat kansiossa FOLK_ASLII_C, jossa tiedostot ovat jaettuina vuositiedostoihin. Tiedostonimet ovat muodossa folk_aslii_"vuosi"_1.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet  </b> 
 
-Aikaisemmin julkaistut FOLK asuinliitot -aineistotiedostot, jotka sisältävät useita tilastovuosia ovat FIONAssa seuraavissa kansioissa:
-Totaaliaineisto vuosille 2011-2020 : FOLK_aslii_11a
-Totaaliaineisto vuosille 2001-2010 : FOLK_aslii_0110a
-Totaaliaineisto vuosille 1987-2000 : FOLK_aslii_8800a
+Perusjoukon muodostavat vuoden vaihteessa väestöön kuuluvat yhdessä asuvat parit.  
+
+Asuinliittoaineisto on muodostettu Tilastokeskuksen perhe-, muutto-, asunnot ja asuinolot- ja väestötilastoaineistoista. Nämä perustuvat Digi- ja väestötietoviraston väestötietojärjestelmästä (VTJ) toimitettuihin tietoihin. 
+
+
+<b> Huomioitavaa aineistosta ja sen käytöstä. </b> 
+
+Asuinliittoaineiston parit muodostuvat perhetilaston määritelmien mukaisista eri sukupuolta olevista avo- ja aviopareista. Näille perhetilastoaineistosta poimituille pareille on liitetty tietoja yhteen- ja erilleen muuttamisesta henkilötilastojen muuttotilastoaineistosta. Lisäksi aineistoon sisältyy tiedot mahdollisista avioliitoista sekä puolisoiden kuolinpäivämääristä. 
+
+Aineistoon on hyväksytty vain ne parit, joiden yhdessä asuminen on kestänyt vähintään 90 päivää. Avoparien osalta molempien puolisoiden on oltava täysi-ikäisiä, ja kummankin on täytynyt kuulua väestöön ainakin kerran aineiston vuosien viimeisenä päivänä. 
+
+<b> Aineiston päivitysaikataulu </b> 
+
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.  
+
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
+ 
+<b> Lisätietoja </b> 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 

@@ -31,7 +31,7 @@ Varda on otettu vaiheittain käyttöön vuosien 2019-2020 aikana, jonka takia en
 
 Kunnan, kuntayhtymän ja yksityisen palveluntuottajan vastuulla on huolehtia tallentamansa tietosisällön oikeellisuudesta, virheettömyydestä sekä ajantasaisuudesta Vardassa <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/190613234/Vardan+tietojen+laatu+luovutus+ja+k%C3%A4ytt%C3%B6">Vardan eeduni-wiki sivusto</a> (4.3.2026). Koska kunnat, kuntayhtymät ja yksityiset palveluntuottajat tallentavat itsenäisesti tietosisältöjä Vardaan, voi tietojen tallennus- tai päivitystiheydessä olla vaihtelevuutta eri tahojen välillä. Tämä voi vaikuttaa aineistoon niin, että aineistossa olla puutteita etenkin tuoreimpien tietojen osalta, joka on syytä huomioida aineistoa käsiteltäessä.
 
-Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen.
+Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Vardan tietoihin pohjautuva lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. FOLK_MUUTTO, FOLK_VAEN tai FOLK_ENHEN moduulien käyttö tämän moduulin ohella on suositeltavaa, mikäli hankkeella on tarvetta luotettavammalle kotikuntatiedolle.
 
 Vardan tietomallin mukaisesti varhaiskasvatusmaksut eivät linkity suoraan varhaiskasvatuspäätökseen tai -suhteeseen. Tämän takia maksutiedot voidaan yhdistää varhaiskasvatustietoihin parhaiten maksutietojen, varhaiskasvatussuhteen ja varhaiskasvatuspäätöksen päivämäärien kautta.
 
@@ -61,8 +61,8 @@ Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `henkilo_OID_s` | Suojattu lapsen oppijanumero. | — | — | varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta |
-| `hid_e` | Suojattu henkilön tunniste (lapsi). | — | — | asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus |
+| `henkilo_OID_s` | Suojattu lapsen oppijanumero. | — | — | asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus |
+| `hid_e` | Suojattu henkilön tunniste (lapsi). | — | — | varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta |
 | `syntymavuosi` | Lapsen syntymävuosi. | — | — | lapsen taustatiedot |
 | `syntymakuukausi` | Lapsen syntymäkuukausi. | — | — | lapsen taustatiedot |
 | `sukupuoli` | Henkilön sukupuoli. | — | — | lapsen taustatiedot |
@@ -96,13 +96,13 @@ Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut
 
 #### `henkilo_OID_s` — Suojattu lapsen oppijanumero.
 
-**Group:** varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta
+**Group:** asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus
 
 Lisää tietoa <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/190612188/Mik%C3%A4+on+oppijanumero">OPH:n eeduuni-wikistä</a>.
 
 #### `hid_e` — Suojattu henkilön tunniste (lapsi).
 
-**Group:** asuinkunta, lapsen taustatiedot, maksutiedot, varhaiskasvatus
+**Group:** varhaiskasvatus, maksutiedot, lapsen taustatiedot, asuinkunta
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
@@ -134,25 +134,25 @@ Tyhjä arvo=ei tietoa.
 
 **Group:** asuinkunta
 
-Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.
+Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `edellinen_asuinkunta` — Lapsen edellinen asuinkunta.
 
 **Group:** asuinkunta
 
-Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.
+Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `vuosi` — Asuinkunnan vaihtumisvuosi.
 
 **Group:** asuinkunta
 
-Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.
+Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `kuukausi` — Asuinkunnan vaihtumiskuukausi.
 
 **Group:** asuinkunta
 
-Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen kotikunta-taulussa.
+Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `vuorohoito_kytkin` — Vuorohoito.
 

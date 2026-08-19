@@ -1,4 +1,4 @@
-# FOLK jaksotiedot: sijoitetut
+# FOLK_JAKSOT: sijoitetut
 
 - **Identifier:** `FOLK_19912023_jua_sijoi24_001.xml`
 - **DOI:** `tyokay_2012-03_2012-03-01_ain_0001`
@@ -7,16 +7,28 @@
 - **Organisation:** Tilastokeskus
 - **Variable count:** 7
 - **Observation count:** —
+- **Population:** Suomessa vakituisesti asunut väestö kunkin vuoden viimeisenä päivänä
 - **Source:** Työ- ja elinkeinoministeriö
 
 ## Description
 
-Sisältyy FOLK jaksotiedot -moduuliin. Tietoja toimenpitein sijoitetuista alkaen vuodesta 1991. 
+Aineisto on osa laajempaa jaksotietoja sisältävää valmisaineistomoduulia, joka sisältää tiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista sekä taustatiedot yrityksen toimipaikasta. Sijoitetut-valmisaineistomoduuli sisältää tietoja toimenpitein sijoitetuista henkilöistä. Aineistossa on mukana tietoja sijoitusten alku- ja loppupäivistä, sijoituksen päättämisen syistä, toimenpiteistä ja työnantajasektoreista alkaen vuodesta 1991. 
 
-Viimeisimmät FOLK jaksotieto -aineistot ovat kansiossa FOLK_JAKSOT_C ja viimeisin päivitys tiedostossa "folk_sijoitetut_19912023_1". 
+<b> Valmisaineiston tarkentava nimi </b>
+Jaksotiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista, sisältäen taustatietoja yrityksen toimipaikasta. 
 
-Vanhat FOLK jaksotieto -aineistot ovat FIONAssa kansiossa FOLK_jaksot_a. 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Aineisto sisältyy FOLK _JAKSOTt -moduuliin. Aineiston lähteenä toimii Työ- ja elinkeinoministeriön tiedot toimenpitein sijoitetuista, jota kerätty Työssäkäyntitilastoa varten.
+ 
+<b> Aineiston päivitysaikataulu </b>
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
 
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.    
+
+Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (7)

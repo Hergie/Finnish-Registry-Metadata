@@ -27,8 +27,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `syrtun` | Suojattu yritystunnus | — | — | — |
-| `shnro` | Suojattu henkilönumero | — | — | — |
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `YRITYKSEN_TILA` | Yrityksen tila | — | — | — |
 | `YR_REKIST_PVM` | Yrityksen rekisteröintipäivämäärä | — | — | — |
 | `YRITYSMUOTO` | Yritysmuoto | — | — | — |
@@ -40,9 +40,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ### Variable definitions
 
-#### `syrtun` — Suojattu yritystunnus
+#### `yrtun_s` — Suojattu yritystunnus
 
-#### `shnro` — Suojattu henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `YRITYKSEN_TILA` — Yrityksen tila
 

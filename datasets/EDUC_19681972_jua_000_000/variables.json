@@ -1,0 +1,716 @@
+{
+  "variables": [
+    {
+      "identifier": "aps",
+      "variablename": "Tietueen tunniste",
+      "conceptdef": "A=ainoa, P=pää, S=sivukoulun tietue",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtuvv",
+      "variablename": "Kirjoilletulovuosi",
+      "conceptdef": "Kirjoilletulovuosi, 2-numeroa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtulk",
+      "variablename": "Kirjoilletulolukukausi",
+      "conceptdef": "Kirjoilletulolukukausi, 1=kevät, 2=syksy.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtupp",
+      "variablename": "Kijoihintulopäivä",
+      "conceptdef": "Kijoihintulopäivä",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kirtukk",
+      "variablename": "Kirjoihintulokuukausi",
+      "conceptdef": "Kirjoihintulokuukausia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntymavuosi",
+      "variablename": "Syntymävuosi",
+      "conceptdef": "Syntymävuosi, 2-numeroinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "syntymakunta",
+      "variablename": "Syntymäkunta",
+      "conceptdef": "200=ulkomailla, sisältää 000 arvoja jotka luulatavasti \"ei tietoa\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "1=mies, 2=nainen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kieli",
+      "variablename": "Äidinkieli",
+      "conceptdef": "Äidinkieli, 1=suomi,2=ruotsi,3=muu, 9=tuntematon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kansalaisuus",
+      "variablename": "Kansalaisuus",
+      "conceptdef": "Kansalaisuus, 1=Suomi, 2=muu",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "siviilisaaty",
+      "variablename": "Sivilisääty",
+      "conceptdef": "1=naimaton, 2=naimisissa,3=leski, 4=eronnut, lisäksi muutos on voitu merkitä riippuen vuodesta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kotikunta",
+      "variablename": "Kotikunta",
+      "conceptdef": "Kuntakoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osakunta",
+      "variablename": "Osakunta",
+      "conceptdef": "ei tietoa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "ylioppilas",
+      "variablename": "Ylioppilas",
+      "conceptdef": "Epävarma, mutta oletettavasti 0= ylioppilas, koska löytyy ylioppilastutkinnon suorittaamisen vuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk_pp",
+      "variablename": "Ylioppilastutkinnon pv (pp)",
+      "conceptdef": "Kuvaukseen merkitty \"YO 0-31; ei yo 110, yo ulkom. 200-231.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk_kk",
+      "variablename": "Ylioppilastutkinnon kuukausi (kk)",
+      "conceptdef": "Ylioppilastutkinnon kuukausi (kk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yotutk_vv",
+      "variablename": "Ylioppilastutkinnon vuosi (vv)",
+      "conceptdef": "Ylioppilastutkinnon vuosi (vv)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yo_keskiarvo",
+      "variablename": "Ylioppilastutkinnon keskiarvo",
+      "conceptdef": "Kuvaukseen merkitty \"9.99 suurin mahdollinen arvo\".",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yo_arvosana",
+      "variablename": "Ylioppilastutkinnon arvosana ",
+      "conceptdef": "Käytä varauksella, luokitus eroaa kuvauksesta. Kuvaukseen merkitty  \"2,2,4,6\". ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "matematiikan_pituus",
+      "variablename": "Matematiikan pituus lukiossa",
+      "conceptdef": "Kuvaukseen merkitty, 0= ei tietoa, 1=pitkä, 2=lyhyt.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "puoltoaanien_lkm",
+      "variablename": "Lukioiden myöntämät puoltoäänet opiskelijalle",
+      "conceptdef": "Käytä varauksella, luokitus eroaa kuvauksesta. Kuvaukseen merkitty, \"0, 4-18\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aineiden_lkm",
+      "variablename": "Aineiden lukumäärä",
+      "conceptdef": "Kuvaukseen merkitty, \"0, 4-6\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiedekunta",
+      "variablename": "Tiedekunta",
+      "conceptdef": "Tiedekuntakoodi ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opintosuunta",
+      "variablename": "Opintosuunta ",
+      "conceptdef": "Opintosuunta tai pääaine",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yleinenopintosuunta",
+      "variablename": "Yleinen opintosuunta (TK:n lisäämä)",
+      "conceptdef": "Yleinen opintosuunta (TK:n lisäämä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_662",
+      "variablename": "Läsnäolotieto 2/66",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_671",
+      "variablename": "Läsnäolotieto 1/67",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_672",
+      "variablename": "Läsnäolotieto 2/67",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_681",
+      "variablename": "Läsnäolotieto 1/68",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_682",
+      "variablename": "Läsnäolotieto 2/68",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_691",
+      "variablename": "Läsnäolotieto 1/69",
+      "conceptdef": " Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_692",
+      "variablename": "Läsnäolotieto 2/69",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_701",
+      "variablename": "Läsnäolotieto 1/70",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_702",
+      "variablename": "Läsnäolotieto 2/70",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_711",
+      "variablename": "Läsnäolotieto 1/71",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_712",
+      "variablename": "Läsnäolotieto 2/71",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "lasna_721",
+      "variablename": "Läsnäolotieto 1/72",
+      "conceptdef": "Kuvaukseen merkitty \"Alkaen v.66 syyslukukaudesta(662); 0,1,2.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opintojentarkoitus",
+      "variablename": "Opintojen tarkoitus",
+      "conceptdef": "Kuvaukseen merkitty  \"1-9 opetusminist. 0 ei tietoa, 692 alkaen\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "poissaolonsyy",
+      "variablename": "Poissaolonsyy",
+      "conceptdef": "Kuvaukseen merkitty  \"s.68 lähtien 0-9\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tiedekunnan_nro",
+      "variablename": "Tiedekunnan numero",
+      "conceptdef": "Tiedekunnan numero 2-numeroinen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yleinentiedekunta",
+      "variablename": "Yleinentiedekunta",
+      "conceptdef": "Yleinen tiedekunta (TK:n lisäämä)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivuaine1",
+      "variablename": "1. sivuaine",
+      "conceptdef": "Ensimmäinen sivuaine. 3-numeroinen sivuainekoodi, kuvaukseen merkitty  \"Tku, Åbo, J-lä\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivuaine2",
+      "variablename": "2. sivuaine",
+      "conceptdef": "Toinen sivuaine. 3-numeroinen sivuainekoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sivuaine3",
+      "variablename": "3. sivuaine",
+      "conceptdef": "Kolmas sivuaine. 3-numeroinen sivuainekoodi.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluaktiivisuus",
+      "variablename": "Opiskeluaktiivisuus",
+      "conceptdef": "Kuvaukseen merkitty  \"1=täyspäiväopisk., 2=osapäiväopisk. 0=ei tietoa, 692 alkaen.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opiskeluntarkoitus",
+      "variablename": "Opiskeluntarkoitus",
+      "conceptdef": "Kuvaukseen merkitty  \"0-4,9. kys 66-68:aion suor. 1=täällä,2=muu kk, 3=en\" sekä \"1-9 opetusminist. 9 ei tietoa, 692 alk.\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kokopaivatyo",
+      "variablename": "Kokopaivatyo",
+      "conceptdef": "Kuvaukseen merkitty  \"kk:ien määrä ed.lukuk., 0-5. kysytty 68/69\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "osapaivatyo",
+      "variablename": "Osapaivatyo",
+      "conceptdef": "Kuvaukseen merkitty  \"kk:ien määrä ed.lukuk., 0-5. kysytty 68/69\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edellinentiedekunta1",
+      "variablename": "Edellinen tiedekunta",
+      "conceptdef": "Edellinen tiedekunta, kuvaukseen merkitty  \"s.69 alkaen\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edtm1_vvl",
+      "variablename": "Edellisen tiedekunnan muutosajankohta",
+      "conceptdef": "Edellisen tiedekunnan muutosajankohta, vuosi ja lukukausi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edellinentiedekunta2",
+      "variablename": "Edellistä edellinen tiedekunta",
+      "conceptdef": "Edellistä edellisen tiedekunta, kuvaukseen merkitty  \"s.69 alkaen\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edtm2_vvl",
+      "variablename": "Edellistä edellisen tiedekunnan muutosajankohta",
+      "conceptdef": "Edellistä edellisen tiedekunnan muutosajankohta, vuosi ja lukukausi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_muuallaopiskelu",
+      "variablename": "Opiskelu muualla",
+      "conceptdef": "Opiskelu muualla, Kuvaukseen merkittu vain \"0,1\". Todennäköisimmin 0= ei, 1= kyllä. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_koodi",
+      "variablename": "Opiskelu muualla, opiskelukoodi",
+      "conceptdef": "Kuvaukseen merkittt \"o-3 (lom.kohdan 14 alajako)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_tiedekunta",
+      "variablename": "Opiskelu muualla, tiedekunta",
+      "conceptdef": "Muualla opiskelun tiedekunta. Kuvaukseen kirjattu \"vain, jos opisk.koodi 2\".",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_kirtuppkkvv",
+      "variablename": "Muualla opiskelun kirjoilletulopäivämäärä",
+      "conceptdef": "Opiskelu muualla, aloitusajankohta (päivä, kuukausi, vuosi): Kuvaukseen kirjattu \"jos opisk.koodi 2 tai 3\".",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_oplklkm",
+      "variablename": "Muualla opiskelun lukukausien lukumäärä",
+      "conceptdef": "Muualla opiskelun lukukausien lukumäärä. Kuvaukseen merkitty \"vain jos opisk.koodi 3\".",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_opintosuunta",
+      "variablename": "Muualla opiskelun opintosuunta",
+      "conceptdef": "Muualla opiskelun opintosuunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tutkintolaskuri",
+      "variablename": "Tutkintolaskuri",
+      "conceptdef": "Ei lainkaan kuvausta, ei tarkempaa tietoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t1_pp",
+      "variablename": "Uusin tutkinto, suorituspäivä",
+      "conceptdef": "Uusin tutkinto, suorituspäivä.(pp)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t1_kk",
+      "variablename": "Uusin tutkinto, suorituskuukausi",
+      "conceptdef": "Uusin tutkinto, suorituskuukausi (kk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t1_vv",
+      "variablename": "Uusin tutkinto, suoritusvuosi ",
+      "conceptdef": "Uusin tutkinto, suoritusvuosi (vv)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t1_tutkintokoodi",
+      "variablename": "Uusimman tutkinnon tutkintokoodi",
+      "conceptdef": "Uusin tutkinto, tutkintokoodi. Ei tietoa luokituksesta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t2_pp",
+      "variablename": "Edellinen tutkinto, suorituspäivä",
+      "conceptdef": "Edellinen tutkinto, suorituspäivä (pp)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t2_kk",
+      "variablename": "Edellinen tutkinto, suorituskuukausi",
+      "conceptdef": "Edellinen tutkinto, suorituskuukausi (kk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t2_vv",
+      "variablename": "Edellinen tutkinto, suoritusvuosi",
+      "conceptdef": "Edellinen tutkinto, suoritusvuosi (vv)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t2_tutkintokoodi",
+      "variablename": "Edelllisen tutkinnon tutkintokoodi",
+      "conceptdef": "Edellinen tutkinto, tutkintokoodi. Ei tietoa luokituksesta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t3_pp",
+      "variablename": "Vanhimman tutkinnon suorituspäivä",
+      "conceptdef": "Vanhin tutkinto, suorituspäivä (pp)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t3_kk",
+      "variablename": "Vanhin tutkinto, suorituskuukausi",
+      "conceptdef": "Vanhin tutkinto, suorituskuukausi (kk)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t3_vv",
+      "variablename": "Vanhin tutkinto, suoritusvuosi",
+      "conceptdef": "Vanhin tutkinto, suoritusvuosi (vv)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "t3_tutkintokoodi",
+      "variablename": "Vanhimman tutkinnon tutkintokoodi",
+      "conceptdef": "Vanhin tutkinto, tutkintokoodi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edpsuunta1",
+      "variablename": "Edellinen opintosuunta",
+      "conceptdef": "Edellinen opintosuunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edopsuunta1_vvl",
+      "variablename": "Edellisen opintosuunnan muutosajankohta",
+      "conceptdef": "Edellisen opintosuunnan muutosajankohta (vvl)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edopsuunta2",
+      "variablename": "Edelleistä edellisen opintosuunta",
+      "conceptdef": "Edelleistä edellisen opintosuunta",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "edopsuunta2_vvl",
+      "variablename": "Edellistä edellisen opintosuunann muutosajankohta",
+      "conceptdef": "Edellistä edellisen opintosuunann muutosajankohta (vvl)",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aiottuala",
+      "variablename": "Aiottu ala",
+      "conceptdef": "Kuvaukseen merkitty 1969-1970 lk: \"671:n erikoistutkimus\" ja 1970:  \"1=opett, 2= lehd, 3=liikme, 4=hall, 5=järj, 6=muu\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aiottututkinto",
+      "variablename": "Aiottu tutkinto",
+      "conceptdef": "Aiottu tutkinto, 66/67 erikostutkimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aitutkintovv",
+      "variablename": "Aiottu tutkinto suoritusajankohta (vuosi)",
+      "conceptdef": "Aiottu tutkinto suoritusajankohta (vuosi), 66/67 erikostutkimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aitutkintolk",
+      "variablename": "Aiottu tutkinto suoritusajankohta (lukukausi)",
+      "conceptdef": "Aiottu tutkinto suoritusajankohta (lukukausi), 66/67 erikostutkimus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yo_tulokoulu",
+      "variablename": "Suojattu ylioppilaaksitulokoulu",
+      "conceptdef": "Suojattu ylioppilaaksitulokoulu, kuvaukseen merkitty \"Helsingin yliopiston koululuettelo\".",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "m_korkeakoulu",
+      "variablename": "Suojattu muu korkeakoulu",
+      "conceptdef": "Suojattu muu korkeakoulu, liittyy m_ alkuisiin muuttujiin",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkou",
+      "variablename": "Suojattu 2-numeroinen korkeakoulutunnus",
+      "conceptdef": "2-numeroinen alkuperäinen korkeakoulutunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kkou1",
+      "variablename": "Suojattu 5-numeroinen korkeakoulutunnus",
+      "conceptdef": "TK:n 5 numeroinen oppilaitostunnus 1995 mukaan",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "valmistumisflagi",
+      "variablename": "Valmistumisflagi",
+      "conceptdef": "Ei tarkempaa tietoa, lisätty aikanaan luultavasti tutkintoreksiteriä käyttäen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "opkno",
+      "variablename": "Suojattu opintokirjan numero",
+      "conceptdef": "Suojattu opintokirjanumero, vain osalle vuosia, osalle 00000",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunnus",
+      "conceptdef": "Suojattu henkilön yksilöivä tunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hetu_tag",
+      "variablename": "Hetu_tag",
+      "conceptdef": "Kertoo onko hnro päätelty.1= hetu löytyy rekisteristä. Muut arvot = hetu päätelty",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tvuosi",
+      "variablename": "Tilastovuosi",
+      "conceptdef": "Tiedoston tallennuksen tilastovuosi, lisätty aineistoon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "tkausi",
+      "variablename": "Tilastokausi",
+      "conceptdef": "Tiedoston tallennuksen tilastokausi, lisätty aineistoon",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

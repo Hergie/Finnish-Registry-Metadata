@@ -1,4 +1,4 @@
-# FIRM_GVC Global Value Chains 2015-2017 (YA228)
+# FIRM_GVC Global Value Chains 2015-2017
 
 - **Identifier:** `FIRM_20152017_jua_gvc_001.xml`
 - **DOI:** `work_2013-12_2013-12-09_ain_0001`

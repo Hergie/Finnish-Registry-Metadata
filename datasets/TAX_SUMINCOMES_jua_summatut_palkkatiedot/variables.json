@@ -41,9 +41,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "payerShnro",
-      "variablename": "Maksajan suojattu henkilönumero",
-      "conceptdef": "Maksajan suojattu henkilönumero, muodostetaan Tilastokeskuksessa.",
+      "identifier": "payerhid_e",
+      "variablename": "Suojattu maksajan yksilöivä tunniste",
+      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -57,9 +57,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "incomeEarnerShnro",
-      "variablename": "Tulonsaajan suojattu henkilönumero",
-      "conceptdef": "Tulonsaajan suojattu henkilönumero",
+      "identifier": "incomeEarnerhid_e",
+      "variablename": "Suojattu tulonsaajan yksilöivä tunniste",
+      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null

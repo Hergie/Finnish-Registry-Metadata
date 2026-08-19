@@ -3,7 +3,7 @@
 - **Identifier:** `MIGR_TYO_jua_osapaatokset_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
 - **Temporal coverage:** 2011-01-01 - 2024-12-31
-- **Published:** 2026-04-07
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
 - **Variable count:** 14
 - **Observation count:** —
@@ -36,7 +36,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `Shnro` | Suojattu hnro | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `DCSN_DATA_OCCUPATION_ID_s` | Osapaatoksen lisatty ammattialan yksilollinen suojattu tunnus | — | — | — |
 | `MEASURE_ID_s` | Suojattu paatosnumero | — | — | — |
 | `CASE_ID_s` | Suojattu asianumero | — | — | — |
@@ -53,7 +53,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 ### Variable definitions
 
-#### `Shnro` — Suojattu hnro
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `DCSN_DATA_OCCUPATION_ID_s` — Osapaatoksen lisatty ammattialan yksilollinen suojattu tunnus
 

@@ -51,7 +51,7 @@
     {
       "identifier": "asuinkunta",
       "variablename": "Lapsen asuinkunta.",
-      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.",
+      "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -59,7 +59,7 @@
     {
       "identifier": "edellinen_asuinkunta",
       "variablename": "Lapsen edellinen asuinkunta.",
-      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.\n",
+      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -67,7 +67,7 @@
     {
       "identifier": "vuosi",
       "variablename": "Asuinkunnan vaihtumisvuosi.",
-      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.\n",
+      "conceptdef": "Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -75,7 +75,7 @@
     {
       "identifier": "kuukausi",
       "variablename": "Asuinkunnan vaihtumiskuukausi.",
-      "conceptdef": "Pohjautuu DVV:n väestötietojärjestelmän tietoihin, joita on voitu täydentää Vardan tiedoilla henkilöille, joilla ei ole suomalaista henkilötunnusta. Käytetty vain lapsen asuinkunta-taulussa.\n",
+      "conceptdef": "Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"

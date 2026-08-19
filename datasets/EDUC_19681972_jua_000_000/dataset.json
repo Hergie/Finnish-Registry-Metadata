@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "EDUC_19681972_jua_000_000.xml",
+      "doi": "he_2024-08_2024-08-29_ain_0001",
+      "subject": "EDUC_OPISK_HIST Korkeakouluopiskelijoiden historialliset tiedot 1968-1972 1. osamoduuli ",
+      "contentdescription": "Tämä EDUC_OPISK_HIST- moduulin 1.osa kokoaa yhteen korkeakoulujen (eli silloisten yliopistojen ja korkeakoulujen) vanhat henkilötason opiskelijarekisterit alkaen vuodesta 1968 aina vuoteen 1972 saakka. Tilastokeskuksen arkistostoon on tallennettu korkeakoulujen opiskelijarekisterit erikseen kevät- ja syyslukukautta koskien, alkaen syksystä 1967 vuoden 1972 kevääseen saakka. \n\nSyksyn 1967 tiedostoa ei kuitenkaan saatu käännettyä luettavaan muotoon, jonka vuoksi aineisto alkaa vuoden 1968 kevään tiedoista. Tiedonkeruu lopetettiin vuonna 1972, mutta Tilastokeskus alkoi tekemään niin sanottua ns.kertymätilastoa vuodesta 1975 alkaen. Moduulin 2. osa sisältää nämä kertymätilaston tiedot vuosilta 1975-1995. Tämä tiedostomuoto toimi myöhemmin pohjana Tilastokeskuksen laajemmalle opiskelija-taululle (tutkijakäytössä nimeltään Educ_opisk), josta on löydettävissä samantyyppiset tiedot korkeakoulujen opiskelijoista tuoreemmille vuosille.  \n\nEDUC_OPISK_HIST 1968–1972 ‑aineisto sisältää tietoja korkeakouluissa kirjoilla olleista opiskelijoista. Aikanaan korkeakoulut toimittivat opiskelijarekisterinsä Tilastokeskukselle tilastointia varten ja nämä alkuperäiset rekisterit on säilytetty arkistossa erillisinä tiedostoina.Tilastokeskuksen kirjastossa on saatavilla julkaisu\" Korkeakoulut 1966/1967\" (Suomen virallinen tilasto), jonka alkuosassa kuvataan rekisterin perustaminen ja kokoaminen Tilastokeskukseen. Teoksessa esitetään myös tiedot aineistossa kerätyistä muuttujista sekä käytetyistä luokituksista.\n  \nValmisaineiston osamoduulin 1.osa sisältää kirjoilla olleet korkeakouluopiskelijat (ja heihin liittyvät menneet tiedot) riippuen korkeakoulusta ja lukukaudesta (henkilö voi esiintyä useamman kerran per vuosi ja lukukausi). Eri luokitukset ovat kyseisen vuoden luokituksia, jollei ole mainittu toisin. \n\nAineistossa ei ollut henkilötunnusta kaikille henkililöille ennen vuotta 1970. Henkilötunnuksia haettiin Tilastokeskuksen tietokannoista käyttämällä erilaisia päättelysääntöjä. Muuttuja hetu_tag kertoo kuinka henkilötunnus löydettiin henkilöille. Mikäli hetu_tag saa arvon 1, niin henkilön henkilötunnus oli merkittynä rekisteriin ja sille löytyi toimiva hnro. Muuten hnro etsittiin henkilön nimien, syntymäajan ja sukupuolen mukaan käyttäen erilaisia kombinaatioita (tuplia ei sallittu tässä).\n\nHUOM 1: Kyseessä on historiatiedosto, jonka kaikkia eri muuttujia ei ole voitu tarkistaa. \nHUOM 2: Kuvaukset  ovat paikoin puutteellisia.\nHUOM 3: Osa muuttujista on kerätty osana erityistä vuosikohtaista selvitystä. Mm. tästä syystä kaikkia muuttujia ei ole moduulista saatavilla kaikilta vuosilta kaikkia korkeakouluja koskien.  \n \nTiedostosta salataan seuraavat:\nHid, opintokirjan numero (voi olla osalle eli puuttellinen, koska numeroinissa esiintyy \"00000\") ja korkeakoulu (korkeakoulusta kaksi eri versiota, 2-numeroinen jokaista vuotta kuvaava vanha TK:n luokitus ja 5-numeroinen oppilaitostunnus 1995 tilanteen mukaan). Tämän lisäksi suojataan muu korkeakoulu sekä ylioppilaaksi tulon oppilaitos (4-numeroinen, ei TK:n luokitus).\n\n\n",
+      "coveragetemporal": "1968-01-01 - 1972-12-31",
+      "published_day": "2026-04-21",
+      "variable_count": "89",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": null,
+      "resourcerelation_1": null,
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

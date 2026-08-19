@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "SHNRO",
-      "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Henkilönumero on poimittu niille joille se löytyy.\n",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -12,14 +12,6 @@
       "identifier": "CUSTOMER_ID_s",
       "variablename": "Suojattu asiakasnumero",
       "conceptdef": "Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle tehnyt muut asiat ja toimenpiteet.\n",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "TILASTOVUOSI",
-      "variablename": null,
-      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -42,7 +34,7 @@
     },
     {
       "identifier": "MODIFICATION_TIME",
-      "variablename": "Muokkauspvm",
+      "variablename": "Muokkauspvm kk-tasolla",
       "conceptdef": null,
       "measunit": null,
       "classification": null,
@@ -50,7 +42,7 @@
     },
     {
       "identifier": "CREATION_TIME",
-      "variablename": "Luomisaika",
+      "variablename": "Luomisaika kk-tasolla",
       "conceptdef": null,
       "measunit": null,
       "classification": null,
@@ -58,7 +50,7 @@
     },
     {
       "identifier": "REMOVAL_TIME",
-      "variablename": "Poistettu kaytosta aika",
+      "variablename": "Poistettu kaytosta aika kk-tasolla",
       "conceptdef": null,
       "measunit": null,
       "classification": null,

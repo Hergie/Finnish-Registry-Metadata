@@ -1,8 +1,8 @@
-# FIRM_OFATS Suomalaiset tytäryhtiöt ulkomailla 2022
+# FIRM_OFATS Suomalaiset tytäryhtiöt ulkomailla 2022 - 2024
 
 - **Identifier:** `FIRM_2022_jua_ofats_001.xml`
 - **DOI:** `work_2013-03_2013-03-27_ain_0001`
-- **Temporal coverage:** 2021-01-01 - 2022-12-31
+- **Temporal coverage:** 2021-01-01 - 2024-12-31
 - **Published:** 2024-05-21
 - **Organisation:** Tilastokeskus
 - **Variable count:** 12
@@ -13,7 +13,7 @@
 
 ## Description
 
-Suomalaiset tytäryhtiöt ulkomailla -tilasto (outward statistics on foreign affiliates, outward FATS) vuodelle 2022  kuvaa suomalaisyritysten toimintojen maailmanlaajuista sijoittumista ja yritysten ulkomailla sijaitsevan toiminnan merkittävyyttä. Tilasto tuottaa tietoja, joiden avulla voi arvioida Suomen talouden globaalistumisen astetta, Euroopan Unionin sisämarkkinoiden vaikutusta suomalaiseen liiketoimintaan ja suomalaisomisteisten yritysten kilpailukykyä maailmalla. Konsernitason tiedot tytäryhtiöiden tai sivuliikkeiden liikevaihdosta, henkilöstön lukumäärästä, henkilöstömenoista ja bruttoinvestoinneista ovat saatavissa sijaintimaan tai maaryhmän ja toimialan mukaan. Vuonna 2014 on saatavissa myös sisäinen liikevaihto, liiketulos, poistot, vuokrat ja jalostusarvo. Uusia muuttujia koskee laatuvaraus. Imputointeja ei ole tehty vuodesta 2013 alkaen ja manuaalisesta laadun tarkistamisesta on siirrytty pääosin automaattiseen tarkistukseen. Tilasto perustuu Euroopan parlamentin ja neuvoston asetukselle (EY) n:o 716/2007.
+Suomalaiset tytäryhtiöt ulkomailla -tilasto (outward statistics on foreign affiliates, outward FATS) vuodesta 2022  kuvaa suomalaisyritysten toimintojen maailmanlaajuista sijoittumista ja yritysten ulkomailla sijaitsevan toiminnan merkittävyyttä. Tilasto tuottaa tietoja, joiden avulla voi arvioida Suomen talouden globaalistumisen astetta, Euroopan Unionin sisämarkkinoiden vaikutusta suomalaiseen liiketoimintaan ja suomalaisomisteisten yritysten kilpailukykyä maailmalla. Konsernitason tiedot tytäryhtiöiden tai sivuliikkeiden liikevaihdosta, henkilöstön lukumäärästä, henkilöstömenoista ja bruttoinvestoinneista ovat saatavissa sijaintimaan tai maaryhmän ja toimialan mukaan. Vuonna 2014 on saatavissa myös sisäinen liikevaihto, liiketulos, poistot, vuokrat ja jalostusarvo. Uusia muuttujia koskee laatuvaraus. Imputointeja ei ole tehty vuodesta 2013 alkaen ja manuaalisesta laadun tarkistamisesta on siirrytty pääosin automaattiseen tarkistukseen. Tilasto perustuu Euroopan parlamentin ja neuvoston asetukselle (EY) n:o 716/2007.
 Vuodesta 2015 lähtien muuttujakokonaisuus on vuoden 2014 muuttujakokonaisuutta suppeampi.
 
 Suomalaiset tytäryhtiöt ulkomailla on erikseen saatavilla myös vuosille 2007 - 2012 ja 2013. Vuodesta 2013 alkaen tiedot eivät ole täysin vertailukelpoisia aiempien vuosien tietoihin tietojärjestelmäuudistuksen vuoksi.
@@ -28,8 +28,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `sknstun` | Suojattu konsernitunnus | — | — | — |
-| `sutun` | Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus | — | — | — |
+| `knstun_s` | Suojattu konsernitunnus | — | — | — |
+| `utun_s` | Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
 | `konsernin_toimiala` | Konsernitoimiala | — | — | — |
 | `toimiala_tytar` | Tytäryhtiön / sivuliikkeen TOL 2008 mukainen toimiala | — | — | — |
@@ -43,11 +43,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 ### Variable definitions
 
-#### `sknstun` — Suojattu konsernitunnus
+#### `knstun_s` — Suojattu konsernitunnus
 
 Suojattu konsernitunnus konsernirekisteristä
 
-#### `sutun` — Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus
+#### `utun_s` — Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus
 
 Suojattu tytäryhtiötä / sivuliikettä identifioiva Tilastokeskuksen käyttämä ns. surrogaattitunnus
 

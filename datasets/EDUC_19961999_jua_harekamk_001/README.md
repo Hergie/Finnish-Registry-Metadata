@@ -1,4 +1,4 @@
-# EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 1996-1999
+# EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 1996-1999
 
 - **Identifier:** `EDUC_19961999_jua_harekamk_001.xml`
 - **DOI:** `khak_2024-08_2024-08-09_ain_0001`
@@ -15,18 +15,28 @@ Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoite
 
 ## Description
 
-Tämä aineisto on osa laajempaa EDUC-HAREK -moduulia korkeakoulujen hakurekisteritiedoista 1992-2022. Tämä aineisto sisältää ammattikorkeakoulujen kalenterivuonna alkaneeseen koulutukseen hakeneiden hakurekisterin tiedot 1996-1999, siltä osin kun tiedot on toimitettu Tilastokeskukseen tilastointia varten. Kokonaisuus sisältää tietoja muun muassa hakemuksesta, hakijasta ja hakukohteesta sekä arvosanoista.
-<b>Huomaathan, että oppiaine- ja arvosanatietoja (edellisten opintojen tiedot, joiden perusteella hakija on hakemassa korkeakouluun) on saatavilla ammattikorkeakouluhakujen osalta vuosilta 1996-1999 hakukorttiperusteisesti, jonka lisäksi aineistovuosille 2000-2005 näitä tietoja on yhdistetty jälkikäteen saatavilta osin ammattikorkeakoulujen yhteishakuun osallistuneilta.</b>
+EDUC_HAREK-valmisaineisto sisältää Opetushallituksen opiskelijavalintarekisterin tietoja mm. korkeakouluhaun kohteesta, hakemuksesta ja hakijasta sekä taustatiedoista karkealla tasolla. 
 
-<h3>Tietolähde</h3>
-Aineisto korkeakoulujen hakijoista ja opiskelijavalinnoista perustuu Opetushallituksen ylläpitämiin hakija- ja opinto-oikeusrekisteritietoihin. Tilastokeskukseen toimitetun tiedon määrä vaihtelee aikaperiodeittain, ja tiedostoihin on lisätty tietoja Tilastokeskuksessa tilastotuotannossa. Tiedostoista on salattu henkilön tunnistetiedot. Lisäksi tiedostoista on suojattu mm. oppilaitosten tunnistetiedot.
- 
-<h3>Huomioitavaa</h3>
-Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. Huomaathan, että hakijoille, joilla ei ole suomalaista henkilötunnusta, ei olla voitu muodostaa suojattua henkilönumeroa. Tällöin heille on pyritty luomaan korvaava shetu, joka toimii hakijan tunnisteena vain kunkin vuosiaineiston sisällä. Tämän avulla voidaan pyrkiä tunnistamaan usealla rivillä esiintyvät saman hakijan tiedot. Muuttuja (shetu) ei yhdisty aineistojen välillä, ja muuttujassa esiintyy myös vaillinaisista tiedoista johtuvia virheitä. Huomaathan, että osalle hakijoista ei olla pystytty muodostamaan shnro- eikä shetu-muuttujaa, ja henkilönumerottomien hakijoiden määrä vaihtelee huomattavasti eri vuosina.
+Tämä aineistokuvaus koskee osiota, joka sisältää ammattikorkeakoulujen yhteishakurekisterin tietoja vuosina 1996–1999 ammattikorkeakoulussa alkaneeseen koulutukseen hakeneista henkilöistä, siltä osin kuin tiedot on toimitettu Tilastokeskukselle tilastointia varten.
 
-Moduulin muuttujasisällöissä on suuria eroja yli ajan. Tämä vuosilta 1996-1999 koostettu kokonaisuus ammattikorkeakoulujen hakutiedoista on ryhmitelty sen mukaisesti, että vuosilta on ollut saatavilla samankaltainen muuttujasisältö, mutta myös tämän kokonaisuuden sisällä muuttujasisällössä on vuosittaisia eroavaisuuksia. Tietojen paikkaansapitävyyttä ei ole voitu tarkastaa. Erityisesti arvosana- ja oppiainemuuttujissa (edellisten opintojen tiedot, joiden perusteella hakija on hakemassa korkeakouluun) voi ilmetä puutteita, ja niiden oikeellisuutta ei ole pystytty tarkistamaan. Arvosanatietojen käytössä tulee ottaa huomioon tietojen rajoittuneisuus ja mahdolliset puutteet.
- 
-Hakurekisteri on saatavilla yhdistettynä korkeakouluhakurekisterinä vuodesta 2015 eteenpäin ja erikseen yliopistoille ja ammattikorkeakouluille ennen vuotta 2015, joista yliopistojen osalta hakutiedostot alkavat vuodesta 1992 ja ammattikorkeakoulujen osalta vuodesta 1996. Osa ammattikorkeakoulujen hakutiedostoista eri vuosilta ovat samankaltaisia kuin toisen asteen yhteishakurekisterin tiedot. EDUC-HAREK -moduuli on ryhmitelty seuraaviin kokonaisuuksiin, joilla on kullakin oma Taika-kuvauksensa:
+<b> Valmisaineiston tarkentava nimi </b> 
+Korkeakoulujen hakurekisteritiedot, sisältäen tietoja korkeakouluhaun kohteesta, hakemuksesta ja hakijasta sekä taustatiedoista karkealla tasolla.
+
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+EDUC_HAREK-valmisaineisto perustuu Opetushallituksen ylläpitämään opiskelijavalintarekisteriin (sis. yliopistojen hakija- ja opinto-oikeusrekisterin, ammattikorkeakoulujen yhteishakurekisterin, ja korkeakoulujen hakurekisterin tiedot ajankohdan mukaisesti).  Opetushallitus toimittaa aineiston Tilastokeskukselle vuosittain. Aineistoon on sisällytetty Digi- ja väestötietoviraston toimittamia taustatietoja. Tilastokeskukselle toimitettujen tietojen kattavuus vaihtelee ajanjaksoittain, ja osaa tiedoista on täydennetty Tilastokeskuksessa tilastotuotannon yhteydessä. 
+
+Hakeneilla ja korkeakouluihin hyväksytyillä tarkoitetaan henkilöitä, jotka ovat saaneet hyväksymiskirjeen kyseisenä hakuvuonna 15.9. mennessä. 
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Aineistosta on salattu henkilön tunnistetiedot, ja lisäksi on suojattu muun muassa kaikkien hakukohteiden ja oppilaitosten tunnistetiedot sekä haun ja hakemuksen yksilöivät oid-tunnisteet. Aineiston tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron (hid_e) avulla. Huomaathan, että hakijoille, joilla ei ole suomalaista henkilötunnusta, ei olla voitu muodostaa suojattua henkilönumeroa. Tällöin heille on pyritty luomaan korvaava tunniste, joka toimii hakijan mahdollisena tunnisteena vain kunkin vuosiaineiston sisällä, eikä yhdisty aineistojen välillä. Sen avulla voidaan pyrkiä tunnistamaan usealla rivillä esiintyvät saman hakijan tiedot. Huomaathan kuitenkin, että hakijaa ei voida todellisuudessa tunnistaa luotettavasti muuttujan avulla, sillä muuttuja perustuu vaillinaisiin tietoihin ja siinä esiintyy myös paljon virheitä. Huomioithan myös, että osalle hakijoista ei olla pystytty muodostamaan suojattua henkilötunnistetta, ja henkilötunnisteettomien hakijoiden määrä vaihtelee huomattavasti eri vuosina. 
+
+Ennen vuotta 2015 hakurekisteritiedot ovat saatavilla erikseen yliopistoille ja ammattikorkeakouluille. Yliopistojen tiedostot alkavat vuodesta 1992 ja ammattikorkeakoulujen vuodesta 1996. Näiden aineistojen muuttujasisällöt vaihtelevat merkittävästi sekä ajallisesti että keskenään, ja ne poikkeavat huomattavasti nykyisestä tietosisällöstä.
+
+Yhdistettyjen korkeakoulujen hakurekisteritiedot ovat saatavilla vuosilta 2015–2023. Näiltä vuosilta aineisto sisältää pääosin yhtenäisen muuttujasisällön, mutta myös tämän kokonaisuuden sisällä esiintyy eroavaisuuksia. Kaikki listatut muuttujat eivät ole saatavilla koko aikaväliltä, ja muuttujien käytössä on huomioitava tietojen rajoittuneisuus ja mahdolliset puutteet.
+
+Huom: Maanpuolustuskorkeakoulun hakijat on poistettu aineistosta.
+
+EDUC-HAREK -moduuli on ryhmitelty seuraaviin kokonaisuuksiin, joilla jokaisella on oma aineisto-kuvauksensa:
 * ammattikorkeakoulujen hakurekisteritiedot 1996-1999
 * ammattikorkeakoulujen hakurekisteritiedot 2000-2004
 * ammattikorkeakoulujen hakurekisteritiedot 2005-2014
@@ -35,18 +45,30 @@ Hakurekisteri on saatavilla yhdistettynä korkeakouluhakurekisterinä vuodesta 2
 * yliopistojen hakurekisteritiedot 2004-2009
 * yliopistojen hakurekisteritiedot 2010-2014
 * yhdistetyt korkeakoulujen hakurekisteritiedot 2015–
-Kunkin osakokonaisuuden kuvauksesta löytyy tarkemmat tiedot tietosisällöstä.
-Kaikkien tietojen oikeellisuudesta ei olla voitu varmistua. Huomaathan, että muuttujien kuvauksissa on voitu dokumentoida kokonaisuuden aikavälillä muuttujan sisällössä mahdollisesti tapahtuneita muutoksia ja muuttujan käytössä huomioon otettavia seikkoja. 
+
+Kunkin osakokonaisuuden kuvauksesta löytyy tarkemmat tiedot osion tietosisällöstä. Muuttujakuvauksissa on dokumentoitu mahdollisia muutoksia muuttujien sisällöissä sekä huomioita niiden käytöstä eri ajanjaksoina.
 
 EDUC-HAREK -moduulin aineisto koostuu erillisistä vuositiedostoista:
 - EDUC_HAREK_amkhaku_VVVV, jossa VVVV = 1996, ..., 2014.
 - EDUC_HAREK_yohaku_VVVV, jossa VVVV = 1992, ..., 2014.
-- EDUC_HAREK_kkhaku_VVVV, jossa VVVV = 2015, ..., 2023.
-Tiedostot sisältävät nimiensä mukaisesti ammattikorkeakoulujen hakurekisteritietoja, yliopistojen hakurekisteritietoja, ja yhdistettyjä korkeakoulujen hakurekisteritietoja kukin niiltä vuosilta, joilta aineistoa on saatavilla.
+- EDUC_HAREK_kkhaku_VVVV, jossa VVVV = 2015, ..., viimeisin vuosi.
 
+Tiedostot sisältävät nimiensä mukaisesti ammattikorkeakoulujen hakurekisteritietoja, yliopistojen hakurekisteritietoja, ja yhdistettyjä korkeakoulujen hakurekisteritietoja kukin niiltä vuosilta, joilta aineistoa on saatavilla. 
 
-Hakurekisteristä on erikseen saatavilla arkaluonteisia ja karkeistamattomia muuttujia, joihin annetaan käyttöoikeus vain, jos niihin on tutkimuksellisesta syystä erityinen tarve. Tällaisia ovat esimerkiksi karkeistamaton äidinkielitieto tai karkeistamaton kansalaisuustieto. Niillä moduulin karkeistetuilla tiedoilla, joista on karkeistamaton tieto saatavissa esimerkiksi Tilastokeskuksen tietovarannoista, on loppulyhenteenä _k.
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
+
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain. 
+
+<b> Tarkempaa tietoa muuttujista </b> 
+Hakurekisteristä on saatavilla myös erikseen arkaluonteisia ja karkeistamattomia muuttujia, joihin myönnetään käyttöoikeus vain erityisestä tutkimuksellisesta syystä. Tällaisia ovat esimerkiksi karkeistamaton äidinkielitieto tai karkeistamaton kansalaisuustieto. Jos karkeistamattomia tietoja on saatavilla Tilastokeskuksen tietovarannoista, niiden muuttujanimen loppuun on lisätty tunniste ”_k”.
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (255)

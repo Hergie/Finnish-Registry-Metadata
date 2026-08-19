@@ -2,12 +2,12 @@
 
 - **Identifier:** `MIGR_OLESK_jua_yhteystiedot_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
-- **Temporal coverage:** 2011-01-01 - 2024-12-31
-- **Published:** 2025-06-13
+- **Temporal coverage:** 2011-01-01 - 2025-12-31
+- **Published:** 2026-04-14
 - **Organisation:** Tilastokeskus
-- **Variable count:** 8
+- **Variable count:** 7
 - **Observation count:** —
-- **Population:** Oleskelulupaa hakeneet
+- **Population:** Oleskelulupaa ja kv suojelua hakeneet
 
 ## Description
 
@@ -20,45 +20,42 @@ Aineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamise
 
 Oleskelulupa-aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoon voi tulla vielä käytettävyyttä parantavia muutoksia. 
 
+MIGR-valmisaineistojen sisältämien muuttujien luokitukset sijaitsevat FIONAn metadata-kansiossa (D:/metadata/migr).
+
 Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella <a href="https://tilastot.migri.fi/" > Migrin tilastointipalvelusta</a>. 
 Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/oleskelulupa" > Maahanmuuttoviraston sivuilla</a>.
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Variables (8)
+## Variables (7)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SHNRO` | Suojattu henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `CUSTOMER_ID_s` | Suojattu asiakasnumero | — | — | — |
-| `TILASTOVUOSI` | — | — | — | — |
 | `CONTACT_IS_MAIN` | Paayhteystieto (K/E) | — | — | — |
 | `POSTAL_NUMBER` | Postinumero | — | — | — |
-| `MODIFICATION_TIME` | Muokkauspvm | — | — | — |
-| `CREATION_TIME` | Luomisaika | — | — | — |
-| `REMOVAL_TIME` | Poistettu kaytosta aika | — | — | — |
+| `MODIFICATION_TIME` | Muokkauspvm kk-tasolla | — | — | — |
+| `CREATION_TIME` | Luomisaika kk-tasolla | — | — | — |
+| `REMOVAL_TIME` | Poistettu kaytosta aika kk-tasolla | — | — | — |
 
 ### Variable definitions
 
-#### `SHNRO` — Suojattu henkilönumero
-
-Henkilönumero on poimittu niille joille se löytyy.
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `CUSTOMER_ID_s` — Suojattu asiakasnumero
 
 Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle tehnyt muut asiat ja toimenpiteet.
 
-#### `TILASTOVUOSI`
-
 #### `CONTACT_IS_MAIN` — Paayhteystieto (K/E)
 
 #### `POSTAL_NUMBER` — Postinumero
 
-#### `MODIFICATION_TIME` — Muokkauspvm
+#### `MODIFICATION_TIME` — Muokkauspvm kk-tasolla
 
-#### `CREATION_TIME` — Luomisaika
+#### `CREATION_TIME` — Luomisaika kk-tasolla
 
-#### `REMOVAL_TIME` — Poistettu kaytosta aika
+#### `REMOVAL_TIME` — Poistettu kaytosta aika kk-tasolla
 
 ---
 

@@ -387,7 +387,7 @@
     {
       "identifier": "HAKUKOHTEEN_NIMI_SV",
       "variablename": "Hakukohteen nimi ruotsiksi",
-      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "conceptdef": "Tieto vuodesta 2017 alkaen. 2024: ei voi päätellä koulutuksen kieltä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -395,7 +395,7 @@
     {
       "identifier": "HAKUKOHTEEN_NIMI_EN",
       "variablename": "Hakukohteen nimi englanniksi",
-      "conceptdef": "Tieto vuodesta 2017 alkaen",
+      "conceptdef": "Tieto vuodesta 2017 alkaen. 2024: ei voi päätellä koulutuksen kieltä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -499,7 +499,7 @@
     {
       "identifier": "KOULUTUKSEN_OPETUSKIELI1",
       "variablename": "Koulutuksen opetuskieli",
-      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n Tieto vuodesta 2017 alkaen. Vuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: \"Kaikki kielet, joilla koulutus järjestetään\"",
+      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n Tieto vuodesta 2017 alkaen. Vuodesta 2024 alkaen: 1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu\n\n.Ttiedot jaettuna 2024 alkaen useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: \"oppilaitoksen opetuskieli\"",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -523,7 +523,7 @@
     {
       "identifier": "POHJAKOULUTUSVAATIMUS",
       "variablename": "Pohjakoulutusvaatimus ",
-      "conceptdef": "PK =  peruskoulun päättötodistus \nYO = ylioppilastutkinto (ei 2019) \nER = peruskoulu / yksilöllistetty perusopetus\n\nVuodesta 2021 alk. \nPK/YO = peruskoulun päättötodistus/ylioppilastutkinto (ei 2019) ",
+      "conceptdef": "PK =  peruskoulun päättötodistus \nYO = ylioppilastutkinto (ei 2019) \nER = peruskoulu / yksilöllistetty perusopetus\n\nVuodesta 2021 alk. \nPK/YO = peruskoulun päättötodistus/ylioppilastutkinto (ei 2019). 2024: ovaran myötä hakukohteelle on voitu kirjata useampia pohjakoulutusvaatimuksia. Avain: pohjakoulutusvaatimus_2024",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -1043,7 +1043,7 @@
     {
       "identifier": "KOULUTUKSEN_OPETUSKIELI_2",
       "variablename": "Koulutuksen toinen opetuskieli",
-      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: \"Kaikki kielet, joilla koulutus järjestetään\"",
+      "conceptdef": "1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: \"oppilaitoksen opetuskieli\"",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -1051,7 +1051,15 @@
     {
       "identifier": "KOULUTUKSEN_OPETUSKIELI_3",
       "variablename": "Koulutuksen kolmas opetuskieli",
-      "conceptdef": "FI = suomi\nSV = ruotsi\nEN = englanti\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna kolmeen muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3, joiden kuvaus ovarassa: \"Kaikki kielet, joilla koulutus järjestetään\"",
+      "conceptdef": "1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: \"oppilaitoksen opetuskieli\"",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "KOULUTUKSEN_OPETUSKIELI4",
+      "variablename": "Koulutuksen neljäs opetuskieli",
+      "conceptdef": "1=suomi, 2=ruotsi, 3=suomi/ruotsi, 4=englanti 9=muu\n\n. Tieto vuodesta 2024 alkaen.\n\nVuodesta 2024 alkaen tiedot jaettuna useampaan muuttujaan: KOULUTUKSEN_OPETUSKIELI1, KOULUTUKSEN_OPETUSKIELI2, KOULUTUKSEN_OPETUSKIELI3,  KOULUTUKSEN_OPETUSKIELI4 joiden kuvaus ovarassa: \"oppilaitoksen opetuskieli\"",
       "measunit": null,
       "classification": null,
       "variablegroups": null

@@ -218,13 +218,13 @@ Yrityksen yrittäjät henkilötyövuosina
 
 **Unit:** €
 
-Yrityksen tuotot maataloudesta tilastovuonna.
+Yrityksen tuotot maataloudesta tilastovuonna. Kaikki y-tunnukselliset maataloustulot, jotka ylittävät maatalous- tai metsätuloille asetetun tilastointirajan 5000€ tilastovuotena.
 
 #### `TuototMetsatalous` — Tuotot metsätaloudesta
 
 **Unit:** €
 
-Yrityksen tuotot metsätaloudesta tilastovuonna
+Yrityksen tuotot metsätaloudesta tilastovuonna. Kaikki y-tunnukselliset metsätulot, jotka ylittävät maatalous- tai metsätuloille asetetun tilastointirajan 5000€ tilastovuotena.
 
 #### `Sijoittajamaa` — Sijoittajamaa
 

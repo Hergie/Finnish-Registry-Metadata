@@ -29,7 +29,7 @@ Aineiston poimintaan on vaikuttanut ilmoitusten käsittelyn ja järjestelmien mu
 
 PRH ei vastaa aineistoon sisältyvien tietojen virheistä, katoamisista tai muuttumisesta eikä näistä mahdollisesti aiheutuvista vahingoista käyttäjälle tai kolmansille osapuolille. PRH ei myöskään vastaa Tilastokeskuksen aineistoon tekemistä muutoksista tai tarjoamista palveluista.
 
-
+Huom: aineistoa ei käytetä tilastotuotannossa, eli tutkimuskäyttö edellyttää myös aineiston tarkistamista ja puhdistamista.
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
@@ -37,8 +37,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `syrtun` | Suojattu yritystunnus | — | — | — |
-| `shnro` | Suojattu henkilönumero | — | — | — |
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `YRITYKSEN_TILA` | Yrityksen tila | — | — | — |
 | `TOIMIELINKOODI` | Toimielimen koodi | — | — | — |
 | `ROOLIKOODI` | Vastuuhenkilörooli | — | — | — |
@@ -52,11 +52,13 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ### Variable definitions
 
-#### `syrtun` — Suojattu yritystunnus
+#### `yrtun_s` — Suojattu yritystunnus
 
-#### `shnro` — Suojattu henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-Pohja-aineistossa on myös tyhjiä jenttiä, jotka on myös tuotu mukaan. Kyseessä on useimmiten henkilö, jolla ei ole suomalaista henkilötunnusta.
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
+
+Pohja-aineistossa on myös tyhjiä kenttiä, jotka on myös tuotu mukaan. Kyseessä on useimmiten henkilö, jolla ei ole suomalaista henkilötunnusta.
 
 #### `YRITYKSEN_TILA` — Yrityksen tila
 

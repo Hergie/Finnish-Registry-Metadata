@@ -1,7 +1,7 @@
 {
   "variables": [
     {
-      "identifier": "syrtun",
+      "identifier": "yrtun_s",
       "variablename": "Suojattu yritystunnus",
       "conceptdef": null,
       "measunit": null,
@@ -9,9 +9,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "shnro",
-      "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Pohja-aineistossa on myös tyhjiä jenttiä, jotka on myös tuotu mukaan. Kyseessä on useimmiten henkilö, jolla ei ole suomalaista henkilötunnusta.",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n\nPohja-aineistossa on myös tyhjiä kenttiä, jotka on myös tuotu mukaan. Kyseessä on useimmiten henkilö, jolla ei ole suomalaista henkilötunnusta. ",
       "measunit": null,
       "classification": null,
       "variablegroups": null

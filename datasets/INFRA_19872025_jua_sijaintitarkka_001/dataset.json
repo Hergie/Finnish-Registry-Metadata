@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "INFRA_19872025_jua_sijaintitarkka_001.xml",
+      "doi": "work_2026-07_2026-07-20_ain_0001",
+      "subject": "INFRA_SIJAINTI_TARKKA Sijaintitiedot tarkka",
+      "contentdescription": "INFRA_SIJAINTI-valmisaineisto sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. Aineistosta on olemassa kaksi versiota, INFRA_SIJAINTI ja INFRA_SIJAINTI_TARKKA, joilla on molemmilla oma aineistokuvauksensa.\n\nTämä aineistokuvaus koskee aineiston tarkempaa versiota, joka sisältää 250m x 250m ruututunnukset yli kolmen asukkaan ruuduille sekä vähintään kolme huoneistoa sisältävien rakennusten koordinaatit. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja.\n\nRakennusten koordinaattitietoja ei koskaan anneta ulos etäkäyttöjärjestelmästä. Ruututasolle tai muulle aluetasolle aggregoituja tietoja voidaan antaa ulos etäkäyttöjärjestelmästä vain silloin, kun alueella on vähintään 10 henkilöä. Kokonaista ruutuaineistoa ei saa julkaista. Ruutuihin tai muihin maantieteellisiin alueisiin perustuvia tietoja voidaan julkaista silloin, kun yksittäisiä henkilöitä tai asuntokuntia ei voi tunnistaa. Julkaistavien tietojen tulee olla aggregoituja suuremmalle aluetasolle, suhtautettuja, tai muulla tavalla käsiteltyjä siten, että suora ja epäsuora tunnistaminen on estetty.\n\nTilastovuoden 2025 päivityksen yhteydessä on tehty takautuvia muutoksia päivittämällä suojausta ja lisäämällä pysyvä rakennustunnus -muuttuja (prt).\n\nLisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi.\n",
+      "coveragetemporal": "1987-12-31 - 2025-12-31",
+      "published_day": "2026-07-20",
+      "variable_count": "9",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": null,
+      "resourcerelation_1": "Digi- ja väestöviraston väestötietojärjestelmä. Koostettu henkilötietovaraston henkilö-vuosi- ja rakennus-tauluista.",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

@@ -3,7 +3,7 @@
 - **Identifier:** `MIGR_PERHE_jua_siviilisaaty_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
 - **Temporal coverage:** 2011-01-01 - 
-- **Published:** 2026-02-10
+- **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
 - **Variable count:** 7
 - **Observation count:** —
@@ -36,7 +36,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `Shnro` | Suojattu hnro | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `customer_id_s` | Suojattu asiakasnumero | — | — | — |
 | `MARITAL_STATUS_CODE` | Siviilisaaty ID | — | — | — |
 | `REGISTRATION_MONTH` | Avioliiton rekisteröimiskuukausi | — | — | — |
@@ -46,7 +46,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 
 ### Variable definitions
 
-#### `Shnro` — Suojattu hnro
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
 #### `customer_id_s` — Suojattu asiakasnumero
 

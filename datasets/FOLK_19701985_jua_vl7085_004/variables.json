@@ -17,9 +17,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "shnro",
-      "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Suojattu TK:n henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa Huom! Henkilönumero puuttuu n.2700 henkilöltä erityisesti vuonna 1970. Yksilöivä perusavain (primary key) aineistossa on nro ja vuosi -tiedot eikä vuosi ja shnro -tiedot, kuten FOLK-aineistoissa yleensä.",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null

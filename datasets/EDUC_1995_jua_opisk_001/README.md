@@ -1,4 +1,4 @@
-# EDUC_OPISK Opiskelijat 1995
+# EDUC_OPISK Opiskelijat, v. 1995
 
 - **Identifier:** `EDUC_1995_jua_opisk_001.xml`
 - **DOI:** `he_201304_ain_Opiskelutekeilla`
@@ -8,50 +8,71 @@
 - **Variable count:** 50
 - **Observation count:** —
 - **Population:** Tutkintoon johtavan koulutuksen opiskelijat Suomessa
-- **Source:** TK: Oppilaitostilastot
+- **Source:** Tilastokeskuksen ikätilastoa varten keräämät henkilöpohjaiset tiedot
 - **Keywords:** Opiskelija,opiskelu,oppilas
 
 ## Description
 
-EDUC_OPISK Opiskelijat 1995-vuositiedosto sisältää syksyllä 1995 tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat.
+EDUC_OPISK-valmisaineisto sisältää tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat, sekä tietoja heidän demografisista taustatekijöistään, opintoaloistaan sekä tiedekunnistaan. 
+Tämä aineistokuvaus koskee vuoden 1995vuositiedostoa. EDUC_OPISK-aineistosta on erilliset kuvaukset myös vuosille 1996, 1997 ja 1998. Vuoden 1999 ja sen jälkeisille tiedoille on olemassa yksi kuvaus.  
 
-YLEISIMMÄT KÄYTTÖTAVAT:
+<b> Valmisaineiston tarkentava nimi </b> 
+Opiskelijoiden tiedot lukiokoulutuksessa, ammatillisessa koulutuksessa, oppisopimuskoulutuksessa ja ammattikorkeakoulu- ja yliopistokoulutuksessa kirjoilla olleista, sisältäen kansalaisuus-, kieli- ja opintotietoja.
 
-Muuttujalla kryh saadaan valittua erikseen lukiokoulutuksessa, ammatillisessa koulutuksessa,
-ammattikorkeakoulutuksessa sekä yliopistokoulutuksessa opiskelevat.
-Huom! Jos halutaan valita ammattikorkeakoulut, ne saa helpoimmin muuttujalla kryh=41 ja 42
-tai muuttujalla opasteu=4. 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Vuoden 1995 datataulu sisältää opiskelijat, jotka olivat kirjoilla tutkintoon johtavassa koulutuksessa syksyllä 1995. Mukana ovat lukiokoulutus, ammatillinen koulutus, ammattikorkeakoulutus ja yliopistokoulutus. Tiedot perustuvat Tilastokeskuksen ikätilastoa varten keräämiin henkilöpohjaisiin tietoihin. Kyseessä on ensimmäinen henkilöpohjainen opiskelija-aineisto, joka kattaa kaikki koulutussektorit.
+ 
+<u>Lukiokoulutuksen opiskelijat </u>
+Lukiokoulutuksen tiedot perustuvat opetustoimen valtionosuusjärjestelmän tilanteeseen 20.9.1995. Ahvenanmaan lukiolaisten tiedot on kerännyt Tilastokeskus. Aineistoon sisältyvät:
+<ul>
+<li> päivälukion opiskelijat</li>
+<li>päivälukion aikuislinjojen opiskelijat</li>
+<li>aikuislukioiden opiskelijat</li>
+</ul>
+Aineistosta on poistettu 556 opiskelijaa, joilta puuttui suomalainen henkilötunnus. Aikuislukioiden ja lukion aikuislinjojen opiskelijamääriin on laskettu mukaan ne opiskelijat, jotka suorittivat peruskoulun tai lukion koko oppimäärää. Aineopiskelijat eivät sisälly opiskelijamääriin.
 
-Jos tiedot halutaan koulutuksittain, käytetään yleensä TK:n koulutusluokituksen (standardiluokitus) 
- 6-numeroista koulutuskoodia, joka löytyy muuttujasta koulk. 
+<u>Ammatilliset oppilaitokset ja väliaikaiset ammattikorkeakoulut: </u>
+Aineisto perustuu Tilastokeskuksen keräämiin henkilöpohjaisiin tietoihin opiskelijoista, jotka olivat kirjoilla tutkintoon johtavassa ammatillisessa koulutuksessa ja väliaikaisissa ammattikorkeakouluissa 20.9.1995. Tiedonkeruuseen sisältyivät myös kansanopistot, musiikkioppilaitokset ja liikunnan koulutuskeskukset, mikäli ne tarjosivat tutkintoon johtavaa ammatillista koulutusta.
 
-LUOKITUKSET:
-					
-Tiedostossa ovat sekä TK:n vanhan koulutusluokituksen 5-numeroiset koulutuskoodit (ja niihin liittyvät  muut luokitusmuuttujat) että vuonna 1997 käyttöön otetun TK:n uuden koulutusluokituksen 6-numeroiset koulutuskoodit (ja niihin liittyvät muut luokitusmuuttujat). Myös 1997 muuttuneesta Unescon ISCED-luokituksesta tiedostossa on sekä uuden että vanhan luokituksen tiedot.
+Aineistosta on poistettu 1 202 opiskelijaa, joilta puuttui suomalainen henkilötunnus.
+Tutkintoon johtavaksi ammatilliseksi koulutukseksi on luettu:
+<ul>
+<li>nuorisoasteen koulutukset, joiden laajuus on vähintään 400 tuntia </li>
+<li>tutkintoon johtavat aikuiskoulutuslinjat, kuten: </li>
+<ul>
+<li>aikuisille suunnatut koulutusohjelmat tai opintolinjat</li>
+<li>ammatillisen peruskoulutuksen linjat</li>
+<li>ammatillisten erikoisoppilaitosten opintolinjat</li>
+<li>koulutukset, jotka edellyttävät aiempaa alan tutkintoa ja työkokemusta</li>
+</ul>
+</li>
+</ul>Väliaikaiset ammattikorkeakoulut olivat yhden tai useamman ammatillisen oppilaitoksen muodostamia koulutusyksiköitä. Vuonna 1995 niitä oli yhteensä 22. Koulutuksen tavoitteena oli nostaa opistoasteen ja ammatillisen korkea-asteen koulutuksen ammatillista ja teoreettista tasoa. Väliaikaisissa ammattikorkeakouluissa suoritetut tutkinnot ovat korkeakoulututkintoja.
 
-TIETOLÄHTEET JA PERUSJOUKKO:
+<u>Korkeakoulut: </u>
+Korkeakouluopiskelijoita koskeva aineisto perustuu Tilastokeskuksen korkeakouluilta keräämiin henkilöpohjaisiin tietoihin 31.12.1995. Mukana ovat opiskelijat, jotka suorittivat alempaa tai ylempää korkeakoulututkintoa, lisensiaattitutkintoa, tohtorintutkintoa ja ammatillista jatkotutkintoa. Aineistosta on poistettu 1484 opiskelijaa, joilta puuttui suomalainen henkilötunnus.
 
-Tiedot perustuvat Tilastokeskuksen ikätilastoa varten keräämiin henkilöpohjaisiin tietoihin. Tiedosto on ensimmäinen kaikki koulutussektorit kattava henkilöpohjainen opiskelija-aineisto.
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Muuttujan kryh avulla voidaan erotella opiskelijat koulutusasteittain: lukiokoulutus, ammatillinen koulutus, ammattikorkeakoulutus ja yliopistokoulutus.
+Huom! Ammattikorkeakouluopiskelijat saa helpoimmin valittua joko muuttujalla kryh=41 taikryh=42
+ tai muuttujalla opasteu=4.
+Jos tiedot halutaan koulutuksittain, käytetään yleensä Tilastokeskuksen koulutusluokituksen (standardiluokitus) mukaista 6-numeroista koulutuskoodia, joka löytyy muuttujasta koulk.
 
-Päivälukioiden opiskelijat ja lukioiden aikuisopiskelijat:			
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-Lukioita koskevat henkilöpohjaiset opiskelijatiedot perustuvat opetustoimen valtionosuusjärjestelmän 20.9.1995 ajankohdan tietoihin. Tilastokeskus keräsi Ahvenanmaan maakunnan lukiolaisten tiedot. Tiedostoon kuuluvat päivälukion, päivälukion aikuislinjojen ja aikuislukioiden opiskelijat. Aineistosta on poistettu 556 opiskelijaa, joille ei löytynyt suomalaista henkilötunnusta. Aikuislukion ja lukion aikuislinjojen opiskelijamääriin on laskettu peruskoulun tai lukion koko oppimäärää opiskelleet opiskelijat. Aineopiskelijat eivät kuulu opiskelijamäärään.
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_OPISK-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_OPISK_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
 
-Ammatilliset oppilaitokset ja väliaikaiset ammattikorkeakoulut:
-	
-Ammatillisten oppilaitosten ja väliaikaisten ammattikorkeakoulujen aineisto perustuu Tilastokeskuksen keräämiin henkilöpohjaisiin  tietoihin tutkintoon johtavan ammatillisen koulutuksen ja väliaikaisten ammattikorkeakoulujen opiskelijoista 20.9.1995. Tiedonkeruuseen kuuluivat väliaikaisten ammattikorkeakoulujen  lisäksi ammatillisten oppilaitosten, kansanopistojen, musiikkioppilaitosten ja liikunnan koulutuskeskusten tutkintoon johtavan ammatillisen koulutuksen opiskelijat. Aineistosta on poistettu 1202 opiskelijaa,  joille ei löytynyt suomalaista henkilötunnusta. Tutkintoon johtavaksi ammatilliseksi koulutukseksi luetaan tässä tilastossa nuorisoasteen vähintään 400 tuntia kestävät koulutukset sekä tutkintoon johtavat aikuiskoulutuslinjat. Tutkintoon johtavilla aikuiskoulutuslinjoilla tarkoitetaan aikuisille suunniteltua koulutusohjelmaa tai opintolinjaa, aikuisten ammatillisen peruskoulutuksen linjaa, ammatillisten erikoisoppilaitosten opintolinjaa sekä tutkintoon johtavia opintolinjoja, jotka edellyttävät saman alan aikaisempaa tutkintoa ja lisäksi työkokemusta. Väliaikaiset ammattikorkeakoulut ovat yhden tai useamman ammatillisen oppilaitoksen muodostamia koulutusyksiköitä, joita oli 22 vuonna 1995. Koulutuksen tavoitteena oli kohottaa  opistoasteen ja ammatillisen korkea-asteen koulutuksen ammatillista ja teoreettista tasoa. Väliaikaisissa ammattikorkeakouluissa suoritettavat tutkinnot ovat korkeakoulututkintoja.
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
-Korkeakoulut:
-			
-Korkeakouluopiskelijoita koskeva aineisto perustuu Tilastokeskuksen korkeakouluilta keräämiin henkilöpohjaisiin tietoihin korkeakouluopiskelijoista 31.12.1995. Tutkintoa suorittavia opiskelijoita ovat alempaa tai ylempää korkeakoulututkintoa, lisensiaattitutkintoa, tohtorintutkintoa ja ammatillista jatkotutkintoa suorittavat opiskelijat. Aineistosta on poistettu 1484 opiskelijaa, joille ei löytynyt suomalaista henkilötunnusta.
+<b> Tarkempaa tietoa muuttujista </b> 
 
-KARKEISTETUT MUUTTUJATIEDOT:
+<u>Tarkempaa tietoa luokituksista </u>
+Datassa on mukana sekä Tilastokeskuksen vanhan koulutusluokituksen 5-numeroiset koulutuskoodit ja niihin liittyvät luokitusmuuttujat, että vuonna 1997 käyttöön otetun uuden koulutusluokituksen 6-numeroiset koodit ja niihin liittyvät muut luokitusmuuttujat. Lisäksi tiedostossa on mukana sekä vanhan että uuden version tiedot Unescon ISCED-luokituksesta, joka uudistui vuonna 1997.
 
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_OPISK_K, jossa on karkeistettu tiedot kansalaisuudesta luokkiin suomi, muu Eurooppa ja muu, ja äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_OPISK, ja maksaa saman verran. EDUC_OPISK sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
-
-
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (50)

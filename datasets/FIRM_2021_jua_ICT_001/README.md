@@ -5,7 +5,7 @@
 - **Temporal coverage:** 2021-01-01 - 2021-12-31
 - **Published:** 2023-07-19
 - **Organisation:** Tilastokeskus
-- **Variable count:** 178
+- **Variable count:** 179
 - **Observation count:** —
 - **Population:** Yritykset, jotka kuuluvat toimialaluokituksen TOL2008 pääluokkiin C-J ja L-M  sekä toimiala 951. Otoskehikkona on Tilastokeskuksen yritysrekisteriin pohjautuvan yritysten rakennetilaston tuotantotietokannan tai yritystietovaraston (alkaen vuodesta 2013) edellä mainittujen toimialojen vähintään kymmenen henkilöä työllistävät yritykset. Vuosina 2001 - 2009 aineisto kattaa myös 5 – 9 henkeä työllistävät yritykset. Otoskehikon kaikki vähintään sata henkilöä työllistävät yritykset sisällytettiin kyselyyn. Työntekijämäärältään (5)10–99 henkilön yritysten osalta käytettiin otantaa. Otanta-asetelmana oli toimialan ja kokoluokan mukaan ositettu yksinkertainen satunnaisotanta.
 - **Source:** Tilastokeskuksen Tietotekniikan käyttö yrityksissä -kysely ja yritysrekisteri
@@ -73,7 +73,7 @@ Jotkut tutkimuksen kysymysosioista, kuten esimerkiksi tietotekniikan ja internet
 
 Vuoden 2021 aineisto sisältää jälleen sähköisen kaupan. Sähköisellä kaupalla tarkoitetaan tietokoneverkon kautta suoritettuja tavaroiden ja palvelujen tilauksia. Maksu- tai toimitustavalla ei ole merkitystä.
 
-## Variables (178)
+## Variables (179)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
@@ -218,6 +218,7 @@ Vuoden 2021 aineisto sisältää jälleen sähköisen kaupan. Sähköisellä kau
 | `AIKIR` | AIKIR | — | — | — |
 | `AIPUH` | AIPUH | — | — | — |
 | `AINLG` | AINLG | — | — | — |
+| `AIKUV` | AIKUV | — | — | — |
 | `AIKON` | AIKON | — | — | — |
 | `AIOHJ` | AIOHJ | — | — | — |
 | `AIROB` | AIROB | — | — | — |
@@ -711,9 +712,11 @@ kieltä koneluettavaan muotoon
 #### `AINLG` — AINLG
 
 8.1 Käyttääkö yrityksenne seuraavia tekoälyteknologioita?
-8.1.d. Teknologiat, jotka tunnistavat kohteita
-tai henkilöitä kuvista (kuvan tunnistus,
-kuvan käsittely)
+8.1.c. Teknologiat jotka tuottavat kirjoitettua tai puhuttua kieltä (luonnollisen kielen tuottaminen)
+
+#### `AIKUV` — AIKUV
+
+8.1.d. Teknologiat, jotka tunnistavat kohteita tai henkilöitä kuvista (kuvan tunnistus, kuvan käsittely)
 
 #### `AIKON` — AIKON
 

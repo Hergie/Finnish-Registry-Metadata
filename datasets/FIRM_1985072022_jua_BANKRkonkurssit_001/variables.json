@@ -1,6 +1,22 @@
 {
   "variables": [
     {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu konkurssivelallisen yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu konkurssivelallisen yksilöivä tunniste",
+      "conceptdef": "Vuoteen 2016 asti, puutteellinen. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "TUIS",
       "variablename": "Tuomioistuintunnus",
       "conceptdef": null,
@@ -340,22 +356,6 @@
       "identifier": "idtyyp",
       "variablename": "Konkurssivelallisen yritystunnuksen tyyppi",
       "conceptdef": "1 = y-tunnus\n2 = hetu-muotoinen tunnus (vuodesta 1998 alkaen vain harvoin)\n3 = muu (esim. tekstiä)\n\nVuoteen 2016 asti.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "syrtun",
-      "variablename": "Suojattu konkurssivelallisen yritystunnus",
-      "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "shnro",
-      "variablename": "Suojattu konkurssivelallisen henkilönumero",
-      "conceptdef": "Vuoteen 2016 asti, puutteellinen",
       "measunit": null,
       "classification": null,
       "variablegroups": null

@@ -1,8 +1,8 @@
-# FIRM_SUBSID Yritystukitietokanta 2022-2024
+# FIRM_SUBSID Yritystukitietokanta 2022-2025
 
 - **Identifier:** `FIRM_2022_jua_SUBSID_001.xml`
 - **DOI:** `yrtt_2012-04_2012-04-19_ain_0001`
-- **Temporal coverage:** 2009-01-01 - 2024-12-31
+- **Temporal coverage:** 2009-01-01 - 2025-12-31
 - **Published:** 2025-05-23
 - **Organisation:** Tilastokeskus
 - **Variable count:** 33
@@ -26,7 +26,6 @@ Vuosien 2020-2021 osalta tilastossa oli mukana koronapandemian vuoksi maksetut e
 Vuoden 2022 tilasto perustuu pääosin uuteen tietolähteeseen, työ- ja elinkeinoministeriön yritystukirekisteriin. Rekisteri ei vielä kata kaikkia tukiohjelmia, esimerkiksi palkka- ja starttitukiin liittyen. Palkkatuet lisättiin tilastoon erillisellä tietopyynnöllä. Rekisteri ei sisällä maksatustietoja niistä tuista, jotka on myönnetty ennen vuotta 2020. Aineistossa on ollut myös puutteita liittyen esimerkiksi tuen tarkoitukseen ja myöntöpäivään, mutta näitä on korjattu käsin tilaston tekovaiheessa.  
  
 Tilastovuodesta 2022 otettiin käyttöön uusi aineisto ja samalla yritystuen määritelmää on laajennettu kattamaan entistä useampia tukiohjelmia. Näin ollen tiedot eivät ole vertailukelpoisia menneisiin vuosiin. Menneiden vuosien tilastojen tiedoista on kuitenkin laadittu mahdollisimman vertailukelpoinen aikasarja vuodesta 2009 lähtien. Aikasarjan keskeiset tiedot julkaistaan aina vuosittain julkistettavan uuden tilaston yhteydessä. Tilastosta ei ole mahdollista saada kansainvälisiä vertailutietoja. KTM:n ja TM:n yhdistyminen TEM:ksi saattaa hieman heikentää tilaston vertailukelpoisuutta yli ajan. Eri tukityypit (lainat, takaukset, suorat tuet) eivät ole suoraan vertailukelpoisia keskenään. Ohjelmakauden vaihdokset ja muutokset tukiperusteisiin vaikuttavat jonkin verran vertailtavuuteen varsinkin aikasarjoissa. Hanketuet sisältyvät MMM:n tietoihin ennen tilastovuotta 2010, mikä vaikuttaa osaltaan heikentävästi aikasarjan vertailtavuuteen. Vuodesta 2013 alkaen suoriin tukiin on lisätty myös työ- ja elinkeinoministeriön maksamat energiatuet. Vuosina 2020-2021 jaettiin erityisiä tukia koronapandemian vuoksi. 
- 
 
 VUODEN 2023 HUOMIOT:
 
@@ -36,13 +35,11 @@ VUODEN 2024 HUOMIOT:
 Tukiohjelmatunnuksen luokittelu on muuttunut, lisätietoja muuttujakuvauksessa. Huomaathan aineiston vuosittaisista kokoeroista myös, että yleisesti yksittäisen tukien määrä on laskenut, siinä missä yksittäisten tukien euromäärät ovat kasvussa. Myös tämä selittää vuositauluissa päällisin puolin nähtävillä olevia eroja suhteessa toisiinsa.
 
 
-Yritystukitietokanta kattaa tilastovuoden aikana maksetut ja myönnetyt suorat tuet, lainat ja takaukset. Myönnettyjen ja maksettujen tukien vuosisummat eroavat toisistaan, sillä myönnetyn tuen maksaminen voi ajoittua usean vuoden ajalle, myönnettyä tukea ei makseta kokonaisuudessaan tai se peritään takaisin, jos tuen saaja ei täytä tai rikkoo myöntäjän asettamia ehtoja tai omia lupauksiaan.  
+Yritystukitietokanta kattaa tilastovuoden aikana maksetut ja myönnetyt suorat tuet, lainat ja takaukset. Yritystukitilasto ei kuitenkaan kata kaikkia tukia, kuten verotukia ja kuntien myöntämiä yritystukia, mikäli rahoitus näihin tulee kunnilta itseltään. 
 
-Yritystukitilasto ei kuitenkaan kata kaikkia tukia, kuten verotukia ja kuntien myöntämiä yritystukia, mikäli rahoitus näihin tulee kunnilta itseltään. 
-
+Myönnettyjen ja maksettujen tukien vuosisummat eroavat toisistaan, sillä myönnetyn tuen maksaminen voi ajoittua usean vuoden ajalle, myönnettyä tukea ei makseta kokonaisuudessaan tai se peritään takaisin, jos tuen saaja ei täytä tai rikkoo myöntäjän asettamia ehtoja tai omia lupauksiaan. Hyvin pienet määrät ovat yleensä vanhojen tukien korjauksia, ja korkeimmat summat voivat olla sadoissa miljoonissa. Luvut ovat euroina.
  
 Yritykset ovat yksilöitävissä tietokannasta suojattujen yritystunnusten avulla. Aineiston perusjoukkona on Suomessa toimivat yritykset, jotka on oikeutettu samaan yritystukea. 
-
  
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
@@ -50,6 +47,9 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `tukiID` | tukiID | — | — | — |
+| `vuosi` | Vuosi | — | — | — |
 | `julkisuusaste` | julkisuusaste | — | — | — |
 | `maksimiMaara` | maksimimaara | — | — | — |
 | `minimiMaara` | minimimaara | — | — | — |
@@ -80,11 +80,20 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tukitila` | TukiTila | — | — | — |
 | `tuenValitysOrganisaatio` | tuenValitysOrganisaatio | — | — | — |
 | `alkuperainenMyontaja` | AlkuperainenMyontaja | — | — | — |
-| `vuosi` | Vuosi | — | — | — |
-| `tukiID` | tukiID | — | — | — |
-| `ytunnus` | Syrtun | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu yritystunnus
+
+Yritystunnus, avainmuuttuja, jolla yritykset (oikeudelliset yksiköt) yksilöidään.
+
+#### `tukiID` — tukiID
+
+Tuen yksilöivä tunniste. Toimii avainmuuttujana myös. Tuelle myönnetään tukiID, joka on yksilöivä jokaista myöntötapahtumaa kohtaan. Mahdollistaa maksettujen ja myönnettyjen tukien linkkaamisen toisiinsa. Vanhassa aineistossa tukiID on itse generoitu laittamalla kirjain "v" ja satunnainen luku.
+
+#### `vuosi` — Vuosi
+
+Tukitapahtuman vuosi. Mikäli samana vuonna myöntöjä ja/tai maksuja, niin näiden vuodet täsmäävät tähän muuttuujaan. Tämä muuttuja mukana, jotta saadaan erotteleva avainmuuttuja.
 
 #### `julkisuusaste` — julkisuusaste
 
@@ -229,18 +238,6 @@ Tuen välittäjät. Joitain tukia jakavat esim. säätiöt tai yhdistykset ja ra
 #### `alkuperainenMyontaja` — AlkuperainenMyontaja
 
 Tuen myöntäjän nimi.
-
-#### `vuosi` — Vuosi
-
-Tukitapahtuman vuosi. Mikäli samana vuonna myöntöjä ja/tai maksuja, niin näiden vuodet täsmäävät tähän muuttuujaan. Tämä muuttuja mukana, jotta saadaan erotteleva avainmuuttuja.
-
-#### `tukiID` — tukiID
-
-Tuen yksilöivä tunniste. Toimii avainmuuttujana myös. Tuelle myönnetään tukiID, joka on yksilöivä jokaista myöntötapahtumaa kohtaan. Mahdollistaa maksettujen ja myönnettyjen tukien linkkaamisen toisiinsa. Vanhassa aineistossa tukiID on itse generoitu laittamalla kirjain "v" ja satunnainen luku.
-
-#### `ytunnus` — Syrtun
-
-Yritystunnus, avainmuuttuja, jolla yritykset (oikeudelliset yksiköt) yksilöidään.
 
 ---
 

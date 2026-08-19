@@ -1,4 +1,4 @@
-# FOLK Väestölaskenta 1950
+# FOLK_VL50
 
 - **Identifier:** `FOLK_1950_jua_vl50_001.xml`
 - **DOI:** `he_201100_ain_vaestolaskenta50`
@@ -8,26 +8,42 @@
 - **Variable count:** 73
 - **Observation count:** —
 - **Population:** 10 %:n otos vuoden 1950 väestölaskennasta
-- **Source:** Tiedot väestöstä kerättiin lomakelaskennalla. Otokseen on poimittu noin joka kymmenes ruokakunta (ruokakuntalomakkeelta).
+- **Source:** Väestötiedot väestöstä kerättiin lomakelaskennalla. Otokseen on Väestötiedot kerättiin lomakelaskennalla, jossa otokseen poimittiin noin joka kymmenes ruokakunta (ruokakuntalomakkeelta).
 - **Keywords:** asuminen,sosioekonominen asema,toimialat,väestönlaskenta
 
 ## Description
 
-Tutkimusaineisto on noin 10%:n otos alkuperäisestä vuoden 1950 väestölaskennasta. 
+Väestölaskenta 1950 –valmisaineistomoduuli sisältää laajasti tietoja henkilöiden ja asumisen perusominaisuuksista vuonna 1950 sekä joitakin tietoja myös vuodelta 1939.  Aineistossa on mukana muun muassa tietoja iästä, sukupuolesta, koulutuksesta, tuloista ja työllisyydestä perheestä ja asuntokunnasta. Tutkimusaineisto on noin 10 prosentin otos alkuperäisestä vuoden 1950 väestölaskennasta. 
 
-Ensimmäinen väestölaskentalain (154/38) nojalla tehty laskenta suoritettiin Suomessa vuonna 1950. Väestölaskennan tarkoitus oli selvittää maassa asuvan väestön määrä ja rakenne. Laskennassa kerättiin erikseen tietoja kaikista henkilöistä, ruokakunnista, asunnoista ja rakennuksista. Tiedot kerättiin lomakelaskennalla. 
+<b> Valmisaineiston tarkentava nimi </b> 
 
-Vuoden 1950 väestölaskennan ruokakuntalomakkeet on arkistoitu kansioihin, joissa keskimäärin on noin 150 lomaketta. Kansiot on järjestetty lääneittäin. Läänin sisällä kunnat seuraavat toisiaan kuntamuodon mukaan aakkosjärjestyksessä. Laskentakansioita on yhteensä noin 7 300. Otostutkimusta varten poimittiin tästä aineistosta joka kymmenes kansio. Kansioiden lopullinen lukumäärä oli 729. Lopullisessa otosaineistossa on yhteensä 411 629 henkilön tiedot, eli 10,3 % laskennan perusjoukosta.
+Väestön määrän ja rakenteen tietoja 10 %:n otoksesta vuoden 1950 väestönlaskennasta, sisältäen tietoja kaikista henkilöistä, ruokakunnista, asunnoista ja rakennuksista 
 
-Lomakkeilla oli kysytty henkilöiden täydelliset nimi- ja syntymäaikatiedot, joten näiden ja joidenkin muiden tietojen avulla otokseen kuuluville henkilöille voitiin hakea henkilötunnus. Tunnuksia löytyi yhteensä 339 766 eli 82,5 % otoksen henkilöistä. Otosaineistossa ovat luonnollisesti mukana myös ne, joille henkilötunnusta ei löydetty.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 
-Lisätietoja Tilastokeskuksen käsikirjoja 38 'Vuoden 1950 väestölaskennan otosaineiston käsikirja' https://www.doria.fi/bitstream/handle/10024/96465/xksk38_195000_1997_dig.pdf?sequence=1
+Vuoden 1950 väestölaskenta oli ensimmäinen, joka toteutettiin väestölaskentalain (154/38) nojalla. Sen tavoitteena oli selvittää Suomessa asuvan väestön määrä ja rakenne. Laskennassa kerättiin erikseen tietoja kaikista henkilöistä, ruokakunnista, asunnoista ja rakennuksista. Kaikki tiedot kerättiin lomakelaskennan avulla.  
+
+Vuoden 1950 väestölaskennan ruokakuntalomakkeet on arkistoitu kansioihin, joista kukin sisältää keskimäärin on noin 150 lomaketta. Kansiot on järjestetty lääneittäin, ja läänien sisällä kunnat seuraavat toisiaan kuntamuodon mukaan aakkosjärjestyksessä. Yhteensä laskentakansioita on noin 7 300. Otostutkimusta varten poimittiin joka kymmenes kansio, jolloin lopulliseksi otosmääräksi muodostui 729 kansiota. Näistä koostettu aineisto sisältää tiedot 411 629 henkilöstä, mikä vastaa noin 10,3 prosenttia väestölaskennan perusjoukosta. 
+
+Lomakkeilla kysyttiin muun muassa henkilöiden täydelliset nimi- ja syntymäaikatiedot, joiden (ja joidenkin muiden tietojen) avulla voitiin hakea henkilötunnuksia. Henkilötunnus löytyi 339 766 henkilölle eli 82,5 prosentille otoksen väestöstä. Otosaineistossa ovat mukana myös ne henkilöt, joille henkilötunnusta ei löydetty. 
+
+<b> Aineiston päivitysaikataulu </b> 
+
+Aineistoa ei päivitetä. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle. Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+<b> Lisätietoja </b> 
+
+Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (73)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `shnro` | Suojattu TK:n henkilönumero | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `JNRO50` | Henkilönumero | — | — | — |
 | `PASKO50` | Asuntokuntakoodi 1950 | — | — | — |
 | `PRUNO50` | Ruokakuntakoodi 1950 | — | — | — |
@@ -103,9 +119,9 @@ Lisätietoja Tilastokeskuksen käsikirjoja 38 'Vuoden 1950 väestölaskennan oto
 
 ### Variable definitions
 
-#### `shnro` — Suojattu TK:n henkilönumero
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
 
-Suojattu Tilastokeskuksen henkilönumero, joka on sama kaikissa henkilövalmisaineistoissa. Suojattu henkilönumero mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `JNRO50` — Henkilönumero
 

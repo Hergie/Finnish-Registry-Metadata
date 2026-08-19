@@ -2,12 +2,12 @@
 
 - **Identifier:** `MIGR_OLESK_jua_kanspaatos_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
-- **Temporal coverage:** 2011-01-01 - 2024-12-31
-- **Published:** 2026-04-13
+- **Temporal coverage:** 2011-01-01 - 2025-12-31
+- **Published:** 2026-04-14
 - **Organisation:** Tilastokeskus
 - **Variable count:** 6
 - **Observation count:** —
-- **Population:** Oleskelulupaa hakeneet
+- **Population:** Oleskelulupaa ja kv suojelua hakeneet
 
 ## Description
 
@@ -19,6 +19,8 @@ Kyseisistä tiedoista on muodostettu valmisaineisto, joka sisältää haetut ole
 Aineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamisen mahdollisuus. Taulut linkittyvät toisiinsa pseudonymisoiduilla tunnisteilla asianumero, toimenpiteen numero, henkilönumero ja Migrin asiakasnumero. Aineistosta on karkeistettu piiloon arkaluontoisimmat oleskelulupahakemusten käsittelyperusteet. Tietojen laatu on vaihtelevaa, ja pyrimme kuvaamaan esiin nousseet puutteet aineiston käytön helpottamiseksi. Valmisaineiston sisältö on arkaluonteista, ja se luvitetaan tutkimuskäyttöön tai tilastollisiin selvityksiin vain hyvin perustein. Kaikilta aineistoa käyttöönsä hakevilta vaaditaan DPIA eli tietosuojan vaikutusten arviointi. Aineiston päivityssykli pyritään saamaan jopa kuukausitasolle, kunhan tietojen toimitusprosessi vakiintuu. 
 
 Oleskelulupa-aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoon voi tulla vielä käytettävyyttä parantavia muutoksia. 
+
+MIGR-valmisaineistojen sisältämien muuttujien luokitukset sijaitsevat FIONAn metadata-kansiossa (D:/metadata/migr).
 
 Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella <a href="https://tilastot.migri.fi/" > Migrin tilastointipalvelusta</a>. 
 Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/oleskelulupa" > Maahanmuuttoviraston sivuilla</a>.

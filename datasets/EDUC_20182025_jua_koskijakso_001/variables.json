@@ -1,9 +1,9 @@
 {
   "variables": [
     {
-      "identifier": "shnro",
+      "identifier": "hid_e",
       "variablename": "Suojattu henkilönumero",
-      "conceptdef": "Suojattu henkilönumero",
+      "conceptdef": "Suojattu henkilönumero. Tilastokeskuksessa yhtenäisesti suojattu henkilö-id mahdollistaa henkilöä koskevien tietojen yhdistämisen eri aineistojen ja vuosien välillä.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -11,7 +11,7 @@
     {
       "identifier": "oppija_oid_s",
       "variablename": "Suojattu oppijatunnus",
-      "conceptdef": "Suojattu OPH:n oppijatunnus\n",
+      "conceptdef": "Suojattu OPH:n oppijatunnus.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -35,7 +35,7 @@
     {
       "identifier": "koulutusmuoto",
       "variablename": "koulutusmuoto",
-      "conceptdef": "Huom. ammatilliseen koulutukseen kuuluu monta eri tyyppistä koulutusta (tutkintokoulutuksen lisäksi esim. valma-koulutus), joten niiden tunnistamiseen täytyy lisäksi käyttää suorituksen_tyyppi-kenttää",
+      "conceptdef": "Huom. ammatilliseen koulutukseen kuuluu monta eri tyyppistä koulutusta (tutkintokoulutuksen lisäksi esim. valma-koulutus), joten niiden tunnistamiseen täytyy lisäksi käyttää suorituksen_tyyppi-kenttää.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -43,7 +43,7 @@
     {
       "identifier": "alku",
       "variablename": "Tilajakson alkupäivä",
-      "conceptdef": null,
+      "conceptdef": "Tilajakson alkupäivä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -51,7 +51,7 @@
     {
       "identifier": "loppu",
       "variablename": "Tilajakson loppupäivä",
-      "conceptdef": null,
+      "conceptdef": "Tilajakson loppupäivä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -65,17 +65,17 @@
       "variablegroups": null
     },
     {
-      "identifier": "opintojen_rahoitus",
-      "variablename": "opintojen rahoitus",
-      "conceptdef": "Tieto siitä, mikä rahoitusmuoto opinnoilla on ollut rivin kuvaaman aikajakson aikana. Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/opintojenrahoitus/latest. Huomio: opintojen_rahoitus='14' tarkoittaa jotpa-rahoitettuja opintoja",
+      "identifier": "tila_alkanut",
+      "variablename": "tila alkanut",
+      "conceptdef": "Jos opiskelijalla on useita peräkkäisiä saman tilan jaksoja, tässä kentässä näkyy näistä ensimmäisen alkamispäivä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "tila_alkanut",
-      "variablename": "tila alkanut",
-      "conceptdef": "Huomio: jos opiskelijalla on useita peräkkäisiä saman tilan jaksoja, tässä kentässä näkyy näistä ensimmäisen alkamispäivä",
+      "identifier": "opintojen_rahoitus",
+      "variablename": "opintojen rahoitus",
+      "conceptdef": "Tieto siitä, mikä rahoitusmuoto opinnoilla on ollut rivin kuvaaman aikajakson aikana. Käytettävä koodisto: https://opintopolku.fi/koski/dokumentaatio/koodisto/opintojenrahoitus/latest.\n\nOpintojen_rahoitus='14' tarkoittaa jotpa-rahoitettuja opintoja.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

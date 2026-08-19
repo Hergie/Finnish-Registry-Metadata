@@ -1,4 +1,4 @@
-# EDUC_TYHR Toisen asteen yhteishaku -moduuli, osa 1, 1985
+# EDUC_TYHR Toisen asteen yhteishaku, v. 1985
 
 - **Identifier:** `EDUC_1985_jua_tyhr19_001.xml`
 - **DOI:** `khak_2015-07_2015-07-29_ain_0001`
@@ -8,22 +8,37 @@
 - **Variable count:** 105
 - **Observation count:** —
 - **Population:** Vuonna 1985 toisen asteen koulutuksen yhteishakuun osallistuneet
-- **Source:** OPH:n Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri
+- **Source:** Opetushallitus
 
 ## Description
 
-Toisen asteen yhteishaku -moduulin 1. osa koostuu henkilöistä, jotka osallistuivat tilastovuonna 1985 toisen asteen koulutuksen yhteishakuun (tiedostossa esiintyy myös vuoden 1984 tietoja). Tiedosto on toimitettu Tilastokeskukseen OPH:sta. Huomioi, että tiedon täsmäävyyttä OPH:n lopulliseen rekisteriin ei voitu tarkistaa.
+EDUC_TYHR-valmisaineisto sisältää Opetushallituksen yhteishakurekisteriin perustuvia henkilötason tietoja toisen asteen koulutukseen hakeneista henkilöistä, heidän taustatekijöistään, hakutoiveistaan, arvosanoistaan sekä opiskelijavalintojen tuloksista.
 
-Tiedostosta on salattu henkilön tunnistetiedot. Tämän lisäksi tiedostosta on salattu kaikkien oppilaitosten tunnistetiedot.
+Tämä aineistokuvaus koskee vuoden 1985 vuositiedostoa. EDUC_TYHR-aineistosta on erilliset kuvaukset myös vuosille 1989, 1991–1995, 1996–1997, 1998–2007 sekä 2008–2013. Vuoden 2014 jälkeisille tiedoille on olemassa yksi kuvaus. 
 
-Aineiston kuvauksessa on puutteita, eikä kaikkien muuttujien sisältöä ole pystytty varmentamaan. Luokitukset ovat oletuksena tilastovuoden mukaisia.
+<b> Valmisaineiston tarkentava nimi </b> 
+Toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneiden yhteishakutiedot, sisältäen hakijoiden taustatietoja tarkalla tasolla.
 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Lähdeaineistona toimii Opetushallituksen Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Vuoden 1985 datataulu koostuu henkilöistä, jotka osallistuivat toisen asteen koulutuksen yhteishakuun tilastovuonna 1985 (tiedostossa esiintyy myös vuoden 1984 tietoja). Tietojen vastaavuutta Opetushallituksen lopulliseen rekisteriin ei ole voitu varmistaa.
 
-KARKEISTETUT MUUTTUJATIEDOT:
-Valmisaineistomoduulista myönnetään lähtökohtaisesti karkeistettu versio EDUC_TYHR_K, jossa on karkeistettu tiedot äidinkielestä luokkiin suomi, ruotsi ja muu.
-  
-Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta versiota. Tämä löytyy lupapalvelusta nimellä EDUC_TYHR, ja maksaa saman verran. EDUC_TYHR sisältää muuten samat muuttujat, mutta äidinkielitiedot ovat karkeistamattomat. Tietojen käyttöön saaminen edellyttää erityistä tarvettä tutkimuksellisesta syystä sekä vahvoja perusteita.
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Henkilön tunnistetiedot on salattu aineistosta. Lisäksi kaikkien oppilaitosten tunnistetiedot on salattu.
 
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_TYHR-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
+
+Aineiston sisältäessä tarkkoja kansalaisuus- ja äidinkielitietoja, edellyttää sen käyttöön saaminen vahvoja tutkimuksellisia perusteita. Mikäli tarve ei kohdistu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_TYHR_K-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuustieto on karkeistettu luokkiin suomi, muu Eurooppa sekä muu ja äidinkielitieto luokkiin suomi, ruotsi sekä muu.
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
+
+<b> Tarkempaa tietoa muuttujista </b> 
+Aineiston kuvauksessa on puutteita, eikä kaikkien muuttujien sisältöä ole voitu varmistaa. Luokitukset perustuvat oletuksena tilastovuoden tietoihin.
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (105)

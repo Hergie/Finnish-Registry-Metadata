@@ -1,4 +1,4 @@
-# FOLK tutkinto
+# FOLK_TUTK
 
 - **Identifier:** `FOLK_19872024_jua_tutk26_001.xml`
 - **DOI:** `work_2017-08_2017-08-21_ain_0001`
@@ -12,18 +12,46 @@
 
 ## Description
 
-FOLK-henkilöaineiston tutkintomoduuli sisältää 15 vuotta täyttäneen väestön peruskoulun, keskikoulun tai kansakoulun jälkeen suorittamien tutkintojen tietoja. Tietojen lähteenä on tutkintorekisteri. Moduulin tietoja on saatavilla vuodesta 1987 eteenpäin, jollei muuttujankuvauksessa toisin mainita. 
+FOLK-henkilöaineiston tutkintomoduuli sisältää tietoja 15 vuotta täyttäneen väestön suorittamista tutkinnoista peruskoulun, keskikoulun tai kansakoulun jälkeen. Aineistossa on mukana tietoja korkeimman sekä uusimpien tutkintojen koulutusaloista ja -asteista, suoritusajankohdista sekä oppilaitoksista. Tiedot on poimittu alkaen vuoden 1987 väestölle ellei muuttujankuvauksessa toisin mainita. 
 
-Aineisto on tarkoitettu FIONA-etäpalvelun kautta käytettäväksi. FOLK tutkinto -kokonaisaineistoon voidaan antaa käyttöoikeus vain jos tutkimuksellisesta syystä kokonaisaineiston käyttöön on erityinen tarve. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron sekä suojatun oppilaitostunnuksen avulla. 
+<b> Valmisaineiston tarkentava nimi </b> 
 
-Tutkintorekisterin tietoja on saatavilla myös EDUC_TREK Tutkintorekisteri -moduulista. 
+Henkilöaineiston tutkintotiedot sisältävät tietoja 15 vuotta täyttäneen väestön suorittamista tutkinnoista, peruskoulun, keskikoulun tai kansakoulun jälkeen. 
+
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+
+Perujoukko on Suomessa vakituisesti asuva yli 15 vuotias väestö. 
+
+Tietojen lähteenä on tutkintorekisteri. Tutkintorekisterin perustana on vuoden 1970 väestölaskennassa kerätyt tutkintotiedot, joita päivitetään vuosittain koulutuksen järjestäjiltä, oppilaitoksilta, ylioppilastutkintolautakunnalta, korkeakoulujen valtakunnallisesta tietovarannosta, pääesikunnalta ja rajavartiolaitokselta. Ulkomailla suoritettujen tutkintojen tiedot on saatu Opetushallitukselta, Valviralta (Sosiaali- ja terveysalan lupa- ja valvontavirasto) ja työ- ja elinkeinoministeriöltä. 
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+
+Tutkintorekisteri on alipeittävä ulkomailla suoritettujen tutkintojen osalta. Ulkomaalaistaustaisen väestön koulutusrakennetta ei voida aineiston pohjalta luotettavasti raportoida. Ulkomailla suoritettujen tutkintojen osalta tutkintorekisteriä on täydennetty ulkomaalaisväestölle kohdennetuilla tiedonkeruilla, joista saatiin rekisteriin yhteensä 43 700 perusasteen jälkeistä tutkintoa. Tutkintorekisteriä on lisäksi täydennetty tietojenvaihdolla, joka on toteutettu pohjoismaisten tilastovirastojen kesken. Pohjoismaisen tietojenvaihdon avulla rekisteriin on saatu 15 300 tutkintoa. 
+
+Tutkintorekisterin tietoja on saatavilla myös EDUC_TREK Tutkintorekisteri -moduulista, jossa mukana kaikki tutkintorekisterin tutkinnot riippumatta siitä onko henkilö maassa asuvassa väestössä ko. vuonna. 
+
+Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron sekä suojatun oppilaitostunnuksen avulla. 
+
+<b> Aineiston päivitysaikataulu </b> 
+
+Tutustu valmisaineistojen päivitysaikatauluun. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain. 
 
 Viimeisimmät FOLK tutkinto -aineistot ovat kansiossa FOLK_TUTK_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tutk_"vuosi"_1. 
-
+ 
+Lakkatutetut koulutuskoodit sekä niitä vastaavat tuoreutukset löytyvät "koulutuskoodien_tuoreutukset"-tiedostosta FIONAn sijainnissa D:/metadata/classifications/education. 
+ 
 FOLK tutkinto -aineistot ovat FIONAssa seuraavista kansioista: 
-Totaaliaineisto vuosille 2011-2019 : FOLK_tutk_11a
-Totaaliaineisto vuosille 2001-2010 : FOLK_tutk_0110a
-Totaaliaineisto vuosille 1987-2000 : FOLK_tutk_8800a
+Totaaliaineisto vuosille 2011-2019 : FOLK_tutk_11a 
+Totaaliaineisto vuosille 2001-2010 : FOLK_tutk_0110a 
+Totaaliaineisto vuosille 1987-2000 : FOLK_tutk_8800a 
+
+<b> Lisätietoja </b> 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 
@@ -71,6 +99,8 @@ TK:n uusimman koulutusluokituksen mukainen 6-numeroinen koulutuskoodi.
 Tiedot pohjautuvat Tilastokeskuksen tutkintorekisteriin.  Tutkintorekisterin perustana on vuoden 1970 väestölaskennassa kerätyt tutkintotiedot. Vuosittain päivitettävät tiedot saadaan suoraan koulutuksen järjestäjiltä tai valtakunnallisista KOSKI- ja VIRTA-tietovarannoista.
 
 Rekisteri on kattava Suomessa suoritetuista tutkinnoista, mutta alipeittoinen ulkomailla suoritetuista tutkinnoista. Suomeen muuttavilta henkilöiltä ei kysytä ulkomailla suoritetusta koulutuksesta maahan saapumisen yhteydessä. Tutkintorekisteriin lisätään Valviran rekisteritietoja ulkomailla suoritetuista ja Suomessa laillistetuista terveydenhuollon tutkinnoista, Pohjoismaiden tilastovirastoilta saatuja tutkintotietoja sekä erilliskyselyillä kerättyjä tutkintotietoja.
+
+Lakkatutetut koulutuskoodit sekä niitä vastaavat "tuoreutukset" löytyvät koulutuskoodien_tuoreutukset-tiedostosta FIONAn sijainnissa D:/metadata/classifications/education.
 
 #### `kaste` — Korkeimman tutkinnon kansallinen koulutusaste
 

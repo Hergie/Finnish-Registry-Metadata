@@ -13,7 +13,7 @@
 
 ## Description
 
-Tutkimuskäyttöön on suojattu yrityssaneeraukset-tilaston perusaineisto vuosilta 1993-06/2022.
+Tutkimuskäyttöön on suojattu yrityssaneeraukset-tilaston perusaineisto alkaen vuodesta 06/1993.
 
 Tilasto vireille tulleista yrityssaneerauksista ja käräjäoikeuksiin saapuneista yrityssaneerausasioista julkaistaan neljännesvuosittain. Päättyneitä asioita kuvaavat tiedot julkaistaan kerran vuodessa.
 
@@ -45,6 +45,8 @@ Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän k
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu saneeraukseen haetun yritystunnus | — | — | — |
+| `hid_e` | Suojattu saneeraukseen haetun henkilön yksilöivä tunniste | — | — | — |
 | `TUIS` | Tuomioistuintunnus | — | — | — |
 | `SAAPV1` | Hakemuksen saapumisvuosi | — | — | — |
 | `SAAPV3` | Hakemuksen saapumiskuukausi | — | — | — |
@@ -84,11 +86,15 @@ Tietojen lähteenä olevan käräjäoikeuksien Tuomas -kirjaamisjärjestelmän k
 | `SEUTUK` | Seutukunta | — | — | — |
 | `PRIT` | Vuoden 1. saneeraushakemuksen tunniste (=1, muut=0) | — | — | — |
 | `idtyyp` | Yritystunnuksen tyyppi | — | — | — |
-| `syrtun` | Suojattu saneeraukseen haetun yritystunnus | — | — | — |
-| `shnro` | Suojattu saneeraukseen haetun henkilönumero | — | — | — |
 | `VARHAINEN_SANEERAUSMENETTELY1` | Varhainen saanerausmenettely | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu saneeraukseen haetun yritystunnus
+
+#### `hid_e` — Suojattu saneeraukseen haetun henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `TUIS` — Tuomioistuintunnus
 
@@ -215,10 +221,6 @@ Jos PRIT=0, ei havaintoa kannattane ottaa tarkasteluun.
 1 = y-tunnus
 2 = hetu-muotoinen tunnus (vuodesta 1998 alkaen vain harvoin)
 3 = muu (esim. tekstiä)
-
-#### `syrtun` — Suojattu saneeraukseen haetun yritystunnus
-
-#### `shnro` — Suojattu saneeraukseen haetun henkilönumero
 
 #### `VARHAINEN_SANEERAUSMENETTELY1` — Varhainen saanerausmenettely
 

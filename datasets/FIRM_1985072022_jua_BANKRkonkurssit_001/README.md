@@ -13,7 +13,7 @@
 
 ## Description
 
-Tutkimuskäyttöön on suojattu konkurssitilaston perusaineisto vuosilta 1985-07/2022.
+Tutkimuskäyttöön on suojattu konkurssitilaston perusaineisto alkaen 06/1985.
 
 Tilastokeskus julkaisee tilastoa käräjäoikeuksissa vireille tulleista ja loppuun käsitellyistä konkurssihakemuksista. Vireille tulleiden konkurssihakemusten tiedot julkaistaan kuukausittain ja loppuun käsiteltyjen konkurssihakemusten tiedot vuosittain. Tilaston perustana olevat tiedot saadaan oikeushallinnon asianhallintajärjestelmästä.
 
@@ -51,6 +51,8 @@ Ennen tilastovuotta 2022–2023 oli voimassa lakimuutos, joka rajoitti mahdollis
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu konkurssivelallisen yritystunnus | — | — | — |
+| `hid_e` | Suojattu konkurssivelallisen yksilöivä tunniste | — | — | — |
 | `TUIS` | Tuomioistuintunnus | — | — | — |
 | `SAAPV1` | Hakemuksen saapumisvuosi | — | — | — |
 | `SAAPV3` | Hakemuksen saapumiskuukausi | — | — | — |
@@ -94,10 +96,14 @@ Ennen tilastovuotta 2022–2023 oli voimassa lakimuutos, joka rajoitti mahdollis
 | `HASEMA2` | Konkurssin hakijan täydennys kun täydennys on velkoja | — | — | — |
 | `PRIT` | Vuoden 1. konkurssihakemuksen tunniste (=1, muut=0) | — | — | — |
 | `idtyyp` | Konkurssivelallisen yritystunnuksen tyyppi | — | — | — |
-| `syrtun` | Suojattu konkurssivelallisen yritystunnus | — | — | — |
-| `shnro` | Suojattu konkurssivelallisen henkilönumero | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu konkurssivelallisen yritystunnus
+
+#### `hid_e` — Suojattu konkurssivelallisen yksilöivä tunniste
+
+Vuoteen 2016 asti, puutteellinen. Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
 #### `TUIS` — Tuomioistuintunnus
 
@@ -236,12 +242,6 @@ Tilastossa otetaan mukaan PRIT=1 tiedot. Jos PRIT=0, ei havaintoa kannattane ott
 3 = muu (esim. tekstiä)
 
 Vuoteen 2016 asti.
-
-#### `syrtun` — Suojattu konkurssivelallisen yritystunnus
-
-#### `shnro` — Suojattu konkurssivelallisen henkilönumero
-
-Vuoteen 2016 asti, puutteellinen
 
 ---
 

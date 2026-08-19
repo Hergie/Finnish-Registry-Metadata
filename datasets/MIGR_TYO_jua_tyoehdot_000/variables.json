@@ -1,8 +1,8 @@
 {
   "variables": [
     {
-      "identifier": "SHNRO",
-      "variablename": "Suojattu henkilönumero",
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
       "conceptdef": null,
       "measunit": null,
       "classification": null,
@@ -137,6 +137,14 @@
       "variablegroups": null
     },
     {
+      "identifier": "WORKING_HOURS_H",
+      "variablename": "Työaika tuntia",
+      "conceptdef": "Työaika ilmoitetaan muodossa HH:MM",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "WORKING_HOURS_M",
       "variablename": "Tyoaika minuuttia",
       "conceptdef": "Työaika ilmoitetaan muodossa HH:MM",
@@ -219,7 +227,7 @@
     {
       "identifier": "SALARY_EUR_PER_CODE",
       "variablename": "Palkan tyyppi",
-      "conceptdef": "Esim. Kuukausipalkka, tuntipalkka",
+      "conceptdef": "1=\"Kausi- tai urakkapalkka\"\n2= \"Kuukausipalkka\"\n3=\"Tuntipalkka\"\n4=\"Muu\"",
       "measunit": null,
       "classification": null,
       "variablegroups": null
