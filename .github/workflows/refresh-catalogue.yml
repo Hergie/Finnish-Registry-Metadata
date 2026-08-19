@@ -1,0 +1,82 @@
+name: Refresh Taika catalogue
+
+# Mirrors https://taika.stat.fi weekly. Commits only when upstream actually
+# changed, so an empty git log means Taika was stable, not that the job broke —
+# the run history on the Actions tab is the record of when checks happened.
+
+on:
+  schedule:
+    - cron: "0 5 * * 1" # Mondays 05:00 UTC
+  workflow_dispatch: # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-catalogue
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Both scripts are stdlib-only, so there is nothing to install.
+      - name: Fetch metadata from Taika
+        run: python fetch_taika_metadata.py
+
+      - name: Rebuild Markdown catalogue
+        run: python build_catalogue.py
+
+      - name: Commit and push if upstream changed
+        run: |
+          set -euo pipefail
+
+          # raw/, datasets/ and withdrawn/ carry no timestamps, so they differ
+          # only on a real upstream change. README.md always differs because it
+          # stamps a date, which is why it is excluded from the gate.
+          # --untracked-files=all is required or brand-new datasets read as "no change".
+          if [ -z "$(git status --porcelain --untracked-files=all -- raw datasets withdrawn)" ]; then
+            git checkout -- README.md
+            echo "No upstream changes." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          # `|| true` because grep exits 1 on no match, which pipefail would
+          # turn into a failed step when only one of the two trees moved.
+          added=$(git status --porcelain --untracked-files=all -- datasets \
+                  | grep -oE 'datasets/[^/]+/' | sort -u | wc -l || true)
+          withdrawn=$(git status --porcelain --untracked-files=all -- withdrawn \
+                      | grep -oE 'withdrawn/[^/]+/' | sort -u | wc -l || true)
+          total=$(find datasets -mindepth 1 -maxdepth 1 -type d | wc -l)
+
+          {
+            echo "## Taika catalogue refreshed"
+            echo ""
+            echo "- Datasets now in catalogue: **$total**"
+            echo "- Directories touched under \`datasets/\`: **$added**"
+            echo "- Directories touched under \`withdrawn/\`: **$withdrawn**"
+            echo ""
+            echo "<details><summary>Changed paths</summary>"
+            echo ""
+            echo '```'
+            git status --porcelain --untracked-files=all -- raw datasets withdrawn | head -200
+            echo '```'
+            echo ""
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # No pathspec: `git add -A withdrawn` would abort if that tree does
+          # not exist yet. .gitignore already covers what must stay out.
+          git add -A
+          git commit -m "Refresh Taika catalogue: $total datasets ($added changed, $withdrawn withdrawn)"
+          git push

@@ -3,6 +3,10 @@
 Reads `raw/datasets.json` and every `datasets/<id>/{dataset,variables}.json`,
 writes `README.md` (top-level catalogue) and one `datasets/<id>/README.md` per
 dataset. Deterministic — sorted output so re-runs produce clean git diffs.
+
+Also regenerates `withdrawn/<id>/README.md` for datasets the fetcher has moved
+out of the live catalogue, each stamped with a withdrawal banner, plus a
+`withdrawn/README.md` index.
 """
 
 import json
@@ -12,7 +16,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 RAW_FILE = ROOT / "raw" / "datasets.json"
 DATASETS_DIR = ROOT / "datasets"
+WITHDRAWN_DIR = ROOT / "withdrawn"
 README_FILE = ROOT / "README.md"
+WITHDRAWN_README = WITHDRAWN_DIR / "README.md"
 
 EMPTY_VAR_SENTINEL = "emptyvariablenameforcossicreatedbycsmetaedit"
 
@@ -41,6 +47,19 @@ def format_number(value) -> str:
         return s
 
 
+def has_sentinel(variables_json) -> bool:
+    """True if Taika returned the placeholder 'no variables' sentinel."""
+    v = variables_json.get("variables")
+    if isinstance(v, dict):
+        v = [v]
+    if not isinstance(v, list):
+        return False
+    return any(
+        isinstance(var, dict) and var.get("identifier") == EMPTY_VAR_SENTINEL
+        for var in v
+    )
+
+
 def normalize_variables(variables_json):
     """Return a list of variable dicts, filtering out placeholder sentinels."""
     v = variables_json.get("variables")
@@ -60,13 +79,22 @@ def normalize_variables(variables_json):
     return result
 
 
-def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list) -> None:
+def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list, withdrawn_on=None) -> None:
     identifier = docmeta.get("identifier") or dir_path.name
     subject = (docmeta.get("subject") or identifier).strip()
 
     lines = []
     lines.append(f"# {subject}")
     lines.append("")
+    if withdrawn_on:
+        lines.append(
+            f"> ⚠️ **Withdrawn from Taika on {withdrawn_on}.** This dataset is no longer in "
+            "Statistics Finland's current catalogue — it has typically been superseded by a newer "
+            "vintage. It is kept here because FIONA projects run against the delivery frozen at "
+            "permit time, so this may still be the metadata that matches your data. Confirm the "
+            "vintage against the actual files in your project before relying on it."
+        )
+        lines.append("")
     lines.append(f"- **Identifier:** `{identifier}`")
     doi = docmeta.get("doi")
     if doi:
@@ -151,13 +179,22 @@ def write_dataset_readme(dir_path: Path, docmeta: dict, variables: list) -> None
     (dir_path / "README.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
-def write_top_readme(rows: list, fetched_date: str) -> None:
+def write_top_readme(rows: list, fetched_date: str, withdrawn_rows: list, sentinel_count: int) -> None:
     lines = []
     lines.append("# Finnish Registry Metadata")
     lines.append("")
     lines.append(
         "Local mirror of Statistics Finland's **Taika** research-data catalogue "
-        f"([taika.stat.fi](https://taika.stat.fi/)) — {len(rows)} datasets, refreshed {fetched_date}."
+        f"([taika.stat.fi](https://taika.stat.fi/)) — {len(rows)} datasets, "
+        f"last upstream change {fetched_date}."
+    )
+    lines.append("")
+    lines.append(
+        "A scheduled GitHub Actions job checks Taika every Monday and commits only when something "
+        "actually changed, so an older date here means upstream has been stable, not that the "
+        "mirror has been abandoned. The [workflow runs]"
+        "(https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) "
+        "are the record of when checks happened."
     )
     lines.append("")
     lines.append("## What this is")
@@ -196,6 +233,46 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "republishers should credit Tilastokeskus as the source. See `LICENSE`."
     )
     lines.append("")
+    lines.append("## Data vintage — read this before using a variable definition")
+    lines.append("")
+    lines.append(
+        "**Taika documents the data Statistics Finland offers today. Your FIONA project uses the "
+        "delivery frozen when your permit was granted.** Those are not the same thing, and the "
+        "mismatch grows the longer a project runs."
+    )
+    lines.append("")
+    lines.append(
+        "Statistics Finland reissues most registers annually under a new identifier. `FOLK_19872023_"
+        "jua_perus24_001` and `FOLK_19872025_jua_perus26_001` are the same register, two vintages "
+        "apart. Between vintages, variables are added, dropped, renamed, and occasionally "
+        "redefined — the `shnro` → `hid_e` person-identifier rename noted below is exactly this. A "
+        "definition read from the wrong vintage is *quietly* wrong: the code runs, the variable "
+        "exists, the numbers mean something slightly different."
+    )
+    lines.append("")
+    lines.append("So before relying on any definition in this archive:")
+    lines.append("")
+    lines.append(
+        "1. **Compare the vintage.** Check the identifier's version suffix (`perus24` vs `perus26`) "
+        "and its year span (`FOLK_19872023_` vs `FOLK_19872025_`) against the file names actually "
+        "present in your FIONA project directory."
+    )
+    lines.append(
+        "2. **If they differ, look in [`withdrawn/`](./withdrawn/README.md).** Superseded datasets "
+        "are archived there rather than deleted, precisely so pinned projects keep their metadata. "
+        "Each carries the date Taika dropped it."
+    )
+    lines.append(
+        "3. **Treat the data file as final authority.** If the metadata and the actual columns "
+        "disagree, the file wins — check the real variable list before debugging your code."
+    )
+    lines.append("")
+    if withdrawn_rows:
+        lines.append(
+            f"_{len(withdrawn_rows)} superseded dataset(s) are currently archived in "
+            "[`withdrawn/`](./withdrawn/README.md)._"
+        )
+        lines.append("")
     lines.append("## Usage")
     lines.append("")
     lines.append(
@@ -284,13 +361,14 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
     )
     lines.append(
         "- The Finnish endpoint is used because the English one "
-        "(`/restxq/taika/en/datasets`) covers only about 84 of the 312 datasets."
+        "(`/restxq/taika/en/datasets`) covers only about a third of the datasets, and Finnish is "
+        "the canonical metadata language at Statistics Finland."
     )
     lines.append(
         "- The `statmeta` field is usually a Taika placeholder (`\"metaa...\"`) and is stored verbatim."
     )
     lines.append(
-        "- Eight SURVEY datasets list a placeholder sentinel variable "
+        f"- {sentinel_count} datasets (all SURVEY) list a placeholder sentinel variable "
         "(`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out."
     )
     lines.append(
@@ -299,12 +377,100 @@ def write_top_readme(rows: list, fetched_date: str) -> None:
         "may still expose the identifier under other names."
     )
     lines.append(
+        "- **Withdrawn datasets:** when Taika drops a dataset the fetcher moves it to "
+        "`withdrawn/<id>/` instead of deleting it, so metadata for superseded vintages stays "
+        "greppable. `datasets/` therefore always mirrors Taika exactly; `withdrawn/` is everything "
+        "it used to offer."
+    )
+    lines.append(
         "- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the "
-        "312 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be "
-        "overwritten on the next refresh."
+        f"{len(rows)} per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes "
+        "will be overwritten on the next refresh."
     )
     lines.append("")
     README_FILE.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+
+
+def write_withdrawn_readme(withdrawn_rows: list) -> None:
+    """Index of datasets Taika no longer lists, kept for pinned FIONA vintages."""
+    lines = []
+    lines.append("# Withdrawn datasets")
+    lines.append("")
+    lines.append(
+        f"{len(withdrawn_rows)} dataset(s) that Statistics Finland has removed from the Taika "
+        "catalogue. They are preserved here rather than deleted because FIONA research projects "
+        "run against a data delivery frozen at permit time — if your project predates the "
+        "withdrawal, the metadata that matches your files is in here, not in "
+        "[`../datasets/`](../README.md)."
+    )
+    lines.append("")
+    lines.append(
+        "Most entries were superseded by a newer annual vintage of the same register. Check "
+        "[the main catalogue](../README.md) for the current replacement, and see its **Data "
+        "vintage** section for how to tell which one your project actually uses."
+    )
+    lines.append("")
+    lines.append("| Identifier | Subject | Coverage | Withdrawn | |")
+    lines.append("|---|---|---|---|---|")
+    for row in withdrawn_rows:
+        lines.append(
+            "| `{ident}` | {subject} | {coverage} | {when} | [→](./{dir_name}/README.md) |".format(
+                ident=md_escape_cell(row["identifier"]),
+                subject=md_escape_cell(row["subject"]),
+                coverage=md_escape_cell(row["coverage"]),
+                when=md_escape_cell(row["withdrawn_on"]),
+                dir_name=row["dir_name"],
+            )
+        )
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append("[← Back to catalogue](../README.md)")
+    lines.append("")
+    WITHDRAWN_README.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+
+
+def build_withdrawn(live_dir_names: set) -> list:
+    """Regenerate READMEs for archived datasets; return index rows."""
+    if not WITHDRAWN_DIR.is_dir():
+        return []
+
+    withdrawn_rows = []
+    for dir_path in sorted(p for p in WITHDRAWN_DIR.iterdir() if p.is_dir()):
+        # A dataset that returned to the catalogue is served from datasets/;
+        # the fetcher removes the stale copy, but skip it here too.
+        if dir_path.name in live_dir_names:
+            continue
+
+        dataset_file = dir_path / "dataset.json"
+        variables_file = dir_path / "variables.json"
+        if not dataset_file.exists() or not variables_file.exists():
+            print(f"WARNING: withdrawn/{dir_path.name} is missing JSON, skipping")
+            continue
+
+        marker = {}
+        marker_file = dir_path / "withdrawn.json"
+        if marker_file.exists():
+            marker = json.loads(marker_file.read_text(encoding="utf-8"))
+        withdrawn_on = marker.get("withdrawn_on") or "an unrecorded date"
+
+        ds = json.loads(dataset_file.read_text(encoding="utf-8"))
+        docmeta = ds.get("dataset", {}).get("docmeta") or {}
+        variables = normalize_variables(json.loads(variables_file.read_text(encoding="utf-8")))
+
+        write_dataset_readme(dir_path, docmeta, variables, withdrawn_on=withdrawn_on)
+
+        identifier = docmeta.get("identifier") or marker.get("identifier") or dir_path.name
+        withdrawn_rows.append({
+            "identifier": identifier,
+            "dir_name": dir_path.name,
+            "subject": docmeta.get("subject") or identifier,
+            "coverage": docmeta.get("coveragetemporal"),
+            "withdrawn_on": marker.get("withdrawn_on"),
+        })
+
+    withdrawn_rows.sort(key=lambda r: r["identifier"])
+    return withdrawn_rows
 
 
 def main():
@@ -317,6 +483,7 @@ def main():
 
     rows = []
     skipped = 0
+    sentinel_count = 0
     for entry in catalogue:
         docmeta = entry.get("docmeta") or {}
         identifier = docmeta.get("identifier")
@@ -336,6 +503,8 @@ def main():
         full_docmeta = ds.get("dataset", {}).get("docmeta") or docmeta
         vars_json = json.loads(variables_file.read_text(encoding="utf-8"))
         variables = normalize_variables(vars_json)
+        if has_sentinel(vars_json):
+            sentinel_count += 1
 
         write_dataset_readme(dir_path, full_docmeta, variables)
 
@@ -349,9 +518,19 @@ def main():
         })
 
     rows.sort(key=lambda r: r["identifier"])
-    write_top_readme(rows, fetched_date)
+
+    live_dir_names = {r["dir_name"] for r in rows}
+    withdrawn_rows = build_withdrawn(live_dir_names)
+
+    write_top_readme(rows, fetched_date, withdrawn_rows, sentinel_count)
+    if withdrawn_rows:
+        write_withdrawn_readme(withdrawn_rows)
+    elif WITHDRAWN_README.exists():
+        WITHDRAWN_README.unlink()
 
     print(f"Wrote {len(rows)} per-dataset READMEs and top-level README.md ({skipped} skipped).")
+    if withdrawn_rows:
+        print(f"Wrote {len(withdrawn_rows)} withdrawn READMEs and withdrawn/README.md.")
 
 
 if __name__ == "__main__":
