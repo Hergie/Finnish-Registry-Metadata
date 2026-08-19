@@ -28,7 +28,7 @@ Finnish-Registry-Metadata/
 ├── .claude/
 │   ├── settings.json        # Registers the SessionStart hook
 │   └── hooks/
-│       └── check-upstream.sh # Warns when this checkout is behind origin/main
+│       └── check-upstream.sh # Reports this checkout's standing vs origin/main
 ├── raw/
 │   └── datasets.json        # Verbatim /restxq/taika/fi/datasets response
 ├── datasets/                # Everything Taika lists TODAY
@@ -93,7 +93,7 @@ It **commits only when `raw/`, `datasets/`, or `withdrawn/` actually changed.** 
 
 *Caveat:* GitHub disables scheduled workflows after 60 days with no repository activity and emails the owner. Re-enabling is one click on the Actions tab.
 
-Locally, a `SessionStart` hook (`.claude/hooks/check-upstream.sh`, registered in `.claude/settings.json`) fetches `origin/main` and warns if this checkout is behind — because the cloud job moves the remote with nothing happening locally. **If that warning appears, `git pull --ff-only` before grepping `datasets/` or `withdrawn/`.** The hook only reports; it never modifies the working tree and always exits 0.
+Locally, a `SessionStart` hook (`.claude/hooks/check-upstream.sh`, registered in `.claude/settings.json`) fetches `origin/main` and reports where this checkout stands — because the cloud job moves the remote with nothing happening locally. It prints on *every* session start, including when nothing is wrong: `up to date`, a behind/diverged warning, or `could not reach origin` when the fetch fails or times out. **If it reports behind or diverged, `git pull --ff-only` before grepping `datasets/` or `withdrawn/`; if it could not reach origin, treat the mirror's freshness as unknown rather than current.** Silence means the hook did not run at all. The hook only reports; it never modifies the working tree and always exits 0.
 
 ## Do not hand-edit
 
