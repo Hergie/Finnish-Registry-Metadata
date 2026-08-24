@@ -1,4 +1,4 @@
-# EDUC_YTL  ylioppilaskirjoitusten tulokset 1967-2025
+# EDUC_YTL  ylioppilaskirjoitusten tulokset, v. 1967-2025
 
 - **Identifier:** `EDUC_19902025_jua_ytl_001.xml`
 - **DOI:** `lop_2016-01_2016-01-15_ain_0001`
@@ -12,42 +12,58 @@
 
 ## Description
 
-EDUC_YTL-moduuli (FMEB-data = Finnish Matriculation Examination Board data) sisältää Ylioppilastutkintolautakunnan (YTL) tietoja ylioppilaskirjoituksiin osallistuneista vuoden 1990 keväästä alkaen.Tiedostot sisältävät kaikki ylioppilaskirjoituksiin osallistuneet henkilöt tältä periodilla ja heidän ylioppilaskirjoitushistorian tai henkilöt, jotka ovat valmistuneet lukiosta tältä periodilta. 
+EDUC_YTL Ylioppilaskirjoitusten tulokset 1990–2024-moduuli sisältää tietoja muun muassa kokelaiden demografisista taustatekijöistä sekä ylioppilaskirjoituksiin liittyvistä muuttujista.
 
-Aineistomoduulin rakenne ja tietosisältö ovat erilaisia aikaisempiin historiavuositiedostoihin verrattuna (aineisto vuosilta 1967-1989). Huomioithan, että yhden henkilön tulokset voivat löytyä osin 1989 tiedostosta ja osin vuoden 1991 tiedoista. 
-Henkilö voi esiintyä myöhemmissä tiedostoissa, mikäli korottaa arvosanaa. Toisaalta jos henkilö esiintyy myöhemmissä tiedostoissa ja henkilön kohdalla on tyhjää, niin tällöin aikaisempi tulos on mitätöity. 
+<b> Valmisaineiston tarkentava nimi </b> 
+YTL:n tietoja ylioppilaskirjoituksiin osallistuneista ja heidän ylioppilaskirjoituksistaan, sekä henkilöistä, jotka ovat valmistuneet lukiosta, sisältäen tietoja tutkinnosta, kirjoitusten yksityiskohdista ja tulostietoja aine- ja tehtävätasolla.
 
-Kunta-muuttujasta ("municipality"): Vuoden 2022 aineistosta on poistettu lakkautettujen kuntien kuntakoodit, jotka on korvattu voimassaolevalla kuntakoodilla. Ennen vuotta 2022 aineistossa on kuntakoodeista johtuvia dublikaatteja, sillä osalla henkilöistä on samat tiedot kahdella rivillä: toisella rivillä kuntakoodina lakkautetun kunnan koodi ja toisella voimassaolevan kunnan koodi.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+EDUC_YTL-moduuli (FMEB-data = Finnish Matriculation Examination Board data) sisältää Ylioppilastutkintolautakunnan (YTL) tietoja ylioppilaskirjoituksiin osallistuneista vuoden 1990 keväästä alkaen. Tiedostot kattavat kaikki henkilöt, jotka ovat osallistuneet ylioppilaskirjoituksiin kyseisellä ajanjaksolla, sekä heidän kirjoitushistoriansa. Mukana ovat myös ne henkilöt, jotka ovat valmistuneet lukiosta kyseiseltä ajalta.
 
-Pävitys kunta-muuttujasta ("municipality") sekä lukion suojatusta tunnuksesta ("sotunnus"): Vuosina 2023-2025 lukion suojattu tunnus ja siihen liittyvä kuntakoodi on yhdistetty päivityshetkellä ajankohtaisten kuntatietojen ja oppilaitostietojen mukaan. Jos lukioon liittyvä kunta tai lukion tunnus ei löydy ajantasaisesta kunta- ja oppilaitoslistauksesta jää näistä tyhjä havainto aineiston "municip"- ja "sotunnus"-sarakkeisiin. Muuttuja "sotunnus" on korvattu "otunnus_s" muuttujalla.
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Aineistomoduulin rakenne ja tietosisältö poikkeavat aiemmista historiavuosien tiedostoista (vuosilta 1967–1989). On hyvä huomioida, että saman henkilön ylioppilastutkinnon tulokset voivat jakautua osittain vuoden 1989 ja osittain vuoden 1991 tiedostoihin. Henkilö voi esiintyä myöhemmissä tiedostoissa, jos hän korottaa arvosanaa. Jos taas henkilön tiedot näkyvät myöhemmässä tiedostossa tyhjinä, se tarkoittaa, että aiempi tulos on mitätöity. Moduuli koostuu kolmesta erilaisesta tiedostomuodosta ja suojattu henkilönumero (hid_e) toimii avaimena eri tiedostojen välillä.
 
-Moduuli koostuu kolmesta erilaisesta tiedostomuodosta. Suojattu henkilönumero (hid_e) toimii avaimena eri tiedostojen kesken.
+<u>Tiedostotyypit ja sisältö: </u>
+1. Degree_details-tiedosto sisältää seuraavat tiedot:
+    - tutkinnon valmistumisajankohta (neljä pakollista tai kompensaatio)
+    - lukion suoritusajankohta
+    - tieto siitä, että onko tutkinto vielä kesken eli voidaanko tietoja päivittää
+ 
+2. Results-nimiset tiedostot kokoavat yhteen ylioppilaskirjoituksiin liittyvät yksityiskohdat ja ainekohtaiset tulokset. Tiedostoissa on mukana myös tietoja lukiosta, mutta lukion oppilaitostunnus on salattu.
+ 
+3. PointsXXXXk- sekä PointsXXXXs- tiedostot sisältävät yksityiskohtaiset pistetiedot aine- ja tehtävätasolla erikseen kevään (k) ja syksyn (s) tutkintokerroista. Näitä tietoja on saatavilla syksyyn 2016 asti.
 
-1. Degree_details-tiedosto sisältää seuraavat tiedot: 
-           - tutkinnon valmistumisajankohta (neljä pakollista tai kompensaatio)
-           - ajankohta, jolloin  lukio on suoritettu 
-           - tieto siitä, että voidaanko tietoa vielä päivittää (eli onko tutkinto kesken)
-
-2. Results-nimiset tiedostot kokoavat yhteen kirjoituksien koskevat yksityiskohtia ja tuloksia eri aineista. Tiedosto sisältä myös tietoja lukiosta. Lukion oppilatostunnus on aineisotossa salattuna.
-
-3. PointsXXXXk- sekä PointsXXXXs- tiedostot sältävät yksityiskohtaiset pistetiedot aine- ja tehtävä-tasolla kevään (k) ja syksyn (s) osalta. Tiedot vuoden 2016 syksyyn asti.
-
-Tarkemmat muuttujakohtaiset kuvaukset muuttujaluettelossa. Aineiden (exam) ja tehtävien (section) osalta erillinen luettelo käytetyistä koodeista D-aseman metadata-kansiossa (metadata > Finnish metadata > EDUC_YTL). 
-
+<u>Muutostietoja: </u>
 08.05.2025 Aineisto päivitetty syksyn 2024 tiedoilla. Muuttuja "sotunnus" on korvattu "otunnus_s" muuttujalla.
-
+ 
 13.01.2025 Aineisto päivitetty kevään 2024 tiedoilla.
-
+ 
 3.10.2022: Aineisto päivitetty kevään 2022 tiedoilla.
+ 
+6.4.2022: Vuoden 2020 tiedot on päivitetty ja korjattu. Tiedot on jaoteltu kevään ja syksyn tutkintokertojen mukaan nimettyihin tiedostoihin, ja tutkintokerta ilmenee tiedostonimessä olevasta kirjaimesta ("k" = kevät, "s" = syksy).
+ 
+28.3.2022: Aineisto on päivitetty vuoden 2021 tiedoilla. Myös tässä tapauksessa tiedot on jaoteltu tutkintokertojen mukaan, ja ne tunnistaa tiedostonimessä olevasta kirjaimesta ("k" = kevät, "s" = syksy).
+ 
+6.10.2021: Vuoden 2020 tiedot (educ_ytl_2020_tua_results ja educ_ytl_2020_tua_degreedetails) ovat tarkastamattomia. Mahdollisista puutteista tai virheistä voi ilmoittaa Tilastokeskuksen tutkijapalveluihin (tutkijapalvelut@stat.fi).
+ 
+18.6.2021: Vuosien 2017–2019 tiedostot ("educ_20172019_tua_ytlresults" sekä "educ_20172019_tua_ytldegreedetails") on korjattu henkilötunnisteiden osalta. Aiemmissa versioissa suurimmalta osalta henkilöistä tunniste oli jäänyt tyhjäksi, mutta tämä virhe on nyt korjattu.
 
-6.4.2022: Vuoden 2020 tiedot on päivitetty ja korjattu. Tiedot sijaitsevat kevään ja syksyn tutkintokertojen mukaan nimetyissä tiedostoissa, ja tutkintokerta ilmenee tiedostonimessä olevasta kirjaimesta ("s" = kevät, "k"=syksy).
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-28.3.2022: Aineisto päivitetty vuoden 2021 tiedoilla. Tiedot sijaitsevat kevään ja syksyn tutkintokertojen mukaan nimetyissä tiedostoissa, ja tutkintokerta ilmenee tiedostonimessä olevasta kirjaimesta ("s" = kevät, "k"=syksy).
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
 
-6.10.2021: Vuoden 2020 tiedot ("educ_ytl_2020_tua_results" sekä "educ_ytl_2020_tua_degreedetails") ovat tarkastamattomat. Mahdollisista puutteista/virheistä voi ilmoittaa Tutkijapalveluihin (tutkijapalvelut@stat.fi). 
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
 
-18.6.2021: Vuosien 2017-2019 tiedostot ("educ_20172019_tua_ytlresults" sekä "educ_20172019_tua_ytldegreedetails") on korjattu shnro-tunnisteiden osalta. Aiemmissa virheellisissä tiedostoissa suurirmman osan henkilöistä shnro-tunniste oli jäänyt tyhjäksi, mikä saatiin nyt korjatuksi.
+<b> Tarkempaa tietoa muuttujista </b> 
+Kuntamuuttujan (municipality) osalta vuoden 2022 aineistosta on poistettu lakkautettujen kuntien kuntakoodit, jotka on korvattu voimassa olevilla koodeilla. Ennen vuotta 2022 aineistossa esiintyy kuntakoodien vuoksi päällekkäisyyksiä, sillä joillakin henkilöillä samat tiedot voivat esiintyä kahdella rivillä: toisella lakkautetun kunnan koodilla ja toisella nykyisen kunnan koodilla.
 
+Vuosina 2023–2024 lukion suojattu tunnus ja siihen liittyvä kuntakoodi on yhdistetty senhetkisten kuntatietojen ja oppilaitostietojen perusteella. Jos lukioon liittyvää kuntaa tai tunnusta ei löydy ajantasaisista listauksista, jäävät "municip"- ja "sotunnus"-sarakkeet tyhjiksi. Vuoden 2024 syyslukukauden aineistossa muuttuja "sotunnus" on korvattu uudella muuttujalla "otunnus_s".
+
+Tarkemmat muuttujakohtaiset kuvaukset löytyvät muuttujaluettelosta. Aineiden (exam) ja tehtävien (section) osalta käytetyt koodit on listattu erillisessä luettelossa D-aseman metatietokansiossa (metadata > Finnish metadata > EDUC_YTL).
+ 
+<b> Lisätietoja </b> 
 Lisätietoja saatavilla Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ## Variables (18)

@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "EDUC_20052025_jua_trek_001.xml",
+      "doi": "he_201100_ain_Tutkinto",
+      "subject": "EDUC_TREK Tutkintorekisteri",
+      "contentdescription": "EDUC_TREK-valmisaineisto Tutkintorekisteri 1995–2023-vuositiedosto sisältää tutkintorekisterin tietoja muun muassa tutkinnoista, koulutuksesta, oppilaitostyypistä sekä koulutusmuodosta ja -lajista myös ajalta ennen tutkimusrekisterin perustamisvuotta (1971).\n\n<b>Valmisaineiston tarkentava nimi</b>\nTiedot kaikista tutkintorekisterissä saatavilla olevista tutkinnoista riippumatta siitä, kuuluuko henkilö väestöön kyseisenä vuonna (EDUC_TREK)\n\n<b>Aineiston koostaminen, tietolähteet ja perusjoukko</b> \nAineisto sisältää Tilastokeskuksen tutkintorekisterin tutkintotietoja. Tutkintorekisteriin on viety vain henkilöt, joille löytyy henkilötunnus. Mukana ovat kaikki tutkintorekisterin tutkinnot riippumatta siitä, kuuluuko henkilö kyseisenä vuonna maassa asuvassa väestöön.  \nYksittäisen vuositiedoston <b>vuosi</b>-muuttuja viittaa tutkintorekisterin rekisterivuoteen. Tämän vuoksi ajan myötä mahdollisesti muuttuvat muuttujat, kuten tutkintokoodien luokitukset tai oppilaitostunnukset, kuvaavat sen hetkistä tilannetta. Rekisterin tietoja täydennetään ja korjataan takautuvasti, joten viimeisin rekisterivuosi tarjoaa ajantasaisimman tiedon.\n\n<b>Huomioitavaa aineistosta ja sen käytöstä</b> \nEDUC_TREK-valmisaineisto kattaa tiedot suoritetuista tutkinnoista aina 1900-luvun alkupuolelta lähtien. Yksittäinen vuositiedosto sisältää kaikki tutkintorekisteriin rekisterivuoden (<b>vuosi</b>-muuttuja) loppuun mennessä tallentuneet tutkinnot myös aiemmin suoritettujen tutkintojen (<b>saika</b><<b>vuosi</b>) osalta.  \nKaikille ennen tutkintorekisterin perustamisvuotta (1971) suoritetuille tutkinnoille ei ole tiedossa tutkinnon suoritusaikaa (<b>saika</b>).\n\n<b>Aineiston päivitysaikataulu</b>\nTutustu valmisaineistojen <a href=\"https://stat.fi/tup/tutkijapalvelut/valmisaineistojen-paivitysaikataulu.html\" > päivitysaikatauluun</a>. \nTutkintorekisteri valmistuu kunkin tilastovuoden osalta seuraavan vuoden syksyllä (loka-marraskuu). Tietojen valmistumisaika on tilastovuosi + 12 kk. \n\n<b>Aineiston käyttö ja tilaaminen</b> \nAineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.  \n\nValmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista.  \nAineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain (=tutkintorekisterin rekisterivuosi). \n\n<b>Muutokset</b> \nVuoden 2023 päivitys: \n- Aineistoon lisätty takautuvasti kaksi uutta muuttujaa alkaen vuodesta 2020: <b>ammoppsop</b> (tutkinnossa oppisopimusjaksoja) sekä <b>ammkouso</b> (tutkinnossa koulutussopimusjaksoja). \n\n<b>Lisätietoja</b> \nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi \n\n\n\n\n\n",
+      "coveragetemporal": " - 2025-12-31",
+      "published_day": "2026-08-21",
+      "variable_count": "23",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Tutkinnon suorittanut väestö",
+      "resourcerelation_1": "Tutkintorekisteri",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

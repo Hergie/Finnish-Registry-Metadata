@@ -145,7 +145,6 @@ Ikä vuosina 31.12. Ikätieto on puutteellisen henkilötunnuksen omaavilla oppil
 Opiskelijan kansalaisuus vuoden lopussa.
 Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
  999=Ei tietoa.
- Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
 
 #### `aikieli` — Äidinkieli (2020-)
 
@@ -154,7 +153,6 @@ Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henki
 Opiskelijan äidinkieli 31.12.
 2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.
  99 = ei tietoa.
- Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
 
 #### `olosyys` — Kirjoilla 20.9
 

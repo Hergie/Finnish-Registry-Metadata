@@ -51,7 +51,7 @@
     {
       "identifier": "kansal",
       "variablename": "Kansalaisuus (2020-)",
-      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa.\nTieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n 999=Ei tietoa.\n Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa.\nTieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n 999=Ei tietoa.\n",
       "measunit": null,
       "classification": "valtio_1_2012_01_01",
       "variablegroups": null
@@ -59,7 +59,7 @@
     {
       "identifier": "aikieli",
       "variablename": "Äidinkieli (2020-)",
-      "conceptdef": "Opiskelijan äidinkieli 31.12.\n2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n 99 = ei tietoa.\n Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "conceptdef": "Opiskelijan äidinkieli 31.12.\n2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n 99 = ei tietoa.\n",
       "measunit": null,
       "classification": "kieli_1_2010_11_15",
       "variablegroups": null

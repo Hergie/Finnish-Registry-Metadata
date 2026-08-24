@@ -7,26 +7,43 @@
 - **Organisation:** Tilastokeskus
 - **Variable count:** 17
 - **Observation count:** —
-- **Population:** Oleskelulupaa ja kv suojelua hakeneet
+- **Population:** Oleskelulupaa hakeneet
+- **Source:** Maahanmuuttoviraston (Migri) koostama oleskelulupatietoja sisältävä aineisto
 
 ## Description
 
-<h3>MIGR_OLESK Oleskelulupatiedot</h3>
-Maahanmuuttoviraston koostaman oleskelulupatietoja sisältävän aineiston rekisterinpitäjyys on siirtynyt Tilastokeskukselle, mikä tarkoittaa sitä, että aineistoa luvittaa tutkimuskäyttöön sekä tilastollisiin selvityksiin jatkossa Tilastokeskuksen tutkijapalvelut. 
+MIGR_OLESK-valmisaineisto sisältää tietoja oleskelulupaa hakeneista henkilöistä, haetuista oleskeluluvista päätöksineen ja peruutuksineen sekä voimassa olevista kansalaisuuksista. 
 
-Kyseisistä tiedoista on muodostettu valmisaineisto, joka sisältää haetut oleskeluluvat vuodesta 2011 päätöksineen ja peruutuksineen, sekä tiedot myönteisistä kansalaisuuspäätöksistä ja voimassa olevista kansalaisuuksista. Valmisaineisto koostuu tauluista <i>hakemukset</i>, <i>päätökset ja peruutukset</i>, <i>kansalaisuuspäätös</i>, <i>voimassaolevat</i> sekä <i>yhteystiedot</i>. <b>Tällä sivulla on aineistokuvaus taululle Hakemukset.</b>  Oleskelulupaa hakeneille henkilöille valmisaineistosta löytyy syntymävuosi, sukupuoli, kansalaisuus sekä postinumeroalue. 
+Tämä aineistokuvaus koskee MIGR_OLESK-aineiston ”hakemukset”-osiota, joka sisältää tietoja muun muassa toimenpiteistä, oleskelulupahakemuksista, hakemusten käsittelystä sekä vireyttäjän organisaatiosta.MIGR_OLESK-aineistosta on erilliset kuvaukset myös osioille ”henkilötiedot”, ”päätökset ja peruutukset”, ”kansalaisuuspäätös”, ”voimassaolevat” sekä ”yhteystiedot”.
 
-Aineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamisen mahdollisuus. Taulut linkittyvät toisiinsa pseudonymisoiduilla tunnisteilla asianumero, toimenpiteen numero, henkilönumero ja Migrin asiakasnumero. Aineistosta on karkeistettu piiloon arkaluontoisimmat oleskelulupahakemusten käsittelyperusteet. Tietojen laatu on vaihtelevaa, ja pyrimme kuvaamaan esiin nousseet puutteet aineiston käytön helpottamiseksi. Valmisaineiston sisältö on arkaluonteista, ja se luvitetaan tutkimuskäyttöön tai tilastollisiin selvityksiin vain hyvin perustein. Kaikilta aineistoa käyttöönsä hakevilta vaaditaan DPIA eli tietosuojan vaikutusten arviointi. Aineiston päivityssykli pyritään saamaan jopa kuukausitasolle, kunhan tietojen toimitusprosessi vakiintuu. 
+<b> Valmisaineiston tarkentava nimi </b> 
+Oleskelulupahakemukset, -päätökset ja peruutukset, myönteiset kansalaisuuspäätökset ja voimassa olevat kansalaisuudet, sekä hakijoiden taustatiedot (MIGR_OLESK)
 
-Oleskelulupa-aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoon voi tulla vielä käytettävyyttä parantavia muutoksia. 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Aineisto kattaa kaikki henkilöt, jotka ovat hakeneet lupaa oleskella Suomessa. Tämä käsittää niin oleskelulupaa, kansainvälistä suojelua kuin muuta oleskeluoikeutta hakeneet henkilöt.
+Valmisaineisto perustuu Maahanmuuttoviraston koostamaan oleskelulupatietoja sisältävään aineistoon.
 
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Aineistosta on suojattu yksilöivät tunnisteet ja poistettu suoran tunnistamisen mahdollisuus. Taulut linkittyvät toisiinsa pseudonymisoiduilla tunnisteilla asianumero, toimenpiteen numero, henkilönumero ja Maahanmuuttoviraston asiakasnumero. Aineistosta on karkeistettu piiloon arkaluontoisimmat oleskelulupahakemusten käsittelyperusteet. Tietojen laatu on vaihtelevaa, ja pyrimme kuvaamaan esiin nousseet puutteet aineiston käytön helpottamiseksi. Valmisaineiston sisältö on arkaluonteista, ja se luvitetaan tutkimuskäyttöön tai tilastollisiin selvityksiin vain hyvin perustein. Aineistoa käyttöönsä hakevien tutkimushankkeiden tulee laatia DPIA eli tietosuojan vaikutusten arviointi. 
 
-MIGR-valmisaineistojen sisältämien muuttujien luokitukset sijaitsevat FIONAn metadata-kansiossa (D:/metadata/migr).
+Oleskelulupatietoja sisältävä aineisto on uutta Tilastokeskuksella, ja vasta kartutamme substanssiosaamistamme kyseiseen aiheeseen. Tästä syystä valmisaineistoon voi tulla vielä käytettävyyttä parantavia muutoksia. 
 
-Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella <a href="https://tilastot.migri.fi/" > Migrin tilastointipalvelusta</a>. 
-Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/oleskelulupa" > Maahanmuuttoviraston sivuilla</a>.
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
-Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla.
+
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista.
+
+<b> Tarkempaa tietoa muuttujista </b> 
+Luokitusten koodistot sijaitsevat FIONAssa metadata-kansiossa (D:\metadata\classifications\migr).
+
+<b> Lisätietoja </b> 
+Kysymykset valmisaineistosta voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
+
+Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella  <a href=" https://tilastot.migri.fi/#decisions ">  Migrin tilastointipalvelusta</a>. 
+Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href=" https://migri.fi/oleskelulupa">  Maahanmuuttoviraston sivuilla</a>.
 
 ## Variables (17)
 

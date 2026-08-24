@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 313 datasets, last upstream change 2026-08-19.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 314 datasets, last upstream change 2026-08-24.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -81,7 +81,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `EDUC_19751995_jua_000_000.xml` | EDUC_OPISK_HIST: Korkeakouluopiskelijoiden historialliset tiedot 1975-1995 2. osamoduuli | 1970-01-01 - 1995-12-31 | 33 | — | [→](./datasets/EDUC_19751995_jua_000_000/README.md) |
 | `EDUC_1985_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1985 | — | 105 | — | [→](./datasets/EDUC_1985_jua_tyhr19_001/README.md) |
 | `EDUC_19891995_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1989, 1991-1995 | — | 104 | — | [→](./datasets/EDUC_19891995_jua_tyhr19_001/README.md) |
-| `EDUC_19902025_jua_ytl_001.xml` | EDUC_YTL  ylioppilaskirjoitusten tulokset 1967-2025 | 1967-01-01 - 2025-12-31 | 18 | — | [→](./datasets/EDUC_19902025_jua_ytl_001/README.md) |
+| `EDUC_19902025_jua_ytl_001.xml` | EDUC_YTL  ylioppilaskirjoitusten tulokset, v. 1967-2025 | 1967-01-01 - 2025-12-31 | 18 | — | [→](./datasets/EDUC_19902025_jua_ytl_001/README.md) |
 | `EDUC_19921998_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 1992-1998 | 1992-01-01 - 1998-12-31 | 13 | — | [→](./datasets/EDUC_19921998_jua_harekyo_001/README.md) |
 | `EDUC_1995_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1995 | 1995-01-01 - 1995-12-31 | 50 | — | [→](./datasets/EDUC_1995_jua_opisk_001/README.md) |
 | `EDUC_19961997_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1996-1997 | — | 199 | — | [→](./datasets/EDUC_19961997_jua_tyhr19_001/README.md) |
@@ -95,6 +95,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `EDUC_20002004_jua_harekamk_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 2000-2004 | 2000-01-01 - 2004-12-31 | 200 | — | [→](./datasets/EDUC_20002004_jua_harekamk_001/README.md) |
 | `EDUC_20042009_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 2004-2009 | 2004-01-01 - 2009-12-31 | 69 | — | [→](./datasets/EDUC_20042009_jua_harekyo_001/README.md) |
 | `EDUC_20052014_jua_harekamk_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 2005-2014 | 2005-01-01 - 2014-12-31 | 351 | — | [→](./datasets/EDUC_20052014_jua_harekamk_001/README.md) |
+| `EDUC_20052025_jua_trek_001.xml` | EDUC_TREK Tutkintorekisteri | - 2025-12-31 | 23 | — | [→](./datasets/EDUC_20052025_jua_trek_001/README.md) |
 | `EDUC_20082013_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 2008-2013 | — | 142 | — | [→](./datasets/EDUC_20082013_jua_tyhr19_001/README.md) |
 | `EDUC_20102014_jua_harekyo_001.xml` | EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 2010-2014 | 2010-01-01 - 2014-12-01 | 82 | — | [→](./datasets/EDUC_20102014_jua_harekyo_001/README.md) |
 | `EDUC_20142020_jua_tyhr20_001.xml` | Toisen asteen yhteishaku - moduuli, osa 6 (2014 - 2020) | — | 111 | — | [→](./datasets/EDUC_20142020_jua_tyhr20_001/README.md) |
@@ -399,4 +400,4 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 - 9 datasets (all SURVEY) list a placeholder sentinel variable (`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out.
 - **Person ID variable:** Taika currently documents the person-level identifier as `hid_e`. Older data deliveries used `shnro` — Statistics Finland renamed the variable. Some tables may still expose the identifier under other names.
 - **Withdrawn datasets:** when Taika drops a dataset the fetcher moves it to `withdrawn/<id>/` instead of deleting it, so metadata for superseded vintages stays greppable. `datasets/` therefore always mirrors Taika exactly; `withdrawn/` is everything it used to offer.
-- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 313 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.
+- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 314 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.
