@@ -30,7 +30,7 @@ Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `kunta` | Kunta | — | — | Vaestorakenne |
 | `euref_1000` | 1 km -ruudun tunniste (euref) | — | — | Spatiaalisettiedot |
 | `euref_250` | 250 m -ruudun tunniste (euref) | — | — | spatiaalisettiedot |
-| `posti_alue` | Tilastollinen postinumeroalue | — | — | Spatiaalisettiedot |
+| `posti_alue` | Rakennuksen tilastollinen postinumeroalue | — | — | Spatiaalisettiedot |
 | `rnro_s` | Suojattu rakennusnumero | — | — | — |
 | `prt_s` | Suojattu pysyvä rakennustunnus | — | — | — |
 | `rappu_s` | Suojattu rappukäytävän tunnus | — | — | — |
@@ -63,11 +63,11 @@ Henkilön asuinkunta vuoden viimeisenä päivänä. Alueluokitus on 1.1. tilasto
 
 250 m ruudun (hilaruudukko) tunnus EUREF-FIN-koordinaatistossa (ERTS89-TM35FIN).
 
-#### `posti_alue` — Tilastollinen postinumeroalue
+#### `posti_alue` — Rakennuksen tilastollinen postinumeroalue
 
 **Group:** Spatiaalisettiedot
 
-Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Tilastokeskuksessa ylläpidettävää tilastolliset postinumeroalueet kartta-aineistoa.
+Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Tilastokeskuksessa ylläpidettävää tilastolliset postinumeroalueet kartta-aineistoa. Tuntematon arvo on merkitty koodilla 99999.
 
 #### `rnro_s` — Suojattu rakennusnumero
 

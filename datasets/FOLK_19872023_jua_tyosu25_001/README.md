@@ -13,18 +13,20 @@
 
 ## Description
 
-FOLK _JAKSOT –moduuliin sisältyvä työsuhde osa-aineisto sisältää tietoja henkilöiden työsuhteista eri näkökulmista. Aineistossa on mukana tiedot vuoden viimeisen viikon työsuhteesta, vuoden pisimmästä työsuhteesta sekä mahdollisista sivutyösuhteista. Lisäksi mukana on muita työsuhdejaksoja vuoden ajalta.
+Aineisto on osa laajempaa jaksotietoja sisältävää valmisaineistomoduulia, joka sisältää tiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista sekä taustatiedot yrityksen toimipaikasta. 
+
+Työsuhde-osa-aineisto sisältää tietoa henkilöiden työsuhteista eri näkökulmista. Aineistossa on mukana tiedot vuoden viimeisen viikon työsuhteesta, vuoden pisimmästä työsuhteesta sekä mahdollisista sivutyösuhteista. Lisäksi mukana on muita työsuhdejaksoja vuoden ajalta. 
 
 <b> Valmisaineiston tarkentava nimi </b> 
-Jaksotiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista, sisältäen taustatietoja yrityksen toimipaikasta.
+Jaksotiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista, sisältäen taustatietoja yrityksen toimipaikasta. 
 
 <b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
-Tilastovuonna 2019  työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona, mikä korvasi useita aiemmin käytössä olleita työsuhdeaineistoja. Tämä muutos vaikuttaa tietojen vertailukelpoisuuteen aiempiin vuosiin nähden. Tilastovuonna 2019 henkilön vuoden viimeisen viikon työsuhde (TVM =1) on päätelty tulorekisterin perusteella (aineisto=1). Tulorekisteristä poimitut jaksotiedot kuvaavat maksujaksoja. Lisäksi aineistossa on mukana Eläketurvakeskuksen (ETK) tulorekisteristä poimimia jaksotietoja (aineisto=2). 
+Tilastovuonna 2019 työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona, mikä korvasi useita aiemmin käytössä olleita työsuhdeaineistoja. Muutos vaikuttaa tietojen vertailukelpoisuuteen aiempiin vuosiin nähden. Tilastovuonna 2019 henkilön vuoden viimeisen viikon työsuhde (TVM =1) on päätelty tulorekisterin perusteella (aineisto=1). Tulorekisteristä poimitut jaksotiedot kuvaavat maksujaksoja. Lisäksi aineistossa on mukana Eläketurvakeskuksen (ETK) tulorekisteristä poimimia jaksotietoja (aineisto=2). 
 
-Aikasarja kattaa pääosin vuodet 1987 alkaen ja mahdolliset poikkeamat tiedon saatavuudessa on kuvattu kunkin muuttujan kuvauksessa. Aineisto sisältää 15 vuotta täyttäneiden työsuhdejaksoja vuoteen 2015 saakka. Vuodesta 2016 alkaen nuorimpien mukana olevien ikäraja on 18-vuotiaita. 
+Aikasarja kattaa pääosin vuodet 1987 alkaen. Mahdolliset poikkeamat tiedon saatavuudessa on kuvattu kunkin muuttujan kuvauksessa. Aineisto sisältää 15 vuotta täyttäneiden työsuhdejaksoja vuoteen 2015 saakka. Vuodesta 2016 alkaen mukana olevien henkilöiden ikäraja on 18-vuotta. 
 
 <b> Huomioitavaa aineistosta ja sen käytöstä </b> 
-Vuosien 1987–2004 työsuhdetiedot ovat laadultaan ja kattavuudeltaan heikompia verrattuna vuodesta 2005 alkaen saatuihin tietoihin. Ennen vuotta 1995 TVM-työsuhteista puuttuu tietoja noin 23 prosentissa tapauksista, esimerkiksi kaikki yrittäjätiedot, noin 20 prosenttia kunta-alan tiedoista sekä valtion työsuhteet vuodelta 1987. Lisäksi tiedot voivat olla ristiriidassa FOLK työssäkäyntiaineiston kanssa ennen vuotta 2005, koska ne perustuvat eri lähteisiin.  
+Vuosien 1987–2004 työsuhdetiedot ovat laadultaan ja kattavuudeltaan heikompia kuin vuodesta 2005 alkaen saatavat tiedot. Ennen vuotta 1995 TVM-työsuhteista puuttuu tietoja noin 23 prosentissa tapauksista. Puutteita on esimerkiksi kaikissa yrittäjätiedoissa, noin 20 prosentissa kunta-alan tiedoissa sekä valtion työsuhdetiedoissa vuodelta 1987. Tiedot voivat olla myös ristiriidassa FOLK työssäkäyntiaineiston kanssa ennen vuotta 2005, koska aineistot perustuvat eri lähteisiin.  
 
 Esimerkiksi vuosien 1987–2004 valtio- ja kunta-alan työsuhdejaksotiedoissa yritys- ja toimipaikkatunnukset (syrtun ja sykstun) eivät useinkaan vastaa FOLK-työssäkäyntiaineiston tunnuksia. Sen sijaan virastotunnus (stpitunj) sekä kunta- ja valtiosektorin toimipistetunnus (stpitunt) ovat yleensä yhteneväisiä molemmissa aineistoissa. 
 
@@ -32,9 +34,9 @@ Esimerkiksi vuosien 1987–2004 valtio- ja kunta-alan työsuhdejaksotiedoissa yr
 Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
 
 <b> Aineiston käyttö ja tilaaminen </b> 
-Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.    
+Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle. 
 
-Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista.  
+Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilata räätälöity versio. 
 
 <b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi

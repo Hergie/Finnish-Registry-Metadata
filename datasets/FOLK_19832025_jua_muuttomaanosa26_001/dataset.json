@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "docmeta": {
+      "identifier": "FOLK_19832025_jua_muuttomaanosa26_001.xml",
+      "doi": "he_201100_ain_Muutto",
+      "subject": "FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot",
+      "contentdescription": "\nFOLK_MUUTTO_MAANOSA-valmisaineistomoduuli sisältää tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. \n\nAineiston sisältämät tiedot on karkeistettu maanosatasolle YK:n M49-luokituksen mukaisesti.\n\n<b> Valmisaineiston tarkentava nimi </b>\nTiedot Suomen maahan- ja maastamuutoista ja Suomen kuntien välillä ja sisässä muuttaneista, sisältäen muuttajan taustatiedot keskitasolla (keskitason maanosatasoiset muuttotiedot) \n\n<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b>\nAineisto sisältää tietoja vuoden aikana Suomen sisällä tai Suomeen/Suomesta muuttaneista, joilla on/on ollut vakinainen asuinpaikka Suomessa. Tiedot perustuvat muuttotilaston tietoihin, jotka on koottu Digi- ja väestötietoviraston (DVV) väestötietojärjestelmästä (VTJ).  \n\nFOLK_MUUTTO_MAANOSA-aineiston sisältämät tiedot on karkeistettu seuraavasti: \nTiedot kansalaisuudesta, syntymävaltiosta sekä lähtö- ja tulomaasta ovat karkeistettuja maanosatasolle (pl. Suomi). Lisäksi lisätty tieto EU:iin kuulumisesta. \nTieto äidinkielestä on karkeistettu tasolle suomi/ruotsi/muu. \n\n\nEU- ja ETA-kansalaisten muutto Suomeen kirjautuu väestötietojärjestelmään (VTJ)  ja tulee sitä kautta Tilastokeskukselle, kun henkilö hakee ja saa vakinaisen kotikunnan. Kolmansien maiden kansalaisten on ensin saatava oleskelulupa, ennen kun he voivat hakea kotikuntaa DVV:ltä.  \n\nMaahanmuuttoajankohta on se ajankohta, jolloin oleskeluluvan saanut saa kotikunnan ja hänet merkitään VTJ:ään. Henkilö on voinut oleskella Suomessa jo pidempään ennen virallista rekisteröintiä/maahanmuuttoa. VTJ:ssä henkilöllä voi olla myös tilapäinen asuinpaikka, mutta Tilastokeskuksen muuttoliiketilastossa maahanmuutoksi lasketaan vain ne tapaukset, joissa henkilö on saanut vakinaisen asuinpaikan Suomessa ja siitä on tehty merkintä VTJ:ään. \n\nAineisto sisältää tarkat maa- ja kielikoodit muuttujille 1.kansalaisuus, 2. kansalaisuus, syntymävaltio, lähtömaa, tulomaa sekä äidinkieli.\n\n<b> Aineiston päivitysaikataulu </b> \nTutustu valmisaineistojen <a href=\"https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu\">  päivitysaikatauluun</a>.\n\n<b> Aineiston käyttö ja tilaaminen </b>\nAineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla.\nTietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle. Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilasta räätälöity versio.\n\nAineistosta on saatavilla rinnakkaisversiot FOLK_MUUTTO_SUOMI_MUU sekä FOLK_MUUTTO_VALTIO. Näistä ensiksi mainittu moduuli sisältää suomi/muu-tasolle karkeistetut tiedot ja jälkimmäinen moduuli tarkat valtiotasoiset tiedot. FOLK_MUUTTO_VALTIO ja FOLK_MUUTTO_MAANOSA soveltuvat esimerkiksi ulkomaan ja ulkomaataustaisten muuttoliikettä tarkasteleviin tutkimuksiin, kun taas FOLK_MUUTTO_SUOMI_MUU soveltuu erityisesti Suomen sisäisen muuttoliikkeen tarkasteluun.\n\nAineisto on FIONA-etäkäyttöjärjestelmässä jaettu vuosikansioihin muuttovuoden perusteella.\n\nLuokitusavain ”Maanosa_avain_FMUUTTO_25” löytyy FIONAn metadata-kansiosta: metadata/classifications/country.\n \n<b> Lisätietoja </b>\nLisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.\n\n",
+      "coveragetemporal": "1983-01-01 - 2025-12-31",
+      "published_day": "2026-08-27",
+      "variable_count": "25",
+      "orgname": "Tilastokeskus",
+      "coveragepopulation": "Vuoden aikana muuttaneet, joilla vakinainen asuinpaikka Suomessa.",
+      "resourcerelation_1": "DVV:n väestötietojärjestelmä VTJ",
+      "resourcerelation_2": null,
+      "keywords": null,
+      "line_count": null,
+      "everything_else": "asdf"
+    },
+    "statmeta": "metaa..."
+  }
+}

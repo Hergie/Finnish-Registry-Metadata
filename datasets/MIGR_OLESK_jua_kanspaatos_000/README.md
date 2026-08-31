@@ -69,9 +69,11 @@ Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle 
 
 #### `TILASTOVUOSI`
 
+Tilastovuosi = vuosi, jolloin henkilölle on myönnetty Suomen kansalaisuus. Ks. muuttuja dcsn_measure_confirmation_day.
+
 #### `DCSN_MEASURE_CONFIRMATION_DAY` — Paatoksen pvm
 
-Päivämäärä jolloin henkilölle myönnetty Suomen kansalaisuus
+Päivämäärä jolloin henkilölle myönnetty Suomen kansalaisuus. Tilastovuosi-muuttuja määrittyy päätöspäivämäärän mukaan.
 
 #### `CASE_TYPE_NAME_FIN` — Asiatyyppi
 

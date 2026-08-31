@@ -12,7 +12,9 @@
 
 ## Description
 
-Aineisto on osa laajempaa jaksotietoja sisältävää valmisaineistomoduulia, joka sisältää tiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista sekä taustatiedot yrityksen toimipaikasta. Työvoimakoulutus–osa-aineisto sisältää tietoja työvoimakoulutuksen tyypistä, alkamis- ja päättymispäivämääristä sekä työvoimakoulutusjaksoista vuodesta 2005 alkaen.
+Aineisto on osa laajempaa jaksotietoja sisältävää valmisaineistomoduulia, joka sisältää tiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista sekä taustatiedot yrityksen toimipaikasta.
+
+Työvoimakoulutus–osa-aineisto sisältää tietoja työvoimakoulutuksen tyypistä, alkamis- ja päättymispäivämääristä sekä työvoimakoulutusjaksoista vuodesta 2005 alkaen.
 
 <b> Valmisaineiston tarkentava nimi </b> 
 Jaksotiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista, sisältäen taustatietoja yrityksen toimipaikasta. 
@@ -24,9 +26,9 @@ Aineisto sisältyy FOLK_JAKSOT -moduuliin ja sen lähdeaineistona toimii Työ- j
 Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
 
 <b> Aineiston käyttö ja tilaaminen </b> 
-Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.    
+Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle. 
 
-Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilata räätälöity versio. 
 
 <b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi

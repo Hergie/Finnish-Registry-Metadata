@@ -2,7 +2,7 @@
 
 - **Identifier:** `FIRM_19882020_jua_empesthenkom_001.xml`
 - **DOI:** `work_2012-12_2012-12-10_ain_0001`
-- **Temporal coverage:** 1988-01-01 - 2022-12-31
+- **Temporal coverage:** 1988-01-01 - 2023-12-31
 - **Published:** 2024-07-25
 - **Organisation:** Tilastokeskus
 - **Variable count:** 36

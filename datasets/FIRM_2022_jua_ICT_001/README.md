@@ -1,4 +1,4 @@
-# FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2022 (YA233)
+# FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2022
 
 - **Identifier:** `FIRM_2022_jua_ICT_001.xml`
 - **DOI:** `work_2021-07_2021-07-20_ain_0001`

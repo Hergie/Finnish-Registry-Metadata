@@ -13,15 +13,20 @@
 
 ## Description
 
-Aineisto on osa laajempaa jaksotietoja sisältävää valmisaineistomoduulia, joka sisältää tiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista sekä taustatiedot yrityksen toimipaikasta.Eläkejaksotiedot-osa-aineisto sisältää tietoa eläkelajista ja eläkejaksojen alkamispäivämääristä.
+Aineisto on osa laajempaa jaksotietoja sisältävää valmisaineistomoduulia, joka sisältää tiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista sekä taustatiedot yrityksen toimipaikasta.
+
+Eläkejaksotiedot-osa-aineisto sisältää tietoa eläkelajista ja eläkejaksojen alkamispäivämääristä.
 
 <b> Valmisaineiston tarkentava nimi </b> 
 Jaksotiedot työsuhde-, työttömyys-, työvoimakoulutus-, sijoitus-, työnhaku- ja eläkejaksoista, sisältäen taustatietoja yrityksen toimipaikasta.
  
 <b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 Aineisto sisältyy FOLK_JAKSOT –valmisaineistoon ja sisältää tietoja eläkkeistä vuodesta 1995 alkaen kunkin vuoden lopun tilanteen mukaan (vain vuoden lopussa voimassa olleet eläkkeet). Eläketietoja on saatavilla myös TAX_BENEFIT-valmisaineiston Tulorekisterin etuustiedot-osa-aineistosta.
+
 Jos henkilöllä on saman eläkelajin useita jaksoja (elakelaji_alkuper) saman aineistolähteen sisällä, mukaan on valittu jakso, joka on alkanut ensimmäisenä. Perhe-eläkkeet sisältyvät aineistoon vuodesta 1996 alkaen. Takautuvasti myönnetyt työeläkkeet puuttuvat vuosilta 1995 ja 1998.
-Aineiston tietolähteinä on vuoteen 2023 asti Tilastokeskuksen työssäkäyntitilastoa varten muodostettu aineisto, joka perustuu mm. Kansaneläkelaitoksen ja Eläketurvakeskuksen rekistereihin eläkkeensaajista. - Vuodesta 2023 alkaen aineisto on tulorekisteripohjainen.
+Aineiston tietolähteinä on vuoteen 2023 asti Tilastokeskuksen työssäkäyntitilastoa varten muodostettu aineisto, joka perustuu mm. Kansaneläkelaitoksen ja Eläketurvakeskuksen rekistereihin eläkkeensaajista. 
+
+Vuodesta 2023 alkaen aineisto on tulorekisteripohjainen.
 
 <b> Huomioitavaa aineistosta ja sen käytöstä </b>
 Muutoksia vuoden 2023 aineistossa:
@@ -33,10 +38,10 @@ Muutoksia vuoden 2023 aineistossa:
 <b> Aineiston päivitysaikataulu </b>
 Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
 
-<b> Aineiston käyttö ja tilaaminen </b> 
-Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilöä yksilöivän tunnisteen avulla.
-Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista.
-  
+<b> Aineiston käyttö ja tilaaminen </b> Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.
+
+Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilata räätälöity versio.
+
 <b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi
 

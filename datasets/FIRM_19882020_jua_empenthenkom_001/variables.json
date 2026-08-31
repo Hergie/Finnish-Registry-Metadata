@@ -1,9 +1,17 @@
 {
   "variables": [
     {
-      "identifier": "syrtun",
+      "identifier": "ytunnus_s",
       "variablename": "Suojattu yritystunnus",
       "conceptdef": "Yksilöintitunnus yritystason aineistossa",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "year",
+      "variablename": "Vuosi",
+      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -251,14 +259,6 @@
     {
       "identifier": "shwomen",
       "variablename": "Naisten osuus",
-      "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "year",
-      "variablename": "Vuosi",
       "conceptdef": null,
       "measunit": null,
       "classification": null,

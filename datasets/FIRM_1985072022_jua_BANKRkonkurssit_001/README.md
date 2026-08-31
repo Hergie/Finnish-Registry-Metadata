@@ -2,7 +2,7 @@
 
 - **Identifier:** `FIRM_1985072022_jua_BANKRkonkurssit_001.xml`
 - **DOI:** `work_2017-03_2017-03-23_ain_0002`
-- **Temporal coverage:** 1985-01-01 - 2024-06-30
+- **Temporal coverage:** 1985-01-01 - 2026-06-30
 - **Published:** 2023-07-25
 - **Organisation:** Tilastokeskus
 - **Variable count:** 45

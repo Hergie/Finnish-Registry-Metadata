@@ -1,4 +1,4 @@
-# EDUC_HAREK Korkeakoulujen hakurekisteritiedot - ammattikorkeakoulujen haut v. 1996-1999
+# EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 1996-1999
 
 - **Identifier:** `EDUC_19961999_jua_harekamk_001.xml`
 - **DOI:** `khak_2024-08_2024-08-09_ain_0001`
@@ -8,8 +8,7 @@
 - **Variable count:** 255
 - **Observation count:** —
 - **Population:** korkeakouluhakijat
-- **Source:** Aineisto opiskelijavalinnoista perustuu Opetushallituksen ylläpitämään opiskelijavalintarekisteriin (sis. yliopistojen hakija- ja opinto-oikeusrekisterin, ammattikorkeakoulujen yhteishakurekisterin, ja korkeakoulujen hakurekisterin tiedot ajankohdan mukaisesti), jonka OPH toimittaa Tilastokeskukselle vuosittain. Taustatietoja on saatu VRK:sta.
-Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoitetaan lähtökohtaisesti kunakin hakuvuonna 15.9. mennessä hyväksymiskirjeen saaneita.
+- **Source:** Opetushallitus
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastotieto: Koulutukseen hakeutuminen</a>
 - **Keywords:** koulutus,oppilaitokset
 

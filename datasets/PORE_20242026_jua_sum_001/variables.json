@@ -1,0 +1,220 @@
+{
+  "variables": [
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Maksutapahtuman päivämäärästä johdettu vuosi. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kk",
+      "variablename": "Kuukausi",
+      "conceptdef": "Maksutapahtuman päivämäärästä johdettu kuukausi. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Luoton saajan suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun_s",
+      "variablename": "Luoton saajan suojattu Y-tunnus",
+      "conceptdef": "Tunnuksen täytyy olla suomalaisen Y-tunnuksen muotovaatimuksen mukainen ja liittyä yritys- ja yhteisötietojärjestelmässä luotonsaajan henkilötunnukseen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amountissued_yht",
+      "variablename": "Kertaluottojen myönnetty määrä ",
+      "conceptdef": "Velallisen henkilön kaikkien kertaluottojen myönnetty määrä yhteensä. Mikäli jollakin luotolla on useampi osakas, ko. luoton myönnetty määrä on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee lainaa 50 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amountpaid_yht",
+      "variablename": "Kertaluottojen nostettu määrä",
+      "conceptdef": "Velallisen henkilön kaikkien kertaluottojen nostettu määrä yhteensä. Mikäli jollakin luotolla on useampi osakas, ko. luoton nostettu määrä on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee lainaa 50 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "amortizationpaid_yht",
+      "variablename": "Kertaluottojen maksettu lyhennys",
+      "conceptdef": "Velallisen henkilön kaikkien kertaluottojen maksettu lyhennys yhteensä. Mikäli jollakin luotolla on useampi osakas, ko. luoton maksettu lyhennys on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron maksettu lyhennys jakaantuu kahdelle eri velallisille siten, että molemmille tulee maksettua lyhennystä 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "interestpaid_yht",
+      "variablename": "Kertaluottojen maksettu korko",
+      "conceptdef": "Velallisen henkilön kaikkien kertaluottojen maksettu korko yhteensä. Mikäli jollakin luotolla on useampi osakas, ko. luoton maksettu korko on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron maksettu korko jakaantuu kahdelle eri velallisille siten, että molemmille tulee maksettua korkoa 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otherexpenses_yht",
+      "variablename": "Kertaluottojen muut maksetut luottokustannukset ",
+      "conceptdef": "Velallisen henkilön kaikkien kertaluottojen muut maksetut luottokustannukset yhteensä. Mikäli jollakin luotolla on useampi osakas, ko. luoton muut maksetut luottokustannukset on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron summa jakaantuu kahdelle eri velallisille siten, että molemmille tulee muita maksettuja luottokustannuksia 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "onetimeservicefees_yht",
+      "variablename": "Kertaluottosopimusten kertakulut",
+      "conceptdef": "Velallisen henkilön kaikkien kertaluottojen luottosopimuksen kertakulu yhteensä. Mikäli jollakin lainalla on useampi osakas, ko. lainan sopimusten kertakulut on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron summa jakaantuu kahdelle eri velallisille siten, että molemmille tulee sopimusten kertakuluja 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "homeloan_yht",
+      "variablename": "Asuntolaina, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on asuntolaina. Jos velallisella on useampi asuntolaina, ne on summattu yhteen. Mikäli samalla lainalla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron asuntolaina jakaantuu kahdelle eri velallisille siten, että molemmille tulee asuntolainaa 50 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "homeloanforfirsthome_yht",
+      "variablename": "Asuntolaina ensiasuntoon, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on asuntolaina ensiasuntoon. Jos velallisella on useampi asuntolaina ensiasuntoon, ne on summattu yhteen. Mikäli samalla lainalla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron laina jakaantuu kahdelle eri velallisille siten, että molemmille tulee lainaa 50 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "homeloanforleisurehouse_yht",
+      "variablename": "Asuntolaina vapaa-ajanasuntoon, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on asuntolaina vapaa-ajanasuntoon. Jos velallisella on useampi asuntolaina vapaa-ajanasuntoon, ne on summattu yhteen. Mikäli samalla lainalla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron laina jakaantuu kahdelle eri velallisille siten, että molemmille tulee lainaa 50 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "homeloanforinvestment_yht",
+      "variablename": "Asuntolaina sijoitusasuntoon, velkasaldo",
+      "conceptdef": "Luoton käyttötarkoitus on asuntolaina sijoitusasuntoon. Jos velallisella on useampi asuntolaina sijoitusasuntoon, ne on summattu yhteen. Mikäli samalla lainalla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron laina jakaantuu kahdelle eri velallisille siten, että molemmille tulee lainaa 50 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "studentloan_yht",
+      "variablename": "Opintolaina, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on opintolaina. Jos velallisella on useampi opintolaina, ne on summattu yhteen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "guaranteereceivable_yht",
+      "variablename": "Opintolainan takaussaatava, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on opintolainan takaussaatava. Jos velallisella on useampi opintolainan takaussaatava, ne on summattu yhteen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loanforvehicleorcraft_yht",
+      "variablename": "Liikennevälineen hankkimiseksi myönnetty kuluttajaluotto, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on liikennevälineen hankkimiseksi myönnetty kuluttajaluotto. Jos velallisella on useampi liikennevälineen hankkimisluotto, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "loanforbusinessactivities_yht",
+      "variablename": "Luotto elinkeinotoimintaan, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on luotto elinkeinotoimintaan. Jos velallisella on useampi luotto elinkeinotoimintaan, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 50 000 euroa. Tieto saatavilla kattavasti 02/2026 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otherconsumercredit_yht",
+      "variablename": "Muu kuluttajaluotto, velkasaldo",
+      "conceptdef": "Luoton käyttötarkoitus on muu kuluttajaluotto. Jos velallisella on useampi muu kuluttajaluotto, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otherloan_yht",
+      "variablename": "Muu luotto, velkasaldo ",
+      "conceptdef": "Luoton käyttötarkoitus on muu luotto. Jos velallisella on useampi muu luotto, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 25 000 euroa. Tieto saatavilla kattavasti 03/2025 alkaen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kayttotarkoituspuuttuu_yht",
+      "variablename": "Puuttuvat, velkasaldo ",
+      "conceptdef": "Tässä kentässä ovat ne kertaluotot, joiden käyttötarkoitusta ei tiedetä (esim. velkajärjestelyn takia). Jos velallisella on useampi (käyttötarkoitus puuttuu) luotto, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 25 000 euroa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kertaluotot_yht",
+      "variablename": "Kertaluottojen velkasaldo yhteensä ",
+      "conceptdef": "Muuttujaan on summattu taulussa olevien erilaisten kertaluottojen (asuntolaina, autolaina...) kokonaissumma, ts. velkasaldot summattu yhteen. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "credit_balance_yht",
+      "variablename": "Luottokorttien käytetty summa ",
+      "conceptdef": "Luottokorttien käytetty summa, eli paljollako luottokortteja käytetty kuukauden aikana. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "credit_interestpaid_yht",
+      "variablename": "Luottokorttien maksettu korko ",
+      "conceptdef": "Luottokorttien maksettu korko, eli paljonko luottokorteilla korollista velkaa kuukaudessa. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "leasing_sopimus",
+      "variablename": "Leasing sopimuksen olemassaolo",
+      "conceptdef": "Jos henkilöllä on Leasing sopimus, kenttä saa arvon 1. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "delayed_yht",
+      "variablename": "Maksuviiveet yhteensä ",
+      "conceptdef": "Yhteissumma (eur) kaikista kk aikana viivästyneistä maksuista. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "foreclosed_yht",
+      "variablename": "Eräännytetyt luotot yhteensä ",
+      "conceptdef": "Yhteissumma (eur) kaikista kk aikana eräännytetyistä luotoista. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

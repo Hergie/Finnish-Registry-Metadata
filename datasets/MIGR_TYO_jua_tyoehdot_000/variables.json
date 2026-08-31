@@ -75,7 +75,7 @@
     {
       "identifier": "TILASTOVUOSI",
       "variablename": null,
-      "conceptdef": null,
+      "conceptdef": "Tilastovuosi = vuosi, jolloin työehdot saapuneet Migriin. Ks. muuttuja arrival_month_work_conditions.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -83,7 +83,7 @@
     {
       "identifier": "TILASTOKUUKAUSI",
       "variablename": null,
-      "conceptdef": null,
+      "conceptdef": "Tilastokuukausi = kuukausi, jolloin työehdot saapuneet Migriin. Ks. muuttuja arrival_month_work_conditions.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -219,7 +219,7 @@
     {
       "identifier": "arrival_month_work_conditions",
       "variablename": "Työehtojen ajankohta kuukausitasolla",
-      "conceptdef": "Milloin työehdot saapuneet Migriin. Tästä voidaan päätellä, että kuuluvatkot työehdot esimerkiksi ensimmäiseen Migrin päätökseen (pvm ennen päätöstä) vai valitusvaiheen jälkeiseen. Jos saapumispäivä on tyhjä, käytetään työehtojen lisäysajankohtaa.",
+      "conceptdef": "Milloin työehdot saapuneet Migriin. Tästä voidaan päätellä, että kuuluvatkot työehdot esimerkiksi ensimmäiseen Migrin päätökseen (pvm ennen päätöstä) vai valitusvaiheen jälkeiseen. Jos saapumispäivä on tyhjä, käytetään työehtojen lisäysajankohtaa. Työehdot-taulussa käytetty tilastopäivämäärä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

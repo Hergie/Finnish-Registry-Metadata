@@ -2,10 +2,10 @@
 
 - **Identifier:** `VAKA_20192024_jua_asiakkuus_001.xml`
 - **DOI:** `vaka_2026-03_2026-03-04_ain_0001`
-- **Temporal coverage:** 2019-01-01 - 2026-03-25
-- **Published:** 2026-03-31
+- **Temporal coverage:** 2019-01-01 - 2026-08-25
+- **Published:** 2026-08-25
 - **Organisation:** Tilastokeskus
-- **Variable count:** 37
+- **Variable count:** 38
 - **Observation count:** —
 - **Population:** Suomessa varhaiskasvatukseen osallistuneet lapset
 
@@ -17,7 +17,7 @@ Tämän moduulin koko tietosisältö päivitetään kuukausittain, jonka myötä
 
 Moduulin rakenne tullaan päivittämään vuoden 2026 aikana, jonka myötä moduuliin voi tulla pienimuotoisia sisällöllisiä ja rakenteellisia muutoksia, jotka voivat vaikuttaa myös tietosisällön muuttumiseen. Vaikutuksen suuruus arvioidaan olevan pieni.
 
-Moduuli koostuu seuraavista erillisistä tauluista: lapsen taustatiedot, lapsen kotikunta, lapsen huoltaja-linkkitaulu, lapsen varhaiskasvatustiedot ja varhaiskasvatukseen liittyvät maksutiedot. Tietojen yhdistäminen taulujen välillä tapahtuu henkilön, toimipaikkajon tai toimijoiden suojattujen tunnisteiden sekä päivämäärätietojen kautta.
+Moduuli koostuu seuraavista erillisistä tauluista: lapsen taustatiedot (lapsi), lapsen asuinkunta (asuinkunta), lapsen huoltaja-linkkitaulu (lapsi_huoltaja), lapsen varhaiskasvatustiedot (varhaiskasvatus) ja varhaiskasvatukseen liittyvät maksutiedot (maksu). Tietojen yhdistäminen taulujen välillä tapahtuu henkilön, toimipaikkajon tai toimijoiden suojattujen tunnisteiden sekä päivämäärätietojen kautta.
 
 
 <h3>Tietolähteet ja perusjoukko</h3>
@@ -26,6 +26,7 @@ Aineisto on kokonaisaineisto, joka pohjautuu Varhaiskasvatuksen tietovarannon ti
 
 VAKA_ASIAKKUUS-moduulin perusjoukko muodostuu Vardasta löytyvistä varhaiskasvatukseen osalistuvista lapsista Suomessa.
 
+
 <b>Huomioitavaa</b>
 Varda on otettu vaiheittain käyttöön vuosien 2019-2020 aikana, jonka takia ensimmäisten vuosien tiedot voivat olla puutteellisia. Tämä voi näkyä esimerkiksi varhaiskasvatuksen piirissä olevien lasten lukumäärissä.
 
@@ -33,7 +34,7 @@ Kunnan, kuntayhtymän ja yksityisen palveluntuottajan vastuulla on huolehtia tal
 
 Koska aineiston tietosisältö päivittyy kuukausittain kokonaisuudessaan, voi aineiston sisältö muuttua, joka voi vaikuttaa tulosten toistettavuuteen. Jos hankkeella on tarkoitus julkaista sellaisia tuloksia, joita on tarkoitus replikoida myöhemmin, suosittelemme käyttämään tämän moduulin sijasta VAKA_ASIAKKUUS_SUPPEA-moduulia.
 
-Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Vardan tietoihin pohjautuva lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. FOLK_MUUTTO, FOLK_VAEN tai FOLK_ENHEN moduulien käyttö tämän moduulin ohella on suositeltavaa, mikäli hankkeella on tarvetta luotettavammalle kotikuntatiedolle.
+Yhdellä lapsella voi olla yksi tai useampi varhaiskasvatussuhde. Lapsen kotikuntatieto perustuu siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. FOLK_MUUTTO, FOLK_VAEN tai FOLK_ENHEN moduulien käyttö tämän moduulin ohella on suositeltavaa, mikäli hankkeella on tarvetta luotettavammalle kotikuntatiedolle.
 
 Vardan tietomallin mukaisesti varhaiskasvatusmaksut eivät linkity suoraan varhaiskasvatuspäätökseen tai -suhteeseen. Tämän takia maksutiedot voidaan yhdistää varhaiskasvatustietoihin parhaiten maksutietojen, varhaiskasvatussuhteen ja varhaiskasvatuspäätöksen päivämäärien kautta.
 
@@ -59,51 +60,52 @@ Vardan tietosisältö on dokumentoitu <a href="https://wiki.eduuni.fi/spaces/oph
 
 Lisätietoa aineistosta saa Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Variables (37)
+## Variables (38)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `henkilo_OID_s` | Suojattu lapsen oppijanumero. | — | — | asuinkunta, huoltaja-linkki, lapsen taustatiedot, maksutiedot, varhaiskasvatus |
+| `henkilo_oid_s` | Suojattu lapsen oppijanumero. | — | — | asuinkunta, huoltaja-linkki, lapsen taustatiedot, maksutiedot, varhaiskasvatus |
 | `hid_e` | Suojattu henkilön tunniste (lapsi). | — | — | varhaiskasvatus, maksutiedot, lapsen taustatiedot, huoltaja-linkki, asuinkunta |
+| `lapsi_id_s` | Suojattu Vardan sisäinen tunniste lapselle. | — | — | varhaiskasvatus, maksutiedot |
 | `syntymavuosi` | Lapsen syntymävuosi. | — | — | lapsen taustatiedot |
 | `syntymakuukausi` | Lapsen syntymäkuukausi. | — | — | lapsen taustatiedot |
 | `sukupuoli` | Henkilön sukupuoli. | — | — | lapsen taustatiedot |
 | `aidinkieli_k` | Henkilön äidinkieli, karkeistettu tasolle suomi, ruotsi, muu. | — | — | lapsen taustatiedot |
-| `asuinkunta` | Lapsen asuinkunta. | — | — | asuinkunta |
-| `edellinen_asuinkunta` | Lapsen edellinen asuinkunta. | — | — | asuinkunta |
-| `vuosi` | Asuinkunnan vaihtumisvuosi. | — | — | asuinkunta |
-| `kuukausi` | Asuinkunnan vaihtumiskuukausi. | — | — | asuinkunta |
+| `kuntakoodi` | Lapsen asuinkunta. | — | — | asuinkunta |
+| `edellinen_kuntakoodi` | Lapsen edellinen asuinkunta. | — | — | asuinkunta |
+| `latausvuosi` | Vuosi, kun asuinkunnan muutostieto on ladattu. | — | — | asuinkunta |
+| `latauskuukausi` | Kuukausi, kun asuinkunnan muutostieto on ladattu. | — | — | asuinkunta |
 | `vuorohoito_kytkin` | Vuorohoito. | — | — | varhaiskasvatus |
 | `paivittainen_vaka_kytkin` | Päivittäinen varhaiskasvatus (mikäli lapsi ei ole vuorohoidossa). | — | — | varhaiskasvatus |
 | `kokopaivainen_vaka_kytkin` | Kokopäiväinen varhaiskasvatus (mikäli lapsi ei ole vuorohoidossa). | — | — | varhaiskasvatus |
 | `tilapainen_vaka_kytkin` | Tilapäinen varhaiskasvatus (mikäli lapsi on kunnallisessa varhaiskasvatuksessa, jonka järjestämismuoto on jm01, jm02 tai jm03). | — | — | varhaiskasvatus |
-| `tuntimaara` | Varhaiskasvatuksen tuntimäärä viikossa. | — | — | varhaiskasvatus |
+| `tuntimaara_viikossa` | Varhaiskasvatuksen tuntimäärä viikossa. | — | — | varhaiskasvatus |
 | `vkp_id_s` | Suojattu varhaiskasvatuspäätöksen tunnus. | — | — | varhaiskasvatus |
 | `vks_id_s` | Suojattu varhaiskasvatussuhteen tunniste. | — | — | varhaiskasvatus |
 | `alkamispvm_paatos` | Varhaiskasvatuspäätöksen alkamispäivämäärä. | — | — | varhaiskasvatus |
 | `paattymispvm_paatos` | Varhaiskasvatuspäätöksen päättymispäivämäärä. | — | — | varhaiskasvatus |
 | `alkamispvm_suhde` | Varhaiskasvatussuhteen alkamispäivämäärä. | — | — | varhaiskasvatus |
 | `paattymispvm_suhde` | Varhaiskasvatussuhteen päättymispäivämäärä. | — | — | varhaiskasvatus |
-| `toimija_OID_s` | Varhaiskasvatusta tuottavan toimijan suojattu tunniste (organisaatio-OID). | — | — | varhaiskasvatus |
-| `oma_organisaatio_s` | Varhaiskasvatusta järjestävän toimijan suojattu tunniste (organisaatio-OID). | — | — | varhaiskasvatus |
+| `toimija_oid_s` | Varhaiskasvatusta tuottavan toimijan suojattu tunniste (organisaatio-OID). | — | — | varhaiskasvatus |
+| `oma_organisaatio_oid_s` | Varhaiskasvatusta järjestävän toimijan suojattu tunniste (organisaatio-OID). | — | — | varhaiskasvatus |
 | `toimipaikka_id_s` | Suojattu toimipaikan tunniste. | — | — | varhaiskasvatus |
-| `toimipaikka_OID_s` | Toimipaikan suojattu tunniste (organisaatio-OID). | — | — | varhaiskasvatus |
-| `henkilo_OID_huoltaja1_s` | Suojattu huoltajan yksilöivä tunniste (oppijanumero). | — | — | maksutiedot |
-| `henkilo_OID_huoltaja2_s` | Suojattu huoltajan yksilöivä tunniste (oppijanumero). | — | — | maksutiedot |
+| `toimipaikka_oid_s` | Toimipaikan suojattu tunniste (organisaatio-OID). | — | — | varhaiskasvatus |
+| `henkilo_oid_huoltaja1_s` | Suojattu huoltajan yksilöivä tunniste (oppijanumero). | — | — | maksutiedot |
+| `henkilo_oid_huoltaja2_s` | Suojattu huoltajan yksilöivä tunniste (oppijanumero). | — | — | maksutiedot |
 | `hid_e_huoltaja1` | Suojattu henkilön tunniste (huoltaja). | — | — | maksutiedot |
 | `hid_e_huoltaja2` | Suojattu henkilön tunniste (huoltaja). | — | — | maksutiedot |
 | `perheen_koko` | Perheen koko. | — | — | maksutiedot |
-| `maksun_peruste_koodi` | Maksun peruste -koodi. | — | — | maksutiedot |
+| `maksun_peruste` | Maksun peruste -koodi. | — | — | maksutiedot |
 | `asiakasmaksu` | Asiakasmaksu. | — | — | maksutiedot |
 | `palvelusetelin_arvo` | Kunna tai kuntayhtymän tallentama palvelusetelin arvo. | — | — | maksutiedot |
 | `alkamispvm` | Maksun tai palvelusetelin voimaantulopäivämäärä. | — | — | maksutiedot |
 | `paattymispvm` | Maksun tai palvelusetelin voimassaolon päättymispäivämäärä (jos tiedossa). | — | — | maksutiedot |
 | `hid_e_huoltaja` | Suojattu henkilön tunniste (huoltaja). | — | — | huoltaja-linkki |
-| `henkilo_OID_huoltaja_s` | Suojattu huoltajan yksilöivä tunniste (oppijanumero). | — | — | huoltaja-linkki |
+| `henkilo_oid_huoltaja_s` | Suojattu huoltajan yksilöivä tunniste (oppijanumero). | — | — | huoltaja-linkki |
 
 ### Variable definitions
 
-#### `henkilo_OID_s` — Suojattu lapsen oppijanumero.
+#### `henkilo_oid_s` — Suojattu lapsen oppijanumero.
 
 **Group:** asuinkunta, huoltaja-linkki, lapsen taustatiedot, maksutiedot, varhaiskasvatus
 
@@ -114,6 +116,12 @@ Lisää tietoa <a href="https://wiki.eduuni.fi/spaces/ophPPK/pages/190612188/Mik
 **Group:** varhaiskasvatus, maksutiedot, lapsen taustatiedot, huoltaja-linkki, asuinkunta
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
+
+#### `lapsi_id_s` — Suojattu Vardan sisäinen tunniste lapselle.
+
+**Group:** varhaiskasvatus, maksutiedot
+
+Aineistossa yhdellä lapsella voi olla useampi tunniste.
 
 #### `syntymavuosi` — Lapsen syntymävuosi.
 
@@ -127,8 +135,8 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 **Group:** lapsen taustatiedot
 
-1=Mies,
-2=Nainen.
+1=Poika/Mies,
+2=Tyttö/Nainen.
 
 #### `aidinkieli_k` — Henkilön äidinkieli, karkeistettu tasolle suomi, ruotsi, muu.
 
@@ -136,32 +144,32 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 1=suomi,
 2=ruotsi,
-MUU=muu,
+3=muu,
 Tyhjä arvo=ei tietoa.
 
-#### `asuinkunta` — Lapsen asuinkunta.
+#### `kuntakoodi` — Lapsen asuinkunta.
 
 **Group:** asuinkunta
 
 Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
-#### `edellinen_asuinkunta` — Lapsen edellinen asuinkunta.
+#### `edellinen_kuntakoodi` — Lapsen edellinen asuinkunta.
 
 **Group:** asuinkunta
 
-Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
+Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi.Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
-#### `vuosi` — Asuinkunnan vaihtumisvuosi.
-
-**Group:** asuinkunta
-
-Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.
-
-#### `kuukausi` — Asuinkunnan vaihtumiskuukausi.
+#### `latausvuosi` — Vuosi, kun asuinkunnan muutostieto on ladattu.
 
 **Group:** asuinkunta
 
-Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.
+Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
+
+#### `latauskuukausi` — Kuukausi, kun asuinkunnan muutostieto on ladattu.
+
+**Group:** asuinkunta
+
+Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.
 
 #### `vuorohoito_kytkin` — Vuorohoito.
 
@@ -193,7 +201,7 @@ Lapsi on osapäiväisessä varhaiskasvatuksessa, jos varhaiskasvatusaika on viis
 
 Tilapäisellä varhaiskasvatuksella tarkoitetaan kunnan järjestämää varhaiskasvatusta, johon lapsi osallistuu väliaikaisesti ja satunnaisesti.
 
-#### `tuntimaara` — Varhaiskasvatuksen tuntimäärä viikossa.
+#### `tuntimaara_viikossa` — Varhaiskasvatuksen tuntimäärä viikossa.
 
 **Group:** varhaiskasvatus
 
@@ -235,11 +243,11 @@ Lapsen toimipaikkaan sijoittumisen alkamispäivämäärä.
 
 Lapsen toimipaikkaan sijoittumisen päättymispäivämäärä (jos tiedossa). Voi sisältää tyhjiä arvoja.
 
-#### `toimija_OID_s` — Varhaiskasvatusta tuottavan toimijan suojattu tunniste (organisaatio-OID).
+#### `toimija_oid_s` — Varhaiskasvatusta tuottavan toimijan suojattu tunniste (organisaatio-OID).
 
 **Group:** varhaiskasvatus
 
-#### `oma_organisaatio_s` — Varhaiskasvatusta järjestävän toimijan suojattu tunniste (organisaatio-OID).
+#### `oma_organisaatio_oid_s` — Varhaiskasvatusta järjestävän toimijan suojattu tunniste (organisaatio-OID).
 
 **Group:** varhaiskasvatus
 
@@ -251,15 +259,15 @@ Omalla organisaatiolla tarkoitetaan varhaiskasvatuksen järjestämisvastuussa ol
 
 Vardan sisäinen toimipaikan yksilöivä suojattu tunniste. Ei yhdisty yritysrekisterin toimipaikkatunnisteeseen.
 
-#### `toimipaikka_OID_s` — Toimipaikan suojattu tunniste (organisaatio-OID).
+#### `toimipaikka_oid_s` — Toimipaikan suojattu tunniste (organisaatio-OID).
 
 **Group:** varhaiskasvatus
 
-#### `henkilo_OID_huoltaja1_s` — Suojattu huoltajan yksilöivä tunniste (oppijanumero).
+#### `henkilo_oid_huoltaja1_s` — Suojattu huoltajan yksilöivä tunniste (oppijanumero).
 
 **Group:** maksutiedot
 
-#### `henkilo_OID_huoltaja2_s` — Suojattu huoltajan yksilöivä tunniste (oppijanumero).
+#### `henkilo_oid_huoltaja2_s` — Suojattu huoltajan yksilöivä tunniste (oppijanumero).
 
 **Group:** maksutiedot
 
@@ -284,7 +292,7 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 Kunnan tai kuntayhtymän tallentama perheen koko. Yksityiset palveluntuottajat eivät tallenna perheen kokoa.
 
-#### `maksun_peruste_koodi` — Maksun peruste -koodi.
+#### `maksun_peruste` — Maksun peruste -koodi.
 
 **Group:** maksutiedot
 
@@ -323,7 +331,7 @@ Voi sisältää tyhjiä arvoja.
 
 Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
 
-#### `henkilo_OID_huoltaja_s` — Suojattu huoltajan yksilöivä tunniste (oppijanumero).
+#### `henkilo_oid_huoltaja_s` — Suojattu huoltajan yksilöivä tunniste (oppijanumero).
 
 **Group:** huoltaja-linkki
 

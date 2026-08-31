@@ -35,7 +35,7 @@
     {
       "identifier": "TILASTOVUOSI",
       "variablename": null,
-      "conceptdef": null,
+      "conceptdef": "Tilastovuosi = hakemuksen vahvistusvuosi. Määrittyy muuttujan measure_conf_month mukaan.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -43,7 +43,7 @@
     {
       "identifier": "TILASTOKUUKAUSI",
       "variablename": null,
-      "conceptdef": null,
+      "conceptdef": "Tilastokuukausi = hakemuksen vahvistuskuukausi. Määrittyy muuttujan measure_conf_month mukaan.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

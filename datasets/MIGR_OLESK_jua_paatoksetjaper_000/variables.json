@@ -35,7 +35,7 @@
     {
       "identifier": "TILASTOVUOSI",
       "variablename": null,
-      "conceptdef": null,
+      "conceptdef": "Päätökset-taulu: tilastovuosi = päätöksen kirjausvuosi. Ks. muuttuja dcsn_measure_confirmation_day.\nPeruutukset-taulu: tilastovuosi = päätöksen peruutusvuosi. Ks. muuttuja cancellation_date.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -75,7 +75,7 @@
     {
       "identifier": "CANCELLATION_DATE",
       "variablename": "Peruutuksen pvm",
-      "conceptdef": "Päivämäärä, jolloin Migri on tehnyt luvan peruuttamisen. Tämä ei ole sama asia kuin asian lainvoimaisuus. Asiasta on voitu valittaa ja on mahdollista, että valitustuomioistuin on myöhemmin kumonnut Migrin päätöksen.\n",
+      "conceptdef": "Päivämäärä, jolloin Migri on tehnyt luvan peruuttamisen. Tämä ei ole sama asia kuin asian lainvoimaisuus. Asiasta on voitu valittaa ja on mahdollista, että valitustuomioistuin on myöhemmin kumonnut Migrin päätöksen.\n Peruutukset-taulussa käytetty tilastopäivämäärä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

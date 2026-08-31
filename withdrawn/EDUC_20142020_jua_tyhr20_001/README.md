@@ -1,5 +1,7 @@
 # Toisen asteen yhteishaku - moduuli, osa 6 (2014 - 2020)
 
+> ⚠️ **Withdrawn from Taika on 2026-08-31.** This dataset is no longer in Statistics Finland's current catalogue — it has typically been superseded by a newer vintage. It is kept here because FIONA projects run against the delivery frozen at permit time, so this may still be the metadata that matches your data. Confirm the vintage against the actual files in your project before relying on it.
+
 - **Identifier:** `EDUC_20142020_jua_tyhr20_001.xml`
 - **DOI:** `khak_2017-05_2017-05-05_ain_0001`
 - **Temporal coverage:** —

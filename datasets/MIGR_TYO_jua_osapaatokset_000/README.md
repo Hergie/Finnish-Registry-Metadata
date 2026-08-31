@@ -67,7 +67,11 @@ Te-toimiston Osapäätöksen yksilöllinen tunnus. Osapäätökseen voi liittyä
 
 #### `TILASTOVUOSI`
 
+Tilastovuosi = osapäätöksen vahvistusvuosi. Ks. muuttuja tem_measure_conf_month.
+
 #### `TILASTOKUUKAUSI`
+
+Tilastokuukausi = osapäätöksen vahvistuskuukausi. Ks. muuttuja tem_measure_conf_month.
 
 #### `OCCUPATION_FIELD_ID` — Ammattialan koodi
 

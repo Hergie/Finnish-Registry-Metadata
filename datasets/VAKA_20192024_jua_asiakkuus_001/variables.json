@@ -1,7 +1,7 @@
 {
   "variables": [
     {
-      "identifier": "henkilo_OID_s",
+      "identifier": "henkilo_oid_s",
       "variablename": "Suojattu lapsen oppijanumero.",
       "conceptdef": "Lisää tietoa <a href=\"https://wiki.eduuni.fi/spaces/ophPPK/pages/190612188/Mik%C3%A4+on+oppijanumero\">OPH:n eeduuni-wikistä</a>.",
       "measunit": null,
@@ -15,6 +15,14 @@
       "measunit": null,
       "classification": null,
       "variablegroups": "varhaiskasvatus, maksutiedot, lapsen taustatiedot, huoltaja-linkki, asuinkunta"
+    },
+    {
+      "identifier": "lapsi_id_s",
+      "variablename": "Suojattu Vardan sisäinen tunniste lapselle.",
+      "conceptdef": "Aineistossa yhdellä lapsella voi olla useampi tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "varhaiskasvatus, maksutiedot"
     },
     {
       "identifier": "syntymavuosi",
@@ -35,7 +43,7 @@
     {
       "identifier": "sukupuoli",
       "variablename": "Henkilön sukupuoli.",
-      "conceptdef": "1=Mies,\n2=Nainen.",
+      "conceptdef": "1=Poika/Mies,\n2=Tyttö/Nainen.",
       "measunit": null,
       "classification": null,
       "variablegroups": "lapsen taustatiedot"
@@ -43,13 +51,13 @@
     {
       "identifier": "aidinkieli_k",
       "variablename": "Henkilön äidinkieli, karkeistettu tasolle suomi, ruotsi, muu.",
-      "conceptdef": "1=suomi,\n2=ruotsi,\nMUU=muu,\nTyhjä arvo=ei tietoa.\n",
+      "conceptdef": "1=suomi,\n2=ruotsi,\n3=muu,\nTyhjä arvo=ei tietoa.\n",
       "measunit": null,
       "classification": null,
       "variablegroups": "lapsen taustatiedot"
     },
     {
-      "identifier": "asuinkunta",
+      "identifier": "kuntakoodi",
       "variablename": "Lapsen asuinkunta.",
       "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
@@ -57,25 +65,25 @@
       "variablegroups": "asuinkunta"
     },
     {
-      "identifier": "edellinen_asuinkunta",
+      "identifier": "edellinen_kuntakoodi",
       "variablename": "Lapsen edellinen asuinkunta.",
-      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi. Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.\n",
+      "conceptdef": "Lapsen edellinen asuinkunta, joka on havaittu ennen nykyistä asuinkuntaa. Jos aikaisempaa kotikuntatietoa ei ole, niin arvo on jätetty tyhjäksi.Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
     },
     {
-      "identifier": "vuosi",
-      "variablename": "Asuinkunnan vaihtumisvuosi.",
-      "conceptdef": "Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.",
+      "identifier": "latausvuosi",
+      "variablename": "Vuosi, kun asuinkunnan muutostieto on ladattu.",
+      "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
     },
     {
-      "identifier": "kuukausi",
-      "variablename": "Asuinkunnan vaihtumiskuukausi.",
-      "conceptdef": "Pohjautuu Vardan tietoihin ja siihen päivämäärään, kun tieto on saapunut Tilastokeskukseen. Käytetty vain lapsen asuinkunta-taulussa.",
+      "identifier": "latauskuukausi",
+      "variablename": "Kuukausi, kun asuinkunnan muutostieto on ladattu.",
+      "conceptdef": "Pohjautuu Vardan tietoihin. Käytetty vain lapsen asuinkunta-taulussa.",
       "measunit": null,
       "classification": null,
       "variablegroups": "asuinkunta"
@@ -113,7 +121,7 @@
       "variablegroups": "varhaiskasvatus"
     },
     {
-      "identifier": "tuntimaara",
+      "identifier": "tuntimaara_viikossa",
       "variablename": "Varhaiskasvatuksen tuntimäärä viikossa.",
       "conceptdef": "Lapsen varhaiskasvatuspäätökseen tai sitä vastaavaan sopimukseen merkitty viikoittainen tuntimäärä.",
       "measunit": null,
@@ -169,7 +177,7 @@
       "variablegroups": "varhaiskasvatus"
     },
     {
-      "identifier": "toimija_OID_s",
+      "identifier": "toimija_oid_s",
       "variablename": "Varhaiskasvatusta tuottavan toimijan suojattu tunniste (organisaatio-OID).",
       "conceptdef": null,
       "measunit": null,
@@ -177,7 +185,7 @@
       "variablegroups": "varhaiskasvatus"
     },
     {
-      "identifier": "oma_organisaatio_s",
+      "identifier": "oma_organisaatio_oid_s",
       "variablename": "Varhaiskasvatusta järjestävän toimijan suojattu tunniste (organisaatio-OID).",
       "conceptdef": "Omalla organisaatiolla tarkoitetaan varhaiskasvatuksen järjestämisvastuussa olevaa kuntaa tai kuntayhtymää.",
       "measunit": null,
@@ -193,7 +201,7 @@
       "variablegroups": "varhaiskasvatus"
     },
     {
-      "identifier": "toimipaikka_OID_s",
+      "identifier": "toimipaikka_oid_s",
       "variablename": "Toimipaikan suojattu tunniste (organisaatio-OID).",
       "conceptdef": null,
       "measunit": null,
@@ -201,7 +209,7 @@
       "variablegroups": "varhaiskasvatus"
     },
     {
-      "identifier": "henkilo_OID_huoltaja1_s",
+      "identifier": "henkilo_oid_huoltaja1_s",
       "variablename": "Suojattu huoltajan yksilöivä tunniste (oppijanumero).",
       "conceptdef": null,
       "measunit": null,
@@ -209,7 +217,7 @@
       "variablegroups": "maksutiedot"
     },
     {
-      "identifier": "henkilo_OID_huoltaja2_s",
+      "identifier": "henkilo_oid_huoltaja2_s",
       "variablename": "Suojattu huoltajan yksilöivä tunniste (oppijanumero).",
       "conceptdef": "Voi sisältää tyhjiä arvoja.",
       "measunit": null,
@@ -241,7 +249,7 @@
       "variablegroups": "maksutiedot"
     },
     {
-      "identifier": "maksun_peruste_koodi",
+      "identifier": "maksun_peruste",
       "variablename": "Maksun peruste -koodi.",
       "conceptdef": "Vardan <a href=\"https://virkailija.opintopolku.fi/varda/julkinen/koodistot/vardamaksunperuste\">maksun peruste -koodit</a> (6.3.2026):\nMP01=Yleinen maksuttomuus. Kunnan yleisellä päätöksellä myönnetty maksuton varhaiskasvatus;\nMP02=Osittainen maksuttomuus. Kunnan yleisellä päätöksellä myönnetty osittain maksunton varhaiskasvatus;\nMP03=Maksu. Käytetään, kun kunta ei tarjoa maksutonta tai osittain maksutonta varhaiskasvatusta lapsijoukolle.\n\nLisää tietoa <a href=\"https://wiki.eduuni.fi/spaces/ophPPK/pages/561852956/Huoltaja-+ja+maksutiedot#Huoltajajamaksutiedot-Maksuistatallennettavattiedot\">Vardan eeduuni-wiki</a> sivustolta (6.3.2026).",
       "measunit": null,
@@ -289,7 +297,7 @@
       "variablegroups": "huoltaja-linkki"
     },
     {
-      "identifier": "henkilo_OID_huoltaja_s",
+      "identifier": "henkilo_oid_huoltaja_s",
       "variablename": "Suojattu huoltajan yksilöivä tunniste (oppijanumero).",
       "conceptdef": null,
       "measunit": null,

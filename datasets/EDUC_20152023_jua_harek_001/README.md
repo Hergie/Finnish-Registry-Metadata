@@ -8,7 +8,7 @@
 - **Variable count:** 115
 - **Observation count:** —
 - **Population:** korkeakouluhakijat
-- **Source:** Aineisto opiskelijavalinnoista perustuu Opetushallituksen ylläpitämään opiskelijavalintarekisteriin (sis. yliopistojen hakija- ja opinto-oikeusrekisterin, ammattikorkeakoulujen yhteishakurekisterin, ja korkeakoulujen hakurekisterin tiedot ajankohdan mukaisesti), jonka OPH toimittaa Tilastokeskukselle vuosittain.
+- **Source:** Opetushallitus
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastokeskus: Tilastotieto - Koulutukseen hakeutuminen</a>
 - **Keywords:** koulutus,oppilaitokset
 

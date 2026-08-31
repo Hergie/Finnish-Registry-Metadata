@@ -94,7 +94,11 @@ Jos useampi työnantaja, niin DIM_WORK_CONDITIONS_ID on eri, mutta toimenpide id
 
 #### `TILASTOVUOSI`
 
+Tilastovuosi = vuosi, jolloin työehdot saapuneet Migriin. Ks. muuttuja arrival_month_work_conditions.
+
 #### `TILASTOKUUKAUSI`
+
+Tilastokuukausi = kuukausi, jolloin työehdot saapuneet Migriin. Ks. muuttuja arrival_month_work_conditions.
 
 #### `IS_RELEVANT_TO_CASE_PROCESSING` — Oleellinen asian käsittelyssä
 
@@ -187,7 +191,7 @@ Ilmoitettu kuukausissa
 
 #### `arrival_month_work_conditions` — Työehtojen ajankohta kuukausitasolla
 
-Milloin työehdot saapuneet Migriin. Tästä voidaan päätellä, että kuuluvatkot työehdot esimerkiksi ensimmäiseen Migrin päätökseen (pvm ennen päätöstä) vai valitusvaiheen jälkeiseen. Jos saapumispäivä on tyhjä, käytetään työehtojen lisäysajankohtaa.
+Milloin työehdot saapuneet Migriin. Tästä voidaan päätellä, että kuuluvatkot työehdot esimerkiksi ensimmäiseen Migrin päätökseen (pvm ennen päätöstä) vai valitusvaiheen jälkeiseen. Jos saapumispäivä on tyhjä, käytetään työehtojen lisäysajankohtaa. Työehdot-taulussa käytetty tilastopäivämäärä.
 
 #### `SALARY_EUR_PER_CODE` — Palkan tyyppi
 

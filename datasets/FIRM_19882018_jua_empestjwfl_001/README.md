@@ -2,7 +2,7 @@
 
 - **Identifier:** `FIRM_19882018_jua_empestjwfl_001.xml`
 - **DOI:** `ata_2014-01_2014-01-02_ain_0001`
-- **Temporal coverage:** 1988-01-01 - 2022-12-31
+- **Temporal coverage:** 1988-01-01 - 2023-12-31
 - **Published:** 2021-06-18
 - **Organisation:** Tilastokeskus
 - **Variable count:** 18

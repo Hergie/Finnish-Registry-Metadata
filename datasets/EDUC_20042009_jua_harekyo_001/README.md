@@ -1,4 +1,4 @@
-# EDUC_HAREK Korkeakoulujen hakurekisteritiedot - yliopistojen haut v. 2004-2009
+# EDUC_HAREK Yliopistojen hakurekisteritiedot 2004-2009
 
 - **Identifier:** `EDUC_20042009_jua_harekyo_001.xml`
 - **DOI:** `khak_2024-08_2024-08-09_ain_0001`
@@ -8,8 +8,7 @@
 - **Variable count:** 69
 - **Observation count:** —
 - **Population:** korkeakouluhakijat
-- **Source:** Aineisto opiskelijavalinnoista perustuu Opetushallituksen ylläpitämään opiskelijavalintarekisteriin (sis. yliopistojen hakija- ja opinto-oikeusrekisterin, ammattikorkeakoulujen yhteishakurekisterin, ja korkeakoulujen hakurekisterin tiedot ajankohdan mukaisesti), jonka OPH toimittaa Tilastokeskukselle vuosittain.
-Tiedoissa hakeneista ja hyväksytyistä korkeakouluihin hyväksytyillä tarkoitetaan lähtökohtaisesti kaikkia kunakin hakuvuonna 15.9. mennessä hyväksymiskirjeen saaneita.
+- **Source:** Opetushallitus
 - **Related:** <a href= "https://stat.fi/tilasto/khak#contacts">Tilastotieto: Koulutukseen hakeutuminen</a>
 - **Keywords:** koulutus,oppilaitokset
 

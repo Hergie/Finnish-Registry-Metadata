@@ -2,7 +2,7 @@
 
 - **Identifier:** `FIRM_19882020_jua_empenthenkom_001.xml`
 - **DOI:** `work_2012-12_2012-12-10_ain_0001`
-- **Temporal coverage:** 1988-01-01 - 2022-12-31
+- **Temporal coverage:** 1988-01-01 - 2023-12-31
 - **Published:** 2024-07-25
 - **Organisation:** Tilastokeskus
 - **Variable count:** 36
@@ -35,7 +35,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `syrtun` | Suojattu yritystunnus | — | — | — |
+| `ytunnus_s` | Suojattu yritystunnus | — | — | — |
+| `year` | Vuosi | — | — | — |
 | `emp_yrek` | Henkilöstön lukumäärä, Yritysrekisteri | — | — | — |
 | `mwage3T` | Keskipalkka, 3T | — | — | — |
 | `mwage2G` | Keskipalkka, 2G | — | — | — |
@@ -67,16 +68,17 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `senmonths` | Yrityskohtainen työkokemus, kuukausia | — | — | — |
 | `educyears` | Keskimääräiset koulutusvuodet | — | — | — |
 | `shwomen` | Naisten osuus | — | — | — |
-| `year` | Vuosi | — | — | — |
 | `stdage` | Iän keskihajonta | — | — | — |
 | `stdeduc` | Koulutusvuosien keskihajonta | — | — | — |
 | `tilyks` | Tilastoyksikkö yritysrekisterin vuositilastossa | — | — | — |
 
 ### Variable definitions
 
-#### `syrtun` — Suojattu yritystunnus
+#### `ytunnus_s` — Suojattu yritystunnus
 
 Yksilöintitunnus yritystason aineistossa
+
+#### `year` — Vuosi
 
 #### `emp_yrek` — Henkilöstön lukumäärä, Yritysrekisteri
 
@@ -181,8 +183,6 @@ Senioriteetti TVM-käsitteen eli vuoden viimeisen viikon tilanteen mukaan
 - Vuoteen 2004 asti pohjautuu UTUTKU-muuttujaan (vuoden 2004 koulutusluokituksen mukainen), vuodesta 2005 alkaen pohjana KTUTK (kyseisen vuoden koulutusluokituksen mukainen)
 
 #### `shwomen` — Naisten osuus
-
-#### `year` — Vuosi
 
 #### `stdage` — Iän keskihajonta
 

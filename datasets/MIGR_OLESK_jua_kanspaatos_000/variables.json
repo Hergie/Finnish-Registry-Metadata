@@ -19,7 +19,7 @@
     {
       "identifier": "TILASTOVUOSI",
       "variablename": null,
-      "conceptdef": null,
+      "conceptdef": "Tilastovuosi = vuosi, jolloin henkilölle on myönnetty Suomen kansalaisuus. Ks. muuttuja dcsn_measure_confirmation_day.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -27,7 +27,7 @@
     {
       "identifier": "DCSN_MEASURE_CONFIRMATION_DAY",
       "variablename": "Paatoksen pvm",
-      "conceptdef": "Päivämäärä jolloin henkilölle myönnetty Suomen kansalaisuus\n",
+      "conceptdef": "Päivämäärä jolloin henkilölle myönnetty Suomen kansalaisuus. Tilastovuosi-muuttuja määrittyy päätöspäivämäärän mukaan.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

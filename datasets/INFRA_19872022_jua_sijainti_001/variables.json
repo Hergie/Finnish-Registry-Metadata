@@ -34,8 +34,8 @@
     },
     {
       "identifier": "posti_alue",
-      "variablename": "Tilastollinen postinumeroalue",
-      "conceptdef": "Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Tilastokeskuksessa ylläpidettävää tilastolliset postinumeroalueet kartta-aineistoa.",
+      "variablename": "Rakennuksen tilastollinen postinumeroalue",
+      "conceptdef": "Tilastollinen postinumeroaluetieto on spatiaalisesti määritelty käyttäen Tilastokeskuksessa ylläpidettävää tilastolliset postinumeroalueet kartta-aineistoa. Tuntematon arvo on merkitty koodilla 99999.",
       "measunit": null,
       "classification": null,
       "variablegroups": "Spatiaalisettiedot"

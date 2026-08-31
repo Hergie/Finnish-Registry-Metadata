@@ -363,6 +363,8 @@ Pääasiallinen toiminta pisimmän työsuhteen päättelyllä.
 25 = varus- tai siviilipalvelusmies 
 29 = työttömyyseläkeläinen 
 99 = muu työvoiman ulkopuolella oleva
+
+
 Tietoja vuoteen 2018 asti.
 
 #### `amas2` — Ammattiasema (ATV)

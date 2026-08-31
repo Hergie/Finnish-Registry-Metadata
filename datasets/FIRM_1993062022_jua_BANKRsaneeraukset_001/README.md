@@ -15,7 +15,7 @@
 
 Tutkimuskäyttöön on suojattu yrityssaneeraukset-tilaston perusaineisto alkaen vuodesta 06/1993.
 
-Tilasto vireille tulleista yrityssaneerauksista ja käräjäoikeuksiin saapuneista yrityssaneerausasioista julkaistaan neljännesvuosittain. Päättyneitä asioita kuvaavat tiedot julkaistaan kerran vuodessa.
+Tilasto vireille tulleista yrityssaneerauksista ja käräjäoikeuksiin saapuneista yrityssaneerausasioista sekä päättyneitä asioita kuvaavat tiedot julkaistaan kerran vuodessa.
 
 Vireille pannuilla yrityssaneerauksilla tarkoitetaan kalenterivuoden aikana yrityssaneeraukseen haettuja yrityksiä ja yhteisöjä.
 

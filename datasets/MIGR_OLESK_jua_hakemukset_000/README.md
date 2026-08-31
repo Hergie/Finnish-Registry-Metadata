@@ -85,7 +85,11 @@ Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle 
 
 #### `TILASTOVUOSI`
 
+Tilastovuosi = hakemuksen vahvistusvuosi. Määrittyy muuttujan measure_conf_month mukaan.
+
 #### `TILASTOKUUKAUSI`
+
+Tilastokuukausi = hakemuksen vahvistuskuukausi. Määrittyy muuttujan measure_conf_month mukaan.
 
 #### `SPONSOR_CASE_ID_s` — Perheenkokoajan suojattu oleskelulupahakemuksen id
 
