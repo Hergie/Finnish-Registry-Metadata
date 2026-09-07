@@ -40,6 +40,8 @@ Laaja moduuli EDUC_KOSKI_PERUS: Perusopetus
 Taulu sisältää tietoa perusopetuksen vuosiluokkien sekä oppimäärän oppiainesuorituksista (arvosana, laajuus, oppiaine yms), sekä perusopetuksen lisäopetuksen (ns. 10. luokan) oppiainesuorituksista.
 Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_suoritus, r_osasuoritus, r_henkilo.
 
+HUOM. Taulu sisältää tuplarivejä, joita ei ole poistettu,
+
 ## Variables (22)
 
 | Identifier | Name | Unit | Classification | Group |

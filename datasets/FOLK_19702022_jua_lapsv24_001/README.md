@@ -1,4 +1,4 @@
-# FOLK_LAPS - vuosi
+# FOLK_LAPS Lapsi-vanhempi- vuosi
 
 - **Identifier:** `FOLK_19702022_jua_lapsv24_001.xml`
 - **DOI:** `work_2020-01_2020-01-17_ain_0001`
@@ -12,33 +12,33 @@
 
 ## Description
 
-FOLK lapsi - vanhemmat - vuosi -valmisaineistomoduuli sisältää tietoja lapsen syntymävuodesta ja  vanhempien, adoptiovanhempien ja sosiaalisten vanhempien suojatut henkilöä identifioivat tunnukset sekä tieto näiden asumisstatuksesta. Aineistossa on mukana myös vuosittaiset perhe- ja asuntokuntatunnukset.
+FOLK_LAPS-valmisaineisto sisältää tietoja perheväestöön kuuluvista lapsista, biologisista ja adoptio- sekä sosiaalisista vanhemmista, ja heidän asumistiedoistaan. 
 
-<b> Valmisaineiston tarkentava nimi </b> 
-Tiedot perheväestöön kuuluvista lapsista, biologisista ja adoptio- sekä sosiaalisista vanhemmista, ja heidän asumistiedoistaan. 
+Tämä aineistokuvaus koskee ”lapsi-vanhemmat-vuosi” -osiota/taulua, joka sisältää tietoja lapsen syntymävuodesta sekä vanhempien, adoptiovanhempien ja sosiaalisten vanhempien suojatut henkilötunnisteista. Aineistossa on lisäksi tietoja asumisstatuksesta, sekä vuosittaiset perhe- ja asuntokuntatunnukset. 
 
-<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
-Aineisto sisältyy FOLK lapsi - vanhemmat –valmisaineistoon. Tiedot poimittu Tilastokeskuksen väestölaskenta, väestörakenne, asuntokunta- ja perhetilastoista. Näiden lähteenä on mm. Digi- ja viestintäviraston väestötietojärjestelmä (VTJ). Aineisto sisältää vuosittaiset tiedot lapsista, jotka ovat olleet alle 18-vuotiaita ja asuneet vakituisesti Suomessa kunkin vuoden viimeisenä päivänä. Mukana ovat tiedot lapsen biologisista, adoptiovanhemmista sekä sosiaalisista vanhemmista. 
+<b> Valmisaineiston tarkentava nimi </b>
+Tiedot perheväestöön kuuluvista lapsista, biologisista ja adoptio- sekä sosiaalisista vanhemmista, ja heidän asumistiedoistaan (FOLK_LAPS).
 
-<b> Huomioitavaa aineistosta ja sen käytöstä </b>
-Aineistossa ovat mukana vain perheväestöön kuuluvat lapset, joiden perheasema ei ole puuttuva tai tuntematon tilastovuonna. Aineistossa ovat mukana vain perheväestöön kuuluvat lapset, joiden perheasema ei ole tuntematon tai puuttuva tilastovuonna. Sosiaaliseksi vanhemmaksi katsotaan samassa perheessä asuva biologisen vanhemman avo- tai aviopuoliso, kun lapsen perheasema on "lapsi" eikä hän ole ottolapsi. Näitä tietoja on saatavilla lapsi-asemassa oleville, jotka ovat syntyneet vuoden 1952 jälkeen ja joille kyseiset tiedot vanhemmista löytyvät. 
- 
-Aineistossa on myös tieto siitä, asuuko biologinen ja/tai adoptiovanhempi lapsen kanssa saman talouden piirissä vuoden viimeisenä päivänä. Adoptiovanhempien tiedot sisältyvät aineistoon kaikilta vuosilta riippumatta siitä, onko adoptiosuhde kyseisenä vuonna voimassa. 
+<b> Aineiston koostaminen, tietolähteet ja perusjoukko</b>
+FOLK_LAPS-valmisaineisto pohjautuu Tilastokeskuksen väestölaskenta-, väestörakenne-, asuntokunta- sekä perhetilastojen tietoihin. Tietojen lähteenä on mm. Digi- ja viestintäviraston väestötietojärjestelmä (VTJ). Aineisto sisältää vuosittaiset tiedot lapsista, jotka ovat olleet alle 18-vuotiaita ja asuneet vakituisesti Suomessa kunkin vuoden viimeisenä päivänä. Mukana ovat tiedot lapsen biologisista, adoptiovanhemmista sekä sosiaalisista vanhemmista.
 
-Tietoja on saatavilla väestölaskentavuosilta 1970, 1975, 1980 sekä 1985 sekä vuosittain vuodesta 1987 alkaen. 
+Aineistossa ovat mukana vain perheväestöön kuuluvat lapset, joiden perheasema ei ole puuttuva tai tuntematon tilastovuonna. Sosiaaliseksi vanhemmaksi katsotaan samassa perheessä asuva biologisen vanhemman avo- tai aviopuoliso, kun lapsen perheasema on "lapsi" eikä hän ole ottolapsi. Näitä tietoja on saatavilla lapsi-asemassa oleville, jotka ovat syntyneet vuoden 1952 jälkeen ja joille kyseiset tiedot vanhemmista löytyvät. 
 
-<b> Aineiston päivitysaikataulu </b>
+Aineistossa on tieto siitä, asuuko biologinen ja/tai adoptiovanhempi lapsen kanssa saman talouden piirissä vuoden viimeisenä päivänä. Adoptiovanhempien tiedot sisältyvät aineistoon kaikilta vuosilta riippumatta siitä, onko adoptiosuhde kyseisenä vuonna voimassa.
+
+Tietoja on saatavilla väestölaskentavuosilta 1970, 1975, 1980 sekä 1985 sekä vuosittain vuodesta 1987 alkaen
+.
+<b> Aineiston päivitysaikataulu</b>
 Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
-Aineisto päivittyy vuoden viiveellä verrattuna lapsi-vanhempi-moduuliin. 
 
-<b> Aineiston käyttö ja tilaaminen </b> 
-Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.  
+Aineisto päivittyy vuoden viiveellä verrattuna lapsi-vanhempi-osioon.
 
-Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+<b> Aineiston käyttö ja tilaaminen</b>
+Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla. 
+Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilasta räätälöity versio.
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina tilastovuosittaisiin vuosikansioihin.
 
-FOLK lapsi - vanhemmat - vuosi -aineistot jaetaan Fiona-etäkäyttöjärjestelmässä vuosikansioihin. Aikaisemmin julkaistut FOLK lapsi - vanhemmat - vuosi -aineistotiedostot, jotka sisältävät useita tilastovuosia ovat FIONAssa FOLK_laps_70a-kansiossa.
- 
-<b> Lisätietoja </b> 
+<b> Lisätietoja</b> 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ## Variables (15)

@@ -85,7 +85,7 @@ Tilastojärjestelmässä käytössä on kansainvälisen tautiluokituksen luokkia
 
 **Group:** YHDIAG
 
-Henkilön dignoosin alkamispvm
+Henkilön dignoosin alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
 
 #### `paapv5` — loppumispvm
 
@@ -103,7 +103,7 @@ Henkilön diagnoosin loppumispvm
 
 **Group:** YTKUNTO
 
-Työkunnon arviointipvm
+Työkunnon arviointipvm.
 
 #### `eupnoku` — ESR-projektikoodi
 

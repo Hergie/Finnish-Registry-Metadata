@@ -238,7 +238,7 @@
       "conceptdef": "Henkilön työttömyyskuukaudet -tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. Vuodesta 2005 lähtien tieto laskettu työttömyyspäivien lukumäärästä. \n\n1-14 päivää = 0 \n15-44 päivää = 1 \n45-74 päivää  =2 \n75-104 päivää = 3 \n105-135 päivää = 4 \n136-165 päivää = 5 \n166-196 päivää = 6 \n197-226 päivää = 7 \n227-256 päivää = 8 \n257-287 päivää = 9 \n288-317 päivää = 10 \n318-348 päivää = 11 \n349-365(366) päivää = 12\n\nVuosina 1987-2004 kukin kalenterikuukausi laskettu erikseen. Jos kalenterikuukautena vähintään 16 työttömyyspäivää, on koko kuukausi laskettu täydeksi työttömyyskuukaudeksi.",
       "measunit": null,
       "classification": null,
-      "variablegroups": "Tyossakaynti, Työnhakijarekisteri"
+      "variablegroups": "Työnhakijarekisteri, Tyossakaynti"
     },
     {
       "identifier": "tyokk",
@@ -476,6 +476,14 @@
       "identifier": "auto_k",
       "variablename": "Henkilön omistama/hallitsema ajoneuvo",
       "conceptdef": "1 = on auton omistaja/haltija. Tietoja vuodesta 1990 lähtien vuoteen 2018 asti. ",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa \"folk_perus_sukup_1\".\n\n1 = mies\n2 = nainen",
       "measunit": null,
       "classification": null,
       "variablegroups": null

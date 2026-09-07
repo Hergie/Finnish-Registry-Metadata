@@ -1,8 +1,8 @@
-# FIRM_VAT oma-aloitteiset verot ja työnantajasuoritukset 2004 -
+# FIRM_VAT oma-aloitteiset verot ja työnantajasuoritukset
 
 - **Identifier:** `FIRM_VAT_jua_2004_002.xml`
 - **DOI:** `yty_2013-11_2013-11-27_ain_0009`
-- **Temporal coverage:** 2004-01-01 - 2023-12-31
+- **Temporal coverage:** 2004-01-01 - 2025-12-31
 - **Published:** 2026-08-28
 - **Organisation:** Tilastokeskus
 - **Variable count:** 49
@@ -62,16 +62,16 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `yrtun_s` | Suojattu Y-tunnus | — | — | — |
 | `Vuosi` | Vuosi, vvvv | — | — | tunnus |
 | `Kuukausi` | Kuukausi / kohdekausi | — | — | tunnus |
-| `lv_Saantikoodi` | Liikevaihdon saantikoodi | — | saantik_2_1995_01_01 | alv, aputiedot_tekniset |
-| `pa_Saantikoodi` | Palkkasumman saantikoodi | — | saantik_2_1995_01_01 | ta, aputiedot_tekniset |
+| `lv_Saantikoodi` | Liikevaihdon saantikoodi | — | saantik_2_1995_01_01 | aputiedot_tekniset, alv |
+| `pa_Saantikoodi` | Palkkasumman saantikoodi | — | saantik_2_1995_01_01 | aputiedot_tekniset, ta |
 | `Tilastointikoodi` | Tilastointikoodi: 1 = laskennan mielessä validi tapaus / tieto, muulloin blankkoa tai Z | — | til_koodi_2_1995_01_01 | aputiedot_tekniset |
-| `AlvJakso` | Arvonlisäverotietojen ilmoitusjakso (1/2010 lähtien) | — | ilmoitusjakso_2_2010_01_01 | jakso, alv |
+| `AlvJakso` | Arvonlisäverotietojen ilmoitusjakso (1/2010 lähtien) | — | ilmoitusjakso_2_2010_01_01 | alv, jakso |
 | `Liikevaihto` | Kokonaisliikevaihto | € | — | alv |
-| `lv_Kotimaa` | Kotimaan verollinen myynti yhteensä | € | — | johdettu, alv |
-| `lv_Myynti1` | Korkeimman verokannan alainen kotimaan myynti (verokanta 24 % hetkellä 03/2016) | € | — | johdettu, alv |
-| `lv_Myynti2` | 2. korkeimman verokannan alainen kotimaan myynti (verokanta 14 % hetkellä 03/2016) | € | — | johdettu, alv |
-| `lv_Myynti3` | 3. korkeimman verokannan alainen kotimaan myynti (verokanta 10 % hetkellä 03/2016) | € | — | johdettu, alv |
-| `lv_Myynti4` | 4. korkeimman verokannan alainen kotimaan myynti (ei ole hetkellä 03/2016) | € | — | johdettu, alv |
+| `lv_Kotimaa` | Kotimaan verollinen myynti yhteensä | € | — | alv, johdettu |
+| `lv_Myynti1` | Korkeimman verokannan alainen kotimaan myynti (verokanta 24 % hetkellä 03/2016) | € | — | alv, johdettu |
+| `lv_Myynti2` | 2. korkeimman verokannan alainen kotimaan myynti (verokanta 14 % hetkellä 03/2016) | € | — | alv, johdettu |
+| `lv_Myynti3` | 3. korkeimman verokannan alainen kotimaan myynti (verokanta 10 % hetkellä 03/2016) | € | — | alv, johdettu |
+| `lv_Myynti4` | 4. korkeimman verokannan alainen kotimaan myynti (ei ole hetkellä 03/2016) | € | — | alv, johdettu |
 | `lv_EUTavaraMyynti` | Tavaroiden myynnit muihin EU-maihin (EU-tavaramyynnit / EU-toimitukset) | € | — | alv |
 | `lv_EUPalvMyynti` | Palveluiden myynnit muihin EU-maihin (1/2010 lähtien) (EU-palvelumyynnit) | € | — | alv |
 | `lv_Veroton` | Arvonlisäveroton liikevaihto (0-verokannan alainen myynti) | € | — | alv |
@@ -87,11 +87,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `AlarajahuojVero` | Alarajahuojennukseen oikeuttava vero (1/2010 lähtien) | € | — | alv |
 | `AlarajahuojMaara` | Alarajahuojennuksen määrä (1/2010 lähtien) | € | — | alv |
 | `Alkutuottaja` | Tieto alkutuottajailmoituksen antajasta -koodi (1/2010) | — | alkutuottaja_2_2010_01_01 | alv |
-| `AlvToiminta` | ALV-toiminta kyseisenä kohdekuukautena | — | alv_toiminta_2_2010_01_01 | toiminta, johdettu, alv |
+| `AlvToiminta` | ALV-toiminta kyseisenä kohdekuukautena | — | alv_toiminta_2_2010_01_01 | alv, johdettu, toiminta |
 | `AlvPvm` | Alv-tietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety verohallinnon tietokantaan | — | — | alv |
-| `AlvTila` | Kohdekauden ALV-tietojen valvontatilakoodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | tila, johdettu, alv |
-| `Alitilitys` | Alitilityspisteet yrityksellä -koodi (vain työnantajasuorituksissa, vain Y-tunnuksellisilla) | — | alitil_2_2010_01_01 | johdettu, ta |
-| `TaJakso` | Työnantajasuoritusten ilmoitusjakso (1/2010 lähtien) | — | ilmoitusjakso_3_2010_01_01 | ta, jakso |
+| `AlvTila` | Kohdekauden ALV-tietojen valvontatilakoodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | alv, johdettu, tila |
+| `Alitilitys` | Alitilityspisteet yrityksellä -koodi (vain työnantajasuorituksissa, vain Y-tunnuksellisilla) | — | alitil_2_2010_01_01 | ta, johdettu |
+| `TaJakso` | Työnantajasuoritusten ilmoitusjakso (1/2010 lähtien) | — | ilmoitusjakso_3_2010_01_01 | jakso, ta |
 | `Palkkasumma` | Palkkasumma | € | — | ta |
 | `PalkatSosTurv` | Sosiaaliturvamaksun alaiset palkat (1/2010 lähtien) | € | — | ta |
 | `PalkatLahdevero` | Lähdeveron alaiset palkat ja muut suoritukset | € | — | ta |
@@ -99,12 +99,12 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 | `SosTurvMaksu` | Maksettava työnantajan sosiaaliturvamaksu | € | — | ta |
 | `Lahdevero` | Lähdevero palkoista, palkkioista ja eläkkeistä | € | — | ta |
 | `Ennakonpidatys` | Toimitettu ennakonpidätys | € | — | ta |
-| `TaToiminta` | Toiminta työnantajasuoritusten suhteen kyseisenä tilastokuukautena (oliko palkanmaksua) | — | ta_toiminta_2_2010_01_01 | johdettu, ta, toiminta |
+| `TaToiminta` | Toiminta työnantajasuoritusten suhteen kyseisenä tilastokuukautena (oliko palkanmaksua) | — | ta_toiminta_2_2010_01_01 | toiminta, ta, johdettu |
 | `TaPvm` | Työnantajasuoritustietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety verohallinnon tietokantaan | — | — | ta |
-| `TaTila` | Kohdekauden palkkatietojen valvontatila -koodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | tila, ta |
-| `TaTilaSosTurv` | Kohdekauden sosiaaliturvamaksutietojen valvontatila (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | ta, tila |
-| `TaTilaLahdevero` | Kohdekauden lähdeverotietojen valvontatila -koodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | tila, ta |
-| `TaTilaEnnakonpid` | Kohdekauden ennakonpidätystietojen valvontatila -koodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | ta, tila |
+| `TaTila` | Kohdekauden palkkatietojen valvontatila -koodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | ta, tila |
+| `TaTilaSosTurv` | Kohdekauden sosiaaliturvamaksutietojen valvontatila (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | tila, ta |
+| `TaTilaLahdevero` | Kohdekauden lähdeverotietojen valvontatila -koodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | ta, tila |
+| `TaTilaEnnakonpid` | Kohdekauden ennakonpidätystietojen valvontatila -koodi (1/2010 lähtien) | — | alv_tila_2_2010_01_01 | tila, ta |
 | `AlvMaksuperusteinen` | Maksuperusteinen tilitystapa | — | — | alv |
 | `EuUlkopTuontiTavara` | Tavaroiden maahantuonnit EU:n ulkopuolelta | — | — | alv |
 | `EuUlkopVeroTavara` | Vero tavaroiden maahantuonneista EU:n ulkopuolelta | — | — | alv |
@@ -133,13 +133,13 @@ Vuosi-ilmoittajilla ja poronhoitovuosi-ilmoittajilla blankko.
 
 #### `lv_Saantikoodi` — Liikevaihdon saantikoodi
 
-**Classification:** saantik_2_1995_01_01 · **Group:** alv, aputiedot_tekniset
+**Classification:** saantik_2_1995_01_01 · **Group:** aputiedot_tekniset, alv
 
 Liikevaihdon saantikoodi, 9=alkuperäinen tieto, 7=arvioverotettu ja 6=korjattu
 
 #### `pa_Saantikoodi` — Palkkasumman saantikoodi
 
-**Classification:** saantik_2_1995_01_01 · **Group:** ta, aputiedot_tekniset
+**Classification:** saantik_2_1995_01_01 · **Group:** aputiedot_tekniset, ta
 
 Palkkasumman saantikoodi, 9=alkuperäinen tieto, 7=arvioverotettu ja 6=korjattu.
 
@@ -151,7 +151,7 @@ Tilastointikoodi: 1 = laskennan mielessä validi tapaus / tieto, muulloin blankk
 
 #### `AlvJakso` — Arvonlisäverotietojen ilmoitusjakso (1/2010 lähtien)
 
-**Classification:** ilmoitusjakso_2_2010_01_01 · **Group:** jakso, alv
+**Classification:** ilmoitusjakso_2_2010_01_01 · **Group:** alv, jakso
 
 Arvonlisäverotietojen ilmoitusjakso (1/2010 lähtien), kooditus: 
 
@@ -177,31 +177,31 @@ Puuttuva arvo Liikevaihto-muuttujassa tarkoittaa, että yritys ei ole jättänyt
 
 #### `lv_Kotimaa` — Kotimaan verollinen myynti yhteensä
 
-**Unit:** € · **Group:** johdettu, alv
+**Unit:** € · **Group:** alv, johdettu
 
 Kotimaan verollinen myynti yhteensä; ks. erittelyt 4 seuraavaa muuttujaa
 
 #### `lv_Myynti1` — Korkeimman verokannan alainen kotimaan myynti (verokanta 24 % hetkellä 03/2016)
 
-**Unit:** € · **Group:** johdettu, alv
+**Unit:** € · **Group:** alv, johdettu
 
 Korkeimman verokannan alainen kotimaan myynti (verokanta 24 % hetkellä 03/2016)
 
 #### `lv_Myynti2` — 2. korkeimman verokannan alainen kotimaan myynti (verokanta 14 % hetkellä 03/2016)
 
-**Unit:** € · **Group:** johdettu, alv
+**Unit:** € · **Group:** alv, johdettu
 
 2. korkeimman verokannan alainen kotimaan myynti (verokanta 14 % hetkellä 03/2016)
 
 #### `lv_Myynti3` — 3. korkeimman verokannan alainen kotimaan myynti (verokanta 10 % hetkellä 03/2016)
 
-**Unit:** € · **Group:** johdettu, alv
+**Unit:** € · **Group:** alv, johdettu
 
 3. korkeimman verokannan alainen kotimaan myynti (verokanta 10 % hetkellä 03/2016)
 
 #### `lv_Myynti4` — 4. korkeimman verokannan alainen kotimaan myynti (ei ole hetkellä 03/2016)
 
-**Unit:** € · **Group:** johdettu, alv
+**Unit:** € · **Group:** alv, johdettu
 
 4. korkeimman verokannan alainen kotimaan myynti (ei ole hetkellä 03/2016)
 
@@ -313,7 +313,7 @@ tyhjä tai Z = ei alkutuottajan ilmoitus eikä vuosivalvottavana alkutuottajana 
 
 #### `AlvToiminta` — ALV-toiminta kyseisenä kohdekuukautena
 
-**Classification:** alv_toiminta_2_2010_01_01 · **Group:** toiminta, johdettu, alv
+**Classification:** alv_toiminta_2_2010_01_01 · **Group:** alv, johdettu, toiminta
 
 Tilanne arvonlisäverollisen liiketoiminnan (ALV-toiminta) suhteen kyseisenä tilastokautena (oliko toimintaa). Luokitusliitoksessa oleva luokitus on oikea. ***** 
   
@@ -339,7 +339,7 @@ Alv-tietojen päivityspvm eli päivämäärä, jolloin tuorein tieto on viety ve
 
 #### `AlvTila` — Kohdekauden ALV-tietojen valvontatilakoodi (1/2010 lähtien)
 
-**Classification:** alv_tila_2_2010_01_01 · **Group:** tila, johdettu, alv
+**Classification:** alv_tila_2_2010_01_01 · **Group:** alv, johdettu, tila
 
 Kohdekauden ALV-tietojen valvontatila (1/2010 lähtien), koodit: 
 
@@ -350,7 +350,7 @@ tyhjä tai Z = ei ilmoitettu ALV-tietoja (tieto puuttuu)
 
 #### `Alitilitys` — Alitilityspisteet yrityksellä -koodi (vain työnantajasuorituksissa, vain Y-tunnuksellisilla)
 
-**Classification:** alitil_2_2010_01_01 · **Group:** johdettu, ta
+**Classification:** alitil_2_2010_01_01 · **Group:** ta, johdettu
 
 Alitilityspisteet yrityksellä (vain työnantajasuorituksissa, vain Y-tunnuksellisilla). Tiedon koodit: 
 A = yrityksellä on / on ollut alitilityspisteitä viimeisen 6 kk:n aikana, 
@@ -360,7 +360,7 @@ Kaikki ne rivit (tietueet), joissa Y-tunnus oli sama, on laskettu yhteen kausive
 
 #### `TaJakso` — Työnantajasuoritusten ilmoitusjakso (1/2010 lähtien)
 
-**Classification:** ilmoitusjakso_3_2010_01_01 · **Group:** ta, jakso
+**Classification:** ilmoitusjakso_3_2010_01_01 · **Group:** jakso, ta
 
 Työnantajasuoritusten ilmoitusjakso (1/2010 lähtien). Kooditus: 
 
@@ -429,7 +429,7 @@ Kohdekaudelta toimitettujen ennakonpidätysten yhteismäärä, lomakkeen kohta 6
 
 #### `TaToiminta` — Toiminta työnantajasuoritusten suhteen kyseisenä tilastokuukautena (oliko palkanmaksua)
 
-**Classification:** ta_toiminta_2_2010_01_01 · **Group:** johdettu, ta, toiminta
+**Classification:** ta_toiminta_2_2010_01_01 · **Group:** toiminta, ta, johdettu
 
 Tilanne työnantajasuoritusten suhteen kyseisenä tilastokautena (oliko palkanmaksua).  Luokitusliitoksessa oleva luokitus on oikea. 
   
@@ -455,7 +455,7 @@ Työnantajasuoritustietojen päivityspvm eli päivämäärä, jolloin tuorein ti
 
 #### `TaTila` — Kohdekauden palkkatietojen valvontatila -koodi (1/2010 lähtien)
 
-**Classification:** alv_tila_2_2010_01_01 · **Group:** tila, ta
+**Classification:** alv_tila_2_2010_01_01 · **Group:** ta, tila
 
 Kohdekauden palkkatietojen valvontatila (1/2010 lähtien vuoteen 2014 asti), kooditus: 
  
@@ -466,7 +466,7 @@ muuten blankko tai Z.
 
 #### `TaTilaSosTurv` — Kohdekauden sosiaaliturvamaksutietojen valvontatila (1/2010 lähtien)
 
-**Classification:** alv_tila_2_2010_01_01 · **Group:** ta, tila
+**Classification:** alv_tila_2_2010_01_01 · **Group:** tila, ta
 
 Kohdekauden sosiaaliturvamaksutietojen valvontatila (1/2010 lähtien), kooditus: 
  
@@ -477,7 +477,7 @@ muuten blankko tai Z. 1/2019 lähtien aina 'L'.
 
 #### `TaTilaLahdevero` — Kohdekauden lähdeverotietojen valvontatila -koodi (1/2010 lähtien)
 
-**Classification:** alv_tila_2_2010_01_01 · **Group:** tila, ta
+**Classification:** alv_tila_2_2010_01_01 · **Group:** ta, tila
 
 Kohdekauden lähdeverotietojen valvontatila -koodi (1/2010 lähtien), kooditus: 
  
@@ -489,7 +489,7 @@ muuten blankko tai Z.
 
 #### `TaTilaEnnakonpid` — Kohdekauden ennakonpidätystietojen valvontatila -koodi (1/2010 lähtien)
 
-**Classification:** alv_tila_2_2010_01_01 · **Group:** ta, tila
+**Classification:** alv_tila_2_2010_01_01 · **Group:** tila, ta
 
 Kohdekauden ennakonpidätystietojen valvontatila -koodi (1/2010 lähtien), kooditus: 
  

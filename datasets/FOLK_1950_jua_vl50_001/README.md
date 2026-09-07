@@ -1,4 +1,4 @@
-# FOLK_VL50
+# FOLK_VL50 Väestölaskenta 1950 otosaineisto
 
 - **Identifier:** `FOLK_1950_jua_vl50_001.xml`
 - **DOI:** `he_201100_ain_vaestolaskenta50`
@@ -56,7 +56,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `KIETA50` | Kielitaito 1950 | — | kieli_6_1950_01_01 | — |
 | `AKUN50` | Asuinkunta 1950 | — | — | — |
 | `AKUNU50` | Asuinkunta 1950 | — | — | — |
-| `SYKUN` | Syntymäkunta (laskennan luokitus) | — | — | — |
+| `SYKUN` | Syntymäkunta (laskennan luokitus) | — | kunta_131_1950_01_01 | — |
 | `SYKUNU` | Syntymäkunta (TK:n kuntaluokitus) | — | — | — |
 | `SEURA50` | Seurakunta / siv. rek. 1950 | — | — | — |
 | `KANSA50` | Kansalaisuus 1950 | — | kansalaisuus_1_1950_01_01 | — |
@@ -220,6 +220,8 @@ Asuinkunta vuoden 1950 luokituksen mukaan.
 Asuinkunta vuoden 1950 luokituksen mukaan. Tilastokeskuksen 3-numeroinen kuntakoodi.
 
 #### `SYKUN` — Syntymäkunta (laskennan luokitus)
+
+**Classification:** kunta_131_1950_01_01
 
 Kuusinumeroinen syntymäkuntaluokitus.
 Muoto: TLKKXX, jossa T = kuntatyyppi, L = lääni, KK = kuntamuoto, XX = juokseva numero. 

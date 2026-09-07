@@ -75,7 +75,7 @@
     {
       "identifier": "muupv6",
       "variablename": "Alkamispäivä",
-      "conceptdef": "Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity)",
+      "conceptdef": "Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity). Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHKUNTA"
@@ -99,7 +99,7 @@
     {
       "identifier": "muupv3",
       "variablename": "alkamispvm",
-      "conceptdef": "Koulutustiedon alkamispvm",
+      "conceptdef": "Koulutustiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHKOUL"
@@ -123,7 +123,7 @@
     {
       "identifier": "muupv1",
       "variablename": "alkamispvm",
-      "conceptdef": "Ammattitiedon alkamispvm",
+      "conceptdef": "Ammattitiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHAMM"
@@ -163,7 +163,7 @@
     {
       "identifier": "muupv7",
       "variablename": "alkamispvm",
-      "conceptdef": "Henkilön työvoimatoimistonalkamispvm Ei päivitetä",
+      "conceptdef": "Henkilön työvoimatoimistonalkamispvm. Ei päivitetä. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHTSTO"

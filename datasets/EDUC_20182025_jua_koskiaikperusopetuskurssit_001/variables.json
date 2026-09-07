@@ -209,14 +209,6 @@
       "variablegroups": null
     },
     {
-      "identifier": "koulutusmoduuli_kurssin_tyyppi",
-      "variablename": "Koulutusmoduuli kurssin tyyppi",
-      "conceptdef": "Tieto siitä, mitä kurssityyppiä (pakollinen, valinnainen, soveltava jne.) osasuoritus on silloin, kun kyseessä on vuoden 2015 lukion opetussuunnitelman perusteiden mukainen lukion kurssi\n.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
       "identifier": "koulutusmoduuli_kieliaine_nimi",
       "variablename": "Koulutusmoduuli kieliaine nimi",
       "conceptdef": "Kurssisuorituksen oppiaineen kieliaineen nimi. Kieliaineiden oppiaine-muuttuja kertoo onko kyseessä esim. äidinkieli ('AI'), a1-kieli ('A1') yms. Tämä muuttuja kertoo opiskeltavan kielen.\n",
@@ -257,9 +249,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "oppiaine_key",
-      "variablename": "Oppiaine key",
-      "conceptdef": "Linkki oppiaine-riviin ik_perusopetus_oppiaine-taulussa, johon kyseinen kurssisuoritus sisältyy.",
+      "identifier": "oppiaine_id",
+      "variablename": "Oppiaine id",
+      "conceptdef": "Linkki oppiaine-riviin aik_perusopetus_oppiaine-taulussa, johon kyseinen kurssisuoritus sisältyy. Ei pysyvä tunniste.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

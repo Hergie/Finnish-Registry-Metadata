@@ -71,7 +71,7 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_
 | `koulutusmoduuli_laajuus_arvo` | Koulutusmoduuli laajuus arvo | — | — | — |
 | `koulutusmoduuli_laajuus_yksikko` | Koulutusmoduuli laajuus yksikkö | — | — | — |
 | `suorituksen_tyyppi` | Suorituksen tyyppi | — | — | — |
-| `oppiaine_key` | Oppiaine key | — | — | — |
+| `oppiaine_id` | Oppiaine id | — | — | — |
 
 ### Variable definitions
 
@@ -191,9 +191,10 @@ Oppiaineen laajuuden koodisto.
 
 Suorituksen tyyppi.
 
-#### `oppiaine_key` — Oppiaine key
+#### `oppiaine_id` — Oppiaine id
 
 Oppiaine-rivin tunniste, käytetään vain linkattaessa oppiaineeseen siihen kuuluvia kurssisuorituksia.
+ Ei pysyvä tunniste.
 
 ---
 

@@ -1,4 +1,4 @@
-# FOLK_TUTK
+# FOLK_TUTK Tutkinnot
 
 - **Identifier:** `FOLK_19872024_jua_tutk26_001.xml`
 - **DOI:** `work_2017-08_2017-08-21_ain_0001`
@@ -30,11 +30,12 @@ Tutkintorekisteri on alipeittävä ulkomailla suoritettujen tutkintojen osalta. 
 
 Tutkintorekisterin tietoja on saatavilla myös EDUC_TREK Tutkintorekisteri -moduulista, jossa mukana kaikki tutkintorekisterin tutkinnot riippumatta siitä onko henkilö maassa asuvassa väestössä ko. vuonna. 
 
-Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron sekä suojatun oppilaitostunnuksen avulla. 
+Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilötunnisteen sekä suojatun oppilaitostunnuksen avulla. 
 
 <b> Aineiston päivitysaikataulu </b> 
 
-Tutustu valmisaineistojen päivitysaikatauluun. 
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
+
 
 <b> Aineiston käyttö ja tilaaminen </b> 
 
@@ -42,14 +43,9 @@ Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on lin
 
 Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain. 
 
-Viimeisimmät FOLK tutkinto -aineistot ovat kansiossa FOLK_TUTK_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tutk_"vuosi"_1. 
  
 Lakkatutetut koulutuskoodit sekä niitä vastaavat tuoreutukset löytyvät "koulutuskoodien_tuoreutukset"-tiedostosta FIONAn sijainnissa D:/metadata/classifications/education. 
  
-FOLK tutkinto -aineistot ovat FIONAssa seuraavista kansioista: 
-Totaaliaineisto vuosille 2011-2019 : FOLK_tutk_11a 
-Totaaliaineisto vuosille 2001-2010 : FOLK_tutk_0110a 
-Totaaliaineisto vuosille 1987-2000 : FOLK_tutk_8800a 
 
 <b> Lisätietoja </b> 
 

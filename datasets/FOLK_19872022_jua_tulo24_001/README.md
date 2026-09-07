@@ -1,4 +1,4 @@
-# FOLK_TULO
+# FOLK_TULO Tulotiedot
 
 - **Identifier:** `FOLK_19872022_jua_tulo24_001.xml`
 - **DOI:** `work_2017-08_2017-08-09_ain_0002`
@@ -46,12 +46,6 @@ Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on lin
 
 FOLK tulotieto -tiedostot ovat FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.  
 
-Vimeisimmät FOLK tulotietoaineistot ovat kansiossa FOLK_TULO_C, jossa tiedostot on jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_tulo_"vuosi"_1. 
- 
-Vanhat FOLK tulotieto -aineistot ovat FIONAssa seuraavissa kansioissa: 
-Totaaliaineisto vuosille 2011-2019: FOLK_tulo_11a 
-Totaaliaineisto vuosille 2001-2010: FOLK_tulo_0110a 
-Totaaliaineisto vuosille 1987-2000: FOLK_tulo_8800a 
 
 <b> Tarkempaa tietoa muuttujista </b> 
 
@@ -75,12 +69,12 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 |---|---|---|---|---|
 | `vuosi` | Vuosi | — | — | — |
 | `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
-| `palk` | Palkkatulot | — | — | TJKT, Tulonjakotilasto |
-| `yrtu` | Yrittäjätulot | — | — | Tulonjakotilasto, TJKT |
-| `omtu` | Omaisuustulot | — | — | Tulonjakotilasto, TJKT |
-| `saatusi` | Saadut tulonsiirrot | — | — | TJKT, Tulonjakotilasto |
-| `makstu` | Maksetut tulonsiirrot | — | — | Tulonjakotilasto, TJKT |
-| `kturaha` | Käytettävissä olevat rahatulot | — | — | TJKT, Tulonjakotilasto |
+| `palk` | Palkkatulot | — | — | Tulonjakotilasto, TJKT |
+| `yrtu` | Yrittäjätulot | — | — | TJKT, Tulonjakotilasto |
+| `omtu` | Omaisuustulot | — | — | TJKT, Tulonjakotilasto |
+| `saatusi` | Saadut tulonsiirrot | — | — | Tulonjakotilasto, TJKT |
+| `makstu` | Maksetut tulonsiirrot | — | — | TJKT, Tulonjakotilasto |
+| `kturaha` | Käytettävissä olevat rahatulot | — | — | Tulonjakotilasto, TJKT |
 | `tyotu` | Summatut työtulot (palkkatulot) | — | — | Henkilöverotusaineisto |
 | `tyrtuo` | Yrittäjätulot | — | — | Henkilöverotusaineisto |
 | `telinko` | Elinkeinotulot | — | — | Henkilöverotusaineisto |
@@ -95,7 +89,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tyotur` | Työttömyysturvaetuudet | — | — | Henkilöverotusaineisto |
 | `astuki` | Asumistuet | — | — | Kela |
 | `opira` | Opintorahat | — | — | Kela |
-| `toimtu` | Toimeentulotuet | — | — | THL, Kela |
+| `toimtu` | Toimeentulotuet | — | — | Kela, THL |
 | `tpar` | Sairausvakuutuksen päivärahat | — | — | Henkilöverotusaineisto |
 | `ltv` | Valtion tulovero | — | — | Henkilöverotusaineisto |
 | `ltva` | Valtion tuloveron osuus ansiotulojen verosta | — | — | Henkilöverotusaineisto |
@@ -120,37 +114,37 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 #### `palk` — Palkkatulot
 
-**Group:** TJKT, Tulonjakotilasto
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston palkkatulot-muuttuja. Sisältää rahapalkkaeriä, työsuhteeseen perustuvien kustannusten korvauksia ja luontoisedut. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `yrtu` — Yrittäjätulot
 
-**Group:** Tulonjakotilasto, TJKT
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston yrittäjätulot-muuttuja. Muuttujaan on summattu maa- ja metsätilatalouden yrittäjätulot, elinkeinon harjoittajien yrittäjätulot, yhtymien yrittäjätulot ja tekijänoikeuksista, patenteista yms. tulevat yrittäjätulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `omtu` — Omaisuustulot
 
-**Group:** Tulonjakotilasto, TJKT
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston omaisuustulot-muuttuja. Muuttujaan on summattu henkilöveroaineistosta omaisuustuloiksi tulonjakotilastossa määritetyt rekisteripohjaiset tuloerät. Sisältää osinkotulot, korkotulot, yksityisiin vakuutuksiin perustuvat eläkkeet ja korvaukset, vuokratulo osakehuoneistosta ja kiinteistöstä, veronalainen luovutusuvoitto sekä selvittämätön omaisuuden lisäys ja muut pääomatulot. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `saatusi` — Saadut tulonsiirrot
 
-**Group:** TJKT, Tulonjakotilasto
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston muodostama saatujen tulonsiirtojen yhteissumma. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `makstu` — Maksetut tulonsiirrot
 
-**Group:** Tulonjakotilasto, TJKT
+**Group:** TJKT, Tulonjakotilasto
 
 Tulonjakotilaston muodostama maksettujen tuloverojen ja veronluonteisten maksujen yhteissumma. Muuttujaan on summattu palkka-, yrittäjä- ja omaisuustulosta sekä saaduista tulonsiirroista maksetut valtion ja kuntien verot ja veronluonteiset pakolliset maksut. Huom. kirkollisvero katsotaan vapaehtoiseksi veroksi, joten sitä ei huomioida maksetuissa tulonsiirroissa. Muuttuja muodostuu vuosittain päivitettävän tulonjakotilaston tulonimikkeistön pohjalta. Tietoja vuodesta 1995 lähtien.
 
 #### `kturaha` — Käytettävissä olevat rahatulot
 
-**Group:** TJKT, Tulonjakotilasto
+**Group:** Tulonjakotilasto, TJKT
 
 Tulonjakotilaston muodostama käytettävissä oleva rahatulo muodostuu bruttotuloista (palkkatulojen, yrittäjätulojen, omaisuustulojen ja saatujen tulonsiirtojen summa), joista on vähennetty maksetut tulonsiirrot (maksetut verot ja veronluonteiset maksut). Tulonjaon kokonaistilaston päätulokäsite. Tietoja vuodesta 1995 lähtien.
 
@@ -297,7 +291,7 @@ Opintorahat sisältää keskiasteen opintorahan, korkeakoulun opintorahan ja aik
 
 #### `toimtu` — Toimeentulotuet
 
-**Group:** THL, Kela
+**Group:** Kela, THL
 
 Toimeentulotuet sisältää varsinaisen toimeentulotuen ja ehkäisevän toimeentulotuen.
 

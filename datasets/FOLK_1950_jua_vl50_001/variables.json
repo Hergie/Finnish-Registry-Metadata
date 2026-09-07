@@ -109,7 +109,7 @@
       "variablename": "Syntymäkunta (laskennan luokitus)",
       "conceptdef": "Kuusinumeroinen syntymäkuntaluokitus.\nMuoto: TLKKXX, jossa T = kuntatyyppi, L = lääni, KK = kuntamuoto, XX = juokseva numero. \n\nT = kuntatyyppi: \n1 = Siuntio, Kirkkonummi \n2 = Nuijamaa, Parikkala, Rautjärvi, Saari, Simpele, Savitaipale, Uukuniemi, Virolahti, Ylämaa, Ilomantsi, Kitee, Värtsilä \n3 = Kuusamo, Salla \n4 = Degerby \n5 = luovutetut kunnat (pl. saaret, Petsamo)\n6 = Lavansaari, Seiskari, Suursaari, Tytärsaari \n7 = Petsamo\n8 = ulkomaat\n9 = tuntematon\n0 = muut kunnat\n\n \nL = lääni: \n0 = Uudenmaan lääni \n1 = Turun ja Porin lääni\n2 = Ahvenanmaa\n3 = Hämeen lääni \n4 = Kymen lääni \n5 = Mikkelin lääni\n6 = Kuopion lääni \n7 = Vaasan lääni\n8 = Oulun lääni \n9 = Lapin lääni\n\n\nKK = kuntamuoto (00 = kaupunki, 01 = kauppala, 10 = maalaiskunta)\n\nXX = juokseva numero\n\nKatso Vuoden 1950 väestölaskennan otosaineiston käikirja  https://www.doria.fi/bitstream/handle/10024/96465/xksk38_195000_1997_dig.pdf?sequence=1\n\n",
       "measunit": null,
-      "classification": null,
+      "classification": "kunta_131_1950_01_01",
       "variablegroups": null
     },
     {

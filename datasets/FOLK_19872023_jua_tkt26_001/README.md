@@ -1,4 +1,4 @@
-# FOLK_TKT
+# FOLK_TKT Työssäkäynti
 
 - **Identifier:** `FOLK_19872023_jua_tkt26_001.xml`
 - **DOI:** `work_2017-12_2017-12-20_ain_0001`
@@ -29,8 +29,7 @@ Aineisto perustuu Tilastokeskuksen henkilötietovarannon työssäkäyntitilastoi
 Tilastovuodesta 2019 alkaen työssäkäyntitilastossa otettiin käyttöön tulorekisteri uutena lähdeaineistona. Tulorekisteri korvasi useita aiemmin käytössä olleita työsuhdeaineistoja, mikä vaikuttaa tietojen vertailukelpoisuuteen aiempiin vuosiin nähden. Tulorekisteristä poimitut jaksotiedot ovat maksujaksoja, minkä vuoksi ATV-pääteltyjä tietoja ei ole saatavilla tilastovuodesta 2019 alkaen. Tämä muutos vaikuttaa myös tilastovuoden 2019 päivämäärämuuttujiin, sillä tulorekisterissä käytetään maksujakson alkamis- ja loppumispäivämääriä, jotka poikkeavat aiempien työsuhdeaineistojen päivämäärätiedoista. 
  
 <b> Aineiston päivitysaikataulu </b> 
-
-Tutustu valmisaineistojen päivitysaikatauluun. 
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
 
 <b> Aineiston käyttö ja tilaaminen </b> 
 

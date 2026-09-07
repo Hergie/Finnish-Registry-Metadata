@@ -35,7 +35,7 @@
     {
       "identifier": "muupv5",
       "variablename": "alkamispvm",
-      "conceptdef": "Henkilön dignoosin alkamispvm",
+      "conceptdef": "Henkilön dignoosin alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHDIAG"
@@ -59,7 +59,7 @@
     {
       "identifier": "alkpv3",
       "variablename": "Arvioinnin alkamispäivä",
-      "conceptdef": "Työkunnon arviointipvm",
+      "conceptdef": "Työkunnon arviointipvm.",
       "measunit": null,
       "classification": null,
       "variablegroups": "YTKUNTO"

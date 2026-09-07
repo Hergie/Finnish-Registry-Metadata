@@ -2,7 +2,7 @@
 
 - **Identifier:** `FIRM_1993062022_jua_BANKRsaneeraukset_001.xml`
 - **DOI:** `work_2017-03_2017-03-23_ain_0002`
-- **Temporal coverage:** 1993-01-01 - 2024-06-30
+- **Temporal coverage:** 1993-01-01 - 2025-12-31
 - **Published:** 2023-07-25
 - **Organisation:** Tilastokeskus
 - **Variable count:** 42

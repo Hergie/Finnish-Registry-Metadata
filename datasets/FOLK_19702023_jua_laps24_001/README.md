@@ -1,4 +1,4 @@
-# FOLK_LAPS
+# FOLK_LAPS Lapsi-vanhemmat
 
 - **Identifier:** `FOLK_19702023_jua_laps24_001.xml`
 - **DOI:** `work_2020-01_2020-01-17_ain_0001`
@@ -12,30 +12,29 @@
 
 ## Description
 
-Lapsi - vanhemmat –valmisaineistomoduuli sisältää tietoja lapsen syntymä- ja kuolinvuodesta sekä vanhempien suojatuista yksilöivästä tunnisteesta. 
+FOLK_LAPS-valmisaineisto sisältää  tietoja perheväestöön kuuluvista lapsista, biologisista ja adoptio- sekä sosiaalisista vanhemmista, ja heidän asumistiedoistaan.  
 
-<b> Valmisaineiston tarkentava nimi </b> 
+Tämä aineistokuvaus koskee ”lapsi-vanhemmat” -osiota/taulua, joka sisältää tietoja lapsen syntymä- ja kuolinvuodesta sekä vanhemmista. FOLK_LAPS-valmisaineiston sisältämästä ”lapsi-vanhemmat-vuosi”-osiosta/taulusta on erillinen aineistokuvauksensa. Tämä taulu on luonteeltaan suhdeaineisto sisältäen biologisten vanhempien henkilötiedot niille henkilöille, joilta vanhemmuustiedot ovat saatavilla.
 
-Ennakkotietoja väestöön kuuluvien ja muiden suomalaisen henkilötunnuksen omaavien henkilöiden taustatiedoista, karkealla tasolla (kuukausitasoiset ennakkotiedot). 
+<b> Valmisaineiston tarkentava nimi </b>
+Tiedot perheväestöön kuuluvista lapsista, biologisista ja adoptio- sekä sosiaalisista vanhemmista, ja heidän asumistiedoistaan (FOLK_LAPS)
 
-<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
-Aineiston lähteenä on Digi- ja viestintäviraston väestötietojärjestelmä (VTJ). Väestörekisterikeskus perustettiin vuonna 1969 ja atk-pohjaiseen väestörekisteriin siirryttiin vuonna 1971. Tämän vuoksi vanhemmuustiedot ovat kattavampia henkilöille, jotka ovat syntyneet 1950-luvulla tai myöhemmin. Yli 80 prosentilla näistä henkilöistä on tieto ainakin toisesta biologisesta vanhemmasta. 
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b>
+FOLK_LAPS-valmisaineisto pohjautuu Tilastokeskuksen väestölaskenta-, väestörakenne-, asuntokunta- sekä perhetilastojen tietoihin. Tietojen lähteenä on Digi- ja viestintäviraston väestötietojärjestelmä (VTJ). Väestörekisterikeskus perustettiin vuonna 1969 ja atk-pohjaiseen väestörekisteriin siirryttiin vuonna 1971. Tämän vuoksi vanhemmuustiedot ovat kattavampia henkilöille, jotka ovat syntyneet 1950-luvulla tai myöhemmin. Yli 80 prosentilla näistä henkilöistä on tieto ainakin toisesta biologisesta vanhemmasta.
+Aineistossa lapsi tai vähintään toinen vanhemmista kuuluu FOLK- väestöön, eli heidän tietonsa löytyvät joko FOLK_PERUS- tai FOLK Väestölaskennat 1970–1985-aineistoista.
 
-Lapsi-vanhemmat moduuliin sisältyy myös lapsi-vanhemmat-vuosi-moduuli. FOLK lapsi-vanhemmat on suhdeaineisto, joka sisältää biologisten vanhempien henkilötiedot niille henkilöille, joilta vanhemmuustiedot ovat saatavilla. Aineistossa lapsi tai vähintään toinen vanhemmista kuuluu FOLK väestöön, eli heidän tietonsa löytyvät joko FOLK perustieto- tai FOLK Väestölaskennat 1970–1985-aineistoista. 
-
-<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
-Aineisto sisältää myös vanhempien tietoja lapsille, jotka ovat syntyneet vuoden 1952 jälkeen, mutta joita ei ole mukana FOLK lapsi-vanhemmat-vuosiaineistossa. Näihin kuuluvat esimerkiksi Suomen kansalaiset, jotka ovat asuneet koko elämänsä ulkomailla, tai lapset, jotka ovat kuolleet ennen syntymävuotensa päättymistä. Näissä tapauksissa vähintään toisen vanhemman on kuuluttava FOLK-väestöön. 
+<b> Huomioitavaa aineistosta ja sen käytöstä </b>
+Aineisto sisältää myös vanhempien tietoja lapsille, jotka ovat syntyneet vuoden 1952 jälkeen, mutta joita ei ole mukana lapsi-vanhemmat-vuosi-osiossa. Näihin kuuluvat esimerkiksi Suomen kansalaiset, jotka ovat asuneet koko elämänsä ulkomailla, tai lapset, jotka ovat kuolleet ennen syntymävuotensa päättymistä. Näissä tapauksissa vähintään toisen vanhemman on kuuluttava FOLK-väestöön.
 
 <b> Aineiston päivitysaikataulu </b>
-Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
- 
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
 
 <b> Aineiston käyttö ja tilaaminen </b>
-Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.    
+Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla. 
+Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilasta räätälöity versio.
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina tilastovuosittaisiin vuosikansioihin.
 
-Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
-
-<b> Lisätietoja </b> 
+<b> Lisätietoja </b>
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ## Variables (8)

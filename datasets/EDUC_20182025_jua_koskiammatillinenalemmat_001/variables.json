@@ -225,9 +225,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "ylempi_osasuoritus_key",
-      "variablename": "Osasuoritus key",
-      "conceptdef": "Yksilöi ylemmän osasuorituksen johon suoritus sisältyy. Ylempi osasuoritus löytyy vastaavalla avaimella ammatillinen_ylemmat -taulusta.\n",
+      "identifier": "ylempi_osasuoritus_id",
+      "variablename": "Ylempi osasuoritus id",
+      "conceptdef": "Yksilöi ylemmän osasuorituksen johon suoritus sisältyy. Ylempi osasuoritus löytyy vastaavalla avaimella ammatillinen_ylemmat -taulusta.\n Ei pysyvä tunnus.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

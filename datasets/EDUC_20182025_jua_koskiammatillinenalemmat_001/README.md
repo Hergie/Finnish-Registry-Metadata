@@ -40,6 +40,8 @@ Laaja moduuli EDUC_KOSKI_2ASTE: ammatillinen_alemmat
 alemmat-taulu sisältää kaikki ammatillisen koulutuksen alemmat osasuoritukset. Sisältää tietoja kuten arvosanat, laajuus ja arviointipäivä. Kaikki tämän taulun rivit ovat osa jotain ammatillinen_ylemmat-taulun suoritusta.
 Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_suoritus, r_osasuoritus, r_henkilo.
 
+HUOM. Taulussa on tuplarivejä, joita ei ole poistettu.
+
 ## Variables (29)
 
 | Identifier | Name | Unit | Classification | Group |
@@ -72,7 +74,7 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_
 | `tutkinnon_nimi_perusteessa` | Tutkinnon nimi perusteessa | — | — | — |
 | `suorituksen_tyyppi` | Suorituksen tyyppi | — | — | — |
 | `toinenOsaamisala` | Toinen osaamisala | — | — | — |
-| `ylempi_osasuoritus_key` | Osasuoritus key | — | — | — |
+| `ylempi_osasuoritus_id` | Ylempi osasuoritus id | — | — | — |
 
 ### Variable definitions
 
@@ -199,9 +201,10 @@ Suorituksen tyyppi.
 
 Purettu data-kentästä.
 
-#### `ylempi_osasuoritus_key` — Osasuoritus key
+#### `ylempi_osasuoritus_id` — Ylempi osasuoritus id
 
 Yksilöi ylemmän osasuorituksen johon suoritus sisältyy. Ylempi osasuoritus löytyy vastaavalla avaimella ammatillinen_ylemmat -taulusta.
+ Ei pysyvä tunnus.
 
 ---
 

@@ -41,6 +41,8 @@ Laaja moduuli EDUC_KOSKI_2ASTE:  IB_lukio_kurssit
 Sisältää lukio- ja ib-tutkinto-koulutuksien kurssisuoritukset ja niihin liittyvää tietoa kuten arvosana, laajuus, oppiaine ja pakollisuus.
 Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_suoritus, r_osasuoritus, r_henkilo.
 
+HUOM. Taulu sisältää tuplarivejä, joita ei ole poistettu,
+
 ## Variables (33)
 
 | Identifier | Name | Unit | Classification | Group |
@@ -77,7 +79,7 @@ Yhdistää tietoja KOSKI raporttikannan tauluista: r_opiskeluoikeus, r_paatason_
 | `koulutusmoduuli_laajuus_yksikko` | Koulutusmoduuli laajuus yksikkö | — | — | — |
 | `tunnustettu` | Tunnustettu | — | — | — |
 | `suorituksen_tyyppi` | Suorituksen tyyppi | — | — | — |
-| `oppiaine_key` | Oppiaine key | — | — | — |
+| `oppiaine_id` | Oppiaine id | — | — | — |
 
 ### Variable definitions
 
@@ -220,9 +222,10 @@ Tieto siitä, onko osasuoritus tunnustettu (eli ns. luettu hyväksi aikaisempien
 
 Suorituksen tyyppi
 
-#### `oppiaine_key` — Oppiaine key
+#### `oppiaine_id` — Oppiaine id
 
 Linkki oppiaine-riviin lukio_ib_oppiaine-taulussa, johon kyseinen kurssisuoritus sisältyy
+. Ei ole pysyvä tunniste.
 
 ---
 

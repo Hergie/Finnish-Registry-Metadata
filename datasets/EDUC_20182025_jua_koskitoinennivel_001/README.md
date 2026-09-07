@@ -86,6 +86,8 @@ suorituksen_tyyppi='valma'). Vapaansivistystyön koulutuksesta sisällytetty vai
 suunnattu vapaansivistystyön koulutus (päätason
 suorituksen_tyyppi='vstoppivelvollisillesuunnattukoulutus')
 
+HUOM. Taulu sisältää tuplarivejä, joita ei ole poistettu.
+
 ## Variables (28)
 
 | Identifier | Name | Unit | Classification | Group |

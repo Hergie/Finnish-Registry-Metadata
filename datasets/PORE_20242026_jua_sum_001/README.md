@@ -16,11 +16,11 @@ PORE_SUM-valmisaineistomoduuli sisältää Positiivisen luottotietorekisterin yk
 Positiivisen luottotietorekisterin yksityishenkilöiden summatut luotto- ja velkatiedot kuukausitasolla (PORE_SUM)
 
 <b>Aineiston perusjoukko, koostaminen ja tietolähteet</b>
-Positiivinen luottotietorekisteri on rekisteri, johon kootaan tiedot yksityishenkilöiden luotoista ja tuloista sekä muille luonnollisille henkilöille kuin kuluttajille myönnetyt luotot. Tällaisia luottoja ovat esimerkiksi toiminimiyrittäjälle tai maatalouden harjoittajalle myönnetyt luotot. 
+Positiivinen luottotietorekisteri on rekisteri, johon kootaan tiedot yksityishenkilöiden luotoista sekä muille luonnollisille henkilöille kuin kuluttajille myönnetyistä luotoista. Tällaisia luottoja ovat esimerkiksi toiminimiyrittäjälle tai maatalouden harjoittajalle myönnetyt luotot. 
 
 Luotonantajat ilmoittavat luottotietorekisteriin tiedot myöntämistään luotoista sekä luotoissa tapahtuneista muutoksista. Tällaisia muutoksia ovat esimerkiksi lyhennykset ja luottosopimuksen muutokset.
 
-Tiedot toimittaa Verohallinnon Tulorekisteriyksikkö. Lisätietoja Positiivisen luottotietorekisterin sivuilla: <a href="https://www.vero.fi/positiivinenluottotietorekisteri/tietoa-rekisterista.html">Tietoa rekisteristä</a>.
+Tiedot toimittaa Verohallinnon Tulorekisteriyksikkö. Lisätietoja Positiivisen luottotietorekisterin sivuilla: <a href="https://www.vero.fi/positiivinenluottotietorekisteri/tietoa-rekisterista/">Tietoa rekisteristä</a>.
 
 <b>Huomioitavaa aineistosta ja sen käytöstä</b>
 Pohja-aineisto päivittyy päivittäin niin, että päivitetyt ja korjatut tiedot korvaavat vanhat tiedot. Tästä syystä kahtena eri ajankohtana päivitetyt tiedot eivät vastaa toisiaan täysin, vaan voivat sisältää pieniä muutoksia.
@@ -36,7 +36,7 @@ Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksol
 Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
 <b>Tarkempaa tietoa muuttujista</b>
-Toiminimiyrittäjien lainat sisältyvät toisen vaiheen tietoihin, jotka on lisätty rekisteriin kuluttajaluottojen jälkeen.
+Toiminimiyrittäjien luotot sisältyvät toisen vaiheen tietoihin, jotka on lisätty rekisteriin vasta kuluttajaluottojen jälkeen.
 
 <b>Lisätietoja</b>
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
@@ -145,7 +145,9 @@ Luoton käyttötarkoitus on liikennevälineen hankkimiseksi myönnetty kuluttaja
 
 #### `loanforbusinessactivities_yht` — Luotto elinkeinotoimintaan, velkasaldo
 
-Luoton käyttötarkoitus on luotto elinkeinotoimintaan. Jos velallisella on useampi luotto elinkeinotoimintaan, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 50 000 euroa. Tieto saatavilla kattavasti 02/2026 alkaen.
+Luoton käyttötarkoitus on luotto elinkeinotoimintaan. Jos velallisella on useampi luotto elinkeinotoimintaan, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 100 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 50 000 euroa. 
+
+Tieto saatavilla kattavasti 02/2026 alkaen.
 
 #### `otherconsumercredit_yht` — Muu kuluttajaluotto, velkasaldo
 
@@ -153,7 +155,9 @@ Luoton käyttötarkoitus on muu kuluttajaluotto. Jos velallisella on useampi muu
 
 #### `otherloan_yht` — Muu luotto, velkasaldo
 
-Luoton käyttötarkoitus on muu luotto. Jos velallisella on useampi muu luotto, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 25 000 euroa. Tieto saatavilla kattavasti 03/2025 alkaen.
+Luoton käyttötarkoitus on muu luotto. Jos velallisella on useampi muu luotto, ne on summattu yhteen. Mikäli samalla luotolla on useampi osakas, velkasumma on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron luotto jakaantuu kahdelle eri velallisille siten, että molemmille tulee luottoa 25 000 euroa. 
+
+Tieto saatavilla kattavasti 03/2025 alkaen.
 
 #### `kayttotarkoituspuuttuu_yht` — Puuttuvat, velkasaldo
 

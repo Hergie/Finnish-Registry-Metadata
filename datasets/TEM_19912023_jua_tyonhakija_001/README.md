@@ -126,7 +126,7 @@ Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämi
 
 **Group:** YHKUNTA
 
-Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity)
+Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity). Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
 
 #### `paapv6` — Loppumispvm
 
@@ -144,7 +144,7 @@ Työnhakijan saaman koulutuksen luokittelemiseen käytetään kunakin vuonna voi
 
 **Group:** YHKOUL
 
-Koulutustiedon alkamispvm
+Koulutustiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
 
 #### `paapv3` — loppumispvm
 
@@ -163,7 +163,7 @@ https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 **Group:** YHAMM
 
-Ammattitiedon alkamispvm
+Ammattitiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
 
 #### `paapv1` — loppumispvm
 
@@ -193,7 +193,7 @@ Palvelulinjan päättymispvm
 
 **Group:** YHTSTO
 
-Henkilön työvoimatoimistonalkamispvm Ei päivitetä
+Henkilön työvoimatoimistonalkamispvm. Ei päivitetä. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
 
 #### `paapv7` — loppumispvm
 

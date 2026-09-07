@@ -72,7 +72,7 @@ Huom. Perusopetuksen päättötodistus on tästä taulusta rajattavissa käyttä
 | `koulutusmoduuli_laajuus_yksikko` | Koulutusmoduuli laajuus yksikkö | — | — | — |
 | `suorituksen_tyyppi` | Suorituksen tyyppi | — | — | — |
 | `tunnustettu` | Tunnustettu | — | — | — |
-| `oppiaine_key` | Oppiaine key | — | — | — |
+| `oppiaine_key` | Oppiaine id | — | — | — |
 
 ### Variable definitions
 
@@ -190,9 +190,9 @@ Oppiaineen laajuuden koodisto.
 
 Tieto siitä, onko osasuoritus tunnustettu (eli ns. luettu hyväksi aikaisempien opintojen perusteella).
 
-#### `oppiaine_key` — Oppiaine key
+#### `oppiaine_key` — Oppiaine id
 
-Oppiaine-rivin tunniste, käytetään vain linkattaessa oppiaineeseen siiehn kuuluvia kurssisuorituksia
+Oppiaine-rivin tunniste, käytetään vain linkattaessa oppiaineeseen siihen kuuluvia kurssisuorituksia. Ei pysyvä tunnus.
 
 ---
 

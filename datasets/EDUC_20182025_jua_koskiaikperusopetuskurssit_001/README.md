@@ -5,7 +5,7 @@
 - **Temporal coverage:** —
 - **Published:** 2026-04-27
 - **Organisation:** Tilastokeskus
-- **Variable count:** 33
+- **Variable count:** 32
 - **Observation count:** —
 
 ## Description
@@ -40,7 +40,7 @@ Laaja moduuli EDUC_KOSKI_PERUS: Aik_perusopetus_kurssit
 
 Taulu sisältää aikuisten perusopetuksen kurssisuoritukset. Sisältää kurssisuoritukset sekä opiskelijoilta, jotka opiskelevat aikuisten perusopetuksen alkuvaihetta tai päättövaihetta, että perusopetuksen oppiaineen oppimäärän opiskelijoilta.
 
-## Variables (33)
+## Variables (32)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
@@ -70,13 +70,12 @@ Taulu sisältää aikuisten perusopetuksen kurssisuoritukset. Sisältää kurssi
 | `oppiaine_paikallinen` | Oppiaine paikallinen | — | — | — |
 | `koulutusmoduuli_pakollinen` | Koulutusmoduuli pakollinen | — | — | — |
 | `koulutusmoduuli_paikallinen` | Koulutusmoduuli paikallinen | — | — | — |
-| `koulutusmoduuli_kurssin_tyyppi` | Koulutusmoduuli kurssin tyyppi | — | — | — |
 | `koulutusmoduuli_kieliaine_nimi` | Koulutusmoduuli kieliaine nimi | — | — | — |
 | `koulutusmoduuli_laajuus_arvo` | Koulutusmoduuli laajuus arvo | — | — | — |
 | `koulutusmoduuli_laajuus_yksikko` | Koulutusmoduuli laajuus yksikkö | — | — | — |
 | `tunnustettu` | Tunnustettu | — | — | — |
 | `suorituksen_tyyppi` | Suorituksen tyyppi | — | — | — |
-| `oppiaine_key` | Oppiaine key | — | — | — |
+| `oppiaine_id` | Oppiaine id | — | — | — |
 
 ### Variable definitions
 
@@ -186,11 +185,6 @@ Kertoo, onko kurssi pakollinen suoritettavassa koulutuksessa
 
 Tieto siitä, onko oppiaine paikallisen opintosuunnitelman mukainen.
 
-#### `koulutusmoduuli_kurssin_tyyppi` — Koulutusmoduuli kurssin tyyppi
-
-Tieto siitä, mitä kurssityyppiä (pakollinen, valinnainen, soveltava jne.) osasuoritus on silloin, kun kyseessä on vuoden 2015 lukion opetussuunnitelman perusteiden mukainen lukion kurssi
-.
-
 #### `koulutusmoduuli_kieliaine_nimi` — Koulutusmoduuli kieliaine nimi
 
 Kurssisuorituksen oppiaineen kieliaineen nimi. Kieliaineiden oppiaine-muuttuja kertoo onko kyseessä esim. äidinkieli ('AI'), a1-kieli ('A1') yms. Tämä muuttuja kertoo opiskeltavan kielen.
@@ -218,9 +212,9 @@ Tieto siitä, onko osasuoritus tunnustettu (eli ns. luettu hyväksi aikaisempien
 
 #### `suorituksen_tyyppi` — Suorituksen tyyppi
 
-#### `oppiaine_key` — Oppiaine key
+#### `oppiaine_id` — Oppiaine id
 
-Linkki oppiaine-riviin ik_perusopetus_oppiaine-taulussa, johon kyseinen kurssisuoritus sisältyy.
+Linkki oppiaine-riviin aik_perusopetus_oppiaine-taulussa, johon kyseinen kurssisuoritus sisältyy. Ei pysyvä tunniste.
 
 ---
 
