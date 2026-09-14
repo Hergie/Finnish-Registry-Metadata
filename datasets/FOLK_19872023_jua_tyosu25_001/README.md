@@ -1,4 +1,4 @@
-# FOLK_JAKSOT: työsuhde
+# FOLK_JAKSOTIEDOT: työsuhde
 
 - **Identifier:** `FOLK_19872023_jua_tyosu25_001.xml`
 - **DOI:** `tyokay_2012-03_2012-03-01_ain_0001`

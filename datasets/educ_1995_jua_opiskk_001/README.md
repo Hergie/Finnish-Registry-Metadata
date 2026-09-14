@@ -1,0 +1,768 @@
+# EDUC_OPISK_KARK Opiskelijat, v. 1995
+
+- **Identifier:** `educ_1995_jua_opiskk_001.xml`
+- **DOI:** `aop_2026-09_2026-09-08_ain_0001`
+- **Temporal coverage:** —
+- **Published:** 2026-09-08
+- **Organisation:** Tilastokeskus
+- **Variable count:** 50
+- **Observation count:** —
+- **Population:** Tutkintoon johtavan koulutuksen opiskelijat Suomessa
+- **Source:** Tilastokeskuksen ikätilastoa varten keräämät henkilöpohjaiset tiedot
+
+## Description
+
+EDUC_OPISK_KARK -valmisaineisto sisältää tutkintoon johtavassa lukiokoulutuksessa, ammatillisessa koulutuksessa, ammattikorkea- ja yliopistokoulutuksessa kirjoilla olleet opiskelijat, sekä tietoja heidän demografisista taustatekijöistään, opintoaloistaan sekä tiedekunnistaan. 
+
+Tämä aineistokuvaus koskee vuoden 1995 vuositiedostoa. EDUC_OPISK_KARK-aineistosta on erilliset kuvaukset myös vuosille 1996, 1997 ja 1998. Vuoden 1999 ja sen jälkeisille tiedoille on olemassa yksi kuvaus.  
+
+<b> Valmisaineiston tarkentava nimi </b> 
+Opiskelijoiden tiedot lukiokoulutuksessa, ammatillisessa koulutuksessa, oppisopimuskoulutuksessa ja ammattikorkeakoulu- ja yliopistokoulutuksessa kirjoilla olleista, kansalaisuus ja äidinkieli karkeistettuna
+
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Vuoden 1995 datataulu sisältää opiskelijat, jotka olivat kirjoilla tutkintoon johtavassa koulutuksessa syksyllä 1995. Mukana ovat lukiokoulutus, ammatillinen koulutus, ammattikorkeakoulutus ja yliopistokoulutus. Tiedot perustuvat Tilastokeskuksen ikätilastoa varten keräämiin henkilöpohjaisiin tietoihin. Kyseessä on ensimmäinen henkilöpohjainen opiskelija-aineisto, joka kattaa kaikki koulutussektorit.
+
+<u>Lukiokoulutuksen opiskelijat </u>
+Lukiokoulutuksen tiedot perustuvat opetustoimen valtionosuusjärjestelmän tilanteeseen 20.9.1995. Ahvenanmaan lukiolaisten tiedot on kerännyt Tilastokeskus. Aineistoon sisältyvät:
+- päivälukion opiskelijat
+- päivälukion aikuislinjojen opiskelijat
+- aikuislukioiden opiskelijat
+
+Aineistosta on poistettu 556 opiskelijaa, joilta puuttui suomalainen henkilötunnus. Aikuislukioiden ja lukion aikuislinjojen opiskelijamääriin on laskettu mukaan ne opiskelijat, jotka suorittivat peruskoulun tai lukion koko oppimäärää. Aineopiskelijat eivät sisälly opiskelijamääriin.
+
+<u>Ammatilliset oppilaitokset ja väliaikaiset ammattikorkeakoulut: </u>
+Aineisto perustuu Tilastokeskuksen keräämiin henkilöpohjaisiin tietoihin opiskelijoista, jotka olivat kirjoilla tutkintoon johtavassa ammatillisessa koulutuksessa ja väliaikaisissa ammattikorkeakouluissa 20.9.1995. Tiedonkeruuseen sisältyivät myös kansanopistot, musiikkioppilaitokset ja liikunnan koulutuskeskukset, mikäli ne tarjosivat tutkintoon johtavaa ammatillista koulutusta.
+
+Aineistosta on poistettu 1 202 opiskelijaa, joilta puuttui suomalainen henkilötunnus.
+
+Tutkintoon johtavaksi ammatilliseksi koulutukseksi on luettu:
+- nuorisoasteen koulutukset, joiden laajuus on vähintään 400 tuntia
+- tutkintoon johtavat aikuiskoulutuslinjat, kuten:
+	aikuisille suunnatut koulutusohjelmat tai opintolinjat
+	ammatillisen peruskoulutuksen linjat
+	ammatillisten erikoisoppilaitosten opintolinjat
+	koulutukset, jotka edellyttävät aiempaa alan tutkintoa ja työkokemusta
+
+Väliaikaiset ammattikorkeakoulut olivat yhden tai useamman ammatillisen oppilaitoksen muodostamia koulutusyksiköitä. Vuonna 1995 niitä oli yhteensä 22. Koulutuksen tavoitteena oli nostaa opistoasteen ja ammatillisen korkea-asteen koulutuksen ammatillista ja teoreettista tasoa. Väliaikaisissa ammattikorkeakouluissa suoritetut tutkinnot ovat korkeakoulututkintoja.
+
+<u>Korkeakoulut: </u>
+Korkeakouluopiskelijoita koskeva aineisto perustuu Tilastokeskuksen korkeakouluilta keräämiin henkilöpohjaisiin tietoihin 31.12.1995. Mukana ovat opiskelijat, jotka suorittivat alempaa tai ylempää korkeakoulututkintoa, lisensiaattitutkintoa, tohtorintutkintoa ja ammatillista jatkotutkintoa. Aineistosta on poistettu 1484 opiskelijaa, joilta puuttui suomalainen henkilötunnus.
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Muuttujan kryh avulla voidaan erotella opiskelijat koulutusasteittain: lukiokoulutus, ammatillinen koulutus, ammattikorkeakoulutus ja yliopistokoulutus.
+
+Huom! Ammattikorkeakouluopiskelijat saa helpoimmin valittua joko muuttujalla kryh=41 taikryh=42 tai muuttujalla opasteu=4.
+
+Jos tiedot halutaan koulutuksittain, käytetään yleensä Tilastokeskuksen koulutusluokituksen (standardiluokitus) mukaista 6-numeroista koulutuskoodia, joka löytyy muuttujasta koulk.
+
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_OPISK_KARK-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla. 
+
+Mikäli tutkimushankkeen tarve kohdistuu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_OPISK-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat tarkalla tasolla. EDUC_OPISK-aineiston käyttöön saaminen edellyttää vahvoja tutkimuksellisia perusteita.
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
+
+<b> Tarkempaa tietoa muuttujista </b> 
+Datassa on mukana sekä Tilastokeskuksen vanhan koulutusluokituksen 5-numeroiset koulutuskoodit ja niihin liittyvät luokitusmuuttujat, että vuonna 1997 käyttöön otetun uuden koulutusluokituksen 6-numeroiset koodit ja niihin liittyvät muut luokitusmuuttujat. Lisäksi tiedostossa on mukana sekä vanhan että uuden version tiedot Unescon ISCED-luokituksesta, joka uudistui vuonna 1997.
+
+<b> Lisätietoja </b> 
+Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
+
+## Variables (50)
+
+| Identifier | Name | Unit | Classification | Group |
+|---|---|---|---|---|
+| `s_oltunn` | Tilastokeskuksen suojattu oppilaitostunnus | — | — | — |
+| `shnro` | Tilastokeskuksen suojattu henkilönumero | — | — | — |
+| `IKA` | Ikä vuosina | — | — | — |
+| `TILV` | Aineistovuosi | — | — | — |
+| `KSEUTU` | Koulutuksen sijaintikunnan  seutukunta | — | seutukunta_1_1995_01_01 | — |
+| `KKUNRYH` | Koulutuksen sijaintikunnan  kuntaryhmä | — | — | — |
+| `KNUTS3` | Koulutuksen sijaintimaakunta | — | maakunta_1_1995_01_01 | — |
+| `KNUTS2` | Koulutuksen sijaintikunnan  suuralue | — | — | — |
+| `KKUN` | Koulutuksen sijaintikunta | — | kunta_1_1995_01_01 | — |
+| `AIKOUL` | Nuorten/aikuisten koulutus | — | — | — |
+| `KRYH` | Koulutusryhmä | — | — | — |
+| `KOTISEUT` | Kotikunnan seutukunta | — | seutukunta_1_1995_01_01 | — |
+| `KOTIKRYH` | Kotikunnan kuntaryhmitys | — | — | — |
+| `KOTNUTS3` | Kotimaakunta | — | maakunta_1_1995_01_01 | — |
+| `KOTNUTS2` | Kotikunnan suuralue | — | — | — |
+| `KOTIKUN` | Kotikunta | — | kunta_1_1995_01_01 | — |
+| `OPASTEU` | Opetushallinnon koulutusaste | — | — | — |
+| `OPALAU` | Opetushallinnon opintoala | — | opintoala_1_1997_01_01 | — |
+| `KLOHKOU` | Opetushallinnon koulutusala | — | — | — |
+| `ATKDU` | Unescon koulutuksen suunniteltu kesto | — | isced_5_1997_01_01 | — |
+| `ATKST` | Unescon kansallinen tutkintorakenne | — | isced_4_1997_01_01 | — |
+| `ATKOR` | Unescon suuntautumisluokitus | — | isced_3_1997_01_01 | — |
+| `ATKDE` | Unescon sijoittumistavoiteluokitus | — | isced_6_1997_01_01 | — |
+| `ATKFI` | Unescon koulutusala | — | isced_ala_1_1997_01_01 | — |
+| `ATKLE` | Unescon koulutusaste | — | isced_aste_1_1997_01_01 | — |
+| `KOULK` | Tilastokeskuksen koulutuskoodi | — | koulutus_1_1997_01_01 | — |
+| `KOULK5` | Koulutuskoodi | — | koulutus_1_1995_01_01 | — |
+| `OMIST` | Oppilaitoksen omistajatyyppi | — | — | — |
+| `SUUNTV` | Yliopisto-opintojen suuntautumisvaihtoehto | — | — | — |
+| `OPTAR` | Yliopisto-opintojen tarkoitus | — | — | — |
+| `OPS` | Yliopistokoulutuksen pääaine/koulutusohjelma | — | — | — |
+| `TIED` | Tiedekunta/osasto | — | — | — |
+| `KIRTU` | Kirjoihintuloaika yliopistoon | — | — | — |
+| `UUSIOPIS` | Yliopiston uusi opiskelija | — | — | — |
+| `KIELI` | Äidinkieli | — | — | — |
+| `KANS` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
+| `SP` | Sukupuoli | — | — | — |
+| `FIELD` | Isced field | — | isced_ala_1_1995_01_01 | — |
+| `LEVEL` | Isced level | — | isced_aste_1_1995_01_01 | — |
+| `LOAIKA` | Opintolinjan päättymisaika | — | — | — |
+| `ALAIKA` | Opintolinjan alkamisajankohta | — | — | — |
+| `OPASTE` | Opintoaste | — | opintoala_1_1995_01_01 | — |
+| `KLOHKO` | Koulutuslohko | — | opintoala_1_1995_01_01 | — |
+| `OPALA` | Opintoala | — | opintoala_1_1995_01_01 | — |
+| `APUK` | Koulutuskoodin apukoodi | — | koulutus_1_1995_01_01 | — |
+| `TYYPPI` | Oppilaitostyyppi | — | oppilaittostyyp_1_1995_01_01 | — |
+| `OPAIKA` | Opetusaika | — | — | — |
+| `LINTY` | Ammatillisen koulutuksen linjatyyppi | — | — | — |
+| `AKK` | Väliaikaisen ammattikorkeakoulun koodi | — | — | — |
+| `LUOK` | Erikoistumislinjan aloittaminen ammatillisessa ja ammattikorkeakoulutuksessa | — | — | — |
+
+### Variable definitions
+
+#### `s_oltunn` — Tilastokeskuksen suojattu oppilaitostunnus
+
+#### `shnro` — Tilastokeskuksen suojattu henkilönumero
+
+#### `IKA` — Ikä vuosina
+
+Ikä vuosina 31.12.1995. 
+bl = tieto puuttuu
+
+#### `TILV` — Aineistovuosi
+
+#### `KSEUTU` — Koulutuksen sijaintikunnan 
+seutukunta
+
+**Classification:** seutukunta_1_1995_01_01
+
+TK:n alueluokitus
+. 999=ei tietoa
+(NUTS4)
+
+#### `KKUNRYH` — Koulutuksen sijaintikunnan 
+kuntaryhmä
+
+TK:n alueluokitus. 
+1=Kaupunkimaiset kunnat, 
+2=Taajaan asutut kunnat, 
+3=Maaseutumaiset kunnat, 
+9=Ei tietoa
+
+#### `KNUTS3` — Koulutuksen sijaintimaakunta
+
+**Classification:** maakunta_1_1995_01_01
+
+TK:n alueluokitus. 
+99=ei tietoa
+
+#### `KNUTS2` — Koulutuksen sijaintikunnan 
+suuralue
+
+TK:n alueluokitus. 
+1=Uusimaa, 
+2=Etelä-Suomi, 
+3=Itä-Suomi, 
+4=Väli-Suomi
+, 5=Pohjois-Suomi, 
+6=Ahvenanmaa, 
+9=Ei tietoa
+
+#### `KKUN` — Koulutuksen sijaintikunta
+
+**Classification:** kunta_1_1995_01_01
+
+VRK:n kuntakoodi. 
+999=ei tietoa
+
+#### `AIKOUL` — Nuorten/aikuisten koulutus
+
+1=nuorten koulutus, 
+2=aikuisten koulutus
+
+#### `KRYH` — Koulutusryhmä
+
+21=Päivälukiokoulutus, 
+22=Aikuislukiokoulutus
+, 31=Toisen asteen ammatillinen koulutus, 
+41=Ammattikorkeakoulutus, vakinaiset
+. Järjestäjänä vakinainen ammattikorkeakoulu, 
+42=Ammattikorkeakoulutus, väliaikaiset
+. Järjestäjänä väliaikainen ammattikorkeakoulu
+, 51=Yliopistokoulutus
+
+#### `KOTISEUT` — Kotikunnan seutukunta
+
+**Classification:** seutukunta_1_1995_01_01
+
+31.12.1995, TK:n alueluokitus
+. 999=ei tietoa
+(NUTS4)
+
+#### `KOTIKRYH` — Kotikunnan kuntaryhmitys
+
+31.12.1995, TK:n alueluokitus
+. 1=Kaupunkimaiset kunnat
+, 2=Taajaan asutut kunnat
+, 3=Maaseutumaiset kunnat
+, 9=Ei tietoa
+
+#### `KOTNUTS3` — Kotimaakunta
+
+**Classification:** maakunta_1_1995_01_01
+
+31.12.1995, TK:n alueluokitus
+. 99=ei tietoa
+
+#### `KOTNUTS2` — Kotikunnan suuralue
+
+31.12.1995, TK:n alueluokitus. 
+1=Uusimaa, 
+2=Etelä-Suomi, 
+3=Itä-Suomi, 
+4=Väli-Suomi
+, 5=Pohjois-Suomi, 
+6=Ahvenanmaa, 
+9=Ei tietoa
+
+#### `KOTIKUN` — Kotikunta
+
+**Classification:** kunta_1_1995_01_01
+
+Opiskelijan kotikunta 31.12.1995
+. VRK:n kuntakoodi
+, 200=ulkomaalainen, 
+999=ei tietoa
+
+#### `OPASTEU` — Opetushallinnon koulutusaste
+
+Opetushallinnon koulutusaste 1997. 
+0 = Aste eriytymättä, 
+1 = Toinen aste, 
+2 = Opistoaste, 
+3 = Ammatillinen korkea-aste, 
+4 = Ammattikorkeakoulututkinto, 
+5 = Alempi korkeakoulututkinto, 
+6 = Ylempi korkeakoulututkinto, 
+7 = Lisensiaattitutkinto, 
+8 = Tohtorin tutkinto, 
+9 = Muu tai tuntematon koulutusaste
+
+#### `OPALAU` — Opetushallinnon opintoala
+
+**Classification:** opintoala_1_1997_01_01
+
+Opetushallinnon opintoala 1997
+
+#### `KLOHKOU` — Opetushallinnon koulutusala
+
+Opetushallinnon koulutusala 1997. 0 = Yleissivistävä koulutus, 1 = Luonnonvara-ala, 2 = Tekniikan ja liikenteen ala, 3 = Kaupan ja hallinnon ala, 4 = Matkailu-, ravitsemis- ja talousala, 5 = Sosiaali- ja terveysala, 6 = Kulttuuriala, 7 = Humanistinen ja opetusala, 9 = Muu koulutus
+
+#### `ATKDU` — Unescon koulutuksen suunniteltu kesto
+
+**Classification:** isced_5_1997_01_01
+
+ISCED 1997, Duration
+
+#### `ATKST` — Unescon kansallinen tutkintorakenne
+
+**Classification:** isced_4_1997_01_01
+
+ISCED 1997, National degree structure
+
+#### `ATKOR` — Unescon suuntautumisluokitus
+
+**Classification:** isced_3_1997_01_01
+
+ISCED 1997, Orientation
+
+#### `ATKDE` — Unescon sijoittumistavoiteluokitus
+
+**Classification:** isced_6_1997_01_01
+
+ISCED 1997, Destination
+
+#### `ATKFI` — Unescon koulutusala
+
+**Classification:** isced_ala_1_1997_01_01
+
+ISCED 1997, Field
+
+#### `ATKLE` — Unescon koulutusaste
+
+**Classification:** isced_aste_1_1997_01_01
+
+ISCED 1997
+
+#### `KOULK` — Tilastokeskuksen koulutuskoodi
+
+**Classification:** koulutus_1_1997_01_01
+
+Tilastokeskuksen koulutusluokitus 1997
+
+#### `KOULK5` — Koulutuskoodi
+
+**Classification:** koulutus_1_1995_01_01
+
+Koulutusluokitus 1995
+
+#### `OMIST` — Oppilaitoksen omistajatyyppi
+
+TK:n oppilaitosluokitus 31.12.1995. 1 = yksityinen, 2 = valtio, 3 = kunta, 4 = kuntayhtymä, 5 = Ahvenanmaa, 9 = muu
+
+#### `SUUNTV` — Yliopisto-opintojen suuntautumisvaihtoehto
+
+#### `OPTAR` — Yliopisto-opintojen tarkoitus
+
+Korkeakouluopiskelijan opintojen tarkoitus
+          
+011=maat.- ja metsätiet. tri 
+012=eläinlääketiet.tri
+021=maat.- ja metsätiet. lis. 
+022=eläinlääketiet.lis.
+031=maat.- ja metsätiet. maisteri /maat.- ja metsätiet. kand. (ylempi)
+032=eläinlääketiet.kand.
+033=maat.- ja metsätiet. kand. (alempi)	041=agronomi
+042=metsätutkinto 
+110=tekniikan tri
+120=tekniikan lis. 
+130=dipl.ins. 
+139=arkkitehti 
+140=maisema-arkkitehti 
+211=kauppatiet.tri 
+221=kauppatiet.lis.  
+231=kauppatiet. maisteri / kauppatiet. kand. (ylempi)
+232=kauppatieteiden kandidaatti (alempi)
+241=kirjeenvaihtaja  
+242=ekonomi (alempi) 
+243=akateeminen sihteeri 
+247=ekonomi (ylempi)
+310=taloustiet. tri
+311=teologian tri 
+312 =oikeustiet.tri  
+313=hallintotiet.tri 
+316=valtiotiet.tri 
+317=kasvatustiet.tri 
+318=liikuntatiet.tri
+319=yhteiskuntatiet.tri 
+320=taloustiet.lis.  
+321=teologian lis.  
+322=oikeustiet.lis. 
+323=hallintotiet.lis.  
+326=valtiotiet.lis.   
+327=kasvatustiet.lis. 
+328=liikuntatiet.lis. 
+329=yhteiskuntatiet.lis. 
+330=taloustiet.kand.  
+331=teologian maisteri /teologian kand. (ylempi)  
+332=oikeustiet.kand. 
+333=hallintotiet. maisteri /hallintotiet. kand. (ylempi)  
+336=valtiotiet. maisteri /valtiotiet. kand. (ylempi)   
+337=kasvatustiet. maisteri /kasvatustiet. kand. (ylempi)  
+338=liikuntatiet. maisteri /liikuntatiet. kand. (ylempi)  
+339=yhteiskuntatiet. maisteri /yhteiskuntatiet. kand. (ylempi) 
+343=taloudell.-hallinn. tutk.  
+345=luonnontiet.kand. 
+348=teatteritutkinto  
+350=varanotaari 
+351=oikeusnotaari
+370=kirjastotutkinto  
+372=kunnallistutk., sosionomi 
+373=nuorisotyön tutkinto  
+375=sos.huolt.tutk., sosionomi  
+376=verovirkamiestutkinto  
+377=yhteiskunnallinen tutkinto    
+378=sosiaalivakuutustutk.  
+379=hallintovirkamiestutkinto  
+380=toimittajatutk., sosionomi  
+382=sos.huolt., avohuolto  
+383=sos.huolt., laitoshuolto 
+385=sos.huolt., kuraattorityö 
+386=yl.vakuutustutk., sos.vak. 
+387=yl.vakuutustutk., yks.vak. 
+391=sosiaaliturvan perustutk.  
+392=vak.alan perustutk., sos.vak 
+393=vak.alan perustutk., yks.vak  
+411=lääketiet.tri  
+412=hammaslääketiet. tri                   
+414=farmasian tri                          
+421=lääketiet. lis.                         
+422=hammaslääketiet. lis.                
+424=farmasian lis.                         
+431=lääketiet. kand.                        
+432=hammaslääketiet. kand.
+433=proviisori                             
+434=farmasian kand.                        
+443=farmaseutti                            
+444=farmaseutti                            
+631=psykologian kandidaatti (alempi)
+632=psykologian maisteri /psykologian kand. (ylempi)                      
+633=psykologian lis.                       
+634=psykologian tri  
+641=liikuntakasv. kand.                    
+651=kuvaamataidonopettaja                  
+655=apukoulunopettaja                      
+657=kotitalousopettaja                    
+658=käsityönopettaja                       
+659=lastentarhanopettaja                  
+670=erityisopettaja                        
+673=peruskoulun luokanopettaja             
+674=erityislastentarhanopett.             
+675=kuulovammaisten opettaja               
+676=puluki-häir. opettaja                  
+677=näkövammaisten opettaja                
+678=opinto-ohjaaja                         
+679=puhehäiriöisten opettaja               
+680=tarkkailuluokan opettaja               
+681=kotital tekst.käsit.opett.             
+682=kehitysvammaisten opettaja            
+683=teknisen käsityön opettaja            
+684=erityisluokanopettaja                  
+701=hum. kand.                        
+702=fil. maisteri /fil. kand.                
+703=fil. lis.                               
+704=fil. tri                               
+711=vakuutusalan perustutkinto             
+712=yleinen vakuutustutkinto               
+714=terveydenhuollon kand.                
+715=terveydenhuollon lis.                  
+716=terveydenhuollon tri                   
+717=elintarviketiet. maisteri / elintarviketiet. kand. (ylempi) 
+718=elintarviketiet. lis.                  
+719=elintarviketiet. tri                   
+720=teatteritaiteen maisteri /teatteritaiteen kand. (ylempi)                  
+721=teatteritaiteen lis.                  
+722=teatteritaiteen tri                   
+725=dipl. kielenkääntäjä                   
+726=erikoishammaslääkäri                   
+727=erikoislääkäri (6 v.)                  
+728=erikoiseläinlääkäri                    
+730=ortod. kirkon kanttori                 
+731=ortod. kirkon pappi           
+732=yht. kand. (alempi)                    
+733=valt. kand. (alempi)                   
+734=erikoislääkäri (8 v.)                  
+735=hallintot. kand.(alempi)               
+736=liikuntat. kand.(alempi)
+737=teatteritaiteen kand. (alempi)              
+738=elintarviketiet. kand. (alempi)
+801=elokuvatyöntekijä                     
+802=graafikko                              
+803=lavastaja                              
+804=valokuvaaja                            
+805=keraamikko                             
+806=sisustusarkkitehti                     
+807=teollinen muotoilija                   
+808=tekstiilisuunnittelija                 
+809=vaatetussuunnittelija                  
+810=yl.linjan tutk. koul.kesk.              
+811=graafikko (koul.keskus)               
+812=sisustusneuvoja                        
+813=valokuvaaja (koul.keskus)              
+814=kirjapainotyöntekijä                   
+815=sib.akat. dipl.t. (teoria)        
+816=sib.akat. dipl.t. (soitto)             
+817=musiikinjohtaja                        
+818=ylempi musiikinopettaja                
+819=ylempi kanttori-urkuri                 
+820=mus.teorianopettaja                    
+821=sib.akat. päästöt.(teoria)             
+822=sotilaskapellimestari                  
+823=sib.akat. päästöt.(soitto)             
+824=yksinlaulunopettaja                    
+825=soitonopettaja                         
+826=musiikinopettaja                       
+827=kanttori-urkuri                        
+828=soittoryhmän johtaja                   
+830=taiteen maisteri /taiteen kand.(ylempi)                  
+831=taiteen lis.                           
+832=taiteen tri.                           
+833=näyttelijä                             
+834=ohjaaja                                
+835=dramaturgi                             
+836=musiikin maisteri / musiikin kand. (ylempi) 
+837=musiikin lis.                                            
+838=musiikin tri
+839=tanssitaiteen maisteri /tanssitaiteen kand. (ylempi)
+840=tanssitaiteen lis.
+841=tanssitaiteen tri
+843=oopperalaulaja
+844=kuvataiteen tutkinto
+845=kuvataideakatemian loppututkinto
+846=kuvataideakatemian päästötodistus
+847=taiteen kand. (alempi)
+848=tanssitaiteen kand. (alempi)
+849=teologian kand. (alempi)
+850=kasvatustiet. kand. (alempi)
+851=musiikin kandidaatti (alempi)
+
+901=Erilliset arvosanat ja opintokokonaisuudet, kuulustelut ja kurssit                                                                     
+904=Erilliset aineenopettajan kasvatustieteelliset opinnot
+910=Erilliset opinnot, jotka aiotaan sisällyttää toisessa kotimaisessa korkeakoulussa tai muussa oppilaitoksessa                          
+suoritettavaan tutkintoon
+912=Ammatillisten oppilaitosten ja kansan- ja kansalaisopistojen opettajille tarkoitetut erilliset kasvatustieteel-liset opinnot
+914=Erikoislääkärin koulutus, suppea ala, vuodesta 1994 lähtien tutkintoon johtavaa koulutusta
+915=Erilliset opinnot ulkomaalaisena vaihto-opiskelijana, tai muut ulkomaalaisten opiskelijoiden määräaikai-seen opiskeluoikeuteen pohjautuvat opinnot
+918=Ulkomaalaisen tutkinnon pohjalta tapahtuva pätevöitymiskoulutus
+919=Kansainväliset koulutukset ja opinto-ohjelmat
+921=Erikoisproviisorin koulutus
+922=Kelpoisuus- ja pätevoitymiskoulutus tai muu täydennyskoulutus erilaisen pohjakoulutuksen omaaville henkiloille
+997=Muu koulutus, joka ei johda tutkintoon
+998=Ei tutkintoon johtava koulutus tuntematon
+
+#### `OPS` — Yliopistokoulutuksen pääaine/koulutusohjelma
+
+#### `TIED` — Tiedekunta/osasto
+
+Korkeakoulun ja tiedekunnan koodia käytettävä yhdessä, jotta saadaan kunkin korkeakoulun tiedekuntaa koskevat tiedot.
+Tieto on vain korkeakouluopiskelijoilla, muilla tieto on blanco.
+
+01 HELSINGIN YLIOPISTO
+     01 Teologinen tiedekunta
+     02 Oikeustieteellinen tiedekunta
+     03 Lääketieteellinen tiedekunta
+     04 Humanistinen tiedekunta
+         41 Kouvolan kääntäjänkoulutuslaitos
+     05 Matemaattis- luonnontieteellinen tiedekunta
+     06 Kasvatustieteellinen tiedekunta
+     07 Valtiotieteellinen tiedekunta
+         71 Svenska social- och kommunalhögskolan
+     08 Maatalous- metsätieteellinen tiedekunta
+     09 Eläinlääketieteellinen tiedekunta
+
+02 TURUN YLIOPISTO
+     01 Humanistinen tiedekunta
+     02 Yhteiskuntatieteellinen tiedekunta
+     03 Matemaattis-luonnontieteellinen tiedekunta
+     04 Lääketieteellinen tiedekunta
+     06 Oikeustieteellinen tiedekunta
+     07 Kasvatustieteiden tiedekunta
+         08 Turun opettajankoulutuslaitos
+         09 Rauman opettajankoulutuslaitos
+
+03 ÅBO AKADEMI
+     01 Humanistiska fakulteten
+     02 Matematisk-naturvetenskapliga fakulteten
+     03 Ekonomisk-statsvetenskapliga  fakulteten
+     04 Kemisk-tekniska fakulteten
+     05 Teologiska fakulteten
+     06 Pedagogiska fakulteten (Vasa)
+     07 Samhälls- och vårdvetenskapliga fakulteten (Vasa)
+
+ 04 OULUN YLIOPISTO
+     01Humanistinen tiedekunta
+     02 Luonnontieteellinen tiedekunta
+     03 Teknillinen tiedekunta
+     04 Lääketieteellinen tiedekunta
+     05 Kasvatustieteiden tiedekunta
+          06 Oulun opettajankoulutuslaitos
+          07 Kajaanin opettajankoulutuslaitos
+
+ 05 TAMPEREEN YLIOPISTO
+     01 Yhteiskuntatieteellinen tiedekunta
+     02 Humanistinen tiedekunta
+     03 Taloudellis-hallinnollinen tiedekunta
+     09 Lääketieteellinen tiedekunta
+     10 Kasvatustieteiden tiedekunta
+         11 Tampereen opettajankoulutuslaitos
+         12 Hämeenlinnan opettajankoulutuslaitos
+     13 Tampereen yliopiston opetusjaosto
+
+06 JYVÄSKYLÄN YLIOPISTO
+     10 Humanistinen tiedekunta
+     20 Yhteiskuntatieteellinen tiedekunta
+     30 Matemaattis-luonnontieteellinen tiedekunta
+     41 Liikuntatieteellinen tiedekunta
+     50 Kasvatustieteiden tiedekunta
+   
+07 TEKNILLINEN KORKEAKOULU
+     01 Tietotekniikan osasto
+     02 Sähkötekniikan osasto
+     03 Konetekniikan osasto
+     04 Prosessi- ja materiaalitekniikan osasto
+     05 Rakennus- ja maanmittaustekniikan osasto
+     06 Arkkitehtiosasto
+
+08 ELÄINLÄÄKETIETEELLINEN  KORKEAKOULU
+     01 Eläinlääketieteelliset opinnot
+
+09 HELSINGIN KAUPPAKORKEAKOULU
+     01 Kauppatieteelliset opinnot
+
+10 SVENSKA HANDELSHÖGSKOLAN
+     01 Helsingfors
+     02 Vasa
+
+11 TURUN KAUPPAKORKEAKOULU
+     01 Kauppatieteelliset opinnot
+
+13 VAASAN YLIOPISTO
+     10 Humanistinen tiedekunta
+     20 Kaupallis-hallinnollinen tiedekunta
+     30 Kaupallis-tekninen tiedekunta
+     40 Yhteiskuntatieteellinen tiedekunta
+
+14 LAPPEENRANNAN TEKNILLINEN KORKEAKOULU
+     01 Konetekniikan osasto
+     02 Energiatekniikan osasto
+     03 Tuotantotalouden osasto
+     04 Kemiantekniikan osasto
+     05 Tietotekniikan osasto
+     06 Kauppatieteiden osasto
+
+15 TAMPEREEN TEKNILLINEN KORKEAKOULU
+     01 Arkkitehtuurin osasto
+     02 Konetekniikan osasto
+     03 Rakennustekniikan osasto
+     04 Sähkötekniikan osasto
+     05 Materiaalitekniikan osasto
+     06 Tietotekniikan osasto
+
+16 KUOPION YLIOPISTO
+     01 Lääketieteellinen tiedekunta
+     02 Hammaslääketieteellinen tiedekunta
+     03 Farmaseuttinen tiedekunta
+     04 Luonnontieteiden ja  ympäristötieteiden tiedekunta
+     06 Yhteiskuntatieteellinen tiedekunta
+
+17 JOENSUUN YLIOPISTO
+     10 Kasvatustieteiden tiedekunta
+          12 Savonlinnan opettajankoulutuslaitos
+     20 Humanistinen tiedekunta
+          21 Kansainvälisen viestinnän laitos
+     30 Yhteiskuntatieteiden tiedekunta
+     40 Matemaattis-luonnontieteellinen tiedekunta
+     50 Metsätieteellinen tiedekunta
+
+19 SIBELIUS-AKATEMIA
+     01 Helsinki
+     02 Kuopio
+     03 Turku
+     04 Oulu
+     05 Joensuu
+
+20 TAIDETEOLLINEN KORKEAKOULU
+     01 Yleisen opetuksen osasto
+     02 Taidekasvatuksen osasto
+     03 Kuvallisen viestinnän osasto
+     04 Tuote- ja ympäristösuunnittelun osasto
+     05 Koulutuskeskus
+
+21 LAPIN YLIOPISTO
+     01 Kasvatustieteiden tiedekunta
+     02 Oikeustieteiden tiedekunta
+     03 Yhteiskuntatieteiden tiedekunta
+     04 Täydennyskoulutuskeskus
+     05 Taiteiden tiedekunta
+
+22 TEATTERIKORKEAKOULU
+     01 Näyttelijäntyön laitos
+     02 Ohjaajantyön ja dramaturgian laitos
+     04 Svenska institutionen
+     05 Koulutuskeskus
+     06 Tanssitaiteen laitos
+     07 Valo- ja äänisuunnittelun laitos
+
+23 KUVATAIDEAKATEMIA
+     01 Maalaustaiteen laitos
+     02 Kuvanveiston laitos
+     03 Taidegrafiikan laitos
+     04 Tila-aikateosten laitos
+     05 Yleisen opetuksen laitos
+
+#### `KIRTU` — Kirjoihintuloaika yliopistoon
+
+1 = kevät, 2 = syksy
+
+#### `UUSIOPIS` — Yliopiston uusi opiskelija
+
+#### `KIELI` — Äidinkieli
+
+Huom! VRK:n kieliluokitus (eri kuin 2-kirjaiminen tunnus (ISO 639-standardi)), 99 = ei tietoa. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+
+#### `KANS` — Kansalaisuus
+
+**Classification:** valtio_11_1970_01_01
+
+VRK:n valtioluokitus (on eri kuin ISO 3166-standardi), 999 = ei tietoa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
+
+#### `SP` — Sukupuoli
+
+1 = mies, 2 = nainen
+
+#### `FIELD` — Isced field
+
+**Classification:** isced_ala_1_1995_01_01
+
+Isced field 1995
+
+#### `LEVEL` — Isced level
+
+**Classification:** isced_aste_1_1995_01_01
+
+Isced level 1995
+
+#### `LOAIKA` — Opintolinjan päättymisaika
+
+Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan päättymisaika ppkkvv.
+
+#### `ALAIKA` — Opintolinjan alkamisajankohta
+
+Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan alkamisajankohta ppkkvv.
+
+#### `OPASTE` — Opintoaste
+
+**Classification:** opintoala_1_1995_01_01
+
+Opintoala- ja asteavain 1995
+
+#### `KLOHKO` — Koulutuslohko
+
+**Classification:** opintoala_1_1995_01_01
+
+Opintoala- ja asteavain 1995
+
+#### `OPALA` — Opintoala
+
+**Classification:** opintoala_1_1995_01_01
+
+Opintoala- ja asteavain 1995
+
+#### `APUK` — Koulutuskoodin apukoodi
+
+**Classification:** koulutus_1_1995_01_01
+
+Koulutusluokitus 1995
+
+#### `TYYPPI` — Oppilaitostyyppi
+
+**Classification:** oppilaittostyyp_1_1995_01_01
+
+Oppilaitostyyppiluokitus 1995
+
+#### `OPAIKA` — Opetusaika
+
+Ammatillisen ja ammattikorkeakoulukoulutuksen opintolinjan opetusaika ilman harjoittelua 0,5 vuoden tarkkuudella.
+
+#### `LINTY` — Ammatillisen koulutuksen linjatyyppi
+
+Nuorten koulutus: 0=nuorten ammatillinen perustutkinto, 1=yleis-/aloitusjakso, 2=yleis-/aloitusjaksoon pohjautuva erikoistumislinja, 3=muu nuorten linja
+. Aikuiskoulutus: 4=Koulutusammattiin tai tutkintoon johtava aikuiskoulutuslinja, 6=aikuisten ammatillinen perustutkinto
+
+#### `AKK` — Väliaikaisen ammattikorkeakoulun koodi
+
+#### `LUOK` — Erikoistumislinjan aloittaminen ammatillisessa ja ammattikorkeakoulutuksessa
+
+1 = erikoistumislinjan aloittanut, m = muiden vuosien opiskelija
+
+---
+
+[← Back to catalogue](../../README.md)

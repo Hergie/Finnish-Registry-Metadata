@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 320 datasets, last upstream change 2026-09-07.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 325 datasets, last upstream change 2026-09-14.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -88,10 +88,13 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `EDUC_19961999_jua_harekamk_001.xml` | EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 1996-1999 | 1996-01-01 - 1999-12-31 | 255 | — | [→](./datasets/EDUC_19961999_jua_harekamk_001/README.md) |
 | `EDUC_1996_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1996 | 1996-01-01 - 1996-12-31 | 29 | — | [→](./datasets/EDUC_1996_jua_opisk_001/README.md) |
 | `EDUC_1997_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1997 | 1997-01-01 - 1997-12-31 | 55 | — | [→](./datasets/EDUC_1997_jua_opisk_001/README.md) |
+| `EDUC_1997_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1997 | — | 55 | — | [→](./datasets/EDUC_1997_jua_opiskk_001/README.md) |
 | `EDUC_19982007_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1998-2007 | — | 201 | — | [→](./datasets/EDUC_19982007_jua_tyhr19_001/README.md) |
 | `EDUC_1998_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1998 | 1998-01-01 - 1998-12-31 | 50 | — | [→](./datasets/EDUC_1998_jua_opisk_001/README.md) |
+| `EDUC_1998_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1998 | — | 50 | — | [→](./datasets/EDUC_1998_jua_opiskk_001/README.md) |
 | `EDUC_19992003_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 1999-2003 | 1999-01-01 - 2003-12-31 | 28 | — | [→](./datasets/EDUC_19992003_jua_harekyo_001/README.md) |
 | `EDUC_19992024_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1999 - 2024 | 1999-01-01 - 2024-12-31 | 86 | — | [→](./datasets/EDUC_19992024_jua_opisk_001/README.md) |
+| `EDUC_19992024_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1999–2024 | — | 86 | — | [→](./datasets/EDUC_19992024_jua_opiskk_001/README.md) |
 | `EDUC_20002004_jua_harekamk_001.xml` | EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 2000-2004 | 2000-01-01 - 2004-12-31 | 200 | — | [→](./datasets/EDUC_20002004_jua_harekamk_001/README.md) |
 | `EDUC_20042009_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 2004-2009 | 2004-01-01 - 2009-12-31 | 69 | — | [→](./datasets/EDUC_20042009_jua_harekyo_001/README.md) |
 | `EDUC_20052014_jua_harekamk_001.xml` | EDUC_HAREK Ammattikorkeakoulujen hakurekisteritiedot 2005-2014 | 2005-01-01 - 2014-12-31 | 351 | — | [→](./datasets/EDUC_20052014_jua_harekamk_001/README.md) |
@@ -112,7 +115,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `EDUC_20182025_jua_koskitoinennivel_001.xml` | EDUC_KOSKI_2ASTE -  Nivelvaihe | — | 28 | — | [→](./datasets/EDUC_20182025_jua_koskitoinennivel_001/README.md) |
 | `EDUC_20182025_jua_koskitoinenosaamisenhankkimistapa_001.xml` | EDUC_KOSKI_2ASTE -  Osaamisen_hankkimistapa | — | 11 | — | [→](./datasets/EDUC_20182025_jua_koskitoinenosaamisenhankkimistapa_001/README.md) |
 | `EDUC_20202024_jua_esiperus_001.xml` | EDUC_ESIPERUS Esi- ja perusopetus 2020 - 2024 | 2020-01-01 - 2024-12-31 | 25 | — | [→](./datasets/EDUC_20202024_jua_esiperus_001/README.md) |
-| `EDUC_20202024_jua_esiperusk_001.xml` | EDUC_ESIPERUS_K Esi- ja perusopetus 2020 - 2024 | 2020-01-01 - 2024-12-31 | 25 | — | [→](./datasets/EDUC_20202024_jua_esiperusk_001/README.md) |
+| `EDUC_20202024_jua_esiperusk_001.xml` | EDUC_ESIPERUS_KARK Esi- ja perusopetus 2020 - 2024 | 2020-01-01 - 2024-12-31 | 25 | — | [→](./datasets/EDUC_20202024_jua_esiperusk_001/README.md) |
 | `EDUC_2024_jua_VIRTA_001.xml` | EDUC_VIRTA Korkeakoulujen opiskelijarekisteri | - 2024-12-31 | 61 | — | [→](./datasets/EDUC_2024_jua_VIRTA_001/README.md) |
 | `EDUC_2024_jua_harek_001.xml` | EDUC_HAREK Korkeakoulujen hakutiedot, 2024 | 2024-01-01 - 2024-12-31 | 79 | — | [→](./datasets/EDUC_2024_jua_harek_001/README.md) |
 | `FIRMRDINNO_2018_jua_innovaatio_001.xml` | FIRM_RDINNO Innovaatiotutkimus 2018 (YA231) | 2016-01-01 - 2018-12-31 | 285 | 2,267 | [→](./datasets/FIRMRDINNO_2018_jua_innovaatio_001/README.md) |
@@ -214,15 +217,15 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FOLK_19872023_jua_aslii24_001.xml` | FOLK_ASLII Asuinliitto | 1987-12-31 - 2024-12-31 | 17 | — | [→](./datasets/FOLK_19872023_jua_aslii24_001/README.md) |
 | `FOLK_19872023_jua_perh24_001.xml` | FOLK_PERH Perheet | 1987-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19872023_jua_perh24_001/README.md) |
 | `FOLK_19872023_jua_tkt26_001.xml` | FOLK_TKT Työssäkäynti | 1987-12-31 - 2023-12-31 | 48 | — | [→](./datasets/FOLK_19872023_jua_tkt26_001/README.md) |
-| `FOLK_19872023_jua_tyosu25_001.xml` | FOLK_JAKSOT: työsuhde | 1987-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FOLK_19872023_jua_tyosu25_001/README.md) |
+| `FOLK_19872023_jua_tyosu25_001.xml` | FOLK_JAKSOTIEDOT: työsuhde | 1987-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FOLK_19872023_jua_tyosu25_001/README.md) |
 | `FOLK_19872024_jua_askun26_001.xml` | FOLK_ASKUN Asuntokunnat | 1987-12-31 - 2024-12-31 | 31 | — | [→](./datasets/FOLK_19872024_jua_askun26_001/README.md) |
 | `FOLK_19872024_jua_tutk26_001.xml` | FOLK_TUTK Tutkinnot | 1987-12-31 - 2024-12-31 | 22 | — | [→](./datasets/FOLK_19872024_jua_tutk26_001/README.md) |
 | `FOLK_19872025_jua_perus26_001.xml` | FOLK_PERUS Perustietoa väestöstä | 1987-01-01 - 2025-12-31 | 61 | — | [→](./datasets/FOLK_19872025_jua_perus26_001/README.md) |
-| `FOLK_19912023_jua_sijoi24_001.xml` | FOLK_JAKSOT: sijoitetut | 1991-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19912023_jua_sijoi24_001/README.md) |
-| `FOLK_19912023_jua_tyonh24_001.xml` | FOLK_JAKSOT: työnhakijat | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyonh24_001/README.md) |
-| `FOLK_19912023_jua_tyott24_001.xml` | FOLK_JAKSOT: työttömät | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyott24_001/README.md) |
-| `FOLK_19952024_jua_elake26_001.xml` | FOLK_JAKSOT: eläkejaksot | 1995-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19952024_jua_elake26_001/README.md) |
-| `FOLK_20052023_jua_tyovk24_001.xml` | FOLK_JAKSOT: työvoimakoulutus | 2005-01-01 - 2024-12-31 | 5 | — | [→](./datasets/FOLK_20052023_jua_tyovk24_001/README.md) |
+| `FOLK_19912023_jua_sijoi24_001.xml` | FOLK_JAKSOTIEDOT: sijoitetut | 1991-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19912023_jua_sijoi24_001/README.md) |
+| `FOLK_19912023_jua_tyonh24_001.xml` | FOLK_JAKSOTIEDOT: työnhakijat | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyonh24_001/README.md) |
+| `FOLK_19912023_jua_tyott24_001.xml` | FOLK_JAKSOTIEDOT: työttömät | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyott24_001/README.md) |
+| `FOLK_19952024_jua_elake26_001.xml` | FOLK_JAKSOTIEDOT: eläkejaksot | 1995-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19952024_jua_elake26_001/README.md) |
+| `FOLK_20052023_jua_tyovk24_001.xml` | FOLK_JAKSOTIEDOT: työvoimakoulutus | 2005-01-01 - 2024-12-31 | 5 | — | [→](./datasets/FOLK_20052023_jua_tyovk24_001/README.md) |
 | `FOLK_20192025_jua_VAKA_001.xml` | FOLK_VAKA | 2019-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FOLK_20192025_jua_VAKA_001/README.md) |
 | `INFRA_19872022_jua_sijainti_001.xml` | INFRA_SIJAINTI Sijaintitiedot | 1987-12-31 - 2025-12-31 | 8 | — | [→](./datasets/INFRA_19872022_jua_sijainti_001/README.md) |
 | `INFRA_19872025_jua_sijaintitarkka_001.xml` | INFRA_SIJAINTI_TARKKA Sijaintitiedot tarkka | 1987-12-31 - 2025-12-31 | 9 | — | [→](./datasets/INFRA_19872025_jua_sijaintitarkka_001/README.md) |
@@ -394,6 +397,8 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `YA261_201400_jua_perheyritykset_001.xml` | FIRM_FAMBUS Perheyritykset 2014 (YA261) | 2014-01-01 - 2014-12-31 | 37 | — | [→](./datasets/YA261_201400_jua_perheyritykset_001/README.md) |
 | `YA263_20112020_jua_kuormaautot_001.xml` | FIRM_TRANSP Tieliikenteen tavarankuljetukset (Perusaineisto), Kuorma-auton tiedot 2011-2020 (YA263) | 2011-01-01 - 2020-12-31 | 27 | — | [→](./datasets/YA263_20112020_jua_kuormaautot_001/README.md) |
 | `YA263_20112020_jua_matkajatavarat_001.xml` | FIRM_TRANSP Tieliikenteen tavarankuljetukset (Perusaineisto), Matka- ja tavaratiedot 2011–2020 (YA263) | 2011-01-01 - 2020-12-31 | 24 | — | [→](./datasets/YA263_20112020_jua_matkajatavarat_001/README.md) |
+| `educ_1995_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1995 | — | 50 | — | [→](./datasets/educ_1995_jua_opiskk_001/README.md) |
+| `educ_1996_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1996 | — | 29 | — | [→](./datasets/educ_1996_jua_opiskk_001/README.md) |
 | `ksyyt_197122_jua_kuolemansyyt_001.xml` | Kuolemansyyaineisto | 1971-01-01 - 2024-12-31 | 69 | 2,738,679 | [→](./datasets/ksyyt_197122_jua_kuolemansyyt_001/README.md) |
 | `vamuu_202400_jua_000_000.xml` | FOLK_VAEN | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
 | `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
@@ -406,4 +411,4 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 - 9 datasets (all SURVEY) list a placeholder sentinel variable (`emptyvariablenameforcossicreatedbycsmetaedit`) instead of a real variable list; it is filtered out.
 - **Person ID variable:** Taika currently documents the person-level identifier as `hid_e`. Older data deliveries used `shnro` — Statistics Finland renamed the variable. Some tables may still expose the identifier under other names.
 - **Withdrawn datasets:** when Taika drops a dataset the fetcher moves it to `withdrawn/<id>/` instead of deleting it, so metadata for superseded vintages stays greppable. `datasets/` therefore always mirrors Taika exactly; `withdrawn/` is everything it used to offer.
-- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 320 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.
+- **Generated file:** this `README.md` is produced by `build_catalogue.py` along with the 325 per-dataset `datasets/<id>/README.md` files. Do not edit by hand — changes will be overwritten on the next refresh.

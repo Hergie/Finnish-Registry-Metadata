@@ -1,4 +1,4 @@
-# FOLK_JAKSOT: eläkejaksot
+# FOLK_JAKSOTIEDOT: eläkejaksot
 
 - **Identifier:** `FOLK_19952024_jua_elake26_001.xml`
 - **DOI:** `tyokay_2012-03_2012-03-01_ain_0001`

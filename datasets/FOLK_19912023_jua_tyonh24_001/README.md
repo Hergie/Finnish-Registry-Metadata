@@ -1,4 +1,4 @@
-# FOLK_JAKSOT: työnhakijat
+# FOLK_JAKSOTIEDOT: työnhakijat
 
 - **Identifier:** `FOLK_19912023_jua_tyonh24_001.xml`
 - **DOI:** `tyokay_2012-03_2012-03-01_ain_0001`

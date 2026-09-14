@@ -1,4 +1,4 @@
-# FOLK_JAKSOT: sijoitetut
+# FOLK_JAKSOTIEDOT: sijoitetut
 
 - **Identifier:** `FOLK_19912023_jua_sijoi24_001.xml`
 - **DOI:** `tyokay_2012-03_2012-03-01_ain_0001`

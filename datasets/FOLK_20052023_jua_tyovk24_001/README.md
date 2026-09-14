@@ -1,4 +1,4 @@
-# FOLK_JAKSOT: työvoimakoulutus
+# FOLK_JAKSOTIEDOT: työvoimakoulutus
 
 - **Identifier:** `FOLK_20052023_jua_tyovk24_001.xml`
 - **DOI:** `tyokay_2012-03_2012-03-01_ain_0001`
