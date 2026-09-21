@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 325 datasets, last upstream change 2026-09-14.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 325 datasets, last upstream change 2026-09-21.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -30,7 +30,7 @@ So before relying on any definition in this archive:
 2. **If they differ, look in [`withdrawn/`](./withdrawn/README.md).** Superseded datasets are archived there rather than deleted, precisely so pinned projects keep their metadata. Each carries the date Taika dropped it.
 3. **Treat the data file as final authority.** If the metadata and the actual columns disagree, the file wins — check the real variable list before debugging your code.
 
-_14 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
+_15 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
 
 ## Usage
 
@@ -124,7 +124,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRMRDINNO_2024_jua_innovaatio_001.xml` | FIRM_RDINNO Innovaatiotutkimus 2024 | 2022-01-01 - 2024-12-31 | 199 | — | [→](./datasets/FIRMRDINNO_2024_jua_innovaatio_001/README.md) |
 | `FIRM_1985072022_jua_BANKRkonkurssit_001.xml` | FIRM_BANKR Konkurssit | 1985-01-01 - 2026-06-30 | 45 | — | [→](./datasets/FIRM_1985072022_jua_BANKRkonkurssit_001/README.md) |
 | `FIRM_1985_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1985 (YA231) | 1985-01-01 - 1985-12-31 | 147 | 962 | [→](./datasets/FIRM_1985_jua_rd_001/README.md) |
-| `FIRM_19862021_jua_FSSpaneeli_001.xml` | FIRM_FSS Tilinpäätöspaneeli 1986-2024 | 1986-01-01 - 2024-12-31 | 85 | — | [→](./datasets/FIRM_19862021_jua_FSSpaneeli_001/README.md) |
+| `FIRM_19862021_jua_FSSpaneeli_001.xml` | FIRM_FSS Tilinpäätöspaneeli 1986-2024 | 1986-01-01 - 2024-12-31 | 86 | — | [→](./datasets/FIRM_19862021_jua_FSSpaneeli_001/README.md) |
 | `FIRM_1987_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 1987 (YA231) | 1987-01-01 - 1987-12-31 | 175 | 1,081 | [→](./datasets/FIRM_1987_jua_rd_001/README.md) |
 | `FIRM_19882017_jua_empenthenkom_001.xml` | FIRM_EMPENT Yrityskohtaiset henkilöstöominaisuudet (YA241) | 1988-01-01 - 2018-12-31 | 36 | — | [→](./datasets/FIRM_19882017_jua_empenthenkom_001/README.md) |
 | `FIRM_19882018_jua_empestjwfl_001.xml` | FIRM_EMPEST Toimipaikkakohtainen työpaikka- ja työntekijävirta-aineisto | 1988-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FIRM_19882018_jua_empestjwfl_001/README.md) |
@@ -161,7 +161,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_2012_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2012 (YA231) | 2012-01-01 - 2012-12-31 | 317 | 4,684 | [→](./datasets/FIRM_2012_jua_rd_001/README.md) |
 | `FIRM_20132019_jua_COMMODraakaaineet_002.xml` | FIRM_COMMOD Hyödykkeet: aineet ja tarvikkeet 2013, 2015, 2017, 2019, 2021, 2023 | 2013-01-01 - 2023-12-31 | 11 | — | [→](./datasets/FIRM_20132019_jua_COMMODraakaaineet_002/README.md) |
 | `FIRM_20132020_jua_COMMODtuotteet_001.xml` | FIRM_COMMOD Hyödykkeet: tuotteet 2013 - 2023 | 2013-01-01 - 2023-12-31 | 16 | — | [→](./datasets/FIRM_20132020_jua_COMMODtuotteet_001/README.md) |
-| `FIRM_20132020_jua_FSS_001.xml` | FIRM_FSS Tilinpäätösaineisto 2013 -2020 (YA211) | 2013-01-01 - 2020-12-31 | 303 | — | [→](./datasets/FIRM_20132020_jua_FSS_001/README.md) |
+| `FIRM_20132020_jua_FSS_001.xml` | FIRM_FSS Tilinpäätösaineisto 2013-2020 | 2013-01-01 - 2020-12-31 | 304 | — | [→](./datasets/FIRM_20132020_jua_FSS_001/README.md) |
 | `FIRM_20132021_jua_FSS_001.xml` | FIRM_FSS Tilinpäätösaineisto 2021-2024 | 2021-01-01 - 2024-12-31 | 307 | — | [→](./datasets/FIRM_20132021_jua_FSS_001/README.md) |
 | `FIRM_2013_jua_rd_001.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen 2013 (YA231) | 2013-01-01 - 2013-12-31 | 321 | 4,744 | [→](./datasets/FIRM_2013_jua_rd_001/README.md) |
 | `FIRM_20142019_jua_ENVPROT_001.xml` | FIRM_ENVPROT Teollisuuden ympäristönsuojelumenot 2014-2019 | 2014-01-01 - 2019-12-31 | 36 | — | [→](./datasets/FIRM_20142019_jua_ENVPROT_001/README.md) |
@@ -215,12 +215,12 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FOLK_19832025_jua_muuttosuomimuu26_001.xml` | FOLK_MUUTTO_SUOMI_MUU Karkeat muuttotiedot tasolla Suomi/muu | 1983-01-01 - 2025-12-31 | 15 | — | [→](./datasets/FOLK_19832025_jua_muuttosuomimuu26_001/README.md) |
 | `FOLK_19872022_jua_tulo24_001.xml` | FOLK_TULO Tulotiedot | 1987-01-01 - 2024-12-31 | 34 | — | [→](./datasets/FOLK_19872022_jua_tulo24_001/README.md) |
 | `FOLK_19872023_jua_aslii24_001.xml` | FOLK_ASLII Asuinliitto | 1987-12-31 - 2024-12-31 | 17 | — | [→](./datasets/FOLK_19872023_jua_aslii24_001/README.md) |
-| `FOLK_19872023_jua_perh24_001.xml` | FOLK_PERH Perheet | 1987-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19872023_jua_perh24_001/README.md) |
 | `FOLK_19872023_jua_tkt26_001.xml` | FOLK_TKT Työssäkäynti | 1987-12-31 - 2023-12-31 | 48 | — | [→](./datasets/FOLK_19872023_jua_tkt26_001/README.md) |
 | `FOLK_19872023_jua_tyosu25_001.xml` | FOLK_JAKSOTIEDOT: työsuhde | 1987-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FOLK_19872023_jua_tyosu25_001/README.md) |
 | `FOLK_19872024_jua_askun26_001.xml` | FOLK_ASKUN Asuntokunnat | 1987-12-31 - 2024-12-31 | 31 | — | [→](./datasets/FOLK_19872024_jua_askun26_001/README.md) |
 | `FOLK_19872024_jua_tutk26_001.xml` | FOLK_TUTK Tutkinnot | 1987-12-31 - 2024-12-31 | 22 | — | [→](./datasets/FOLK_19872024_jua_tutk26_001/README.md) |
-| `FOLK_19872025_jua_perus26_001.xml` | FOLK_PERUS Perustietoa väestöstä | 1987-01-01 - 2025-12-31 | 61 | — | [→](./datasets/FOLK_19872025_jua_perus26_001/README.md) |
+| `FOLK_19872025_jua_perh26_001.xml` | FOLK  perhe | 1987-01-01 - 2025-12-31 | 15 | — | [→](./datasets/FOLK_19872025_jua_perh26_001/README.md) |
+| `FOLK_19872025_jua_perus26_001.xml` | FOLK perustieto | 1987-01-01 - 2025-12-31 | 61 | — | [→](./datasets/FOLK_19872025_jua_perus26_001/README.md) |
 | `FOLK_19912023_jua_sijoi24_001.xml` | FOLK_JAKSOTIEDOT: sijoitetut | 1991-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19912023_jua_sijoi24_001/README.md) |
 | `FOLK_19912023_jua_tyonh24_001.xml` | FOLK_JAKSOTIEDOT: työnhakijat | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyonh24_001/README.md) |
 | `FOLK_19912023_jua_tyott24_001.xml` | FOLK_JAKSOTIEDOT: työttömät | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyott24_001/README.md) |
@@ -293,8 +293,8 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `TEM_19912023_jua_tyopaikka_001.xml` | KEHA_Työpaikka: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2024-12-31 | 25 | 4,285,687 | [→](./datasets/TEM_19912023_jua_tyopaikka_001/README.md) |
 | `TON_19892024_jua_onnettomuudet_001.xml` | TONN_ONN Tieliikenneonnettomuudet - onnettomuusmoduuli | 1989-01-01 - 2024-12-31 | 51 | — | [→](./datasets/TON_19892024_jua_onnettomuudet_001/README.md) |
 | `TON_19892024_jua_onnettomuudetosalliset_001.xml` | TONN_ONN_OSALL Tieliikenneonnettomuudet - onnettomuudet ja osalliset -moduuli | 1989-01-01 - 2024-12-31 | 72 | — | [→](./datasets/TON_19892024_jua_onnettomuudetosalliset_001/README.md) |
-| `TRAFI_20132025_jua_ajoneuvo_001.xml` | TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli1 ajoneuvotiedot | 2013-01-01 - 2026-03-31 | 128 | — | [→](./datasets/TRAFI_20132025_jua_ajoneuvo_001/README.md) |
-| `TRAFI_20132025_jua_omistaja_002.xml` | TRAFI Moottoriajoneuvokannan aineisto, valmismoduuli 2  omistaja/haltijatiedot | 2013-01-01 - 2026-03-31 | 31 | — | [→](./datasets/TRAFI_20132025_jua_omistaja_002/README.md) |
+| `TRAFI_20132025_jua_ajoneuvo_001.xml` | TRAFI_AJONEUVO Moottoriajoneuvokannan ajoneuvotiedot | 2013-01-01 - 2026-03-31 | 128 | — | [→](./datasets/TRAFI_20132025_jua_ajoneuvo_001/README.md) |
+| `TRAFI_20132025_jua_omistaja_002.xml` | TRAFI_OMISTAJA Moottoriajoneuvokannan omistaja-/haltijatiedot | 2013-01-01 - 2026-03-31 | 31 | — | [→](./datasets/TRAFI_20132025_jua_omistaja_002/README.md) |
 | `TULLI_19992021_jua_commod_001.xml` | TULLI_COMMOD Tullin ulkomaankauppa hyödykkeittäin | 1999-01-01 - 2024-12-31 | 22 | — | [→](./datasets/TULLI_19992021_jua_commod_001/README.md) |
 | `TULLI_19992021_jua_enter_001.xml` | TULLI_ENTER Tullin ulkomaankauppa yrityksittäin | 1999-01-01 - 2024-12-31 | 10 | 418,299 | [→](./datasets/TULLI_19992021_jua_enter_001/README.md) |
 | `UTH_2014_jua_ATH17_001.xml` | UTH-aineisto 2014 (ATH-verrokin a-osio) | — | 17 | — | [→](./datasets/UTH_2014_jua_ATH17_001/README.md) |
@@ -304,10 +304,10 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `VAKA_20192024_jua_asiakkuus_001.xml` | VAKA_ASIAKKUUS - kuukausipäivitteiset Vardaan pohjautuvat varhaiskasvatustiedot | 2019-01-01 - 2026-08-25 | 38 | — | [→](./datasets/VAKA_20192024_jua_asiakkuus_001/README.md) |
 | `VAKA_20192026_jua_toimijaToimipaikkaSuppea_001.xml` | VAKA_TOIMIJA_TOIMIPAIKKA_SUPPEA - vuosipäivitteiset Vardaan pohjautuvat varhaiskasvatustoimija- ja -toimipaikkatiedot | 2019-01-01 - 2024-12-31 | 16 | — | [→](./datasets/VAKA_20192026_jua_toimijaToimipaikkaSuppea_001/README.md) |
 | `VAKA_20192026_jua_toimijaToimipaikka_001.xml` | VAKA_TOIMIJA_TOIMIPAIKKA - kuukausipäivitteiset Vardaan pohjautuvat varhaiskasvatustoimija- ja -toimipaikkatiedot | 2019-01-01 - 2026-03-31 | 26 | — | [→](./datasets/VAKA_20192026_jua_toimijaToimipaikka_001/README.md) |
-| `YA211_19861994_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 1986-1994 (YA211) | 1986-01-01 - 1994-12-31 | 84 | — | [→](./datasets/YA211_19861994_jua_tilinpaatos_001/README.md) |
-| `YA211_19941998_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 1994-1998 (YA211) | 1994-01-01 - 1998-12-31 | 107 | — | [→](./datasets/YA211_19941998_jua_tilinpaatos_001/README.md) |
-| `YA211_19992005_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 1999-2005 (YA211) | 1999-01-01 - 2005-12-31 | 96 | — | [→](./datasets/YA211_19992005_jua_tilinpaatos_001/README.md) |
-| `YA211_20062012_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 2006-2012 (YA211) | 2006-01-01 - 2012-12-31 | 99 | — | [→](./datasets/YA211_20062012_jua_tilinpaatos_001/README.md) |
+| `YA211_19861994_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 1986-1994 | 1986-01-01 - 1994-12-31 | 86 | — | [→](./datasets/YA211_19861994_jua_tilinpaatos_001/README.md) |
+| `YA211_19941998_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 1994-1998 | 1994-01-01 - 1998-12-31 | 109 | — | [→](./datasets/YA211_19941998_jua_tilinpaatos_001/README.md) |
+| `YA211_19992005_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 1999-2005 | 1999-01-01 - 2005-12-31 | 98 | — | [→](./datasets/YA211_19992005_jua_tilinpaatos_001/README.md) |
+| `YA211_20062012_jua_tilinpaatos_001.xml` | FIRM_FSS Tilinpäätösaineisto 2006-2012 | 2006-01-01 - 2012-12-31 | 101 | — | [→](./datasets/YA211_20062012_jua_tilinpaatos_001/README.md) |
 | `YA212_19741994_jua_teollisuustil_001.xml` | FIRM_PROD Teollisuustilaston aineisto 1974-1994 (YA212) | 1974-01-01 - 1994-12-31 | 165 | 166,060 | [→](./datasets/YA212_19741994_jua_teollisuustil_001/README.md) |
 | `YA212_19742011_jua_ldpm_001.xml` | FIRM_PROD Teollisuuden toimipaikkapaneeli LDPM (YA212) | 1974-01-01 - 2011-12-31 | 107 | 241,471 | [→](./datasets/YA212_19742011_jua_ldpm_001/README.md) |
 | `YA212_19952012_jua_teollisuustil_001.xml` | FIRM_PROD Teollisuuden rakennetilaston aineisto 1995-2012 (YA212) | 1995-01-01 - 2012-12-31 | 201 | 775,351 | [→](./datasets/YA212_19952012_jua_teollisuustil_001/README.md) |
@@ -354,7 +354,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `YA231_2012_jua_innovaatiot_002.xml` | FIRM_RDINNO Innovaatiotutkimus 2012 (YA231) | 2010-01-01 - 2012-12-31 | 157 | 2,554 | [→](./datasets/YA231_2012_jua_innovaatiot_002/README.md) |
 | `YA231_2014_jua_innovaatiot_002.xml` | FIRM_RDINNO Innovaatiotutkimus 2014 (YA231) | 2012-01-01 - 2014-12-31 | 178 | 2,414 | [→](./datasets/YA231_2014_jua_innovaatiot_002/README.md) |
 | `YA231_2016_jua_innovaatiot_002.xml` | FIRM_RDINNO Innovaatiotutkimus 2016 (YA231) | 2014-01-01 - 2016-12-31 | 238 | 2,267 | [→](./datasets/YA231_2016_jua_innovaatiot_002/README.md) |
-| `YA232_19852013_jua_patentithaetut_001.xml` | FIRM_PAT Suomessa haetut patentit (YA232) | 1985-01-01 - 2013-12-31 | 6 | 41,059 | [→](./datasets/YA232_19852013_jua_patentithaetut_001/README.md) |
+| `YA232_19852013_jua_patentithaetut_001.xml` | FIRM_PAT Suomessa haetut patentit | 1985-01-01 - 2013-12-31 | 6 | 41,059 | [→](./datasets/YA232_19852013_jua_patentithaetut_001/README.md) |
 | `YA233_20012010_jua_ictpaneeli_001.xml` | FIRM_ICT ICT-paneeli (YA233) | 2001-01-01 - 2010-12-31 | 31 | 33,111 | [→](./datasets/YA233_20012010_jua_ictpaneeli_001/README.md) |
 | `YA233_2002_jua_ict_001.xml` | FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2002 (YA233) | 2002-01-01 - 2002-12-31 | 150 | 3,091 | [→](./datasets/YA233_2002_jua_ict_001/README.md) |
 | `YA233_2003_jua_ict_001.xml` | FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2003 (YA233) | 2003-01-01 - 2003-12-31 | 152 | 3,279 | [→](./datasets/YA233_2003_jua_ict_001/README.md) |
@@ -399,7 +399,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `YA263_20112020_jua_matkajatavarat_001.xml` | FIRM_TRANSP Tieliikenteen tavarankuljetukset (Perusaineisto), Matka- ja tavaratiedot 2011–2020 (YA263) | 2011-01-01 - 2020-12-31 | 24 | — | [→](./datasets/YA263_20112020_jua_matkajatavarat_001/README.md) |
 | `educ_1995_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1995 | — | 50 | — | [→](./datasets/educ_1995_jua_opiskk_001/README.md) |
 | `educ_1996_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1996 | — | 29 | — | [→](./datasets/educ_1996_jua_opiskk_001/README.md) |
-| `ksyyt_197122_jua_kuolemansyyt_001.xml` | Kuolemansyyaineisto | 1971-01-01 - 2024-12-31 | 69 | 2,738,679 | [→](./datasets/ksyyt_197122_jua_kuolemansyyt_001/README.md) |
+| `ksyyt_197122_jua_kuolemansyyt_001.xml` | Kuolemansyyaineisto | 1971-01-01 - 2024-12-31 | 72 | 2,738,679 | [→](./datasets/ksyyt_197122_jua_kuolemansyyt_001/README.md) |
 | `vamuu_202400_jua_000_000.xml` | FOLK_VAEN | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
 | `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
 

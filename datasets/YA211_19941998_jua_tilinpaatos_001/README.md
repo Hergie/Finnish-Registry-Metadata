@@ -1,11 +1,11 @@
-# FIRM_FSS Tilinpäätösaineisto 1994-1998 (YA211)
+# FIRM_FSS Tilinpäätösaineisto 1994-1998
 
 - **Identifier:** `YA211_19941998_jua_tilinpaatos_001.xml`
 - **DOI:** `work_2017-07_2017-07-04_ain_0001`
 - **Temporal coverage:** 1994-01-01 - 1998-12-31
-- **Published:** 2017-08-10
+- **Published:** 2026-09-16
 - **Organisation:** Tilastokeskus
-- **Variable count:** 107
+- **Variable count:** 109
 - **Observation count:** —
 - **Population:** Tilastoyksikkönä on yritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu).
 - **Source:** Tilinpäätöstilaston aineisto perustuu verohallinnon elinkeinoverotusaineistoon ja Tilastokeskuksen yritystiedusteluun. 
@@ -26,11 +26,14 @@ EVR-aineiston käyttöön siirtymisen myötä vuoden 1994 osalta aineiston laatu
 
 Luvut ovat tuhansina markkoina.
 
-## Variables (107)
+## Variables (109)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `SYRTUN` | Suojattu yritystunnus | — | — | — |
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `yrtun2_s` | Suojattu korjattu yritystunnus | — | — | — |
+| `yritysid_s` | Suojattu yritysid | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `VUOSI` | vuosi | — | — | — |
 | `NTALAYR` | Toimialaluokitus 1995, yritysrekisteri | — | — | — |
 | `TILTU` | Tiedot suorasta kyselystä =1. Laatumuuttuja 1994-1998: Yritys kuuluu Tilastokeskuksen omaan suoraan kyselyyn, kun TILTU=1. Tiedot tarkistettu manuaalisesti. | — | — | — |
@@ -136,13 +139,24 @@ Luvut ovat tuhansina markkoina.
 | `VIENTEMU` | Vienti: Muut Emu-maat | — | — | — |
 | `YRT` | Yrt | — | — | — |
 | `MAAK` | Maakunta | — | — | — |
-| `SYRTUN2` | Suojattu korjattu yritystunnus | — | — | — |
 
 ### Variable definitions
 
-#### `SYRTUN` — Suojattu yritystunnus
+#### `yrtun_s` — Suojattu yritystunnus
 
 Alkuperäinen yritystunnus, sisältää myös henkilötunnusmuotoisia tunnuksia
+
+#### `yrtun2_s` — Suojattu korjattu yritystunnus
+
+Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.
+
+#### `yritysid_s` — Suojattu yritysid
+
+Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.
+
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.
 
 #### `VUOSI` — vuosi
 
@@ -353,10 +367,6 @@ Alkuperäinen yritystunnus, sisältää myös henkilötunnusmuotoisia tunnuksia
 #### `YRT` — Yrt
 
 #### `MAAK` — Maakunta
-
-#### `SYRTUN2` — Suojattu korjattu yritystunnus
-
-Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.
 
 ---
 

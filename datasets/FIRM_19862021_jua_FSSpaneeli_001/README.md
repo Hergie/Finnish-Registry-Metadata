@@ -5,7 +5,7 @@
 - **Temporal coverage:** 1986-01-01 - 2024-12-31
 - **Published:** 2019-01-23
 - **Organisation:** Tilastokeskus
-- **Variable count:** 85
+- **Variable count:** 86
 - **Observation count:** —
 - **Population:** Tilinpäätöstilasto sisältää kattavasti tiedot kaikista liikeyrityksistä lähes kaikilta toimialoilta. Joidenkin toimialojen osalta tietoja käytettäessä on kuitenkin huomioitava tietojen heikko laatutaso. Tilastoyksikkönä on itsenäinen liikeyritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien uusimuotoiset liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt sekä voittoa tavoittelemattomat yhteisöt. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu). Suorassa tiedonkeruussa ovat mukana kaikki yli 50 henkilöä työllistävät yritykset. Pienempien ja vastaamattomien yritysten tuloslaskelma- ja tasetiedot saadaan hallinnollisista aineistoista (elinkeinoverotusrekisteri) ja muut tiedot imputoidaan käyttäen hyväksi hallinnollisista aineistoista ja yritysrekisteristä saatuja tietoja ja oman tiedustelun tietoja. Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
 - **Source:** Tilastokeskuksen oma kysely (TILKES)
@@ -60,13 +60,14 @@ Aineistoa rajatessa kannattaa erityisesti huomioida laatukoodien merkitys havain
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Variables (85)
+## Variables (86)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `yritysid_s` | Suojattu yritysID | — | — | — |
 | `yrtun_s` | Alkuperäinen yritystunnus (suojattu) | — | — | — |
 | `yrtun2_s` | Uusi yritystunnus (suojattu) | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
 | `tol88` | Toimialaluokitus 1988, yritysrekisteri | — | toimiala_1_1988_01_01 | — |
 | `tol95` | Toimialaluokitus 1995, yritysrekisteri | — | toimiala_1_1995_01_01 | — |
@@ -163,6 +164,10 @@ Suojattu yritystunnus (pääasiallinen), oikeudellisen yksikön y-tunnus (linkit
 #### `yrtun2_s` — Uusi yritystunnus (suojattu)
 
 Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia. Toisistaan poikkeavia tunnuksia (YRTUN_S on eri kuin YRTUN2_S) on vuosina 1986-1998.
+
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.
 
 #### `vuosi` — Vuosi
 

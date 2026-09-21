@@ -25,6 +25,14 @@
       "variablegroups": null
     },
     {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "vuosi",
       "variablename": "Vuosi",
       "conceptdef": "Vuosi",

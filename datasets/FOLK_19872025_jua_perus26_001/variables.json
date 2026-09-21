@@ -33,6 +33,14 @@
       "variablegroups": "Vaestonmuutos"
     },
     {
+      "identifier": "sukup",
+      "variablename": "Sukupuoli",
+      "conceptdef": "Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa folk_perus_sukup_1. \n1 = Mies\n2 = Nainen",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "smkunta",
       "variablename": "Syntymämaakunta",
       "conceptdef": "Maakunta tuoreimman alueluokituksen mukainen.",
@@ -476,14 +484,6 @@
       "identifier": "auto_k",
       "variablename": "Henkilön omistama/hallitsema ajoneuvo",
       "conceptdef": "1 = on auton omistaja/haltija. Tietoja vuodesta 1990 lähtien vuoteen 2018 asti. ",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "sukup",
-      "variablename": "Sukupuoli",
-      "conceptdef": "Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa \"folk_perus_sukup_1\".\n\n1 = mies\n2 = nainen",
       "measunit": null,
       "classification": null,
       "variablegroups": null

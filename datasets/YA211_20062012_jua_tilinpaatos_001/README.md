@@ -1,11 +1,11 @@
-# FIRM_FSS Tilinpäätösaineisto 2006-2012 (YA211)
+# FIRM_FSS Tilinpäätösaineisto 2006-2012
 
 - **Identifier:** `YA211_20062012_jua_tilinpaatos_001.xml`
 - **DOI:** `work_2016-11_2016-11-22_ain_0001`
 - **Temporal coverage:** 2006-01-01 - 2012-12-31
 - **Published:** 2017-08-10
 - **Organisation:** Tilastokeskus
-- **Variable count:** 99
+- **Variable count:** 101
 - **Observation count:** —
 - **Population:** Tilastoyksikkönä on yritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu).
 - **Source:** Tilinpäätöstilaston aineisto perustuu verohallinnon elinkeinoverotusaineistoon ja Tilastokeskuksen yritystiedusteluun. Elinkeinoverotusaineisto sisältää kaikkien elinkeinoverotuslain alaisten yritysten ja ammatinharjoittajien tilinpäätöstiedot. Se on ollut Tilastokeskuksen käytettävissä vuodesta 1994 lähtien. Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
@@ -24,10 +24,13 @@ Tilinpäätöstilastot sisältävät tiettyjä toimialoja, joiden käytön suhte
 
 Luvut ovat euroina.
 
-## Variables (99)
+## Variables (101)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `yritysid_s` | Suojattu yritysid | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `VUOSI` | Tilastovuosi | — | — | — |
 | `TOL08YR` | Toimiala | — | toimiala_1_2008_01_01 | — |
 | `TOL08REK` | Toimiala (yrek) | — | toimiala_1_2008_01_01 | — |
@@ -125,10 +128,21 @@ Luvut ovat euroina.
 | `TUOMPVSK` | Tuotot muista pysyvien vast. sij. konsernin yrityksissä | — | — | — |
 | `RAKOMARA` | Arvonalentumiset pysyvien vastaavien sijoituksista | — | — | — |
 | `RAVOMARA` | Arvonalentumiset vaihtuvien vastaavien rahoitusarvopap. | — | — | — |
-| `syrtun` | Suojattu yritystunnus | — | — | — |
 | `VIENTIYH` | Vienti yhteensä | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu yritystunnus
+
+Suojattu yritystunnus
+
+#### `yritysid_s` — Suojattu yritysid
+
+Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.
+
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.
 
 #### `VUOSI` — Tilastovuosi
 
@@ -579,10 +593,6 @@ Arvonalentumiset pysyvien vastaavien sijoituksista. Sijoitusten arvonalentumiset
 #### `RAVOMARA` — Arvonalentumiset vaihtuvien vastaavien rahoitusarvopap.
 
 Arvonalentumiset vaihtuvien vastaavien rahoitusarvopapereista. Rahoitusarvopaperien arvonalentumiset ovat pysyvien  ja vaihtuvien vastaavien  sijoitusten ja lainasaamisten arvonalennuksia.
-
-#### `syrtun` — Suojattu yritystunnus
-
-Suojattu yritystunnus
 
 #### `VIENTIYH` — Vienti yhteensä
 

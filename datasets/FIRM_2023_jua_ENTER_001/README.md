@@ -9,7 +9,7 @@
 - **Observation count:** 580,397
 - **Population:** Yritykset. Yksilöintitunnuksena liiketunnus.
 - **Source:** Yritys- ja toimipaikkarekisteri
-- **Related:** <a href= "http://www.stat.fi/til/yrti/index.html">Yritysten rakenne- ja tilinpäätöstilasto</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_yritysrekisterin_yritykset.html">Yritysrekisterin yritykset</a>
+- **Related:** <a href= "https://stat.fi/fi/tilasto/yrti">Yritysten rakenne- ja tilinpäätöstilasto</a> <a href= "https://stat.fi/fi/dokumentaatio/tilastojen-dokumentaatio/yrti">Yritysten rakenne- ja tilinpäätöstilaston dokumentaatio</a>
 - **Keywords:** yritykset,yritysrekisteri
 
 ## Description
@@ -23,6 +23,10 @@ Verohallituksen eri rekistereistä saadaan yrityksen aloitus- ja lopetustiedot, 
 Yritysrekisterin tiedusteluilla kerätään vuosittain kaikkien monitoimipaikkaisten ja vähintään 20 henkilöä työllistävien yksitoimipaikkaisten yritysten tiedot. Alle 20 henkilöä työllistävistä yrityksistä tiedustellaan yksiköt, joilla tiedot hallinnollisten rekistereiden, kaupallisten aineistojen tai Tilastokeskuksen muiden tiedustelujen perusteella ovat muuttuneet. Perustetut yritykset sisällytetään yleensä tiedusteluun melko pian toiminnan aloittamisen jälkeen. Omista tiedusteluista saadaan muun muassa henkilöstön määrä, liikevaihto, toimiala ja sijaintikunta. Tiedusteluihin sisältymättömien yritysten henkilöstön määrä estimoidaan palkkatietojen perusteella. Palkansaajien määrä estimoidaan Verohallinnon verotusaineiston palkkatietojen perusteella. Yrittäjät estimoidaan kaikille yrittäjäeläkettä ja palkkaa maksaneille. Estimointimalli perustuu yritysten maksamiin palkkoihin, toimialaan sekä sen työntekijöiden taustatietoihin. Täydentävänä tietona käytetään myös liikevaihdon kuukausikuvaajien tietoja yritysten maksamista palkoista.
 
 <h3>Huomioitavaa</h3>
+
+***Tilastovuoden 2023 muutokset:
+Tilastoyksiköiden joukkoa laajennettiin vuonna 2023. Aiemmin tilastoyksiköiksi otettiin mukaan vain vähintään kuusi kuukautta tilastovuonna toimineet yritykset sekä kokorajat täyttävät yritykset. Toiminta-aika- sekä kokorajoituksista on luovuttu.
+
 ***Tilastovuoden 2022 muutokset:
   
 Aineistoon on lisätty uusi muuttuja EBSTilastoyksikko, joka korvaa tilastossa muuttujan VuosiTilastonYksikko. Muuttuja saa arvon 1, mikäli yritys toimii markkinaehtoisesti sekä sillä on liikevaihtoa, liiketoiminnan muita tuottoja, tasetta, henkilöstöä tai investointeja tilastovuonna.

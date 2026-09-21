@@ -1,9 +1,9 @@
-# FOLK_PERUS Perustietoa väestöstä
+# FOLK perustieto
 
 - **Identifier:** `FOLK_19872025_jua_perus26_001.xml`
 - **DOI:** `work_2017-11_2017-11-02_ain_0001`
 - **Temporal coverage:** 1987-01-01 - 2025-12-31
-- **Published:** 2020-08-28
+- **Published:** 2026-09-18
 - **Organisation:** Tilastokeskus
 - **Variable count:** 61
 - **Observation count:** —
@@ -11,41 +11,15 @@
 
 ## Description
 
-FOLK-henkilöaineiston perustietomoduuli sisältää monipuolisia väestötietoja, mukaan lukien demografisia tietoja sekä tietoja koulutuksesta, työssäkäynnistä, tuloista, asuntokunnista ja perheistä. 
+FOLK-henkilöaineiston perustietomoduuli sisältää väestörakenne-, tulo- ja työssäkäyntitilastojen tietoja sekä muutamia perhetilaston ja väestön koulutusrakennetilaston tietoja. Tiedot ovat kunkin vuoden lopusta ja yleensä vastaavat virallisia (SVT) tietoja julkaisuajankohtana. Niillä moduulin karkeistetuilla tiedoilla, joista on karkeistamaton tieto saatavissa toisesta FOLK-moduulista tai muualta Tilastokeskuksen tietovarannoista, on loppulyhenteenä _k tai _k2. 
 
-<b> Valmisaineiston tarkentava nimi </b> 
+Aineistossa on tietoja vuodesta 1987 lähtien vuoteen 2025 saakka. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvaukseen vuosiluvuilla lukuun ottamatta niitä edelleen päivittyviä tietoja, joiden päivitysaikataulu on muita tietoja myöhäisempi. Tällöin tämän tiedon viimeinen vuosi on merkitty muuttujankuvauksessa: (aineiston viimeinen vuosi - 1) tai (aineiston viimeinen vuosi - 2). 
 
-Henkilöaineiston perustiedot, sisältäen syntyperä- ja väestörakenne-, tulo-, työssäkäynti-, perhe- ja koulutustietoja, karkeistetulla kieli- ja kansalaisuustiedolla 
+Aineisto on tarkoitettu FIONA-etäpalvelun kautta käytettäväksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. 
 
-<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Vimeisimmät FOLK perustieto-aineistot ovat kansiossa FOLK_PERUS_A, jossa tiedostot ovat jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_perus_"vuosi"_1. Tilastovuoden tiedot päivitetään noin 6 kk alkuperäisen päivityksen jälkeen; mahdolliset muutokset on kuvattu muuttujakohtaisesti.
 
-Perustietomoduuli sisältää tietoja Suomessa vakituisesti asuneesta väestöstä kunkin vuoden viimeisenä päivänä.  
-
-Valmisaineistomoduuliin on koostettu tietoja väestörakenteesta, tuloista ja työssäkäynnistä sekä jotain tietoja perhetilastoista ja väestön koulutusrakenteesta. Tiedot kuvaavat kunkin vuoden lopun tilannetta ja vastaavat pääosin virallisia (SVT) tilastoja julkaisuajankohtanaan.  
-
-<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
-
-Aineisto kattaa vuodet 1987–2025. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvauksiin vuosiluvuittain. Tiedot, jotka päivittyvät muita myöhemmin, on merkitty muuttujankuvauksessa viimeisimmän saatavilla olevan vuoden mukaan muodossa: (aineiston viimeinen vuosi - 1) tai (aineiston viimeinen vuosi - 2). 
-
-Aineiston päivitysaikataulu 
-
-<b> Aineiston päivitysaikataulu </b> 
-
-Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
-
-Tilastovuoden tiedot päivitetään noin kuuden kuukauden kuluttua alkuperäisestä päivityksestä. Mahdolliset muutokset on kuvattu muuttujakohtaisesti. Aineisto päivitetään kahdesti vuodessa. 
-
-<b> Aineiston käyttö ja tilaaminen </b> 
-
-Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
-
-FOLK perustieto -tiedostot ovat FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.  
-
-<b> Tarkempaa tietoa muuttujista </b> 
-
-Moduulin muuttujat, joiden tiedot ovat karkeistettuja mutta joille on saatavilla tarkempi versio toisesta FOLK-moduulista tai muualta Tilastokeskuksen tietovarannoista, on merkitty loppulyhenteellä _k tai _k2. 
-
-<b> Lisätietoja </b> 
+ 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
@@ -57,6 +31,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `hid_e` | Suojattu henkilön yksilöivä tunniste. | — | — | — |
 | `syntyv` | Syntymävuosi | — | — | Vaestorakenne |
 | `kuolv` | Kuolinvuosi | — | — | Vaestonmuutos |
+| `sukup` | Sukupuoli | — | — | — |
 | `smkunta` | Syntymämaakunta | — | — | Vaestorakenne |
 | `skunta` | Syntymäkunta | — | — | Vaestorakenne |
 | `svaltio_k` | Syntymävaltio | — | — | Vaestorakenne |
@@ -113,7 +88,6 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tyotu_k` | Summatut työtulot (palkkatulot) | — | — | Henkilöverotusaineisto |
 | `tyrtuo_k` | Yrittäjätulot | — | — | Henkilöverotusaineisto |
 | `auto_k` | Henkilön omistama/hallitsema ajoneuvo | — | — | — |
-| `sukup` | Sukupuoli | — | — | — |
 
 ### Variable definitions
 
@@ -136,6 +110,12 @@ Syntymävuosi.
 **Group:** Vaestonmuutos
 
 Kuolinvuosi. Henkilön kuolinvuosi päivittyy kuolinvuotta edeltävälle tilastovuodelle. Tilastovuoden toisessa päivityksessä päivittyy tieto niistä kuolemista, jotka ovat tulleet tilastoon viiveellä.
+
+#### `sukup` — Sukupuoli
+
+Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa folk_perus_sukup_1. 
+1 = Mies
+2 = Nainen
 
 #### `smkunta` — Syntymämaakunta
 
@@ -810,13 +790,6 @@ Arvot pyöristetty sadoiksi euroiksi, vuosittainen ylin persentiili mediaanina. 
 #### `auto_k` — Henkilön omistama/hallitsema ajoneuvo
 
 1 = on auton omistaja/haltija. Tietoja vuodesta 1990 lähtien vuoteen 2018 asti.
-
-#### `sukup` — Sukupuoli
-
-Henkilön viimeisin sukupuolitieto. Tieto on sama joka vuonna, vaikka henkilön sukupuoli olisi muuttunut. Tieto on vuodesta 2021 alkaen tiedostossa "folk_perus_sukup_1".
-
-1 = mies
-2 = nainen
 
 ---
 

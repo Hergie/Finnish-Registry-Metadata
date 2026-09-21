@@ -1,9 +1,33 @@
 {
   "variables": [
     {
-      "identifier": "SYRTUN",
+      "identifier": "yrtun_s",
       "variablename": "Suojattu yritystunnus",
       "conceptdef": "Alkuperäinen yritystunnus, sisältää myös henkilötunnusmuotoisia tunnuksia",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yrtun2_s",
+      "variablename": "Suojattu korjattu yritystunnus",
+      "conceptdef": "Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritysid_s",
+      "variablename": "Suojattu yritysid",
+      "conceptdef": "Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -844,14 +868,6 @@
       "identifier": "MAAK",
       "variablename": "Maakunta",
       "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "SYRTUN2",
-      "variablename": "Suojattu korjattu yritystunnus",
-      "conceptdef": "Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

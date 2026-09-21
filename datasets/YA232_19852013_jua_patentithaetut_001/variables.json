@@ -1,8 +1,16 @@
 {
   "variables": [
     {
-      "identifier": "syrtun",
+      "identifier": "yrtun_s",
       "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "pnro_s",
+      "variablename": "Suojattu patentin hakemusnumero",
       "conceptdef": null,
       "measunit": null,
       "classification": null,
@@ -11,14 +19,6 @@
     {
       "identifier": "vuosi",
       "variablename": "Vuosi",
-      "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "SHNRO",
-      "variablename": "Suojattu patentin hakemusnumero",
       "conceptdef": null,
       "measunit": null,
       "classification": null,

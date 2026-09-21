@@ -1,6 +1,30 @@
 {
   "variables": [
     {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritys_id",
+      "variablename": "Suojattu yritysid",
+      "conceptdef": "Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "VUOSI",
       "variablename": "Tilastovuosi",
       "conceptdef": null,
@@ -756,14 +780,6 @@
       "identifier": "VOLOENNA",
       "variablename": "Vaihto-omaisuus tilikauden lopussa",
       "conceptdef": "Ennakkomaksut. Vaihto-omaisuushyödykkeiden ennakkomaksut ovat suorituksia, jotka on maksettu etukäteen tilatusta vaihto-omaisuudesta, jota ei ole vielä vastaanotettu. On vaihto-omaisuuserä. Vaihto-omaisuutta on kirjanpitovelvollisen sellaisenaan tai jalostettuina luovutettavaksi tai kulutettavaksi tarkoitetut hyödykkeet\n",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "SYRTUN",
-      "variablename": "Suojattu yritystunnus",
-      "conceptdef": null,
       "measunit": null,
       "classification": null,
       "variablegroups": null

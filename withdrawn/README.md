@@ -1,6 +1,6 @@
 # Withdrawn datasets
 
-14 dataset(s) that Statistics Finland has removed from the Taika catalogue. They are preserved here rather than deleted because FIONA research projects run against a data delivery frozen at permit time — if your project predates the withdrawal, the metadata that matches your files is in here, not in [`../datasets/`](../README.md).
+15 dataset(s) that Statistics Finland has removed from the Taika catalogue. They are preserved here rather than deleted because FIONA research projects run against a data delivery frozen at permit time — if your project predates the withdrawal, the metadata that matches your files is in here, not in [`../datasets/`](../README.md).
 
 Most entries were superseded by a newer annual vintage of the same register. Check [the main catalogue](../README.md) for the current replacement, and see its **Data vintage** section for how to tell which one your project actually uses.
 
@@ -18,6 +18,7 @@ Most entries were superseded by a newer annual vintage of the same register. Che
 | `FOLK_19832024_jua_muuttosuomimuu25_001.xml` | FOLK_MUUTTO_SUOMI_MUU Karkeat muuttotiedot tasolla Suomi/muu | 1983-01-01 - 2024-12-31 | 2026-08-19 | [→](./FOLK_19832024_jua_muuttosuomimuu25_001/README.md) |
 | `FOLK_19872022_jua_tkt25_001.xml` | FOLK työssäkäynti | 1987-12-31 - 2022-12-31 | 2026-08-19 | [→](./FOLK_19872022_jua_tkt25_001/README.md) |
 | `FOLK_19872023_jua_askun25_001.xml` | FOLK asuntokunta | 1987-12-31 - 2023-12-31 | 2026-08-19 | [→](./FOLK_19872023_jua_askun25_001/README.md) |
+| `FOLK_19872023_jua_perh24_001.xml` | FOLK_PERH Perheet | 1987-01-01 - 2024-12-31 | 2026-09-21 | [→](./FOLK_19872023_jua_perh24_001/README.md) |
 | `FOLK_19872023_jua_perus24_001.xml` | FOLK perustieto | 1987-01-01 - 2024-12-31 | 2026-08-19 | [→](./FOLK_19872023_jua_perus24_001/README.md) |
 | `FOLK_19952023_jua_elake25_001.xml` | FOLK jaksotiedot: eläke | 1995-01-01 - 2023-12-31 | 2026-08-19 | [→](./FOLK_19952023_jua_elake25_001/README.md) |
 

@@ -10,8 +10,8 @@
     },
     {
       "identifier": "kuolpv",
-      "variablename": "Kuolinpäivä (vvvv-kk-pp)",
-      "conceptdef": "Henkilön kuolinpäivä, vvvv-kk-pp. \nMuodoltaan epävalidit kuolinpäivät = NULL, näillä kuitenkin kvuosi  T ieto väestötietojärjestelmästä.",
+      "variablename": "Kuolinpäivä (vvvvkkpp)",
+      "conceptdef": "Henkilön kuolinpäivä, vvvvkkpp. \nMuodoltaan epävalidit kuolinpäivät = NULL, näillä kuitenkin kvuosi  T ieto väestötietojärjestelmästä.",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -19,7 +19,7 @@
     {
       "identifier": "sukup",
       "variablename": "Sukupuoli",
-      "conceptdef": "Henkilön sukupuoli kuolinhetkellä. \nTieto väestötietojärjestelmästä. \n\n1 = mies \n2 = nainen",
+      "conceptdef": "Henkilön sukupuoli kuolinhetkellä. \nTieto väestötietojärjestelmästä,  kuolleena syntyneelle kuolintodistuksesta. 1= mies, 2= nainen, 3= epävarma, 0= ei tiedossa, tuntematon",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -37,7 +37,7 @@
       "variablename": "Kuolleen ryhmä iän perusteella",
       "conceptdef": "1 = 1-vuotias tai vanhempi \n2 = 28 vrk - 11 kk \n3 = 7 - 27 vrk \n4 = 0 - 6 vrk\n ja  vuodesta 2022 alkaen 5=kuolleena syntyneet",
       "measunit": null,
-      "classification": null,
+      "classification": "kuolinryhma_1_1998_01_01",
       "variablegroups": null
     },
     {
@@ -51,7 +51,7 @@
     {
       "identifier": "kuolkunta",
       "variablename": "Kuolinkunta",
-      "conceptdef": "Voi käyttää vuodesta 2014 lähtien. Kuolintodistukselta lääkärin ilmoittamana tekstinä. Kuntakoodi esiintyy, jos kuolinkuntatekstistä on saatu pääteltyä kuntakoodi. Kattavuus 2014: 73% , 2015: 89 % , 2016: 96 %",
+      "conceptdef": "Kunta, jossa kuolema on tapahtunut.Voi käyttää vuodesta 2014 lähtien. Kuolintodistukselta lääkärin ilmoittamana tekstinä. Kuntakoodi esiintyy, jos kuolinkuntatekstistä on saatu pääteltyä kuntakoodi. Kattavuus 2014: 73% , 2015: 89 % , 2016: 96 %",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -117,7 +117,7 @@
       "variablename": "Tilaston peruskuolemansyy, 54-luokkainen aikasarja",
       "conceptdef": "Katso Tilastokesksen luokitukset luokiituspalvelusta  <a href=\"https://stat.fi/fi/luokitukset/kuolinsyyt/kuolinsyyt_1_20210101\">kuolemansyyluokitus</a> \n\n\nLuokituspalvelussa on  mm. Tilaston peruskuolemansyyn 54-luokkainen aikasarjaluokitus sekä aikasarjaluokituksen ja eri tautiluokitusversioiden (ICD) välinen avain ( Lisätmateriaalit alla): \n\n54-luokkaisessa kansallisessa aikasarjaluokituksessa huomioitava:\nvuodesta 1998-: 54 luokkaa, 54=ei kuolintodistusta, ennen vuotta 1998 tähän luokkaan kuuluvat olivat luokassa 40. \n\n1971-97: 53 luokkaa\n\nblanco= ei tietoa kuolemansyystä. \n\n",
       "measunit": null,
-      "classification": null,
+      "classification": "kuolinsyyt_1_2021_01_01",
       "variablegroups": null
     },
     {
@@ -394,8 +394,8 @@
     },
     {
       "identifier": "tpksr1",
-      "variablename": "Lapsen tärkeimmän syyn 1. rinnakkaiskoodi",
-      "conceptdef": "Nimenmuutos: entinen ltksr1 \nAlle 28 vrk iässä kuolleen tärkeimmän kuolemansyyn 1. rinnakkaiskoodi.\nKäytä vain alle 28 vrk iässä kuolleille (kika = 3 tai 4).\n\nTiedoksi: Sisältää myös arvoja yli 28 vrk kuolleille mutta eivät ole kattavia,\n\nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.",
+      "variablename": "Tilaston peruskuolemansyyn 1. rinnakkaiskoodi (aikuiset+lapset)",
+      "conceptdef": "Tilaston peruskuolemansyyn 1. rinnakkaiskoodi. Sisältää yli ja alle 28 vrk iässä kuolleet sekä kuolleena syntyneet. \nRinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. ( aikaisemmin alle 28 vrk iässä kuolleilla koodi ltksr1)",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -533,21 +533,45 @@
       "variablename": "Huumeluokitus B",
       "conceptdef": "Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen EMCDDA:n huumeluokitukseen Selection B. \n\nJohdettu muuttuja tilaston peruskuolemansyystä ja sen 1. rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.\n\nEuroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus. EMCDDA:n määrittelemiin äkillisiin huumekuolemiin (ns. B-suodatin) kuuluvat luokat 056-057, 059-061, 063-065, 067-069, 071-073, 075-077, 079-081, 083-085, 087-097, 103, 108-117, 123, 128-137, 143). Luokkia on yhdistelty, koska kaikki Selection B:n luokat eivät ole mahdollisia tilaston peruskuolemansyynä Suomessa.",
       "measunit": null,
-      "classification": null,
+      "classification": "kuolinsyyt_4_2006_01_01",
       "variablegroups": null
     },
     {
       "identifier": "huumeet",
       "variablename": "Huumeluokitus",
-      "conceptdef": "Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus huumausainekuolemista.\n\nJohdettu muuttuja tilaston peruskuolemansyystä ja sen 1.rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.\n\nEuroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus. EMCDDA:n määrittelemiin äkillisiin huumekuolemiin (ns. B-suodatin) kuuluvat luokat 056-057, 059-061, 063-065, 067-069, 071-073, 075-077, 079-081, 083-085, 087-097, 103, 108-117, 123, 128-137, 143)",
+      "conceptdef": "Euroopan huumausaineviraston (EUDA) luokitus huumausainekuolemistaa.\n\nJohdettu muuttuja tilaston peruskuolemansyystä ja sen 1.rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.\n\nEuroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus. EMCDDA:n määrittelemiin äkillisiin huumekuolemiin (ns. B-suodatin) kuuluvat luokat 056-057, 059-061, 063-065, 067-069, 071-073, 075-077, 079-081, 083-085, 087-097, 103, 108-117, 123, 128-137, 143)",
       "measunit": null,
-      "classification": null,
+      "classification": "kuolinsyyt_9_2014_01_01",
       "variablegroups": null
     },
     {
       "identifier": "paihtymys",
       "variablename": "Päihtymystyyppi",
       "conceptdef": "Tapaturmaisesti tai väkivaltaisesti kuolleiden alkoholi-, huume- ja lääkepäihtymykset. \nVuodesta 1998 lähtien.\n\nLuokat: \n\n0 = ei päihtymystä \n1 = alkoholipäihtymys ilman huume-/lääkeaineita \n2 = alkoholi- ja huume-/lääkeainepäihtymys \n3 = huume-/lääkeainepäihtymys ilman alkoholia \n\nbl = myrkytys tai muu kuin tapaturmainen tai väkivaltainen kuolema \n\nAlkoholipäihtymys: myötävaikuttavassa syyssä esiintyy T510-T519, T523, T528 \nHuume/lääkeainepäihtymys: myötävaikuttavassa syyssä esiintyy T360-T509",
+      "measunit": null,
+      "classification": "kuolinsyyt_12_1998_01_01",
+      "variablegroups": null
+    },
+    {
+      "identifier": "aidin_hnro",
+      "variablename": "Äidin suojattu henkilötunniste",
+      "conceptdef": "Alle vuoden ikäisenä kuolleen tai kuolleena syntyneen lapsen äidin henkilötunniste\n- kuolleena syntyneillä vuodesta 1976 lähtien",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aidin_ika",
+      "variablename": "Lapsen äidin ikä",
+      "conceptdef": "Kuolleena syntyneen tai alle 28 vrk iässä kuolleen äidin ikä vuosina (tarkka ikä). Tieto vuodesta 2022 lähtien.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "kuoljulpv",
+      "variablename": "Kuolleeksijulistamispäivämäärä",
+      "conceptdef": "Päivämäärä, jolloin henkilö on julistettu kuolleeksi. ",
       "measunit": null,
       "classification": null,
       "variablegroups": null

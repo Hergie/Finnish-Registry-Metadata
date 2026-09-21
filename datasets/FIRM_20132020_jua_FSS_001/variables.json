@@ -1,6 +1,38 @@
 {
   "variables": [
     {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": "Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "yritysid_s",
+      "variablename": "Suojattu yritysID",
+      "conceptdef": "Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus (yrtun). Saatavissa vuodesta 2013 lähtien. Yritysyksiköllä (yritysid) voi esiintyä useampi kuin yksi oikeudellinen yksikkö (yrtun) vuodesta 2018 lähtien. Yritysyksikköjä on toistaiseksi muodostettu lähinnä suuremmista konserniyrityksistä. Koska aineiston tiedot ovat edelleen oikeudellisen yksikön tasolla, yritysid-tunnisteen käyttöä ei suositella.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
+      "identifier": "konserniid_s",
+      "variablename": "Suojattu konsernitunnus",
+      "conceptdef": "Konsernitunnus jolla identifioidaan konserni konsernirekisterissä. Tieto alkaen tilastovuodesta 2018.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "vuosi",
+      "variablename": "Vuosi",
+      "conceptdef": "Tilastovuosi",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "taustatiedot"
+    },
+    {
       "identifier": "AineellinenKayttoOmLis",
       "variablename": "Aineellinen käyttöomaisuus; lisäykset",
       "conceptdef": "(LISANLYH) Aineellisen käyttöomaisuuden lisäykset. Aineelliseen käyttöomaisuuteen luetaan maa-, vesi- ja metsäalueet (rakentamattomat), rakennukset ja muut kiinteistöt sekä koneet ja kalusto ja muu aineellinen käyttöomaisuus. Kiinteistöt-erä sisältää sijoituskiinteistöt ja omassa käytössä olevat kiinteistöt. Rakennukset ja rakennelmat sekä maa- ja vesirakennukset luetaan investointeihin sille tilastokaudelle, jolloin ne on maksettu. Muu käyttöomaisuus luetaan investointeihin sille tilastokaudelle, jolloin käyttöomaisuus siirtyy ostajan tai vastaanottajan käyttöön. Ko_MaaVesiAlueLis + Ko_MaaVesiRakenSahkLampoVerkLis + Ko_RakenLis + Ko_KoneKalustoLis + Ko_MuutAineellHyodykeLis + Ko_EnnakKeskRakenMaaVesiAlueLis +Ko_EnnakkoKeskenerKoneKalustoLis",
@@ -1529,22 +1561,6 @@
       "variablegroups": "johdetut_muuttujat"
     },
     {
-      "identifier": "syritysid",
-      "variablename": "Suojattu yritysID",
-      "conceptdef": "Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus (syrtun). Saatavissa vuodesta 2013 lähtien. Yritysyksiköllä (syritysid) voi esiintyä useampi kuin yksi oikeudellinen yksikkö (syrtun) vuodesta 2018 lähtien. Yritysyksikköjä on toistaiseksi muodostettu lähinnä suuremmista konserniyrityksistä. Koska aineiston tiedot ovat edelleen oikeudellisen yksikön tasolla, syritysid-tunnisteen käyttöä ei suositella. Valmisaineistot yhdistyvät edelleen syrtun-tunnisteella.",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": "taustatiedot"
-    },
-    {
-      "identifier": "syrtun",
-      "variablename": "Suojattu yritystunnus",
-      "conceptdef": "(SYRTUN) Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": "taustatiedot"
-    },
-    {
       "identifier": "TaseOik",
       "variablename": "Oikaistu tase",
       "conceptdef": "(OIKTASE) Oikaistu tase = Vastattavaa yhteensä - lyhytaikaiset ennakkomaksut - pitkäaikaiset ennakkomaksut. VastattavaYht - Er_SaadEnnLyhytAikVel - Er_SaadEnnPitkaAikVel  Taseen oikaisujen tavoitteena tilinpäätöksessä on saada oikea ja vertailukelpoinen kuva yrityksen taloudellisesta asemasta tilinpäätöshetkellä.",
@@ -2367,14 +2383,6 @@
       "measunit": "€",
       "classification": null,
       "variablegroups": "varastojen_muutos"
-    },
-    {
-      "identifier": "vuosi",
-      "variablename": "Vuosi",
-      "conceptdef": "Tilastovuosi",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": "taustatiedot"
     },
     {
       "identifier": "VuositilastonYksikko",

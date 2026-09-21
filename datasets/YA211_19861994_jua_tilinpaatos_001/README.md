@@ -1,11 +1,11 @@
-# FIRM_FSS Tilinpäätösaineisto 1986-1994 (YA211)
+# FIRM_FSS Tilinpäätösaineisto 1986-1994
 
 - **Identifier:** `YA211_19861994_jua_tilinpaatos_001.xml`
 - **DOI:** `work_2017-07_2017-07-05_ain_0001`
 - **Temporal coverage:** 1986-01-01 - 1994-12-31
 - **Published:** 2017-08-10
 - **Organisation:** Tilastokeskus
-- **Variable count:** 84
+- **Variable count:** 86
 - **Observation count:** —
 - **Population:** Tilastoyksikkönä on yritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu).
 - **Source:** Tilinpäätöstilaston aineisto perustuu Tilastokeskuksen yritystiedusteluun. Yritysten luokitustiedot kerätään pääsääntöisesti Tilastokeskuksen yritys- ja toimipaikkarekisteristä.
@@ -20,10 +20,13 @@ Vuosina 1986 - 1994 yritysotos on koostunut Tilastokeskuksen omasta kyselystä (
 
 Luvut ovat tuhansina markkoina.
 
-## Variables (84)
+## Variables (86)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `yritysid_s` | Suojattu yritysid | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `VUOSI` | Vuosi | — | — | — |
 | `TALA` | OSITE.TALA | — | — | — |
 | `HENLKMYH` | Henkilöstö | — | — | — |
@@ -107,9 +110,18 @@ Luvut ovat tuhansina markkoina.
 | `POIVARMU` | Poistoero ja varausten muutos | — | — | — |
 | `DMUURAH` | Muu rahoitusomaisuus | — | — | — |
 | `TLIIVO` | Liikevoitto/-tappio | — | — | — |
-| `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu yritystunnus
+
+#### `yritysid_s` — Suojattu yritysid
+
+Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.
+
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.
 
 #### `VUOSI` — Vuosi
 
@@ -312,8 +324,6 @@ Saadut ennakot vain vuosina 1993 ja 1994
 #### `DMUURAH` — Muu rahoitusomaisuus
 
 #### `TLIIVO` — Liikevoitto/-tappio
-
-#### `SYRTUN` — Suojattu yritystunnus
 
 ---
 

@@ -1,6 +1,30 @@
 {
   "variables": [
     {
+      "identifier": "yrtun_s",
+      "variablename": "Suojattu yritystunnus",
+      "conceptdef": null,
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "yritysid_s",
+      "variablename": "Suojattu yritysid",
+      "conceptdef": "Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkilön yksilöivä tunniste",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
       "identifier": "VUOSI",
       "variablename": "Vuosi",
       "conceptdef": null,
@@ -659,14 +683,6 @@
     {
       "identifier": "TLIIVO",
       "variablename": "Liikevoitto/-tappio",
-      "conceptdef": null,
-      "measunit": null,
-      "classification": null,
-      "variablegroups": null
-    },
-    {
-      "identifier": "SYRTUN",
-      "variablename": "Suojattu yritystunnus",
       "conceptdef": null,
       "measunit": null,
       "classification": null,

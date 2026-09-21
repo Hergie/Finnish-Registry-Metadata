@@ -1,4 +1,4 @@
-# FIRM_PAT Suomessa haetut patentit (YA232)
+# FIRM_PAT Suomessa haetut patentit
 
 - **Identifier:** `YA232_19852013_jua_patentithaetut_001.xml`
 - **DOI:** `pat_2012-12_2012-12-03_ain_0001`
@@ -49,20 +49,20 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `syrtun` | Suojattu yritystunnus | — | — | — |
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `pnro_s` | Suojattu patentin hakemusnumero | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
-| `SHNRO` | Suojattu patentin hakemusnumero | — | — | — |
 | `ipc` | Patenttiluokka (IPC) | — | — | — |
 | `tol_2002` | Toimiala tol2002 | — | toimiala_1_2002_01_01 | — |
 | `tol_2008` | Toimiala tol2008 | — | toimiala_1_2008_01_01 | — |
 
 ### Variable definitions
 
-#### `syrtun` — Suojattu yritystunnus
+#### `yrtun_s` — Suojattu yritystunnus
+
+#### `pnro_s` — Suojattu patentin hakemusnumero
 
 #### `vuosi` — Vuosi
-
-#### `SHNRO` — Suojattu patentin hakemusnumero
 
 #### `ipc` — Patenttiluokka (IPC)
 

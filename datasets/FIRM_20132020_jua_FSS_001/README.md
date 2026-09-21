@@ -1,11 +1,11 @@
-# FIRM_FSS Tilinpäätösaineisto 2013 -2020 (YA211)
+# FIRM_FSS Tilinpäätösaineisto 2013-2020
 
 - **Identifier:** `FIRM_20132020_jua_FSS_001.xml`
 - **DOI:** `work_2020-03_2020-03-03_ain_0001`
 - **Temporal coverage:** 2013-01-01 - 2020-12-31
 - **Published:** 2020-04-29
 - **Organisation:** Tilastokeskus
-- **Variable count:** 303
+- **Variable count:** 304
 - **Observation count:** —
 - **Population:** Yritykset
 - **Source:** Tilastokeskuksen oma kysely (Tilkes)
@@ -80,10 +80,14 @@ Kynnysarvosäännön rinnalla tulee soveltaa dominanssisääntöä 2 (1,75) tuor
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
-## Variables (303)
+## Variables (304)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu yritystunnus | — | — | taustatiedot |
+| `yritysid_s` | Suojattu yritysID | — | — | taustatiedot |
+| `konserniid_s` | Suojattu konsernitunnus | — | — | — |
+| `vuosi` | Vuosi | — | — | taustatiedot |
 | `AineellinenKayttoOmLis` | Aineellinen käyttöomaisuus; lisäykset | € | — | käyttöomaisuus_väh&lis |
 | `AineellinenKayttoOmVah` | Aineellinen käyttöomaisuus; vähennykset | € | — | käyttöomaisuus_väh&lis |
 | `AineTarvikeKaytto` | Aine- ja tarvikekäyttö | € | — | kulut |
@@ -275,8 +279,6 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `SijoitPaaoma` | Sijoitettu pääoma | € | — | johdetut_muuttujat |
 | `Sijoittajamaa` | Sijoittajamaa | — | — | taustatiedot |
 | `ss_RahTulos` | Rahoitustulos | € | — | johdetut_muuttujat |
-| `syritysid` | Suojattu yritysID | — | — | taustatiedot |
-| `syrtun` | Suojattu yritystunnus | — | — | taustatiedot |
 | `TaseOik` | Oikaistu tase | € | — | johdetut_muuttujat |
 | `tilaVuosi` | Vuositietojen tila | — | — | laatumuuttujat |
 | `TilikausiAlPvm` | Tilikauden alku | — | — | taustatiedot |
@@ -380,7 +382,6 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `VierasPaaomYht` | Vieras pääoma yhteensä | € | — | vastattavaa_yhteensä |
 | `vm_AineTarvTavaraVarastMuutos` | Varastojen muutos (lisäys -, vähennys +) | € | — | varastojen_muutos |
 | `vm_ValmKeskErTuotVarastMuutos` | Valmistevarastojen lisäys (+) tai vähennys (-) | € | — | varastojen_muutos |
-| `vuosi` | Vuosi | — | — | taustatiedot |
 | `VuositilastonYksikko` | Vuositilaston yksikkö | — | — | taustatiedot |
 | `VuosiToimipaikLaji` | Toimipaikkaisuus, yksi- tai monitoimipaikkainen | — | alayksik_2_2012_01_01 | taustatiedot |
 | `yrittajat` | Yrittäjät henkilötyövuosina | vv | — | taustatiedot |
@@ -389,6 +390,28 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `oik` | Oikeudellinen muoto | — | oikeudell_muoto_1_1984_01_01 | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu yritystunnus
+
+**Group:** taustatiedot
+
+Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).
+
+#### `yritysid_s` — Suojattu yritysID
+
+**Group:** taustatiedot
+
+Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus (yrtun). Saatavissa vuodesta 2013 lähtien. Yritysyksiköllä (yritysid) voi esiintyä useampi kuin yksi oikeudellinen yksikkö (yrtun) vuodesta 2018 lähtien. Yritysyksikköjä on toistaiseksi muodostettu lähinnä suuremmista konserniyrityksistä. Koska aineiston tiedot ovat edelleen oikeudellisen yksikön tasolla, yritysid-tunnisteen käyttöä ei suositella.
+
+#### `konserniid_s` — Suojattu konsernitunnus
+
+Konsernitunnus jolla identifioidaan konserni konsernirekisterissä. Tieto alkaen tilastovuodesta 2018.
+
+#### `vuosi` — Vuosi
+
+**Group:** taustatiedot
+
+Tilastovuosi
 
 #### `AineellinenKayttoOmLis` — Aineellinen käyttöomaisuus; lisäykset
 
@@ -1586,18 +1609,6 @@ Yrityksen sektoriluokka tilastovuonna. Luokitus, jossa yksiköt jaetaan omistaju
 
 (RAHTULOS) Rahoitustulos. Lisäämällä nettotulokseen ennen liiketulosta vähennetyt poistot ja arvonalentumiset, saadaan rahoitustulos. (Rahoitustulos= Nettotulos+poistot ja arvonalentumiset). Rahoitustulos kertoo, kuinka paljon yrityksen varsinainen liiketoiminta tuottaa tulorahoitusta. Tieto saatavilla 2017 asti.
 
-#### `syritysid` — Suojattu yritysID
-
-**Group:** taustatiedot
-
-Suojattu yritys-ID, yrityksen tunnus, generoitu / annettu Tilastokeskuksessa; eri kuin oikeudellisen yksikön Y-tunnus (syrtun). Saatavissa vuodesta 2013 lähtien. Yritysyksiköllä (syritysid) voi esiintyä useampi kuin yksi oikeudellinen yksikkö (syrtun) vuodesta 2018 lähtien. Yritysyksikköjä on toistaiseksi muodostettu lähinnä suuremmista konserniyrityksistä. Koska aineiston tiedot ovat edelleen oikeudellisen yksikön tasolla, syritysid-tunnisteen käyttöä ei suositella. Valmisaineistot yhdistyvät edelleen syrtun-tunnisteella.
-
-#### `syrtun` — Suojattu yritystunnus
-
-**Group:** taustatiedot
-
-(SYRTUN) Suojattu yritystunnus, oikeudellisen yksikön y-tunnus (linkittyy aiempiin vuosiin).
-
 #### `TaseOik` — Oikaistu tase
 
 **Unit:** € · **Group:** johdetut_muuttujat
@@ -2290,12 +2301,6 @@ Tilastoversio
 **Unit:** € · **Group:** varastojen_muutos
 
 (VALMVARM) Valmiiden ja keskeneräisten tuotteiden varaston muutos (lisäys +, vähennys-). Valmiiden ja keskeneräisten tuotteiden varastojen muutos koostuu vaihto-omaisuuden keskeneräisten tuotteiden ja valmiiden tuotteiden tai tavaroiden yhteisestä varaston muutoksesta. Vaihto-omaisuudessa olevien ennakkomaksujen muutos ei sisälly tuloslaskelman varaston muutokseen.
-
-#### `vuosi` — Vuosi
-
-**Group:** taustatiedot
-
-Tilastovuosi
 
 #### `VuositilastonYksikko` — Vuositilaston yksikkö
 

@@ -78,7 +78,7 @@
       "conceptdef": "(HANKLEAS) Hankitun aineellisen leasing-tavaran arvo, Vain rahoitusleasing-sopimuksella käyttöön hankitun käyttöomaisuuden arvo tai laskennallinen arvo. Arvo ilmoitetaan tilikaudella, jolloin rahoitusleasing-sopimus alkaa. Arvoon ei sisällytetä rahoitusleasing-sopimuksella hankitusta käyttöomaisuudesta maksettua vuotuista vuokraa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "er_JoukkoVelkakLaina",
@@ -86,7 +86,7 @@
       "conceptdef": "(JVELKAKI) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat joukkovelkakirjalainat.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "er_Korollinen",
@@ -94,7 +94,7 @@
       "conceptdef": "(KKORVPO) Korollinen vieras pääoma. Korollisten velkojen määrä taseen pitkä- ja lyhytaikaisesta vieraasta pääomasta sekä pääomalainat.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "er_KorSiirtosaam",
@@ -102,7 +102,7 @@
       "conceptdef": "Siirtyvien korkojen osuus siirtosaamisista. Vaihtuvien vastaavien siirtosaamisiin sisältyvien vielä saamatta olevien (kertyneiden maksamattomien) korkojen määrä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä_vastaavaa"
+      "variablegroups": "taseen_erä_vastaavaa, tilkes"
     },
     {
       "identifier": "er_KorSiirtovel",
@@ -110,7 +110,7 @@
       "conceptdef": "Siirtyvien korkojen osuus siirtoveloista. Vieraan pääoman siirtovelkoihin sisältyvien (kertyneiden maksamattomien) korkojen määrä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä_vastattavaa, tilkes"
+      "variablegroups": "tilkes, taseen_erä_vastattavaa"
     },
     {
       "identifier": "er_MuutRahOmaisArvopap",
@@ -118,7 +118,7 @@
       "conceptdef": "(MUARVOP) Muut Vaihtuvien vastaavien rahoitusarvopaperit.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "er_OsakeOsu",
@@ -126,7 +126,7 @@
       "conceptdef": "(OSAKOSYH) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat osakkeet ja osuudet.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "er_RahaMarkInstru",
@@ -134,7 +134,7 @@
       "conceptdef": "(RMARKINS) Vaihtuvien vastaavien rahoitusarvopapereihin kuuluvat rahamarkkinainstrumentit. Rahamarkkinainstrumentit ovat lyhytaikaisia (enintään vuoden mittaisia), jälkimarkkinakelpoisia velkakirjoja. Niitä laskevat liikkeelle pankit, muut rahalaitokset, yritykset, kunnat ja valtio.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "er_SaadEnnLyhytAikVel",
@@ -142,7 +142,7 @@
       "conceptdef": "(TLVPSAEN) Saadut ennakot taseen lyhytaikaisista veloista. Erä sisältää saadut ennakkomaksut, jotka on ilmoitettu Taseen vastattavaa- puolen lyhytaikaisen vieraan pääoman erässä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "er_SaadEnnPitkaAikVel",
@@ -150,7 +150,7 @@
       "conceptdef": "(TPVPSAEN) Saadut ennakot taseen pitkäaikaisista veloista. Erä sisältää saadut ennakkomaksut, jotka on ilmoitettu Taseen vastattavaa- puolen pitkäaikaisen vieraan pääoman erässä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "er_TilikausiAktivKehMeno",
@@ -158,7 +158,7 @@
       "conceptdef": "(AVTUTKEH) Tilikaudella taseeseen aktivoidut tutkimus- ja kehittämismenot. Tutkimus- ja kehittämistoiminnalla (t&k) tarkoitetaan systemaattista toimintaa tiedon lisäämiseksi ja tiedon käyttämistä uusien sovellusten löytämiseksi. Kriteerinä on, että toiminnan tavoitteena on kehittää jotain oleellisesti uutta. Tutkimus- ja kehittämistoimintaan sisällytetään perustutkimus, soveltava tutkimus sekä kehittämistyö.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "er_TilikausiAktivKorkoMeno",
@@ -166,7 +166,7 @@
       "conceptdef": "(AVKORKOK) Tilikaudella aktivoitujen korkomenojen määrä pysyvien vastaavien hankintamenoista.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "er_TilikausiAktivKurssiTappio",
@@ -174,7 +174,7 @@
       "conceptdef": "(AVLISAYS) Tilikaudella taseeseen aktivoidut kurssitappiot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "er_TilikausiAktivMarkkMeno",
@@ -182,7 +182,7 @@
       "conceptdef": "(AVMARKKI) Tilikaudella taseeseen aktivoidut markkinointimenot. Erä sisältää yrityksen mainos- , myynti- ja markkinointikulut.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "ErittInvLaatukoodi",
@@ -246,7 +246,7 @@
       "conceptdef": "(KVARPAKO) Pakolliset varaukset yhteensä. Erä sisältää Taseen vastattavaa puolen eläkevaraukset, verovaraukset sekä muut pakolliset varaukset yhteensä. Pakolliset varaukset ovat menoja, joiden suorittamiseen on sitouduttu ja ovat todennäköisiä vastaisia menetyksiä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, taseen_erä"
+      "variablegroups": "taseen_erä, tilkes"
     },
     {
       "identifier": "k_TilPaatSiirtKertYht",
@@ -254,7 +254,7 @@
       "conceptdef": "(KVARVEY) Tilinpäätössiirtojen kertymä yhteensä. Erä sisältää Taseen vastattavaa puolen poistoeron ja vapaaehtoiset varaukset yhteensä. Poistoero on kirjanpidossa tehtyjen kokonaispoistojen ja suunnitelman mukaisten poistojen kumulatiivinen erotus. Negatiivista poistoeroa ei taseessa voi olla. Vapaaehtoiset varaukset ovat kirjanpitovelvollisen tekemiä jälleenhankinta-, toiminta-, hinnanlasku-, asuintalo- yms. varauksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "taseen_erä, tilkes"
+      "variablegroups": "tilkes, taseen_erä"
     },
     {
       "identifier": "KauppatavTilikAl",
@@ -286,7 +286,7 @@
       "conceptdef": "(KULMUAIN) Aineiden ja tarvikkeiden hankinta (pl. energia, pakkausaineet). Aineisiin ja tarvikkeisiin luetaan materiaalit, joita käytetään välittömästi tuotettavien tavaroiden valmistukseen (raaka-aineet, puolivalmisteet, lisäaineet, osat sekä pienet ei-aktivoitavat työkalut ja välineet). Aineisiin ja tarvikkeisiin luetaan myös aputarvikkeet (voiteluaineet, vesi yms.), mutta ei konttori- yms. tarvikkeita. Ilman varastojen muutoksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_AlihankTyo",
@@ -294,7 +294,7 @@
       "conceptdef": "(KULALIHA) Alihankintatyöt. Alihankkijalle maksettu korvaus tehdystä työstä, joka kohdentuu tuotteiden valmistukseen tai myytäviin palveluihin. Toimeksiantajan katsotaan osallistuvan tuotteen tuottamiseen, kun se toimittaa alihankkijayritykselle vähintään osittaiset tekniset ohjeet. Toimeksiantaja myy edelleen alihankinnan kohteena olleen tuotteen joko sellaisenaan tai tuotteen osana ja ottaa kaupan jälkeisen vastuun tuotteesta. Ei sisällä yrityksen oman henkilöstön henkilöstökuluja.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_Arvopaphank",
@@ -302,7 +302,7 @@
       "conceptdef": "Arvopapereiden hankinta. Yrityksen vaihto-omaisuuteen kuuluvien arvopaperien hankinta tilikaudella.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_ATKSuunOhjelmointi",
@@ -310,7 +310,7 @@
       "conceptdef": "(KULATK) Atk- suunnittelu- ja ohjelmointikulut. Sisältää yrityksen ulkopuolelta hankitut, asiakkaan laskuun tapahtuvat atk-palvelut. Tällaisia palveluja ovat automaattiseen tietojenkäsittelyyn liittyvä laitteisto- ja ohjelmistokonsultointi,  ohjelmistojen suunnittelu ja valmistus, tietokone- ja käsittelypalvelutoiminta, tietokantaisännöinti,  konttori- ja tietokoneiden korjaus ja huolto, muu tietojenkäsittelypalvelu, esim. systeemityöpalvelu, atk-ohjelmistojen ylläpitopalvelu sekä  atk-ohjelmistokonsultointi. Tähän ei kuulu  atk-laitteiden vuokraus ja käyttöleasing, oppilaitosten ja muiden koulutusta antavien yksiköiden atk-opetus, atk-pohjaiset tekstinkäsittelypalvelut yrityksen laskuun,  atk-henkilöiden vuokraus.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_FuusioTappio",
@@ -318,7 +318,7 @@
       "conceptdef": "(FUTAPPIO) Fuusiojärjestelyistä yritykselle aiheutuneet tappiot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_Kauppatav",
@@ -326,7 +326,7 @@
       "conceptdef": "(KULKATAV) Kauppatavaroiden hankinta (ml. myytäväksi hankitun sähkön ja lämmön hankinta). Sisältää hyödykkeet, jotka yritys on ostanut myytäväksi edelleen sellaisenaan ilman jatkokäsittelyä kolmannelle osapuolelle. Sisältää myös sellaisenaan ilman jatkojalostusta myytyjen raaka-aineiden hankinnat.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_KayttOmaisLuovTappio",
@@ -334,7 +334,7 @@
       "conceptdef": "(KOMYTAPP)Pysyviin vastaaviin kuuluvan käyttöomaisuushyödykkeiden myynnistä aiheutuneet luovutustappiot. Luovutustappio syntyy, jos omaisuuden hankintahinta ja myyntikulut ovat yhteensä enemmän kuin sen myyntihinta.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_KorjKunnossapAsenn",
@@ -342,7 +342,7 @@
       "conceptdef": "(KULKORAS) Teetetyt korjaus-, kunnossapito- ja asennustyöt. Tähän kuuluu ulkopuolisilla teetettyjen oman tuotantokoneiston ja –laitteiden sekä rakennusten korjaus-, kunnossapito- ja asennustöiden arvo mukaan luettuna laskutettujen materiaalien arvo. Ei sisällä yrityksen oman henkilöstön henkilöstökuluja.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_KuljVarast",
@@ -350,7 +350,7 @@
       "conceptdef": "(KULKULJE) Kuljetus- ja varastointikulut. Sisältää yrityksen ulkopuolelta ostetut kuljetus- ja varastointipalvelut, terminaali- ja lastinkäsittelypalvelut. Varastointipalveluilla tarkoitetaan tässä itsenäisinä palveluina tarjottuja varastointipalveluja. Tähän sisältyvät esim. välivarastointipalvelut kylmävarastoissa ja tullivarastoissa sekä konttien säilytys jne. Jonkin  tietyn alueen tai rakennuksen tai sen osan vuokraus varastoksi ei sisälly tähän.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_Lampo",
@@ -358,7 +358,7 @@
       "conceptdef": "(KULLAMPO) Lämmön hankinta omaan käyttöön (pl. välityslämpö). Lämpöenergian hankintaan luetaan yrityksen tuotantoprosessissa käytetyn lämmön lisäksi myös tilojen lämmitykseen käytetty energia.  Myytäväksi hankittu lämpö ilmoitetaan muuttujassa ke_Kauppatav, Kauppatavaroiden hankinta.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_Leasing",
@@ -366,7 +366,7 @@
       "conceptdef": "(VUOKRLEA) Leasing-vuokrakulut. Yrityksen leasing-sopimuksilla vuokraamien käyttöomaisuushyödykkeiden vuokrakulut. Yritys voi hankkia käyttöomaisuutta joko käyttöleasing-sopimuksella tai rahoitusleasing-sopimuksella. Käyttöleasing-sopimuksessa laitteen vuokraava yritys tekee sopimuksen suoraan laitetta käyttävän yrityksen kanssa. Rahoitusleasing-sopimuksessa laitteen tarvitsija sopii, että rahoitusyhtiö ostaa laitteen ja vuokraa sen laitetta tarvitsevalle.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_MainosMyynti",
@@ -374,7 +374,7 @@
       "conceptdef": "(KULMAINO) Mainos-, myynti- ja markkinointikulut. Yrityksen ulkopuolelta hankitut mainos-, myynti- ja markkinointikulut. Tällaisia eri ovat esimerkiksi; tuotteiden markkinoinnin ja myynnin aiheuttamat kulut,  mainonnan sekä  myyntinäyttelyiden kulut, mainostoimistojen palvelut, markkinoinnin, viestinnän ja suhdetoiminnan konsultointiin,  markkinatutkimuksiin ja mielipideselvityksiin liittyvät kulut,  ulko- ja liikennemainosten pystyttämiseen ja hoitoon liittyvät  kulut,  näyteikkunoiden somistukseen ja näyttelytilojen suunnitteluun liittyvät kulut, urheilumainontaan, puhelinmainontaan, ilmamainontaan jne. liittyvät kulut sekä  messujen yms. tuote-esittelytilaisuuksien järjestämisestä aiheutuvat kulut.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_MuutKuinEdMainKulu",
@@ -382,7 +382,7 @@
       "conceptdef": "(KULUMUUT) Muut liiketoiminnan kulut, joita ei ole ilmoitettu muissa kuluerissä. Tähän kuuluvat tuloslaskelman kohtaan Muut liiketoiminnan kulut sisältyvät kulut, esimerkiksi maksetut provisiot, luottotappiot sekä posti- ja jakelukulut, pankki-, lakiasian-, tilitoimisto-, vakuutus-, järjestö- yms. palvelut, edustaminen ja matkustaminen.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_MuutVuokra",
@@ -390,7 +390,7 @@
       "conceptdef": "(VUOKRMUU) Muut vuokrakulu. Asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten sekä koneiden ja laitteiden vuokrakulut sekä sorakuopista, malmi- ja mineraaliesiintymistä, kivilouhoksista, turvesoista yms. maksetut vuokrat.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_Pakkausaine",
@@ -398,7 +398,7 @@
       "conceptdef": "(KULPAKKA) Pakkausaineiden hankinta-arvo. Yrityksen valmistamien tai välittämien tavaroiden pakkaamisessa käytettävät aineet ja tarvikkeet (ilman varastojen muutoksia).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_PatenttiLisenssi",
@@ -406,7 +406,7 @@
       "conceptdef": "(KULPATEN) Kulut patenteista ja lisensseistä. Patenttien ja lisenssien käyttöoikeuksista maksetut korvaukset.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_Polttoaine",
@@ -414,7 +414,7 @@
       "conceptdef": "(KULPOLT) Polttoaineiden hankinta. Polttoaineiksi luetaan yrityksen tuotannollisen toiminnan tai sen ajoneuvojen energialähteiksi hankitut aineet (ilman varastojen muutoksia).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_Sahko",
@@ -422,7 +422,7 @@
       "conceptdef": "(KULSAHKO) Sähkön hankinta omaan käyttöön (pl.  välityssähkö). Sähköenergian hankinta käsittää tuotantoprosessissa käytetyn sähkön lisäksi myös yrityksen tilojen valaistukseen, tuuletukseen, lämmitykseen ym. käytetyn sähkön. Myytäväksi hankittu sähkö ilmoitetaan muuttujassa ke_Kauppatav, Kauppatavaroiden hankinta.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_TutkKehitt",
@@ -430,7 +430,7 @@
       "conceptdef": "(KULTUTKE) Tutkimus- ja kehittämiskulut, €. Tutkimusmenoilla tarkoitetaan ulkopuolisilta yrityksiltä hankittuja tutkimus- ja kehittämispalveluja. Tutkimus- ja kehittämiskulut ovat uuden tieteellisen tai teknisen tiedon tuottamiseksi tarpeellisesta suunnitelmallisesta tutkimustoiminnasta aiheutuneita menoja. Tutkimus- ja kehittämistoimintaan sisällytetään perustutkimus, soveltava tutkimus sekä kehittämistyö.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "ke_TyoVoimVuokr",
@@ -438,7 +438,7 @@
       "conceptdef": "(KULTYVUO) Työvoiman vuokrauskulut. Sisältää yrityksen suorittamat maksut työvoiman käytöstä työvoimaa vuokraavalle yritykselle. Vuokratyössä vuokrayritys on työntekijän työnantaja. Työ tehdään käyttäjäyrityksessä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "kulujen_erittely, tilkes"
+      "variablegroups": "tilkes, kulujen_erittely"
     },
     {
       "identifier": "ke_VuokraMaaVesialue",
@@ -446,7 +446,7 @@
       "conceptdef": "(VUOKRMVA) Vuokrakulut maa- ja vesialueista. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Maa- ja vesialueisiin eivät sisälly sorakuopat, malmi- ja mineraaliesiintymät, kivilouhokset, turvesuot yms. Näistä maksetut vuokrat ilmoitetaan muuttujassa ke_Muut vuokra.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulujen_erittely"
+      "variablegroups": "kulujen_erittely, tilkes"
     },
     {
       "identifier": "KertynytPoistoEro",
@@ -462,7 +462,7 @@
       "conceptdef": "(KULUYHT) Kulut yhteensä. Tilkeksestä ke_kuluerät yhteensä. Tuloslaskelman kohdat: Ostot tilikauden aikana, ulkopuoliset palvelut ja liiketoiminnan muut kulut. Ei sisällä henkilöstökuluja. Tavaroiden ja palvelujen ostot on arvotettu hankintahintaan, josta on vähennetty ALV ja muut välittömästi liikevaihtoon liittyvät, vähennyskelpoiset verot. Hankinnat on ilmoitettu ilman varastojen muutoksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, kulut_yhteensä"
+      "variablegroups": "kulut_yhteensä, tilkes"
     },
     {
       "identifier": "KeskenerTuoteTilikAl",
@@ -486,7 +486,7 @@
       "conceptdef": "(LISANTYH) Aineettomien hyödykkeiden lisäykset (hankintahinta). Aineettomia hyödykkeitä ovat kehittämismenot, liikearvo, aineettomat oikeudet, muut pitkävaikutteiset menot sekä aineettomiin hyödykkeisiin kohdistuvat ennakkomaksut ja keskeneräiset hankinnat. Aineettomista oikeuksista ilmoitetaan erikseen siihen sisältyvät atk-ohjelmistot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_AineetonHyodykeVah",
@@ -494,7 +494,7 @@
       "conceptdef": "(VAHAINTY) Aineettomien hyödykkeiden vähennykset (luovutushinta tai muu vastike). Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä. Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Aineettomia hyödykkeitä ovat kehittämismenot, liikearvo, aineettomat oikeudet, muut pitkävaikutteiset menot sekä aineettomiin hyödykkeisiin kohdistuvat ennakkomaksut ja keskeneräiset hankinnat. Aineettomista oikeuksista ilmoitetaan erikseen siihen sisältyvät atk-ohjelmistot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_ATKOhjelmistoLis",
@@ -502,7 +502,7 @@
       "conceptdef": "(INVSOFTW) Atk-ohjelmistojen lisäykset. Atk-ohjelmistoihin luetaan valmiina ostetut ja tilaustyönä teetetyt atk-ohjelmistot. Ohjelmistojen hankintaan liittyviä vuosittaisia lisenssimaksuja ei lueta investoinneiksi.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_ATKOhjelmistoVah",
@@ -510,7 +510,7 @@
       "conceptdef": "(VINVSOFT) Atk-ohjelmistojen vähennykset. Atk-ohjelmistoihin luetaan valmiina ostetut ja tilaustyönä teetetyt atk-ohjelmistot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_EnnakKeskRakenMaaVesiAlueLis",
@@ -518,7 +518,7 @@
       "conceptdef": "(LISENNRA)Ennakkomaksut ja keskeneräiset työt; rakennukset ja rakennelmat, lisäykset. Ennakkomaksut ja keskeneräiset hankinnat rakennuksista ja rakennelmista sekä maa- ja vesirakennuksista. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_EnnakKeskRakenMaaVesiAlueVah",
@@ -526,7 +526,7 @@
       "conceptdef": "(VAHENNRA) Ennakkomaksut ja keskeneräiset työt; rakennukset ja rakennelmat, vähennykset. Ennakkomaksut ja keskeneräiset hankinnat rakennuksista ja rakennelmista sekä maa- ja vesirakennuksista. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_EnnakkoKeskenerKoneKalustoLis",
@@ -534,7 +534,7 @@
       "conceptdef": "(LISENNMU) Ennakkomaksut ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., lisäykset. Ennakkomaksut ja keskeneräiset hankinnat koneista ja kalustosta sekä muista aineellisista hyödykkeistä. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_EnnakkoKeskenerKoneKalustoVah",
@@ -542,7 +542,7 @@
       "conceptdef": "(VAHENNMU) Ennakkomaksut ja keskeneräiset työt; koneet ja kalusto ja muut ain.hyöd., vähennykset. Ennakkomaksut ja keskeneräiset hankinnat koneista ja kalustosta sekä muista aineellisista hyödykkeistä. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tilikauden aikana keskeneräisistä valmistuneet käyttöomaisuushyödykkeet on merkitty vähennyksinä ja lisäyksinä omaan hyödykelajiinsa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_KoneKalustoLis",
@@ -550,7 +550,7 @@
       "conceptdef": "(LISKONE) Koneiden ja kaluston lisäykset. Koneet, kalusto ja kuljetusvälineet ilmoitetaan yhdessä. Koneista ja kalustosta ilmoitetaan erikseen niihin sisältyvät tietokoneet ja ICT -laitteet.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_KoneKalustoVah",
@@ -558,7 +558,7 @@
       "conceptdef": "(VAHKONE) Koneiden ja kaluston vähennykset. Koneet, kalusto ja kuljetusvälineet ilmoitetaan yhdessä. Koneista ja kalustosta ilmoitetaan erikseen niihin sisältyvät tietokoneet ja ICT -laitteet.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_kuljetusvalineLis",
@@ -566,7 +566,7 @@
       "conceptdef": "Kuljetusvälineet, lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankinta-hintaisina (pois lukien fuusiolisäykset). Kuljetusvälineet ovat henkilö- tai tavarankuljetukseen tarkoitettuja moottorikäyttöisiä koneita. Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset. Koneiden ja kaluston uusi eroteltu alaerä 2018, ei summaudu.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_kuljetusvalineVah",
@@ -574,7 +574,7 @@
       "conceptdef": "Kuljetusvälineet, vähennykset. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Kuljetusvälineet ovat henkilö- tai tavarankuljetukseen tarkoitettuja moottorikäyttöisiä koneita. Koneiden ja kaluston uusi eroteltu alaerä 2018, ei summaudu.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_MaaVesiAlueLis",
@@ -582,7 +582,7 @@
       "conceptdef": "(LISMVAL) Maa- ja vesialueiden lisäykset. Maa- ja vesialueilla tarkoitetaan mm. maa- ja metsäalueita, rakennettuja ja rakentamattomia tontteja sekä vesialueita.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_MaaVesiAlueVah",
@@ -590,7 +590,7 @@
       "conceptdef": "(VAHMVAL) Maa- ja vesialueiden vähennykset. Maa- ja vesialueilla tarkoitetaan mm. maa- ja metsäalueita, rakennettuja ja rakentamattomia tontteja sekä vesialueita.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_MaaVesiRakenSahkoLampoVerkLis",
@@ -598,7 +598,7 @@
       "conceptdef": "(LISMVRA) Maa- ja vesirakennusten lisäykset. Maa- ja vesirakennuksilla tarkoitetaan katuja, teitä, rauta- ja raitioteitä, siltoja, laitureita, patoja, altaita, vesi- ja viemäriverkostoja, polttoainesäiliöitä, kalliosuojia, sähkö- ja lämpöverkkoja, tietoliikenneverkkoja (runkoverkot), energialaitoksia yms. käyttöomaisuutta.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_MaaVesiRakenSahkoLampoVerkVah",
@@ -606,7 +606,7 @@
       "conceptdef": "(VAHMVRAK) Maa- ja vesirakennusten vähennykset. Maa- ja vesirakennuksilla tarkoitetaan katuja, teitä, rauta- ja raitioteitä, siltoja, laitureita, patoja, altaita, vesi- ja viemäriverkostoja, polttoainesäiliöitä, kalliosuojia, sähkö- ja lämpöverkkoja, tietoliikenneverkkoja (runkoverkot), energialaitoksia yms. käyttöomaisuutta.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_MuutAineellHyodykeLis",
@@ -614,7 +614,7 @@
       "conceptdef": "(LISMAINL) Muiden aineellisten hyödykkeiden lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Muuhun aineelliseen käyttöomaisuuteen luetaan sora-, malmi-, turve- yms. luonnonvarat ja aineelliset oikeudet. Tässä kohdassa ei ilmoiteta osakkeita ja osuuksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_MuutAineellHyodykeVah",
@@ -622,7 +622,7 @@
       "conceptdef": "(VAHMAINL) Muiden aineellisten hyödykkeiden vähennykset. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Muuhun aineelliseen käyttöomaisuuteen luetaan sora-, malmi-, turve- yms. luonnonvarat ja aineelliset oikeudet. Tässä kohdassa ei ilmoiteta osakkeita ja osuuksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_OsakeOsuusLis",
@@ -630,7 +630,7 @@
       "conceptdef": "(LISOSAKE) Taseen pysyvien vastaavien sijoituksiin kuuluvat osakkeiden ja osuuksien lisäykset.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_OsakeOsuusVah",
@@ -638,7 +638,7 @@
       "conceptdef": "(VAHOSAK)Taseen pysyvien vastaavien sijoituksiin kuuluvat osakkeiden ja osuuksien vähennykset.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_RakenLis",
@@ -646,7 +646,7 @@
       "conceptdef": "(LISRAKEN) Rakennusten ja rakennelmien lisäykset. Rakennuksilla tarkoitetaan asuinrakennuksia ja muita talorakennuksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_RakenVah",
@@ -654,7 +654,7 @@
       "conceptdef": "(VAHRAKEN) Rakennusten ja rakennelmien vähennykset. Rakennuksilla tarkoitetaan asuinrakennuksia ja muita talorakennuksia.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_TeleAudioVideoICTLis",
@@ -662,7 +662,7 @@
       "conceptdef": "(LISICTMU) Televiestintä-, audio-, video- ja muut ICT -laitteet, lisäykset. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Erikseen rakennettavat lähiverkot, puhelinvaihteet, puhelimet, puhelinvastaajat, faksit ja antennit. Murto- ja palohälytysjärjestelmät. Televisiot, videot, dvd-laitteet, monitorit ja projektorit. Videokamerat ja digitaalikamerat. Radiovastaanottimet, vahvistimet ja kaiuttimet.  Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_TeleAudioVideoICTVah",
@@ -670,7 +670,7 @@
       "conceptdef": "(VAHICTMU)Televiestintä-, audio-, video- ja muut ICT -laitteet, vähennykset, €. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä. Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Erikseen rakennettavat lähiverkot, puhelinvaihteet, puhelimet, puhelinvastaajat, faksit ja antennit. Murto- ja palohälytysjärjestelmät. Televisiot, videot, dvd-laitteet, monitorit ja projektorit. Videokamerat ja digitaalikamerat. Radiovastaanottimet, vahvistimet ja kaiuttimet.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "ko_TietokPalvelinVerkOhLaiteLis",
@@ -678,7 +678,7 @@
       "conceptdef": "(LISATK) Koneet, kalusto ja kuljetusvälineet, josta tietokoneet, palvelimet, tietoverkkolaitteet ja tietokoneiden oheislaitteet, lisäykset, €. Liiketoimista johtuneet käyttöomaisuuden lisäykset tilikauden aikana hankintahintaisina (pois lukien fuusiolisäykset). Tietokoneet koosta riippumatta ja palvelimet. Näytöt, näppäimistöt, printterit, skannerit, kaapelit ja muut tietokoneiden oheislaitteet. Tietoverkkolaitteet, mukaan lukien reitittimet. Tietokoneiden yhteydessä hankitut ohjelmistot sisällytetään tähän kohtaan.  Koneista ja kalustosta sekä ennakkomaksuista ilmoitetaan Suomeen kohdistuvat lisäykset.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
+      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
     },
     {
       "identifier": "ko_TietokPalvelinVerkOhLaiteVah",
@@ -686,7 +686,7 @@
       "conceptdef": "(VAHATK)Koneet, kalusto ja kuljetusvälineet, josta tietokoneet, palvelimet, tietoverkkolaitteet ja tietokoneiden oheislaitteet, vähennykset, €. Liiketoimista johtuneet käyttöomaisuuden myynnit tilikauden aikana sen arvon mukaisena, jolla liiketoimet on todella suoritettu, esimerkiksi luovutushintojen, vakuutuskorvausten tai muiden vastikkeiden yhteismäärä.  Myyntivoitot ja -tappiot sisältyvät vähennyksiin. Vähennyksiin ei merkitä poistoja eikä arvonalentumisia. Tietokoneet koosta riippumatta ja palvelimet. Näytöt, näppäimistöt, printterit, skannerit, kaapelit ja muut tietokoneiden oheislaitteet. Tietoverkkolaitteet, mukaan lukien reitittimet. Tietokoneiden yhteydessä hankitut ohjelmistot sisällytetään tähän kohtaan.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "käyttömaisuus_väh&lis, tilkes"
+      "variablegroups": "tilkes, käyttömaisuus_väh&lis"
     },
     {
       "identifier": "Kokonaistulos",
@@ -1046,7 +1046,7 @@
       "conceptdef": "(FUVOITTO) Fuusiovoitot, €. Fuusiojärjestelyistä yrityksen saamat voitot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liiketoiminnan_tuotot, tilkes"
+      "variablegroups": "tilkes, liiketoiminnan_tuotot"
     },
     {
       "identifier": "ltt_KayttOmaisLuovVoitto",
@@ -1054,7 +1054,7 @@
       "conceptdef": "(LVKOMYVO) Luovutusvoitot, €. Pysyviin vastaaviin kuuluvan käyttöomaisuuden hyödykkeiden myynnistä saadut luovutusvoitot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liiketoiminnan_tuotot"
+      "variablegroups": "liiketoiminnan_tuotot, tilkes"
     },
     {
       "identifier": "ltt_MuuVuokra",
@@ -1062,7 +1062,7 @@
       "conceptdef": "(LVUOKRMU) Muihin vuokratuottoihin (€) sisältyvät asuinrakennusten ja huoneistojen sekä liike-, tehdas-, konttori-, varasto- ym. rakennusten vuokrauksesta saadut tuotot sekä koneiden ja laitteiden vuokrauksesta saadut tuotot.  Jos yrityksen päätoimiala on Kulkuneuvojen, koneiden ja laitteiden vuokraus , vuokratuotot ilmoitetaan liikevaihdossa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liiketoiminnan_tuotot, tilkes"
+      "variablegroups": "tilkes, liiketoiminnan_tuotot"
     },
     {
       "identifier": "ltt_Rojalt",
@@ -1070,7 +1070,7 @@
       "conceptdef": "(LVPATENT) Tuotot patenteista ja lisensseistä, €. Erä sisältää ulkopuolisilta saadut tuotot yhtiön omistamista patenteista ja lisensseistä.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liiketoiminnan_tuotot"
+      "variablegroups": "liiketoiminnan_tuotot, tilkes"
     },
     {
       "identifier": "ltt_VuokraMaaVesiAl",
@@ -1078,7 +1078,7 @@
       "conceptdef": "(LVUOKRMV) Vuokratuotot  maa- ja vesialueista, €. Maa- ja vesialueita ovat mm. maa- ja metsäalueet, rakennetut ja rakentamattomat tontit, koskitilat, vesijätöt ja vesialueet. Maa- ja vesialueisiin eivät sisälly sorakuopat, malmi- ja mineraaliesiintymät, kivilouhokset, turvesuot yms. Näistä saadut vuokratuotot ilmoitetaan muuttujassa Muut vuokratuotot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liiketoiminnan_tuotot, tilkes"
+      "variablegroups": "tilkes, liiketoiminnan_tuotot"
     },
     {
       "identifier": "lv_Agentuuri",
@@ -1086,7 +1086,7 @@
       "conceptdef": "(LVAGENTU) Liikevaihto agentuuritoiminnasta, €. Liikevaihto koostuu komissioista, joita agentuuri saa välitystoiminnasta ostajien ja myyjien kesken.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_Arvopap",
@@ -1094,7 +1094,7 @@
       "conceptdef": "Liikevaihto yrityksen vaihto-omaisuusarvopapereiden myynnistä",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_Kauppa",
@@ -1102,7 +1102,7 @@
       "conceptdef": "(LVKAUPAL) Liikevaihto kauppatavaroiden myynnistä , € ml. välityssähkö, -lämpö ja -kaasu; myös ulkomaisilta tytäryhtiöiltä hankitut, sellaisenaan edelleen myydyt tavarat ja palvelut sekä ulkomaisten sivuliikkeiden liikevaihto. Kaupallisen toiminnan liikevaihtoon sisältyy tukku- ja vähittäiskaupan liikevaihdon lisäksi myös muiden toimialojen kauppatavaroiden myynnistä saadut tuotot. Kauppatavaroita ovat ne tavarat, jotka on ostettu myytäväksi edelleen sellaisenaan ilman jatkojalostusta. Erä sisältää myös satunnaisen omien raaka-aineiden jälleen myynnin sellaisenaan ilman jatkokäsittelyä. Erä sisältää myös laskuttajina toimivien palveluyritysten tekemät palveluostot. Ostetun sähkön, lämmön ja kaasun jälleen myynti (välitystoiminta) on ilmoitettu tässä. Sisäältää yrityksen ulkomailla alihankintana valmistuttamien tavaroiden liikevaihdon. Tässä on ilmoitettu myös autojen myynti sekä varaosien tukku- ja vähittäiskauppa. Korjaamotoiminta ml. korjaamotoiminnan yhteydessä myydyt ja asennetut osat on ilmoitettu muuttujassa  lv_Muupal (liikevaihto muusta palvelutoiminnasta).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_KorjAsenHuolto",
@@ -1110,7 +1110,7 @@
       "conceptdef": "(LVKORASE) Yyrityksen ulkopuolisille suorittamien teollisten korjaus-, asennus- ja  huoltotöiden liikevaihto (sisältää myös laskutukseen sisältyvät tarvikkeet), €.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_LampoToim",
@@ -1118,7 +1118,7 @@
       "conceptdef": "(LVLAMPO) Yrityksen tuottaman lämmön myynti, €. Ostetun lämmön myynti ml. saman konsernin toisen yrityksen tuottama lämpö (välitystoiminta) on ilmoitettu muuttujassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_MaaVesiRaken",
@@ -1126,7 +1126,7 @@
       "conceptdef": "(MVRLV) Liikevaihto (€) maa- ja vesirakennustoiminnasta, kuten teiden, energialaitosten, siltojen, tunnelien, sähkölinjojen, lento- ja urheilukenttien, ym. rakentaminen. Tähän kuuluu myös erikoistunutta rakennustoimintaa harjoittavan yrityksen liikevaihdosta se osa, joka kohdentuu maa- ja vesirakentamiseen. Sisältää myös liikevaihdon maa- ja vesirakentamiseen kohdentuvasta rakennuskoneiden vuokrauksesta käyttäjineen.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_Mainos",
@@ -1134,7 +1134,7 @@
       "conceptdef": "(LVMAINOS) Liikevaihto mainostilan myynnistä, €. Tähän sisältyy painettu media (sanoma- ja aikakauslehdet sekä painetut hakemistot), sähköinen mainonta (televisio-, radio-, elokuva- ja verkkomainonta) sekä ulko- ja liikennemainonta. Mainostuotot eritellään vain kaupan ja palvelujen toimialoilla. Muilla toimialoilla erä sisältyy muuhun erittelemättömään liikevaihtoon.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_Majoit",
@@ -1142,7 +1142,7 @@
       "conceptdef": "(LVMAJOIT) Liikevaihto majoitustoiminnasta, €. Asiakkaiden majoittamisesta saatu liikevaihto.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_Muupalv",
@@ -1150,7 +1150,7 @@
       "conceptdef": "(LVERITL) Yrityksen muu liikevaihto, jota ei ole eritelty muissa kohdissa. Kaikenlainen palvelutoiminta, vuokrausmuotoinen rahoitustoiminta (rahoitusleasing) tai arvopapereihin sijoittaminen ja näiden myynti pörssien välityksellä (sijoitustoiminta),  maa- ja metsätalous.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_PalkkaMuutTeolPalv",
@@ -1158,7 +1158,7 @@
       "conceptdef": "(LVPALKTY) Liikevaihto toiselle talousyksikölle tehdystä palkkatyöstä (ml. viemäri- ja jätevesihuolto, jätteen keruu ja käsittely, maaperän ja vesistöjen kunnostus ja muut ympäristönhuoltopalvelut), €. Palkkatyö on tuotteiden valmistamista toiselle talousyksikölle. Käytettävät aineet ja tarvikkeet ovat pääosin valmistuttajan omistuksessa tai hallinnassa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_RakenOsake",
@@ -1166,7 +1166,7 @@
       "conceptdef": "(LVOSAKEK) Perustajaurakoitsijan liikevaihto asunto- ja kiinteistöosakkeiden myynnistä, mikäli sitä ei ole jo vähennetty varsinaisesta rakentamisen liikevaihdosta, €.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_RakYht",
@@ -1174,7 +1174,7 @@
       "conceptdef": "(LVRAKYHT) Liikevaihto rakennustoiminnasta yhteensä. Sisältää erät Talonrakentaminen, Maa- ja vesirakentaminen ja  Rakentamisen osakekauppa.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_Ravit",
@@ -1182,7 +1182,7 @@
       "conceptdef": "(LVRAVITS) Liikevaihto ravitsemistoiminnasta, €. Aterioiden, muiden ruoka-annosten ja juomien myynnin sekä ateriapalvelun liikevaihto.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_Sahko",
@@ -1190,7 +1190,7 @@
       "conceptdef": "(LVSAHKO) Yrityksen tuottaman sähkön myynti, €. Ostetun sähkön myynti ml. saman konsernin toisen yrityksen tuottama sähkö (välitystoiminta) on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_sisOsatuloutus",
@@ -1198,7 +1198,7 @@
       "conceptdef": "Yrityksen liikevaihtoon sisältyy valmistusasteen perusteella kirjattua tuloa 1=kyllä 0= ei.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, muita_lisätietoja"
+      "variablegroups": "muita_lisätietoja, tilkes"
     },
     {
       "identifier": "lv_sisSopValmistus",
@@ -1206,7 +1206,7 @@
       "conceptdef": "Liikevaihto sisältää tuotteiden myyntiä, jotka on yrityksen toimesta valmistettu ulkomailla tai kaupallista liikevaihtoa ulkomailla 1=kyllä, 0=ei. Yritys valmistuttaa myymänsä tuotteet kokonaan tai osittain ulkomailla. Tuotteet tuodaan Suomeen ja myydään täällä tai myynti tapahtuu suoraan ulkomailta ulkomaille. Tai yrityksen liikevaihdossa on ulkomailta ulkomaille myytyjä tuotteita.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "muita_lisätietoja, tilkes"
+      "variablegroups": "tilkes, muita_lisätietoja"
     },
     {
       "identifier": "lv_TaloRaken",
@@ -1214,7 +1214,7 @@
       "conceptdef": "(RAKLV) Liikevaihto (€) kaikentyyppisestä rakennusten uudis- ja korjausrakentamisesta sekä rakennuttamisesta, jotka ovat yleensä pääurakoitsijan suorittamia töitä. Tähän kuuluu myös erikoistunutta rakennustoimintaa (esim. rakennuspaikan valmistelutyöt, LVIS-asennukset, maalaus ja lasitus sekä muu rakennusasennus, rakennusten ja rakennelmien viimeistely) harjoittavan yrityksen liikevaihdosta se osa, joka kohdentuu talonrakentamiseen. Sisältää myös liikevaihdon talonrakentamiseen kohdentuvasta rakennuskoneiden vuokrauksesta käyttäjineen.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_TeolYht",
@@ -1222,7 +1222,7 @@
       "conceptdef": "(LVTEOLYH) Liikevaihto teollisesta toiminnasta yhteensä, €. Sisältää erät Tuotteiden toimitukset,  Tuotetun lämmön toimitukset, Verkkopalvelut, Toimitusten arvo teollisista korjaus-, asennus- ja huoltopalveluista ja Palkkatyö.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_Tuote",
@@ -1230,7 +1230,7 @@
       "conceptdef": "(LVTUOT)  Yrityksen Suomessa valmistamien ja valmistuttamien tavaroiden liikevaihto. Teolliset tavarat, puhdas vesi, materiaalien kierrätys. Yrityksen ulkomailla alihankintana valmistuttamien tavaroiden liikevaihto on kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa). Tässä on myös liikevaihto käyttöveden puhdistus- ja jakelutoiminnasta ja liikevaihto materiaalien kierrätystoiminnasta (Metalli- ja muun jätteen, romun ja muun tavaran muuntaminen uusioraaka-aineeksi, romujen purkaminen). Elintarviketeollisuus; saman konsernin muiden yritysten tuotteiden tukku- tai vähittäiskauppa on ilmoitettu kohdassa lv_Kauppa, samoin kuin muu tukku- tai vähittäiskauppa on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "lv_Verkko",
@@ -1238,7 +1238,7 @@
       "conceptdef": "(LVVERKKO) Liikevaihto sähkön siirto- ja jakelupalveluista ja kaasun jakelupalveluista, €. Saman konsernin toisen yrityksen tuottama verkkotoiminta on ilmoitettu kohdassa lv_Kauppa (Tukku- ja vähittäiskauppa).",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "liikevaihto, tilkes"
+      "variablegroups": "tilkes, liikevaihto"
     },
     {
       "identifier": "lv_Yhteensa",
@@ -1246,7 +1246,7 @@
       "conceptdef": "(LVYHTEEN) Liikevaihto yhteensä.  Liikevaihtoon luetaan varsinaisen toiminnan myyntituotot, joista on vähennetty myönnetyt alennukset sekä arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, liikevaihto"
+      "variablegroups": "liikevaihto, tilkes"
     },
     {
       "identifier": "MaterPalvYht",
@@ -1262,7 +1262,7 @@
       "conceptdef": "(INVKARAK) Käytössä olleiden rakennusten hankinta, €. Toisilta yrityksiltä ostettuja jo tuotanto- tai muussa käytössä olleita rakennuksia, ei uudisrakennuksia. Fuusioiden tms. omistusjärjestelyjen kautta yrityksen omistukseen tulleita rakennuksia ei lasketa tähän.",
       "measunit": "€",
       "classification": null,
-      "variablegroups": "tilkes, muita_lisätietoja"
+      "variablegroups": "muita_lisätietoja, tilkes"
     },
     {
       "identifier": "Nettotulos",

@@ -5,36 +5,36 @@
 - **Temporal coverage:** 1971-01-01 - 2024-12-31
 - **Published:** 2025-11-04
 - **Organisation:** Tilastokeskus
-- **Variable count:** 69
+- **Variable count:** 72
 - **Observation count:** 2,738,679
 - **Population:** Suomessa kuolleet sekä ulkomailla kuolleet suomalaiset
 - **Source:** Tilasto perustuu kuolintodistuksen tietoihin sekä väestötietojärjestelmän tietoihin kuolleista.
-
-<a href= "https://stat.fi/tilasto/ksyyt">Kuolemansyytilastot</a>
 - **Keywords:** alkoholi,itsemurhat,kuolemansyyt,kuolintodistukset,kuolleisuus,lapsikuolleisuus,liikennekuolemat,perinataalikuolleisuus,päihteet,ruumiinavaus,tapaturmat,taudit,työtapaturmat,väkivalta,äitiyskuolleisuus
 
 ## Description
 
-Tilastokeskus tuottaa vuosittain tilastot kuolleista, kuolleiden kuolemansyistä ja kuoleman olosuhteista ja ylläpitää kuolintodistusarkistoa, josta voidaan luovuttaa kuolintodistuksen tietoja tai kuolintodistuskopioita laissa määriteltyihin tarkoituksiin. Kuolemansyyaineisto perustuu kuolintodistuksen tietoihin. Tietoja täydennetään ja tarkistetaan Digi- ja väestötietoviraston väestötietojärjestelmän kuolleiden tiedoilla. Tutkimuskäyttöön on muodostettu kuolemansyyaineisto joka sisältää tietoja vuodesta 1971 eteenpäin. Aineistossa on mukana myös tilastosta myöhästyneet ja päivittyneet kuolemansyytiedot läsnä olevalle väestölle. Tiedot eivät vastaa vuosittaisia SVT-tilastojulkistuksia.
+Tilastokeskus tuottaa vuosittain tilastot kuolleista, kuolleiden kuolemansyistä ja kuoleman olosuhteista ja ylläpitää kuolintodistusarkistoa, josta voidaan luovuttaa kuolintodistuksen tietoja tai kuolintodistuskopioita laissa määriteltyihin tarkoituksiin. Kuolemansyyaineisto perustuu kuolintodistuksen tietoihin. Tietoja täydennetään ja tarkistetaan Digi- ja väestötietoviraston väestötietojärjestelmän kuolleiden tiedoilla. Tutkimuskäyttöön on muodostettu kuolemansyyaineisto joka sisältää tietoja vuodesta 1971 eteenpäin. Tiedot eivät vastaa vuosittaisia SVT-tilastojulkistuksia. 
 
 
  
 <b>Tietolähteet, päivitys ja perusjoukko</b>
-Aineistossa ovat mukana kaikki vuodesta 1971 alkaen Suomessa kuolleet sekä  ulkomailla kuolleet, joilla on suomalainen henkilötunnus ja joista on tullut tieto Digi- ja väestötietoviraston väestötietojärjestelmään. Aineiston päivitystahti on tilastovuosi + 11 kuukautta ja päivittyy vuosipäivityksen yhteydessä myös aiempien vuosien tiedoille (uudet tapaukset tai kuolemansyy tarkentuu). Aineisto sisältää tilastovuodesta 1.1.2018 lähtien tapaukset, joille ei ole kirjoitettu kuolintodistusta, mutta jotka on julistettu kuolleiksi ja rekisteröity väestötietojärjestelmään.
+Aineistossa ovat mukana kaikki vuodesta 1971 alkaen Suomessa kuolleet sekä  ulkomailla kuolleet, joilla on suomalainen henkilötunnus ja joista on tullut tieto Digi- ja väestötietoviraston väestötietojärjestelmään. Aineiston päivitystahti on tilastovuosi + 11 kuukautta ja päivittyy vuosipäivityksen yhteydessä myös aiempien vuosien tiedoille (uudet tapaukset tai kuolemansyy tarkentuu). Aineistossa on mukana myös tilastosta myöhästyneet ja päivittyneet kuolemansyytiedot läsnä olevalle väestölle. Aineisto sisältää kuolleena syntyneitä tilastovuodesta 1976 lähtien ja tilastovuodesta 1.1.2018 lähtien tapaukset, joille ei ole kirjoitettu kuolintodistusta, mutta jotka on julistettu kuolleiksi ja rekisteröity väestötietojärjestelmään.
 
-Kuolleena syntyneiden tietoja on tutkimustietokannassa tilastovuodelta 1976 alkaen.
+
 
 <b>Aineiston käyttö ja rajoitukset</b>
-Kuolemansyyaineisto on aina räätälöity aineisto, eli poimitaan hankekohtaisesti tutkimushankkeen käyttöön.FIONA-etäkäytössä henkilön yksilöivänä tunnisteena on suojattu henkilönumero (shnro). Tiedot on mahdollista yhdistää etäkäyttöjärjestelmässä (FIONA) esim. FOLK-henkilövalmisaineistomoduuleihin ja näin muodostettujen aikasarjatietojen perusteella tutkia mm. sosioekonomisten tekijöiden vaikutusta kuolleisuuteen sekä ammatin ja kuolleisuuden välistä yhteyttä. Aineistotoimituksissa henkilötunnukset korvataan joko Tilastokeskuksen tai Findatan toimesta suojatulla tunnuksella. Mikäli tutkimushanke tarvitsee ainoastaan Tilastokeskukselta tilattavaa kuolemansyytietoja, on mahdollista hakea käyttölupa kuolleiden henkilötunnukset sisältävään aineistoon. 
+Kuolemansyyaineisto on aina räätälöity aineisto, eli poimitaan hankekohtaisesti tutkimushankkeen käyttöön.FIONA-etäkäytössä henkilön yksilöivänä tunnisteena on suojattu henkilötunniste (hid_e). Tiedot on mahdollista yhdistää etäkäyttöjärjestelmässä (FIONA) esim. FOLK-henkilövalmisaineistomoduuleihin ja näin muodostettujen aikasarjatietojen perusteella tutkia mm. sosioekonomisten tekijöiden vaikutusta kuolleisuuteen sekä ammatin ja kuolleisuuden välistä yhteyttä. Aineistotoimituksissa henkilötunnukset korvataan joko Tilastokeskuksen tai Findatan toimesta suojatulla tunnuksella. Mikäli tutkimushanke tarvitsee ainoastaan Tilastokeskukselta tilattavaa kuolemansyytietoja, on mahdollista hakea käyttölupa kuolleiden henkilötunnukset sisältävään aineistoon. Äidin henkilötunnus korvataan aina suojatulla tunnisteella.
 
 Kuolemansyytietoihin voi hakea käyttölupaa muuttujien peruspaketille tai tutkimuksen kannalta muille tarpeellisille tiedoille (muuttujille).
  
-Peruspakettiin kuuluvat muuttujat kuolinvuosi (kvuosi), kuolinpäivä (kuolpvm), tilaston peruskuolemansyy (tpks), yli ajan harmonisoitu 54-luokkainen tilaston peruskuolemansyy (tpksaika), välitön kuolemansyy (vks) sekä 1.-4. myötävaikuttava kuolemansyy (m1-m4). Tiedot voidaan luovuttaa perustellusta syystä suorin tunnistein (henkilötunnus), etäkäytössä henkilön yksilöivänä tunnisteena on suojattu henkilönumero (shnro). 
+Peruspakettiin kuuluvat muuttujat kuolinvuosi (kvuosi), kuolinpäivä (kuolpvm), tilaston peruskuolemansyy (tpks), yli ajan harmonisoitu 54-luokkainen tilaston peruskuolemansyy (tpksaika), välitön kuolemansyy (vks) sekä 1.-4. myötävaikuttava kuolemansyy (m1-m4). 
  
 <b>Huomioitavaa</b>
  
 Osalla vainajista (kuolintodistuksen) tiedot ovat puutteellisia tai tietoa kuolemansyystä ei ole lainkaan. Nämä tapaukset ovat useimmiten niitä, joilla ei ollut kuolinhetkellä kotipaikkaa Suomessa.
- 
+
+Muuttujat VPKS ja VPKSR1 poistettiin aineistosta vuonna 2025. Näitä muuttujia vastaavat tiedot sisältyvät muuttujiin TPKS ja TPKSR1 
+
 Muuttujakohtaiset poikkeamat tietojen saatavuudessa on merkitty muuttujakuvaukseen vuosiluvuilla. 
 
 <b>Lisätietoja</b>
@@ -86,15 +86,15 @@ Vuosina 1987-1995 käytössä kansallinen Tautiluokitus 1987, johon tehty seuraa
  
 Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että ulkoiset syyt alkavat E-kirjaimella (800-999 --> E800-E999).
 
-## Variables (69)
+## Variables (72)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `kvuosi` | Kuolinvuosi | — | — | — |
-| `kuolpv` | Kuolinpäivä (vvvv-kk-pp) | — | — | — |
+| `kuolpv` | Kuolinpäivä (vvvvkkpp) | — | — | — |
 | `sukup` | Sukupuoli | — | — | — |
 | `ika1` | Ikä kuolinhetkellä | — | — | — |
-| `kika` | Kuolleen ryhmä iän perusteella | — | — | — |
+| `kika` | Kuolleen ryhmä iän perusteella | — | kuolinryhma_1_1998_01_01 | — |
 | `peruste` | Kuolemansyyn selvittämisen peruste | — | — | — |
 | `kuolkunta` | Kuolinkunta | — | — | — |
 | `kuolmaa` | Kuolinmaa | — | valtio_12_1999_05_10 | — |
@@ -104,7 +104,7 @@ Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että u
 | `tpks` | Tilaston peruskuolemansyy | — | — | — |
 | `tpkspr` | Tilaston peruskuolemansyyn pääryhmä | — | — | — |
 | `tpkstt` | Tilaston peruskuolemansyyn kuolemanluokka | — | — | — |
-| `tpksaika` | Tilaston peruskuolemansyy, 54-luokkainen aikasarja | — | — | — |
+| `tpksaika` | Tilaston peruskuolemansyy, 54-luokkainen aikasarja | — | kuolinsyyt_1_2021_01_01 | — |
 | `vks` | Välitön kuolemansyy | — | — | — |
 | `vksr1` | Välittömän kuolemansyyn 1. rinnakkaiskoodi | — | — | — |
 | `kluokka` | Kuolemanluokka | — | — | — |
@@ -139,7 +139,7 @@ Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että u
 | `vvks2` | 2. välivaiheen syy | — | — | — |
 | `vvks1r1` | 1. välivaiheen syyn 1. rinnakkaiskoodi | — | — | — |
 | `vvks2r1` | 2. välivaiheen syyn 1. rinnakkaiskoodi | — | — | — |
-| `tpksr1` | Lapsen tärkeimmän syyn 1. rinnakkaiskoodi | — | — | — |
+| `tpksr1` | Tilaston peruskuolemansyyn 1. rinnakkaiskoodi (aikuiset+lapset) | — | — | — |
 | `ltksr2` | Lapsen tärkeimmän kuolemansyyn 2. rinnakkaiskoodi | — | — | — |
 | `vpksr2` | Valitun peruskuolemansyyn 2. rinnakkaiskoodi | — | — | — |
 | `vpksr3` | Valitun peruskuolemansyyn 3. rinnakkaiskoodi | — | — | — |
@@ -156,9 +156,12 @@ Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että u
 | `monisik` | Synnytyksen monisikiöisyys | — | — | — |
 | `spaino` | Syntymäpaino | — | — | — |
 | `raske` | Raskauden kesto | — | — | — |
-| `huumeb` | Huumeluokitus B | — | — | — |
-| `huumeet` | Huumeluokitus | — | — | — |
-| `paihtymys` | Päihtymystyyppi | — | — | — |
+| `huumeb` | Huumeluokitus B | — | kuolinsyyt_4_2006_01_01 | — |
+| `huumeet` | Huumeluokitus | — | kuolinsyyt_9_2014_01_01 | — |
+| `paihtymys` | Päihtymystyyppi | — | kuolinsyyt_12_1998_01_01 | — |
+| `aidin_hnro` | Äidin suojattu henkilötunniste | — | — | — |
+| `aidin_ika` | Lapsen äidin ikä | — | — | — |
+| `kuoljulpv` | Kuolleeksijulistamispäivämäärä | — | — | — |
 
 ### Variable definitions
 
@@ -166,24 +169,23 @@ Vuosina 1971-1986 käytössä kansainvälinen ICD-8 tautiluokitus siten, että u
 
 Henkilön kuolinpäivämäärästä johdettu kuolinvuosi. Tieto väestötietojärjestelmästä.
 
-#### `kuolpv` — Kuolinpäivä (vvvv-kk-pp)
+#### `kuolpv` — Kuolinpäivä (vvvvkkpp)
 
-Henkilön kuolinpäivä, vvvv-kk-pp. 
+Henkilön kuolinpäivä, vvvvkkpp. 
 Muodoltaan epävalidit kuolinpäivät = NULL, näillä kuitenkin kvuosi  T ieto väestötietojärjestelmästä.
 
 #### `sukup` — Sukupuoli
 
 Henkilön sukupuoli kuolinhetkellä. 
-Tieto väestötietojärjestelmästä. 
-
-1 = mies 
-2 = nainen
+Tieto väestötietojärjestelmästä,  kuolleena syntyneelle kuolintodistuksesta. 1= mies, 2= nainen, 3= epävarma, 0= ei tiedossa, tuntematon
 
 #### `ika1` — Ikä kuolinhetkellä
 
 Tarkka ikä vuosina kuolinhetkellä (täytetyt vuodet).
 
 #### `kika` — Kuolleen ryhmä iän perusteella
+
+**Classification:** kuolinryhma_1_1998_01_01
 
 1 = 1-vuotias tai vanhempi 
 2 = 28 vrk - 11 kk 
@@ -274,7 +276,7 @@ blanco = ei kuolintodistusta tai väliaikainen, jossa ei kuolemansyitä
 
 #### `kuolkunta` — Kuolinkunta
 
-Voi käyttää vuodesta 2014 lähtien. Kuolintodistukselta lääkärin ilmoittamana tekstinä. Kuntakoodi esiintyy, jos kuolinkuntatekstistä on saatu pääteltyä kuntakoodi. Kattavuus 2014: 73% , 2015: 89 % , 2016: 96 %
+Kunta, jossa kuolema on tapahtunut.Voi käyttää vuodesta 2014 lähtien. Kuolintodistukselta lääkärin ilmoittamana tekstinä. Kuntakoodi esiintyy, jos kuolinkuntatekstistä on saatu pääteltyä kuntakoodi. Kattavuus 2014: 73% , 2015: 89 % , 2016: 96 %
 
 #### `kuolmaa` — Kuolinmaa
 
@@ -417,6 +419,8 @@ Onko tilaston peruskuolemansyy tauti vai ulkoinen syy:
 Tiedot vuoteen 2021.
 
 #### `tpksaika` — Tilaston peruskuolemansyy, 54-luokkainen aikasarja
+
+**Classification:** kuolinsyyt_1_2021_01_01
 
 Katso Tilastokesksen luokitukset luokiituspalvelusta  <a href="https://stat.fi/fi/luokitukset/kuolinsyyt/kuolinsyyt_1_20210101">kuolemansyyluokitus</a> 
 
@@ -700,15 +704,10 @@ Tieto vuodesta 1998 lähtien.
 
 Rinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. Ei alle 28 vrk ikäisenä kuolleilla.
 
-#### `tpksr1` — Lapsen tärkeimmän syyn 1. rinnakkaiskoodi
+#### `tpksr1` — Tilaston peruskuolemansyyn 1. rinnakkaiskoodi (aikuiset+lapset)
 
-Nimenmuutos: entinen ltksr1 
-Alle 28 vrk iässä kuolleen tärkeimmän kuolemansyyn 1. rinnakkaiskoodi.
-Käytä vain alle 28 vrk iässä kuolleille (kika = 3 tai 4).
-
-Tiedoksi: Sisältää myös arvoja yli 28 vrk kuolleille mutta eivät ole kattavia,
-
-Rinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia.
+Tilaston peruskuolemansyyn 1. rinnakkaiskoodi. Sisältää yli ja alle 28 vrk iässä kuolleet sekä kuolleena syntyneet. 
+Rinnakkaiskoodi ei voi esiintyä ilman varsinaista syykoodia. ( aikaisemmin alle 28 vrk iässä kuolleilla koodi ltksr1)
 
 #### `ltksr2` — Lapsen tärkeimmän kuolemansyyn 2. rinnakkaiskoodi
 
@@ -871,6 +870,8 @@ Alle 28 vrk iässä kuolleilla tieto vuodesta 2022 lähtien. Tieto muodossa rvp 
 
 #### `huumeb` — Huumeluokitus B
 
+**Classification:** kuolinsyyt_4_2006_01_01
+
 Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen EMCDDA:n huumeluokitukseen Selection B. 
 
 Johdettu muuttuja tilaston peruskuolemansyystä ja sen 1. rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.
@@ -879,13 +880,17 @@ Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) l
 
 #### `huumeet` — Huumeluokitus
 
-Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus huumausainekuolemista.
+**Classification:** kuolinsyyt_9_2014_01_01
+
+Euroopan huumausaineviraston (EUDA) luokitus huumausainekuolemistaa.
 
 Johdettu muuttuja tilaston peruskuolemansyystä ja sen 1.rinnakkaiskoodista (ICD10:n koodit suluissa). Tieto vuodesta 2006 lähtien.
 
 Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskuksen (EMCDDA) luokitus. EMCDDA:n määrittelemiin äkillisiin huumekuolemiin (ns. B-suodatin) kuuluvat luokat 056-057, 059-061, 063-065, 067-069, 071-073, 075-077, 079-081, 083-085, 087-097, 103, 108-117, 123, 128-137, 143)
 
 #### `paihtymys` — Päihtymystyyppi
+
+**Classification:** kuolinsyyt_12_1998_01_01
 
 Tapaturmaisesti tai väkivaltaisesti kuolleiden alkoholi-, huume- ja lääkepäihtymykset. 
 Vuodesta 1998 lähtien.
@@ -901,6 +906,19 @@ bl = myrkytys tai muu kuin tapaturmainen tai väkivaltainen kuolema
 
 Alkoholipäihtymys: myötävaikuttavassa syyssä esiintyy T510-T519, T523, T528 
 Huume/lääkeainepäihtymys: myötävaikuttavassa syyssä esiintyy T360-T509
+
+#### `aidin_hnro` — Äidin suojattu henkilötunniste
+
+Alle vuoden ikäisenä kuolleen tai kuolleena syntyneen lapsen äidin henkilötunniste
+- kuolleena syntyneillä vuodesta 1976 lähtien
+
+#### `aidin_ika` — Lapsen äidin ikä
+
+Kuolleena syntyneen tai alle 28 vrk iässä kuolleen äidin ikä vuosina (tarkka ikä). Tieto vuodesta 2022 lähtien.
+
+#### `kuoljulpv` — Kuolleeksijulistamispäivämäärä
+
+Päivämäärä, jolloin henkilö on julistettu kuolleeksi.
 
 ---
 

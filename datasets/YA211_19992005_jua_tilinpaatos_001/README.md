@@ -1,11 +1,11 @@
-# FIRM_FSS Tilinpäätösaineisto 1999-2005 (YA211)
+# FIRM_FSS Tilinpäätösaineisto 1999-2005
 
 - **Identifier:** `YA211_19992005_jua_tilinpaatos_001.xml`
 - **DOI:** `work_2016-11_2016-11-22_ain_0001`
 - **Temporal coverage:** 1999-01-01 - 2005-12-31
 - **Published:** 2017-08-10
 - **Organisation:** Tilastokeskus
-- **Variable count:** 96
+- **Variable count:** 98
 - **Observation count:** —
 - **Population:** Tilastoyksikkönä on yritys. Aineisto ei sisällä konserneja eikä yritysten toimipaikkoja. Valtion ja kuntien liikelaitokset sisältyvät aineistoon. Kuvausalueen ulkopuolelle jäävät julkisen sektorin viranomaisyksiköt, voittoa tavoittelemattomat yhteisöt, rahoitus ja vakuutustoiminta sekä ne maatilatalouden yksiköt, jotka eivät toimi työnantajina. Yksilöivänä tunnuksena on yrityksen liike- ja yhteisötunnus eli y-tunnus (suojattu).
 - **Source:** Tilinpäätöstilaston aineisto perustuu verohallinnon elinkeinoverotusaineistoon ja Tilastokeskuksen yritystiedusteluun. 
@@ -26,10 +26,13 @@ Tilinpäätöstilastot sisältävät tiettyjä toimialoja, joiden käytön suhte
 
 Luvut ovat euroina.
 
-## Variables (96)
+## Variables (98)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtun_s` | Suojattu yritystunnus | — | — | — |
+| `yritys_id` | Suojattu yritysid | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
 | `VUOSI` | Tilastovuosi | — | — | — |
 | `TOL02YR` | Toimiala | — | — | — |
 | `TOL02REK` | Toimiala (yrek) | — | — | — |
@@ -125,9 +128,18 @@ Luvut ovat euroina.
 | `VIENTIYH` | Vienti yhteensä | — | — | — |
 | `OPOSINKO` | Edellisen tilikauden tuloksesta maksettu osinko | — | — | — |
 | `VOLOENNA` | Vaihto-omaisuus tilikauden lopussa | — | — | — |
-| `SYRTUN` | Suojattu yritystunnus | — | — | — |
 
 ### Variable definitions
+
+#### `yrtun_s` — Suojattu yritystunnus
+
+#### `yritys_id` — Suojattu yritysid
+
+Vuodesta 2013 alkaen tieto poimittu yritystietovarannosta. Ennen vuotta 2013 arvo löytyy niiltä riveiltä, joilla yritystunnuksen arvona on käytetty yritysid:n muotoista epävalidia arvoa.
+
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Hid_e arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.
 
 #### `VUOSI` — Tilastovuosi
 
@@ -550,8 +562,6 @@ Tilikauden aikana jaettu osinko. Oman pääoman erä.
 #### `VOLOENNA` — Vaihto-omaisuus tilikauden lopussa
 
 Ennakkomaksut. Vaihto-omaisuushyödykkeiden ennakkomaksut ovat suorituksia, jotka on maksettu etukäteen tilatusta vaihto-omaisuudesta, jota ei ole vielä vastaanotettu. On vaihto-omaisuuserä. Vaihto-omaisuutta on kirjanpitovelvollisen sellaisenaan tai jalostettuina luovutettavaksi tai kulutettavaksi tarkoitetut hyödykkeet
-
-#### `SYRTUN` — Suojattu yritystunnus
 
 ---
 
