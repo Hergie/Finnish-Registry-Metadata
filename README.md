@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 325 datasets, last upstream change 2026-09-21.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 325 datasets, last upstream change 2026-09-28.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -245,7 +245,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `MIGR_PERHE_jua_siviilisaaty_000.xml` | MIGR_PERHE Oleskelulupaa hakeneiden perhetiedot - siviilisääty | 2011-01-01 - | 7 | — | [→](./datasets/MIGR_PERHE_jua_siviilisaaty_000/README.md) |
 | `MIGR_TYO_jua_osapaatokset_000.xml` | MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot - osapäätökset | 2011-01-01 - 2024-12-31 | 14 | — | [→](./datasets/MIGR_TYO_jua_osapaatokset_000/README.md) |
 | `MIGR_TYO_jua_tyoehdot_000.xml` | MIGR_TYO Oleskelulupaa hakeneiden työskentelytiedot - työehdot | 2011-01-01 - 2025-12-31 | 31 | — | [→](./datasets/MIGR_TYO_jua_tyoehdot_000/README.md) |
-| `MIGR_VOPAL_jua_vopalvelut_000.xml` | MIGR_VOPAL Oleskelulupaa hakeneiden vastaanottopalvelutiedot - vastaanottopalvelut | 2011-01-01 - 2025-12-31 | 8 | — | [→](./datasets/MIGR_VOPAL_jua_vopalvelut_000/README.md) |
+| `MIGR_VOPAL_jua_vopalvelut_000.xml` | MIGR_VOPAL Oleskelulupaa hakeneiden vastaanottopalvelutiedot - vastaanottopalvelut | 2011-01-01 - 2025-12-31 | 7 | — | [→](./datasets/MIGR_VOPAL_jua_vopalvelut_000/README.md) |
 | `MIGR_VOPAL_jua_vorahat_000.xml` | MIGR_VOPAL Oleskelulupaa hakeneiden vastaanottopalvelutiedot - vastaanottorahat | 2011-01-01 - 2025-12-31 | 13 | — | [→](./datasets/MIGR_VOPAL_jua_vorahat_000/README.md) |
 | `PIAAC_202500_jua_survey_001.xml` | PIAAC2 – Aikuisten taitotutkimus II | 2022-09-01 - 2023-06-30 | 175 | 4,061 | [→](./datasets/PIAAC_202500_jua_survey_001/README.md) |
 | `PORE_20242026_jua_sum_001.xml` | PORE_SUM Kuluttajaluotot | 2024-12-31 - 2026-06-30 | 27 | — | [→](./datasets/PORE_20242026_jua_sum_001/README.md) |

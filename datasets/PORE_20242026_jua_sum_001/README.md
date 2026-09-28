@@ -173,7 +173,7 @@ Luottokorttien käytetty summa, eli paljollako luottokortteja käytetty kuukaude
 
 #### `credit_interestpaid_yht` — Luottokorttien maksettu korko
 
-Luottokorttien maksettu korko, eli paljonko luottokorteilla korollista velkaa kuukaudessa.
+Luottokorttien korollisesta velasta maksettu korko yhteensä kuukaudessa.
 
 #### `leasing_sopimus` — Leasing sopimuksen olemassaolo
 

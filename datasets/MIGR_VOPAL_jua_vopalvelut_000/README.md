@@ -5,7 +5,7 @@
 - **Temporal coverage:** 2011-01-01 - 2025-12-31
 - **Published:** 2026-04-22
 - **Organisation:** Tilastokeskus
-- **Variable count:** 8
+- **Variable count:** 7
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 
@@ -36,7 +36,7 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href="https://migri.fi/ole
 
 Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokeskuksen tutkijapalveluihin tutkijapalvelut@stat.fi.
 
-## Variables (8)
+## Variables (7)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
@@ -45,7 +45,6 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 | `LODGING_DAY` | Majoituksen pvm | — | — | — |
 | `AUTHORITY_UNIT_ID_s` | Suojattu operaattori_id | — | — | — |
 | `AUTHORITY_OFFICE_ID_s` | Suojattu vastaanottokeskus_id | — | — | — |
-| `ACCOMMODATION_TYPE` | Majoitustyyppi | — | — | — |
 | `POSTAL_ADDRESS_NO` | Vastaanottokeskus_postinumero | — | — | — |
 | `POSTAL_ADDRESS_AREA` | Vastaanottokeskus_postitoimipaikka | — | — | — |
 
@@ -68,10 +67,6 @@ Majoitusasiaan kirjauksen tehneen vastaanottokeskuksen operaattori (ylätaso)
 #### `AUTHORITY_OFFICE_ID_s` — Suojattu vastaanottokeskus_id
 
 Majoitusasiaan kirjauksen tehnyt vastaanottokeskus (alataso)
-
-#### `ACCOMMODATION_TYPE` — Majoitustyyppi
-
-Majoitustyyppi
 
 #### `POSTAL_ADDRESS_NO` — Vastaanottokeskus_postinumero
 
