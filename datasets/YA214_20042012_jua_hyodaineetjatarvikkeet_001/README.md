@@ -1,4 +1,4 @@
-# FIRM_COMMOD Hyödykkeet: aineet ja tarvikkeet 2004 - 2012 (YA214)
+# FIRM_COMMOD Hyödykkeet: aineet ja tarvikkeet 2004 - 2012
 
 - **Identifier:** `YA214_20042012_jua_hyodaineetjatarvikkeet_001.xml`
 - **DOI:** `tti_2009-09_2009-09-15_ain_0001`
@@ -35,13 +35,13 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
+| `yrtunnus_s` | Suojattu oikeudellisen yksikön Y-tunnus | — | — | Tunnistetiedot |
+| `tptunnus_s` | Suojattu toimipaikkatunnus | — | — | Tunnistetiedot |
 | `vuosi` | Tilastovuosi | — | — | Tunnistetiedot |
 | `koodi` | Aineet ja tarvikkeet -nimikekoodi | — | aineet_tarv_1_2011_01_01 | luokitustiedot |
 | `kuvaus` | Aineiden ja tarvikkeiden nimiketeksti (suomeksi), joka vastaa koodia | — | aineet_tarv_1_2011_01_01 | Ohjaustiedot |
 | `panostyy` | Panostyyppikoodi | — | — | luokitustiedot |
 | `yhdtyyp` | Yhdistelmätyyppi (oikeudellisen yksikön toimipaikan / toimipaikkojen) vastauksissa | — | — | Ohjaustiedot, Luokitustiedot |
-| `stptunnus` | Suojattu toimipaikkatunnus | — | — | Tunnistetiedot |
-| `syrtunnus` | Suojattu oikeudellisen yksikön Y-tunnus | — | — | Tunnistetiedot |
 | `yrtol08` | Oikeudellisen yksikön toimiala (TOL 2008 -luokitus) | — | toimiala_1_2008_01_01 | Luokitustiedot |
 | `tptol08` | Toimipaikan toimiala (TOL 2008 -luokitus) | — | toimiala_1_2008_01_01 | Luokitustiedot |
 | `tvarmuus` | Aine- ja tarvikehavainnon luotettavuus (tiedon varmuus) tai käsittelyn tilanne | — | — | Ohjaustiedot |
@@ -55,6 +55,18 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `tptol02` | Toimipaikan toimiala (TOL 2002 -luokitus) | — | toimiala_1_2002_01_01 | — |
 
 ### Variable definitions
+
+#### `yrtunnus_s` — Suojattu oikeudellisen yksikön Y-tunnus
+
+**Group:** Tunnistetiedot
+
+Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).
+
+#### `tptunnus_s` — Suojattu toimipaikkatunnus
+
+**Group:** Tunnistetiedot
+
+Suojattu toimipaikkatunnus
 
 #### `vuosi` — Tilastovuosi
 
@@ -111,18 +123,6 @@ Yhdistelmätoimipaikalla toimiala on vain ko. yksittäisen (yhdistelmä)toimipai
 
 Erillisessä tiedostossa tptunnus_hy_sis.sas on listattu toimipaikat, joiden tuotantotietoja sisältyy 
 yhdistelmätoimipaikkojen tuotantotietoihin. Eli toimipaikka A:n tuotannoksi raportoidaan toimipaikkojen A ja B tuotannon summa, mutta toimipaikkaa B ei aineistossa mainita. ID:nä toimipaikka ja vuosi ja col-muuttujat (76) kertovat niiden "haamutoimipaikkojen" tunnukset, joiden tuotanto on sisällytetty "emotoimipaikkojen" tuotantoon. Sama tiedosto pätee ja voidaan käyttää myös tuotetietoihin.
-
-#### `stptunnus` — Suojattu toimipaikkatunnus
-
-**Group:** Tunnistetiedot
-
-Suojattu toimipaikkatunnus
-
-#### `syrtunnus` — Suojattu oikeudellisen yksikön Y-tunnus
-
-**Group:** Tunnistetiedot
-
-Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).
 
 #### `yrtol08` — Oikeudellisen yksikön toimiala (TOL 2008 -luokitus)
 

@@ -1,6 +1,22 @@
 {
   "variables": [
     {
+      "identifier": "yrtunnus_s",
+      "variablename": "Suojattu oikeudellisen yksikön Y-tunnus",
+      "conceptdef": "Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
+      "identifier": "tptunnus_s",
+      "variablename": "Suojattu toimipaikkatunnus",
+      "conceptdef": "Suojattu toimipaikkatunnus",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": "Tunnistetiedot"
+    },
+    {
       "identifier": "vuosi",
       "variablename": "Tilastovuosi",
       "conceptdef": "Tilastovuosi 4 numerolla, lyhenne tv",
@@ -39,22 +55,6 @@
       "measunit": null,
       "classification": null,
       "variablegroups": "Ohjaustiedot, Luokitustiedot"
-    },
-    {
-      "identifier": "stptunnus",
-      "variablename": "Suojattu toimipaikkatunnus",
-      "conceptdef": "Suojattu toimipaikkatunnus",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": "Tunnistetiedot"
-    },
-    {
-      "identifier": "syrtunnus",
-      "variablename": "Suojattu oikeudellisen yksikön Y-tunnus",
-      "conceptdef": "Suojattu oikeudellisen yksikön (yrityksen) tai yhteisön Y-tunnus eli yritys- ja yhteisötunnus taikka luonnollisen henkilön henkilötunnus (vain poikkeustapauksissa henkilötunnus, jos Y-tunnusta ei ole tai sitä ei löydy).",
-      "measunit": null,
-      "classification": null,
-      "variablegroups": "Tunnistetiedot"
     },
     {
       "identifier": "yrtol08",

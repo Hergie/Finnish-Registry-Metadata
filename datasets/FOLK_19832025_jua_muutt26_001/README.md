@@ -1,43 +1,25 @@
-# FOLK_MUUTTO_VALTIO Tarkat valtiotasoiset muuttotiedot
+# FOLK muutto
 
 - **Identifier:** `FOLK_19832025_jua_muutt26_001.xml`
 - **DOI:** `he_201100_ain_Muutto`
 - **Temporal coverage:** 1983-01-01 - 2025-12-31
-- **Published:** 2026-08-27
+- **Published:** 2026-09-30
 - **Organisation:** Tilastokeskus
 - **Variable count:** 14
 - **Observation count:** —
-- **Population:** Vuoden aikana muuttaneet, joilla vakinainen asuinpaikka Suomessa
-- **Source:** DVV:n väestietojärjestelmä VTJ
+- **Population:** Vuoden aikana muuttaneet.
+- **Source:** VTJ
 
 ## Description
 
-FOLK_MUUTTO_VALTIO-valmisaineistomoduuli sisältää tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. Aineistokansion nimi on aiemmin ollut "FOLK_MUUTT".
+FOLK muutto -vuosiaineistossa on tietoja maahan- ja maastamuutoista vuodesta 1983 alkaen. Kuntien välisestä ja sisäisistä muutoista tietoja on vuodesta 1987 lähtien. Aineisto on muodostettu muuttotilaston tiedoista, jotka pohjautuvat väestötietojärjestelmän tietoihin. 
 
-<b> Valmisaineiston tarkentava nimi </b>
-Tiedot Suomen maahan- ja maastamuutoista ja Suomen kuntien välillä ja sisässä muuttaneista, sisältäen muuttajan taustatiedot tarkalla tasolla 
+EU- ja ETA-kansalaisten muutto Suomeen tulee väestötietojärjestelmään ja sitä kautta Tilastokeskukselle, kun henkilö on hakenut ja saanut vakinaisen kotikunnan. Kolmansien maiden kansalaisten täytyy saada oleskelulupa, jotta voivat hakea kotikuntaa DVV:stä. Maahanmuuttoajankohta on se ajankohta, jolloin oleskeluluvan saanut saa kotikunnan ja hänet merkitään VTJ:ään. Henkilö on siis voinut olla maassa jo pidempään ennen virallista maahanmuuttoa. Väestötietojärjestelmässä henkilöllä voi olla myös tilapäinen asuinpaikka, mutta Tilastokeskuksen muuttoliiketilastossa henkilön siirtyminen muualta Suomeen luetaan maahanmuutoksi vain, jos väestötietojärjestelmään on tehty merkintä, että hän on saanut vakinaisen asuinpaikan Suomesta. 
 
-<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b>
-Aineisto sisältää tietoja vuoden aikana Suomen sisällä tai Suomeen/Suomesta muuttaneista, joilla on/on ollut vakinainen asuinpaikka Suomessa. Tiedot perustuvat muuttotilaston tietoihin, jotka on koottu Digi- ja väestötietoviraston (DVV) väestötietojärjestelmästä (VTJ).  
-EU- ja ETA-kansalaisten muutto Suomeen kirjautuu väestötietojärjestelmään ja tulee sitä kautta Tilastokeskukselle, kun henkilö hakee ja saa vakinaisen kotikunnan. Kolmansien maiden kansalaisten on ensin saatava oleskelulupa, ennen kun he voivat hakea kotikuntaa DVV:ltä. 
- 
-Maahanmuuttoajankohta on se ajankohta, jolloin oleskeluluvan saanut saa kotikunnan ja hänet merkitään VTJ:ään. Henkilö on voinut oleskella Suomessa jo pidempään ennen tätä virallista rekisteröintiä/maahanmuuttoa. VTJ:ssä henkilöllä voi olla myös tilapäinen asuinpaikka, mutta Tilastokeskuksen muuttoliiketilastossa maahanmuutoksi lasketaan vain ne tapaukset, joissa henkilö on saanut vakinaisen asuinpaikan Suomessa ja siitä on tehty merkintä VTJ:ään. 
+Aineisto on tarkoitettu FIONA-etäpalvelun kautta käytettäväksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. 
 
-Aineisto sisältää tarkat maa- ja kielikoodit muuttujille 1.kansalaisuus, 2. kansalaisuus, syntymävaltio, lähtömaa, tulomaa sekä äidinkieli.
+Vimeisimmät valtio- FOLK muutto-aineistot ovat kansiossa FOLK_MUUTTO_VALTIO_A, jossa jokaisen muuttovuoden tiedot ovat omassa kansiossaan. Tiedostonimet ovat muodossa folk_muutto_"vuosi"_1.  
 
-<b> Aineiston päivitysaikataulu </b> 
-Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>.
-
-<b> Aineiston käyttö ja tilaaminen </b>
-Aineisto on tarkoitettu käytettäväksi FIONA-etäkäyttöjärjestelmän kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla. 
-
-Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle. Käyttöoikeus voidaan myöntää kokonaisaineistoon (kaikki muuttujat koko populaatiolle kaikilta saatavissa olevilta vuosilta), kun sille on tutkimuksellinen tarve. Mikäli tarve koskee vain osaa muuttujista, voidaan aineistosta tilasta räätälöity versio.
-
-Aineistosta on saatavilla myös rinnakkaisversiot FOLK_MUUTTO_MAANOSA ja FOLK_MUUTTO_SUOMI_MUU, joissa maa- ja kieliluokitukset on valmiiksi karkeistettu. FOLK_MUUTTO_VALTIO ja FOLK_MUUTTO_MAANOSA soveltuvat esimerkiksi ulkomaan ja ulkomaataustaisten muuttoliikettä tarkasteleviin tutkimuksiin, kun taas FOLK_MUUTTO_SUOMI_MUU soveltuu erityisesti Suomen sisäisen muuttoliikkeen tarkasteluun. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja.
-
-Aineisto on FIONA-etäkäyttöjärjestelmässä jaettu vuosikansioihin muuttovuoden perusteella.
- 
-<b> Lisätietoja </b>
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi.
 
 ## Variables (14)

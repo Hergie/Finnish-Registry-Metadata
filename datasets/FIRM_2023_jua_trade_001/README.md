@@ -1,22 +1,24 @@
-# FIRM_TRADE Tavaroiden ja palveluiden ulkomaankauppa MDL-kannasta 2013 - 2023
+# FIRM_TRADE Tavaroiden ja palveluiden ulkomaankauppa MDL-kannasta 2013 - 2025
 
 - **Identifier:** `FIRM_2023_jua_trade_001.xml`
 - **DOI:** `work_2013-12_2013-12-30_ain_0001`
-- **Temporal coverage:** 2013-01-01 - 2023-12-31
+- **Temporal coverage:** 2013-01-01 - 2025-12-31
 - **Published:** 2024-10-04
 - **Organisation:** Tilastokeskus
 - **Variable count:** 9
 - **Observation count:** —
 - **Population:** Kehikko yritysrekisteristä
 - **Source:** Palvelujen ulkomaankaupan ja ulkomaisten tavaravirtojen vuosi- ja neljännesvuositiedustelut, yritysrekisteri, Verohallinnon oma-aloitteisten verojen tiedot
-- **Related:** <a href= "http://www.stat.fi/til/pul/index.html">Palvelujen ulkomaankauppa</a> <a href= "http://www.stat.fi/meta/rekisteriselosteet/tutka_rekisteriseloste_palvelujen_ulkomaankauppa.html">Palvelujen ulkomaankauppa</a>
+- **Related:** <a href= "https://stat.fi/fi/tilasto/tpulk">Tavaroiden ja palvelujen ulkomaankauppa</a> <a href= "https://stat.fi/fi/dokumentaatio/tilastojen-dokumentaatio/tpulk">Tavaroiden ja palveluiden ulkomaankauppa: tilaston dokumentaatio</a>
 - **Keywords:** palvelut,tuonti,ulkomaankauppa,vienti,yritykset
 
 ## Description
 
 Palvelujen ulkomaankauppa ja ulkomaiset tavaravirrat.
 
-Palvelujen ulkomaankaupan ja ulkomaisten tavaravirtojen tiedustelut sisältävät tietoja yritysten käymästä palvelujen ulkomaankaupasta sekä yritysten ulkomaisista tavaravirroista maittain ja erittäin jaoteltuna. Tietoja kerätään vuosittain yrityksiltä neljännesvuositiedustelulla sekä vuositiedustelulla. Ensimmäiseen valitaan noin 1 000 palveluiden ulkomaankaupan merkittävintä yritystä ja jälkimmäiseen pakotetaan vuosittain vaihtuvan kynnysarvon ylittävät yritykset ja kynnysarvon alittavista satunnaisesti valittu yritysjoukko, jolloin vuositiedustelun otoskoko on yhteensä noin 2 000 yritystä. Vuositiedustelun satunnaisotos on ositettu ulkomaalaisomisteisuuden, henkilöstömäärän ja toimialan perusteella. Tähän tutkimusaineistoon sisältyvät molempien tiedustelujen tiedot vuositasolle yhdistettynä. 
+Palvelujen ulkomaankaupan ja ulkomaisten tavaravirtojen tiedustelut sisältävät tietoja yritysten käymästä palvelujen ulkomaankaupasta sekä yritysten ulkomaisista tavaravirroista maittain ja erittäin jaoteltuna. Tietoja on kerätty vuoteen 2023 asti vuosittain yrityksiltä neljännesvuositiedustelulla sekä vuositiedustelulla. Ensimmäiseen on valittu noin 1 000 palveluiden ulkomaankaupan merkittävintä yritystä ja jälkimmäiseen pakotetaan vuosittain vaihtuvan kynnysarvon ylittävät yritykset ja kynnysarvon alittavista satunnaisesti valittu yritysjoukko, jolloin vuositiedustelun otoskoko on ollut yhteensä noin 2 000 yritystä. Vuositiedustelun satunnaisotos on ositettu ulkomaalaisomisteisuuden, henkilöstömäärän ja toimialan perusteella. Tähän tutkimusaineistoon sisältyvät molempien tiedustelujen tiedot vuositasolle yhdistettynä. 
+
+Tilastovuodesta 2024 alkaen on lakkautettu vuositiedonkeruu ja neljännesvuosittaista tiedonkeruuta on kasvatettu 500 yksiköllä 1 500 yksikköön. Vuositiedonkeruun sijaan tiedonkeruun ulkopuoliset yksiköt estimoidaan menetelmällä, joka käyttää mm. VIES-aineistoa kattamaan perusjoukon tason, joka on aiemmin katettu vuosikeruulla. Muutoksen myötä tilastoyksiköiden lukumäärä on vähentynyt, mutta laatu on parantunut. 
 
 Kyselyaineistoa hyödynnetään tavaroiden ja palveluiden ulkomaankaupan tilastossa sekä maksutaseen ja kansantalouden tilinpidon laadinnassa muiden lähdeaineistojen ohella. Aineisto sisältää imputoituja tietoja ja korjauksia, mutta yritysten vastauksia ei ole korotettu koko kansantalouden tasolle. Näiden seikkojen vuoksi kyselyaineistosta laskettu kokonaisvienti tai -tuonti ei vastaa tavaroiden ja palveluiden ulkomaankaupan julkistettuja lukuja. Aineisto edustaa vain vuosittain otokseen valittavan yritysjoukon toimintaa. Vuoteen 2023 saakka otospoimintamenetelmällä pyrittiin otoskoon puitteissa varmistamaan edustavuus koon, toimialan ja omistussuhteen mukaan. Kokoa tarkasteltiin henkilötyövuosina 0-49 / 50-249 / 250+. Kotitalouksien ulkomaankaupan transaktiot eivät sisälly aineistoon. 
 

@@ -1,7 +1,7 @@
 {
   "variables": [
     {
-      "identifier": "stoimipaikkaID",
+      "identifier": "toimipaikkaID_s",
       "variablename": "Suojattu toimipaikkatunnus",
       "conceptdef": "Toimipaikkatunnus on TK:n ylläpitämä pysyvä yksilöivä tunniste, mutta siinä voi tapahtua muutoksia ja siksi se on hyvä yhdistää yritystunnukseen.",
       "measunit": null,
@@ -9,7 +9,7 @@
       "variablegroups": null
     },
     {
-      "identifier": "syrtunnus",
+      "identifier": "yrtunnus_s",
       "variablename": "Suojattu yritystunnus",
       "conceptdef": null,
       "measunit": null,

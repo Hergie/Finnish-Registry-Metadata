@@ -1,8 +1,8 @@
-# FIRM_COMMOD Hyödykkeet: tuotteet 2013 - 2023
+# FIRM_COMMOD Hyödykkeet: tuotteet 2013 - 2024
 
 - **Identifier:** `FIRM_20132020_jua_COMMODtuotteet_001.xml`
 - **DOI:** `tti_2009-09_2009-09-15_ain_0001`
-- **Temporal coverage:** 2013-01-01 - 2023-12-31
+- **Temporal coverage:** 2013-01-01 - 2024-12-31
 - **Published:** 2025-11-03
 - **Organisation:** Tilastokeskus
 - **Variable count:** 16
@@ -49,8 +49,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `stoimipaikkaID` | Suojattu toimipaikkatunnus | — | — | — |
-| `syrtunnus` | Suojattu yritystunnus | — | — | — |
+| `toimipaikkaID_s` | Suojattu toimipaikkatunnus | — | — | — |
+| `yrtunnus_s` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | Tunnistetiedot |
 | `Prodcomkoodi` | Prodcom-koodi | — | prodcom_1_2014_01_01 | — |
 | `TuotanTyyppi` | Hyödykkeen tuotannon tyyppi | — | tuottyyp_2_2012_01_01 | — |
@@ -68,11 +68,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 ### Variable definitions
 
-#### `stoimipaikkaID` — Suojattu toimipaikkatunnus
+#### `toimipaikkaID_s` — Suojattu toimipaikkatunnus
 
 Toimipaikkatunnus on TK:n ylläpitämä pysyvä yksilöivä tunniste, mutta siinä voi tapahtua muutoksia ja siksi se on hyvä yhdistää yritystunnukseen.
 
-#### `syrtunnus` — Suojattu yritystunnus
+#### `yrtunnus_s` — Suojattu yritystunnus
 
 #### `vuosi` — Vuosi
 

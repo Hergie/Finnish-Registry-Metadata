@@ -10,7 +10,7 @@
 
 ## Description
 
-PORE_SUM-valmisaineistomoduuli sisältää Positiivisen luottotietorekisterin yksityishenkilöiden summatut luotto- ja velkatiedot kuukausitasolla, kuten kuluttajaluotot ja niihin rinnastuvat luotot, jotka on eritelty kertaluontoisiin ja jatkuviin luottoihin.
+PORE_SUM-valmisaineistomoduuli sisältää Positiivisen luottotietorekisterin yksityishenkilöiden summatut luotto- ja velkatiedot kuukausitasolla, kuten kuluttajaluotot ja niihin rinnastuvat luotot, jotka on eritelty kertaluontoisiin ja jatkuviin luottoihin. 
 
 <b>Valmisaineiston tarkentava nimi</b>
 Positiivisen luottotietorekisterin yksityishenkilöiden summatut luotto- ja velkatiedot kuukausitasolla (PORE_SUM)
@@ -19,6 +19,8 @@ Positiivisen luottotietorekisterin yksityishenkilöiden summatut luotto- ja velk
 Positiivinen luottotietorekisteri on rekisteri, johon kootaan tiedot yksityishenkilöiden luotoista sekä muille luonnollisille henkilöille kuin kuluttajille myönnetyistä luotoista. Tällaisia luottoja ovat esimerkiksi toiminimiyrittäjälle tai maatalouden harjoittajalle myönnetyt luotot. 
 
 Luotonantajat ilmoittavat luottotietorekisteriin tiedot myöntämistään luotoista sekä luotoissa tapahtuneista muutoksista. Tällaisia muutoksia ovat esimerkiksi lyhennykset ja luottosopimuksen muutokset.
+
+Kuukausitason summatiedot kuvaavat luotonsaajan eri luottojen tilannetta viitejakson aikana. Kertaluottojen velkasaldo on eritelty velkalajeittain. 
 
 Tiedot toimittaa Verohallinnon Tulorekisteriyksikkö. Lisätietoja Positiivisen luottotietorekisterin sivuilla: <a href="https://www.vero.fi/positiivinenluottotietorekisteri/tietoa-rekisterista/">Tietoa rekisteristä</a>.
 
@@ -34,6 +36,8 @@ Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on lin
 Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista.
 
 Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
+
+Yksityishenkilöiden tarkat luottotiedot on haettavissa tutkimushankkeen tarpeisiin räätälöitynä tutkimusaineistona.
 
 <b>Tarkempaa tietoa muuttujista</b>
 Toiminimiyrittäjien luotot sisältyvät toisen vaiheen tietoihin, jotka on lisätty rekisteriin vasta kuluttajaluottojen jälkeen.

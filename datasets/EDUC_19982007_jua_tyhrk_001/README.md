@@ -1,0 +1,1003 @@
+# EDUC_TYHR_KARK Toisen asteen yhteishaku, v. 1998–2007
+
+- **Identifier:** `EDUC_19982007_jua_tyhrk_001.xml`
+- **DOI:** `aop_2026-10_2026-10-01_ain_0004`
+- **Temporal coverage:** —
+- **Published:** 2026-10-01
+- **Organisation:** Tilastokeskus
+- **Variable count:** 201
+- **Observation count:** —
+- **Population:** Vuosina 1998–2007 toisen asteen koulutuksen yhteishakuun osallistuneet
+- **Source:** Opetushallitus
+
+## Description
+
+EDUC_TYHR_KARK-valmisaineisto sisältää Opetushallituksen yhteishakurekisteriin perustuvia henkilötason tietoja toisen asteen koulutukseen hakeneista henkilöistä, heidän taustatekijöistään, hakutoiveistaan, arvosanoistaan sekä opiskelijavalintojen tuloksista.
+
+Tämä aineistokuvaus koskee vuosien 1998–2007 vuositiedostoja. EDUC_TYHR_KARK-aineistosta on erilliset kuvaukset myös vuosille 1985, 1989, 1991–1995, 1996–1997 sekä 2008–2013. Vuoden 2014 jälkeisille tiedoille on olemassa yksi kuvaus. 
+
+<b> Valmisaineiston tarkentava nimi </b> 
+Toisen asteen ja valmentaviin ja valmistaviin koulutuksiin hakeneiden yhteishakutiedot, sisältäen hakijoiden taustatietoja tarkalla tasolla.
+
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Lähdeaineistona toimii Opetushallituksen Tilastokeskukselle vuosittain toimittama toisen asteen koulutuksen yhteishakurekisteri. Vuosien 1998–2007 datataulut koostuvat henkilöistä, jotka osallistuivat toisen asteen koulutuksen yhteishakuun tilastovuosina 1998–2007. Tiedosto on toimitettu Tilastokeskukseen Opetushallituksesta. Huomioithan, että tietojen vastaavuutta Opetushallituksen lopulliseen rekisteriin ei ole voitu varmistaa.
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Henkilön tunnistetiedot on salattu aineistosta. Lisäksi kaikkien oppilaitosten tunnistetiedot on salattu.
+
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+EDUC_TYHR_KARK-valmisaineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.
+
+Mikäli tutkimushankkeen tarve kohdistuu tarkkoihin kansalaisuus- ja äidinkielitietoihin, voi se hakea käyttöönsä EDUC_TYHR-valmisaineistoa, joka sisältää muuten samat muuttujat, mutta kansalaisuus- ja äidinkielitiedot ovat tarkalla tasolla. EDUC_TYHR-aineiston käyttöön saaminen edellyttää vahvoja tutkimuksellisia perusteita. Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksolta. Kokonaisaineiston (kaikki muuttujat koko populaatiosta ja kaikilta saatavilla olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Lisäksi aineistosta voi tilata räätälöidyn version, joka sisältää vain osan muuttujista. 
+
+Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
+
+<b> Tarkempaa tietoa muuttujista </b> 
+- Arvosana- ja oppiainemuuttujissa on havaittu puutteita, eikä niiden oikeellisuutta ole voitu varmistaa. Lukuun ottamatta keskiarvotietoja, arvosanatietojen käytössä tulee huomioida tietojen rajoittuneisuus ja mahdolliset puutteet. Arvosanamuuttujissa arvo ”0” vastaa arvosanaa ”10”.
+- Muuttujien kuvauksissa on ollut puutteita, joita on pyritty selvittämään ja täydentämään jälkikäteen. Kuvauksia on ensisijaisesti täydennetty aineiston uudempien vuosien kattavampien tietojen perusteella. Joidenkin muuttujien, kuten laani, kiintio, p1...pkv, aimtu ja aimtuopis osalta tarkkaa tietoa sisällöstä ja luokituksista ei ole saatu.
+- Laani-muuttujan luokitusta ei ole pystytty varmentamaan. On todennäköistä, että läänitiedot on mukailtu alkuperäisestä aineistosta. Koko aikasarjan ajan aineistossa esiintyy 12 lääniä, vaikka vuoden 1997 lääniuudistuksessa määrä väheni kuuteen.
+- Kiintio-muuttujalta puuttuu kokonaan kuvaus, eikä sen tarkoituksesta ei tämän vuoksi ole varmuutta.
+- Muuttujat P1, P2, P3...PKV kuvaavat valinnan pohjakoulutusvaatimusta. Koska aineistosta puuttui näiden muuttujien luokitus, se on laadittu vuoden 2008 luokituksen pohjalta parhaan saatavilla olevan tiedon mukaan. Vuoden 2008 luokitus vastaa todennäköisesti suurimmilta osin myös aiempien vuosien luokituksia.
+- AIMTU-muuttuja kuvaa ammatillista tutkintoa ja AIMTUOPIS ammatillista tutkintoa opisto- tai ammattikorkea-asteelta. Koska selitteet ja luokitukset puuttuvat, ei luokkien määräytymisperusteista ole varmuutta.
+
+<b> Lisätietoja </b> 
+Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
+
+## Variables (201)
+
+| Identifier | Name | Unit | Classification | Group |
+|---|---|---|---|---|
+| `SYHKOKV` | Konevalinnan suojattu yhteishaun koulukoodi | — | — | — |
+| `SYHKOV` | Valinnan suojattu yhteishaun koulukoodi | — | — | — |
+| `SYHKO5` | 5. Hakutoiveen suojattu yhteishaun koulukoodi | — | — | — |
+| `SYHKO4` | 4. Hakutoiveen suojattu yhteishaun koulukoodi | — | — | — |
+| `SYHKO3` | 3. Hakutoiveen suojattu yhteishaun koulukoodi | — | — | — |
+| `SYHKO2` | 2. Hakutoiveen suojattu yhteishaun koulukoodi | — | — | — |
+| `SYHKO1` | 1. Hakutoiveen suojattu yhteishaun koulukoodi | — | — | — |
+| `LIKO` | Lisäkoulutus | — | — | — |
+| `KUNKOPV` | Konevalinnan opetuspisteen sijaintikunta | — | — | — |
+| `KUNOPV` | Valinnan opetuspisteen sijaintikunta | — | — | — |
+| `KUNOP5` | 5. Hakutoiveen opetuspisteen sijaintikunta | — | — | — |
+| `KUNOP4` | 4. Hakutoiveen opetuspisteen sijaintikunta | — | — | — |
+| `KUNOP3` | 3. Hakutoiveen opetuspisteen sijaintikunta | — | — | — |
+| `KUNOP2` | 2. Hakutoiveen opetuspisteen sijaintikunta | — | — | — |
+| `KUNOP1` | 1. Hakutoiveen opetuspisteen sijaintikunta | — | — | — |
+| `hid_e` | Suojattu henkilön yksilöivä tunniste | — | — | — |
+| `PSYKOLOGIA2` | Psykologia | — | — | — |
+| `FILOSOFIA2` | Filosofia | — | — | — |
+| `KONEKIRJ2` | Konekirjoitus | — | — | — |
+| `KAUPAIN2` | Kaupalliset aineet | — | — | — |
+| `MMETS2` | Maa- ja metsätalous sekä puutarhanhoito | — | — | — |
+| `KOTITAL2` | Kotitalous | — | — | — |
+| `TTTYO2` | Tekstiili-/tekninen työ | — | — | — |
+| `TIETOTEKN2` | Tietotekniikka | — | — | — |
+| `KUVTAITO2` | Kuvaamataito | — | — | — |
+| `KASITYO2` | Tekstiili-/tekninen työ, käsityö | — | — | — |
+| `MUSIIKKI2` | Musiikki | — | — | — |
+| `LIIKUNTA2` | Liikunta | — | — | — |
+| `MAANT2` | Maantieto | — | — | — |
+| `TERVEYS2` | Terveystieto | — | — | — |
+| `YHTOPPI2` | Yhteiskuntaoppi | — | — | — |
+| `BIOLOGIA2` | Biologia | — | — | — |
+| `KEMIA2` | Kemia | — | — | — |
+| `FYSA2` | Fysiikan arvosana | — | — | — |
+| `FYSTASO2` | Fysiikan taso | — | — | — |
+| `MATA2` | Matematiikan arvosana | — | — | — |
+| `MATTASO2` | Matematiikan taso | — | — | — |
+| `KANSTAIT2` | Kansalaistaito/Terveystieto | — | — | — |
+| `HISTORIA2` | Historia | — | — | — |
+| `VIA72` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE72` | Oppilaan B2 kieli | — | — | — |
+| `VIA62` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE62` | Oppilaan B2 kieli | — | — | — |
+| `VIA52` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE52` | Oppilaan B2 kieli | — | — | — |
+| `VIA42` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE42` | Oppilaan B2 kieli | — | — | — |
+| `VIA32` | Oppilaan B1 kieli/arvosana | — | — | — |
+| `VIE32` | Oppilaan B1 kieli | — | — | — |
+| `VIA22` | Oppilaan A2 kieli/arvosana | — | — | — |
+| `VIE22` | Oppilaan A2 kieli | — | — | — |
+| `VIA12` | Oppilaan A1 kieli/arvosana | — | — | — |
+| `VIT12` | Oppilaan A1 kieli/taso | — | — | — |
+| `VIE12` | Oppilaan A1 kieli | — | — | — |
+| `AIDINK2` | Äidinkieli | — | — | — |
+| `USKONTO2` | Uskonto | — | — | — |
+| `ARVS2` | Peruskoulusta hakevien toiset arvosanat hakukorttijärjestyksessä | — | — | — |
+| `AIMTUOPIS` | Ammatillinen tutkinto opisto- tai amm.korkea-asteelta | — | — | — |
+| `AIMTU` | Ammatillinen tutkinto | — | — | — |
+| `YHOLINKV` | Konevalinnan yhteishaun linjakoodi | — | — | — |
+| `YHOLINV` | Valinnan yhteishaun linjakoodi | — | — | — |
+| `YHOLIN5` | 5. Hakutoiveen yhteishaun linjakoodi | — | — | — |
+| `YHOLIN4` | 4. Hakutoiveen yhteishaun linjakoodi | — | — | — |
+| `YHOLIN3` | 3. Hakutoiveen yhteishaun linjakoodi | — | — | — |
+| `YHOLIN2` | 2. Hakutoiveen yhteishaun linjakoodi | — | — | — |
+| `YHOLIN1` | 1. Hakutoiveen yhteishaun linjakoodi | — | — | — |
+| `YOBK3A` | YO-TUTK. /B3-kieli arvosana | — | — | — |
+| `YOBK3TAS` | YO-TUTK. /B3-kieli taso | — | — | — |
+| `YOBK2A` | YO-TUTK. /B2-kieli arvosana | — | — | — |
+| `YOBK2TAS` | YO-TUTK. /B2-kieli taso | — | — | — |
+| `YOBK1A` | YO-TUTK. /B1-kieli arvosana | — | — | — |
+| `YOBK1TAS` | YO-TUTK. /B1-kieli taso | — | — | — |
+| `YOAK2A` | YO-TUTK. /A2-kieli arvosana | — | — | — |
+| `YOAK2TAS` | YO-TUTK. /A2-kieli taso | — | — | — |
+| `YOAK1A` | YO-TUTK. /A1-kieli arvosana | — | — | — |
+| `YOAK1TAS` | YO-TUTK. /A1-kieli taso | — | — | — |
+| `YORE` | YO-TUTK. /reaali | — | — | — |
+| `YOMA` | YO-TUTK. /matematiikka | — | — | — |
+| `YOMATAS` | YO-TUTK. /matematiikan taso | — | — | — |
+| `YOAI` | YO-TUTK. /äidinkieli | — | — | — |
+| `PSYKOLOGIA` | Psykologia | — | — | — |
+| `FILOSOFIA` | Filosofia | — | — | — |
+| `KONEKIRJ` | Konekirjoitus | — | — | — |
+| `KAUPAIN` | Kaupalliset aineet | — | — | — |
+| `MMETS` | Maa- ja metsätalous sekä puutarhanhoito | — | — | — |
+| `KOTITAL` | Kotitalous | — | — | — |
+| `TTTYO` | Tekstiili-/Tekninen työ | — | — | — |
+| `TIETOTEKN` | Tietotekniikka | — | — | — |
+| `KASITYO` | Tekstiili-/tekninen työ, käsityö | — | — | — |
+| `KUVTAITO` | Kuvaamataito | — | — | — |
+| `MUSIIKKI` | Musiikki | — | — | — |
+| `LIIKUNTA` | Liikunta | — | — | — |
+| `MAANT` | Maantieto | — | — | — |
+| `TERVEYS` | Terveystieto | — | — | — |
+| `YHTOPPI` | Yhteiskuntaoppi | — | — | — |
+| `BIOLOGIA` | Biologia | — | — | — |
+| `KEMIA` | Kemia | — | — | — |
+| `FYSA` | Fysiikan arvosana | — | — | — |
+| `FYSTASO` | Fysiikan taso | — | — | — |
+| `MATA` | Matematiikan arvosana | — | — | — |
+| `MATTASO` | Matematiikan taso | — | — | — |
+| `KANSTAIT` | Kansalaistaito | — | — | — |
+| `HISTORIA` | Historia | — | — | — |
+| `VIA7` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE7` | Oppilaan B2 kieli | — | — | — |
+| `VIA6` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE6` | Oppilaan B2 kieli | — | — | — |
+| `VIA5` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE5` | Oppilaan B2 kieli | — | — | — |
+| `VIA4` | Oppilaan B2 kieli/arvosana | — | — | — |
+| `VIE4` | Oppilaan B2 kieli | — | — | — |
+| `VIA3` | Oppilaan B1 kieli/arvosana | — | — | — |
+| `VIE3` | Oppilaan B1 kieli | — | — | — |
+| `VIA2` | Oppilaan A2 kieli/arvosana | — | — | — |
+| `VIE2` | Oppilaan A2 kieli | — | — | — |
+| `VIA1` | Oppilaan A1 kieli/arvosana | — | — | — |
+| `VIE1` | Oppilaan A1 kieli | — | — | — |
+| `AIDINK` | Äidinkieli | — | — | — |
+| `USKONTO` | Uskonto | — | — | — |
+| `ARVS1` | Arvosanat hakukorttijärjestyksessä | — | — | — |
+| `KIELI` | Äidinkieli | — | — | — |
+| `MSO` | Ulkomainen todistus | — | — | — |
+| `ALKA` | Ammatillinen lukuaineiden keskiarvo | — | — | — |
+| `KA` | Kaikkien aineiden keskiarvo | — | — | — |
+| `LKA` | Lukuaineiden keskiarvo | — | — | — |
+| `LUOK` | Peruskoulun luokka | — | — | — |
+| `TV` | Todistuksen saantivuosi | — | — | — |
+| `KALAKV` | Konevalinnan koulutusala | — | — | — |
+| `KALAV` | Valinnan koulutusala | — | — | — |
+| `KALA5` | 5. hakutoiveen koulutusala | — | — | — |
+| `KALA4` | 4. hakutoiveen koulutusala | — | — | — |
+| `KALA3` | 3. hakutoiveen koulutusala | — | — | — |
+| `KALA2` | 2. hakutoiveen koulutusala | — | — | — |
+| `KALA1` | 1. hakutoiveen koulutusala | — | — | — |
+| `KUNKV` | Konevalinnan oppilaitoksen sijaintikunta | — | — | — |
+| `KUNV` | Valinnan oppilaitoksen sijaintikunta | — | — | — |
+| `KUN5` | 5. hakutoiveen oppilaitoksen sijaintikunta | — | — | — |
+| `KUN4` | 4. hakutoiveen oppilaitoksen sijaintikunta | — | — | — |
+| `KUN3` | 3. hakutoiveen oppilaitoksen sijaintikunta | — | — | — |
+| `KUN2` | 2. hakutoiveen oppilaitoksen sijaintikunta | — | — | — |
+| `KUN1` | 1. hakutoiveen oppilaitoksen sijaintikunta | — | — | — |
+| `ASKV` | Konevalinnan aste | — | — | — |
+| `ASV` | Valinnan aste | — | — | — |
+| `AS5` | 5. hakutoiveen aste | — | — | — |
+| `AS4` | 4. hakutoiveen aste | — | — | — |
+| `AS3` | 3. hakutoiveen aste | — | — | — |
+| `AS2` | 2. hakutoiveen aste | — | — | — |
+| `AS1` | 1. hakutoiveen aste | — | — | — |
+| `PEKV` | Konevalinnan opintoala | — | — | — |
+| `PEV` | Valinnan opintoala | — | — | — |
+| `PE5` | 5. hakutoiveen opintoala | — | — | — |
+| `PE4` | 4. hakutoiveen opintoala | — | — | — |
+| `PE3` | 3. hakutoiveen opintoala | — | — | — |
+| `PE2` | 2. hakutoiveen opintoala | — | — | — |
+| `PE1` | 1. hakutoiveen opintoala | — | — | — |
+| `PKV` | Konevalinnan pohjakoulutusvaatimus | — | — | — |
+| `PV` | Valinnan pohjakoulutusvaatimus | — | — | — |
+| `P5` | 5. hakutoiveen pohjakoulutusvaatimus | — | — | — |
+| `P4` | 4. hakutoiveen pohjakoulutusvaatimus | — | — | — |
+| `P3` | 3. hakutoiveen pohjakoulutusvaatimus | — | — | — |
+| `P2` | 2. hakutoiveen pohjakoulutusvaatimus | — | — | — |
+| `P1` | 1. hakutoiveen pohjakoulutusvaatimus | — | — | — |
+| `EP` | Hakutoive | — | — | — |
+| `KIINTIO` | Valinnan kiintiö | — | — | — |
+| `KOODI` | Valintatiedon päivityskoodi | — | — | — |
+| `KONEV_L` | Konevalinnan linjakoodi (tk:n koodi) | — | — | — |
+| `KONEV_R` | Konevalinnan koulun tyyppi (tk:n koodi) | — | — | — |
+| `ONEV_SK_s` | Konevalinnan suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `KONEV_AL` | Konevalinnan yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `VAL_L` | Valinnan linjakoodi (tk:n koodi) | — | — | — |
+| `VAL_R` | Valinnan koulun tyyppi (tk:n koodi) | — | — | — |
+| `AL_SK_s` | Valinnan suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `VAL_AL` | Valinnan yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `L5` | 5. hakutoiveen linjakoodi (tk:n koodi) | — | — | — |
+| `R5` | 5. hakutoiveen koulun tyyppi (tk:n koodi) | — | — | — |
+| `K5_s` | 5. hakutoiveen suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `AL5` | 5. hakutoiveen yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `L4` | 4. hakutoiveen linjakoodi (tk:n koodi) | — | — | — |
+| `R4` | 4. hakutoiveen koulun tyyppi (tk:n koodi) | — | — | — |
+| `K4_s` | 4. hakutoiveen suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `AL4` | 4. hakutoiveen yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `L3` | 3. hakutoiveen linjakoodi (tk:n koodi) | — | — | — |
+| `R3` | 3. hakutoiveen koulun tyyppi (tk:n koodi) | — | — | — |
+| `K3_s` | 3. hakutoiveen suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `AL3` | 3. hakutoiveen yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `L2` | 2. hakutoiveen linjakoodi (tk:n koodi) | — | — | — |
+| `R2` | 2. hakutoiveen koulun tyyppi (tk:n koodi) | — | — | — |
+| `K2_s` | 2. hakutoiveen suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `AL2` | 2. hakutoiveen yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `L1` | 1. hakutoiveen linjakoodi (tk:n koodi) | — | — | — |
+| `R1` | 1. hakutoiveen koulun tyyppi (tk:n koodi) | — | — | — |
+| `K1_s` | 1. hakutoiveen suojattu koulukoodi (tk:n koodi) | — | — | — |
+| `AL1` | 1. hakutoiveen yhva-aluekoodi (tk:n koodi) | — | — | — |
+| `TASO` | Koulutaso | — | — | — |
+| `PK_s` | Suojattu peruskoulun koulukoodi | — | — | — |
+| `KUNTA` | Kotikunta | — | — | — |
+| `LAANI` | Läänikoodi | — | — | — |
+| `SP` | Sukupuolikoodi | — | — | — |
+| `ALUE` | Aluekoodi | — | — | — |
+| `HAKUKAUSI` | Hakukausi | — | — | — |
+| `HAKUVUOSI` | Hakuvuosi | — | — | — |
+
+### Variable definitions
+
+#### `SYHKOKV` — Konevalinnan suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `SYHKOV` — Valinnan suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `SYHKO5` — 5. Hakutoiveen suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `SYHKO4` — 4. Hakutoiveen suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `SYHKO3` — 3. Hakutoiveen suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `SYHKO2` — 2. Hakutoiveen suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `SYHKO1` — 1. Hakutoiveen suojattu yhteishaun koulukoodi
+
+Tieto vuodesta 2005 alkaen.
+
+#### `LIKO` — Lisäkoulutus
+
+1 = kyllä
+Tieto saatavissa vuodelta 2007
+
+#### `KUNKOPV` — Konevalinnan opetuspisteen sijaintikunta
+
+Vuodesta 2003 alkaen.
+
+#### `KUNOPV` — Valinnan opetuspisteen sijaintikunta
+
+Vuodesta 2003 alkaen.
+
+#### `KUNOP5` — 5. Hakutoiveen opetuspisteen sijaintikunta
+
+Vuodesta 2005 alkaen.
+
+#### `KUNOP4` — 4. Hakutoiveen opetuspisteen sijaintikunta
+
+Vuodesta 2003 alkaen.
+
+#### `KUNOP3` — 3. Hakutoiveen opetuspisteen sijaintikunta
+
+Vuodesta 2003 alkaen.
+
+#### `KUNOP2` — 2. Hakutoiveen opetuspisteen sijaintikunta
+
+Vuodesta 2003 alkaen.
+
+#### `KUNOP1` — 1. Hakutoiveen opetuspisteen sijaintikunta
+
+Vuodesta 2003 alkaen.
+
+#### `hid_e` — Suojattu henkilön yksilöivä tunniste
+
+Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e -tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.
+
+#### `PSYKOLOGIA2` — Psykologia
+
+Tieto vuoteen 2004 asti. Tieto puuttuu vuodelta 2000.
+
+#### `FILOSOFIA2` — Filosofia
+
+Tieto vuoteen 2004 asti.
+
+#### `KONEKIRJ2` — Konekirjoitus
+
+Tieto vuoteen 1999 asti.
+
+#### `KAUPAIN2` — Kaupalliset aineet
+
+Tieto vuoteen 1999 asti.
+
+#### `MMETS2` — Maa- ja metsätalous sekä puutarhanhoito
+
+Tieto vuoteen 1999 asti.
+
+#### `KOTITAL2` — Kotitalous
+
+#### `TTTYO2` — Tekstiili-/tekninen työ
+
+Vuoteen 1999 asti nimellä tttyo2, vuodesta 2000 alkaen nimellä kasityo2.
+
+#### `TIETOTEKN2` — Tietotekniikka
+
+Tieto vuoteen 2000 asti.
+
+#### `KUVTAITO2` — Kuvaamataito
+
+#### `KASITYO2` — Tekstiili-/tekninen työ, käsityö
+
+Vuoteen 1999 nimellä tttyo2, vuodesta 2000 nimellä kasityo2.
+
+#### `MUSIIKKI2` — Musiikki
+
+#### `LIIKUNTA2` — Liikunta
+
+#### `MAANT2` — Maantieto
+
+#### `TERVEYS2` — Terveystieto
+
+Tieto vuodesta 2007 alkaen.
+
+#### `YHTOPPI2` — Yhteiskuntaoppi
+
+Tieto vuodesta 2007 alkaen.
+
+#### `BIOLOGIA2` — Biologia
+
+#### `KEMIA2` — Kemia
+
+#### `FYSA2` — Fysiikan arvosana
+
+#### `FYSTASO2` — Fysiikan taso
+
+Tieto vuoteen 2004 asti.
+
+#### `MATA2` — Matematiikan arvosana
+
+#### `MATTASO2` — Matematiikan taso
+
+Tieto vuoteen 2004 asti.
+
+#### `KANSTAIT2` — Kansalaistaito/Terveystieto
+
+Tieto vuoteen 2004 asti.
+
+#### `HISTORIA2` — Historia
+
+#### `VIA72` — Oppilaan B2 kieli/arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `VIE72` — Oppilaan B2 kieli
+
+Tieto vuoteen 2004 asti.
+
+#### `VIA62` — Oppilaan B2 kieli/arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `VIE62` — Oppilaan B2 kieli
+
+Tieto vuoteen 2004 asti.
+
+#### `VIA52` — Oppilaan B2 kieli/arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `VIE52` — Oppilaan B2 kieli
+
+Tieto vuoteen 2004 asti.
+
+#### `VIA42` — Oppilaan B2 kieli/arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `VIE42` — Oppilaan B2 kieli
+
+Tieto vuoteen 2004 asti.
+
+#### `VIA32` — Oppilaan B1 kieli/arvosana
+
+#### `VIE32` — Oppilaan B1 kieli
+
+#### `VIA22` — Oppilaan A2 kieli/arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `VIE22` — Oppilaan A2 kieli
+
+Tieto vuoteen 2004 asti.
+
+#### `VIA12` — Oppilaan A1 kieli/arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `VIT12` — Oppilaan A1 kieli/taso
+
+#### `VIE12` — Oppilaan A1 kieli
+
+#### `AIDINK2` — Äidinkieli
+
+#### `USKONTO2` — Uskonto
+
+#### `ARVS2` — Peruskoulusta hakevien toiset arvosanat hakukorttijärjestyksessä
+
+Muuttujassa on listattu kaikkien aineiden arvosanat ja ne ovat oletettavasti siinä järjestyksessä kuin tässä kuvauksessa muuttujat USKONTO - YOBK3A. Numerosarjassa esiintyy myös kielikoodeja sekä tyhjiä. 
+
+Esiintyy vuosina 1999, sekä 2005-2007.
+
+#### `AIMTUOPIS` — Ammatillinen tutkinto opisto- tai amm.korkea-asteelta
+
+Tieto vuoteen 1999 asti.
+
+#### `AIMTU` — Ammatillinen tutkinto
+
+#### `YHOLINKV` — Konevalinnan yhteishaun linjakoodi
+
+#### `YHOLINV` — Valinnan yhteishaun linjakoodi
+
+#### `YHOLIN5` — 5. Hakutoiveen yhteishaun linjakoodi
+
+#### `YHOLIN4` — 4. Hakutoiveen yhteishaun linjakoodi
+
+#### `YHOLIN3` — 3. Hakutoiveen yhteishaun linjakoodi
+
+#### `YHOLIN2` — 2. Hakutoiveen yhteishaun linjakoodi
+
+#### `YHOLIN1` — 1. Hakutoiveen yhteishaun linjakoodi
+
+#### `YOBK3A` — YO-TUTK. /B3-kieli arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `YOBK3TAS` — YO-TUTK. /B3-kieli taso
+
+Tieto vuoteen 2004 asti.
+
+#### `YOBK2A` — YO-TUTK. /B2-kieli arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `YOBK2TAS` — YO-TUTK. /B2-kieli taso
+
+Tieto vuoteen 2004 asti.
+
+#### `YOBK1A` — YO-TUTK. /B1-kieli arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `YOBK1TAS` — YO-TUTK. /B1-kieli taso
+
+Tieto vuoteen 2004 asti.
+
+#### `YOAK2A` — YO-TUTK. /A2-kieli arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `YOAK2TAS` — YO-TUTK. /A2-kieli taso
+
+Tieto vuoteen 2004 asti.
+
+#### `YOAK1A` — YO-TUTK. /A1-kieli arvosana
+
+Tieto vuoteen 2004 asti.
+
+#### `YOAK1TAS` — YO-TUTK. /A1-kieli taso
+
+Tieto vuoteen 2004 asti.
+
+#### `YORE` — YO-TUTK. /reaali
+
+Tieto vuoteen 1999 asti.
+
+#### `YOMA` — YO-TUTK. /matematiikka
+
+Tieto vuoteen 2005 asti.
+
+#### `YOMATAS` — YO-TUTK. /matematiikan taso
+
+Tieto vuoteen 2005 asti.
+
+#### `YOAI` — YO-TUTK. /äidinkieli
+
+Tieto vuoteen 2005 asti.
+
+#### `PSYKOLOGIA` — Psykologia
+
+#### `FILOSOFIA` — Filosofia
+
+#### `KONEKIRJ` — Konekirjoitus
+
+Tieto vuoteen 1999 asti.
+
+#### `KAUPAIN` — Kaupalliset aineet
+
+Tieto vuoteen 1999 asti.
+
+#### `MMETS` — Maa- ja metsätalous sekä puutarhanhoito
+
+Tieto vuoteen 1999 asti.
+
+#### `KOTITAL` — Kotitalous
+
+#### `TTTYO` — Tekstiili-/Tekninen työ
+
+Vuoteen 1999 asti nimellä tttyo, vuodesta 2000 nimellä kasityo.
+
+#### `TIETOTEKN` — Tietotekniikka
+
+Tieto vuoteen 2000 asti.
+
+#### `KASITYO` — Tekstiili-/tekninen työ, käsityö
+
+Vuoteen 1999 asti nimellä tttyo, vuodesta 2000 nimellä kasityo.
+
+#### `KUVTAITO` — Kuvaamataito
+
+#### `MUSIIKKI` — Musiikki
+
+#### `LIIKUNTA` — Liikunta
+
+#### `MAANT` — Maantieto
+
+#### `TERVEYS` — Terveystieto
+
+Tieto vuodesta 2007 alkaen.
+
+#### `YHTOPPI` — Yhteiskuntaoppi
+
+Tieto vuodesta 2007 alkaen.
+
+#### `BIOLOGIA` — Biologia
+
+#### `KEMIA` — Kemia
+
+#### `FYSA` — Fysiikan arvosana
+
+#### `FYSTASO` — Fysiikan taso
+
+Tieto vuoteen 2004 asti.
+
+#### `MATA` — Matematiikan arvosana
+
+#### `MATTASO` — Matematiikan taso
+
+Tieto vuoteen 2004 asti.
+
+#### `KANSTAIT` — Kansalaistaito
+
+Tieto vuoteen 2014 asti.
+
+#### `HISTORIA` — Historia
+
+#### `VIA7` — Oppilaan B2 kieli/arvosana
+
+#### `VIE7` — Oppilaan B2 kieli
+
+#### `VIA6` — Oppilaan B2 kieli/arvosana
+
+#### `VIE6` — Oppilaan B2 kieli
+
+#### `VIA5` — Oppilaan B2 kieli/arvosana
+
+#### `VIE5` — Oppilaan B2 kieli
+
+#### `VIA4` — Oppilaan B2 kieli/arvosana
+
+#### `VIE4` — Oppilaan B2 kieli
+
+#### `VIA3` — Oppilaan B1 kieli/arvosana
+
+#### `VIE3` — Oppilaan B1 kieli
+
+#### `VIA2` — Oppilaan A2 kieli/arvosana
+
+#### `VIE2` — Oppilaan A2 kieli
+
+#### `VIA1` — Oppilaan A1 kieli/arvosana
+
+#### `VIE1` — Oppilaan A1 kieli
+
+#### `AIDINK` — Äidinkieli
+
+#### `USKONTO` — Uskonto
+
+#### `ARVS1` — Arvosanat hakukorttijärjestyksessä
+
+Muuttujassa on listattu kaikkien aineiden arvosanat ja ne ovat oletettavasti siinä järjestyksessä kuin tässä kuvauksessa muuttujat USKONTO - YOBK3A. Numerosarjassa esiintyy myös kielikoodeja sekä tyhjiä.
+
+#### `KIELI` — Äidinkieli
+
+Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+
+#### `MSO` — Ulkomainen todistus
+
+1 = kyllä
+
+#### `ALKA` — Ammatillinen lukuaineiden keskiarvo
+
+#### `KA` — Kaikkien aineiden keskiarvo
+
+#### `LKA` — Lukuaineiden keskiarvo
+
+#### `LUOK` — Peruskoulun luokka
+
+#### `TV` — Todistuksen saantivuosi
+
+9999 = tuntematon tai virheellinen
+
+#### `KALAKV` — Konevalinnan koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KALAV` — Valinnan koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KALA5` — 5. hakutoiveen koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KALA4` — 4. hakutoiveen koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KALA3` — 3. hakutoiveen koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KALA2` — 2. hakutoiveen koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KALA1` — 1. hakutoiveen koulutusala
+
+Kansallinen koulutusluokitus 
+
+Tieto vuoteen 2004 asti
+
+#### `KUNKV` — Konevalinnan oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `KUNV` — Valinnan oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `KUN5` — 5. hakutoiveen oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `KUN4` — 4. hakutoiveen oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `KUN3` — 3. hakutoiveen oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `KUN2` — 2. hakutoiveen oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `KUN1` — 1. hakutoiveen oppilaitoksen sijaintikunta
+
+Tilastovuoden kuntaluokituksen mukaan.
+
+#### `ASKV` — Konevalinnan aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `ASV` — Valinnan aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `AS5` — 5. hakutoiveen aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `AS4` — 4. hakutoiveen aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `AS3` — 3. hakutoiveen aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `AS2` — 2. hakutoiveen aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `AS1` — 1. hakutoiveen aste
+
+Opetushallinnon koulutusasteluokitus
+
+#### `PEKV` — Konevalinnan opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PEV` — Valinnan opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PE5` — 5. hakutoiveen opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PE4` — 4. hakutoiveen opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PE3` — 3. hakutoiveen opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PE2` — 2. hakutoiveen opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PE1` — 1. hakutoiveen opintoala
+
+Opetushallinnon opintoalaluokitus
+
+#### `PKV` — Konevalinnan pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `PV` — Valinnan pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `P5` — 5. hakutoiveen pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `P4` — 4. hakutoiveen pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `P3` — 3. hakutoiveen pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `P2` — 2. hakutoiveen pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `P1` — 1. hakutoiveen pohjakoulutusvaatimus
+
+Selite mukailtu vuoden 2008-2013 kuvauksesta. 
+
+Vuodesta 2008 muuttuja saa arvoja:
+1 = peruskoulu 
+2 = lukion pohjakoulutusvaatimus 
+5 = sallii kaikki 
+6 = mukautettu opetus 
+9 = abiturientti, ylioppilas tai lukio
+
+#### `EP` — Hakutoive
+
+Tyhjä=hakutoive löytyy 
+1=ei toiveita
+
+#### `KIINTIO` — Valinnan kiintiö
+
+#### `KOODI` — Valintatiedon päivityskoodi
+
+TILASTOREKISTERIN VALINNAN PÄIVITYSKOODIT
+0	valinta peruttu, ei uutta valintaa
+1	Konevalinta
+2	konevalintaa muutettu jälkivalinnassa
+3	jälkivalinta, ei konevalintaa
+4	ulkopuolelle jäänyt (ei sisällä peruuttaneita) käytössä v:sta 93 lähtien
+5	konevalinnan keskeytys
+
+#### `KONEV_L` — Konevalinnan linjakoodi (tk:n koodi)
+
+Esiintyy vain, jos valinta (VAL_L) on muuttunut
+
+#### `KONEV_R` — Konevalinnan koulun tyyppi (tk:n koodi)
+
+Esiintyy vain, jos valinta (VAL_R) on muuttunut
+
+#### `ONEV_SK_s` — Konevalinnan suojattu koulukoodi (tk:n koodi)
+
+Esiintyy vain, jos valinta (VAL_SK) on muuttunut
+
+#### `KONEV_AL` — Konevalinnan yhva-aluekoodi (tk:n koodi)
+
+Esiintyy vain, jos valinta (VAL_AL) on muuttunut
+
+#### `VAL_L` — Valinnan linjakoodi (tk:n koodi)
+
+#### `VAL_R` — Valinnan koulun tyyppi (tk:n koodi)
+
+#### `AL_SK_s` — Valinnan suojattu koulukoodi (tk:n koodi)
+
+#### `VAL_AL` — Valinnan yhva-aluekoodi (tk:n koodi)
+
+#### `L5` — 5. hakutoiveen linjakoodi (tk:n koodi)
+
+#### `R5` — 5. hakutoiveen koulun tyyppi (tk:n koodi)
+
+#### `K5_s` — 5. hakutoiveen suojattu koulukoodi (tk:n koodi)
+
+#### `AL5` — 5. hakutoiveen yhva-aluekoodi (tk:n koodi)
+
+#### `L4` — 4. hakutoiveen linjakoodi (tk:n koodi)
+
+#### `R4` — 4. hakutoiveen koulun tyyppi (tk:n koodi)
+
+#### `K4_s` — 4. hakutoiveen suojattu koulukoodi (tk:n koodi)
+
+#### `AL4` — 4. hakutoiveen yhva-aluekoodi (tk:n koodi)
+
+#### `L3` — 3. hakutoiveen linjakoodi (tk:n koodi)
+
+#### `R3` — 3. hakutoiveen koulun tyyppi (tk:n koodi)
+
+#### `K3_s` — 3. hakutoiveen suojattu koulukoodi (tk:n koodi)
+
+#### `AL3` — 3. hakutoiveen yhva-aluekoodi (tk:n koodi)
+
+#### `L2` — 2. hakutoiveen linjakoodi (tk:n koodi)
+
+#### `R2` — 2. hakutoiveen koulun tyyppi (tk:n koodi)
+
+#### `K2_s` — 2. hakutoiveen suojattu koulukoodi (tk:n koodi)
+
+#### `AL2` — 2. hakutoiveen yhva-aluekoodi (tk:n koodi)
+
+#### `L1` — 1. hakutoiveen linjakoodi (tk:n koodi)
+
+#### `R1` — 1. hakutoiveen koulun tyyppi (tk:n koodi)
+
+#### `K1_s` — 1. hakutoiveen suojattu koulukoodi (tk:n koodi)
+
+#### `AL1` — 1. hakutoiveen yhva-aluekoodi (tk:n koodi)
+
+#### `TASO` — Koulutaso
+
+TASO 	Koulutaso
+1	Perusopetuksen oppimäärä/keskikoulu/kansakoulu
+2	Perusopetuksen erityisopetuksen osittain yksilöllistetty (mukautettu) oppimäärä
+3 	Perusopetuksen erityisopetuksen yksilöllistetty oppimäärä, opetus järjestetty toiminta-alueittain
+6	Perusopetuksen pääosin tai kokonaan yksilöllistetty (mukautettu) oppimäärä
+7	Oppivelvollisuuden suorittaminen keskeytynyt (ei päättötodistusta)
+9	Lukion suorittanut, ylioppilas tai abiturientti, yhdistelmäopinnottutkinto (jos sis. lukion vähimmäisoppimäärän
+
+#### `PK_s` — Suojattu peruskoulun koulukoodi
+
+#### `KUNTA` — Kotikunta
+
+Hakijan kotikunta tilastokeskuksen hakuvuoden kuntakoodin mukaan.
+
+#### `LAANI` — Läänikoodi
+
+Hakijan kotilääni
+
+#### `SP` — Sukupuolikoodi
+
+1 = mies
+2 = nainen
+
+#### `ALUE` — Aluekoodi
+
+YHTEISHAKUALUEET
+
+
+Koodi	Yhteishakualue
+01	Etelä-Suomen lääninhallitus/ Uudenmaan yhteishaku
+02	Etelä-Suomen lääninhallitus/ Uudenmaan yhteishaku
+03	Etelä-Suomen lääninhallitus/ Uudenmaan yhteishaku
+04	Länstyrelsen i Södra Finlands län/ Gemensam ansökan
+05	Länsi-Suomen lääninhallitus/ Varsinais-Suomen yhteishaku
+06	Länsi-Suomen lääninhallitus/ Satakunnan yhteishaku
+07	Länstyrelsen i Västra Finlands län/ Åbo, gemensam ansökan
+08	Ålands landskapsregering/ studieserviceenheten
+09	Etelä-Suomen lääninhallitus/ Kanta-Hämeen yhteishaku
+10	Länsi-Suomen lääninhallitus/ Pirkanmaan yhteishaku
+11	Etelä-Suomen lääninhallitus/ Kanta-Hämeen yhteishaku
+12	Etelä-Suomen lääninhallitus/ Kymen yhteishaku
+13	Itä-Suomen lääninhallitus/ Etelä-Savon yhteishaku
+14	Itä-Suomen lääninhallitus/ Pohjois-Karjalan yhteishaku
+15	Itä-Suomen lääninhallitus/ Pohjois-Savon yhteishaku
+16	Länsi-Suomen lääninhallitus/ Keski-Suomen yhteishaku
+17	Länsi-Suomen lääninhallitus/ Vaasan yhteishaku
+18	Länstyrelsen i Västra Finlands län/ Vasa, gemensam ansökan
+19	Oulun lääninhallitus/ Pohjois-Pohjanmaan yhteishaku
+20	Oulun lääninhallitus/ Kainuun yhteishaku
+21	Lapin lääninhallitus/ Lapin yhteishaku
+
+#### `HAKUKAUSI` — Hakukausi
+
+Y = osallistunut molempiin hakuihin 
+K = kevään haku, syksyllä alkava koulutus 
+S = tilastovuotta edeltävän syksyn haku, tilastovuoden keväällä alkava koulutus
+
+#### `HAKUVUOSI` — Hakuvuosi
+
+---
+
+[← Back to catalogue](../../README.md)

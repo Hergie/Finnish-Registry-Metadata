@@ -40,8 +40,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
-| `stoimipaikkaID` | Suojattu toimipaikkatunnus | — | — | — |
-| `syrtunnus` | Suojattu yritystunnus | — | — | — |
+| `toimipaikkaID_s` | Suojattu toimipaikkatunnus | — | — | — |
+| `yrtunnus_s` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | Tunnistetiedot |
 | `versioID` | Tilastoversio | — | — | — |
 | `AineTarvKoodiCPA` | Aineet ja tarvikkeet -nimikekoodi | — | aineet_tarv_1_2013_01_01 | — |
@@ -54,11 +54,11 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 
 ### Variable definitions
 
-#### `stoimipaikkaID` — Suojattu toimipaikkatunnus
+#### `toimipaikkaID_s` — Suojattu toimipaikkatunnus
 
 Suojattu toimipaikkatunnus
 
-#### `syrtunnus` — Suojattu yritystunnus
+#### `yrtunnus_s` — Suojattu yritystunnus
 
 Suojattu yritystunnus
 
