@@ -7,18 +7,35 @@
 - **Organisation:** Tilastokeskus
 - **Variable count:** 8
 - **Observation count:** —
+- **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuva väestö
 - **Source:** Digi- ja väestötietoviraston väestötietojärjestelmä. Koostettu henkilötietovaraston henkilö-vuosi- ja rakennus-tauluista.
 
 ## Description
 
-INFRA Sijaintitietomoduuli sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. 
+INFRA Sijaintimoduuli -aineisto sisältää sijaintitietoja muun muassa kunnan, postinumeroalueen ja neliökilometriruudun mukaan.
 
-Sijaintitietomoduuli on saatavilla tutkimuskäyttöön myös tarkempana versiona (INFRA_SIJAINTI_TARKKA), joka sisältää kuvauksessa lueteltujen muuttujien lisäksi 250m x 250m ruututunnukset yli kolmen asukkaan ruuduille sekä vähintään kolme huoneistoa sisältävien rakennusten koordinaatit. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja. 
+<b> Valmisaineiston tarkentava nimi </b> 
+Sijaintitiedot henkilötietovarastossa olevista asuinrakennuksista yhdistettynä väestöön kuuluviin asukkaisiin
 
-Rakennusten koordinaattitietoja ei koskaan anneta ulos etäkäyttöjärjestelmästä. Ruututasolle tai muulle aluetasolle aggregoituja tietoja voidaan antaa ulos etäkäyttöjärjestelmästä vain silloin, kun alueella on vähintään 10 henkilöä. Kokonaista ruutuaineistoa ei saa julkaista. Ruutuihin tai muihin maantieteellisiin alueisiin perustuvia tietoja voidaan julkaista silloin, kun yksittäisiä henkilöitä tai asuntokuntia ei voi tunnistaa. Julkaistavien tietojen tulee olla aggregoituja suuremmalle aluetasolle, suhtautettuja, tai muulla tavalla käsiteltyjä siten, että suora ja epäsuora tunnistaminen on estetty.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+Aineisto sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. Tiedot ovat peräisin Digi- ja väestötietoviraston väestötietojärjestelmästä.
 
-Tilastovuoden 2025 päivityksen yhteydessä on tehty takautuvia muutoksia päivittämällä suojausta ja lisäämällä pysyvä rakennustunnus -muuttuja (prt). 
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Sijaintitietomoduuli on saatavilla tutkimuskäyttöön myös tarkempana versiona, joka sisältää kuvauksessa lueteltujen muuttujien lisäksi 250 m x 250 m ruututunnukset yli kolmen asukkaan ruuduille sekä vähintään kolme vakituisessa asuinkäytössä olevaa huoneistoa sisältävien rivi- ja kerrostalojen koordinaatit. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja.
 
+Rakennusten koordinaattitietoja ei koskaan anneta ulos etäkäyttöjärjestelmästä. Ruututasolle tai muulle aluetasolle aggregoituja tietoja voidaan antaa ulos etäkäyttöjärjestelmästä vain silloin, kun alueella on vähintään 10 henkilöä. Kokonaista ruutuaineistoa ei saa julkaista. Ruutuihin tai muihin maantieteellisiin alueisiin perustuvia tietoja voidaan julkaista silloin, kun yksittäisiä henkilöitä tai asuntokuntia ei voi tunnistaa. Julkaistavien tietojen tulee olla aggregoituja suuremmalle aluetasolle, suhteutettuja, tai muulla tavalla käsiteltyjä siten, että suora ja epäsuora tunnistaminen on estetty.
+
+Tilastovuoden 2025 päivityksen yhteydessä on tehty takautuvia muutoksia päivittämällä suojausta ja lisäämällä pysyvä rakennustunnus -muuttuja (prt).
+
+<b> Aineiston päivitysaikataulu </b>  
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineistoa voi käyttää vain FIONA-etäpalvelun kautta. Tiedot ovat linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.
+
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Kokonaisaineistoon (sisältää kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) myönnetään käyttöoikeus ainoastaan silloin, kun tutkimuksellinen tarve sitä erityisesti edellyttää. Aineiston muuttujia voi tilata myös räätälöitynä tutkimusaineistona, joka sisältää vain osan valmisaineiston muuttujista. 
+
+<b> Lisätietoja </b> 
 Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (8)

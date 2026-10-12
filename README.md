@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-10-05.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-10-12.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -202,7 +202,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FIRM_2023_jua_ESTAB_001.xml` | FIRM_ESTAB Yritystietovarasto: toimipaikat 2023-2024 | 2023-01-01 - 2024-12-31 | 28 | 399,828 | [→](./datasets/FIRM_2023_jua_ESTAB_001/README.md) |
 | `FIRM_2023_jua_RDINNO_rd.xml` | FIRM_RDINNO Yritysten tutkimus ja kehittäminen vuonna 2023 | 2023-01-01 - 2023-12-31 | 324 | — | [→](./datasets/FIRM_2023_jua_RDINNO_rd/README.md) |
 | `FIRM_2023_jua_prod_001.xml` | FIRM_PROD Alueellisen yritystoimintatilaston aineisto | 2013-01-01 - 2024-12-31 | 146 | — | [→](./datasets/FIRM_2023_jua_prod_001/README.md) |
-| `FIRM_2023_jua_trade_001.xml` | FIRM_TRADE Tavaroiden ja palveluiden ulkomaankauppa MDL-kannasta 2013 - 2025 | 2013-01-01 - 2025-12-31 | 9 | — | [→](./datasets/FIRM_2023_jua_trade_001/README.md) |
+| `FIRM_2023_jua_trade_001.xml` | FIRM_TRADE Tavaroiden ja palveluiden ulkomaankauppa MDL-kannasta 2013 - 2025 | 2013-01-01 - 2025-12-31 | 10 | — | [→](./datasets/FIRM_2023_jua_trade_001/README.md) |
 | `FIRM_2024_jua_ICT_001.xml` | FIRM_ICT Tietotekniikka ja sähköinen kauppa yrityksissä 2024 | 2024-01-01 - 2024-12-31 | 152 | — | [→](./datasets/FIRM_2024_jua_ICT_001/README.md) |
 | `FIRM_BASE_jua_legalunits_001.xml` | FIRM_BASE oikeudellisten yksiköiden perustiedot | — | 70 | — | [→](./datasets/FIRM_BASE_jua_legalunits_001/README.md) |
 | `FIRM_VAT_jua_2004_002.xml` | FIRM_VAT oma-aloitteiset verot ja työnantajasuoritukset | 2004-01-01 - 2025-12-31 | 49 | — | [→](./datasets/FIRM_VAT_jua_2004_002/README.md) |

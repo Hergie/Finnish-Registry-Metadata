@@ -5,7 +5,7 @@
 - **Temporal coverage:** 2013-01-01 - 2025-12-31
 - **Published:** 2024-10-04
 - **Organisation:** Tilastokeskus
-- **Variable count:** 9
+- **Variable count:** 10
 - **Observation count:** —
 - **Population:** Kehikko yritysrekisteristä
 - **Source:** Palvelujen ulkomaankaupan ja ulkomaisten tavaravirtojen vuosi- ja neljännesvuositiedustelut, yritysrekisteri, Verohallinnon oma-aloitteisten verojen tiedot
@@ -34,13 +34,14 @@ MDL-aineisto sisältää palveluiden ulkomaankaupan lisäksi myös globaalin tuo
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi sekä Tavaroiden ja palveluiden ulkomaankauppa -tilaston dokumentaatiosta: https://stat.fi/tilasto/dokumentaatio/tpulk.
 
-## Variables (9)
+## Variables (10)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
 | `syrtun` | Suojattu yritystunnus | — | — | — |
 | `vuosi` | Vuosi | — | — | — |
 | `EBOPS` | EBOPS | — | — | — |
+| `BOPITEM` | BOPITEM | — | — | — |
 | `FLOW_ITS` | FLOW_ITS | — | — | — |
 | `CL_AREA_GEO_ITS` | CL_AREA_GEO_ITS | — | — | — |
 | `COUNTRY_GRP_ITS` | COUNTRY_GRP_ITS | — | — | — |
@@ -59,6 +60,10 @@ Suojattu yritys- ja yhteisötunnus eli Y-tunnus
 #### `EBOPS` — EBOPS
 
 PU:n palvelukoodi (EBOPS) (2013–) / Extended BoP Services (EBOPS) classification (2013-)
+
+#### `BOPITEM` — BOPITEM
+
+Vanha palvelunimikkeistö (EBOPS, 3-numerotaso) (2008–2012)
 
 #### `FLOW_ITS` — FLOW_ITS
 
