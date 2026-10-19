@@ -16,6 +16,8 @@ HFCS-tutkimus on toteutettu noin kolmen vuoden välein vuodesta 2009 alkaen, ja 
  
 Suomen HFCS aineisto sisältää samat tiedot kuin Tilastokeskuksen varallisuustutkimuksen valmisaineisto sekä lisäksi tietoja muun muassa kotitalouksien velanhoitomenoista ja luottorajoitteisuudesta. Omaisuustietojen lisäksi aineisto sisältää tietoja tuloista sekä demografisia taustatietoja kotitalouden jäsenistä (muun muassa ikä, sukupuoli, koulutusaste) ja heidän kotitaloudestaan (esimerkiksi kotitalouden koko).
 
+Seuraava HFCS varallisuusaineisto on julkaisuvalmis vuonna 2027.
+
 Lisätietoa ja tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat ottamalla yhteyttä osoitteeseen tutkijapalvelut@stat.fi. 
 Lisätietoa aiheesta saat myös Euroopan keskuspankin nettisivuilta: https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html.
 

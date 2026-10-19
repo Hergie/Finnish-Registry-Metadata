@@ -26,7 +26,9 @@ Pääosa työvoimatutkimuksen kysymyksistä koskee vastaajan tutkimusviikon aika
 Tietojen vertailtavuuteen ovat vaikuttaneet vuosien saatossa tapahtuneet muutokset niin tutkimuksen tietosisällössä, tiedonkeruutavoissa kuin menetelmissä — esimerkiksi kyselylomakkeen sisältöä on yhdenmukaistettu useaan otteeseen eri EU-maiden välillä tietojen vertailtavuuden parantamiseksi. Työvoimatutkimuksessa käytetyt käsitteet ja määritelmät noudattavatkin kansainvälisen työjärjestön ILO:n suosituksia ja Euroopan unionin tilastotoimen asetuksia, mikä tekee tutkimuksen tiedoista kansainvälisesti vertailukelpoiset. Vuodesta 2021 alkaen tutkimuksen sisältö ja estimointimenetelmät uudistettiin uudemman kerran tulosten laadun ja kansainvälisen vertailtavuuden parantamiseksi, ja aiemmin julkaistut aikasarjat vuosilta 2009-2021 niin ikään korjattiin vastaamaan tätä uutta menetelmää.
 
 <h3><b>Lisätietoja:</b></h3>
-Tämä aineistokuvaus sisältää valmisaineiston yleiskuvauksen.
+Tämä aineistokuvaus sisältää valmisaineiston yleiskuvauksen. 
+
+Aineisto päivittyy vuosittain ja edellisen vuoden aineisto pyritään julkaisemaan valmisaineistona seuraavan vuoden kesään mennessä.
 
 Työvoimatutkimuksen tiedonkeruuta ja menetelmiä, ajallista vertailukelpoisuutta sekä tilastojen välistä yhtenäisyyttä on kuvattu tarkemmin <a href="https://stat.fi/tilasto/dokumentaatio/tyti"> työvoimatutkimuksen tilaston dokumentaation sivuilla. </a>
 

@@ -20,6 +20,8 @@ Eurostat tekee tutkimukseen osallistuneiden tutkimustarkoitukseen EU-AES-mikroai
 
 Aikuiskoulutukseen osallistuminen -tilaston dokumentaatiossa tilaston kotisivulla on kuvattu tarkemmin mm. tiedonkeruuta, ajallista vertailukelpoisuutta sekä tilastojen välistä yhtenäisyyttä: https://stat.fi/tilasto/aku 
 
+Vuoden 2028 Aikuiskoulutustutkimus valmistuu valmisaineistoksi arviolta vuonna 2030.
+
 Lisätietoa ja tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat ottamalla yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
 ## Variables

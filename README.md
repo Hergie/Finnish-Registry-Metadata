@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-10-12.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-10-19.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
