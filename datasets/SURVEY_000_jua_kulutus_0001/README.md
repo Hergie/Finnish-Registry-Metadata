@@ -86,6 +86,8 @@ Suomesta ulkomaille suuntautuvaa kulutusta on kerätty karkealla tasolla. Tiedot
 <h3><b>Lisätietoja </b></h3>
 Tämä kuvaus sisältää vain valmisaineiston yleiskuvauksen. Tarkemmin lähdeaineistoa sekä siinä käytössä olevia käsitteitä, tiedonkeruuta, menetelmiä sekä aineiston vertailukelpoisuutta on kuvattu <a href="https://stat.fi/tilasto/dokumentaatio/ktutk" > Kotitalouksien kulutus -tilaston dokumentaation verkkosivuilta.</a>
 
+Seuraava kulutustutkimus valmistuu vuonna 2028, ja aineiston arvioidaan olevan saatavilla valmisaineistona 4/2028.
+
 Vuosikohtaiset aineisto- ja muuttujakuvaukset sekä muuta valmisaineistoa koskevaa lisätietoa saat ottamalla meihin yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 
 ## Variables

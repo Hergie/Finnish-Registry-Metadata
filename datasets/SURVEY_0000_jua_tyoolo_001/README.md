@@ -69,6 +69,8 @@ Tutkimustuloksia koskien on syytä myös huomioida, että tulosten oikeellisuute
 <h3><b> Lisätietoja:</b></h3>
 Tämä aineistokuvaus sisältää ainoastaan valmisaineiston yleisen kuvauksen.
 
+Seuraavan tutkimuksen toteutuminen on vielä epävarmaa. Mikäli tutkimus toteutetaan, aineiston arvioidaan olevan saatavilla valmisaineistona alkuvuodesta 2030.
+
 Lähdeaineiston käsitteistöstä, tulosten luotettavuudesta ja oikea-aikaisuudesta, vertailukelpoisuudesta, tiedonkeruusta sekä menetelmistä löytyy tarkempi kuvaus työolotutkimuksen <a href="https://stat.fi/tilasto/dokumentaatio/tyoolot"> tilaston kotisivujen dokumentaatiossa</a>.
 
 Lisätietoja valmisaineistosta, sekä tarkemmat vuosikohtaiset aineisto- ja muuttujakuvaukset saat puolestaan ottamalla yhteyttä meihin osoitteeseen tutkijapalvelut@stat.fi.

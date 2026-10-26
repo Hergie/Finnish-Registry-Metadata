@@ -202,8 +202,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `KOULUSIVISTYSKIELI` | Hakijan koulusivistyskieli | — | — | — |
 | `LAHTOKOULU_s` | Lähtökoulun Tilastokeskus-koodi (5-numeroinen) suojattuna | — | — | — |
 | `MAA` | Hakijan asuinmaa | — | — | — |
-| `KANSALAISUUS` | Kansalaisuus | — | — | — |
-| `KIELI` | Hakijan äidinkieli | — | — | — |
+| `KANSALAISUUS_K` | Kansalaisuus | — | — | — |
+| `KIELI_K` | Hakijan äidinkieli | — | — | — |
 | `KOTIKUNTA` | Kotikunta | — | — | — |
 | `SP` | Sukupuoli | — | — | — |
 | `HAKUTYYPPI` | Hakutyyppi | — | — | — |
@@ -1014,13 +1014,19 @@ Koulukoodeilla tarkoitetaan kyseisen tilastovuoden koodia.
 
 ISO 3166-standardi, 999 = Ei tietoa
 
-#### `KANSALAISUUS` — Kansalaisuus
+#### `KANSALAISUUS_K` — Kansalaisuus
 
-ISO 3166-standardi, 999 = Ei tietoa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
+Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.
+• Kansalaisuus 1 =  suomi, 2 = eurooppa, 3 = muu
+• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu
 
-#### `KIELI` — Hakijan äidinkieli
+#### `KIELI_K` — Hakijan äidinkieli
 
-2-kirjaiminen tunnus (ISO 639-standardi), 99 = Ei tietoa. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `KOTIKUNTA` — Kotikunta
 

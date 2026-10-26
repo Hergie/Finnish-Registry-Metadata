@@ -76,7 +76,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `AIKIEL` | Äidinkieli, lukeminen, kirjallisuus, kielentuntemus | — | — | — |
 | `USKONTO` | Uskonto (uskontojen historia, siveysoppi) | — | — | — |
 | `ARVS1` | Arvosanat hakukorttijärjestyksessä | — | — | — |
-| `KIELI` | Hakijan äidinkieli | — | — | — |
+| `KIELI_K` | Hakijan äidinkieli | — | — | — |
 | `MSO` | Muualla suoritettu oppivelvollisuus | — | — | — |
 | `KIELET` | Peruskoululaisen kielivalinnat | — | — | — |
 | `TASO2` | Peruskoululaisen tasokurssit | — | — | — |
@@ -217,9 +217,13 @@ Muuttujassa on listattu kaikkien aineiden arvosanat ja ne ovat oletettavasti sii
 
 Pituus 23 merkkiä, arvosana 0=10.
 
-#### `KIELI` — Hakijan äidinkieli
+#### `KIELI_K` — Hakijan äidinkieli
 
-Saa arvoja 0-9, X ja tyhjä. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `MSO` — Muualla suoritettu oppivelvollisuus
 

@@ -170,7 +170,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `AIDINK` | Äidinkieli | — | — | — |
 | `USKONTO` | Uskonto | — | — | — |
 | `ARVS1` | Arvosanat hakukorttijärjestyksessä | — | — | — |
-| `KIELI` | Äidinkieli | — | — | — |
+| `KIELI_K` | Äidinkieli | — | — | — |
 | `MSO` | Ulkomainen todistus | — | — | — |
 | `ALKA` | Ammatillinen lukuaineiden keskiarvo | — | — | — |
 | `KA` | Kaikkien aineiden keskiarvo | — | — | — |
@@ -633,9 +633,13 @@ Tieto vuoteen 2014 asti.
 
 Muuttujassa on listattu kaikkien aineiden arvosanat ja ne ovat oletettavasti siinä järjestyksessä kuin tässä kuvauksessa muuttujat USKONTO - YOBK3A. Numerosarjassa esiintyy myös kielikoodeja sekä tyhjiä.
 
-#### `KIELI` — Äidinkieli
+#### `KIELI_K` — Äidinkieli
 
-Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `MSO` — Ulkomainen todistus
 

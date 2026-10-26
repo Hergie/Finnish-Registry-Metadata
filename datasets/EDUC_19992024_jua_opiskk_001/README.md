@@ -187,8 +187,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `alvv` | Tutkinnon aloittamisvuosi/kirjoilletulovuosi (1997-) | — | — | — |
 | `olotamm` | Kirjoilla 20.1. (1999-) | — | kirjoilla_4_2016_01_01 | — |
 | `olosyys` | Kirjoilla 20.9 (1999-) | — | kirjoilla_3_2018_01_01 | — |
-| `aikieli` | Äidinkieli (1999-) | — | kieli_1_2010_11_15 | — |
-| `kansal` | Kansalaisuus (1999-) | — | valtio_1_2012_01_01 | — |
+| `aikieli_k` | Äidinkieli (1999-) | — | kieli_1_2010_11_15 | — |
+| `kansal_k` | Kansalaisuus_k (1999-) | — | valtio_1_2012_01_01 | — |
 | `ika` | Ikä tilastovuoden lopussa | — | — | — |
 | `sp` | Sukupuoli | — | sukupuoli_2_1970_01_01 | — |
 | `oplu` | Opiskelun luonne | — | oplu_3_2018_01_01 | — |
@@ -861,23 +861,23 @@ Osa klaji=54 arvoista saa olosyys-muuttujalla arvon 2.
 Vuodesta 2018 tieto on kaikilla oppilaitosmuotoisen ammatillisen koulutuksen opiskelijoilla, aiemmin vain opetussuunnitelmaperusteisen koulutuksen opiskelijoilla. Oppisopimuskoulutus tilastoidaan kuten aikaisempinakin vuosina.
 Tieto vuosina 1997-1998 muuttujassa LASNAS.
 
-#### `aikieli` — Äidinkieli (1999-)
+#### `aikieli_k` — Äidinkieli (1999-)
 
 **Classification:** kieli_1_2010_11_15
 
-Opiskelijan äidinkieli 31.12.
-2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.
-99 = ei tietoa.
-Tieto vuosina 1995 ja 1997 KIELI, 1998 AIKIELI eroavilla luokituksilla.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
-#### `kansal` — Kansalaisuus (1999-)
+#### `kansal_k` — Kansalaisuus_k (1999-)
 
 **Classification:** valtio_1_2012_01_01
 
-Opiskelijan kansalaisuus vuoden lopussa.
-Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
-999=Ei tietoa.
-Tieto saatavilla muuttujissa 1995 KANS ja 1997-1998 KANSA.
+Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.
+• Kansalaisuus 1 =  suomi, 2 = muu
+• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu
 
 #### `ika` — Ikä tilastovuoden lopussa
 

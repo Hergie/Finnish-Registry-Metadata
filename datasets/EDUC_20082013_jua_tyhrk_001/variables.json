@@ -1073,17 +1073,17 @@
       "variablegroups": null
     },
     {
-      "identifier": "KANSALAISUUS",
+      "identifier": "KANSALAISUUS_K",
       "variablename": "Kansalaisuus",
-      "conceptdef": "ISO 3166-standardi, 999 = Ei tietoa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.\n• Kansalaisuus 1 =  suomi, 2 = eurooppa, 3 = muu\n• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "KIELI",
+      "identifier": "KIELI_K",
       "variablename": "Hakijan äidinkieli",
-      "conceptdef": "2-kirjaiminen tunnus (ISO 639-standardi), 99 = Ei tietoa. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "conceptdef": "Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n1 = suomi\n2 = ruotsi\n3 = muu\n99 = ei tietoa",
       "measunit": null,
       "classification": null,
       "variablegroups": null

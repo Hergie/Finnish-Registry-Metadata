@@ -109,8 +109,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `TIED` | Tiedekunta/osasto | — | — | — |
 | `KIRTU` | Kirjoihintuloaika yliopistoon | — | — | — |
 | `UUSIOPIS` | Yliopiston uusi opiskelija | — | — | — |
-| `KIELI` | Äidinkieli | — | — | — |
-| `KANS` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
+| `KIELI_K` | Äidinkieli | — | — | — |
+| `KANS_K` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
 | `SP` | Sukupuoli | — | — | — |
 | `FIELD` | Isced field | — | isced_ala_1_1995_01_01 | — |
 | `LEVEL` | Isced level | — | isced_aste_1_1995_01_01 | — |
@@ -684,15 +684,21 @@ Tieto on vain korkeakouluopiskelijoilla, muilla tieto on blanco.
 
 #### `UUSIOPIS` — Yliopiston uusi opiskelija
 
-#### `KIELI` — Äidinkieli
+#### `KIELI_K` — Äidinkieli
 
-Huom! VRK:n kieliluokitus (eri kuin 2-kirjaiminen tunnus (ISO 639-standardi)), 99 = ei tietoa. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
-#### `KANS` — Kansalaisuus
+#### `KANS_K` — Kansalaisuus
 
 **Classification:** valtio_11_1970_01_01
 
-VRK:n valtioluokitus (on eri kuin ISO 3166-standardi), 999 = ei tietoa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
+Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.
+- Kansalaisuus 1 =  suomi, 2 = muu
+- Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu
 
 #### `SP` — Sukupuoli
 

@@ -80,7 +80,7 @@ Kulutuksen ulkopuoliset erät sisältävät varainsiirtoverot, sakot (liikennesa
 <h3><b>Lisätietoa </b></h3>
 Tämä kuvaus sisältää vain valmisaineiston yleiskuvauksen. Tarkemmin lähdeaineistoa sekä siinä käytössä olevia käsitteitä, tiedonkeruuta, menetelmiä sekä aineiston vertailukelpoisuutta on kuvattu <a href="https://stat.fi/tilasto/dokumentaatio/ktutk" > Kotitalouksien kulutus -tilaston dokumentaation verkkosivuilta.</a>
 
-Seuraava kulutustutkimus valmistuu vuonna 2028. Valmisaineiston arvioidaan valmistuvan 4/2028.
+Seuraava kulutustutkimus valmistuu vuonna 2028, ja aineiston arvioidaan olevan saatavilla valmisaineistona 4/2028. Samassa yhteydessä on tarkoituksena jatkaa myös kulutuksen aikasarja-aineistoa, jolloin se kattaisi vuodet 2012-2026.
 
 Vuosikohtaiset aineisto- ja muuttujakuvaukset sekä muuta valmisaineistoa koskevaa lisätietoa saat ottamalla meihin yhteyttä osoitteeseen tutkijapalvelut@stat.fi.
 

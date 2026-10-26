@@ -220,7 +220,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `AIDINK` | Äidinkieli | — | — | — |
 | `USKONTO` | Uskonto | — | — | — |
 | `ARVS1` | Arvosanat hakukorttijärjestyksessä | — | — | — |
-| `KIELI` | Hakijan äidinkieli | — | — | — |
+| `KIELI_K` | Hakijan äidinkieli | — | — | — |
 | `MSO` | Ulkomainen todistus | — | — | — |
 | `ALKA` | Ammatillinen kaikkien aineiden keskiarvo | — | — | — |
 | `KA` | Kaikkien aineiden keskiarvo | — | — | — |
@@ -613,11 +613,13 @@ Esiintyy vuonna 1996.
 
 #### `ARVS1` — Arvosanat hakukorttijärjestyksessä
 
-#### `KIELI` — Hakijan äidinkieli
+#### `KIELI_K` — Hakijan äidinkieli
 
-1 = suomi, 
-2 = ruotsi,
- 3 = muu
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `MSO` — Ulkomainen todistus
 

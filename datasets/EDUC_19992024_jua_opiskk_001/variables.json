@@ -609,17 +609,17 @@
       "variablegroups": null
     },
     {
-      "identifier": "aikieli",
+      "identifier": "aikieli_k",
       "variablename": "Äidinkieli (1999-)",
-      "conceptdef": "Opiskelijan äidinkieli 31.12.\n2-kirjaiminen tunnus (ISO 639-standardi). Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilotunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n99 = ei tietoa.\nTieto vuosina 1995 ja 1997 KIELI, 1998 AIKIELI eroavilla luokituksilla.",
+      "conceptdef": "Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n1 = suomi\n2 = ruotsi\n3 = muu\n99 = ei tietoa",
       "measunit": null,
       "classification": "kieli_1_2010_11_15",
       "variablegroups": null
     },
     {
-      "identifier": "kansal",
-      "variablename": "Kansalaisuus (1999-)",
-      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa.\nTieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n999=Ei tietoa.\nTieto saatavilla muuttujissa 1995 KANS ja 1997-1998 KANSA.",
+      "identifier": "kansal_k",
+      "variablename": "Kansalaisuus_k (1999-)",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.\n• Kansalaisuus 1 =  suomi, 2 = muu\n• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu",
       "measunit": null,
       "classification": "valtio_1_2012_01_01",
       "variablegroups": null

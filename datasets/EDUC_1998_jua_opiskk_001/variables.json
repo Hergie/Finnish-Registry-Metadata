@@ -17,9 +17,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "AIKIELI",
+      "identifier": "AIKIELI_K",
       "variablename": "Äidinkieli",
-      "conceptdef": "Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "conceptdef": "Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n1 = suomi\n2 = ruotsi\n3 = muu\n99 = ei tietoa",
       "measunit": null,
       "classification": "kieli_21_1999_01_01",
       "variablegroups": null
@@ -321,17 +321,17 @@
       "variablegroups": null
     },
     {
-      "identifier": "AIKIELI2",
+      "identifier": "AIKIELI2_K",
       "variablename": "Äidinkieli",
-      "conceptdef": "Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.",
+      "conceptdef": "Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n1 = suomi\n2 = ruotsi\n3 = muu\n99 = ei tietoa",
       "measunit": null,
       "classification": "kieli_13_1998_01_01",
       "variablegroups": null
     },
     {
-      "identifier": "KANSA",
+      "identifier": "KANSA_K",
       "variablename": "Kansalaisuus",
-      "conceptdef": "Väestötilastojen maaluokitus. \nKoodin 1. merkki maanosa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.\n• Kansalaisuus 1 =  suomi, 2 = muu\n• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu",
       "measunit": null,
       "classification": "valtio_11_1970_01_01",
       "variablegroups": null

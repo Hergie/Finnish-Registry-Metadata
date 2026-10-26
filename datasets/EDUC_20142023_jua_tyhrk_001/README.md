@@ -151,12 +151,12 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.
 | `HAKIJAN_KANSALAISUUS3` | Hakijan kansalaisuus 3 | — | — | — |
 | `HAKIJAN_KANSALAISUUS2` | Hakijan kansalaisuus 2 | — | — | — |
 | `HAKIJAN_KANSALAISUUS` | Hakijan kansalaisuus | — | — | — |
-| `KANSAL` | Kansalaisuus | — | — | — |
+| `KANSAL_K` | Kansalaisuus | — | — | — |
 | `KIELITYYPPI` | Äidinkieli pitkä alkuperäisessä aineistossa | — | — | — |
 | `KIELIKOODI` | Äidinkieli alkuperäisessa aineistossa | — | — | — |
 | `AIKIELI_LK` | Äidinkieli (luokiteltu) | — | — | — |
-| `AIKIELI` | Äidinkieli | — | — | — |
-| `KOTIMAA` | Kotimaa | — | — | — |
+| `AIKIELI_K` | Äidinkieli | — | — | — |
+| `KOTIMAA_K` | Kotimaa | — | — | — |
 | `IKA` | Ikä | — | — | — |
 | `SUKUPUOLI_KOODI` | Sukupuoli | — | — | — |
 | `HID_E` | Suojattu henkilön yksilöivä tunniste | — | — | — |
@@ -1150,12 +1150,11 @@ Hakijan kansalaisuus alkuperäisessä aineistossa
 
 Tieto vuodesta 2017 alkaen
 
-#### `KANSAL` — Kansalaisuus
+#### `KANSAL_K` — Kansalaisuus
 
-ISO 3166-N maakoodi, itsenäiset valtiot 
-999 = muu tai tuntematon
-
-Tieto ensisijaisesti VRK:sta, toissijaisesti hakuaineiston kansalaisuus-tieto. Vuoden 2014 tieto hakuaineistosta.
+Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.
+• Kansalaisuus 1 =  suomi, 2 = eurooppa, 3 = muu
+• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu
 
 #### `KIELITYYPPI` — Äidinkieli pitkä alkuperäisessä aineistossa
 
@@ -1176,19 +1175,24 @@ sv = ruotsi
 
 Tieto vuoteen 2016 asti
 
-#### `AIKIELI` — Äidinkieli
+#### `AIKIELI_K` — Äidinkieli
 
-ISO 639-standardin mukainen 2-merkkinen kielikoodi 
-99 = muu tai tuntematon 
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
-Tieto ensisijaisesti väestörekisteristä. Täydennetty hakuaineiston kielikoodi-muuttujasta henkilöille, joille ei löytynyt tietoa väestötietojärjestelmästä. Vuoden 2014 tieto hakuaineistosta.
-
-#### `KOTIMAA` — Kotimaa
+#### `KOTIMAA_K` — Kotimaa
 
 ISO 3166-N maakoodi 
 999 = muu tai tuntematon 
 
 Vuoden 2014 tieto hakuaineistosta
+
+.• 1=Suomi
+• 2=Eurooppa
+• 3=Muu
 
 #### `IKA` — Ikä
 

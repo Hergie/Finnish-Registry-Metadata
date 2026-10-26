@@ -69,7 +69,7 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 |---|---|---|---|---|
 | `s_oltunn` | Tilastokeskuksen suojattu oppilaitostunnus | — | — | — |
 | `shnro` | Tilastokeskuksen suojattu henkilönumero | — | — | — |
-| `AIKIELI` | Äidinkieli | — | kieli_21_1999_01_01 | — |
+| `AIKIELI_K` | Äidinkieli | — | kieli_21_1999_01_01 | — |
 | `IKA` | Ikä vuosina | — | — | — |
 | `OSEUTU` | Oppilaitoksen sijaintiseutukunta | — | seutukunta_1_1998_01_01 | — |
 | `OKUNRYH` | Oppilaitoksen sijaintikunnan  kuntaryhmitys | — | — | — |
@@ -107,8 +107,8 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `KKUN` | Opiskelukunta | — | kunta_1_1998_01_01 | — |
 | `ASKUN` | Asuinkunta | — | kunta_1_1998_01_01 | — |
 | `AIKOUL` | Nuorten/aikuisten koulutus | — | — | — |
-| `AIKIELI2` | Äidinkieli | — | kieli_13_1998_01_01 | — |
-| `KANSA` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
+| `AIKIELI2_K` | Äidinkieli | — | kieli_13_1998_01_01 | — |
+| `KANSA_K` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
 | `ALLK` | Tutkinnon aloittamislukukausi | — | — | — |
 | `LASNAK` | Kirjoilla 20.1. | — | — | — |
 | `LASNAS` | Kirjoilla 20.9. | — | — | — |
@@ -124,11 +124,15 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 #### `shnro` — Tilastokeskuksen suojattu henkilönumero
 
-#### `AIKIELI` — Äidinkieli
+#### `AIKIELI_K` — Äidinkieli
 
 **Classification:** kieli_21_1999_01_01
 
-Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `IKA` — Ikä vuosina
 
@@ -406,18 +410,23 @@ VRK:n kuntakoodi
 1=nuorten koulutus, 
 2=aikuisten koulutus
 
-#### `AIKIELI2` — Äidinkieli
+#### `AIKIELI2_K` — Äidinkieli
 
 **Classification:** kieli_13_1998_01_01
 
-Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
-#### `KANSA` — Kansalaisuus
+#### `KANSA_K` — Kansalaisuus
 
 **Classification:** valtio_11_1970_01_01
 
-Väestötilastojen maaluokitus. 
-Koodin 1. merkki maanosa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
+Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.
+• Kansalaisuus 1 =  suomi, 2 = muu
+• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu
 
 #### `ALLK` — Tutkinnon aloittamislukukausi
 

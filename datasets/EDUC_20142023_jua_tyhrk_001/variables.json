@@ -689,9 +689,9 @@
       "variablegroups": null
     },
     {
-      "identifier": "KANSAL",
+      "identifier": "KANSAL_K",
       "variablename": "Kansalaisuus",
-      "conceptdef": "ISO 3166-N maakoodi, itsenäiset valtiot \n999 = muu tai tuntematon\n\nTieto ensisijaisesti VRK:sta, toissijaisesti hakuaineiston kansalaisuus-tieto. Vuoden 2014 tieto hakuaineistosta.",
+      "conceptdef": "Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.\n• Kansalaisuus 1 =  suomi, 2 = eurooppa, 3 = muu\n• Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu",
       "measunit": null,
       "classification": null,
       "variablegroups": null
@@ -721,17 +721,17 @@
       "variablegroups": null
     },
     {
-      "identifier": "AIKIELI",
+      "identifier": "AIKIELI_K",
       "variablename": "Äidinkieli",
-      "conceptdef": "ISO 639-standardin mukainen 2-merkkinen kielikoodi \n99 = muu tai tuntematon \n\nTieto ensisijaisesti väestörekisteristä. Täydennetty hakuaineiston kielikoodi-muuttujasta henkilöille, joille ei löytynyt tietoa väestötietojärjestelmästä. Vuoden 2014 tieto hakuaineistosta.",
+      "conceptdef": "Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.\n1 = suomi\n2 = ruotsi\n3 = muu\n99 = ei tietoa",
       "measunit": null,
       "classification": null,
       "variablegroups": null
     },
     {
-      "identifier": "KOTIMAA",
+      "identifier": "KOTIMAA_K",
       "variablename": "Kotimaa",
-      "conceptdef": "ISO 3166-N maakoodi \n999 = muu tai tuntematon \n\nVuoden 2014 tieto hakuaineistosta\n\n",
+      "conceptdef": "ISO 3166-N maakoodi \n999 = muu tai tuntematon \n\nVuoden 2014 tieto hakuaineistosta\n\n.• 1=Suomi\n• 2=Eurooppa\n• 3=Muu\n",
       "measunit": null,
       "classification": null,
       "variablegroups": null

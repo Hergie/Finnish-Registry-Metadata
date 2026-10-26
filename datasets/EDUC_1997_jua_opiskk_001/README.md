@@ -109,12 +109,12 @@ Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 | `KLOHKOX` | Opetushallinnon koulutusala | — | — | — |
 | `APUKX` | Koulutuskoodin apukoodit | — | koulutus_1_1996_01_01 | — |
 | `KOULKX` | Tilastokeskuksen koulutuskoodi | — | koulutus_1_1996_01_01 | — |
-| `KANSA` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
+| `KANSA_K` | Kansalaisuus | — | valtio_11_1970_01_01 | — |
 | `ASKUNTA` | Asuinkunta | — | kunta_1_1997_01_01 | — |
 | `TILV` | Aineistovuosi | — | — | — |
-| `KIELI` | Äidinkieli | — | kieli_13_1996_01_01 | — |
+| `KIELI_K` | Äidinkieli | — | kieli_13_1996_01_01 | — |
 | `IKA` | Ikä vuosina | — | — | — |
-| `KIELI2` | Äidinkieli | — | kieli_13_1996_01_01 | — |
+| `KIELI2_K` | Äidinkieli | — | kieli_13_1996_01_01 | — |
 | `OPRYH` | Oppilaitosryhmä | — | — | — |
 | `SP` | Sukupuoli | — | — | — |
 | `ALVV` | Tutkinnon aloittamisvuosi | — | — | — |
@@ -455,12 +455,13 @@ Tarvitaan, jos käytetään karkeampaa luokitusta. Vanha luokitus.
 
 Tilastokeskuksen koulutuskoodi 31.12.1997, vanha
 
-#### `KANSA` — Kansalaisuus
+#### `KANSA_K` — Kansalaisuus
 
 **Classification:** valtio_11_1970_01_01
 
-Väestötilastojen maaluokitus. 
-Koodin 1. merkki maanosa. Karkeistettu tasolle suomi=1, muu Eurooppa=2, muu=3.
+Opiskelijan kansalaisuus vuoden lopussa. Tieto ensisijaisesti VRK:n aineistosta (ISO 3166-standardi). Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto. 999=Ei tietoa.
+- Kansalaisuus 1 =  suomi, 2 = muu
+- Äidinkieli 1 = suomi, 2 = ruotsi 3 = muu
 
 #### `ASKUNTA` — Asuinkunta
 
@@ -473,21 +474,29 @@ Opiskelijan asuinkunta 31.12.1997
 
 Vuoden 1997 syksyn opiskelijat
 
-#### `KIELI` — Äidinkieli
+#### `KIELI_K` — Äidinkieli
 
 **Classification:** kieli_13_1996_01_01
 
-Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `IKA` — Ikä vuosina
 
 Ikä vuosina 31.12.1997
 
-#### `KIELI2` — Äidinkieli
+#### `KIELI2_K` — Äidinkieli
 
 **Classification:** kieli_13_1996_01_01
 
-Väestötilastojen kieliluokitus. Karkeistettu tasolle suomi=1, ruotsi=2, muu=3.
+Opiskelijan äidinkieli 31.12. Tieto ensisijaisesti VRK:n aineistosta. Puutteellisen henkilötunnuksen omaavilla oppilaitoksen ilmoittama tieto.
+1 = suomi
+2 = ruotsi
+3 = muu
+99 = ei tietoa
 
 #### `OPRYH` — Oppilaitosryhmä
 
