@@ -2,11 +2,11 @@
 
 - **Identifier:** `ksyyt_197122_jua_kuolemansyyt_001.xml`
 - **DOI:** `ksyyt_2017-06_2017-06-16_ain_0001`
-- **Temporal coverage:** 1971-01-01 - 2024-12-31
+- **Temporal coverage:** 1971-01-01 - 2025-12-31
 - **Published:** 2025-11-04
 - **Organisation:** Tilastokeskus
 - **Variable count:** 72
-- **Observation count:** 2,738,679
+- **Observation count:** 2,802,800
 - **Population:** Suomessa kuolleet sekä ulkomailla kuolleet suomalaiset
 - **Source:** Tilasto perustuu kuolintodistuksen tietoihin sekä väestötietojärjestelmän tietoihin kuolleista.
 - **Keywords:** alkoholi,itsemurhat,kuolemansyyt,kuolintodistukset,kuolleisuus,lapsikuolleisuus,liikennekuolemat,perinataalikuolleisuus,päihteet,ruumiinavaus,tapaturmat,taudit,työtapaturmat,väkivalta,äitiyskuolleisuus

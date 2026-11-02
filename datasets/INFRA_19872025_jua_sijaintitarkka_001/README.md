@@ -7,19 +7,40 @@
 - **Organisation:** Tilastokeskus
 - **Variable count:** 9
 - **Observation count:** —
+- **Population:** Kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuva väestö
 - **Source:** Digi- ja väestöviraston väestötietojärjestelmä. Koostettu henkilötietovaraston henkilö-vuosi- ja rakennus-tauluista.
 
 ## Description
 
-INFRA_SIJAINTI-valmisaineisto sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. Aineistosta on olemassa kaksi versiota, INFRA_SIJAINTI ja INFRA_SIJAINTI_TARKKA, joilla on molemmilla oma aineistokuvauksensa.
+INFRA_SIJAINTI_TARKKA-valmisaineisto sisältää sijaintitietoja muun muassa kunnan, postinumeroalueen sekä 1 km x 1 km ja 250 x 250 metrin ruutujen mukaan.
 
-Tämä aineistokuvaus koskee aineiston tarkempaa versiota, joka sisältää INFRA_SIJAINTI-aineiston tietojen lisäksi myös 250m x 250m ruututunnukset yli kolmen asukkaan ruuduille sekä vähintään kolme huoneistoa sisältävien rakennusten koordinaatit. Käyttölupa tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja.
+<b> Valmisaineiston tarkentava nimi </b> 
+Sijaintitiedot henkilötietovarastossa olevista asuinrakennuksista yhdistettynä väestöön kuuluviin asukkaisiin (INFRA_SIJAINTI_TARKKA)
 
-Rakennusten koordinaattitietoja ei koskaan anneta ulos etäkäyttöjärjestelmästä. Ruututasolle tai muulle aluetasolle aggregoituja tietoja voidaan antaa ulos etäkäyttöjärjestelmästä vain silloin, kun alueella on vähintään 10 henkilöä. Kokonaista ruutuaineistoa ei saa julkaista. Ruutuihin tai muihin maantieteellisiin alueisiin perustuvia tietoja voidaan julkaista silloin, kun yksittäisiä henkilöitä tai asuntokuntia ei voi tunnistaa. Julkaistavien tietojen tulee olla aggregoituja suuremmalle aluetasolle, suhtautettuja, tai muulla tavalla käsiteltyjä siten, että suora ja epäsuora tunnistaminen on estetty.
+<b> Aineiston koostaminen, tietolähteet ja perusjoukko </b> 
+Aineisto sisältää Tilastokeskuksen henkilötietovarastossa olevien rakennusten sijaintitiedot yhdistettynä asukkaaseen, eli kunkin vuoden viimeisenä päivänä Suomessa vakituisesti asuneeseen väestöön. Tiedot ovat peräisin Digi- ja väestötietoviraston väestötietojärjestelmästä.
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+Aineisto on saatavilla tutkimuskäyttöön kahtena eri versiona. Tämä tarkempi versio sisältää karkeamman (1 km x 1 km) aineistossa olevien muuttujien lisäksi 250 m x 250 m ruututunnukset yli kolmen asukkaan ruuduille sekä suojatut rapputunnukset yli kolme asuttua huoneistoa sisältävien rivi- ja kerrostalojen huoneistoille sekä vähintään kolme vakituisessa asuinkäytössä olevaa huoneistoa sisältävien rivi- ja kerrostalojen koordinaatit. Omakotitalojen sekä alle kolmen asuntokunnan rivi- ja kerrostalojen koordinaatit on suojattu. 
+
+Käyttölupa tämän tarkemman tason versioon edellyttää vahvoja tutkimuksellisia perusteluja. 
+
+Rakennusten koordinaattitietoja ei saa koskaan ottaa ulos etäkäyttöjärjestelmästä. Ruututasolle tai muulle aluetasolle aggregoituja tietoja voidaan antaa ulos etäkäyttöjärjestelmästä vain silloin, kun alueella on vähintään 10 henkilöä. Kokonaista ruutuaineistoa ei saa julkaista. Ruutuihin tai muihin maantieteellisiin alueisiin perustuvia tietoja voidaan julkaista silloin, kun yksittäisiä henkilöitä tai asuntokuntia ei voi tunnistaa. Julkaistavien tietojen tulee olla aggregoituja suuremmalle aluetasolle, suhteutettuja, tai muulla tavalla käsiteltyjä siten, että suora ja epäsuora tunnistaminen on estetty.
+
+INFRA-moduuli on tarkoitettu asumiseen liittyvän paikkatiedon tarkasteluun. On kuitenkin huomioitava, että rakennusten tarkkojen sijaintitietojen perusteella myös rakennuksissa sijaitsevien yritysten ja toimipaikkojen sijainti voi tarkentua. Tämän vuoksi INFRA-moduuliin voidaan yhdistää yrityksistä ja toimipaikoista ainoastaan tilastolain 18 §:ssä lueteltuja julkisia tietoja. 
 
 Tilastovuoden 2025 päivityksen yhteydessä on tehty takautuvia muutoksia päivittämällä suojausta ja lisäämällä pysyvä rakennustunnus -muuttuja (prt).
 
-Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi.
+<b> Aineiston päivitysaikataulu </b> 
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+Aineistoa voi käyttää vain FIONA-etäpalvelun kautta. Tiedot ovat linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilönumeron avulla.
+
+Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Kokonaisaineistoon (sisältää kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) myönnetään käyttöoikeus ainoastaan silloin, kun tutkimuksellinen tarve sitä erityisesti edellyttää. Aineiston muuttujia voi tilata myös räätälöitynä tutkimusaineistona, joka sisältää vain osan valmisaineiston muuttujista. 
+
+<b> Lisätietoja </b> 
+Lisätietoja Tilastokeskuksen Tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (9)
 

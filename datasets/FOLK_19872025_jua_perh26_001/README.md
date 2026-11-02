@@ -1,4 +1,4 @@
-# FOLK  perhe
+# FOLK_PERH Perhe
 
 - **Identifier:** `FOLK_19872025_jua_perh26_001.xml`
 - **DOI:** `work_2017-08_2017-08-03_ain_0003`
@@ -11,13 +11,35 @@
 
 ## Description
 
-FOLK-henkilöaineiston perhemoduulissa on perheväestöön kuuluvien henkilöiden perhettä koskevia, pääasiassa perheen lasten lukumäärään liittyviä tietoja. Tarkempi kuvaus perheen määritelmästä on saatavilla osoitteesta http://www.stat.fi/meta/kas/perhe.html. Moduuli sisältää perheille luodut koodit perheenjäsenten yhdistämiseksi saman tilastovuoden aikana.
+FOLK-henkilöaineiston perhemoduuli sisältää tietoja perheväestöön kuuluvien henkilöiden perheistä, erityisesti perheen lasten lukumäärään liittyen.  Laajempia perhetietoja (perheen koko, perhetyyppi, perheasema, perheen lasten lukumäärät) löytyy FOLK perustiedot-valmisaineistomoduulista. 
 
-Lisäksi moduulissa on niiden perheväestöön kuulumattomien henkilöiden lapsilukutiedot (laplubio ja lapluka), jotka eivät kuulu perheväestöön, mutta joilla on lapsia. Perheväestön lukumäärätiedot ovat numeroarvoina.
+<b> Valmisaineiston tarkentava nimi </b> 
 
-Aineistossa on tietoja vuodesta 1987 lähtien. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvaukseen vuosiluvuilla. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. Mahdolliset muutokset on kuvattu muuttujakohtaisesti.
+Tiedot perheväestöön kuuluvien henkilöiden perheistä ja lasten lukumäärästä sekä perheväestöön kuulumattomien henkilöiden lasten lukumäärästä 
 
-FOLK Perhe -aineistot ovat kansiossa FOLK_PERH_A, jossa kunkin vuoden tiedostot ovat omassa kansiossaan.. Tiedostonimet ovat muodossa folk_perhe_"vuosi"_1.Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
+
+Aineiston perusjoukkona toimii perhe. Tarkempi määritelmä perheestä on saatavilla <a href=" https://stat.fi/meta/kas/perhe.html”> Tilastokeskuksen verkkosivuilla</a> Lisäksi mukana ovat lapsilukutiedot niille henkilöille, jotka eivät kuulu perheväestöön, mutta joilla on lapsia (laplubio ja lapluka). Perheväestön lukumäärätiedot ovat esitetty numeroarvoina. Aineisto on muodostettu Tilastokeskuksessa muodostetun perhetilastoaineiston tiedoista, joissa lähteenä Digi- ja väestötietoviraston väestötietojärjestelmän eli VTJ-tietoja. 
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+
+Moduuli sisältää perhekohtaiset koodit, joiden avulla perheenjäsenet voidaan yhdistää saman tilastovuoden aikana.  
+
+Aineistossa on tiedot vuodesta 1987 alkaen. Mahdolliset poikkeamat tietojen saatavuudessa on merkitty muuttujankuvaukseen vuosiluvuilla. Mahdolliset muutokset on kuvattu muuttujakohtaisesti. 
+
+<b> Aineiston päivitysaikataulu </b> 
+
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun   henkilöä yksilöivän tunnisteen avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineiston muuttujia voi tilata myös räätälöitynä versiona, jos tutkimustarve kohdistuu vain osaan valmisaineiston muuttujista. 
+
+Aineisto on FIONA-etäkäyttöjärjestelmässä  kansiossa FOLK_PERH_A, jossa kunkin vuoden tiedostot ovat omassa kansiossaan.. Tiedostonimet ovat muodossa folk_perhe_"vuosi"_1. 
+
+<b> Lisätietoja </b> 
+
+Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@stat.fi
 
 ## Variables (15)
 

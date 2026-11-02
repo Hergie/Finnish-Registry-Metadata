@@ -2,7 +2,7 @@
 
 - **Identifier:** `TEM_19912023_jua_tyonhaku_001.xml`
 - **DOI:** `work_2016-10_2016-10-16_ain_0002`
-- **Temporal coverage:** 1991-01-01 - 2024-12-31
+- **Temporal coverage:** 1991-01-01 - 2025-12-31
 - **Published:** 2025-04-15
 - **Organisation:** Työ- ja elinkeinoministeriö
 - **Variable count:** 96
@@ -197,7 +197,7 @@ Työnhaun alkamispäivä
 
 **Group:** YTHAKU
 
-Edellisen työsuhteen päättymispäivä
+Edellisen työsuhteen päättymispäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).
 
 #### `hamaa` — Välitysmaa
 
@@ -299,7 +299,7 @@ Työllistämisen alkamispvm
 
 **Group:** YSIJOIT
 
-Työllistämisen ammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
+ISCO-pohjainen työllistämisen ammatti, ISCO-pohjainen ammatti. Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `eupnos` — ESR-projektikoodi
 
@@ -309,7 +309,7 @@ Työllistämisen ammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luok
 
 **Group:** YSIJOIT
 
-Työllistämisen kohderyhmä 01=Nuori (v. -2014), 02=Pitkäaikaistyötön (-2014), 03=Vamma/sairaus, 04=Muu työllistettävä (-2014), 05=55-59 -vuotias (v. -2014), 06=Työsuhteesta tuleva, 07=Työtön alle 1 v., 08=Työtön 12/14 kk, 09=Työtön 24/28 kk, 10=60-v. väh. 12 kk työtön, TYHJÄ=Tuntematon
+Työllistämisen kohderyhmä 01=Nuori (v. -2014), 02=Pitkäaikaistyötön (-2014), 03=Vamma/sairaus, 04=Muu työllistettävä (-2014), 05=55-59 -vuotias (v. -2014), 06=Työsuhteesta tuleva, 07=Työtön alle 1 v., 08=Työtön 12/14 kk, 09=Työtön 24/28 kk, 10=60-v. väh. 12 kk työtön, 11=sivutoiminen yrittäjä, 12=55v. täyttäneet, TYHJÄ=Tuntematon
 
 #### `loppv2` — Päättymispäivä
 
@@ -419,8 +419,7 @@ Henkilön tyllistämisen (välitys) työsuhteen alkamispvm
 
 **Group:** YTVALIT
 
-Välitysammatti. 
-https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/.
+ISCO-pohjainen välitysammatti. https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `ilmno` — Työpaikkailmoitusnumero
 
@@ -490,8 +489,7 @@ Työkokeilun loppupvm
 
 **Group:** YTKOKE
 
-Kokeilun ammatti (v. 2014 alkaen) 
-https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
+ISCO-pohjainen kokeilun ammatti (v. 2014 alkaen) https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `kokeilu` — Työkokeilun laji
 
@@ -530,7 +528,7 @@ Työvoimakoulutuksen alkamispäivä
 
 **Group:** YTYOKOU
 
-Työvoimakoulutuksen sijoittumisammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
+ISCO-pohjainen työvoimakoulutuksen sijoittumisammatti. Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `hapvm` — Koulutukseen hakupäivä
 
@@ -694,7 +692,7 @@ P=kurssi on peruutettu, muutoin null
 
 **Group:** YHTKAMM
 
-Henkilön aikaisemmat tavoiteammatit. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
+ISCO-pohjaiset henkilön aikaisemmat tavoiteammatit. Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `muupv2` — Muutospäivä
 
@@ -706,7 +704,7 @@ Henkilön työvoimakoulutuksen tavoiteammatin muutospäivä
 
 **Group:** YLIIKK
 
-Liikkuvuusavustuksen avustuslaji Ei päivitetä
+Liikkuvuusavustuksen avustuslaji Ei päivitetä. 0=matkakust.korvaus, 6=majoituskorvaus, null=muuttokustannus
 
 #### `piikdl` — kohdete-keskus
 
@@ -724,7 +722,7 @@ Liikkuvuusavustuksen avustuspvm Ei päivitetä
 
 **Group:** ysijoit
 
-01=ansiosid, 02=peruspv.raha, 03=tm-tuki, 04=ei mitään, 06=muutosturvaraha, 07=eruspväraha tai tmtuki
+01=ansiosid, 02=peruspv.raha, 03=tm-tuki, 04=ei mitään, 06=muutosturvaraha, 07=peruspvraha tai tmtuki
 
 #### `oppisop` — Oppisopimus
 
@@ -736,7 +734,7 @@ Liikkuvuusavustuksen avustuspvm Ei päivitetä
 
 **Group:** ysijoit
 
-30, 40, 50, 70, 100 tai tuntematon
+30 %, 40 %, 50 %, 70 %, 100 % tai tuntematon
 
 #### `vos` — Valtionosuusrahoitteinen koulutus (v.2018 alkaen)
 

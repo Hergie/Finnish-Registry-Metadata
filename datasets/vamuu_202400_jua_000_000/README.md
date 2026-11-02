@@ -1,4 +1,4 @@
-# FOLK_VAEN
+# FOLK_VAEN Väestön ennakkotiedot
 
 - **Identifier:** `vamuu_202400_jua_000_000.xml`
 - **DOI:** `vamuu_2015-03_2015-03-23_ain_0001`
@@ -18,22 +18,23 @@ Aineisto on suunniteltu vastaamaan tutkijoiden tarpeeseen saada mahdollisimman a
 
 Tiedote (03/2026): 
  
-Väestön ennakkotietoihin voi tulla muutoksia vuoden 2026 alussa: https://dvv.fi/-/loppuvuodesta-2025-vakinainen-osoite-voi-olla-vain-yhdessa-maassa-12-000-henkilolla-osoite-seka-suomessa-etta-virossa 
+Väestön ennakkotietoihin voi tulla muutoksia vuoden 2026 alussa: <a href="https://dvv.fi/-/loppuvuodesta-2025-vakinainen-osoite-voi-olla-vain-yhdessa-maassa-12-000-henkilolla-osoite-seka-suomessa-etta-virossa"> Loppuvuodesta 2025 vakinainen osoite voi olla vain yhdessä maassa – 12 000 henkilöllä osoite sekä Suomessa että Virossa</a>
 
 Tämä tarkoittaa käytännössä sitä, että Suomen ja Viron väestörekisterit keskustelee keskenään, esim. jos henkilö muuttaa Viroon, niin DVV:lle tulee tieto. Henkilö ei voi myöskään jatkossa asua samanaikaisesti Suomessa ja Virossa. Tämän myötä rekistereiden tietoja on korjattu, ja henkilö on voinut ilmoittaa tai hänelle on valittu viimeisin vakinainen osoite maiden väliltä. 
  
 Vaikutuksia: 
 - Etenkin väestön ennakkotietoihin pohjautuviin aineistoihin voi tulla muutoksia alkuvuoden 2026 aikana, kun henkilöiden tietoja on lähdetty korjaamaan helmi-maaliskuun aikana 
 - Ei ole vielä tarkkaa tietoa korjausten suuruusluokasta tai tietoa siitä, mihin asti korjaukset kestävät, mutta oletuksena on, että korjaus vaikuttaa ainakin ensimmäisen vuosineljänneksen osalta 
-- Positiivista: laatu paranee ja rekisterit ajantasaistuvat. 
+- Positiivista: laatu paranee ja rekisterit ajantasaistuvat.
+
+
+<b> Valmisaineiston tarkentava nimi </b>
+
+Ennakkotietoja väestöön kuuluvien tausta- ja asuintiedoista sekä lapsiluvusta, karkealla tasolla (kuukausitasoiset ennakkotiedot)
 
 <b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 
-Aineisto koostaan kuukausittain Digi- ja väestötietoviraston (DDV) väestötietojärjestelmästä saaduista tiedoista. Kuukausittain tilastovuoden osalta päivittyvän ennakkotietoaineiston lisäksi saatavilla ovat myös aiempien tilastovuosien ennakkotiedot vuosilta 2015–2023, osana FOLK_VAEN-moduulia.  
-
-<b> Valmisaineiston tarkentava nimi </b> 
-
-Ennakkotietoja väestöön kuuluvien tausta- ja asuintiedoista sekä lapsiluvusta, karkealla tasolla (kuukausitasoiset ennakkotiedot) 
+Aineisto koostaan kuukausittain Digi- ja väestötietoviraston (DDV) väestötietojärjestelmästä saaduista tiedoista. Kuukausittain tilastovuoden osalta päivittyvän ennakkotietoaineiston lisäksi saatavilla ovat myös aiempien tilastovuosien ennakkotiedot vuosilta 2015–2023, osana FOLK_VAEN-moduulia. 
 
 <b> Huomioitavaa aineistosta ja sen käytöstä </b> 
 
@@ -107,7 +108,7 @@ Tästä valmisaineistomoduulista on mahdollista kuitenkin hakea karkeistamatonta
 
 Lisätietoja valmisaineistosta Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi. 
 
-Tähän aineistoon sisältyvät muuttujat ja niiden luokitukset on kuvattu lyhyesti oheisessa linkissä: https://stat.fi/fi/tilasto/vamuu
+Tähän aineistoon sisältyvät muuttujat ja niiden luokitukset on kuvattu lyhyesti oheisessa linkissä: <a href="https://stat.fi/fi/tilasto/vamuu"> Väestön ennakkotilasto</a>
 Lisätietoja saa myös sähköpostitse: vaesto.tilasto@stat.fi
 
 ## Variables (25)

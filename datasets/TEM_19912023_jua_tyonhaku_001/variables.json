@@ -43,7 +43,7 @@
     {
       "identifier": "esppv",
       "variablename": "Edellisen työsuhteen päättymispäivä",
-      "conceptdef": "Edellisen työsuhteen päättymispäivä",
+      "conceptdef": "Edellisen työsuhteen päättymispäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YTHAKU"
@@ -155,7 +155,7 @@
     {
       "identifier": "ammnos",
       "variablename": "Työllistämisen ammatti",
-      "conceptdef": "Työllistämisen ammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "conceptdef": "ISCO-pohjainen työllistämisen ammatti, ISCO-pohjainen ammatti. Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YSIJOIT"
@@ -171,7 +171,7 @@
     {
       "identifier": "kryhm",
       "variablename": "Kohderyhmä",
-      "conceptdef": "Työllistämisen kohderyhmä 01=Nuori (v. -2014), 02=Pitkäaikaistyötön (-2014), 03=Vamma/sairaus, 04=Muu työllistettävä (-2014), 05=55-59 -vuotias (v. -2014), 06=Työsuhteesta tuleva, 07=Työtön alle 1 v., 08=Työtön 12/14 kk, 09=Työtön 24/28 kk, 10=60-v. väh. 12 kk työtön, TYHJÄ=Tuntematon",
+      "conceptdef": "Työllistämisen kohderyhmä 01=Nuori (v. -2014), 02=Pitkäaikaistyötön (-2014), 03=Vamma/sairaus, 04=Muu työllistettävä (-2014), 05=55-59 -vuotias (v. -2014), 06=Työsuhteesta tuleva, 07=Työtön alle 1 v., 08=Työtön 12/14 kk, 09=Työtön 24/28 kk, 10=60-v. väh. 12 kk työtön, 11=sivutoiminen yrittäjä, 12=55v. täyttäneet, TYHJÄ=Tuntematon",
       "measunit": null,
       "classification": null,
       "variablegroups": "YSIJOIT"
@@ -315,7 +315,7 @@
     {
       "identifier": "ammno3",
       "variablename": "Välitysammatti",
-      "conceptdef": "Välitysammatti. \nhttps://www2.tilastokeskus.fi/fi/luokitukset/ammatti/. ",
+      "conceptdef": "ISCO-pohjainen välitysammatti. https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YTVALIT"
@@ -411,7 +411,7 @@
     {
       "identifier": "ammno",
       "variablename": "Kokeilun ammatti",
-      "conceptdef": "Kokeilun ammatti (v. 2014 alkaen) \nhttps://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "conceptdef": "ISCO-pohjainen kokeilun ammatti (v. 2014 alkaen) https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YTKOKE"
@@ -459,7 +459,7 @@
     {
       "identifier": "ammnoj",
       "variablename": "Sijoittumisammatti",
-      "conceptdef": "Työvoimakoulutuksen sijoittumisammatti. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "conceptdef": "ISCO-pohjainen työvoimakoulutuksen sijoittumisammatti. Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YTYOKOU"
@@ -683,7 +683,7 @@
     {
       "identifier": "ammnol",
       "variablename": "Henkilön aikaisemmat tavoiteammatit",
-      "conceptdef": "Henkilön aikaisemmat tavoiteammatit. Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "conceptdef": "ISCO-pohjaiset henkilön aikaisemmat tavoiteammatit. Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHTKAMM"
@@ -699,7 +699,7 @@
     {
       "identifier": "avukd",
       "variablename": "avustuslaji",
-      "conceptdef": "Liikkuvuusavustuksen avustuslaji Ei päivitetä",
+      "conceptdef": "Liikkuvuusavustuksen avustuslaji Ei päivitetä. 0=matkakust.korvaus, 6=majoituskorvaus, null=muuttokustannus",
       "measunit": null,
       "classification": null,
       "variablegroups": "YLIIKK"
@@ -723,7 +723,7 @@
     {
       "identifier": "etuus",
       "variablename": "Etuuslaji",
-      "conceptdef": "01=ansiosid, 02=peruspv.raha, 03=tm-tuki, 04=ei mitään, 06=muutosturvaraha, 07=eruspväraha tai tmtuki\n\n",
+      "conceptdef": "01=ansiosid, 02=peruspv.raha, 03=tm-tuki, 04=ei mitään, 06=muutosturvaraha, 07=peruspvraha tai tmtuki\n\n",
       "measunit": null,
       "classification": null,
       "variablegroups": "ysijoit"
@@ -739,7 +739,7 @@
     {
       "identifier": "tukipros",
       "variablename": "Suhteellinen osuus, jolla tukea maksetaan",
-      "conceptdef": "30, 40, 50, 70, 100 tai tuntematon",
+      "conceptdef": "30 %, 40 %, 50 %, 70 %, 100 % tai tuntematon",
       "measunit": null,
       "classification": null,
       "variablegroups": "ysijoit"

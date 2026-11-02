@@ -1,4 +1,4 @@
-# FOLK_VAKA
+# FOLK_VAKA Varhaiskasvatus
 
 - **Identifier:** `FOLK_20192025_jua_VAKA_001.xml`
 - **DOI:** `vaka_2026-01_2026-01-08_ain_0001`
@@ -8,6 +8,7 @@
 - **Variable count:** 20
 - **Observation count:** —
 - **Population:** Suomessa varhaiskasvatukseen osallistuneet lapset
+- **Related:** Varhaiskasvatuksen tietovaranto (Varda)
 
 ## Description
 

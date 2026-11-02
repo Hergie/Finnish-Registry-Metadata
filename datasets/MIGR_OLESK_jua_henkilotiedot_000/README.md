@@ -2,10 +2,10 @@
 
 - **Identifier:** `MIGR_OLESK_jua_henkilotiedot_000.xml`
 - **DOI:** `std_2025-05_2025-05-19_ain_0001`
-- **Temporal coverage:** 2011-01-01 - 2025-12-31
+- **Temporal coverage:** 2011-01-01 - 2026-07-31
 - **Published:** 2026-04-14
 - **Organisation:** Tilastokeskus
-- **Variable count:** 6
+- **Variable count:** 7
 - **Observation count:** —
 - **Population:** Oleskelulupaa hakeneet
 - **Source:** Maahanmuuttoviraston (Migri) koostama oleskelulupatietoja sisältävä aineisto
@@ -47,7 +47,7 @@ Kysymykset valmisaineistosta ja koko tietosisällöstä voi osoittaa Tilastokesk
 Viralliset oleskelulupahakemuksien ja -päätöksien tilastot laatii edelleen Maahanmuuttovirasto. Aihepiirin tilastoja voi tarkastella  <a href=" https://tilastot.migri.fi/#decisions ">  Migrin tilastointipalvelusta</a>. 
 Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href=" https://migri.fi/oleskelulupa">  Maahanmuuttoviraston sivuilla</a>.
 
-## Variables (6)
+## Variables (7)
 
 | Identifier | Name | Unit | Classification | Group |
 |---|---|---|---|---|
@@ -57,6 +57,7 @@ Aiheeseen ja terminologiaan voi tutustua tarkemmin <a href=" https://migri.fi/ol
 | `Birth_year` | Syntymävuosi | — | — | — |
 | `Sex` | Sukupuoli | — | — | — |
 | `Citizenzhip` | Kansalaisuus | — | — | — |
+| `Birth_state` | Syntymävaltio | — | — | — |
 
 ### Variable definitions
 
@@ -73,6 +74,8 @@ Asiakkaan yksilöivä tunniste, käytetään yhdistämään samalle asiakkaalle 
 #### `Sex` — Sukupuoli
 
 #### `Citizenzhip` — Kansalaisuus
+
+#### `Birth_state` — Syntymävaltio
 
 ---
 

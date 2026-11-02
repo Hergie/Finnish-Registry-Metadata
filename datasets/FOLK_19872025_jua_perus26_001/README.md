@@ -1,9 +1,9 @@
-# FOLK perustieto
+# FOLK_PERUS Perustieto
 
 - **Identifier:** `FOLK_19872025_jua_perus26_001.xml`
 - **DOI:** `work_2017-11_2017-11-02_ain_0001`
 - **Temporal coverage:** 1987-01-01 - 2025-12-31
-- **Published:** 2026-09-18
+- **Published:** 2026-10-26
 - **Organisation:** Tilastokeskus
 - **Variable count:** 61
 - **Observation count:** —
@@ -11,15 +11,41 @@
 
 ## Description
 
-FOLK-henkilöaineiston perustietomoduuli sisältää väestörakenne-, tulo- ja työssäkäyntitilastojen tietoja sekä muutamia perhetilaston ja väestön koulutusrakennetilaston tietoja. Tiedot ovat kunkin vuoden lopusta ja yleensä vastaavat virallisia (SVT) tietoja julkaisuajankohtana. Niillä moduulin karkeistetuilla tiedoilla, joista on karkeistamaton tieto saatavissa toisesta FOLK-moduulista tai muualta Tilastokeskuksen tietovarannoista, on loppulyhenteenä _k tai _k2. 
+FOLK-henkilöaineiston perustietomoduuli sisältää monipuolisia väestötietoja, mukaan lukien demografisia tietoja sekä tietoja koulutuksesta, työssäkäynnistä, tuloista, asuntokunnista ja perheistä. 
 
-Aineistossa on tietoja vuodesta 1987 lähtien vuoteen 2025 saakka. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvaukseen vuosiluvuilla lukuun ottamatta niitä edelleen päivittyviä tietoja, joiden päivitysaikataulu on muita tietoja myöhäisempi. Tällöin tämän tiedon viimeinen vuosi on merkitty muuttujankuvauksessa: (aineiston viimeinen vuosi - 1) tai (aineiston viimeinen vuosi - 2). 
+<b> Valmisaineiston tarkentava nimi </b> 
 
-Aineisto on tarkoitettu FIONA-etäpalvelun kautta käytettäväksi. Tiedot on linkitettävissä muiden henkilövalmisaineistomoduulien kanssa suojatun henkilönumeron avulla. 
+Henkilöaineiston perustiedot, sisältäen syntyperä- ja väestörakenne-, tulo-, työssäkäynti-, perhe- ja koulutustietoja, karkeistetulla kieli- ja kansalaisuustiedolla 
 
-Vimeisimmät FOLK perustieto-aineistot ovat kansiossa FOLK_PERUS_A, jossa tiedostot ovat jaettuna tilastovuosittain. Tiedostonimet ovat muodossa folk_perus_"vuosi"_1. Tilastovuoden tiedot päivitetään noin 6 kk alkuperäisen päivityksen jälkeen; mahdolliset muutokset on kuvattu muuttujakohtaisesti.
+<b> Aineiston perusjoukko, koostaminen ja tietolähteet </b> 
 
- 
+Perustietomoduuli sisältää tietoja Suomessa vakituisesti asuneesta väestöstä kunkin vuoden viimeisenä päivänä.  
+
+Valmisaineistomoduuliin on koostettu tietoja väestörakenteesta, tuloista ja työssäkäynnistä sekä jotain tietoja perhetilastoista ja väestön koulutusrakenteesta. Tiedot kuvaavat kunkin vuoden lopun tilannetta ja vastaavat pääosin virallisia (SVT) tilastoja julkaisuajankohtanaan.  
+
+<b> Huomioitavaa aineistosta ja sen käytöstä </b> 
+
+Aineisto kattaa vuodet 1987–2025. Poikkeamat tietojen saatavuudessa on merkitty muuttujankuvauksiin vuosiluvuittain. Tiedot, jotka päivittyvät muita myöhemmin, on merkitty muuttujankuvauksessa viimeisimmän saatavilla olevan vuoden mukaan muodossa: (aineiston viimeinen vuosi - 1) tai (aineiston viimeinen vuosi - 2). 
+
+Aineiston päivitysaikataulu 
+
+<b> Aineiston päivitysaikataulu </b> 
+
+Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">  päivitysaikatauluun</a>. 
+
+Tilastovuoden tiedot päivitetään noin kuuden kuukauden kuluttua alkuperäisestä päivityksestä. Mahdolliset muutokset on kuvattu muuttujakohtaisesti. Aineisto päivitetään kahdesti vuodessa. 
+
+<b> Aineiston käyttö ja tilaaminen </b> 
+
+Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistomoduuleihin suojatun henkilönumeron avulla. Tietoja voi tilata tutkimuksen kohdejoukolle ja tietylle ajanjaksolle.  Aineiston kokonaisaineiston (kaikki muuttujat koko populaatiolle ja kaikilta saatavissa olevilta vuosilta) käyttöoikeus myönnetään vain, jos tutkimuksellinen tarve sitä erityisesti edellyttää. Aineistosta voi tilata muuttujia voi tilata myös räätälöidyn version, joka sisältää vain osan valmisaineiston muuttujista. 
+
+FOLK perustieto -tiedostot ovat FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.  
+
+<b> Tarkempaa tietoa muuttujista </b> 
+
+Moduulin muuttujat, joiden tiedot ovat karkeistettuja mutta joille on saatavilla tarkempi versio toisesta FOLK-moduulista tai muualta Tilastokeskuksen tietovarannoista, on merkitty loppulyhenteellä _k tai _k2. 
+
+<b> Lisätietoja </b> 
 
 Lisätietoja Tilastokeskuksen tutkijapalveluista: tutkijapalvelut@tilastokeskus.fi.
 
@@ -238,7 +264,7 @@ Siviilisääty, arvot:
 
 **Group:** Ammatti
 
-Sosioekonominen asema -tieto vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 tieto vuosittain (aineiston viimeinen vuosi -2) -vuoteen asti. Perustuu tietoihin henkilön pääasiallisesta toiminnasta, ammatista, ammattiasemasta sekä toimialasta. Henkilöt on luokiteltu oman toimintansa perusteella lukuun ottamatta 0-15 -vuotiaita ja ryhmää "muut työvoimaan kuulumattomat" (lähinnä omaa kotitaloutta hoitavat), jotka ovat saaneet asuntokunnan viitehenkilön sosioekonomisen aseman.
+Sosioekonominen asema -tieto vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 tieto vuosittain (aineiston viimeinen vuosi -1) -vuoteen asti. Perustuu tietoihin henkilön pääasiallisesta toiminnasta, ammatista, ammattiasemasta sekä toimialasta. Henkilöt on luokiteltu oman toimintansa perusteella lukuun ottamatta 0-15 -vuotiaita ja ryhmää "muut työvoimaan kuulumattomat" (lähinnä omaa kotitaloutta hoitavat), jotka ovat saaneet asuntokunnan viitehenkilön sosioekonomisen aseman.
 
 Yrittäjät	
 10 Maa- ja metsätalousyrittäjät	
@@ -351,7 +377,7 @@ Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.
 
 **Group:** Opiskelijat ja tutkinnot
 
-Opiskelijan koulutuslaji, tietoja vuodesta 1999 alkaen vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti. 
+Opiskelijan koulutuslaji, tietoja vuodesta 1999 alkaen vuosittain aineiston viimeisimpään vuoteen asti. 
 
 1 = Esi-, perus- tai lisäopetus (10-luokka) (tilastvuosi 2020- ) 
 2 = Lukiokoulutus 
@@ -397,7 +423,7 @@ Lisätietoa myös muuttujan historiasta (englanniksi):
 
 **Group:** Ammatti
 
-Tietoja vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 lähtien vuosittain vuoteen (aineiston viimeinen vuosi -2) asti. Tieto henkilön ammatista on tuotettu 18-74-vuotiaille työllisille, siis palkansaajille ja yrittäjille. Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. 
+Tietoja vuosilta 1990, 1993, 1995, 2000 ja vuodesta 2004 lähtien vuosittain vuoteen (aineiston viimeinen vuosi -1) asti. Tieto henkilön ammatista on tuotettu 18-74-vuotiaille työllisille, siis palkansaajille ja yrittäjille. Ammattitiedot perustuvat pääasiassa eri hallinnollisista aineistoista (työsuhdeaineistot) ja Tilastokeskuksen palkkatilastoista saatuihin ammatti-, virka- ja tehtävänimikkeisiin ja -koodeihin. Lisäksi tehdään erillinen ammattitiedonkeruu vuosittain. 
 
 Henkilön ammattikoodi tuotetaan ensisijaisesti vuoden viimeisen viikon päätyösuhteen mukaisen ammatin perusteella. Ammattinimikkeiden lisäksi tiedon tuottamisessa käytetään hyväksi tietoa henkilön työpaikan toimialasta ja sektorista sekä henkilön koulutuksesta. Ammattitietojen tuottamista ohjaa kansainvälisen työjärjestön ILO:n laatima hierarkkinen luokitusjärjestelmä International Standard Classification of Occupations, lyh. ISCO. 
 Luokitusstandardit:
@@ -527,7 +553,7 @@ Asunnon hallintaperuste on pääsääntöisesti päätelty vakinaisesti asutuill
 7 = Muu hallintaperuste 
 9 = Hallintaperuste tuntematon 
 
-Tieto vuosittain (aineiston viimeinen vuosi - 1) -vuoteen asti.
+Tieto vuosittain aineiston viimeisimpään vuoteen asti.
 
 #### `hulu` — Huoneluku keittiö pl.
 

@@ -35,7 +35,7 @@
     {
       "identifier": "muupv5",
       "variablename": "alkamispvm",
-      "conceptdef": "Henkilön dignoosin alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
+      "conceptdef": "Henkilön dignoosin alkamispvm (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHDIAG"
@@ -43,7 +43,7 @@
     {
       "identifier": "paapv5",
       "variablename": "loppumispvm",
-      "conceptdef": "Henkilön diagnoosin loppumispvm",
+      "conceptdef": "Henkilön diagnoosin loppumispvm ('11.11.2222' = jatkuu).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHDIAG"

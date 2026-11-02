@@ -2,7 +2,7 @@
 
 - **Identifier:** `TEM_19912023_jua_tyokunto_001.xml`
 - **DOI:** `work_2016-10_2016-10-16_ain_0003`
-- **Temporal coverage:** 1991-01-01 - 2024-12-31
+- **Temporal coverage:** 1991-01-01 - 2025-12-31
 - **Published:** 2025-04-15
 - **Organisation:** Työ- ja elinkeinoministeriö
 - **Variable count:** 12
@@ -85,13 +85,13 @@ Tilastojärjestelmässä käytössä on kansainvälisen tautiluokituksen luokkia
 
 **Group:** YHDIAG
 
-Henkilön dignoosin alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
+Henkilön dignoosin alkamispvm (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).
 
 #### `paapv5` — loppumispvm
 
 **Group:** YHDIAG
 
-Henkilön diagnoosin loppumispvm
+Henkilön diagnoosin loppumispvm ('11.11.2222' = jatkuu).
 
 #### `on_diag` — Diagnoositieto
 

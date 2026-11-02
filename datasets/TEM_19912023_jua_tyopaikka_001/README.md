@@ -2,7 +2,7 @@
 
 - **Identifier:** `TEM_19912023_jua_tyopaikka_001.xml`
 - **DOI:** `work_2016-10_2016-10-16_ain_0004`
-- **Temporal coverage:** 1991-01-01 - 2024-12-31
+- **Temporal coverage:** 1991-01-01 - 2025-12-31
 - **Published:** 2025-04-15
 - **Organisation:** Työ- ja elinkeinoministeriö
 - **Variable count:** 25
@@ -37,7 +37,7 @@ Aineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Tiedot päi
 | `ammnop` | Vaadittava ammatti | — | — | YPAIKKA |
 | `hlokd` | Henkilökunnan kokoluokka | — | — | YPAIKKA |
 | `illkm` | Työpaikkojen alkuperäinen lukumäärä | — | — | YPAIKKA |
-| `ilmno` | Työpaikan ilmoitusnumero | — | — | YPKEST, YPAIKKA |
+| `ilmno` | Työpaikan ilmoitusnumero | — | — | YPAIKKA, YPKEST |
 | `keskd` | Työn kesto | — | — | YPAIKKA |
 | `kouk1` | Vaadittava koulutus | — | — | YPAIKKA |
 | `kunnop` | Työpaikan sijaintikunta | — | — | YPAIKKA |
@@ -76,7 +76,7 @@ Vuorottelukorvausta saavan suojattu henkilötunnus niille, joille ei pystytä yh
 
 **Group:** YPAIKKA
 
-Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
+Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `hlokd` — Henkilökunnan kokoluokka
 
@@ -90,7 +90,7 @@ Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
 
 #### `ilmno` — Työpaikan ilmoitusnumero
 
-**Group:** YPKEST, YPAIKKA
+**Group:** YPAIKKA, YPKEST
 
 #### `keskd` — Työn kesto
 
@@ -130,7 +130,7 @@ Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämi
 
 **Group:** YPAIKKA
 
-1=valtio,2=kunta,3=yks.ta, 4=yritys, 5=kotit., 6=kuntainl
+1=valtio,2=kunta,3=yks.ta, 4=yritys, 5=kotit., 6=kuntainl, 7=hyvinvointialue
 
 #### `tkokd` — Vaadittava työkokemus
 

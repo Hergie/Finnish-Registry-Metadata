@@ -27,7 +27,7 @@
     {
       "identifier": "kansah",
       "variablename": "Kansalaisuus",
-      "conceptdef": "suomi='246' tai null",
+      "conceptdef": "suomi='246' tai null (viimeisin tieto)",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHENK"
@@ -75,7 +75,7 @@
     {
       "identifier": "muupv6",
       "variablename": "Alkamispäivä",
-      "conceptdef": "Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity). Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
+      "conceptdef": "Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHKUNTA"
@@ -83,7 +83,7 @@
     {
       "identifier": "paapv6",
       "variablename": "Loppumispvm",
-      "conceptdef": "Henkilön asuinkunnasta muuttopäivä",
+      "conceptdef": "Henkilön asuinkunnasta muuttopäivä ('11.11.2222'=jatkuu)",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHKUNTA"
@@ -99,7 +99,7 @@
     {
       "identifier": "muupv3",
       "variablename": "alkamispvm",
-      "conceptdef": "Koulutustiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
+      "conceptdef": "Koulutustiedon alkamispvm. (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHKOUL"
@@ -107,7 +107,7 @@
     {
       "identifier": "paapv3",
       "variablename": "loppumispvm",
-      "conceptdef": "Koulutustiedon loppumispvm",
+      "conceptdef": "Koulutustiedon loppumispvm ('11.11.2222' = jatkuu)",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHKOUL"
@@ -115,7 +115,7 @@
     {
       "identifier": "ammnoh",
       "variablename": "ammatti",
-      "conceptdef": "Ammattiluokitus\nhttps://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "conceptdef": "ISCO-pohjainen ammatti. Ammattiluokitus https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHAMM"
@@ -123,7 +123,7 @@
     {
       "identifier": "muupv1",
       "variablename": "alkamispvm",
-      "conceptdef": "Ammattitiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
+      "conceptdef": "Ammattitiedon alkamispvm (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHAMM"
@@ -131,7 +131,7 @@
     {
       "identifier": "paapv1",
       "variablename": "loppumispvm",
-      "conceptdef": "Ammattitiedon loopumispvm",
+      "conceptdef": "Ammattitiedon loopumispvm ('11.11.2222' = jatkuu)",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHAMM"
@@ -155,7 +155,7 @@
     {
       "identifier": "paatpv",
       "variablename": "Päättymispäivä",
-      "conceptdef": "Palvelulinjan päättymispvm",
+      "conceptdef": "Palvelulinjan päättymispvm ('11.11.2222' = jatkuu).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YASSEGMENTTI"
@@ -163,7 +163,7 @@
     {
       "identifier": "muupv7",
       "variablename": "alkamispvm",
-      "conceptdef": "Henkilön työvoimatoimistonalkamispvm. Ei päivitetä. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.",
+      "conceptdef": "Henkilön työvoimatoimistonalkamispvm. Ei päivitetä. (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHTSTO"
@@ -171,7 +171,7 @@
     {
       "identifier": "paapv7",
       "variablename": "loppumispvm",
-      "conceptdef": "Henkilön työvoimatoimiston loppumispvm Ei päivitetä",
+      "conceptdef": "Henkilön työvoimatoimiston loppumispvm Ei päivitetä. ('11.11.2222'=jatkuu)",
       "measunit": null,
       "classification": null,
       "variablegroups": "YHTSTO"

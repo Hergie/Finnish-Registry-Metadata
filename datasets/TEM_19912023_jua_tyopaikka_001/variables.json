@@ -27,7 +27,7 @@
     {
       "identifier": "ammnop",
       "variablename": "Vaadittava ammatti",
-      "conceptdef": "Ammattiluokitus: https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/",
+      "conceptdef": "Ammattiluokitus: https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101",
       "measunit": null,
       "classification": null,
       "variablegroups": "YPAIKKA"
@@ -54,7 +54,7 @@
       "conceptdef": null,
       "measunit": null,
       "classification": null,
-      "variablegroups": "YPKEST, YPAIKKA"
+      "variablegroups": "YPAIKKA, YPKEST"
     },
     {
       "identifier": "keskd",
@@ -115,7 +115,7 @@
     {
       "identifier": "taskd",
       "variablename": "Sektori",
-      "conceptdef": "1=valtio,2=kunta,3=yks.ta, 4=yritys, 5=kotit., 6=kuntainl",
+      "conceptdef": "1=valtio,2=kunta,3=yks.ta, 4=yritys, 5=kotit., 6=kuntainl, 7=hyvinvointialue",
       "measunit": null,
       "classification": null,
       "variablegroups": "YPAIKKA"

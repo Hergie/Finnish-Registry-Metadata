@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-10-26.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-11-02.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -212,10 +212,10 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FLOWN_20062022_jua_owner_001.xml` | FLOWN - OWNER osakastiedot | 2006-01-01 - 2024-01-01 | 11 | — | [→](./datasets/FLOWN_20062022_jua_owner_001/README.md) |
 | `FLOWN_20072020_jua_partner_001.xml` | FLOWN - PARTNER yhtiömiestiedot | 2007-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FLOWN_20072020_jua_partner_001/README.md) |
 | `FOLK_1950_jua_vl50_001.xml` | FOLK_VL50 Väestölaskenta 1950 otosaineisto | 1950-12-31 - | 73 | — | [→](./datasets/FOLK_1950_jua_vl50_001/README.md) |
-| `FOLK_19701985_jua_vl7085_004.xml` | FOLK_VL7085 | 1970-12-31 - 1985-12-31 | 39 | 4,601,576 | [→](./datasets/FOLK_19701985_jua_vl7085_004/README.md) |
+| `FOLK_19701985_jua_vl7085_004.xml` | FOLK_VL7085 Väestölaskennan tiedot vuosille 1970-1985 | 1970-12-31 - 1985-12-31 | 39 | 4,601,576 | [→](./datasets/FOLK_19701985_jua_vl7085_004/README.md) |
 | `FOLK_19702022_jua_lapsv24_001.xml` | FOLK_LAPS Lapsi-vanhempi- vuosi | 1970-01-01 - 2023-12-31 | 15 | — | [→](./datasets/FOLK_19702022_jua_lapsv24_001/README.md) |
 | `FOLK_19702023_jua_laps24_001.xml` | FOLK_LAPS Lapsi-vanhemmat | 1970-01-01 - 2024-12-31 | 8 | — | [→](./datasets/FOLK_19702023_jua_laps24_001/README.md) |
-| `FOLK_19832025_jua_muutt26_001.xml` | FOLK muutto | 1983-01-01 - 2025-12-31 | 14 | — | [→](./datasets/FOLK_19832025_jua_muutt26_001/README.md) |
+| `FOLK_19832025_jua_muutt26_001.xml` | FOLK_MUUTTO_VALTIO Muutto | 1983-01-01 - 2025-12-31 | 14 | — | [→](./datasets/FOLK_19832025_jua_muutt26_001/README.md) |
 | `FOLK_19832025_jua_muuttomaanosa26_001.xml` | FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot | 1983-01-01 - 2025-12-31 | 25 | — | [→](./datasets/FOLK_19832025_jua_muuttomaanosa26_001/README.md) |
 | `FOLK_19832025_jua_muuttosuomimuu26_001.xml` | FOLK_MUUTTO_SUOMI_MUU Karkeat muuttotiedot tasolla Suomi/muu | 1983-01-01 - 2025-12-31 | 15 | — | [→](./datasets/FOLK_19832025_jua_muuttosuomimuu26_001/README.md) |
 | `FOLK_19872022_jua_tulo24_001.xml` | FOLK_TULO Tulotiedot | 1987-01-01 - 2024-12-31 | 34 | — | [→](./datasets/FOLK_19872022_jua_tulo24_001/README.md) |
@@ -224,14 +224,14 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FOLK_19872023_jua_tyosu25_001.xml` | FOLK_JAKSOTIEDOT: työsuhde | 1987-01-01 - 2023-12-31 | 18 | — | [→](./datasets/FOLK_19872023_jua_tyosu25_001/README.md) |
 | `FOLK_19872024_jua_askun26_001.xml` | FOLK_ASKUN Asuntokunnat | 1987-12-31 - 2024-12-31 | 31 | — | [→](./datasets/FOLK_19872024_jua_askun26_001/README.md) |
 | `FOLK_19872024_jua_tutk26_001.xml` | FOLK_TUTK Tutkinnot | 1987-12-31 - 2024-12-31 | 22 | — | [→](./datasets/FOLK_19872024_jua_tutk26_001/README.md) |
-| `FOLK_19872025_jua_perh26_001.xml` | FOLK  perhe | 1987-01-01 - 2025-12-31 | 15 | — | [→](./datasets/FOLK_19872025_jua_perh26_001/README.md) |
-| `FOLK_19872025_jua_perus26_001.xml` | FOLK perustieto | 1987-01-01 - 2025-12-31 | 61 | — | [→](./datasets/FOLK_19872025_jua_perus26_001/README.md) |
+| `FOLK_19872025_jua_perh26_001.xml` | FOLK_PERH Perhe | 1987-01-01 - 2025-12-31 | 15 | — | [→](./datasets/FOLK_19872025_jua_perh26_001/README.md) |
+| `FOLK_19872025_jua_perus26_001.xml` | FOLK_PERUS Perustieto | 1987-01-01 - 2025-12-31 | 61 | — | [→](./datasets/FOLK_19872025_jua_perus26_001/README.md) |
 | `FOLK_19912023_jua_sijoi24_001.xml` | FOLK_JAKSOTIEDOT: sijoitetut | 1991-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19912023_jua_sijoi24_001/README.md) |
 | `FOLK_19912023_jua_tyonh24_001.xml` | FOLK_JAKSOTIEDOT: työnhakijat | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyonh24_001/README.md) |
 | `FOLK_19912023_jua_tyott24_001.xml` | FOLK_JAKSOTIEDOT: työttömät | 1991-01-01 - 2024-12-31 | 6 | — | [→](./datasets/FOLK_19912023_jua_tyott24_001/README.md) |
 | `FOLK_19952024_jua_elake26_001.xml` | FOLK_JAKSOTIEDOT: eläkejaksot | 1995-01-01 - 2024-12-31 | 7 | — | [→](./datasets/FOLK_19952024_jua_elake26_001/README.md) |
 | `FOLK_20052023_jua_tyovk24_001.xml` | FOLK_JAKSOTIEDOT: työvoimakoulutus | 2005-01-01 - 2024-12-31 | 5 | — | [→](./datasets/FOLK_20052023_jua_tyovk24_001/README.md) |
-| `FOLK_20192025_jua_VAKA_001.xml` | FOLK_VAKA | 2019-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FOLK_20192025_jua_VAKA_001/README.md) |
+| `FOLK_20192025_jua_VAKA_001.xml` | FOLK_VAKA Varhaiskasvatus | 2019-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FOLK_20192025_jua_VAKA_001/README.md) |
 | `INFRA_19872022_jua_sijainti_001.xml` | INFRA_SIJAINTI Sijaintitiedot | 1987-12-31 - 2025-12-31 | 8 | — | [→](./datasets/INFRA_19872022_jua_sijainti_001/README.md) |
 | `INFRA_19872025_jua_sijaintitarkka_001.xml` | INFRA_SIJAINTI_TARKKA Sijaintitiedot tarkka | 1987-12-31 - 2025-12-31 | 9 | — | [→](./datasets/INFRA_19872025_jua_sijaintitarkka_001/README.md) |
 | `KEHA_2022_jua_URA_002.xml` | KEHA_URA-aineisto | 2000-01-01 - 2024-12-31 | 39 | 15,293,186 | [→](./datasets/KEHA_2022_jua_URA_002/README.md) |
@@ -240,7 +240,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `KELA_20172018_jua_perustulomaksut_001.xml` | KELA_perustulorekisteri, Perustulomaksut | 2017-01-01 - 2018-12-31 | 5 | — | [→](./datasets/KELA_20172018_jua_perustulomaksut_001/README.md) |
 | `KELA_20172018_jua_poiskuittauksetetuuksista_001.xml` | KELA_perustulorekisteri, Poiskuittaukset etuuksista | 2017-01-01 - 2018-12-31 | 5 | — | [→](./datasets/KELA_20172018_jua_poiskuittauksetetuuksista_001/README.md) |
 | `MIGR_OLESK_jua_hakemukset_000.xml` | MIGR_OLESK Oleskelulupatiedot - Hakemukset | 2011-01-01 - 2025-12-31 | 17 | — | [→](./datasets/MIGR_OLESK_jua_hakemukset_000/README.md) |
-| `MIGR_OLESK_jua_henkilotiedot_000.xml` | MIGR_OLESK Oleskelulupatiedot - Henkilötiedot | 2011-01-01 - 2025-12-31 | 6 | — | [→](./datasets/MIGR_OLESK_jua_henkilotiedot_000/README.md) |
+| `MIGR_OLESK_jua_henkilotiedot_000.xml` | MIGR_OLESK Oleskelulupatiedot - Henkilötiedot | 2011-01-01 - 2026-07-31 | 7 | — | [→](./datasets/MIGR_OLESK_jua_henkilotiedot_000/README.md) |
 | `MIGR_OLESK_jua_kanspaatos_000.xml` | MIGR_OLESK Oleskelulupatiedot - Kansalaisuuspäätökset | 2011-01-01 - 2025-12-31 | 6 | — | [→](./datasets/MIGR_OLESK_jua_kanspaatos_000/README.md) |
 | `MIGR_OLESK_jua_paatoksetjaper_000.xml` | MIGR_OLESK Oleskelulupatiedot - Päätökset ja peruutukset | 2011-01-01 - 2025-12-31 | 21 | — | [→](./datasets/MIGR_OLESK_jua_paatoksetjaper_000/README.md) |
 | `MIGR_OLESK_jua_voimassaoleva_000.xml` | MIGR_OLESK Oleskelulupatiedot - Voimassaolevat | 2011-01-01 - 2025-12-31 | 18 | — | [→](./datasets/MIGR_OLESK_jua_voimassaoleva_000/README.md) |
@@ -292,10 +292,10 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `TAX_INCOMES_jua_transactioncode_002.xml` | TAX_INCOMES Tulorekisterin palkkatiedot (Transaction code) | 2019-01-01 - | 142 | — | [→](./datasets/TAX_INCOMES_jua_transactioncode_002/README.md) |
 | `TAX_INCOMES_jua_transactioninfo_002.xml` | TAX_INCOMES Tulorekisterin palkkatiedot (Transaction info) | 2019-01-01 - | 32 | — | [→](./datasets/TAX_INCOMES_jua_transactioninfo_002/README.md) |
 | `TAX_SUMINCOMES_jua_summatut_palkkatiedot.xml` | TAX_SUMINCOMES Tulorekisterin summatut palkkatiedot | 2019-01-01 - | 53 | — | [→](./datasets/TAX_SUMINCOMES_jua_summatut_palkkatiedot/README.md) |
-| `TEM_19912023_jua_tyokunto_001.xml` | KEHA_Työkunto: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2024-12-31 | 12 | 344,466 | [→](./datasets/TEM_19912023_jua_tyokunto_001/README.md) |
-| `TEM_19912023_jua_tyonhakija_001.xml` | KEHA_Työnhakija: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2024-12-31 | 23 | 5,111,297 | [→](./datasets/TEM_19912023_jua_tyonhakija_001/README.md) |
-| `TEM_19912023_jua_tyonhaku_001.xml` | KEHA_Työnhaku: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2024-12-31 | 96 | 7,757,662 | [→](./datasets/TEM_19912023_jua_tyonhaku_001/README.md) |
-| `TEM_19912023_jua_tyopaikka_001.xml` | KEHA_Työpaikka: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2024-12-31 | 25 | 4,285,687 | [→](./datasets/TEM_19912023_jua_tyopaikka_001/README.md) |
+| `TEM_19912023_jua_tyokunto_001.xml` | KEHA_Työkunto: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2025-12-31 | 12 | 344,466 | [→](./datasets/TEM_19912023_jua_tyokunto_001/README.md) |
+| `TEM_19912023_jua_tyonhakija_001.xml` | KEHA_Työnhakija: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2025-12-31 | 23 | 5,111,297 | [→](./datasets/TEM_19912023_jua_tyonhakija_001/README.md) |
+| `TEM_19912023_jua_tyonhaku_001.xml` | KEHA_Työnhaku: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2025-12-31 | 96 | 7,757,662 | [→](./datasets/TEM_19912023_jua_tyonhaku_001/README.md) |
+| `TEM_19912023_jua_tyopaikka_001.xml` | KEHA_Työpaikka: KEHA-keskuksen työnvälitystilaston aineisto | 1991-01-01 - 2025-12-31 | 25 | 4,285,687 | [→](./datasets/TEM_19912023_jua_tyopaikka_001/README.md) |
 | `TON_19892024_jua_onnettomuudet_001.xml` | TONN_ONN Tieliikenneonnettomuudet - onnettomuusmoduuli | 1989-01-01 - 2024-12-31 | 51 | — | [→](./datasets/TON_19892024_jua_onnettomuudet_001/README.md) |
 | `TON_19892024_jua_onnettomuudetosalliset_001.xml` | TONN_ONN_OSALL Tieliikenneonnettomuudet - onnettomuudet ja osalliset -moduuli | 1989-01-01 - 2024-12-31 | 72 | — | [→](./datasets/TON_19892024_jua_onnettomuudetosalliset_001/README.md) |
 | `TRAFI_20132025_jua_ajoneuvo_001.xml` | TRAFI_AJONEUVO Moottoriajoneuvokannan ajoneuvotiedot | 2013-01-01 - 2026-03-31 | 128 | — | [→](./datasets/TRAFI_20132025_jua_ajoneuvo_001/README.md) |
@@ -405,9 +405,9 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `educ_1985_jua_tyhrk_001.xml` | EDUC_TYHR_KARK Toisen asteen yhteishaku, v. 1985 | — | 105 | — | [→](./datasets/educ_1985_jua_tyhrk_001/README.md) |
 | `educ_1995_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1995 | — | 50 | — | [→](./datasets/educ_1995_jua_opiskk_001/README.md) |
 | `educ_1996_jua_opiskk_001.xml` | EDUC_OPISK_KARK Opiskelijat, v. 1996 | — | 29 | — | [→](./datasets/educ_1996_jua_opiskk_001/README.md) |
-| `ksyyt_197122_jua_kuolemansyyt_001.xml` | Kuolemansyyaineisto | 1971-01-01 - 2024-12-31 | 72 | 2,738,679 | [→](./datasets/ksyyt_197122_jua_kuolemansyyt_001/README.md) |
-| `vamuu_202400_jua_000_000.xml` | FOLK_VAEN | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
-| `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
+| `ksyyt_197122_jua_kuolemansyyt_001.xml` | Kuolemansyyaineisto | 1971-01-01 - 2025-12-31 | 72 | 2,802,800 | [→](./datasets/ksyyt_197122_jua_kuolemansyyt_001/README.md) |
+| `vamuu_202400_jua_000_000.xml` | FOLK_VAEN Väestön ennakkotiedot | 2015-01-01 - | 25 | — | [→](./datasets/vamuu_202400_jua_000_000/README.md) |
+| `vamuu_202500_jua_000_000.xml` | FOLK_ENHEN Väestön ennakkotiedot | 2022-01-01 - | 13 | — | [→](./datasets/vamuu_202500_jua_000_000/README.md) |
 
 ## Source notes
 

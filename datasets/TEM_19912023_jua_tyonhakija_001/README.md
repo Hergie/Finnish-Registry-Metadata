@@ -2,7 +2,7 @@
 
 - **Identifier:** `TEM_19912023_jua_tyonhakija_001.xml`
 - **DOI:** `work_2016-10_2016-10-16_ain_0001`
-- **Temporal coverage:** 1991-01-01 - 2024-12-31
+- **Temporal coverage:** 1991-01-01 - 2025-12-31
 - **Published:** 2025-04-15
 - **Organisation:** Työ- ja elinkeinoministeriö
 - **Variable count:** 23
@@ -37,7 +37,7 @@ Asiakasrekisterin tiedot kerätään työ- ja elinkeinotoimistoissa pääasiassa
 -	Kansaneläkelaitos ja työttömyyskassat (työttömyysturvalain ja julkisesta työvoimapalvelusta annetun lain mukaiset tiedot ko. lakien mukaisten etuuksien määräämistä varten)
 -	Työvoimapalvelukeskuksen loppuraportti työnhakijan palveluprosessista
 
-Vuoteen 2022 asti tietoja päivitettäessä edeltävien vuosien tiedot on yhdistetty uusimpaan aineistoon. Samalla aineistosta on poistettu duplikaatit, jotka ovat syntyneet kun aineistossa jo olleelle keskeneräiselle jaksolle on saatu uutena havaintona tieto päättymisajankohdasta. Vuodesta 2023 alkaen aineisto käsittää vain KEHA:n tilastovuodelta toimittaman aineiston. Aineistoa yhdistettäessä on siis huomattava, että vuoden lopussa kesken olleet jaksot ovat mukana aineistossa merkinnällä 11.11.2222, sekä mahdollisesti myöhemmin todellisella päättymispäivätiedolla. Todellisten jaksojen lukumäärä on täten havaintojen määrää pienempi.
+Vuoteen 2022 asti tietoja päivitettäessä edeltävien vuosien tiedot on yhdistetty uusimpaan aineistoon. Samalla aineistosta on poistettu duplikaatit, jotka ovat syntyneet kun aineistossa jo olleelle keskeneräiselle jaksolle on saatu uutena havaintona tieto päättymisajankohdasta. Vuodesta 2023 alkaen aineisto käsittää vain KEHA:n tilastovuodelta toimittaman aineiston. Aineistoa yhdistettäessä on siis huomattava, että vuoden lopussa kesken olleet jaksot ovat mukana aineistossa merkinnällä 11.11.2222, sekä mahdollisesti myöhemmin todellisella päättymispäivätiedolla. Todellisten jaksojen lukumäärä on täten havaintojen määrää pienempi. Huom. johtuen leikkautuneista arvoista toinoh-muuttujassa, yhtsto-tiedostosta löytyy myös erikseen vuosina 2018-2022 toimitetut tiedostot. 
 
 Aineistojen käsittely tapahtuu FIONA etäkäyttöjärjestelmässä. Tiedot päivittyvät Tilastokeskukseen tallennettuun tutkimusaineistoon kerran vuodessa. 
 
@@ -92,7 +92,7 @@ Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on 
 
 **Group:** YHENK
 
-suomi='246' tai null
+suomi='246' tai null (viimeisin tieto)
 
 #### `kasno` — Tyött.kassanro
 
@@ -126,13 +126,13 @@ Rekisterissä kuntakoodeina käytetään Väestörekisterikeskuksen ylläpitämi
 
 **Group:** YHKUNTA
 
-Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity). Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
+Henkilön asuinkuntaan muuttopäivä (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).
 
 #### `paapv6` — Loppumispvm
 
 **Group:** YHKUNTA
 
-Henkilön asuinkunnasta muuttopäivä
+Henkilön asuinkunnasta muuttopäivä ('11.11.2222'=jatkuu)
 
 #### `koukdh` — uusi koulutuskoodi
 
@@ -144,32 +144,31 @@ Työnhakijan saaman koulutuksen luokittelemiseen käytetään kunakin vuonna voi
 
 **Group:** YHKOUL
 
-Koulutustiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
+Koulutustiedon alkamispvm. (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).
 
 #### `paapv3` — loppumispvm
 
 **Group:** YHKOUL
 
-Koulutustiedon loppumispvm
+Koulutustiedon loppumispvm ('11.11.2222' = jatkuu)
 
 #### `ammnoh` — ammatti
 
 **Group:** YHAMM
 
-Ammattiluokitus
-https://www2.tilastokeskus.fi/fi/luokitukset/ammatti/
+ISCO-pohjainen ammatti. Ammattiluokitus https://stat.fi/fi/luokitukset/ammatti/ammatti_1_20100101
 
 #### `muupv1` — alkamispvm
 
 **Group:** YHAMM
 
-Ammattitiedon alkamispvm. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
+Ammattitiedon alkamispvm (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).
 
 #### `paapv1` — loppumispvm
 
 **Group:** YHAMM
 
-Ammattitiedon loopumispvm
+Ammattitiedon loopumispvm ('11.11.2222' = jatkuu)
 
 #### `alkupv` — Alkamispäivä
 
@@ -187,19 +186,19 @@ Palvelulinjan alkamispvm
 
 **Group:** YASSEGMENTTI
 
-Palvelulinjan päättymispvm
+Palvelulinjan päättymispvm ('11.11.2222' = jatkuu).
 
 #### `muupv7` — alkamispvm
 
 **Group:** YHTSTO
 
-Henkilön työvoimatoimistonalkamispvm. Ei päivitetä. Jos alkuperäisessä aineistossa on käytetty henkilön syntymäaikaa korvaamaan puuttuva tieto, syntymäaika on korvattu valmisaineistoon arvolla 1.1.1900.
+Henkilön työvoimatoimistonalkamispvm. Ei päivitetä. (voi olla syntymäaika, jos 1. kertaa rekisteröity, joka korvattu arvolla 1.1.1900).
 
 #### `paapv7` — loppumispvm
 
 **Group:** YHTSTO
 
-Henkilön työvoimatoimiston loppumispvm Ei päivitetä
+Henkilön työvoimatoimiston loppumispvm Ei päivitetä. ('11.11.2222'=jatkuu)
 
 #### `toinoh` — työvoimatoimisto
 

@@ -1,4 +1,4 @@
-# FOLK_ENHEN
+# FOLK_ENHEN Väestön ennakkotiedot
 
 - **Identifier:** `vamuu_202500_jua_000_000.xml`
 - **DOI:** `vamuu_2015-03_2015-03-23_ain_0001`
@@ -29,7 +29,7 @@ Valmisaineisto päivitetään kerran kuussa. Aineiston ensimmäinen saatavilla o
 
 Väestöön (vaesto = 1) kuuluvat ne Suomen kansalaiset ja ulkomaalaiset, jotka asuvat vakituisesti Suomessa, vaikka olisivatkin tilapäisesti ulkomailla. Suomessa asuvat vieraan valtion lähetystöön, kaupalliseen edustustoon tai lähetetyn konsulin virastoon kuuluvat henkilöt sekä näiden perheenjäsenet ja henkilökohtainen palveluskunta eivät kuulu maassa asuvaan väestöön, elleivät ole Suomen kansalaisia. Sen sijaan Suomen ulkomailla olevien lähetystöjen ja kaupallisten edustustojen suomalainen henkilökunta sekä YK:n rauhanturvajoukoissa palvelevat luetaan maassa asuvaan väestöön Ulkomaalaisella on kotipaikka Suomessa, jos hänen oleskelunsa on tarkoitettu kestämään tai on kestänyt vähintään yhden vuoden. Turvapaikanhakija tulee mukaan viralliseen väkilukuun eli osaksi väestöä vain, jos hänelle on myönteisen oleskelulupapäätöksen lisäksi myönnetty henkilötunnus ja kotikunta. Henkilö ei päädy osaksi väestöä, jos henkilötunnus tai kotikunta puuttuu. 
  
-Aineisto sisältää väestön lisäksi myös väestön ulkopuoliset henkilötunnuksen saaneet. Esimerkiksi turvapaikanhakijat, joilla ei ole henkilötunnusta eli heille ei ole myönnetty oleskelulupaa tai joiden hakemusprosessi on kesken, eivät ole mukana aineistossa. Tämä johtuu siitä, että henkilö saa henkilötunnuksen osana hänen rekisteröidään Suomen väestötietojärjestelmään, joka tapahtuu vasta silloin, jos hänelle myönnetään oleskeluoikeus Suomeen. Oleskeluoikeuden (oleskelulupa, turvapaikka, EU-kansalaisen rekisteröityminen) 1.2.2019 jälkeen saaneet on rekisteröity automaattisesti. Tätä ennen hakijan on pitänyt erikseen pyytää rekisteröimistä. Voit lukea lisää henkilötunnuksen saamisesta DVV:n sivuilta: <a href="Henkilötunnus | Digi- ja väestötietovirasto | Digi- ja väestötietovirasto">  Henkilötunnus- Digi- ja väestötietovirasto</a>. 
+Aineisto sisältää väestön lisäksi myös väestön ulkopuoliset henkilötunnuksen saaneet. Esimerkiksi turvapaikanhakijat, joilla ei ole henkilötunnusta eli heille ei ole myönnetty oleskelulupaa tai joiden hakemusprosessi on kesken, eivät ole mukana aineistossa. Tämä johtuu siitä, että henkilö saa henkilötunnuksen osana hänen rekisteröidään Suomen väestötietojärjestelmään, joka tapahtuu vasta silloin, jos hänelle myönnetään oleskeluoikeus Suomeen. Oleskeluoikeuden (oleskelulupa, turvapaikka, EU-kansalaisen rekisteröityminen) 1.2.2019 jälkeen saaneet on rekisteröity automaattisesti. Tätä ennen hakijan on pitänyt erikseen pyytää rekisteröimistä. Voit lukea lisää henkilötunnuksen saamisesta DVV:n sivuilta: <a href="https://dvv.fi/henkilotunnus">  Henkilötunnus- Digi- ja väestötietovirasto</a>. 
 
 <b> Huomioitavaa aineistosta ja sen käytöstä </b> 
 
