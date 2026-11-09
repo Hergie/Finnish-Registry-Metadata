@@ -28,7 +28,7 @@ Tiedot toimittaa Verohallinnon Tulorekisteriyksikkö. Lisätietoja Positiivisen 
 Pohja-aineisto päivittyy päivittäin niin, että päivitetyt ja korjatut tiedot korvaavat vanhat tiedot. Tästä syystä kahtena eri ajankohtana päivitetyt tiedot eivät vastaa toisiaan täysin, vaan voivat sisältää pieniä muutoksia.
 
 <b>Aineiston päivitysaikataulu</b>
-Tiedot päivitetään kuukausittain. Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">päivitysaikatauluun</a>.
+Tiedot päivitetään kuukausittain kolmen tuoreimman kuukauden ajalta, korvaamalla aiemmat tiedostot. Tutustu valmisaineistojen <a href="https://stat.fi/fi/palvelut/palvelut-tutkijoille/tutkimusaineistot/valmisaineistot/valmisaineistojen-paivitysaikataulu">päivitysaikatauluun</a>.
 
 <b>Aineiston käyttö ja tilaaminen</b>
 Aineisto on tarkoitettu käytettäväksi FIONA-etäpalvelun kautta, ja se on linkitettävissä muihin henkilövalmisaineistoihin suojatun henkilötunnisteen avulla.
@@ -37,7 +37,7 @@ Valmisaineiston voi tilata tutkimuksen kohdejoukolle ja tarvittavalta ajanjaksol
 
 Aineisto on FIONA-etäkäyttöjärjestelmässä jaettuina vuosikansioihin tilastovuosittain.
 
-Yksityishenkilöiden tarkat luottotiedot on haettavissa tutkimushankkeen tarpeisiin räätälöitynä tutkimusaineistona.
+Yksityishenkilöiden tarkat luottotiedot sekä vapaaehtoiset luottokiellot ovat haettavissa tutkimushankkeen tarpeisiin räätälöitynä tutkimusaineistona.
 
 <b>Tarkempaa tietoa muuttujista</b>
 Toiminimiyrittäjien luotot sisältyvät toisen vaiheen tietoihin, jotka on lisätty rekisteriin vasta kuluttajaluottojen jälkeen.
@@ -117,7 +117,7 @@ Velallisen henkilön kaikkien kertaluottojen muut maksetut luottokustannukset yh
 
 #### `onetimeservicefees_yht` — Kertaluottosopimusten kertakulut
 
-Velallisen henkilön kaikkien kertaluottojen luottosopimuksen kertakulu yhteensä. Mikäli jollakin lainalla on useampi osakas, ko. lainan sopimusten kertakulut on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron summa jakaantuu kahdelle eri velallisille siten, että molemmille tulee sopimusten kertakuluja 25 000 euroa.
+Velallisen henkilön kaikkien kertaluottojen luottosopimuksen kertakulut yhteensä. Mikäli jollakin lainalla on useampi osakas, ko. lainan sopimusten kertakulut on jaettu osakkaiden kesken. Näin ollen esim. kahden osakkaan yhteinen 50 000 euron summa jakaantuu kahdelle eri velallisille siten, että molemmille tulee sopimusten kertakuluja 25 000 euroa.
 
 #### `homeloan_yht` — Asuntolaina, velkasaldo
 
