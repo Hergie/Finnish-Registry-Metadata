@@ -11,7 +11,7 @@
     {
       "identifier": "yrtun2_s",
       "variablename": "Suojattu korjattu yritystunnus",
-      "conceptdef": "Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.",
+      "conceptdef": "Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia. Yrtun2_s arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.",
       "measunit": null,
       "classification": null,
       "variablegroups": null

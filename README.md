@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-11-09.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-11-16.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -30,7 +30,7 @@ So before relying on any definition in this archive:
 2. **If they differ, look in [`withdrawn/`](./withdrawn/README.md).** Superseded datasets are archived there rather than deleted, precisely so pinned projects keep their metadata. Each carries the date Taika dropped it.
 3. **Treat the data file as final authority.** If the metadata and the actual columns disagree, the file wins — check the real variable list before debugging your code.
 
-_15 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
+_17 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
 
 ## Usage
 
@@ -213,8 +213,8 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `FLOWN_20072020_jua_partner_001.xml` | FLOWN - PARTNER yhtiömiestiedot | 2007-01-01 - 2024-12-31 | 20 | — | [→](./datasets/FLOWN_20072020_jua_partner_001/README.md) |
 | `FOLK_1950_jua_vl50_001.xml` | FOLK_VL50 Väestölaskenta 1950 otosaineisto | 1950-12-31 - | 73 | — | [→](./datasets/FOLK_1950_jua_vl50_001/README.md) |
 | `FOLK_19701985_jua_vl7085_004.xml` | FOLK_VL7085 Väestölaskennan tiedot vuosille 1970-1985 | 1970-12-31 - 1985-12-31 | 39 | 4,601,576 | [→](./datasets/FOLK_19701985_jua_vl7085_004/README.md) |
-| `FOLK_19702022_jua_lapsv24_001.xml` | FOLK_LAPS Lapsi-vanhempi- vuosi | 1970-01-01 - 2023-12-31 | 15 | — | [→](./datasets/FOLK_19702022_jua_lapsv24_001/README.md) |
-| `FOLK_19702023_jua_laps24_001.xml` | FOLK_LAPS Lapsi-vanhemmat | 1970-01-01 - 2024-12-31 | 8 | — | [→](./datasets/FOLK_19702023_jua_laps24_001/README.md) |
+| `FOLK_19702024_jua_lapsv26_001.xml` | FOLK lapsi - vanhemmat - vuosi | 1970-01-01 - 2024-12-31 | 15 | — | [→](./datasets/FOLK_19702024_jua_lapsv26_001/README.md) |
+| `FOLK_19702025_jua_laps26_001.xml` | FOLK lapsi - vanhemmat | 1970-01-01 - 2025-12-31 | 8 | — | [→](./datasets/FOLK_19702025_jua_laps26_001/README.md) |
 | `FOLK_19832025_jua_muutt26_001.xml` | FOLK_MUUTTO_VALTIO Muutto | 1983-01-01 - 2025-12-31 | 14 | — | [→](./datasets/FOLK_19832025_jua_muutt26_001/README.md) |
 | `FOLK_19832025_jua_muuttomaanosa26_001.xml` | FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot | 1983-01-01 - 2025-12-31 | 25 | — | [→](./datasets/FOLK_19832025_jua_muuttomaanosa26_001/README.md) |
 | `FOLK_19832025_jua_muuttosuomimuu26_001.xml` | FOLK_MUUTTO_SUOMI_MUU Karkeat muuttotiedot tasolla Suomi/muu | 1983-01-01 - 2025-12-31 | 15 | — | [→](./datasets/FOLK_19832025_jua_muuttosuomimuu26_001/README.md) |

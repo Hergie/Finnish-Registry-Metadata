@@ -1,6 +1,6 @@
 # Withdrawn datasets
 
-15 dataset(s) that Statistics Finland has removed from the Taika catalogue. They are preserved here rather than deleted because FIONA research projects run against a data delivery frozen at permit time — if your project predates the withdrawal, the metadata that matches your files is in here, not in [`../datasets/`](../README.md).
+17 dataset(s) that Statistics Finland has removed from the Taika catalogue. They are preserved here rather than deleted because FIONA research projects run against a data delivery frozen at permit time — if your project predates the withdrawal, the metadata that matches your files is in here, not in [`../datasets/`](../README.md).
 
 Most entries were superseded by a newer annual vintage of the same register. Check [the main catalogue](../README.md) for the current replacement, and see its **Data vintage** section for how to tell which one your project actually uses.
 
@@ -13,6 +13,8 @@ Most entries were superseded by a newer annual vintage of the same register. Che
 | `EDUC_20182025_jua_koskitoinenlukioib_001.xml` | EDUC_KOSKI TOINEN ASTE - Lukio_IB | — | 2026-08-19 | [→](./EDUC_20182025_jua_koskitoinenlukioib_001/README.md) |
 | `FIRM_1985062021_jua_BANKRkonkurssit_001.xml` | FIRM_BANKR Konkurssit (YA262) | 1985-01-01 - 2021-06-30 | 2026-08-19 | [→](./FIRM_1985062021_jua_BANKRkonkurssit_001/README.md) |
 | `FIRM_1993062021_jua_BANKRsaneeraukset_001.xml` | FIRM_BANKR Yrityssaneeraukset (YA262) | 1993-01-01 - 2021-06-30 | 2026-08-19 | [→](./FIRM_1993062021_jua_BANKRsaneeraukset_001/README.md) |
+| `FOLK_19702022_jua_lapsv24_001.xml` | FOLK_LAPS Lapsi-vanhempi- vuosi | 1970-01-01 - 2023-12-31 | 2026-11-16 | [→](./FOLK_19702022_jua_lapsv24_001/README.md) |
+| `FOLK_19702023_jua_laps24_001.xml` | FOLK_LAPS Lapsi-vanhemmat | 1970-01-01 - 2024-12-31 | 2026-11-16 | [→](./FOLK_19702023_jua_laps24_001/README.md) |
 | `FOLK_19832022_jua_muutt23_001.xml` | FOLK muutto | 1983-01-01 - 2024-12-31 | 2026-08-19 | [→](./FOLK_19832022_jua_muutt23_001/README.md) |
 | `FOLK_19832024_jua_muuttomaanosa25_001.xml` | FOLK_MUUTTO_MAANOSA Maanosatasoiset muuttotiedot | 1983-01-01 - 2024-12-31 | 2026-08-19 | [→](./FOLK_19832024_jua_muuttomaanosa25_001/README.md) |
 | `FOLK_19832024_jua_muuttosuomimuu25_001.xml` | FOLK_MUUTTO_SUOMI_MUU Karkeat muuttotiedot tasolla Suomi/muu | 1983-01-01 - 2024-12-31 | 2026-08-19 | [→](./FOLK_19832024_jua_muuttosuomimuu25_001/README.md) |

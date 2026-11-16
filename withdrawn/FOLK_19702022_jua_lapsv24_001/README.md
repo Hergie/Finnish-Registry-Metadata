@@ -1,5 +1,7 @@
 # FOLK_LAPS Lapsi-vanhempi- vuosi
 
+> ⚠️ **Withdrawn from Taika on 2026-11-16.** This dataset is no longer in Statistics Finland's current catalogue — it has typically been superseded by a newer vintage. It is kept here because FIONA projects run against the delivery frozen at permit time, so this may still be the metadata that matches your data. Confirm the vintage against the actual files in your project before relying on it.
+
 - **Identifier:** `FOLK_19702022_jua_lapsv24_001.xml`
 - **DOI:** `work_2020-01_2020-01-17_ain_0001`
 - **Temporal coverage:** 1970-01-01 - 2023-12-31

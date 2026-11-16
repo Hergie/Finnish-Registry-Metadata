@@ -148,7 +148,7 @@ Alkuperäinen yritystunnus, sisältää myös henkilötunnusmuotoisia tunnuksia
 
 #### `yrtun2_s` — Suojattu korjattu yritystunnus
 
-Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia.
+Yritystunnus, jossa on korjattu henkilömuotoisia yritystunnuksia niiden uusien ly-tunnusten mukaisiksi. Eri aineistoja yhdistettäessä tästä tunnuksesta voi olla hyötyä, jos alkuperäisen yritystunnuksen avulla ei löydy vastinparia. Yrtun2_s arvo löytyy niiltä riveiltä, joiden yritystunnuksen arvona on käytetty henkilötunnusta.
 
 #### `yritysid_s` — Suojattu yritysid
 
