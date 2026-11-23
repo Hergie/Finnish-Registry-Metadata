@@ -1,0 +1,148 @@
+{
+  "variables": [
+    {
+      "identifier": "hid_e",
+      "variablename": "Suojattu henkiön yksilöivä tunniste.",
+      "conceptdef": "Tilastokeskuksessa muodostettu suojattu henkilön yksilöivä tunniste, joka on sama kaikissa henkilövalmisaineistoissa. Yhtenäisesti suojattu hid_e-tunnus mahdollistaa henkilöä koskevien tietojen yhdistämisen eri vuosien ja aineistojen välillä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "exam",
+      "variablename": "Aine (RESULTSxxxx- ja POINTSxxxx-tauluissa)",
+      "conceptdef": "Kirjoitetun ylioppilaskokeen aineen tunnus.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "section",
+      "variablename": "Tehtävien tunnukset (only in POINTSxxxx tables)",
+      "conceptdef": "grading_section_detail_code_ytl_id",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "question",
+      "variablename": "Kysymysnumero (only in POINTSxxxx - tables)",
+      "conceptdef": "Kokeen kysymysnumero (grading_question_display_number).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "qs_score",
+      "variablename": "Pisteet (POINTSxxxx-tauluissa)",
+      "conceptdef": "Sensorin antamat pisteet kysymyksestä.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "examination",
+      "variablename": "Suorituskerran vuosi ja periodi",
+      "conceptdef": "Kokeen suoritusvuosi ja -periodi (K=kevät, S=syksy).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "grading_exam_id",
+      "variablename": "Kokeen tunniste (POINTSxxxx-taulussa).",
+      "conceptdef": "Kokeen periodikohtainen tunniste.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "education",
+      "variablename": "Tutkintokokonaisuuteen liittyvä opiskelumuoto kokeeseen ilmottautuessa (RESULTSxxxx-tauluissa).",
+      "conceptdef": "Kokelaan opintotausta, jonka perusteella hän saa osallistumisoikeuden ylioppilastutkintoon. Koulujen täyttämä tieto.\n1=yo (lukion opiskelija), \n2=vocational (ammatillisten opintojen pohjalta tutkintoa suorittava kokelas), \n3=yo-and-vocational (lukion oppimäärää ja ammatillista tutkintoa suorittava kokelas), \n4=ei tietoa (muu opiskelija).",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "participation",
+      "variablename": "Kokelaan tutkintokokonaisuuden tyyppi (RESULTSxxxx-tauluissa).",
+      "conceptdef": "Kokelaan tutkintokokonaisuuden tyyppi säilyy samana suorituskerran aikana (span). \n1=first (tutkinnon suorittaja), \n2=after-graduation (korottaja ja/tai täydentäjä), \n3=separate-exam (erillisen kokeen suorittaja). \n\nKategorian 1 kokonaisuuksissa on mukana kokeiden uusimisia (korottaja). Kategoriassa 2 on aina kyse kokeelasta, jonka tutkinto on jo aiemmin valmis.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "score",
+      "variablename": "Yhteispisteet (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Kokeen yhteispisteet, joiden perusteella muodostuu arvosana. Yhteispisteet puuttuvat aikaisemmilta vuosilta, mutta ne voi laskea POINTS-tauluista.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "span",
+      "variablename": "Span (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Tutkinnon suorituksen aloitusajankohta, johon kyseinen koe liittyy.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "mandatory",
+      "variablename": "Kokeen pakollisuus (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Ylioppilastutkintoon vaadittava koe (pakolliset kokeet).\n1=pakollinen,\n0=ei pakollinen.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "grade",
+      "variablename": "Arvosana (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Aineen arvosana.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "aborted",
+      "variablename": "Koe keskeytetty (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Koe keskeytetty: \n1=keskeytetty, \n0=ei keskeytetty.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "municip",
+      "variablename": "Oppilaitoksen kunta (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Koulun sijaintikunta, perustuu Tilastokeskuksen oppilaitosrekisteriin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "otunnus_s",
+      "variablename": "Suojattu oppilaitoksen tunniste (RESULTSxxxx-tauluissa)",
+      "conceptdef": "Suojattu oppilaitoksen tunniste perustuu Tilastokeskuksen oppilaitosrekisteriin.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "certificate",
+      "variablename": "Vuosi ja periodi, kun ensimmäinen ylioppilastutkintotodistus on muodostettu ja myönnetty (degree details -tauluissa)",
+      "conceptdef": "Vuosi (xxxx) ja periodi (K=kevät, S=syksy). Ennen syksyä 2019 certificate kuvaa ajankohtaa, jolloin kokelas on suorittanut pakolliset ylioppilastutkintoon vaaditut kokeet (tai kokelas on saanut puuttuvia kompensaatioita). Syksystä 2019 lähtien kirjaustapa on muuttunut: certificate kuvaa ajankohtaa, kun kokelas valmistuu ylioppilaaksi (graduation), ja saa ylioppilastutkintotodistuksen.\n\nVuonna 2022 ylioppilastutkintoon vaadittujen kokeiden määritelmä on muuttunut: vuoteen 2021 asti pakollisten kokeiden lukumäärä oli 4 ja vuodesta 2022 alkaen tutkintoon sisällytettävien aineiden kokeiden minimäärä on 5.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    },
+    {
+      "identifier": "graduation",
+      "variablename": "Ylioppilastutkinnnon valmistumisvuosi ja -periodi (degree details -tauluissa).",
+      "conceptdef": "Vuosi (xxxx) and periodi (K=kevät, S=syksy). Kokelas on valmistunut, kun hän on suorittanut ylioppilastutkintoon vaaditut kokeet ja on saattanut loppuun lukio-opinnot.",
+      "measunit": null,
+      "classification": null,
+      "variablegroups": null
+    }
+  ]
+}

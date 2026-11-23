@@ -1,6 +1,6 @@
 # Finnish Registry Metadata
 
-Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-11-16.
+Local mirror of Statistics Finland's **Taika** research-data catalogue ([taika.stat.fi](https://taika.stat.fi/)) — 331 datasets, last upstream change 2026-11-23.
 
 A scheduled GitHub Actions job checks Taika every Monday and commits only when something actually changed, so an older date here means upstream has been stable, not that the mirror has been abandoned. The [workflow runs](https://github.com/Hergie/Finnish-Registry-Metadata/actions/workflows/refresh-catalogue.yml) are the record of when checks happened.
 
@@ -30,7 +30,7 @@ So before relying on any definition in this archive:
 2. **If they differ, look in [`withdrawn/`](./withdrawn/README.md).** Superseded datasets are archived there rather than deleted, precisely so pinned projects keep their metadata. Each carries the date Taika dropped it.
 3. **Treat the data file as final authority.** If the metadata and the actual columns disagree, the file wins — check the real variable list before debugging your code.
 
-_17 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
+_18 superseded dataset(s) are currently archived in [`withdrawn/`](./withdrawn/README.md)._
 
 ## Usage
 
@@ -82,7 +82,7 @@ Do not hand-edit `raw/` or `datasets/` — both trees are regenerated.
 | `EDUC_1985_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1985 | — | 105 | — | [→](./datasets/EDUC_1985_jua_tyhr19_001/README.md) |
 | `EDUC_19891995_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1989, 1991-1995 | — | 104 | — | [→](./datasets/EDUC_19891995_jua_tyhr19_001/README.md) |
 | `EDUC_19891995_jua_tyhrk_001.xml` | EDUC_TYHR_KARK Toisen asteen yhteishaku, v. 1989, 1991–1995 | — | 104 | — | [→](./datasets/EDUC_19891995_jua_tyhrk_001/README.md) |
-| `EDUC_19902025_jua_ytl_001.xml` | EDUC_YTL  ylioppilaskirjoitusten tulokset, v. 1967-2025 | 1967-01-01 - 2025-12-31 | 18 | — | [→](./datasets/EDUC_19902025_jua_ytl_001/README.md) |
+| `EDUC_19902026_jua_ytl_001.xml` | EDUC_YTL  ylioppilaskirjoitusten tulokset 1967-2026 | 1967-01-01 - 2026-12-31 | 18 | — | [→](./datasets/EDUC_19902026_jua_ytl_001/README.md) |
 | `EDUC_19921998_jua_harekyo_001.xml` | EDUC_HAREK Yliopistojen hakurekisteritiedot 1992-1998 | 1992-01-01 - 1998-12-31 | 13 | — | [→](./datasets/EDUC_19921998_jua_harekyo_001/README.md) |
 | `EDUC_1995_jua_opisk_001.xml` | EDUC_OPISK Opiskelijat, v. 1995 | 1995-01-01 - 1995-12-31 | 50 | — | [→](./datasets/EDUC_1995_jua_opisk_001/README.md) |
 | `EDUC_19961997_jua_tyhr19_001.xml` | EDUC_TYHR Toisen asteen yhteishaku, v. 1996-1997 | — | 199 | — | [→](./datasets/EDUC_19961997_jua_tyhr19_001/README.md) |

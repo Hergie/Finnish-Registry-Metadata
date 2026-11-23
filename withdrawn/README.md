@@ -1,11 +1,12 @@
 # Withdrawn datasets
 
-17 dataset(s) that Statistics Finland has removed from the Taika catalogue. They are preserved here rather than deleted because FIONA research projects run against a data delivery frozen at permit time — if your project predates the withdrawal, the metadata that matches your files is in here, not in [`../datasets/`](../README.md).
+18 dataset(s) that Statistics Finland has removed from the Taika catalogue. They are preserved here rather than deleted because FIONA research projects run against a data delivery frozen at permit time — if your project predates the withdrawal, the metadata that matches your files is in here, not in [`../datasets/`](../README.md).
 
 Most entries were superseded by a newer annual vintage of the same register. Check [the main catalogue](../README.md) for the current replacement, and see its **Data vintage** section for how to tell which one your project actually uses.
 
 | Identifier | Subject | Coverage | Withdrawn | |
 |---|---|---|---|---|
+| `EDUC_19902025_jua_ytl_001.xml` | EDUC_YTL  ylioppilaskirjoitusten tulokset, v. 1967-2025 | 1967-01-01 - 2025-12-31 | 2026-11-23 | [→](./EDUC_19902025_jua_ytl_001/README.md) |
 | `EDUC_20052024_jua_trek_001.xml` | EDUC_TREK Tutkintorekisteri 2005–2024 | 2005-01-01 - 2024-12-31 | 2026-08-19 | [→](./EDUC_20052024_jua_trek_001/README.md) |
 | `EDUC_20142020_jua_tyhr20_001.xml` | Toisen asteen yhteishaku - moduuli, osa 6 (2014 - 2020) | — | 2026-08-31 | [→](./EDUC_20142020_jua_tyhr20_001/README.md) |
 | `EDUC_20182025_jua_koskitoinenammatillinensuoritukset_001.xml` | EDUC_KOSKI TOINEN ASTE - ammatillinen_suoritukset | — | 2026-08-19 | [→](./EDUC_20182025_jua_koskitoinenammatillinensuoritukset_001/README.md) |
